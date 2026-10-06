@@ -1,0 +1,350 @@
+{
+  "id": "carbamazepin",
+  "name": "Carbamazepin",
+  "synonyme": [
+    "Carbamazepine",
+    "Carbamazepinum",
+    "CBZ"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N03AF01"
+  ],
+  "klasse": "Antiepileptikum (Natriumkanalblocker, Dibenzazepin-Derivat); Stimmungsstabilisierer",
+  "kurz": "Mittel gegen Epilepsie und Nervenschmerzen (Trigeminusneuralgie); auch zur Stabilisierung der Stimmung bei bipolarer Störung.",
+  "gruppen": [
+    "antiepileptika",
+    "cyp3a4-induktoren",
+    "p-gp-induktoren",
+    "enzyminduktoren-hormone",
+    "cyp3a4-substrate-empfindlich",
+    "hyponatriaemie-ausloesend",
+    "zns-daempfend",
+    "myelosuppressiv",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tegretol",
+    "Timonil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten",
+    "Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Epilepsie: fokale Anfälle mit oder ohne Ausbreitung sowie generalisierte tonisch-klonische Anfälle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Trigeminusneuralgie und Glossopharyngeusneuralgie (anfallsartige Gesichts- bzw. Rachennervenschmerzen)",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Schmerzhafte diabetische Nervenschädigung (Neuropathie)",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Akute Manie und Vorbeugung manisch-depressiver Phasen, besonders wenn Lithium nicht geeignet ist",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Alkoholentzugssyndrom (unter stationären Bedingungen)",
+      "ids": [
+        "alkoholabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beruhigt überaktive Nervenzellen und verhindert so Krampfanfälle und einschiessende Nervenschmerzen. Carbamazepin blockiert spannungsabhängige Natriumkanäle und hemmt dadurch die wiederholte, hochfrequente Entladung von Nervenzellen. Es wird über CYP3A4 zum ebenfalls wirksamen Carbamazepin-10,11-epoxid abgebaut und ist selbst ein starker Induktor von CYP3A4, weiteren CYP-Enzymen und P-Glykoprotein – auch seines eigenen Abbaus (Autoinduktion).",
+  "kontraindikationen": [
+    {
+      "text": "Atrioventrikulärer Block (AV-Block)",
+      "ids": [
+        "av-block"
+      ]
+    },
+    {
+      "text": "Knochenmarkschädigung in der Vorgeschichte",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Hepatische Porphyrie (auch in der Vorgeschichte)",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen strukturverwandte trizyklische Antidepressiva",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, TEN): bei Personen mit Abstammung aus Ost- oder Südostasien vor Behandlungsbeginn auf HLA-B*1502 testen",
+      "ids": [
+        "schwere-hautreaktion",
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen in der Vorgeschichte – Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Leber- oder Nierenerkrankungen",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen und Reizleitungsstörungen, ältere Menschen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Erhöhter Augeninnendruck (Engwinkelglaukom) oder Harnverhalt (schwache anticholinerge Wirkung)",
+      "ids": [
+        "glaukom",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Hyponatriämie (Natriummangel), besonders bei älteren Menschen oder mit Diuretika",
+      "ids": [
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Suizidgedanken und Depression",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: fruchtschädigend und Wirkungsverlust hormonaler Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch bis 2 Wochen nach dem Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr schwerer Reaktionen (Blutdruckkrise, Krampfanfälle) wegen struktureller Verwandtschaft mit trizyklischen Antidepressiva."
+    },
+    {
+      "text": "Voriconazol",
+      "ref": [
+        "voriconazol"
+      ],
+      "grund": "Starke Enzyminduktion senkt die Voriconazol-Spiegel so weit, dass die Pilzbehandlung versagt."
+    },
+    {
+      "text": "Rilpivirin und Doravirin (HIV-Mittel)",
+      "ref": [
+        "rilpivirin",
+        "doravirin"
+      ],
+      "grund": "Deutlich gesenkte Spiegel der HIV-Mittel – Gefahr von Therapieversagen und Resistenzen."
+    },
+    {
+      "text": "Lurasidon",
+      "ref": [
+        "lurasidon"
+      ],
+      "grund": "Starke CYP3A4-Induktion senkt die Lurasidon-Spiegel drastisch – Wirkverlust."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz unsicher (Enzyminduktion, bis 4 Wochen nach Absetzen) – nicht-hormonale Methode oder Kupferspirale verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Hemmer (z. B. Clarithromycin, Erythromycin, Fluconazol, Verapamil, Diltiazem, Grapefruitsaft)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Carbamazepin-Spiegel steigt – Gefahr einer Vergiftung (Schwindel, Doppelbilder, Gangunsicherheit); Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gerinnungshemmer (Vitamin-K-Antagonisten, DOAK)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Abgeschwächte Gerinnungshemmung – INR kontrollieren; DOAK möglichst nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel der Immunsuppressiva sinken stark – Abstossungsgefahr; Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Proteasehemmer und viele weitere CYP3A4-abhängige Mittel (z. B. Statine, Calciumantagonisten, Kortison)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Wirkverlust dieser Mittel durch beschleunigten Abbau – Dosis anpassen oder Alternativen wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clozapin",
+      "ref": [
+        "clozapin"
+      ],
+      "effekt": "Erhöhtes Risiko für Agranulozytose (Verlust der weissen Blutkörperchen) – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Antiepileptika (Valproinsäure, Lamotrigin, Phenytoin, Topiramat u. a.)",
+      "ref": [
+        "valproinsaeure",
+        "lamotrigin",
+        "phenytoin",
+        "topiramat"
+      ],
+      "effekt": "Gegenseitige Spiegelveränderungen – Spiegel und Verträglichkeit kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Isoniazid",
+      "ref": [
+        "isoniazid"
+      ],
+      "effekt": "Carbamazepin-Spiegel steigt, zudem erhöhtes Risiko für Leberschäden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Verstärkte Nervengiftigkeit (Zittern, Verwirrtheit) möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika und andere natriumsenkende Mittel",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:hyponatriaemie-ausloesend"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyponatriämie – Natrium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antidepressiva, Antipsychotika und Opioide (z. B. Methadon)",
+      "ref": [
+        "gruppe:antipsychotika",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:opioide"
+      ],
+      "effekt": "Wirkverlust durch beschleunigten Abbau; bei Methadon Entzugssymptome möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Schwindel.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Schwindel, Gang- und Koordinationsstörungen (Ataxie), Schläfrigkeit",
+      "Übelkeit, Erbrechen",
+      "Allergische Hautreaktionen, Nesselsucht",
+      "Erhöhte Gamma-GT (Leberenzym)"
+    ],
+    "haeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen), Eosinophilie",
+      "Hyponatriämie (Natriummangel), Wassereinlagerungen, Gewichtszunahme",
+      "Kopfschmerzen, Müdigkeit",
+      "Doppelbilder, verschwommenes Sehen",
+      "Mundtrockenheit",
+      "Erhöhte alkalische Phosphatase"
+    ],
+    "gelegentlich": [
+      "Unwillkürliche Bewegungen (Zittern, Tics, Dystonie), Augenzittern (Nystagmus)",
+      "Durchfall, Verstopfung",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Exfoliative Dermatitis (schuppende Hautentzündung)"
+    ],
+    "selten": [
+      "Multiorgan-Überempfindlichkeitsreaktion (DRESS) mit Fieber, Ausschlag und Organbeteiligung",
+      "Hepatitis, Gelbsucht",
+      "Herzrhythmusstörungen, AV-Block",
+      "Halluzinationen, Depression, Verwirrtheit, Unruhe",
+      "Lupus-erythematodes-ähnliches Syndrom",
+      "Periphere Nervenschädigung, Sprechstörungen"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, aplastische Anämie, Panzytopenie (schwere Blutbildstörungen)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Anaphylaxie, Angioödem",
+      "Leberversagen",
+      "Pankreatitis (Entzündung der Bauchspeicheldrüse)",
+      "Akute Porphyrie",
+      "Interstitielle Nephritis, Nierenversagen",
+      "Verminderte Knochendichte (Osteomalazie)"
+    ],
+    "unbekannt": [
+      "Knochenmarkdepression",
+      "Kolitis (Darmentzündung)",
+      "Reaktivierung des Herpesvirus 6",
+      "Knochenbrüche"
+    ]
+  },
+  "schwangerschaft": "Erhöht das Risiko für Fehlbildungen (u. a. Neuralrohrdefekte); nicht ohne ärztliche Rücksprache absetzen. Bei Kinderwunsch Behandlung vorab überprüfen; Monotherapie in niedrigster wirksamer Dosis und Folsäure-Einnahme.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen ist nach ärztlicher Abwägung möglich, das Kind auf Schläfrigkeit, Trinkschwäche und Hautausschlag beobachten.",
+  "hinweise": [
+    "Blutbild, Leberwerte und Natrium vor und regelmässig während der Behandlung kontrollieren; bei Fieber, Halsschmerzen, Ausschlag, Blutergüssen oder Gelbsucht sofort ärztlich melden.",
+    "Nicht abrupt absetzen – Gefahr von Krampfanfällen.",
+    "Vor jedem neuen Medikament (auch Pille, Antibiotika, Blutverdünner) auf Carbamazepin hinweisen: viele Wechselwirkungen.",
+    "Kein Grapefruitsaft; Alkohol meiden; Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

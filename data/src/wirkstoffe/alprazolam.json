@@ -1,0 +1,230 @@
+{
+  "id": "alprazolam",
+  "name": "Alprazolam",
+  "synonyme": [
+    "Alprazolamum"
+  ],
+  "atc": [
+    "N05BA12"
+  ],
+  "klasse": "Benzodiazepin (Anxiolytikum)",
+  "kurz": "Beruhigungsmittel aus der Gruppe der Benzodiazepine gegen Angstzustände und Panikstörung.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Xanax"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Angst- und Spannungszustände (kurzzeitige Behandlung)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Panikstörung mit oder ohne Agoraphobie (Platzangst)",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt rasch angstlösend und beruhigend, indem es hemmende Signale im Gehirn verstärkt. Alprazolam, ein Triazolo-Benzodiazepin, bindet an die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors und verstärkt die Wirkung des hemmenden Botenstoffs GABA (vermehrter Chlorid-Einstrom, verminderte Erregbarkeit der Nervenzellen). Es wird in der Leber fast vollständig über CYP3A4 abgebaut; die Halbwertszeit beträgt etwa 11 Stunden, bei älteren Menschen länger.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis (krankhafte Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Ateminsuffizienz (Atemschwäche)",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom (Atemaussetzer im Schlaf)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Benzodiazepine",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alkohol-, Medikamenten- oder Drogenabhängigkeit in der Vorgeschichte (erhöhtes Abhängigkeits- und Missbrauchsrisiko)",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: stärkere Wirkung, Verwirrtheit und Sturzgefahr – niedriger dosieren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression: nicht als alleinige Behandlung; Suizidgedanken, bei depressiven Personen auch Hypomanie oder Manie möglich",
+      "ids": [
+        "depression",
+        "suizidgedanken",
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Chronische Atemwegserkrankungen mit eingeschränkter Atemfunktion",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: Anwendung nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Tramadol, Methadon)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Gefahr von starker Sedierung, Atemdepression, Koma und Tod – nur kombinieren, wenn keine Alternative besteht, mit tiefster Dosis und kürzester Dauer.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, HIV-Proteasehemmer, Cobicistat)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "cobicistat"
+      ],
+      "effekt": "Der Alprazolam-Spiegel steigt um ein Mehrfaches – Kombination vermeiden oder Dosis deutlich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer und Fluvoxamin (z. B. Erythromycin, Diltiazem, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer",
+        "fluvoxamin"
+      ],
+      "effekt": "Der Alprazolam-Spiegel steigt (mit Fluvoxamin etwa auf das Doppelte) – stärkere Sedierung; Dosis gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (Schlafmittel, Antipsychotika, sedierende Antihistaminika, Antiepileptika)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:z-substanzen",
+        "gruppe:antipsychotika",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der dämpfenden Wirkung mit Schläfrigkeit, Benommenheit und Sturzgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Rifampicin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau – die Wirkung von Alprazolam kann deutlich nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Der Digoxin-Spiegel kann steigen, besonders bei älteren Menschen – auf Zeichen einer Digoxin-Überdosierung achten, Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Der Alprazolam-Spiegel kann leicht ansteigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Sedierung, Schläfrigkeit (Somnolenz)"
+    ],
+    "haeufig": [
+      "Benommenheit, Schwindel, Kopfschmerzen",
+      "Gangunsicherheit (Ataxie), undeutliche Sprache (Dysarthrie)",
+      "Gedächtnis- und Konzentrationsstörungen",
+      "Verwirrtheit, depressive Verstimmung",
+      "Verschwommenes Sehen",
+      "Verstopfung, Übelkeit, verminderter Appetit",
+      "Müdigkeit, Reizbarkeit",
+      "Verminderte Libido, sexuelle Funktionsstörungen"
+    ],
+    "gelegentlich": [
+      "Gedächtnislücken (Amnesie)",
+      "Paradoxe Reaktionen wie Halluzinationen, Wut, Agitiertheit",
+      "Muskelschwäche",
+      "Harninkontinenz",
+      "Zyklusstörungen",
+      "Gewichtsveränderungen",
+      "Abhängigkeit, Entzugssymptome"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Aggressivität, Feindseligkeit, Hypomanie",
+      "Leberentzündung (Hepatitis), Gelbsucht",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Harnverhalt",
+      "Erhöhter Augeninnendruck",
+      "Missbrauch"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit, besonders im ersten Drittel. Bei Einnahme gegen Ende der Schwangerschaft oder unter der Geburt drohen beim Neugeborenen Muskelschlaffheit, Trinkschwäche, Unterkühlung, Atemprobleme und Entzugssymptome.",
+  "stillzeit": "Alprazolam geht in die Muttermilch über und kann beim Säugling Schläfrigkeit verursachen; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kann die Fahrtüchtigkeit und das Reaktionsvermögen stark beeinträchtigen; keinen Alkohol trinken.",
+    "Grapefruitsaft meiden, da er den Alprazolam-Spiegel erhöhen kann.",
+    "Retardtabletten unzerkaut schlucken.",
+    "Nicht abrupt absetzen: besonders nach höheren Dosen drohen Entzugssymptome bis hin zu Krampfanfällen – schrittweise nach ärztlicher Anleitung reduzieren."
+  ],
+  "stand": "2026-10"
+}

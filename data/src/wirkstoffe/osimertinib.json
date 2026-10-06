@@ -1,0 +1,188 @@
+{
+  "id": "osimertinib",
+  "name": "Osimertinib",
+  "synonyme": [
+    "Osimertinibmesilat",
+    "AZD9291"
+  ],
+  "atc": [
+    "L01EB04"
+  ],
+  "klasse": "Proteinkinase-Hemmer (EGFR-Tyrosinkinase-Hemmer der 3. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel (EGFR-Hemmer) als Tablette gegen nicht-kleinzelligen Lungenkrebs mit bestimmten EGFR-Mutationen.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "qt-verlaengernd",
+    "kardiotoxisch",
+    "p-gp-hemmer",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tagrisso"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht-kleinzelliger Lungenkrebs (NSCLC) mit aktivierender EGFR-Mutation (Exon-19-Deletion oder L858R) nach vollständiger Operation (adjuvant)",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter NSCLC mit aktivierender EGFR-Mutation als Erstbehandlung, allein oder mit Pemetrexed und platinhaltiger Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener NSCLC mit EGFR-T790M-Mutation nach Vorbehandlung mit einem anderen EGFR-Hemmer",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das Wachstumssignal von Lungenkrebszellen mit veränderter EGFR-Erbinformation. Osimertinib bindet irreversibel an den mutierten epidermalen Wachstumsfaktor-Rezeptor (EGFR) mit den sensibilisierenden Mutationen Exon-19-Deletion und L858R sowie der Resistenzmutation T790M. Den normalen (Wildtyp-)EGFR hemmt es deutlich schwächer, was Haut- und Darmnebenwirkungen vermindert. Osimertinib gelangt auch ins Gehirn und wirkt gegen Hirnmetastasen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Interstitielle Lungenerkrankung oder Pneumonitis in der Vorgeschichte; neue Atembeschwerden sofort abklären",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, angeborenes Long-QT-Syndrom oder Elektrolytstörungen: EKG und Elektrolyte kontrollieren",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Herzschwäche oder kardiale Risikofaktoren: Herzfunktion (LVEF) überwachen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Keratitis (Hornhautentzündung): Augenschmerzen, Rötung oder Sehstörungen sofort abklären",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, Erythema multiforme)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Leber- oder Nierenfunktion (wenig Erfahrung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Starke Enzyminduktion senkt den Osimertinib-Spiegel deutlich – Wirkverlust."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Osimertinib-Spiegel sinkt stark (Rifampicin etwa −78 %) – Kombination vermeiden; wenn unumgänglich, Dosis nach ärztlicher Anweisung erhöhen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung, Gefahr gefährlicher Herzrhythmusstörungen – möglichst vermeiden, sonst EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche P-Glykoprotein-Substrate (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin",
+        "dabigatran"
+      ],
+      "effekt": "Osimertinib hemmt P-Glykoprotein – deren Spiegel können steigen; klinisch und mit Spiegeln überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Induktoren (z. B. Bosentan, Efavirenz, Modafinil)",
+      "ref": [
+        "bosentan",
+        "efavirenz",
+        "modafinil"
+      ],
+      "effekt": "Osimertinib-Spiegel kann sinken – Vorsicht, wenn möglich vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rosuvastatin und andere BCRP-Substrate",
+      "ref": [
+        "rosuvastatin"
+      ],
+      "effekt": "Rosuvastatin-Spiegel steigt um etwa ein Drittel – auf Muskelbeschwerden achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Hautausschlag, akneartige Hautveränderungen",
+      "Nagelbettentzündung (Paronychie)",
+      "Trockene Haut, Juckreiz",
+      "Appetitlosigkeit",
+      "Abnahme von weissen Blutkörperchen, Neutrophilen, Lymphozyten und Blutplättchen (Laborwerte)"
+    ],
+    "haeufig": [
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Nasenbluten",
+      "Haarausfall, Nesselsucht",
+      "Hand-Fuss-Syndrom (palmar-plantare Erythrodysästhesie)",
+      "Abnahme der Herzpumpfunktion (LVEF)",
+      "Erhöhtes Kreatinin und erhöhte Kreatinkinase (CK)"
+    ],
+    "gelegentlich": [
+      "QT-Verlängerung im EKG",
+      "Keratitis (Hornhautentzündung)",
+      "Erythema multiforme",
+      "Hautvaskulitis (Entzündung kleiner Hautgefässe)"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom",
+      "Myositis (Muskelentzündung)"
+    ],
+    "unbekannt": [
+      "Aplastische Anämie (Versagen der Blutbildung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Indikation (im Tierversuch fruchtschädigend). Frauen müssen während und bis 2 Monate, Männer bis 4 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich etwa zur gleichen Zeit, mit oder ohne Mahlzeit einnehmen; bei Schluckproblemen die Tablette in Wasser zerfallen lassen (nicht zerdrücken).",
+    "Neuer oder verstärkter Husten, Atemnot oder Fieber sofort melden (medikamentöse Lungenentzündung möglich).",
+    "EKG und Herzfunktion werden je nach Risiko kontrolliert; Johanniskraut ist nicht erlaubt.",
+    "Augenschmerzen, -rötung oder Sehstörungen sofort augenärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

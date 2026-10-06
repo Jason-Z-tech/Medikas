@@ -1,0 +1,162 @@
+{
+  "id": "ipratropium",
+  "name": "Ipratropium",
+  "synonyme": [
+    "Ipratropiumbromid",
+    "Ipratropium bromide"
+  ],
+  "atc": [
+    "R03BB01",
+    "R01AX03"
+  ],
+  "klasse": "Kurz wirksames Anticholinergikum (Muskarinrezeptor-Antagonist, SAMA) zur Inhalation und als Nasenspray",
+  "kurz": "Erweitert die Bronchien bei COPD und Asthma (zum Inhalieren); als Nasenspray gegen starkes, wässriges Naselaufen.",
+  "gruppen": [
+    "muskarinantagonisten-inhalativ",
+    "anticholinerg"
+  ],
+  "handelsnamen": [
+    "Atrovent",
+    "Rhinovent",
+    "Berodual (Kombi)",
+    "Dospir (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Dosieraerosol",
+    "Lösung zur Inhalation (Einzeldosen für Vernebler)",
+    "Nasenspray"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung und Behandlung von Atemnot bei COPD (chronisch obstruktive Bronchitis, Lungenemphysem)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Asthma bronchiale, vor allem in Kombination mit Beta-2-Sympathomimetika (auch bei akuter Verschlechterung)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Starkes, wässriges Naselaufen bei allergischem oder nicht-allergischem Schnupfen (Nasenspray)",
+      "ids": [
+        "heuschnupfen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Entspannt die Bronchialmuskulatur bzw. vermindert die Sekretbildung in der Nase. Ipratropium blockiert Muskarinrezeptoren und hemmt so die Wirkung des Nervenbotenstoffs Acetylcholin, der die Bronchien verengt und die Drüsen der Nasenschleimhaut anregt. Als quaternäre Ammoniumverbindung wird es kaum ins Blut aufgenommen und wirkt vor allem dort, wo es angewendet wird. Die Wirkung beginnt nach etwa 15 Minuten und hält einige Stunden an.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Atropin oder atropinähnliche Substanzen",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Engwinkelglaukom: Sprühnebel oder Inhalationslösung nicht in die Augen bringen (Gefahr eines akuten Glaukomanfalls), beim Vernebler Mundstück statt Maske verwenden",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Harnabflussstörungen, z. B. bei Prostatavergrösserung oder Blasenhalsenge",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Zystische Fibrose (Mukoviszidose): Störungen der Darmbeweglichkeit möglich",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    },
+    {
+      "text": "Paradoxer Bronchospasmus direkt nach dem Inhalieren: sofort absetzen und ärztlich abklären",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Sofortige Überempfindlichkeitsreaktionen (Nesselsucht, Angioödem, Bronchospasmus) möglich – dann nicht weiter anwenden",
+      "ids": [
+        "allergie",
+        "angiooedem"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Langwirksame inhalative Anticholinergika (z. B. Tiotropium, Umeclidinium, Glycopyrronium, Aclidinium)",
+      "ref": [
+        "gruppe:muskarinantagonisten-inhalativ"
+      ],
+      "effekt": "Doppelte Blockade derselben Rezeptoren ohne Zusatznutzen, mehr Nebenwirkungen – Langzeitkombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, Antihistaminika der 1. Generation, Blasenmittel)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Langzeitkombination nicht untersucht – mehr Mundtrockenheit, Verstopfung und Harnverhalt möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Beta-2-Sympathomimetika als Vernebler-Lösung bei Glaukom in der Vorgeschichte",
+      "ref": [
+        "gruppe:beta2-sympathomimetika"
+      ],
+      "effekt": "Erhöhtes Risiko eines akuten Glaukomanfalls, wenn der Nebel in die Augen gelangt – Mundstück verwenden, Augen schützen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Beta-2-Sympathomimetika und Theophyllin",
+      "ref": [
+        "gruppe:beta2-sympathomimetika",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Bronchienerweiterung – therapeutisch erwünscht und häufig kombiniert.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Husten, Rachenreizung",
+      "Mundtrockenheit, Übelkeit, Störungen der Magen-Darm-Beweglichkeit",
+      "Beim Nasenspray: trockene Nase, Nasenbluten, Reizung der Nasenschleimhaut"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen, Anaphylaxie",
+      "Augenbeschwerden: verschwommenes Sehen, erweiterte Pupillen, erhöhter Augeninnendruck, Glaukom, Augenschmerzen, Farbringe um Lichter",
+      "Herzklopfen, supraventrikuläre Tachykardie (Herzrasen)",
+      "Bronchospasmus, paradoxer Bronchospasmus, Kehlkopfkrampf, Rachenschwellung",
+      "Durchfall, Verstopfung, Erbrechen, Mundschleimhautentzündung",
+      "Hautausschlag, Juckreiz, Angioödem",
+      "Harnverhalt"
+    ],
+    "selten": [
+      "Akkommodationsstörungen (Probleme beim Scharfstellen)",
+      "Vorhofflimmern, erhöhte Herzfrequenz",
+      "Nesselsucht"
+    ]
+  },
+  "schwangerschaft": "Keine Hinweise auf Fruchtschädigung, aber begrenzte Erfahrungen; besonders im 1. Drittel nur nach ärztlicher Nutzen-Risiko-Abwägung.",
+  "stillzeit": "Nicht bekannt, ob Ipratropium in die Muttermilch übergeht (bei Inhalation wenig wahrscheinlich in relevanter Menge); Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Sprühnebel und Inhalationslösung nicht in die Augen bringen; bei Augenschmerzen, verschwommenem Sehen, Farbringen um Lichter oder geröteten Augen sofort ärztliche Hilfe holen (Glaukomanfall).",
+    "Bei plötzlich zunehmender Atemnot oder ungenügender Wirkung sofort ärztliche Hilfe holen.",
+    "Das Nasenspray hilft gegen Naselaufen, nicht gegen eine verstopfte Nase."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "moxonidin",
+  "name": "Moxonidin",
+  "synonyme": ["Moxonidine"],
+  "atc": ["C02AC05"],
+  "klasse": "Zentral wirkender Imidazolin-Rezeptor-Agonist (Antihypertensivum)",
+  "kurz": "Blutdrucksenker, der im Gehirn die Aktivität des Stressnervensystems dämpft; meist als Ergänzung zu anderen Blutdruckmitteln.",
+  "gruppen": ["blutdrucksenkend", "zns-daempfend"],
+  "handelsnamen": ["Physiotens"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck (essenzielle Hypertonie)", "ids": ["hypertonie"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es im Hirnstamm die Signale des sympathischen Nervensystems an Herz und Gefässe vermindert. Moxonidin bindet bevorzugt an Imidazolin-I1-Rezeptoren in der rostralen ventrolateralen Medulla und senkt so den Sympathikustonus und den Gefässwiderstand. Da es Alpha-2-Rezeptoren deutlich schwächer anspricht als Clonidin, verursacht es seltener Müdigkeit und Mundtrockenheit. Herzfrequenz und Herzleistung bleiben weitgehend unverändert.",
+  "kontraindikationen": [
+    { "text": "Sinusknotensyndrom, sinuatrialer Block oder AV-Block 2. oder 3. Grades", "ids": ["bradykardie", "av-block"] },
+    { "text": "Bradykardie mit Ruhepuls unter 50/min", "ids": ["bradykardie"] },
+    { "text": "Herzinsuffizienz", "ids": ["herzinsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "AV-Block 1. Grades", "ids": ["av-block"] },
+    { "text": "Schwere koronare Herzkrankheit oder instabile Angina pectoris", "ids": ["koronare-herzkrankheit", "angina-pectoris"] },
+    { "text": "Eingeschränkte Nierenfunktion (Dosis anpassen; bei schwerer Einschränkung möglichst nicht anwenden)", "ids": ["niereninsuffizienz"] },
+    { "text": "Ältere Menschen (stärkere Wirkung möglich)", "ids": ["aeltere-patienten"] },
+    { "text": "Seltene erbliche Galaktose-Intoleranz oder Laktasemangel (enthält Laktose)", "ids": ["laktoseintoleranz"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Bei gemeinsamer Einnahme zuerst den Betablocker und erst einige Tage später Moxonidin absetzen – sonst Gefahr eines Blutdruckanstiegs.", "schwere": "mittel" },
+    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung.", "schwere": "mittel" },
+    { "text": "Trizyklische Antidepressiva", "ref": ["gruppe:trizyklische-antidepressiva"], "effekt": "Können die Wirkung zentral wirkender Blutdrucksenker abschwächen – Kombination nicht empfohlen.", "schwere": "mittel" },
+    { "text": "Alkohol, Schlaf- und Beruhigungsmittel (z. B. Benzodiazepine)", "ref": ["gruppe:zns-daempfend", "gruppe:benzodiazepine"], "effekt": "Verstärkte Müdigkeit; die Leistungsfähigkeit kann zusätzlich beeinträchtigt werden.", "schwere": "mittel" },
+    { "text": "Pulsverlangsamende Mittel", "ref": ["gruppe:bradykardisierend"], "effekt": "Verstärkte Pulsverlangsamung möglich.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Mundtrockenheit"],
+    "haeufig": ["Kopfschmerzen", "Schwindel, Drehschwindel", "Schläfrigkeit", "Schlaflosigkeit", "Übelkeit, Erbrechen, Durchfall, Verdauungsbeschwerden", "Hautausschlag, Juckreiz", "Rückenschmerzen", "Schwäche"],
+    "gelegentlich": ["Nervosität", "Ohnmacht (Synkope)", "Ohrensausen (Tinnitus)", "Bradykardie (verlangsamter Herzschlag)", "Blutdruckabfall, auch beim Aufstehen", "Angioödem (Schwellung von Gesicht und Rachen)", "Nackenschmerzen", "Ödeme (Wassereinlagerungen)"]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; es gibt kaum Erfahrungen bei Schwangeren.",
+  "stillzeit": "Geht in die Muttermilch über; soll in der Stillzeit nicht angewendet werden, sonst abstillen.",
+  "hinweise": [
+    "Nicht abrupt absetzen, sondern über etwa zwei Wochen ausschleichen.",
+    "Alkohol meiden; Schwindel und Müdigkeit können die Fahrtüchtigkeit beeinträchtigen.",
+    "Blutdruck regelmässig kontrollieren."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "isoniazid",
+  "name": "Isoniazid",
+  "synonyme": ["INH", "Isonicotinsäurehydrazid", "Isoniazidum"],
+  "atc": ["J04AC01"],
+  "klasse": "Tuberkulostatikum (Isonicotinsäurehydrazid)",
+  "kurz": "Grundpfeiler der Tuberkulosebehandlung und -vorbeugung; kann Leber und Nerven schädigen, daher oft zusammen mit Vitamin B6.",
+  "gruppen": ["hepatotoxisch", "cyp2c19-hemmer", "krampfschwellensenkend"],
+  "handelsnamen": ["Rimifon"],
+  "abgabe": ["A"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Behandlung aller Formen der Tuberkulose, immer in Kombination mit anderen Tuberkulosemitteln", "ids": ["tuberkulose"] },
+    { "text": "Behandlung einer latenten Tuberkulose-Infektion bzw. Vorbeugung bei Kontaktpersonen (allein oder mit Rifampicin)", "ids": ["tuberkulose"] }
+  ],
+  "wirkmechanismus": "Hemmt den Aufbau der Zellwand von Tuberkulosebakterien und tötet sich teilende Bakterien ab. Isoniazid ist ein Prodrug: Das bakterielle Enzym KatG aktiviert es, das aktive Produkt blockiert die Enoyl-ACP-Reduktase (InhA) und damit die Synthese der Mykolsäuren, eines Hauptbestandteils der Mykobakterien-Zellwand. Der Abbau erfolgt in der Leber durch Acetylierung (NAT2); bei «Langsam-Acetylierern» sind die Spiegel höher und Nebenwirkungen häufiger. Isoniazid hemmt zudem den Vitamin-B6-Stoffwechsel, was Nervenschäden begünstigt.",
+  "kontraindikationen": [
+    { "text": "Akute Lebererkrankung oder frühere Leberschäden durch Isoniazid", "ids": ["leberinsuffizienz"] },
+    { "text": "Frühere schwere Nebenwirkungen auf Isoniazid (z. B. Arzneimittelfieber, Schüttelfrost, Gelenkentzündung)", "ids": [] },
+    { "text": "Ausgeprägte periphere Neuropathie (Nervenschädigung)", "ids": ["nervenschmerzen"] }
+  ],
+  "vorsicht": [
+    { "text": "Erhöhtes Hepatitis-Risiko: Alter über 35 Jahre, täglicher Alkoholkonsum, chronische Lebererkrankung, Hepatitis B oder C, Drogenkonsum, Schwangerschaft und erste 3 Monate nach der Geburt – Leberwerte regelmässig kontrollieren", "ids": ["leberinsuffizienz", "alkoholkonsum", "hepatitis-b", "hepatitis-c", "aeltere-patienten", "schwangerschaft"] },
+    { "text": "Risiko für Nervenschäden: Diabetes, Alkoholabhängigkeit, Mangelernährung, HIV, Niereninsuffizienz, Schwangerschaft und Stillzeit – vorbeugend Vitamin B6 (Pyridoxin)", "ids": ["diabetes", "alkoholabhaengigkeit", "mangelernaehrung", "hiv", "niereninsuffizienz"] },
+    { "text": "Epilepsie: Krampfanfälle können ausgelöst werden", "ids": ["epilepsie"] },
+    { "text": "Psychosen oder psychische Erkrankungen in der Vorgeschichte", "ids": ["schizophrenie", "depression"] },
+    { "text": "Schwere Niereninsuffizienz: Vorsicht bei Langsam-Acetylierern", "ids": ["niereninsuffizienz"] },
+    { "text": "Porphyrie", "ids": ["porphyrie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Phenytoin", "ref": ["phenytoin"], "effekt": "Phenytoin-Spiegel steigen (Abbauhemmung), vor allem bei Langsam-Acetylierern – Spiegel überwachen, Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Carbamazepin", "ref": ["carbamazepin"], "effekt": "Carbamazepin-Spiegel steigen (Schwindel, Benommenheit); zugleich erhöhte Lebertoxizität von Isoniazid – Spiegel und Leberwerte kontrollieren.", "schwere": "schwer" },
+    { "text": "Rifampicin, Pyrazinamid und andere leberschädigende Mittel", "ref": ["rifampicin", "pyrazinamid", "gruppe:hepatotoxisch"], "effekt": "Erhöhtes Risiko für Leberschäden – bei Tuberkulose üblich, aber Leberwerte regelmässig kontrollieren.", "schwere": "mittel" },
+    { "text": "Paracetamol", "ref": ["paracetamol"], "effekt": "Mehr leberschädigende Abbauprodukte – Paracetamol niedrig dosiert und nur kurz einsetzen.", "schwere": "mittel" },
+    { "text": "Disulfiram", "ref": ["disulfiram"], "effekt": "Koordinations- und Verhaltensstörungen beschrieben – Kombination meiden.", "schwere": "mittel" },
+    { "text": "Valproinsäure und Benzodiazepine, die oxidativ abgebaut werden (z. B. Diazepam, Triazolam)", "ref": ["valproinsaeure", "diazepam", "triazolam"], "effekt": "Spiegel können steigen – auf verstärkte Müdigkeit und Nebenwirkungen achten.", "schwere": "leicht" },
+    { "text": "Theophyllin", "ref": ["theophyllin"], "effekt": "Theophyllin-Spiegel können steigen – Spiegel kontrollieren.", "schwere": "leicht" },
+    { "text": "Antazida mit Aluminium", "ref": ["gruppe:antazida"], "effekt": "Verminderte Aufnahme von Isoniazid – Isoniazid mindestens 1 Stunde vorher einnehmen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Leichter, meist vorübergehender Anstieg der Leberwerte"],
+    "haeufig": ["Periphere Neuropathie (Kribbeln, Brennen, Taubheit an Händen und Füssen), dosisabhängig", "Übelkeit, Erbrechen, Oberbauchbeschwerden"],
+    "gelegentlich": ["Hepatitis (Leberentzündung), häufiger mit zunehmendem Alter", "Hautausschlag, Juckreiz", "Schwindel, Kopfschmerzen"],
+    "selten": ["Schwere, teils tödliche Hepatitis und Leberversagen", "Agranulozytose, Thrombozytopenie, hämolytische und sideroblastische Anämie", "Krampfanfälle", "Optikusneuritis (Sehnerventzündung)", "Psychosen, Verwirrtheit, Gedächtnisstörungen", "Arzneimittelfieber, Lupus-ähnliches Syndrom"],
+    "unbekannt": ["Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)", "Pellagra (Vitamin-B3-Mangel mit Hautentzündung)", "Hyperglykämie (erhöhter Blutzucker)", "Gynäkomastie (Brustvergrösserung beim Mann)", "Pankreatitis"]
+  },
+  "schwangerschaft": "Zur Behandlung einer Tuberkulose nach ärztlicher Abwägung möglich, zusammen mit Vitamin B6 (Pyridoxin). Erhöhtes Hepatitis-Risiko in der Schwangerschaft und kurz nach der Geburt beachten.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen ist in der Regel möglich. Mutter erhält Vitamin B6, das Kind wird auf Gelbsucht und Nervenreizungen beobachtet.",
+  "hinweise": [
+    "Auf nüchternen Magen einnehmen (mindestens 1 Stunde vor oder 2 Stunden nach dem Essen).",
+    "Alkohol meiden – er erhöht das Risiko für Leberschäden.",
+    "Lebensmittel mit viel Tyramin oder Histamin (gereifter Käse, Thunfisch, Makrele, Rotwein) können Kopfschmerzen, Herzklopfen, Hautrötung und Schwitzen auslösen.",
+    "Bei Appetitlosigkeit, Übelkeit, Müdigkeit, dunklem Urin oder Gelbsucht sofort ärztlich melden; Leberwerte regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,208 @@
+{
+  "id": "midodrin",
+  "name": "Midodrin",
+  "synonyme": [
+    "Midodrine",
+    "Midodrinhydrochlorid"
+  ],
+  "atc": [
+    "C01CA17"
+  ],
+  "klasse": "Alpha-1-Sympathomimetikum (Prodrug); Antihypotonikum",
+  "kurz": "Mittel gegen schweren Blutdruckabfall beim Aufstehen (orthostatische Hypotonie); verengt die Blutgefässe.",
+  "gruppen": [
+    "sympathomimetika",
+    "blutdrucksteigernd",
+    "vasokonstriktorisch",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Gutron"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen) mit Beschwerden, wenn nicht-medikamentöse Massnahmen nicht ausreichen",
+      "ids": [
+        "hypotonie",
+        "schwindel",
+        "synkope"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt den Blutdruck, indem es die Blutgefässe verengt. Midodrin ist eine Vorstufe (Prodrug), die im Körper in den wirksamen Metaboliten Desglymidodrin umgewandelt wird. Dieser stimuliert Alpha-1-Rezeptoren in Arterien und Venen; der Gefässwiderstand steigt, und das Blut versackt beim Aufstehen weniger in den Beinen. Desglymidodrin gelangt kaum ins Gehirn und wirkt nicht direkt auf das Herz.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere organische Herzkrankheiten, z. B. Bradykardie, frischer Herzinfarkt, dekompensierte Herzinsuffizienz, Erregungsleitungsstörungen",
+      "ids": [
+        "bradykardie",
+        "herzinfarkt",
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, insbesondere Blutdruckanstieg im Liegen",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion (Thyreotoxikose)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Akute Nierenerkrankung oder schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Harnverhalt, Prostatavergrösserung mit Restharn",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Schwere verengende oder krampfartige Gefässerkrankungen, Aortenaneurysma",
+      "ids": [
+        "arteriosklerose",
+        "aneurysma"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutdruckanstieg im Liegen (Supine-Hypertonie) ist häufig: Blutdruck regelmässig im Liegen und im Stehen messen",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Nieren- oder Leberfunktionsstörung: Nieren- und Leberwerte kontrollieren",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langsamer Puls oder gleichzeitige pulsverlangsamende Mittel (reflektorische Bradykardie)",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Ältere Männer mit Prostatavergrösserung (Gefahr eines Harnverhalts)",
+      "ids": [
+        "aeltere-patienten",
+        "prostatahyperplasie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung und Erregungsleitungsstörungen (AV-Block) möglich – Puls und EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Sympathomimetika und gefässverengende Mittel (z. B. Pseudoephedrin, Phenylephrin, Ergotalkaloide)",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:vasokonstriktorisch"
+      ],
+      "effekt": "Zusätzlicher Blutdruckanstieg – Kombination meiden oder Blutdruck eng kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fludrocortison und andere Mineralokortikoide",
+      "ref": [
+        "fludrocortison"
+      ],
+      "effekt": "Verstärkter Blutdruckanstieg im Liegen – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alpha-1-Blocker (z. B. Tamsulosin, Doxazosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Heben die Wirkung von Midodrin auf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker und andere pulsverlangsamende Mittel",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer, trizyklische Antidepressiva und Schilddrüsenhormone",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Können die blutdrucksteigernde Wirkung verstärken.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Gänsehaut (Piloerektion)",
+      "Juckreiz, besonders an der Kopfhaut",
+      "Kribbeln (Parästhesien), besonders an der Kopfhaut"
+    ],
+    "haeufig": [
+      "Blutdruckanstieg im Liegen (Supine-Hypertonie)",
+      "Kopfschmerzen",
+      "Frösteln, Hitzewallungen",
+      "Hautausschlag",
+      "Übelkeit, Verdauungsbeschwerden, Mundschleimhautentzündung",
+      "Harndrang, Harnverhalt, Schmerzen beim Wasserlassen"
+    ],
+    "gelegentlich": [
+      "Reflektorische Pulsverlangsamung (Bradykardie)",
+      "Herzklopfen",
+      "Unruhe, Schlafstörungen, Reizbarkeit"
+    ],
+    "selten": [
+      "Herzrasen (Tachykardie)",
+      "Erhöhte Leberwerte"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten, in Tierstudien schädliche Wirkungen; in der Schwangerschaft nicht anwenden.",
+  "stillzeit": "Nicht bekannt, ob Midodrin in die Muttermilch übergeht; in der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Die letzte Tagesdosis mindestens 4 Stunden vor dem Schlafengehen einnehmen und nicht flach liegen (Blutdruckanstieg im Liegen).",
+    "Blutdruck regelmässig im Liegen und im Stehen messen; bei Herzklopfen, starkem Kopfschmerz oder verschwommenem Sehen ärztlich melden.",
+    "Nieren- und Leberwerte werden vor und während der Behandlung kontrolliert."
+  ],
+  "stand": "2026-10"
+}

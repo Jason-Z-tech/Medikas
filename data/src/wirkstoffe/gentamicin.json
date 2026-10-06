@@ -1,0 +1,57 @@
+{
+  "id": "gentamicin",
+  "name": "Gentamicin",
+  "synonyme": ["Gentamicinum", "Gentamicin-Sulfat"],
+  "kombinationAus": [],
+  "atc": ["J01GB03"],
+  "klasse": "Aminoglykosid-Antibiotikum",
+  "kurz": "Aminoglykosid-Antibiotikum als Infusion im Spital bei schweren Infektionen; auch als Schwamm oder Kette zum Einlegen bei Knochen- und Wundinfektionen.",
+  "gruppen": ["aminoglykoside", "nephrotoxisch", "ototoxisch"],
+  "handelsnamen": ["Garamycin Schwamm", "Septopal", "Diprogenta (Kombi)"],
+  "abgabe": ["A", "B"],
+  "darreichung": ["Injektions- und Infusionslösung", "Kollagenschwamm zum Einlegen (Implantat)", "Ketten zum Einlegen in Knochen und Weichteile", "Creme und Salbe (Kombination mit Kortison)"],
+  "indikationen": [
+    { "text": "Schwere Infektionen durch gramnegative Erreger, z. B. Sepsis, komplizierte Harnwegsinfektionen und Nierenbeckenentzündung, im Spital erworbene Lungenentzündung, Bauchinfektionen (meist kombiniert mit einem Betalaktam)", "ids": ["bakterielle-infektion", "harnwegsinfekt", "lungenentzuendung"] },
+    { "text": "Herzinnenhautentzündung (Endokarditis) durch Streptokokken, Enterokokken oder Staphylokokken, kombiniert mit einem Betalaktam-Antibiotikum", "ids": ["bakterielle-infektion"] },
+    { "text": "Sepsis bei Neugeborenen", "ids": ["bakterielle-infektion", "kinder"] },
+    { "text": "Lokale Behandlung und Vorbeugung von Knochen- und Weichteilinfektionen bei Operationen (Schwamm, Ketten)", "ids": ["operation", "hautinfektion"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es ihre Eiweissherstellung stört. Gentamicin bindet an die 30S-Untereinheit der bakteriellen Ribosomen und führt zu Ablesefehlern; die fehlerhaften Eiweisse schädigen die Bakterienmembran. Die Wirkung ist konzentrationsabhängig, daher wird es meist einmal täglich in hoher Dosis gegeben. Es wirkt vor allem gegen gramnegative Bakterien und zusammen mit Betalaktamen synergistisch gegen Streptokokken, Enterokokken und Staphylokokken. Lokal eingelegt erreicht es hohe Spiegel am Infektionsort bei geringer Aufnahme ins Blut.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Gentamicin oder andere Aminoglykoside (Kreuzallergie)", "ids": [] },
+    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung und Spiegelkontrollen", "ids": ["niereninsuffizienz"] },
+    { "text": "Hörstörungen, Tinnitus oder Gleichgewichtsstörungen; familiäre Neigung zu Aminoglykosid-bedingter Taubheit (mitochondriale Genvariante)", "ids": ["hoerstoerung", "schwindel"] },
+    { "text": "Parkinson-Krankheit und andere neuromuskuläre Erkrankungen (Verstärkung der Muskelschwäche)", "ids": ["parkinson", "neuromuskulaere-erkrankung"] },
+    { "text": "Ältere Menschen, Flüssigkeitsmangel und Behandlung länger als 7–10 Tage: höheres Risiko für Nieren- und Innenohrschäden", "ids": ["aeltere-patienten", "dehydratation"] },
+    { "text": "Früh- und Neugeborene: unreife Nieren, Spiegel kontrollieren", "ids": ["kinder"] },
+    { "text": "Niedriges Magnesium, Calcium oder Kalium", "ids": ["magnesiummangel", "hypokalzaemie", "hypokaliaemie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere nieren- oder gehörschädigende Mittel (z. B. andere Aminoglykoside, Vancomycin, Amphotericin B, Ciclosporin, Tacrolimus, Cisplatin, Foscarnet)", "ref": ["gruppe:nephrotoxisch", "gruppe:ototoxisch"], "effekt": "Additive Nieren- und Innenohrschädigung – Kombination möglichst vermeiden, sonst Nierenwerte, Spiegel und Gehör überwachen.", "schwere": "schwer" },
+    { "text": "Schleifendiuretika (z. B. Furosemid, Torasemid)", "ref": ["gruppe:schleifendiuretika"], "effekt": "Verstärkte Gehörschädigung; durch Flüssigkeitsverlust zudem höhere Gentamicin-Spiegel – Flüssigkeitshaushalt und Spiegel überwachen.", "schwere": "schwer" },
+    { "text": "Muskelrelaxanzien und Narkosemittel (z. B. Rocuronium, Atracurium, Suxamethonium)", "ref": ["rocuronium", "atracurium", "cisatracurium", "mivacurium", "suxamethonium"], "effekt": "Verstärkte neuromuskuläre Blockade bis zur Atemlähmung – Narkoseteam informieren, überwachen.", "schwere": "schwer" },
+    { "text": "Botulinumtoxin", "ref": ["botulinumtoxin-typ-a"], "effekt": "Verstärkte Muskelschwäche möglich.", "schwere": "mittel" },
+    { "text": "Neostigmin und Pyridostigmin", "ref": ["neostigmin", "pyridostigmin"], "effekt": "Gentamicin schwächt deren muskelstärkende Wirkung ab.", "schwere": "mittel" },
+    { "text": "Penicilline und Cephalosporine in derselben Infusion", "ref": ["gruppe:penicilline", "gruppe:cephalosporine"], "effekt": "Gegenseitige Inaktivierung in der Mischung – getrennt verabreichen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": ["Eingeschränkte Nierenfunktion (meist reversibel)"],
+    "gelegentlich": ["Allergische Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht)", "Superinfektion mit resistenten Keimen"],
+    "selten": ["Blutbildveränderungen (Anämie, Leukopenie, Thrombozytopenie, Eosinophilie)", "Elektrolytstörungen (Kalium-, Calcium- und Magnesiummangel), Appetitlosigkeit", "Polyneuropathie, Kribbeln", "Übelkeit, Erbrechen, Mundschleimhautentzündung", "Erhöhte Leberwerte", "Muskelschmerzen, Fieber"],
+    "sehrSelten": ["Akutes Nierenversagen", "Anaphylaxie (schwere allergische Reaktion)", "Verwirrtheit, Halluzinationen, Krampfanfälle, neuromuskuläre Blockade", "Hörverlust, Tinnitus, Drehschwindel", "Antibiotika-assoziierte Kolitis", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"],
+    "unbekannt": ["Bleibender Hörverlust bis zur Taubheit, bleibende Gleichgewichtsstörungen"]
+  },
+  "schwangerschaft": "Geht über die Plazenta und kann beim Kind bleibende Innenohr- und Nierenschäden verursachen. Nur bei lebensbedrohlicher Infektion ohne Alternative anwenden.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über und wird vom Säugling kaum aufgenommen; Durchfall und Pilzbefall beim Kind möglich. Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Während der Infusionstherapie werden Blutspiegel, Nierenwerte und bei längerer Behandlung das Gehör kontrolliert.",
+    "Hörminderung, Ohrensausen oder Schwindel sofort melden – auch noch Wochen nach der Behandlung.",
+    "Ausreichend trinken, sofern ärztlich nicht anders verordnet."
+  ],
+  "stand": "2026-10"
+}

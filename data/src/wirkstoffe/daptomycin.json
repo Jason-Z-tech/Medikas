@@ -1,0 +1,49 @@
+{
+  "id": "daptomycin",
+  "name": "Daptomycin",
+  "synonyme": ["Daptomycinum"],
+  "atc": ["J01XX09"],
+  "klasse": "Zyklisches Lipopeptid-Antibiotikum",
+  "kurz": "Reserve-Antibiotikum als Infusion gegen schwere Infektionen mit grampositiven Bakterien wie MRSA (Haut, Blut, Herzklappen).",
+  "gruppen": [],
+  "handelsnamen": ["Cubicin"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "indikationen": [
+    { "text": "Komplizierte Haut- und Weichteilinfektionen durch grampositive Bakterien (Erwachsene und Kinder ab 1 Jahr)", "ids": ["hautinfektion", "bakterielle-infektion"] },
+    { "text": "Rechtsseitige Herzklappenentzündung (Endokarditis) durch Staphylococcus aureus bei Erwachsenen", "ids": ["bakterielle-infektion", "herzklappenerkrankung"] },
+    { "text": "Blutvergiftung (Bakteriämie) durch Staphylococcus aureus im Zusammenhang mit einer dieser Infektionen", "ids": ["bakterielle-infektion"] }
+  ],
+  "wirkmechanismus": "Durchlöchert die Hülle von Bakterien und tötet sie rasch ab. Daptomycin lagert sich calciumabhängig in die Zellmembran grampositiver Bakterien ein, führt zu einer raschen Depolarisation und stoppt die Synthese von DNA, RNA und Eiweissen. Es wirkt auch gegen Methicillin-resistente Staphylokokken (MRSA) und Vancomycin-resistente Enterokokken. In der Lunge wird es durch das Surfactant inaktiviert und ist deshalb gegen Lungenentzündungen unwirksam.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Muskelschäden: Anstieg der Kreatinkinase (CK), Muskelschmerzen und -schwäche bis Rhabdomyolyse – CK mindestens wöchentlich kontrollieren", "ids": ["muskelerkrankung"] },
+    { "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 30 ml/min): Dosisintervall verlängern, höheres Risiko für Muskelschäden", "ids": ["niereninsuffizienz"] },
+    { "text": "Eosinophile Pneumonie (Lungenentzündung mit Fieber, Husten, Atemnot) – Behandlung sofort abbrechen", "ids": ["lungenentzuendung"] },
+    { "text": "Periphere Neuropathie (Kribbeln, Taubheit) möglich", "ids": ["nervenschmerzen"] },
+    { "text": "Kinder unter 1 Jahr: nicht anwenden (Muskel- und Nervenschäden im Tierversuch)", "ids": ["kinder"] },
+    { "text": "Schwere Hautreaktionen (DRESS, Blasenbildung) und Nierenentzündung (tubulointerstitielle Nephritis) beschrieben", "ids": ["schwere-hautreaktion"] },
+    { "text": "Durchfall während oder nach der Behandlung: an Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Statine (HMG-CoA-Reduktasehemmer)", "ref": ["gruppe:statine"], "effekt": "Erhöhtes Risiko für Muskelschäden – Statin während der Behandlung möglichst pausieren, sonst CK häufiger kontrollieren.", "schwere": "schwer" },
+    { "text": "Andere Mittel mit Muskelschäden als Nebenwirkung (z. B. Fibrate, Ciclosporin)", "ref": ["gruppe:fibrate", "ciclosporin"], "effekt": "Additives Risiko für Myopathie – CK engmaschig kontrollieren oder Pause erwägen.", "schwere": "mittel" },
+    { "text": "NSAR und COX-2-Hemmer", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Können die Nierenausscheidung von Daptomycin vermindern und den Spiegel erhöhen – Vorsicht, Nierenfunktion beachten.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "INR in den ersten Behandlungstagen kontrollieren. Daptomycin kann mit einigen Labor-Reagenzien die Gerinnungszeit (PT/INR) zudem falsch verlängert anzeigen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Pilzinfektionen, Harnwegsinfektionen", "Anämie (Blutarmut)", "Angst, Schlaflosigkeit", "Schwindel, Kopfschmerzen", "Bluthochdruck oder tiefer Blutdruck", "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall, Verstopfung, Blähungen", "Erhöhte Leberwerte und erhöhte Kreatinkinase (CK)", "Ausschlag, Juckreiz, Gliederschmerzen, Reaktionen an der Infusionsstelle, Fieber"],
+    "gelegentlich": ["Eosinophilie, Thrombozythämie, erhöhte INR", "Appetitlosigkeit, Hyperglykämie, Elektrolytstörungen", "Kribbeln, Geschmacksstörungen, Zittern", "Herzrhythmusstörungen (supraventrikuläre Tachykardie, Extrasystolen)", "Myositis, Muskelschwäche, Muskel- und Gelenkschmerzen", "Nierenfunktionsstörung bis Nierenversagen", "Nesselsucht"],
+    "selten": ["Gelbsucht (Ikterus)", "Verlängerte Prothrombinzeit"],
+    "unbekannt": ["Rhabdomyolyse (Muskelzerfall)", "Eosinophile Pneumonie, organisierende Pneumonie", "Anaphylaxie, Angioödem, DRESS (schwere Arzneimittelreaktion)", "Schwere bullöse Hautreaktionen, akute generalisierte exanthematische Pustulose (AGEP)", "Periphere Neuropathie", "Clostridioides-difficile-assoziierte Durchfälle", "Tubulointerstitielle Nephritis"]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur bei eindeutiger Notwendigkeit anwenden.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung in der Stillzeit nur nach ärztlicher Abwägung, Stillen allenfalls unterbrechen.",
+  "hinweise": [
+    "Wird im Spital oder ambulant als Infusion bzw. Injektion einmal täglich verabreicht.",
+    "Muskelschmerzen, Muskelschwäche, Kribbeln oder Taubheit sowie neue Atemnot mit Fieber sofort melden.",
+    "Kreatinkinase (CK) wird mindestens wöchentlich kontrolliert, bei Risikopatienten häufiger."
+  ],
+  "stand": "2026-10"
+}

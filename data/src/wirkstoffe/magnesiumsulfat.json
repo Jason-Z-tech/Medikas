@@ -1,0 +1,63 @@
+{
+  "id": "magnesiumsulfat",
+  "name": "Magnesiumsulfat",
+  "synonyme": ["Magnesium sulfuricum", "Magnesium sulfate", "MgSO4", "Bittersalz"],
+  "atc": ["B05XA05"],
+  "klasse": "Elektrolyt (Magnesiumsalz zur Injektion und Infusion); Krampfprophylaxe bei Eklampsie",
+  "kurz": "Magnesium als Spritze oder Infusion im Spital: bei Magnesiummangel, gegen Krampfanfälle bei Eklampsie und bei bestimmten Herzrhythmusstörungen.",
+  "gruppen": ["blutdrucksenkend"],
+  "handelsnamen": ["Magnesiumsulfat Bichsel"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung", "Infusionskonzentrat"],
+  "indikationen": [
+    { "text": "Magnesiummangel, wenn eine Einnahme über den Mund nicht möglich oder nicht ausreichend ist (auch bei künstlicher Ernährung)", "ids": ["magnesiummangel"] },
+    { "text": "Vorbeugung und Behandlung von Krampfanfällen bei Präeklampsie und Eklampsie (Schwangerschaftsvergiftung)", "ids": ["schwangerschaft"] },
+    { "text": "Herzrhythmusstörungen bei Magnesiummangel, insbesondere Torsade de pointes", "ids": ["herzrhythmusstoerung", "qt-verlaengerung"] }
+  ],
+  "wirkmechanismus": "Ersetzt fehlendes Magnesium und dämpft die Erregbarkeit von Nerven und Muskeln. Magnesium wirkt als physiologischer Calcium-Gegenspieler: Es hemmt den Calciumeinstrom in die Zellen und an der motorischen Endplatte die Freisetzung von Acetylcholin, wodurch die Übertragung vom Nerv auf den Muskel abgeschwächt wird. Die krampfverhütende Wirkung bei Eklampsie beruht zusätzlich auf einer Hemmung von NMDA-Rezeptoren und einer Erweiterung der Hirngefässe. Am Herzen stabilisiert Magnesium die Zellmembran und verlangsamt die Erregungsleitung, was bei Torsade de pointes genutzt wird.",
+  "kontraindikationen": [
+    { "text": "Schwere Niereninsuffizienz (Magnesium wird über die Niere ausgeschieden – Gefahr der Anreicherung)", "ids": ["niereninsuffizienz"] },
+    { "text": "AV-Block und andere Störungen der Erregungsleitung im Herzen", "ids": ["av-block"] },
+    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] },
+    { "text": "Bestehende Hypermagnesiämie (erhöhter Magnesiumspiegel)", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosis reduzieren, Magnesiumspiegel engmaschig kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Herzerkrankungen, Bradykardie und mit Digitalis behandelte Patienten", "ids": ["herzrhythmusstoerung", "bradykardie"] },
+    { "text": "Gabe kurz vor der Geburt: beim Neugeborenen sind Atemdepression und Muskelschwäche möglich", "ids": ["geburtshilfe", "schwangerschaft"] },
+    { "text": "Dauerbehandlung in der Schwangerschaft länger als 5–7 Tage (Calciummangel und Knochenveränderungen beim Kind)", "ids": ["schwangerschaft"] },
+    { "text": "Neuromuskuläre Erkrankungen und gleichzeitige Narkose mit Muskelrelaxanzien", "ids": ["neuromuskulaere-erkrankung", "anaesthesie"] },
+    { "text": "Ateminsuffizienz (Atemdämpfung bei hohen Magnesiumspiegeln)", "ids": ["schlafapnoe"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Muskelrelaxanzien zur Narkose (z. B. Rocuronium, Suxamethonium)", "ref": ["rocuronium", "suxamethonium", "atracurium", "cisatracurium"], "effekt": "Verstärkte und verlängerte Muskelerschlaffung – Dosis anpassen, neuromuskuläre Überwachung.", "schwere": "schwer" },
+    { "text": "Calciumantagonisten, besonders Nifedipin", "ref": ["nifedipin", "gruppe:dhp-calciumantagonisten"], "effekt": "Starker Blutdruckabfall und verstärkte Muskelschwäche möglich – engmaschig überwachen.", "schwere": "schwer" },
+    { "text": "Aminoglykosid-Antibiotika (z. B. Gentamicin)", "ref": ["gruppe:aminoglykoside"], "effekt": "Verstärkte neuromuskuläre Blockade bis zur Atemlähmung möglich.", "schwere": "mittel" },
+    { "text": "Zentral dämpfende Mittel (z. B. Opioide, Barbiturate, Narkosemittel)", "ref": ["gruppe:opioide", "gruppe:barbiturate", "gruppe:zns-daempfend"], "effekt": "Verstärkte Dämpfung von Bewusstsein und Atmung.", "schwere": "mittel" },
+    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Leitungsstörungen am Herzen möglich, besonders wenn zur Aufhebung einer Magnesiumüberdosierung Calcium gespritzt werden muss – EKG-Überwachung.", "schwere": "mittel" },
+    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung möglich.", "schwere": "leicht" },
+    { "text": "Calciumsalze (intravenös)", "ref": ["calcium"], "effekt": "Heben die Magnesiumwirkung auf; Calcium wird deshalb als Gegenmittel bei Überdosierung eingesetzt.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Wärmegefühl, Hautrötung (Flush) und Schwitzen während der Injektion",
+      "Übelkeit, Erbrechen, Durst",
+      "Kopfschmerzen, Schwindel, Schläfrigkeit",
+      "Blutdruckabfall (Hypotonie)",
+      "Bradykardie (verlangsamter Herzschlag) und Leitungsstörungen am Herzen",
+      "Abgeschwächte Muskelreflexe und Muskelschwäche (Zeichen eines zu hohen Magnesiumspiegels)",
+      "Atemdepression, Herzrhythmusstörungen bis Herzstillstand bei Überdosierung",
+      "Calciummangel (Hypokalzämie)",
+      "Schmerzen und Venenreizung an der Injektionsstelle"
+    ]
+  },
+  "schwangerschaft": "Mittel der Wahl zur Krampfvorbeugung bei Präeklampsie und Eklampsie. Eine Dauerbehandlung über mehr als 5–7 Tage soll vermieden werden (Calciummangel und Knochenveränderungen beim Ungeborenen); vor der Geburt gegebenes Magnesium kann beim Neugeborenen Atmung und Muskelspannung dämpfen.",
+  "stillzeit": "Magnesium geht in geringen Mengen in die Muttermilch über; Stillen ist erlaubt.",
+  "hinweise": [
+    "Wird nur unter ärztlicher Überwachung im Spital gegeben: Kontrolle von Kniesehnenreflex, Atemfrequenz, Urinausscheidung und Magnesiumspiegel.",
+    "Langsam injizieren bzw. infundieren; Calcium (z. B. Calciumgluconat) als Gegenmittel bereithalten.",
+    "Magnesiumsulfat zum Einnehmen (Bittersalz) wirkt abführend und ist nicht mit der Infusion gleichzusetzen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "glimepirid",
+  "name": "Glimepirid",
+  "synonyme": ["Glimepiride", "Glimepiridum"],
+  "atc": ["A10BB12"],
+  "klasse": "Sulfonylharnstoff (orales Antidiabetikum)",
+  "kurz": "Tablette gegen Typ-2-Diabetes; regt die Bauchspeicheldrüse zur Ausschüttung von Insulin an und kann Unterzuckerungen auslösen.",
+  "gruppen": ["sulfonylharnstoffe", "hypoglykaemie-ausloesend", "cyp2c9-substrate-eng"],
+  "handelsnamen": ["Amaryl"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Typ-2-Diabetes bei Erwachsenen, wenn Ernährung, Bewegung und Gewichtsabnahme allein nicht ausreichen – allein oder kombiniert mit Metformin oder Insulin", "ids": ["diabetes-typ-2", "diabetes"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutzucker, indem es die Bauchspeicheldrüse zur vermehrten Ausschüttung von Insulin anregt. Glimepirid bindet an den Sulfonylharnstoff-Rezeptor der Betazellen und schliesst ATP-abhängige Kaliumkanäle; die Membran wird depolarisiert, Calcium strömt ein und Insulin wird freigesetzt – auch bei normalem Blutzucker, daher die Gefahr von Unterzuckerungen. Daneben werden Wirkungen ausserhalb der Bauchspeicheldrüse beschrieben (bessere Insulinempfindlichkeit des Gewebes). Glimepirid wird in der Leber fast vollständig über CYP2C9 abgebaut und wirkt rund 24 Stunden, sodass eine Einnahme pro Tag genügt.",
+  "kontraindikationen": [
+    { "text": "Typ-1-Diabetes (insulinabhängiger Diabetes)", "ids": ["diabetes-typ-1"] },
+    { "text": "Diabetisches Koma oder Präkoma, diabetische Ketoazidose", "ids": ["ketoazidose"] },
+    { "text": "Schwere Nieren- oder Leberfunktionsstörung (Umstellung auf Insulin)", "ids": ["niereninsuffizienz", "leberinsuffizienz", "schwere-leberinsuffizienz"] },
+    { "text": "Überempfindlichkeit gegen andere Sulfonylharnstoffe oder Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] },
+    { "text": "Schwangerschaft (Umstellung auf Insulin)", "ids": ["schwangerschaft"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Unregelmässige oder ausgelassene Mahlzeiten, Fasten, Alkohol oder ungewohnte körperliche Anstrengung: Gefahr einer Unterzuckerung, die lange anhalten und nach Besserung wiederkehren kann", "ids": ["hypoglykaemie", "alkoholkonsum"] },
+    { "text": "Ältere Menschen, eingeschränkte Nieren- oder Leberfunktion, Mangelernährung: erhöhtes Unterzuckerungsrisiko", "ids": ["aeltere-patienten", "niereninsuffizienz", "leberinsuffizienz", "mangelernaehrung"] },
+    { "text": "Unterfunktion von Schilddrüse, Hirnanhangsdrüse oder Nebennierenrinde: erhöhtes Unterzuckerungsrisiko", "ids": ["hypothyreose", "hypophyseninsuffizienz", "nebenniereninsuffizienz"] },
+    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel: Gefahr von Blutzerfall (hämolytische Anämie)", "ids": ["g6pd-mangel"] },
+    { "text": "Blutbild und Leberwerte regelmässig kontrollieren (seltene Blutbildschäden, sehr selten Leberschäden)", "ids": ["neutropenie", "thrombozytopenie"] },
+    { "text": "Unfälle, Operationen, fieberhafte Infekte: vorübergehend kann Insulin nötig sein", "ids": ["aktive-infektion", "operation"] },
+    { "text": "Unterzuckerung kann Konzentration und Reaktionsfähigkeit beeinträchtigen (Autofahren)", "ids": ["autofahren"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "CYP2C9-Hemmer (z. B. Fluconazol, Miconazol)", "ref": ["gruppe:cyp2c9-hemmer", "fluconazol", "miconazol"], "effekt": "Hemmen den Abbau von Glimepirid – Gefahr schwerer Unterzuckerung; Blutzucker engmaschig kontrollieren, Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Andere Blutzuckersenker (Insulin, Metformin, DPP-4-Hemmer, GLP-1-Agonisten, SGLT-2-Hemmer)", "ref": ["gruppe:insuline", "metformin", "gruppe:dpp4-hemmer", "gruppe:glp1-agonisten", "gruppe:sglt2-hemmer"], "effekt": "Verstärkte Blutzuckersenkung – Unterzuckerungsgefahr, Glimepirid-Dosis gegebenenfalls reduzieren.", "schwere": "mittel" },
+    { "text": "Alkohol", "ref": [], "effekt": "Kann die Blutzuckersenkung unvorhersehbar verstärken oder abschwächen – Alkohol meiden oder nur wenig und zum Essen.", "schwere": "mittel" },
+    { "text": "Betablocker, Clonidin", "ref": ["gruppe:betablocker", "clonidin"], "effekt": "Können die Blutzuckersenkung verstärken oder abschwächen und die Warnzeichen einer Unterzuckerung verschleiern.", "schwere": "mittel" },
+    { "text": "Wirkungsverstärkende Mittel: ACE-Hemmer, Fibrate, Fluoxetin, MAO-Hemmer, Sulfonamide, Tetracycline, Chinolone, Pentoxifyllin (hoch dosiert), Cyclophosphamid, Salicylate", "ref": ["gruppe:ace-hemmer", "gruppe:fibrate", "fluoxetin", "gruppe:mao-hemmer", "sulfamethoxazol-trimethoprim", "gruppe:tetracycline", "gruppe:fluorchinolone", "pentoxifyllin", "cyclophosphamid", "acetylsalicylsaeure"], "effekt": "Unterzuckerungsgefahr – Blutzucker bei Beginn und Ende der Begleitbehandlung engmaschig kontrollieren.", "schwere": "mittel" },
+    { "text": "Rifampicin und andere Enzyminduktoren (z. B. Barbiturate, Phenytoin)", "ref": ["rifampicin", "gruppe:barbiturate", "phenytoin"], "effekt": "Beschleunigen den Abbau – Blutzucker steigt; Dosis eventuell erhöhen und nach Absetzen wieder senken.", "schwere": "mittel" },
+    { "text": "Wirkungsabschwächende Mittel: Glukokortikoide, Thiazid-Diuretika, Schilddrüsenhormone, Östrogene und Gestagene, Sympathomimetika, Diazoxid, Acetazolamid, Abführmittel (Langzeitgebrauch)", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:thiaziddiuretika", "gruppe:schilddruesenhormone", "gruppe:oestrogene", "gruppe:gestagene", "gruppe:sympathomimetika", "diazoxid", "acetazolamid", "gruppe:laxanzien"], "effekt": "Erhöhen den Blutzucker – häufiger messen, Dosis eventuell anpassen.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Die gerinnungshemmende Wirkung kann verstärkt oder abgeschwächt werden – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Colesevelam", "ref": ["colesevelam"], "effekt": "Vermindert die Aufnahme von Glimepirid – Glimepirid mindestens 4 Stunden vor Colesevelam einnehmen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "selten": ["Hypoglykämie (Unterzuckerung), teils lang anhaltend", "Blutbildveränderungen: Thrombozytopenie, Leukopenie, Granulozytopenie, Agranulozytose, hämolytische Anämie, Panzytopenie"],
+    "sehrSelten": ["Magen-Darm-Beschwerden (Übelkeit, Erbrechen, Durchfall, Völlegefühl, Bauchschmerzen)", "Leberfunktionsstörung mit Cholestase und Gelbsucht, Hepatitis bis Leberversagen", "Leukozytoklastische Vaskulitis (Entzündung kleiner Blutgefässe)", "Leichte Überempfindlichkeitsreaktionen, die sich zu schweren Reaktionen mit Atemnot, Blutdruckabfall und Schock entwickeln können", "Hyponatriämie (Natriummangel im Blut)"],
+    "unbekannt": ["Hautreaktionen wie Juckreiz, Ausschlag, Nesselsucht", "Photosensibilität (erhöhte Lichtempfindlichkeit der Haut)", "Vorübergehende Sehstörungen, vor allem zu Behandlungsbeginn", "Schwere Thrombozytopenie (Blutplättchen unter 10'000/µl) mit Blutungsneigung", "Erhöhte Leberenzyme"]
+  },
+  "schwangerschaft": "Kontraindiziert: Bei geplanter oder eingetretener Schwangerschaft wird auf Insulin umgestellt.",
+  "stillzeit": "Kontraindiziert: Glimepirid geht in die Muttermilch über, Gefahr der Unterzuckerung beim Kind – auf Insulin umstellen oder abstillen.",
+  "hinweise": [
+    "Einmal täglich kurz vor oder während des Frühstücks bzw. der ersten Hauptmahlzeit unzerkaut mit Flüssigkeit einnehmen; danach keine Mahlzeit auslassen.",
+    "Immer Traubenzucker bei sich tragen; Unterzuckerungen können lange anhalten.",
+    "Alkohol meiden, da er die Wirkung unvorhersehbar verändert.",
+    "Blutbild und Leberwerte regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,246 @@
+{
+  "id": "paracetamol-codein",
+  "name": "Paracetamol + Codein",
+  "synonyme": [
+    "Codein/Paracetamol",
+    "Paracetamol/codeine"
+  ],
+  "kombinationAus": [
+    "paracetamol",
+    "codein"
+  ],
+  "atc": [
+    "N02AJ06"
+  ],
+  "klasse": "Analgetika-Kombination (Opioid + Nicht-Opioid)",
+  "kurz": "Schmerzmittel aus Paracetamol und dem schwachen Opioid Codein bei mässig starken bis starken Schmerzen, wenn Paracetamol allein nicht genügt.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "cyp2d6-substrate",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Co-Dafalgan"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Brausetabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mässig starke bis starke Schmerzen bei Erwachsenen und Jugendlichen ab 12 Jahren, die auf Paracetamol oder andere Nicht-Opioide allein nicht ausreichend ansprechen",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert zwei unterschiedlich wirkende Schmerzmittel, die sich ergänzen. Paracetamol hemmt vor allem im Zentralnervensystem die Bildung von Prostaglandinen und wirkt schmerzlindernd und fiebersenkend. Codein ist eine Vorstufe (Prodrug): Es wird in der Leber durch das Enzym CYP2D6 zu Morphin umgewandelt, das an μ-Opioidrezeptoren die Schmerzweiterleitung hemmt. Bei «ultraschnellen Metabolisierern» entsteht ungewöhnlich viel Morphin, bei «langsamen Metabolisierern» wirkt Codein kaum.",
+  "kontraindikationen": [
+    {
+      "text": "Kinder unter 12 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren nach Entfernung der Rachen- oder Gaumenmandeln wegen Schlafapnoe",
+      "ids": [
+        "kinder",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Bekannte ultraschnelle CYP2D6-Metabolisierer",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz, akute Hepatitis oder dekompensierte aktive Lebererkrankung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Morbus Meulengracht (Gilbert-Syndrom)",
+      "ids": [
+        "morbus-meulengracht"
+      ]
+    },
+    {
+      "text": "Atemdepression, akuter Asthmaanfall oder schwere Atemwegsobstruktion",
+      "ids": [
+        "schlafapnoe",
+        "asthma",
+        "copd"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mittelschwere Leberinsuffizienz, chronischer Alkoholkonsum, Mangelernährung oder Untergewicht (Gefahr von Leberschäden)",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum",
+        "mangelernaehrung",
+        "untergewicht"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "COPD, Schlafapnoe oder eingeschränkte Atemfunktion",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Kopfverletzung oder erhöhter Hirndruck",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Gallenwegserkrankungen",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Missbrauch oder Abhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere paracetamolhaltige Arzneimittel",
+      "ref": [
+        "paracetamol",
+        "tramadol-paracetamol"
+      ],
+      "effekt": "Gefahr einer Überdosierung mit schwerem Leberschaden – Gesamtdosis Paracetamol beachten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gefahr schwerer Atemdepression und tiefer Sedierung – Kombination nur, wenn keine Alternative besteht; kein Alkohol.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Gefahr von Erregung oder Dämpfung des Zentralnervensystems und Blutdruckschwankungen – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Es entsteht weniger Morphin – schwächere Schmerzlinderung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Regelmässige Einnahme von Paracetamol kann den INR erhöhen – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenobarbital, Phenytoin, Johanniskraut) und Isoniazid",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "johanniskraut",
+        "isoniazid"
+      ],
+      "effekt": "Erhöhte Bildung des leberschädigenden Paracetamol-Abbauprodukts – Vorsicht, Höchstdosis nicht ausschöpfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Flucloxacillin",
+      "ref": [
+        "flucloxacillin"
+      ],
+      "effekt": "Gefahr einer metabolischen Azidose mit hoher Anionenlücke, v. a. bei schwerer Krankheit, Mangelernährung oder Niereninsuffizienz.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Obstipation (Verstopfung)",
+      "Übelkeit, Erbrechen",
+      "Schläfrigkeit, Benommenheit, Schwindel"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen (Hautausschlag, Nesselsucht)",
+      "Erhöhte Leberwerte"
+    ],
+    "sehrSelten": [
+      "Thrombozytopenie, Agranulozytose (Mangel an Blutplättchen bzw. weissen Blutkörperchen)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP)",
+      "Bronchospasmus bei Analgetika-Asthma"
+    ],
+    "unbekannt": [
+      "Atemdepression, besonders bei ultraschnellen CYP2D6-Metabolisierern",
+      "Kopfschmerzen, Juckreiz",
+      "Abhängigkeit bei längerem Gebrauch",
+      "Leberschaden bis Leberversagen bei Überdosierung",
+      "Metabolische Azidose mit hoher Anionenlücke bei Risikofaktoren"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung, so kurz und niedrig dosiert wie möglich. Im letzten Drittel und unter der Geburt meiden (Atemdepression und Entzugssymptome beim Neugeborenen).",
+  "stillzeit": "Kontraindiziert: Codein wird zu Morphin umgewandelt, das in die Muttermilch übergeht; bei ultraschnellen Metabolisiererinnen ist eine lebensbedrohliche Vergiftung des Säuglings möglich.",
+  "hinweise": [
+    "Höchstdosis von Paracetamol nicht überschreiten (Erwachsene in der Regel 4 g pro Tag, bei Risikofaktoren weniger); keine weiteren paracetamolhaltigen Mittel gleichzeitig.",
+    "Kein Alkohol; die Fahrtüchtigkeit kann eingeschränkt sein.",
+    "Bei Atembeschwerden, starker Schläfrigkeit oder Verwirrtheit sofort ärztliche Hilfe holen.",
+    "Nicht länger als nötig einnehmen (Gefahr von Abhängigkeit und Kopfschmerz durch Übergebrauch)."
+  ],
+  "stand": "2026-10"
+}

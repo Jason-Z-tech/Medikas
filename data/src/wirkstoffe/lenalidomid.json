@@ -1,0 +1,241 @@
+{
+  "id": "lenalidomid",
+  "name": "Lenalidomid",
+  "synonyme": [
+    "Lenalidomide",
+    "CC-5013"
+  ],
+  "atc": [
+    "L04AX04"
+  ],
+  "klasse": "Immunmodulator (IMiD, Thalidomid-Analogon)",
+  "kurz": "Krebsmittel, das das Immunsystem moduliert; vor allem beim multiplen Myelom sowie bei bestimmten Blut- und Lymphknotenkrebsarten.",
+  "gruppen": [
+    "myelosuppressiv",
+    "teratogen",
+    "thromboserisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Revlimid",
+    "Lenalidomid Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiples Myelom: neu diagnostiziert (in Kombination, z. B. mit Dexamethason, oder als Erhaltungstherapie nach Stammzelltransplantation) und nach mindestens einer Vorbehandlung",
+      "ids": [
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Myelodysplastische Syndrome mit Deletion 5q und transfusionsbedürftiger Blutarmut (niedriges oder intermediäres Risiko)",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Bestimmte Lymphome nach Vorbehandlung (Mantelzell-Lymphom; follikuläres Lymphom in Kombination mit Rituximab)",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stärkt die körpereigene Abwehr gegen Krebszellen und hemmt deren Wachstum. Lenalidomid bindet an das Protein Cereblon, einen Teil eines Ubiquitin-Ligase-Komplexes, und bewirkt so den Abbau der Transkriptionsfaktoren Ikaros und Aiolos (bei MDS mit Deletion 5q zusätzlich der Casein-Kinase 1α). Daraus folgen ein direkter Zelltod von Myelom- und Lymphomzellen, eine Aktivierung von T- und NK-Zellen sowie eine Hemmung der Gefässneubildung im Tumor.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter, sofern nicht alle Bedingungen des Schwangerschaftsverhütungsprogramms erfüllt sind",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Patientinnen und Patienten, die die vorgeschriebenen Verhütungsmassnahmen nicht einhalten können",
+      "ids": [
+        "verhuetung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Venöse und arterielle Thrombosen (Beinvenenthrombose, Lungenembolie, Herzinfarkt, Schlaganfall), besonders zusammen mit Dexamethason – meist ist eine Thromboseprophylaxe nötig",
+      "ids": [
+        "thrombose",
+        "thromboembolie-vorgeschichte",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Neutropenie und Thrombozytopenie: regelmässige Blutbildkontrollen",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosisanpassung nötig)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Infektionen und Reaktivierung einer Hepatitis B",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Risikofaktoren, Herzinsuffizienz oder früherer Herzinfarkt",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "herzinsuffizienz",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen in der Vorgeschichte, auch unter Thalidomid",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Hohe Tumorlast (Tumorlyse-Syndrom, Tumor-Flare-Reaktion bei Lymphomen)",
+      "ids": [
+        "lymphom",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Zweittumoren (z. B. Hautkrebs, akute Leukämie)",
+      "ids": [
+        "hautkrebs",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenfunktionsstörungen",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Östrogenhaltige Verhütungsmittel und Hormonersatztherapie",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Zusätzlich erhöhtes Thromboserisiko – kombinierte Pille nicht empfohlen, andere sichere Verhütungsmethode wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dexamethason (hoch dosiert)",
+      "ref": [
+        "dexamethason"
+      ],
+      "effekt": "Deutlich erhöhtes Thromboserisiko – Thromboseprophylaxe nach ärztlicher Anordnung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Erythropoese-stimulierende Mittel (z. B. Epoetin, Darbepoetin)",
+      "ref": [
+        "epoetin-alfa",
+        "darbepoetin-alfa"
+      ],
+      "effekt": "Erhöhtes Thromboserisiko – nur mit Vorsicht einsetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden (Rhabdomyolyse) – besonders in den ersten Wochen auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel kann steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann sich verändern (Thrombozytopenie, Krankheitsverlauf) – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Anämie (Blutarmut)",
+      "Infektionen, z. B. Lungenentzündung und Atemwegsinfekte",
+      "Durchfall, Verstopfung, Übelkeit",
+      "Muskelkrämpfe",
+      "Müdigkeit (Fatigue)",
+      "Hautausschlag"
+    ],
+    "haeufig": [
+      "Tiefe Venenthrombose und Lungenembolie",
+      "Fieber bei Neutropenie (febrile Neutropenie) und Sepsis (Blutvergiftung)",
+      "Herzinfarkt, Vorhofflimmern, Herzinsuffizienz",
+      "Akutes Nierenversagen",
+      "Periphere Neuropathie (Nervenschädigung mit Kribbeln oder Taubheit)",
+      "Schilddrüsenunterfunktion",
+      "Zweittumoren (z. B. weisser Hautkrebs, akute myeloische Leukämie)"
+    ],
+    "gelegentlich": [
+      "Tumorlyse-Syndrom (Stoffwechselentgleisung durch rasch zerfallende Tumorzellen)"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "DRESS (Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)",
+      "Reaktivierung einer Hepatitis B",
+      "Akutes Leberversagen, Hepatitis",
+      "Abstossung transplantierter Organe",
+      "Progressive multifokale Leukenzephalopathie (PML, Virusinfektion des Gehirns)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Lenalidomid ist mit Thalidomid verwandt und kann schwere Fehlbildungen verursachen; Frauen im gebärfähigen Alter dürfen es nur im Rahmen des Schwangerschaftsverhütungsprogramms mit zuverlässiger Verhütung und regelmässigen Schwangerschaftstests einnehmen.",
+  "stillzeit": "Nicht stillen: Es ist unbekannt, ob Lenalidomid in die Muttermilch übergeht; während der Behandlung muss abgestillt werden.",
+  "hinweise": [
+    "Frauen im gebärfähigen Alter verhüten zuverlässig ab 4 Wochen vor bis 4 Wochen nach der Behandlung; Männer verwenden während der Behandlung und bis 1 Woche danach Kondome (auch nach Vasektomie).",
+    "Kapseln unzerkaut schlucken, nicht öffnen und nicht weitergeben; nicht gebrauchte Kapseln in der Apotheke zurückgeben. Während der Behandlung und bis 1 Woche danach kein Blut und keinen Samen spenden.",
+    "Regelmässige Blutbildkontrollen. Bei Fieber, Infektzeichen, Atemnot, Brustschmerzen oder einem geschwollenen, schmerzhaften Bein sofort ärztliche Hilfe holen.",
+    "Müdigkeit, Schwindel und verschwommenes Sehen sind möglich – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

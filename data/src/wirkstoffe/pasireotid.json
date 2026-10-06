@@ -1,0 +1,179 @@
+{
+  "id": "pasireotid",
+  "name": "Pasireotid",
+  "synonyme": [
+    "Pasireotide",
+    "Pasireotiddiaspartat",
+    "Pasireotidpamoat"
+  ],
+  "atc": [
+    "H01CB05"
+  ],
+  "klasse": "Somatostatin-Analogon (Multirezeptor-Ligand)",
+  "kurz": "Somatostatin-Analogon zur Behandlung von Morbus Cushing und Akromegalie, wenn eine Operation nicht möglich oder erfolglos war.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "bradykardisierend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Signifor",
+    "Signifor LAR"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (Ampullen)",
+    "Pulver und Lösungsmittel zur Herstellung einer Depot-Injektionssuspension"
+  ],
+  "indikationen": [
+    {
+      "text": "Morbus Cushing (Kortisolüberschuss durch einen Hypophysentumor) bei Erwachsenen, wenn eine Operation nicht möglich ist oder nicht zum Erfolg geführt hat",
+      "ids": [
+        "cushing-syndrom"
+      ]
+    },
+    {
+      "text": "Akromegalie bei Erwachsenen, wenn eine Operation nicht möglich oder nicht heilend war und andere Somatostatin-Analoga nicht ausreichend wirken (Depotform)",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt die Ausschüttung von ACTH und Wachstumshormon aus Tumoren der Hirnanhangsdrüse. Pasireotid ist ein Somatostatin-Analogon, das an mehrere Somatostatin-Rezeptoren bindet, besonders stark an SSTR5. Bei Morbus Cushing hemmt es die ACTH-Bildung des Hypophysentumors und senkt so das Kortisol; bei Akromegalie sinken Wachstumshormon und IGF-1. Durch Hemmung von Insulin und Darmhormonen (Inkretinen) steigt häufig der Blutzucker.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhter Blutzucker und Diabetes: Blutzucker und HbA1c vor und während der Behandlung kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung, langsamer Puls, Herzkrankheiten: EKG vor Beginn; Kalium- und Magnesiummangel vorher ausgleichen",
+      "ids": [
+        "qt-verlaengerung",
+        "bradykardie",
+        "herzrhythmusstoerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Kortisolmangel (Hypocortisolismus) bei Morbus Cushing",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhte Leberwerte: Leberfunktion regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gallensteine: Ultraschallkontrollen der Gallenblase",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Ausfall weiterer Hypophysenhormone (z. B. Schilddrüse)",
+      "ids": [
+        "hypophyseninsuffizienz",
+        "hypothyreose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "QT-verlängernde Mittel (z. B. Antiarrhythmika, Makrolide, bestimmte Antipsychotika) und Mittel, die Kalium oder Magnesium senken",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – nur mit EKG-Kontrollen kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzfrequenzsenkende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "digoxin"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung – Herzfrequenz überwachen, gegebenenfalls Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:dpp4-hemmer",
+        "gruppe:glp1-agonisten"
+      ],
+      "effekt": "Pasireotid erhöht den Blutzucker – Diabetesbehandlung meist anpassen oder intensivieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel können sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bromocriptin",
+      "ref": [
+        "bromocriptin"
+      ],
+      "effekt": "Höhere Bromocriptin-Spiegel möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hyperglykämie (erhöhter Blutzucker), Diabetes mellitus",
+      "Erhöhter HbA1c-Wert",
+      "Durchfall, Übelkeit, Bauchschmerzen",
+      "Gallensteine",
+      "Reaktionen an der Injektionsstelle",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Sinusbradykardie (langsamer Puls), QT-Verlängerung",
+      "Niedriger Blutdruck",
+      "Nebennierenrinden-Insuffizienz (Kortisolmangel)",
+      "Erbrechen, Appetitlosigkeit",
+      "Erhöhte Leber- und Bauchspeicheldrüsenwerte",
+      "Haarausfall, Juckreiz",
+      "Muskel- und Gelenkschmerzen"
+    ],
+    "unbekannt": [
+      "Diabetische Ketoazidose"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit. Weil die Fruchtbarkeit nach Senkung des Kortisols zurückkehren kann, Verhütung besprechen.",
+  "stillzeit": "Stillen wird während der Behandlung nicht empfohlen.",
+  "hinweise": [
+    "Vor Beginn und regelmässig Blutzucker, HbA1c, EKG, Leberwerte und Gallenblase (Ultraschall) kontrollieren.",
+    "Zeichen eines Kortisolmangels (Schwäche, Müdigkeit, Übelkeit, Erbrechen, Schwindel) sofort melden.",
+    "Bei Diabetes kann eine Anpassung oder Intensivierung der Blutzuckertherapie nötig sein."
+  ],
+  "stand": "2026-10"
+}

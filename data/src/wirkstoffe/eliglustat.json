@@ -1,0 +1,190 @@
+{
+  "id": "eliglustat",
+  "name": "Eliglustat",
+  "synonyme": [
+    "Eliglustattartrat",
+    "Eliglustat tartrate"
+  ],
+  "atc": [
+    "A16AX10"
+  ],
+  "klasse": "Glucosylceramid-Synthase-Hemmer (Substratreduktionstherapie)",
+  "kurz": "Hemmt die Bildung der bei Morbus Gaucher Typ 1 gespeicherten Fettstoffe; Kapsel zur Langzeitbehandlung, abhängig vom CYP2D6-Genotyp.",
+  "gruppen": [
+    "cyp2d6-substrate",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Cerdelga"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Langzeitbehandlung von Erwachsenen mit Morbus Gaucher Typ 1, die langsame, intermediäre oder normale CYP2D6-Metabolisierer sind",
+      "ids": [
+        "seltene-stoffwechselkrankheit",
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert die Bildung von Glucosylceramid, das sich bei Morbus Gaucher in Milz, Leber und Knochenmark anhäuft. Eliglustat hemmt spezifisch die Glucosylceramid-Synthase, das erste Enzym der Glykosphingolipid-Bildung (Substratreduktion). Dadurch gehen Milz- und Lebervergrösserung zurück, und Hämoglobin und Blutplättchen steigen. Abgebaut wird es vor allem über CYP2D6 und CYP3A4, weshalb vor Beginn der CYP2D6-Genotyp bestimmt wird.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz bei normalen CYP2D6-Metabolisierern",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichte oder mittelschwere Leberinsuffizienz bei normalen CYP2D6-Metabolisierern, die gleichzeitig einen starken oder mässigen CYP2D6-Hemmer einnehmen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzerkrankungen (Herzinsuffizienz, kürzlicher Herzinfarkt, langsamer Puls, AV-Block, ventrikuläre Rhythmusstörungen) und angeborenes langes QT-Syndrom: Anwendung nicht empfohlen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "bradykardie",
+        "av-block",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Ultraschnelle oder unbestimmte CYP2D6-Metabolisierer: nicht anwenden (keine ausreichende Wirkung)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Mittelschwere Leberinsuffizienz: bei langsamen und intermediären Metabolisierern nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Terminale Niereninsuffizienz: nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol) bei langsamen CYP2D6-Metabolisierern sowie bei normalen oder intermediären Metabolisierern, die zusätzlich einen CYP2D6-Hemmer einnehmen",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Stark erhöhte Eliglustat-Spiegel – Gefahr von PR-, QRS- und QT-Verlängerung und Herzrhythmusstörungen."
+    },
+    {
+      "text": "Kombination eines starken oder mässigen CYP2D6-Hemmers (z. B. Paroxetin, Fluoxetin) mit einem mässigen CYP3A4-Hemmer (z. B. Fluconazol, Diltiazem) bei normalen oder intermediären CYP2D6-Metabolisierern",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "grund": "Beide Abbauwege werden gleichzeitig gehemmt – stark erhöhte Spiegel mit Gefahr von Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Eliglustat-Spiegel steigen – je nach CYP2D6-Status kontraindiziert oder nur mit Vorsicht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion, Terbinafin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Eliglustat-Spiegel steigen – Dosisanpassung nötig, mit CYP3A4-Hemmern kontraindiziert.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Eliglustat-Spiegel sinken stark, Wirkung geht verloren – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika der Klasse IA und III (z. B. Chinidin, Amiodaron, Sotalol)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Zusätzliche Wirkung auf die Erregungsleitung im Herzen (QT-Verlängerung) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Erythromycin, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Eliglustat-Spiegel steigen – je nach CYP2D6-Status Vorsicht oder Anwendung nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran, Colchicin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin",
+        "colchicin"
+      ],
+      "effekt": "Eliglustat hemmt P-gp – Spiegel steigen; Dosis reduzieren, Digoxinspiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate (z. B. Metoprolol, trizyklische Antidepressiva, einige Antipsychotika)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Eliglustat hemmt CYP2D6 – Spiegel dieser Mittel steigen; ggf. tiefere Dosis.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmen CYP3A4 und erhöhen die Eliglustat-Spiegel – meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Geschmacksstörung",
+      "Palpitationen (Herzklopfen)",
+      "Halsreizung",
+      "Dyspepsie (Verdauungsbeschwerden), Oberbauchschmerzen, Sodbrennen",
+      "Durchfall, Übelkeit, Verstopfung, Blähungen",
+      "Gelenkschmerzen",
+      "Müdigkeit"
+    ]
+  },
+  "schwangerschaft": "Vorsichtshalber in der Schwangerschaft vermeiden.",
+  "stillzeit": "Ein Risiko für den Säugling ist nicht auszuschliessen; über Stillen oder Behandlung wird nach ärztlicher Abwägung entschieden.",
+  "hinweise": [
+    "Vor Beginn wird mit einem Gentest bestimmt, wie schnell das Enzym CYP2D6 arbeitet; davon hängen Eignung und Dosis ab.",
+    "Grapefruit und Grapefruitsaft meiden.",
+    "Vor jedem neuen Medikament (auch rezeptfreie und pflanzliche Mittel wie Johanniskraut) ärztlich oder in der Apotheke nachfragen: viele Wechselwirkungen.",
+    "Kapseln ganz schlucken, mit oder ohne Essen."
+  ],
+  "stand": "2026-10"
+}

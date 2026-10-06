@@ -1,0 +1,230 @@
+{
+  "id": "imatinib",
+  "name": "Imatinib",
+  "synonyme": [
+    "Imatinibmesilat",
+    "STI571"
+  ],
+  "atc": [
+    "L01EA01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BCR-ABL-, KIT- und PDGFR-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel (Tyrosinkinase-Hemmer) gegen chronische myeloische Leukämie, GIST und einige seltene Blut- und Hauttumoren.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "maessige-cyp3a4-hemmer",
+    "myelosuppressiv",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Glivec",
+    "Imatinib Sandoz",
+    "Imatinib Teva"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Philadelphia-Chromosom-positive chronische myeloische Leukämie (CML) bei Erwachsenen und Kindern",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Philadelphia-Chromosom-positive akute lymphatische Leukämie (ALL), auch in Kombination mit Chemotherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Gastrointestinale Stromatumoren (GIST) mit KIT-Expression: bei Inoperabilität oder Metastasen sowie nach Operation zur Rückfallvorbeugung",
+      "ids": [
+        "sarkom"
+      ]
+    },
+    {
+      "text": "Myelodysplastische/myeloproliferative Erkrankungen mit PDGFR-Genveränderungen, hypereosinophiles Syndrom und chronische Eosinophilenleukämie",
+      "ids": [
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Dermatofibrosarcoma protuberans (seltener Hauttumor), wenn nicht operabel oder metastasiert",
+      "ids": [
+        "sarkom",
+        "hautkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt ein fehlgesteuertes Wachstumssignal in Krebszellen. Imatinib hemmt die Tyrosinkinase BCR-ABL, die durch das Philadelphia-Chromosom entsteht und die unkontrollierte Vermehrung der Leukämiezellen antreibt. Ausserdem hemmt es die Rezeptor-Tyrosinkinasen KIT (CD117) und PDGFR, die bei GIST bzw. bestimmten myeloproliferativen Erkrankungen dauerhaft aktiviert sind. Die betroffenen Zellen hören auf, sich zu teilen, und sterben ab.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leberfunktion; Leberschädigung möglich – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen oder Herzschwäche (Flüssigkeitseinlagerung); hypereosinophiles Syndrom mit Herzbeteiligung",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Trägerschaft: Reaktivierung möglich – vor Beginn testen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Nach Schilddrüsenentfernung unter Levothyroxin: TSH kontrollieren",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Wachstumsverzögerung möglich – Wachstum überwachen",
+      "ids": [
+        "kinder",
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "GIST: Blutungen im Magen-Darm-Trakt oder im Tumor",
+      "ids": [
+        "aktive-blutung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut, Dexamethason)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Deutlich tiefere Imatinib-Spiegel – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Simvastatin, Ciclosporin, Pimozid, Fentanyl, Ergotamin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "simvastatin",
+        "ciclosporin"
+      ],
+      "effekt": "Imatinib hemmt CYP3A4 und erhöht deren Spiegel (Simvastatin etwa 3,5-fach) – Vorsicht, Dosis anpassen, Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung möglich – bei Bedarf eher niedermolekulares Heparin verwenden, sonst INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir; Grapefruitsaft)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Imatinib-Spiegel – mehr Nebenwirkungen; Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paracetamol",
+      "ref": [
+        "paracetamol"
+      ],
+      "effekt": "Imatinib hemmt den Abbau (Glucuronidierung) von Paracetamol – Vorsicht bei höheren Dosen und Dauergebrauch (Leber).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levothyroxin nach Schilddrüsenentfernung",
+      "ref": [
+        "levothyroxin"
+      ],
+      "effekt": "Tiefere Levothyroxin-Wirkung – TSH kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate (z. B. Metoprolol)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Leicht höhere Spiegel (Metoprolol etwa +23 %) – meist ohne Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Thrombozytopenie, Anämie",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen, Durchfall, Dyspepsie (Verdauungsbeschwerden), Bauchschmerzen",
+      "Ödeme (Wassereinlagerungen), v. a. um die Augen, Gewichtszunahme",
+      "Hautausschlag, Dermatitis, Ekzem",
+      "Muskelkrämpfe, Muskel-, Knochen- und Gelenkschmerzen",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie, Panzytopenie",
+      "Appetitlosigkeit, Schlaflosigkeit",
+      "Schwindel, Kribbeln, Geschmacksstörungen",
+      "Lidschwellung, vermehrter Tränenfluss, Bindehautblutung, verschwommenes Sehen",
+      "Atemnot, Nasenbluten, Husten",
+      "Blähungen, Verstopfung, Reflux, Mundtrockenheit",
+      "Erhöhte Leberwerte",
+      "Juckreiz, trockene Haut, Haarausfall, nächtliches Schwitzen, Lichtempfindlichkeit"
+    ],
+    "gelegentlich": [
+      "Herzschwäche, Lungenödem, Herzklopfen",
+      "Magen-Darm-Blutungen, Magengeschwür",
+      "Hepatitis, Gelbsucht",
+      "Pleuraerguss",
+      "Akutes Nierenversagen",
+      "Hypokaliämie, Hyponatriämie, Hypophosphatämie",
+      "Gürtelrose (Herpes zoster), Lungenentzündung, Sepsis",
+      "Subdurales Hämatom (Blutung unter der harten Hirnhaut)"
+    ],
+    "selten": [
+      "Leberversagen, Lebernekrose",
+      "Herzrhythmusstörungen, Vorhofflimmern, Herzinfarkt, Perikarderguss",
+      "Hämolytische Anämie",
+      "Krampfanfälle, Sehnerventzündung",
+      "Darmverschluss, Kolitis",
+      "Angioödem",
+      "Lungenfibrose"
+    ],
+    "unbekannt": [
+      "Hepatitis-B-Reaktivierung",
+      "Tumorlyse-Syndrom",
+      "Stevens-Johnson-Syndrom, DRESS (schwere Arzneimittelreaktion mit Hautausschlag)",
+      "Wachstumsverzögerung bei Kindern",
+      "Thrombose, Embolie",
+      "Anaphylaktischer Schock"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit anwenden (im Tierversuch fruchtschädigend, Fehlbildungsberichte beim Menschen). Frauen im gebärfähigen Alter müssen während der Behandlung sicher verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 15 Tage nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Mit einer Mahlzeit und einem grossen Glas Wasser einnehmen (weniger Magenbeschwerden); Grapefruit meiden.",
+    "Regelmässig wiegen: rasche Gewichtszunahme oder Schwellungen melden (Flüssigkeitseinlagerung).",
+    "Blutbild und Leberwerte werden regelmässig kontrolliert; vor Beginn Test auf Hepatitis B.",
+    "Kann Schwindel und verschwommenes Sehen verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,213 @@
+{
+  "id": "timolol",
+  "name": "Timolol",
+  "synonyme": [
+    "Timololmaleat",
+    "Timolol maleate"
+  ],
+  "atc": [
+    "S01ED01",
+    "C07AA06"
+  ],
+  "klasse": "Betablocker (nicht selektiv); Glaukommittel",
+  "kurz": "Betablocker-Augentropfen gegen grünen Star (Glaukom) und erhöhten Augeninnendruck; kann auch auf Herz und Bronchien wirken.",
+  "gruppen": [
+    "betablocker",
+    "bradykardisierend",
+    "blutdrucksenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Timoptic",
+    "Nyogel",
+    "Cosopt (Kombi)",
+    "Xalacom (Kombi)",
+    "Ganfort (Kombi)",
+    "DuoTrav (Kombi)",
+    "Combigan (Kombi)",
+    "Azarga (Kombi)",
+    "Taptiqom (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Augentropfen",
+    "Augengel"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhöhter Augeninnendruck bei okulärer Hypertension und chronischem Offenwinkelglaukom",
+      "ids": [
+        "glaukom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Augeninnendruck, indem weniger Kammerwasser gebildet wird. Timolol ist ein nicht selektiver Betablocker ohne eigene sympathomimetische Aktivität; es blockiert Beta-1- und Beta-2-Rezeptoren im Ziliarkörper und drosselt so die Kammerwasserproduktion. Auch als Augentropfen gelangt ein Teil über die Nasen- und Rachenschleimhaut in den Kreislauf und kann Puls, Blutdruck und Bronchien beeinflussen. Abgebaut wird Timolol hauptsächlich über das Leberenzym CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma bronchiale (auch in der Vorgeschichte), schwere COPD oder andere Atemwegserkrankungen mit Neigung zu Bronchospasmus",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (Sinusbradykardie), Sinusknotensyndrom, SA-Block oder AV-Block 2. oder 3. Grades ohne Herzschrittmacher",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Nicht kompensierte (manifeste) Herzinsuffizienz, kardiogener Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten (koronare Herzkrankheit, Prinzmetal-Angina, kompensierte Herzinsuffizienz, AV-Block 1. Grades) und tiefer Blutdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinsuffizienz",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere Durchblutungsstörungen der Arme und Beine (Raynaud-Syndrom, pAVK)",
+      "ids": [
+        "raynaud",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Diabetes mit Neigung zu Unterzuckerung sowie Schilddrüsenüberfunktion: Warnzeichen können verdeckt werden",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Muskelschwäche kann zunehmen)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere allergische Reaktionen in der Vorgeschichte: Reaktionen können stärker ausfallen und schlechter auf Adrenalin ansprechen",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Geplante Operation mit Narkose: Anästhesieteam über die Betablocker-Augentropfen informieren",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Hornhauterkrankungen und trockenes Auge; Kontaktlinsen vor dem Eintropfen herausnehmen",
+      "ids": [
+        "trockenes-auge",
+        "kontaktlinsen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Additive Verlangsamung von Herzschlag und Reizleitung, Blutdruckabfall und Herzschwäche möglich – Puls und Blutdruck überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker zum Einnehmen oder andere Betablocker-Augentropfen",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz, Blutdruck und Augeninnendruck – zwei Betablocker-Augentropfen nicht kombinieren, bei Tabletten den Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron) und Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung und Reizleitungsstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Chinidin, Fluoxetin, Paroxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Höhere Timolol-Spiegel im Blut; verstärkte Betablockade mit langsamem Puls ist beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin",
+      "ref": [
+        "clonidin"
+      ],
+      "effekt": "Beim Absetzen von Clonidin kann der Blutdruck unter Betablockern stark ansteigen (Rebound).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin",
+      "ref": [
+        "adrenalin"
+      ],
+      "effekt": "Pupillenerweiterung möglich; bei schwerer allergischer Reaktion wirkt Adrenalin unter Betablockern schwächer.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Insulin und orale Antidiabetika",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verdeckt werden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Augenreizung (Brennen, Stechen, Rötung), trockenes Auge, verminderte Hornhautempfindlichkeit",
+      "Sehstörungen, Doppelbilder, hängendes Augenlid; Aderhautabhebung nach Glaukomoperation",
+      "Langsamer Puls (Bradykardie), Herzrhythmusstörungen, AV-Block, Herzinsuffizienz",
+      "Tiefer Blutdruck, kalte Hände und Füsse, Raynaud-Syndrom",
+      "Bronchospasmus (v. a. bei Asthma), Atemnot",
+      "Müdigkeit, Schwindel, Kopfschmerzen, Depression, Schlafstörungen",
+      "Verdeckte Unterzuckerung, Verstärkung einer Myasthenia gravis",
+      "Allergische Reaktionen bis Anaphylaxie, Hautausschlag, Verschlechterung einer Psoriasis"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn es ärztlich klar notwendig ist. Bei Anwendung bis zur Geburt das Neugeborene in den ersten Lebenstagen auf langsamen Puls, Unterzuckerung und Atemprobleme überwachen.",
+  "stillzeit": "Timolol geht in die Muttermilch über; bei Augentropfen in üblicher Dosierung sind Wirkungen beim Säugling unwahrscheinlich. Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nach dem Eintropfen das Auge 1–2 Minuten schliessen und den inneren Augenwinkel sanft zudrücken – so gelangt weniger Wirkstoff ins Blut.",
+    "Bei Asthma, Herzkrankheiten oder vor einer Operation die Anwendung der Augentropfen ärztlich angeben.",
+    "Bei mehreren Augenmitteln mindestens 5–10 Minuten Abstand einhalten; Augengel zuletzt anwenden."
+  ],
+  "stand": "2026-10"
+}

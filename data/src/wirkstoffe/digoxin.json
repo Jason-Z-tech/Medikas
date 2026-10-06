@@ -1,0 +1,76 @@
+{
+  "id": "digoxin",
+  "name": "Digoxin",
+  "synonyme": ["Digoxinum", "Digitalis", "Herzglykosid"],
+  "atc": ["C01AA05"],
+  "klasse": "Herzglykosid (Digitalisglykosid)",
+  "kurz": "Herzmittel aus der Fingerhut-Gruppe: verlangsamt den Puls bei Vorhofflimmern und stärkt die Pumpkraft bei Herzschwäche.",
+  "gruppen": ["herzglykoside", "p-gp-substrate-eng", "bradykardisierend"],
+  "handelsnamen": ["Digoxin Sandoz"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Injektionslösung"],
+  "indikationen": [
+    { "text": "Chronische Herzinsuffizienz, vor allem bei gleichzeitigem Vorhofflimmern mit schnellem Puls oder wenn trotz Standardtherapie Beschwerden bestehen", "ids": ["herzinsuffizienz"] },
+    { "text": "Vorhofflimmern und Vorhofflattern zur Senkung der Herzfrequenz", "ids": ["vorhofflimmern"] },
+    { "text": "Bestimmte supraventrikuläre Tachykardien (anfallsweises Herzrasen aus den Vorhöfen)", "ids": ["herzrhythmusstoerung"] }
+  ],
+  "wirkmechanismus": "Verlangsamt einen zu schnellen Puls und verstärkt die Pumpkraft des Herzmuskels. Digoxin hemmt die Natrium-Kalium-Pumpe (Na+/K+-ATPase) der Herzmuskelzellen; dadurch steigt über den Natrium-Calcium-Austauscher die Calciumkonzentration in der Zelle, was die Kontraktionskraft erhöht (positiv inotrop). Zusätzlich verstärkt Digoxin den Einfluss des Vagusnervs und verlangsamt so die Überleitung im AV-Knoten, wodurch bei Vorhofflimmern weniger Impulse auf die Herzkammern übertragen werden. Die therapeutische Breite ist sehr eng; Digoxin wird überwiegend unverändert über die Niere ausgeschieden.",
+  "kontraindikationen": [
+    { "text": "Digitalisvergiftung oder Herzrhythmusstörungen, die durch Herzglykoside verursacht sind", "ids": ["vergiftung", "herzrhythmusstoerung"] },
+    { "text": "AV-Block 2. oder 3. Grades und intermittierender kompletter Herzblock, sofern kein Herzschrittmacher vorhanden ist", "ids": ["av-block"] },
+    { "text": "Sinusknotensyndrom oder sinuatrialer Block ohne Herzschrittmacher", "ids": ["bradykardie"] },
+    { "text": "Ventrikuläre Tachykardie oder Kammerflimmern", "ids": ["herzrhythmusstoerung"] },
+    { "text": "Wolff-Parkinson-White-Syndrom (zusätzliche Leitungsbahn), besonders mit Vorhofflimmern", "ids": ["herzrhythmusstoerung", "vorhofflimmern"] },
+    { "text": "Hypertrophe obstruktive Kardiomyopathie (ausser bei gleichzeitigem Vorhofflimmern mit Herzinsuffizienz)", "ids": ["kardiomyopathie"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosis anpassen und Digoxinspiegel kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Ältere Menschen (häufig verminderte Nierenfunktion und erhöhte Empfindlichkeit)", "ids": ["aeltere-patienten"] },
+    { "text": "Kaliummangel, Magnesiummangel oder erhöhtes Calcium: steigern die Giftigkeit von Digoxin", "ids": ["hypokaliaemie", "magnesiummangel", "hyperkalzaemie"] },
+    { "text": "Schilddrüsenerkrankungen (Unterfunktion erhöht, Überfunktion vermindert die Empfindlichkeit)", "ids": ["hypothyreose", "hyperthyreose"] },
+    { "text": "Frischer Herzinfarkt, Herzmuskelentzündung oder Amyloidose des Herzens", "ids": ["herzinfarkt", "kardiomyopathie"] },
+    { "text": "Schwere Lungenerkrankung mit Sauerstoffmangel (erhöhte Empfindlichkeit des Herzens)", "ids": ["copd"] },
+    { "text": "Geplante Elektrokardioversion (Gefahr von Kammerrhythmusstörungen)", "ids": ["herzrhythmusstoerung"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "P-Glykoprotein-Hemmer (z. B. Amiodaron, Dronedaron, Verapamil, Clarithromycin, Itraconazol, Ciclosporin, Propafenon)", "ref": ["gruppe:p-gp-hemmer", "amiodaron", "dronedaron", "verapamil", "propafenon"], "effekt": "Digoxinspiegel steigt deutlich (z. B. bei Amiodaron oder Dronedaron etwa auf das Doppelte) – Digoxindosis reduzieren, Spiegel und EKG kontrollieren.", "schwere": "schwer" },
+    { "text": "Kaliumsenkende Mittel (Schleifen- und Thiaziddiuretika, Glukokortikoide, Abführmittel, Amphotericin B)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Kaliummangel macht das Herz empfindlicher für Digoxin – Rhythmusstörungen möglich; Kalium regelmässig kontrollieren.", "schwere": "schwer" },
+    { "text": "Calcium intravenös", "ref": ["calcium"], "effekt": "Schwere Herzrhythmusstörungen möglich – bei digitalisierten Patienten Calcium nicht schnell intravenös geben.", "schwere": "schwer" },
+    { "text": "Betablocker, Verapamil, Diltiazem, Ivabradin und andere pulsverlangsamende Mittel", "ref": ["gruppe:betablocker", "gruppe:nicht-dhp-calciumantagonisten", "gruppe:bradykardisierend"], "effekt": "Verstärkte Pulsverlangsamung und AV-Block möglich – Herzfrequenz und EKG überwachen.", "schwere": "mittel" },
+    { "text": "P-Glykoprotein-Induktoren (Rifampicin, Johanniskraut)", "ref": ["gruppe:p-gp-induktoren"], "effekt": "Digoxinspiegel sinkt, Wirkung lässt nach – Spiegel kontrollieren, auch nach Absetzen des Induktors.", "schwere": "mittel" },
+    { "text": "Suxamethonium", "ref": ["suxamethonium"], "effekt": "Herzrhythmusstörungen möglich.", "schwere": "mittel" },
+    { "text": "Sympathomimetika (z. B. Adrenalin, Noradrenalin)", "ref": ["gruppe:sympathomimetika"], "effekt": "Erhöhte Gefahr von Herzrhythmusstörungen.", "schwere": "mittel" },
+    { "text": "Ticagrelor, Ranolazin, Mirabegron, Spironolacton", "ref": ["ticagrelor", "ranolazin", "mirabegron", "spironolacton"], "effekt": "Leicht erhöhte Digoxinspiegel möglich – Spiegel kontrollieren.", "schwere": "leicht" },
+    { "text": "Antazida, Colestyramin, Kaolin, Sucralfat", "ref": ["gruppe:antazida", "colestyramin", "sucralfat"], "effekt": "Verminderte Aufnahme von Digoxin – zeitlich versetzt einnehmen (mindestens 2 Stunden Abstand).", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Übelkeit, Erbrechen, Durchfall",
+      "Schwindel und andere Störungen des Nervensystems",
+      "Sehstörungen (verschwommenes Sehen, Gelb- oder Grünsehen)",
+      "Herzrhythmusstörungen (z. B. Extraschläge, Bigeminus), Bradykardie (verlangsamter Herzschlag) und Leitungsstörungen",
+      "Hautausschlag (Nesselsucht-artig oder scharlachartig)"
+    ],
+    "gelegentlich": ["Depression"],
+    "sehrSelten": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Appetitlosigkeit",
+      "Verwirrtheit, Apathie, Psychose",
+      "Kopfschmerzen",
+      "Gefährliche Herzrhythmusstörungen (Vorhof- und Kammertachykardien)",
+      "Durchblutungsstörung oder Absterben von Darmabschnitten (Darmischämie)",
+      "Gynäkomastie (Brustvergrösserung beim Mann) bei Langzeitbehandlung",
+      "Müdigkeit, Schwäche, Unwohlsein"
+    ]
+  },
+  "schwangerschaft": "Kann in der Schwangerschaft angewendet werden, wenn es nötig ist; Digoxin gelangt zum Kind. Der Spiegel muss überwacht werden, da sich der Bedarf ändern kann.",
+  "stillzeit": "Geht nur in geringer Menge in die Muttermilch über; Stillen ist erlaubt.",
+  "hinweise": [
+    "Regelmässige Kontrollen von Digoxinspiegel, Kalium und Nierenfunktion sind wichtig.",
+    "Warnzeichen einer Überdosierung: Übelkeit, Appetitlosigkeit, Sehstörungen (Gelb- oder Grünsehen), Verwirrtheit, sehr langsamer oder unregelmässiger Puls – sofort ärztlich melden.",
+    "Antazida und Colestyramin mit mindestens 2 Stunden Abstand einnehmen; keine Johanniskraut-Präparate.",
+    "Jedes neue Medikament, auch Antibiotika, ärztlich auf Wechselwirkungen prüfen lassen."
+  ],
+  "stand": "2026-10"
+}

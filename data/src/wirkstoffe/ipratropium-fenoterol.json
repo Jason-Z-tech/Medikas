@@ -1,0 +1,214 @@
+{
+  "id": "ipratropium-fenoterol",
+  "name": "Ipratropium + Fenoterol",
+  "synonyme": [
+    "Ipratropiumbromid + Fenoterolhydrobromid",
+    "Fenoterol/ipratropium"
+  ],
+  "kombinationAus": [
+    "ipratropium",
+    "fenoterol"
+  ],
+  "atc": [
+    "R03AL01"
+  ],
+  "klasse": "Inhalative Fixkombination: kurz wirksames Anticholinergikum (SAMA) + kurz wirksames Beta-2-Sympathomimetikum (SABA)",
+  "kurz": "Rasch wirksamer Bronchienerweiterer zum Inhalieren bei Atemnot durch Asthma oder COPD; kombiniert zwei unterschiedlich wirkende Wirkstoffe.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "muskarinantagonisten-inhalativ",
+    "anticholinerg",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Berodual"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol",
+    "Lösung zur Inhalation (für Vernebler)"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung und Behandlung von Atemnot durch Verkrampfung der Bronchien bei Asthma bronchiale",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Atemnot bei chronisch obstruktiver Lungenerkrankung (COPD: chronisch obstruktive Bronchitis mit oder ohne Lungenemphysem)",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert verengte Bronchien rasch über zwei verschiedene Mechanismen. Ipratropium blockiert die Muskarinrezeptoren der Bronchialmuskulatur und verhindert so die verengende Wirkung des Nervenbotenstoffs Acetylcholin. Fenoterol stimuliert die Beta-2-Rezeptoren und entspannt dadurch die Bronchialmuskulatur. Die Kombination wirkt innerhalb weniger Minuten; die Wirkung hält einige Stunden an.",
+  "kontraindikationen": [
+    {
+      "text": "Hypertrophe obstruktive Kardiomyopathie (Herzmuskelverdickung mit Abflussbehinderung)",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Tachyarrhythmie (schnelle Herzrhythmusstörung)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Atropin oder atropinähnliche Substanzen",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Engwinkelglaukom: Sprühnebel nicht in die Augen bringen (Gefahr eines akuten Glaukomanfalls)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Harnabflussstörungen, z. B. bei Prostatavergrösserung",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten: koronare Herzkrankheit, kürzlich durchgemachter Herzinfarkt, Herzinsuffizienz, Herzrhythmusstörungen – bei Brustschmerzen ärztlich abklären",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt",
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Ungenügend eingestellter Diabetes, Schilddrüsenüberfunktion, Phäochromozytom, schwerer Bluthochdruck",
+      "ids": [
+        "diabetes",
+        "hyperthyreose",
+        "phaeochromozytom",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Hypokaliämie (Kaliummangel), besonders bei schwerem Asthma – Kalium kontrollieren",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Zystische Fibrose (Mukoviszidose): Störungen der Darmbeweglichkeit möglich",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    },
+    {
+      "text": "Asthma: Bei regelmässigem oder zunehmendem Bedarf ist eine entzündungshemmende Dauertherapie nötig",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung; bei Asthma können Betablocker schwere Bronchospasmen auslösen – möglichst meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Beta-Sympathomimetika, Anticholinergika und Theophyllin",
+      "ref": [
+        "gruppe:beta2-sympathomimetika",
+        "gruppe:sympathomimetika",
+        "gruppe:anticholinerg",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Wirkungen und Nebenwirkungen (Herzrasen, Zittern, Mundtrockenheit) können sich verstärken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung von Fenoterol auf Herz und Kreislauf – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, systemische Glukokortikoide, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Kaliumsenkung – Kalium kontrollieren, besonders bei schwerem Asthma.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein erniedrigtes Kalium erhöht das Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkose mit halogenierten Inhalationsanästhetika",
+      "ref": [
+        "isofluran",
+        "sevofluran",
+        "desfluran"
+      ],
+      "effekt": "Verstärkte Wirkung auf das Herz mit Risiko für Herzrhythmusstörungen – vor einer Operation die Anwendung angeben.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Husten"
+    ],
+    "gelegentlich": [
+      "Kopfschmerzen, Schwindel",
+      "Zittern (Tremor), Nervosität",
+      "Herzrasen (Tachykardie), Herzklopfen",
+      "Rachenentzündung, Heiserkeit",
+      "Übelkeit, Erbrechen, Mundtrockenheit",
+      "Anstieg des oberen (systolischen) Blutdrucks"
+    ],
+    "selten": [
+      "Herzrhythmusstörungen (z. B. Vorhofflimmern), Durchblutungsstörung des Herzmuskels (Myokardischämie)",
+      "Paradoxer Bronchospasmus, Kehlkopfkrampf, Rachenreizung",
+      "Nesselsucht, Hautausschlag, Juckreiz, Angioödem",
+      "Harnverhalt",
+      "Muskelkrämpfe, Muskelschwäche, Muskelschmerzen",
+      "Mundschleimhautentzündung, Durchfall, Verstopfung"
+    ],
+    "unbekannt": [
+      "Hypokaliämie (Kaliummangel)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Augenbeschwerden: verschwommenes Sehen, erweiterte Pupillen, erhöhter Augeninnendruck, akutes Glaukom",
+      "Unruhe, psychische Störungen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Nutzen-Risiko-Abwägung, besonders im 1. Drittel. Fenoterol kann gegen Ende der Schwangerschaft die Wehentätigkeit hemmen.",
+  "stillzeit": "Fenoterol geht in die Muttermilch über; für Ipratropium fehlen Daten. Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Bei plötzlich zunehmender Atemnot oder ungenügender Wirkung sofort ärztliche Hilfe holen – nicht eigenmächtig höher dosieren.",
+    "Sprühnebel und Inhalationslösung nicht in die Augen bringen; bei Augenschmerzen, verschwommenem Sehen, Farbringen um Lichter oder geröteten Augen sofort ärztliche Hilfe holen (Glaukomanfall).",
+    "Wer das Spray regelmässig braucht, benötigt bei Asthma zusätzlich eine entzündungshemmende Dauertherapie."
+  ],
+  "stand": "2026-10"
+}

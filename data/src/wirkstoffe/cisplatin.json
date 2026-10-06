@@ -1,0 +1,267 @@
+{
+  "id": "cisplatin",
+  "name": "Cisplatin",
+  "synonyme": [
+    "Cisplatin",
+    "cis-Diamminodichloroplatin",
+    "CDDP"
+  ],
+  "atc": [
+    "L01XA01"
+  ],
+  "klasse": "Zytostatikum (Platinverbindung)",
+  "kurz": "Klassisches Chemotherapeutikum als Infusion gegen viele solide Tumoren, z. B. Hoden-, Lungen-, Blasen- und Eierstockkrebs.",
+  "gruppen": [
+    "zytostatika",
+    "platinderivate",
+    "myelosuppressiv",
+    "nephrotoxisch",
+    "ototoxisch",
+    "neuropathie-ausloesend",
+    "hypomagnesiaemie-ausloesend",
+    "hypokaliaemie-ausloesend",
+    "hyponatriaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Cisplatin Teva",
+    "Cisplatin Accord"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Hodenkrebs",
+      "ids": [
+        "hodenkrebs"
+      ]
+    },
+    {
+      "text": "Eierstockkrebs und Gebärmutterhalskrebs (Letzterer auch zusammen mit Bestrahlung)",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Blasenkrebs",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Kleinzelliger und nicht-kleinzelliger Lungenkrebs",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Plattenepithelkarzinome im Kopf-Hals-Bereich",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt das Erbgut von Krebszellen, sodass sie sich nicht mehr teilen können. Cisplatin bildet in der Zelle reaktive Platinkomplexe, die die DNA-Stränge quer und innerhalb eines Strangs vernetzen. Dadurch werden DNA-Verdoppelung und Ablesung blockiert und der programmierte Zelltod ausgelöst. Betroffen sind vor allem sich schnell teilende Zellen; Cisplatin wird über die Niere ausgeschieden und reichert sich dort an.",
+  "kontraindikationen": [
+    {
+      "text": "Vorbestehende eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorbestehende Hörstörungen",
+      "ids": [
+        "hoerstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Knochenmarkhemmung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel (Dehydratation)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nierenschädigung: vor und nach jeder Gabe reichlich Flüssigkeit (Hydratation), Nierenwerte und Elektrolyte kontrollieren",
+      "ids": [
+        "niereninsuffizienz",
+        "magnesiummangel",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Gehörschäden, besonders bei Kindern: Hörtest vor und während der Therapie",
+      "ids": [
+        "hoerstoerung",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Nervenschäden (Polyneuropathie): Kribbeln, Taubheit an Händen und Füssen",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Starke Übelkeit und Erbrechen: vorbeugende Antiemetika sind nötig",
+      "ids": [
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Infektionen bei Blutbildveränderungen",
+      "ids": [
+        "aktive-infektion",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufiger Nieren- und Nervenschäden)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieberimpfung und andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe",
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Durch die Immunschwächung kann sich das abgeschwächte Impfvirus ausbreiten – Gefahr einer lebensbedrohlichen Impfinfektion."
+    },
+    {
+      "text": "Phenytoin zur vorbeugenden Krampfbehandlung",
+      "ref": [
+        "phenytoin"
+      ],
+      "grund": "Cisplatin senkt den Phenytoin-Spiegel, sodass der Krampfschutz unzuverlässig wird."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Vancomycin, jodhaltige Kontrastmittel)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "amphotericin-b",
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – möglichst vermeiden, Nierenwerte eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere gehörschädigende Mittel (z. B. Aminoglykoside, Schleifendiuretika wie Furosemid)",
+      "ref": [
+        "gruppe:ototoxisch",
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Verstärkte Gehörschädigung – nur mit Vorsicht, Hörkontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiepileptika (z. B. Phenytoin, Carbamazepin, Valproinsäure)",
+      "ref": [
+        "gruppe:antiepileptika"
+      ],
+      "effekt": "Spiegel der Antiepileptika können sinken – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Bestrahlung",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Stärkere Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende Gerinnungswerte – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paclitaxel",
+      "ref": [
+        "paclitaxel"
+      ],
+      "effekt": "Wird Cisplatin vor Paclitaxel gegeben, ist die Knochenmarkhemmung stärker – Paclitaxel zuerst geben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithiumspiegel kann sich verändern – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Nierenschädigung (Anstieg von Kreatinin und Harnstoff)",
+      "Übelkeit und Erbrechen",
+      "Knochenmarkhemmung (Leukopenie, Thrombozytopenie, Anämie)",
+      "Elektrolytstörungen (Mangel an Magnesium, Kalium, Natrium, Calcium)",
+      "Hyperurikämie (erhöhte Harnsäure)",
+      "Fieber"
+    ],
+    "haeufig": [
+      "Hörverlust (v. a. hohe Töne) und Tinnitus (Ohrgeräusche)",
+      "Periphere Neuropathie (Kribbeln, Taubheit)",
+      "Infektionen, Sepsis",
+      "Herzrhythmusstörungen, Bradykardie",
+      "Venenentzündung an der Einstichstelle"
+    ],
+    "gelegentlich": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Hypomagnesiämie mit Krämpfen"
+    ],
+    "selten": [
+      "Akute Leukämie als Spätfolge",
+      "Krampfanfälle",
+      "Herzinfarkt"
+    ],
+    "sehrSelten": [
+      "Herzstillstand"
+    ],
+    "unbekannt": [
+      "Hämolytische Anämie",
+      "Thromboembolien",
+      "Sehstörungen, Sehnervenentzündung",
+      "Syndrom der inadäquaten ADH-Sekretion (SIADH, Natriummangel)",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit, da Fruchtschäden möglich sind. Frauen und Männer sollen während und noch mindestens 6 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert; Cisplatin geht in die Muttermilch über.",
+  "hinweise": [
+    "Viel trinken, wie vom Behandlungsteam empfohlen – das schützt die Nieren.",
+    "Hörveränderungen, Ohrgeräusche, Kribbeln oder Taubheit in Händen und Füssen melden.",
+    "Keine Lebendimpfungen während und einige Monate nach der Therapie.",
+    "Spermien- bzw. Eizellkonservierung vor Therapiebeginn besprechen (mögliche Unfruchtbarkeit)."
+  ],
+  "stand": "2026-10"
+}

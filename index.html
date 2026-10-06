@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de-CH" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151c19" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/atkinson-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/medi.css">
+  <script src="js/theme.js"></script>
+  <script src="data/medikamente.js" defer></script>
+  <script src="data/praeparate.js" defer></script>
+  <script src="js/suche.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <title>Medi-Lexikon Schweiz – Medikamente, Wirkung, Gegenanzeigen, Nebenwirkungen</title>
+  <meta name="description" content="Medikamente in der Schweiz verständlich erklärt: Wirkungsweise, Gegenanzeigen, Wechselwirkungen und Nebenwirkungen nach Häufigkeit – mit schlauer Suche und persönlichem Medikamenten-Check. Ohne Werbung und Tracking.">
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="kopf">
+    <div class="wrap kopf__inner">
+      <a class="marke" href="#/">
+        <span class="marke__kreuz" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg></span>
+        <span>Medi-Lexikon<span class="marke__sub">Medikamente in der Schweiz</span></span>
+      </a>
+      <div class="kopf__suche" id="kopf-suche"></div>
+      <div class="kopf__aktionen">
+        <button class="icon-btn" type="button" id="theme-knopf" aria-label="Farbschema wechseln" title="Hell / Dunkel">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <div class="wrap">
+        <ul>
+          <li><a href="#/" data-nav="start">Suche</a></li>
+          <li><a href="#/a-z" data-nav="a-z">Wirkstoffe A–Z</a></li>
+          <li><a href="#/krankheiten" data-nav="krankheiten">Nach Krankheit</a></li>
+          <li><a href="#/gruppen" data-nav="gruppen">Wirkstoffgruppen</a></li>
+          <li><a href="#/check" data-nav="check">Mein Check <span class="nav__zahl" id="profil-zahl" hidden></span></a></li>
+          <li><a href="#/info" data-nav="info">Über die Daten</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inhalt" tabindex="-1">
+    <noscript>
+      <div class="wrap"><div class="karte"><h1>Bitte JavaScript aktivieren</h1><p>Die Suche und die Medikamenten-Informationen werden im Browser zusammengestellt. Es werden keine Daten an einen Server gesendet.</p></div></div>
+    </noscript>
+  </main>
+
+  <footer class="fuss">
+    <div class="wrap fuss__raster">
+      <div>
+        <p><strong>Wichtig:</strong> Diese Seite ersetzt keine ärztliche oder pharmazeutische Beratung. Die Angaben sind vereinfacht und ohne Gewähr; verbindlich ist die von Swissmedic genehmigte Fachinformation bzw. Patienteninformation (<a href="https://www.swissmedicinfo.ch/" rel="noopener">swissmedicinfo.ch</a>). Setzen Sie ein Medikament nie ohne Rücksprache ab.</p>
+        <p id="daten-stand"></p>
+      </div>
+      <div>
+        <p><strong>Notfall</strong></p>
+        <p class="notruf"><span><b>144</b> Sanität</span> <span><b>145</b> Tox Info Suisse</span></p>
+        <p><a href="#/info">Über die Daten, Quellen &amp; Datenschutz</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

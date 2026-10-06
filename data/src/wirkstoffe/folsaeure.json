@@ -1,0 +1,47 @@
+{
+  "id": "folsaeure",
+  "name": "Folsäure",
+  "synonyme": ["Folat", "Vitamin B9", "Pteroylglutaminsäure", "Folic acid", "Acidum folicum"],
+  "atc": ["B03BB01"],
+  "klasse": "Vitamin der B-Gruppe (Folat); Antianämikum",
+  "kurz": "Vitamin zur Vorbeugung von Neuralrohrdefekten (offener Rücken) bei Kinderwunsch und zur Behandlung von Folsäuremangel und Blutarmut.",
+  "gruppen": [],
+  "handelsnamen": ["Acidum folicum Streuli", "Andreafol", "Elevit Pronatal (Kombi)", "Gyno-Tardyferon (Kombi)", "Maltofer Fol (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Tabletten (0,4 mg und 5 mg)", "Kombinationspräparate mit Eisen oder Multivitaminen"],
+  "indikationen": [
+    { "text": "Vorbeugung von Neuralrohrdefekten (z. B. offener Rücken) beim Kind: ab Kinderwunsch bis Ende des 1. Schwangerschaftsdrittels", "ids": ["schwangerschaft", "frauen-gebaerfaehig"] },
+    { "text": "Behandlung und Vorbeugung von Folsäuremangel, z. B. bei einseitiger Ernährung, Alkoholkrankheit, Aufnahmestörungen oder erhöhtem Bedarf", "ids": ["vitamin-b12-mangel", "mangelernaehrung", "alkoholabhaengigkeit"] },
+    { "text": "Blutarmut durch Folsäuremangel (megaloblastäre Anämie), auch bei vermehrtem Blutzerfall (hämolytische Anämie)", "ids": ["vitamin-b12-mangel", "anaemie", "haemolytische-anaemie"] }
+  ],
+  "wirkmechanismus": "Ersetzt Folsäure, die für die Zellteilung und Blutbildung nötig ist. Folsäure wird im Körper über das Enzym Dihydrofolat-Reduktase zur aktiven Tetrahydrofolsäure umgewandelt. Diese überträgt Kohlenstoff-Bausteine für die Herstellung von Purinen und Thymidin, also für die DNA-Synthese – besonders wichtig in sich rasch teilenden Geweben wie Knochenmark und dem sich entwickelnden Nervensystem des Embryos. Zusammen mit Vitamin B12 wird zudem Homocystein zu Methionin umgebaut.",
+  "kontraindikationen": [
+    { "text": "Blutarmut durch alleinigen Vitamin-B12-Mangel (z. B. perniziöse Anämie), wenn nicht gleichzeitig Vitamin B12 gegeben wird", "ids": ["vitamin-b12-mangel"] }
+  ],
+  "vorsicht": [
+    { "text": "Vitamin-B12-Mangel vor der Behandlung ausschliessen: Folsäure bessert das Blutbild, die Nervenschäden durch B12-Mangel schreiten aber unbemerkt fort", "ids": ["vitamin-b12-mangel"] },
+    { "text": "Epilepsie unter Antiepileptika: hohe Folsäuredosen können den Spiegel einiger Antiepileptika senken und Anfälle begünstigen", "ids": ["epilepsie"] },
+    { "text": "Krebstherapie mit Folsäure-Antagonisten oder Fluorouracil: Folsäure nur nach Rücksprache mit der Onkologin oder dem Onkologen", "ids": ["krebs"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Fluorouracil und Capecitabin (Chemotherapie)", "ref": ["fluorouracil", "capecitabin"], "effekt": "Folsäure kann die Giftigkeit dieser Zytostatika verstärken (z. B. schwerer Durchfall, Schleimhautentzündung) – nur nach ärztlicher Rücksprache einnehmen.", "schwere": "mittel" },
+    { "text": "Methotrexat und andere Folsäure-Antagonisten (z. B. Pyrimethamin, Trimethoprim)", "ref": ["methotrexat", "gruppe:folsaeureantagonisten"], "effekt": "Folsäure kann die Wirkung abschwächen, v. a. bei hoch dosiertem Methotrexat in der Krebstherapie. In der Rheumatherapie mit niedrig dosiertem Methotrexat wird Folsäure dagegen gezielt zum Schutz vor Nebenwirkungen verordnet.", "schwere": "mittel" },
+    { "text": "Phenytoin, Phenobarbital, Primidon", "ref": ["phenytoin", "phenobarbital", "primidon"], "effekt": "Folsäure kann den Spiegel dieser Antiepileptika senken (Anfallsgefahr); umgekehrt senken sie den Folsäurespiegel – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Sulfasalazin", "ref": ["sulfasalazin"], "effekt": "Vermindert die Aufnahme von Folsäure aus dem Darm; Folsäurebedarf kann erhöht sein.", "schwere": "leicht" },
+    { "text": "Colestyramin", "ref": ["colestyramin"], "effekt": "Bindet Folsäure im Darm – Folsäure mindestens 1 Stunde vor oder 4–6 Stunden nach Colestyramin einnehmen.", "schwere": "leicht" },
+    { "text": "Chloramphenicol", "ref": ["chloramphenicol"], "effekt": "Kann das Ansprechen des Blutbildes auf Folsäure abschwächen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "selten": ["Magen-Darm-Beschwerden wie Übelkeit, Blähungen (bei hohen Dosen)", "Schlafstörungen, Unruhe, depressive Verstimmung (bei hohen Dosen)"],
+    "sehrSelten": ["Überempfindlichkeitsreaktionen (Hautrötung, Juckreiz)", "Bronchospasmus (Verkrampfung der Atemwege)", "Anaphylaktischer Schock (schwere allergische Reaktion)"]
+  },
+  "schwangerschaft": "Erlaubt und empfohlen: 0,4 mg täglich ab mindestens 4 Wochen vor der Empfängnis bis Ende des 1. Schwangerschaftsdrittels; bei erhöhtem Risiko für Neuralrohrdefekte auf ärztliche Verordnung höher dosiert.",
+  "stillzeit": "Erlaubt; Folsäure geht in die Muttermilch über, der Bedarf ist in der Stillzeit erhöht.",
+  "hinweise": [
+    "Bei Kinderwunsch rechtzeitig beginnen: das Neuralrohr schliesst sich bereits in den ersten 4 Wochen der Schwangerschaft.",
+    "Hoch dosierte Folsäure (5 mg) nur auf ärztliche Verordnung; vorher einen Vitamin-B12-Mangel ausschliessen lassen.",
+    "Während einer Chemotherapie keine folsäurehaltigen Präparate ohne Rücksprache einnehmen."
+  ],
+  "stand": "2026-10"
+}

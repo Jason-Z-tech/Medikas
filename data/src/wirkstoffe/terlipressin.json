@@ -1,0 +1,164 @@
+{
+  "id": "terlipressin",
+  "name": "Terlipressin",
+  "synonyme": [
+    "Triglycyl-Lysin-Vasopressin",
+    "Terlipressinacetat"
+  ],
+  "atc": [
+    "H01BA04"
+  ],
+  "klasse": "Vasopressin-Analogon (Prodrug von Lysin-Vasopressin)",
+  "kurz": "Gefässverengendes Hormon-Analogon für das Spital: bei Blutungen aus Krampfadern der Speiseröhre und beim hepatorenalen Syndrom.",
+  "gruppen": [
+    "vasokonstriktorisch",
+    "blutdrucksteigernd",
+    "bradykardisierend",
+    "qt-verlaengernd",
+    "hyponatriaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Glypressin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Blutungen aus Krampfadern der Speiseröhre (Ösophagusvarizen), meist bei Leberzirrhose",
+      "ids": [
+        "aktive-blutung",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Hepatorenales Syndrom Typ 1 (akutes Nierenversagen bei fortgeschrittener Lebererkrankung)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberzirrhose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verengt die Blutgefässe im Bauchraum und senkt so den Druck in den Krampfadern der Speiseröhre. Terlipressin ist eine Vorstufe (Prodrug), aus der im Körper langsam Lysin-Vasopressin freigesetzt wird. Dieses wirkt über Vasopressin-V1-Rezeptoren gefässverengend, vor allem im Splanchnikusgebiet, wodurch der Pfortaderdruck sinkt. Beim hepatorenalen Syndrom verbessert die Umverteilung des Blutes die Nierendurchblutung und -funktion.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten (koronare Herzkrankheit, Herzrhythmusstörungen, Herzinsuffizienz), unkontrollierter Bluthochdruck, Durchblutungsstörungen",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz",
+        "hypertonie",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Atemversagen, besonders beim hepatorenalen Syndrom: Sauerstoffsättigung und Flüssigkeitshaushalt überwachen; nicht bei Atemnot oder Flüssigkeitsüberladung beginnen",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Sepsis oder septischer Schock beim hepatorenalen Syndrom",
+      "ids": [
+        "aktive-infektion",
+        "schock"
+      ]
+    },
+    {
+      "text": "Hepatorenales Syndrom mit sehr schwerer Leberkrankheit oder stark erhöhtem Kreatinin: Nutzen sorgfältig abwägen",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, langsamer Puls oder Elektrolytstörungen (tiefes Natrium oder Kalium)",
+      "ids": [
+        "qt-verlaengerung",
+        "bradykardie",
+        "hyponatriaemie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Asthma oder andere Atemwegserkrankungen",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Ältere Menschen über 70 Jahre",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "QT-verlängernde Mittel (z. B. Antiarrhythmika, Makrolide, bestimmte Antidepressiva) und Mittel, die Kalium oder Magnesium senken",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen (Torsade de pointes) – nur mit EKG-Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzfrequenzsenkende Mittel (z. B. Betablocker, Propofol, Sufentanil)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "propofol",
+        "sufentanil"
+      ],
+      "effekt": "Starker Abfall von Puls und Herzleistung möglich – Herzfrequenz überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bradykardie (langsamer Puls)",
+      "Bluthochdruck",
+      "Periphere Durchblutungsstörungen, Blässe (kalte Hände und Füsse)",
+      "Vorübergehende Bauchkrämpfe, Durchfall"
+    ],
+    "gelegentlich": [
+      "Herzrhythmusstörungen (Vorhofflimmern, Extrasystolen, Herzrasen)",
+      "Brustschmerzen, Herzinfarkt",
+      "Lungenödem durch Flüssigkeitsüberladung",
+      "Darmischämie (Minderdurchblutung des Darms)",
+      "Übelkeit, Erbrechen",
+      "Hautnekrose (Absterben von Haut), auch an der Injektionsstelle",
+      "Gebärmutterkrämpfe"
+    ],
+    "unbekannt": [
+      "Atemversagen, Atemnot (v. a. beim hepatorenalen Syndrom)",
+      "Torsade de pointes (gefährliche Herzrhythmusstörung), QT-Verlängerung",
+      "Herzinsuffizienz",
+      "Hyponatriämie (Natriummangel)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert: Terlipressin löst Gebärmutterkontraktionen aus, vermindert die Durchblutung der Gebärmutter und kann eine Fehlgeburt verursachen.",
+  "stillzeit": "Nicht bekannt, ob Terlipressin in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur im Spital unter Überwachung von Blutdruck, Puls, EKG, Sauerstoffsättigung, Flüssigkeitshaushalt und Elektrolyten angewendet.",
+    "Atemnot, Brustschmerzen oder Schmerzen in Bauch, Händen oder Füssen sofort dem Behandlungsteam melden.",
+    "Beim hepatorenalen Syndrom wird die Albumin-Gabe angepasst, um eine Flüssigkeitsüberladung zu vermeiden."
+  ],
+  "stand": "2026-10"
+}

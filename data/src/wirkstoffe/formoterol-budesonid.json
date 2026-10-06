@@ -1,0 +1,212 @@
+{
+  "id": "formoterol-budesonid",
+  "name": "Formoterol + Budesonid",
+  "synonyme": [
+    "Budesonid/Formoterol",
+    "Budesonide/Formoterol"
+  ],
+  "kombinationAus": [
+    "formoterol",
+    "budesonid"
+  ],
+  "atc": [
+    "R03AK07"
+  ],
+  "klasse": "Inhalative Fixkombination aus lang wirksamem Beta-2-Sympathomimetikum (LABA) und Glukokortikoid",
+  "kurz": "Inhalationsmittel mit Kortison und rasch wirkendem Bronchien-Erweiterer; bei Asthma auch als Bedarfsmittel, zudem bei COPD.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "glukokortikoide-inhalativ",
+    "cyp3a4-substrate-empfindlich",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Symbicort",
+    "Vannair"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulverinhalator",
+    "Dosieraerosol"
+  ],
+  "indikationen": [
+    {
+      "text": "Asthma: regelmässige Dauerbehandlung; je nach Präparat und Stärke auch als kombinierte Erhaltungs- und Bedarfstherapie oder bei leichtem Asthma nur bei Bedarf",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "COPD mit eingeschränkter Lungenfunktion und wiederholten Verschlechterungen (Exazerbationen)",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbindet eine entzündungshemmende mit einer rasch einsetzenden, lang anhaltenden bronchienerweiternden Wirkung. Budesonid ist ein Glukokortikoid, das die Entzündung der Bronchialschleimhaut und die Überempfindlichkeit der Atemwege dämpft. Formoterol stimuliert Beta-2-Rezeptoren der Bronchialmuskulatur; die Bronchien weiten sich innert 1–3 Minuten für etwa 12 Stunden. Wegen des raschen Wirkungseintritts kann die Kombination bei Asthma gleichzeitig zur Dauer- und Bedarfsbehandlung dienen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Zunehmender Bedarf an Bedarfsinhalationen oder Verschlechterung des Asthmas: rasch ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "COPD: erhöhtes Risiko für Lungenentzündungen",
+      "ids": [
+        "copd",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Aktive oder ruhende Lungentuberkulose, Pilz- oder Virusinfektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, QT-Verlängerung, Phäochromozytom",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion, Diabetes, Kaliummangel",
+      "ids": [
+        "hyperthyreose",
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Sehstörungen, Katarakt oder Glaukom; Osteoporose bei langer hoch dosierter Anwendung",
+      "ids": [
+        "glaukom",
+        "katarakt",
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Kinder: bei Langzeitbehandlung das Wachstum kontrollieren",
+      "ids": [
+        "kinder",
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Nicht abrupt absetzen (Gefahr einer Asthmaverschlechterung und bei hohen Dosen einer Nebenniereninsuffizienz)",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir, Cobicistat)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Budesonid-Spiegel steigen stark – Gefahr von Kortison-Nebenwirkungen im ganzen Körper (Cushing-Syndrom, Unterdrückung der Nebennierenfunktion); Kombination vermeiden oder eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Abschwächung der bronchienerweiternden Wirkung; bei Asthma Gefahr schwerer Bronchospasmen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Kortison, Theophyllin) und Digoxin",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:methylxanthine",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Hypokaliämie mit Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen während einer Narkose.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika",
+      "ref": [
+        "gruppe:beta2-sympathomimetika"
+      ],
+      "effekt": "Doppelte Anwendung erhöht die Nebenwirkungen ohne Zusatznutzen – nicht kombinieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Pilzinfektion in Mund und Rachen (Soor)",
+      "Lungenentzündung (bei COPD)",
+      "Kopfschmerzen",
+      "Zittern (Tremor)",
+      "Herzklopfen",
+      "Leichte Rachenreizung, Husten, Heiserkeit"
+    ],
+    "gelegentlich": [
+      "Angst, Unruhe, Nervosität, Schlafstörungen",
+      "Schwindel",
+      "Übelkeit",
+      "Beschleunigter Puls (Tachykardie)",
+      "Verschwommenes Sehen",
+      "Muskelkrämpfe",
+      "Blutergüsse"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen (Ausschlag, Nesselsucht, Juckreiz, Angioödem, Anaphylaxie)",
+      "Hypokaliämie (Kaliummangel)",
+      "Herzrhythmusstörungen (Vorhofflimmern, supraventrikuläre Tachykardie, Extrasystolen)",
+      "Bronchospasmus (Verkrampfung der Atemwege)"
+    ],
+    "sehrSelten": [
+      "Cushing-Syndrom, Unterdrückung der Nebennierenfunktion, Wachstumsverzögerung, verminderte Knochendichte",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Depression, Verhaltensänderungen",
+      "Katarakt, Glaukom",
+      "Angina pectoris, QT-Verlängerung",
+      "Geschmacksstörungen",
+      "Blutdruckschwankungen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; ein gut kontrolliertes Asthma ist für Mutter und Kind wichtig. Für inhaliertes Budesonid liegen umfangreiche Erfahrungen ohne Hinweis auf Fehlbildungen vor.",
+  "stillzeit": "Budesonid geht in geringen Mengen in die Muttermilch über; ob Formoterol übergeht, ist nicht bekannt. Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nach jeder Inhalation den Mund mit Wasser ausspülen und ausspucken – das beugt Soor und Heiserkeit vor.",
+    "Wer das Präparat auch bei Bedarf anwendet: Wird es an mehreren Tagen deutlich häufiger als gewohnt gebraucht, ärztlich abklären lassen.",
+    "Nicht abrupt absetzen; eine Ritonavir- oder Cobicistat-haltige HIV-Therapie ärztlich angeben."
+  ],
+  "stand": "2026-10"
+}

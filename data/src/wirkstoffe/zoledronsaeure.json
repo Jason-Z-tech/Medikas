@@ -1,0 +1,222 @@
+{
+  "id": "zoledronsaeure",
+  "name": "Zoledronsäure",
+  "synonyme": [
+    "Zoledronat",
+    "Zoledronic acid"
+  ],
+  "atc": [
+    "M05BA08"
+  ],
+  "klasse": "Bisphosphonat (intravenös)",
+  "kurz": "Knochenstärkendes Bisphosphonat als Infusion: einmal jährlich gegen Osteoporose und bei Morbus Paget, häufiger bei Knochenmetastasen und Myelom.",
+  "gruppen": [
+    "bisphosphonate",
+    "nephrotoxisch"
+  ],
+  "handelsnamen": [
+    "Aclasta",
+    "Zometa"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung",
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Osteoporose bei Frauen nach den Wechseljahren und bei Männern mit erhöhtem Bruchrisiko, auch nach einem Hüftbruch (Aclasta)",
+      "ids": [
+        "osteoporose",
+        "knochenbruch"
+      ]
+    },
+    {
+      "text": "Osteoporose bei Langzeitbehandlung mit Kortison (Aclasta)",
+      "ids": [
+        "osteoporose",
+        "langzeit-kortison"
+      ]
+    },
+    {
+      "text": "Morbus Paget des Knochens (Aclasta)",
+      "ids": [
+        "morbus-paget"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Knochenkomplikationen (Brüche, Rückenmarkskompression) bei Knochenmetastasen solider Tumoren und beim multiplen Myelom (Zometa)",
+      "ids": [
+        "knochenmetastasen",
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Tumorbedingte Hyperkalzämie (Zometa)",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst den Knochenabbau stark und anhaltend, sodass bei Osteoporose eine Infusion pro Jahr genügt. Zoledronsäure ist ein stickstoffhaltiges Bisphosphonat mit hoher Bindung an das Knochenmineral; in den knochenabbauenden Zellen (Osteoklasten) hemmt es die Farnesylpyrophosphat-Synthase und unterdrückt so deren Aktivität. Es wird nicht verstoffwechselt, sondern unverändert über die Nieren ausgeschieden, weshalb die Nierenfunktion vor jeder Gabe geprüft wird.",
+  "kontraindikationen": [
+    {
+      "text": "Hypokalzämie (Calciummangel im Blut)",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (bei Osteoporose: Kreatinin-Clearance unter 35 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion, Flüssigkeitsmangel, ältere Menschen und gleichzeitige Diuretika (Risiko eines Nierenversagens) – vorher ausreichend trinken",
+      "ids": [
+        "niereninsuffizienz",
+        "dehydratation",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Risiko für Kiefernekrose (v. a. bei Krebs, Chemotherapie, Kortison, Zahneingriffen, schlechter Mundhygiene)",
+      "ids": [
+        "kiefernekrose",
+        "krebs",
+        "operation"
+      ]
+    },
+    {
+      "text": "Neue Oberschenkel- oder Leistenschmerzen (Hinweis auf einen atypischen Oberschenkelbruch)",
+      "ids": [
+        "knochenbruch"
+      ]
+    },
+    {
+      "text": "Vitamin-D-Mangel und Calciummangel vorher ausgleichen",
+      "ids": [
+        "vitamin-d-mangel",
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Vorhofflimmern (wurde in Studien häufiger beobachtet)",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Chronische Ohrenentzündungen (Osteonekrose des äusseren Gehörgangs möglich)",
+      "ids": [
+        "ohrenentzuendung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, NSAR in hoher Dosis)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden; Aminoglykoside senken zudem das Calcium – Nierenwerte und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika, vor allem Schleifendiuretika",
+      "ref": [
+        "gruppe:schleifendiuretika",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Flüssigkeitsmangel und Hypokalzämie – auf ausreichende Flüssigkeitszufuhr achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide, Zytostatika und Angiogenesehemmer (z. B. Bevacizumab)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:zytostatika",
+        "bevacizumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Kiefernekrose – vor Behandlungsbeginn Zahnkontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thalidomid beim multiplen Myelom",
+      "ref": [
+        "thalidomid"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenfunktionsstörungen – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calcitonin",
+      "ref": [
+        "calcitonin"
+      ],
+      "effekt": "Verstärkte Calciumsenkung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Fieber (meist in den ersten 3 Tagen nach der Infusion)",
+      "Hypophosphatämie (Phosphatmangel) bei Krebsbehandlung"
+    ],
+    "haeufig": [
+      "Grippeähnliche Beschwerden: Muskel-, Gelenk- und Knochenschmerzen, Schüttelfrost, Müdigkeit, Kopfschmerzen",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Schwindel",
+      "Augenrötung",
+      "Vorhofflimmern",
+      "Hypokalzämie (Calciummangel)",
+      "Anstieg der Nierenwerte, Nierenfunktionsstörung",
+      "Anämie (Blutarmut) bei Krebsbehandlung"
+    ],
+    "gelegentlich": [
+      "Bindehautentzündung, Augenschmerzen",
+      "Herzklopfen, Bluthochdruck",
+      "Husten, Atemnot",
+      "Bauchschmerzen, Verdauungsbeschwerden, Mundtrockenheit",
+      "Hautausschlag, vermehrtes Schwitzen",
+      "Akutes Nierenversagen",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "Uveitis (Augenentzündung)",
+      "Atypische Oberschenkelbrüche",
+      "Kiefernekrose (Absterben von Kieferknochen; bei Krebsbehandlung häufiger als bei Osteoporose)"
+    ],
+    "sehrSelten": [
+      "Osteonekrose des äusseren Gehörgangs",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Entzündung der Lederhaut oder der Augenhöhle (Skleritis, Orbitaentzündung)",
+      "Flüssigkeitsmangel als Folge von Fieber, Erbrechen oder Durchfall"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Vor der Infusion ausreichend trinken (mindestens zwei Gläser Wasser); die Nierenfunktion wird vor jeder Gabe kontrolliert.",
+    "Grippeähnliche Beschwerden nach der Infusion lassen sich mit Paracetamol oder Ibuprofen lindern und klingen meist innerhalb von 3 Tagen ab.",
+    "Für ausreichend Calcium und Vitamin D sorgen.",
+    "Vor Beginn Zahnstatus kontrollieren und auf gute Mundhygiene achten; Zahnbehandlungen der Zahnärztin oder dem Zahnarzt mitteilen."
+  ],
+  "stand": "2026-10"
+}

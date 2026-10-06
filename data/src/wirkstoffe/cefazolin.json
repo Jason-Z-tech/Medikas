@@ -1,0 +1,66 @@
+{
+  "id": "cefazolin",
+  "name": "Cefazolin",
+  "synonyme": ["Cefazolin-Natrium", "Cephazolin", "Cefazoline", "Cefazolinum"],
+  "atc": ["J01DB04"],
+  "klasse": "Cephalosporin der 1. Generation (Beta-Laktam-Antibiotikum)",
+  "kurz": "Cephalosporin-Antibiotikum zum Spritzen, vor allem zur Infektionsvorbeugung bei Operationen und gegen Staphylokokken-Infektionen.",
+  "gruppen": ["cephalosporine"],
+  "handelsnamen": ["Kefzol", "Cefazolin Labatec", "Cefazolin Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "indikationen": [
+    { "text": "Vorbeugung von Wundinfektionen bei Operationen (perioperative Prophylaxe)", "ids": ["operation"] },
+    { "text": "Haut- und Weichteilinfektionen durch empfindliche Erreger, vor allem Staphylokokken und Streptokokken", "ids": ["hautinfektion"] },
+    { "text": "Knochen- und Gelenkinfektionen durch empfindliche Erreger", "ids": ["bakterielle-infektion"] },
+    { "text": "Je nach Präparat weitere Infektionen durch empfindliche Erreger, z. B. der Atem- und Harnwege", "ids": ["atemwegsinfekt", "lungenentzuendung", "harnwegsinfekt"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Cefazolin hemmt die Penicillin-bindenden Proteine und damit die Quervernetzung des Peptidoglykans (bakterizide Wirkung). Als Cephalosporin der 1. Generation wirkt es besonders gut gegen grampositive Keime wie Methicillin-empfindliche Staphylokokken und Streptokokken, gegen gramnegative Erreger nur begrenzt. Gegen MRSA und Enterokokken ist es unwirksam.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Cephalosporine", "ids": ["allergie"] },
+    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf Penicilline oder andere Beta-Laktam-Antibiotika in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] }
+  ],
+  "vorsicht": [
+    { "text": "Penicillinallergie ohne schwere Sofortreaktion: Kreuzallergie möglich, aber selten", "ids": ["penicillinallergie"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei zu hohen Spiegeln Krampfanfälle möglich", "ids": ["niereninsuffizienz", "epilepsie"] },
+    { "text": "Vitamin-K-Mangel (z. B. bei Mangelernährung, Lebererkrankung oder langer Antibiotikatherapie): Gerinnungsstörungen und Blutungen möglich", "ids": ["blutgerinnungsstoerung", "mangelernaehrung", "leberinsuffizienz"] },
+    { "text": "Magen-Darm-Erkrankungen, besonders Darmentzündungen, in der Vorgeschichte", "ids": ["colitis-ulcerosa", "morbus-crohn"] },
+    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Blutverdünnung möglich – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, hochdosierte Schleifendiuretika)", "ref": ["gruppe:aminoglykoside", "gruppe:schleifendiuretika", "gruppe:nephrotoxisch"], "effekt": "Mögliche Verstärkung der Nierenschädigung – Nierenfunktion kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Höhere und länger anhaltende Cefazolin-Spiegel.", "schwere": "leicht" },
+    { "text": "Tetracycline, Chloramphenicol und andere bakteriostatische Antibiotika", "ref": ["gruppe:tetracycline", "chloramphenicol"], "effekt": "Können die bakterientötende Wirkung abschwächen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Übelkeit, Erbrechen, Appetitlosigkeit, Durchfall, Bauchschmerzen", "Schmerzen an der Einstichstelle, Venenentzündung (Phlebitis) bei Infusion"],
+    "gelegentlich": ["Hautausschlag, Nesselsucht, Juckreiz", "Pilzinfektion von Mund oder Scheide (Candidose)"],
+    "selten": [
+      "Blutbildveränderungen (Leukopenie, Neutropenie, Thrombozytopenie, Eosinophilie)",
+      "Vorübergehender Anstieg der Leberwerte",
+      "Nierenfunktionsstörung, interstitielle Nephritis (Nierenentzündung)",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "sehrSelten": [
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Hämolytische Anämie (Blutzerfall)"
+    ],
+    "unbekannt": [
+      "Krampfanfälle bei hohen Dosen und eingeschränkter Nierenfunktion",
+      "Gerinnungsstörungen mit Blutungen (Hypoprothrombinämie)",
+      "Positiver Coombs-Test"
+    ]
+  },
+  "schwangerschaft": "Kann angewendet werden, wenn nötig; breite Erfahrung, z. B. als Infektionsvorbeugung beim Kaiserschnitt, ohne Hinweise auf eine Schädigung des Kindes.",
+  "stillzeit": "Geht nur in sehr geringen Mengen in die Muttermilch über; die Anwendung ist möglich (beim Säugling Durchfall oder Pilzbefall möglich).",
+  "hinweise": [
+    "Wird im Spital oder in der Praxis als Injektion oder Infusion gegeben.",
+    "Allergien gegen Penicilline oder Cephalosporine vor der Gabe unbedingt melden.",
+    "Bei längerer Behandlung Blutbild und Nierenwerte kontrollieren."
+  ],
+  "stand": "2026-10"
+}

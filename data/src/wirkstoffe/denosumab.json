@@ -1,0 +1,198 @@
+{
+  "id": "denosumab",
+  "name": "Denosumab",
+  "synonyme": [
+    "Denosumabum"
+  ],
+  "atc": [
+    "M05BX04"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen RANKL (Knochenresorptionshemmer)",
+  "kurz": "Antikörper-Spritze, die den Knochenabbau bremst: alle 6 Monate gegen Osteoporose (Prolia), monatlich bei Knochenmetastasen (Xgeva).",
+  "gruppen": [],
+  "handelsnamen": [
+    "Prolia",
+    "Xgeva"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (Fertigspritze)",
+    "Injektionslösung (Durchstechflasche)"
+  ],
+  "indikationen": [
+    {
+      "text": "Osteoporose bei Frauen nach den Wechseljahren und bei Männern mit erhöhtem Bruchrisiko (Prolia)",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Knochenschwund bei hormonentziehender Behandlung von Prostatakrebs (Prolia)",
+      "ids": [
+        "osteoporose",
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Knochenkomplikationen (Brüche, Rückenmarkskompression, Bestrahlung oder Operation am Knochen) bei Knochenmetastasen fortgeschrittener Krebserkrankungen (Xgeva)",
+      "ids": [
+        "knochenmetastasen"
+      ]
+    },
+    {
+      "text": "Nicht operabler Riesenzelltumor des Knochens (Xgeva)",
+      "ids": [
+        "sarkom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst den Knochenabbau, indem es ein Signal blockiert, das die knochenabbauenden Zellen aktiviert. Denosumab ist ein humaner monoklonaler Antikörper, der an RANKL bindet und so dessen Andocken an den Rezeptor RANK auf Osteoklasten und deren Vorläuferzellen verhindert. Dadurch werden Bildung, Funktion und Überleben der Osteoklasten gehemmt; Knochendichte und -festigkeit nehmen zu. Anders als Bisphosphonate lagert sich Denosumab nicht im Knochen ein – nach dem Absetzen lässt die Wirkung rasch nach.",
+  "kontraindikationen": [
+    {
+      "text": "Hypokalzämie (Calciummangel im Blut)",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Xgeva: nicht verheilte Wunden nach Zahn- oder Kieferoperationen",
+      "ids": [
+        "kiefernekrose",
+        "operation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Niereninsuffizienz oder Dialyse (hohes Risiko für schwere Hypokalzämie)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Risiko für Kiefernekrose: Krebs, Chemotherapie, Angiogenesehemmer, Kortison, Rauchen, schlechte Mundhygiene, Zahneingriffe",
+      "ids": [
+        "kiefernekrose",
+        "krebs",
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Absetzen von Prolia ohne Anschlussbehandlung: rascher Knochenverlust und Risiko mehrerer Wirbelbrüche",
+      "ids": [
+        "osteoporose",
+        "knochenbruch"
+      ]
+    },
+    {
+      "text": "Neue Oberschenkel- oder Leistenschmerzen (Hinweis auf einen atypischen Oberschenkelbruch)",
+      "ids": [
+        "knochenbruch"
+      ]
+    },
+    {
+      "text": "Hautinfektionen (Zellulitis) und Infektanfälligkeit",
+      "ids": [
+        "hautinfektion",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Latexallergie (Nadelschutz der Fertigspritze enthält Naturkautschuk)",
+      "ids": [
+        "latexallergie"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Prolia nicht anwenden; unter Xgeva bei wachsendem Skelett Hyperkalzämie nach dem Absetzen möglich",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Chronische Ohrenentzündungen (Osteonekrose des äusseren Gehörgangs möglich)",
+      "ids": [
+        "ohrenentzuendung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Kiefernekrose – vor Behandlungsbeginn Zahnkontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Chemotherapie und Angiogenesehemmer (z. B. Bevacizumab, Sunitinib)",
+      "ref": [
+        "gruppe:zytostatika",
+        "bevacizumab",
+        "sunitinib"
+      ],
+      "effekt": "Erhöhtes Risiko für Kiefernekrose – vor Behandlungsbeginn Zahnkontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calcimimetika (Cinacalcet, Etelcalcetid)",
+      "ref": [
+        "cinacalcet",
+        "etelcalcetid"
+      ],
+      "effekt": "Verstärkte Calciumsenkung – Calcium engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Denosumab-Präparate (z. B. Prolia und Xgeva gleichzeitig)",
+      "ref": [],
+      "effekt": "Nicht gleichzeitig anwenden – doppelte Wirkung mit Risiko schwerer Hypokalzämie.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Glieder-, Muskel- und Knochenschmerzen",
+      "Hypokalzämie (Calciummangel; unter Xgeva sehr häufig, unter Prolia selten, aber teils schwer)",
+      "Atemnot und Durchfall (unter Xgeva)"
+    ],
+    "haeufig": [
+      "Harnwegsinfekte und Infekte der oberen Atemwege",
+      "Ischiasschmerzen",
+      "Verstopfung, Bauchbeschwerden",
+      "Hautausschlag, Ekzem, Haarausfall",
+      "Kiefernekrose (Absterben von Kieferknochen; unter Xgeva häufig, unter Prolia selten)",
+      "Hypophosphatämie (Phosphatmangel) und vermehrtes Schwitzen (unter Xgeva)"
+    ],
+    "gelegentlich": [
+      "Zellulitis (bakterielle Hautinfektion)",
+      "Divertikulitis",
+      "Ohrinfektion",
+      "Lichenoider Arzneimittelausschlag"
+    ],
+    "selten": [
+      "Atypische Oberschenkelbrüche",
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "sehrSelten": [
+      "Osteonekrose des äusseren Gehörgangs"
+    ],
+    "unbekannt": [
+      "Mehrere Wirbelbrüche nach dem Absetzen von Prolia",
+      "Hyperkalzämie nach dem Absetzen bei wachsendem Skelett (Xgeva)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen; Frauen im gebärfähigen Alter sollen während der Behandlung und bis mindestens 5 Monate nach der letzten Dosis wirksam verhüten.",
+  "stillzeit": "Unbekannt, ob Denosumab in die Muttermilch übergeht; über Stillen oder Behandlung wird nach ärztlicher Abwägung entschieden.",
+  "hinweise": [
+    "Zusätzlich Calcium und Vitamin D einnehmen (ausser bei erhöhtem Calcium); der Calciumspiegel wird vor jeder Dosis bzw. bei Nierenerkrankung engmaschig kontrolliert.",
+    "Prolia-Spritze alle 6 Monate pünktlich; nie ohne ärztlich geplante Anschlussbehandlung (meist ein Bisphosphonat) absetzen.",
+    "Vor Beginn Zahnstatus kontrollieren und auf gute Mundhygiene achten; Zahnbehandlungen mitteilen.",
+    "Bei Muskelkrämpfen oder Kribbeln (Calciummangel), geröteter, schmerzhafter Haut mit Fieber oder neuen Oberschenkelschmerzen ärztlichen Rat einholen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "phytomenadion",
+  "name": "Phytomenadion",
+  "synonyme": ["Vitamin K1", "Vitamin K", "Phyllochinon", "Phytonadion", "Phytomenadione"],
+  "atc": ["B02BA01"],
+  "klasse": "Fettlösliches Vitamin (Vitamin K1, Gerinnungsvitamin); Antidot bei Vitamin-K-Antagonisten",
+  "kurz": "Vitamin K1: beugt Blutungen bei Vitamin-K-Mangel vor, auch bei Neugeborenen, und hebt die Wirkung von Blutverdünnern wie Phenprocoumon auf.",
+  "gruppen": [],
+  "handelsnamen": ["Konakion MM", "Konakion MM paediatric"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung in Ampullen (auch zum Einnehmen)"],
+  "indikationen": [
+    { "text": "Blutungen oder Blutungsgefahr bei Vitamin-K-Mangel (Hypoprothrombinämie), z. B. bei Aufnahmestörungen", "ids": ["blutgerinnungsstoerung", "mangelernaehrung"] },
+    { "text": "Gegenmittel bei Überdosierung oder Blutungen unter Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ids": ["vergiftung", "aktive-blutung"] },
+    { "text": "Vorbeugung und Behandlung der Vitamin-K-Mangelblutung bei Neugeborenen und Säuglingen", "ids": ["kinder"] }
+  ],
+  "wirkmechanismus": "Ermöglicht der Leber die Bildung funktionsfähiger Gerinnungsfaktoren. Vitamin K1 ist der Kofaktor der Gamma-Glutamyl-Carboxylase, die die Gerinnungsfaktoren II, VII, IX und X sowie die Gerinnungshemmer Protein C und S erst aktiv macht. Vitamin-K-Antagonisten blockieren die Rückgewinnung von Vitamin K; zugeführtes Phytomenadion umgeht diese Blockade. Die Wirkung setzt nicht sofort ein, sondern erst nach einigen Stunden, weil die Faktoren neu gebildet werden müssen; bei lebensbedrohlicher Blutung werden deshalb zusätzlich Gerinnungsfaktoren (Prothrombinkomplex) gegeben.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Intravenöse Gabe: seltene schwere Überempfindlichkeitsreaktionen bis Schock – langsam injizieren und überwachen", "ids": ["anaphylaxie"] },
+    { "text": "Schwere Lebererkrankung: Wirkung kann ungenügend sein, Gerinnungswerte kontrollieren", "ids": ["leberinsuffizienz", "leberzirrhose"] },
+    { "text": "Künstliche Herzklappe oder hohes Thromboserisiko unter Vitamin-K-Antagonisten: keine unnötig hohen Dosen (Gefahr einer Überkorrektur)", "ids": ["herzklappenerkrankung", "thromboembolie-vorgeschichte"] },
+    { "text": "Früh- und Neugeborene, besonders mit Gelbsucht: Dosis und Verabreichungsweg nach ärztlichem Schema", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol, Warfarin)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Hebt deren Wirkung auf (als Gegenmittel erwünscht). Bei weiterlaufender Gerinnungshemmung sinkt der INR – INR kontrollieren und Dosis anpassen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": ["Überempfindlichkeits- und anaphylaktoide Reaktionen bis Schock, Herz- und Atemstillstand (v. a. bei intravenöser Gabe)", "Venenreizung oder Venenentzündung an der Injektionsstelle", "Reaktionen an der Injektionsstelle (bei Neugeborenen)"]
+  },
+  "schwangerschaft": "Keine Hinweise auf eine Schädigung; nur bei klarer Indikation anwenden. Eine Gabe an die Schwangere zur Vorbeugung von Blutungen beim Neugeborenen wird nicht empfohlen.",
+  "stillzeit": "Nur geringe Mengen gehen in die Muttermilch über; Anwendung möglich. Gestillte Neugeborene brauchen trotzdem ihre eigene Vitamin-K-Prophylaxe.",
+  "hinweise": [
+    "Wirkt nicht gegen Heparine und direkte orale Antikoagulanzien (z. B. Rivaroxaban, Apixaban, Dabigatran).",
+    "Intravenös nur langsam spritzen; bei Erwachsenen nicht in den Muskel spritzen (Blutergussgefahr unter Gerinnungshemmung).",
+    "Nach der Aufhebung einer Vitamin-K-Antagonisten-Wirkung den INR kontrollieren lassen.",
+    "In der Schweiz erhalten Neugeborene routinemässig Vitamin K nach einem festen Schema in den ersten Lebenswochen."
+  ],
+  "stand": "2026-10"
+}

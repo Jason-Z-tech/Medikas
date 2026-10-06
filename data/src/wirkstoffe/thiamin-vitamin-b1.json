@@ -1,0 +1,42 @@
+{
+  "id": "thiamin-vitamin-b1",
+  "name": "Thiamin (Vitamin B1)",
+  "synonyme": ["Vitamin B1", "Thiamine", "Thiaminum", "Aneurin", "Thiaminchloridhydrochlorid"],
+  "atc": ["A11DA01"],
+  "klasse": "Vitamin B1",
+  "kurz": "Vitamin B1 zur Vorbeugung und Behandlung eines Vitamin-B1-Mangels, z. B. bei Alkoholkrankheit oder Mangelernährung.",
+  "gruppen": [],
+  "handelsnamen": ["Benerva"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Tabletten", "Injektionslösung"],
+  "indikationen": [
+    { "text": "Vorbeugung und Behandlung eines Vitamin-B1-Mangels, z. B. bei Mangel- oder Fehlernährung, Alkoholkrankheit, gestörter Aufnahme im Darm oder Dialyse", "ids": ["mangelernaehrung", "alkoholabhaengigkeit"] },
+    { "text": "Beriberi sowie Wernicke-Enzephalopathie und Korsakow-Syndrom (vor allem als Injektion)", "ids": ["alkoholabhaengigkeit"] },
+    { "text": "Nervenschäden (Polyneuropathie) infolge Vitamin-B1-Mangels", "ids": ["nervenschmerzen"] }
+  ],
+  "wirkmechanismus": "Ersetzt Vitamin B1, das Nerven, Herz und Muskeln für die Energiegewinnung aus Kohlenhydraten brauchen. Im Körper wird Thiamin zu Thiaminpyrophosphat umgewandelt, einem Coenzym der Pyruvat-Dehydrogenase, der Alpha-Ketoglutarat-Dehydrogenase und der Transketolase. Bei Mangel stockt der Zuckerabbau, was vor allem das Nervensystem (Polyneuropathie, Wernicke-Enzephalopathie) und das Herz (Beriberi) schädigt. Der Körper speichert nur wenig Thiamin, sodass bei Alkoholkrankheit, Mangelernährung oder anhaltendem Erbrechen rasch ein Mangel entsteht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Injektion, vor allem intravenös: sehr selten schwere allergische Reaktionen bis zum Schock – langsam verabreichen, Notfallbereitschaft", "ids": ["anaphylaxie"] },
+    { "text": "Bekannte Allergieneigung", "ids": ["allergie"] },
+    { "text": "Verdacht auf Wernicke-Enzephalopathie oder schweren Mangel: Thiamin vor oder zusammen mit Glucose geben, da Glucose den Mangel akut verschlimmern kann", "ids": ["alkoholabhaengigkeit"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Glucosehaltige Infusionen bei bestehendem Thiaminmangel", "ref": [], "effekt": "Glucose kann eine akute Wernicke-Enzephalopathie auslösen – Thiamin vorher oder gleichzeitig geben.", "schwere": "mittel" },
+    { "text": "Fluorouracil und Capecitabin", "ref": ["gruppe:fluoropyrimidine"], "effekt": "Können die Umwandlung von Thiamin in seine aktive Form hemmen – Mangel möglich.", "schwere": "leicht" },
+    { "text": "Schleifendiuretika bei Langzeitbehandlung (z. B. Furosemid)", "ref": ["gruppe:schleifendiuretika"], "effekt": "Vermehrte Ausscheidung von Thiamin über die Niere – Mangel möglich, besonders bei Herzschwäche.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrSelten": ["Überempfindlichkeitsreaktionen mit Schwitzen, Herzrasen, Juckreiz und Nesselsucht", "Anaphylaktischer Schock, vor allem nach Injektion"],
+    "unbekannt": ["Schmerzen oder Reizung an der Injektionsstelle"]
+  },
+  "schwangerschaft": "In Dosen zur Bedarfsdeckung und zur Behandlung eines nachgewiesenen Mangels erlaubt.",
+  "stillzeit": "Erlaubt; Thiamin geht in die Muttermilch über, schadet dem Kind in üblichen Dosen aber nicht.",
+  "hinweise": [
+    "Bei Alkoholkrankheit und Mangelernährung wird Thiamin vor Glucosegaben verabreicht.",
+    "Tabletten unzerkaut mit etwas Flüssigkeit einnehmen.",
+    "Bei Atemnot, Schwellungen oder Hautausschlag nach einer Injektion sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "dimethylfumarat",
+  "name": "Dimethylfumarat",
+  "synonyme": ["DMF", "Dimethyl fumarate", "Fumarsäuredimethylester"],
+  "kombinationAus": [],
+  "atc": ["D05BX02", "N07XX09", "L04AX07"],
+  "klasse": "Fumarsäureester; Immunmodulator (Basistherapie der Multiplen Sklerose, innerliche Psoriasistherapie)",
+  "kurz": "Kapseln gegen schubförmige Multiple Sklerose und Tabletten gegen mittelschwere bis schwere Schuppenflechte; dämpft das Immunsystem.",
+  "gruppen": ["immunsuppressiv"],
+  "handelsnamen": ["Tecfidera", "Skilarence"],
+  "abgabe": ["B"],
+  "darreichung": ["Magensaftresistente Hartkapseln (Multiple Sklerose)", "Magensaftresistente Tabletten (Psoriasis)"],
+  "indikationen": [
+    { "text": "Schubförmig remittierende Multiple Sklerose (Tecfidera)", "ids": ["multiple-sklerose"] },
+    { "text": "Mittelschwere bis schwere Schuppenflechte vom Plaque-Typ bei Erwachsenen, die eine innerliche (systemische) Behandlung benötigen (Skilarence)", "ids": ["psoriasis"] }
+  ],
+  "wirkmechanismus": "Dämpft überschiessende Entzündungs- und Immunreaktionen. Dimethylfumarat wird im Darm rasch in Monomethylfumarat umgewandelt, den eigentlichen Wirkstoff. Dieser aktiviert den Nrf2-Signalweg, der Zellen vor oxidativem Stress schützt, hemmt entzündungsfördernde Signale (NF-kappaB) und verschiebt die Immunantwort von entzündlichen Th1- und Th17-Zellen hin zu Th2-Zellen. Zudem sinkt die Zahl der Lymphozyten im Blut.",
+  "kontraindikationen": [
+    { "text": "Vermutete oder bestätigte progressive multifokale Leukenzephalopathie (PML, seltene schwere Virusinfektion des Gehirns)", "ids": [] },
+    { "text": "Psoriasis-Präparat (Skilarence): schwere Magen-Darm-Erkrankungen", "ids": ["magen-darm-ulkus"] },
+    { "text": "Psoriasis-Präparat (Skilarence): schwere Leber- oder Nierenfunktionsstörung", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Psoriasis-Präparat (Skilarence): Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Lymphopenie (Mangel an Lymphozyten): Blutbild vor Beginn und regelmässig; bei anhaltend tiefen Werten Behandlung unterbrechen (erhöhtes PML-Risiko)", "ids": ["neutropenie", "immunsuppression"] },
+    { "text": "Neue oder zunehmende neurologische Beschwerden (Lähmungen, Seh-, Sprach- oder Denkstörungen) sofort abklären lassen (PML)", "ids": [] },
+    { "text": "Schwere Infektionen, Gürtelrose (Herpes zoster) und andere opportunistische Infektionen: bei schwerer Infektion Behandlung unterbrechen", "ids": ["aktive-infektion", "herpes"] },
+    { "text": "Leberwerte vor und während der Behandlung kontrollieren (arzneimittelbedingte Leberschäden möglich)", "ids": ["leberinsuffizienz"] },
+    { "text": "Nierenfunktion und Eiweiss im Urin kontrollieren; selten Fanconi-Syndrom (Nierenschaden mit Verlust von Salzen, Phosphat und Eiweiss)", "ids": ["niereninsuffizienz"] },
+    { "text": "Vorbehandlung mit anderen Immuntherapeutika: beim Wechsel überlappende Immunsuppression beachten", "ids": ["immunsuppression"] },
+    { "text": "Magen-Darm-Erkrankungen: Magen-Darm-Beschwerden sind unter der Behandlung sehr häufig", "ids": ["magen-darm-ulkus", "morbus-crohn", "colitis-ulcerosa"] },
+    { "text": "Lebendimpfungen während der Behandlung nicht empfohlen", "ids": ["lebendimpfung-geplant"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere Immunsuppressiva und Krebsmittel (z. B. Methotrexat, Ciclosporin, Biologika, JAK-Hemmer)", "ref": ["gruppe:immunsuppressiv", "methotrexat", "ciclosporin"], "effekt": "Verstärkte Dämpfung des Immunsystems mit höherem Infektions- und PML-Risiko – Kombination nicht untersucht, nur mit grosser Vorsicht.", "schwere": "schwer" },
+    { "text": "Lebendimpfstoffe", "ref": ["gruppe:lebendimpfstoffe"], "effekt": "Gefahr einer Infektion durch den Impfstoff – Lebendimpfungen während der Behandlung vermeiden; Totimpfstoffe sind möglich.", "schwere": "schwer" },
+    { "text": "Andere Fumarsäure-Abkömmlinge (z. B. Diroximelfumarat)", "ref": ["diroximelfumarat"], "effekt": "Gleiches Wirkprinzip, Wirkungen und Nebenwirkungen addieren sich – nicht kombinieren.", "schwere": "schwer" },
+    { "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Diuretika, NSAR, Lithium)", "ref": ["gruppe:nephrotoxisch", "gruppe:aminoglykoside", "gruppe:diuretika", "gruppe:nsar", "lithium"], "effekt": "Nierennebenwirkungen (z. B. Eiweiss im Urin) können sich verstärken – Nierenfunktion kontrollieren.", "schwere": "mittel" },
+    { "text": "Natalizumab, Fingolimod und andere MS-Therapien beim Umstellen", "ref": ["natalizumab", "fingolimod"], "effekt": "Überlappende Immunwirkung – beim Wechsel Blutbild und Infektzeichen beachten.", "schwere": "mittel" },
+    { "text": "Hormonale Verhütungsmittel (Pille)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Keine direkte Wechselwirkung bekannt; bei starkem Durchfall kann die Pille unsicher werden – zusätzlich mit Kondom verhüten.", "schwere": "mittel" },
+    { "text": "Alkohol (hochprozentige Getränke)", "ref": [], "effekt": "Grössere Mengen über 30-prozentiger Getränke innerhalb einer Stunde nach der Einnahme verstärken die Magen-Darm-Beschwerden – meiden.", "schwere": "leicht" },
+    { "text": "Acetylsalicylsäure", "ref": ["acetylsalicylsaeure"], "effekt": "Keine relevante Wechselwirkung; kurzfristig vor der Einnahme kann sie den Flush mildern (nur auf ärztliche Empfehlung).", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Flush (Hitzegefühl mit Hautrötung)", "Durchfall, Übelkeit", "Bauchschmerzen, Blähungen", "Lymphopenie und Leukopenie (Mangel an weissen Blutkörperchen; vor allem unter Psoriasis-Therapie sehr häufig)"],
+    "haeufig": ["Erbrechen, Verdauungsbeschwerden, Magenschleimhautentzündung, Magen-Darm-Infekt", "Juckreiz, Ausschlag, Hautrötung, Brennen der Haut", "Kopfschmerzen, Kribbeln (Parästhesien)", "Erhöhte Leberwerte", "Eiweiss und Ketone im Urin (Proteinurie, Ketonurie)", "Müdigkeit, Schwäche, Hitzegefühl", "Eosinophilie (Anstieg bestimmter weisser Blutkörperchen)", "Appetitminderung"],
+    "gelegentlich": ["Überempfindlichkeitsreaktionen", "Thrombozytopenie (Mangel an Blutplättchen)", "Schwindel", "Erhöhtes Kreatinin im Blut"],
+    "unbekannt": ["Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)", "Gürtelrose (Herpes zoster) und andere opportunistische Infektionen", "Anaphylaxie, Angioödem, Atemnot", "Arzneimittelbedingte Leberschädigung", "Fanconi-Syndrom (Nierenschaden)", "Laufende Nase"]
+  },
+  "schwangerschaft": "Multiple Sklerose: nur nach sorgfältiger ärztlicher Abwägung, wenn klar notwendig. Psoriasis-Präparat (Skilarence): kontraindiziert, Frauen im gebärfähigen Alter müssen sicher verhüten.",
+  "stillzeit": "Unklar, ob der Wirkstoff in die Muttermilch übergeht: bei MS nur nach ärztlicher Abwägung; das Psoriasis-Präparat ist in der Stillzeit kontraindiziert.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen und unzerkaut schlucken – das mildert Flush und Magen-Darm-Beschwerden; die Dosis wird zu Beginn langsam gesteigert.",
+    "Blutbild (Lymphozyten) vor Beginn und regelmässig, mindestens alle 3 Monate, sowie Leber- und Nierenwerte und Urin kontrollieren lassen.",
+    "Neue oder zunehmende neurologische Beschwerden (Schwäche, Seh-, Sprach- oder Gedächtnisstörungen) sofort melden.",
+    "Keine hochprozentigen alkoholischen Getränke innerhalb einer Stunde nach der Einnahme."
+  ],
+  "stand": "2026-10"
+}

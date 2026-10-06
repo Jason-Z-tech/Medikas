@@ -1,0 +1,166 @@
+{
+  "id": "dupilumab",
+  "name": "Dupilumab",
+  "synonyme": [
+    "Anti-IL-4R-alpha-Antikörper"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "D11AH05"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen den Interleukin-4-Rezeptor-alpha (Biologikum)",
+  "kurz": "Spritze gegen schwere Neurodermitis, schweres Asthma, Nasenpolypen und andere Typ-2-Entzündungen; blockiert zwei Entzündungsbotenstoffe.",
+  "gruppen": [
+    "interleukin-hemmer"
+  ],
+  "handelsnamen": [
+    "Dupixent"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Fertigspritze",
+    "Fertigpen"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere Neurodermitis (atopische Dermatitis) bei Erwachsenen und Kindern, wenn eine äusserliche Behandlung nicht genügt",
+      "ids": [
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Schweres Asthma mit Typ-2-Entzündung (erhöhte Eosinophile oder FeNO) als Zusatztherapie",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Schwere chronische Nasennebenhöhlenentzündung mit Nasenpolypen als Zusatztherapie",
+      "ids": [
+        "sinusitis"
+      ]
+    },
+    {
+      "text": "Prurigo nodularis (stark juckende Knötchen der Haut)",
+      "ids": [
+        "juckreiz"
+      ]
+    },
+    {
+      "text": "Eosinophile Ösophagitis (allergisch bedingte Speiseröhrenentzündung)",
+      "ids": [
+        "schluckstoerung"
+      ]
+    },
+    {
+      "text": "COPD mit erhöhten Eosinophilen im Blut als Zusatztherapie",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt gezielt eine bestimmte Art der allergischen Entzündung (Typ-2-Entzündung). Dupilumab ist ein menschlicher Antikörper, der an die Alpha-Untereinheit des Interleukin-4-Rezeptors bindet. Dadurch werden die Signale der Botenstoffe Interleukin-4 und Interleukin-13 blockiert, die Juckreiz, Ekzeme, Schleimbildung und Verengung der Atemwege fördern. Der Antikörper wird wie körpereigene Eiweisse abgebaut, nicht über die Leber-Enzyme.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Augenentzündungen (Bindehaut-, Hornhautentzündung) – bei neuen Augenbeschwerden ärztlich abklären",
+      "ids": [
+        "augeninfektion"
+      ]
+    },
+    {
+      "text": "Wurminfektionen: vor Beginn behandeln",
+      "ids": [
+        "wurmbefall"
+      ]
+    },
+    {
+      "text": "Asthma: nicht zur Behandlung akuter Anfälle; Kortison nicht abrupt absetzen",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Eosinophilie oder Gefässentzündung (z. B. EGPA) beim Abbau von Kortison",
+      "ids": [
+        "vaskulitis"
+      ]
+    },
+    {
+      "text": "Lebendimpfungen während der Behandlung vermeiden",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Schwere allergische Reaktionen (selten, Serumkrankheit)",
+      "ids": [
+        "anaphylaxie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Sicherheit nicht belegt – während der Behandlung vermeiden; Impfungen möglichst vorher abschliessen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische und inhalative Glukokortikoide (bei Asthma)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:glukokortikoide-inhalativ"
+      ],
+      "effekt": "Kortison nicht plötzlich absetzen, sondern unter ärztlicher Kontrolle schrittweise reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel mit enger therapeutischer Breite, die über CYP-Enzyme abgebaut werden (z. B. Phenprocoumon, Ciclosporin)",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng",
+        "ciclosporin"
+      ],
+      "effekt": "Klinisch relevante Effekte sind nicht belegt; bei Beginn der Behandlung Spiegel bzw. Gerinnung vorsichtshalber kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Reaktionen an der Injektionsstelle (Rötung, Schwellung, Juckreiz, Schmerz)"
+    ],
+    "haeufig": [
+      "Bindehautentzündung (Konjunktivitis), auch allergisch",
+      "Augenjucken, Lidrandentzündung (Blepharitis)",
+      "Lippenherpes",
+      "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)",
+      "Gelenkschmerzen"
+    ],
+    "gelegentlich": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Keratitis (Hornhautentzündung)",
+      "Trockenes Auge",
+      "Gesichtsrötung oder -ausschlag"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Serumkrankheit",
+      "Ulzerative Keratitis (Hornhautgeschwür)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nur wenn der Nutzen das mögliche Risiko überwiegt; die Erfahrungen sind begrenzt, Tierversuche zeigen keine schädlichen Wirkungen.",
+  "stillzeit": "Unbekannt, ob Dupilumab in die Muttermilch übergeht; Entscheidung über Stillen oder Behandlung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird alle 1–4 Wochen unter die Haut gespritzt; nach Schulung auch selbst zu Hause möglich. Fertigspritze vor Gebrauch Raumtemperatur annehmen lassen.",
+    "Andere Asthma- oder Neurodermitis-Mittel nicht eigenmächtig absetzen.",
+    "Bei geröteten, juckenden oder schmerzenden Augen oder Sehstörungen ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

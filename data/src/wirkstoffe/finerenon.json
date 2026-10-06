@@ -1,0 +1,53 @@
+{
+  "id": "finerenon",
+  "name": "Finerenon",
+  "synonyme": ["Finerenone"],
+  "atc": ["C03DA05"],
+  "klasse": "Nichtsteroidaler, selektiver Mineralokortikoid-Rezeptor-Antagonist",
+  "kurz": "Nichtsteroidaler Aldosteron-Hemmer, der bei Typ-2-Diabetes mit Nierenkrankheit Niere und Herz schützt; auch bei Herzschwäche eingesetzt.",
+  "gruppen": ["mineralokortikoid-antagonisten", "hyperkaliaemie-ausloesend", "cyp3a4-substrate-empfindlich", "blutdrucksenkend"],
+  "handelsnamen": ["Kerendia"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Chronische Nierenerkrankung mit Eiweiss (Albumin) im Urin bei Typ-2-Diabetes, zusätzlich zur Standardtherapie, um das Fortschreiten der Nierenkrankheit und Herz-Kreislauf-Ereignisse zu verringern", "ids": ["niereninsuffizienz", "diabetes-typ-2"] },
+    { "text": "Symptomatische Herzinsuffizienz mit leicht eingeschränkter oder erhaltener Pumpfunktion (LVEF ab 40 %)", "ids": ["herzinsuffizienz"] }
+  ],
+  "wirkmechanismus": "Schützt Nieren und Herz, indem es die überaktiven Signale des Hormons Aldosteron blockiert. Finerenon ist ein nichtsteroidaler, hochselektiver Antagonist des Mineralokortikoid-Rezeptors, dessen Überaktivierung Entzündung und Fibrose (Vernarbung) in Niere, Herz und Gefässen fördert. Es vermindert so die Eiweissausscheidung im Urin und verlangsamt den Verlust der Nierenfunktion. Den Blutdruck senkt es nur wenig, und an Androgen- oder Progesteronrezeptoren bindet es praktisch nicht. Finerenon wird überwiegend über CYP3A4 abgebaut.",
+  "kontraindikationen": [
+    { "text": "Nebenniereninsuffizienz (Morbus Addison)", "ids": ["nebenniereninsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Kalium über 5,0 mmol/l: Behandlung nicht beginnen; Kalium während der Behandlung regelmässig kontrollieren", "ids": ["hyperkaliaemie"] },
+    { "text": "Stark eingeschränkte Nierenfunktion (eGFR unter 25 ml/min/1,73 m²): Beginn nicht empfohlen", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwere Leberinsuffizienz: nicht empfohlen; bei mittelschwerer Leberinsuffizienz Kalium engmaschig kontrollieren", "ids": ["leberinsuffizienz"] },
+    { "text": "Frauen im gebärfähigen Alter: während der Behandlung zuverlässig verhüten", "ids": ["frauen-gebaerfaehig"] },
+    { "text": "Laktoseintoleranz (Tabletten enthalten Laktose)", "ids": ["laktoseintoleranz"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir, Cobicistat)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "grund": "Der Finerenon-Spiegel steigt um ein Mehrfaches – Gefahr einer schweren Hyperkaliämie." }
+  ],
+  "interaktionen": [
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Efavirenz, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Finerenon-Spiegel sinkt stark, Wirkungsverlust – Kombination vermeiden.", "schwere": "schwer" },
+    { "text": "Kaliumsparende Diuretika und andere Mineralokortikoid-Antagonisten (z. B. Amilorid, Spironolacton, Eplerenon)", "ref": ["gruppe:kaliumsparende-diuretika", "spironolacton", "eplerenon"], "effekt": "Gefahr einer schweren Hyperkaliämie – Kombination vermeiden.", "schwere": "schwer" },
+    { "text": "Mässige und schwache CYP3A4-Hemmer (z. B. Erythromycin, Verapamil, Fluconazol, Amiodaron)", "ref": ["gruppe:maessige-cyp3a4-hemmer", "amiodaron"], "effekt": "Finerenon-Spiegel steigt – Kalium zusätzlich kontrollieren, Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Kaliumpräparate und Trimethoprim (Cotrimoxazol)", "ref": ["gruppe:kaliumpraeparate", "sulfamethoxazol-trimethoprim"], "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium kontrollieren; Trimethoprim wenn möglich vorübergehend durch ein anderes Antibiotikum ersetzen oder Finerenon pausieren.", "schwere": "mittel" },
+    { "text": "ACE-Hemmer und Sartane", "ref": ["gruppe:ace-hemmer", "gruppe:sartane"], "effekt": "Übliche Kombination, aber erhöhtes Hyperkaliämierisiko – Kalium regelmässig kontrollieren.", "schwere": "mittel" },
+    { "text": "Grapefruit und Grapefruitsaft", "ref": [], "effekt": "Hemmt den Abbau von Finerenon – während der Behandlung meiden.", "schwere": "mittel" },
+    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung möglich.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Hyperkaliämie (erhöhtes Kalium)"],
+    "haeufig": ["Hyponatriämie (Natriummangel)", "Hypotonie (niedriger Blutdruck)", "Juckreiz", "Abnahme der glomerulären Filtrationsrate (Nierenfunktion), meist zu Beginn und rückbildungsfähig"],
+    "gelegentlich": ["Abnahme des Hämoglobins (Blutfarbstoff)"]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit (im Tierversuch fruchtschädigend); Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Ein Risiko für den Säugling kann nicht ausgeschlossen werden; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kalium und Nierenfunktion vor Beginn, nach 4 Wochen und danach regelmässig kontrollieren lassen.",
+    "Grapefruit und Grapefruitsaft meiden; keine Kaliumpräparate oder kaliumhaltigen Salzersatzmittel ohne Rücksprache.",
+    "Vor jedem neuen Medikament, besonders Antibiotika, Pilzmitteln und Johanniskraut, auf Finerenon hinweisen.",
+    "Tablette kann bei Schluckbeschwerden zerdrückt und mit Wasser oder weicher Nahrung (z. B. Apfelmus) eingenommen werden."
+  ],
+  "stand": "2026-10"
+}

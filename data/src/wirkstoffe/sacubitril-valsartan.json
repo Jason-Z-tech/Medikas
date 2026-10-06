@@ -1,0 +1,81 @@
+{
+  "id": "sacubitril-valsartan",
+  "name": "Sacubitril + Valsartan",
+  "synonyme": ["Sacubitril/Valsartan", "LCZ696", "ARNI"],
+  "kombinationAus": ["valsartan"],
+  "atc": ["C09DX04"],
+  "klasse": "Angiotensin-Rezeptor-Neprilysin-Inhibitor (ARNI): Neprilysin-Hemmer Sacubitril + Sartan Valsartan",
+  "kurz": "Herzschwäche-Mittel aus Neprilysin-Hemmer und Sartan (ARNI); senkt Sterblichkeit und Spitaleinweisungen bei Herzinsuffizienz.",
+  "gruppen": ["raas-hemmer", "sartane", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "lithium-spiegel-erhoehend", "teratogen"],
+  "handelsnamen": ["Entresto"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Chronische Herzinsuffizienz mit eingeschränkter Pumpfunktion (reduzierte Ejektionsfraktion, NYHA II–IV) bei Erwachsenen, zur Senkung von Herz-Kreislauf-Sterblichkeit und Spitaleinweisungen", "ids": ["herzinsuffizienz"] }
+  ],
+  "wirkmechanismus": "Entlastet das geschwächte Herz, indem es körpereigene Schutzhormone verstärkt und gleichzeitig das gefässverengende Angiotensin II blockiert. Sacubitril ist ein Prodrug; sein Wirkmetabolit Sacubitrilat (LBQ657) hemmt das Enzym Neprilysin, das natriuretische Peptide (ANP, BNP) abbaut. Diese Peptide erweitern die Gefässe, fördern die Ausscheidung von Salz und Wasser und wirken krankhaften Umbauvorgängen am Herzmuskel entgegen. Valsartan blockiert den Angiotensin-II-Rezeptor Typ 1 (AT1) und verhindert so die schädliche Aktivierung des Renin-Angiotensin-Aldosteron-Systems. Weil Neprilysin auch Bradykinin abbaut, darf die Kombination nicht mit ACE-Hemmern gegeben werden (Angioödem-Gefahr).",
+  "kontraindikationen": [
+    { "text": "Angioödem in der Vorgeschichte unter einem ACE-Hemmer oder Sartan", "ids": ["angiooedem"] },
+    { "text": "Hereditäres oder idiopathisches Angioödem", "ids": ["angiooedem"] },
+    { "text": "Schwere Leberinsuffizienz, biliäre Zirrhose oder Cholestase (Gallestau)", "ids": ["leberinsuffizienz", "leberzirrhose", "gallensteine"] },
+    { "text": "Schwangerschaft im 2. und 3. Drittel (auch im 1. Drittel nicht empfohlen)", "ids": ["schwangerschaft"] }
+  ],
+  "vorsicht": [
+    { "text": "Tiefer Blutdruck (systolisch unter 100 mmHg) oder Flüssigkeits- und Salzmangel: Gefahr eines starken Blutdruckabfalls", "ids": ["hypotonie", "dehydratation"] },
+    { "text": "Eingeschränkte Nierenfunktion oder Nierenarterienstenose: Nierenwerte engmaschig kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Erhöhtes Kalium oder Neigung dazu", "ids": ["hyperkaliaemie"] },
+    { "text": "Mässige Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
+    { "text": "Erhöhtes Angioödem-Risiko bei Menschen afrikanischer Abstammung", "ids": ["angiooedem"] },
+    { "text": "Schwerste Herzinsuffizienz (NYHA IV): nur begrenzte Erfahrung", "ids": ["herzinsuffizienz"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "ACE-Hemmer (beim Wechsel mindestens 36 Stunden Abstand)", "ref": ["gruppe:ace-hemmer"], "grund": "Sacubitril und ACE-Hemmer hemmen beide den Abbau von Bradykinin – stark erhöhtes Risiko für ein lebensbedrohliches Angioödem." },
+    { "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min/1,73 m²)", "ref": ["aliskiren"], "grund": "Die doppelte Hemmung des Renin-Angiotensin-Systems erhöht das Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen." }
+  ],
+  "interaktionen": [
+    { "text": "Andere Sartane", "ref": ["gruppe:sartane"], "effekt": "Enthält bereits Valsartan – nicht mit einem weiteren Sartan kombinieren.", "schwere": "schwer" },
+    { "text": "Aliskiren (auch ohne Diabetes oder Niereninsuffizienz)", "ref": ["aliskiren"], "effekt": "Doppelte Hemmung des Renin-Angiotensin-Systems – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Kaliumsparende Diuretika, Mineralokortikoid-Antagonisten, Kaliumpräparate, kaliumhaltige Salzersatzmittel und andere kaliumerhöhende Mittel (z. B. Trimethoprim, Heparin)", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten", "gruppe:kaliumpraeparate", "gruppe:hyperkaliaemie-ausloesend"], "effekt": "Gefahr einer Hyperkaliämie – Kalium regelmässig kontrollieren (bei Herzinsuffizienz oft gezielt kombiniert).", "schwere": "schwer" },
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithiumspiegel und -toxizität steigen – Kombination nicht empfohlen, sonst Lithiumspiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "NSAR inkl. COX-2-Hemmer", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Abgeschwächte Wirkung und Gefahr einer Verschlechterung der Nierenfunktion, besonders bei älteren oder ausgetrockneten Personen – Nierenfunktion kontrollieren.", "schwere": "mittel" },
+    { "text": "Statine und andere Substrate der Transporter OATP1B1/1B3 (z. B. Atorvastatin)", "ref": ["gruppe:statine"], "effekt": "Sacubitril hemmt diese Leber-Transporter: Atorvastatin-Spitzenspiegel bis doppelt so hoch – auf Muskelbeschwerden achten.", "schwere": "mittel" },
+    { "text": "PDE-5-Hemmer (z. B. Sildenafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Stärkere Blutdrucksenkung – Vorsicht, besonders zu Beginn.", "schwere": "mittel" },
+    { "text": "Hemmer von Transportern wie OATP1B1/1B3, OAT3 oder MRP2 (z. B. Rifampicin, Ciclosporin, Ritonavir)", "ref": ["rifampicin", "ciclosporin", "ritonavir"], "effekt": "Können die Spiegel von Sacubitrilat oder Valsartan erhöhen – zu Beginn Blutdruck, Kalium und Nierenwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Metformin", "ref": ["metformin"], "effekt": "Metforminspiegel sinkt um rund ein Fünftel – Blutzuckereinstellung überprüfen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Hypotonie (tiefer Blutdruck)",
+      "Nierenfunktionsstörung"
+    ],
+    "haeufig": [
+      "Schwindel, Kopfschmerzen, Synkope (kurze Ohnmacht), Vertigo (Drehschwindel)",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Nierenversagen, auch akut",
+      "Hypokaliämie (tiefes Kalium), Hypoglykämie (Unterzuckerung)",
+      "Anämie (Blutarmut)",
+      "Husten",
+      "Durchfall, Übelkeit, Gastritis (Magenschleimhautentzündung)",
+      "Müdigkeit, Asthenie (Schwäche)"
+    ],
+    "gelegentlich": [
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen)",
+      "Überempfindlichkeitsreaktionen",
+      "Juckreiz, Hautausschlag",
+      "Schwindel beim Lagewechsel"
+    ],
+    "selten": ["Halluzinationen", "Schlafstörungen"],
+    "sehrSelten": ["Paranoia (Verfolgungswahn)"],
+    "unbekannt": ["Angioödem des Darms (Bauchschmerzen, Übelkeit, Erbrechen, Durchfall)"]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen, im 2. und 3. Drittel kontraindiziert (Schädigung des Ungeborenen wie bei allen RAAS-Hemmern). Bei festgestellter Schwangerschaft sofort ärztlich umstellen.",
+  "stillzeit": "Nicht anwenden – Übergang in die Muttermilch und Risiken für den Säugling können nicht ausgeschlossen werden.",
+  "hinweise": [
+    "Beim Wechsel von einem ACE-Hemmer diesen mindestens 36 Stunden vorher absetzen; keinen zusätzlichen ACE-Hemmer oder anderes Sartan einnehmen.",
+    "Bei Schwellung von Gesicht, Lippen, Zunge oder Rachen sofort absetzen und Notfallhilfe holen.",
+    "Blutdruck, Kalium und Nierenwerte regelmässig kontrollieren; als Herzschwäche-Laborwert eignet sich NT-proBNP, nicht BNP (BNP steigt unter der Behandlung an).",
+    "Zweimal täglich einnehmen, mit oder ohne Essen; zu Beginn Schwindel möglich (Vorsicht beim Autofahren)."
+  ],
+  "stand": "2026-10"
+}

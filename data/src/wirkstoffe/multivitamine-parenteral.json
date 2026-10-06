@@ -1,0 +1,142 @@
+{
+  "id": "multivitamine-parenteral",
+  "name": "Multivitamine (parenteral)",
+  "synonyme": [
+    "Multivitamin-Infusionszusatz",
+    "Vitaminzusatz zur parenteralen Ernährung"
+  ],
+  "atc": [
+    "B05XC"
+  ],
+  "klasse": "Vitamin-Zusatz zur parenteralen Ernährung (wasser- und/oder fettlösliche Vitamine)",
+  "kurz": "Vitaminmischung, die Infusionen zugesetzt wird, um bei künstlicher Ernährung über die Vene den täglichen Vitaminbedarf zu decken.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Cernevit",
+    "Soluvit N",
+    "Vitalipid N"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung",
+    "Emulsion als Zusatz zu Fettemulsionen"
+  ],
+  "indikationen": [
+    {
+      "text": "Deckung des täglichen Vitaminbedarfs bei parenteraler Ernährung (Ernährung über die Vene); je nach Präparat für Erwachsene oder auch für Kinder und Säuglinge",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt die Vitamine, die bei ausschliesslicher Ernährung über die Vene nicht mit der Nahrung aufgenommen werden. Die Präparate enthalten wasserlösliche Vitamine (B-Vitamine, Vitamin C, Biotin, Folsäure; z. B. Soluvit N), fettlösliche Vitamine (A, D, E, K; Vitalipid N) oder eine Mischung (Cernevit, ohne Vitamin K). Die Vitamine wirken als Coenzyme und Antioxidantien im Energie-, Eiweiss- und Fettstoffwechsel, bei der Blutbildung, der Blutgerinnung (Vitamin K) und im Knochenstoffwechsel (Vitamin D).",
+  "kontraindikationen": [
+    {
+      "text": "Bestehende Hypervitaminose (Vitaminüberdosierung), besonders mit Vitamin A oder D",
+      "ids": []
+    },
+    {
+      "text": "Allergie gegen Soja-, Erdnuss- oder Eiprotein (Präparate mit Sojaöl, Soja- oder Eilecithin, z. B. Vitalipid N, Cernevit)",
+      "ids": [
+        "erdnuss-sojaallergie",
+        "nahrungsmittelallergie"
+      ]
+    },
+    {
+      "text": "Cernevit: Neugeborene, Säuglinge und Kinder unter 11 Jahren (für Kinder gibt es eigene Präparate)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Allergische Reaktionen bis zur Anaphylaxie möglich, besonders auf Vitamin B1 (Thiamin)",
+      "ids": [
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Vitaminzufuhr aus anderen Quellen: Gefahr der Überdosierung, besonders von Vitamin A und D",
+      "ids": []
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Anreicherung von Vitamin A möglich",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen und Gallenstau: Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "cholestase"
+      ]
+    },
+    {
+      "text": "Behandlung mit Vitamin-K-Antagonisten: Vitamin K in fettlöslichen Präparaten kann die Gerinnungshemmung abschwächen",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Das in fettlöslichen Präparaten (z. B. Vitalipid N) enthaltene Vitamin K schwächt die Gerinnungshemmung ab – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin, Phenobarbital, Primidon",
+      "ref": [
+        "phenytoin",
+        "phenobarbital",
+        "primidon"
+      ],
+      "effekt": "Folsäure kann die Spiegel dieser Antiepileptika senken – Spiegel und Anfallskontrolle überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Retinoide (z. B. Isotretinoin, Acitretin) und andere Vitamin-A-Präparate",
+      "ref": [
+        "gruppe:retinoide-systemisch",
+        "retinol-vitamin-a"
+      ],
+      "effekt": "Gefahr einer Vitamin-A-Überdosierung – Kombination vermeiden oder Vitaminzufuhr anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa",
+      "ref": [
+        "levodopa-benserazid",
+        "levodopa-carbidopa"
+      ],
+      "effekt": "Vitamin B6 kann die Wirkung von Levodopa ohne Decarboxylasehemmer abschwächen; bei den üblichen Kombinationen mit Benserazid oder Carbidopa kaum von Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie (besonders auf Vitamin B1)",
+      "Hautausschlag, Hautrötung, Juckreiz",
+      "Reaktionen an der Infusionsstelle (Brennen, Venenreizung)",
+      "Übelkeit, Erbrechen",
+      "Erhöhte Leberwerte",
+      "Vitamin-A- oder -D-Überdosierung bei Langzeitanwendung oder Niereninsuffizienz"
+    ]
+  },
+  "schwangerschaft": "Zur Deckung des normalen Vitaminbedarfs bei künstlicher Ernährung anwendbar; eine Überdosierung, besonders von Vitamin A, muss vermieden werden.",
+  "stillzeit": "Anwendung möglich; die Vitamine gehen in die Muttermilch über, eine Überdosierung ist zu vermeiden.",
+  "hinweise": [
+    "Wird im Spital oder bei der Heimernährung einer Infusionslösung bzw. Fettemulsion zugesetzt; die fertige Mischung vor Licht schützen.",
+    "Bei längerer Anwendung werden Vitaminstatus und Leberwerte kontrolliert, besonders bei Leber- oder Nierenkrankheit."
+  ],
+  "stand": "2026-10"
+}

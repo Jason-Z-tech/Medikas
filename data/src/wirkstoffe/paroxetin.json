@@ -1,0 +1,306 @@
+{
+  "id": "paroxetin",
+  "name": "Paroxetin",
+  "synonyme": [
+    "Paroxetinum",
+    "Paroxetinhydrochlorid"
+  ],
+  "atc": [
+    "N06AB05"
+  ],
+  "klasse": "Selektiver Serotonin-Wiederaufnahmehemmer (SSRI, Antidepressivum)",
+  "kurz": "Antidepressivum aus der Gruppe der SSRI gegen Depression, Zwangs-, Panik- und Angststörungen sowie posttraumatische Belastungsstörung.",
+  "gruppen": [
+    "ssri",
+    "serotonerg",
+    "starke-cyp2d6-hemmer",
+    "cyp2d6-substrate",
+    "anticholinerg",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Deroxat",
+    "Paroxetin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression)",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Zwangsstörungen",
+      "ids": [
+        "zwangsstoerung"
+      ]
+    },
+    {
+      "text": "Panikstörung mit oder ohne Agoraphobie (Platzangst)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Soziale Angststörung (soziale Phobie)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Generalisierte Angststörung",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Posttraumatische Belastungsstörung",
+      "ids": [
+        "ptbs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und vermindert Angst und Zwänge, indem es die Menge des Botenstoffs Serotonin zwischen den Nervenzellen erhöht. Paroxetin ist ein starker, selektiver Hemmer des Serotonin-Transporters und hat zudem eine schwache anticholinerge Wirkung. Es wird über CYP2D6 abgebaut und hemmt dieses Enzym gleichzeitig stark, was zu zahlreichen Wechselwirkungen führt. Wegen der relativ kurzen Halbwertszeit (etwa 1 Tag) treten beim Absetzen häufiger Absetzsymptome auf als bei anderen SSRI.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht anwenden (vermehrt suizidales Verhalten und Feindseligkeit in Studien)",
+      "ids": [
+        "kinder",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (Pupillenerweiterung)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhtes Risiko für Natriummangel",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Leberinsuffizienz",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzuckereinstellung kann sich verändern",
+      "ids": [
+        "diabetes"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, einschliesslich Linezolid und Methylenblau (ausser unter engmaschiger Überwachung) – gleichzeitig sowie innerhalb von 2 Wochen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "linezolid",
+        "methylthioniniumchlorid"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms (Fieber, Muskelzuckungen, Verwirrtheit, Kreislaufversagen)."
+    },
+    {
+      "text": "Thioridazin",
+      "ref": [],
+      "grund": "Paroxetin hemmt dessen Abbau über CYP2D6 – Gefahr einer gefährlichen QT-Verlängerung mit Herzrhythmusstörungen."
+    },
+    {
+      "text": "Pimozid",
+      "ref": [],
+      "grund": "Erhöhter Pimozid-Spiegel – Gefahr von QT-Verlängerung und Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (Triptane, Tramadol, Fentanyl, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:triptane",
+        "tramadol",
+        "fentanyl",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – auf Fieber, Zittern, Muskelzuckungen, Unruhe und Durchfall achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Tamoxifen",
+      "ref": [
+        "tamoxifen"
+      ],
+      "effekt": "Paroxetin vermindert die Bildung des wirksamen Tamoxifen-Abbauprodukts (Endoxifen) – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, Metoprolol, trizyklische Antidepressiva, Atomoxetin, Risperidon)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "flecainid",
+        "propafenon",
+        "metoprolol",
+        "gruppe:trizyklische-antidepressiva",
+        "atomoxetin",
+        "risperidon"
+      ],
+      "effekt": "Deren Spiegel steigen deutlich – mit tiefer Dosis beginnen, Wirkung und Nebenwirkungen kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien, Thrombozytenaggregationshemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Codein",
+      "ref": [
+        "codein"
+      ],
+      "effekt": "Die Umwandlung in das wirksame Morphin ist gehemmt – schwächere Schmerzlinderung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ritonavir-geboosterte HIV-Proteasehemmer (z. B. Fosamprenavir mit Ritonavir)",
+      "ref": [
+        "ritonavir",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Der Paroxetin-Spiegel sinkt deutlich – Wirkung kontrollieren, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "rifampicin"
+      ],
+      "effekt": "Der Paroxetin-Spiegel kann sinken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Sexuelle Funktionsstörungen (verminderte Libido, Ejakulations- und Orgasmusstörungen)"
+    ],
+    "haeufig": [
+      "Erhöhte Cholesterinwerte, verminderter Appetit, Gewichtszunahme",
+      "Schläfrigkeit, Schlaflosigkeit, Unruhe, ungewöhnliche Träume",
+      "Konzentrationsstörungen, Schwindel, Zittern, Kopfschmerzen",
+      "Verschwommenes Sehen",
+      "Gähnen",
+      "Verstopfung, Durchfall, Erbrechen, Mundtrockenheit",
+      "Vermehrtes Schwitzen",
+      "Schwäche (Asthenie)"
+    ],
+    "gelegentlich": [
+      "Ungewöhnliche Blutungen, vor allem der Haut und Schleimhäute (Blutergüsse)",
+      "Verwirrtheit, Halluzinationen",
+      "Extrapyramidale Störungen (Bewegungsstörungen)",
+      "Erweiterte Pupillen, Herzrasen",
+      "Blutdruckschwankungen, Blutdruckabfall beim Aufstehen",
+      "Hautausschlag, Juckreiz",
+      "Harnverhalt, Harninkontinenz"
+    ],
+    "selten": [
+      "Hyponatriämie (Natriummangel)",
+      "Manie, Panikattacken, Angst, Depersonalisation",
+      "Akathisie (Bewegungsunruhe), Krampfanfälle, Restless-Legs-Syndrom",
+      "Langsamer Puls (Bradykardie)",
+      "Erhöhte Leberwerte",
+      "Erhöhtes Prolaktin, Milchfluss, Menstruationsstörungen",
+      "Gelenk- und Muskelschmerzen"
+    ],
+    "sehrSelten": [
+      "Thrombozytopenie",
+      "Anaphylaxie, Angioödem",
+      "Inadäquate ADH-Sekretion (SIADH)",
+      "Serotoninsyndrom",
+      "Akutes Glaukom",
+      "Magen-Darm-Blutungen, Leberentzündung",
+      "Schwere Hautreaktionen (Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse), Lichtempfindlichkeit",
+      "Priapismus (Dauererektion), Wassereinlagerungen"
+    ],
+    "unbekannt": [
+      "Suizidgedanken und suizidales Verhalten",
+      "Aggressivität, Zähneknirschen (Bruxismus)",
+      "Ohrgeräusche (Tinnitus)",
+      "Mikroskopische Kolitis (chronischer wässriger Durchfall)",
+      "Nachblutungen nach der Geburt"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit: nach Einnahme im ersten Drittel ist das Risiko für Herzfehler etwa verdoppelt (rund 2 statt 1 von 100 Kindern), bei Einnahme bis zur Geburt drohen beim Neugeborenen Anpassungsstörungen und Lungenhochdruck (PPHN). Bei Kinderwunsch die Behandlung ärztlich überprüfen lassen, nicht eigenmächtig absetzen.",
+  "stillzeit": "Paroxetin geht nur in geringen Mengen in die Muttermilch über; eine Anwendung ist nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Einmal täglich morgens zum Frühstück einnehmen; Tablette nicht zerkauen.",
+    "Nicht abrupt absetzen: Absetzsymptome (Schwindel, Empfindungsstörungen, Schlafstörungen, Unruhe, Übelkeit) sind häufig – über mehrere Wochen ausschleichen.",
+    "Die Wirkung setzt nach 2–4 Wochen ein; zunehmende Unruhe oder Suizidgedanken zu Beginn sofort ärztlich melden.",
+    "Kann die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "magnesium",
+  "name": "Magnesium",
+  "synonyme": ["Magnesiumcitrat", "Magnesiumaspartat", "Magnesium-L-aspartat-hydrochlorid", "Magnesiumoxid", "Magnesiumcarbonat"],
+  "atc": ["A12CC05", "A12CC04", "A12CC30", "A12CC02", "B05XA05"],
+  "klasse": "Mineralstoff (Magnesiumsupplement)",
+  "kurz": "Magnesium zum Ausgleich eines Magnesiummangels, z. B. bei Wadenkrämpfen oder erhöhtem Bedarf in Schwangerschaft und Sport.",
+  "gruppen": ["mehrwertige-kationen"],
+  "handelsnamen": ["Magnesiocard", "Magnesium Diasporal", "Magnesium Biomed"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Granulat", "Brausetabletten", "Kautabletten", "Tabletten", "Injektionslösung"],
+  "indikationen": [
+    { "text": "Magnesiummangel und erhöhter Magnesiumbedarf, z. B. in Schwangerschaft und Stillzeit, im Wachstum, bei Sport, Durchfall oder Behandlung mit Diuretika", "ids": ["magnesiummangel"] },
+    { "text": "Muskelkrämpfe, z. B. Wadenkrämpfe, infolge Magnesiummangels", "ids": ["magnesiummangel", "muskelverspannung"] }
+  ],
+  "wirkmechanismus": "Ersetzt Magnesium, das Muskeln und Nerven für eine normale Erregbarkeit brauchen. Magnesium ist Cofaktor von über 300 Enzymen, unter anderem aller ATP-abhängigen Reaktionen, und wirkt an Muskel- und Nervenzellen als natürlicher Gegenspieler von Calcium. Es stabilisiert die Zellmembranen und vermindert eine Übererregbarkeit, die bei Mangel zu Krämpfen, Muskelzuckungen und Herzrhythmusstörungen führen kann. Die Aufnahme aus dem Darm ist begrenzt; Überschüsse scheidet die gesunde Niere aus.",
+  "kontraindikationen": [
+    { "text": "Schwere Niereninsuffizienz (Gefahr einer Magnesiumanreicherung)", "ids": ["niereninsuffizienz"] },
+    { "text": "Injektion: AV-Block und andere schwere Reizleitungsstörungen des Herzens", "ids": ["av-block"] },
+    { "text": "Injektion: Myasthenia gravis", "ids": ["myasthenia-gravis"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Magnesium im Blut kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Starker Flüssigkeitsmangel (Exsikkose)", "ids": ["dehydratation"] },
+    { "text": "Infektsteine (Magnesium-Ammoniumphosphat-Steine) in den Harnwegen", "ids": ["nierensteine"] },
+    { "text": "Injektion: langsamer Puls, tiefer Blutdruck; langsam verabreichen und Reflexe, Atmung und Blutdruck überwachen", "ids": ["bradykardie", "hypotonie"] },
+    { "text": "Zucker- und Süssstoffgehalt einzelner Granulate und Brausetabletten bei Fructoseintoleranz oder Diabetes beachten", "ids": ["fructoseintoleranz", "diabetes"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Tetracycline und Fluorchinolone (z. B. Doxycyclin, Ciprofloxacin)", "ref": ["gruppe:tetracycline", "gruppe:fluorchinolone"], "effekt": "Magnesium bildet schwer lösliche Komplexe und vermindert die Aufnahme des Antibiotikums – mindestens 2–4 Stunden Abstand.", "schwere": "mittel" },
+    { "text": "Bisphosphonate zum Einnehmen (z. B. Alendronsäure)", "ref": ["gruppe:bisphosphonate"], "effekt": "Stark verminderte Aufnahme des Bisphosphonats – Magnesium erst nach der in dessen Fachinformation genannten Wartezeit einnehmen.", "schwere": "mittel" },
+    { "text": "Schilddrüsenhormone (Levothyroxin)", "ref": ["gruppe:schilddruesenhormone"], "effekt": "Verminderte Aufnahme des Schilddrüsenhormons – mindestens 4 Stunden Abstand.", "schwere": "mittel" },
+    { "text": "Integrasehemmer gegen HIV (z. B. Dolutegravir, Bictegravir, Raltegravir)", "ref": ["gruppe:integrasehemmer"], "effekt": "Verminderte Aufnahme des HIV-Mittels – Einnahmeabstand gemäss dessen Fachinformation einhalten.", "schwere": "mittel" },
+    { "text": "Eltrombopag", "ref": ["eltrombopag"], "effekt": "Verminderte Aufnahme – Eltrombopag mindestens 2 Stunden vor oder 4 Stunden nach Magnesium einnehmen.", "schwere": "mittel" },
+    { "text": "Muskelrelaxanzien bei Narkose und Aminoglykoside (bei Magnesium-Injektion)", "ref": ["gruppe:muskelrelaxanzien-peripher", "gruppe:aminoglykoside"], "effekt": "Verstärkte und verlängerte Muskelerschlaffung bis zur Atemschwäche – Dosis anpassen und überwachen.", "schwere": "mittel" },
+    { "text": "Calciumantagonisten vom Nifedipin-Typ (bei Magnesium-Injektion)", "ref": ["gruppe:dhp-calciumantagonisten"], "effekt": "Verstärkter Blutdruckabfall möglich – Blutdruck überwachen.", "schwere": "mittel" },
+    { "text": "Eisenpräparate", "ref": ["gruppe:eisenpraeparate"], "effekt": "Verminderte Eisenaufnahme – mindestens 2 Stunden Abstand.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": ["Weicher Stuhl oder Durchfall, vor allem bei hohen Dosen", "Müdigkeit bei langdauernder hoch dosierter Einnahme", "Injektion: Wärmegefühl, Hautrötung (Flush), Übelkeit, Blutdruckabfall, langsamer Puls", "Hypermagnesiämie bei Niereninsuffizienz oder Überdosierung: Muskelschwäche, fehlende Reflexe, Atemschwäche, Herzrhythmusstörungen"]
+  },
+  "schwangerschaft": "Erlaubt; der Magnesiumbedarf ist in der Schwangerschaft erhöht.",
+  "stillzeit": "Erlaubt.",
+  "hinweise": [
+    "Abstand von 2–4 Stunden zu Tetracyclinen, Chinolonen, Schilddrüsenhormonen, Bisphosphonaten und Eisen einhalten.",
+    "Bei Durchfall die Tagesmenge auf mehrere Einnahmen verteilen oder verringern.",
+    "Bei eingeschränkter Nierenfunktion nur nach ärztlicher Rücksprache einnehmen."
+  ],
+  "stand": "2026-10"
+}

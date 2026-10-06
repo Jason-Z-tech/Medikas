@@ -1,0 +1,73 @@
+{
+  "id": "amoxicillin",
+  "name": "Amoxicillin",
+  "synonyme": ["Amoxicilline", "Amoxicillinum", "Amoxicillin-Trihydrat"],
+  "atc": ["J01CA04"],
+  "klasse": "Aminopenicillin (Beta-Laktam-Antibiotikum)",
+  "kurz": "Häufig verwendetes Penicillin-Antibiotikum gegen bakterielle Infekte von Ohren, Nebenhöhlen, Atemwegen und Harnwegen sowie bei Borreliose.",
+  "gruppen": ["penicilline"],
+  "handelsnamen": ["Clamoxyl", "Amoxi-Mepha", "Amoxicillin Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Dispergierbare Tabletten", "Pulver für Suspension zum Einnehmen (Sirup)"],
+  "indikationen": [
+    { "text": "Akute Mittelohrentzündung, akute bakterielle Nasennebenhöhlenentzündung, Streptokokken-Angina", "ids": ["ohrenentzuendung", "sinusitis", "atemwegsinfekt"] },
+    { "text": "Ambulant erworbene Lungenentzündung, akute Verschlimmerung einer chronischen Bronchitis", "ids": ["lungenentzuendung", "bronchitis", "copd"] },
+    { "text": "Harnwegsinfektionen wie Blasen- und Nierenbeckenentzündung, Bakterien im Urin während der Schwangerschaft", "ids": ["harnwegsinfekt"] },
+    { "text": "Zahnabszess mit sich ausbreitender Entzündung", "ids": ["mundinfektion"] },
+    { "text": "Lyme-Borreliose (z. B. Wanderröte)", "ids": ["borreliose"] },
+    { "text": "Ausrottung von Helicobacter pylori zusammen mit einem Säureblocker und einem weiteren Antibiotikum", "ids": ["helicobacter", "magen-darm-ulkus"] },
+    { "text": "Vorbeugung einer Herzinnenhautentzündung (Endokarditis-Prophylaxe) bei Risikopersonen vor bestimmten Eingriffen", "ids": ["herzklappenerkrankung", "operation"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand stört. Amoxicillin hemmt die Penicillin-bindenden Proteine (Transpeptidasen), die den Zellwandbaustein Peptidoglykan quervernetzen; wachsende Bakterien gehen dadurch zugrunde (bakterizide Wirkung). Es wirkt gegen Streptokokken, Pneumokokken, Enterokokken und einen Teil der gramnegativen Keime wie Haemophilus influenzae und E. coli. Bakterien, die Beta-Laktamasen bilden (z. B. die meisten Staphylokokken), zerstören Amoxicillin – dafür gibt es die Kombination mit Clavulansäure.",
+  "kontraindikationen": [
+    { "text": "Penicillinallergie", "ids": ["penicillinallergie"] },
+    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf ein anderes Beta-Laktam-Antibiotikum (Cephalosporin, Carbapenem, Monobactam) in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] }
+  ],
+  "vorsicht": [
+    { "text": "Allergie gegen Cephalosporine oder andere Arzneimittel in der Vorgeschichte", "ids": ["allergie"] },
+    { "text": "Pfeiffersches Drüsenfieber (infektiöse Mononukleose) oder lymphatische Leukämie: häufig masernähnlicher Hautausschlag – Amoxicillin vermeiden", "ids": ["leukaemie"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei hohen Dosen Krampfanfälle und Kristalle im Urin möglich", "ids": ["niereninsuffizienz"] },
+    { "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte", "ids": ["epilepsie"] },
+    { "text": "Schwerer oder anhaltender Durchfall während oder nach der Behandlung: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
+    { "text": "Behandlung von Borreliose oder Syphilis: Jarisch-Herxheimer-Reaktion (Fieber, Schüttelfrost) zu Beginn möglich", "ids": ["borreliose", "geschlechtskrankheit"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Penicilline vermindern die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Blutbild und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Der INR kann ansteigen (Blutungsgefahr) – INR während und kurz nach der Behandlung kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
+    { "text": "Allopurinol", "ref": ["allopurinol"], "effekt": "Häufiger allergische Hautausschläge.", "schwere": "leicht" },
+    { "text": "Probenecid (Gichtmittel)", "ref": [], "effekt": "Verringert die Ausscheidung von Amoxicillin über die Niere – höhere, länger anhaltende Spiegel.", "schwere": "leicht" },
+    { "text": "Tetracycline und andere bakteriostatische Antibiotika", "ref": ["gruppe:tetracycline", "chloramphenicol"], "effekt": "Können die bakterientötende Wirkung von Amoxicillin abschwächen.", "schwere": "leicht" },
+    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Durchfall", "Übelkeit", "Hautausschlag"],
+    "gelegentlich": ["Erbrechen", "Nesselsucht (Urtikaria), Juckreiz"],
+    "sehrSelten": [
+      "Pilzinfektionen von Haut und Schleimhäuten (Candidose)",
+      "Blutbildveränderungen (Leukopenie bis Agranulozytose, Thrombozytopenie, hämolytische Anämie)",
+      "Schwere allergische Reaktionen (Anaphylaxie, Angioödem, Serumkrankheit, allergische Gefässentzündung)",
+      "Krampfanfälle, Schwindel, Überaktivität",
+      "Antibiotika-assoziierte Kolitis (schwere Darmentzündung), schwarze Haarzunge",
+      "Leberentzündung, Gelbsucht durch Gallestau",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP, DRESS)",
+      "Interstitielle Nephritis (Nierenentzündung), Kristalle im Urin"
+    ],
+    "unbekannt": [
+      "Jarisch-Herxheimer-Reaktion",
+      "Aseptische Meningitis (nicht bakterielle Hirnhautentzündung)",
+      "Kounis-Syndrom (allergisch ausgelöster Herzinfarkt)",
+      "Arzneimittelinduziertes Enterokolitis-Syndrom (wiederholtes Erbrechen 1–4 Stunden nach Einnahme, vor allem bei Kindern)"
+    ]
+  },
+  "schwangerschaft": "Kann angewendet werden, wenn eine Antibiotikabehandlung nötig ist; langjährige Erfahrung ohne Hinweise auf eine Schädigung des Kindes.",
+  "stillzeit": "Erlaubt. Geht in kleinen Mengen in die Muttermilch über; beim Säugling sind Durchfall oder Pilzbefall möglich.",
+  "hinweise": [
+    "Kann unabhängig von den Mahlzeiten eingenommen werden; die verordnete Behandlungsdauer einhalten, auch wenn es schon besser geht.",
+    "Bei Hautausschlag, Atemnot oder Schwellungen sofort ärztlichen Rat einholen; eine bestätigte Allergie im Allergiepass vermerken.",
+    "Bei hoher Dosierung reichlich trinken.",
+    "Schwerer oder blutiger Durchfall, auch Wochen nach der Behandlung, muss ärztlich abgeklärt werden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "tretinoin",
+  "name": "Tretinoin",
+  "synonyme": [
+    "All-trans-Retinsäure",
+    "ATRA",
+    "Vitamin-A-Säure",
+    "Tretinoinum"
+  ],
+  "atc": [
+    "D10AD01",
+    "L01XF01"
+  ],
+  "klasse": "Retinoid (Vitamin-A-Säure); topisches Aknemittel und orales Mittel zur Differenzierungstherapie bei Leukämie",
+  "kurz": "Vitamin-A-Säure: als Creme gegen Akne, als Kapseln zur Behandlung einer besonderen Form von Blutkrebs (akute Promyelozytenleukämie).",
+  "gruppen": [
+    "retinoide-systemisch",
+    "teratogen",
+    "photosensibilisierend",
+    "thromboserisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Airol",
+    "Vesanoid",
+    "Treclinac (Kombi)"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Creme",
+    "Gel (Kombination mit Clindamycin)",
+    "Weichkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Akne (Acne vulgaris), besonders mit Mitessern (Komedonen) – Creme bzw. Gel",
+      "ids": [
+        "akne"
+      ]
+    },
+    {
+      "text": "Akute Promyelozytenleukämie (APL), eine Form der akuten myeloischen Leukämie: Einleitung der Remission in Kombination mit Arsentrioxid oder Chemotherapie (Kapseln)",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Normalisiert die Verhornung der Haut und löst Mitesser; bei Leukämie lässt es unreife Krebszellen ausreifen. Tretinoin (all-trans-Retinsäure) bindet an Retinsäure-Rezeptoren (RAR) im Zellkern und steuert Gene für Zellwachstum und Zellreifung. In der Haut beschleunigt es die Erneuerung der Oberhaut, lockert verhornte Talgdrüsenausgänge und beugt neuen Komedonen vor. Bei der akuten Promyelozytenleukämie überwindet es in hoher Konzentration die Blockade durch das Fusionsprotein PML-RARα, sodass die leukämischen Promyelozyten zu reifen Granulozyten ausdifferenzieren.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft und geplante Schwangerschaft (Creme und Kapseln)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit (Kapseln)",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Erdnuss- oder Sojaallergie (Kapseln enthalten Sojaöl)",
+      "ids": [
+        "erdnuss-sojaallergie"
+      ]
+    },
+    {
+      "text": "Akutes Ekzem, Sonnenbrand oder verletzte Haut im Behandlungsgebiet (Creme)",
+      "ids": [
+        "neurodermitis",
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Rosazea und periorale Dermatitis (Creme)",
+      "ids": [
+        "rosazea"
+      ]
+    },
+    {
+      "text": "Hautkrebs (Hautepitheliom) in der eigenen oder familiären Vorgeschichte (Creme)",
+      "ids": [
+        "hautkrebs"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Frauen im gebärfähigen Alter: während der Kapseltherapie und bis 1 Monat danach zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Differenzierungssyndrom (Retinsäure-Syndrom) bei der Leukämiebehandlung: Fieber, Atemnot, Gewichtszunahme, Wasser in der Lunge – sofort ärztlich behandeln",
+      "ids": [
+        "leukaemie",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck (Pseudotumor cerebri), besonders bei Kindern: starke Kopfschmerzen, Übelkeit, Sehstörungen",
+      "ids": [
+        "kinder",
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Kapseln)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette: Triglyceride und Cholesterin kontrollieren (Kapseln)",
+      "ids": [
+        "hypertriglyzeridaemie",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Thrombosen, besonders im ersten Behandlungsmonat (Kapseln)",
+      "ids": [
+        "thrombose",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Sonne und UV-Licht: erhöhte Lichtempfindlichkeit der behandelten Haut (Creme)",
+      "ids": [
+        "sonnenbrand"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Tetracycline (z. B. Doxycyclin, Minocyclin) bei Einnahme der Kapseln",
+      "ref": [
+        "gruppe:tetracycline"
+      ],
+      "grund": "Beide Wirkstoffe können den Hirndruck erhöhen – Gefahr eines Pseudotumor cerebri."
+    },
+    {
+      "text": "Vitamin A bei Einnahme der Kapseln",
+      "ref": [
+        "retinol-vitamin-a"
+      ],
+      "grund": "Verstärkte Vitamin-A-Wirkung mit Gefahr einer Vitamin-A-Vergiftung (Hypervitaminose A)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Antifibrinolytika wie Tranexamsäure (bei Einnahme der Kapseln)",
+      "ref": [
+        "tranexamsaeure"
+      ],
+      "effekt": "Selten tödliche Thrombosen beschrieben – nur mit Vorsicht kombinieren, auf Thrombosezeichen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gestagen-Minipille (niedrig dosierte Gestagene) während der Kapseltherapie",
+      "ref": [
+        "gruppe:gestagene"
+      ],
+      "effekt": "Verhütungsschutz möglicherweise unzureichend – zusätzliche bzw. andere zuverlässige Verhütungsmethode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Tretinoin-Spiegel und mehr Nebenwirkungen der Kapseln möglich – Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenobarbital, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tiefere Tretinoin-Spiegel – Wirkverlust bei der Leukämiebehandlung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere schälende oder reizende Hautmittel (z. B. Benzoylperoxid, Salicylsäure, Adapalen, alkoholhaltige Präparate)",
+      "ref": [
+        "benzoylperoxid",
+        "salicylsaeure",
+        "adapalen"
+      ],
+      "effekt": "Verstärkte Hautreizung; Benzoylperoxid kann Tretinoin zudem unwirksam machen – zu unterschiedlichen Tageszeiten auftragen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lichtempfindlich machende Mittel (z. B. Tetracycline, Fluorchinolone, Thiazide)",
+      "ref": [
+        "gruppe:photosensibilisierend"
+      ],
+      "effekt": "Verstärkte Lichtempfindlichkeit – konsequenter Sonnenschutz.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautreizung an der Auftragsstelle mit Rötung, Schuppung, Brennen und Trockenheit (Creme)",
+      "Differenzierungssyndrom (Retinsäure-Syndrom) bei der Leukämiebehandlung: Fieber, Atemnot, Wassereinlagerungen",
+      "Kopfschmerzen, erhöhter Hirndruck (Pseudotumor cerebri), Schwindel",
+      "Trockene Haut und Schleimhäute, Lippenentzündung (Cheilitis), Ausschlag, Haarausfall (Kapseln)",
+      "Übelkeit, Erbrechen, Bauchschmerzen (Kapseln)",
+      "Erhöhte Blutfette (Triglyceride, Cholesterin) und Leberwerte (Kapseln)",
+      "Knochen- und Brustschmerzen, Fieber, Frösteln (Kapseln)",
+      "Seh- und Hörstörungen, Depression, Verwirrtheit (Kapseln)"
+    ],
+    "unbekannt": [
+      "Thrombosen in Venen und Arterien (z. B. Herzinfarkt, Schlaganfall)",
+      "Starker Anstieg der weissen Blutkörperchen (Hyperleukozytose)",
+      "Bauchspeicheldrüsenentzündung (Pankreatitis)",
+      "Sweet-Syndrom, Gefässentzündung (Vaskulitis), Erythema nodosum",
+      "Geschwüre im Genitalbereich",
+      "Erhöhtes Calcium im Blut (Hyperkalzämie)",
+      "Pigmentveränderungen und erhöhte Lichtempfindlichkeit der Haut (Creme)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, auch als Creme: Tretinoin kann schwere Fehlbildungen verursachen. Frauen im gebärfähigen Alter müssen während der Kapseltherapie und bis 1 Monat danach zuverlässig verhüten.",
+  "stillzeit": "Bei Einnahme der Kapseln kontraindiziert – vorher abstillen. Die Creme in der Stillzeit nur nach ärztlicher Abwägung und nie im Brustbereich anwenden.",
+  "hinweise": [
+    "Creme abends dünn auf die gereinigte, trockene Haut auftragen; die Akne bessert sich oft erst nach mehreren Wochen, anfangs ist eine Verschlechterung möglich.",
+    "Sonne, Solarium und UV-Licht meiden, tagsüber Sonnenschutz verwenden.",
+    "Kapseln mit einer Mahlzeit oder kurz danach unzerkaut einnehmen.",
+    "Bei Fieber, Atemnot, rascher Gewichtszunahme oder starken Kopfschmerzen während der Kapseltherapie sofort die behandelnde Ärztin oder den Arzt informieren."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ertapenem",
+  "name": "Ertapenem",
+  "synonyme": ["Ertapenemum", "Ertapenem-Natrium"],
+  "kombinationAus": [],
+  "atc": ["J01DH03"],
+  "klasse": "Betalaktam-Antibiotikum aus der Gruppe der Carbapeneme",
+  "kurz": "Breit wirksames Carbapenem-Antibiotikum, das einmal täglich als Infusion bei schweren Bauch-, Lungen-, Frauen- und Fussinfektionen gegeben wird.",
+  "gruppen": ["carbapeneme"],
+  "handelsnamen": ["Invanz"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Infusionslösung"],
+  "indikationen": [
+    { "text": "Infektionen im Bauchraum (intraabdominelle Infektionen)", "ids": ["bakterielle-infektion"] },
+    { "text": "Ambulant erworbene Lungenentzündung", "ids": ["lungenentzuendung"] },
+    { "text": "Akute gynäkologische Infektionen", "ids": ["bakterielle-infektion"] },
+    { "text": "Infektionen der Haut und Weichteile beim diabetischen Fuss", "ids": ["hautinfektion", "diabetes"] },
+    { "text": "Vorbeugung von Wundinfektionen bei geplanten Darmoperationen (Erwachsene)", "ids": ["operation"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Ertapenem bindet an die Penicillin-bindenden Proteine (vor allem PBP 2 und 3) und hemmt die Quervernetzung des Zellwandbausteins Peptidoglykan. Es ist gegen die meisten Betalaktamasen einschliesslich ESBL stabil. Anders als andere Carbapeneme wirkt es kaum gegen Pseudomonas, Acinetobacter und Enterokokken; dank langer Halbwertszeit genügt eine Gabe pro Tag.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen andere Carbapeneme (z. B. Meropenem, Imipenem)", "ids": [] },
+    { "text": "Schwere Überempfindlichkeitsreaktion (z. B. Anaphylaxie, schwere Hautreaktion) auf andere Betalaktam-Antibiotika wie Penicilline oder Cephalosporine", "ids": ["penicillinallergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Leichtere Allergie gegen Penicilline oder Cephalosporine (Kreuzallergie möglich)", "ids": ["penicillinallergie"] },
+    { "text": "Epilepsie oder andere Erkrankungen des Gehirns (Krampfanfälle möglich)", "ids": ["epilepsie"] },
+    { "text": "Stark eingeschränkte Nierenfunktion (Kreatinin-Clearance 30 ml/min oder weniger) und Dialyse: Dosisanpassung", "ids": ["niereninsuffizienz"] },
+    { "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)", "ids": ["clostridioides"] },
+    { "text": "Säuglinge unter 3 Monaten: keine Daten", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Valproinsäure (Antiepileptikum)", "ref": ["valproinsaeure"], "effekt": "Der Valproinsäure-Spiegel fällt stark ab – Gefahr von Krampfanfällen. Kombination wird nicht empfohlen; anderes Antibiotikum oder vorübergehend anderes Antiepileptikum wählen.", "schwere": "schwer" },
+    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Wie bei anderen Antibiotika kann die Gerinnungshemmung schwanken – INR häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Verzögert die Ausscheidung von Ertapenem; zur Verlängerung der Wirkung nicht empfohlen.", "schwere": "leicht" },
+    { "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": ["Durchfall, Übelkeit, Erbrechen", "Kopfschmerzen", "Hautausschlag, Juckreiz", "Venenentzündung oder Reizung an der Infusionsstelle", "Erhöhte Leberwerte"],
+    "gelegentlich": ["Schwindel, Schläfrigkeit, Schlaflosigkeit, Verwirrtheit", "Krampfanfälle", "Blutdruckabfall, Atemnot", "Pilzinfektionen im Mund (Soor), Verstopfung, Verdauungsbeschwerden", "Clostridioides-difficile-assoziierter Durchfall", "Nesselsucht, Hautrötung", "Erhöhte Bilirubin- und Kreatininwerte"],
+    "selten": ["Neutropenie und Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)", "Allergische Reaktionen", "Unruhe, Angst, Depression", "Hypoglykämie (Unterzuckerung)"],
+    "sehrSelten": [],
+    "unbekannt": ["Anaphylaxie (schwere allergische Reaktion)", "Halluzinationen, Bewusstseinsveränderungen, Aggression, Delir", "Muskelzuckungen (Myoklonien), Zittern, Gangstörung, Muskelschwäche", "DRESS und akute generalisierte exanthematische Pustulose (schwere Hautreaktionen)", "Zahnverfärbungen"]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen bei Schwangeren. Anwendung nur, wenn der Nutzen das mögliche Risiko für das Kind klar überwiegt.",
+  "stillzeit": "Geht in die Muttermilch über. Nur nach ärztlicher Nutzen-Risiko-Abwägung anwenden.",
+  "hinweise": [
+    "Wird einmal täglich als Infusion gegeben (im Spital oder ambulant); Dosis bei schwacher Nierenfunktion angepasst.",
+    "Unbedingt angeben, wenn Valproinsäure eingenommen wird oder eine Antibiotika-Allergie besteht.",
+    "Bei starkem oder anhaltendem Durchfall – auch nach Behandlungsende – ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

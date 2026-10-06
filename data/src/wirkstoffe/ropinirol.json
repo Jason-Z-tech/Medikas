@@ -1,0 +1,201 @@
+{
+  "id": "ropinirol",
+  "name": "Ropinirol",
+  "synonyme": [
+    "Ropinirole",
+    "Ropinirolhydrochlorid"
+  ],
+  "atc": [
+    "N04BC04"
+  ],
+  "klasse": "Dopaminagonist (Non-Ergolin)",
+  "kurz": "Parkinsonmittel, das wie Dopamin wirkt (Dopaminagonist); auch beim Restless-Legs-Syndrom (unruhige Beine) eingesetzt.",
+  "gruppen": [
+    "dopaminagonisten",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Requip",
+    "Requip-Modutab"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Krankheit, allein im Frühstadium oder zusammen mit Levodopa",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Mittelschweres bis schweres Restless-Legs-Syndrom (nur nicht-retardierte Tabletten)",
+      "ids": [
+        "restless-legs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ahmt im Gehirn die Wirkung des Botenstoffs Dopamin nach, der bei Parkinson fehlt. Ropinirol ist ein nicht-ergoliner Agonist an den Dopamin-D2- und -D3-Rezeptoren im Striatum und bessert so Bewegungsarmut, Steifigkeit und Zittern. Beim Restless-Legs-Syndrom lindert es über die gleichen Rezeptoren Missempfindungen und Bewegungsdrang der Beine. Es wird in der Leber hauptsächlich über CYP1A2 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min) ohne regelmässige Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Tagesschläfrigkeit und plötzliches Einschlafen",
+      "ids": [
+        "narkolepsie",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigertes sexuelles Verlangen)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Psychosen in der Vorgeschichte",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Schwere Herz-Kreislauf-Erkrankungen (Blutdruckabfall möglich)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Restless-Legs-Syndrom: Augmentation (Beschwerden beginnen früher und werden stärker)",
+      "ids": [
+        "restless-legs"
+      ]
+    },
+    {
+      "text": "Beim Absetzen: Dopaminagonisten-Entzugssyndrom mit Angst, Depression, Schmerzen",
+      "ids": [
+        "depression",
+        "angststoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antipsychotika und andere Dopamin-Antagonisten (z. B. Metoclopramid)",
+      "ref": [
+        "gruppe:antipsychotika",
+        "gruppe:dopaminantagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP1A2-Hemmer (z. B. Fluvoxamin, Ciprofloxacin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Ropinirol-Spiegel steigt deutlich – Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Östrogene (z. B. Hormonersatztherapie)",
+      "ref": [
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Höhere Ropinirol-Spiegel – Dosis ggf. anpassen, wenn Östrogene begonnen oder abgesetzt werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rauchen",
+      "ref": [],
+      "effekt": "Rauchen beschleunigt den Abbau (CYP1A2-Induktion); bei Rauchbeginn oder Rauchstopp Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit, Gefahr des plötzlichen Einschlafens.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid"
+      ],
+      "effekt": "Mehr Überbewegungen und Halluzinationen; Levodopa-Dosis ggf. senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankungen des INR berichtet – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Schläfrigkeit (Somnolenz)",
+      "Dyskinesien (Überbewegungen, bei Kombination mit Levodopa)"
+    ],
+    "haeufig": [
+      "Halluzinationen, Verwirrtheit",
+      "Schwindel, Ohnmacht (Synkope)",
+      "Erbrechen, Bauchschmerzen, Sodbrennen, Verstopfung",
+      "Beinödeme (Wassereinlagerungen)",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Müdigkeit, Nervosität"
+    ],
+    "gelegentlich": [
+      "Plötzliches Einschlafen, übermässige Tagesschläfrigkeit",
+      "Psychotische Reaktionen (Wahn, Paranoia, Delir)"
+    ],
+    "unbekannt": [
+      "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigertes sexuelles Verlangen)",
+      "Dopamin-Dysregulationssyndrom, aggressives Verhalten",
+      "Überempfindlichkeitsreaktionen (Nesselsucht, Angioödem, Ausschlag)",
+      "Erhöhte Leberwerte",
+      "Dopaminagonisten-Entzugssyndrom (Apathie, Angst, Depression, Schmerzen beim Absetzen)",
+      "Augmentation beim Restless-Legs-Syndrom"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen; im Tierversuch schädliche Wirkungen. Nur anwenden, wenn der Nutzen das Risiko klar überwiegt.",
+  "stillzeit": "Ropinirol kann die Milchbildung hemmen. In der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen – das vermindert Übelkeit. Retardtabletten ganz schlucken.",
+    "Bei Tagesschläfrigkeit oder plötzlichem Einschlafen nicht Auto fahren und keine Maschinen bedienen.",
+    "Nicht abrupt absetzen, sondern ärztlich angeleitet ausschleichen.",
+    "Angehörige sollten auf Spielsucht, Kaufsucht oder auffälliges Sexualverhalten achten."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "ranolazin",
+  "name": "Ranolazin",
+  "synonyme": [
+    "Ranolazine"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C01EB18"
+  ],
+  "klasse": "Antianginosum (Hemmer des späten Natriumstroms)",
+  "kurz": "Zusatzmittel gegen Brustenge (Angina pectoris), wenn Betablocker oder Calciumantagonisten nicht genügen oder nicht vertragen werden.",
+  "gruppen": [
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Ranexa"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Zusatzbehandlung der stabilen Angina pectoris bei Erwachsenen, die mit Betablockern und/oder Calciumantagonisten unzureichend behandelt sind oder diese nicht vertragen",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert die Sauerstoffbilanz des Herzmuskels bei Durchblutungsstörungen, ohne Puls und Blutdruck wesentlich zu verändern. Ranolazin hemmt den späten Natriumeinstrom (späten Natriumstrom) in die Herzmuskelzellen, der bei Sauerstoffmangel verstärkt ist. Dadurch sinkt die Überladung der Zellen mit Natrium und in der Folge mit Calcium; der Herzmuskel kann sich in der Diastole besser entspannen, Wandspannung und Sauerstoffverbrauch nehmen ab.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Mittelschwere oder schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mittelschwere Niereninsuffizienz (Nierenfunktion kontrollieren; Risiko für akutes Nierenversagen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene QT-Verlängerung, QT-Verlängerung in der Familie",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Körpergewicht unter 60 kg (höhere Spiegel, mehr Nebenwirkungen)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Herzinsuffizienz (NYHA III–IV)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Voriconazol, Posaconazol, HIV-Proteasehemmer, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Stark erhöhte Ranolazin-Spiegel – Gefahr dosisabhängiger Nebenwirkungen wie Schwindel, Ohnmacht und QT-Verlängerung."
+    },
+    {
+      "text": "Antiarrhythmika der Klasse Ia (z. B. Chinidin) oder der Klasse III ausser Amiodaron (z. B. Sotalol, Dofetilid)",
+      "ref": [
+        "sotalol"
+      ],
+      "grund": "Zusätzliche QT-Verlängerung – Gefahr gefährlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Fluconazol, Erythromycin) und Grapefruitsaft",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Ranolazin-Spiegel steigen – Dosis auf höchstens 500 mg zweimal täglich begrenzen und auf Nebenwirkungen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4- und P-gp-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:p-gp-induktoren"
+      ],
+      "effekt": "Ranolazin-Spiegel sinken stark, die Wirkung geht verloren – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus",
+        "sirolimus",
+        "everolimus"
+      ],
+      "effekt": "Ranolazin hemmt CYP3A4 – deren Spiegel können steigen; Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-gp-Hemmer (z. B. Verapamil, Ciclosporin)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Höhere Ranolazin-Spiegel – Dosis vorsichtig anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigen etwa um die Hälfte (P-gp-Hemmung) – Digoxin-Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Simvastatin und Atorvastatin",
+      "ref": [
+        "simvastatin",
+        "atorvastatin"
+      ],
+      "effekt": "Statin-Spiegel steigen (Gefahr von Muskelschäden) – Statindosis gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Ranolazin hemmt den Transporter OCT2, die Metformin-Spiegel steigen – bei 1000 mg Ranolazin zweimal täglich Metformin höchstens 1700 mg pro Tag.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate (z. B. trizyklische Antidepressiva, Antipsychotika, Metoprolol)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Ranolazin hemmt CYP2D6 – deren Spiegel können steigen; eventuell Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung – Vorsicht, EKG kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schwindel",
+      "Kopfschmerzen",
+      "Obstipation (Verstopfung)",
+      "Übelkeit, Erbrechen",
+      "Asthenie (Schwächegefühl)"
+    ],
+    "gelegentlich": [
+      "Synkope (Ohnmacht), Schwindel beim Aufstehen",
+      "Sehstörungen (verschwommenes Sehen, Doppelbilder), Drehschwindel, Ohrensausen",
+      "Verwirrtheit, Halluzinationen",
+      "Hypotonie (tiefer Blutdruck), Hitzewallungen",
+      "Atemnot, Husten",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Anstieg von Kreatinin und Harnstoff im Blut",
+      "QT-Verlängerung im EKG"
+    ],
+    "selten": [
+      "Akutes Nierenversagen",
+      "Angioödem (Schwellung von Gesicht und Rachen)",
+      "Harnverhalt"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur anwenden, wenn unbedingt erforderlich.",
+  "stillzeit": "Nicht stillen – ein Übergang in die Muttermilch ist nicht bekannt, ein Risiko kann nicht ausgeschlossen werden.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht teilen, zerkleinern oder zerkauen.",
+    "Keinen Grapefruitsaft trinken.",
+    "Nicht zur Behandlung eines akuten Angina-pectoris-Anfalls geeignet – dafür Nitroglycerin verwenden.",
+    "Kann Schwindel und Sehstörungen verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

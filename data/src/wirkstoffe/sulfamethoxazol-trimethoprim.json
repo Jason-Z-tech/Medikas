@@ -1,0 +1,68 @@
+{
+  "id": "sulfamethoxazol-trimethoprim",
+  "name": "Sulfamethoxazol + Trimethoprim",
+  "synonyme": ["Cotrimoxazol", "Co-trimoxazole", "TMP-SMX", "SMX-TMP", "Sulfamethoxazole and trimethoprim"],
+  "kombinationAus": [],
+  "atc": ["J01EE01"],
+  "klasse": "Sulfonamid-Trimethoprim-Kombination (Cotrimoxazol), Folsäure-Antagonist",
+  "kurz": "Antibiotika-Kombination (Cotrimoxazol) gegen Harnwegsinfekte und andere Infektionen sowie zur Behandlung und Vorbeugung der Pneumocystis-Lungenentzündung.",
+  "gruppen": ["sulfonamide", "folsaeureantagonisten", "cyp2c9-hemmer", "hyperkaliaemie-ausloesend", "myelosuppressiv", "photosensibilisierend"],
+  "handelsnamen": ["Bactrim", "Nopil"],
+  "abgabe": ["A"],
+  "darreichung": ["Tabletten", "Suspension zum Einnehmen", "Konzentrat zur Herstellung einer Infusionslösung"],
+  "indikationen": [
+    { "text": "Harnwegsinfektionen (Blasen- und Nierenbeckenentzündung), auch zur Vorbeugung bei wiederkehrenden Infekten", "ids": ["harnwegsinfekt"] },
+    { "text": "Behandlung und Vorbeugung der Pneumocystis-jirovecii-Lungenentzündung bei geschwächtem Immunsystem (z. B. HIV, nach Transplantation, Chemotherapie)", "ids": ["lungenentzuendung", "hiv", "immunsuppression"] },
+    { "text": "Atemwegsinfektionen, z. B. akute Verschlimmerung einer chronischen Bronchitis", "ids": ["bronchitis", "copd"] },
+    { "text": "Akute Mittelohrentzündung bei Kindern", "ids": ["ohrenentzuendung"] },
+    { "text": "Bakterielle Magen-Darm-Infektionen, z. B. Shigellose", "ids": ["durchfall"] },
+    { "text": "Weitere Infektionen durch empfindliche Erreger, z. B. Nokardiose oder Toxoplasmose", "ids": ["bakterielle-infektion", "wurmbefall"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Bakterien, indem es ihre Folsäure-Herstellung an zwei Stellen blockiert. Sulfamethoxazol verdrängt die Para-Aminobenzoesäure und hemmt die Dihydropteroat-Synthase; Trimethoprim hemmt die bakterielle Dihydrofolat-Reduktase. Ohne Folsäure können die Bakterien keine Erbsubstanz bilden; die doppelte Blockade wirkt synergistisch und oft bakterizid. Trimethoprim hemmt in der Niere zudem Natriumkanäle, was das Kalium im Blut erhöhen kann.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Sulfonamide oder Trimethoprim", "ids": ["sulfonamidallergie"] },
+    { "text": "Schwere Leberschäden (ausgeprägte Leberparenchymschäden)", "ids": ["leberinsuffizienz"] },
+    { "text": "Schwere Niereninsuffizienz, wenn die Blutspiegel nicht regelmässig kontrolliert werden können", "ids": ["niereninsuffizienz"] },
+    { "text": "Frühgeborene und Neugeborene in den ersten 6 Lebenswochen (Gefahr eines Kernikterus)", "ids": ["kinder"] },
+    { "text": "Durch Trimethoprim oder Sulfonamide ausgelöste Immunthrombozytopenie in der Vorgeschichte", "ids": ["thrombozytopenie"] }
+  ],
+  "vorsicht": [
+    { "text": "Ältere Menschen: häufiger schwere Nebenwirkungen (Blutbild, Haut, Hyperkaliämie)", "ids": ["aeltere-patienten"] },
+    { "text": "Folsäuremangel (z. B. bei Mangelernährung, Alkoholkrankheit, Antiepileptika-Therapie) und Blutbildstörungen: Gefahr von Blutbildschäden", "ids": ["vitamin-b12-mangel", "anaemie", "knochenmarkschaedigung"] },
+    { "text": "Erhöhtes Kalium oder Neigung dazu (Niereninsuffizienz, hohe Dosen, kaliumsparende Mittel)", "ids": ["hyperkaliaemie", "niereninsuffizienz"] },
+    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)", "ids": ["g6pd-mangel"] },
+    { "text": "Akute Porphyrie", "ids": ["porphyrie"] },
+    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS) – beim ersten Hautausschlag absetzen", "ids": ["schwere-hautreaktion"] },
+    { "text": "HIV-Infektion: Nebenwirkungen wie Ausschlag, Fieber und Blutbildveränderungen deutlich häufiger", "ids": ["hiv"] },
+    { "text": "Asthma oder schwere Allergien", "ids": ["asthma", "allergie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Beide hemmen den Folsäure-Stoffwechsel, zudem wird Methotrexat langsamer ausgeschieden – Gefahr schwerer Knochenmarkschäden (Panzytopenie). Kombination möglichst vermeiden.", "schwere": "schwer" },
+    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Sulfamethoxazol hemmt deren Abbau (CYP2C9) – stark erhöhtes Blutungsrisiko. INR engmaschig kontrollieren, Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Mittel, die das Kalium erhöhen (ACE-Hemmer, Sartane, Spironolacton, Eplerenon, Amilorid, Kaliumpräparate)", "ref": ["gruppe:hyperkaliaemie-ausloesend"], "effekt": "Gefahr einer gefährlichen Hyperkaliämie, besonders bei älteren Menschen und schwacher Niere – Kalium kontrollieren.", "schwere": "schwer" },
+    { "text": "Azathioprin, Mercaptopurin und andere knochenmarkhemmende Mittel", "ref": ["azathioprin", "mercaptopurin", "gruppe:myelosuppressiv"], "effekt": "Erhöhtes Risiko für Blutbildschäden – Blutbild kontrollieren.", "schwere": "mittel" },
+    { "text": "Phenytoin", "ref": ["phenytoin"], "effekt": "Phenytoin wird langsamer abgebaut, der Spiegel steigt – Spiegel und Nebenwirkungen überwachen.", "schwere": "mittel" },
+    { "text": "Sulfonylharnstoffe und Repaglinid (Blutzuckersenker)", "ref": ["gruppe:sulfonylharnstoffe"], "effekt": "Verstärkte Blutzuckersenkung, Unterzuckerung möglich – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Vorübergehende Verschlechterung der Nierenfunktion bei Nierentransplantierten – Nierenwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Der Digoxin-Spiegel kann steigen, besonders bei älteren Menschen – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Zidovudin", "ref": ["zidovudin"], "effekt": "Erhöhtes Risiko für Blutbildveränderungen – Blutbild kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Hyperkaliämie (erhöhtes Kalium), vor allem bei hohen Dosen"],
+    "haeufig": ["Übelkeit, Durchfall", "Hautausschlag", "Kopfschmerzen", "Pilzinfektionen (Candida)"],
+    "gelegentlich": ["Erbrechen"],
+    "selten": [],
+    "sehrSelten": ["Blutbildschäden: Agranulozytose, megaloblastäre oder aplastische Anämie, Thrombozytopenie, Panzytopenie", "Hämolytische Anämie (Blutzerfall), besonders bei G6PD-Mangel", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse), Lichtempfindlichkeit", "Anaphylaxie, Angioödem, Arzneimittelfieber", "Hepatitis mit Gelbsucht, Lebernekrose", "Hyponatriämie (Natriummangel), Hypoglykämie (Unterzuckerung)", "Aseptische Meningitis, Krampfanfälle, Halluzinationen", "Interstitielle Nephritis, Nierenfunktionsstörung, Kristallurie; Pankreatitis; Lungeninfiltrate"],
+    "unbekannt": ["DRESS (Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)", "Schwere Lungenschädigung bis zum akuten Lungenversagen (ARDS)", "Hämophagozytische Lymphohistiozytose (lebensbedrohliche Überaktivierung des Immunsystems)", "Clostridioides-difficile-Kolitis"]
+  },
+  "schwangerschaft": "Trimethoprim ist ein Folsäure-Antagonist: im 1. Drittel nur bei zwingender Indikation (mit Folsäure-Ergänzung). Kurz vor der Geburt vermeiden, weil Sulfonamide beim Neugeborenen einen Kernikterus begünstigen können.",
+  "stillzeit": "Geht in die Muttermilch über. Nur nach ärztlicher Abwägung; vermeiden bei Früh- oder Neugeborenen, bei Gelbsucht oder G6PD-Mangel des Kindes.",
+  "hinweise": [
+    "Reichlich trinken, um Kristalle im Urin zu vermeiden; starke Sonne meiden.",
+    "Bei Hautausschlag, Blasen, Fieber, Halsschmerzen oder Blutungszeichen sofort absetzen und ärztlichen Rat holen.",
+    "Bei längerer Einnahme Blutbild, Kalium und Nierenwerte kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,204 @@
+{
+  "id": "formoterol-beclometason",
+  "name": "Formoterol + Beclometason",
+  "synonyme": [
+    "Beclometasondipropionat/Formoterolfumarat",
+    "Beclometasone/Formoterol"
+  ],
+  "kombinationAus": [
+    "formoterol",
+    "beclometason"
+  ],
+  "atc": [
+    "R03AK08"
+  ],
+  "klasse": "Inhalative Fixkombination aus lang wirksamem Beta-2-Sympathomimetikum (LABA) und Glukokortikoid",
+  "kurz": "Inhalationsmittel mit Kortison und rasch wirkendem Bronchien-Erweiterer zur Dauerbehandlung von Asthma und schwerer COPD.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "glukokortikoide-inhalativ",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Foster"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol",
+    "Pulverinhalator"
+  ],
+  "indikationen": [
+    {
+      "text": "Asthma: regelmässige Behandlung, wenn eine Kombination aus inhalativem Kortison und lang wirksamem Bronchien-Erweiterer angezeigt ist; die tiefere Stärke auch als kombinierte Erhaltungs- und Bedarfstherapie",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Schwere COPD mit wiederholten Verschlechterungen (Exazerbationen) trotz Bronchien erweiternder Dauertherapie",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbindet eine entzündungshemmende mit einer rasch einsetzenden, lang anhaltenden bronchienerweiternden Wirkung. Beclometasondipropionat ist ein Prodrug: In der Lunge entsteht daraus das wirksame Beclometason-17-monopropionat, das die Entzündung der Bronchialschleimhaut dämpft. Formoterol stimuliert Beta-2-Rezeptoren und weitet die Bronchien innert Minuten für etwa 12 Stunden. Dank sehr feiner Partikel erreicht der Wirkstoff auch die kleinen Atemwege, weshalb die Kortisondosis tiefer ist als bei herkömmlichen Beclometason-Präparaten.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur alleinigen Behandlung akuter Atemnot (ausser bei verordneter Bedarfstherapie); Verschlechterung rasch ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "COPD: erhöhtes Risiko für Lungenentzündungen",
+      "ids": [
+        "copd",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Aktive oder ruhende Lungentuberkulose, Pilz- oder Virusinfektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, QT-Verlängerung, Phäochromozytom",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion, Diabetes, Kaliummangel",
+      "ids": [
+        "hyperthyreose",
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Sehstörungen, Katarakt oder Glaukom",
+      "ids": [
+        "glaukom",
+        "katarakt",
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Nicht abrupt absetzen (Gefahr einer Asthmaverschlechterung)",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Abschwächung der bronchienerweiternden Wirkung; bei Asthma Gefahr schwerer Bronchospasmen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer, insbesondere Ritonavir und Cobicistat",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Kortison-Nebenwirkungen im ganzen Körper können nicht ausgeschlossen werden – nur mit Vorsicht und Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Kortison, Theophyllin) und Digoxin",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:methylxanthine",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Hypokaliämie mit Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen während einer Narkose.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Disulfiram und Metronidazol (Dosieraerosol)",
+      "ref": [
+        "disulfiram",
+        "metronidazol"
+      ],
+      "effekt": "Das Dosieraerosol enthält eine kleine Menge Alkohol – eine Unverträglichkeitsreaktion ist theoretisch möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Pilzinfektion in Mund und Rachen (Soor), Rachenentzündung",
+      "Kopfschmerzen",
+      "Heiserkeit (Dysphonie)",
+      "Lungenentzündung (bei COPD)"
+    ],
+    "gelegentlich": [
+      "Grippe, Nebenhöhlenentzündung, Schnupfen",
+      "Zittern, Schwindel, Unruhe",
+      "Herzklopfen, beschleunigter Puls, Vorhofflimmern, QT-Verlängerung",
+      "Husten, Rachenreizung, Asthmaanfall",
+      "Übelkeit, Mundtrockenheit, Geschmacksstörungen",
+      "Hypokaliämie, Hyperglykämie",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Muskelkrämpfe, Muskelschmerzen"
+    ],
+    "selten": [
+      "Paradoxer Bronchospasmus",
+      "Angioödem",
+      "Ventrikuläre Extrasystolen, Angina pectoris",
+      "Blutdruckanstieg oder -abfall"
+    ],
+    "sehrSelten": [
+      "Unterdrückung der Nebennierenfunktion, Wachstumsverzögerung bei Kindern, verminderte Knochendichte",
+      "Glaukom, Katarakt",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "unbekannt": [
+      "Schlafstörungen, Angst, Depression, Aggressivität, Verhaltensänderungen",
+      "Verschwommenes Sehen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; ein gut kontrolliertes Asthma ist für Mutter und Kind wichtig. Gegen Ende der Schwangerschaft zurückhaltend, da Beta-2-Sympathomimetika die Wehen hemmen können.",
+  "stillzeit": "Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nach jeder Inhalation den Mund mit Wasser ausspülen und ausspucken – das beugt Soor und Heiserkeit vor.",
+    "Regelmässig anwenden, auch ohne Beschwerden; nicht abrupt absetzen.",
+    "Inhalationstechnik in der Apotheke oder Praxis zeigen lassen; beim Dosieraerosol kann eine Inhalierhilfe (Spacer) sinnvoll sein."
+  ],
+  "stand": "2026-10"
+}

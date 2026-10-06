@@ -1,0 +1,214 @@
+{
+  "id": "abirateron",
+  "name": "Abirateron",
+  "synonyme": [
+    "Abirateronacetat",
+    "Abiraterone"
+  ],
+  "atc": [
+    "L02BX03"
+  ],
+  "klasse": "Androgensynthese-Hemmer (CYP17-Hemmer)",
+  "kurz": "Tablette gegen fortgeschrittenen Prostatakrebs; stoppt die Testosteronbildung im ganzen Körper, zusammen mit Prednison einzunehmen.",
+  "gruppen": [
+    "antiandrogene",
+    "hypokaliaemie-ausloesend",
+    "blutdrucksteigernd",
+    "hepatotoxisch",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Zytiga",
+    "Abirateron Sandoz",
+    "Akeega (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierter metastasierter hormonsensitiver Prostatakrebs mit hohem Risiko, zusammen mit Hormonentzugstherapie",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter kastrationsresistenter Prostatakrebs (ohne oder nach Chemotherapie mit Docetaxel)",
+      "ids": [
+        "prostatakrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stoppt die Bildung männlicher Hormone nicht nur in den Hoden, sondern auch in Nebennieren und Tumorgewebe. Abirateronacetat wird im Körper zu Abirateron umgewandelt, das das Enzym CYP17 (17α-Hydroxylase/C17,20-Lyase) irreversibel hemmt. Weil dadurch auch weniger Kortisol entsteht, steigt ACTH und es werden vermehrt Mineralokortikoide gebildet – mit Bluthochdruck, Kaliummangel und Ödemen. Deshalb wird gleichzeitig Prednison oder Prednisolon gegeben.",
+  "kontraindikationen": [
+    {
+      "text": "Frauen, die schwanger sind oder schwanger werden können",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Bluthochdruck, Kaliummangel, Wassereinlagerungen: vor Beginn korrigieren und monatlich kontrollieren",
+      "ids": [
+        "hypertonie",
+        "hypokaliaemie",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Herzschwäche, Herzinfarkt in der Vorgeschichte, Herzrhythmusstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Leberschäden: Leberwerte in den ersten 3 Monaten alle 2 Wochen, danach monatlich",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Stress, Infektionen oder Operationen (zusätzlicher Kortisonbedarf, Nebenniereninsuffizienz möglich)",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "operation"
+      ]
+    },
+    {
+      "text": "Diabetes (Unterzuckerung bei gleichzeitigem Pioglitazon oder Repaglinid)",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Osteoporose (Frakturrisiko, auch durch Prednison)",
+      "ids": [
+        "osteoporose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Radium-223 in Kombination mit Abirateron und Prednison/Prednisolon",
+      "ref": [
+        "radium-223ra-dichlorid"
+      ],
+      "grund": "In Studien deutlich mehr Knochenbrüche und eine Tendenz zu höherer Sterblichkeit."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abirateron-Spiegel sinkt um etwa die Hälfte – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, Metoprolol, Dextromethorphan)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Abirateron hemmt CYP2D6 – Spiegel dieser Mittel steigen, Dosis evtl. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel und Antiarrhythmika",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen, verstärkt durch Kaliummangel – EKG und Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel und Herzglykoside (z. B. Furosemid, Hydrochlorothiazid, Digoxin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkter Kaliummangel, bei Digoxin Gefahr von Rhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Spironolacton",
+      "ref": [
+        "spironolacton"
+      ],
+      "effekt": "Bindet an den Androgenrezeptor und kann den PSA-Wert erhöhen – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C8-Substrate (z. B. Pioglitazon, Repaglinid)",
+      "ref": [
+        "pioglitazon",
+        "repaglinid"
+      ],
+      "effekt": "Spiegel steigen – Unterzuckerung möglich, Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypokaliämie (Kaliummangel)",
+      "Hypertonie (Bluthochdruck)",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Harnwegsinfektion",
+      "Durchfall",
+      "Erhöhte Leberwerte"
+    ],
+    "haeufig": [
+      "Herzinsuffizienz, Angina pectoris",
+      "Vorhofflimmern, Herzrasen",
+      "Hypertriglyzeridämie (erhöhte Blutfette)",
+      "Sepsis",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Blut im Urin",
+      "Hautausschlag",
+      "Knochenbrüche"
+    ],
+    "gelegentlich": [
+      "Nebenniereninsuffizienz",
+      "Myopathie, Rhabdomyolyse (Muskelschädigung)"
+    ],
+    "selten": [
+      "Akutes Leberversagen, fulminante Hepatitis",
+      "Allergische Alveolitis (Lungenentzündung)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Herzinfarkt",
+      "QT-Verlängerung",
+      "Anaphylaxie"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert; nicht für Frauen bestimmt. Männer sollen ein Kondom verwenden (bei schwangerer Partnerin immer, sonst zusätzlich eine weitere Methode) – während und bis 1 Woche nach der Behandlung.",
+  "stillzeit": "Nicht für Frauen bestimmt.",
+  "hinweise": [
+    "Auf nüchternen Magen einnehmen: mindestens 1 Stunde vor oder 2 Stunden nach dem Essen – mit Nahrung steigt die Aufnahme um ein Vielfaches.",
+    "Prednison bzw. Prednisolon gleichzeitig einnehmen und nie eigenmächtig absetzen.",
+    "Blutdruck, Kalium und Leberwerte werden regelmässig kontrolliert; Herzklopfen, Schwäche oder Gelbfärbung melden.",
+    "Schwangere oder Frauen, die schwanger werden könnten, sollen die Tabletten nur mit Handschuhen anfassen."
+  ],
+  "stand": "2026-10"
+}

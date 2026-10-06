@@ -1,0 +1,203 @@
+{
+  "id": "iloprost",
+  "name": "Iloprost",
+  "synonyme": [
+    "Iloprost-Trometamol"
+  ],
+  "atc": [
+    "B01AC11"
+  ],
+  "klasse": "Prostacyclin-Analogon",
+  "kurz": "Prostacyclin-Abkömmling: zum Inhalieren bei pulmonaler arterieller Hypertonie, als Infusion bei schweren Durchblutungsstörungen der Beine.",
+  "gruppen": [
+    "blutdrucksenkend",
+    "thrombozytenaggregationshemmer",
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Ventavis",
+    "Ilomedin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Lösung für einen Vernebler (Inhalation)",
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Primäre (idiopathische oder erbliche) pulmonale arterielle Hypertonie mit deutlichen Beschwerden (NYHA-Klasse III) bei Erwachsenen (Inhalation)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene Thrombangiitis obliterans (Bürger-Krankheit) mit schwerer Durchblutungsstörung der Gliedmassen, wenn eine Gefässoperation nicht möglich ist (Infusion)",
+      "ids": [
+        "pavk"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert Blutgefässe und hemmt das Verklumpen der Blutplättchen. Iloprost ist ein stabiles synthetisches Analogon von Prostacyclin und aktiviert Prostacyclin-(IP-)Rezeptoren; der Anstieg von cAMP entspannt die glatte Gefässmuskulatur. Inhaliert wirkt es vor allem auf die Lungengefässe und senkt den Lungengefässwiderstand; als Infusion verbessert es die Durchblutung kleiner Gefässe. Die Wirkung hält nur kurz an, deshalb wird mehrmals täglich inhaliert.",
+  "kontraindikationen": [
+    {
+      "text": "Erhöhtes Blutungsrisiko, z. B. aktive Magen-Darm-Geschwüre, Verletzungen oder Hirnblutung",
+      "ids": [
+        "aktive-blutung",
+        "magen-darm-ulkus",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Schwere koronare Herzkrankheit oder instabile Angina pectoris",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Herzinfarkt in den letzten 6 Monaten",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Dekompensierte Herzinsuffizienz ohne engmaschige ärztliche Überwachung",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schlaganfall oder TIA in den letzten 3 Monaten",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Pulmonale Hypertonie durch Verschluss der Lungenvenen (venookklusive Erkrankung)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Relevante Herzklappenfehler mit Funktionsstörung des Herzmuskels, die nicht durch die pulmonale Hypertonie bedingt ist",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit (Infusion)",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Tiefer Blutdruck: Behandlung bei systolischem Blutdruck unter 85 mmHg nicht beginnen",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Neigung zu Ohnmacht; körperliche Anstrengung kann eine Ohnmacht auslösen",
+      "ids": [
+        "synkope"
+      ]
+    },
+    {
+      "text": "Asthma, COPD oder akute Atemwegsinfekte (Bronchospasmus beim Inhalieren möglich)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion mit Dialyse: tiefere Dosis bzw. längere Abstände",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungenödem unter der Behandlung (Hinweis auf venookklusive Erkrankung) – Behandlung abbrechen",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder gleichzeitige Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Blutdrucksenker und Gefässerweiterer (z. B. Nitrate, PDE-5-Hemmer)",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate",
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien, Plättchenhemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Gesichtsrötung (Flush)",
+      "Übelkeit",
+      "Kieferschmerzen",
+      "Husten (Inhalation)",
+      "Brustschmerzen, Engegefühl in der Brust",
+      "Blutungen, v. a. Nasenbluten",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "haeufig": [
+      "Schwindel",
+      "Blutdruckabfall",
+      "Synkope (Ohnmacht)",
+      "Herzrasen, Herzklopfen",
+      "Atemnot, Rachenreizung",
+      "Erbrechen, Durchfall",
+      "Hautausschlag",
+      "Rückenschmerzen"
+    ],
+    "unbekannt": [
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Überempfindlichkeitsreaktionen",
+      "Geschmacksstörung"
+    ]
+  },
+  "schwangerschaft": "Infusion: in der Schwangerschaft kontraindiziert. Inhalation: nur bei klarer Notwendigkeit; Frauen im gebärfähigen Alter verhüten wirksam.",
+  "stillzeit": "Während der Behandlung nicht stillen (Infusion: kontraindiziert).",
+  "hinweise": [
+    "Inhalation nur mit dem dafür zugelassenen Vernebler; Lösung nicht mit Haut oder Augen in Kontakt bringen und nicht schlucken.",
+    "Wegen möglichem Blutdruckabfall langsam aufstehen; bei Schwindel kein Fahrzeug lenken.",
+    "Die Infusion erfolgt im Spital unter Kontrolle von Blutdruck und Puls."
+  ],
+  "stand": "2026-10"
+}

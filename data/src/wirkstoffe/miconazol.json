@@ -1,0 +1,218 @@
+{
+  "id": "miconazol",
+  "name": "Miconazol",
+  "synonyme": [
+    "Miconazolnitrat",
+    "Miconazole"
+  ],
+  "atc": [
+    "A01AB09",
+    "A07AC01",
+    "D01AC02",
+    "G01AF04"
+  ],
+  "klasse": "Azol-Antimykotikum (Imidazol) zur lokalen Anwendung",
+  "kurz": "Pilzmittel gegen Hautpilz, Scheidenpilz und Mundsoor; das Mundgel kann die Wirkung vieler Medikamente, v. a. von Blutverdünnern, verstärken.",
+  "gruppen": [
+    "azol-antimykotika",
+    "cyp2c9-hemmer",
+    "starke-cyp3a4-hemmer"
+  ],
+  "handelsnamen": [
+    "Daktarin",
+    "Daktarin Oral Gel",
+    "Gyno-Daktarin"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Mundgel",
+    "Crème",
+    "Vaginalcrème",
+    "Vaginalzäpfchen (Ovula)"
+  ],
+  "indikationen": [
+    {
+      "text": "Pilzinfektionen (Candida, Soor) der Mundhöhle und des Rachens (Mundgel)",
+      "ids": [
+        "mundinfektion",
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Pilzinfektionen der Haut, z. B. Fusspilz, Pilzinfektionen in Hautfalten oder Kleienpilzflechte (Pityriasis versicolor), auch mit bakterieller Mitbeteiligung (Crème)",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Pilzinfektionen der Scheide (vaginale Candidose)",
+      "ids": [
+        "vaginalinfektion"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stört den Aufbau der Zellmembran von Pilzen und bringt sie so zum Absterben. Miconazol hemmt das pilzeigene Cytochrom-P450-Enzym Lanosterol-14α-Demethylase und damit die Bildung von Ergosterol, einem wichtigen Baustein der Pilzmembran; zusätzlich wirkt es gegen einige grampositive Bakterien. Vom Mundgel wird ein Teil verschluckt und ins Blut aufgenommen; dort hemmt Miconazol die menschlichen Leberenzyme CYP3A4 und CYP2C9 und kann so den Abbau anderer Arzneimittel stark bremsen. Nach Anwendung auf der Haut oder in der Scheide gelangt nur sehr wenig Wirkstoff ins Blut.",
+  "kontraindikationen": [
+    {
+      "text": "Mundgel: Säuglinge unter 4 Monaten und Kinder mit noch nicht ausreichend entwickeltem Schluckreflex (Erstickungsgefahr)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Mundgel: Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Behandlung mit Blutverdünnern vom Cumarin-Typ (Phenprocoumon, Acenocoumarol): schwere Blutungen beschrieben, vor allem mit dem Mundgel, vereinzelt auch bei Vaginal- oder Hautanwendung – INR engmaschig kontrollieren",
+      "ids": [
+        "thromboseprophylaxe"
+      ]
+    },
+    {
+      "text": "Säuglinge und Kleinkinder: Mundgel in kleinen Portionen vorne im Mund auftragen, nicht in den Rachen (Erstickungsgefahr); nicht auf die Brustwarze stillender Mütter auftragen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Diabetes mit Sulfonylharnstoffen oder Epilepsie mit Phenytoin: Wirkung dieser Mittel kann durch das Mundgel verstärkt werden",
+      "ids": [
+        "diabetes",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (z. B. Stevens-Johnson-Syndrom, DRESS) möglich: bei Hautausschlag absetzen und ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Vaginalanwendung: Latexkondome und -diaphragmen können beschädigt werden (unsicherer Verhütungsschutz)",
+      "ids": [
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Simvastatin (und Lovastatin) – gilt für das Mundgel",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Miconazol hemmt den Abbau über CYP3A4 – stark erhöhte Statinspiegel mit Gefahr schwerer Muskelschäden (Rhabdomyolyse)."
+    },
+    {
+      "text": "Triazolam und Midazolam zum Einnehmen – gilt für das Mundgel",
+      "ref": [
+        "triazolam",
+        "midazolam"
+      ],
+      "grund": "Hemmung von CYP3A4 – stark verstärkte und verlängerte Sedierung bis zur Atemdämpfung."
+    },
+    {
+      "text": "Mutterkornalkaloide wie Ergotamin oder Dihydroergotamin – gilt für das Mundgel",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr von Gefässkrämpfen und schweren Durchblutungsstörungen (Ergotismus)."
+    },
+    {
+      "text": "QT-verlängernde CYP3A4-Substrate wie Pimozid, Sertindol, Chinidin, Halofantrin oder Cisaprid – gilt für das Mundgel",
+      "ref": [
+        "sertindol"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Blutverdünnende Wirkung stark verstärkt, schwere Blutungen beschrieben – Kombination möglichst vermeiden, sonst INR engmaschig kontrollieren und Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate und Immunsuppressiva (z. B. Ciclosporin, Tacrolimus, Sirolimus, Fentanyl, Atorvastatin, Quetiapin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Mundgel erhöht deren Spiegel – mehr Nebenwirkungen. Spiegel bzw. Wirkung überwachen, Dosis gegebenenfalls senken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoinspiegel steigen (Hemmung von CYP2C9) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe (z. B. Gliclazid, Glimepirid, Glibenclamid)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung bis zur Unterzuckerung – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten (Dihydropyridine, Verapamil)",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Höhere Spiegel – stärkere Blutdrucksenkung und Beinödeme möglich; Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin, Alprazolam und Buspiron",
+      "ref": [
+        "carbamazepin",
+        "alprazolam",
+        "buspiron"
+      ],
+      "effekt": "Höhere Spiegel dieser Mittel – verstärkte Nebenwirkungen (z. B. Müdigkeit, Schwindel); gegebenenfalls Dosis anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Übelkeit, Erbrechen (Mundgel)",
+      "Geschmacksstörungen, Mundtrockenheit, Missempfindungen im Mund (Mundgel)",
+      "Juckreiz, Brennen und Reizung im Genitalbereich (Vaginalanwendung)"
+    ],
+    "gelegentlich": [
+      "Hautbrennen, Hautreizung und Rötung an der Anwendungsstelle (Crème)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie und Angioödem (Schwellung von Gesicht und Rachen)",
+      "Ersticken bei Säuglingen und Kleinkindern (Mundgel)",
+      "Hepatitis (Leberentzündung)",
+      "Durchfall",
+      "Schwere Hautreaktionen wie Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse oder DRESS",
+      "Nesselsucht, Hautausschlag, Kontaktekzem"
+    ]
+  },
+  "schwangerschaft": "Haut- und Vaginalanwendung nach ärztlicher Abwägung möglich, da nur wenig Wirkstoff ins Blut gelangt. Das Mundgel soll in der Schwangerschaft nur angewendet werden, wenn der Nutzen das mögliche Risiko überwiegt.",
+  "stillzeit": "Nicht bekannt, ob Miconazol in die Muttermilch übergeht; nur nach ärztlicher Abwägung anwenden und nicht auf die Brust auftragen.",
+  "hinweise": [
+    "Wer Phenprocoumon (Marcoumar) oder Acenocoumarol (Sintrom) einnimmt, muss vor der Anwendung – auch der Crème oder Vaginalform – die Ärztin oder den Arzt informieren; INR-Kontrollen sind nötig.",
+    "Mundgel nach den Mahlzeiten anwenden und möglichst lange im Mund behalten, bevor es geschluckt wird; Zahnprothesen ebenfalls behandeln.",
+    "Nach dem Abklingen der Beschwerden noch mindestens eine Woche weiterbehandeln, um Rückfälle zu vermeiden.",
+    "Bei Scheidenpilz gegebenenfalls den Partner mitbehandeln; während der Vaginalanwendung keine Latexkondome oder -diaphragmen als alleinigen Schutz verwenden."
+  ],
+  "stand": "2026-10"
+}

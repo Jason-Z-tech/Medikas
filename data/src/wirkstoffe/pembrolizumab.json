@@ -1,0 +1,194 @@
+{
+  "id": "pembrolizumab",
+  "name": "Pembrolizumab",
+  "synonyme": [],
+  "atc": [
+    "L01FF02"
+  ],
+  "klasse": "Immun-Checkpoint-Inhibitor (monoklonaler Anti-PD-1-Antikörper)",
+  "kurz": "Immuntherapie (PD-1-Hemmer), die das Immunsystem gegen Krebs aktiviert; bei vielen Krebsarten wie Melanom, Lungen- und Blasenkrebs.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Keytruda"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Melanom: fortgeschritten sowie nach vollständiger Operation (adjuvant)",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Nicht-kleinzelliger Lungenkrebs: fortgeschritten (allein bei hoher PD-L1-Expression oder mit Chemotherapie) sowie rund um die Operation bzw. nach der Operation",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Klassisches Hodgkin-Lymphom",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Urothelkarzinom (Blasenkrebs) und Nierenzellkarzinom (u. a. mit Axitinib oder Lenvatinib sowie adjuvant)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Plattenepithelkarzinom im Kopf-Hals-Bereich",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Dreifach negativer Brustkrebs (vor und nach der Operation sowie fortgeschritten, mit Chemotherapie)",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Darmkrebs und andere Tumoren mit Mikrosatelliteninstabilität (MSI-H/dMMR)",
+      "ids": [
+        "darmkrebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Gebärmutterschleimhaut- und Gebärmutterhalskrebs",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Speiseröhren-, Magen- und Gallenwegskrebs, mit Chemotherapie",
+      "ids": [
+        "magen-speiseroehren-krebs",
+        "leberkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, sodass körpereigene Abwehrzellen Krebszellen wieder erkennen und angreifen. Pembrolizumab ist ein humanisierter IgG4-Antikörper gegen den Rezeptor PD-1 auf T-Lymphozyten. Er verhindert, dass die vom Tumor gebildeten Liganden PD-L1 und PD-L2 an PD-1 binden und die T-Zellen abschalten. Weil diese Immunbremse auch gesundes Gewebe schützt, können immunvermittelte Entzündungen in praktisch allen Organen auftreten.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Autoimmunerkrankungen (mögliche Verschlechterung)",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Nach Organtransplantation: Gefahr einer Abstossung",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Schilddrüsen-, Hypophysen- oder Nebennierenerkrankungen und Diabetes: Hormonwerte und Blutzucker kontrollieren",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (Risiko einer Pneumonitis)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Leber- und Nierenerkrankungen (immunvermittelte Hepatitis oder Nephritis)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Systemische Kortikosteroide oder andere Immunsuppressiva vor Therapiebeginn möglichst vermeiden",
+      "ids": [
+        "langzeit-kortison"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Therapiebeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden; als Vorbeugung bei Chemotherapie und zur Behandlung immunvermittelter Nebenwirkungen sind sie jedoch erlaubt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Axitinib (Kombination bei Nierenkrebs)",
+      "ref": [
+        "axitinib"
+      ],
+      "effekt": "Häufiger stark erhöhte Leberwerte – Leberwerte vor und während der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Appetitlosigkeit",
+      "Kopfschmerzen",
+      "Husten, Atemnot",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung",
+      "Juckreiz, Hautausschlag",
+      "Muskel-, Knochen- und Gelenkschmerzen",
+      "Müdigkeit, Schwäche, Ödeme, Fieber, Anämie"
+    ],
+    "haeufig": [
+      "Hyperthyreose (Schilddrüsenüberfunktion)",
+      "Pneumonitis (Lungenentzündung durch Immunreaktion), Pneumonie",
+      "Kolitis (Dickdarmentzündung), Mundtrockenheit",
+      "Hepatitis, erhöhte Leberwerte",
+      "Infusionsreaktionen",
+      "Schwere Hautreaktionen, Vitiligo (Weissfleckenkrankheit), trockene Haut, Haarausfall",
+      "Herzrhythmusstörungen (inkl. Vorhofflimmern), Bluthochdruck",
+      "Hyponatriämie, Hypokaliämie, Thrombozytopenie, Neutropenie, Myositis, Arthritis"
+    ],
+    "gelegentlich": [
+      "Nebenniereninsuffizienz, Hypophysitis (Hirnanhangdrüsenentzündung), Thyreoiditis",
+      "Typ-1-Diabetes",
+      "Nephritis (Nierenentzündung)",
+      "Pankreatitis, Magen-Darm-Geschwüre",
+      "Uveitis (Augenentzündung)",
+      "Perikarderguss, Perikarditis",
+      "Psoriasis, lichenoide Hautveränderungen"
+    ],
+    "selten": [
+      "Myokarditis (Herzmuskelentzündung)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Guillain-Barré-Syndrom, Myasthenie-Syndrom, Enzephalitis, Myelitis",
+      "Immunthrombozytopenie, hämolytische Anämie, hämophagozytische Lymphohistiozytose (HLH)",
+      "Sklerosierende Cholangitis, Dünndarmperforation",
+      "Sarkoidose, Vaskulitis"
+    ],
+    "unbekannt": [
+      "Abstossung transplantierter Organe"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Indikation (der Antikörper gelangt zum Kind). Frauen müssen während und mindestens 4 Monate nach der letzten Dosis sicher verhüten.",
+  "stillzeit": "Unbekannt, ob Pembrolizumab in die Muttermilch übergeht; ein Risiko für das Kind ist nicht auszuschliessen – nach ärztlicher Abwägung entscheiden.",
+  "hinweise": [
+    "Neue oder stärkere Beschwerden – Durchfall, Bauchschmerzen, Husten, Atemnot, Hautausschlag, Gelbsucht, starke Müdigkeit, Kopfschmerzen, Sehstörungen – sofort melden, auch Wochen bis Monate nach der letzten Gabe.",
+    "Die Patientenkarte immer mitführen und bei jedem Arztbesuch zeigen.",
+    "Schilddrüsen-, Leber- und Nierenwerte sowie der Blutzucker werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

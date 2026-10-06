@@ -1,0 +1,53 @@
+{
+  "id": "clonidin",
+  "name": "Clonidin",
+  "synonyme": ["Clonidine", "Clonidinhydrochlorid"],
+  "atc": ["C02AC01", "N02CX02"],
+  "klasse": "Zentral wirkender Alpha-2-Agonist (Antihypertensivum)",
+  "kurz": "Blutdrucksenker, der im Gehirn die Aktivität des Stressnervensystems dämpft; als Spritze auch bei hypertensiver Krise.",
+  "gruppen": ["blutdrucksenkend", "bradykardisierend", "zns-daempfend"],
+  "handelsnamen": ["Catapresan"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Injektionslösung"],
+  "indikationen": [
+    { "text": "Bluthochdruck (arterielle Hypertonie)", "ids": ["hypertonie"] },
+    { "text": "Hypertensive Krise (Injektion unter ärztlicher Überwachung)", "ids": ["hypertonie"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es im Gehirn die Signale des sympathischen Nervensystems an Herz und Gefässe drosselt. Clonidin stimuliert Alpha-2-Rezeptoren und Imidazolin-Rezeptoren im Hirnstamm; dadurch sinken die Ausschüttung von Noradrenalin, der Gefässwiderstand und die Herzfrequenz. Die zentrale Wirkung erklärt auch Müdigkeit und Mundtrockenheit. Nach plötzlichem Absetzen kann der Sympathikus überschiessend reagieren (Rebound-Hochdruck).",
+  "kontraindikationen": [
+    { "text": "Schwere bradykarde Herzrhythmusstörungen infolge Sinusknotensyndrom oder AV-Block 2. oder 3. Grades", "ids": ["bradykardie", "av-block"] }
+  ],
+  "vorsicht": [
+    { "text": "Depression (kann sich verschlechtern)", "ids": ["depression"] },
+    { "text": "Leichte Bradykardie, AV-Block 1. Grades oder andere Reizleitungsstörungen", "ids": ["bradykardie", "av-block"] },
+    { "text": "Koronare Herzkrankheit, frischer Herzinfarkt, schwere Herzinsuffizienz", "ids": ["koronare-herzkrankheit", "herzinfarkt", "herzinsuffizienz"] },
+    { "text": "Durchblutungsstörungen des Gehirns, der Beine oder der Finger (Raynaud-Syndrom)", "ids": ["schlaganfall", "pavk", "raynaud"] },
+    { "text": "Eingeschränkte Nierenfunktion", "ids": ["niereninsuffizienz"] },
+    { "text": "Polyneuropathie und Verstopfung", "ids": ["nervenschmerzen", "verstopfung"] },
+    { "text": "Trockene Augen und Kontaktlinsen (verminderter Tränenfluss)", "ids": ["trockenes-auge"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Verstärkte Pulsverlangsamung; beim Absetzen gefährlicher Blutdruckanstieg möglich – zuerst den Betablocker und erst Tage später Clonidin schrittweise absetzen.", "schwere": "schwer" },
+    { "text": "Andere pulsverlangsamende Mittel (Digoxin, Verapamil, Diltiazem)", "ref": ["gruppe:herzglykoside", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Bradykardie und AV-Block möglich – Puls kontrollieren.", "schwere": "mittel" },
+    { "text": "Zentral dämpfende Mittel (Schlaf- und Beruhigungsmittel, Opioide, sedierende Antihistaminika) und Alkohol", "ref": ["gruppe:zns-daempfend", "gruppe:benzodiazepine", "gruppe:opioide"], "effekt": "Verstärkte Müdigkeit und Benommenheit.", "schwere": "mittel" },
+    { "text": "Trizyklische Antidepressiva und Mirtazapin", "ref": ["gruppe:trizyklische-antidepressiva", "mirtazapin"], "effekt": "Blutdrucksenkende Wirkung von Clonidin abgeschwächt; Blutdruckabfall beim Aufstehen möglich.", "schwere": "mittel" },
+    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung – erwünscht, aber Schwindel und Ohnmacht möglich.", "schwere": "mittel" },
+    { "text": "Antipsychotika mit alpha-blockierender Wirkung", "ref": ["gruppe:antipsychotika"], "effekt": "Verstärkter Blutdruckabfall beim Aufstehen möglich.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)", "Schwindel", "Müdigkeit, Sedierung", "Mundtrockenheit"],
+    "haeufig": ["Depression, Schlafstörungen", "Kopfschmerzen", "Verstopfung, Übelkeit, Erbrechen", "Schmerzen der Speicheldrüsen", "Erektionsstörungen", "Erschöpfung"],
+    "gelegentlich": ["Albträume, Wahnvorstellungen, Halluzinationen", "Kribbeln (Parästhesien)", "Sinusbradykardie", "Raynaud-Syndrom (Weissfinger)", "Juckreiz, Hautausschlag, Nesselsucht", "Unwohlsein"],
+    "selten": ["AV-Block", "Verminderter Tränenfluss", "Darmlähmung (Pseudoobstruktion des Dickdarms)", "Gynäkomastie (Brustvergrösserung beim Mann)", "Haarausfall", "Erhöhter Blutzucker"],
+    "unbekannt": ["Verwirrtheit", "Verminderte Libido", "Akkommodationsstörungen (Probleme beim Scharfsehen)", "Bradyarrhythmie"]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; Clonidin gelangt zum Kind und kann beim Neugeborenen Blutdruck und Puls senken.",
+  "stillzeit": "Geht in die Muttermilch über; Anwendung in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Nie abrupt absetzen – sonst drohen starker Blutdruckanstieg, Herzrasen und Unruhe; immer über einige Tage ausschleichen.",
+    "Alkohol verstärkt die Müdigkeit; Fahrtüchtigkeit kann besonders zu Beginn eingeschränkt sein.",
+    "Langsam aufstehen, um Schwindel durch Blutdruckabfall zu vermeiden."
+  ],
+  "stand": "2026-10"
+}

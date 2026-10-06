@@ -1,0 +1,209 @@
+{
+  "id": "salmeterol-fluticason",
+  "name": "Salmeterol + Fluticason",
+  "synonyme": [
+    "Salmeterol/Fluticasonpropionat",
+    "Fluticasone propionate/Salmeterol"
+  ],
+  "kombinationAus": [
+    "salmeterol",
+    "fluticason"
+  ],
+  "atc": [
+    "R03AK06"
+  ],
+  "klasse": "Inhalative Fixkombination aus lang wirksamem Beta-2-Sympathomimetikum (LABA) und Glukokortikoid",
+  "kurz": "Inhalationsmittel mit Kortison und lang wirkendem Bronchien-Erweiterer zur Dauerbehandlung von Asthma und COPD.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "glukokortikoide-inhalativ",
+    "cyp3a4-substrate-empfindlich",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Seretide"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulverinhalator",
+    "Dosieraerosol"
+  ],
+  "indikationen": [
+    {
+      "text": "Asthma: regelmässige Behandlung, wenn eine Kombination aus inhalativem Kortison und lang wirksamem Bronchien-Erweiterer angezeigt ist",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "COPD mit deutlich eingeschränkter Lungenfunktion und wiederholten Verschlechterungen (Exazerbationen) trotz Bronchien erweiternder Therapie",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbindet eine entzündungshemmende mit einer lang anhaltenden bronchienerweiternden Wirkung. Fluticasonpropionat ist ein Glukokortikoid, das in der Bronchialschleimhaut die Bildung von Entzündungsstoffen und die Überempfindlichkeit der Atemwege vermindert. Salmeterol stimuliert Beta-2-Rezeptoren der Bronchialmuskulatur und hält die Atemwege etwa 12 Stunden offen. Gemeinsam senken sie die Zahl der Asthmaanfälle bzw. COPD-Verschlechterungen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot; bei Verschlechterung des Asthmas rasch ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "COPD: erhöhtes Risiko für Lungenentzündungen",
+      "ids": [
+        "copd",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Aktive oder ruhende Lungentuberkulose, Pilz- oder Virusinfektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, QT-Verlängerung",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion, Diabetes, Kaliummangel",
+      "ids": [
+        "hyperthyreose",
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Sehstörungen, Katarakt oder Glaukom; Osteoporose bei langer hoch dosierter Anwendung",
+      "ids": [
+        "glaukom",
+        "katarakt",
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Kinder: bei Langzeitbehandlung das Wachstum kontrollieren",
+      "ids": [
+        "kinder",
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Nicht abrupt absetzen (Gefahr einer Asthmaverschlechterung und bei hohen Dosen einer Nebenniereninsuffizienz)",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer, insbesondere Ritonavir und Cobicistat (z. B. auch Ketoconazol, Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Stark erhöhte Spiegel beider Wirkstoffe: Cushing-Syndrom, Unterdrückung der Nebennierenfunktion, QT-Verlängerung möglich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Abschwächung der bronchienerweiternden Wirkung; bei Asthma Gefahr schwerer Bronchospasmen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Kortison, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Hypokaliämie mit Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer, trizyklische Antidepressiva und andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika",
+      "ref": [
+        "gruppe:beta2-sympathomimetika"
+      ],
+      "effekt": "Doppelte Anwendung erhöht die Nebenwirkungen ohne Zusatznutzen – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Leicht erhöhte Salmeterol- und Fluticason-Spiegel – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Nasen-Rachen-Entzündung (Nasopharyngitis)"
+    ],
+    "haeufig": [
+      "Pilzinfektion in Mund und Rachen (Soor)",
+      "Heiserkeit, Rachenreizung",
+      "Lungenentzündung (bei COPD)",
+      "Bronchitis, Nebenhöhlenentzündung",
+      "Hypokaliämie (Kaliummangel)",
+      "Muskelkrämpfe, Gelenk- und Muskelschmerzen",
+      "Prellungen, Knochenbrüche nach Unfällen"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen der Haut, Atemnot",
+      "Katarakt (Grauer Star)",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Angst, Schlafstörungen",
+      "Zittern, Herzklopfen, beschleunigter Puls",
+      "Vorhofflimmern, Angina pectoris"
+    ],
+    "selten": [
+      "Anaphylaxie, Angioödem, paradoxer Bronchospasmus",
+      "Cushing-Syndrom, Unterdrückung der Nebennierenfunktion, Wachstumsverzögerung bei Kindern, verminderte Knochendichte",
+      "Glaukom (Grüner Star)",
+      "Verhaltensänderungen (Hyperaktivität, Reizbarkeit), vor allem bei Kindern",
+      "Herzrhythmusstörungen (supraventrikuläre Tachykardie, Extrasystolen)",
+      "Pilzinfektion der Speiseröhre"
+    ],
+    "unbekannt": [
+      "Depression, Aggressivität",
+      "Verschwommenes Sehen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung und in der niedrigsten wirksamen Dosis; ein gut kontrolliertes Asthma ist für Mutter und Kind wichtig.",
+  "stillzeit": "Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nach jeder Inhalation den Mund mit Wasser ausspülen und ausspucken – das beugt Soor und Heiserkeit vor.",
+    "Regelmässig anwenden, auch ohne Beschwerden; für akute Atemnot ein rasch wirkendes Spray mitführen.",
+    "Nicht abrupt absetzen; Dosisänderungen nur nach ärztlicher Rücksprache.",
+    "Eine Ritonavir- oder Cobicistat-haltige HIV-Therapie vor Behandlungsbeginn ärztlich angeben."
+  ],
+  "stand": "2026-10"
+}

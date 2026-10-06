@@ -1,0 +1,194 @@
+{
+  "id": "vortioxetin",
+  "name": "Vortioxetin",
+  "synonyme": [
+    "Vortioxetine"
+  ],
+  "atc": [
+    "N06AX26"
+  ],
+  "klasse": "Antidepressivum (multimodal serotonerg wirkend)",
+  "kurz": "Antidepressivum, das auf mehrere Serotonin-Angriffspunkte im Gehirn wirkt; zur Behandlung von Depressionen bei Erwachsenen.",
+  "gruppen": [
+    "serotonerg",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Brintellix"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression) bei Erwachsenen",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf, indem es das Serotoninsystem im Gehirn auf mehreren Wegen beeinflusst. Vortioxetin hemmt den Serotonin-Transporter und wirkt zusätzlich direkt an Serotoninrezeptoren: Es blockiert 5-HT3-, 5-HT7- und 5-HT1D-Rezeptoren, ist Partialagonist an 5-HT1B- und Agonist an 5-HT1A-Rezeptoren. Dadurch werden in bestimmten Hirnregionen auch Noradrenalin, Dopamin, Acetylcholin und Histamin beeinflusst. Abgebaut wird es vor allem über CYP2D6.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Behandlungsbeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Manie oder Hypomanie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Einnahme von Diuretika (Hyponatriämie)",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (keine Erfahrungen)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen (Wirksamkeit nicht belegt)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nicht selektive MAO-Hemmer und selektive MAO-A-Hemmer (z. B. Moclobemid, Linezolid)",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid",
+        "linezolid"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Selektive MAO-B-Hemmer (z. B. Selegilin, Rasagilin)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Serotoninsyndrom möglich – nur mit engmaschiger Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere serotonerge Mittel (z. B. SSRI, SNRI, Triptane, Tramadol, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Zittern, Muskelzuckungen, Fieber) – auf Warnzeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Bupropion, Fluoxetin, Paroxetin, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Vortioxetin-Spiegel steigt (mit Bupropion etwa auf das Doppelte) – Dosisreduktion erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Breit wirkende Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Vortioxetin-Spiegel sinkt deutlich – Dosisanpassung erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die die Krampfschwelle senken (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien, Plättchenhemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Abnorme Träume",
+      "Schwindel",
+      "Durchfall, Verstopfung, Erbrechen",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Juckreiz"
+    ],
+    "gelegentlich": [
+      "Zähneknirschen (Bruxismus)",
+      "Verschwommenes Sehen",
+      "Hitzewallungen (Flush)",
+      "Nächtliches Schwitzen"
+    ],
+    "selten": [
+      "Pupillenerweiterung (Mydriasis)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hyponatriämie (Natriummangel)",
+      "Serotoninsyndrom",
+      "Blutungen (Blutergüsse, Nasenbluten, Magen-Darm-Blutungen)",
+      "Anaphylaxie, Angioödem, Nesselsucht, Hautausschlag",
+      "Schlaflosigkeit, Unruhe, Aggressivität",
+      "Akathisie (Bewegungsunruhe), Kopfschmerzen",
+      "Erhöhtes Prolaktin, Milchfluss (Galaktorrhö)",
+      "Suizidgedanken und suizidales Verhalten"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung (begrenzte Daten). Bei Einnahme bis zur Geburt sind beim Neugeborenen Anpassungsstörungen möglich.",
+  "stillzeit": "Geht vermutlich in die Muttermilch über; über Abstillen oder Behandlungsverzicht ärztlich entscheiden.",
+  "hinweise": [
+    "Einmal täglich, unabhängig von den Mahlzeiten einnehmen; Übelkeit tritt vor allem zu Beginn auf und klingt meist ab.",
+    "Die Wirkung setzt nach etwa 2 Wochen ein; nach Besserung die Behandlung mindestens 6 Monate fortführen.",
+    "Absetzen nur in Absprache mit der Ärztin oder dem Arzt.",
+    "Schwindel kann die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

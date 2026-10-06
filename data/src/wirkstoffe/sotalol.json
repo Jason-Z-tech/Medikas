@@ -1,0 +1,271 @@
+{
+  "id": "sotalol",
+  "name": "Sotalol",
+  "synonyme": [
+    "Sotalolhydrochlorid",
+    "Sotalolum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C07AA07"
+  ],
+  "klasse": "Antiarrhythmikum Klasse III mit nichtselektiver Betablocker-Wirkung",
+  "kurz": "Mittel gegen Herzrhythmusstörungen mit Betablocker- und Klasse-III-Wirkung; kann selbst gefährliche Rhythmusstörungen auslösen.",
+  "gruppen": [
+    "betablocker",
+    "antiarrhythmika-klasse-iii",
+    "qt-verlaengernd",
+    "bradykardisierend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Sotalex",
+    "Sotalol-Mepha",
+    "Sotalol Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Lebensbedrohliche, symptomatische ventrikuläre Tachyarrhythmien (Rhythmusstörungen der Herzkammern)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Behandlungsbedürftige symptomatische supraventrikuläre Tachyarrhythmien, einschliesslich Vorbeugung von Vorhofflimmern nach Kardioversion und bei anfallsartigem Vorhofflimmern",
+      "ids": [
+        "vorhofflimmern",
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stabilisiert den Herzrhythmus und verlangsamt den Puls. Sotalol blockiert nicht-selektiv Beta-1- und Beta-2-Rezeptoren und hemmt zusätzlich Kaliumkanäle (IKr) der Herzmuskelzellen. Dadurch verlängern sich Aktionspotenzial und Refraktärzeit in Vorhöfen und Kammern (Klasse-III-Wirkung), was kreisende Erregungen unterbricht. Die dabei auftretende Verlängerung der QT-Zeit erklärt zugleich das Risiko für Torsade-de-pointes-Arrhythmien.",
+  "kontraindikationen": [
+    {
+      "text": "Angeborenes oder erworbenes Long-QT-Syndrom, Torsade de pointes in der Vorgeschichte",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Sinusknotensyndrom, sinuatrialer Block, AV-Block II. oder III. Grades (ohne Herzschrittmacher)",
+      "ids": [
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Symptomatische Bradykardie",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Unkontrollierte Herzinsuffizienz, kardiogener Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    },
+    {
+      "text": "Asthma bronchiale oder chronisch obstruktive Atemwegserkrankung",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Unkorrigierte Hypokaliämie oder Hypomagnesiämie",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Hypotonie, schwere periphere Durchblutungsstörungen, unbehandeltes Phäochromozytom, metabolische Azidose",
+      "ids": [
+        "hypotonie",
+        "pavk",
+        "phaeochromozytom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Kürzlich erlittener Herzinfarkt oder kompensierte Herzinsuffizienz",
+      "ids": [
+        "herzinfarkt",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis anpassen, sonst Anreicherung und gefährliche QT-Verlängerung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Durchfall, Erbrechen oder Diuretika-Behandlung (Kalium- und Magnesiumverlust erhöht das Torsade-de-pointes-Risiko)",
+      "ids": [
+        "durchfall",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Frauen (höheres Torsade-de-pointes-Risiko)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Diabetes mit schwankendem Blutzucker (Unterzuckerungszeichen können verdeckt sein)",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Psoriasis, Schilddrüsenüberfunktion, schwere Allergien",
+      "ids": [
+        "psoriasis",
+        "hyperthyreose",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Geplante Operation mit Narkose",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Antiarrhythmika, Makrolide, Fluorchinolone, Antipsychotika, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für lebensbedrohliche Torsade-de-pointes-Arrhythmien – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kalium- oder magnesiumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Abführmittel, Kortison)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Kalium- und Magnesiummangel erhöhen das Torsade-de-pointes-Risiko – Elektrolyte kontrollieren und ausgleichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Starke Pulsverlangsamung, AV-Block und Blutdruckabfall; nicht intravenös bei laufender Sotalol-Behandlung geben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika Klasse I (z. B. Flecainid, Propafenon)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Verstärkte Hemmung von Reizleitung und Herzkraft, erhöhtes Risiko neuer Rhythmusstörungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fingolimod",
+      "ref": [
+        "fingolimod"
+      ],
+      "effekt": "Gefahr einer ausgeprägten Bradykardie und von Rhythmusstörungen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clonidin und andere zentrale Alpha-2-Agonisten",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Beim Absetzen von Clonidin gefährlicher Blutdruckanstieg möglich – zuerst Sotalol, später Clonidin ausschleichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung; neue Rhythmusstörungen häufiger.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und orale Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Unterzuckerungszeichen können verdeckt sein – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida mit Aluminium oder Magnesium",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Sotalol – mindestens 2 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker und Narkosemittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung und Herzhemmung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Torsade de pointes und andere neue oder verstärkte Herzrhythmusstörungen",
+      "Bradykardie (langsamer Puls), Reizleitungsstörungen",
+      "Atemnot, Brustschmerzen, Herzklopfen, Ödeme",
+      "Blutdruckabfall, Ohnmacht (Synkope)",
+      "Müdigkeit, Schwindel, Kopfschmerzen, Kribbeln",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen, Geschmacksstörungen",
+      "Angst, Verwirrtheit, Stimmungsschwankungen, Schlafstörungen",
+      "Seh- und Hörstörungen, Hautausschlag, Muskelkrämpfe, sexuelle Funktionsstörungen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Verschlechterung einer Herzinsuffizienz",
+      "Verdeckte Unterzuckerungszeichen bei Diabetes",
+      "Verschlechterung von Durchblutungsstörungen und Psoriasis"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit nach strenger ärztlicher Abwägung; beim Neugeborenen können langsamer Puls, Unterzuckerung und Atemprobleme auftreten.",
+  "stillzeit": "Sotalol reichert sich in der Muttermilch an; Stillen wird nicht empfohlen.",
+  "hinweise": [
+    "Behandlungsbeginn und Dosiserhöhungen nur unter EKG-Kontrolle (QT-Zeit); Nierenfunktion, Kalium und Magnesium regelmässig prüfen lassen.",
+    "Bei Durchfall oder Erbrechen ärztlich melden – Elektrolytverluste erhöhen das Risiko gefährlicher Rhythmusstörungen.",
+    "Vor der Einnahme neuer Medikamente, auch rezeptfreier, auf QT-Verlängerung prüfen lassen.",
+    "Vor den Mahlzeiten einnehmen und nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

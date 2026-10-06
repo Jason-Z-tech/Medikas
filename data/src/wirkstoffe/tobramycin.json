@@ -1,0 +1,54 @@
+{
+  "id": "tobramycin",
+  "name": "Tobramycin",
+  "synonyme": ["Tobramycinum", "Tobramycin-Sulfat"],
+  "kombinationAus": [],
+  "atc": ["J01GB01", "S01AA12"],
+  "klasse": "Aminoglykosid-Antibiotikum",
+  "kurz": "Aminoglykosid-Antibiotikum: zum Inhalieren bei zystischer Fibrose, als Augentropfen bei Augeninfektionen und als Infusion bei schweren Infektionen.",
+  "gruppen": ["aminoglykoside", "nephrotoxisch", "ototoxisch"],
+  "handelsnamen": ["TOBI", "TOBI Podhaler", "Bramitob", "Tobrex", "Tobradex (Kombi)"],
+  "abgabe": ["A", "B"],
+  "darreichung": ["Lösung für einen Vernebler", "Inhalationspulver in Hartkapseln", "Augentropfen", "Augensalbe", "Injektions- und Infusionslösung"],
+  "indikationen": [
+    { "text": "Chronische Lungeninfektion mit Pseudomonas aeruginosa bei zystischer Fibrose (Inhalation, ab 6 Jahren)", "ids": ["zystische-fibrose", "lungenentzuendung"] },
+    { "text": "Bakterielle Infektionen des äusseren Auges, z. B. Bindehaut- und Lidrandentzündung (Augentropfen, Augensalbe)", "ids": ["augeninfektion"] },
+    { "text": "Schwere Infektionen durch gramnegative Erreger wie Pseudomonas, z. B. Sepsis, Lungen-, Harnwegs- und Bauchinfektionen (Infusion, meist kombiniert mit einem Betalaktam)", "ids": ["bakterielle-infektion", "lungenentzuendung", "harnwegsinfekt"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es ihre Eiweissherstellung stört. Tobramycin bindet an die 30S-Untereinheit der bakteriellen Ribosomen und führt zu Ablesefehlern; die entstehenden fehlerhaften Eiweisse schädigen die Bakterienmembran. Die Wirkung ist konzentrationsabhängig und hält nach (postantibiotischer Effekt); besonders wirksam ist es gegen gramnegative Erreger einschliesslich Pseudomonas aeruginosa. Aus dem Darm wird es nicht aufgenommen; beim Inhalieren entstehen hohe Spiegel im Bronchialschleim bei geringer Aufnahme ins Blut.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Tobramycin oder andere Aminoglykoside (Kreuzallergie)", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Gefahr der Anreicherung; bei Infusion Dosisanpassung und Spiegelkontrollen", "ids": ["niereninsuffizienz"] },
+    { "text": "Hörstörungen, Tinnitus oder Gleichgewichtsstörungen; familiäre Neigung zu Aminoglykosid-bedingter Taubheit (mitochondriale Genvariante)", "ids": ["hoerstoerung", "schwindel"] },
+    { "text": "Myasthenia gravis oder Parkinson-Krankheit (Verstärkung der Muskelschwäche)", "ids": ["myasthenia-gravis", "parkinson"] },
+    { "text": "Ältere Menschen und Flüssigkeitsmangel: höheres Risiko für Nieren- und Innenohrschäden", "ids": ["aeltere-patienten", "dehydratation"] },
+    { "text": "Inhalation: Verkrampfung der Atemwege möglich – vorher bronchienerweiternden Spray anwenden; Vorsicht bei Bluthusten", "ids": ["asthma", "zystische-fibrose"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere nieren- oder gehörschädigende Mittel (z. B. andere Aminoglykoside, Vancomycin, Amphotericin B, Ciclosporin, Tacrolimus, Cisplatin, Foscarnet)", "ref": ["gruppe:nephrotoxisch", "gruppe:ototoxisch"], "effekt": "Additive Nieren- und Innenohrschädigung – Kombination möglichst vermeiden, sonst Nierenwerte, Spiegel und Gehör überwachen.", "schwere": "schwer" },
+    { "text": "Schleifendiuretika (z. B. Furosemid) und Mannitol", "ref": ["gruppe:schleifendiuretika", "mannitol"], "effekt": "Verstärkte Gehörschädigung; durch Flüssigkeitsverlust zudem höhere Tobramycin-Spiegel – nicht gleichzeitig anwenden oder eng überwachen.", "schwere": "schwer" },
+    { "text": "Muskelrelaxanzien und Narkosemittel (z. B. Rocuronium, Atracurium, Suxamethonium)", "ref": ["rocuronium", "atracurium", "cisatracurium", "mivacurium", "suxamethonium"], "effekt": "Verstärkte neuromuskuläre Blockade bis zur Atemlähmung – Narkoseteam informieren, überwachen.", "schwere": "schwer" },
+    { "text": "Botulinumtoxin", "ref": ["botulinumtoxin-typ-a"], "effekt": "Verstärkte Muskelschwäche möglich.", "schwere": "mittel" },
+    { "text": "Penicilline und Cephalosporine in derselben Infusion", "ref": ["gruppe:penicilline", "gruppe:cephalosporine"], "effekt": "Gegenseitige Inaktivierung in der Mischung – getrennt verabreichen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Bei Inhalationspulver: Husten, Heiserkeit, Atemnot, Halsschmerzen, Bluthusten, Fieber"],
+    "haeufig": ["Bei Inhalation: Tinnitus (Ohrensausen) und Hörminderung", "Bei Inhalation: Bronchospasmus (Verkrampfung der Atemwege), pfeifende Atmung", "Geschmacksstörungen, Übelkeit, Erbrechen", "Nasenbluten, Hautausschlag", "Bei Augentropfen: Augenbeschwerden und Augenrötung"],
+    "gelegentlich": ["Bei Augentropfen: Lidschwellung und -rötung, Juckreiz, Tränenfluss, Hornhautentzündung, verschwommenes Sehen"],
+    "selten": ["Schwindel, Kopfschmerzen, Stimmverlust"],
+    "sehrSelten": ["Pilzinfektionen im Mund", "Überempfindlichkeitsreaktionen, Nesselsucht"],
+    "unbekannt": ["Bei Infusion: Nierenschädigung (Anstieg von Kreatinin und Harnstoff)", "Bei Infusion: bleibende Innenohrschäden mit Hörverlust und Gleichgewichtsstörungen", "Neuromuskuläre Blockade bis zur Atemlähmung", "Elektrolytstörungen (Magnesium-, Calcium- und Kaliummangel)", "Blutbildveränderungen (Anämie, Leukopenie, Thrombozytopenie)", "Anaphylaxie (schwere allergische Reaktion)", "Clostridioides-difficile-Kolitis"]
+  },
+  "schwangerschaft": "Aminoglykoside gehen über die Plazenta und können beim Kind bleibende Innenohrschäden (Taubheit) verursachen: Infusion und Inhalation nur bei zwingender Indikation. Augentropfen und -salbe nach ärztlicher Abwägung vertretbar.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über und wird vom Säugling kaum aufgenommen. Nach ärztlicher Abwägung möglich; Kind auf Durchfall und Pilzbefall beobachten.",
+  "hinweise": [
+    "Inhalation: zuerst den bronchienerweiternden Spray und die Atemphysiotherapie, Tobramycin zuletzt; nicht mit anderen Mitteln im Vernebler mischen.",
+    "Hörminderung, Ohrensausen oder Schwindel sofort ärztlich melden.",
+    "Bei Infusion werden Blutspiegel, Nierenwerte und bei längerer Therapie das Gehör kontrolliert.",
+    "Augentropfen: während der Infektion keine Kontaktlinsen tragen."
+  ],
+  "stand": "2026-10"
+}

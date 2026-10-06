@@ -1,0 +1,64 @@
+{
+  "id": "nadroparin",
+  "name": "Nadroparin",
+  "synonyme": ["Nadroparin-Calcium", "Nadroparin calcium", "Niedermolekulares Heparin", "NMH"],
+  "atc": ["B01AB06"],
+  "klasse": "Niedermolekulares Heparin (Antikoagulans)",
+  "kurz": "Gerinnungshemmende Spritze (niedermolekulares Heparin) zur Vorbeugung und Behandlung von Thrombosen.",
+  "gruppen": ["antikoagulanzien", "heparine", "blutungsrisiko-erhoehend", "hyperkaliaemie-ausloesend"],
+  "handelsnamen": ["Fraxiparine", "Fraxiforte"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung in Fertigspritzen"],
+  "indikationen": [
+    { "text": "Vorbeugung von Thrombosen und Embolien bei allgemeinchirurgischen und orthopädischen Operationen", "ids": ["thromboseprophylaxe", "operation"] },
+    { "text": "Thrombosevorbeugung bei bettlägerigen Patientinnen und Patienten mit akuter internistischer Erkrankung und hohem Thromboserisiko", "ids": ["thromboseprophylaxe"] },
+    { "text": "Behandlung der tiefen Venenthrombose (Fraxiforte: einmal täglich)", "ids": ["thrombose"] },
+    { "text": "Instabile Angina pectoris und Herzinfarkt ohne ST-Hebung (zusammen mit Acetylsalicylsäure)", "ids": ["angina-pectoris", "herzinfarkt"] },
+    { "text": "Verhinderung von Gerinnseln im Dialysekreislauf bei Hämodialyse", "ids": ["niereninsuffizienz"] }
+  ],
+  "wirkmechanismus": "Hemmt die Blutgerinnung und verhindert so, dass sich Blutgerinnsel bilden oder vergrössern. Nadroparin ist ein niedermolekulares Heparin, das den körpereigenen Hemmstoff Antithrombin aktiviert; dadurch wird vor allem der Gerinnungsfaktor Xa, in geringerem Mass Thrombin (Faktor IIa), gehemmt. Die Wirkung ist besser vorhersehbar und länger als bei unfraktioniertem Heparin, sodass es ein- bis zweimal täglich unter die Haut gespritzt wird. Die Ausscheidung erfolgt überwiegend über die Nieren.",
+  "kontraindikationen": [
+    { "text": "Heparininduzierte Thrombozytopenie (HIT) in der Vorgeschichte; Überempfindlichkeit gegen Heparine", "ids": ["thrombozytopenie"] },
+    { "text": "Blutungen oder erhöhtes Blutungsrisiko durch eine Störung der Blutgerinnung (ausser einer nicht durch Heparin bedingten Verbrauchskoagulopathie)", "ids": ["aktive-blutung", "blutgerinnungsstoerung"] },
+    { "text": "Organschäden mit Blutungsneigung, z. B. aktive Magen- oder Zwölffingerdarmgeschwüre", "ids": ["magen-darm-ulkus"] },
+    { "text": "Hirnblutung (hämorrhagischer Schlaganfall)", "ids": ["hirnblutung"] },
+    { "text": "Akute bakterielle Endokarditis", "ids": ["bakterielle-infektion"] },
+    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min) bei Behandlungsdosen (Thrombosebehandlung, instabile Angina pectoris, Herzinfarkt ohne ST-Hebung)", "ids": ["niereninsuffizienz"] },
+    { "text": "Spinal- oder Periduralanästhesie während einer Behandlung mit therapeutischen Dosen", "ids": ["anaesthesie"] }
+  ],
+  "vorsicht": [
+    { "text": "Leicht bis mässig eingeschränkte Nierenfunktion: Anreicherung möglich, Dosis anpassen", "ids": ["niereninsuffizienz"] },
+    { "text": "Eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
+    { "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion: Gefahr eines spinalen oder epiduralen Hämatoms mit möglicher Lähmung", "ids": ["anaesthesie"] },
+    { "text": "Magen-Darm-Geschwüre in der Vorgeschichte, Blutungsneigung", "ids": ["magen-darm-ulkus", "blutgerinnungsstoerung"] },
+    { "text": "Schwerer Bluthochdruck, Netzhautgefässerkrankungen", "ids": ["hypertonie"] },
+    { "text": "Risiko für erhöhtes Kalium (Diabetes, Nierenschwäche, kaliumerhöhende Arzneimittel)", "ids": ["hyperkaliaemie", "diabetes"] },
+    { "text": "Ältere Menschen und tiefes Körpergewicht: höheres Blutungsrisiko", "ids": ["aeltere-patienten"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere Gerinnungshemmer (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Fondaparinux)", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak", "fondaparinux"], "effekt": "Stark erhöhtes Blutungsrisiko – nur bei geplanter Umstellung oder überlappend nach ärztlichem Plan.", "schwere": "schwer" },
+    { "text": "Thrombolytika (z. B. Alteplase)", "ref": ["alteplase", "tenecteplase"], "effekt": "Erhöhtes Risiko schwerer Blutungen – nur unter Spitalüberwachung.", "schwere": "schwer" },
+    { "text": "NSAR und Acetylsalicylsäure in schmerzlindernder Dosis", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – Kombination möglichst meiden.", "schwere": "mittel" },
+    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure in niedriger Dosis, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Erhöhtes Blutungsrisiko; beim akuten Koronarsyndrom gezielt kombiniert – klinisch überwachen.", "schwere": "mittel" },
+    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
+    { "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)", "ref": ["gruppe:hyperkaliaemie-ausloesend"], "effekt": "Zusätzlicher Kaliumanstieg möglich – Kalium kontrollieren.", "schwere": "mittel" },
+    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Blutungen an verschiedenen Stellen (häufiger bei zusätzlichen Risikofaktoren)", "Kleiner Bluterguss an der Einstichstelle"],
+    "haeufig": ["Reaktionen an der Einstichstelle", "Vorübergehender Anstieg der Leberwerte (Transaminasen)"],
+    "selten": ["Thrombozytopenie (verminderte Blutplättchen), auch heparininduzierte Thrombozytopenie Typ II mit Thrombosen", "Hautausschlag, Nesselsucht, Juckreiz", "Kalkablagerungen oder Knötchen an der Einstichstelle"],
+    "sehrSelten": ["Überempfindlichkeitsreaktionen bis anaphylaktoide Reaktion, Angioödem", "Hyperkaliämie (erhöhtes Kalium)", "Hautnekrosen an der Einstichstelle", "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)", "Priapismus (schmerzhafte Dauererektion)"],
+    "unbekannt": ["Spinale oder epidurale Hämatome nach rückenmarksnaher Anästhesie mit möglicher Lähmung"]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; Anwendung nur nach strenger ärztlicher Abwägung. Für andere niedermolekulare Heparine liegen mehr Daten vor; eine rückenmarksnahe Anästhesie bei der Geburt muss zeitlich abgestimmt werden.",
+  "stillzeit": "Nur wenige Daten; eine Aufnahme über den Darm des Säuglings ist unwahrscheinlich. Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Unter die Haut spritzen (Bauch), nie in den Muskel; Einstichstelle wechseln und nicht reiben.",
+    "Blutplättchen vor und während der Behandlung kontrollieren lassen (heparininduzierte Thrombozytopenie).",
+    "Vor Operationen, Zahnbehandlungen und Spinal- oder Periduralanästhesie die Behandlung angeben.",
+    "Bei Blutungszeichen (schwarzer Stuhl, Blut im Urin, ungewöhnliche Blutergüsse) sofort ärztlichen Rat holen."
+  ],
+  "stand": "2026-10"
+}

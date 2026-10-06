@@ -1,0 +1,288 @@
+{
+  "id": "azathioprin",
+  "name": "Azathioprin",
+  "synonyme": [
+    "Azathioprine",
+    "AZA"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L04AX01"
+  ],
+  "klasse": "Immunsuppressivum (Purin-Antimetabolit, Thiopurin)",
+  "kurz": "Tablette, die das Immunsystem dämpft; nach Organtransplantation und bei Autoimmunkrankheiten wie Morbus Crohn, Lupus oder schwerem Rheuma.",
+  "gruppen": [
+    "thiopurine",
+    "immunsuppressiv",
+    "myelosuppressiv",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Imurek",
+    "Azathioprin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Pulver zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung der Abstossung nach Nieren-, Herz- oder Lebertransplantation (in Kombination)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Schwere rheumatoide Arthritis",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Systemischer Lupus erythematodes, Dermatomyositis/Polymyositis, Polyarteriitis nodosa",
+      "ids": [
+        "lupus",
+        "vaskulitis",
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Chronisch entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Autoimmune chronisch aktive Hepatitis",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Pemphigus vulgaris",
+      "ids": [
+        "pemphigus"
+      ]
+    },
+    {
+      "text": "Autoimmune hämolytische Anämie und chronische Immunthrombozytopenie (ITP), wenn andere Therapien versagen",
+      "ids": [
+        "haemolytische-anaemie",
+        "thrombozytopenie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Vermehrung von Abwehrzellen und dämpft so überschiessende Immunreaktionen. Azathioprin ist ein Prodrug, das im Körper zu 6-Mercaptopurin und weiter zu Thioguanin-Nukleotiden umgewandelt wird. Diese werden als falsche Bausteine in die Erbsubstanz eingebaut und hemmen die Purin-Neusynthese, wodurch besonders sich teilende T- und B-Lymphozyten gebremst werden. Der volle Effekt tritt erst nach Wochen bis Monaten ein.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Mercaptopurin (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Knochenmarkschädigung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erblicher TPMT- oder NUDT15-Mangel (stark erhöhtes Risiko für Knochenmarkschäden – Test vor Beginn empfohlen)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion (Dosis reduzieren)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Hautkrebs und Lymphome (Sonnenschutz, Hautkontrollen); junge Männer mit Darmerkrankung unter zusätzlichem TNF-Hemmer (hepatosplenisches T-Zell-Lymphom)",
+      "ids": [
+        "hautkrebs",
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Infektionen, inkl. Reaktivierung von Hepatitis B, Gürtelrose und PML",
+      "ids": [
+        "infektanfaelligkeit",
+        "hepatitis-b",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Lesch-Nyhan-Syndrom (HPRT-Mangel; Azathioprin unwirksam)",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Lebendimpfstoffe (insbesondere BCG, Gelbfieber, Pocken)",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "grund": "Die Immunsuppression kann eine gefährliche Infektion durch den abgeschwächten Impfkeim auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Allopurinol und Febuxostat",
+      "ref": [
+        "gruppe:urikostatika"
+      ],
+      "effekt": "Hemmen den Abbau über die Xanthinoxidase – lebensbedrohliche Knochenmarkhemmung; mit Allopurinol Azathioprin auf ein Viertel reduzieren, Febuxostat nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Zytostatika, Cotrimoxazol, Clozapin)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:zytostatika",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Additive Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ribavirin",
+      "ref": [],
+      "effekt": "Hemmt den Abbau zu inaktiven Metaboliten – schwere Knochenmarkhemmung beschrieben; nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Infliximab, Adalimumab und andere TNF-Hemmer",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für das seltene hepatosplenische T-Zell-Lymphom, v. a. bei jungen Männern – Kombination sorgfältig abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aminosalicylate (Mesalazin, Sulfasalazin)",
+      "ref": [
+        "mesalazin",
+        "sulfasalazin"
+      ],
+      "effekt": "Hemmen das Enzym TPMT – mehr Knochenmarkhemmung möglich; Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmende Wirkung kann abgeschwächt werden – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Leukopenie und Anämie beschrieben – Blutbild kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Mycophenolat-Mofetil",
+      "ref": [
+        "mycophenolat-mofetil"
+      ],
+      "effekt": "Doppelte Immunsuppression und Knochenmarkhemmung – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Muskelrelaxanzien in der Narkose",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Wirkung nicht-depolarisierender Relaxanzien abgeschwächt, von Suxamethonium verstärkt – Narkoseteam informieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [
+        "influenza-impfstoff-inaktiviert"
+      ],
+      "effekt": "Impfantwort kann vermindert sein; Impfungen dennoch empfohlen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen (Viren, Pilze, Bakterien), v. a. nach Transplantation",
+      "Leukopenie (Mangel an weissen Blutkörperchen) durch Knochenmarkhemmung"
+    ],
+    "haeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Übelkeit (v. a. zu Beginn)"
+    ],
+    "gelegentlich": [
+      "Anämie",
+      "Überempfindlichkeitsreaktionen mit Fieber, Schwindel, Erbrechen, Durchfall, Muskel- und Gelenkschmerzen, Ausschlag, Blutdruckabfall",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Cholestase (Gallenstau) und erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Agranulozytose, Panzytopenie, aplastische Anämie, megaloblastäre Anämie",
+      "Bösartige Tumoren (Lymphome, Hautkrebs, Sarkome)",
+      "Lebervenenverschlusskrankheit (lebensbedrohliche Leberschädigung)",
+      "Kolitis, Divertikulitis, Darmdurchbruch (nach Transplantation)",
+      "Haarausfall"
+    ],
+    "sehrSelten": [
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse"
+    ],
+    "unbekannt": [
+      "Hepatosplenisches T-Zell-Lymphom",
+      "Progressive multifokale Leukenzephalopathie (PML)",
+      "Sweet-Syndrom (akute fieberhafte Hauterkrankung)",
+      "Lichtempfindlichkeit"
+    ]
+  },
+  "schwangerschaft": "Nur nach sorgfältiger ärztlicher Abwägung; bei Transplantation und chronisch entzündlichen Darmerkrankungen wird die Therapie oft fortgeführt. Beim Neugeborenen sind Blutbildveränderungen möglich.",
+  "stillzeit": "Geringe Mengen des Metaboliten Mercaptopurin gehen in die Muttermilch über; Stillen nur nach ärztlicher Abwägung, Säugling beobachten.",
+  "hinweise": [
+    "Vor Beginn TPMT/NUDT15 bestimmen lassen; Blutbild in den ersten 8 Wochen wöchentlich, danach regelmässig kontrollieren.",
+    "Fieber, Halsschmerzen, blaue Flecken oder Blutungen sofort ärztlich melden.",
+    "Konsequenter Sonnenschutz und jährliche Hautkontrolle.",
+    "Nach dem Essen einnehmen (bessere Magenverträglichkeit); Tabletten nicht teilen oder zerkleinern."
+  ],
+  "stand": "2026-10"
+}

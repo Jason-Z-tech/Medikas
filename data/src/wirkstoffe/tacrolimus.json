@@ -1,0 +1,274 @@
+{
+  "id": "tacrolimus",
+  "name": "Tacrolimus",
+  "synonyme": [
+    "FK506",
+    "FK-506"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L04AD02",
+    "D11AH01"
+  ],
+  "klasse": "Calcineurin-Inhibitor (Immunsuppressivum; topisch bei Neurodermitis)",
+  "kurz": "Unterdrückt das Immunsystem: als Kapsel gegen Abstossung nach Organtransplantation, als Salbe gegen Neurodermitis.",
+  "gruppen": [
+    "immunsuppressiva-calcineurin",
+    "immunsuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-substrate-eng",
+    "nephrotoxisch",
+    "qt-verlaengernd",
+    "hyperkaliaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend",
+    "hyperglykaemie-ausloesend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Prograf",
+    "Advagraf",
+    "Envarsus",
+    "Protopic",
+    "Tacrolimus Sandoz"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Retardkapseln",
+    "Retardtabletten",
+    "Granulat zur Herstellung einer Suspension",
+    "Infusionskonzentrat",
+    "Salbe"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung der Abstossung nach Leber-, Nieren- oder Herztransplantation",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Behandlung einer Abstossungsreaktion, die auf andere Immunsuppressiva nicht anspricht",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Salbe: mittelschwere bis schwere Neurodermitis, wenn Kortison-Cremes nicht ausreichend wirken oder nicht vertragen werden; auch zur Vorbeugung von Schüben",
+      "ids": [
+        "neurodermitis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Immunabwehr, damit ein transplantiertes Organ nicht abgestossen wird bzw. die Hautentzündung abklingt. Tacrolimus bindet in T-Lymphozyten an das Protein FKBP12; dieser Komplex hemmt das Enzym Calcineurin. Dadurch wird die Bildung von Interleukin-2 und weiteren Botenstoffen blockiert und die Aktivierung der T-Zellen verhindert. Abgebaut wird es über CYP3A4; die Blutspiegel schwanken stark und müssen überwacht werden.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Makrolide (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infektionen: erhöhtes Risiko für Infektionen, auch opportunistische (z. B. CMV, BK-Virus)",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Lymphome und Hautkrebs – Sonne meiden",
+      "ids": [
+        "hautkrebs",
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (nierenschädigend)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: Dosisanpassung nach Spiegel",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung, Herzrhythmusstörungen oder Herzmuskelverdickung",
+      "ids": [
+        "qt-verlaengerung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker kann ansteigen (Post-Transplantations-Diabetes)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Hoher Blutdruck und erhöhtes Kalium",
+      "ids": [
+        "hypertonie",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Salbe: nicht auf infizierte Haut, nicht bei Immunschwäche oder Netherton-Syndrom; nicht unter luftdichtem Verband",
+      "ids": [
+        "hautinfektion",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Lebendimpfungen während der Behandlung vermeiden",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Voriconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Tacrolimus-Spiegel steigt stark – Nierenschaden, Neurotoxizität; Dosis deutlich senken, Spiegel eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Erythromycin, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Tacrolimus-Spiegel steigt – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Tacrolimus-Spiegel sinkt stark – Abstossungsgefahr; Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Additive Nierenschädigung, Ciclosporin-Spiegel steigt – nicht kombinieren; beim Wechsel Abstand einhalten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion und schwächere Impfantwort – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Vancomycin, NSAR)",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenwerte kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsparende Diuretika, Kaliumpräparate, ACE-Hemmer und Sartane",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend",
+        "gruppe:kaliumpraeparate"
+      ],
+      "effekt": "Gefahr einer Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Säurehemmer und Antazida",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "gruppe:antazida"
+      ],
+      "effekt": "Spiegel können sich ändern (z. B. erhöht unter Omeprazol, vermindert durch Magnesium-/Aluminium-Antazida) – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Mycophenolat",
+      "ref": [
+        "mycophenolat-mofetil",
+        "mycophenolsaeure"
+      ],
+      "effekt": "Beim Wechsel von Ciclosporin auf Tacrolimus steigt der Mycophenolsäure-Spiegel – Dosis überprüfen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Zittern (Tremor), Kopfschmerzen, Schlafstörungen",
+      "Hyperglykämie, Diabetes mellitus, Hyperkaliämie",
+      "Bluthochdruck",
+      "Nierenfunktionsstörung",
+      "Durchfall, Übelkeit",
+      "Infektionen",
+      "Salbe: Brennen, Juckreiz, Rötung an der Auftragsstelle"
+    ],
+    "haeufig": [
+      "Blutarmut, Leukopenie, Thrombozytopenie",
+      "Magnesium-, Kalium- oder Calciummangel, erhöhte Blutfette",
+      "Krampfanfälle, Kribbeln, Bewusstseinsstörungen",
+      "Sehstörungen, Ohrensausen",
+      "Herzrasen, Durchblutungsstörungen des Herzens",
+      "Erhöhte Leberwerte, Gallenstau",
+      "Haarausfall, Juckreiz, Ausschlag",
+      "Salbe: Hautinfektionen (Herpes, Follikulitis), Gesichtsrötung nach Alkohol"
+    ],
+    "gelegentlich": [
+      "Herzinsuffizienz, Kammerrhythmusstörungen",
+      "Enzephalopathie, Lähmungen",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Nierenversagen"
+    ],
+    "selten": [
+      "Thrombotisch-thrombozytopenische Purpura",
+      "Hypertrophe Kardiomyopathie",
+      "Toxische epidermale Nekrolyse"
+    ],
+    "sehrSelten": [
+      "Hörverlust"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Agranulozytose, Aplasie der roten Blutzellen",
+      "Lymphome und andere Krebserkrankungen, Hautkrebs",
+      "Sehnervschädigung (Optikusneuropathie)"
+    ]
+  },
+  "schwangerschaft": "Kapseln: nur wenn unbedingt nötig und unter enger Überwachung von Mutter und Kind (Frühgeburt, erhöhtes Kalium und Nierenfunktionsstörung beim Neugeborenen möglich). Salbe: nur wenn eindeutig erforderlich.",
+  "stillzeit": "Tacrolimus geht in die Muttermilch über; gemäss Fachinformation während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Präparate (Prograf, Advagraf, Envarsus) sind nicht direkt austauschbar – nur auf ärztliche Anordnung wechseln; regelmässig Blutspiegel, Nierenwerte, Kalium und Blutzucker kontrollieren.",
+    "Kapseln auf nüchternen Magen (1 Stunde vor oder 2–3 Stunden nach dem Essen) einnehmen; keine Grapefruit.",
+    "Sonne und Solarium meiden, guter Sonnenschutz; regelmässige Hautkontrollen.",
+    "Salbe: nach Alkohol kann das Gesicht stark rot werden; Haut nicht luftdicht abdecken."
+  ],
+  "stand": "2026-10"
+}

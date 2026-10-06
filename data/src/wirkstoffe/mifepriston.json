@@ -1,0 +1,220 @@
+{
+  "id": "mifepriston",
+  "name": "Mifepriston",
+  "synonyme": [
+    "RU 486",
+    "Mifepristone"
+  ],
+  "atc": [
+    "G03XB01"
+  ],
+  "klasse": "Antigestagen (Progesteronrezeptor-Antagonist)",
+  "kurz": "Hormonhemmer (Antigestagen) für den medikamentösen Schwangerschaftsabbruch, kombiniert mit einem Prostaglandin.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Mifegyne"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Medikamentöser Abbruch einer intakten Schwangerschaft in der Gebärmutter in den ersten Wochen, in Kombination mit einem Prostaglandin",
+      "ids": [
+        "schwangerschaftsabbruch"
+      ]
+    },
+    {
+      "text": "Erweichung und Öffnung des Gebärmutterhalses vor einem instrumentellen Schwangerschaftsabbruch im ersten Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaftsabbruch"
+      ]
+    },
+    {
+      "text": "Vorbereitung auf die Prostaglandin-Behandlung bei Schwangerschaftsabbruch aus medizinischen Gründen nach dem ersten Drittel",
+      "ids": [
+        "schwangerschaftsabbruch"
+      ]
+    },
+    {
+      "text": "Geburtseinleitung bei abgestorbenem Kind im Mutterleib, wenn Prostaglandine oder Oxytocin nicht angewendet werden können",
+      "ids": [
+        "geburtshilfe",
+        "schwangerschaftsabbruch"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Wirkung des Schwangerschaftshormons Progesteron auf, sodass sich die Schwangerschaft nicht halten kann. Mifepriston ist ein synthetisches Steroid, das den Progesteronrezeptor kompetitiv blockiert (in höherer Dosis auch den Glukokortikoidrezeptor). Dadurch löst sich die Gebärmutterschleimhaut ab, der Gebärmutterhals wird weich und öffnet sich, und die Gebärmutter wird für die Wirkung von Prostaglandinen empfindlicher. Das anschliessend gegebene Prostaglandin löst die Ausstossung aus.",
+  "kontraindikationen": [
+    {
+      "text": "Chronische Nebenniereninsuffizienz",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schweres, medikamentös nicht kontrolliertes Asthma",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Erbliche Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Nicht durch Ultraschall oder Labortest bestätigte Schwangerschaft, Verdacht auf Eileiterschwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Medikamentöser Abbruch: Schwangerschaftsdauer über der zugelassenen Grenze",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Gegenanzeigen gegen das kombinierte Prostaglandin",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutgerinnungsstörung, Blutarmut oder Behandlung mit Gerinnungshemmern (Gefahr starker Blutungen)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "anaemie",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Liegende Spirale: muss vor der Einnahme entfernt werden",
+      "ids": [
+        "verhuetung"
+      ]
+    },
+    {
+      "text": "Rhesus-negative Frauen: Anti-D-Prophylaxe nötig",
+      "ids": [
+        "rhesus"
+      ]
+    },
+    {
+      "text": "Infektionen: Fieber, Bauchschmerzen oder anhaltendes Unwohlsein nach dem Abbruch rasch abklären (seltene schwere Sepsis)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Risiko (Raucherinnen über 35 Jahre, Bluthochdruck, Herzkrankheiten) wegen des Prostaglandins",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "rauchen",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung mit Kortison, auch inhaliert bei Asthma: Kortisonwirkung kann einige Tage abgeschwächt sein",
+      "ids": [
+        "langzeit-kortison",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion, Mangelernährung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "mangelernaehrung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tiefere Mifepriston-Spiegel – die Wirksamkeit kann vermindert sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Glukokortikoide (auch inhalativ)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:glukokortikoide-inhalativ"
+      ],
+      "effekt": "Mifepriston schwächt die Kortisonwirkung für 3–4 Tage ab – bei Asthma oder Kortison-Dauertherapie Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gerinnungshemmer und Plättchenhemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Stärkere und längere Blutungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. bestimmte Narkosemittel)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Mifepriston hemmt CYP3A4 und bleibt lange im Körper – Spiegel dieser Mittel können steigen; Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Mifepriston-Spiegel möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Gebärmutterkrämpfe, Unterleibsschmerzen (v. a. nach dem Prostaglandin)",
+      "Übelkeit, Erbrechen, Durchfall (v. a. durch das Prostaglandin)"
+    ],
+    "haeufig": [
+      "Starke Blutungen (selten Ausschabung oder Transfusion nötig)",
+      "Infektion nach dem Abbruch, z. B. Gebärmutterentzündung",
+      "Leichte bis mässige Magen-Darm-Krämpfe"
+    ],
+    "gelegentlich": [
+      "Blutdruckabfall",
+      "Hautausschlag (Überempfindlichkeit)"
+    ],
+    "selten": [
+      "Kopfschmerzen",
+      "Unwohlsein, Hitzewallungen, Schwindel, Schüttelfrost, Fieber",
+      "Gebärmutterriss (v. a. bei Abbruch nach dem ersten Drittel mit Prostaglandin)",
+      "Nesselsucht, Hautrötung"
+    ],
+    "sehrSelten": [
+      "Schwerer, teils tödlicher septischer oder toxischer Schock"
+    ],
+    "unbekannt": [
+      "Schwere Hautreaktionen (z. B. toxische epidermale Nekrolyse)",
+      "Angioödem (Schwellung von Gesicht und Rachen)"
+    ]
+  },
+  "schwangerschaft": "Wird zum Abbruch einer bestehenden Schwangerschaft eingesetzt. Bleibt die Schwangerschaft nach erfolgloser Behandlung bestehen, besteht ein Fehlbildungsrisiko (v. a. durch das Prostaglandin); die Nachkontrolle ist deshalb zwingend.",
+  "stillzeit": "Geht nur in geringen Mengen in die Muttermilch über; ob weitergestillt werden kann, mit der Ärztin oder dem Arzt besprechen.",
+  "hinweise": [
+    "Anwendung nur in dafür eingerichteten Praxen oder Spitälern; Kontrolluntersuchung nach 14–21 Tagen ist zwingend.",
+    "Eine Blutung beweist nicht, dass der Abbruch vollständig ist.",
+    "Bei sehr starker oder lang anhaltender Blutung, Fieber oder starken Schmerzen sofort ärztliche Hilfe suchen.",
+    "Ein neuer Eisprung ist schon wenige Tage nach dem Abbruch möglich – Verhütung frühzeitig besprechen."
+  ],
+  "stand": "2026-10"
+}

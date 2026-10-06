@@ -1,0 +1,251 @@
+{
+  "id": "diazepam",
+  "name": "Diazepam",
+  "synonyme": [
+    "Diazepamum"
+  ],
+  "atc": [
+    "N05BA01"
+  ],
+  "klasse": "Benzodiazepin (Anxiolytikum, lang wirksam)",
+  "kurz": "Lang wirksames Beruhigungsmittel aus der Gruppe der Benzodiazepine gegen Angst, Muskelverkrampfungen, Krampfanfälle und Alkoholentzug.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Valium",
+    "Psychopax",
+    "Stesolid",
+    "Diazepam Desitin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Tropfen",
+    "Injektionslösung",
+    "Rektallösung (Rektaltuben)"
+  ],
+  "indikationen": [
+    {
+      "text": "Angst-, Spannungs- und Erregungszustände",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Muskelverspannungen und Spastik, z. B. bei Erkrankungen von Gehirn oder Rückenmark",
+      "ids": [
+        "muskelverspannung",
+        "spastik"
+      ]
+    },
+    {
+      "text": "Alkoholentzug (Unruhe, Zittern, beginnendes Delir)",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "delir"
+      ]
+    },
+    {
+      "text": "Akute Krampfanfälle, Status epilepticus und Fieberkrämpfe (Injektion, Rektallösung)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Beruhigung vor medizinischen Eingriffen (Prämedikation)",
+      "ids": [
+        "anaesthesie",
+        "operation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt angstlösend, beruhigend, muskelentspannend und krampflösend. Diazepam bindet an die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors und verstärkt so die Wirkung des hemmenden Botenstoffs GABA (häufigere Öffnung des Chloridkanals). Es wird in der Leber v. a. über CYP2C19 und CYP3A4 zu ebenfalls wirksamen Abbauprodukten wie Desmethyldiazepam umgewandelt, das sehr lange im Körper bleibt; bei wiederholter Einnahme kann sich die Wirkung daher anhäufen.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Ateminsuffizienz",
+      "ids": [
+        "copd",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Abhängigkeit von Alkohol, Medikamenten oder Drogen in der Vorgeschichte (ausser zur Behandlung eines akuten Entzugs)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Ältere und geschwächte Menschen: Sturzgefahr und Verwirrtheit – niedriger dosieren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression: nicht allein mit Benzodiazepinen behandeln (Suizidgefahr kann verdeckt werden)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Chronische Ateminsuffizienz, z. B. COPD",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Leber- oder Niereninsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Längere Anwendung: Gewöhnung und Abhängigkeit, Entzugssymptome beim Absetzen",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Paradoxe Reaktionen (Unruhe, Aggressivität), v. a. bei Kindern und älteren Menschen",
+      "ids": [
+        "kinder",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Psychosen: nicht als alleinige Behandlung",
+      "ids": [
+        "schizophrenie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Tramadol, Codein)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Starke Dämpfung, Atemdepression, Koma und Tod möglich – nur wenn keine Alternative besteht, niedrig dosiert und kurz.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkte Dämpfung und Atemdepression – Alkohol meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clozapin",
+      "ref": [
+        "clozapin"
+      ],
+      "effekt": "Selten Kreislaufkollaps mit Atem- und Herzstillstand.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (Antipsychotika, Schlafmittel, sedierende Antidepressiva und Antihistaminika, Antiepileptika)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung, Sturzgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19- und CYP3A4-Hemmer (z. B. Fluvoxamin, Fluconazol, Omeprazol, Ketoconazol)",
+      "ref": [
+        "gruppe:cyp2c19-hemmer",
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Diazepam wird langsamer abgebaut – verlängerte und verstärkte Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Diazepam wird schneller abgebaut, die Wirkung ist schwächer.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien",
+      "ref": [
+        "gruppe:muskelrelaxanzien-zentral",
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Verstärkte muskelentspannende Wirkung, Sturzgefahr.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit (Somnolenz)"
+    ],
+    "haeufig": [
+      "Müdigkeit",
+      "Ataxie (Gangunsicherheit), gestörte Bewegungskoordination, Zittern",
+      "Verwirrtheit",
+      "Entzugserscheinungen beim Absetzen"
+    ],
+    "gelegentlich": [
+      "Anterograde Amnesie (Gedächtnislücken)",
+      "Konzentrations- und Gleichgewichtsstörungen, Schwindel, Kopfschmerzen, verwaschene Sprache",
+      "Muskelschwäche",
+      "Übelkeit, Verstopfung, Durchfall",
+      "Allergische Hautreaktionen (Juckreiz, Rötung, Ausschlag)"
+    ],
+    "selten": [
+      "Atemdepression bis Atemstillstand",
+      "Paradoxe Reaktionen (Unruhe, Aggressivität, Halluzinationen)",
+      "Bradykardie, Blutdruckabfall, Ohnmacht",
+      "Harnverhalt, Inkontinenz",
+      "Libidoveränderungen"
+    ],
+    "sehrSelten": [
+      "Leukopenie (Verminderung der weissen Blutkörperchen)",
+      "Erhöhte Leberwerte, Gelbsucht"
+    ],
+    "unbekannt": [
+      "Körperliche und psychische Abhängigkeit",
+      "Stürze und Knochenbrüche, v. a. bei älteren Menschen",
+      "Venenreizung und Venenentzündung an der Injektionsstelle"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit. Bei Anwendung gegen Ende der Schwangerschaft oder während der Geburt können beim Neugeborenen Muskelschlaffheit, Atemprobleme, Unterkühlung und Entzugssymptome auftreten.",
+  "stillzeit": "Diazepam geht in die Muttermilch über und kann sich beim Säugling anreichern (Müdigkeit, Trinkschwäche). Nicht stillen.",
+  "hinweise": [
+    "So kurz wie möglich anwenden (bei Angst höchstens 8–12 Wochen einschliesslich Ausschleichen) – Gefahr von Gewöhnung und Abhängigkeit.",
+    "Nach längerer Einnahme nicht abrupt absetzen, sondern langsam ausschleichen (Entzugssymptome, Krampfanfälle).",
+    "Kein Alkohol; die Fahrtüchtigkeit kann auch noch am Folgetag beeinträchtigt sein.",
+    "Ältere Menschen: erhöhte Sturzgefahr, besonders nachts."
+  ],
+  "stand": "2026-10"
+}

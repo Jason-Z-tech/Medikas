@@ -1,0 +1,223 @@
+{
+  "id": "esketamin",
+  "name": "Esketamin",
+  "synonyme": [
+    "S-Ketamin",
+    "Esketaminhydrochlorid",
+    "Esketamine"
+  ],
+  "atc": [
+    "N01AX14",
+    "N06AX27"
+  ],
+  "klasse": "NMDA-Rezeptor-Antagonist (Anästhetikum; als Nasenspray Antidepressivum)",
+  "kurz": "Als Spritze Narkose- und Schmerzmittel; als Nasenspray zusätzlich zu einem Antidepressivum bei schwer behandelbarer Depression.",
+  "gruppen": [
+    "zns-daempfend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Spravato",
+    "Ketanest S"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Nasenspray",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Therapieresistente Depression bei Erwachsenen, die auf mindestens zwei Antidepressiva nicht ausreichend angesprochen haben – Nasenspray zusätzlich zu einem SSRI oder SNRI",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Einleitung und Durchführung einer Narkose sowie Schmerzbehandlung in der Notfallmedizin (Injektion)",
+      "ids": [
+        "anaesthesie",
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt bei schwerer Depression die Stimmung oft schon innert Stunden bis Tagen auf und wirkt in höherer Dosis als Narkose- und Schmerzmittel. Esketamin ist die stärker wirksame Spiegelbildform (S-Enantiomer) von Ketamin und blockiert den NMDA-Rezeptor für den erregenden Botenstoff Glutamat. In Narkosedosis führt dies zu Bewusstlosigkeit und starker Schmerzlinderung bei weitgehend erhaltener Atmung. In niedriger Dosis bewirkt die Blockade vermutlich eine vorübergehende Glutamatfreisetzung und die Neubildung von Nervenzellverbindungen, was die antidepressive Wirkung erklärt.",
+  "kontraindikationen": [
+    {
+      "text": "Aneurysma (Gefässaussackung) der Hauptschlagader, im Gehirn oder an anderen Arterien sowie arteriovenöse Fehlbildungen",
+      "ids": [
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Hirnblutung in der Vorgeschichte",
+      "ids": [
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Ereignis wie Herzinfarkt in den letzten 6 Wochen",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Zustände, in denen ein Blutdruckanstieg gefährlich wäre (z. B. schlecht eingestellter Bluthochdruck, Präeklampsie, Eklampsie)",
+      "ids": [
+        "hypertonie",
+        "praeeklampsie"
+      ]
+    },
+    {
+      "text": "Unbehandelte Schilddrüsenüberfunktion (Injektion)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder Bluthochdruck: Blutdruck vor und nach jeder Anwendung kontrollieren",
+      "ids": [
+        "hypertonie",
+        "koronare-herzkrankheit",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Psychosen in der Vorgeschichte (können sich verschlechtern)",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Suizidgedanken: enge Begleitung, besonders zu Behandlungsbeginn",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Missbrauch oder Abhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Nasenspray nicht empfohlen)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen ab 65 Jahren (Sturzgefahr)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck oder erhöhter Augeninnendruck",
+      "ids": [
+        "hirnoedem",
+        "glaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Opioide, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:opioide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Sedierung und Atemdämpfung – nach der Anwendung eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Psychostimulanzien (z. B. Methylphenidat, Amfetamine, Modafinil)",
+      "ref": [
+        "gruppe:stimulanzien",
+        "modafinil"
+      ],
+      "effekt": "Verstärkter Blutdruckanstieg – Blutdruck eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Stärkerer Blutdruckanstieg möglich – Blutdruck eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone und Sympathomimetika",
+      "ref": [
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkter Blutdruck- und Pulsanstieg.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Gesenkte Krampfschwelle, Krampfanfälle möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nasale Kortikosteroide oder abschwellende Nasensprays",
+      "ref": [
+        "mometason",
+        "xylometazolin",
+        "oxymetazolin"
+      ],
+      "effekt": "Mindestens 1 Stunde vor dem Esketamin-Nasenspray anwenden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Dissoziation (Gefühl, neben sich zu stehen; veränderte Wahrnehmung)",
+      "Schwindel, Drehschwindel",
+      "Kopfschmerzen",
+      "Schläfrigkeit",
+      "Taubheitsgefühl, Geschmacksstörung",
+      "Übelkeit, Erbrechen",
+      "Blutdruckanstieg"
+    ],
+    "haeufig": [
+      "Angst, Euphorie, Verwirrtheit, Halluzinationen (bei Injektion auch Aufwachreaktionen mit Albträumen)",
+      "Sedierung, Zittern, verwaschene Sprache",
+      "Verschwommensehen",
+      "Tinnitus (Ohrgeräusche)",
+      "Herzrasen",
+      "Beschwerden in Nase und Rachen",
+      "Vermehrtes Schwitzen",
+      "Häufiger Harndrang, Schmerzen beim Wasserlassen"
+    ],
+    "gelegentlich": [
+      "Nystagmus (Augenzittern)",
+      "Verlangsamtes Denken und Handeln",
+      "Vermehrter Speichelfluss",
+      "Gangstörung"
+    ],
+    "unbekannt": [
+      "Atemdepression, besonders zusammen mit anderen dämpfenden Mitteln",
+      "Missbrauch und Abhängigkeit",
+      "Zystitis (Blasenentzündung) bei längerer Anwendung"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen. Frauen im gebärfähigen Alter sollen während der Behandlung mit dem Nasenspray zuverlässig verhüten; im Tierversuch schädliche Wirkungen auf das sich entwickelnde Nervensystem.",
+  "stillzeit": "Esketamin geht in die Muttermilch über. Ob abgestillt oder die Behandlung unterbrochen wird, entscheidet die Ärztin oder der Arzt nach Abwägung.",
+  "hinweise": [
+    "Der Nasenspray wird nur unter Aufsicht in der Praxis oder Klinik angewendet; danach bleibt man zur Überwachung von Blutdruck und Befinden, bis der Zustand stabil ist.",
+    "Bis zum nächsten Tag nach einem erholsamen Schlaf nicht Auto fahren und keine Maschinen bedienen.",
+    "Mindestens 2 Stunden vorher nichts essen und 30 Minuten vorher nichts trinken (Übelkeit)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,232 @@
+{
+  "id": "midazolam",
+  "name": "Midazolam",
+  "synonyme": [
+    "Midazolamum",
+    "Midazolamhydrochlorid",
+    "Midazolammaleat"
+  ],
+  "atc": [
+    "N05CD08"
+  ],
+  "klasse": "Benzodiazepin, kurz wirksam (Sedativum, Hypnotikum, Antiepileptikum für Notfälle)",
+  "kurz": "Kurz wirkendes Benzodiazepin zur Beruhigung bei medizinischen Eingriffen und zur Narkose; auch gegen länger dauernde Krampfanfälle bei Kindern.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Dormicum",
+    "Buccolam",
+    "Midazolam Sintetica"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Injektionslösung",
+    "Lösung zur Anwendung in der Mundhöhle (Fertigspritze)"
+  ],
+  "indikationen": [
+    {
+      "text": "Beruhigung (Sedierung) vor und während diagnostischer oder therapeutischer Eingriffe bei erhaltenem Bewusstsein",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Prämedikation vor einer Narkose sowie Einleitung einer Narkose",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Sedierung auf der Intensivstation",
+      "ids": []
+    },
+    {
+      "text": "Kurzzeitbehandlung von Schlafstörungen (Tabletten)",
+      "ids": [
+        "schlafstoerung"
+      ]
+    },
+    {
+      "text": "Länger anhaltende, akute Krampfanfälle bei Kindern und Jugendlichen von 3 Monaten bis unter 18 Jahren (Lösung für die Mundhöhle)",
+      "ids": [
+        "epilepsie",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt rasch beruhigend, angstlösend, schlafanstossend, muskelentspannend und krampflösend. Midazolam verstärkt als Benzodiazepin über eine Bindungsstelle am GABA-A-Rezeptor die Wirkung des hemmenden Botenstoffs GABA. Es wirkt sehr schnell und kurz (Halbwertszeit etwa 1,5–2,5 Stunden) und hinterlässt häufig eine Erinnerungslücke für die Zeit des Eingriffs (anterograde Amnesie). Der Abbau erfolgt in der Leber über CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis (krankhafte Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Ateminsuffizienz oder akute Atemdepression (bei Sedierung ohne Beatmungsmöglichkeit)",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom (Atemaussetzer im Schlaf)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Benzodiazepine",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Anwendung in der Vene nur, wo Überwachung und Wiederbelebung möglich sind: Atemdepression und Atemstillstand können auftreten",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen: stärkere Wirkung, Gefahr von Atem- und Kreislaufproblemen – niedriger dosieren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz oder chronische Atemwegserkrankungen",
+      "ids": [
+        "herzinsuffizienz",
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neugeborene und Säuglinge: erhöhtes Risiko für Atemprobleme und Blutdruckabfall",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Alkohol-, Medikamenten- oder Drogenabhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Längere Anwendung (z. B. Intensivstation): Gewöhnung, Abhängigkeit und Entzugssymptome beim Absetzen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer wie Ketoconazol, Itraconazol, Voriconazol, HIV-Proteasehemmer oder Cobicistat (gilt für die Einnahme von Midazolam als Tablette)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "cobicistat",
+        "nirmatrelvir-ritonavir"
+      ],
+      "grund": "Der Abbau von Midazolam wird blockiert und der Spiegel steigt um ein Vielfaches – Gefahr anhaltender tiefer Sedierung und Atemdepression."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Fentanyl, Morphin, Oxycodon)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Gefahr von starker Sedierung, Atemdepression, Blutdruckabfall und Tod – nur unter Überwachung und mit angepasster Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer bei Gabe in die Vene (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Deutlich verstärkte und verlängerte Sedierung – nur mit engmaschiger Überwachung und reduzierter Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Diltiazem, Verapamil, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Midazolam-Spiegel steigt – stärkere und längere Sedierung; Dosis anpassen, überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau – vor allem bei Einnahme als Tablette ist die Wirkung stark abgeschwächt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (Narkosemittel, Antipsychotika, sedierende Antihistaminika, Alkohol)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:antipsychotika",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Verstärkte Sedierung und Atemdämpfung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Sedierung, Schläfrigkeit, Bewusstseinsminderung",
+      "Atemdepression (abgeschwächte Atmung)",
+      "Übelkeit, Erbrechen"
+    ],
+    "gelegentlich": [
+      "Juckreiz, Hautausschlag, Nesselsucht"
+    ],
+    "selten": [
+      "Paradoxe Reaktionen: Unruhe, Aggressivität, Wut, Verwirrtheit, Halluzinationen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Atemstillstand, Kehlkopfkrampf (Laryngospasmus)",
+      "Blutdruckabfall, verlangsamter Herzschlag, Herzstillstand",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Gedächtnislücken (anterograde Amnesie)",
+      "Kopfschmerzen, Schwindel, Gangunsicherheit",
+      "Schmerzen, Rötung oder Venenentzündung an der Injektionsstelle",
+      "Abhängigkeit und Entzugssymptome nach längerer Anwendung",
+      "Stürze und Knochenbrüche bei älteren Menschen"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit. Hohe Dosen im letzten Schwangerschaftsdrittel oder unter der Geburt können beim Neugeborenen Atemprobleme, Muskelschlaffheit, Trinkschwäche und Unterkühlung verursachen.",
+  "stillzeit": "Midazolam geht in geringen Mengen in die Muttermilch über; nach einer Gabe 24 Stunden lang nicht stillen.",
+  "hinweise": [
+    "Nach einer Sedierung am selben Tag kein Fahrzeug lenken, keine Maschinen bedienen und nicht ohne Begleitung nach Hause gehen.",
+    "Lösung für die Mundhöhle (Buccolam) nur nach ärztlicher Anleitung anwenden, danach die Atmung beobachten und bei anhaltendem Krampfanfall den Notruf 144 wählen.",
+    "Keinen Alkohol trinken; Grapefruitsaft erhöht bei Einnahme den Midazolam-Spiegel.",
+    "Nach längerer Anwendung schrittweise absetzen (Entzugssymptome)."
+  ],
+  "stand": "2026-10"
+}

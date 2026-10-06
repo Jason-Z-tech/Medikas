@@ -1,0 +1,45 @@
+{
+  "id": "hydroxocobalamin",
+  "name": "Hydroxocobalamin",
+  "synonyme": ["Vitamin B12a", "Vitamin B12 (Depot)", "Hydroxocobalaminacetat", "Hydroxocobalaminum", "Cyanid-Antidot"],
+  "atc": ["B03BA03", "V03AB33"],
+  "klasse": "Vitamin B12 (Depotform); Gegenmittel bei Cyanidvergiftung",
+  "kurz": "Vitamin-B12-Spritze mit Depotwirkung bei B12-Mangel; hoch dosiert als Infusion Gegenmittel bei Blausäure-(Cyanid-)Vergiftung, z. B. durch Brandrauch.",
+  "gruppen": [],
+  "handelsnamen": ["Vitarubin Depot", "Cyanokit"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung (intramuskulär)", "Pulver zur Herstellung einer Infusionslösung (Cyanokit, 5 g)"],
+  "indikationen": [
+    { "text": "Behandlung und Vorbeugung von Vitamin-B12-Mangel, z. B. bei perniziöser Anämie, nach Magen- oder Darmoperationen oder bei Aufnahmestörungen", "ids": ["vitamin-b12-mangel"] },
+    { "text": "Blutarmut und Nervenschäden durch Vitamin-B12-Mangel", "ids": ["vitamin-b12-mangel", "anaemie", "nervenschmerzen"] },
+    { "text": "Cyanokit: bekannte oder vermutete Cyanidvergiftung (Blausäure), z. B. durch Einatmen von Brandrauch", "ids": ["vergiftung"] }
+  ],
+  "wirkmechanismus": "Ersetzt fehlendes Vitamin B12 bzw. bindet das Gift Cyanid. Hydroxocobalamin wird im Körper in die aktiven Coenzyme Methylcobalamin und Adenosylcobalamin umgewandelt, die für die DNA-Synthese der Blutzellen und den Aufbau der Nervenhüllen (Myelin) nötig sind. Es bindet stärker an Bluteiweisse als Cyanocobalamin und wird langsamer ausgeschieden, daher die Depotwirkung mit längeren Spritzenabständen. Bei Cyanidvergiftung bindet jedes Hydroxocobalamin-Molekül ein Cyanid-Ion zum ungiftigen Cyanocobalamin, das über die Nieren ausgeschieden wird; so wird die blockierte Zellatmung wieder freigegeben.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Vor Behandlungsbeginn eines B12-Mangels die Diagnose sichern: Vitamin B12 kann einen Folsäuremangel verschleiern", "ids": ["vitamin-b12-mangel"] },
+    { "text": "Zu Beginn der Behandlung einer schweren Blutarmut kann das Kalium stark sinken – Kalium kontrollieren", "ids": ["hypokaliaemie"] },
+    { "text": "Cyanokit: Rotfärbung von Haut und Urin stört viele Laborwerte (z. B. Bilirubin, Kreatinin, Leberwerte) und kann bei der Dialyse Fehlalarme auslösen – Blutproben möglichst vor der Gabe entnehmen", "ids": ["niereninsuffizienz"] },
+    { "text": "Cyanokit: akutes Nierenversagen durch Oxalatablagerungen möglich – Nierenfunktion überwachen", "ids": ["niereninsuffizienz"] },
+    { "text": "Cyanokit: vorübergehender Blutdruckanstieg", "ids": ["hypertonie"] },
+    { "text": "Cyanokit: solange die Haut verfärbt ist, direkte Sonne meiden (Lichtempfindlichkeit)", "ids": ["sonnenbrand"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Cyanokit: andere Arzneimittel über denselben Venenzugang (z. B. Natriumthiosulfat, Diazepam, Dobutamin, Dopamin, Fentanyl, Propofol, Thiopental, Blutprodukte)", "ref": ["diazepam", "dobutamin", "dopamin", "fentanyl", "propofol", "thiopental"], "effekt": "Physikalisch unverträglich (Ausfällungen, Wirkverlust) – Cyanokit über einen eigenen Venenzugang geben.", "schwere": "mittel" },
+    { "text": "Chloramphenicol", "ref": ["chloramphenicol"], "effekt": "Kann das Ansprechen des Blutbildes auf Vitamin B12 abschwächen – Blutbild kontrollieren.", "schwere": "mittel" },
+    { "text": "Lachgas (Distickstoffmonoxid)", "ref": ["distickstoffmonoxid"], "effekt": "Inaktiviert Vitamin B12; bei bestehendem Mangel können Blut- und Nervenschäden verschlimmert werden.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Cyanokit: rote Verfärbung von Haut und Schleimhäuten (hält bis etwa 2 Wochen an)", "Cyanokit: rote Verfärbung des Urins (bis etwa 5 Wochen)"],
+    "unbekannt": ["Überempfindlichkeitsreaktionen bis zur Anaphylaxie (schwere allergische Reaktion)", "Akne, Hautausschlag, Juckreiz, Nesselsucht", "Schmerzen an der Injektionsstelle", "Hypokaliämie (Kaliummangel) zu Beginn der Behandlung einer schweren Blutarmut", "Cyanokit: vorübergehender Blutdruckanstieg, Kopfschmerzen, Übelkeit", "Cyanokit: akutes Nierenversagen (Oxalatnephropathie)", "Cyanokit: Atemnot, Engegefühl im Hals, Schwellungen um die Augen"]
+  },
+  "schwangerschaft": "Bei Vitamin-B12-Mangel erlaubt. Als Gegenmittel bei Cyanidvergiftung (Notfall) überwiegt der Nutzen; die Behandlung soll nicht verzögert werden.",
+  "stillzeit": "Bei Vitamin-B12-Mangel erlaubt. Nach einer Behandlung mit Cyanokit wird empfohlen, das Stillen zu unterbrechen, da Daten fehlen.",
+  "hinweise": [
+    "Bei perniziöser Anämie ist die Behandlung meist lebenslang nötig; dank der Depotwirkung genügen nach der Aufsättigung Injektionen in grösseren Abständen.",
+    "Bei Vitamin-B12-Mangel nie nur Folsäure geben: die Blutarmut bessert sich, die Nervenschäden schreiten aber fort.",
+    "Cyanokit wird im Notfall von Rettungsdienst oder Spital gegeben; Haut und Urin verfärben sich dabei für Tage bis Wochen rot – das ist harmlos."
+  ],
+  "stand": "2026-10"
+}

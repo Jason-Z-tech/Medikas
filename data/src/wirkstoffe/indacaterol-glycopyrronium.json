@@ -1,0 +1,182 @@
+{
+  "id": "indacaterol-glycopyrronium",
+  "name": "Indacaterol + Glycopyrronium",
+  "synonyme": [
+    "Indacaterolmaleat + Glycopyrroniumbromid",
+    "Indacaterol/glycopyrronium"
+  ],
+  "kombinationAus": [
+    "indacaterol",
+    "glycopyrronium"
+  ],
+  "atc": [
+    "R03AL04"
+  ],
+  "klasse": "Inhalative Fixkombination: langwirksames Beta-2-Sympathomimetikum (LABA) + langwirksames Anticholinergikum (LAMA)",
+  "kurz": "Inhalationskapseln zur täglichen Dauerbehandlung der COPD; zwei langwirksame Bronchienerweiterer in einer Kapsel.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "muskarinantagonisten-inhalativ",
+    "anticholinerg",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Ultibro Breezhaler"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln mit Pulver zur Inhalation (Breezhaler)"
+  ],
+  "indikationen": [
+    {
+      "text": "Bronchienerweiternde Dauerbehandlung zur Linderung der Beschwerden bei COPD (Erwachsene)",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hält die Bronchien bei COPD den ganzen Tag weiter offen. Indacaterol stimuliert als langwirksames Beta-2-Sympathomimetikum die Beta-2-Rezeptoren der Bronchialmuskulatur und entspannt sie über einen Anstieg von cAMP. Glycopyrronium blockiert langanhaltend die Muskarinrezeptoren (v. a. M3) und hemmt die bronchienverengende Wirkung von Acetylcholin. Die Wirkung setzt innerhalb von etwa 5 Minuten ein und hält 24 Stunden an.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Asthma: nicht anwenden (bei Asthma nicht untersucht; langwirksame Beta-2-Mimetika werden bei Asthma nur zusammen mit Kortison eingesetzt)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot – dafür ein kurz wirksames Notfallspray verwenden",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: instabile koronare Herzkrankheit, kürzlich durchgemachter Herzinfarkt, schwere Herzinsuffizienz, Herzrhythmusstörungen, QT-Verlängerung",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt",
+        "herzinsuffizienz",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom oder Harnverhalt (z. B. bei Prostatavergrösserung)",
+      "ids": [
+        "engwinkelglaukom",
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz oder Dialyse: nur, wenn der Nutzen überwiegt (Glycopyrronium wird über die Niere ausgeschieden)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Krampfleiden, Schilddrüsenüberfunktion, Diabetes oder Hypokaliämie (Wirkung des Beta-2-Mimetikums)",
+      "ids": [
+        "epilepsie",
+        "hyperthyreose",
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen (z. B. Angioödem) oder paradoxer Bronchospasmus: sofort absetzen",
+      "ids": [
+        "angiooedem",
+        "atemnot"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die Wirkung von Indacaterol abschwächen oder aufheben – meiden, ausser es gibt zwingende Gründe.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer, trizyklische Antidepressiva und QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Wirkungen auf das QT-Intervall und den Kreislauf können sich verstärken – mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere langwirksame Anticholinergika, Beta-2-Sympathomimetika oder Sympathomimetika",
+      "ref": [
+        "gruppe:muskarinantagonisten-inhalativ",
+        "gruppe:beta2-sympathomimetika",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Nicht zusätzlich anwenden: Wirkungen und Nebenwirkungen addieren sich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Kombination nicht untersucht und nicht empfohlen – mehr Mundtrockenheit, Verstopfung, Harnverhalt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, systemische Glukokortikoide, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Kaliumsenkung – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infekte der oberen Atemwege"
+    ],
+    "haeufig": [
+      "Nasen-Rachen-Entzündung, Nasennebenhöhlenentzündung, Schnupfen",
+      "Harnwegsinfekte",
+      "Überempfindlichkeitsreaktionen",
+      "Kopfschmerzen, Schwindel",
+      "Husten, Hals- und Rachenschmerzen",
+      "Verdauungsbeschwerden (Dyspepsie)",
+      "Fieber, Brustschmerzen"
+    ],
+    "gelegentlich": [
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge)",
+      "Durchblutungsstörung des Herzens, Vorhofflimmern, Herzrasen, Herzklopfen",
+      "Glaukom (grüner Star)",
+      "Paradoxer Bronchospasmus, Nasenbluten",
+      "Mundtrockenheit",
+      "Juckreiz, Hautausschlag",
+      "Muskelkrämpfe, Muskelschmerzen",
+      "Schlaflosigkeit, Kribbeln (Parästhesien), Müdigkeit, Wassereinlagerungen"
+    ],
+    "unbekannt": [
+      "Erhöhter Blutzucker",
+      "Harnverhalt",
+      "Heiserkeit (Dysphonie)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur anwenden, wenn der Nutzen das mögliche Risiko für das Kind überwiegt. Indacaterol kann die Wehentätigkeit hemmen.",
+  "stillzeit": "Nicht bekannt, ob die Wirkstoffe in die Muttermilch übergehen; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Kapseln nur mit dem Breezhaler inhalieren, nie schlucken; die Kapsel erst kurz vor Gebrauch aus der Blisterpackung nehmen.",
+    "Einmal täglich zur gleichen Zeit inhalieren; nicht zur Behandlung akuter Atemnot.",
+    "Bei Augenschmerzen, verschwommenem Sehen oder Problemen beim Wasserlösen ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

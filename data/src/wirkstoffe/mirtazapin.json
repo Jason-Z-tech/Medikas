@@ -1,0 +1,222 @@
+{
+  "id": "mirtazapin",
+  "name": "Mirtazapin",
+  "synonyme": [
+    "Mirtazapine"
+  ],
+  "atc": [
+    "N06AX11"
+  ],
+  "klasse": "Tetrazyklisches Antidepressivum (noradrenerg und spezifisch serotonerg, NaSSA)",
+  "kurz": "Antidepressivum mit beruhigender und schlaffördernder Wirkung; zur Behandlung von Depressionen.",
+  "gruppen": [
+    "serotonerg",
+    "zns-daempfend",
+    "hyponatriaemie-ausloesend",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Remeron",
+    "Remeron SolTab",
+    "Mirtazapin Mepha",
+    "Mirtazapin Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression)",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf, indem es die Freisetzung der Botenstoffe Noradrenalin und Serotonin im Gehirn steigert. Mirtazapin blockiert zentrale präsynaptische Alpha-2-Rezeptoren, die die Ausschüttung dieser Botenstoffe normalerweise bremsen. Gleichzeitig blockiert es die Serotoninrezeptoren 5-HT2 und 5-HT3, sodass vor allem die Wirkung über 5-HT1A-Rezeptoren zum Tragen kommt. Die starke Blockade der Histamin-H1-Rezeptoren erklärt die beruhigende, schlaffördernde und appetitsteigernde Wirkung.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Behandlungsbeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Epilepsie oder organische Hirnschädigung (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, verlängerte QT-Zeit, Reizleitungsstörungen und tiefer Blutdruck",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich) und Psychosen",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Diabetes: die Blutzuckereinstellung kann sich verändern",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Erschwertes Wasserlassen bei Prostatavergrösserung, Engwinkelglaukom",
+      "ids": [
+        "prostatahyperplasie",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Hyponatriämie, Sturzgefahr durch Schläfrigkeit und Schwindel)",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 2 Wochen nach deren Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms durch übermässige Serotoninwirkung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (z. B. SSRI, SNRI, Triptane, Tramadol, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Zittern, Muskelzuckungen, Fieber, Schwitzen) – vorsichtig kombinieren und auf Warnzeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Benzodiazepine und andere zentral dämpfende Mittel, Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit – Alkohol meiden, Fahrtüchtigkeit beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. bestimmte Antiarrhythmika, Antipsychotika, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Leichter Anstieg des INR möglich – INR zu Beginn und beim Absetzen kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, HIV-Proteasehemmer)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Mirtazapin-Spiegel steigt – auf verstärkte Nebenwirkungen achten, Dosis gegebenenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Mirtazapin-Spiegel sinkt um etwa die Hälfte – Dosis gegebenenfalls erhöhen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Appetitsteigerung und Gewichtszunahme",
+      "Schläfrigkeit, Sedierung (Dämpfung)",
+      "Kopfschmerzen",
+      "Mundtrockenheit"
+    ],
+    "haeufig": [
+      "Schwindel, Zittern (Tremor)",
+      "Müdigkeit, Lethargie",
+      "Abnorme Träume, Verwirrtheit, Angst, Schlaflosigkeit",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung",
+      "Hautausschlag (Exanthem)",
+      "Gelenk-, Muskel- und Rückenschmerzen",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "gelegentlich": [
+      "Albträume, Halluzinationen, Agitiertheit (Unruhe)",
+      "Manie",
+      "Akathisie (Bewegungsunruhe), Restless-Legs-Syndrom",
+      "Kribbeln (Parästhesien)",
+      "Ohnmacht (Synkope), tiefer Blutdruck"
+    ],
+    "selten": [
+      "Aggressivität",
+      "Myoklonien (Muskelzuckungen)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Erhöhte Leberwerte"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Agranulozytose und andere Knochenmarkschäden (Fieber, Halsschmerzen)",
+      "Hyponatriämie (Natriummangel), SIADH",
+      "Suizidgedanken und suizidales Verhalten",
+      "Krampfanfälle",
+      "Serotoninsyndrom",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "QT-Verlängerung, Torsade de pointes",
+      "Rhabdomyolyse (Muskelzerfall)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung (begrenzte Erfahrungen). Wird es bis zur Geburt eingenommen, ist das Neugeborene auf Anpassungsstörungen und Absetzsymptome zu beobachten.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Stillen nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Am besten abends vor dem Schlafengehen einnehmen; Schmelztabletten auf der Zunge zergehen lassen.",
+    "Die stimmungsaufhellende Wirkung setzt meist nach 1–2 Wochen ein; nicht abrupt absetzen (Absetzsymptome wie Schwindel, Unruhe, Übelkeit).",
+    "Bei Fieber, Halsschmerzen oder Mundgeschwüren sofort ärztlich das Blutbild kontrollieren lassen (seltene Agranulozytose).",
+    "Alkohol meiden; Schläfrigkeit kann die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "colecalciferol-vitamin-d3",
+  "name": "Colecalciferol (Vitamin D3)",
+  "synonyme": ["Vitamin D3", "Cholecalciferol", "Colecalciferolum", "Cholecalciferolum"],
+  "atc": ["A11CC05"],
+  "klasse": "Vitamin D (Vitamin D3)",
+  "kurz": "Vitamin D3 zur Vorbeugung und Behandlung von Vitamin-D-Mangel und Rachitis sowie als Ergänzung bei Osteoporose.",
+  "gruppen": ["hyperkalzaemie-ausloesend"],
+  "handelsnamen": ["Vi-De 3", "Vitamin D3 Streuli", "Calcimagon-D3 (Kombi)", "Fosavance (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Tropfen", "Kapseln", "Tabletten", "Ampullen (hoch dosiert)"],
+  "indikationen": [
+    { "text": "Vorbeugung und Behandlung von Vitamin-D-Mangel bei Kindern und Erwachsenen", "ids": ["vitamin-d-mangel"] },
+    { "text": "Vorbeugung der Rachitis bei Säuglingen und Kleinkindern", "ids": ["vitamin-d-mangel", "kinder"] },
+    { "text": "Behandlung von Rachitis und Osteomalazie (Knochenerweichung) infolge Vitamin-D-Mangels", "ids": ["vitamin-d-mangel"] },
+    { "text": "Ergänzend zur Behandlung der Osteoporose (zusammen mit Calcium)", "ids": ["osteoporose"] }
+  ],
+  "wirkmechanismus": "Stellt dem Körper Vitamin D zur Verfügung, das er für die Aufnahme von Calcium und gesunde Knochen braucht. Colecalciferol ist eine Vorstufe: In der Leber wird es zu 25-Hydroxyvitamin D (Calcifediol, dem Speicher- und Messwert im Blut) und in der Niere zu 1,25-Dihydroxyvitamin D (Calcitriol, der aktiven Form) umgewandelt. Calcitriol steigert über den Vitamin-D-Rezeptor die Aufnahme von Calcium und Phosphat im Darm, fördert die Mineralisierung des Knochens und bremst die Ausschüttung von Parathormon. Weil Vitamin D im Fettgewebe gespeichert wird, wirkt es lange nach und kann auch wöchentlich oder monatlich gegeben werden.",
+  "kontraindikationen": [
+    { "text": "Erhöhtes Calcium im Blut (Hyperkalzämie) oder im Urin (Hyperkalziurie)", "ids": ["hyperkalzaemie"] },
+    { "text": "Vitamin-D-Überdosierung (Hypervitaminose D)", "ids": ["vergiftung"] },
+    { "text": "Calciumhaltige Nierensteine und Verkalkungen der Niere (Nephrokalzinose)", "ids": ["nierensteine"] },
+    { "text": "Schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Sarkoidose und andere granulomatöse Erkrankungen (vermehrte Bildung von aktivem Vitamin D, Gefahr einer Hyperkalzämie)", "ids": ["autoimmunerkrankung", "hyperkalzaemie"] },
+    { "text": "Eingeschränkte Nierenfunktion: Calcium und Phosphat kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Hohe Dosen oder Langzeitbehandlung, besonders zusammen mit Calcium: Calcium im Blut und Urin kontrollieren", "ids": ["hyperkalzaemie"] },
+    { "text": "Herzkrankheiten mit Herzglykosid-Behandlung (Rhythmusstörungen bei Hyperkalzämie)", "ids": ["herzrhythmusstoerung"] },
+    { "text": "Pseudohypoparathyreoidismus (Vitamin-D-Bedarf kann schwanken)", "ids": ["hypokalzaemie"] },
+    { "text": "Weitere Vitamin-D-haltige Präparate oder angereicherte Lebensmittel (Überdosierungsgefahr)", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Thiaziddiuretika (z. B. Hydrochlorothiazid, Chlortalidon)", "ref": ["gruppe:thiaziddiuretika"], "effekt": "Verminderte Calciumausscheidung – erhöhtes Hyperkalzämie-Risiko; bei Langzeitbehandlung Calcium kontrollieren.", "schwere": "mittel" },
+    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Eine Hyperkalzämie verstärkt die Digitaliswirkung (Rhythmusstörungen) – Calcium und gegebenenfalls EKG kontrollieren.", "schwere": "mittel" },
+    { "text": "Aktive Vitamin-D-Formen und andere Vitamin-D-Präparate (z. B. Calcitriol, Paricalcitol)", "ref": ["calcitriol", "paricalcitol", "calcium-colecalciferol"], "effekt": "Additive Wirkung – Gefahr einer Überdosierung mit Hyperkalzämie; nur auf ärztliche Anordnung kombinieren.", "schwere": "mittel" },
+    { "text": "Enzyminduzierende Antiepileptika (Phenytoin, Phenobarbital, Carbamazepin)", "ref": ["phenytoin", "phenobarbital", "carbamazepin"], "effekt": "Beschleunigter Abbau von Vitamin D – Wirkung vermindert, höherer Bedarf möglich.", "schwere": "mittel" },
+    { "text": "Gallensäurebinder (Colestyramin), Orlistat und Paraffinöl", "ref": ["gruppe:gallensaeurebinder", "orlistat", "paraffin-dickfluessig"], "effekt": "Verminderte Aufnahme des fettlöslichen Vitamins – zeitversetzt einnehmen.", "schwere": "leicht" },
+    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Können die Wirkung von Vitamin D vermindern.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": ["Hyperkalzämie (erhöhtes Calcium im Blut)", "Hyperkalziurie (erhöhtes Calcium im Urin)"],
+    "selten": ["Juckreiz, Hautausschlag, Nesselsucht"],
+    "unbekannt": ["Bei Überdosierung: Übelkeit, Erbrechen, Verstopfung, Appetitlosigkeit, starker Durst, vermehrtes Wasserlassen, Muskelschwäche, Verwirrtheit", "Nierensteine und Verkalkungen in Niere und Gefässen bei langdauernder Überdosierung"]
+  },
+  "schwangerschaft": "In den empfohlenen Dosen erlaubt und bei Mangel sinnvoll; Überdosierungen vermeiden, da eine anhaltende Hyperkalzämie dem Kind schaden kann.",
+  "stillzeit": "In üblichen Dosen erlaubt; Vitamin D geht in die Muttermilch über, ersetzt aber nicht die Vitamin-D-Gabe an den Säugling.",
+  "hinweise": [
+    "Am besten zu einer Mahlzeit einnehmen, da fetthaltige Speisen die Aufnahme verbessern.",
+    "Hoch dosierte Wochen- oder Monatsdosen nicht mit täglichen Präparaten verwechseln und nicht mehrere Vitamin-D-Präparate kombinieren.",
+    "Bei hohen Dosen, Nierenkrankheit oder gleichzeitiger Calciumeinnahme Calcium im Blut kontrollieren lassen.",
+    "In der Schweiz wird für Säuglinge und Kleinkinder in den ersten 3 Lebensjahren eine tägliche Vitamin-D-Gabe empfohlen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,319 @@
+{
+  "id": "amitriptylin",
+  "name": "Amitriptylin",
+  "synonyme": [
+    "Amitriptylinum",
+    "Amitriptylinhydrochlorid"
+  ],
+  "atc": [
+    "N06AA09"
+  ],
+  "klasse": "Trizyklisches Antidepressivum",
+  "kurz": "Antidepressivum aus der Gruppe der Trizyklika; niedrig dosiert auch gegen chronische Schmerzen und Nervenschmerzen.",
+  "gruppen": [
+    "trizyklische-antidepressiva",
+    "serotonerg",
+    "anticholinerg",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "zns-daempfend",
+    "blutdrucksenkend",
+    "hyponatriaemie-ausloesend",
+    "cyp2d6-substrate",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Saroten"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung chronischer Schmerzen, einschliesslich Nervenschmerzen, im Rahmen eines Gesamtkonzepts",
+      "ids": [
+        "chronische-schmerzen",
+        "nervenschmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf, wirkt beruhigend und dämpft in niedriger Dosis die Schmerzweiterleitung. Amitriptylin hemmt die Wiederaufnahme von Noradrenalin und Serotonin in die Nervenzellen und verstärkt so deren Wirkung, unter anderem in den schmerzhemmenden Nervenbahnen des Rückenmarks. Daneben blockiert es Muskarin-, Histamin-H1- und Alpha-1-Rezeptoren, was Müdigkeit, Mundtrockenheit und Blutdruckabfall beim Aufstehen erklärt. Sein Abbauprodukt Nortriptylin ist ebenfalls wirksam; die antidepressive Wirkung setzt nach 2–4 Wochen ein.",
+  "kontraindikationen": [
+    {
+      "text": "Kürzlich erlittener Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Herzrhythmus- oder Reizleitungsstörungen jeglicher Art (z. B. AV-Block, Schenkelblock)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit mit Durchblutungsstörung des Herzmuskels (Koronarinsuffizienz)",
+      "ids": [
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung und bei jungen Erwachsenen unter 25 Jahren; Überdosierung ist lebensgefährlich",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom, Harnverhalt oder Prostatavergrösserung (anticholinerge Wirkung)",
+      "ids": [
+        "engwinkelglaukom",
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Weitere Herzerkrankungen, QT-Verlängerung, langsamer Puls, Kaliummangel (EKG-Kontrollen)",
+      "ids": [
+        "qt-verlaengerung",
+        "bradykardie",
+        "hypokaliaemie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion oder Behandlung mit Schilddrüsenhormonen",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Bipolare Störung oder Schizophrenie (Manie bzw. Verstärkung psychotischer Symptome möglich)",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Verwirrtheit, Delir, Stürze, Blutdruckabfall – niedriger dosieren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzuckerschwankungen möglich",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Langsame Verstoffwechsler über CYP2D6 oder CYP2C19: höhere Spiegel und mehr Nebenwirkungen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (nicht selektive sowie selektive wie Moclobemid oder Selegilin) – gleichzeitig sowie innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid",
+        "selegilin"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms mit Fieber, Muskelzuckungen, Verwirrtheit und Blutdruckkrise."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, Antipsychotika, Makrolide, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – möglichst vermeiden, sonst EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere serotonerge Mittel (SSRI, SNRI, Triptane, Tramadol, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms; mit Tramadol zudem erhöhtes Krampfrisiko – nur mit Vorsicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion, Terbinafin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer",
+        "terbinafin"
+      ],
+      "effekt": "Der Amitriptylin- und Nortriptylin-Spiegel steigt deutlich – Dosis anpassen, EKG und Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sympathomimetika (z. B. Adrenalin, Noradrenalin, Phenylephrin, Ephedrin)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Wirkung auf Blutdruck und Herz bis zur Blutdruckkrise.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Antiparkinsonmittel, Blasenmittel, Antihistaminika)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte anticholinerge Nebenwirkungen bis zu Verwirrtheit, Harnverhalt oder Darmlähmung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (Schlafmittel, Benzodiazepine, Opioide, Alkohol)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide"
+      ],
+      "effekt": "Gegenseitige Verstärkung der Dämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluvoxamin und andere CYP2C19- oder CYP1A2-Hemmer",
+      "ref": [
+        "fluvoxamin",
+        "gruppe:cyp2c19-hemmer",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Der Amitriptylin-Spiegel kann steigen – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Die Spiegel von Amitriptylin und Nortriptylin können steigen – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin und andere zentral wirkende Blutdrucksenker",
+      "ref": [
+        "clonidin",
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Die blutdrucksenkende Wirkung kann abgeschwächt werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Rifampicin, Phenobarbital)",
+      "ref": [
+        "carbamazepin",
+        "phenytoin",
+        "rifampicin",
+        "phenobarbital"
+      ],
+      "effekt": "Der Amitriptylin-Spiegel sinkt – Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Ein Kaliummangel erhöht das Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit (Somnolenz), Schwindel, Zittern (Tremor), Kopfschmerzen",
+      "Mundtrockenheit, Verstopfung, Übelkeit",
+      "Herzklopfen, Herzrasen (Tachykardie)",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Sehstörungen (Akkommodationsstörungen)",
+      "Verstopfte Nase",
+      "Vermehrtes Schwitzen",
+      "Gewichtszunahme"
+    ],
+    "haeufig": [
+      "Verwirrtheit, Unruhe (Agitiertheit), verminderte Libido",
+      "Konzentrationsstörungen, Geschmacksstörungen, Kribbeln (Parästhesien), Gangunsicherheit",
+      "Erweiterte Pupillen (Mydriasis)",
+      "AV-Block, Schenkelblock, EKG-Veränderungen (QT- und QRS-Verlängerung)",
+      "Störungen beim Wasserlassen",
+      "Erektionsstörungen",
+      "Müdigkeit, Durstgefühl",
+      "Hyponatriämie (Natriummangel)"
+    ],
+    "gelegentlich": [
+      "Hypomanie, Manie, Angst, Schlaflosigkeit, Albträume",
+      "Krampfanfälle",
+      "Ohrgeräusche (Tinnitus)",
+      "Blutdruckanstieg",
+      "Durchfall, Erbrechen",
+      "Hautausschlag, Nesselsucht, Schwellung von Gesicht und Zunge",
+      "Harnverhalt",
+      "Leberfunktionsstörungen, Milchfluss (Galaktorrhö)"
+    ],
+    "selten": [
+      "Knochenmarkdepression, Agranulozytose, Leukopenie, Thrombozytopenie",
+      "Delir (bei älteren Menschen), Halluzinationen",
+      "Suizidgedanken und suizidales Verhalten",
+      "Herzrhythmusstörungen",
+      "Darmlähmung (paralytischer Ileus), Speicheldrüsenschwellung",
+      "Gelbsucht (Ikterus)",
+      "Haarausfall, Lichtempfindlichkeit",
+      "Brustvergrösserung beim Mann, Fieber, Appetitverlust"
+    ],
+    "sehrSelten": [
+      "Herzmuskelerkrankung (Kardiomyopathie), Torsade de pointes",
+      "Akutes Glaukom"
+    ],
+    "unbekannt": [
+      "Serotoninsyndrom",
+      "Überempfindlichkeitsreaktionen, z. B. allergische Lungenentzündung (Alveolitis)",
+      "Leberentzündung (Hepatitis)",
+      "Erhöhtes Risiko für Knochenbrüche"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung. Bei Einnahme bis zur Geburt können beim Neugeborenen Entzugssymptome auftreten (Reizbarkeit, Atemprobleme, Zittern, Trinkschwäche).",
+  "stillzeit": "Amitriptylin geht in die Muttermilch über; Stillen nur nach ärztlicher Abwägung, das Kind auf Schläfrigkeit beobachten.",
+  "hinweise": [
+    "Wegen der müde machenden Wirkung meist abends einnehmen; kann die Fahrtüchtigkeit beeinträchtigen. Alkohol meiden.",
+    "Nicht abrupt absetzen (Übelkeit, Kopfschmerzen, Unwohlsein, Schlafstörungen), sondern schrittweise reduzieren.",
+    "Bei Herzerkrankungen und älteren Menschen EKG-Kontrollen; eine Überdosierung ist für das Herz lebensgefährlich – Packung sicher und für Kinder unerreichbar aufbewahren.",
+    "Gegen Mundtrockenheit auf gute Zahnpflege achten."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "orlistat",
+  "name": "Orlistat",
+  "synonyme": ["Tetrahydrolipstatin", "Lipasehemmer"],
+  "atc": ["A08AB01"],
+  "klasse": "Antiadipositum (Hemmer der Verdauungslipasen)",
+  "kurz": "Abnehmmittel, das die Fettverdauung im Darm hemmt; etwa ein Drittel des Nahrungsfetts wird unverdaut ausgeschieden.",
+  "gruppen": [],
+  "handelsnamen": ["Xenical"],
+  "abgabe": ["B"],
+  "darreichung": ["Kapseln"],
+  "indikationen": [
+    { "text": "Behandlung von Adipositas (BMI ab 30) oder Übergewicht (BMI ab 28) mit Begleiterkrankungen bei Erwachsenen, zusammen mit einer leicht kalorienreduzierten Diät", "ids": ["adipositas"] }
+  ],
+  "wirkmechanismus": "Verhindert, dass ein Teil des Nahrungsfetts verdaut und aufgenommen wird. Orlistat bindet im Magen und Dünndarm fest an die fettspaltenden Enzyme (Lipasen) von Magen und Bauchspeicheldrüse und macht sie unwirksam. Die Nahrungsfette (Triglyceride) können so nicht in aufnehmbare Bausteine zerlegt werden; rund 30 % des Fetts werden mit dem Stuhl ausgeschieden, die Kalorienaufnahme sinkt. Orlistat selbst wird kaum ins Blut aufgenommen.",
+  "kontraindikationen": [
+    { "text": "Chronisches Malabsorptionssyndrom (gestörte Nährstoffaufnahme im Darm)", "ids": ["mangelernaehrung"] },
+    { "text": "Cholestase (Gallestau)", "ids": ["gallensteine"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Typ-2-Diabetes: durch die Gewichtsabnahme kann der Blutzucker sinken – Antidiabetika gegebenenfalls anpassen", "ids": ["diabetes-typ-2"] },
+    { "text": "Schilddrüsenunterfunktion mit Levothyroxin: Gefahr einer Unterfunktion durch verminderte Aufnahme", "ids": ["hypothyreose"] },
+    { "text": "Epilepsie: Krampfanfälle durch verminderte Aufnahme von Antiepileptika möglich", "ids": ["epilepsie"] },
+    { "text": "HIV-Infektion: antiretrovirale Medikamente können schlechter wirken", "ids": ["hiv"] },
+    { "text": "Eingeschränkte Nierenfunktion oder Nierensteine: Gefahr einer Oxalat-Nierenschädigung", "ids": ["niereninsuffizienz", "nierensteine"] },
+    { "text": "Mangel an fettlöslichen Vitaminen (A, D, E, K) möglich", "ids": ["vitamin-d-mangel", "mangelernaehrung"] },
+    { "text": "Hormonelle Verhütung: bei starkem Durchfall zusätzlich verhüten", "ids": ["verhuetung"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ciclosporin-Spiegel sinken – Gefahr einer Abstossungsreaktion; Kombination nicht empfohlen, sonst zeitversetzt einnehmen und Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Weniger Vitamin K wird aufgenommen – INR-Schwankungen; INR engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Antiretrovirale HIV-Medikamente", "ref": ["gruppe:hiv-proteasehemmer", "gruppe:nnrti", "gruppe:integrasehemmer"], "effekt": "Verlust der Viruskontrolle beschrieben – nur nach sorgfältiger ärztlicher Abwägung kombinieren.", "schwere": "schwer" },
+    { "text": "Levothyroxin", "ref": ["levothyroxin", "gruppe:schilddruesenhormone"], "effekt": "Schilddrüsenunterfunktion möglich – mindestens 4 Stunden Abstand, Schilddrüsenwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Antiepileptika", "ref": ["gruppe:antiepileptika"], "effekt": "Krampfanfälle durch verminderte Aufnahme berichtet – auf Anfallshäufigkeit achten.", "schwere": "mittel" },
+    { "text": "Amiodaron", "ref": ["amiodaron"], "effekt": "Amiodaron-Spiegel können sinken – Wirkung überwachen.", "schwere": "mittel" },
+    { "text": "Antidepressiva, Antipsychotika (inkl. Lithium) und Benzodiazepine", "ref": ["gruppe:ssri", "gruppe:snri", "gruppe:trizyklische-antidepressiva", "gruppe:antipsychotika", "lithium", "gruppe:benzodiazepine"], "effekt": "Vereinzelt Wirkungsverlust bei zuvor gut eingestellten Patienten – Zustand überwachen.", "schwere": "mittel" },
+    { "text": "Hormonale Verhütungsmittel (Pille)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Bei starkem Durchfall unsicherer Schutz – zusätzlich verhüten.", "schwere": "mittel" },
+    { "text": "Fettlösliche Vitamine (A, D, E, K) und Betacarotin", "ref": ["colecalciferol-vitamin-d3", "retinol-vitamin-a", "tocopherol-vitamin-e", "phytomenadion"], "effekt": "Werden schlechter aufgenommen – Multivitaminpräparat mindestens 2 Stunden nach Orlistat oder vor dem Schlafengehen einnehmen.", "schwere": "leicht" },
+    { "text": "Acarbose", "ref": ["acarbose"], "effekt": "Keine Untersuchungen zur Kombination – gleichzeitige Anwendung vermeiden.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Öliger Ausfluss aus dem After (Fettflecken in der Wäsche)", "Blähungen mit Stuhlabgang, Stuhldrang", "Fettiger, öliger oder weicher Stuhl", "Bauchschmerzen", "Kopfschmerzen", "Infekte der oberen Atemwege, Grippe", "Hypoglykämie (Unterzuckerung) bei Typ-2-Diabetes"],
+    "haeufig": ["Schmerzen oder Beschwerden im Enddarm", "Flüssiger Stuhl, Stuhlinkontinenz", "Blähbauch", "Zahn- und Zahnfleischbeschwerden", "Infekte der unteren Atemwege, Harnwegsinfekte", "Angst, Müdigkeit", "Menstruationsstörungen"],
+    "unbekannt": ["Blutungen aus dem Enddarm", "Divertikulitis, Pankreatitis (Bauchspeicheldrüsenentzündung), Gallensteine", "Hepatitis, teils schwer; erhöhte Leberwerte", "Oxalat-Nierenschädigung bis Nierenversagen", "Bullöse (blasenbildende) Hautausschläge", "Überempfindlichkeitsreaktionen bis Anaphylaxie, Angioödem, Bronchospasmus", "Erniedrigter Quick-Wert bzw. erhöhter INR"]
+  },
+  "schwangerschaft": "In der Schwangerschaft nicht empfohlen.",
+  "stillzeit": "Kontraindiziert, da nicht bekannt ist, ob Orlistat in die Muttermilch übergeht.",
+  "hinweise": [
+    "Zu jeder Hauptmahlzeit (während oder bis 1 Stunde danach) einnehmen; fällt eine Mahlzeit aus oder ist sie fettfrei, die Kapsel weglassen.",
+    "Ausgewogen und fettarm essen (etwa 30 % der Kalorien aus Fett) – fettreiche Mahlzeiten verstärken die Magen-Darm-Beschwerden.",
+    "Ein Multivitaminpräparat mit fettlöslichen Vitaminen am besten vor dem Schlafengehen einnehmen.",
+    "Ärztliche Kontrolle nach 12 Wochen: ohne Gewichtsabnahme von mindestens 5 % die Behandlung beenden."
+  ],
+  "stand": "2026-10"
+}

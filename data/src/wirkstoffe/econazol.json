@@ -1,0 +1,50 @@
+{
+  "id": "econazol",
+  "name": "Econazol",
+  "synonyme": ["Econazolnitrat", "Econazole"],
+  "atc": ["D01AC03", "G01AF05"],
+  "klasse": "Imidazol-Antimykotikum (zur Anwendung auf der Haut und in der Scheide)",
+  "kurz": "Pilzmittel für Haut und Scheide; in Pevisone mit einem Kortison kombiniert.",
+  "gruppen": [],
+  "handelsnamen": ["Pevaryl", "Gyno-Pevaryl", "Pevisone (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Creme", "Vaginalzäpfchen (Ovula)"],
+  "indikationen": [
+    { "text": "Pilzinfektionen der Haut durch Dermatophyten, Hefen (Candida) oder Schimmelpilze, z. B. Fusspilz oder Pilzinfektionen in Hautfalten", "ids": ["hautpilz"] },
+    { "text": "Pityriasis versicolor (Kleienpilzflechte)", "ids": ["hautpilz"] },
+    { "text": "Scheidenpilz (vaginale Candidose)", "ids": ["vaginalinfektion"] }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Pilzen, indem es den Aufbau ihrer Zellmembran stört. Econazol blockiert das pilzeigene Enzym Lanosterol-14-alpha-Demethylase und damit die Bildung von Ergosterol, dem wichtigsten Baustein der Pilzzellmembran; die Membran wird durchlässig und der Pilz stirbt ab. Es wirkt gegen Dermatophyten, Hefen und Schimmelpilze sowie gegen einige grampositive Bakterien. Nur ein kleiner Teil gelangt ins Blut; Econazol hemmt jedoch die Leberenzyme CYP3A4 und CYP2C9, was bei Blutverdünnern bedeutsam sein kann.",
+  "vorsicht": [
+    { "text": "Erstmals auftretender Scheidenpilz, häufige Rückfälle, Fieber, Unterbauchschmerzen, übelriechender Ausfluss oder Blutungen: ärztlich abklären lassen", "ids": ["vaginalinfektion"] },
+    { "text": "Gleichzeitige Blutverdünnung mit Vitamin-K-Antagonisten: Gerinnungswerte (INR) kontrollieren", "ids": ["thromboseprophylaxe"] },
+    { "text": "Schwangerschaft: im 1. Drittel nur, wenn ärztlich als notwendig erachtet", "ids": ["schwangerschaft"] }
+  ],
+  "interaktionen": [
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Trotz geringer Aufnahme ins Blut wurden verstärkte Gerinnungshemmung und Blutungen berichtet (Hemmung von CYP2C9/3A4) – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Latex-Kondome und Diaphragmen (bei Anwendung in der Scheide)", "ref": [], "effekt": "Vaginalzäpfchen können Latex schädigen und die Verhütungssicherheit vermindern – während der Behandlung anders verhüten.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Juckreiz und Brennen an der Anwendungsstelle (Haut bzw. Scheide und Schamlippen)",
+      "Schmerzen an der Anwendungsstelle"
+    ],
+    "gelegentlich": [
+      "Rötung (Erythem)",
+      "Unwohlsein und Schwellung an der Anwendungsstelle"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen, Angioödem (Schwellung)",
+      "Kontaktdermatitis, Ausschlag, Nesselsucht, Bläschen, Hautschuppung"
+    ]
+  },
+  "schwangerschaft": "Im 1. Drittel nur, wenn ärztlich als notwendig erachtet; danach nach ärztlicher Rücksprache möglich (geringe Aufnahme ins Blut).",
+  "stillzeit": "Mit Vorsicht anwenden – nicht bekannt, ob Econazol in die Muttermilch übergeht; nicht im Brustbereich auftragen.",
+  "hinweise": [
+    "Hautpilz: auch nach Abklingen der Beschwerden noch etwa 2 Wochen weiterbehandeln.",
+    "Bei gleichzeitiger Einnahme von Blutverdünnern (Phenprocoumon, Acenocoumarol) den INR kontrollieren lassen.",
+    "Latex-Kondome und Diaphragmen sind während der vaginalen Behandlung nicht sicher.",
+    "Pevisone enthält zusätzlich das Kortison Triamcinolon, ist rezeptpflichtig und nur kurzzeitig anzuwenden."
+  ],
+  "stand": "2026-10"
+}

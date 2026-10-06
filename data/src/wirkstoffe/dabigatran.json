@@ -1,0 +1,61 @@
+{
+  "id": "dabigatran",
+  "name": "Dabigatran",
+  "synonyme": ["Dabigatranetexilat", "Dabigatran etexilate", "DOAK", "NOAK"],
+  "atc": ["B01AE07"],
+  "klasse": "Direkter Thrombinhemmer; direktes orales Antikoagulans (DOAK)",
+  "kurz": "Blutverdünner zum Schlucken (direkter Thrombinhemmer) gegen Schlaganfall bei Vorhofflimmern sowie gegen Thrombosen und Lungenembolien.",
+  "gruppen": ["antikoagulanzien", "doak", "blutungsrisiko-erhoehend", "p-gp-substrate-eng"],
+  "handelsnamen": ["Pradaxa"],
+  "abgabe": ["B"],
+  "darreichung": ["Hartkapseln"],
+  "indikationen": [
+    { "text": "Vorbeugung von Schlaganfall und systemischer Embolie bei nicht valvulärem Vorhofflimmern mit mindestens einem Risikofaktor", "ids": ["vorhofflimmern", "schlaganfall"] },
+    { "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie sowie Vorbeugung von Rückfällen", "ids": ["thrombose", "lungenembolie"] },
+    { "text": "Thrombosevorbeugung nach geplantem Hüft- oder Kniegelenkersatz", "ids": ["thromboseprophylaxe", "operation"] }
+  ],
+  "wirkmechanismus": "Hemmt die Blutgerinnung, indem es das zentrale Gerinnungsenzym Thrombin direkt blockiert. Eingenommen wird die unwirksame Vorstufe Dabigatranetexilat (Prodrug), die im Körper durch Esterasen rasch in Dabigatran umgewandelt wird. Dabigatran hemmt freies und an Gerinnsel gebundenes Thrombin reversibel und verhindert so die Bildung von Fibrin und die thrombinbedingte Aktivierung der Blutplättchen. Es wird zu rund 80 % unverändert über die Nieren ausgeschieden; als spezifisches Gegenmittel steht Idarucizumab zur Verfügung.",
+  "kontraindikationen": [
+    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)", "ids": ["niereninsuffizienz"] },
+    { "text": "Aktive, klinisch relevante Blutung", "ids": ["aktive-blutung"] },
+    { "text": "Erkrankungen mit hohem Risiko für schwere Blutungen (z. B. aktuelles oder kürzliches Magen-Darm-Geschwür, Tumor mit hohem Blutungsrisiko, kürzliche Hirnblutung, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen, Aneurysmen)", "ids": ["magen-darm-ulkus", "hirnblutung", "krebs", "aneurysma", "operation"] },
+    { "text": "Eingeschränkte Leberfunktion oder Lebererkrankung, die voraussichtlich das Überleben beeinträchtigt", "ids": ["leberinsuffizienz", "leberzirrhose"] },
+    { "text": "Künstliche (mechanische) Herzklappen, die eine Gerinnungshemmung erfordern", "ids": ["herzklappenerkrankung"] }
+  ],
+  "vorsicht": [
+    { "text": "Mässig eingeschränkte Nierenfunktion: höhere Spiegel, Dosisanpassung und regelmässige Kontrollen", "ids": ["niereninsuffizienz"] },
+    { "text": "Alter ab 75 Jahren: höheres Blutungsrisiko", "ids": ["aeltere-patienten"] },
+    { "text": "Erhöhtes Blutungsrisiko: Gastritis, Ösophagitis, Reflux, verminderte Blutplättchen, kürzliche Biopsie oder Verletzung, Körpergewicht unter 50 kg", "ids": ["gastritis", "sodbrennen", "thrombozytopenie"] },
+    { "text": "Operationen und Eingriffe: rechtzeitig pausieren; rückenmarksnahe Anästhesie nur mit Zeitabstand (Gefahr spinaler Hämatome)", "ids": ["operation", "anaesthesie"] },
+    { "text": "Antiphospholipid-Syndrom (besonders dreifach positiv): DOAK nicht empfohlen", "ids": ["thromboembolie-vorgeschichte", "lupus"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Andere Antikoagulanzien (z. B. Heparine, Fondaparinux, Phenprocoumon, Rivaroxaban, Apixaban), ausser bei Umstellung oder Heparin zum Offenhalten von Kathetern", "ref": ["gruppe:antikoagulanzien"], "grund": "Zusätzliche Gerinnungshemmung – stark erhöhtes Risiko schwerer Blutungen." },
+    { "text": "Starke P-Glykoprotein-Hemmer: Ketoconazol (systemisch), Itraconazol, Ciclosporin, Dronedaron", "ref": ["ketoconazol", "itraconazol", "ciclosporin", "dronedaron"], "grund": "Hemmen den Transport von Dabigatran aus dem Körper – Spiegel steigt stark an, Gefahr schwerer Blutungen." },
+    { "text": "Glecaprevir/Pibrentasvir (Hepatitis-C-Therapie)", "ref": ["glecaprevir-pibrentasvir"], "grund": "P-gp-Hemmung – Dabigatran-Spiegel steigt deutlich, erhöhtes Blutungsrisiko." }
+  ],
+  "interaktionen": [
+    { "text": "P-Glykoprotein-Hemmer wie Verapamil, Amiodaron, Chinidin, Clarithromycin, Ticagrelor, Posaconazol", "ref": ["verapamil", "amiodaron", "clarithromycin", "ticagrelor", "posaconazol", "gruppe:p-gp-hemmer"], "effekt": "Dabigatran-Spiegel steigt – bei Verapamil Dosisreduktion; eng auf Blutungszeichen achten.", "schwere": "schwer" },
+    { "text": "P-Glykoprotein-Induktoren (z. B. Rifampicin, Johanniskraut, Carbamazepin, Phenytoin)", "ref": ["gruppe:p-gp-induktoren"], "effekt": "Dabigatran-Spiegel sinkt stark – Gefahr von Schlaganfall und Thrombose; Kombination meiden.", "schwere": "schwer" },
+    { "text": "HIV-Proteasehemmer (z. B. Ritonavir) und Tacrolimus", "ref": ["gruppe:hiv-proteasehemmer", "tacrolimus"], "effekt": "Unvorhersehbare Veränderung der Dabigatran-Spiegel – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor, Prasugrel)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur nach strenger ärztlicher Abwägung.", "schwere": "schwer" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders bei Dauereinnahme – möglichst meiden.", "schwere": "schwer" },
+    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
+    { "text": "Protonenpumpenhemmer (z. B. Pantoprazol)", "ref": ["gruppe:protonenpumpenhemmer"], "effekt": "Dabigatran-Spiegel sinkt leicht; klinisch nicht bedeutsam.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Anämie (Blutarmut)", "Nasenbluten", "Magen-Darm-Blutungen", "Bauchschmerzen, Durchfall, Verdauungsbeschwerden, Übelkeit", "Hautblutungen", "Blutungen der Harn- und Geschlechtsorgane, Blut im Urin"],
+    "gelegentlich": ["Hirnblutung", "Thrombozytopenie (verminderte Blutplättchen)", "Überempfindlichkeit, Hautausschlag, Juckreiz", "Blutergüsse (Hämatome), Bluthusten", "Magen-Darm-Geschwüre, Entzündung der Speiseröhre, Reflux, Schluckbeschwerden, Erbrechen", "Blutungen aus Enddarm und Hämorrhoiden", "Leberfunktionsstörung, erhöhte Leberwerte"],
+    "selten": ["Anaphylaktische Reaktion, Angioödem, Nesselsucht", "Gelenkblutungen", "Blutungen an Einstich-, Katheter- und Wundstellen"],
+    "unbekannt": ["Agranulozytose, Neutropenie (Mangel an weissen Blutkörperchen)", "Bronchospasmus", "Haarausfall"]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn eindeutig erforderlich. Frauen im gebärfähigen Alter sollen während der Behandlung eine Schwangerschaft vermeiden.",
+  "stillzeit": "Keine Daten beim Menschen – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kapseln ganz mit Wasser schlucken, nicht öffnen oder zerkauen – der Inhalt wird sonst viel stärker aufgenommen (Blutungsgefahr).",
+    "Kapseln in der Originalverpackung (Blister) lassen und vor Feuchtigkeit schützen.",
+    "Nierenfunktion vor Beginn und regelmässig kontrollieren lassen, bei älteren Menschen mindestens jährlich.",
+    "Nicht eigenmächtig absetzen; vor Operationen, Zahnbehandlungen und neuen Medikamenten Arzt oder Apotheke informieren."
+  ],
+  "stand": "2026-10"
+}

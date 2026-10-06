@@ -1,0 +1,221 @@
+{
+  "id": "acetazolamid",
+  "name": "Acetazolamid",
+  "synonyme": [
+    "Acetazolamide"
+  ],
+  "atc": [
+    "S01EC01"
+  ],
+  "klasse": "Carboanhydrasehemmer (systemisch, Sulfonamid-Derivat)",
+  "kurz": "Tabletten, die durch Hemmung der Carboanhydrase die Kammerwasserbildung drosseln und so den Augeninnendruck beim Glaukom senken.",
+  "gruppen": [
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Glaupax"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Glaukom (grüner Star): Offenwinkelglaukom und sekundäres Glaukom sowie Drucksenkung vor einer Operation beim akuten Engwinkelglaukom",
+      "ids": [
+        "glaukom",
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Augeninnendruck, indem weniger Kammerwasser gebildet wird. Acetazolamid hemmt das Enzym Carboanhydrase, das im Ziliarkörper des Auges für die Bildung von Bicarbonat und damit von Kammerwasser nötig ist. In der Niere führt dieselbe Hemmung zu einer vermehrten Ausscheidung von Bicarbonat, Natrium, Kalium und Wasser. Daraus ergeben sich eine leichte harntreibende Wirkung und eine metabolische Azidose (Übersäuerung des Blutes).",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Erniedrigter Natrium- oder Kaliumspiegel im Blut, hyperchlorämische Azidose",
+      "ids": [
+        "hyponatriaemie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Leberfunktionsstörung, Leberzirrhose (Gefahr einer hepatischen Enzephalopathie)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Nebennierenrinden-Insuffizienz (Morbus Addison)",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung des chronischen Engwinkelglaukoms (kann eine Verschlechterung verdecken)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nierensteine in der Vorgeschichte",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: Blutzucker kann steigen oder sinken",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen mit eingeschränkter Atmung, z. B. schwere COPD (Gefahr einer verstärkten Azidose)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und eingeschränkte Nierenfunktion (Dosis anpassen)",
+      "ids": [
+        "aeltere-patienten",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) und Blutbildstörungen möglich – bei Ausschlag, Fieber oder Halsschmerzen sofort ärztlich melden",
+      "ids": [
+        "schwere-hautreaktion",
+        "knochenmarkschaedigung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Acetylsalicylsäure in hoher Dosis und andere Salicylate",
+      "ref": [
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Schwere metabolische Azidose und Salicylat-Vergiftung mit Störungen des Nervensystems möglich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Carboanhydrasehemmer, auch als Augentropfen (Dorzolamid, Brinzolamid)",
+      "ref": [
+        "dorzolamid",
+        "brinzolamid"
+      ],
+      "effekt": "Additive Wirkung auf den Säure-Basen-Haushalt – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko einer Digitalis-Vergiftung – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Kortison)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Vermehrte Lithiumausscheidung mit möglicher Wirkungsabschwächung – Lithiumspiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiepileptika (z. B. Phenytoin, Carbamazepin, Primidon)",
+      "ref": [
+        "phenytoin",
+        "carbamazepin",
+        "primidon"
+      ],
+      "effekt": "Spiegelveränderungen der Antiepileptika und erhöhtes Risiko für Knochenerweichung (Osteomalazie).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Topiramat und Zonisamid",
+      "ref": [
+        "topiramat",
+        "zonisamid"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierensteine und metabolische Azidose.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Folsäure-Antagonisten (z. B. Methotrexat, Trimethoprim)",
+      "ref": [
+        "gruppe:folsaeureantagonisten"
+      ],
+      "effekt": "Wirkung der Folsäure-Antagonisten kann verstärkt werden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:insuline",
+        "metformin"
+      ],
+      "effekt": "Blutzucker kann steigen oder sinken – Werte kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Natriumhydrogencarbonat",
+      "ref": [
+        "natriumhydrogencarbonat"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierensteine.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Kribbeln oder Taubheitsgefühl in Händen, Füssen und um den Mund (Parästhesien)",
+      "Geschmacksstörungen, Appetitlosigkeit, Übelkeit, Erbrechen, Durchfall",
+      "Vermehrtes Wasserlassen, Nierensteine",
+      "Müdigkeit, Schläfrigkeit, Verwirrtheit, Depression, Reizbarkeit",
+      "Metabolische Azidose, Kalium- und Natriummangel",
+      "Vorübergehende Kurzsichtigkeit",
+      "Blutbildstörungen (Agranulozytose, Thrombozytopenie, aplastische Anämie)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse), Lichtempfindlichkeit"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend. Nicht anwenden, besonders im ersten Schwangerschaftsdrittel, ausser bei zwingender ärztlicher Notwendigkeit.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Reichlich trinken, um Nierensteinen vorzubeugen.",
+    "Bei längerer Einnahme Blutbild und Elektrolyte (Kalium, Natrium) regelmässig kontrollieren lassen.",
+    "Kann Müdigkeit, Schwindel und vorübergehende Kurzsichtigkeit verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

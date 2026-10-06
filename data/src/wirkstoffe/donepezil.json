@@ -1,0 +1,222 @@
+{
+  "id": "donepezil",
+  "name": "Donepezil",
+  "synonyme": [
+    "Donepezil hydrochloride"
+  ],
+  "atc": [
+    "N06DA02"
+  ],
+  "klasse": "Acetylcholinesterase-Hemmer (Antidementivum)",
+  "kurz": "Mittel gegen Alzheimer-Demenz, das den Abbau des Botenstoffs Acetylcholin hemmt; lindert die Symptome vorübergehend.",
+  "gruppen": [
+    "acetylcholinesterasehemmer",
+    "bradykardisierend",
+    "qt-verlaengernd",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Aricept",
+    "Aricept Evess",
+    "Donepezil Mepha",
+    "Donepezil Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Leichte bis mittelschwere Alzheimer-Demenz (symptomatische Behandlung)",
+      "ids": [
+        "demenz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert bei Alzheimer-Demenz vorübergehend Gedächtnis und Alltagsfähigkeiten, indem es den Abbau des Botenstoffs Acetylcholin im Gehirn bremst. Donepezil hemmt spezifisch und reversibel die Acetylcholinesterase und erhöht so die Acetylcholin-Konzentration an den Synapsen der noch funktionierenden Nervenzellen. Den Verlauf der Erkrankung hält es nicht auf. Es wird über CYP3A4 und CYP2D6 abgebaut und hat eine sehr lange Halbwertszeit (etwa 70 Stunden).",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Piperidinderivate",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Langsamer Puls, Sinusknotensyndrom oder Reizleitungsstörungen (AV-Block)",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Herzrhythmusstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre in der Vorgeschichte, Einnahme von NSAR",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Asthma oder COPD",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Behinderter Harnabfluss",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Geplante Narkose (verstärkte Wirkung von Succinylcholin)",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker und andere pulsverlangsamende Mittel (z. B. Digoxin, Verapamil, Diltiazem, Amiodaron)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:betablocker",
+        "gruppe:herzglykoside",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung, Reizleitungsstörungen und Ohnmacht möglich – Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, bestimmte Antipsychotika, Citalopram, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – EKG-Kontrolle erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Oxybutynin, Tolterodin, Biperiden, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung; anticholinerge Mittel können zudem die Verwirrtheit verstärken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- oder CYP2D6-Hemmer (z. B. Ketoconazol, Itraconazol, Erythromycin, Fluoxetin, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Donepezil-Spiegel steigt – auf Nebenwirkungen wie Übelkeit und langsamen Puls achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Donepezil-Spiegel kann sinken – Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Succinylcholin (Muskelrelaxans bei Narkose)",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Verstärkte und verlängerte Muskelerschlaffung – Narkoseteam informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cholinerge Mittel und andere Cholinesterase-Hemmer (z. B. Bethanechol)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer",
+        "bethanechol"
+      ],
+      "effekt": "Verstärkte cholinerge Nebenwirkungen (Übelkeit, Durchfall, langsamer Puls).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall",
+      "Übelkeit",
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Erbrechen, Bauchbeschwerden",
+      "Halluzinationen, Unruhe, Aggressivität, abnorme Träume",
+      "Schwindel, Schlaflosigkeit, Ohnmacht (Synkope)",
+      "Muskelkrämpfe",
+      "Harninkontinenz",
+      "Müdigkeit, Schmerzen, Stürze",
+      "Hautausschlag, Juckreiz, Erkältung"
+    ],
+    "gelegentlich": [
+      "Bradykardie (langsamer Puls)",
+      "Krampfanfälle",
+      "Magen-Darm-Blutungen, Magen- und Zwölffingerdarmgeschwüre",
+      "Vermehrter Speichelfluss",
+      "Leichter Anstieg der Kreatinkinase (CK)"
+    ],
+    "selten": [
+      "Sinuatrialer Block, AV-Block (Reizleitungsstörungen)",
+      "Extrapyramidale Symptome (Bewegungsstörungen)",
+      "Leberfunktionsstörungen, Hepatitis"
+    ],
+    "sehrSelten": [
+      "Malignes neuroleptisches Syndrom",
+      "Rhabdomyolyse (Muskelzerfall)"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes",
+      "Pisa-Syndrom (seitliche Rumpfneigung)",
+      "Gesteigerte Libido, Hypersexualität"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nur anwenden, wenn eindeutig erforderlich.",
+  "stillzeit": "Nicht bekannt, ob Donepezil in die Muttermilch übergeht; nicht stillen.",
+  "hinweise": [
+    "Abends vor dem Schlafengehen einnehmen; Schmelztabletten auf der Zunge zergehen lassen.",
+    "Vor einer Narkose die Einnahme angeben.",
+    "Bei Schwindel, Ohnmacht oder sehr langsamem Puls ärztlich abklären lassen.",
+    "Die Fahrtüchtigkeit kann durch die Demenz und durch Nebenwirkungen eingeschränkt sein."
+  ],
+  "stand": "2026-10"
+}

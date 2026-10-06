@@ -1,0 +1,48 @@
+{
+  "id": "natriumchlorid",
+  "name": "Natriumchlorid",
+  "synonyme": ["NaCl", "Kochsalz", "Kochsalzlösung", "Physiologische Kochsalzlösung", "Sodium chloride", "NaCl 0,9 %"],
+  "atc": ["B05BB01", "B05XA03"],
+  "klasse": "Elektrolyt-Infusionslösung (isotonisch 0,9 %) und Elektrolytkonzentrat",
+  "kurz": "Kochsalzlösung zur Infusion: ersetzt Flüssigkeit und Salz, dient als Trägerlösung; als Konzentrat zum Ausgleich von Natriummangel.",
+  "gruppen": [],
+  "handelsnamen": ["Natriumchlorid Bichsel", "NaCl 0,9% B. Braun", "NaCl 0,9% Fresenius"],
+  "abgabe": ["B"],
+  "darreichung": ["Infusionslösung 0,9 % (isotonisch)", "Konzentrat zur Herstellung einer Infusionslösung (z. B. 11,7 %)", "Lösung zum Spülen und Verdünnen"],
+  "indikationen": [
+    { "text": "Ersatz von Flüssigkeit und Kochsalz bei Flüssigkeitsverlust (isotone oder hypotone Dehydratation), z. B. durch Erbrechen, Durchfall, Blutverlust oder Schwitzen", "ids": ["dehydratation", "durchfall", "uebelkeit"] },
+    { "text": "Kurzfristiger Volumenersatz bei Kreislaufschwäche oder Schock", "ids": ["schock", "hypotonie"] },
+    { "text": "Natrium- und Chloridmangel (Konzentrat als Zusatz zu Infusionslösungen), hypochlorämische Alkalose", "ids": ["hyponatriaemie"] },
+    { "text": "Träger- und Verdünnungslösung für Arzneimittel, Spüllösung" }
+  ],
+  "wirkmechanismus": "Ersetzt Wasser und Salz im Raum ausserhalb der Zellen. Natrium und Chlorid sind die wichtigsten Elektrolyte der Körperflüssigkeit ausserhalb der Zellen und bestimmen deren Volumen. Die 0,9 %-Lösung hat etwa die gleiche Teilchenkonzentration wie Blut (isotonisch) und verteilt sich im ganzen Extrazellulärraum, sodass nur etwa ein Viertel in den Blutgefässen bleibt. Weil sie mehr Chlorid enthält als das Blutplasma, kann sie in grossen Mengen eine Übersäuerung (hyperchlorämische Azidose) verursachen. Konzentrierte Lösungen heben den Natriumspiegel gezielt an.",
+  "kontraindikationen": [
+    { "text": "Hypernatriämie (zu hohes Natrium) und Hyperchlorämie (zu hohes Chlorid)" },
+    { "text": "Überwässerung (Hyperhydratation)", "ids": ["oedeme"] }
+  ],
+  "vorsicht": [
+    { "text": "Herzschwäche, Lungenödem, Bluthochdruck, Ödeme und Präeklampsie (Gefahr der Natrium- und Wasserüberladung)", "ids": ["herzinsuffizienz", "hypertonie", "oedeme", "schwangerschaft"] },
+    { "text": "Schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
+    { "text": "Leberzirrhose und Zustände mit Natriumrückhaltung (z. B. Hyperaldosteronismus, Kortisontherapie)", "ids": ["leberzirrhose"] },
+    { "text": "Chronische Hyponatriämie: nicht zu rasch ausgleichen – Gefahr einer bleibenden Hirnschädigung (osmotisches Demyelinisierungssyndrom)", "ids": ["hyponatriaemie"] },
+    { "text": "Grosse Infusionsmengen: Gefahr der hyperchlorämischen Azidose (Übersäuerung)", "ids": [] },
+    { "text": "Ältere Menschen und Kinder: Flüssigkeitszufuhr genau anpassen", "ids": ["aeltere-patienten", "kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Natrium beschleunigt die Lithiumausscheidung über die Niere – der Lithiumspiegel kann sinken; Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Systemische Glukokortikoide und Fludrocortison", "ref": ["gruppe:glukokortikoide-systemisch", "fludrocortison"], "effekt": "Verstärkte Natrium- und Wasserrückhaltung – Ödeme und Blutdruckanstieg möglich.", "schwere": "mittel" },
+    { "text": "NSAR", "ref": ["gruppe:nsar"], "effekt": "Ebenfalls Natrium- und Wasserrückhaltung; bei Herzschwäche oder Niereninsuffizienz Flüssigkeitsbilanz beachten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": ["Hypernatriämie (zu hohes Natrium) mit Durst, Unruhe, Verwirrtheit", "Hyperchlorämische metabolische Azidose (Übersäuerung) bei grossen Mengen", "Überwässerung, Ödeme, Lungenödem, Blutdruckanstieg", "Osmotisches Demyelinisierungssyndrom bei zu raschem Ausgleich eines Natriummangels", "Reaktionen an der Infusionsstelle (Venenreizung, Venenentzündung, Paravasat)", "Fieber, Infektion an der Einstichstelle"]
+  },
+  "schwangerschaft": "Kann angewendet werden; Vorsicht bei Präeklampsie.",
+  "stillzeit": "Kann angewendet werden.",
+  "hinweise": [
+    "Konzentrate (z. B. 11,7 %) nie unverdünnt infundieren – nur als Zusatz zu Infusionslösungen.",
+    "Bei Infusionen Elektrolyte, Säure-Basen-Haushalt und Flüssigkeitsbilanz kontrollieren lassen.",
+    "Einen chronischen Natriummangel nur langsam ausgleichen (Anstieg des Natriums höchstens etwa 8–10 mmol/l in 24 Stunden)."
+  ],
+  "stand": "2026-10"
+}

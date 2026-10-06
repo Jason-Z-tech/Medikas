@@ -1,0 +1,268 @@
+{
+  "id": "rabeprazol",
+  "name": "Rabeprazol",
+  "synonyme": [
+    "Rabeprazole",
+    "Rabeprazol-Natrium",
+    "Rabeprazolum natricum"
+  ],
+  "atc": [
+    "A02BC04"
+  ],
+  "klasse": "Protonenpumpenhemmer (PPI)",
+  "kurz": "Säureblocker (Protonenpumpenhemmer) bei Refluxkrankheit, Magen- und Zwölffingerdarmgeschwüren und zur Helicobacter-Behandlung.",
+  "gruppen": [
+    "protonenpumpenhemmer",
+    "magensaeure-reduzierend",
+    "hypomagnesiaemie-ausloesend",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Pariet"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Magensaftresistente Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Aktives Zwölffingerdarmgeschwür und gutartiges Magengeschwür",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Refluxkrankheit mit Entzündung der Speiseröhre (erosive Refluxösophagitis) sowie Langzeitbehandlung zur Rückfallvorbeugung",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Symptomatische Refluxkrankheit ohne Schleimhautschäden (Sodbrennen, saures Aufstossen)",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Zollinger-Ellison-Syndrom (krankhaft stark erhöhte Säurebildung)",
+      "ids": []
+    },
+    {
+      "text": "Beseitigung von Helicobacter pylori bei Magen- oder Zwölffingerdarmgeschwüren, in Kombination mit Antibiotika",
+      "ids": [
+        "helicobacter",
+        "magen-darm-ulkus"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt die Bildung von Magensäure stark und anhaltend. Rabeprazol ist eine Vorstufe (Prodrug), die sich in den sauren Kanälchen der Belegzellen anreichert und dort in die aktive Sulfenamid-Form umgewandelt wird. Diese bindet fest an die H+/K+-ATPase (Protonenpumpe) und blockiert so den letzten Schritt der Säurebildung, unabhängig vom auslösenden Reiz. Die Wirkung hält an, bis neue Pumpen gebildet sind; abgebaut wird Rabeprazol überwiegend nicht-enzymatisch und nur zum Teil über CYP2C19 und CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Protonenpumpenhemmer (substituierte Benzimidazole)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Vor der Behandlung eine bösartige Erkrankung von Magen oder Speiseröhre ausschliessen (Symptome können verschleiert werden)",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (wenig Erfahrung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Risiko für Magnesium- und Vitamin-B12-Mangel sowie Knochenbrüche (Hüfte, Handgelenk, Wirbelsäule), besonders bei Osteoporose",
+      "ids": [
+        "magnesiummangel",
+        "vitamin-b12-mangel",
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Darminfektionen, z. B. mit Clostridioides difficile",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Subakuter kutaner Lupus erythematodes unter einem Protonenpumpenhemmer in der Vorgeschichte",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nicht empfohlen (keine ausreichenden Daten)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Vor einer Messung von Chromogranin A (Tumormarker) die Behandlung vorübergehend absetzen (falsch erhöhte Werte)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Rilpivirin, auch in Kombinationspräparaten",
+      "ref": [
+        "rilpivirin",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "dolutegravir-rilpivirin"
+      ],
+      "grund": "Die starke Säurehemmung vermindert die Aufnahme von Rilpivirin deutlich – Gefahr von Wirkverlust und HIV-Resistenzen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Atazanavir und Nelfinavir (HIV-Mittel)",
+      "ref": [
+        "atazanavir"
+      ],
+      "effekt": "Deutlich verminderte Aufnahme des HIV-Mittels – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat in hoher Dosis",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Verzögerte Ausscheidung und erhöhte Toxizität von Methotrexat – Protonenpumpenhemmer vorübergehend absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ketoconazol, Itraconazol und Posaconazol",
+      "ref": [
+        "ketoconazol",
+        "itraconazol",
+        "posaconazol"
+      ],
+      "effekt": "Verminderte Aufnahme des Pilzmittels – Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krebsmittel mit säureabhängiger Aufnahme (z. B. Dasatinib, Erlotinib, Gefitinib, Pazopanib)",
+      "ref": [
+        "dasatinib",
+        "erlotinib",
+        "gefitinib",
+        "pazopanib"
+      ],
+      "effekt": "Verminderte Aufnahme des Krebsmittels – Kombination möglichst meiden; Fachinformation des Krebsmittels beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hepatitis-C-Mittel mit Ledipasvir oder Velpatasvir",
+      "ref": [
+        "ledipasvir-sofosbuvir",
+        "sofosbuvir-velpatasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "effekt": "Verminderte Aufnahme – Kombination nicht empfohlen oder nur nach den Vorgaben der Fachinformation des Hepatitis-Mittels.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Etwas höhere Digoxin-Aufnahme; ein Magnesiummangel verstärkt zudem die Digitalis-Empfindlichkeit – Spiegel und Magnesium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika und andere Mittel, die Magnesium senken",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Erhöhtes Risiko für Magnesiummangel – Magnesium im Blut kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mycophenolat-Mofetil",
+      "ref": [
+        "mycophenolat-mofetil"
+      ],
+      "effekt": "Geringere Aufnahme von Mycophenolsäure möglich – Wirkung überwachen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Eisenpräparate zum Einnehmen",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Weniger Magensäure kann die Eisenaufnahme vermindern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Schlaflosigkeit",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Verstopfung, Blähungen",
+      "Gutartige Magenpolypen (Drüsenkörperzysten)",
+      "Infektionen, Husten, Rachen- und Nasenschleimhautentzündung",
+      "Rücken- und andere Schmerzen, Schwäche, grippeähnliche Beschwerden"
+    ],
+    "gelegentlich": [
+      "Nervosität, Schläfrigkeit",
+      "Dyspepsie (Verdauungsbeschwerden), Mundtrockenheit, Aufstossen",
+      "Hautausschlag, Hautrötung",
+      "Muskel- und Gelenkschmerzen, Beinkrämpfe",
+      "Knochenbrüche (Hüfte, Handgelenk, Wirbelsäule)",
+      "Harnwegsinfekt",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Blutbildveränderungen (Neutropenie, Leukopenie, Thrombozytopenie)",
+      "Überempfindlichkeitsreaktionen",
+      "Depression",
+      "Sehstörungen",
+      "Geschmacksstörungen, Mundschleimhautentzündung",
+      "Leberentzündung, Gelbsucht, hepatische Enzephalopathie bei Leberzirrhose",
+      "Interstitielle Nephritis (Nierenentzündung)",
+      "Juckreiz, Schwitzen, blasenbildende Hautreaktionen"
+    ],
+    "sehrSelten": [
+      "Erythema multiforme, Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautreaktionen)"
+    ],
+    "unbekannt": [
+      "Hyponatriämie (Natriummangel)",
+      "Hypomagnesiämie (Magnesiummangel), dadurch auch Kalium- oder Calciummangel",
+      "Verwirrtheit",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Gynäkomastie (Brustvergrösserung beim Mann)",
+      "Subakuter kutaner Lupus erythematodes"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, da keine ausreichenden Erfahrungen vorliegen.",
+  "stillzeit": "Kontraindiziert; ob Rabeprazol in die Muttermilch übergeht, ist nicht bekannt.",
+  "hinweise": [
+    "Tabletten ganz schlucken, nicht zerkauen oder zerbrechen; bei einmal täglicher Einnahme morgens vor dem Frühstück.",
+    "Eine Langzeitbehandlung regelmässig ärztlich überprüfen lassen (Magnesium, Vitamin B12).",
+    "Nach längerer Einnahme nicht abrupt absetzen – vorübergehend verstärkte Säurebildung (Rebound) möglich."
+  ],
+  "stand": "2026-10"
+}

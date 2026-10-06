@@ -1,0 +1,264 @@
+{
+  "id": "levodopa-carbidopa",
+  "name": "Levodopa + Carbidopa",
+  "synonyme": [
+    "L-Dopa + Carbidopa",
+    "Carbidopa/Levodopa",
+    "Co-careldopa"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N04BA02"
+  ],
+  "klasse": "Parkinsonmittel: Dopamin-Vorstufe (Levodopa) + peripherer Decarboxylasehemmer (Carbidopa)",
+  "kurz": "Wichtigstes Parkinsonmittel: ersetzt den fehlenden Botenstoff Dopamin im Gehirn und bessert Bewegungsarmut, Steifigkeit und Zittern.",
+  "gruppen": [
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Sinemet",
+    "Sinemet CR",
+    "Duodopa"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten",
+    "Gel zur Dauergabe in den Dünndarm (über Sonde und Pumpe)"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Krankheit und Parkinson-Syndrome (ausser durch Medikamente ausgelöste)",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene Parkinson-Krankheit mit starken Wirkungsschwankungen und Überbewegungen, wenn Tabletten nicht mehr ausreichen (Duodopa, Dauergabe über eine Dünndarmsonde)",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt den bei Parkinson fehlenden Botenstoff Dopamin im Gehirn. Levodopa ist eine Vorstufe von Dopamin, die – anders als Dopamin selbst – die Blut-Hirn-Schranke überwindet und im Gehirn durch die Dopa-Decarboxylase zu Dopamin umgewandelt wird. Carbidopa hemmt dieses Enzym ausserhalb des Gehirns, gelangt selbst aber nicht ins Gehirn. Dadurch erreicht mehr Levodopa das Gehirn, die nötige Dosis sinkt und Nebenwirkungen wie Übelkeit und Kreislaufbeschwerden werden geringer.",
+  "kontraindikationen": [
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Verdächtige, nicht abgeklärte Hautveränderungen oder schwarzer Hautkrebs (Melanom) in der Vorgeschichte",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Duodopa: schwere Herzinsuffizienz, schwere Herzrhythmusstörungen, akuter Schlaganfall",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Duodopa: Zustände, bei denen anregende (adrenerge) Mittel nicht gegeben werden dürfen, z. B. Phäochromozytom, Schilddrüsenüberfunktion, Cushing-Syndrom",
+      "ids": [
+        "phaeochromozytom",
+        "hyperthyreose",
+        "cushing-syndrom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Herz-Kreislauf-Erkrankungen, v. a. Herzinfarkt mit Rhythmusstörungen in der Vorgeschichte (Herzüberwachung zu Behandlungsbeginn)",
+      "ids": [
+        "herzinfarkt",
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Psychosen, Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "schizophrenie",
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte (Blutungsgefahr)",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Chronisches Weitwinkelglaukom: Augendruck regelmässig kontrollieren",
+      "ids": [
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Schwere Lungen-, Leber-, Nieren- oder Hormonerkrankungen",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Tagesschläfrigkeit und plötzliche Einschlafattacken",
+      "ids": [
+        "narkolepsie",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen wie Spielsucht, Kaufsucht, Essattacken oder gesteigertes sexuelles Verlangen",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "ids": [
+        "hypotonie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nicht-selektive MAO-Hemmer (z. B. Tranylcypromin); bei Duodopa auch selektive MAO-A-Hemmer (Moclobemid)",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid"
+      ],
+      "grund": "Gefahr schwerer Blutdruckkrisen; MAO-Hemmer müssen mindestens 2 Wochen vor Behandlungsbeginn abgesetzt werden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Antipsychotika und andere Dopamin-Antagonisten (z. B. Haloperidol, Risperidon, Metoclopramid)",
+      "ref": [
+        "gruppe:antipsychotika",
+        "gruppe:dopaminantagonisten"
+      ],
+      "effekt": "Heben die Wirkung von Levodopa auf, die Parkinson-Beschwerden verschlechtern sich – möglichst vermeiden und ärztlich abklären.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, v. a. beim Aufstehen – Dosis der Blutdrucksenker ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-B-Hemmer (Selegilin, Rasagilin, Safinamid)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Verstärkte Levodopa-Wirkung mit mehr Überbewegungen und Blutdruckabfall beim Aufstehen; die Kombination ist üblich, die Levodopa-Dosis muss evtl. gesenkt werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "COMT-Hemmer (Entacapon, Opicapon, Tolcapon)",
+      "ref": [
+        "entacapon",
+        "opicapon",
+        "tolcapon"
+      ],
+      "effekt": "Verlängern und verstärken die Levodopa-Wirkung – Überbewegungen möglich, Levodopa-Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dopaminagonisten und Amantadin",
+      "ref": [
+        "gruppe:dopaminagonisten",
+        "amantadin"
+      ],
+      "effekt": "Additive Wirkung: mehr Überbewegungen, Halluzinationen und Verwirrtheit möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Eisenpräparate",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Verminderte Aufnahme von Levodopa – zeitlichen Abstand von 2–3 Stunden einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Eiweissreiche Mahlzeiten",
+      "ref": [],
+      "effekt": "Eiweissbausteine konkurrieren mit Levodopa um die Aufnahme in Darm und Gehirn – die Wirkung kann schwächer und unregelmässig werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Selten Blutdruckanstieg und Überbewegungen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Phenytoin, Papaverin, Isoniazid",
+      "ref": [
+        "phenytoin",
+        "isoniazid"
+      ],
+      "effekt": "Können die Wirkung von Levodopa abschwächen – auf Verschlechterung der Parkinson-Beschwerden achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Dyskinesien (unwillkürliche Überbewegungen)",
+      "Übelkeit",
+      "Duodopa: Bauchschmerzen und Komplikationen durch Sonde und Eingriff (z. B. Wundinfektion)"
+    ],
+    "haeufig": [
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen), Schwindel",
+      "Halluzinationen, Verwirrtheit, abnorme Träume",
+      "Schlaflosigkeit, Schläfrigkeit, plötzliches Einschlafen",
+      "Depression, Angst",
+      "Erbrechen, Verstopfung, Mundtrockenheit",
+      "Appetitlosigkeit, Gewichtsabnahme",
+      "Wirkungsschwankungen (On-off-Phänomene)",
+      "Duodopa: Polyneuropathie (Nervenschädigung), Vitamin-B6- und -B12-Mangel"
+    ],
+    "gelegentlich": [
+      "Herzklopfen, unregelmässiger Herzschlag",
+      "Dunkelfärbung von Urin, Schweiss oder Speichel (harmlos)",
+      "Verminderung der weissen Blutkörperchen oder der Blutplättchen",
+      "Krampfanfälle",
+      "Verschwommenes Sehen",
+      "Priapismus (schmerzhafte Dauererektion)"
+    ],
+    "selten": [
+      "Agranulozytose (starker Mangel an weissen Blutkörperchen)",
+      "Angioödem, Nesselsucht"
+    ],
+    "unbekannt": [
+      "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigertes sexuelles Verlangen)",
+      "Dopamin-Dysregulationssyndrom (zwanghafte Übereinnahme)",
+      "Malignes Melanom (schwarzer Hautkrebs)",
+      "Hämolytische Anämie (Blutzerfall)",
+      "Lebensbedrohliches Fieber mit Muskelsteife und Bewusstseinsstörung bei abruptem Absetzen (ähnlich dem malignen neuroleptischen Syndrom)"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen beim Menschen sind begrenzt; im Tierversuch traten Fehlbildungen auf. Nur anwenden, wenn der Nutzen das Risiko für das Kind klar überwiegt.",
+  "stillzeit": "Levodopa geht in die Muttermilch über und kann die Milchbildung hemmen. Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Nicht abrupt absetzen oder stark reduzieren: Gefahr eines lebensbedrohlichen Zustands mit Fieber, Muskelsteife und Bewusstseinsstörung.",
+    "Möglichst zu regelmässigen Zeiten einnehmen; eiweissreiche Mahlzeiten können die Wirkung abschwächen. Retardtabletten nicht zerkauen.",
+    "Bei Tagesschläfrigkeit oder plötzlichem Einschlafen nicht Auto fahren und keine Maschinen bedienen.",
+    "Angehörige sollten auf Spielsucht, Kaufsucht oder auffälliges Sexualverhalten achten und dies ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

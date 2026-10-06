@@ -1,0 +1,237 @@
+{
+  "id": "docetaxel",
+  "name": "Docetaxel",
+  "synonyme": [
+    "Docetaxel-Trihydrat"
+  ],
+  "atc": [
+    "L01CD02"
+  ],
+  "klasse": "Zytostatikum; Taxan (Mitosehemmer)",
+  "kurz": "Chemotherapie-Mittel aus der Gruppe der Taxane gegen Brust-, Lungen-, Prostata-, Magen- sowie Kopf-Hals-Krebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "neuropathie-ausloesend",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Taxotere",
+    "Docetaxel Accord",
+    "Docetaxel Fresenius"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Brustkrebs: nach Operation (adjuvant, mit Doxorubicin und Cyclophosphamid) sowie bei fortgeschrittener oder metastasierter Erkrankung, allein oder kombiniert (z. B. mit Trastuzumab oder Capecitabin)",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener oder metastasierter nicht-kleinzelliger Lungenkrebs (NSCLC)",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Prostatakrebs, zusammen mit Prednison/Prednisolon bzw. einer Hormonentzugstherapie",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Magenkrebs (Adenokarzinom), mit Cisplatin und 5-Fluorouracil",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittene Plattenepithelkarzinome im Kopf-Hals-Bereich (Induktionschemotherapie)",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Zellteilung, indem es das Zellskelett der Krebszellen erstarren lässt. Docetaxel fördert den Zusammenbau von Tubulin zu Mikrotubuli und hemmt deren Abbau; mit den starren Mikrotubuli kann keine funktionsfähige Mitosespindel entstehen. Die Zellen werden in der Mitose blockiert und sterben ab. Docetaxel wird in der Leber hauptsächlich über CYP3A4 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Neutrophile Granulozyten unter 1500/mm³ vor Behandlungsbeginn",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leberfunktion (erhöhte Leberwerte oder Bilirubin): deutlich höheres Risiko schwerer Nebenwirkungen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Flüssigkeitseinlagerung (Ödeme, Pleuraerguss) – Vorbehandlung mit Kortikosteroid",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Schwere Überempfindlichkeitsreaktionen, besonders nach früherer Reaktion auf Paclitaxel",
+      "ids": [
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Herzschwäche, v. a. in Kombination mit Trastuzumab oder Anthrazyklinen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorbestehende Nervenschäden (periphere Neuropathie)",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Bauchschmerzen mit Fieber oder Durchfall bei Neutropenie (Gefahr einer schweren Darmentzündung)",
+      "ids": [
+        "durchfall",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (interstitielle Pneumonie)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Alkoholkrankheit, Epilepsie: die Infusionslösung enthält Ethanol",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "epilepsie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Stark erhöhte Docetaxel-Spiegel mit schweren Nebenwirkungen – Kombination vermeiden, sonst Dosis reduzieren und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Unter der Chemotherapie geschwächte Abwehr – Gefahr einer Impfinfektion; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Docetaxel-Spiegel möglich – Vorsicht, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Schnellerer Abbau – Wirkung kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anthrazykline und Trastuzumab",
+      "ref": [
+        "doxorubicin",
+        "epirubicin",
+        "trastuzumab"
+      ],
+      "effekt": "Höheres Risiko für Herzschwäche – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (Infusionslösung enthält Ethanol)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Beeinträchtigung der Reaktionsfähigkeit möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Anämie, febrile Neutropenie, Infektionen",
+      "Überempfindlichkeitsreaktionen",
+      "Periphere sensorische Neuropathie (Kribbeln, Taubheit), Geschmacksstörungen",
+      "Atemnot",
+      "Stomatitis, Durchfall, Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Haarausfall, Hautreaktionen, Nagelveränderungen",
+      "Flüssigkeitseinlagerung (Ödeme)",
+      "Muskelschmerzen, Schwäche (Asthenie), Schmerzen"
+    ],
+    "haeufig": [
+      "Thrombozytopenie, Blutungen",
+      "Motorische Neuropathie (Muskelschwäche)",
+      "Herzrhythmusstörungen",
+      "Blutdruckabfall oder -anstieg",
+      "Verstopfung, Bauchschmerzen, Magen-Darm-Blutungen",
+      "Gelenkschmerzen",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Reaktionen an der Infusionsstelle"
+    ],
+    "gelegentlich": [
+      "Herzschwäche",
+      "Ösophagitis (Speiseröhrenentzündung)"
+    ],
+    "unbekannt": [
+      "Interstitielle Lungenerkrankung, Pneumonitis, Lungenfibrose",
+      "Neutropenische Enterokolitis, ischämische Kolitis, Darmperforation",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Sklerodermie-artige Hautveränderungen",
+      "Zystoides Makulaödem (Sehstörung), vermehrter Tränenfluss",
+      "Hyponatriämie (Natriummangel)",
+      "Akute myeloische Leukämie, myelodysplastisches Syndrom (Zweiterkrankung)",
+      "Strahlen-Recall-Reaktionen",
+      "Tumorlyse-Syndrom"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; in der Schwangerschaft nur bei zwingender Indikation. Frauen und Männer müssen während und mehrere Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – Stillen während der Behandlung unterbrechen.",
+  "hinweise": [
+    "Vor jeder Infusion wird ein Kortikosteroid (z. B. Dexamethason) eingenommen, um Flüssigkeitseinlagerungen und Überempfindlichkeitsreaktionen zu vermindern.",
+    "Die Infusionslösung enthält Alkohol: nach der Infusion Fahrtüchtigkeit beachten.",
+    "Blutbild vor jedem Zyklus; bei Fieber, Bauchschmerzen oder Durchfall sofort ärztliche Hilfe holen.",
+    "Gewichtszunahme, Schwellungen oder Atemnot melden (Flüssigkeitseinlagerung)."
+  ],
+  "stand": "2026-10"
+}

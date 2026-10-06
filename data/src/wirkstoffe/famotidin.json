@@ -1,0 +1,230 @@
+{
+  "id": "famotidin",
+  "name": "Famotidin",
+  "synonyme": [
+    "Famotidine",
+    "Famotidinum"
+  ],
+  "atc": [
+    "A02BA03"
+  ],
+  "klasse": "H2-Rezeptorantagonist (H2-Blocker, Säurehemmer)",
+  "kurz": "Säurehemmer (H2-Blocker) bei Magen- und Zwölffingerdarmgeschwüren, Refluxkrankheit und Sodbrennen.",
+  "gruppen": [
+    "h2-blocker",
+    "magensaeure-reduzierend",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Pepcidine",
+    "Pepcid AC"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Zwölffingerdarmgeschwür und gutartiges Magengeschwür; Vorbeugung von Rückfällen beim Zwölffingerdarmgeschwür",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Refluxkrankheit mit Entzündung der Speiseröhre (Refluxösophagitis)",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Zollinger-Ellison-Syndrom (krankhaft stark erhöhte Säurebildung)",
+      "ids": []
+    },
+    {
+      "text": "Sodbrennen und saures Aufstossen (niedrig dosierte, rezeptfreie Tabletten)",
+      "ids": [
+        "sodbrennen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert die Bildung von Magensäure. Famotidin blockiert kompetitiv die Histamin-H2-Rezeptoren der säurebildenden Belegzellen der Magenschleimhaut und senkt so die basale sowie die durch Nahrung oder Histamin angeregte Säure- und Pepsinsekretion. Die Wirkung setzt nach etwa einer Stunde ein und hält 10–12 Stunden an. Anders als Cimetidin hemmt Famotidin die Cytochrom-P450-Enzyme praktisch nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere H2-Rezeptorantagonisten (Kreuzallergie möglich)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung nötig; erhöhtes Risiko für Verwirrtheit, Krampfanfälle und QT-Verlängerung",
+      "ids": [
+        "niereninsuffizienz",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Vor Behandlungsbeginn eine bösartige Erkrankung von Magen oder Speiseröhre ausschliessen (Säurehemmer können Symptome verschleiern)",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: häufiger Verwirrtheit, besonders bei eingeschränkter Nierenfunktion",
+      "ids": [
+        "aeltere-patienten",
+        "delir"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder: Sicherheit und Wirksamkeit nicht ausreichend belegt",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Selbstbehandlung von Sodbrennen: bei Schluckbeschwerden, ungewolltem Gewichtsverlust, Bluterbrechen, schwarzem Stuhl oder Beschwerden über 2 Wochen ärztlich abklären lassen",
+      "ids": [
+        "schluckstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Atazanavir (HIV-Mittel)",
+      "ref": [
+        "atazanavir"
+      ],
+      "effekt": "Weniger Magensäure vermindert die Aufnahme von Atazanavir – Wirkverlust möglich; nur mit genauem zeitlichem Abstand und Dosierung gemäss Fachinformation des HIV-Mittels kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rilpivirin (HIV-Mittel)",
+      "ref": [
+        "rilpivirin"
+      ],
+      "effekt": "Verminderte Aufnahme von Rilpivirin – H2-Blocker mindestens 12 Stunden vor oder 4 Stunden nach Rilpivirin einnehmen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ketoconazol, Itraconazol und Posaconazol-Suspension",
+      "ref": [
+        "ketoconazol",
+        "itraconazol",
+        "posaconazol"
+      ],
+      "effekt": "Verminderte Aufnahme des Pilzmittels – Wirkverlust möglich; Kombination meiden oder Wirkung bzw. Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krebsmittel mit säureabhängiger Aufnahme (z. B. Dasatinib, Erlotinib, Gefitinib, Pazopanib)",
+      "ref": [
+        "dasatinib",
+        "erlotinib",
+        "gefitinib",
+        "pazopanib"
+      ],
+      "effekt": "Verminderte Aufnahme des Krebsmittels – zeitlichen Abstand gemäss dessen Fachinformation einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hepatitis-C-Mittel mit Ledipasvir oder Velpatasvir",
+      "ref": [
+        "ledipasvir-sofosbuvir",
+        "sofosbuvir-velpatasvir"
+      ],
+      "effekt": "Verminderte Aufnahme – H2-Blocker gleichzeitig oder im Abstand von 12 Stunden und nur bis zur in der Fachinformation genannten Höchstdosis.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel (vor allem bei eingeschränkter Nierenfunktion)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung möglich – bei Risikopatienten EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Cephalosporine wie Cefpodoxim und Cefuroximaxetil",
+      "ref": [
+        "cefpodoxim",
+        "cefuroxim"
+      ],
+      "effekt": "Geringere Aufnahme des Antibiotikums – mit einer Mahlzeit einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Calciumcarbonat als Phosphatbinder bei Dialyse",
+      "ref": [
+        "gruppe:phosphatbinder"
+      ],
+      "effekt": "Calciumcarbonat bindet Phosphat bei verminderter Magensäure schlechter.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Antazida",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Können die Aufnahme von Famotidin leicht vermindern – 1–2 Stunden Abstand halten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Verzögerte Ausscheidung von Famotidin – Kombination möglichst meiden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Schwindel",
+      "Obstipation (Verstopfung)",
+      "Durchfall"
+    ],
+    "gelegentlich": [
+      "Mundtrockenheit",
+      "Übelkeit, Erbrechen",
+      "Bauchbeschwerden, Blähungen",
+      "Appetitlosigkeit",
+      "Müdigkeit",
+      "Hautausschlag, Juckreiz",
+      "Geschmacksstörungen"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen wie Anaphylaxie, Angioödem oder Bronchospasmus",
+      "Nesselsucht (Urtikaria)",
+      "Erhöhte Leberwerte, Gelbsucht durch Gallenstau",
+      "Gelenkschmerzen"
+    ],
+    "sehrSelten": [
+      "Blutbildveränderungen bis zur Agranulozytose oder Panzytopenie",
+      "Vorübergehende psychische Störungen wie Verwirrtheit, Halluzinationen, Unruhe, Depression",
+      "Krampfanfälle (vor allem bei eingeschränkter Nierenfunktion)",
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "QT-Verlängerung, AV-Block",
+      "Haarausfall",
+      "Impotenz, verminderte Libido"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn eindeutig notwendig und nach ärztlicher Abwägung.",
+  "stillzeit": "Famotidin geht in die Muttermilch über – entweder abstillen oder auf die Behandlung verzichten.",
+  "hinweise": [
+    "Unabhängig von den Mahlzeiten einnehmen; abends eingenommen wirkt es besonders gegen nächtliche Säure.",
+    "Bei eingeschränkter Nierenfunktion die Dosis ärztlich anpassen lassen.",
+    "Rezeptfreie Tabletten gegen Sodbrennen ohne ärztlichen Rat nicht länger als 2 Wochen einnehmen."
+  ],
+  "stand": "2026-10"
+}

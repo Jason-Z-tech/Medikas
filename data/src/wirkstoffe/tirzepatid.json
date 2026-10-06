@@ -1,0 +1,51 @@
+{
+  "id": "tirzepatid",
+  "name": "Tirzepatid",
+  "synonyme": ["Tirzepatide", "Tirzepatidum", "LY3298176"],
+  "atc": ["A10BX16"],
+  "klasse": "Dualer GIP- und GLP-1-Rezeptoragonist (Inkretinmimetikum)",
+  "kurz": "Wöchentliche Spritze gegen Typ-2-Diabetes und zur Gewichtsreduktion bei Adipositas; ahmt zwei Darmhormone nach, senkt Blutzucker und Appetit.",
+  "gruppen": ["glp1-agonisten"],
+  "handelsnamen": ["Mounjaro"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung im Fertigpen (zur Injektion unter die Haut)"],
+  "indikationen": [
+    { "text": "Typ-2-Diabetes zusätzlich zu Diät und Bewegung – allein, wenn Metformin nicht geeignet ist, oder kombiniert mit anderen Blutzuckersenkern", "ids": ["diabetes-typ-2"] },
+    { "text": "Gewichtsmanagement bei Erwachsenen mit Adipositas (BMI ab 30) oder Übergewicht (BMI ab 27) mit mindestens einer gewichtsbedingten Begleiterkrankung, zusätzlich zu kalorienreduzierter Ernährung und mehr Bewegung", "ids": ["adipositas"] }
+  ],
+  "wirkmechanismus": "Senkt Blutzucker und Körpergewicht, indem es die Wirkung zweier körpereigener Darmhormone nachahmt. Tirzepatid ist ein einmal wöchentlich gespritzter Agonist an den Rezeptoren für GIP (glukoseabhängiges insulinotropes Polypeptid) und GLP-1 (Glucagon-like Peptide-1). Es steigert blutzuckerabhängig die Insulinausschüttung, senkt den Glukagonspiegel, verzögert die Magenentleerung und vermindert über Signale im Gehirn Hunger und Nahrungsaufnahme. Weil die Insulinfreisetzung vom Blutzucker abhängt, ist das Unterzuckerungsrisiko ohne Insulin oder Sulfonylharnstoffe gering.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Bauchspeicheldrüsenentzündung (Pankreatitis) in der Vorgeschichte; bei anhaltenden starken Bauchschmerzen absetzen und nicht wieder beginnen, wenn sich die Pankreatitis bestätigt", "ids": ["pankreatitis"] },
+    { "text": "Schwere Magen-Darm-Erkrankungen, z. B. schwere Gastroparese (Magenlähmung) – nicht empfohlen", "ids": [] },
+    { "text": "Flüssigkeitsverlust durch Übelkeit, Erbrechen oder Durchfall: Gefahr eines akuten Nierenversagens, besonders bei eingeschränkter Nierenfunktion", "ids": ["dehydratation", "niereninsuffizienz"] },
+    { "text": "Gallensteine und Gallenblasenentzündung, besonders bei raschem Gewichtsverlust", "ids": ["gallensteine"] },
+    { "text": "Diabetische Netzhauterkrankung (Retinopathie): eine rasche Verbesserung des Blutzuckers kann sie vorübergehend verschlechtern – Augenkontrollen", "ids": ["diabetes"] },
+    { "text": "Narkose oder tiefe Sedierung: Gefahr, dass Mageninhalt in die Lunge gelangt (Aspiration) – Behandlung vor Eingriffen und Magenspiegelungen angeben", "ids": ["operation", "anaesthesie"] },
+    { "text": "Typ-1-Diabetes: kein Insulinersatz; nicht zur Behandlung einer diabetischen Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] },
+    { "text": "Medulläres Schilddrüsenkarzinom oder multiple endokrine Neoplasie Typ 2 in der eigenen oder familiären Vorgeschichte (Schilddrüsen-C-Zell-Tumoren bei Nagetieren; Bedeutung für den Menschen unklar)", "ids": ["kopf-hals-krebs"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Insulin und Sulfonylharnstoffe (z. B. Gliclazid, Glimepirid)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Erhöhtes Risiko für Unterzuckerung – Dosis von Insulin bzw. Sulfonylharnstoff gegebenenfalls reduzieren, Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Orale hormonale Verhütungsmittel (Pille)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Durch die verzögerte Magenentleerung kann die Pille schlechter aufgenommen werden – während 4 Wochen nach Beginn und nach jeder Dosissteigerung auf eine nicht-orale Methode wechseln oder zusätzlich ein Kondom verwenden.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Veränderte Aufnahme durch verzögerte Magenentleerung – INR bei Beginn und Dosisänderungen häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Andere GLP-1-Rezeptoragonisten (z. B. Semaglutid, Liraglutid, Dulaglutid)", "ref": ["gruppe:glp1-agonisten"], "effekt": "Gleicher Wirkmechanismus – nicht kombinieren (mehr Magen-Darm-Nebenwirkungen ohne Zusatznutzen).", "schwere": "mittel" },
+    { "text": "Orale Medikamente mit enger therapeutischer Breite oder rasch benötigter Wirkung", "ref": [], "effekt": "Aufnahme kann sich durch die verzögerte Magenentleerung verzögern – bei Beginn und Dosissteigerung auf Wirkung und Spiegel achten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Übelkeit", "Durchfall", "Erbrechen und Verstopfung (bei Behandlung des Übergewichts sehr häufig, bei Typ-2-Diabetes häufig)", "Hypoglykämie (Unterzuckerung) bei Kombination mit Insulin oder Sulfonylharnstoffen"],
+    "haeufig": ["Verminderter Appetit", "Bauchschmerzen, Verdauungsbeschwerden (Dyspepsie), Blähungen, Aufstossen, Sodbrennen (Reflux)", "Müdigkeit (Fatigue), Schwindel", "Reaktionen an der Einstichstelle (Rötung, Juckreiz)", "Haarausfall (vor allem bei Gewichtsbehandlung)", "Erhöhter Puls, tiefer Blutdruck", "Anstieg der Bauchspeicheldrüsen-Enzyme (Lipase, Amylase) im Blut", "Überempfindlichkeitsreaktionen"],
+    "gelegentlich": ["Gallensteine (Cholelithiasis), Gallenblasenentzündung (Cholezystitis)", "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "Geschmacksstörung", "Anstieg des Calcitonins im Blut"],
+    "unbekannt": ["Anaphylaxie und Angioödem (schwere allergische Reaktionen)", "Aspiration von Mageninhalt bei Narkose oder tiefer Sedierung"]
+  },
+  "schwangerschaft": "Nicht anwenden. Frauen im gebärfähigen Alter sollen sicher verhüten (siehe Pille); bei Kinderwunsch Tirzepatid wegen der langen Wirkdauer mindestens 1 Monat vor einer geplanten Schwangerschaft absetzen.",
+  "stillzeit": "Nicht empfohlen, da unbekannt ist, ob Tirzepatid in die Muttermilch übergeht; Entscheid nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal wöchentlich am gleichen Wochentag unter die Haut von Bauch, Oberschenkel oder Oberarm spritzen, unabhängig von den Mahlzeiten; Einstichstelle wechseln.",
+    "Eine vergessene Dosis innerhalb von 4 Tagen nachholen, sonst auslassen und zum gewohnten Termin weiterfahren.",
+    "Kleinere Mahlzeiten, langsames Essen und ausreichendes Trinken mildern Magen-Darm-Beschwerden; bei anhaltenden starken Bauchschmerzen sofort ärztlich abklären (Pankreatitis).",
+    "Vor Operationen, Narkosen und Magen-Darm-Spiegelungen die Behandlung angeben."
+  ],
+  "stand": "2026-10"
+}

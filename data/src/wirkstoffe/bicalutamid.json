@@ -1,0 +1,163 @@
+{
+  "id": "bicalutamid",
+  "name": "Bicalutamid",
+  "synonyme": [
+    "Bicalutamide",
+    "Bicalutamid"
+  ],
+  "atc": [
+    "L02BB03"
+  ],
+  "klasse": "Nichtsteroidales Antiandrogen",
+  "kurz": "Antihormon-Tablette gegen Prostatakrebs; blockiert die Wirkung des männlichen Hormons Testosteron am Tumor.",
+  "gruppen": [
+    "antiandrogene",
+    "qt-verlaengernd",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Casodex",
+    "Bicalutamid Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener Prostatakrebs, zusammen mit einer GnRH-Hormontherapie oder operativer Kastration (50 mg)",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittener Prostatakrebs mit hohem Rückfallrisiko, allein oder ergänzend zu Operation oder Bestrahlung (150 mg)",
+      "ids": [
+        "prostatakrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass männliche Hormone das Wachstum von Prostatakrebszellen anregen. Bicalutamid bindet kompetitiv an den Androgenrezeptor, ohne ihn zu aktivieren, und hemmt so die Wirkung von Testosteron und Dihydrotestosteron. Es wirkt peripher; der Testosteronspiegel kann bei alleiniger Gabe sogar leicht ansteigen. Wirksam ist hauptsächlich das R-Enantiomer, das sehr langsam abgebaut wird.",
+  "kontraindikationen": [
+    {
+      "text": "Anwendung bei Frauen und Kindern",
+      "ids": [
+        "kinder",
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz; Leberwerte regelmässig kontrollieren (schwere Leberschäden möglich)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, verlängerte QT-Zeit, Elektrolytstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann sich verschlechtern)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit (Sonnenschutz)",
+      "ids": [
+        "sonnenbrand"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Terfenadin, Astemizol oder Cisaprid (in der Schweiz nicht mehr im Handel)",
+      "ref": [],
+      "grund": "Bicalutamid hemmt CYP3A4 und kann deren Spiegel erhöhen – Gefahr schwerer Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel und Antiarrhythmika (z. B. Amiodaron, Sotalol, Methadon, Moxifloxacin)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – sorgfältig abwägen, EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Calciumantagonisten)",
+      "ref": [
+        "ciclosporin",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Spiegel können steigen – bei Beginn und Ende Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Bicalutamid-Spiegel kann steigen – Vorsicht.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hitzewallungen",
+      "Gynäkomastie und Brustspannen (v. a. bei 150 mg)",
+      "Bauchschmerzen, Verstopfung, Übelkeit",
+      "Anämie (Blutarmut)",
+      "Blut im Urin",
+      "Schwindel",
+      "Schwäche, Ödeme"
+    ],
+    "haeufig": [
+      "Erhöhte Leberwerte",
+      "Libidoabnahme, Erektionsstörungen",
+      "Depression, Schläfrigkeit",
+      "Hautausschlag, Juckreiz, Haarausfall oder vermehrte Behaarung",
+      "Appetitlosigkeit, Gewichtszunahme",
+      "Herzinsuffizienz, Herzinfarkt"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen, Angioödem, Nesselsucht",
+      "Interstitielle Lungenerkrankung"
+    ],
+    "selten": [
+      "Leberversagen",
+      "Photosensibilität (Lichtempfindlichkeit)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "QT-Verlängerung"
+    ]
+  },
+  "schwangerschaft": "Nicht für Frauen bestimmt (kontraindiziert).",
+  "stillzeit": "Nicht für Frauen bestimmt (kontraindiziert).",
+  "hinweise": [
+    "Täglich zur gleichen Zeit einnehmen.",
+    "Leberwerte werden regelmässig kontrolliert; Gelbfärbung, dunkler Urin oder starke Müdigkeit sofort melden.",
+    "Bei Schwindel oder Schläfrigkeit nicht Auto fahren."
+  ],
+  "stand": "2026-10"
+}

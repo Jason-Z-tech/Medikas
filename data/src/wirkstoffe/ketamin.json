@@ -1,0 +1,211 @@
+{
+  "id": "ketamin",
+  "name": "Ketamin",
+  "synonyme": [
+    "Ketaminhydrochlorid",
+    "Ketamine"
+  ],
+  "atc": [
+    "N01AX03"
+  ],
+  "klasse": "Intravenöses Anästhetikum (NMDA-Rezeptor-Antagonist, dissoziatives Anästhetikum)",
+  "kurz": "Narkose- und starkes Schmerzmittel, das im Spital und im Rettungsdienst gespritzt wird; Atmung und Kreislauf bleiben weitgehend erhalten.",
+  "gruppen": [
+    "zns-daempfend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Ketalar"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Narkose bei diagnostischen und chirurgischen Eingriffen, als alleiniges Narkosemittel, zur Narkoseeinleitung oder zur Ergänzung anderer Narkosemittel",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Versetzt in einen schlafähnlichen, schmerzfreien Zustand, in dem Atmung und Schutzreflexe weitgehend erhalten bleiben. Ketamin blockiert in Gehirn und Rückenmark den NMDA-Rezeptor für den erregenden Botenstoff Glutamat und entkoppelt so Wahrnehmung und Bewusstsein («dissoziative Anästhesie»). Es wirkt zudem stark schmerzlindernd. Durch Aktivierung des sympathischen Nervensystems steigen Puls und Blutdruck, und die Bronchien erweitern sich.",
+  "kontraindikationen": [
+    {
+      "text": "Zustände, in denen ein Blutdruckanstieg gefährlich wäre (z. B. schlecht eingestellter Bluthochdruck, Aneurysma)",
+      "ids": [
+        "hypertonie",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Präeklampsie und Eklampsie",
+      "ids": [
+        "praeeklampsie"
+      ]
+    },
+    {
+      "text": "Schwere koronare Herzkrankheit oder schwere Herzmuskelerkrankung",
+      "ids": [
+        "koronare-herzkrankheit",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Schlaganfall oder schwere Kopfverletzung",
+      "ids": [
+        "schlaganfall",
+        "schaedel-hirn-trauma"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhter Hirndruck oder erhöhter Augeninnendruck (z. B. Glaukom, offene Augenverletzung)",
+      "ids": [
+        "hirnoedem",
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Unbehandelte Schilddrüsenüberfunktion",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz, Herzrasen oder Herzrhythmusstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "tachykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Psychosen oder Schizophrenie (Aufwachreaktionen und Halluzinationen verstärkt)",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Alkohol- oder Drogenabhängigkeit, Missbrauch in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion; wiederholte oder langdauernde Anwendung (Leber- und Gallenwegsschäden)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Theophyllin und Aminophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Deutlich gesenkte Krampfschwelle, unvorhersehbare Krampfanfälle beschrieben – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine, Opioide, Barbiturate, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:opioide",
+        "gruppe:barbiturate",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte und verlängerte Sedierung, Atemdepression – Dosis anpassen. Benzodiazepine werden gezielt gegen Aufwachreaktionen eingesetzt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Erhöhtes Risiko für Bluthochdruck und Herzrasen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sympathomimetika und Vasopressoren",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkter Blutdruck- und Pulsanstieg – Kreislauf überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien (z. B. Suxamethonium, Atracurium)",
+      "ref": [
+        "suxamethonium",
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Muskelerschlaffung und Atemstillstand können verlängert sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Sevofluran, Isofluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Verlängerte Ketaminwirkung und verzögertes Aufwachen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP3A4-Hemmer und -Induktoren",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Veränderter Ketaminabbau – Dosis nach Wirkung anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Halluzinationen, lebhafte Träume, Albträume beim Aufwachen",
+      "Verwirrtheit, Unruhe, ungewöhnliches Verhalten",
+      "Nystagmus (Augenzittern), Doppeltsehen",
+      "Erhöhte Muskelspannung, zuckende Bewegungen",
+      "Blutdruck- und Pulsanstieg",
+      "Beschleunigte Atmung",
+      "Übelkeit, Erbrechen",
+      "Hautrötung, Ausschlag"
+    ],
+    "gelegentlich": [
+      "Appetitlosigkeit",
+      "Angst",
+      "Bradykardie (langsamer Puls), Herzrhythmusstörungen",
+      "Blutdruckabfall",
+      "Atemdepression, Laryngospasmus (Stimmritzenkrampf)",
+      "Schmerzen oder Ausschlag an der Injektionsstelle"
+    ],
+    "selten": [
+      "Delir, Flashbacks, Dysphorie (Verstimmung), Schlaflosigkeit",
+      "Atemstillstand (Apnoe), Verlegung der Atemwege",
+      "Vermehrter Speichelfluss",
+      "Zystitis (Blasenentzündung), auch blutig",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Leberschäden und Gallenwegserkrankungen bei wiederholter oder langdauernder Anwendung",
+      "Abhängigkeit bei missbräuchlicher Anwendung"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; Ketamin passiert die Plazenta. Bei Präeklampsie und Eklampsie kontraindiziert.",
+  "stillzeit": "Es liegen nur begrenzte Daten vor. Wann nach einer Narkose wieder gestillt werden kann, mit dem Behandlungsteam besprechen.",
+  "hinweise": [
+    "Nach der Anwendung mindestens 24 Stunden nicht Auto fahren, keine Maschinen bedienen und keinen Alkohol trinken.",
+    "Aufwachreaktionen (Halluzinationen, Albträume) sind häufig; eine ruhige Umgebung und Begleitmedikamente können sie vermindern.",
+    "Missbrauchspotenzial: wiederholter Konsum kann Harnblase, Nieren und Leber schwer schädigen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,215 @@
+{
+  "id": "formoterol-fluticason",
+  "name": "Formoterol + Fluticason",
+  "synonyme": [
+    "Fluticasonpropionat + Formoterolfumarat",
+    "Fluticasone propionate/formoterol fumarate"
+  ],
+  "kombinationAus": [
+    "formoterol",
+    "fluticason"
+  ],
+  "atc": [
+    "R03AK11"
+  ],
+  "klasse": "Inhalative Fixkombination: Glukokortikoid (ICS) + langwirksames Beta-2-Sympathomimetikum (LABA)",
+  "kurz": "Asthma-Spray zur Dauerbehandlung: kombiniert ein entzündungshemmendes Kortison mit einem langwirksamen Bronchienerweiterer.",
+  "gruppen": [
+    "glukokortikoide-inhalativ",
+    "beta2-sympathomimetika",
+    "cyp3a4-substrate-empfindlich",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Flutiform"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol (Inhalationsspray)"
+  ],
+  "indikationen": [
+    {
+      "text": "Regelmässige Behandlung von Asthma bronchiale, wenn eine Kombination aus inhalativem Kortison und langwirksamem Bronchienerweiterer angezeigt ist (ungenügende Kontrolle mit Kortison und Notfallspray oder bereits gut eingestellt mit beiden Wirkstoffen)",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt bei Asthma auf zwei Wegen: Es dämpft die Entzündung der Bronchien und erweitert sie. Fluticasonpropionat ist ein stark wirksames Glukokortikoid, das über den Glukokortikoid-Rezeptor die Bildung von Entzündungsbotenstoffen und die Einwanderung von Entzündungszellen in die Bronchialschleimhaut hemmt. Formoterol stimuliert selektiv die Beta-2-Rezeptoren der Bronchialmuskulatur und entspannt sie; die Wirkung setzt innerhalb weniger Minuten ein und hält etwa 12 Stunden an.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung eines akuten Asthmaanfalls – dafür ein kurz wirksames Notfallspray verwenden; steigender Bedarf an Notfallspray zeigt eine Verschlechterung an",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: Herzrhythmusstörungen, QT-Verlängerung, schwere Herzkrankheit, hypertrophe obstruktive Kardiomyopathie, schwerer Bluthochdruck, Aneurysma",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "koronare-herzkrankheit",
+        "kardiomyopathie",
+        "hypertonie",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion oder Phäochromozytom (hormonbildender Tumor der Nebenniere)",
+      "ids": [
+        "hyperthyreose",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: der Blutzucker kann ansteigen – zu Beginn häufiger kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Hypokaliämie (Kaliummangel), besonders bei schwerem Asthma oder zusammen mit Theophyllin, Kortisontabletten oder Diuretika",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Lungentuberkulose oder unbehandelte Pilz-, Virus- oder bakterielle Infektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Hohe Dosen über lange Zeit: Unterdrückung der Nebennierenfunktion, Wachstumsverzögerung bei Jugendlichen, Abnahme der Knochendichte, grauer und grüner Star möglich",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "kinder",
+        "osteoporose",
+        "katarakt",
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Umstellung von Kortisontabletten: Gefahr einer Nebennierenschwäche bei Stress (Operation, schwerer Infekt)",
+      "ids": [
+        "langzeit-kortison",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Sehstörungen wie verschwommenes Sehen ärztlich abklären lassen (selten zentrale seröse Chorioretinopathie)",
+      "ids": [
+        "sehstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Ketoconazol, Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Stark erhöhte Fluticason-Spiegel im Blut: Cushing-Syndrom und Unterdrückung der Nebennieren möglich – Kombination vermeiden, ausser der Nutzen überwiegt.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die bronchienerweiternde Wirkung von Formoterol aufheben und Bronchospasmen auslösen – bei Asthma möglichst meiden; wenn unumgänglich, kardioselektive Betablocker mit Vorsicht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer, trizyklische Antidepressiva und andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf mit erhöhtem Risiko für Herzrhythmusstörungen; MAO-Hemmer können Blutdruckanstiege auslösen – mit Vorsicht anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, systemische Glukokortikoide, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Kaliumsenkung durch Formoterol – Kalium kontrollieren, besonders bei schwerem Asthma.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein durch Formoterol erniedrigtes Kalium erhöht das Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "gruppe:beta2-sympathomimetika",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Nebenwirkungen wie Herzklopfen und Zittern addieren sich – keine zusätzlichen langwirksamen Beta-2-Mimetika anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkose mit halogenierten Inhalationsanästhetika",
+      "ref": [
+        "isofluran",
+        "sevofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – vor einer Operation die Anwendung angeben.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Mundsoor (Pilzinfektion in Mund und Rachen)",
+      "Kopfschmerzen, Schwindel",
+      "Zittern (Tremor)",
+      "Herzklopfen, Extraschläge des Herzens (ventrikuläre Extrasystolen)",
+      "Heiserkeit (Dysphonie), Rachenreizung",
+      "Verschlechterung des Asthmas",
+      "Schlafstörungen"
+    ],
+    "selten": [
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Angina pectoris (Brustenge), Herzrasen (Tachykardie)",
+      "Bluthochdruck",
+      "Atemnot, Husten",
+      "Mundtrockenheit, Durchfall, Verdauungsbeschwerden",
+      "Hautausschlag, Juckreiz",
+      "Muskelkrämpfe, Geschmacksstörungen",
+      "Ungewöhnliche Träume, Unruhe"
+    ],
+    "unbekannt": [
+      "Paradoxer Bronchospasmus (Verkrampfung der Atemwege direkt nach dem Inhalieren)",
+      "Hypokaliämie (Kaliummangel)",
+      "Systemische Kortisonwirkungen bei hoher Dosis über lange Zeit (Nebennierenunterdrückung, Wachstumsverzögerung, Abnahme der Knochendichte, grauer und grüner Star)",
+      "Verschwommensehen",
+      "Psychomotorische Überaktivität, Angst, Depression, Aggressivität (v. a. bei Kindern)"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn der Nutzen für die Mutter das mögliche Risiko für das Kind überwiegt; eine gute Asthmakontrolle ist auch für das Ungeborene wichtig. Formoterol kann kurz vor der Geburt die Wehen hemmen.",
+  "stillzeit": "Nicht bekannt, ob die Wirkstoffe in die Muttermilch übergehen; Anwendung nur nach ärztlicher Nutzen-Risiko-Abwägung.",
+  "hinweise": [
+    "Regelmässig wie verordnet anwenden (in der Regel morgens und abends), auch bei Beschwerdefreiheit; für akute Atemnot immer ein separates Notfallspray bereithalten.",
+    "Nach jeder Anwendung den Mund mit Wasser ausspülen und ausspucken – beugt Mundsoor und Heiserkeit vor.",
+    "Nicht abrupt absetzen; bei Verschlechterung oder häufigerem Gebrauch des Notfallsprays ärztlich melden.",
+    "Inhalationstechnik regelmässig in Apotheke oder Praxis überprüfen lassen; bei Koordinationsproblemen eine Inhalierhilfe (Spacer) verwenden."
+  ],
+  "stand": "2026-10"
+}

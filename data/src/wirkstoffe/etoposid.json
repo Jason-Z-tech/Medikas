@@ -1,0 +1,211 @@
+{
+  "id": "etoposid",
+  "name": "Etoposid",
+  "synonyme": [
+    "Etoposide",
+    "VP-16",
+    "Etoposidphosphat"
+  ],
+  "atc": [
+    "L01CB01"
+  ],
+  "klasse": "Zytostatikum; Topoisomerase-II-Hemmer (Podophyllotoxin-Derivat)",
+  "kurz": "Chemotherapie-Mittel, das die Topoisomerase II hemmt; u. a. gegen kleinzelligen Lungenkrebs, Hodentumoren, Lymphome und Leukämien.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Vepesid",
+    "Etopophos",
+    "Etoposid Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Konzentrat zur Herstellung einer Infusionslösung",
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung (Etoposidphosphat)"
+  ],
+  "indikationen": [
+    {
+      "text": "Kleinzelliger Lungenkrebs, meist in Kombination mit anderen Zytostatika",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Hodentumoren (Keimzelltumoren)",
+      "ids": [
+        "hodenkrebs"
+      ]
+    },
+    {
+      "text": "Hodgkin- und Non-Hodgkin-Lymphome",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Akute myeloische Leukämie",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Krebszellen ihr Erbgut korrekt verdoppeln und sich teilen. Etoposid hemmt das Enzym Topoisomerase II, das DNA-Stränge vorübergehend schneidet und wieder verbindet; der Enzym-DNA-Komplex wird stabilisiert, sodass Strangbrüche bestehen bleiben. Die Zellen werden in der späten S- und G2-Phase blockiert und sterben ab. Etoposidphosphat (Etopophos) ist eine gut wasserlösliche Vorstufe, die im Blut rasch zu Etoposid umgewandelt wird.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung: Blutbild vor jeder Behandlung; Infektionen vor Beginn behandeln",
+      "ids": [
+        "neutropenie",
+        "knochenmarkschaedigung",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosisanpassung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion oder tiefes Albumin (mehr freier, wirksamer Anteil im Blut)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Rasche Infusion kann einen Blutdruckabfall auslösen – langsam infundieren",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen bis zur Anaphylaxie",
+      "ids": [
+        "anaphylaxie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfstoff und andere Lebendimpfstoffe bei geschwächter Abwehr",
+      "ref": [
+        "gelbfieber-impfstoff",
+        "gruppe:lebendimpfstoffe"
+      ],
+      "grund": "Bei immungeschwächten Patienten können Lebendimpfstoffe schwere, generalisierte Infektionen auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Ciclosporin in hoher Dosis",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Verminderte Ausscheidung von Etoposid – stärkere Knochenmarkhemmung; Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cisplatin (auch als Vorbehandlung)",
+      "ref": [
+        "cisplatin"
+      ],
+      "effekt": "Verminderte Etoposid-Ausscheidung und verstärkte Toxizität – Blutbild und Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin und andere Enzyminduktoren (z. B. Carbamazepin, Phenobarbital)",
+      "ref": [
+        "phenytoin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Schnellerer Abbau von Etoposid – Wirkung kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann ansteigen – engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hochdosierte Salicylate (z. B. Acetylsalicylsäure)",
+      "ref": [
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Verdrängung von Etoposid aus der Eiweissbindung – mehr freier Wirkstoff möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung: Leukopenie, Neutropenie, Thrombozytopenie, Anämie",
+      "Übelkeit und Erbrechen",
+      "Appetitlosigkeit, Bauchschmerzen, Verstopfung",
+      "Haarausfall",
+      "Verfärbung der Haut (Pigmentierung)",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Schwäche (Asthenie), Unwohlsein"
+    ],
+    "haeufig": [
+      "Infektionen",
+      "Akute Leukämie als Zweiterkrankung",
+      "Anaphylaktische (schwere allergische) Reaktionen",
+      "Schwindel",
+      "Herzrhythmusstörungen, Herzinfarkt",
+      "Blutdruckabfall bei rascher Infusion, Bluthochdruck",
+      "Mukositis (Schleimhautentzündung) einschliesslich Stomatitis und Ösophagitis, Durchfall",
+      "Hautausschlag, Juckreiz, Nesselsucht, Venenreizung an der Infusionsstelle"
+    ],
+    "gelegentlich": [
+      "Periphere Neuropathie (Nervenschäden)",
+      "Blutungen"
+    ],
+    "selten": [
+      "Krampfanfälle",
+      "Sehnerventzündung, vorübergehende Erblindung",
+      "Interstitielle Lungenentzündung, Lungenfibrose",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Strahlen-Recall-Dermatitis (Hautreaktion in früher bestrahlten Bereichen)",
+      "Fieber",
+      "Geschmacksstörungen, Schluckbeschwerden"
+    ],
+    "unbekannt": [
+      "Tumorlyse-Syndrom",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Unfruchtbarkeit"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; in der Schwangerschaft nur bei zwingender Indikation. Frauen und Männer sollen während und mindestens 6 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – Etoposid geht in die Muttermilch über; abstillen.",
+  "hinweise": [
+    "Vor jeder Behandlung wird das Blutbild kontrolliert; bei Fieber oder Infektzeichen sofort ärztliche Hilfe holen.",
+    "Kapseln unzerkaut schlucken.",
+    "Etoposid kann die Fruchtbarkeit beeinträchtigen – vor Behandlungsbeginn über das Einfrieren von Samen- oder Eizellen beraten lassen.",
+    "Während der Behandlung keine Lebendimpfungen."
+  ],
+  "stand": "2026-10"
+}

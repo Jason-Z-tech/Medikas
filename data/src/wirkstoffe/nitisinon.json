@@ -1,0 +1,128 @@
+{
+  "id": "nitisinon",
+  "name": "Nitisinon",
+  "synonyme": [
+    "Nitisinone",
+    "NTBC"
+  ],
+  "atc": [
+    "A16AX04"
+  ],
+  "klasse": "4-Hydroxyphenylpyruvat-Dioxygenase-(HPPD-)Hemmer",
+  "kurz": "Hemmt den Abbau von Tyrosin und verhindert so giftige Stoffwechselprodukte bei der erblichen Tyrosinämie Typ 1 (zusammen mit einer Diät).",
+  "gruppen": [
+    "cyp2c9-hemmer"
+  ],
+  "handelsnamen": [
+    "Orfadin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln",
+    "Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Erbliche Tyrosinämie Typ 1 bei Erwachsenen und Kindern, in Kombination mit einer tyrosin- und phenylalaninarmen Diät",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass bei der erblichen Tyrosinämie Typ 1 leber- und nierenschädigende Abbauprodukte entstehen. Nitisinon hemmt das Enzym 4-Hydroxyphenylpyruvat-Dioxygenase, das im Abbauweg der Aminosäure Tyrosin vor dem defekten Enzym (Fumarylacetoacetat-Hydrolase) liegt. Dadurch werden die giftigen Zwischenprodukte Maleyl- und Fumarylacetoacetat sowie Succinylaceton nicht mehr gebildet. Weil sich dafür Tyrosin im Blut anreichert, ist eine tyrosin- und phenylalaninarme Diät nötig.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Augenbeschwerden durch erhöhten Tyrosinspiegel (Hornhautentzündung, Hornhauttrübung) – augenärztliche Untersuchung (Spaltlampe) vor Beginn, Tyrosin im Blut tief halten",
+      "ids": [
+        "augeninfektion"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (Mangel an Blutplättchen oder weissen Blutkörperchen) – Blutbild regelmässig kontrollieren",
+      "ids": [
+        "thrombozytopenie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Lebererkrankung und erhöhtes Leberkrebsrisiko bei Tyrosinämie – regelmässige Kontrollen (Leberwerte, Alpha-Fetoprotein, Bildgebung)",
+      "ids": [
+        "leberkrebs",
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten und andere CYP2C9-Substrate mit enger therapeutischer Breite (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng",
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Nitisinon hemmt CYP2C9 – Wirkung der Blutverdünner kann zunehmen; INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Spiegel kann steigen (CYP2C9-Hemmung) – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe (z. B. Glimepirid, Gliclazid)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Abbau über CYP2C9 verlangsamt – Unterzuckerung möglich; Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Furosemid",
+      "ref": [
+        "furosemid"
+      ],
+      "effekt": "Spiegel von Furosemid kann leicht steigen (Hemmung von Nierentransportern) – ggf. Dosis anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhter Tyrosinspiegel im Blut (Laborbefund)"
+    ],
+    "haeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Leukopenie und Granulozytopenie (Mangel an weissen Blutkörperchen)",
+      "Konjunktivitis (Bindehautentzündung)",
+      "Keratitis (Hornhautentzündung), Hornhauttrübung",
+      "Lichtscheu, Augenschmerzen"
+    ],
+    "gelegentlich": [
+      "Leukozytose (Vermehrung weisser Blutkörperchen)",
+      "Blepharitis (Lidrandentzündung)",
+      "Juckreiz, Hautausschlag",
+      "Exfoliative Dermatitis (schuppende Hautentzündung)"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn der Gesundheitszustand der Frau eine Behandlung erfordert; die Erfahrungen sind begrenzt.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Die tyrosin- und phenylalaninarme Diät strikt einhalten; Tyrosinspiegel im Blut regelmässig kontrollieren lassen.",
+    "Augenrötung, Augenschmerzen oder Lichtempfindlichkeit sofort ärztlich abklären lassen.",
+    "Regelmässige Kontrollen von Blutbild, Leberwerten und Alpha-Fetoprotein (Früherkennung von Leberkrebs).",
+    "Immer gleich einnehmen: entweder stets mit oder stets ohne Mahlzeit."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,284 @@
+{
+  "id": "propafenon",
+  "name": "Propafenon",
+  "synonyme": [
+    "Propafenone",
+    "Propafenonhydrochlorid"
+  ],
+  "atc": [
+    "C01BC03"
+  ],
+  "klasse": "Antiarrhythmikum Klasse IC (Natriumkanalblocker)",
+  "kurz": "Mittel gegen Herzrhythmusstörungen wie anfallsweises Vorhofflimmern oder Herzrasen bei Menschen ohne schwere Herzkrankheit.",
+  "gruppen": [
+    "antiarrhythmika-klasse-i",
+    "cyp2d6-substrate",
+    "p-gp-hemmer",
+    "qt-verlaengernd",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Rytmonorm"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische supraventrikuläre Herzrhythmusstörungen mit schnellem Puls, z. B. AV-Knoten-Reentry-Tachykardien, Tachykardien beim WPW-Syndrom und anfallsweises (paroxysmales) Vorhofflimmern",
+      "ids": [
+        "herzrhythmusstoerung",
+        "vorhofflimmern",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Schwere, symptomatische ventrikuläre Herzrhythmusstörungen, wenn sie nach ärztlicher Beurteilung lebensbedrohlich sind",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stabilisiert den Herzrhythmus, indem es die Erregungsleitung im Herzen verlangsamt. Propafenon blockiert als Antiarrhythmikum der Klasse IC die schnellen Natriumkanäle der Herzmuskelzellen; Leitungsgeschwindigkeit und Erregbarkeit nehmen ab (verlängerte PQ- und QRS-Zeit). Zusätzlich wirkt es schwach betablockierend und calciumantagonistisch. Abgebaut wird es vor allem über CYP2D6 zum ebenfalls wirksamen 5-Hydroxypropafenon; bei langsamen CYP2D6-Metabolisierern sind die Spiegel höher.",
+  "kontraindikationen": [
+    {
+      "text": "Brugada-Syndrom",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Bedeutsame strukturelle Herzkrankheit: Herzinfarkt in den letzten 3 Monaten, unkontrollierte Herzinsuffizienz (Auswurffraktion unter 35 %), kardiogener Schock (ausser durch Rhythmusstörung bedingt)",
+      "ids": [
+        "herzinfarkt",
+        "herzinsuffizienz",
+        "schock"
+      ]
+    },
+    {
+      "text": "Schwere symptomatische Bradykardie, Sinusknotenfunktionsstörung, Erregungsleitungsstörungen in den Vorhöfen, AV-Block ab II. Grad, Schenkelblock oder distaler Block ohne Herzschrittmacher",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Schwere Hypotonie",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Elektrolytstörungen (z. B. Störungen des Kaliumhaushalts)",
+      "ids": [
+        "hypokaliaemie",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Schwere obstruktive Lungenerkrankung",
+      "ids": [
+        "copd",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Proarrhythmische Wirkung: neue oder verstärkte Rhythmusstörungen, z. B. Vorhofflattern mit schneller Überleitung – EKG-Kontrollen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Herzschrittmacher oder implantierter Defibrillator: Reizschwelle kann sich ändern – Gerät überprüfen lassen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion: Anreicherung möglich – Dosis und EKG überwachen",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichtere obstruktive Atemwegserkrankungen (schwache betablockierende Wirkung)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Langsamer CYP2D6-Abbau (genetisch) oder gleichzeitige Hemmung von CYP2D6 und CYP3A4: deutlich höhere Spiegel",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhte Empfindlichkeit für Nebenwirkungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ritonavir (auch als Wirkungsverstärker, z. B. in Paxlovid)",
+      "ref": [
+        "ritonavir",
+        "lopinavir-ritonavir",
+        "nirmatrelvir-ritonavir"
+      ],
+      "grund": "Ritonavir hemmt den Abbau von Propafenon stark – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Propafenonspiegel, besonders zusammen mit CYP2D6-Hemmern – Gefahr von Rhythmusstörungen; meiden oder EKG und Dosis eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Höhere Propafenonspiegel – EKG und Dosis überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Antiarrhythmika und QT-verlängernde Mittel (z. B. Amiodaron, Flecainid, Sotalol)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte Wirkung auf die Erregungsleitung, Gefahr schwerer Rhythmusstörungen – nur unter EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxinspiegel steigen – Spiegel kontrollieren, Digoxindosis gegebenenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker (z. B. Metoprolol, Propranolol)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Spiegel von Metoprolol und Propranolol steigen; zusätzliche Verlangsamung von Puls und Erregungsleitung – Puls und Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Propafenonspiegel sinken, die Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva (z. B. Imipramin)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Spiegel des Antidepressivums können steigen; zusätzliche Wirkung auf die Erregungsleitung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporinspiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Theophyllinspiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lokalanästhetika (z. B. Lidocain)",
+      "ref": [
+        "gruppe:lokalanaesthetika"
+      ],
+      "effekt": "Mehr zentralnervöse Nebenwirkungen möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel",
+      "Erregungsleitungsstörungen des Herzens (z. B. AV-Block, Schenkelblock)",
+      "Herzklopfen (Palpitationen)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Geschmacksstörungen",
+      "Verschwommenes Sehen",
+      "Angst, Schlafstörungen",
+      "Langsamer oder schneller Puls, Vorhofflattern",
+      "Atemnot (Dyspnoe)",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall, Verstopfung, Mundtrockenheit",
+      "Leberfunktionsstörungen",
+      "Müdigkeit, Schwäche, Brustschmerzen, Fieber"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Kammertachykardie und andere neue Rhythmusstörungen (proarrhythmische Wirkung)",
+      "Hypotonie (tiefer Blutdruck), Ohnmacht (Synkope)",
+      "Kribbeln (Parästhesien), Gangunsicherheit",
+      "Hautausschlag, Juckreiz",
+      "Erektionsstörungen",
+      "Appetitlosigkeit, Albträume, Blähungen"
+    ],
+    "unbekannt": [
+      "Agranulozytose (gefährlicher Mangel an weissen Blutkörperchen)",
+      "Kammerflimmern",
+      "Verschlechterung einer Herzinsuffizienz",
+      "Krampfanfälle, Verwirrtheit",
+      "Cholestatische Hepatitis, Gelbsucht",
+      "Lupus-ähnliches Syndrom",
+      "Verminderte Spermienzahl (rückbildungsfähig)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; Propafenon gelangt zum Ungeborenen. Nur anwenden, wenn der Nutzen das Risiko klar überwiegt.",
+  "stillzeit": "Geht in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung und mit Beobachtung des Säuglings.",
+  "hinweise": [
+    "Tabletten unzerkaut mit Flüssigkeit nach dem Essen einnehmen (bitterer Geschmack, betäubende Wirkung im Mund).",
+    "Regelmässige EKG-Kontrollen; bei Ohnmacht, Herzrasen oder Atemnot sofort ärztliche Hilfe holen.",
+    "Schwindel und Sehstörungen können die Fahrtüchtigkeit beeinträchtigen.",
+    "Bei Fieber, Halsschmerzen oder anderen Infektzeichen Blutbild kontrollieren lassen (Agranulozytose möglich)."
+  ],
+  "stand": "2026-10"
+}

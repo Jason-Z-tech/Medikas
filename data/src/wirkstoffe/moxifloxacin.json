@@ -1,0 +1,73 @@
+{
+  "id": "moxifloxacin",
+  "name": "Moxifloxacin",
+  "synonyme": ["Moxifloxacinum", "Moxifloxacin-Hydrochlorid"],
+  "kombinationAus": [],
+  "atc": ["J01MA14", "S01AE07"],
+  "klasse": "Fluorchinolon-Antibiotikum (Gyrasehemmer)",
+  "kurz": "Fluorchinolon-Antibiotikum für ausgewählte Atemwegs- und Hautinfekte, wenn andere Mittel ungeeignet sind; auch als Augentropfen. Verlängert die QT-Zeit.",
+  "gruppen": ["fluorchinolone", "qt-verlaengernd", "krampfschwellensenkend", "photosensibilisierend", "hypoglykaemie-ausloesend"],
+  "handelsnamen": ["Avalox", "Moxifloxacin Mepha", "Vigamox"],
+  "abgabe": ["A", "B"],
+  "darreichung": ["Filmtabletten", "Infusionslösung", "Augentropfen"],
+  "indikationen": [
+    { "text": "Akute bakterielle Nasennebenhöhlenentzündung und akute Verschlimmerung einer chronischen Bronchitis – nur, wenn andere Antibiotika ungeeignet sind", "ids": ["sinusitis", "bronchitis", "copd"] },
+    { "text": "Ambulant erworbene Lungenentzündung (ausser schwere Formen) – wenn andere Antibiotika ungeeignet sind", "ids": ["lungenentzuendung"] },
+    { "text": "Leichte bis mittelschwere Entzündungen im weiblichen Becken (zusammen mit einem weiteren Antibiotikum)", "ids": ["geschlechtskrankheit"] },
+    { "text": "Komplizierte Haut- und Weichteilinfektionen (Infusion)", "ids": ["hautinfektion"] },
+    { "text": "Bakterielle Bindehautentzündung (Augentropfen)", "ids": ["augeninfektion"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es das Kopieren ihrer Erbsubstanz verhindert. Moxifloxacin hemmt die bakteriellen Topoisomerasen II (DNA-Gyrase) und IV; es entstehen tödliche DNA-Brüche. Es wirkt gut gegen Pneumokokken, atypische Erreger (Mykoplasmen, Chlamydien, Legionellen) und viele Anaerobier, aber kaum gegen Pseudomonas. Moxifloxacin verlängert die QT-Zeit deutlicher als andere Fluorchinolone und wird hauptsächlich über die Leber ausgeschieden.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Moxifloxacin oder andere Chinolone (Kreuzallergie)", "ids": [] },
+    { "text": "Angeborene oder erworbene QT-Verlängerung, symptomatische Herzrhythmusstörungen in der Vorgeschichte (gilt für Tabletten und Infusion)", "ids": ["qt-verlaengerung", "herzrhythmusstoerung"] },
+    { "text": "Elektrolytstörungen, insbesondere nicht korrigierte Hypokaliämie (Tabletten und Infusion)", "ids": ["hypokaliaemie"] },
+    { "text": "Klinisch relevante Bradykardie (langsamer Puls) oder Herzschwäche mit verminderter Pumpleistung (Tabletten und Infusion)", "ids": ["bradykardie", "herzinsuffizienz"] },
+    { "text": "Schwere Leberfunktionsstörung (Child-Pugh C) oder Transaminasen über dem 5-Fachen der Norm (Tabletten und Infusion)", "ids": ["leberinsuffizienz"] },
+    { "text": "Sehnenbeschwerden nach früherer Behandlung mit Chinolonen", "ids": ["sehnenerkrankung"] },
+    { "text": "Kinder und Jugendliche unter 18 Jahren (Tabletten und Infusion)", "ids": ["kinder"] },
+    { "text": "Schwangerschaft und Stillzeit (Tabletten und Infusion)", "ids": ["schwangerschaft", "stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Höheres Risiko für Sehnenentzündung und -riss bei über 60-Jährigen, Nierenschwäche, nach Organtransplantation und mit Kortison", "ids": ["aeltere-patienten", "transplantation", "sehnenerkrankung"] },
+    { "text": "Aortenaneurysma, Risikofaktoren dafür oder Herzklappenundichtigkeit: nur nach sorgfältiger Abwägung", "ids": ["aneurysma", "herzklappenerkrankung"] },
+    { "text": "Akute Durchblutungsstörung des Herzmuskels; Frauen und ältere Menschen reagieren empfindlicher auf die QT-Verlängerung", "ids": ["koronare-herzkrankheit", "aeltere-patienten"] },
+    { "text": "Epilepsie oder andere Erkrankungen mit erhöhter Krampfneigung", "ids": ["epilepsie"] },
+    { "text": "Myasthenia gravis (Verschlechterung bis Atemlähmung möglich)", "ids": ["myasthenia-gravis"] },
+    { "text": "Periphere Neuropathie – bei Kribbeln oder Taubheit sofort absetzen", "ids": ["nervenschmerzen"] },
+    { "text": "Depression oder Psychose: Verschlechterung bis zu Suizidgedanken möglich", "ids": ["depression", "suizidgedanken"] },
+    { "text": "Diabetes: Unter- oder Überzuckerung möglich", "ids": ["diabetes", "hypoglykaemie"] },
+    { "text": "Lebererkrankung: fulminante Hepatitis möglich – bei Gelbsucht, dunklem Urin oder Bauchschmerzen sofort ärztlich abklären", "ids": ["leberinsuffizienz"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Antiarrhythmika der Klassen IA und III (z. B. Chinidin, Disopyramid, Amiodaron, Sotalol)", "ref": ["gruppe:antiarrhythmika-klasse-iii", "amiodaron", "sotalol"], "grund": "Additive QT-Verlängerung – Gefahr lebensbedrohlicher ventrikulärer Herzrhythmusstörungen (Torsade de pointes)." },
+    { "text": "QT-verlängernde Antipsychotika (z. B. Haloperidol, Pimozid, Sertindol, Phenothiazine)", "ref": ["haloperidol"], "grund": "Additive QT-Verlängerung – Gefahr von Torsade de pointes." },
+    { "text": "Trizyklische Antidepressiva", "ref": ["gruppe:trizyklische-antidepressiva"], "grund": "Additive QT-Verlängerung – Gefahr von Torsade de pointes." },
+    { "text": "Bestimmte Antiinfektiva: Erythromycin i. v., Pentamidin, Saquinavir, Malariamittel wie Halofantrin", "ref": ["erythromycin", "pentamidin"], "grund": "Additive QT-Verlängerung – Gefahr von Torsade de pointes." },
+    { "text": "Weitere QT-verlängernde Mittel (z. B. Cisaprid, Vincamin i. v., Terfenadin, Astemizol, Mizolastin)", "ref": ["gruppe:qt-verlaengernd"], "grund": "Moxifloxacin darf nicht mit anderen Arzneimitteln kombiniert werden, die das QT-Intervall verlängern – Gefahr von Torsade de pointes." }
+  ],
+  "interaktionen": [
+    { "text": "Mittel, die das Kalium senken (z. B. Schleifen- und Thiaziddiuretika, Abführmittel, Glukokortikoide, Amphotericin B)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Hypokaliämie erhöht das Risiko für Herzrhythmusstörungen – Kalium kontrollieren und ausgleichen.", "schwere": "schwer" },
+    { "text": "Mittel, die den Puls verlangsamen (z. B. Betablocker, Verapamil, Diltiazem, Digoxin)", "ref": ["gruppe:bradykardisierend"], "effekt": "Langsamer Puls begünstigt Torsade de pointes – Vorsicht, EKG-Kontrolle.", "schwere": "mittel" },
+    { "text": "Mehrwertige Kationen (Eisen, Zink, Magnesium, Aluminium, Calcium), Antazida, Sucralfat und Multivitaminpräparate", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida"], "effekt": "Moxifloxacin wird schlechter aufgenommen – Wirkverlust. Moxifloxacin 4 Stunden vor oder 2 Stunden nach diesen Mitteln einnehmen.", "schwere": "mittel" },
+    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Deutlich erhöhtes Risiko für Sehnenentzündung und Sehnenriss – Kombination möglichst vermeiden.", "schwere": "mittel" },
+    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung möglich – INR häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Sulfonylharnstoffe und Insulin", "ref": ["gruppe:sulfonylharnstoffe", "gruppe:insuline"], "effekt": "Unter- oder Überzuckerung möglich – Blutzucker häufiger messen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": ["Pilzinfektionen", "Kopfschmerzen, Schwindel", "QT-Verlängerung bei niedrigem Kalium", "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall", "Erhöhte Leberwerte", "Reaktionen an der Infusionsstelle", "Bei Augentropfen: Augenschmerzen und -reizung, Geschmacksstörung"],
+    "gelegentlich": ["Blutbildveränderungen (Anämie, Leukopenie, Thrombozytopenie), verlängerte Gerinnungszeit", "Allergische Reaktionen, Hautausschlag, Juckreiz, Nesselsucht", "Unruhe, Angst, Schlafstörungen, Zittern, Kribbeln, Geschmacksstörungen, Verwirrtheit", "Sehstörungen, verschwommenes Sehen", "QT-Verlängerung, Herzklopfen, Herzrasen, Vorhofflimmern, Angina pectoris", "Atemnot, Appetitlosigkeit, Verstopfung, Verdauungsbeschwerden", "Gelenk- und Muskelschmerzen, Schwitzen"],
+    "selten": ["Anaphylaxie, Angioödem", "Krampfanfälle, periphere Neuropathie, Halluzinationen, Depression", "Tinnitus, Hörstörungen bis Taubheit", "Ventrikuläre Herzrhythmusstörungen, Ohnmacht, Blutdruckschwankungen", "Antibiotika-assoziierte Kolitis", "Gelbsucht, Hepatitis (meist cholestatisch)", "Sehnenentzündung, Muskelkrämpfe, Muskelschwäche", "Nierenfunktionsstörung bis Nierenversagen"],
+    "sehrSelten": ["Torsade de pointes, Herzstillstand", "Fulminante Hepatitis bis Leberversagen", "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse", "Sehnenriss, Verschlechterung einer Myasthenia gravis", "Agranulozytose, Panzytopenie", "Psychotische Reaktionen mit Selbstgefährdung"],
+    "unbekannt": ["Rhabdomyolyse (Muskelzerfall)", "Hyponatriämie (SIADH), hypoglykämisches Koma", "DRESS und akute generalisierte exanthematische Pustulose", "Aortenaneurysma und -dissektion, Herzklappenundichtigkeit"]
+  },
+  "schwangerschaft": "Tabletten und Infusion sind kontraindiziert (Gelenkknorpelschäden im Tierversuch). Augentropfen nur nach ärztlicher Abwägung.",
+  "stillzeit": "Tabletten und Infusion sind kontraindiziert. Augentropfen nach ärztlicher Abwägung vertretbar.",
+  "hinweise": [
+    "Vor Beginn alle anderen Medikamente angeben: viele Mittel verlängern zusätzlich die QT-Zeit.",
+    "Bei Herzklopfen, Ohnmacht, Sehnenschmerzen, Kribbeln, Gelbsucht oder plötzlichen Brust-, Bauch- oder Rückenschmerzen sofort ärztliche Hilfe holen.",
+    "Abstand zu Mineralstoff-, Eisen- und Multivitaminpräparaten sowie Antazida einhalten; starke Sonne meiden."
+  ],
+  "stand": "2026-10"
+}

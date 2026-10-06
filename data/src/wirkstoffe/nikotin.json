@@ -1,0 +1,208 @@
+{
+  "id": "nikotin",
+  "name": "Nikotin",
+  "synonyme": [
+    "Nicotine",
+    "Nicotin"
+  ],
+  "atc": [
+    "N07BA01"
+  ],
+  "klasse": "Nikotinersatzmittel (Raucherentwöhnung)",
+  "kurz": "Nikotinersatz als Pflaster, Kaugummi, Lutschtablette, Spray oder Inhalator; lindert Entzugssymptome beim Rauchstopp.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Nicorette",
+    "Nicotinell"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Transdermale Pflaster",
+    "Kaugummis",
+    "Lutschtabletten",
+    "Sublingualtabletten",
+    "Mundspray",
+    "Inhalator"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung der Tabakabhängigkeit: Linderung von Entzugssymptomen und Rauchverlangen beim Rauchstopp oder zur Rauchreduktion",
+      "ids": [
+        "rauchstopp",
+        "rauchen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt beim Rauchstopp einen Teil des Nikotins aus dem Tabak und lindert so Entzugssymptome und Rauchverlangen – ohne Teer, Kohlenmonoxid und die übrigen Schadstoffe des Rauchs. Nikotin ist ein Agonist an nikotinischen Acetylcholinrezeptoren im Gehirn, im vegetativen Nervensystem und an der Muskulatur; im Belohnungssystem setzt es Dopamin frei. Aus Pflaster, Kaugummi, Lutschtablette oder Spray wird es langsamer und in tieferer Konzentration aufgenommen als beim Rauchen, was das Abhängigkeitspotenzial senkt.",
+  "kontraindikationen": [
+    {
+      "text": "Nichtraucherinnen und Nichtraucher",
+      "ids": []
+    },
+    {
+      "text": "Kinder unter 12 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Kürzlicher Herzinfarkt, instabile Angina pectoris, schwere Herzrhythmusstörungen oder kürzlicher Schlaganfall: nur nach ärztlicher Rücksprache",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris",
+        "herzrhythmusstoerung",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Nicht eingestellter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Diabetes: nach dem Rauchstopp Blutzucker häufiger kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion oder Phäochromozytom",
+      "ids": [
+        "hyperthyreose",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre oder Speiseröhrenentzündung (Kaugummi, Lutschtablette, Spray)",
+      "ids": [
+        "magen-darm-ulkus",
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Hauterkrankungen an der Klebestelle (Pflaster)",
+      "ids": [
+        "neurodermitis",
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Einnahme von Antiepileptika",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Für Kinder schon in kleinen Mengen gefährlich (Vergiftungsgefahr)",
+      "ids": [
+        "kinder",
+        "vergiftung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Medikamente, deren Abbau durch Tabakrauch beschleunigt wird (z. B. Theophyllin, Clozapin, Olanzapin, Ropinirol, Fluvoxamin)",
+      "ref": [
+        "gruppe:cyp1a2-substrate",
+        "theophyllin",
+        "clozapin",
+        "olanzapin",
+        "ropinirol",
+        "fluvoxamin"
+      ],
+      "effekt": "Nach dem Rauchstopp fällt die Enzyminduktion durch den Tabakrauch (nicht durch Nikotin) weg – Spiegel können stark ansteigen; Dosis überprüfen, z. B. Clozapin-Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Insulin",
+      "ref": [
+        "gruppe:insuline"
+      ],
+      "effekt": "Nach dem Rauchstopp wird Insulin besser aufgenommen – Blutzucker engmaschig kontrollieren, Dosis gegebenenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bupropion",
+      "ref": [
+        "bupropion"
+      ],
+      "effekt": "Zusammen mit Nikotinpflastern Blutdruckanstieg möglich – Blutdruck wöchentlich kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alpha- und Betablocker wie Prazosin oder Labetalol",
+      "ref": [
+        "prazosin",
+        "labetalol"
+      ],
+      "effekt": "Nach dem Rauchstopp kann eine niedrigere Dosis ausreichen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Vareniclin",
+      "ref": [
+        "vareniclin"
+      ],
+      "effekt": "Übelkeit, Kopfschmerzen, Erbrechen und Schwindel treten häufiger auf.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautreizung an der Pflasterstelle (Rötung, Juckreiz)",
+      "Kopfschmerzen",
+      "Übelkeit",
+      "Schluckauf, Reizung von Mund und Rachen (Kaugummi, Lutschtablette, Spray, Inhalator)"
+    ],
+    "haeufig": [
+      "Schwindel",
+      "Geschmacksstörungen, Kribbeln im Mund",
+      "Erbrechen, Durchfall, Bauchschmerzen, Blähungen, Dyspepsie (Verdauungsbeschwerden)",
+      "Mundtrockenheit, vermehrter Speichelfluss, Entzündung der Mundschleimhaut",
+      "Schlafstörungen und lebhafte Träume (Pflaster)",
+      "Husten",
+      "Müdigkeit",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "gelegentlich": [
+      "Herzklopfen, Herzrasen",
+      "Hautrötung (Flush), Bluthochdruck",
+      "Bronchospasmus (Verkrampfung der Atemwege), Atemnot",
+      "Nesselsucht, Hautausschlag, vermehrtes Schwitzen",
+      "Kieferschmerzen, Muskelschmerzen",
+      "Schwäche, Brustbeschwerden"
+    ],
+    "selten": [
+      "Vorhofflimmern"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie, Angioödem",
+      "Krampfanfälle",
+      "Verschwommenes Sehen"
+    ]
+  },
+  "schwangerschaft": "Ein Rauchstopp ohne Medikamente ist anzustreben. Gelingt das nicht, ist eine Nikotinersatztherapie nach ärztlicher Rücksprache besser als Weiterrauchen; Kaugummi, Lutschtablette oder Spray sind dem Pflaster vorzuziehen.",
+  "stillzeit": "Nikotin geht in die Muttermilch über; nur nach ärztlicher Rücksprache und kurz wirksame Formen möglichst unmittelbar nach dem Stillen anwenden.",
+  "hinweise": [
+    "Kaugummi langsam kauen und zwischendurch in der Backe «parken»; 15 Minuten vor und während der Anwendung keine sauren Getränke wie Kaffee oder Fruchtsaft (vermindern die Aufnahme).",
+    "Für Kinder unzugänglich aufbewahren und gebrauchte Pflaster zusammengefaltet entsorgen – schon kleine Mengen können für Kinder lebensgefährlich sein.",
+    "Pflaster täglich an einer anderen Hautstelle aufkleben; bei Schlafstörungen das Pflaster vor dem Schlafengehen entfernen.",
+    "Nach dem Rauchstopp können die Spiegel bestimmter Medikamente (z. B. Clozapin, Theophyllin) steigen – Ärztin oder Arzt informieren."
+  ],
+  "stand": "2026-10"
+}

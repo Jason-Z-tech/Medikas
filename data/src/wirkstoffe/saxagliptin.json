@@ -1,0 +1,171 @@
+{
+  "id": "saxagliptin",
+  "name": "Saxagliptin",
+  "synonyme": [
+    "Saxagliptinum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "A10BH03",
+    "A10BD10",
+    "A10BD21"
+  ],
+  "klasse": "Orales Antidiabetikum (DPP-4-Hemmer, Gliptin)",
+  "kurz": "Blutzuckersenker bei Typ-2-Diabetes aus der Gruppe der Gliptine; verstärkt die körpereigene Insulinfreisetzung nach dem Essen.",
+  "gruppen": [
+    "dpp4-hemmer"
+  ],
+  "handelsnamen": [
+    "Onglyza",
+    "Kombiglyze XR (Kombi)",
+    "Qtern (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten (Kombination mit Metformin)"
+  ],
+  "indikationen": [
+    {
+      "text": "Typ-2-Diabetes bei Erwachsenen: allein, wenn Metformin ungeeignet ist, oder in Kombination mit anderen Blutzuckersenkern (z. B. Metformin, Sulfonylharnstoff, Dapagliflozin, Insulin)",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verstärkt die körpereigene Blutzuckerregulation nach den Mahlzeiten. Saxagliptin hemmt das Enzym Dipeptidylpeptidase-4 (DPP-4), das die Darmhormone GLP-1 und GIP (Inkretine) rasch abbaut. Die höheren Inkretinspiegel steigern blutzuckerabhängig die Insulinfreisetzung und hemmen die Glucagonausschüttung. Weil die Wirkung an erhöhte Blutzuckerwerte gebunden ist, verursacht Saxagliptin allein selten Unterzuckerungen. Es wird über CYP3A4/5 zu einem ebenfalls wirksamen Metaboliten abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Überempfindlichkeitsreaktion (Anaphylaxie, Angioödem) auf einen DPP-4-Hemmer in der Vorgeschichte",
+      "ids": [
+        "anaphylaxie",
+        "angiooedem"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Typ-1-Diabetes und diabetische Ketoazidose: nicht geeignet",
+      "ids": [
+        "diabetes-typ-1",
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Akute Pankreatitis: bei anhaltenden starken Bauchschmerzen absetzen; nach bestätigter Pankreatitis nicht wieder beginnen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Mässig bis schwer eingeschränkte Nierenfunktion (Dosisanpassung); bei Dialyse nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: nicht empfohlen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz oder Risikofaktoren dafür (in einer grossen Studie mehr Spitaleinweisungen wegen Herzinsuffizienz)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kombination mit Sulfonylharnstoffen oder Insulin (Unterzuckerungsgefahr)",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Bullöses Pemphigoid (blasenbildende Hauterkrankung) möglich",
+      "ids": [
+        "pemphigus"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Sulfonylharnstoffe und Insulin",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:insuline"
+      ],
+      "effekt": "Erhöhte Unterzuckerungsgefahr – Dosis von Sulfonylharnstoff oder Insulin gegebenenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Saxagliptin-Spiegel steigt etwa auf das 2,5-Fache – mehr Nebenwirkungen möglich; ärztlich wird gegebenenfalls die tiefere Dosis gewählt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Saxagliptin-Spiegel sinkt – Blutzuckereinstellung überprüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Leicht erhöhter Saxagliptin-Spiegel; meist ohne klinische Bedeutung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "In Kombination häufiger Wassereinlagerungen (Ödeme) in den Beinen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Infektionen der oberen Atemwege, Sinusitis (Nasennebenhöhlenentzündung)",
+      "Harnwegsinfekte",
+      "Gastroenteritis (Magen-Darm-Infekt)",
+      "Kopfschmerzen",
+      "Erbrechen",
+      "Hypoglykämie (Unterzuckerung) in Kombination mit Sulfonylharnstoffen oder Insulin"
+    ],
+    "gelegentlich": [
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Überempfindlichkeitsreaktionen (Hautausschlag, Juckreiz, Nesselsucht)"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Angioödem (Schwellung von Gesicht, Lippen oder Rachen)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Bullöses Pemphigoid (blasenbildende Hauterkrankung)",
+      "Obstipation (Verstopfung)",
+      "Gelenkschmerzen"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, da keine ausreichenden Erfahrungen vorliegen; in der Schwangerschaft wird Insulin bevorzugt.",
+  "stillzeit": "Nicht anwenden; es ist nicht bekannt, ob Saxagliptin in die Muttermilch übergeht.",
+  "hinweise": [
+    "Einmal täglich unabhängig von den Mahlzeiten einnehmen.",
+    "Bei anhaltenden, starken Bauchschmerzen (evtl. mit Ausstrahlung in den Rücken) sofort ärztlich abklären lassen.",
+    "Blasen auf der Haut ärztlich melden.",
+    "Kombinationspräparate mit Metformin (Kombiglyze XR) oder Dapagliflozin (Qtern) haben zusätzlich die Gegenanzeigen dieser Wirkstoffe."
+  ],
+  "stand": "2026-10"
+}

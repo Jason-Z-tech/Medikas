@@ -1,0 +1,292 @@
+{
+  "id": "fluoxetin",
+  "name": "Fluoxetin",
+  "synonyme": [
+    "Fluoxetinum",
+    "Fluoxetinhydrochlorid"
+  ],
+  "atc": [
+    "N06AB03"
+  ],
+  "klasse": "Selektiver Serotonin-Wiederaufnahmehemmer (SSRI, Antidepressivum)",
+  "kurz": "Antidepressivum aus der Gruppe der SSRI gegen Depression, Zwangsstörung und Bulimie; wirkt besonders lange nach.",
+  "gruppen": [
+    "ssri",
+    "serotonerg",
+    "starke-cyp2d6-hemmer",
+    "cyp2c19-hemmer",
+    "cyp2d6-substrate",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Fluctine",
+    "Fluoxetin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression) bei Erwachsenen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Mittelgradige bis schwere Depression bei Kindern ab 8 Jahren und Jugendlichen, wenn eine Psychotherapie allein nach 4–6 Sitzungen nicht ausreicht (zusammen mit Psychotherapie)",
+      "ids": [
+        "depression",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Zwangsstörungen",
+      "ids": [
+        "zwangsstoerung"
+      ]
+    },
+    {
+      "text": "Bulimie (Ess-Brech-Sucht), ergänzend zur Psychotherapie",
+      "ids": [
+        "essstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und vermindert Zwangsgedanken und Essattacken, indem es die Menge des Botenstoffs Serotonin zwischen den Nervenzellen erhöht. Fluoxetin hemmt selektiv den Serotonin-Transporter und damit die Wiederaufnahme von Serotonin in die Nervenzelle. Fluoxetin und sein wirksames Abbauprodukt Norfluoxetin haben sehr lange Halbwertszeiten (Tage bis Wochen), weshalb Wirkung und Wechselwirkungen nach dem Absetzen noch wochenlang anhalten. Fluoxetin hemmt zudem stark das Abbauenzym CYP2D6.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung sowie bei Kindern, Jugendlichen und jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "depression",
+        "suizidgedanken",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Diabetes: Unterzuckerung während der Behandlung, erhöhter Blutzucker nach dem Absetzen möglich",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen, QT-Verlängerung, langsamer Puls, Kaliummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (noch längere Halbwertszeit)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhtes Risiko für Natriummangel",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (Pupillenerweiterung)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Irreversible, nicht selektive MAO-Hemmer – gleichzeitig, innerhalb von 2 Wochen nach deren Absetzen sowie innerhalb von 5 Wochen nach dem Absetzen von Fluoxetin",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms (Fieber, Muskelzuckungen, Verwirrtheit, Kreislaufversagen)."
+    },
+    {
+      "text": "Metoprolol bei Herzinsuffizienz",
+      "ref": [
+        "metoprolol"
+      ],
+      "grund": "Fluoxetin hemmt den Abbau von Metoprolol über CYP2D6 – Gefahr einer starken Verlangsamung des Herzschlags."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Moclobemid, Linezolid, Methylenblau",
+      "ref": [
+        "moclobemid",
+        "linezolid",
+        "methylthioniniumchlorid"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – Kombination nicht empfohlen, allenfalls unter engmaschiger Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere serotonerge Mittel (Triptane, Tramadol, Fentanyl, Lithium, Johanniskraut, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:triptane",
+        "tramadol",
+        "fentanyl",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – auf Fieber, Zittern, Muskelzuckungen, Unruhe und Durchfall achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Tamoxifen",
+      "ref": [
+        "tamoxifen"
+      ],
+      "effekt": "Fluoxetin vermindert die Bildung des wirksamen Tamoxifen-Abbauprodukts (Endoxifen) – Wirkverlust; Kombination möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, Metoprolol, trizyklische Antidepressiva, Atomoxetin, Risperidon)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "flecainid",
+        "propafenon",
+        "metoprolol",
+        "gruppe:trizyklische-antidepressiva",
+        "atomoxetin",
+        "risperidon"
+      ],
+      "effekt": "Deren Spiegel steigen deutlich – mit tiefer Dosis beginnen, Wirkung und Nebenwirkungen kontrollieren; gilt noch Wochen nach dem Absetzen von Fluoxetin.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien, Thrombozytenaggregationshemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt – Gerinnung (INR) kontrollieren, auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, Antipsychotika, bestimmte Antibiotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Eine zusätzliche QT-Verlängerung ist nicht auszuschliessen – Vorsicht, gegebenenfalls EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clopidogrel",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Fluoxetin kann die Aktivierung von Clopidogrel (über CYP2C19) vermindern und gleichzeitig das Blutungsrisiko erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Der Phenytoin-Spiegel kann steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Codein",
+      "ref": [
+        "codein"
+      ],
+      "effekt": "Die Umwandlung in das wirksame Morphin ist gehemmt – schwächere Schmerzlinderung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schlaflosigkeit",
+      "Kopfschmerzen",
+      "Übelkeit, Durchfall",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Appetitlosigkeit, Gewichtsabnahme",
+      "Angst, Nervosität, Unruhe, ungewöhnliche Träume",
+      "Verminderte Libido, Erektions- und Ejakulationsstörungen",
+      "Schwindel, Schläfrigkeit, Zittern, Konzentrations- und Geschmacksstörungen",
+      "Verschwommenes Sehen, Herzklopfen, Hitzewallungen",
+      "Mundtrockenheit, Erbrechen, Verdauungsbeschwerden",
+      "Hautausschlag, Juckreiz, Nesselsucht, vermehrtes Schwitzen",
+      "Gelenkschmerzen, häufiges Wasserlassen, gynäkologische Blutungen"
+    ],
+    "gelegentlich": [
+      "Suizidgedanken und suizidales Verhalten",
+      "Gehobene Stimmung, Depersonalisation, Zähneknirschen (Bruxismus)",
+      "Muskelzuckungen, Gangunsicherheit, Gedächtnisstörungen",
+      "Erweiterte Pupillen (Mydriasis), Ohrgeräusche (Tinnitus)",
+      "Blutdruckabfall",
+      "Atemnot, Nasenbluten",
+      "Magen-Darm-Blutungen, Schluckbeschwerden",
+      "Haarausfall, Neigung zu Blutergüssen"
+    ],
+    "selten": [
+      "Hyponatriämie (Natriummangel)",
+      "Manie, Halluzinationen, Panikattacken, Aggressivität, Verwirrtheit",
+      "Krampfanfälle, Akathisie (Bewegungsunruhe), Serotoninsyndrom",
+      "QT-Verlängerung, ventrikuläre Herzrhythmusstörungen inkl. Torsade de pointes",
+      "Leberentzündung (Hepatitis)",
+      "Angioödem, Lichtempfindlichkeit, schwere Hautreaktionen (Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Blutbildveränderungen (Thrombozytopenie, Neutropenie), anaphylaktische Reaktionen",
+      "Milchfluss (Galaktorrhö), Priapismus (Dauererektion), Harnverhalt"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Erhöhtes Risiko für Knochenbrüche",
+      "Nachblutungen nach der Geburt (bei Einnahme im letzten Monat der Schwangerschaft)"
+    ]
+  },
+  "schwangerschaft": "Nur nach sorgfältiger ärztlicher Abwägung: nach Einnahme im ersten Drittel wurde ein leicht erhöhtes Risiko für Herzfehler beobachtet, bei Einnahme in der Spätschwangerschaft sind beim Neugeborenen Anpassungsstörungen und Lungenhochdruck (PPHN) möglich. Nicht eigenmächtig absetzen.",
+  "stillzeit": "Fluoxetin und Norfluoxetin gehen in die Muttermilch über, beim Säugling wurden Nebenwirkungen beobachtet; Stillen nur nach ärztlicher Abwägung mit der tiefsten wirksamen Dosis.",
+  "hinweise": [
+    "Die Wirkung setzt nach 2–4 Wochen ein; zunehmende Unruhe oder Suizidgedanken in den ersten Wochen sofort ärztlich melden.",
+    "Wegen der langen Wirkdauer bestehen Wechselwirkungen noch bis zu 5 Wochen nach dem Absetzen (z. B. vor Beginn eines MAO-Hemmers).",
+    "Nicht abrupt absetzen, auch wenn Absetzsymptome seltener sind als bei anderen SSRI.",
+    "Kann die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

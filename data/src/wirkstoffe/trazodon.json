@@ -1,0 +1,215 @@
+{
+  "id": "trazodon",
+  "name": "Trazodon",
+  "synonyme": [
+    "Trazodonum",
+    "Trazodonhydrochlorid"
+  ],
+  "atc": [
+    "N06AX05"
+  ],
+  "klasse": "Antidepressivum (Serotonin-Antagonist und -Wiederaufnahmehemmer, SARI)",
+  "kurz": "Beruhigendes Antidepressivum, besonders bei Depression mit Angst und Schlafstörungen.",
+  "gruppen": [
+    "serotonerg",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "blutdrucksenkend",
+    "krampfschwellensenkend",
+    "hyponatriaemie-ausloesend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Trittico"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen unterschiedlicher Ursache, auch mit Angstzuständen",
+      "ids": [
+        "depression",
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf, wirkt angstlösend und schlaffördernd. Trazodon blockiert vor allem Serotonin-5-HT2A-Rezeptoren und hemmt schwächer die Wiederaufnahme von Serotonin; zusätzlich blockiert es Alpha-1-Adrenozeptoren und Histamin-H1-Rezeptoren, was die beruhigende Wirkung und den möglichen Blutdruckabfall erklärt. Anticholinerge Wirkungen sind gering. Der Abbau erfolgt hauptsächlich über CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Vergiftung mit Alkohol oder Schlafmitteln",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Akuter Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen: QT-Verlängerung, Herzrhythmusstörungen, koronare Herzkrankheit, Kaliummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Blutdruckabfall beim Aufstehen, Stürze, Natriummangel",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung oder Schizophrenie (Manie bzw. Verstärkung psychotischer Symptome möglich)",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Dauererektion (Priapismus), z. B. bei Penisverkrümmung, Sichelzellkrankheit, Leukämie oder multiplem Myelom",
+      "ids": [
+        "penisverkruemmung",
+        "sichelzellanaemie",
+        "leukaemie",
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (SSRI, SNRI, MAO-Hemmer, Triptane, Tramadol, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:mao-hemmer",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms; MAO-Hemmer nicht gleichzeitig und erst 2 Wochen nach deren Absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Ketoconazol, Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir"
+      ],
+      "effekt": "Der Trazodon-Spiegel steigt deutlich – Übelkeit, Blutdruckabfall, Ohnmacht möglich; möglichst vermeiden oder Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, Antipsychotika, Makrolide, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – möglichst vermeiden, sonst EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Rifampicin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "carbamazepin"
+      ],
+      "effekt": "Der Trazodon-Spiegel sinkt deutlich – Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (Schlafmittel, Benzodiazepine, Opioide, Alkohol)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide"
+      ],
+      "effekt": "Gegenseitige Verstärkung der Dämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall – Dosis des Blutdrucksenkers gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und Phenytoin",
+      "ref": [
+        "digoxin",
+        "phenytoin"
+      ],
+      "effekt": "Deren Spiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die gerinnungshemmende Wirkung kann sich verändern – INR kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Schläfrigkeit, Müdigkeit, Schwindel, Kopfschmerzen",
+      "Mundtrockenheit, Übelkeit, Erbrechen",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie), Ohnmacht",
+      "Herzrhythmusstörungen, QT-Verlängerung",
+      "Priapismus (schmerzhafte Dauererektion – Notfall)",
+      "Hyponatriämie (Natriummangel), Serotoninsyndrom, Krampfanfälle",
+      "Blutbildveränderungen (z. B. Agranulozytose, Thrombozytopenie), Leberfunktionsstörungen",
+      "Suizidgedanken und suizidales Verhalten"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur bei klarer Notwendigkeit nach ärztlicher Abwägung. Bei Einnahme bis zur Geburt das Neugeborene auf Absetzsymptome beobachten.",
+  "stillzeit": "Trazodon geht in geringen Mengen in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nach einer Mahlzeit einnehmen, die Hauptdosis vorzugsweise abends (macht müde).",
+    "Bei einer anhaltenden, schmerzhaften Erektion sofort ärztliche Hilfe holen (Notfall).",
+    "Kann die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden.",
+    "Langsam aufstehen (Schwindel durch Blutdruckabfall); nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

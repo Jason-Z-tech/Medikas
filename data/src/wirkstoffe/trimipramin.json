@@ -1,0 +1,288 @@
+{
+  "id": "trimipramin",
+  "name": "Trimipramin",
+  "synonyme": [
+    "Trimipraminum",
+    "Trimipraminmaleat"
+  ],
+  "atc": [
+    "N06AA06"
+  ],
+  "klasse": "Trizyklisches Antidepressivum (stark sedierend)",
+  "kurz": "Stark beruhigendes Antidepressivum aus der Gruppe der Trizyklika, besonders bei Depression mit Schlafstörungen, Angst und Unruhe.",
+  "gruppen": [
+    "trizyklische-antidepressiva",
+    "anticholinerg",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "blutdrucksenkend",
+    "hyponatriaemie-ausloesend",
+    "cyp2d6-substrate",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Surmontil",
+    "Trimin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen, besonders mit Schlafstörungen, Angst und innerer Unruhe",
+      "ids": [
+        "depression",
+        "schlafstoerung",
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und wirkt ausgeprägt beruhigend und schlaffördernd. Im Unterschied zu anderen Trizyklika hemmt Trimipramin die Wiederaufnahme von Serotonin und Noradrenalin nur schwach; im Vordergrund steht die Blockade von Histamin-H1-, Serotonin-5-HT2-, Alpha-1- und Dopamin-D2-Rezeptoren. Die Blockade von Muskarinrezeptoren (anticholinerge Wirkung) erklärt Nebenwirkungen wie Mundtrockenheit und Verstopfung. Die schlaffördernde Wirkung setzt rasch ein, die antidepressive Wirkung entwickelt sich über 2–4 Wochen.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Akuter Harnverhalt; Prostatavergrösserung mit Restharnbildung",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Akutes Delir",
+      "ids": [
+        "delir"
+      ]
+    },
+    {
+      "text": "Unbehandeltes Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Verengung des Magenausgangs (Pylorusstenose) oder Darmlähmung (paralytischer Ileus)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere trizyklische Antidepressiva",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen: Herzrhythmus- und Reizleitungsstörungen, kürzlich erlittener Herzinfarkt, QT-Verlängerung, langsamer Puls, Kaliummangel",
+      "ids": [
+        "herzrhythmusstoerung",
+        "herzinfarkt",
+        "qt-verlaengerung",
+        "bradykardie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Störungen der Blutbildung in der Vorgeschichte",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Verwirrtheit, Delir, Stürze, Blutdruckabfall beim Aufstehen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer – gleichzeitig sowie innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr schwerer Reaktionen wie Serotoninsyndrom, Blutdruckkrise, hohes Fieber und Krampfanfälle."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Zentral dämpfende Mittel (Alkohol, Schlafmittel, Benzodiazepine, Opioide, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der Dämpfung bis zur Atemdämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, Antipsychotika, Makrolide, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – möglichst vermeiden, sonst EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Antiparkinsonmittel, Blasenmittel, Antihistaminika)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte anticholinerge Nebenwirkungen bis zu Verwirrtheit, Harnverhalt oder Darmlähmung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Der Trimipramin-Spiegel kann deutlich steigen – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere serotonerge Mittel (SSRI, SNRI, Triptane, Tramadol)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:triptane",
+        "tramadol"
+      ],
+      "effekt": "Serotoninsyndrom möglich – auf Fieber, Zittern, Unruhe achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sympathomimetika (z. B. Adrenalin, Noradrenalin)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Wirkung auf Blutdruck und Herz möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin und andere zentral wirkende Blutdrucksenker",
+      "ref": [
+        "clonidin",
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Die blutdrucksenkende Wirkung kann abgeschwächt werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "rifampicin"
+      ],
+      "effekt": "Der Trimipramin-Spiegel kann sinken – Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Ein Kaliummangel erhöht das Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Mundtrockenheit",
+      "Müdigkeit, Benommenheit",
+      "Schwindel, Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Verstopfung",
+      "Gewichtszunahme",
+      "Herzklopfen, Herzrasen (Tachykardie)",
+      "Zittern (Tremor)",
+      "Vermehrtes Schwitzen"
+    ],
+    "haeufig": [
+      "Sehstörungen (Akkommodationsstörungen)",
+      "Störungen beim Wasserlassen",
+      "Innere Unruhe, Kopfschmerzen",
+      "Durstgefühl",
+      "Libido- und Potenzstörungen",
+      "Übelkeit"
+    ],
+    "gelegentlich": [
+      "Harnverhalt",
+      "Verwirrtheit und Delir (vor allem bei älteren Menschen)",
+      "Hautausschlag, Juckreiz",
+      "Krampfanfälle",
+      "Wassereinlagerungen (Ödeme)"
+    ],
+    "selten": [
+      "Herzrhythmus- und Reizleitungsstörungen",
+      "Darmlähmung (paralytischer Ileus)",
+      "Leberfunktionsstörungen, Gelbsucht",
+      "Milchfluss (Galaktorrhö)",
+      "Kreislaufkollaps"
+    ],
+    "sehrSelten": [
+      "Agranulozytose und andere Blutbildveränderungen",
+      "Akutes Glaukom"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes",
+      "Hyponatriämie (Natriummangel)",
+      "Suizidgedanken und suizidales Verhalten",
+      "Absetzsymptome"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit nach ärztlicher Abwägung. Bei Einnahme bis zur Geburt sind beim Neugeborenen Entzugs- und Anpassungsstörungen möglich.",
+  "stillzeit": "Trimipramin geht in die Muttermilch über; während der Behandlung soll nicht gestillt werden.",
+  "hinweise": [
+    "Wegen der dämpfenden Wirkung die Hauptdosis am Abend einnehmen.",
+    "Kann die Fahrtüchtigkeit stark beeinträchtigen; Alkohol meiden.",
+    "Nicht abrupt absetzen, sondern schrittweise nach ärztlicher Anleitung reduzieren.",
+    "Regelmässig EKG, Blutdruck, Blutbild und Leberwerte kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

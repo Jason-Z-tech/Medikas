@@ -1,0 +1,52 @@
+{
+  "id": "tolterodin",
+  "name": "Tolterodin",
+  "synonyme": ["Tolterodintartrat", "Tolterodine", "Tolterodinum"],
+  "atc": ["G04BD07"],
+  "klasse": "Urologisches Spasmolytikum (Antimuskarinikum)",
+  "kurz": "Blasenmittel gegen starken Harndrang, häufiges Wasserlassen und Dranginkontinenz bei überaktiver Blase.",
+  "gruppen": ["anticholinerg", "qt-verlaengernd", "cyp2d6-substrate"],
+  "handelsnamen": ["Detrusitol", "Detrusitol SR"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten", "Retardkapseln"],
+  "indikationen": [
+    { "text": "Symptomatische Behandlung von Dranginkontinenz, häufigem Wasserlassen und imperativem Harndrang bei überaktiver Blase", "ids": ["reizblase"] }
+  ],
+  "wirkmechanismus": "Beruhigt die überaktive Blase, sodass sie mehr Urin speichern kann und der Harndrang nachlässt. Tolterodin ist ein kompetitiver Muskarinrezeptor-Antagonist, der im Körper stärker an der Blase als an den Speicheldrüsen wirkt. Es wird über CYP2D6 zum gleich stark wirksamen 5-Hydroxymethyl-Metaboliten (5-HMT) umgewandelt; bei Menschen mit wenig CYP2D6-Aktivität (langsame Metabolisierer) erfolgt der Abbau über CYP3A4, und der Tolterodin-Spiegel ist höher.",
+  "kontraindikationen": [
+    { "text": "Harnverhalt", "ids": ["harnverhalt"] },
+    { "text": "Nicht behandeltes oder unkontrolliertes Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
+    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] },
+    { "text": "Schwere Colitis ulcerosa, toxisches Megakolon", "ids": ["colitis-ulcerosa"] }
+  ],
+  "vorsicht": [
+    { "text": "Deutliche Abflussbehinderung der Blase (z. B. vergrösserte Prostata) mit Risiko eines Harnverhalts", "ids": ["prostatahyperplasie", "harnverhalt"] },
+    { "text": "Verengungen im Magen-Darm-Trakt (z. B. Pylorusstenose), verminderte Darmbewegung", "ids": ["darmverschluss", "verstopfung"] },
+    { "text": "Eingeschränkte Nieren- oder Leberfunktion: niedrigere Dosis", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "QT-Verlängerung (angeboren oder erworben), tiefes Kalium oder Magnesium, langsamer Puls, relevante Herzkrankheiten (Herzschwäche, Kardiomyopathie, Herzrhythmusstörungen)", "ids": ["qt-verlaengerung", "hypokaliaemie", "bradykardie", "herzinsuffizienz", "herzrhythmusstoerung"] },
+    { "text": "Autonome Neuropathie, Zwerchfellbruch", "ids": [] },
+    { "text": "Ältere Menschen und Demenz: Verwirrtheit und Verschlechterung der Demenzsymptome möglich", "ids": ["aeltere-patienten", "demenz"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, HIV-Proteasehemmer)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Bei langsamen CYP2D6-Metabolisierern stark erhöhte Tolterodin-Spiegel mit Gefahr einer QT-Verlängerung – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "QT-verlängernde Mittel (z. B. Antiarrhythmika Klasse IA und III wie Amiodaron, Sotalol)", "ref": ["gruppe:qt-verlaengernd", "gruppe:antiarrhythmika-klasse-iii"], "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – Vorsicht, EKG-Kontrolle erwägen.", "schwere": "mittel" },
+    { "text": "Andere anticholinerg wirkende Mittel", "ref": ["gruppe:anticholinerg"], "effekt": "Verstärkte Wirkung und Nebenwirkungen (Mundtrockenheit, Verstopfung, Harnverhalt, Verwirrtheit).", "schwere": "mittel" },
+    { "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin)", "ref": ["gruppe:starke-cyp2d6-hemmer"], "effekt": "Tolterodin-Spiegel steigt, der Spiegel des aktiven Metaboliten sinkt; die Gesamtwirkung ändert sich kaum.", "schwere": "leicht" },
+    { "text": "Prokinetika (Metoclopramid)", "ref": ["metoclopramid"], "effekt": "Gegenläufige Wirkung auf die Magen-Darm-Bewegung – beide Mittel können abgeschwächt werden.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Mundtrockenheit", "Kopfschmerzen"],
+    "haeufig": ["Bronchitis", "Schwindel, Schläfrigkeit, Kribbeln (Parästhesien)", "Trockene Augen, Sehstörungen (Akkommodationsstörungen)", "Drehschwindel", "Herzklopfen", "Verdauungsbeschwerden, Verstopfung, Bauchschmerzen, Blähungen, Erbrechen, Durchfall", "Schmerzen beim Wasserlassen, Harnverhalt", "Müdigkeit, Brustschmerzen, Wassereinlagerungen in den Beinen, Gewichtszunahme"],
+    "gelegentlich": ["Überempfindlichkeitsreaktionen", "Nervosität", "Gedächtnisstörungen", "Herzrasen, Herzrhythmusstörungen, Herzinsuffizienz", "Reflux (saures Aufstossen)"],
+    "unbekannt": ["Anaphylaktoide Reaktionen, Angioödem", "Verwirrtheit, Halluzinationen, Desorientierung", "Verschlechterung von Demenzsymptomen", "Gesichtsrötung (Flush)", "Trockene Haut"]
+  },
+  "schwangerschaft": "Nicht empfohlen – es liegen keine ausreichenden Daten vor; im Tierversuch zeigte sich Reproduktionstoxizität.",
+  "stillzeit": "Vermeiden – es ist nicht bekannt, ob Tolterodin in die Muttermilch übergeht.",
+  "hinweise": [
+    "Retardkapseln ganz schlucken, nicht zerkauen; Einnahme unabhängig von den Mahlzeiten.",
+    "Kann Sehstörungen, Schwindel und Müdigkeit verursachen: Vorsicht beim Autofahren.",
+    "Wirkung nach 2–3 Monaten ärztlich überprüfen lassen."
+  ],
+  "stand": "2026-10"
+}

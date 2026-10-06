@@ -1,0 +1,246 @@
+{
+  "id": "paclitaxel",
+  "name": "Paclitaxel",
+  "synonyme": [
+    "nab-Paclitaxel (an Albumin gebundenes Paclitaxel)"
+  ],
+  "atc": [
+    "L01CD01"
+  ],
+  "klasse": "Zytostatikum; Taxan (Mitosehemmer)",
+  "kurz": "Chemotherapie-Mittel aus der Gruppe der Taxane; u. a. gegen Brust-, Eierstock-, Lungen- und Bauchspeicheldrüsenkrebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "neuropathie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Taxol",
+    "Abraxane",
+    "Paclitaxel Accord",
+    "Paclitaxel Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung",
+    "Pulver zur Herstellung einer Infusionssuspension (an Albumin gebunden)"
+  ],
+  "indikationen": [
+    {
+      "text": "Eierstockkrebs, u. a. in Kombination mit einem Platinpräparat",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Brustkrebs: nach Operation (adjuvant) sowie bei fortgeschrittener oder metastasierter Erkrankung, auch mit Trastuzumab; an Albumin gebundenes Paclitaxel (Abraxane) bei metastasiertem Brustkrebs",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs (NSCLC), in Kombination mit einem Platinpräparat",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Abraxane: metastasierter Bauchspeicheldrüsenkrebs in Kombination mit Gemcitabin",
+      "ids": [
+        "bauchspeicheldruesenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Zellteilung, indem es das Zellskelett der Krebszellen «einfriert». Paclitaxel bindet an die β-Tubulin-Untereinheit der Mikrotubuli und stabilisiert sie, sodass sie nicht mehr abgebaut werden können. Die Mitosespindel verliert ihre Funktion, die Zellen bleiben in der G2/M-Phase stehen und sterben ab. Bei Abraxane ist Paclitaxel an Albumin-Nanopartikel gebunden und kommt ohne das allergieauslösende Lösungsmittel Macrogolglycerolricinoleat (Rizinusöl-Derivat) aus.",
+  "kontraindikationen": [
+    {
+      "text": "Neutrophile Granulozyten unter 1500/mm³ vor Behandlungsbeginn",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Macrogolglycerolricinoleat (Rizinusöl-Derivat; nur konventionelles Paclitaxel)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Überempfindlichkeitsreaktionen bei konventionellem Paclitaxel: Vorbehandlung mit Kortikosteroid und Antihistaminika obligatorisch",
+      "ids": [
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (mehr Nebenwirkungen; bei schwerer Leberinsuffizienz nicht anwenden)",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorbestehende Nervenschäden (periphere Neuropathie)",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen und Herzerkrankungen; in Kombination mit Doxorubicin oder Trastuzumab Herzfunktion überwachen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen; Pneumonitis besonders bei gleichzeitiger Strahlentherapie",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Alkoholkrankheit, Epilepsie: die konventionelle Infusionslösung enthält Ethanol",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "epilepsie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Unter der Chemotherapie geschwächte Abwehr – Gefahr einer Impfinfektion; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Doxorubicin",
+      "ref": [
+        "doxorubicin"
+      ],
+      "effekt": "Wird Paclitaxel zuerst gegeben, steigen die Doxorubicin-Spiegel – mehr Herzschäden und Neutropenie. Doxorubicin zuerst geben, kumulative Doxorubicin-Dosis begrenzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2C8- und CYP3A4-Hemmer (z. B. Gemfibrozil, Clopidogrel, Ketoconazol, Ritonavir)",
+      "ref": [
+        "gruppe:cyp2c8-hemmer",
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Paclitaxel-Spiegel – mehr Neutropenie und Nervenschäden. Vorsicht und enge Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C8- und CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Efavirenz)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tiefere Paclitaxel-Spiegel – Wirkung kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cisplatin",
+      "ref": [
+        "cisplatin"
+      ],
+      "effekt": "Paclitaxel vor Cisplatin geben: in umgekehrter Reihenfolge stärkere Knochenmarkhemmung (verminderte Paclitaxel-Ausscheidung).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trastuzumab",
+      "ref": [
+        "trastuzumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzschwäche – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende oder nervenschädigende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung bzw. Neuropathie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (konventionelle Infusionslösung enthält Ethanol)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Beeinträchtigung der Reaktionsfähigkeit möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung: Neutropenie, Anämie, Thrombozytopenie, Blutungen",
+      "Infektionen (v. a. Harn- und obere Atemwege)",
+      "Periphere Neuropathie (Kribbeln, Taubheit in Händen und Füssen)",
+      "Leichte Überempfindlichkeitsreaktionen (Hautrötung, Ausschlag)",
+      "Blutdruckabfall",
+      "Übelkeit, Erbrechen, Durchfall, Mukositis (Schleimhautentzündung)",
+      "Haarausfall",
+      "Gelenk- und Muskelschmerzen"
+    ],
+    "haeufig": [
+      "Bradykardie (langsamer Puls)",
+      "Vorübergehende Nagel- und Hautveränderungen",
+      "Reaktionen an der Injektionsstelle",
+      "Erhöhte Leberwerte (AST, alkalische Phosphatase)"
+    ],
+    "gelegentlich": [
+      "Schwere Überempfindlichkeitsreaktionen (Blutdruckabfall, Atemnot, Angioödem, generalisierte Nesselsucht)",
+      "Septischer Schock",
+      "Herzrhythmusstörungen, AV-Block, Synkope, Herzinfarkt, Kardiomyopathie",
+      "Bluthochdruck, Thrombose, Thrombophlebitis",
+      "Stark erhöhtes Bilirubin"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Pneumonie, Sepsis, febrile Neutropenie",
+      "Herzschwäche",
+      "Interstitielle Pneumonie, Lungenfibrose, Lungenembolie",
+      "Darmverschluss, Darmperforation, ischämische Kolitis, Pankreatitis",
+      "Motorische Neuropathie (Muskelschwäche)"
+    ],
+    "sehrSelten": [
+      "Akute myeloische Leukämie, myelodysplastisches Syndrom",
+      "Autonome Neuropathie (Darmlähmung, Blutdruckabfall beim Aufstehen), Krampfanfälle, Enzephalopathie",
+      "Sehnerv- und Sehstörungen, Hörverlust, Tinnitus",
+      "Vorhofflimmern",
+      "Lebernekrose, hepatische Enzephalopathie",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme"
+    ],
+    "unbekannt": [
+      "Tumorlyse-Syndrom",
+      "Makulaödem (Netzhautschwellung), Lichtblitze",
+      "Sklerodermie-artige Hautverhärtung",
+      "Kutaner Lupus erythematodes"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; in der Schwangerschaft nur bei zwingender Indikation. Frauen und Männer müssen während und je nach Präparat mehrere Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Vor konventionellem Paclitaxel ist eine Vorbehandlung mit Kortikosteroid und Antihistaminika nötig; Abraxane braucht keine und ist mit konventionellem Paclitaxel nicht austauschbar.",
+    "Die konventionelle Infusionslösung enthält Alkohol: nach der Infusion nicht Auto fahren, bis die Wirkung abgeklungen ist.",
+    "Kribbeln oder Taubheit in Händen und Füssen früh melden – eine Dosisanpassung kann bleibende Nervenschäden verhindern.",
+    "Blutbild vor jedem Zyklus; bei Fieber sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

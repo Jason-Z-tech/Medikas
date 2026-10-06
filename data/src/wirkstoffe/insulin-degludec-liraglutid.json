@@ -1,0 +1,217 @@
+{
+  "id": "insulin-degludec-liraglutid",
+  "name": "Insulin degludec + Liraglutid",
+  "synonyme": [
+    "IDegLira",
+    "Insulin degludec/Liraglutid"
+  ],
+  "kombinationAus": [
+    "insulin-degludec",
+    "liraglutid"
+  ],
+  "atc": [
+    "A10AE56"
+  ],
+  "klasse": "Fixe Kombination aus Basalinsulin (Insulinanalogon) und GLP-1-Rezeptoragonist",
+  "kurz": "Fixe Kombination aus ultralang wirkendem Basalinsulin und GLP-1-Agonist für Typ-2-Diabetes; einmal täglich gespritzt.",
+  "gruppen": [
+    "insuline",
+    "glp1-agonisten",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Xultophy"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen"
+  ],
+  "indikationen": [
+    {
+      "text": "Ungenügend eingestellter Typ-2-Diabetes bei Erwachsenen, zusätzlich zu Diät und Bewegung und in Kombination mit anderen blutzuckersenkenden Mitteln zum Einnehmen",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert zwei blutzuckersenkende Wirkprinzipien. Insulin degludec ist ein ultralang wirkendes Basalinsulin, das aus einem Depot unter der Haut gleichmässig über mehr als 24 Stunden freigesetzt wird. Liraglutid ahmt das Darmhormon GLP-1 nach: Es steigert blutzuckerabhängig die Insulinausschüttung, hemmt die Glukagonfreisetzung, verlangsamt die Magenentleerung und dämpft den Appetit. Dadurch sinkt der Blutzucker mit weniger Gewichtszunahme als unter Insulin allein.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Typ-1-Diabetes und diabetische Ketoazidose: nicht anwenden",
+      "ids": [
+        "diabetes-typ-1",
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Unterzuckerung (Hypoglykämie), besonders in Kombination mit Sulfonylharnstoffen",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Akute Pankreatitis: bei anhaltenden starken Bauchschmerzen absetzen und ärztlich abklären; nach bestätigter Pankreatitis nicht wieder beginnen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Schilddrüsenerkrankungen: Schilddrüsenprobleme (z. B. Kropf) wurden unter GLP-1-Agonisten vor allem bei vorbestehender Erkrankung beobachtet",
+      "ids": [
+        "struma"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen und diabetische Gastroparese: nicht empfohlen",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel durch Übelkeit, Erbrechen oder Durchfall vermeiden (Gefahr einer Verschlechterung der Nierenfunktion)",
+      "ids": [
+        "dehydratation",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz (NYHA IV): keine Erfahrungen, nicht empfohlen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Narkose oder tiefe Sedierung: Verzögerte Magenentleerung erhöht das Risiko, dass Mageninhalt in die Lunge gelangt – Behandlung vor Eingriffen angeben",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Gallensteine und Gallenblasenentzündung möglich",
+      "ids": [
+        "gallensteine"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere GLP-1-Rezeptoragonisten",
+      "ref": [
+        "gruppe:glp1-agonisten"
+      ],
+      "effekt": "Doppelte GLP-1-Wirkung, nicht untersucht – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sulfonylharnstoffe und andere Blutzuckersenker (z. B. Metformin, SGLT-2-Hemmer, Pioglitazon)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:sglt2-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung, Unterzuckerungsgefahr (v. a. mit Sulfonylharnstoffen) – Dosis anpassen und Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die Warnzeichen einer Unterzuckerung (z. B. Herzklopfen, Zittern) verschleiern und die Erholung verzögern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann die Blutzuckersenkung verstärken oder abschwächen; Unterzuckerungen auch Stunden später möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die den Blutzucker erhöhen (z. B. Kortison, Thiaziddiuretika, Schilddrüsenhormone, Sympathomimetika, Wachstumshormon, hormonale Verhütungsmittel)",
+      "ref": [
+        "gruppe:hyperglykaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:thiaziddiuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika",
+        "somatropin",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Höherer Insulinbedarf – Blutzucker kontrollieren und Dosis anpassen, auch beim Absetzen dieser Mittel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Bei Behandlungsbeginn INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "Flüssigkeitseinlagerung und Herzinsuffizienz möglich – auf Gewichtszunahme, Ödeme und Atemnot achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, MAO-Hemmer, hoch dosierte Salicylate, Sulfonamide, anabole Steroide",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:mao-hemmer",
+        "acetylsalicylsaeure",
+        "gruppe:sulfonamide",
+        "nandrolon"
+      ],
+      "effekt": "Können den Insulinbedarf senken – Unterzuckerungsgefahr, Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung)"
+    ],
+    "haeufig": [
+      "Übelkeit",
+      "Durchfall",
+      "Erbrechen",
+      "Verstopfung",
+      "Verdauungsbeschwerden, Bauchschmerzen, Blähungen",
+      "Verminderter Appetit",
+      "Reaktionen an der Einstichstelle",
+      "Erhöhte Lipase- und Amylasewerte im Blut"
+    ],
+    "gelegentlich": [
+      "Nesselsucht, Überempfindlichkeitsreaktionen",
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Aufstossen",
+      "Geschmacksstörung",
+      "Gallensteine, Gallenblasenentzündung",
+      "Erhöhter Puls"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Lipodystrophie und kutane Amyloidose an der Einstichstelle",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen. Bei Kinderwunsch oder Eintritt einer Schwangerschaft absetzen und auf Insulin umstellen.",
+  "stillzeit": "Mangels Erfahrungen während der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Einmal täglich, möglichst immer zur gleichen Tageszeit, unabhängig von den Mahlzeiten unter die Haut spritzen; die Dosis wird in Dosisschritten angegeben (höchstens 50 pro Tag).",
+    "Nicht zusammen mit anderen GLP-1-Agonisten anwenden.",
+    "Anzeichen einer Unterzuckerung kennen und stets Traubenzucker mitführen; vor dem Autofahren Blutzucker prüfen.",
+    "Übelkeit tritt vor allem zu Beginn auf; auf ausreichendes Trinken achten und anhaltende starke Bauchschmerzen sofort ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

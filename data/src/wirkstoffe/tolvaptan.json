@@ -1,0 +1,232 @@
+{
+  "id": "tolvaptan",
+  "name": "Tolvaptan",
+  "synonyme": [
+    "Tolvaptanum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C03XA01"
+  ],
+  "klasse": "Vasopressin-V2-Rezeptor-Antagonist (Aquaretikum)",
+  "kurz": "Lässt die Niere vermehrt Wasser ausscheiden; bei Natriummangel durch SIADH und zur Bremsung von Zystennieren (ADPKD).",
+  "gruppen": [
+    "diuretika",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "hepatotoxisch",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Samsca",
+    "Jinarc"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Natriummangel (Hyponatriämie) infolge Syndrom der inadäquaten ADH-Sekretion (SIADH) bei Erwachsenen (Samsca)",
+      "ids": [
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Verlangsamung von Zystenwachstum und Nierenfunktionsverlust bei autosomal-dominanter polyzystischer Nierenerkrankung (ADPKD) mit rasch fortschreitendem Verlauf bei Erwachsenen (Jinarc)",
+      "ids": [
+        "zystennieren"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lässt die Niere mehr Wasser ohne Salz ausscheiden. Tolvaptan blockiert selektiv den Vasopressin-V2-Rezeptor im Sammelrohr der Niere; dadurch werden weniger Wasserkanäle (Aquaporin-2) eingebaut und mehr freies Wasser ausgeschieden (Aquarese), während die Ausscheidung von Natrium und Kalium kaum zunimmt. So steigt der Natriumspiegel im Blut. Bei Zystennieren senkt die Blockade den zellulären cAMP-Spiegel, der das Wachstum der Zysten antreibt.",
+  "kontraindikationen": [
+    {
+      "text": "Anurie (fehlende Harnproduktion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel (Volumenmangel) und hypovoläme Hyponatriämie",
+      "ids": [
+        "dehydratation",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Hypernatriämie (zu hohes Natrium im Blut)",
+      "ids": []
+    },
+    {
+      "text": "Fehlendes Durstgefühl oder Unfähigkeit, auf Durst zu reagieren",
+      "ids": []
+    },
+    {
+      "text": "Erhöhte Leberwerte oder Zeichen einer Leberschädigung vor Behandlungsbeginn (Jinarc)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschäden: Tolvaptan kann schwere, teils lebensbedrohliche Leberschäden verursachen – Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Zu rascher Natriumanstieg (Gefahr eines osmotischen Demyelinisierungssyndroms), besonders bei sehr tiefem Natrium, Alkoholabhängigkeit oder Mangelernährung",
+      "ids": [
+        "hyponatriaemie",
+        "alkoholabhaengigkeit",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Eingeschränkter Zugang zu Wasser oder eingeschränkte Trinkfähigkeit (Gefahr der Austrocknung)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Harnabflussstörungen, z. B. Prostatavergrösserung (Gefahr eines akuten Harnverhalts)",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus (Blutzuckeranstieg möglich)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren (nicht zugelassen)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Tolvaptan-Spiegel steigt stark an (bis etwa 5-fach) – Kombination vermeiden bzw. Dosis deutlich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tolvaptan-Spiegel sinkt stark – Wirkverlust, Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Diltiazem, Erythromycin) und Grapefruitsaft",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Tolvaptan-Spiegel – Dosis anpassen; keinen Grapefruitsaft trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika)",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten"
+      ],
+      "effekt": "Erhöhtes Hyperkaliämierisiko – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und andere empfindliche P-gp-Substrate (z. B. Dabigatran)",
+      "ref": [
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel dieser Mittel kann steigen – Wirkung und ggf. Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hypertone Kochsalzlösung",
+      "ref": [
+        "natriumchlorid"
+      ],
+      "effekt": "Gefahr eines zu raschen Natriumanstiegs – gleichzeitige Anwendung nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Desmopressin",
+      "ref": [
+        "desmopressin"
+      ],
+      "effekt": "Tolvaptan schwächt die Wirkung von Desmopressin ab.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Erhöhtes Risiko für Flüssigkeitsmangel und Elektrolytstörungen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Starker Durst",
+      "Vermehrtes und nächtliches Wasserlassen (Polyurie, Nykturie)",
+      "Mundtrockenheit",
+      "Übelkeit (bei Hyponatriämie-Behandlung)",
+      "Kopfschmerzen, Schwindel, Müdigkeit und Durchfall (bei Zystennieren-Behandlung)"
+    ],
+    "haeufig": [
+      "Erhöhte Leberwerte",
+      "Hypernatriämie (zu hohes Natrium) und Flüssigkeitsmangel",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Hyperglykämie (erhöhter Blutzucker), Appetitlosigkeit",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen), Herzklopfen",
+      "Verstopfung, Bauchschmerzen, Verdauungsbeschwerden",
+      "Hautausschlag, Juckreiz",
+      "Gewichtsabnahme, Schlaflosigkeit"
+    ],
+    "gelegentlich": [
+      "Geschmacksstörungen",
+      "Anstieg des Bilirubins",
+      "Nierenfunktionsstörung (Kreatininanstieg)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Akutes Leberversagen",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Osmotisches Demyelinisierungssyndrom (Nervenschädigung) bei zu rascher Natriumkorrektur"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert; im Tierversuch fruchtschädigend. Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Die Behandlung einer Hyponatriämie wird im Spital begonnen; der Natriumspiegel wird in den ersten Tagen engmaschig kontrolliert.",
+    "Bei Jinarc vor Beginn und während der Behandlung regelmässig (anfangs monatlich) die Leberwerte kontrollieren; bei Müdigkeit, Appetitlosigkeit, Oberbauchschmerzen, dunklem Urin oder Gelbsucht sofort ärztlich melden.",
+    "Immer Wasser griffbereit haben und bei Durst trinken; keinen Grapefruitsaft trinken."
+  ],
+  "stand": "2026-10"
+}

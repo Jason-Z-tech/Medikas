@@ -1,0 +1,181 @@
+{
+  "id": "insulin-icodec",
+  "name": "Insulin icodec",
+  "synonyme": [
+    "Icodec",
+    "Wocheninsulin icodec"
+  ],
+  "atc": [
+    "A10AE07"
+  ],
+  "klasse": "Einmal wöchentlich wirkendes Basalinsulin-Analogon",
+  "kurz": "Basalinsulin für Erwachsene mit Diabetes, das nur einmal pro Woche gespritzt wird.",
+  "gruppen": [
+    "insuline",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Awiqli"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen"
+  ],
+  "indikationen": [
+    {
+      "text": "Diabetes mellitus bei Erwachsenen",
+      "ids": [
+        "diabetes",
+        "diabetes-typ-1",
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Deckt den Grundbedarf an Insulin (Basalinsulin) über eine ganze Woche und senkt so den Blutzucker. Insulin icodec trägt eine Fettsäure-Seitenkette, über die es sehr stark und umkehrbar an Albumin im Blut bindet; zudem bindet es schwächer an den Insulinrezeptor und wird dadurch langsamer abgebaut. So entsteht ein Speicher, aus dem gleichmässig wirksames Insulin freigesetzt wird (Halbwertszeit etwa eine Woche). Am Insulinrezeptor fördert es die Zuckeraufnahme in Muskel- und Fettzellen und hemmt die Zuckerbildung in der Leber.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Unterzuckerung (Hypoglykämie): wegen der langen Wirkdauer kann sie länger anhalten; Risiko bei ausgelassenen Mahlzeiten, körperlicher Anstrengung oder Alkohol",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Typ-1-Diabetes: häufiger Unterzuckerungen als mit täglichem Basalinsulin – Nutzen sorgfältig abwägen",
+      "ids": [
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung einer diabetischen Ketoazidose",
+      "ids": [
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion: Blutzucker engmaschig kontrollieren",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz, besonders in Kombination mit Pioglitazon (Flüssigkeitseinlagerung)",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Fieber, Infekte und andere Begleiterkrankungen verändern den Insulinbedarf",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Einstichstelle regelmässig wechseln: sonst Veränderungen des Unterhautfettgewebes oder kutane Amyloidose mit schlechterer Insulinwirkung",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, SGLT-2- und DPP-4-Hemmer)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:glp1-agonisten",
+        "gruppe:sglt2-hemmer",
+        "gruppe:dpp4-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung, Unterzuckerungsgefahr – Insulindosis anpassen und Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die Warnzeichen einer Unterzuckerung (z. B. Herzklopfen, Zittern) verschleiern und die Erholung verzögern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann die Blutzuckersenkung verstärken oder abschwächen; Unterzuckerungen auch Stunden später möglich – nur mässig und zusammen mit einer Mahlzeit trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die den Blutzucker erhöhen (z. B. Kortison, Thiaziddiuretika, Schilddrüsenhormone, Sympathomimetika, Wachstumshormon, hormonale Verhütungsmittel)",
+      "ref": [
+        "gruppe:hyperglykaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:thiaziddiuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika",
+        "somatropin",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Höherer Insulinbedarf – Blutzucker kontrollieren und Dosis anpassen, auch beim Absetzen dieser Mittel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "Flüssigkeitseinlagerung und Herzinsuffizienz möglich – auf Gewichtszunahme, Ödeme und Atemnot achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, MAO-Hemmer, hoch dosierte Salicylate, Sulfonamide, anabole Steroide",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:mao-hemmer",
+        "acetylsalicylsaeure",
+        "gruppe:sulfonamide",
+        "nandrolon"
+      ],
+      "effekt": "Können den Insulinbedarf senken – Unterzuckerungsgefahr, Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Octreotid und Lanreotid",
+      "ref": [
+        "octreotid",
+        "lanreotid"
+      ],
+      "effekt": "Können den Insulinbedarf erhöhen oder senken – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung)"
+    ],
+    "haeufig": [
+      "Reaktionen an der Einstichstelle (Rötung, Schwellung, Juckreiz, Bluterguss)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Lipodystrophie (Veränderungen des Unterhautfettgewebes an der Einstichstelle)",
+      "Kutane Amyloidose (Knoten unter der Haut an der Einstichstelle)"
+    ]
+  },
+  "schwangerschaft": "Keine Erfahrungen; aus Vorsicht möglichst nicht anwenden. Bei Kinderwunsch oder Schwangerschaft das weitere Vorgehen (z. B. Wechsel auf ein täglich gespritztes Insulin) ärztlich besprechen.",
+  "stillzeit": "Nicht bekannt, ob Insulin icodec in die Muttermilch übergeht; Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal pro Woche, immer am gleichen Wochentag, unter die Haut spritzen.",
+    "Eine vergessene Dosis so bald wie möglich nachholen; das weitere Vorgehen gemäss ärztlicher Anweisung bzw. Packungsbeilage.",
+    "Anzeichen einer Unterzuckerung kennen und stets Traubenzucker mitführen; vor dem Autofahren Blutzucker prüfen.",
+    "Die Umstellung von einem täglichen Basalinsulin erfolgt nach ärztlichem Schema; Blutzucker in dieser Zeit häufiger messen."
+  ],
+  "stand": "2026-10"
+}

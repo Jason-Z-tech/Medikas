@@ -1,0 +1,323 @@
+{
+  "id": "clozapin",
+  "name": "Clozapin",
+  "synonyme": [
+    "Clozapine"
+  ],
+  "atc": [
+    "N05AH02"
+  ],
+  "klasse": "Atypisches Antipsychotikum (Dibenzodiazepin)",
+  "kurz": "Antipsychotikum für Schizophrenie, wenn andere Mittel nicht wirken; auch bei Psychosen bei Parkinson. Regelmässige Blutbildkontrollen nötig.",
+  "gruppen": [
+    "antipsychotika",
+    "zns-daempfend",
+    "anticholinerg",
+    "krampfschwellensenkend",
+    "myelosuppressiv",
+    "qt-verlaengernd",
+    "blutdrucksenkend",
+    "hyperglykaemie-ausloesend",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Leponex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlungsresistente Schizophrenie (keine ausreichende Wirkung anderer Antipsychotika) oder schwere Bewegungsstörungen unter anderen Antipsychotika",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Psychosen bei Parkinson-Krankheit, wenn die übliche Behandlung versagt hat",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert psychotische Beschwerden auch dann, wenn andere Antipsychotika nicht wirken, und verursacht dabei kaum Bewegungsstörungen. Clozapin blockiert Dopamin-Rezeptoren (v. a. D4, schwächer D2) sowie stark Serotonin-5-HT2A-Rezeptoren. Zusätzlich hemmt es Histamin-H1-, Muskarin- und Alpha-1-Rezeptoren, was Müdigkeit, Verstopfung und Blutdruckabfall erklärt. Es wird hauptsächlich über CYP1A2 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Regelmässige Blutbildkontrollen nicht möglich",
+      "ids": []
+    },
+    {
+      "text": "Agranulozytose oder Neutropenie in der Vorgeschichte (ausser nach Chemotherapie), Knochenmarkerkrankungen",
+      "ids": [
+        "neutropenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Nicht kontrollierte Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Alkoholische oder andere toxische Psychosen, Vergiftungen, Koma",
+      "ids": [
+        "vergiftung",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Kreislaufkollaps oder Dämpfung des zentralen Nervensystems jeglicher Ursache",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Herzerkrankungen (z. B. Myokarditis)",
+      "ids": [
+        "niereninsuffizienz",
+        "kardiomyopathie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Aktive oder fortschreitende Lebererkrankung, Leberversagen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Paralytischer Ileus (Darmlähmung)",
+      "ids": [
+        "darmverschluss"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Fieber, Halsschmerzen oder grippeähnliche Beschwerden (mögliche Zeichen einer Agranulozytose): sofort Blutbild",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Herzbeschwerden, v. a. in den ersten 2 Monaten (Myokarditis, Kardiomyopathie)",
+      "ids": [
+        "kardiomyopathie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Verstopfung (Gefahr einer Darmlähmung)",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Diabetes, Übergewicht, erhöhte Blutfette",
+      "ids": [
+        "diabetes",
+        "adipositas",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Epilepsie in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Vergrösserte Prostata, Engwinkelglaukom (anticholinerge Wirkung)",
+      "ids": [
+        "prostatahyperplasie",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Rauchen: Rauchstopp kann den Spiegel stark erhöhen",
+      "ids": [
+        "rauchen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Arzneimittel mit erheblichem Agranulozytose-Risiko (z. B. Carbamazepin, Chloramphenicol, Sulfonamide wie Cotrimoxazol, Metamizol, Penicillamin, Zytostatika)",
+      "ref": [
+        "carbamazepin",
+        "chloramphenicol",
+        "gruppe:sulfonamide",
+        "sulfamethoxazol-trimethoprim",
+        "metamizol",
+        "penicillamin",
+        "gruppe:zytostatika"
+      ],
+      "grund": "Das Risiko einer lebensbedrohlichen Agranulozytose addiert sich."
+    },
+    {
+      "text": "Langwirksame Depot-Antipsychotika",
+      "ref": [],
+      "grund": "Können bei einer Agranulozytose nicht rasch aus dem Körper entfernt werden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Fluvoxamin und andere CYP1A2-Hemmer (z. B. Ciprofloxacin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Clozapin-Spiegel kann um ein Vielfaches steigen – Dosis reduzieren, Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rauchen und Rauchstopp",
+      "ref": [],
+      "effekt": "Tabakrauch beschleunigt den Abbau; nach einem Rauchstopp kann der Spiegel stark steigen (Krampfanfälle, starke Sedierung) – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine",
+      "ref": [
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Selten Kreislaufkollaps mit Atem- und Herzstillstand – nur mit Vorsicht, v. a. zu Behandlungsbeginn.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung und Atemdepression.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Verstopfung bis Darmlähmung, Harnverhalt, Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Phenytoin, Rifampicin) und Omeprazol",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "omeprazol"
+      ],
+      "effekt": "Clozapin-Spiegel sinkt – Wirkverlust möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Erhöhtes Risiko für malignes neuroleptisches Syndrom und neurotoxische Reaktionen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Weitere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht, EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel und Adrenalin",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "adrenalin"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall; Adrenalin kann paradox den Blutdruck senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Koffein",
+      "ref": [
+        "coffein"
+      ],
+      "effekt": "Viel Kaffee erhöht den Clozapin-Spiegel – Koffeinkonsum möglichst konstant halten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Sedierung",
+      "Schwindel",
+      "Tachykardie (Herzrasen)",
+      "Verstopfung",
+      "Hypersalivation (vermehrter Speichelfluss, v. a. nachts)"
+    ],
+    "haeufig": [
+      "Leukopenie, Neutropenie, Eosinophilie",
+      "Gewichtszunahme",
+      "Krampfanfälle, Muskelzuckungen",
+      "Kopfschmerzen, Zittern, Muskelsteife, Sitzunruhe",
+      "Orthostatische Hypotonie, Ohnmacht, Bluthochdruck, EKG-Veränderungen",
+      "Übelkeit, Erbrechen, Mundtrockenheit, Appetitlosigkeit",
+      "Erhöhte Leberwerte",
+      "Harninkontinenz, Harnverhalt, meist harmlose Temperaturerhöhung zu Beginn"
+    ],
+    "gelegentlich": [
+      "Agranulozytose (lebensbedrohlicher Mangel an weissen Blutkörperchen)",
+      "Malignes neuroleptisches Syndrom",
+      "Sprachstörungen",
+      "Stürze"
+    ],
+    "selten": [
+      "Myokarditis und Perikarditis (Entzündung von Herzmuskel oder Herzbeutel), Herzrhythmusstörungen",
+      "Kreislaufkollaps",
+      "Erhöhter Blutzucker, Diabetes",
+      "Venöse Thromboembolie",
+      "Aspiration, Atemdepression",
+      "Verwirrtheit, Delir, Unruhe",
+      "Hepatitis, Pankreatitis",
+      "Anämie"
+    ],
+    "sehrSelten": [
+      "Kardiomyopathie, Herzstillstand",
+      "Darmlähmung, Darmverschluss",
+      "Fulminante Lebernekrose (akutes Leberversagen)",
+      "Thrombozytopenie",
+      "Diabetische Ketoazidose, schwere Hyperglykämie",
+      "Spätdyskinesien",
+      "Priapismus",
+      "Interstitielle Nephritis"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung",
+      "Herzinfarkt",
+      "Lungenentzündung"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur nach sorgfältiger Abwägung. Bei Einnahme im letzten Drittel sind beim Neugeborenen Bewegungsstörungen und Entzugssymptome möglich; beim Wechsel von anderen Antipsychotika kann sich die Fruchtbarkeit normalisieren – wirksam verhüten.",
+  "stillzeit": "Clozapin geht in die Muttermilch über. Nicht stillen.",
+  "hinweise": [
+    "Blutbild in den ersten 18 Wochen wöchentlich, danach mindestens monatlich; bei Fieber, Halsschmerzen oder grippeähnlichen Beschwerden sofort ärztliche Kontrolle.",
+    "Verstopfung früh behandeln und melden – Gefahr einer lebensbedrohlichen Darmlähmung.",
+    "Rauchbeginn, Rauchstopp oder eine Änderung des Kaffeekonsums ärztlich mitteilen.",
+    "Nach einem Unterbruch von mehr als 2 Tagen nicht mit der alten Dosis weiterfahren, sondern neu einschleichen."
+  ],
+  "stand": "2026-10"
+}

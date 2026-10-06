@@ -1,0 +1,56 @@
+{
+  "id": "etonogestrel",
+  "name": "Etonogestrel",
+  "synonyme": ["3-Keto-Desogestrel", "Hormonstäbchen", "Verhütungsstäbchen"],
+  "atc": ["G03AC08"],
+  "klasse": "Gestagen (subdermales Implantat zur Verhütung)",
+  "kurz": "Hormonstäbchen unter der Haut des Oberarms, das bis zu drei Jahre vor einer Schwangerschaft schützt; enthält kein Östrogen.",
+  "gruppen": ["gestagene", "hormonale-kontrazeptiva"],
+  "handelsnamen": ["Implanon NXT", "NuvaRing (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Implantat (Hormonstäbchen zum Einlegen unter die Haut)"],
+  "indikationen": [
+    { "text": "Langzeitverhütung (Kontrazeption) bei Frauen im gebärfähigen Alter, bis zu 3 Jahre pro Implantat", "ids": ["verhuetung"] }
+  ],
+  "wirkmechanismus": "Verhindert eine Schwangerschaft vor allem, indem der Eisprung unterdrückt wird. Das Stäbchen gibt gleichmässig das Gestagen Etonogestrel ab, den aktiven Metaboliten von Desogestrel. Etonogestrel bindet an Progesteronrezeptoren, hemmt über die Hirnanhangdrüse den Eisprung auslösenden LH-Anstieg und verdickt den Schleim am Gebärmutterhals, sodass Spermien kaum durchdringen. Die Freisetzung nimmt über die Zeit langsam ab.",
+  "kontraindikationen": [
+    { "text": "Akute venöse Thrombose oder Embolie", "ids": ["thrombose", "lungenembolie"] },
+    { "text": "Bekannte oder vermutete hormonabhängige bösartige Tumoren (z. B. Brustkrebs)", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
+    { "text": "Gut- oder bösartige Lebertumoren, schwere Lebererkrankung, solange die Leberwerte nicht normal sind", "ids": ["leberkrebs", "leberinsuffizienz"] },
+    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] },
+    { "text": "Bestehende oder vermutete Schwangerschaft", "ids": ["schwangerschaft"] }
+  ],
+  "vorsicht": [
+    { "text": "Thrombose oder Embolie in der Vorgeschichte oder bei Ruhigstellung; tritt eine Thrombose auf, Implantat entfernen", "ids": ["thromboembolie-vorgeschichte"] },
+    { "text": "Brustkrebs-Risiko: leicht erhöhte Häufigkeit unter hormonaler Verhütung wird diskutiert", "ids": ["brustkrebs"] },
+    { "text": "Bluthochdruck: bei anhaltendem Anstieg Entfernung erwägen", "ids": ["hypertonie"] },
+    { "text": "Diabetes: Blutzucker in den ersten Monaten überwachen", "ids": ["diabetes"] },
+    { "text": "Depression in der Vorgeschichte; Stimmungsveränderungen ärztlich melden", "ids": ["depression"] },
+    { "text": "Starkes Übergewicht: tiefere Hormonspiegel, eine frühere Erneuerung kann erwogen werden", "ids": ["adipositas"] },
+    { "text": "Eileiterschwangerschaft in der Vorgeschichte; bei Unterbauchschmerzen und Ausbleiben der Blutung abklären", "ids": ["schwangerschaft"] },
+    { "text": "Neigung zu Chloasma (Pigmentflecken): Sonne meiden", "ids": ["sonnenbrand"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Topiramat, Efavirenz, Johanniskraut)", "ref": ["gruppe:enzyminduktoren-hormone", "gruppe:cyp3a4-induktoren"], "effekt": "Etonogestrel wird schneller abgebaut – Verhütungsschutz unsicher. Während der Einnahme und 28 Tage danach zusätzlich Kondom; bei Langzeitbehandlung eine andere Methode (z. B. Kupferspirale) wählen.", "schwere": "schwer" },
+    { "text": "HIV-Mittel (Proteasehemmer mit Ritonavir oder Cobicistat, NNRTI wie Efavirenz, Nevirapin)", "ref": ["gruppe:hiv-proteasehemmer", "gruppe:nnrti", "ritonavir", "cobicistat"], "effekt": "Hormonspiegel können sinken oder steigen – Verhütungsschutz ärztlich überprüfen lassen.", "schwere": "mittel" },
+    { "text": "Ulipristal (ellaOne)", "ref": ["ulipristal"], "effekt": "Gegenseitige Wirkungsabschwächung; nach Ulipristal frühestens nach 5 Tagen mit hormonaler Verhütung beginnen und bis zur nächsten Regel Kondom verwenden.", "schwere": "mittel" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Hormonale Verhütungsmittel können den Ciclosporin-Spiegel erhöhen – Spiegel kontrollieren.", "schwere": "leicht" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Etonogestrel-Spiegel möglich; meist ohne klinische Bedeutung.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Unregelmässige Blutungen (seltener, häufiger, länger oder ausbleibend)", "Kopfschmerzen", "Akne", "Brustspannen, Brustschmerzen", "Gewichtszunahme", "Scheideninfektion"],
+    "haeufig": ["Stimmungsschwankungen, depressive Verstimmung, Nervosität, verminderte Libido", "Gesteigerter Appetit, Gewichtsabnahme", "Schwindel, Hitzewallungen", "Bauchschmerzen, Übelkeit, Blähungen", "Haarausfall", "Schmerzhafte Regelblutung, Eierstockzysten", "Schmerzen oder Reaktionen an der Einlagestelle", "Müdigkeit, grippeähnliche Beschwerden"],
+    "gelegentlich": ["Angst, Schlaflosigkeit, Schläfrigkeit, Migräne", "Erbrechen, Verstopfung, Durchfall", "Juckreiz, Hautausschlag, vermehrte Behaarung", "Rücken-, Gelenk- und Muskelschmerzen", "Blasenentzündung, Beschwerden beim Wasserlösen", "Scheidenausfluss, Brustvergrösserung, Absonderung aus der Brust", "Wassereinlagerungen (Ödeme), Fieber"],
+    "unbekannt": ["Überempfindlichkeitsreaktionen, Nesselsucht, Angioödem", "Blutdruckanstieg", "Chloasma (Pigmentflecken)", "Wanderung des Implantats (selten bis in Blutgefässe oder Lunge), nicht tastbares Implantat", "Nerven- oder Gefässverletzung beim Einlegen oder Entfernen", "Blutgerinnsel (Thrombose, Embolie) in Einzelfällen"]
+  },
+  "schwangerschaft": "Kontraindiziert; bei Eintritt einer Schwangerschaft das Implantat entfernen. Eine versehentliche Exposition erhöht das Fehlbildungsrisiko nach bisherigen Daten nicht.",
+  "stillzeit": "Erlaubt: Milchmenge und -qualität werden nicht beeinträchtigt; geringe Mengen gehen in die Muttermilch über. Einlage in der Regel ab der 4. Woche nach der Geburt.",
+  "hinweise": [
+    "Das Stäbchen wird von einer geschulten Ärztin oder einem Arzt eingelegt und spätestens nach 3 Jahren entfernt bzw. ersetzt; es sollte unter der Haut tastbar sein.",
+    "Das Blutungsmuster ist nicht vorhersehbar und kann sich im Verlauf ändern.",
+    "Ist das Implantat nicht tastbar, bis zur Bestätigung der richtigen Lage zusätzlich verhüten.",
+    "Schützt nicht vor HIV und anderen sexuell übertragbaren Infektionen."
+  ],
+  "stand": "2026-10"
+}

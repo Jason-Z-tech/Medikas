@@ -1,0 +1,44 @@
+{
+  "id": "clotrimazol",
+  "name": "Clotrimazol",
+  "synonyme": ["Clotrimazole", "Clotrimazolum"],
+  "atc": ["D01AC01", "G01AF02"],
+  "klasse": "Imidazol-Antimykotikum (zur Anwendung auf der Haut und in der Scheide)",
+  "kurz": "Pilzmittel zum Auftragen auf die Haut und zur Behandlung von Scheidenpilz.",
+  "gruppen": [],
+  "handelsnamen": ["Canesten", "Gyno-Canesten", "Imazol"],
+  "abgabe": ["D"],
+  "darreichung": ["Creme", "Lösung", "Paste", "Vaginaltabletten", "Vaginalcreme"],
+  "indikationen": [
+    { "text": "Pilzinfektionen der Haut durch Dermatophyten, Hefen (Candida) oder Schimmelpilze, z. B. Fusspilz, Pilzinfektionen in Hautfalten oder im Windelbereich", "ids": ["hautpilz"] },
+    { "text": "Pityriasis versicolor (Kleienpilzflechte) und Erythrasma", "ids": ["hautpilz"] },
+    { "text": "Scheidenpilz (vaginale Candidose) sowie Candida-Infektion von Eichel und Vorhaut (z. B. Partnerbehandlung)", "ids": ["vaginalinfektion", "hautpilz"] }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Pilzen, indem es den Aufbau ihrer Zellmembran stört. Clotrimazol blockiert das pilzeigene Enzym Lanosterol-14-alpha-Demethylase (ein Cytochrom-P450-Enzym) und damit die Bildung von Ergosterol, dem wichtigsten Baustein der Pilzzellmembran. Die Membran wird durchlässig; in niedriger Konzentration wirkt Clotrimazol wachstumshemmend (fungistatisch), in hoher abtötend (fungizid). Es wirkt gegen Dermatophyten, Hefen und Schimmelpilze sowie gegen einige grampositive Bakterien (z. B. Erreger des Erythrasmas). Auf Haut oder Schleimhaut aufgetragen gelangt nur sehr wenig Wirkstoff ins Blut.",
+  "vorsicht": [
+    { "text": "Erstmals auftretender Scheidenpilz, mehr als 4 Infektionen pro Jahr, Fieber, Unterbauch- oder Rückenschmerzen, übelriechender Ausfluss oder Blutungen: ärztlich abklären lassen", "ids": ["vaginalinfektion"] },
+    { "text": "Häufig wiederkehrende Pilzinfektionen bei Diabetes oder geschwächtem Immunsystem: Ursache ärztlich abklären", "ids": ["diabetes", "immunsuppression"] },
+    { "text": "Schwangerschaft: nur nach ärztlicher Rücksprache; Vaginaltabletten ohne Applikator einführen", "ids": ["schwangerschaft"] }
+  ],
+  "interaktionen": [
+    { "text": "Latex-Kondome und Diaphragmen (bei Anwendung in der Scheide)", "ref": [], "effekt": "Bestandteile der Vaginalpräparate können Latex schädigen und die Verhütungssicherheit vermindern – während und mindestens 5 Tage nach der Behandlung zusätzlich anders verhüten.", "schwere": "mittel" },
+    { "text": "Tacrolimus oder Sirolimus zum Einnehmen (bei Anwendung in der Scheide)", "ref": ["tacrolimus", "sirolimus"], "effekt": "Spiegel von Tacrolimus bzw. Sirolimus können steigen – auf Zeichen einer Überdosierung achten, bei Bedarf Spiegel bestimmen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Haut: Rötung, Brennen, Stechen, Juckreiz, Reizung, Schuppung, Bläschen, Schwellung",
+      "Scheide: Brennen, Juckreiz, Rötung, Schwellung, Beschwerden, Ausschlag",
+      "Unterleibsschmerzen, vaginale Blutungen",
+      "Allergische Reaktionen bis zu Kreislaufkollaps (Synkope, Blutdruckabfall), Atemnot, Nesselsucht"
+    ]
+  },
+  "schwangerschaft": "Kann nach ärztlicher Rücksprache angewendet werden (sehr geringe Aufnahme ins Blut). Vaginaltabletten in der Schwangerschaft ohne Applikator einführen.",
+  "stillzeit": "Anwendung möglich; nicht im Brustbereich auftragen bzw. die Haut vor dem Stillen gründlich reinigen.",
+  "hinweise": [
+    "Hautpilz: nach Abklingen der Beschwerden noch etwa 2 Wochen weiterbehandeln, um Rückfälle zu vermeiden.",
+    "Scheidenpilz: abends tief in die Scheide einführen; die Behandlung nicht während der Menstruation durchführen. Den Partner bei Beschwerden mitbehandeln.",
+    "Latex-Kondome und Diaphragmen sind während und bis mindestens 5 Tage nach vaginaler Anwendung nicht sicher.",
+    "Nicht in die Augen bringen und nicht einnehmen; Handtücher und Wäsche häufig wechseln und heiss waschen."
+  ],
+  "stand": "2026-10"
+}

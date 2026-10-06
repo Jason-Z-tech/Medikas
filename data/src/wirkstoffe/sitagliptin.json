@@ -1,0 +1,48 @@
+{
+  "id": "sitagliptin",
+  "name": "Sitagliptin",
+  "synonyme": ["Sitagliptinphosphat", "Sitagliptin phosphate", "Sitagliptinum"],
+  "atc": ["A10BH01", "A10BD07"],
+  "klasse": "DPP-4-Hemmer (Gliptin, orales Antidiabetikum)",
+  "kurz": "Tablette gegen Typ-2-Diabetes; verstärkt körpereigene Darmhormone, die nach dem Essen Insulin freisetzen. Allein kaum Unterzuckerungen.",
+  "gruppen": ["dpp4-hemmer"],
+  "handelsnamen": ["Januvia", "Janumet (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Typ-2-Diabetes bei Erwachsenen, ergänzend zu Ernährung und Bewegung: allein (wenn Metformin ungeeignet ist) oder kombiniert mit anderen Blutzuckersenkern einschliesslich Insulin", "ids": ["diabetes-typ-2", "diabetes"] }
+  ],
+  "wirkmechanismus": "Verstärkt die Wirkung körpereigener Darmhormone, die nach dem Essen die Insulinausschüttung anregen. Sitagliptin hemmt selektiv das Enzym Dipeptidylpeptidase-4 (DPP-4), das die Inkretine GLP-1 und GIP rasch abbaut; deren aktive Spiegel steigen dadurch auf das Zwei- bis Dreifache. Die Folge ist eine blutzuckerabhängige Steigerung der Insulinfreisetzung und eine geringere Glukagonausschüttung – bei normalem Blutzucker lässt die Wirkung nach, daher allein kaum Unterzuckerungen. Sitagliptin wird überwiegend unverändert über die Nieren ausgeschieden.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen; Vorsicht bei Pankreatitis in der Vorgeschichte", "ids": ["pankreatitis"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosis reduzieren, Nierenfunktion regelmässig kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr, deren Dosis eventuell senken", "ids": ["hypoglykaemie"] },
+    { "text": "Schwere Überempfindlichkeitsreaktionen (Anaphylaxie, Angioödem, schwere Hautreaktionen) möglich – sofort absetzen", "ids": ["anaphylaxie", "angiooedem", "schwere-hautreaktion"] },
+    { "text": "Bullöses Pemphigoid (blasenbildende Hauterkrankung): bei Blasen auf der Haut ärztlich abklären", "ids": ["pemphigus"] },
+    { "text": "Schwere Leberinsuffizienz: keine Erfahrungen", "ids": ["schwere-leberinsuffizienz"] },
+    { "text": "Nicht geeignet bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Mehr Unterzuckerungen – Dosis von Insulin oder Sulfonylharnstoff eventuell senken.", "schwere": "mittel" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel steigt leicht – bei Risikopatienten für eine Digoxin-Vergiftung Spiegel überwachen.", "schwere": "leicht" },
+    { "text": "Ciclosporin und starke CYP3A4-Hemmer (z. B. Ketoconazol, Ritonavir, Clarithromycin)", "ref": ["ciclosporin", "gruppe:starke-cyp3a4-hemmer"], "effekt": "Können den Sitagliptin-Spiegel erhöhen, vor allem bei schwerer Niereninsuffizienz – meist ohne klinische Bedeutung.", "schwere": "leicht" },
+    { "text": "Blutzuckererhöhende Mittel (z. B. Glukokortikoide, Thiazid-Diuretika)", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:thiaziddiuretika"], "effekt": "Können die Blutzuckersenkung abschwächen – Blutzucker kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Hypoglykämie (Unterzuckerung), vor allem in Kombination mit Sulfonylharnstoff oder Insulin", "Kopfschmerzen", "In Kombination mit Metformin: Übelkeit, Blähungen", "In Kombination mit Pioglitazon: periphere Ödeme (Wassereinlagerungen)"],
+    "gelegentlich": ["Schwindel", "Verstopfung", "Juckreiz"],
+    "selten": ["Thrombozytopenie (Mangel an Blutplättchen)"],
+    "unbekannt": ["Überempfindlichkeitsreaktionen einschliesslich Anaphylaxie, Angioödem, Ausschlag, Nesselsucht und kutaner Vaskulitis", "Schwere Hautreaktionen einschliesslich Stevens-Johnson-Syndrom", "Bullöses Pemphigoid (blasenbildende Hauterkrankung)", "Akute Pankreatitis, auch hämorrhagisch oder nekrotisierend mit tödlichem Verlauf", "Interstitielle Lungenerkrankung", "Gelenk-, Muskel- und Rückenschmerzen", "Eingeschränkte Nierenfunktion, akutes Nierenversagen", "Erbrechen"]
+  },
+  "schwangerschaft": "Nicht anwenden: Es liegen keine ausreichenden Erfahrungen vor; in der Schwangerschaft wird Insulin bevorzugt.",
+  "stillzeit": "Nicht anwenden: Es ist nicht bekannt, ob Sitagliptin beim Menschen in die Muttermilch übergeht (bei Ratten ja).",
+  "hinweise": [
+    "Einmal täglich unabhängig von den Mahlzeiten einnehmen.",
+    "Bei anhaltenden, starken Bauchschmerzen, eventuell in den Rücken ausstrahlend, sofort ärztlich abklären lassen (mögliche Bauchspeicheldrüsenentzündung).",
+    "Nierenfunktion vor Beginn und regelmässig kontrollieren lassen, da die Dosis davon abhängt.",
+    "Allein eingenommen kaum Unterzuckerungen; in Kombination mit Sulfonylharnstoff oder Insulin kann eine Unterzuckerung die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

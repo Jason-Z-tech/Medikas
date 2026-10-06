@@ -1,0 +1,67 @@
+{
+  "id": "enalapril",
+  "name": "Enalapril",
+  "synonyme": ["Enalaprilmaleat", "Enalapril maleate", "Enalaprilat (Wirkform)"],
+  "atc": ["C09AA02"],
+  "klasse": "ACE-Hemmer (Prodrug, Wirkform Enalaprilat)",
+  "kurz": "Blutdrucksenker aus der Gruppe der ACE-Hemmer; auch zur Behandlung und Vorbeugung von Herzschwäche.",
+  "gruppen": ["ace-hemmer", "raas-hemmer", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "lithium-spiegel-erhoehend", "teratogen"],
+  "handelsnamen": ["Reniten", "Co-Reniten (Kombi)", "Zanipress (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] },
+    { "text": "Symptomatische Herzschwäche (Herzinsuffizienz)", "ids": ["herzinsuffizienz"] },
+    { "text": "Vorbeugung einer symptomatischen Herzschwäche bei eingeschränkter Pumpfunktion der linken Herzkammer ohne Beschwerden (Auswurffraktion 35 % oder weniger)", "ids": ["herzinsuffizienz"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Bildung des gefässverengenden Hormons Angiotensin II blockiert. Enalapril ist ein Prodrug, das in der Leber zu Enalaprilat aktiviert wird; dieses hemmt das Angiotensin-Konversionsenzym (ACE). Dadurch sinken Angiotensin II und Aldosteron: Die Gefässe weiten sich, die Niere scheidet mehr Salz und Wasser aus, und Herz und Gefässe werden langfristig entlastet. Weil ACE auch Bradykinin abbaut, steigt dessen Spiegel an – das erklärt Reizhusten und Angioödeme.",
+  "kontraindikationen": [
+    { "text": "Angioödem (Schwellung von Gesicht, Zunge, Rachen) unter einem früheren ACE-Hemmer sowie erbliches oder idiopathisches Angioödem", "ids": ["angiooedem"] },
+    { "text": "2. und 3. Schwangerschaftsdrittel", "ids": ["schwangerschaft"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion, beidseitige Nierenarterienstenose oder Stenose bei Einzelniere, nach Nierentransplantation", "ids": ["niereninsuffizienz", "transplantation"] },
+    { "text": "Flüssigkeits- oder Salzmangel (Entwässerungsmittel, Durchfall, Erbrechen, Dialyse): starker Blutdruckabfall zu Beginn möglich", "ids": ["dehydratation", "hypotonie"] },
+    { "text": "Aorten- oder Mitralklappenstenose, hypertrophe Kardiomyopathie", "ids": ["herzklappenerkrankung", "kardiomyopathie"] },
+    { "text": "Risiko für Hyperkaliämie (Diabetes, Nierenschwäche, Austrocknung, kaliumsparende Mittel)", "ids": ["hyperkaliaemie", "diabetes"] },
+    { "text": "Kollagenosen (z. B. Lupus, Sklerodermie) oder immunsuppressive Behandlung: Neutropenie bzw. Agranulozytose möglich – Blutbild kontrollieren", "ids": ["lupus", "neutropenie"] },
+    { "text": "Lebererkrankung: selten cholestatische Gelbsucht bis Leberversagen – bei Gelbsucht absetzen", "ids": ["leberinsuffizienz"] },
+    { "text": "Desensibilisierung gegen Insektengift, LDL-Apherese oder Dialyse mit High-Flux-Membranen: lebensbedrohliche allergieähnliche Reaktionen möglich", "ids": ["allergie", "anaphylaxie"] },
+    { "text": "Operation oder Narkose: Blutdruckabfall möglich – Anästhesie informieren", "ids": ["operation", "anaesthesie"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Sacubitril/Valsartan (Entresto)", "ref": ["sacubitril-valsartan"], "grund": "Stark erhöhtes Risiko für Angioödeme; Enalapril frühestens 36 Stunden nach der letzten Dosis Sacubitril/Valsartan beginnen (und umgekehrt)." },
+    { "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)", "ref": ["aliskiren"], "grund": "Doppelte Hemmung des Renin-Angiotensin-Systems – erhöhtes Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen." }
+  ],
+  "interaktionen": [
+    { "text": "Kaliumsparende Diuretika, Spironolacton/Eplerenon, Kaliumpräparate und kaliumhaltige Salzersatzmittel, Trimethoprim (Cotrimoxazol), Heparin, Ciclosporin, Tacrolimus", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten", "gruppe:kaliumpraeparate", "sulfamethoxazol-trimethoprim", "heparin", "ciclosporin", "tacrolimus"], "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.", "schwere": "schwer" },
+    { "text": "Sartane und Aliskiren (doppelte RAAS-Hemmung)", "ref": ["gruppe:sartane", "aliskiren"], "effekt": "Mehr Hyperkaliämie, Blutdruckabfall und Nierenversagen – nicht empfohlen; bei diabetischer Nierenerkrankung ACE-Hemmer und Sartan nicht kombinieren.", "schwere": "schwer" },
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigen (Vergiftungsgefahr) – Kombination meiden oder Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "NSAR einschliesslich COX-2-Hemmer", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Abgeschwächte Blutdrucksenkung; Risiko für akutes Nierenversagen und Hyperkaliämie, besonders bei älteren oder ausgetrockneten Menschen – ausreichend trinken, Nierenwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Diuretika", "ref": ["gruppe:diuretika"], "effekt": "Starker Blutdruckabfall zu Behandlungsbeginn möglich, besonders bei Salz- oder Flüssigkeitsmangel.", "schwere": "mittel" },
+    { "text": "mTOR-Hemmer (Sirolimus, Everolimus, Temsirolimus), Gliptine (DPP-4-Hemmer) und Racecadotril", "ref": ["gruppe:mtor-hemmer", "gruppe:dpp4-hemmer", "racecadotril"], "effekt": "Erhöhtes Risiko für Angioödeme – auf Schwellungen achten.", "schwere": "mittel" },
+    { "text": "Alteplase (Gerinnsel-auflösende Therapie)", "ref": ["alteplase"], "effekt": "Erhöhtes Risiko für Angioödeme.", "schwere": "mittel" },
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Verstärkte Blutzuckersenkung, besonders in den ersten Wochen und bei Nierenschwäche – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Allopurinol, Zytostatika, Immunsuppressiva, systemische Kortikosteroide", "ref": ["allopurinol", "gruppe:zytostatika", "gruppe:immunsuppressiv"], "effekt": "Erhöhtes Risiko für Leukopenie (Mangel an weissen Blutkörperchen) – Blutbild kontrollieren.", "schwere": "mittel" },
+    { "text": "Nitrate, trizyklische Antidepressiva, Antipsychotika, Narkosemittel", "ref": ["gruppe:nitrate", "gruppe:trizyklische-antidepressiva", "gruppe:antipsychotika"], "effekt": "Verstärkter Blutdruckabfall.", "schwere": "leicht" },
+    { "text": "Goldinjektionen (Natriumaurothiomalat)", "ref": [], "effekt": "Selten nitritoide Reaktionen (Gesichtsrötung, Übelkeit, Erbrechen, Blutdruckabfall).", "schwere": "leicht" },
+    { "text": "Sympathomimetika", "ref": ["gruppe:sympathomimetika"], "effekt": "Können die blutdrucksenkende Wirkung abschwächen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Schwindel", "Trockener Reizhusten", "Übelkeit", "Verschwommenes Sehen", "Schwäche (Asthenie)"],
+    "haeufig": ["Kopfschmerzen, Depression", "Hypotonie (tiefer Blutdruck), auch beim Aufstehen; Synkope (Ohnmacht)", "Brustschmerzen, Herzrhythmusstörungen, Angina pectoris, beschleunigter Puls", "Atemnot", "Durchfall, Bauchschmerzen, Geschmacksveränderungen", "Hautausschlag; Überempfindlichkeit mit Angioödem (Schwellung von Gesicht, Lippen, Zunge, Rachen)", "Müdigkeit", "Hyperkaliämie (erhöhtes Kalium), Kreatininanstieg"],
+    "gelegentlich": ["Anämie (Blutarmut)", "Hypoglykämie (Unterzuckerung)", "Verwirrtheit, Schläfrigkeit, Schlaflosigkeit, Kribbeln, Ohrensausen", "Herzinfarkt oder Schlaganfall (infolge starken Blutdruckabfalls bei Risikopatienten)", "Pankreatitis (Bauchspeicheldrüsenentzündung), Ileus, Magengeschwür, Erbrechen", "Nierenfunktionsstörung, Nierenversagen, Eiweiss im Urin", "Juckreiz, Nesselsucht, Haarausfall, vermehrtes Schwitzen, Erektionsstörungen", "Hyponatriämie (Natriummangel), Muskelkrämpfe"],
+    "selten": ["Neutropenie, Agranulozytose, Thrombozytopenie, Knochenmarkdepression", "Leberversagen, Hepatitis, cholestatische Gelbsucht", "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme, Pemphigus", "Raynaud-Syndrom, Lungeninfiltrate, eosinophile Pneumonie", "Autoimmunerkrankungen, Lymphknotenschwellung", "Entzündungen der Mundschleimhaut und Zunge"],
+    "sehrSelten": ["Intestinales Angioödem (Schwellung der Darmwand mit Bauchschmerzen)"],
+    "unbekannt": ["SIADH (Syndrom der inadäquaten ADH-Sekretion)"]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen; im 2. und 3. Drittel kontraindiziert, da fruchtschädigend (Nierenschäden, Fruchtwassermangel, verzögerte Schädelverknöcherung). Bei Kinderwunsch oder festgestellter Schwangerschaft rasch ärztlich auf ein anderes Mittel umstellen.",
+  "stillzeit": "Geht in sehr geringen Mengen in die Muttermilch über. In den ersten Wochen nach der Geburt und bei Frühgeborenen nicht empfohlen; bei älteren Säuglingen nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Bei Schwellung von Gesicht, Lippen, Zunge oder Rachen oder bei Atemnot sofort den Notruf wählen (Angioödem, auch nach langer Einnahme möglich).",
+    "Ein anhaltender trockener Reizhusten ist eine typische Nebenwirkung – ärztlich besprechen, nicht eigenmächtig absetzen.",
+    "Kalium und Nierenwerte regelmässig kontrollieren; kaliumhaltige Salzersatzmittel und Kaliumpräparate nur nach ärztlicher Rücksprache.",
+    "Bei starkem Durchfall, Erbrechen oder Flüssigkeitsmangel ärztlich klären, ob die Einnahme vorübergehend pausiert werden soll."
+  ],
+  "stand": "2026-10"
+}

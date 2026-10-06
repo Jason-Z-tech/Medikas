@@ -1,0 +1,200 @@
+{
+  "id": "insulin-glargin-lixisenatid",
+  "name": "Insulin glargin + Lixisenatid",
+  "synonyme": [
+    "iGlarLixi",
+    "Insulin glargin/Lixisenatid"
+  ],
+  "kombinationAus": [
+    "insulin-glargin"
+  ],
+  "atc": [
+    "A10AE54"
+  ],
+  "klasse": "Fixe Kombination aus Basalinsulin (Insulinanalogon) und GLP-1-Rezeptoragonist",
+  "kurz": "Fixe Kombination aus Basalinsulin und GLP-1-Agonist für Typ-2-Diabetes; einmal täglich vor einer Mahlzeit gespritzt.",
+  "gruppen": [
+    "insuline",
+    "glp1-agonisten",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Suliqua"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen"
+  ],
+  "indikationen": [
+    {
+      "text": "Ungenügend eingestellter Typ-2-Diabetes bei Erwachsenen, zusätzlich zu Diät und Bewegung und in Kombination mit Metformin (mit oder ohne SGLT-2-Hemmer)",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert zwei blutzuckersenkende Wirkprinzipien. Insulin glargin ist ein lang wirkendes Insulin, das unter der Haut feine Kristalle bildet und gleichmässig über etwa 24 Stunden freigesetzt wird; es senkt vor allem den Nüchternblutzucker. Lixisenatid ahmt das Darmhormon GLP-1 nach: Es steigert blutzuckerabhängig die Insulinausschüttung, hemmt die Glukagonfreisetzung und verlangsamt die Magenentleerung, was besonders den Blutzuckeranstieg nach der Mahlzeit dämpft.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Typ-1-Diabetes und diabetische Ketoazidose: nicht anwenden",
+      "ids": [
+        "diabetes-typ-1",
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Unterzuckerung (Hypoglykämie), besonders in Kombination mit Sulfonylharnstoffen",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Akute Pankreatitis: bei anhaltenden starken Bauchschmerzen absetzen und ärztlich abklären; nach bestätigter Pankreatitis nicht wieder beginnen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Schwere Magen-Darm-Erkrankungen wie Gastroparese (stark verzögerte Magenentleerung): nicht empfohlen",
+      "ids": []
+    },
+    {
+      "text": "Schwere Niereninsuffizienz und Dialyse: nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel durch Übelkeit, Erbrechen oder Durchfall vermeiden (Gefahr einer Verschlechterung der Nierenfunktion)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Narkose oder tiefe Sedierung: Verzögerte Magenentleerung erhöht das Risiko, dass Mageninhalt in die Lunge gelangt – Behandlung vor Eingriffen angeben",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Zwei Pens mit unterschiedlichen Dosisbereichen: Verwechslung vermeiden, vor jeder Injektion das Etikett prüfen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere GLP-1-Rezeptoragonisten",
+      "ref": [
+        "gruppe:glp1-agonisten"
+      ],
+      "effekt": "Doppelte GLP-1-Wirkung, nicht untersucht – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sulfonylharnstoffe und andere Blutzuckersenker (z. B. Metformin, SGLT-2-Hemmer)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:sglt2-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung, Unterzuckerungsgefahr (v. a. mit Sulfonylharnstoffen) – Dosis anpassen und Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die Warnzeichen einer Unterzuckerung (z. B. Herzklopfen, Zittern) verschleiern und die Erholung verzögern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann die Blutzuckersenkung verstärken oder abschwächen; Unterzuckerungen auch Stunden später möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die den Blutzucker erhöhen (z. B. Kortison, Thiaziddiuretika, Schilddrüsenhormone, Sympathomimetika, Wachstumshormon)",
+      "ref": [
+        "gruppe:hyperglykaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:thiaziddiuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika",
+        "somatropin"
+      ],
+      "effekt": "Höherer Insulinbedarf – Blutzucker kontrollieren und Dosis anpassen, auch beim Absetzen dieser Mittel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Bei Behandlungsbeginn und Dosisänderungen INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel (Pille)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Aufnahme kann verzögert werden – Pille mindestens 1 Stunde vor oder 11 Stunden nach der Injektion einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Arzneimittel zum Einnehmen, die rasch wirken müssen oder eine enge therapeutische Breite haben (z. B. Antibiotika, magensaftresistente Präparate)",
+      "ref": [],
+      "effekt": "Lixisenatid verzögert die Magenentleerung und damit ihre Aufnahme – mindestens 1 Stunde vor der Injektion einnehmen (magensaftresistente Präparate 1 Stunde vor oder 4 Stunden nach).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "Flüssigkeitseinlagerung und Herzinsuffizienz möglich – auf Gewichtszunahme, Ödeme und Atemnot achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung)"
+    ],
+    "haeufig": [
+      "Übelkeit",
+      "Durchfall",
+      "Erbrechen",
+      "Schwindel"
+    ],
+    "gelegentlich": [
+      "Kopfschmerzen",
+      "Verdauungsbeschwerden, Bauchschmerzen",
+      "Müdigkeit",
+      "Nesselsucht (Urtikaria)",
+      "Nasen-Rachen-Entzündung, Infekte der oberen Atemwege"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Reaktionen an der Einstichstelle",
+      "Lipodystrophie und kutane Amyloidose an der Einstichstelle",
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Überempfindlichkeitsreaktionen"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen. Bei Kinderwunsch oder Eintritt einer Schwangerschaft absetzen und auf Insulin umstellen.",
+  "stillzeit": "Während der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Einmal täglich innerhalb einer Stunde vor einer Mahlzeit spritzen, möglichst jeden Tag vor derselben Mahlzeit.",
+    "Übelkeit tritt vor allem zu Beginn auf und lässt meist nach; auf ausreichendes Trinken achten.",
+    "Anzeichen einer Unterzuckerung kennen und stets Traubenzucker mitführen; vor dem Autofahren Blutzucker prüfen.",
+    "Einstichstelle bei jeder Injektion wechseln."
+  ],
+  "stand": "2026-10"
+}

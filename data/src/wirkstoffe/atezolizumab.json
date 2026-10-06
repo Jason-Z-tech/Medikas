@@ -1,0 +1,170 @@
+{
+  "id": "atezolizumab",
+  "name": "Atezolizumab",
+  "synonyme": [
+    "Atezolizumab",
+    "Anti-PD-L1-Antikörper"
+  ],
+  "atc": [
+    "L01FF05"
+  ],
+  "klasse": "Immun-Checkpoint-Inhibitor (monoklonaler Antikörper gegen PD-L1)",
+  "kurz": "Krebs-Immuntherapie als Infusion: löst eine Bremse des Immunsystems, damit es Tumorzellen besser angreift.",
+  "gruppen": [
+    "checkpoint-inhibitoren",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Tecentriq"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht-kleinzelliger Lungenkrebs (je nach Situation allein, nach Operation oder zusammen mit Chemotherapie und/oder Bevacizumab)",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Kleinzelliger Lungenkrebs im fortgeschrittenen Stadium, zusammen mit Carboplatin und Etoposid",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Leberzellkarzinom, zusammen mit Bevacizumab",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Urothelkarzinom (Blasen- und Harnwegskrebs)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hilft dem eigenen Immunsystem, Krebszellen zu erkennen und zu bekämpfen. Atezolizumab ist ein humanisierter monoklonaler Antikörper, der an PD-L1 auf Tumor- und Immunzellen bindet. Dadurch wird die Bindung von PD-L1 an die Rezeptoren PD-1 und B7.1 auf T-Zellen verhindert, die sonst die T-Zell-Aktivität bremst. Die reaktivierten T-Zellen greifen den Tumor an; dieselbe Immunaktivierung kann aber auch gesunde Organe entzünden (immunvermittelte Nebenwirkungen).",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bestehende Autoimmunerkrankungen (Gefahr eines Krankheitsschubs)",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Entzündungen von Lunge, Darm, Leber, Niere, Haut, Herz, Nerven oder Hormondrüsen – auch Wochen bis Monate nach Therapieende möglich",
+      "ids": [
+        "lungenfibrose",
+        "colitis-ulcerosa",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsen- und Nebennierenerkrankungen, Diabetes (Hormonstörungen durch die Therapie möglich, Werte kontrollieren)",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Organtransplantation in der Vorgeschichte (Abstossungsgefahr)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: sichere Verhütung während und bis 5 Monate nach der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide (Kortison) vor Therapiebeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Können die Wirksamkeit der Immuntherapie abschwächen – vor Beginn möglichst vermeiden; zur Behandlung immunvermittelter Nebenwirkungen nach Therapiestart sind sie aber erlaubt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immunsuppressiva vor Therapiebeginn (z. B. Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Mögliche Abschwächung der Wirkung – nur nach ärztlicher Abwägung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Chemotherapie-Kombinationspartner (z. B. Carboplatin, Etoposid, Paclitaxel)",
+      "ref": [
+        "carboplatin",
+        "etoposid",
+        "paclitaxel"
+      ],
+      "effekt": "In der Kombination häufiger Blutbildveränderungen und Infektionen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit und Schwäche",
+      "Appetitlosigkeit",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Husten, Atemnot",
+      "Hautausschlag, Juckreiz",
+      "Gelenk-, Rücken- und Muskelschmerzen",
+      "Fieber",
+      "Harnwegsinfektion"
+    ],
+    "haeufig": [
+      "Hypothyreose (Schilddrüsenunterfunktion) oder Hyperthyreose (Überfunktion)",
+      "Pneumonitis (Lungenentzündung durch das Immunsystem)",
+      "Kolitis (Darmentzündung)",
+      "Erhöhte Leberwerte, Hepatitis",
+      "Infusionsreaktionen (Schüttelfrost, Fieber)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Hypokaliämie, Hyponatriämie (Kalium- und Natriummangel)",
+      "Hypotonie (tiefer Blutdruck)"
+    ],
+    "gelegentlich": [
+      "Diabetes mellitus Typ 1 (plötzlich auftretend)",
+      "Nebenniereninsuffizienz",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Nephritis (Nierenentzündung)",
+      "Myositis (Muskelentzündung)",
+      "Schwere Hautreaktionen"
+    ],
+    "selten": [
+      "Myokarditis (Herzmuskelentzündung)",
+      "Hypophysitis (Entzündung der Hirnanhangsdrüse)",
+      "Myasthenie-Syndrom, Guillain-Barré-Syndrom (Nervenlähmungen)",
+      "Meningoenzephalitis (Hirn- und Hirnhautentzündung)",
+      "Uveitis (Augenentzündung)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Perikarderkrankungen (Herzbeutelentzündung)",
+      "Hämophagozytische Lymphohistiozytose (lebensbedrohliche Überaktivierung des Immunsystems)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt klar: PD-L1-Hemmung kann zum Verlust der Schwangerschaft führen. Sichere Verhütung während und bis 5 Monate nach der letzten Dosis.",
+  "stillzeit": "Übergang in die Muttermilch möglich; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Neue Beschwerden wie Husten, Atemnot, Durchfall, Bauchschmerzen, Gelbfärbung, starke Müdigkeit oder Kopfschmerzen sofort melden – auch nach Therapieende.",
+    "Vor jeder Gabe werden Leber-, Nieren- und Schilddrüsenwerte sowie der Blutzucker kontrolliert.",
+    "Alle Ärztinnen und Ärzte über die Immuntherapie informieren (Patientenkarte mitführen)."
+  ],
+  "stand": "2026-10"
+}

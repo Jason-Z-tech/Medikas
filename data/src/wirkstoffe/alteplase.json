@@ -1,0 +1,65 @@
+{
+  "id": "alteplase",
+  "name": "Alteplase",
+  "synonyme": ["rt-PA", "Rekombinanter Gewebeplasminogenaktivator", "Tissue plasminogen activator", "t-PA"],
+  "atc": ["B01AD02"],
+  "klasse": "Fibrinolytikum (Thrombolytikum; rekombinanter Gewebeplasminogenaktivator)",
+  "kurz": "Notfallmedikament im Spital, das frische Blutgerinnsel auflöst – beim Hirnschlag, Herzinfarkt und bei schwerer Lungenembolie.",
+  "gruppen": ["blutungsrisiko-erhoehend"],
+  "handelsnamen": ["Actilyse"],
+  "abgabe": ["B"],
+  "darreichung": ["Pulver und Lösungsmittel zur Herstellung einer Injektions- und Infusionslösung"],
+  "indikationen": [
+    { "text": "Akuter ischämischer Schlaganfall: Auflösung des Gerinnsels innerhalb von 4.5 Stunden nach Symptombeginn, nach Ausschluss einer Hirnblutung", "ids": ["schlaganfall"] },
+    { "text": "Akuter Herzinfarkt: Wiedereröffnung des verschlossenen Herzkranzgefässes", "ids": ["herzinfarkt"] },
+    { "text": "Akute massive Lungenembolie mit Kreislaufinstabilität", "ids": ["lungenembolie"] }
+  ],
+  "wirkmechanismus": "Löst frische Blutgerinnsel auf und kann so verschlossene Gefässe wieder eröffnen. Alteplase ist ein gentechnisch hergestellter menschlicher Gewebeplasminogenaktivator (rt-PA). Er bindet an das Fibrin im Gerinnsel und wandelt dort Plasminogen in das eiweissspaltende Enzym Plasmin um, das das Fibrinnetz abbaut. Weil die Aktivierung an Fibrin gebunden viel stärker ist, wirkt Alteplase relativ gerinnselspezifisch; dennoch wird auch Fibrinogen im Blut abgebaut, was das Blutungsrisiko erklärt. Die Halbwertszeit beträgt nur wenige Minuten, darum wird es als Bolus mit anschliessender Infusion gegeben.",
+  "kontraindikationen": [
+    { "text": "Bestehende oder kürzliche schwere Blutung; bekannte Blutungsneigung", "ids": ["aktive-blutung", "blutgerinnungsstoerung"] },
+    { "text": "Hirnblutung aktuell, in der Vorgeschichte oder vermutet; Subarachnoidalblutung", "ids": ["hirnblutung"] },
+    { "text": "Schäden des zentralen Nervensystems (z. B. Hirntumor, Aneurysma, Operation an Gehirn oder Rückenmark)", "ids": ["hirntumor", "aneurysma", "operation"] },
+    { "text": "Schwerer, nicht kontrollierter Bluthochdruck", "ids": ["hypertonie"] },
+    { "text": "Grosse Operation oder schwere Verletzung in den letzten 3 Monaten; in den letzten 10 Tagen Herzmassage, Geburt oder Punktion eines nicht komprimierbaren Blutgefässes", "ids": ["operation", "geburtshilfe"] },
+    { "text": "Magen-Darm-Geschwüre in den letzten 3 Monaten, Ösophagusvarizen, arterielle Aneurysmen, Gefässmissbildungen", "ids": ["magen-darm-ulkus", "aneurysma"] },
+    { "text": "Bakterielle Endokarditis, Herzbeutelentzündung, akute Bauchspeicheldrüsenentzündung", "ids": ["bakterielle-infektion", "pankreatitis"] },
+    { "text": "Schwere Lebererkrankung inkl. Leberversagen, Zirrhose, Pfortaderhochdruck oder aktive Hepatitis", "ids": ["leberinsuffizienz", "leberzirrhose"] },
+    { "text": "Tumorerkrankung mit erhöhtem Blutungsrisiko", "ids": ["krebs"] },
+    { "text": "Zusätzlich beim Schlaganfall: Symptombeginn vor über 4.5 Stunden oder unbekannt, Krampfanfall bei Symptombeginn, Schlaganfall in den letzten 3 Monaten, Blutplättchen unter 100'000/µl, Blutdruck über 185/110 mmHg, Blutzucker unter 50 oder über 400 mg/dl", "ids": ["schlaganfall", "epilepsie", "thrombozytopenie", "hypoglykaemie"] }
+  ],
+  "vorsicht": [
+    { "text": "Höheres Alter: erhöhtes Risiko für Hirnblutungen", "ids": ["aeltere-patienten"] },
+    { "text": "Kürzliche Injektionen in Gefässe, Punktionen oder kleinere Eingriffe (Blutungsgefahr an diesen Stellen)", "ids": ["operation"] },
+    { "text": "Behandlung mit ACE-Hemmern: erhöhtes Risiko für Schwellungen von Zunge und Rachen (Angioödem)", "ids": ["angiooedem"] },
+    { "text": "Sehr schwerer Schlaganfall oder ausgedehnter Hirninfarkt in der Bildgebung: höheres Blutungsrisiko", "ids": ["schlaganfall"] },
+    { "text": "Kinder und Jugendliche unter 16 Jahren: für die Schlaganfallbehandlung nicht zugelassen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Wirksame orale Gerinnungshemmung mit Vitamin-K-Antagonisten (z. B. INR über 1.3)", "ref": ["gruppe:vitamin-k-antagonisten"], "grund": "Zusätzliche Gerinnungshemmung – stark erhöhtes Risiko schwerer, auch tödlicher Blutungen, besonders Hirnblutungen." },
+    { "text": "Heparin in den letzten 48 Stunden mit verlängerter aPTT (beim Schlaganfall)", "ref": ["gruppe:heparine"], "grund": "Noch wirksame Gerinnungshemmung – stark erhöhtes Risiko für Hirnblutungen." }
+  ],
+  "interaktionen": [
+    { "text": "Direkte orale Antikoagulanzien (Rivaroxaban, Apixaban, Edoxaban, Dabigatran)", "ref": ["gruppe:doak"], "effekt": "Stark erhöhtes Blutungsrisiko – Thrombolyse nur, wenn Gerinnungstests keine relevante Restwirkung zeigen.", "schwere": "schwer" },
+    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Erhöhtes Blutungsrisiko; nach Schlaganfall-Lyse in den ersten 24 Stunden keine Plättchenhemmer.", "schwere": "schwer" },
+    { "text": "Heparine und Fondaparinux", "ref": ["gruppe:heparine", "fondaparinux"], "effekt": "Erhöhtes Blutungsrisiko; beim Herzinfarkt gezielt kombiniert, nach Schlaganfall-Lyse in den ersten 24 Stunden kein intravenöses Heparin.", "schwere": "schwer" },
+    { "text": "ACE-Hemmer", "ref": ["gruppe:ace-hemmer"], "effekt": "Erhöhtes Risiko für Angioödem (Schwellung von Zunge, Lippen und Rachen) während und nach der Infusion – überwachen.", "schwere": "mittel" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["gruppe:nsar"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Blutungen aus verletzten Gefässen und an Einstichstellen, Blutergüsse", "Hirnblutung bei der Behandlung des Schlaganfalls", "Beim Herzinfarkt: erneute Durchblutungsstörung oder Brustenge, tiefer Blutdruck, Herzschwäche mit Lungenödem, Rhythmusstörungen bei Wiedereröffnung des Gefässes"],
+    "haeufig": ["Blutungen im Magen-Darm-Trakt, aus Zahnfleisch, Rachen, Harn- und Geschlechtsorganen", "Hirnblutung bei der Behandlung der Lungenembolie", "Beim Herzinfarkt: Herzstillstand, kardiogener Schock, erneuter Infarkt"],
+    "gelegentlich": ["Hirnblutung bei der Behandlung des Herzinfarkts", "Blutungen aus dem Ohr", "Beim Herzinfarkt: Embolien, Herzklappenundichtigkeit, Herzbeuteltamponade"],
+    "selten": ["Überempfindlichkeitsreaktionen (Ausschlag, Nesselsucht, Bronchospasmus, Angioödem, Blutdruckabfall, Schock)", "Augenblutungen", "Blutungen in Herzbeutel, Leber oder Lunge", "Cholesterinembolien"],
+    "sehrSelten": ["Schwere Anaphylaxie", "Neurologische Störungen wie Krampfanfälle, Sprachstörungen, Verwirrtheit, Unruhe, Depression oder Psychose (meist im Zusammenhang mit Hirnblutung oder Durchblutungsstörung des Gehirns)"],
+    "unbekannt": ["Übelkeit, Erbrechen", "Blutungen, die eine Bluttransfusion erfordern"]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; bei lebensbedrohlicher Erkrankung nach Abwägung von Nutzen und Blutungsrisiko (auch für die Plazenta) anwenden.",
+  "stillzeit": "Unbekannt, ob Alteplase in die Muttermilch übergeht; Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur im Spital durch erfahrenes Personal gegeben; beim Hirnschlag zählt jede Minute – sofort Notruf 144.",
+    "Blutdruck und Neurologie werden während und nach der Infusion engmaschig überwacht.",
+    "Bei Einnahme von ACE-Hemmern auf Schwellung von Zunge, Lippen und Rachen achten.",
+    "Dem Behandlungsteam alle Blutverdünner melden, besonders Marcoumar, Sintrom, Xarelto, Eliquis, Lixiana oder Pradaxa und den Zeitpunkt der letzten Einnahme."
+  ],
+  "stand": "2026-10"
+}

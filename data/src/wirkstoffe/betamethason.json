@@ -1,0 +1,78 @@
+{
+  "id": "betamethason",
+  "name": "Betamethason",
+  "synonyme": ["Betamethasonvalerat", "Betamethasondipropionat", "Betamethason-Natriumphosphat", "Betamethasonacetat", "Betamethasone"],
+  "kombinationAus": [],
+  "atc": ["D07AC01", "H02AB01"],
+  "klasse": "Glukokortikoid (synthetisch, stark wirksam): systemisch und als Depot, topisch stark wirksam (Klasse III)",
+  "kurz": "Stark wirksames Kortison: als Creme oder Salbe bei Ekzemen und Psoriasis, als Tablette oder Depotspritze bei Entzündungen und Allergien.",
+  "gruppen": ["glukokortikoide-systemisch", "glukokortikoide-topisch", "hypokaliaemie-ausloesend", "ulkusrisiko-erhoehend", "immunsuppressiv"],
+  "handelsnamen": ["Celestone Chronodose", "Diprophos", "Betnesol", "Betnovate", "Diprosone", "Diprosalic (Kombi)", "Diprogenta (Kombi)", "Fucicort (Kombi)", "Daivobet (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Depot-Injektionssuspension", "Creme", "Salbe", "Lösung und Lotion zur Anwendung auf Haut und Kopfhaut"],
+  "indikationen": [
+    { "text": "Entzündliche Hauterkrankungen, die auf Kortison ansprechen, z. B. Ekzeme, Neurodermitis, Kontaktdermatitis, Psoriasis, Lichen (Creme, Salbe, Lösung)", "ids": ["neurodermitis", "psoriasis", "juckreiz"] },
+    { "text": "Entzündete Gelenke, Schleimbeutel- und Sehnenscheidenentzündungen (Injektion in oder an das Gelenk)", "ids": ["rheumatoide-arthritis", "arthrose", "sehnenerkrankung"] },
+    { "text": "Schwere allergische Erkrankungen wie schwerer Heuschnupfen, Nesselsucht, allergisches Asthma (Tabletten, Injektion)", "ids": ["heuschnupfen", "urtikaria", "asthma", "allergie"] },
+    { "text": "Weitere kortisonbedürftige Erkrankungen, z. B. rheumatische und Autoimmunerkrankungen, schwere Haut- und Darmentzündungen (Tabletten, Injektion)", "ids": ["rheumatoide-arthritis", "autoimmunerkrankung", "lupus", "colitis-ulcerosa"] }
+  ],
+  "wirkmechanismus": "Hemmt Entzündungen, allergische Reaktionen und überschiessende Immunreaktionen stark. Betamethason ist ein synthetisches Glukokortikoid, etwa 25- bis 30-mal stärker entzündungshemmend als Cortisol und praktisch ohne salzbindende Wirkung. Über den Glukokortikoid-Rezeptor im Zellinneren unterdrückt es die Bildung von Entzündungsbotenstoffen (z. B. Prostaglandine, Zytokine) und die Aktivität von Immunzellen. Als Valerat oder Dipropionat wirkt es auf der Haut stark (Klasse III); in Depotspritzen sorgt ein schwer lösliches Ester für eine Wirkung über mehrere Wochen.",
+  "kontraindikationen": [
+    { "text": "Systemische Pilzinfektionen und unbehandelte schwere Infektionen (Tabletten, Injektion)", "ids": ["pilzinfektion", "aktive-infektion"] },
+    { "text": "Infektion im oder am Gelenk bzw. an der Einstichstelle, instabiles Gelenk (Gelenkinjektion)", "ids": ["aktive-infektion"] },
+    { "text": "Idiopathische thrombozytopenische Purpura (Injektion in den Muskel)", "ids": ["thrombozytopenie"] },
+    { "text": "Auf der Haut: virale Infektionen (Herpes, Windpocken), Hauttuberkulose, unbehandelte bakterielle oder Pilzinfektionen", "ids": ["herpes", "hautinfektion", "hautpilz", "tuberkulose"] },
+    { "text": "Auf der Haut: Rosazea, periorale Dermatitis (Ausschlag um den Mund), Akne, Juckreiz ohne Entzündung, Anwendung am Auge", "ids": ["rosazea", "akne"] },
+    { "text": "Auf der Haut: Säuglinge unter 1 Jahr, auch Windeldermatitis", "ids": ["kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "Infektionen, auch ruhende Tuberkulose oder Herpes: können sich verschlimmern oder verschleiert werden", "ids": ["aktive-infektion", "tuberkulose", "herpes"] },
+    { "text": "Diabetes: Blutzucker kann steigen, nach Depotspritzen über Wochen", "ids": ["diabetes"] },
+    { "text": "Bluthochdruck, Herzschwäche", "ids": ["hypertonie", "herzinsuffizienz"] },
+    { "text": "Magen-Darm-Geschwüre oder Divertikulitis", "ids": ["magen-darm-ulkus", "divertikulitis"] },
+    { "text": "Osteoporose", "ids": ["osteoporose"] },
+    { "text": "Glaukom, Katarakt; verschwommenes Sehen augenärztlich abklären lassen", "ids": ["glaukom", "katarakt"] },
+    { "text": "Psychische Erkrankungen: Depression, Manie oder Psychose können ausgelöst oder verstärkt werden", "ids": ["depression", "bipolare-stoerung"] },
+    { "text": "Myasthenia gravis: Muskelschwäche kann vorübergehend zunehmen", "ids": ["myasthenia-gravis"] },
+    { "text": "Auf der Haut: im Gesicht, in Hautfalten, im Genitalbereich, grossflächig, länger als einige Wochen oder unter luftdichten Verbänden nur nach ärztlicher Anweisung (Hautverdünnung, Aufnahme ins Blut)", "ids": [] },
+    { "text": "Kinder: Wachstumshemmung bei längerer Anwendung; Kortisoncremes bei Kindern besonders zurückhaltend einsetzen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Starke CYP3A4-Hemmer, besonders HIV-Mittel mit Ritonavir oder Cobicistat", "ref": ["gruppe:starke-cyp3a4-hemmer", "ritonavir", "cobicistat"], "effekt": "Langsamerer Abbau von Betamethason bei innerlicher Anwendung – mehr Kortisonnebenwirkungen bis Cushing-Syndrom; Kombination möglichst vermeiden oder überwachen.", "schwere": "schwer" },
+    { "text": "Lebendimpfstoffe", "ref": ["gruppe:lebendimpfstoffe"], "effekt": "Bei immunsuppressiven Dosen keine Lebendimpfungen: Gefahr einer Impfinfektion und verminderte Impfantwort.", "schwere": "schwer" },
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Schnellerer Abbau, abgeschwächte Kortisonwirkung – Dosis eventuell erhöhen.", "schwere": "mittel" },
+    { "text": "NSAR und Acetylsalicylsäure", "ref": ["gruppe:nsar", "acetylsalicylsaeure"], "effekt": "Höheres Risiko für Magen-Darm-Geschwüre und -Blutungen.", "schwere": "mittel" },
+    { "text": "Kaliumsenkende Mittel (Diuretika, Amphotericin B) und Herzglykoside", "ref": ["gruppe:hypokaliaemie-ausloesend", "amphotericin-b", "gruppe:herzglykoside"], "effekt": "Verstärkter Kaliumverlust; Kaliummangel erhöht die Giftigkeit von Digoxin – Kalium kontrollieren.", "schwere": "mittel" },
+    { "text": "Blutzuckersenkende Mittel (Insuline, Sulfonylharnstoffe, Metformin u. a.)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Kortison erhöht den Blutzucker und schwächt die Wirkung ab – Blutzucker kontrollieren, Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gerinnungshemmung kann verstärkt oder abgeschwächt werden – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, besonders bei älteren Menschen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Juckreiz, Brennen oder Schmerzen an der Auftragsstelle (Haut)"],
+    "sehrSelten": [
+      "Hautverdünnung (Atrophie), Dehnungsstreifen, erweiterte Äderchen, Pigmentveränderungen, vermehrte Behaarung (äusserliche Anwendung)",
+      "Allergische Kontaktdermatitis, Verschlechterung der Hauterkrankung, pustulöse Psoriasis (äusserliche Anwendung)",
+      "Bei grossflächiger oder langer Anwendung auf der Haut: Unterdrückung der Nebennieren, Cushing-Zeichen, Wachstumsverzögerung bei Kindern"
+    ],
+    "unbekannt": [
+      "Cushing-Syndrom, Unterdrückung der Nebennierenfunktion, Zyklusstörungen (Tabletten, Injektion)",
+      "Erhöhter Blutzucker, Wassereinlagerungen, Bluthochdruck, Kaliummangel",
+      "Osteoporose, Muskelschwäche, Knochennekrose, Magen-Darm-Geschwüre",
+      "Erhöhte Infektanfälligkeit, Verschleierung von Infektionszeichen",
+      "Psychische Veränderungen: Schlafstörungen, Euphorie, Depression, Psychose",
+      "Grauer oder grüner Star, verschwommenes Sehen",
+      "Hautverdünnung und helle Flecken an der Einstichstelle; vorübergehende Gelenkreizung nach Gelenkinjektion",
+      "Anaphylaktische Reaktionen (Injektion)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; bei langer, hoch dosierter Anwendung sind Wachstumsverzögerung des Kindes und eine Nebennierenunterfunktion beim Neugeborenen möglich. Bei drohender Frühgeburt wird Betamethason gezielt zur Förderung der kindlichen Lungenreife eingesetzt. Auf der Haut nur kleinflächig und kurz.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über: kurzfristige oder äusserliche Anwendung nach Abwägung möglich, nicht auf die Brust auftragen; bei hohen Dosen über längere Zeit ärztliche Abwägung.",
+  "hinweise": [
+    "Stark wirksame Kortisoncremes (Klasse III) nicht ohne ärztliche Anweisung im Gesicht, in Hautfalten, im Genitalbereich oder unter luftdichten Verbänden anwenden.",
+    "Nach längerer Einnahme nicht abrupt absetzen, sondern schrittweise ausschleichen.",
+    "Bei Diabetes nach einer Depotspritze den Blutzucker häufiger kontrollieren.",
+    "HIV-Medikamente mit Ritonavir oder Cobicistat dem Arzt vor einer Kortisonbehandlung angeben."
+  ],
+  "stand": "2026-10"
+}

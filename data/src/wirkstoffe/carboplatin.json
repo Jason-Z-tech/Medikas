@@ -1,0 +1,216 @@
+{
+  "id": "carboplatin",
+  "name": "Carboplatin",
+  "synonyme": [
+    "Carboplatin",
+    "CBDCA"
+  ],
+  "atc": [
+    "L01XA02"
+  ],
+  "klasse": "Zytostatikum (Platinverbindung)",
+  "kurz": "Chemotherapeutikum als Infusion, u. a. gegen Eierstock- und Lungenkrebs; besser nierenverträglich als Cisplatin, hemmt aber stärker das Blutbild.",
+  "gruppen": [
+    "zytostatika",
+    "platinderivate",
+    "myelosuppressiv",
+    "nephrotoxisch",
+    "ototoxisch",
+    "neuropathie-ausloesend",
+    "hypomagnesiaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Carboplatin Teva",
+    "Carboplatin Accord"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener Eierstockkrebs",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Kleinzelliger Lungenkrebs",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Plattenepithelkarzinome im Kopf-Hals-Bereich",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt das Erbgut von Krebszellen, sodass sie sich nicht mehr teilen können. Carboplatin wird in der Zelle in reaktive Platinkomplexe umgewandelt, die DNA-Stränge vernetzen und so DNA-Synthese und Zellteilung blockieren. Wirkprinzip und Wirkspektrum ähneln Cisplatin; Carboplatin ist weniger nieren-, nerven- und gehörschädigend, hemmt aber das Knochenmark stärker. Die Dosis wird meist anhand der Nierenfunktion berechnet.",
+  "kontraindikationen": [
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Knochenmarkhemmung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Blutende Tumoren",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis anpassen, stärkere Blutbildveränderungen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen mit Infektions- und Blutungsgefahr (Tiefpunkt nach etwa 3 Wochen)",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Allergische Reaktionen bis zur Anaphylaxie, besonders nach mehreren Zyklen oder bei früherer Platinallergie",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Hörstörungen und Nervenschäden, v. a. bei Vorbehandlung mit Cisplatin",
+      "ids": [
+        "hoerstoerung",
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufiger Blutbildveränderungen und Nervenschäden)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieberimpfung und andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe",
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Durch die Immunschwächung kann sich das abgeschwächte Impfvirus ausbreiten – Gefahr einer lebensbedrohlichen Impfinfektion."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Nieren- oder gehörschädigende Mittel (z. B. Aminoglykoside, Vancomycin, Schleifendiuretika)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:ototoxisch",
+        "gruppe:aminoglykoside",
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Verstärkte Nieren- und Gehörschädigung – möglichst vermeiden, Nierenwerte und Gehör kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Bestrahlung",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Stärkere Blutbildveränderungen – Blutbild engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel kann sinken (Krampfgefahr) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende Gerinnungswerte – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Ausgeprägte Immunschwächung mit Gefahr von Lymphomen und Infektionen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Neutropenie und Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Anämie (Blutarmut)",
+      "Übelkeit und Erbrechen",
+      "Bauchschmerzen",
+      "Elektrolytverluste (Natrium, Kalium, Calcium, Magnesium)",
+      "Anstieg von Leberwerten (alkalische Phosphatase)"
+    ],
+    "haeufig": [
+      "Infektionen",
+      "Blutungen",
+      "Allergische Reaktionen",
+      "Periphere Neuropathie (Kribbeln, Taubheit)",
+      "Hörstörungen, Tinnitus (Ohrgeräusche)",
+      "Durchfall, Verstopfung",
+      "Haarausfall",
+      "Geschmacksstörungen, Schwäche"
+    ],
+    "gelegentlich": [
+      "Akute Leukämie oder andere Zweitkrebserkrankungen als Spätfolge"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hämolytisch-urämisches Syndrom (Blutzerfall mit Nierenversagen)",
+      "Herzinsuffizienz, Schlaganfall, Embolien",
+      "Sehstörungen bis vorübergehende Erblindung",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Tumorlysesyndrom"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, da Fruchtschäden möglich sind. Frauen und Männer sollen während und noch mindestens 6 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Vor jedem Zyklus wird das Blutbild kontrolliert; Fieber über 38 °C oder Blutungszeichen sofort melden.",
+    "Keine Lebendimpfungen während und einige Monate nach der Therapie.",
+    "Spermien- bzw. Eizellkonservierung vor Therapiebeginn besprechen (mögliche Unfruchtbarkeit)."
+  ],
+  "stand": "2026-10"
+}

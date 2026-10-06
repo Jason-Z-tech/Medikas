@@ -1,0 +1,65 @@
+{
+  "id": "hydrochlorothiazid",
+  "name": "Hydrochlorothiazid",
+  "synonyme": ["HCT", "HCTZ", "Hydrochlorothiazide", "Hydrochlorothiazidum"],
+  "atc": ["C03AA03"],
+  "klasse": "Thiaziddiuretikum (Benzothiadiazin, Sulfonamid-Derivat)",
+  "kurz": "Harntreibendes Mittel (Thiazid) gegen Bluthochdruck und Wassereinlagerungen; meist in Kombination mit anderen Blutdrucksenkern.",
+  "gruppen": ["thiaziddiuretika", "diuretika", "blutdrucksenkend", "hypokaliaemie-ausloesend", "hyponatriaemie-ausloesend", "lithium-spiegel-erhoehend", "photosensibilisierend"],
+  "handelsnamen": ["Esidrex", "Co-Diovan (Kombi)", "Cosaar Plus (Kombi)", "CoAprovel (Kombi)", "MicardisPlus (Kombi)", "Atacand Plus (Kombi)", "Co-Reniten (Kombi)", "Exforge HCT (Kombi)", "Concor plus (Kombi)", "Beloc Zok comp (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck, allein oder kombiniert mit anderen Blutdrucksenkern", "ids": ["hypertonie"] },
+    { "text": "Wassereinlagerungen (Ödeme) bei Herzinsuffizienz, Leber- oder Nierenerkrankungen", "ids": ["oedeme", "herzinsuffizienz", "leberzirrhose", "nephrotisches-syndrom"] }
+  ],
+  "wirkmechanismus": "Fördert die Ausscheidung von Salz und Wasser über die Niere und senkt so den Blutdruck. Hydrochlorothiazid hemmt den Natrium-Chlorid-Cotransporter im frühdistalen Tubulus der Niere; dadurch werden mehr Natrium, Chlorid und Wasser, aber auch Kalium und Magnesium ausgeschieden, während Calcium vermehrt zurückgehalten wird. Die blutdrucksenkende Dauerwirkung beruht zusätzlich auf einer Abnahme des Gefässwiderstands. Die harntreibende Wirkung setzt nach etwa 2 Stunden ein und hält 6–12 Stunden an; bei stark eingeschränkter Nierenfunktion (GFR unter 30 ml/min) lässt sie deutlich nach.",
+  "kontraindikationen": [
+    { "text": "Anurie (fehlende Harnproduktion) und schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwere Leberinsuffizienz, Leberkoma (hepatische Enzephalopathie)", "ids": ["leberinsuffizienz", "leberzirrhose"] },
+    { "text": "Therapieresistente Hypokaliämie, Hyponatriämie oder Hyperkalzämie", "ids": ["hypokaliaemie", "hyponatriaemie", "hyperkalzaemie"] },
+    { "text": "Symptomatische Hyperurikämie (Gicht, Harnsäuresteine)", "ids": ["gicht"] },
+    { "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Diabetes mellitus: der Blutzucker kann ansteigen", "ids": ["diabetes"] },
+    { "text": "Gicht oder erhöhte Harnsäure in der Vorgeschichte", "ids": ["gicht"] },
+    { "text": "Heller Hautkrebs in der Vorgeschichte: das Risiko steigt mit der eingenommenen Gesamtmenge; Haut regelmässig kontrollieren", "ids": ["hautkrebs"] },
+    { "text": "Systemischer Lupus erythematodes (kann sich verschlechtern)", "ids": ["lupus"] },
+    { "text": "Plötzliche Sehverschlechterung oder Augenschmerzen: Hinweis auf akute Kurzsichtigkeit, Aderhauterguss oder akutes Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
+    { "text": "Eingeschränkte Leber- oder Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Ältere Menschen und Flüssigkeitsmangel: erhöhtes Risiko für Elektrolytstörungen und Blutdruckabfall", "ids": ["aeltere-patienten", "dehydratation"] },
+    { "text": "Erhöhte Blutfette (Cholesterin, Triglyceride)", "ids": ["hypercholesterinaemie", "hypertriglyzeridaemie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigt (verminderte Ausscheidung) – Gefahr einer Lithiumvergiftung; Kombination möglichst vermeiden, sonst Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Ein Kalium- oder Magnesiummangel verstärkt die Giftigkeit von Digoxin (Herzrhythmusstörungen) – Elektrolyte kontrollieren.", "schwere": "mittel" },
+    { "text": "QT-Zeit verlängernde Mittel (z. B. Amiodaron, Sotalol, gewisse Antipsychotika und Antibiotika)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Ein Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen (Torsade de pointes) – Kalium kontrollieren und ausgleichen.", "schwere": "mittel" },
+    { "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Abführmittel, Amphotericin B, Schleifendiuretika)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.", "schwere": "mittel" },
+    { "text": "Andere natriumsenkende Mittel (z. B. SSRI, Carbamazepin, Desmopressin)", "ref": ["gruppe:hyponatriaemie-ausloesend"], "effekt": "Erhöhtes Risiko für Natriummangel, besonders bei älteren Menschen – Natrium kontrollieren.", "schwere": "mittel" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, hoch dosierte Acetylsalicylsäure)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte harntreibende und blutdrucksenkende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.", "schwere": "mittel" },
+    { "text": "Colestyramin und andere Ionenaustauscher", "ref": ["colestyramin", "colesevelam"], "effekt": "Die Aufnahme von Hydrochlorothiazid wird stark vermindert – mindestens 4 Stunden Abstand einhalten.", "schwere": "mittel" },
+    { "text": "Calcium und Vitamin D", "ref": ["calcium", "calcium-colecalciferol", "colecalciferol-vitamin-d3"], "effekt": "Der Calciumspiegel kann ansteigen (verminderte Ausscheidung) – Calcium kontrollieren.", "schwere": "mittel" },
+    { "text": "ACE-Hemmer, Sartane und andere Blutdrucksenker", "ref": ["gruppe:raas-hemmer", "gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung, besonders zu Behandlungsbeginn und bei Salz- oder Flüssigkeitsmangel; in Kombipräparaten erwünscht.", "schwere": "leicht" },
+    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Der Blutzucker kann ansteigen – Dosis der Antidiabetika gegebenenfalls anpassen.", "schwere": "leicht" },
+    { "text": "Allopurinol", "ref": ["allopurinol"], "effekt": "Häufiger Überempfindlichkeitsreaktionen auf Allopurinol.", "schwere": "leicht" },
+    { "text": "Zytostatika wie Cyclophosphamid oder Methotrexat", "ref": ["cyclophosphamid", "methotrexat"], "effekt": "Verminderte Ausscheidung über die Niere – stärkere Knochenmarkhemmung möglich.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Hypokaliämie (Kaliummangel), vor allem bei höheren Dosen", "Erhöhte Blutfette (Cholesterin, Triglyceride)"],
+    "haeufig": ["Hyponatriämie (Natriummangel) und Hypomagnesiämie (Magnesiummangel)", "Hyperurikämie (erhöhte Harnsäure)", "Nesselsucht und andere Hautausschläge", "Appetitlosigkeit, leichte Übelkeit und Erbrechen", "Orthostatische Hypotonie (Schwindel beim Aufstehen)", "Erektionsstörungen"],
+    "selten": ["Hyperkalzämie (erhöhtes Calcium)", "Hyperglykämie (erhöhter Blutzucker), Verschlechterung eines Diabetes", "Photosensibilität (Lichtempfindlichkeit der Haut)", "Verstopfung, Durchfall, Bauchbeschwerden", "Gallenstau in der Leber (intrahepatische Cholestase), Gelbsucht", "Herzrhythmusstörungen", "Kopfschmerzen, Schwindel, Schlafstörungen, Depression, Kribbeln (Parästhesien), Sehstörungen", "Thrombozytopenie (Mangel an Blutplättchen)"],
+    "sehrSelten": ["Akutes Atemnotsyndrom (ARDS) und Lungenödem", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Agranulozytose, Leukopenie, Knochenmarkversagen, hämolytische Anämie", "Toxische epidermale Nekrolyse, kutaner Lupus erythematodes, nekrotisierende Vaskulitis", "Hypochlorämische Alkalose", "Schwere Überempfindlichkeitsreaktionen"],
+    "unbekannt": ["Heller Hautkrebs (Basalzell- und Plattenepithelkarzinom), Risiko steigt mit der Gesamtdosis", "Akute Kurzsichtigkeit, Aderhauterguss, akutes Engwinkelglaukom", "Akutes Nierenversagen", "Erythema multiforme", "Muskelkrämpfe", "Schwächegefühl"]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit; nicht bei schwangerschaftsbedingten Ödemen, Bluthochdruck oder Präeklampsie, da es die Durchblutung der Plazenta vermindern und beim Neugeborenen Gelbsucht, Elektrolytstörungen und Blutplättchenmangel verursachen kann.",
+  "stillzeit": "Geht in die Muttermilch über und kann in höheren Dosen die Milchbildung hemmen; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Am Morgen einnehmen, damit der vermehrte Harndrang nicht die Nachtruhe stört.",
+    "Haut vor starker Sonne schützen und regelmässig auf neue oder veränderte Stellen kontrollieren (Lichtempfindlichkeit, Hautkrebsrisiko).",
+    "Kalium, Natrium, Nierenwerte, Harnsäure und Blutzucker regelmässig kontrollieren lassen; bei Erbrechen, Durchfall oder starkem Schwitzen ärztlichen Rat einholen.",
+    "Bei plötzlicher Sehverschlechterung oder Augenschmerzen sofort ärztliche Hilfe suchen."
+  ],
+  "stand": "2026-10"
+}

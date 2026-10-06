@@ -1,0 +1,252 @@
+{
+  "id": "citalopram",
+  "name": "Citalopram",
+  "synonyme": [
+    "Citalopramum",
+    "Citalopramhydrobromid"
+  ],
+  "atc": [
+    "N06AB04"
+  ],
+  "klasse": "Selektiver Serotonin-Wiederaufnahmehemmer (SSRI, Antidepressivum)",
+  "kurz": "Antidepressivum aus der Gruppe der SSRI gegen Depression und Panikstörung.",
+  "gruppen": [
+    "ssri",
+    "serotonerg",
+    "qt-verlaengernd",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "krampfschwellensenkend",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Seropram",
+    "Citalopram Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen, auch zur Vorbeugung von Rückfällen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Panikstörung mit oder ohne Agoraphobie (Platzangst)",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und vermindert Panikattacken, indem es die Menge des Botenstoffs Serotonin zwischen den Nervenzellen erhöht. Citalopram ist ein sehr selektiver Hemmer des Serotonin-Transporters und hat kaum Wirkung an anderen Rezeptoren. Es wird in der Leber über CYP2C19, CYP3A4 und CYP2D6 abgebaut; die Halbwertszeit beträgt etwa 1,5 Tage. Dosisabhängig verlängert es die QT-Zeit im EKG.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannte QT-Verlängerung oder angeborenes Long-QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen: langsamer Puls, kürzlich erlittener Herzinfarkt, dekompensierte Herzinsuffizienz; Kalium- oder Magnesiummangel vor Beginn ausgleichen",
+      "ids": [
+        "bradykardie",
+        "herzinfarkt",
+        "herzinsuffizienz",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: tiefere Höchstdosis, erhöhtes Risiko für Natriummangel",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion oder langsamer Abbau über CYP2C19 (tiefere Höchstdosis)",
+      "ids": [
+        "leberinsuffizienz",
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (Pupillenerweiterung)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, einschliesslich Linezolid (ausser unter engmaschiger Überwachung) und Selegilin in Dosen über 10 mg pro Tag – gleichzeitig sowie innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "linezolid",
+        "selegilin"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms (Fieber, Muskelzuckungen, Verwirrtheit, Kreislaufversagen)."
+    },
+    {
+      "text": "Arzneimittel, welche die QT-Zeit verlängern (z. B. Antiarrhythmika der Klassen IA und III, bestimmte Antipsychotika, Makrolide, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "grund": "Additive QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Pimozid",
+      "ref": [],
+      "grund": "Erhöhter Pimozid-Spiegel und zusätzliche QT-Verlängerung – Gefahr von Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (Triptane, Tramadol, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – auf Fieber, Zittern, Muskelzuckungen, Unruhe und Durchfall achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kalium- oder Magnesium-senkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Ein Kalium- oder Magnesiummangel erhöht das Risiko für Torsade de pointes – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19-Hemmer (z. B. Omeprazol, Esomeprazol, Fluvoxamin)",
+      "ref": [
+        "gruppe:cyp2c19-hemmer",
+        "omeprazol",
+        "esomeprazol",
+        "fluvoxamin"
+      ],
+      "effekt": "Der Citalopram-Spiegel steigt – höchstens 20 mg pro Tag, auf QT-Verlängerung achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien, Thrombozytenaggregationshemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metoprolol",
+      "ref": [
+        "metoprolol"
+      ],
+      "effekt": "Citalopram hemmt CYP2D6 schwach – der Metoprolol-Spiegel kann sich etwa verdoppeln.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Schlaflosigkeit",
+      "Kopfschmerzen",
+      "Übelkeit, Mundtrockenheit",
+      "Vermehrtes Schwitzen"
+    ],
+    "haeufig": [
+      "Verminderter Appetit, Gewichtsabnahme",
+      "Unruhe, Angst, Nervosität, Verwirrtheit, ungewöhnliche Träume",
+      "Verminderte Libido, Orgasmus- und Ejakulationsstörungen, Impotenz",
+      "Zittern, Kribbeln, Schwindel, Konzentrationsstörungen",
+      "Ohrgeräusche (Tinnitus), Gähnen",
+      "Durchfall, Verstopfung, Erbrechen",
+      "Juckreiz, Muskel- und Gelenkschmerzen",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Gewichtszunahme, Aggressivität, Halluzinationen, Manie",
+      "Ohnmacht (Synkope)",
+      "Erweiterte Pupillen (Mydriasis)",
+      "Langsamer oder schneller Puls",
+      "Nesselsucht, Hautausschlag, Haarausfall, Lichtempfindlichkeit, Hautblutungen (Purpura)",
+      "Harnverhalt",
+      "Starke Menstruationsblutungen",
+      "Wassereinlagerungen (Ödeme)"
+    ],
+    "selten": [
+      "Hyponatriämie (Natriummangel)",
+      "Krampfanfälle, unwillkürliche Bewegungen",
+      "Blutungen",
+      "Leberentzündung (Hepatitis)",
+      "Fieber"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "QT-Verlängerung, ventrikuläre Herzrhythmusstörungen inkl. Torsade de pointes",
+      "Serotoninsyndrom",
+      "Suizidgedanken und suizidales Verhalten",
+      "Thrombozytopenie, anaphylaktische Reaktionen, Angioödem",
+      "Magen-Darm-Blutungen, Nasenbluten, Blutergüsse",
+      "Akathisie (Bewegungsunruhe), Panikattacken, Zähneknirschen",
+      "Blutdruckabfall beim Aufstehen, Kaliummangel",
+      "Milchfluss (Galaktorrhö), Priapismus, Nachblutungen nach der Geburt"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung, nicht abrupt absetzen. Bei Einnahme in der Spätschwangerschaft sind beim Neugeborenen Anpassungsstörungen (z. B. Atemprobleme, Trinkschwäche, Zittern) und ein erhöhtes Risiko für Lungenhochdruck (PPHN) möglich.",
+  "stillzeit": "Citalopram geht in die Muttermilch über; ist eine Behandlung nötig, soll ein Abstillen erwogen werden.",
+  "hinweise": [
+    "Höchstdosis 40 mg pro Tag; bei Menschen über 65 Jahren, eingeschränkter Leberfunktion oder langsamem CYP2C19-Abbau höchstens 20 mg pro Tag (QT-Risiko).",
+    "Bei Herzklopfen, Schwindel oder Ohnmacht sofort ärztlich abklären lassen.",
+    "Die Wirkung setzt nach 2–4 Wochen ein; nicht abrupt absetzen, sondern schrittweise ausschleichen.",
+    "Kann die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

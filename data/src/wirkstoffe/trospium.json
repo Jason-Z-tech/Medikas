@@ -1,0 +1,56 @@
+{
+  "id": "trospium",
+  "name": "Trospium",
+  "synonyme": ["Trospiumchlorid", "Trospium chloride", "Trospii chloridum"],
+  "atc": ["G04BD09"],
+  "klasse": "Urologisches Spasmolytikum (quartäres Antimuskarinikum)",
+  "kurz": "Blasenmittel gegen starken Harndrang und Dranginkontinenz; gelangt kaum ins Gehirn und macht deshalb selten verwirrt.",
+  "gruppen": ["anticholinerg"],
+  "handelsnamen": ["Spasmo-Urgenin Neo"],
+  "abgabe": ["B"],
+  "darreichung": ["Dragées (überzogene Tabletten)"],
+  "indikationen": [
+    { "text": "Symptomatische Behandlung von Dranginkontinenz, häufigem Wasserlassen und starkem Harndrang bei überaktiver Blase (ohne bekannte Ursache oder bei nervenbedingter Blasenstörung)", "ids": ["reizblase"] }
+  ],
+  "wirkmechanismus": "Entspannt den überaktiven Blasenmuskel und verringert so Harndrang und unwillkürlichen Urinverlust. Trospium blockiert als Antagonist die Muskarinrezeptoren der glatten Muskulatur, besonders am Blasenmuskel (Detrusor). Als quartäre Ammoniumverbindung ist es dauerhaft geladen und überwindet die Blut-Hirn-Schranke kaum, was zentrale Nebenwirkungen wie Verwirrtheit selten macht. Es wird kaum über Cytochrom-P450-Enzyme abgebaut und überwiegend unverändert über die Nieren (aktive tubuläre Sekretion) ausgeschieden.",
+  "kontraindikationen": [
+    { "text": "Harnverhalt", "ids": ["harnverhalt"] },
+    { "text": "Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
+    { "text": "Tachyarrhythmie (schneller, unregelmässiger Herzschlag)", "ids": ["herzrhythmusstoerung"] },
+    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] },
+    { "text": "Schwere Magen-Darm-Erkrankungen, z. B. schwere Colitis ulcerosa, toxisches Megakolon", "ids": ["colitis-ulcerosa", "darmverschluss"] },
+    { "text": "Dialysepflichtige Niereninsuffizienz", "ids": ["niereninsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Abflussbehinderung der Blase mit Restharn (z. B. vergrösserte Prostata)", "ids": ["prostatahyperplasie", "harnverhalt"] },
+    { "text": "Verengungen im Magen-Darm-Trakt (z. B. Pylorusstenose), Zwerchfellbruch mit Reflux", "ids": ["darmverschluss", "sodbrennen"] },
+    { "text": "Schilddrüsenüberfunktion, koronare Herzkrankheit, Herzinsuffizienz (Beschleunigung des Herzschlags)", "ids": ["hyperthyreose", "koronare-herzkrankheit", "herzinsuffizienz"] },
+    { "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance 10–30 ml/min): Dosis reduzieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
+    { "text": "Autonome Neuropathie", "ids": [] },
+    { "text": "Kinder unter 12 Jahren: nicht empfohlen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere anticholinerg wirkende Mittel (z. B. Amantadin, trizyklische Antidepressiva, sedierende Antihistaminika)", "ref": ["gruppe:anticholinerg", "amantadin"], "effekt": "Verstärkte anticholinerge Wirkungen (Mundtrockenheit, Verstopfung, Herzrasen, Harnverhalt).", "schwere": "mittel" },
+    { "text": "Beta-Sympathomimetika", "ref": ["gruppe:beta2-sympathomimetika", "gruppe:sympathomimetika"], "effekt": "Verstärkung der pulsbeschleunigenden Wirkung.", "schwere": "leicht" },
+    { "text": "Prokinetika (Metoclopramid)", "ref": ["metoclopramid"], "effekt": "Abschwächung der magen-darm-anregenden Wirkung von Metoclopramid.", "schwere": "leicht" },
+    { "text": "Bindende Mittel wie Colestyramin und Guar", "ref": ["colestyramin"], "effekt": "Verminderte Aufnahme von Trospium – zeitlich getrennt einnehmen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Mundtrockenheit"],
+    "haeufig": ["Verdauungsbeschwerden (Dyspepsie)", "Verstopfung", "Bauchschmerzen", "Übelkeit"],
+    "gelegentlich": ["Herzrasen (Tachykardie)", "Durchfall", "Blähungen"],
+    "selten": ["Sehstörungen (Akkommodationsstörungen)", "Erschwertes Wasserlassen, Restharnbildung", "Hautausschlag", "Tachyarrhythmie", "Atemnot", "Schwäche", "Leichter bis mässiger Anstieg der Leberwerte (Transaminasen)"],
+    "sehrSelten": ["Harnverhalt", "Kopfschmerzen, Schwindel", "Muskel- und Gelenkschmerzen", "Angioödem", "Anaphylaxie (schwere allergische Reaktion)"],
+    "unbekannt": ["Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)", "Halluzinationen, Verwirrtheit, Unruhe"]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Nutzen-Risiko-Abwägung – es liegen keine ausreichenden Erfahrungen am Menschen vor.",
+  "stillzeit": "Nicht empfohlen – im Tierversuch ging Trospium in geringen Mengen in die Milch über.",
+  "hinweise": [
+    "Vor einer Mahlzeit auf nüchternen Magen mit Wasser einnehmen – Nahrung vermindert die Aufnahme deutlich.",
+    "Sehstörungen können die Fahrtüchtigkeit beeinträchtigen.",
+    "Die Notwendigkeit der Behandlung nach einigen Monaten ärztlich überprüfen lassen."
+  ],
+  "stand": "2026-10"
+}

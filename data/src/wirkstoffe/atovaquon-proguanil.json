@@ -1,0 +1,189 @@
+{
+  "id": "atovaquon-proguanil",
+  "name": "Atovaquon + Proguanil",
+  "synonyme": [
+    "Atovaquone/Proguanil",
+    "Atovaquon/Proguanilhydrochlorid"
+  ],
+  "kombinationAus": [
+    "atovaquon"
+  ],
+  "atc": [
+    "P01BB51"
+  ],
+  "klasse": "Antimalariamittel (Fixkombination aus Naphthochinon und Biguanid)",
+  "kurz": "Malariamittel zur Vorbeugung auf Reisen und zur Behandlung der unkomplizierten Malaria tropica.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Malarone",
+    "Malarone Junior"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung der Malaria tropica (Plasmodium falciparum) bei Reisenden, Erwachsenen und Kindern ab 11 kg",
+      "ids": [
+        "malaria"
+      ]
+    },
+    {
+      "text": "Behandlung der akuten, unkomplizierten Malaria tropica bei Erwachsenen und Kindern ab 5 kg",
+      "ids": [
+        "malaria"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Malariaerreger im Blut und bereits in der Leber ab. Atovaquon hemmt selektiv den Elektronentransport in den Mitochondrien des Parasiten (Cytochrom-bc1-Komplex) und damit dessen Energiestoffwechsel und Pyrimidinsynthese. Proguanil verstärkt diese Wirkung auf das Mitochondrienmembranpotential; sein Metabolit Cycloguanil hemmt zusätzlich die Dihydrofolatreduktase des Erregers. Weil auch die Leberstadien erfasst werden, genügt nach der Rückkehr eine Einnahme über 7 Tage.",
+  "kontraindikationen": [
+    {
+      "text": "Malariavorbeugung bei schwerer Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Behandlung einer Malaria bei schwerer Niereninsuffizienz (wenn möglich andere Mittel wählen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Durchfall oder Erbrechen (verminderte Aufnahme, Schutz unsicher)",
+      "ids": [
+        "durchfall",
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Schwere oder komplizierte Malaria: nicht untersucht und nicht geeignet",
+      "ids": [
+        "malaria"
+      ]
+    },
+    {
+      "text": "Malaria durch Plasmodium vivax oder ovale: Rückfälle aus ruhenden Leberformen möglich, zusätzliche Behandlung nötig",
+      "ids": [
+        "malaria"
+      ]
+    },
+    {
+      "text": "Kinder unter 11 kg (Vorbeugung) bzw. unter 5 kg (Behandlung): keine ausreichenden Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (keine Daten)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Rifampicin und Rifabutin",
+      "ref": [
+        "rifampicin",
+        "rifabutin"
+      ],
+      "effekt": "Atovaquon-Spiegel sinken stark – Kombination nicht empfohlen (Gefahr von Therapieversagen).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Efavirenz und geboosterte HIV-Proteasehemmer",
+      "ref": [
+        "efavirenz",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Atovaquon-Spiegel sinken deutlich – Kombination möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Proguanil kann die gerinnungshemmende Wirkung verstärken – INR bei Beginn und Ende der Malariamittel-Einnahme kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metoclopramid",
+      "ref": [
+        "metoclopramid"
+      ],
+      "effekt": "Verminderte Atovaquon-Spiegel – nur einsetzen, wenn keine andere Behandlung gegen Erbrechen möglich ist.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tetracycline",
+      "ref": [
+        "gruppe:tetracycline"
+      ],
+      "effekt": "Atovaquon-Spiegel sinken – Behandlungserfolg überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Etoposid",
+      "ref": [
+        "etoposid"
+      ],
+      "effekt": "Atovaquon kann die Etoposid-Spiegel erhöhen – Vorsicht, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Bauchschmerzen",
+      "Übelkeit, Erbrechen",
+      "Durchfall"
+    ],
+    "haeufig": [
+      "Schwindel",
+      "Schlaflosigkeit, ungewöhnliche Träume, Depression",
+      "Appetitlosigkeit",
+      "Husten",
+      "Fieber",
+      "Hautausschlag, Juckreiz",
+      "Erhöhte Leberwerte",
+      "Blutarmut (Anämie), Neutropenie, Hyponatriämie (Natriummangel)"
+    ],
+    "gelegentlich": [
+      "Angst",
+      "Herzklopfen",
+      "Mundschleimhautentzündung (Stomatitis)",
+      "Haarausfall",
+      "Nesselsucht",
+      "Erhöhte Amylase-Werte"
+    ],
+    "selten": [
+      "Halluzinationen"
+    ],
+    "unbekannt": [
+      "Anaphylaxie, Angioödem, Vaskulitis",
+      "Stevens-Johnson-Syndrom, Erythema multiforme",
+      "Krampfanfälle",
+      "Panikattacken",
+      "Hepatitis, Gallenstau (Cholestase)",
+      "Herzrasen (Tachykardie)",
+      "Panzytopenie bei schwerer Niereninsuffizienz"
+    ]
+  },
+  "schwangerschaft": "Die Sicherheit ist nicht belegt. Nur anwenden, wenn der erwartete Nutzen das mögliche Risiko für das Kind überwiegt; Schwangere sollten Reisen in Malariagebiete möglichst vermeiden.",
+  "stillzeit": "Soll während der Stillzeit nicht eingenommen werden.",
+  "hinweise": [
+    "Täglich zur gleichen Zeit mit einer Mahlzeit oder einem Milchgetränk einnehmen – das verbessert die Aufnahme von Atovaquon.",
+    "Bei Erbrechen innerhalb einer Stunde nach der Einnahme eine weitere Dosis einnehmen.",
+    "Vorbeugung 1–2 Tage vor der Einreise beginnen und bis 7 Tage nach Verlassen des Malariagebiets fortsetzen; Mückenschutz bleibt wichtig.",
+    "Fieber während oder nach einer Tropenreise sofort ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

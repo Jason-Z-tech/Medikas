@@ -1,0 +1,46 @@
+{
+  "id": "fosfomycin",
+  "name": "Fosfomycin",
+  "synonyme": ["Fosfomycin-Trometamol", "Fosfomycin trometamol", "Fosfomycinum"],
+  "atc": ["J01XX01"],
+  "klasse": "Phosphonsäure-Antibiotikum (Epoxid-Antibiotikum)",
+  "kurz": "Antibiotikum als Einmaldosis (Granulat) gegen unkomplizierte Blasenentzündungen bei Frauen.",
+  "gruppen": [],
+  "handelsnamen": ["Monuril", "Fosfomycin Mepha"],
+  "abgabe": ["B"],
+  "darreichung": ["Granulat zur Herstellung einer Trinklösung (Beutel)"],
+  "indikationen": [
+    { "text": "Akute, unkomplizierte Blasenentzündung bei Frauen und weiblichen Jugendlichen (Einmalgabe)", "ids": ["harnwegsinfekt"] }
+  ],
+  "wirkmechanismus": "Hindert Bakterien daran, ihre Zellwand aufzubauen, und tötet sie dadurch ab. Fosfomycin hemmt irreversibel das Enzym MurA (UDP-N-Acetylglucosamin-Enolpyruvyl-Transferase) und blockiert damit den allerersten Schritt der Peptidoglykan-Synthese – früher als Penicilline oder Cephalosporine, weshalb kaum Kreuzresistenzen bestehen. Der Wirkstoff wird unverändert über die Niere ausgeschieden und erreicht nach einer einzigen Dosis für 1–2 Tage hohe Konzentrationen im Urin.",
+  "kontraindikationen": [
+    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 10 ml/min) und Dialyse", "ids": ["niereninsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Kinder unter 12 Jahren: Sicherheit und Wirksamkeit nicht belegt", "ids": ["kinder"] },
+    { "text": "Männer, Fieber, Flankenschmerzen oder Nierenbeckenentzündung: nicht für komplizierte Harnwegsinfekte geeignet – ärztliche Abklärung", "ids": ["harnwegsinfekt", "bakterielle-infektion"] },
+    { "text": "Durchfall während oder nach der Behandlung: an Clostridioides-difficile-Infektion denken", "ids": ["clostridioides", "durchfall"] },
+    { "text": "Erbliche Fructoseintoleranz: das Granulat enthält Saccharose", "ids": ["fructoseintoleranz"] },
+    { "text": "Diabetes: Zuckergehalt des Granulats berücksichtigen", "ids": ["diabetes"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Metoclopramid und andere Mittel, die die Magen-Darm-Passage beschleunigen", "ref": ["metoclopramid"], "effekt": "Senken die Fosfomycin-Konzentration in Blut und Urin – Wirkung kann ungenügend sein; nicht gleichzeitig einnehmen.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Unter Antibiotika sind INR-Schwankungen beschrieben – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Orale Typhus-Lebendimpfung", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können den Schluckimpfstoff unwirksam machen – Abstand gemäss Impfstoff-Fachinformation (mindestens 3 Tage) einhalten.", "schwere": "mittel" },
+    { "text": "Nahrung", "ref": [], "effekt": "Gleichzeitige Mahlzeit verzögert und vermindert die Aufnahme – auf nüchternen Magen einnehmen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Durchfall", "Übelkeit", "Dyspepsie (Verdauungsbeschwerden)", "Bauchschmerzen", "Kopfschmerzen", "Schwindel", "Vulvovaginitis (Scheidenentzündung, z. B. Scheidenpilz)"],
+    "gelegentlich": ["Erbrechen", "Hautausschlag, Juckreiz, Nesselsucht", "Parästhesien (Kribbeln)"],
+    "unbekannt": ["Anaphylaxie (schwere allergische Reaktion) bis Schock", "Angioödem (Schwellung von Gesicht, Lippen, Rachen)", "Antibiotika-assoziierte Kolitis (Clostridioides difficile)"]
+  },
+  "schwangerschaft": "Erfahrungen mit der Einmalgabe zeigen kein erhöhtes Risiko für das Kind; Anwendung nach ärztlicher Abwägung möglich.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über. Eine einmalige Dosis ist nach ärztlicher Abwägung vertretbar.",
+  "hinweise": [
+    "Granulat in einem Glas Wasser auflösen und sofort trinken – auf nüchternen Magen, am besten am Abend vor dem Schlafengehen nach Entleeren der Blase.",
+    "Die Beschwerden klingen oft erst nach 2–3 Tagen ab; bei Fieber, Rückenschmerzen oder fehlender Besserung ärztlich abklären lassen.",
+    "Nach der Einnahme ausreichend trinken."
+  ],
+  "stand": "2026-10"
+}

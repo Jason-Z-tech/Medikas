@@ -1,0 +1,51 @@
+{
+  "id": "darbepoetin-alfa",
+  "name": "Darbepoetin alfa",
+  "synonyme": ["Darbepoetin", "NESP", "lang wirksames Erythropoetin"],
+  "atc": ["B03XA02"],
+  "klasse": "Erythropoese-stimulierendes Agens (lang wirksames Erythropoetin-Analogon)",
+  "kurz": "Lang wirksames EPO-Präparat, das die Bildung roter Blutkörperchen anregt – bei Blutarmut wegen Nierenkrankheit oder Chemotherapie; Spritze alle 1–4 Wochen.",
+  "gruppen": [],
+  "handelsnamen": ["Aranesp"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung in Fertigspritzen und Fertigpens (Spritze unter die Haut oder in die Vene)"],
+  "indikationen": [
+    { "text": "Symptomatische Blutarmut bei chronischer Nierenkrankheit (Erwachsene und Kinder, mit oder ohne Dialyse)", "ids": ["renale-anaemie", "niereninsuffizienz", "anaemie"] },
+    { "text": "Symptomatische Blutarmut bei Erwachsenen mit nicht-myeloischen Krebserkrankungen unter Chemotherapie", "ids": ["anaemie", "krebs", "lymphom", "multiples-myelom"] }
+  ],
+  "wirkmechanismus": "Regt das Knochenmark an, mehr rote Blutkörperchen zu bilden. Darbepoetin alfa wirkt wie das körpereigene Hormon Erythropoetin am Erythropoetin-Rezeptor der Vorläuferzellen im Knochenmark. Durch zwei zusätzliche Zuckerketten im Molekül wird es langsamer abgebaut und hat eine etwa dreimal längere Halbwertszeit als Epoetin alfa. Deshalb genügen Spritzen in Abständen von einer bis vier Wochen; ausreichend Eisen ist Voraussetzung für die Wirkung.",
+  "kontraindikationen": [
+    { "text": "Schlecht eingestellter Bluthochdruck", "ids": ["hypertonie"] }
+  ],
+  "vorsicht": [
+    { "text": "Bluthochdruck: kann ansteigen bis zur hypertensiven Krise – Blutdruck regelmässig kontrollieren", "ids": ["hypertonie"] },
+    { "text": "Thrombosen, Embolien, Schlaganfall und Herzinfarkt – Hämoglobin nicht über 12 g/dl anheben, Dosis bei raschem Anstieg reduzieren", "ids": ["thrombose", "thromboembolie-vorgeschichte", "schlaganfall", "herzinfarkt"] },
+    { "text": "Epilepsie oder frühere Krampfanfälle", "ids": ["epilepsie"] },
+    { "text": "Krebserkrankungen: mögliches Fortschreiten des Tumors und verkürzte Überlebenszeit; Transfusion als Alternative abwägen", "ids": ["krebs"] },
+    { "text": "Lebererkrankungen und Sichelzellanämie: nur mit Vorsicht anwenden", "ids": ["leberinsuffizienz", "sichelzellanaemie"] },
+    { "text": "Erythroblastopenie (Ausfall der Bildung roter Blutkörperchen) durch Antikörper gegen Erythropoetin: bei plötzlichem Wirkverlust abklären; nicht auf ein anderes Erythropoetin wechseln", "ids": ["knochenmarkschaedigung"] },
+    { "text": "Latexallergie: die Nadelschutzkappe der Fertigspritze enthält Naturkautschuk", "ids": ["latexallergie"] },
+    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) wurden unter Erythropoetinen beschrieben", "ids": ["schwere-hautreaktion"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Ciclosporin und Tacrolimus", "ref": ["ciclosporin", "tacrolimus"], "effekt": "Diese Mittel binden an rote Blutkörperchen; steigt das Hämoglobin, kann sich ihr Spiegel verändern – Blutspiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Thalidomid, Lenalidomid, Pomalidomid (Myelomtherapie)", "ref": ["thalidomid", "lenalidomid", "pomalidomid"], "effekt": "Zusätzlich erhöhtes Risiko für Thrombosen und Embolien – nur mit Thromboseprophylaxe und sorgfältiger Abwägung.", "schwere": "mittel" },
+    { "text": "Blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Der Blutdruckanstieg unter Darbepoetin kann eine Anpassung der Blutdrucktherapie erfordern.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Bluthochdruck (bei Nierenkranken)", "Überempfindlichkeitsreaktionen (z. B. Hautausschlag, Nesselsucht)", "Wassereinlagerungen (Ödeme, bei Krebspatienten)"],
+    "haeufig": ["Schlaganfall (bei Nierenkranken)", "Thrombosen und Embolien, inkl. Lungenembolie (bei Krebspatienten)", "Hautrötung (Erythem)", "Schmerzen an der Injektionsstelle"],
+    "gelegentlich": ["Krampfanfälle", "Thrombose des Dialyse-Shunts"],
+    "unbekannt": ["Erythroblastopenie (PRCA) durch Antikörper gegen Erythropoetin", "Hypertensive Krise mit Hirnfunktionsstörung (Enzephalopathie)", "Anaphylaxie, Angioödem (Schwellung von Gesicht und Rachen)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Nutzen-Risiko-Abwägung; Erfahrungen beim Menschen fehlen weitgehend.",
+  "stillzeit": "Nicht bekannt, ob Darbepoetin in die Muttermilch übergeht; Anwendung nur nach Abwägung.",
+  "hinweise": [
+    "Blutdruck regelmässig messen; bei starken Kopfschmerzen, Verwirrtheit oder Sehstörungen sofort ärztliche Hilfe holen.",
+    "Hämoglobin und Eisenwerte werden regelmässig kontrolliert; meist ist zusätzlich Eisen nötig.",
+    "Im Kühlschrank (2–8 °C) lagern, nicht einfrieren oder schütteln.",
+    "Missbrauch als Dopingmittel ist verboten und gefährlich (Thrombosen, Herzinfarkt)."
+  ],
+  "stand": "2026-10"
+}

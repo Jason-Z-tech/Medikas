@@ -1,0 +1,196 @@
+{
+  "id": "isosorbidmononitrat",
+  "name": "Isosorbidmononitrat",
+  "synonyme": [
+    "ISMN",
+    "Isosorbid-5-mononitrat",
+    "Isosorbide mononitrate"
+  ],
+  "atc": [
+    "C01DA14"
+  ],
+  "klasse": "Organisches Nitrat (Antianginosum, Vasodilatator)",
+  "kurz": "Lang wirksames Nitrat zur Vorbeugung von Brustenge (Angina pectoris); nicht für den akuten Anfall geeignet.",
+  "gruppen": [
+    "nitrate",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Langzeitbehandlung und Vorbeugung der Angina pectoris bei koronarer Herzkrankheit (nicht zur Behandlung des akuten Anfalls)",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Blutgefässe und entlastet so das Herz. Isosorbidmononitrat setzt in der Gefässwand Stickstoffmonoxid (NO) frei, das über cGMP die glatte Gefässmuskulatur erschlaffen lässt; vor allem die Venen werden weiter, sodass Rückstrom zum Herzen, Wandspannung und Sauerstoffbedarf des Herzmuskels abnehmen. Es ist der wirksame Hauptmetabolit von Isosorbiddinitrat, wird aber vollständig und ohne Abbau in der Leber aufgenommen. Bei Dauereinnahme ohne nitratfreies Intervall lässt die Wirkung nach (Nitrattoleranz).",
+  "kontraindikationen": [
+    {
+      "text": "Akutes Kreislaufversagen (Schock, Kollaps) und kardiogener Schock",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Hypotonie (systolischer Blutdruck unter 90 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Hypertrophe obstruktive Kardiomyopathie, konstriktive Perikarditis, Herzbeuteltamponade",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Ausgeprägter Volumenmangel (Hypovolämie)",
+      "ids": [
+        "dehydratation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Aorten- oder Mitralklappenstenose",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Neigung zu Kreislaufstörungen mit Blutdruckabfall beim Aufstehen",
+      "ids": [
+        "hypotonie",
+        "synkope"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck (z. B. nach Schädel-Hirn-Trauma oder Hirnblutung)",
+      "ids": [
+        "hirnoedem",
+        "schaedel-hirn-trauma",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Akuter Herzinfarkt mit tiefen Füllungsdrücken",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhte Sturzgefahr durch Blutdruckabfall",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)",
+      "ref": [
+        "gruppe:pde5-hemmer",
+        "avanafil"
+      ],
+      "grund": "Beide erhöhen das cGMP – lebensbedrohlicher Blutdruckabfall möglich."
+    },
+    {
+      "text": "Riociguat",
+      "ref": [
+        "riociguat"
+      ],
+      "grund": "Zusätzliche Steigerung des cGMP – Gefahr eines starken Blutdruckabfalls."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere blutdrucksenkende Mittel (z. B. Betablocker, Calciumantagonisten, Diuretika, ACE-Hemmer)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alpha-1-Blocker (z. B. Tamsulosin, Doxazosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Antipsychotika",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkter Blutdruckabfall mit Schwindel und Ohnmacht möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dihydroergotamin und andere Ergotalkaloide",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Spiegel und Wirkung von Dihydroergotamin können steigen (Blutdruckanstieg).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sapropterin",
+      "ref": [
+        "sapropterin"
+      ],
+      "effekt": "Kann die blutdrucksenkende Wirkung NO-freisetzender Mittel verstärken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen (vor allem zu Beginn)"
+    ],
+    "haeufig": [
+      "Schwindel, Benommenheit, Schläfrigkeit",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Herzrasen (reflektorische Tachykardie)",
+      "Schwäche, Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Kreislaufkollaps, Ohnmacht (Synkope)",
+      "Verstärkte Angina-pectoris-Beschwerden",
+      "Übelkeit, Erbrechen",
+      "Gesichtsrötung (Flush)",
+      "Allergische Hautreaktionen"
+    ],
+    "sehrSelten": [
+      "Sodbrennen"
+    ],
+    "unbekannt": [
+      "Exfoliative Dermatitis (schwere Hautschuppung)"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Nitrate können in die Muttermilch übergehen; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nicht für den akuten Anfall geeignet – dafür ein schnell wirksames Nitrat (Spray oder Kapsel) bereithalten.",
+    "Täglich ein nitratfreies Intervall einhalten (z. B. Retardtablette morgens), sonst lässt die Wirkung nach.",
+    "Keine Potenzmittel (PDE-5-Hemmer) einnehmen; Alkohol verstärkt den Blutdruckabfall.",
+    "Nicht abrupt absetzen (Gefahr vermehrter Angina-pectoris-Anfälle)."
+  ],
+  "stand": "2026-10"
+}

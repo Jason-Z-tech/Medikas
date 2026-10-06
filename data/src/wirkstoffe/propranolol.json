@@ -1,0 +1,81 @@
+{
+  "id": "propranolol",
+  "name": "Propranolol",
+  "synonyme": ["Propranololhydrochlorid", "Propranololum"],
+  "atc": ["C07AA05"],
+  "klasse": "Nicht selektiver Betablocker (lipophil, ohne intrinsische sympathomimetische Aktivität)",
+  "kurz": "Nicht selektiver Betablocker gegen Bluthochdruck, Herzrhythmusstörungen, Zittern und zur Migränevorbeugung; als Lösung bei Blutschwämmchen von Säuglingen.",
+  "gruppen": ["betablocker", "blutdrucksenkend", "bradykardisierend", "cyp1a2-substrate", "cyp2d6-substrate"],
+  "handelsnamen": ["Inderal", "Hemangiol"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Lösung zum Einnehmen"],
+  "indikationen": [
+    { "text": "Bluthochdruck", "ids": ["hypertonie"] },
+    { "text": "Angina pectoris", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
+    { "text": "Herzrhythmusstörungen mit schnellem Puls (supraventrikuläre und ventrikuläre Tachyarrhythmien)", "ids": ["herzrhythmusstoerung", "vorhofflimmern"] },
+    { "text": "Langzeitbehandlung nach Herzinfarkt", "ids": ["herzinfarkt"] },
+    { "text": "Vorbeugung von Migräneanfällen", "ids": ["migraene"] },
+    { "text": "Essentieller Tremor (Zittern)", "ids": [] },
+    { "text": "Unterstützende Behandlung einer Schilddrüsenüberfunktion (Herzrasen, Zittern)", "ids": ["hyperthyreose"] },
+    { "text": "Hypertrophe obstruktive Kardiomyopathie", "ids": ["kardiomyopathie"] },
+    { "text": "Wachsende infantile Hämangiome (Blutschwämmchen) bei Säuglingen, die eine Behandlung mit Tabletten oder Saft erfordern (Hemangiol)", "ids": [] }
+  ],
+  "wirkmechanismus": "Senkt Puls und Blutdruck, indem es die Wirkung der Stresshormone Adrenalin und Noradrenalin am Herzen und an den Gefässen abschwächt. Propranolol blockiert ohne Unterschied die Beta-1-Rezeptoren (Herz, Niere) und die Beta-2-Rezeptoren (Bronchien, Gefässe, Leber). Dadurch schlägt das Herz langsamer und weniger kräftig, braucht weniger Sauerstoff, und die Freisetzung von Renin aus der Niere sinkt. Die Blockade der Beta-2-Rezeptoren kann die Atemwege verengen und die Erholung aus einer Unterzuckerung verzögern. Bei infantilen Hämangiomen wirkt es unter anderem über eine Gefässverengung und eine Hemmung des Gefässwachstums.",
+  "kontraindikationen": [
+    { "text": "Asthma bronchiale oder Bronchospasmus (Verkrampfung der Atemwege) in der Vorgeschichte", "ids": ["asthma"] },
+    { "text": "AV-Block 2. oder 3. Grades, Sick-Sinus-Syndrom oder sinuatrialer Block (ohne Herzschrittmacher)", "ids": ["av-block", "bradykardie"] },
+    { "text": "Ausgeprägte Bradykardie (sehr langsamer Puls)", "ids": ["bradykardie"] },
+    { "text": "Kardiogener Schock, unbehandelte oder dekompensierte Herzinsuffizienz", "ids": ["schock", "herzinsuffizienz"] },
+    { "text": "Ausgeprägte Hypotonie (niedriger Blutdruck)", "ids": ["hypotonie"] },
+    { "text": "Schwere periphere Durchblutungsstörungen (Schaufensterkrankheit, schweres Raynaud-Syndrom)", "ids": ["pavk", "raynaud"] },
+    { "text": "Prinzmetal-Angina (Angina durch Gefässkrämpfe)", "ids": ["angina-pectoris"] },
+    { "text": "Neigung zu Unterzuckerung, z. B. nach längerem Fasten", "ids": ["hypoglykaemie"] },
+    { "text": "Unbehandeltes Phäochromozytom (hormonbildender Tumor des Nebennierenmarks); metabolische Azidose (Übersäuerung des Blutes)", "ids": [] },
+    { "text": "Hemangiol: Frühgeborene, die das korrigierte Alter von 5 Wochen noch nicht erreicht haben", "ids": ["kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "COPD und andere Erkrankungen mit Verengung der Atemwege", "ids": ["copd"] },
+    { "text": "Diabetes: Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verdeckt werden", "ids": ["diabetes", "hypoglykaemie"] },
+    { "text": "Kompensierte Herzinsuffizienz und AV-Block 1. Grades", "ids": ["herzinsuffizienz", "av-block"] },
+    { "text": "Koronare Herzkrankheit: nicht abrupt absetzen (Gefahr von Angina-pectoris-Anfällen und Herzinfarkt)", "ids": ["koronare-herzkrankheit"] },
+    { "text": "Psoriasis (Schuppenflechte) in der Vorgeschichte", "ids": ["psoriasis"] },
+    { "text": "Schwere Allergien und Desensibilisierung: allergische Reaktionen können heftiger verlaufen und schlechter auf Adrenalin ansprechen", "ids": ["allergie", "anaphylaxie"] },
+    { "text": "Schilddrüsenüberfunktion: Zeichen werden verdeckt; abruptes Absetzen kann eine thyreotoxische Krise auslösen", "ids": ["hyperthyreose"] },
+    { "text": "Myasthenia gravis (kann sich verschlechtern)", "ids": ["myasthenia-gravis"] },
+    { "text": "Eingeschränkte Leber- oder Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Geplante Operation oder Narkose: Anästhesie informieren", "ids": ["operation", "anaesthesie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Verapamil und Diltiazem", "ref": ["gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Starke Pulsverlangsamung, AV-Block, Blutdruckabfall und Herzversagen möglich – nur unter enger Überwachung; keine intravenöse Gabe von Verapamil oder Diltiazem während einer Betablockerbehandlung.", "schwere": "schwer" },
+    { "text": "Clonidin", "ref": ["clonidin"], "effekt": "Beim Absetzen von Clonidin gefährlicher Blutdruckanstieg – zuerst Propranolol schrittweise, einige Tage später Clonidin absetzen.", "schwere": "schwer" },
+    { "text": "Antiarrhythmika (z. B. Amiodaron, Flecainid, Propafenon)", "ref": ["gruppe:antiarrhythmika-klasse-i", "gruppe:antiarrhythmika-klasse-iii"], "effekt": "Verstärkte Hemmung von Reizleitung und Herzkraft – EKG und Puls kontrollieren.", "schwere": "mittel" },
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Warnzeichen einer Unterzuckerung werden verdeckt und die Erholung verzögert – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Fluvoxamin und andere Hemmer von CYP1A2 oder CYP2D6 (z. B. Ciprofloxacin, Paroxetin, Fluoxetin)", "ref": ["fluvoxamin", "gruppe:cyp1a2-hemmer", "gruppe:starke-cyp2d6-hemmer"], "effekt": "Propranolol-Spiegel steigt (mit Fluvoxamin bis auf das Fünffache) – langsamer Puls und Blutdruckabfall; Dosis gegebenenfalls reduzieren.", "schwere": "mittel" },
+    { "text": "Rizatriptan", "ref": ["rizatriptan"], "effekt": "Propranolol erhöht den Rizatriptan-Spiegel um etwa 70 % – niedrigere Rizatriptan-Dosis (5 mg) verwenden.", "schwere": "mittel" },
+    { "text": "Lidocain", "ref": ["lidocain"], "effekt": "Lidocain-Spiegel steigt (verminderte Leberdurchblutung) – Gefahr von Lidocain-Nebenwirkungen.", "schwere": "mittel" },
+    { "text": "Adrenalin und andere Sympathomimetika", "ref": ["adrenalin", "gruppe:sympathomimetika"], "effekt": "Starker Blutdruckanstieg mit Pulsverlangsamung möglich; bei einer Anaphylaxie wirkt Adrenalin schlechter.", "schwere": "mittel" },
+    { "text": "Beta-2-Sympathomimetika (Asthma-Sprays)", "ref": ["gruppe:beta2-sympathomimetika"], "effekt": "Gegenseitige Wirkungsabschwächung; die Atemwege können sich verengen.", "schwere": "mittel" },
+    { "text": "Digoxin, Ivabradin und S1P-Modulatoren (z. B. Fingolimod)", "ref": ["digoxin", "ivabradin", "gruppe:s1p-modulatoren"], "effekt": "Zusätzliche Pulsverlangsamung und Überleitungsstörungen – Puls und EKG kontrollieren.", "schwere": "mittel" },
+    { "text": "Narkosemittel", "ref": ["isofluran", "sevofluran", "propofol"], "effekt": "Verstärkte Blutdrucksenkung und Schwächung der Herzkraft – Narkoseteam informieren.", "schwere": "mittel" },
+    { "text": "Calciumantagonisten vom Dihydropyridin-Typ (z. B. Nifedipin)", "ref": ["gruppe:dhp-calciumantagonisten"], "effekt": "Verstärkte Blutdrucksenkung; bei eingeschränkter Herzfunktion kann sich eine Herzschwäche verschlechtern.", "schwere": "leicht" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte Blutdrucksenkung.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Bei Säuglingen (Hemangiol): Schlafstörungen, Bronchitis, Durchfall, Erbrechen"],
+    "haeufig": ["Müdigkeit, Erschöpfung", "Bradykardie (langsamer Puls)", "Kalte Hände und Füsse, Raynaud-Syndrom", "Schlafstörungen, Albträume"],
+    "gelegentlich": ["Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Durchfall"],
+    "selten": ["Verschlechterung einer Herzinsuffizienz, AV-Block", "Blutdruckabfall beim Aufstehen, Ohnmacht", "Bronchospasmus (Verkrampfung der Atemwege), besonders bei Asthma", "Schwindel, Verwirrtheit, Stimmungsschwankungen, Halluzinationen, Psychosen", "Thrombozytopenie (Mangel an Blutplättchen), Purpura", "Haarausfall, psoriasisartige Hautreaktionen, Verschlechterung einer Psoriasis", "Sehstörungen, trockene Augen", "Kribbeln (Parästhesien), Verschlechterung einer Schaufensterkrankheit"],
+    "sehrSelten": ["Auslösung oder Verschlechterung einer Myasthenia gravis"],
+    "unbekannt": ["Hypoglykämie (Unterzuckerung), besonders bei Kindern und nach Fasten, selten mit Krampfanfällen", "Depression", "Bindehautentzündung"]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung: Propranolol kann das Wachstum des Kindes vermindern und beim Neugeborenen langsamen Puls, Unterzuckerung und Atemprobleme verursachen; Neugeborene in den ersten Lebenstagen überwachen.",
+  "stillzeit": "Geht in die Muttermilch über; laut Fachinformation wird Stillen nicht empfohlen. Wird dennoch gestillt, den Säugling auf langsamen Puls und Unterzuckerung beobachten.",
+  "hinweise": [
+    "Nicht abrupt absetzen, sondern schrittweise über 1–2 Wochen ausschleichen (Gefahr von Angina-pectoris-Anfällen, Herzinfarkt oder Blutdruckanstieg).",
+    "Kann die Reaktionsfähigkeit beeinträchtigen, besonders zu Beginn und zusammen mit Alkohol.",
+    "Diabetes: Unterzuckerungen können ohne Herzklopfen und Zittern verlaufen – Blutzucker häufiger messen.",
+    "Hemangiol: während oder direkt nach einer Mahlzeit geben; bei Nahrungsverweigerung, Erbrechen oder einem Atemwegsinfekt mit Atemnot die Gabe aussetzen und ärztlichen Rat einholen."
+  ],
+  "stand": "2026-10"
+}

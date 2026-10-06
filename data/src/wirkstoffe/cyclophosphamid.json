@@ -1,0 +1,297 @@
+{
+  "id": "cyclophosphamid",
+  "name": "Cyclophosphamid",
+  "synonyme": [
+    "Cyclophosphamide",
+    "CPA",
+    "Cyclophosphamidum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01AA01"
+  ],
+  "klasse": "Zytostatikum (Alkylans, Stickstofflost-Derivat); Immunsuppressivum",
+  "kurz": "Zytostatikum gegen verschiedene Krebsarten; auch zur Unterdrückung des Immunsystems bei schweren Autoimmunerkrankungen.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "kardiotoxisch",
+    "hepatotoxisch",
+    "hyponatriaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Endoxan"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Dragées (überzogene Tabletten)",
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Verschiedene Krebsarten, meist in Kombination: akute und chronische lymphatische Leukämie, Hodgkin- und Non-Hodgkin-Lymphome, multiples Myelom, Brust- und Eierstockkrebs, kleinzelliger Lungenkrebs, Ewing-Sarkom, Neuroblastom",
+      "ids": [
+        "leukaemie",
+        "lymphom",
+        "multiples-myelom",
+        "brustkrebs",
+        "gynaekologischer-krebs",
+        "lungenkrebs",
+        "sarkom",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Vorbereitung (Konditionierung) auf eine Stammzell- bzw. Knochenmarktransplantation",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Schwere, lebensbedrohliche Autoimmunerkrankungen wie Lupus-Nephritis oder ANCA-assoziierte Vaskulitis (z. B. Granulomatose mit Polyangiitis)",
+      "ids": [
+        "lupus",
+        "vaskulitis",
+        "autoimmunerkrankung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Teilung schnell wachsender Zellen, vor allem von Krebs- und Immunzellen. Cyclophosphamid ist ein Prodrug: Es wird in der Leber (vor allem über CYP2B6, daneben CYP2C9, CYP2C19 und CYP3A4) zu 4-Hydroxycyclophosphamid aktiviert, das in den eigentlichen Wirkstoff Phosphoramid-Lost und das blasenreizende Acrolein zerfällt. Phosphoramid-Lost vernetzt die DNA-Stränge (Alkylierung) und löst so den Zelltod aus. Durch die Wirkung auf B- und T-Lymphozyten unterdrückt es zudem stark das Immunsystem.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Knochenmarkschädigung, insbesondere nach vorangegangener Chemo- oder Strahlentherapie",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Blasenentzündung (Zystitis) oder Harnwegsinfekt",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Behinderung des Harnabflusses",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Akute, unkontrollierte Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten, Bestrahlung des Herzens oder Vorbehandlung mit Anthrazyklinen: Herzmuskelschäden möglich",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion: Dosisanpassung und engmaschige Kontrollen",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Latente Infektionen wie Hepatitis B oder Tuberkulose: Gefahr der Reaktivierung",
+      "ids": [
+        "hepatitis-b",
+        "tuberkulose",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker engmaschig kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen: Lungenentzündung und Lungenfibrose möglich, auch verzögert",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Geplante Operationen: gestörte Wundheilung",
+      "ids": [
+        "operation",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Kinderwunsch: Gefahr bleibender Unfruchtbarkeit bei Frauen und Männern",
+      "ids": [
+        "unfruchtbarkeit",
+        "maennliche-unfruchtbarkeit",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhte Empfindlichkeit für Nebenwirkungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während und mehrere Monate nach der Behandlung nicht mit Lebendimpfstoffen impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzschädigende Mittel (z. B. Anthrazykline, Trastuzumab) und Pentostatin",
+      "ref": [
+        "gruppe:kardiotoxisch"
+      ],
+      "effekt": "Verstärkte Herzschädigung; mit hoch dosiertem Pentostatin tödliche Herzschäden beschrieben – Herzfunktion engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel, Allopurinol und Hydrochlorothiazid",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "allopurinol",
+        "hydrochlorothiazid"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Mehr giftige Abbauprodukte – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hemmer der Aktivierung (z. B. Azol-Antimykotika, Aprepitant, Bupropion, Ciprofloxacin, Prasugrel, Ondansetron)",
+      "ref": [
+        "gruppe:azol-antimykotika",
+        "aprepitant",
+        "bupropion",
+        "ciprofloxacin",
+        "prasugrel",
+        "ondansetron"
+      ],
+      "effekt": "Weniger aktiver Wirkstoff gebildet – Wirkung kann abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Tiefere Ciclosporin-Spiegel – Spiegel kontrollieren (Gefahr von Abstossung bzw. Graft-versus-Host-Reaktion).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Suxamethonium (Muskelrelaxans bei Narkosen)",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Verlängerte Muskellähmung durch verminderte Cholinesterase-Aktivität – Anästhesie informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende Gerinnungswerte – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lungenschädigende Mittel (z. B. Amiodaron, Bleomycin)",
+      "ref": [
+        "amiodaron",
+        "bleomycin"
+      ],
+      "effekt": "Erhöhtes Risiko für Lungenschäden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Blutzuckersenkung kann verstärkt sein – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung mit Mangel an weissen Blutkörperchen (Leukopenie, Neutropenie)",
+      "Geschwächte Immunabwehr (Immunsuppression)",
+      "Haarausfall (Alopezie), meist vorübergehend",
+      "Fieber"
+    ],
+    "haeufig": [
+      "Infektionen, Fieber bei Neutropenie",
+      "Blasenentzündung mit Blut im Urin (hämorrhagische Zystitis)",
+      "Schleimhautentzündungen",
+      "Erhöhte Leberwerte",
+      "Gestörte Spermienbildung",
+      "Schüttelfrost, Schwäche, Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Lungenentzündung, Blutvergiftung (Sepsis)",
+      "Thrombozytopenie und Anämie",
+      "Überempfindlichkeitsreaktionen",
+      "Appetitlosigkeit",
+      "Herzmuskelschäden (Kardiomyopathie, Myokarditis), Herzinsuffizienz",
+      "Nervenschäden (periphere Neuropathie)",
+      "Ausbleiben der Monatsblutung, Unfruchtbarkeit"
+    ],
+    "selten": [
+      "Hyponatriämie (Natriummangel) durch vermehrte ADH-Ausschüttung (SIADH)",
+      "Herzrhythmusstörungen",
+      "Schwindel, Krampfanfälle",
+      "Hautausschlag"
+    ],
+    "sehrSelten": [
+      "Venenverschlusskrankheit der Leber",
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse",
+      "Anaphylaktischer Schock"
+    ],
+    "unbekannt": [
+      "Übelkeit und Erbrechen (dosisabhängig)",
+      "Zweittumoren wie akute Leukämie, myelodysplastisches Syndrom oder Blasenkrebs",
+      "Interstitielle Lungenerkrankung, Lungenfibrose",
+      "Tumorlyse-Syndrom",
+      "Hämolytisch-urämisches Syndrom (Blutzerfall mit Nierenversagen)"
+    ]
+  },
+  "schwangerschaft": "Fruchtschädigend; darf nur bei lebensbedrohlicher Erkrankung der Mutter angewendet werden. Frauen müssen während und bis 12 Monate nach der Behandlung zuverlässig verhüten, Männer bis 6 Monate danach.",
+  "stillzeit": "Kontraindiziert; der Wirkstoff geht in die Muttermilch über.",
+  "hinweise": [
+    "Am Behandlungstag und danach reichlich trinken und die Blase häufig entleeren; Tabletten morgens einnehmen – schützt vor Blasenentzündung.",
+    "Regelmässige Kontrollen von Blutbild, Urin, Nieren- und Leberwerten; Blut im Urin, Fieber oder Atemnot sofort melden.",
+    "Vor Behandlungsbeginn über Möglichkeiten zum Fruchtbarkeitserhalt (Einfrieren von Spermien oder Eizellen) sprechen.",
+    "Grapefruit und Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

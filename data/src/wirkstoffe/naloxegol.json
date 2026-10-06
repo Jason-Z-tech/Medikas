@@ -1,0 +1,187 @@
+{
+  "id": "naloxegol",
+  "name": "Naloxegol",
+  "synonyme": [
+    "Naloxegol-Oxalat",
+    "PEG-Naloxol",
+    "Naloxegol oxalate"
+  ],
+  "atc": [
+    "A06AH03"
+  ],
+  "klasse": "Peripher wirkender µ-Opioidrezeptor-Antagonist (PAMORA)",
+  "kurz": "Tablette gegen Verstopfung durch Opioid-Schmerzmittel; blockiert die Opioidwirkung im Darm, nicht aber die Schmerzlinderung.",
+  "gruppen": [
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Moventig"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Opioidbedingte Verstopfung bei Erwachsenen, die auf Abführmittel nicht ausreichend ansprechen",
+      "ids": [
+        "verstopfung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die verstopfende Wirkung von Opioid-Schmerzmitteln im Darm auf, ohne die Schmerzlinderung aufzuheben. Naloxegol ist ein mit Polyethylenglykol verknüpftes (PEGyliertes) Naloxon-Derivat, das die µ-Opioidrezeptoren im Magen-Darm-Trakt blockiert. Da es vom Transporter P-Glykoprotein aus dem Gehirn hinausbefördert wird, gelangt es kaum ins zentrale Nervensystem.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannter oder vermuteter Darmverschluss sowie erhöhtes Risiko für einen erneuten Darmverschluss",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen mit erhöhtem Risiko für einen Magen-Darm-Durchbruch, z. B. Tumoren des Magen-Darm-Trakts oder Bauchfells, fortgeschrittener oder wiederkehrender Eierstockkrebs, Behandlung mit VEGF-Hemmern",
+      "ids": [
+        "krebs",
+        "gynaekologischer-krebs"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erkrankungen mit geschwächter Darmwand (z. B. schwere Magen-Darm-Geschwüre, Morbus Crohn, Divertikulitis, Ogilvie-Syndrom): Gefahr eines Darmdurchbruchs – bei starken Bauchschmerzen sofort absetzen",
+      "ids": [
+        "magen-darm-ulkus",
+        "morbus-crohn",
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Gestörte Blut-Hirn-Schranke (z. B. Hirntumoren oder -metastasen, aktive Multiple Sklerose, fortgeschrittene Alzheimer-Krankheit): Entzugssymptome oder schwächere Schmerzlinderung möglich",
+      "ids": [
+        "hirntumor",
+        "multiple-sklerose",
+        "demenz"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Niereninsuffizienz: niedrigere Anfangsdosis",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: nicht empfohlen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kürzlicher Herzinfarkt, Herzinsuffizienz mit Beschwerden oder stark verlängerte QT-Zeit: nur begrenzte Erfahrungen",
+      "ids": [
+        "herzinfarkt",
+        "herzinsuffizienz",
+        "qt-verlaengerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Ketoconazol, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Sie erhöhen die Naloxegol-Konzentration um ein Vielfaches – Gefahr von Opioid-Entzugssymptomen und starken Magen-Darm-Beschwerden."
+    },
+    {
+      "text": "VEGF-Hemmer (z. B. Bevacizumab) bei Krebserkrankungen",
+      "ref": [
+        "bevacizumab",
+        "ramucirumab"
+      ],
+      "grund": "Erhöhtes Risiko für einen Durchbruch der Magen-Darm-Wand (Perforation)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Naloxegol-Spiegel steigt – niedrigere Dosis verwenden und auf Nebenwirkungen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Naloxegol-Spiegel sinkt stark, die Wirkung geht verloren – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Opioid-Antagonisten (z. B. Naloxon, Naltrexon, Methylnaltrexon)",
+      "ref": [
+        "gruppe:opioid-antagonisten",
+        "methylnaltrexon"
+      ],
+      "effekt": "Verstärkte Opioid-Blockade mit Risiko für Entzugssymptome – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmt den Abbau von Naloxegol – während der Behandlung keinen Grapefruitsaft trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Unter Methadon traten häufiger Bauchschmerzen, Durchfall und Entzugssymptome auf – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Hemmer (z. B. Chinidin, Ciclosporin)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Etwas höhere Naloxegol-Spiegel – auf Entzugssymptome und Magen-Darm-Beschwerden achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bauchschmerzen",
+      "Durchfall"
+    ],
+    "haeufig": [
+      "Blähungen",
+      "Übelkeit",
+      "Erbrechen",
+      "Kopfschmerzen",
+      "Vermehrtes Schwitzen (Hyperhidrose)",
+      "Nasen-Rachen-Entzündung"
+    ],
+    "gelegentlich": [
+      "Opioid-Entzugssyndrom (z. B. Frösteln, Schwitzen, Unruhe, Gähnen)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen",
+      "Magen-Darm-Perforation (Durchbruch der Darmwand)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen (begrenzte Erfahrungen; beim Ungeborenen sind Entzugssymptome möglich).",
+  "stillzeit": "Während der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Morgens nüchtern einnehmen, mindestens 30 Minuten vor der ersten Mahlzeit des Tages.",
+    "Während der Behandlung keinen Grapefruitsaft trinken.",
+    "Bisherige regelmässige Abführmittel werden zu Behandlungsbeginn abgesetzt; bei Bedarf sind Reserve-Abführmittel erlaubt.",
+    "Starke, anhaltende oder zunehmende Bauchschmerzen sofort ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

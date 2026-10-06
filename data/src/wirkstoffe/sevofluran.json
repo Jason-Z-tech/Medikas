@@ -1,0 +1,225 @@
+{
+  "id": "sevofluran",
+  "name": "Sevofluran",
+  "synonyme": [
+    "Sevoflurane",
+    "Sevofluranum"
+  ],
+  "atc": [
+    "N01AB08"
+  ],
+  "klasse": "Inhalationsanästhetikum (halogenierter Ether)",
+  "kurz": "Narkosegas, das über eine Maske oder einen Beatmungsschlauch eingeatmet wird; für Vollnarkosen bei Erwachsenen und Kindern im Spital.",
+  "gruppen": [
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "blutdrucksenkend",
+    "bradykardisierend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Sevorane",
+    "Sevofluran Baxter"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Flüssigkeit zur Herstellung eines Dampfs zur Inhalation"
+  ],
+  "indikationen": [
+    {
+      "text": "Einleitung und Aufrechterhaltung einer Allgemeinanästhesie (Vollnarkose) bei Erwachsenen und Kindern, stationär und ambulant",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Versetzt beim Einatmen rasch in einen tiefen Schlaf, in dem Schmerzreize nicht mehr wahrgenommen werden. Sevofluran ist ein halogenierter Ether, der die Erregungsübertragung im Zentralnervensystem dämpft, unter anderem durch Verstärkung hemmender GABA-A- und Glycin-Rezeptoren. Wegen seiner geringen Löslichkeit im Blut flutet es schnell an und ab, sodass Einschlafen und Aufwachen rasch erfolgen. Da es die Atemwege kaum reizt, eignet es sich besonders für die Narkoseeinleitung über eine Maske, etwa bei Kindern.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannte oder vermutete Veranlagung zu maligner Hyperthermie (lebensbedrohliche Stoffwechselentgleisung unter Narkose)",
+      "ids": [
+        "maligne-hyperthermie"
+      ]
+    },
+    {
+      "text": "Leberfunktionsstörung, Gelbsucht, Fieber oder Vermehrung der weissen Blutkörperchen unklarer Ursache nach einer früheren Narkose mit halogenierten Narkosegasen",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Neuromuskuläre Erkrankungen, besonders Muskeldystrophie Duchenne (Gefahr von Hyperkaliämie und Herzrhythmusstörungen, v. a. bei Kindern)",
+      "ids": [
+        "neuromuskulaere-erkrankung",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Angeborenes oder erworbenes Long-QT-Syndrom (Gefahr von Torsade de pointes)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Krampfneigung (Krampfanfälle möglich, selten auch ohne Vorerkrankung, v. a. bei Kindern)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck oder Kopfverletzung",
+      "ids": [
+        "hirnoedem",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit (ein Blutdruckabfall kann die Durchblutung des Herzens verschlechtern)",
+      "ids": [
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen oder wiederholte Narkosen in kurzen Abständen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Mitochondriale Erkrankungen",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nicht selektive MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Gefahr von Kreislaufkrisen während der Operation – Absetzen etwa 2 Wochen vor geplanten Eingriffen wird empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Suxamethonium",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Bei entsprechender Veranlagung Auslösung einer malignen Hyperthermie; bei Kindern mit Muskelerkrankungen schwere Hyperkaliämie bis Herzstillstand möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide, Benzodiazepine, Lachgas und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "distickstoffmonoxid",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Narkosewirkung, Atemdämpfung und Blutdruckabfall verstärkt – die Sevofluran-Konzentration wird entsprechend gesenkt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nicht depolarisierende Muskelrelaxanzien (z. B. Rocuronium, Atracurium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Muskelerschlaffung verstärkt und verlängert – Dosis der Muskelrelaxanzien reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten und Betablocker",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:betablocker"
+      ],
+      "effekt": "Ausgeprägter Blutdruckabfall sowie Verlangsamung von Puls und Erregungsleitung möglich – Kreislauf überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin und andere Sympathomimetika",
+      "ref": [
+        "adrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Adrenalin (z. B. in Lokalanästhetika) vorsichtig dosieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung möglich – EKG überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Johanniskraut (Langzeiteinnahme)",
+      "ref": [
+        "johanniskraut"
+      ],
+      "effekt": "Schwerer Blutdruckabfall und verzögertes Aufwachen beschrieben – vor geplanten Eingriffen angeben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Isoniazid",
+      "ref": [
+        "isoniazid"
+      ],
+      "effekt": "Verstärkter Abbau von Sevofluran über CYP2E1, erhöhtes Risiko für Leberschäden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Unruhe (Agitiertheit) beim Aufwachen",
+      "Bradykardie (langsamer Puls)",
+      "Hypotonie (Blutdruckabfall)",
+      "Husten",
+      "Übelkeit, Erbrechen"
+    ],
+    "haeufig": [
+      "Schläfrigkeit, Schwindel, Kopfschmerzen",
+      "Tachykardie (Herzrasen), Blutdruckanstieg",
+      "Atemdepression, Atemwegsverlegung, Laryngospasmus (Stimmritzenkrampf)",
+      "Vermehrter Speichelfluss",
+      "Schüttelfrost, Fieber, Unterkühlung",
+      "Veränderte Blutzucker- und Leberwerte"
+    ],
+    "gelegentlich": [
+      "Verwirrtheit",
+      "Herzrhythmusstörungen (z. B. AV-Block, Vorhofflimmern, Extrasystolen)",
+      "Atemstillstand (Apnoe), Sauerstoffmangel",
+      "Asthma-Anfall",
+      "Harnverhalt"
+    ],
+    "unbekannt": [
+      "Maligne Hyperthermie",
+      "Krampfanfälle, unwillkürliche Bewegungen",
+      "QT-Verlängerung mit Torsade de pointes, Herzstillstand",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Hepatitis, Leberversagen",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Erhöhter Hirndruck"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; beim Kaiserschnitt wurde Sevofluran sicher angewendet. Es entspannt die Gebärmuttermuskulatur, was Blutungen verstärken kann.",
+  "stillzeit": "Der Übergang in die Muttermilch ist nicht untersucht; wegen der raschen Ausscheidung ist Stillen nach dem Aufwachen meist möglich – Vorgehen mit dem Narkoseteam besprechen.",
+  "hinweise": [
+    "Nach einer Narkose mindestens 24 Stunden nicht Auto fahren, keine Maschinen bedienen und keinen Alkohol trinken.",
+    "Dem Narkoseteam maligne Hyperthermie in der Familie, Muskelerkrankungen und frühere Narkoseprobleme unbedingt melden.",
+    "Einnahme von MAO-Hemmern oder Johanniskraut vor geplanten Eingriffen angeben."
+  ],
+  "stand": "2026-10"
+}

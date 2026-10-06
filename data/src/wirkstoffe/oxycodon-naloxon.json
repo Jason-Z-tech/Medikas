@@ -1,0 +1,235 @@
+{
+  "id": "oxycodon-naloxon",
+  "name": "Oxycodon + Naloxon",
+  "synonyme": [
+    "Oxycodon/Naloxon",
+    "Oxycodone/naloxone"
+  ],
+  "kombinationAus": [
+    "oxycodon",
+    "naloxon"
+  ],
+  "atc": [
+    "N02AA55"
+  ],
+  "klasse": "Opioid-Analgetikum mit peripher wirksamem Opioid-Antagonisten",
+  "kurz": "Starkes Opioid-Schmerzmittel, kombiniert mit Naloxon, das der durch Opioide verursachten Verstopfung entgegenwirkt.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Targin",
+    "Oxycodon-Naloxon Mepha"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Starke Schmerzen, die nur mit Opioid-Analgetika ausreichend behandelt werden können",
+      "ids": [
+        "schmerzen",
+        "chronische-schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert starke Schmerzen und verursacht dabei weniger Verstopfung als ein Opioid allein. Oxycodon wirkt als Agonist an μ-Opioidrezeptoren in Gehirn und Rückenmark. Naloxon blockiert dieselben Rezeptoren, wird nach dem Schlucken aber zu über 97 % bereits bei der ersten Leberpassage abgebaut. Es wirkt deshalb fast nur im Darm, wo es die verstopfende Wirkung von Oxycodon abschwächt, ohne die Schmerzlinderung wesentlich zu beeinträchtigen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Atemdepression (stark abgeschwächte Atmung)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere chronisch obstruktive Lungenerkrankung, Cor pulmonale oder schweres Asthma",
+      "ids": [
+        "copd",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Nicht durch Opioide bedingter paralytischer Ileus (Darmlähmung)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz (Naloxon gelangt dann in den Kreislauf)",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte Leberinsuffizienz oder eingeschränkte Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schlafapnoe oder eingeschränkte Atemfunktion",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Kopfverletzung, erhöhter Hirndruck oder Bewusstseinsstörung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Schilddrüsenunterfunktion oder Nebenniereninsuffizienz",
+      "ids": [
+        "hypotonie",
+        "hypothyreose",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Gallenwegserkrankungen oder Pankreatitis",
+      "ids": [
+        "gallensteine",
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Sucht oder Missbrauch in der Vorgeschichte; zerkleinerte oder gespritzte Tabletten lösen Entzugssymptome aus",
+      "ids": [
+        "abhaengigkeit",
+        "opioidabhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine und Z-Substanzen",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen"
+      ],
+      "effekt": "Gefahr schwerer Atemdepression, tiefer Bewusstlosigkeit und Tod – nur kombinieren, wenn keine Alternative besteht, mit niedrigsten Dosen und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gabapentin und Pregabalin",
+      "ref": [
+        "gruppe:gabapentinoide"
+      ],
+      "effekt": "Verstärkte Atemdämpfung und Sedierung – Dosis anpassen, auf Atemprobleme achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir, Grapefruitsaft)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Oxycodonspiegel steigt deutlich – Gefahr von Atemdepression; Dosis anpassen und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:antipsychotika",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Verstärkte Sedierung und Atemdämpfung – kein Alkohol.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Oxycodonspiegel sinkt, Schmerzlinderung abgeschwächt; nach Absetzen des Induktors Gefahr einer Überdosierung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR-Veränderungen möglich – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Partialagonisten (z. B. Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung, Entzugssymptome möglich – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Mögliche Verstärkung der Opioidwirkung – nur mit Vorsicht, 14 Tage Abstand empfohlen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Schlaflosigkeit",
+      "Schwindel, Kopfschmerzen, Schläfrigkeit",
+      "Hitzewallungen",
+      "Bauchschmerzen, Verstopfung, Durchfall, Blähungen",
+      "Übelkeit, Erbrechen, Mundtrockenheit, Verdauungsbeschwerden",
+      "Juckreiz, Hautreaktionen, Schwitzen",
+      "Schwäche, erhöhte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Angst, Verwirrtheit, Unruhe, Depression",
+      "Krampfanfälle, Ohnmacht, Zittern",
+      "Angina pectoris (Brustenge) bei vorbestehender koronarer Herzkrankheit",
+      "Blutdruckabfall oder -anstieg",
+      "Atemnot, Husten",
+      "Gallenkoliken",
+      "Entzugssymptome"
+    ],
+    "selten": [
+      "Herzrasen"
+    ],
+    "unbekannt": [
+      "Atemdepression (abgeschwächte Atmung)",
+      "Schlafapnoe",
+      "Euphorie, Halluzinationen, Albträume, Aggression",
+      "Harnverhalt",
+      "Abhängigkeit"
+    ]
+  },
+  "schwangerschaft": "Möglichst nicht anwenden; nur nach strenger ärztlicher Abwägung. Längere Anwendung kann beim Neugeborenen ein Entzugssyndrom auslösen.",
+  "stillzeit": "Oxycodon geht in die Muttermilch über; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht zerkauen oder zerkleinern; zerkleinert, geschnupft oder gespritzt drohen Überdosierung oder akuter Entzug.",
+    "Kein Alkohol und kein Grapefruitsaft; die Fahrtüchtigkeit ist vor allem zu Beginn und bei Dosisänderungen eingeschränkt.",
+    "Bei Umstellung von einem anderen Opioid können anfangs Durchfall und Entzugssymptome auftreten.",
+    "Nach längerer Anwendung nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "ceftriaxon",
+  "name": "Ceftriaxon",
+  "synonyme": ["Ceftriaxone", "Ceftriaxon-Dinatrium", "Ceftriaxonum"],
+  "atc": ["J01DD04"],
+  "klasse": "Cephalosporin der 3. Generation (Beta-Laktam-Antibiotikum)",
+  "kurz": "Breit wirksames Cephalosporin-Antibiotikum zum Spritzen, meist einmal täglich, z. B. bei Lungenentzündung, Meningitis, Gonorrhö und Borreliose.",
+  "gruppen": ["cephalosporine"],
+  "handelsnamen": ["Rocephin", "Ceftriaxon Labatec", "Ceftriaxon Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Injektions- oder Infusionslösung", "Pulver mit Lidocain-haltigem Lösungsmittel zur Injektion in den Muskel"],
+  "indikationen": [
+    { "text": "Bakterielle Hirnhautentzündung (Meningitis)", "ids": ["pneumokokken-meningokokken", "bakterielle-infektion"] },
+    { "text": "Ambulant und im Spital erworbene Lungenentzündung, akute Verschlimmerung einer COPD", "ids": ["lungenentzuendung", "copd"] },
+    { "text": "Akute Mittelohrentzündung", "ids": ["ohrenentzuendung"] },
+    { "text": "Komplizierte Infektionen von Harnwegen (inkl. Nierenbeckenentzündung), Bauchraum, Haut und Weichteilen sowie Knochen und Gelenken", "ids": ["harnwegsinfekt", "hautinfektion", "bakterielle-infektion"] },
+    { "text": "Gonorrhö und Syphilis", "ids": ["geschlechtskrankheit"] },
+    { "text": "Lyme-Borreliose in späteren Stadien (z. B. Neuroborreliose)", "ids": ["borreliose"] },
+    { "text": "Bakterielle Herzinnenhautentzündung (Endokarditis), Blutvergiftung, Fieber bei Neutropenie", "ids": ["herzklappenerkrankung", "bakterielle-infektion", "neutropenie"] },
+    { "text": "Vorbeugung von Infektionen bei Operationen", "ids": ["operation"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Ceftriaxon hemmt die Penicillin-bindenden Proteine und damit die Quervernetzung des Peptidoglykans (bakterizide Wirkung). Es wirkt gegen viele grampositive und gramnegative Bakterien wie Pneumokokken, Streptokokken, Meningokokken, Gonokokken, Haemophilus und zahlreiche Darmbakterien und dringt gut in die Hirnhäute ein. Dank seiner langen Halbwertszeit (etwa 8 Stunden) genügt meist eine Gabe pro Tag; ausgeschieden wird es etwa je zur Hälfte über Niere und Galle. Gegen Pseudomonas, Enterokokken, MRSA und ESBL-Bildner ist es nicht zuverlässig wirksam.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Cephalosporine", "ids": ["allergie"] },
+    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf Penicilline oder andere Beta-Laktam-Antibiotika in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] },
+    { "text": "Frühgeborene bis zu einem korrigierten Alter von 41 Wochen", "ids": ["kinder"] },
+    { "text": "Reife Neugeborene bis 28 Tage mit Gelbsucht (Hyperbilirubinämie), tiefem Albumin oder Azidose (Gefahr einer Bilirubin-Hirnschädigung)", "ids": ["kinder"] },
+    { "text": "Injektion in den Muskel mit Lidocain als Lösungsmittel: nie in die Vene; nicht bei Lidocain-Allergie, Herzblock, schwerer Herzinsuffizienz oder bei Kindern unter 30 Monaten", "ids": ["av-block", "herzinsuffizienz", "kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "Gallensteine oder Gallenwegserkrankungen: Ceftriaxon-Calcium-Ablagerungen in der Gallenblase (Pseudolithiasis) mit Koliken möglich, selten Bauchspeicheldrüsenentzündung", "ids": ["gallensteine", "pankreatitis"] },
+    { "text": "Nierensteine in der Vorgeschichte: Ablagerungen in den Harnwegen möglich – ausreichend trinken", "ids": ["nierensteine"] },
+    { "text": "Blutarmut während der Behandlung: an eine (teils schwere) hämolytische Anämie denken und sofort abklären", "ids": ["haemolytische-anaemie", "anaemie"] },
+    { "text": "Ältere Menschen und eingeschränkte Nierenfunktion: Enzephalopathie (Verwirrtheit, Bewusstseinsstörung, Krampfanfälle) möglich", "ids": ["aeltere-patienten", "niereninsuffizienz"] },
+    { "text": "Gleichzeitig schwere Nieren- und Leberinsuffizienz: Dosis begrenzen, Spiegel kontrollieren", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "Penicillinallergie ohne schwere Sofortreaktion: Kreuzallergie möglich", "ids": ["penicillinallergie"] },
+    { "text": "Vitamin-K-Mangel: Gerinnungsstörungen möglich – Gerinnung kontrollieren", "ids": ["blutgerinnungsstoerung"] },
+    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Calciumhaltige Infusionslösungen (inkl. parenteraler Ernährung) bei Neugeborenen bis 28 Tage", "ref": ["calcium"], "grund": "Ceftriaxon bildet mit Calcium unlösliche Kristalle, die sich in Lunge und Nieren ablagern können – bei Neugeborenen sind tödliche Verläufe beschrieben." }
+  ],
+  "interaktionen": [
+    { "text": "Calciumhaltige Infusionslösungen (z. B. Ringer-Lösung, parenterale Ernährung) bei älteren Kindern und Erwachsenen", "ref": ["calcium"], "effekt": "Nicht mischen und nicht gleichzeitig über denselben Zugang geben (Ausfällung) – nacheinander nur nach gründlichem Spülen des Zugangs.", "schwere": "schwer" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Blutverdünnung möglich – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Aminoglykoside (z. B. Gentamicin, Amikacin)", "ref": ["gruppe:aminoglykoside"], "effekt": "Nierenschädigung möglicherweise verstärkt – Nierenfunktion und Spiegel kontrollieren; nicht in derselben Lösung mischen.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
+    { "text": "Chloramphenicol", "ref": ["chloramphenicol"], "effekt": "Im Labor antagonistische Wirkung – Kombination vermeiden.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Eosinophilie, Leukopenie, Thrombozytopenie", "Durchfall, weicher Stuhl", "Anstieg der Leberwerte", "Hautausschlag"],
+    "gelegentlich": [
+      "Pilzinfektion im Genitalbereich",
+      "Granulozytopenie, Anämie, Gerinnungsstörung",
+      "Kopfschmerzen, Schwindel",
+      "Übelkeit, Erbrechen",
+      "Juckreiz",
+      "Venenentzündung, Schmerzen an der Einstichstelle, Fieber",
+      "Anstieg des Kreatinins (Nierenwert)"
+    ],
+    "selten": [
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Nesselsucht (Urtikaria)",
+      "Blut oder Zucker im Urin, Ödeme, Schüttelfrost"
+    ],
+    "unbekannt": [
+      "Hämolytische Anämie (Blutzerfall, auch schwer), Agranulozytose",
+      "Anaphylaxie (schwere allergische Reaktion bis zum Schock), Kounis-Syndrom",
+      "Ceftriaxon-Calcium-Ablagerungen in Gallenblase und Nieren, Gallenkolik, Pankreatitis",
+      "Krampfanfälle, Enzephalopathie",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP, DRESS)",
+      "Kernikterus (Bilirubin-Hirnschädigung) bei Neugeborenen",
+      "Jarisch-Herxheimer-Reaktion bei Borreliose oder Syphilis"
+    ]
+  },
+  "schwangerschaft": "Passiert die Plazenta; nach ärztlicher Abwägung möglich, besonders im 1. Drittel nur bei klarer Notwendigkeit. Bisher keine Hinweise auf eine Schädigung des Kindes.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung möglich (beim Säugling Durchfall oder Pilzbefall möglich).",
+  "hinweise": [
+    "Wird als Injektion oder Infusion gegeben; die Zubereitung mit Lidocain darf nur in den Muskel gespritzt werden.",
+    "Starke Schmerzen im rechten Oberbauch, Blässe, dunkler Urin oder Atemnot während der Behandlung sofort melden.",
+    "Bei längerer Behandlung wird das Blutbild kontrolliert; ausreichend trinken."
+  ],
+  "stand": "2026-10"
+}

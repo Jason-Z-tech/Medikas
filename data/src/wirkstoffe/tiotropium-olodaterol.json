@@ -1,0 +1,186 @@
+{
+  "id": "tiotropium-olodaterol",
+  "name": "Tiotropium + Olodaterol",
+  "synonyme": [
+    "Tiotropiumbromid + Olodaterolhydrochlorid",
+    "Tiotropium/olodaterol"
+  ],
+  "kombinationAus": [
+    "tiotropium",
+    "olodaterol"
+  ],
+  "atc": [
+    "R03AL06"
+  ],
+  "klasse": "Inhalative Fixkombination: langwirksames Anticholinergikum (LAMA) + langwirksames Beta-2-Sympathomimetikum (LABA)",
+  "kurz": "Inhalationslösung zur täglichen Dauerbehandlung der COPD; zwei langwirksame Bronchienerweiterer in einem Inhalator.",
+  "gruppen": [
+    "muskarinantagonisten-inhalativ",
+    "beta2-sympathomimetika",
+    "anticholinerg",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Spiolto Respimat"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Lösung zur Inhalation (Respimat-Inhalator)"
+  ],
+  "indikationen": [
+    {
+      "text": "Bronchienerweiternde Dauerbehandlung zur Linderung der Beschwerden bei COPD (Erwachsene)",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hält die Bronchien bei COPD rund um die Uhr weiter offen. Tiotropium blockiert langanhaltend die Muskarinrezeptoren (v. a. M3) der Bronchialmuskulatur und hemmt die verengende Wirkung von Acetylcholin. Olodaterol stimuliert als langwirksames Beta-2-Sympathomimetikum die Beta-2-Rezeptoren und entspannt die Bronchialmuskulatur. Beide Wirkungen halten 24 Stunden an.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Atropin oder verwandte Stoffe (z. B. Ipratropium, Oxitropium)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Asthma: nicht anwenden (bei Asthma nicht untersucht)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot – dafür ein kurz wirksames Notfallspray verwenden",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Niereninsuffizienz (Kreatinin-Clearance ≤ 50 ml/min): Nutzen und Risiko abwägen, eng überwachen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinfarkt in den letzten 6 Monaten, instabile oder lebensbedrohliche Herzrhythmusstörungen, Spitaleinweisung wegen Herzinsuffizienz im letzten Jahr, QT-Verlängerung, schwerer Bluthochdruck",
+      "ids": [
+        "herzinfarkt",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz",
+        "qt-verlaengerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom, Prostatavergrösserung oder Blasenhalsenge (Harnverhalt)",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Krampfleiden, Schilddrüsenüberfunktion, Phäochromozytom, Aneurysma, Diabetes oder Hypokaliämie",
+      "ids": [
+        "epilepsie",
+        "hyperthyreose",
+        "phaeochromozytom",
+        "aneurysma",
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Paradoxer Bronchospasmus direkt nach dem Inhalieren: sofort absetzen und ärztlich abklären",
+      "ids": [
+        "atemnot"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die Wirkung von Olodaterol abschwächen oder aufheben – meiden, ausser es gibt zwingende Gründe.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer, trizyklische Antidepressiva und QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Wirkungen auf Herz und Kreislauf können sich verstärken – mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere langwirksame Anticholinergika, Beta-2-Sympathomimetika oder Sympathomimetika",
+      "ref": [
+        "gruppe:muskarinantagonisten-inhalativ",
+        "gruppe:beta2-sympathomimetika",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Nicht zusätzlich anwenden: Wirkungen und Nebenwirkungen addieren sich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Langzeitkombination nicht untersucht und nicht empfohlen – mehr Mundtrockenheit, Verstopfung, Harnverhalt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, systemische Glukokortikoide, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Kaliumsenkung – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Schwindel, Kopfschmerzen",
+      "Herzrasen (Tachykardie)",
+      "Husten, Heiserkeit (Dysphonie)",
+      "Mundtrockenheit"
+    ],
+    "selten": [
+      "Vorhofflimmern, Herzklopfen, supraventrikuläre Tachykardie",
+      "Bluthochdruck",
+      "Schlaflosigkeit, verschwommenes Sehen",
+      "Kehlkopf- und Rachenentzündung, Nasenbluten, Bronchospasmus",
+      "Verstopfung, Übelkeit, Mundsoor, Zahnfleisch- und Mundschleimhautentzündung",
+      "Überempfindlichkeitsreaktionen: Ausschlag, Juckreiz, Nesselsucht, Angioödem",
+      "Harnverhalt, Harnwegsinfekte, Schmerzen beim Wasserlösen",
+      "Rücken- und Gelenkschmerzen"
+    ],
+    "unbekannt": [
+      "Glaukom, erhöhter Augeninnendruck",
+      "Darmverschluss einschliesslich Darmlähmung (paralytischer Ileus), Schluckbeschwerden, Reflux",
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Zahnkaries",
+      "Nasennebenhöhlenentzündung"
+    ]
+  },
+  "schwangerschaft": "Sehr begrenzte Erfahrungen; vorsichtshalber nicht anwenden, ausser der Nutzen überwiegt klar. Olodaterol kann die Wehentätigkeit hemmen.",
+  "stillzeit": "Nicht bekannt, ob die Wirkstoffe beim Menschen in die Muttermilch übergehen (im Tierversuch ja); Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit inhalieren; nicht zur Behandlung akuter Atemnot.",
+    "Den Respimat vor dem ersten Gebrauch richtig vorbereiten (Patrone einsetzen, Testhübe) und den Sprühnebel nicht in die Augen bringen.",
+    "Bei Augenschmerzen, verschwommenem Sehen, Farbringen um Lichter oder geröteten Augen sofort ärztliche Hilfe holen (Glaukomanfall)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "flohsamenschalen-ispaghula",
+  "name": "Flohsamenschalen (Ispaghula)",
+  "synonyme": ["Indische Flohsamenschalen", "Ispaghula husk", "Psyllium", "Plantago ovata", "Plantaginis ovatae seminis tegumentum", "Flohsamen"],
+  "atc": ["A06AC01"],
+  "klasse": "Quellstoff-Laxans (Ballaststoff, Volumenbildner)",
+  "kurz": "Pflanzlicher Quellstoff, der im Darm Wasser bindet; macht den Stuhl weich und regelmässig, bei Verstopfung und als Ballaststoffergänzung.",
+  "gruppen": ["laxanzien"],
+  "handelsnamen": ["Metamucil", "Agiolax (Kombi)"],
+  "abgabe": ["D"],
+  "darreichung": ["Pulver", "Granulat"],
+  "indikationen": [
+    { "text": "Gewohnheitsmässige (chronische) Verstopfung", "ids": ["verstopfung"] },
+    { "text": "Zustände, bei denen ein weicher Stuhl erwünscht ist, z. B. Hämorrhoiden, Analfissuren, nach Operationen am Enddarm oder After", "ids": ["haemorrhoiden", "operation"] },
+    { "text": "Ergänzend beim Reizdarmsyndrom mit Verstopfung, wenn mehr Ballaststoffe sinnvoll sind", "ids": ["reizdarm"] }
+  ],
+  "wirkmechanismus": "Quillt im Darm auf und vergrössert dadurch die Stuhlmenge, die den Darm auf natürliche Weise zur Entleerung anregt. Die Schalen der Samen von Plantago ovata enthalten Schleimstoffe (Arabinoxylane), die ein Vielfaches ihres Gewichts an Wasser binden und ein Gel bilden. Dieses macht harten Stuhl weicher und gleitfähiger, dehnt die Darmwand und regt so die Peristaltik an. Bei dünnem Stuhl kann das Gel überschüssiges Wasser binden. Die Wirkung tritt nach 12–72 Stunden ein; die Schleimstoffe werden nicht ins Blut aufgenommen.",
+  "kontraindikationen": [
+    { "text": "Darmverschluss oder drohender Darmverschluss, krankhafte Verengungen im Magen-Darm-Trakt, Darmlähmung (Megakolon)", "ids": ["darmverschluss"] },
+    { "text": "Schluckstörungen oder Erkrankungen der Speiseröhre (Gefahr des Steckenbleibens)", "ids": [] },
+    { "text": "Plötzliche, über 2 Wochen anhaltende Veränderung der Stuhlgewohnheiten, Blutungen aus dem Enddarm unklarer Ursache oder fehlender Stuhlgang nach Einnahme eines Abführmittels", "ids": ["aktive-blutung"] },
+    { "text": "Schwer einstellbarer Diabetes mellitus", "ids": ["diabetes"] }
+  ],
+  "vorsicht": [
+    { "text": "Ältere, bettlägerige oder geschwächte Menschen: Gefahr einer Stuhlverhärtung (Kotstau) bei zu wenig Flüssigkeit", "ids": ["aeltere-patienten"] },
+    { "text": "Insulinbehandelter Diabetes: Insulinbedarf kann sinken", "ids": ["diabetes"] },
+    { "text": "Allergie auf Flohsamen: Einatmen des Pulvers kann sensibilisieren (Schnupfen, Asthma) – besonders bei Pflegepersonen", "ids": ["allergie", "asthma"] },
+    { "text": "Kinder: nur nach ärztlichem Rat", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Darmlähmende Mittel (z. B. Loperamid, Opioide)", "ref": ["loperamid", "gruppe:opioide"], "effekt": "Erhöhtes Risiko für einen Darmverschluss – nur unter ärztlicher Aufsicht kombinieren.", "schwere": "mittel" },
+    { "text": "Andere Arzneimittel allgemein, besonders Schilddrüsenhormone, Herzglykoside, Vitamin-K-Antagonisten, Lithium", "ref": ["levothyroxin", "gruppe:herzglykoside", "gruppe:vitamin-k-antagonisten", "lithium"], "effekt": "Aufnahme kann verzögert oder vermindert sein – andere Medikamente mindestens 30–60 Minuten vorher oder mehrere Stunden danach einnehmen.", "schwere": "mittel" },
+    { "text": "Mineralstoffe und Vitamine (z. B. Calcium, Eisen, Zink, Vitamin B12)", "ref": ["gruppe:mehrwertige-kationen", "gruppe:eisenpraeparate"], "effekt": "Verminderte Aufnahme – zeitlichen Abstand einhalten.", "schwere": "leicht" },
+    { "text": "Insulin", "ref": ["gruppe:insuline"], "effekt": "Der Blutzuckeranstieg nach Mahlzeiten kann geringer ausfallen – Insulindosis gegebenenfalls anpassen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Blähungen und Völlegefühl, vor allem zu Beginn",
+      "Bauchschmerzen",
+      "Darm- oder Speiseröhrenverschluss sowie Kotstau bei zu wenig Flüssigkeit",
+      "Überempfindlichkeitsreaktionen wie Schnupfen, Bindehautentzündung, Asthma, Hautausschlag, Juckreiz",
+      "Anaphylaxie (schwere allergische Reaktion), selten"
+    ]
+  },
+  "schwangerschaft": "Kann angewendet werden; die Schleimstoffe werden nicht ins Blut aufgenommen. Gilt bei Verstopfung in der Schwangerschaft als Mittel der ersten Wahl.",
+  "stillzeit": "Kann angewendet werden.",
+  "hinweise": [
+    "Jede Dosis in einem grossen Glas Wasser (mindestens 150 ml) einrühren, sofort trinken und reichlich nachtrinken – zu wenig Flüssigkeit kann Speiseröhre oder Darm verstopfen.",
+    "Nicht unmittelbar vor dem Schlafengehen und nicht im Liegen einnehmen.",
+    "Andere Medikamente mit zeitlichem Abstand einnehmen (mindestens 30–60 Minuten).",
+    "Die volle Wirkung kann 1–3 Tage dauern; Blähungen bessern sich meist nach einigen Tagen."
+  ],
+  "stand": "2026-10"
+}

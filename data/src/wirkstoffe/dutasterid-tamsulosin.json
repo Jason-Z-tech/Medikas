@@ -1,0 +1,223 @@
+{
+  "id": "dutasterid-tamsulosin",
+  "name": "Dutasterid + Tamsulosin",
+  "synonyme": [
+    "Dutasteride/Tamsulosin"
+  ],
+  "kombinationAus": [
+    "dutasterid",
+    "tamsulosin"
+  ],
+  "atc": [
+    "G04CA52"
+  ],
+  "klasse": "Mittel bei gutartiger Prostatavergrösserung (5-Alpha-Reduktase-Hemmer + Alpha-1-Blocker)",
+  "kurz": "Kapsel gegen Beschwerden einer gutartig vergrösserten Prostata: entspannt die Blasenhalsmuskulatur und verkleinert die Prostata.",
+  "gruppen": [
+    "5-alpha-reduktase-hemmer",
+    "alpha1-blocker",
+    "blutdrucksenkend",
+    "cyp2d6-substrate",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Duodart"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere Beschwerden einer gutartigen Prostatavergrösserung",
+      "ids": [
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Senkung des Risikos für akuten Harnverhalt und Prostataoperation",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erleichtert das Wasserlösen auf zwei Wegen. Tamsulosin blockiert Alpha-1A-Rezeptoren in Prostata und Blasenhals und entspannt die glatte Muskulatur – das wirkt innert Tagen. Dutasterid hemmt beide Formen der 5-Alpha-Reduktase und damit die Umwandlung von Testosteron in Dihydrotestosteron; die Prostata schrumpft über Monate. Beide Wirkstoffe werden über CYP3A4 abgebaut, Tamsulosin zusätzlich über CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Frauen (Gefahr der Fehlbildung männlicher Föten)",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie) in der Vorgeschichte",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Geplante Operation des grauen Stars (Katarakt): Risiko eines «Floppy-Iris-Syndroms» – Augenärztin oder -arzt informieren",
+      "ids": [
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz (in Studien häufiger unter der Kombination)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leberfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Prostatakrebs: PSA-Wert wird etwa halbiert – bei der Beurteilung berücksichtigen",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Brustveränderungen beim Mann (Knoten, Ausfluss) abklären lassen",
+      "ids": [
+        "gynaekomastie",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Schwindel und Ohnmacht zu Beginn (Fahrtüchtigkeit)",
+      "ids": [
+        "synkope",
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere Alpha-1-Blocker (z. B. Alfuzosin, Doxazosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Starker Blutdruckabfall möglich – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Tamsulosin- und Dutasterid-Spiegel steigen deutlich – Blutdruckabfall; Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Tamsulosin-Spiegel steigt – Vorsicht, Blutdruck beobachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer (z. B. Sildenafil, Tadalafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – mit tiefer Dosis beginnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Höherer Dutasterid-Spiegel und zusätzliche Blutdrucksenkung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Vorsicht; INR bei Beginn kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Erektionsstörungen",
+      "Verminderte Libido",
+      "Ejakulationsstörungen (z. B. vermindertes Ejakulatvolumen)",
+      "Brustvergrösserung oder -spannen beim Mann",
+      "Schwindel"
+    ],
+    "gelegentlich": [
+      "Herzinsuffizienz",
+      "Kopfschmerzen, Herzklopfen",
+      "Blutdruckabfall beim Aufstehen",
+      "Schnupfen",
+      "Verstopfung, Durchfall, Übelkeit, Erbrechen",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Schwächegefühl"
+    ],
+    "selten": [
+      "Ohnmacht (Synkope)",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)"
+    ],
+    "sehrSelten": [
+      "Priapismus (schmerzhafte Dauererektion)",
+      "Stevens-Johnson-Syndrom (schwere Hautreaktion)"
+    ],
+    "unbekannt": [
+      "Intraoperatives Floppy-Iris-Syndrom bei Augenoperationen",
+      "Depression",
+      "Hodenschmerzen und -schwellung",
+      "Sehstörungen, Nasenbluten, Mundtrockenheit",
+      "Erythema multiforme, Hautablösung"
+    ]
+  },
+  "schwangerschaft": "Nur für Männer. Schwangere und Frauen, die schwanger werden könnten, dürfen undichte Kapseln nicht berühren (Dutasterid wird über die Haut aufgenommen und kann männliche Föten schädigen).",
+  "stillzeit": "Nicht anwendbar (nur für Männer).",
+  "hinweise": [
+    "Kapsel ganz schlucken, nicht öffnen oder kauen; täglich 30 Minuten nach derselben Mahlzeit einnehmen.",
+    "Die volle Wirkung auf die Prostata zeigt sich erst nach 3–6 Monaten.",
+    "Vor einer Augenoperation (grauer Star) die Einnahme angeben.",
+    "Während der Behandlung und bis 6 Monate danach kein Blut spenden; Kondom verwenden, wenn die Partnerin schwanger ist oder werden könnte."
+  ],
+  "stand": "2026-10"
+}

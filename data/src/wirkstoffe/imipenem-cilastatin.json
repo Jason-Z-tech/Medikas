@@ -1,0 +1,59 @@
+{
+  "id": "imipenem-cilastatin",
+  "name": "Imipenem + Cilastatin",
+  "synonyme": ["Imipenem/Cilastatin", "Imipenem-Cilastatin", "Imipenem and cilastatin"],
+  "kombinationAus": [],
+  "atc": ["J01DH51"],
+  "klasse": "Carbapenem-Antibiotikum (Imipenem) mit Dehydropeptidase-Hemmer (Cilastatin)",
+  "kurz": "Sehr breit wirksames Reserve-Antibiotikum (Carbapenem) als Infusion im Spital; Cilastatin schützt Imipenem vor dem Abbau in der Niere.",
+  "gruppen": ["carbapeneme", "krampfschwellensenkend"],
+  "handelsnamen": ["Tienam"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Infusionslösung"],
+  "indikationen": [
+    { "text": "Komplizierte Infektionen im Bauchraum", "ids": ["bakterielle-infektion"] },
+    { "text": "Schwere Lungenentzündung, auch im Spital erworben und bei beatmeten Patienten", "ids": ["lungenentzuendung"] },
+    { "text": "Infektionen während und nach der Geburt", "ids": ["bakterielle-infektion"] },
+    { "text": "Komplizierte Harnwegsinfektionen", "ids": ["harnwegsinfekt"] },
+    { "text": "Komplizierte Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
+    { "text": "Fieber bei Mangel an weissen Blutkörperchen (Neutropenie), wenn eine bakterielle Infektion vermutet wird", "ids": ["neutropenie", "fieber"] },
+    { "text": "Blutvergiftung (Bakteriämie) im Zusammenhang mit diesen Infektionen", "ids": ["bakterielle-infektion"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Imipenem bindet an die Penicillin-bindenden Proteine und blockiert die Quervernetzung des Peptidoglykans; es ist gegen die meisten Betalaktamasen (auch ESBL) stabil und wirkt gegen grampositive, gramnegative (auch Pseudomonas) und anaerobe Erreger. Cilastatin hat selbst keine antibakterielle Wirkung: Es hemmt das Nierenenzym Dehydropeptidase-I, das Imipenem sonst abbauen würde, und sorgt so für wirksame Spiegel im Harn und schützt die Niere.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen andere Carbapeneme (z. B. Meropenem, Ertapenem)", "ids": [] },
+    { "text": "Schwere Überempfindlichkeitsreaktion (z. B. Anaphylaxie, schwere Hautreaktion) auf andere Betalaktam-Antibiotika wie Penicilline oder Cephalosporine", "ids": ["penicillinallergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Epilepsie, Hirnverletzungen oder andere Erkrankungen des Gehirns: erhöhtes Risiko für Krampfanfälle, Muskelzuckungen und Verwirrtheit", "ids": ["epilepsie"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei Kreatinin-Clearance unter 15 ml/min nur, wenn innert 48 Stunden eine Dialyse erfolgt", "ids": ["niereninsuffizienz"] },
+    { "text": "Leichtere Allergie gegen Penicilline oder Cephalosporine (Kreuzallergie möglich)", "ids": ["penicillinallergie"] },
+    { "text": "Lebererkrankungen: Leberwerte überwachen", "ids": ["leberinsuffizienz"] },
+    { "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)", "ids": ["clostridioides"] },
+    { "text": "Kinder unter 1 Jahr und Kinder mit Infektionen des Zentralnervensystems: nicht empfohlen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Ganciclovir und Valganciclovir (Virusmittel)", "ref": ["ganciclovir", "valganciclovir"], "effekt": "Generalisierte Krampfanfälle wurden berichtet – nur kombinieren, wenn der Nutzen das Risiko klar überwiegt.", "schwere": "schwer" },
+    { "text": "Valproinsäure (Antiepileptikum)", "ref": ["valproinsaeure"], "effekt": "Der Valproinsäure-Spiegel fällt stark ab – Gefahr von Krampfanfällen. Kombination wird nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung möglich – INR häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Erhöht die Spiegel von Imipenem und Cilastatin leicht – Kombination wird nicht empfohlen.", "schwere": "leicht" },
+    { "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": ["Durchfall, Übelkeit, Erbrechen", "Hautausschlag (Exanthem)", "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)", "Erhöhte Leberwerte (Transaminasen, alkalische Phosphatase)", "Venenentzündung (Thrombophlebitis) an der Infusionsstelle"],
+    "gelegentlich": ["Krampfanfälle, Muskelzuckungen (Myoklonien), Schwindel, Schläfrigkeit", "Halluzinationen und Verwirrtheit", "Blutbildveränderungen (Leukopenie, Neutropenie, Thrombozytopenie, Panzytopenie)", "Blutdruckabfall", "Nesselsucht, Juckreiz", "Fieber", "Erhöhtes Bilirubin"],
+    "selten": ["Agranulozytose (starker Mangel an weissen Blutkörperchen)", "Anaphylaxie (schwere allergische Reaktion)", "Pseudomembranöse Kolitis (schwere Dickdarmentzündung)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme, Angioödem)", "Hepatitis (Leberentzündung), Leberversagen", "Akutes Nierenversagen", "Hörverlust, Geschmacksstörungen, Verfärbung von Zähnen oder Zunge", "Harmlose Rotfärbung des Urins"],
+    "sehrSelten": ["Hämolytische Anämie (Blutzerfall)", "Verschlechterung einer Myasthenia gravis", "Tinnitus (Ohrensausen), Drehschwindel", "Herzrasen, Herzklopfen"],
+    "unbekannt": ["Unruhe (Agitiertheit)", "Bewegungsstörungen (Dyskinesien)"]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen bei Schwangeren; in Tierversuchen an Affen traten Schäden auf. Anwendung nur, wenn der Nutzen das Risiko für das Kind klar überwiegt.",
+  "stillzeit": "Imipenem und Cilastatin gehen in kleinen Mengen in die Muttermilch über. Nur nach ärztlicher Abwägung anwenden.",
+  "hinweise": [
+    "Wird im Spital als Infusion gegeben; die Dosis richtet sich nach Infektion, Körpergewicht und Nierenfunktion.",
+    "Muskelzuckungen, Verwirrtheit oder Krampfanfälle sofort dem Behandlungsteam melden.",
+    "Unbedingt angeben, wenn Valproinsäure oder Ganciclovir eingenommen werden oder eine Antibiotika-Allergie besteht."
+  ],
+  "stand": "2026-10"
+}

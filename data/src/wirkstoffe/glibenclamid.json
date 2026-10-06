@@ -1,0 +1,254 @@
+{
+  "id": "glibenclamid",
+  "name": "Glibenclamid",
+  "synonyme": [
+    "Glibenclamide",
+    "Glyburide"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "A10BB01"
+  ],
+  "klasse": "Orales Antidiabetikum (Sulfonylharnstoff)",
+  "kurz": "Blutzuckersenkende Tablette aus der Gruppe der Sulfonylharnstoffe bei Typ-2-Diabetes; regt die Bauchspeicheldrüse zur Insulinabgabe an.",
+  "gruppen": [
+    "sulfonylharnstoffe",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Daonil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Typ-2-Diabetes, wenn Ernährungsumstellung, Gewichtsabnahme und Bewegung allein nicht ausreichen (allein oder zusammen mit anderen Blutzuckersenkern)",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutzucker, indem es die Bauchspeicheldrüse zur Ausschüttung von Insulin anregt. Glibenclamid bindet an den Sulfonylharnstoff-Rezeptor (SUR1) der ATP-abhängigen Kaliumkanäle in den Betazellen und schliesst diese Kanäle. Dadurch wird die Zellmembran depolarisiert, Calcium strömt ein und Insulin wird freigesetzt – unabhängig von der aktuellen Blutzuckerhöhe, weshalb Unterzuckerungen möglich sind. Voraussetzung ist eine noch vorhandene eigene Insulinproduktion; die Wirkung hält lange an.",
+  "kontraindikationen": [
+    {
+      "text": "Typ-1-Diabetes",
+      "ids": [
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Diabetische Ketoazidose, diabetisches Präkoma oder Koma",
+      "ids": [
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Schwere Einschränkung der Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Einschränkung der Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Sulfonylharnstoffe oder Sulfonamide (Kreuzallergie)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Ältere Menschen: erhöhtes Risiko für schwere und lang anhaltende Unterzuckerungen",
+      "ids": [
+        "aeltere-patienten",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Nieren- oder Leberfunktion (verlängerte Wirkung, Unterzuckerungsgefahr)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Unregelmässige oder ausgelassene Mahlzeiten, ungewohnte körperliche Anstrengung und Alkohol (Unterzuckerungsgefahr)",
+      "ids": [
+        "hypoglykaemie",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr eines Zerfalls roter Blutkörperchen)",
+      "ids": [
+        "g6pd-mangel",
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen, Unfälle oder Operationen: vorübergehende Umstellung auf Insulin kann nötig sein",
+      "ids": [
+        "aktive-infektion",
+        "operation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Bosentan",
+      "ref": [
+        "bosentan"
+      ],
+      "grund": "Die Kombination erhöht das Risiko für Leberschäden (Anstieg der Leberenzyme); zudem senkt Bosentan den Glibenclamid-Spiegel und schwächt die Blutzuckersenkung ab."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Azol-Antimykotika (z. B. Fluconazol, Miconazol) und andere CYP2C9-Hemmer",
+      "ref": [
+        "gruppe:azol-antimykotika",
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Glibenclamid wird langsamer abgebaut – Gefahr schwerer Unterzuckerung. Blutzucker engmaschig kontrollieren, Dosis gegebenenfalls senken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhter Glibenclamid-Spiegel mit Unterzuckerungsgefahr – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker (z. B. Metformin, Gliptine, Gliflozine, GLP-1-Agonisten)",
+      "ref": [
+        "gruppe:insuline",
+        "metformin",
+        "gruppe:dpp4-hemmer",
+        "gruppe:sglt2-hemmer",
+        "gruppe:glp1-agonisten"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung – Unterzuckerungsgefahr; Glibenclamid-Dosis gegebenenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) verschleiern und die Erholung verzögern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Schwere Blutzuckerentgleisungen, vor allem Unterzuckerungen, möglich – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Glibenclamid kann den Ciclosporin-Spiegel erhöhen – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker kontrollieren, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colesevelam",
+      "ref": [
+        "colesevelam"
+      ],
+      "effekt": "Vermindert die Aufnahme von Glibenclamid – Glibenclamid mindestens 4 Stunden vor Colesevelam einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, Fibrate, hoch dosierte Salicylate",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:fibrate",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Systemische Glukokortikoide und Thiaziddiuretika",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Erhöhen den Blutzucker und schwächen die Wirkung ab – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die Wirkung beider Mittel kann sich verändern – INR und Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hypoglykämie (Unterzuckerung)"
+    ],
+    "gelegentlich": [
+      "Übelkeit, Druck- oder Völlegefühl im Magen, Bauchschmerzen, Durchfall",
+      "Hautausschlag, Juckreiz, Nesselsucht"
+    ],
+    "selten": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Erhöhte Leberwerte"
+    ],
+    "sehrSelten": [
+      "Agranulozytose (starker Mangel an weissen Blutkörperchen)",
+      "Hämolytische Anämie (Blutarmut durch Zerfall roter Blutkörperchen)",
+      "Leberentzündung, Gallenstau (Cholestase)",
+      "Allergische Gefässentzündung (Vaskulitis)"
+    ],
+    "unbekannt": [
+      "Gewichtszunahme",
+      "Vorübergehende Sehstörungen zu Behandlungsbeginn",
+      "Lichtempfindlichkeit der Haut",
+      "Hyponatriämie (Natriummangel)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Ein Diabetes in der Schwangerschaft wird mit Insulin behandelt; bei Kinderwunsch rechtzeitig umstellen.",
+  "stillzeit": "Kontraindiziert; während der Stillzeit wird auf Insulin umgestellt.",
+  "hinweise": [
+    "Vor dem Frühstück bzw. der ersten Hauptmahlzeit einnehmen und keine Mahlzeit auslassen.",
+    "Zeichen einer Unterzuckerung (Schwitzen, Zittern, Heisshunger, Verwirrtheit) kennen und stets Traubenzucker mitführen.",
+    "Alkohol kann schwere und verzögerte Unterzuckerungen auslösen.",
+    "Unterzuckerungen können die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

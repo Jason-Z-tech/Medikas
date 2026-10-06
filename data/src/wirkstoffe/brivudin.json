@@ -1,0 +1,50 @@
+{
+  "id": "brivudin",
+  "name": "Brivudin",
+  "synonyme": ["BVDU", "Bromovinyldesoxyuridin", "Brivudine"],
+  "atc": ["J05AB15"],
+  "klasse": "Virostatikum (Nukleosidanalogon, Thymidin-Analogon)",
+  "kurz": "Virushemmendes Mittel gegen Gürtelrose bei Erwachsenen; darf nie mit 5-Fluorouracil oder verwandten Krebsmitteln kombiniert werden.",
+  "gruppen": [],
+  "handelsnamen": ["Brivex"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Frühzeitige Behandlung der akuten Gürtelrose (Herpes zoster) bei Erwachsenen mit intaktem Immunsystem; Beginn möglichst innerhalb von 72 Stunden nach Auftreten des Hautausschlags", "ids": ["herpes"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des Varizella-Zoster-Virus, das Windpocken und Gürtelrose verursacht. Brivudin ist ein Thymidin-Analogon, das in infizierten Zellen bevorzugt durch die virale Thymidinkinase phosphoryliert wird; das entstehende Brivudin-Triphosphat hemmt die virale DNA-Polymerase und damit die Bildung neuer Virus-DNA. Das Abbauprodukt Bromovinyluracil hemmt irreversibel das Enzym Dihydropyrimidin-Dehydrogenase (DPD), das Fluoropyrimidine wie 5-Fluorouracil abbaut – daher die lebensgefährliche Wechselwirkung mit diesen Krebsmitteln.",
+  "kontraindikationen": [
+    { "text": "Laufende, geplante oder innerhalb der letzten 4 Wochen abgeschlossene Krebs-Chemotherapie, insbesondere mit 5-Fluorouracil oder anderen Fluoropyrimidinen", "ids": ["krebs"] },
+    { "text": "Geschwächtes Immunsystem, z. B. unter Chemotherapie oder immunsuppressiver Behandlung", "ids": ["immunsuppression"] },
+    { "text": "Kinder und Jugendliche (keine ausreichenden Daten)", "ids": ["kinder"] },
+    { "text": "Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Chronische Lebererkrankungen, z. B. Hepatitis (Leberwerte können ansteigen, selten Leberentzündung)", "ids": ["leberinsuffizienz", "hepatitis-b", "hepatitis-c"] },
+    { "text": "Später geplante Behandlung mit Fluoropyrimidinen (z. B. Capecitabin): mindestens 4 Wochen Abstand nach der letzten Brivudin-Dosis, im Zweifel DPD-Aktivität bestimmen", "ids": ["krebs"] },
+    { "text": "Seltene erbliche Galactose-Intoleranz, Laktasemangel oder Glucose-Galactose-Malabsorption (Tabletten enthalten Lactose)", "ids": ["laktoseintoleranz"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "5-Fluorouracil (auch als Creme oder Lösung auf der Haut) und seine Vorstufen wie Capecitabin, Tegafur oder Floxuridin", "ref": ["fluorouracil", "capecitabin"], "grund": "Der Brivudin-Metabolit Bromovinyluracil blockiert das Abbauenzym DPD irreversibel, sodass sich die Fluoropyrimidine anreichern – mit potenziell tödlicher Schädigung von Knochenmark, Schleimhäuten und Darm." },
+    { "text": "Flucytosin (Mittel gegen Pilzinfektionen)", "ref": ["flucytosin"], "grund": "Flucytosin wird im Körper teilweise zu 5-Fluorouracil umgewandelt, dessen Abbau Brivudin blockiert – Gefahr schwerer Vergiftungserscheinungen." }
+  ],
+  "interaktionen": [
+    { "text": "Fluoropyrimidine (5-Fluorouracil, Capecitabin, Tegafur, Flucytosin) auch nach Ende der Brivudin-Behandlung", "ref": ["fluorouracil", "capecitabin", "flucytosin"], "effekt": "Die Hemmung des Abbauenzyms DPD hält nach der letzten Brivudin-Dosis noch etwa 4 Wochen an – diese Mittel frühestens danach beginnen; bei versehentlicher Kombination sofort ins Spital.", "schwere": "schwer" },
+    { "text": "Krebs-Chemotherapie und stark immunsuppressive Behandlung", "ref": ["gruppe:zytostatika", "gruppe:immunsuppressiv"], "effekt": "Brivudin ist für Personen unter Chemotherapie oder mit geschwächtem Immunsystem nicht vorgesehen – andere Virusmittel verwenden.", "schwere": "schwer" },
+    { "text": "Dopaminerge Parkinson-Mittel (z. B. Levodopa, Pramipexol, Ropinirol)", "ref": ["levodopa-benserazid", "levodopa-carbidopa", "gruppe:dopaminagonisten"], "effekt": "In Einzelfällen wurden unwillkürliche Bewegungen (Chorea) beobachtet – auf neue Bewegungsstörungen achten.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Übelkeit"],
+    "gelegentlich": ["Kopfschmerzen, Schwindel, Schläfrigkeit", "Schlaflosigkeit, Angstgefühle", "Erbrechen, Durchfall, Verdauungsbeschwerden, Bauchschmerzen, Verstopfung", "Appetitlosigkeit", "Erhöhte Leberwerte, Fettleber", "Hautausschlag, Juckreiz, Überempfindlichkeitsreaktionen", "Veränderungen des Blutbilds (z. B. weniger Granulozyten, Anämie, Eosinophilie)", "Müdigkeit, Schwäche"],
+    "selten": ["Hepatitis (Leberentzündung), Bilirubinanstieg", "Verwirrtheit, Halluzinationen", "Geschmacksstörungen", "Blutdruckabfall", "Thrombozytopenie (Mangel an Blutplättchen)", "Knochenschmerzen"],
+    "unbekannt": ["Schwere Leberschäden bis zum akuten Leberversagen (Einzelfälle)", "Schwere Hautreaktionen"]
+  },
+  "schwangerschaft": "In der Schwangerschaft kontraindiziert (keine ausreichenden Erfahrungen).",
+  "stillzeit": "In der Stillzeit kontraindiziert.",
+  "hinweise": [
+    "Einmal täglich möglichst zur gleichen Tageszeit während 7 Tagen einnehmen; die Behandlung nicht verlängern.",
+    "Vor der Einnahme unbedingt angeben, ob eine Krebsbehandlung läuft, geplant ist oder kürzlich stattfand – auch 5-Fluorouracil-Cremes gegen Hautveränderungen zählen.",
+    "Mit Fluoropyrimidinen (z. B. Capecitabin) frühestens 4 Wochen nach der letzten Brivudin-Tablette beginnen."
+  ],
+  "stand": "2026-10"
+}

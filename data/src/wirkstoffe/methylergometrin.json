@@ -1,0 +1,236 @@
+{
+  "id": "methylergometrin",
+  "name": "Methylergometrin",
+  "synonyme": [
+    "Methylergonovin",
+    "Methylergometrine",
+    "Methylergonovine"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "G02AB01"
+  ],
+  "klasse": "Mutterkornalkaloid (Uterotonikum)",
+  "kurz": "Wehenmittel nach der Geburt: zieht die Gebärmutter zusammen und stillt Blutungen nach Entbindung oder Fehlgeburt.",
+  "gruppen": [
+    "ergotalkaloide",
+    "vasokonstriktorisch",
+    "blutdrucksteigernd",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Methergin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Tabletten (Dragées)"
+  ],
+  "indikationen": [
+    {
+      "text": "Aktive Leitung der Nachgeburtsperiode (nach Geburt des Kindes)",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Blutungen und mangelnde Kontraktion der Gebärmutter (Uterusatonie) nach Geburt, Kaiserschnitt, Fehlgeburt oder Abort",
+      "ids": [
+        "geburtshilfe",
+        "schwangerschaftsabbruch"
+      ]
+    },
+    {
+      "text": "Verzögerte Rückbildung der Gebärmutter und Lochialstau im Wochenbett",
+      "ids": [
+        "geburtshilfe"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bewirkt eine kräftige, anhaltende Zusammenziehung der Gebärmutter und stillt dadurch Blutungen. Methylergometrin ist ein halbsynthetisches Mutterkornalkaloid, das an Serotonin-, Alpha-adrenerge und Dopamin-Rezeptoren der glatten Muskulatur wirkt. Es erhöht Grundtonus, Stärke und Häufigkeit der Uteruskontraktionen. Daneben verengt es Blutgefässe, was den Blutdruck steigern kann. Der Abbau erfolgt über CYP3A4 in der Leber.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft sowie Eröffnungs- und Austreibungsphase der Geburt vor der Entwicklung des Kindes; nicht zur Wehenauslösung",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Präeklampsie oder Eklampsie",
+      "ids": [
+        "hypertonie",
+        "praeeklampsie"
+      ]
+    },
+    {
+      "text": "Gefässverschlusskrankheiten einschliesslich koronarer Herzkrankheit",
+      "ids": [
+        "koronare-herzkrankheit",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Sepsis (Blutvergiftung)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mittelschwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für Durchblutungsstörungen des Herzens (Rauchen, Übergewicht, Diabetes, Cholesterin)",
+      "ids": [
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Mehrlingsgeburt: erst nach Geburt des letzten Kindes geben",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Migräne",
+      "ids": [
+        "migraene"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Erythromycin, HIV-Proteasehemmer, Azol-Antimykotika)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "grund": "Hemmung des Abbaus führt zu stark erhöhten Spiegeln – Gefahr von Ergotismus mit Gefässverengung und Durchblutungsstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Diltiazem, Verapamil, Grapefruit)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Spiegel steigt – Gefahr von Gefässverengung; Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Triptane und andere Mutterkornalkaloide",
+      "ref": [
+        "gruppe:triptane",
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Verstärkte Gefässverengung, Blutdruckanstieg – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gefässverengende Mittel und Sympathomimetika (z. B. in Lokalanästhetika, Abschwellmitteln)",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:vasokonstriktorisch"
+      ],
+      "effekt": "Verstärkter Blutdruckanstieg und Durchblutungsstörungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Gefässverengung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abgeschwächte Wirkung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Glyceroltrinitrat und andere Nitrate",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "effekt": "Gegenseitige Abschwächung der gefässerweiternden bzw. -verengenden Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Oxytocin und Prostaglandine",
+      "ref": [
+        "oxytocin",
+        "carbetocin",
+        "sulproston"
+      ],
+      "effekt": "Verstärkte Gebärmutterkontraktion – nur unter ärztlicher Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Inhalationsnarkotika (z. B. Sevofluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Abgeschwächte Wirkung auf die Gebärmutter.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bluthochdruck",
+      "Hautausschlag",
+      "Bauchschmerzen (durch Gebärmutterkontraktionen)"
+    ],
+    "gelegentlich": [
+      "Schwindel, Krampfanfälle",
+      "Brustschmerzen",
+      "Blutdruckabfall",
+      "Übelkeit, Erbrechen",
+      "Vermehrtes Schwitzen"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Halluzinationen",
+      "Herzinfarkt, Krämpfe der Herzkranzgefässe",
+      "Bradykardie oder Herzrasen, Herzklopfen",
+      "Gefässkrämpfe in Armen und Beinen",
+      "Muskelkrämpfe"
+    ],
+    "sehrSelten": [
+      "Ohrensausen",
+      "Verstopfte Nase",
+      "Durchfall",
+      "Thrombophlebitis (Venenentzündung)"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Während der Schwangerschaft und vor der Geburt des Kindes kontraindiziert (Gefahr eines Dauerkrampfes der Gebärmutter und Schädigung des Kindes).",
+  "stillzeit": "Geht in die Muttermilch über und kann die Milchbildung hemmen; Stillen während der Behandlung und bis 12 Stunden nach der letzten Dosis nicht empfohlen. Nur kurzzeitig anwenden.",
+  "hinweise": [
+    "Wird in der Regel im Spital nach der Geburt verabreicht; Blutdruck wird überwacht.",
+    "Bei Brustschmerzen, kalten oder gefühllosen Fingern und Zehen oder starken Kopfschmerzen sofort ärztliche Hilfe holen.",
+    "Ärztin oder Arzt über alle eingenommenen Medikamente informieren, besonders Antibiotika, HIV- und Pilzmittel."
+  ],
+  "stand": "2026-10"
+}

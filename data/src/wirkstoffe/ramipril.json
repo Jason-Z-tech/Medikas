@@ -1,0 +1,70 @@
+{
+  "id": "ramipril",
+  "name": "Ramipril",
+  "synonyme": ["Ramiprilat (Wirkform)"],
+  "atc": ["C09AA05"],
+  "klasse": "ACE-Hemmer (Prodrug, Wirkform Ramiprilat)",
+  "kurz": "Blutdrucksenker aus der Gruppe der ACE-Hemmer; schützt zudem Herz, Gefässe und Nieren, z. B. nach Herzinfarkt oder bei Diabetes.",
+  "gruppen": ["ace-hemmer", "raas-hemmer", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "lithium-spiegel-erhoehend", "teratogen"],
+  "handelsnamen": ["Triatec", "Triatec comp (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] },
+    { "text": "Vorbeugung von Herzinfarkt, Schlaganfall und Herz-Kreislauf-Tod bei Gefässerkrankung (koronare Herzkrankheit, Schlaganfall, pAVK) oder bei Diabetes mit mindestens einem weiteren Risikofaktor", "ids": ["koronare-herzkrankheit", "schlaganfall", "pavk", "diabetes"] },
+    { "text": "Nierenerkrankung: beginnende oder manifeste diabetische Nephropathie sowie nicht-diabetische Nephropathie mit deutlicher Eiweissausscheidung", "ids": ["niereninsuffizienz", "nephrotisches-syndrom"] },
+    { "text": "Symptomatische Herzschwäche (Herzinsuffizienz)", "ids": ["herzinsuffizienz"] },
+    { "text": "Nach akutem Herzinfarkt mit Zeichen einer Herzschwäche", "ids": ["herzinfarkt", "herzinsuffizienz"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Bildung des gefässverengenden Hormons Angiotensin II blockiert. Ramipril ist ein Prodrug, das in der Leber zu Ramiprilat aktiviert wird; dieses hemmt das Angiotensin-Konversionsenzym (ACE) lang anhaltend. Angiotensin II und Aldosteron sinken, die Gefässe weiten sich, die Niere scheidet mehr Salz und Wasser aus, und Herz, Gefässwände und Nierenkörperchen werden langfristig entlastet. Weil ACE auch Bradykinin abbaut, steigt dessen Spiegel – das erklärt Reizhusten und Angioödeme.",
+  "kontraindikationen": [
+    { "text": "Angioödem in der Vorgeschichte (erblich, idiopathisch oder früher unter einem ACE-Hemmer oder Sartan)", "ids": ["angiooedem"] },
+    { "text": "2. und 3. Schwangerschaftsdrittel", "ids": ["schwangerschaft"] },
+    { "text": "Blutreinigungsverfahren mit negativ geladenen Oberflächen (z. B. Dialyse mit High-Flux-Membranen, LDL-Apherese mit Dextransulfat) – Gefahr schwerer allergieähnlicher Reaktionen", "ids": [] },
+    { "text": "Bedeutsame beidseitige Nierenarterienstenose oder Nierenarterienstenose bei Einzelniere", "ids": [] },
+    { "text": "Hypotonie oder kreislaufinstabile Zustände", "ids": ["hypotonie", "schock"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion (Dosis anpassen), nach Nierentransplantation", "ids": ["niereninsuffizienz", "transplantation"] },
+    { "text": "Flüssigkeits- oder Salzmangel (Entwässerungsmittel, Durchfall, Erbrechen, Dialyse): starker Blutdruckabfall zu Beginn möglich", "ids": ["dehydratation", "hypotonie"] },
+    { "text": "Aorten- oder Mitralklappenstenose, hypertrophe Kardiomyopathie", "ids": ["herzklappenerkrankung", "kardiomyopathie"] },
+    { "text": "Risiko für Hyperkaliämie (Diabetes, Nierenschwäche, Austrocknung, kaliumsparende Mittel)", "ids": ["hyperkaliaemie", "diabetes"] },
+    { "text": "Kollagenosen (z. B. Lupus, Sklerodermie) oder immunsuppressive Behandlung: Neutropenie bzw. Agranulozytose möglich – Blutbild kontrollieren", "ids": ["lupus", "neutropenie"] },
+    { "text": "Eingeschränkte Leberfunktion: Wirkung kann verstärkt oder abgeschwächt sein; bei Gelbsucht absetzen", "ids": ["leberinsuffizienz"] },
+    { "text": "Desensibilisierung gegen Insektengift: lebensbedrohliche allergieähnliche Reaktionen möglich", "ids": ["allergie", "anaphylaxie"] },
+    { "text": "Operation oder Narkose: Ramipril möglichst einen Tag vorher pausieren – nach ärztlicher Anweisung", "ids": ["operation", "anaesthesie"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Sacubitril/Valsartan (Entresto)", "ref": ["sacubitril-valsartan"], "grund": "Stark erhöhtes Risiko für Angioödeme; Ramipril frühestens 36 Stunden nach der letzten Dosis Sacubitril/Valsartan beginnen (und umgekehrt)." },
+    { "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)", "ref": ["aliskiren"], "grund": "Doppelte Hemmung des Renin-Angiotensin-Systems – erhöhtes Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen." }
+  ],
+  "interaktionen": [
+    { "text": "Kaliumsparende Diuretika, Spironolacton/Eplerenon, Kaliumpräparate und kaliumhaltige Salzersatzmittel, Trimethoprim (Cotrimoxazol), Heparin, Ciclosporin, Tacrolimus", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten", "gruppe:kaliumpraeparate", "sulfamethoxazol-trimethoprim", "heparin", "ciclosporin", "tacrolimus"], "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.", "schwere": "schwer" },
+    { "text": "Sartane und Aliskiren (doppelte RAAS-Hemmung)", "ref": ["gruppe:sartane", "aliskiren"], "effekt": "Mehr Hyperkaliämie, Blutdruckabfall und Nierenversagen – nicht empfohlen; bei diabetischer Nierenerkrankung ACE-Hemmer und Sartan nicht kombinieren.", "schwere": "schwer" },
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigen (Vergiftungsgefahr) – Kombination meiden oder Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "NSAR einschliesslich COX-2-Hemmer", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Abgeschwächte Blutdrucksenkung; Risiko für akutes Nierenversagen und Hyperkaliämie, besonders bei älteren oder ausgetrockneten Menschen – ausreichend trinken, Nierenwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Diuretika", "ref": ["gruppe:diuretika"], "effekt": "Starker Blutdruckabfall zu Behandlungsbeginn möglich, besonders bei Salz- oder Flüssigkeitsmangel.", "schwere": "mittel" },
+    { "text": "mTOR-Hemmer (Sirolimus, Everolimus, Temsirolimus), Gliptine (DPP-4-Hemmer) und Racecadotril", "ref": ["gruppe:mtor-hemmer", "gruppe:dpp4-hemmer", "racecadotril"], "effekt": "Erhöhtes Risiko für Angioödeme – auf Schwellungen achten.", "schwere": "mittel" },
+    { "text": "Alteplase (Gerinnsel-auflösende Therapie)", "ref": ["alteplase"], "effekt": "Erhöhtes Risiko für Angioödeme.", "schwere": "mittel" },
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Verstärkte Blutzuckersenkung, besonders in den ersten Wochen und bei Nierenschwäche – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Allopurinol, Zytostatika, Immunsuppressiva, systemische Kortikosteroide", "ref": ["allopurinol", "gruppe:zytostatika", "gruppe:immunsuppressiv"], "effekt": "Erhöhtes Risiko für Leukopenie (Mangel an weissen Blutkörperchen) – Blutbild kontrollieren.", "schwere": "mittel" },
+    { "text": "Nitrate, trizyklische Antidepressiva, Antipsychotika, Narkosemittel", "ref": ["gruppe:nitrate", "gruppe:trizyklische-antidepressiva", "gruppe:antipsychotika"], "effekt": "Verstärkter Blutdruckabfall.", "schwere": "leicht" },
+    { "text": "Sympathomimetika", "ref": ["gruppe:sympathomimetika"], "effekt": "Können die blutdrucksenkende Wirkung abschwächen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Kopfschmerzen, Schwindel", "Hypotonie (tiefer Blutdruck), auch beim Aufstehen; Synkope (Ohnmacht)", "Trockener Reizhusten, Bronchitis, Nasennebenhöhlenentzündung, Atemnot", "Magen-Darm-Entzündung, Verdauungsstörungen, Bauchbeschwerden, Durchfall, Übelkeit, Erbrechen", "Hautausschlag", "Muskelkrämpfe, Muskelschmerzen", "Brustschmerzen, Müdigkeit", "Hyperkaliämie (erhöhtes Kalium)"],
+    "gelegentlich": ["Angioödem (Schwellung von Gesicht, Lippen, Zunge, Rachen; sehr selten lebensbedrohlich), intestinales Angioödem", "Durchblutungsstörung des Herzens mit Angina pectoris oder Herzinfarkt, beschleunigter Puls, Herzrhythmusstörungen, Herzklopfen, Ödeme", "Depressive Verstimmung, Angst, Nervosität, Schlafstörungen, Kribbeln, Geschmacksstörungen, Sehstörungen", "Bronchospasmus, verstopfte Nase", "Pankreatitis (Bauchspeicheldrüsenentzündung), Mundtrockenheit, Verstopfung", "Nierenfunktionsstörung bis akutes Nierenversagen, Anstieg von Kreatinin und Harnstoff", "Erhöhte Leber- und Bilirubinwerte", "Juckreiz, vermehrtes Schwitzen, Gelenkschmerzen, Erektionsstörungen, verminderte Libido, Fieber"],
+    "selten": ["Neutropenie bis Agranulozytose, Abfall von roten Blutkörperchen, Hämoglobin und Blutplättchen", "Verwirrtheit, Zittern, Gleichgewichtsstörungen", "Hörstörungen, Ohrensausen, Bindehautentzündung", "Vaskulitis (Gefässentzündung), Durchblutungsstörungen", "Cholestatische Gelbsucht, Leberschädigung", "Exfoliative Dermatitis, Nesselsucht, Nagelablösung"],
+    "sehrSelten": ["Lichtempfindlichkeit (Photosensibilität)"],
+    "unbekannt": ["Knochenmarkversagen, Panzytopenie, hämolytische Anämie", "Anaphylaktische Reaktionen", "Hyponatriämie (Natriummangel), SIADH", "Akutes Leberversagen, Hepatitis", "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme, Pemphigus", "Durchblutungsstörung im Gehirn, Raynaud-Syndrom", "Aphthen (Mundgeschwüre), Haarausfall, Verschlechterung einer Psoriasis", "Brustvergrösserung beim Mann"]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen; im 2. und 3. Drittel kontraindiziert, da fruchtschädigend (Nierenschäden, Fruchtwassermangel, verzögerte Schädelverknöcherung). Bei Kinderwunsch oder festgestellter Schwangerschaft rasch ärztlich auf ein anderes Mittel umstellen.",
+  "stillzeit": "Nicht empfohlen, da Daten fehlen; besser untersuchte Alternativen wählen, besonders bei Neugeborenen und Frühgeborenen.",
+  "hinweise": [
+    "Bei Schwellung von Gesicht, Lippen, Zunge oder Rachen oder bei Atemnot sofort den Notruf wählen (Angioödem, auch nach langer Einnahme möglich).",
+    "Ein anhaltender trockener Reizhusten ist eine typische Nebenwirkung – ärztlich besprechen, nicht eigenmächtig absetzen.",
+    "Kalium und Nierenwerte regelmässig kontrollieren; kaliumhaltige Salzersatzmittel und Kaliumpräparate nur nach ärztlicher Rücksprache.",
+    "Bei starkem Durchfall, Erbrechen oder Flüssigkeitsmangel ärztlich klären, ob die Einnahme vorübergehend pausiert werden soll."
+  ],
+  "stand": "2026-10"
+}

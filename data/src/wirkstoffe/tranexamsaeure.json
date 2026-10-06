@@ -1,0 +1,60 @@
+{
+  "id": "tranexamsaeure",
+  "name": "Tranexamsäure",
+  "synonyme": ["TXA", "Tranexamic acid", "Acidum tranexamicum"],
+  "atc": ["B02AA02"],
+  "klasse": "Antifibrinolytikum (Lysin-Analogon)",
+  "kurz": "Blutstillendes Mittel, das den Abbau von Blutgerinnseln bremst, z. B. bei starker Monatsblutung, Nasenbluten oder nach Operationen.",
+  "gruppen": ["krampfschwellensenkend"],
+  "handelsnamen": ["Cyklokapron"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten", "Injektionslösung"],
+  "indikationen": [
+    { "text": "Starke Monatsblutungen (Menorrhagie)", "ids": ["regelbeschwerden"] },
+    { "text": "Blutungen durch verstärkte Fibrinolyse, z. B. nach Prostata- oder Blasenoperationen, nach Konisation des Gebärmutterhalses und bei Nasenbluten", "ids": ["aktive-blutung", "operation"] },
+    { "text": "Zahnextraktionen bei Hämophilie (Bluterkrankheit)", "ids": ["blutgerinnungsstoerung", "operation"] },
+    { "text": "Hereditäres Angioödem (Vorbeugung von Schwellungsattacken)", "ids": ["angiooedem"] },
+    { "text": "Blutungskomplikationen bei einer Thrombolysebehandlung (Injektion)", "ids": ["aktive-blutung"] }
+  ],
+  "wirkmechanismus": "Bremst den Abbau von Blutgerinnseln und hilft so, Blutungen zu stillen. Tranexamsäure ist ein synthetischer Abkömmling der Aminosäure Lysin. Es besetzt die Lysin-Bindungsstellen des Plasminogens und verhindert so, dass Plasminogen an Fibrin bindet und zu Plasmin aktiviert wird; in hohen Konzentrationen hemmt es auch Plasmin direkt. Dadurch bleibt das Fibringerinnsel länger stabil. Die Ausscheidung erfolgt überwiegend unverändert über die Nieren.",
+  "kontraindikationen": [
+    { "text": "Akute venöse oder arterielle Thrombose (z. B. tiefe Venenthrombose, Lungenembolie, Hirninfarkt)", "ids": ["thrombose", "lungenembolie", "schlaganfall"] },
+    { "text": "Fibrinolytische Zustände nach Verbrauchskoagulopathie, ausser bei überwiegender Aktivierung der Fibrinolyse mit akuter schwerer Blutung", "ids": ["blutgerinnungsstoerung"] },
+    { "text": "Schwere Niereninsuffizienz (Gefahr der Anreicherung)", "ids": ["niereninsuffizienz"] },
+    { "text": "Krampfanfälle in der Vorgeschichte", "ids": ["epilepsie"] },
+    { "text": "Injektion in den Liquorraum oder ins Gehirn (intrathekal, intraventrikulär)", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Thrombosen oder Embolien in der Vorgeschichte, familiäre Thromboseneigung", "ids": ["thromboembolie-vorgeschichte"] },
+    { "text": "Gleichzeitige Anwendung hormonaler Verhütungsmittel (erhöhtes Thromboserisiko)", "ids": ["verhuetung"] },
+    { "text": "Leicht bis mässig eingeschränkte Nierenfunktion: Dosis anpassen", "ids": ["niereninsuffizienz"] },
+    { "text": "Blut im Urin aus den oberen Harnwegen: Gefahr einer Harnleiterverstopfung durch Gerinnsel", "ids": [] },
+    { "text": "Unregelmässige Monatsblutungen: Ursache vor der Behandlung abklären", "ids": ["regelbeschwerden"] },
+    { "text": "Verbrauchskoagulopathie (disseminierte intravasale Gerinnung)", "ids": ["blutgerinnungsstoerung"] },
+    { "text": "Seh- und Farbsehstörungen: Behandlung abbrechen und augenärztlich abklären; bei Langzeitbehandlung regelmässige Augenkontrollen", "ids": [] },
+    { "text": "Hohe intravenöse Dosen (z. B. in der Herzchirurgie): Krampfanfälle möglich", "ids": ["epilepsie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Antikoagulanzien (z. B. Heparine, Phenprocoumon, Rivaroxaban, Apixaban)", "ref": ["gruppe:antikoagulanzien"], "effekt": "Gegensätzliche Wirkung auf die Gerinnung – Kombination nur unter enger ärztlicher Überwachung.", "schwere": "mittel" },
+    { "text": "Hormonale Verhütungsmittel und Östrogene", "ref": ["gruppe:hormonale-kontrazeptiva", "gruppe:oestrogene"], "effekt": "Erhöhtes Risiko für Thrombosen.", "schwere": "mittel" },
+    { "text": "Gerinnungsfaktorenkonzentrate wie Prothrombinkomplex (PPSB) oder aktivierter Prothrombinkomplex (FEIBA)", "ref": ["prothrombinkomplex-ppsb", "faktor-viii-inhibitor-bypassing-aktivitaet"], "effekt": "Erhöhtes Risiko für Thrombosen – Kombination nur gezielt im Spital.", "schwere": "mittel" },
+    { "text": "Thrombolytika (z. B. Alteplase)", "ref": ["alteplase", "tenecteplase"], "effekt": "Gegenseitige Abschwächung; Tranexamsäure wird gezielt gegen Blutungen unter Thrombolyse eingesetzt.", "schwere": "mittel" },
+    { "text": "Tretinoin (bei akuter Promyelozytenleukämie)", "ref": ["tretinoin"], "effekt": "Verstärkte Gerinnungsneigung – Thrombosegefahr.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Übelkeit, Erbrechen, Durchfall (dosisabhängig)"],
+    "gelegentlich": ["Allergische Hautentzündung"],
+    "sehrSelten": ["Überempfindlichkeitsreaktionen bis Anaphylaxie"],
+    "unbekannt": ["Thrombosen und Embolien (arteriell oder venös) an verschiedenen Stellen", "Sehstörungen einschliesslich Farbsehstörungen, Verschluss von Netzhautgefässen", "Krampfanfälle, besonders bei hohen intravenösen Dosen", "Unwohlsein mit Blutdruckabfall, evtl. Bewusstlosigkeit bei zu rascher Injektion"]
+  },
+  "schwangerschaft": "Tranexamsäure passiert die Plazenta; bisherige Erfahrungen zeigen kein erhöhtes Fehlbildungsrisiko. Anwendung nur nach ärztlicher Abwägung, im ersten Drittel besonders zurückhaltend.",
+  "stillzeit": "Geht nur in geringen Mengen (etwa 1 % der Blutkonzentration) in die Muttermilch über; eine Wirkung beim Säugling ist unwahrscheinlich. Anwendung möglich.",
+  "hinweise": [
+    "Bei Sehstörungen sofort absetzen und augenärztlich abklären lassen.",
+    "Bei starker Monatsblutung nur während der Blutungstage einnehmen; bei unregelmässigen oder neu auftretenden Blutungen zuerst die Ursache abklären lassen.",
+    "Bei Anzeichen einer Thrombose (schmerzhafte Beinschwellung, Brustschmerz, Atemnot) sofort ärztliche Hilfe holen.",
+    "Die Injektion wird langsam intravenös gegeben; zu rasche Gabe kann einen Blutdruckabfall auslösen."
+  ],
+  "stand": "2026-10"
+}

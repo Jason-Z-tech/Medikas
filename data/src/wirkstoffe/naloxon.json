@@ -1,0 +1,179 @@
+{
+  "id": "naloxon",
+  "name": "Naloxon",
+  "synonyme": [
+    "Naloxone",
+    "Naloxonhydrochlorid"
+  ],
+  "atc": [
+    "V03AB15"
+  ],
+  "klasse": "Opioid-Antagonist (Gegenmittel bei Opioidvergiftung)",
+  "kurz": "Notfall-Gegenmittel bei Opioid-Überdosis: hebt die lebensgefährliche Atemdämpfung durch Heroin, Morphin, Fentanyl oder Methadon rasch auf.",
+  "gruppen": [
+    "opioid-antagonisten"
+  ],
+  "handelsnamen": [
+    "Naloxon OrPha",
+    "Nyxoid",
+    "Targin (Kombi)",
+    "Valoron (Kombi)",
+    "Suboxone (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Nasenspray (Einzeldosis)"
+  ],
+  "indikationen": [
+    {
+      "text": "Aufhebung einer durch Opioide verursachten Atemdämpfung und Bewusstseinstrübung bei Überdosierung oder Vergiftung; auch zur Diagnose bei Verdacht",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Notfallbehandlung einer bekannten oder vermuteten Opioid-Überdosis durch Laien bis zum Eintreffen des Rettungsdienstes (Nasenspray)",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Aufhebung einer Atemdämpfung durch Opioide nach Narkose oder Operation",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Atemdämpfung beim Neugeborenen, wenn die Mutter unter der Geburt Opioide erhalten hat",
+      "ids": [
+        "geburtshilfe"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verdrängt Opioide von ihren Bindungsstellen im Gehirn und hebt so ihre Wirkung, vor allem die lebensgefährliche Atemdämpfung, innert Minuten auf. Naloxon ist ein reiner kompetitiver Antagonist an den µ-, κ- und δ-Opioidrezeptoren ohne eigene opioidartige Wirkung. Seine Wirkung hält nur etwa 1–2 Stunden an und ist damit kürzer als die vieler Opioide – die Atemdämpfung kann zurückkehren. Gegen Vergiftungen mit Benzodiazepinen, Alkohol oder anderen Nicht-Opioiden wirkt es nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Opioidabhängigkeit: schlagartiges Entzugssyndrom möglich (Unruhe, Erbrechen, Schwitzen, Herzrasen, Aggressivität)",
+      "ids": [
+        "opioidabhaengigkeit",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Neugeborene opioidabhängiger Mütter: lebensbedrohliches Entzugssyndrom mit Krampfanfällen möglich",
+      "ids": [
+        "geburtshilfe",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Vergiftung mit lang wirkenden Opioiden (z. B. Methadon) oder mit Buprenorphin: Atemdämpfung kann zurückkehren bzw. nur teilweise aufgehoben werden – längere Überwachung nötig",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten oder Einnahme herzbelastender Substanzen (z. B. Kokain, trizyklische Antidepressiva): Blutdruckanstieg, Herzrhythmusstörungen, Lungenödem und Herzstillstand möglich",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nach Operationen: abruptes Aufheben der Opioidwirkung kann starke Schmerzen, Blutdruckanstieg und Herzrasen auslösen",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (Schmerzmittel, Substitutionsmittel, Heroin)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Die Opioidwirkung wird aufgehoben: Schmerzen kehren zurück, bei Abhängigkeit setzt ein akuter Entzug ein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lang wirkende Opioide (z. B. Methadon, Levomethadon, Retardpräparate)",
+      "ref": [
+        "methadon",
+        "levomethadon"
+      ],
+      "effekt": "Naloxon wirkt kürzer – die Atemdämpfung kann nach dem Abklingen zurückkehren; über Stunden überwachen und die Gabe bei Bedarf wiederholen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Buprenorphin",
+      "ref": [
+        "buprenorphin",
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Wegen der starken Rezeptorbindung nur unvollständige Aufhebung; höhere Naloxon-Dosen und längere Überwachung nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Barbiturate und Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:barbiturate"
+      ],
+      "effekt": "Naloxon hebt deren dämpfende Wirkung nicht auf – bei Mischvergiftung weiter überwachen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Schwindel, Kopfschmerzen",
+      "Tachykardie (Herzrasen)",
+      "Blutdruckabfall oder -anstieg",
+      "Erbrechen",
+      "Schmerzen nach Operationen"
+    ],
+    "gelegentlich": [
+      "Zittern, Schwitzen",
+      "Herzrhythmusstörungen, Bradykardie (verlangsamter Puls)",
+      "Durchfall, Mundtrockenheit",
+      "Hyperventilation (beschleunigte Atmung)",
+      "Reizung an der Injektionsstelle"
+    ],
+    "selten": [
+      "Krampfanfälle"
+    ],
+    "sehrSelten": [
+      "Allergische Reaktionen bis zum anaphylaktischen Schock",
+      "Kammerflimmern, Herzstillstand",
+      "Lungenödem (Wasser in der Lunge)",
+      "Erythema multiforme (schwere Hautreaktion)"
+    ],
+    "unbekannt": [
+      "Akutes Opioid-Entzugssyndrom bei Abhängigen (Unruhe, Gänsehaut, Gähnen, Bauchkrämpfe)"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit anwenden – im Notfall aber ohne Zögern. Bei opioidabhängigen Schwangeren kann auch beim Ungeborenen ein Entzug ausgelöst werden.",
+  "stillzeit": "Ob Naloxon in die Muttermilch übergeht, ist nicht bekannt; es wird über den Darm kaum aufgenommen. Gestillte Säuglinge 24 Stunden lang beobachten.",
+  "hinweise": [
+    "Nach jeder Anwendung sofort den Notruf 144 alarmieren und die Person bis zum Eintreffen des Rettungsdienstes nicht allein lassen – die Wirkung hält kürzer an als die vieler Opioide.",
+    "Nasenspray: Person auf den Rücken legen, einen Sprühstoss in ein Nasenloch geben; ohne Besserung nach 2–3 Minuten die zweite Dosis ins andere Nasenloch, danach Seitenlage.",
+    "Erneuter Opioidkonsum gegen die Entzugsbeschwerden ist gefährlich: nach dem Abklingen von Naloxon droht erneut eine Überdosis."
+  ],
+  "stand": "2026-10"
+}

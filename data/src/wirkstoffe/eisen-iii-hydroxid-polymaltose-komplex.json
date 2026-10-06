@@ -1,0 +1,51 @@
+{
+  "id": "eisen-iii-hydroxid-polymaltose-komplex",
+  "name": "Eisen(III)-Hydroxid-Polymaltose-Komplex",
+  "synonyme": ["Eisen(III)-hydroxid-Polymaltose", "Eisenpolymaltose", "IPC", "Iron(III) hydroxide polymaltose complex", "Ferric hydroxide polymaltose", "dreiwertiges Eisen"],
+  "atc": ["B03AB05"],
+  "klasse": "Eisenpräparat (oral, dreiwertiges Eisen als Polymaltose-Komplex)",
+  "kurz": "Eisenpräparat zum Einnehmen (Tabletten, Tropfen, Sirup) gegen Eisenmangel; meist gut magenverträglich.",
+  "gruppen": ["eisenpraeparate", "mehrwertige-kationen"],
+  "handelsnamen": ["Maltofer", "Ferrum Hausmann", "Maltofer Fol (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Filmtabletten", "Kautabletten", "Tropfen", "Sirup"],
+  "indikationen": [
+    { "text": "Eisenmangel ohne Blutarmut (latenter Eisenmangel)", "ids": ["eisenmangel"] },
+    { "text": "Blutarmut durch Eisenmangel (Eisenmangelanämie)", "ids": ["eisenmangel", "anaemie"] },
+    { "text": "Kombination mit Folsäure (Maltofer Fol): Eisen- und Folsäuremangel, z. B. vor und während der Schwangerschaft", "ids": ["eisenmangel", "vitamin-b12-mangel", "schwangerschaft"] }
+  ],
+  "wirkmechanismus": "Ersetzt fehlendes Eisen für die Blutbildung. Das dreiwertige Eisen liegt als Eisen(III)-hydroxid-Kern vor, der von Polymaltose (einem Zuckerpolymer) umhüllt ist; dadurch wird im Darm kaum freies, reizendes Eisen frei. Die Aufnahme erfolgt über einen aktiven, vom Körper gesteuerten Mechanismus, sodass bei vollen Speichern weniger aufgenommen wird. Das Eisen wird an Transferrin gebunden, ins Hämoglobin eingebaut oder als Ferritin gespeichert. Nahrungsbestandteile beeinflussen die Aufnahme weniger stark als bei zweiwertigem Eisen.",
+  "kontraindikationen": [
+    { "text": "Eisenüberladung, z. B. Hämochromatose oder Hämosiderose", "ids": ["sichelzellanaemie"] },
+    { "text": "Eisenverwertungsstörungen, z. B. Thalassämie, sideroachrestische Anämie oder Bleianämie", "ids": ["sichelzellanaemie"] },
+    { "text": "Blutarmut, die nicht durch Eisenmangel verursacht ist, z. B. hämolytische Anämie oder Vitamin-B12-Mangel-Anämie", "ids": ["haemolytische-anaemie", "vitamin-b12-mangel"] }
+  ],
+  "vorsicht": [
+    { "text": "Blutarmut bei Infekten oder Tumorerkrankungen: Eisen wird dann schlecht verwertet; Ursache vorher abklären", "ids": ["anaemie", "krebs", "aktive-infektion"] },
+    { "text": "Diabetes: Sirup und Kautabletten enthalten Zucker", "ids": ["diabetes"] },
+    { "text": "Seltene Zuckerunverträglichkeiten (Fructose-, Saccharose-Unverträglichkeit): Hilfsstoffe in Sirup und Kautabletten beachten", "ids": ["fructoseintoleranz"] },
+    { "text": "Ursache des Eisenmangels abklären lassen, z. B. verborgene Magen-Darm-Blutungen oder starke Regelblutungen", "ids": ["aktive-blutung", "regelbeschwerden"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Eisen zur Infusion oder Injektion (z. B. Eisencarboxymaltose, Eisensaccharose)", "ref": ["eisen-iii-carboxymaltose", "eisen-iii-saccharose", "eisen-iii-derisomaltose"], "effekt": "Kombination nicht sinnvoll: die Aufnahme des eingenommenen Eisens wird vermindert. Orale Eisentherapie erst einige Tage nach der letzten Infusion beginnen.", "schwere": "mittel" },
+    { "text": "Integrasehemmer gegen HIV (z. B. Dolutegravir, Bictegravir)", "ref": ["gruppe:integrasehemmer"], "effekt": "Eisenpräparate können die Aufnahme vermindern – zeitlichen Abstand gemäss Fachinformation des HIV-Mittels einhalten.", "schwere": "mittel" },
+    { "text": "Fluorchinolone, Tetracycline, Levothyroxin, orale Bisphosphonate", "ref": ["gruppe:fluorchinolone", "gruppe:tetracycline", "levothyroxin", "gruppe:bisphosphonate"], "effekt": "In Studien mit dem Polymaltose-Komplex war die Aufnahme von Tetracyclin kaum beeinträchtigt; vorsichtshalber trotzdem etwa 2 Stunden Abstand einhalten.", "schwere": "leicht" },
+    { "text": "Antazida (z. B. Aluminiumhydroxid)", "ref": ["gruppe:antazida"], "effekt": "Laut Studien keine relevante Verminderung der Eisenaufnahme; Abstand von 2 Stunden ist dennoch üblich.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Dunkle Verfärbung des Stuhls (harmlos)"],
+    "haeufig": ["Durchfall", "Übelkeit", "Dyspepsie (Verdauungsbeschwerden)", "Verstopfung (Obstipation)", "Bauchschmerzen"],
+    "gelegentlich": ["Erbrechen", "Gastritis (Magenschleimhautentzündung)", "Zahnverfärbung (v. a. Tropfen und Sirup)", "Kopfschmerzen", "Juckreiz, Hautausschlag, Nesselsucht"],
+    "unbekannt": ["Überempfindlichkeitsreaktionen"]
+  },
+  "schwangerschaft": "Im 2. und 3. Drittel ohne Hinweise auf Schäden für Mutter oder Kind untersucht und anwendbar; im 1. Drittel nur nach ärztlicher Abwägung.",
+  "stillzeit": "Kann angewendet werden; Eisen geht nur in geringer Menge in die Muttermilch über.",
+  "hinweise": [
+    "Während oder unmittelbar nach einer Mahlzeit einnehmen; Tropfen und Sirup können mit Fruchtsaft oder Brei gemischt werden.",
+    "Dunkler Stuhl ist harmlos und beeinflusst Tests auf verborgenes Blut im Stuhl nicht wesentlich.",
+    "Die Behandlung dauert meist mehrere Monate, bis die Eisenspeicher (Ferritin) aufgefüllt sind – Blutwerte kontrollieren lassen.",
+    "Für Kinder unerreichbar aufbewahren."
+  ],
+  "stand": "2026-10"
+}

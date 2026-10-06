@@ -1,0 +1,176 @@
+{
+  "id": "fsme-impfstoff",
+  "name": "FSME-Impfstoff",
+  "synonyme": [
+    "Zeckenimpfstoff",
+    "Frühsommer-Meningoenzephalitis-Impfstoff",
+    "Tick-borne encephalitis vaccine",
+    "TBE vaccine"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J07BA01"
+  ],
+  "klasse": "Virusimpfstoff (inaktiviert, an Aluminiumhydroxid adsorbiert)",
+  "kurz": "Impfstoff gegen die durch Zecken übertragene Hirn- und Hirnhautentzündung FSME; schützt nicht vor Borreliose.",
+  "gruppen": [],
+  "handelsnamen": [
+    "FSME-Immun CC",
+    "FSME-Immun Junior",
+    "Encepur N",
+    "Encepur N Kinder"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionssuspension in Fertigspritze"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung der Frühsommer-Meningoenzephalitis (FSME, durch Zecken übertragene Virusinfektion von Hirn und Hirnhäuten) bei Kindern ab 1 Jahr und Erwachsenen, die in Risikogebieten wohnen oder sich dort aufhalten (in der Schweiz grosse Teile des Landes)",
+      "ids": [
+        "impfung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt das Immunsystem an, eigene Abwehrstoffe gegen das FSME-Virus zu bilden. Der Impfstoff enthält mit Formaldehyd abgetötete FSME-Viren (FSME-Immun: Stamm Neudörfl, Encepur: Stamm K23), die an Aluminiumhydroxid gebunden sind und so eine stärkere Immunantwort auslösen. Es entstehen neutralisierende Antikörper, die das Virus nach einem Zeckenstich unschädlich machen. Ein langdauernder Schutz erfordert eine Grundimmunisierung mit 3 Dosen und Auffrischimpfungen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere allergische Reaktion (Anaphylaxie) auf Hühnereiweiss",
+      "ids": [
+        "latexallergie"
+      ]
+    },
+    {
+      "text": "Allergie auf Herstellungsrückstände wie Formaldehyd, Protaminsulfat, Neomycin oder Gentamicin (Kreuzallergie mit anderen Aminoglykosid-Antibiotika beachten)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Akute Erkrankung mit Fieber (Impfung verschieben)",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Autoimmunerkrankungen: Nutzen der Impfung und mögliches Risiko für den Krankheitsverlauf sorgfältig abwägen",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Vorbestehende Hirnerkrankungen, z. B. aktive entmarkende Erkrankung (multiple Sklerose) oder schlecht eingestellte Epilepsie",
+      "ids": [
+        "multiple-sklerose",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Geschwächtes Immunsystem oder immunsuppressive Behandlung: Impfantwort kann ungenügend sein, ggf. Antikörper kontrollieren",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Blutgerinnungsstörung oder Behandlung mit Blutverdünnern: Blutergüsse an der Einstichstelle; ausnahmsweise Gabe unter die Haut",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Kleinkinder: Fieber vor allem nach der ersten Dosis; bei Neigung zu Fieberkrämpfen fiebersenkende Massnahmen erwägen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Neigung zu Ohnmacht bei Spritzen",
+      "ids": [
+        "synkope"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Immunsuppressiva, Zytostatika und hoch dosierte Glukokortikoide",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Schwächere Impfantwort möglich – nach der Impfung Antikörper bestimmen und bei Bedarf zusätzlich impfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutverdünner (Antikoagulanzien)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Blutergüsse an der Einstichstelle möglich – nach der Injektion mindestens 2 Minuten fest drücken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Impfstoffe",
+      "ref": [],
+      "effekt": "Gleichzeitige Gabe möglich, jedoch an verschiedenen Körperstellen (möglichst an verschiedenen Gliedmassen).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Impfung oder Infektion mit verwandten Flaviviren (Gelbfieber, Japanische Enzephalitis, Dengue)",
+      "ref": [
+        "gelbfieber-impfstoff",
+        "japanische-enzephalitis-impfstoff",
+        "dengue-impfstoff"
+      ],
+      "effekt": "Kreuzreagierende Antikörper können FSME-Bluttests verfälschen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schmerzen an der Einstichstelle",
+      "Kopfschmerzen",
+      "Muskelschmerzen",
+      "Unwohlsein, Müdigkeit"
+    ],
+    "haeufig": [
+      "Übelkeit",
+      "Gelenkschmerzen",
+      "Fieber (vor allem bei Kleinkindern nach der ersten Dosis)",
+      "Rötung und Schwellung an der Einstichstelle",
+      "Grippeähnliche Beschwerden"
+    ],
+    "gelegentlich": [
+      "Lymphknotenschwellung",
+      "Erbrechen"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen",
+      "Schwindel",
+      "Durchfall, Bauchschmerzen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Krampfanfälle, auch Fieberkrämpfe",
+      "Nervenentzündungen wie Guillain-Barré-Syndrom",
+      "Hirnhautreizung (Meningismus)",
+      "Verschlechterung von Autoimmunerkrankungen (z. B. multiple Sklerose)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten. Impfung nur bei dringendem Ansteckungsrisiko nach ärztlicher Nutzen-Risiko-Abwägung.",
+  "stillzeit": "Nicht bekannt, ob Impfstoffbestandteile in die Muttermilch übergehen. Impfung bei Ansteckungsrisiko nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Grundimmunisierung mit 3 Dosen; in der Schweiz wird eine Auffrischimpfung alle 10 Jahre empfohlen.",
+    "Am besten in der kalten Jahreszeit beginnen, damit der Schutz zu Beginn der Zeckensaison besteht; ein Schnellschema ist möglich.",
+    "Die Impfung schützt nicht vor Borreliose – Zeckenschutz und Absuchen nach Zecken bleiben wichtig."
+  ],
+  "stand": "2026-10"
+}

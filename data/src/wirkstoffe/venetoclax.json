@@ -1,0 +1,180 @@
+{
+  "id": "venetoclax",
+  "name": "Venetoclax",
+  "synonyme": [
+    "Venetoclax",
+    "ABT-199"
+  ],
+  "atc": [
+    "L01XX52"
+  ],
+  "klasse": "BCL-2-Hemmer (Krebsmittel)",
+  "kurz": "Krebsmittel in Tablettenform gegen chronische lymphatische und akute myeloische Leukämie; Dosis wird langsam gesteigert.",
+  "gruppen": [
+    "myelosuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Venclyxto"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische lymphatische Leukämie (CLL), zusammen mit Obinutuzumab oder Rituximab oder allein",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Neu diagnostizierte akute myeloische Leukämie (AML) bei Personen, die keine intensive Chemotherapie erhalten können, zusammen mit Azacitidin oder Decitabin",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst in Krebszellen das körpereigene Selbstzerstörungsprogramm wieder aus. Venetoclax hemmt selektiv das Eiweiss BCL-2, das in CLL- und AML-Zellen übermässig gebildet wird und den programmierten Zelltod (Apoptose) verhindert. Werden die gebundenen pro-apoptotischen Proteine freigesetzt, sterben die Krebszellen rasch ab – bei grosser Tumormasse so schnell, dass ein Tumorlysesyndrom entstehen kann.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Tumorlysesyndrom (Stoffwechselentgleisung durch rasch zerfallende Krebszellen), v. a. zu Beginn und bei hoher Tumorlast oder eingeschränkter Nierenfunktion: Dosis schrittweise steigern, viel trinken, Laborkontrollen",
+      "ids": [
+        "niereninsuffizienz",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Neutropenie und schwere Infektionen",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Dosis reduzieren)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter (sichere Verhütung)",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir) zu Beginn und während der Dosissteigerung bei CLL",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Der Venetoclax-Spiegel steigt massiv an – hohes Risiko eines lebensbedrohlichen Tumorlysesyndroms."
+    },
+    {
+      "text": "Johanniskraut-Präparate",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Johanniskraut induziert CYP3A4 und P-gp und senkt den Venetoclax-Spiegel – Wirkverlust."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A-Hemmer nach der Dosissteigerung sowie mässige CYP3A-Hemmer (z. B. Fluconazol, Erythromycin, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Venetoclax-Spiegel steigt stark – möglichst meiden, sonst Dosis deutlich reduzieren und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-gp-Hemmer (z. B. Amiodaron, Ciclosporin, Ticagrelor)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Venetoclax-Spiegel steigt – meiden oder Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Venetoclax-Spiegel sinkt stark (Wirkverlust) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während und nach der Therapie bis zur Erholung der B-Zellen impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche P-gp-Substrate (z. B. Digoxin, Dabigatran, Everolimus, Sirolimus)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "everolimus",
+        "sirolimus"
+      ],
+      "effekt": "Spiegel dieser Mittel steigen – mindestens 6 Stunden vor Venetoclax einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann steigen – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder",
+      "ref": [
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Möglicherweise verminderte Aufnahme von Venetoclax – nicht gleichzeitig einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen), auch mit Fieber",
+      "Anämie, Thrombozytopenie",
+      "Infektionen der oberen Atemwege, Lungenentzündung",
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung",
+      "Müdigkeit",
+      "Hyperphosphatämie (erhöhtes Phosphat)"
+    ],
+    "haeufig": [
+      "Tumorlysesyndrom",
+      "Sepsis (Blutvergiftung)",
+      "Harnwegsinfektion",
+      "Hyperkaliämie, Hyperurikämie, Hypokalzämie",
+      "Anstieg des Kreatinins",
+      "Lymphopenie",
+      "Bauchschmerzen, Gewichtsverlust"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden. Frauen sollen während und bis mindestens 30 Tage nach der Behandlung sicher verhüten; hormonale Verhütung zusätzlich mit einer Barrieremethode absichern.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Ab 2 Tage vor Beginn und bei jeder Dosissteigerung täglich 1,5–2 Liter Wasser trinken (Schutz vor Tumorlyse).",
+    "Täglich zur gleichen Zeit mit einer Mahlzeit und Wasser einnehmen, ganz schlucken.",
+    "Grapefruit, Pomelos, Bitterorangen und Sternfrucht meiden.",
+    "Fieber, Schüttelfrost, Muskelkrämpfe, Herzstolpern oder wenig Urin sofort melden."
+  ],
+  "stand": "2026-10"
+}

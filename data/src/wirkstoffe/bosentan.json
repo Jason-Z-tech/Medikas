@@ -1,0 +1,247 @@
+{
+  "id": "bosentan",
+  "name": "Bosentan",
+  "synonyme": [],
+  "kombinationAus": [],
+  "atc": [
+    "C02KX01"
+  ],
+  "klasse": "Dualer Endothelin-Rezeptor-Antagonist (ERA)",
+  "kurz": "Mittel gegen Lungenhochdruck (pulmonale arterielle Hypertonie); beugt zudem neuen Fingergeschwüren bei systemischer Sklerose vor.",
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "hepatotoxisch",
+    "teratogen",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Tracleer"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Tabletten zur Herstellung einer Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Pulmonale arterielle Hypertonie (WHO-Funktionsklasse II–III) zur Verbesserung von Belastbarkeit und Beschwerden",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Vorbeugung neuer digitaler Ulzera (Fingergeschwüre) bei systemischer Sklerose mit bestehenden Fingergeschwüren",
+      "ids": [
+        "lupus"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Lungengefässe und bremst deren krankhaften Umbau. Bosentan blockiert beide Endothelin-Rezeptoren (ETA und ETB) und hemmt so die Wirkung von Endothelin-1, das bei Lungenhochdruck vermehrt gebildet wird und Gefässe verengt, verdickt und vernarben lässt. Der Widerstand in den Lungengefässen sinkt, das rechte Herz wird entlastet und die Belastbarkeit verbessert sich.",
+  "kontraindikationen": [
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz (Child-Pugh B oder C)",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberwerte (Transaminasen) vor Behandlungsbeginn über dem 3-Fachen der Norm",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschäden: Leberwerte vor Beginn und danach monatlich kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Anämie: Hämoglobin nach 1 und 3 Monaten, danach alle 3 Monate kontrollieren",
+      "ids": [
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz und Flüssigkeitsretention (Gewichtszunahme, Ödeme)",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Pulmonale venookklusive Erkrankung (Gefahr eines Lungenödems)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Systolischer Blutdruck unter 85 mmHg",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "HIV-Therapie mit Ritonavir-haltigen Mitteln (Dosisanpassung nötig)",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Männer: Verminderung der Spermienzahl möglich",
+      "ids": [
+        "maennliche-unfruchtbarkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "grund": "Ciclosporin erhöht die Bosentan-Spiegel anfangs etwa 30-fach, Bosentan senkt die Ciclosporin-Spiegel um rund die Hälfte."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Implantat, Spritze)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Bosentan senkt die Hormonspiegel – hormonelle Verhütung allein ist nicht zuverlässig; zusätzlich eine weitere sichere Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Glibenclamid",
+      "ref": [
+        "glibenclamid"
+      ],
+      "effekt": "Gehäufte Leberwerterhöhungen und gegenseitig veränderte Spiegel – nicht gemeinsam anwenden, anderes Antidiabetikum wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kombination eines CYP2C9-Hemmers mit einem starken oder mässigen CYP3A4-Hemmer, z. B. Fluconazol",
+      "ref": [
+        "fluconazol",
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Starker Anstieg der Bosentan-Spiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ritonavir-haltige HIV-Therapie (z. B. Lopinavir/Ritonavir)",
+      "ref": [
+        "ritonavir",
+        "lopinavir-ritonavir",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Bosentan-Spiegel steigen anfangs stark an – nur mit angepasster Dosis beginnen und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Bosentan-Spiegel sinken deutlich, zudem mehr Leberwerterhöhungen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Tacrolimus und Sirolimus",
+      "ref": [
+        "tacrolimus",
+        "sirolimus"
+      ],
+      "effekt": "Gegenseitige Spiegelveränderungen wie bei Ciclosporin zu erwarten – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die gerinnungshemmende Wirkung kann abnehmen – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sildenafil und Tadalafil",
+      "ref": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "effekt": "Spiegel der PDE-5-Hemmer sinken, Bosentan steigt leicht an – Wirkung und Verträglichkeit überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine mit Abbau über CYP3A4 (z. B. Simvastatin, Atorvastatin)",
+      "ref": [
+        "simvastatin",
+        "atorvastatin"
+      ],
+      "effekt": "Statin-Spiegel sinken – Cholesterinwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere über CYP3A4 abgebaute Medikamente",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Wirkung kann durch Enzyminduktion abnehmen – Wirkung überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Ödeme, Flüssigkeitsretention (Wassereinlagerungen)"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut), Hämoglobinabfall",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Überempfindlichkeitsreaktionen (Hautentzündung, Juckreiz, Ausschlag)",
+      "Synkope (Ohnmacht), Herzklopfen",
+      "Gesichtsrötung (Flush), Blutdruckabfall",
+      "Verstopfte Nase",
+      "Sodbrennen (Reflux), Durchfall"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie, Neutropenie (Mangel an Blutplättchen bzw. weissen Blutkörperchen)",
+      "Leberentzündung mit Gelbsucht"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion), Angioödem",
+      "Leberzirrhose, Leberversagen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Verschwommenes Sehen"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert (fruchtschädigend). Schwangerschaftstest vor Beginn und monatlich; zuverlässige Verhütung, wobei hormonelle Methoden allein nicht genügen.",
+  "stillzeit": "Nicht stillen – Bosentan geht in die Muttermilch über.",
+  "hinweise": [
+    "Leberwerte monatlich kontrollieren; bei Übelkeit, Erbrechen, Fieber, Bauchschmerzen, Gelbsucht oder dunklem Urin sofort ärztlich melden.",
+    "Frauen im gebärfähigen Alter: monatlicher Schwangerschaftstest und zuverlässige Verhütung (die Pille allein reicht nicht).",
+    "Rasche Gewichtszunahme oder Beinschwellungen melden (Flüssigkeitseinlagerung)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,196 @@
+{
+  "id": "dopamin",
+  "name": "Dopamin",
+  "synonyme": [
+    "Dopamine",
+    "Dopaminhydrochlorid"
+  ],
+  "atc": [
+    "C01CA04"
+  ],
+  "klasse": "Katecholamin (Inotropikum und Vasopressor)",
+  "kurz": "Kreislaufmittel für die Intensivmedizin: stärkt das Herz und hebt bei Schock den Blutdruck.",
+  "gruppen": [
+    "sympathomimetika",
+    "blutdrucksteigernd",
+    "vasokonstriktorisch"
+  ],
+  "handelsnamen": [],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Schockzustände mit tiefem Blutdruck und ungenügender Organdurchblutung (z. B. kardiogener, septischer oder traumatischer Schock), nach Ausgleich eines Volumenmangels",
+      "ids": [
+        "schock",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Akute Herzinsuffizienz mit vermindertem Herzzeitvolumen (Low-output-Syndrom), z. B. nach Herzoperationen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stärkt die Pumpkraft des Herzens und erhöht je nach Dosis den Blutdruck. Dopamin ist ein körpereigenes Katecholamin und die Vorstufe von Noradrenalin. In niedriger Dosis stimuliert es vor allem Dopamin-D1-Rezeptoren (Gefässerweiterung in Niere und Bauchorganen), in mittlerer Dosis Beta-1-Rezeptoren des Herzens (mehr Schlagkraft und Herzfrequenz) und in hoher Dosis Alpha-1-Rezeptoren (Gefässverengung, Blutdruckanstieg). Zusätzlich setzt es Noradrenalin aus Nervenendigungen frei.",
+  "kontraindikationen": [
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Tachykarde Herzrhythmusstörungen, Kammerflimmern",
+      "ids": [
+        "tachykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion (Hyperthyreose)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Volumenmangel (Hypovolämie) muss vor und während der Behandlung ausgeglichen werden",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit, frischer Herzinfarkt (erhöhter Sauerstoffbedarf des Herzens, Rhythmusstörungen)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Periphere Durchblutungsstörungen (z. B. Arteriosklerose, Raynaud-Syndrom, Diabetes): Gefahr von Minderdurchblutung bis Gewebsuntergang an Fingern und Zehen",
+      "ids": [
+        "pavk",
+        "raynaud",
+        "arteriosklerose",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Austritt der Infusion ins Gewebe (Paravasat) kann Gewebsnekrosen verursachen; möglichst über einen zentralen Venenkatheter geben",
+      "ids": []
+    },
+    {
+      "text": "Engwinkelglaukom oder Prostatavergrösserung mit Restharn",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Asthma und Sulfitüberempfindlichkeit (Präparate können Natriummetabisulfit enthalten)",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "MAO-Hemmer (auch Linezolid), auch in den letzten 2–3 Wochen eingenommen",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "linezolid"
+      ],
+      "effekt": "Stark verstärkte und verlängerte Dopaminwirkung mit Blutdruckkrisen und Rhythmusstörungen – Dopamin nur in stark reduzierter Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Halogenierte Inhalationsnarkotika (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Das Herz wird empfindlicher für Katecholamine – Gefahr schwerer Herzrhythmusstörungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Blutdruckwirkung und Rhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin (intravenös)",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Gefahr von starkem Blutdruckabfall und langsamem Puls.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker und Alpha-Blocker",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Heben die Herz- bzw. Gefässwirkung von Dopamin auf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ergotalkaloide und Oxytocin",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "oxytocin"
+      ],
+      "effekt": "Verstärkte Gefässverengung, starker Blutdruckanstieg möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "COMT-Hemmer (Entacapon)",
+      "ref": [
+        "entacapon",
+        "levodopa-carbidopa-entacapon"
+      ],
+      "effekt": "Verzögerter Abbau von Dopamin – verstärkte Wirkung auf Herz und Kreislauf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dopamin-Antagonisten (z. B. Haloperidol, Metoclopramid)",
+      "ref": [
+        "gruppe:dopaminantagonisten"
+      ],
+      "effekt": "Können die gefässerweiternde Wirkung in Niere und Bauchorganen abschwächen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Herzrasen (Tachykardie), Extrasystolen, Herzklopfen",
+      "Herzrhythmusstörungen bis Kammertachykardie",
+      "Brustschmerzen (Angina pectoris)",
+      "Blutdruckanstieg oder Blutdruckabfall",
+      "Kopfschmerzen, Übelkeit, Erbrechen",
+      "Atemnot (Dyspnoe)",
+      "Gefässverengung mit kalten Fingern und Zehen bis Gewebsuntergang (Gangrän)",
+      "Gewebsnekrose bei Austritt der Infusion ins Gewebe"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nur bei lebensbedrohlichen Zuständen nach sorgfältiger Abwägung (mögliche Minderdurchblutung der Gebärmutter).",
+  "stillzeit": "Nicht bekannt, ob Dopamin in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur im Spital (Intensivstation, Notfall, Anästhesie) als Dauerinfusion mit Infusionspumpe unter laufender Überwachung von Blutdruck, Puls und EKG gegeben.",
+    "Nicht abrupt beenden, sondern schrittweise reduzieren (Gefahr eines Blutdruckabfalls).",
+    "Schmerzen, Blässe oder Schwellung an der Infusionsstelle sofort dem Pflegepersonal melden."
+  ],
+  "stand": "2026-10"
+}

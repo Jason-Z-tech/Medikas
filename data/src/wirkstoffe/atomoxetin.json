@@ -1,0 +1,258 @@
+{
+  "id": "atomoxetin",
+  "name": "Atomoxetin",
+  "synonyme": [
+    "Atomoxetine"
+  ],
+  "atc": [
+    "N06BA09"
+  ],
+  "klasse": "Selektiver Noradrenalin-Wiederaufnahmehemmer; ADHS-Mittel (kein Stimulans)",
+  "kurz": "Nicht stimulierendes ADHS-Mittel für Kinder ab 6 Jahren, Jugendliche und Erwachsene; untersteht nicht dem Betäubungsmittelgesetz.",
+  "gruppen": [
+    "cyp2d6-substrate",
+    "qt-verlaengernd",
+    "blutdrucksteigernd",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Strattera",
+    "Atomoxetin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "ADHS bei Kindern ab 6 Jahren, Jugendlichen und Erwachsenen im Rahmen eines umfassenden Behandlungsprogramms",
+      "ids": [
+        "adhs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert die Aufmerksamkeit und vermindert Impulsivität und Hyperaktivität, indem es den Botenstoff Noradrenalin im Gehirn länger wirken lässt. Atomoxetin hemmt selektiv den präsynaptischen Noradrenalin-Transporter; im Stirnhirn steigt dadurch auch Dopamin. Es ist kein Psychostimulans und hat kein relevantes Missbrauchspotenzial. Die volle Wirkung entwickelt sich über mehrere Wochen; abgebaut wird es hauptsächlich über CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Phäochromozytom (auch in der Vorgeschichte)",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Schwere Herz-Kreislauf-Erkrankungen, die sich durch einen Blutdruck- oder Pulsanstieg verschlechtern könnten (z. B. schwere Hypertonie, Herzinsuffizienz, Herzinfarkt, Kardiomyopathie, lebensbedrohliche Rhythmusstörungen)",
+      "ids": [
+        "hypertonie",
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "kardiomyopathie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schwere zerebrovaskuläre Erkrankungen (z. B. Aneurysma, Schlaganfall)",
+      "ids": [
+        "aneurysma",
+        "schlaganfall"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders bei Kindern und Jugendlichen – auf Stimmungsveränderungen achten",
+      "ids": [
+        "suizidgedanken",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen; selten schwere Leberschäden",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit (auch angeboren oder in der Familie)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Herzrasen: Puls und Blutdruck vor und während der Behandlung kontrollieren",
+      "ids": [
+        "hypertonie",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Neigung zu Blutdruckabfall beim Aufstehen oder Ohnmacht",
+      "ids": [
+        "hypotonie",
+        "synkope"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Aggressivität, psychotische oder manische Symptome",
+      "ids": [
+        "schizophrenie",
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Kinder: Wachstum und Gewicht kontrollieren",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Harnverhalt oder erschwertes Wasserlassen",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Langsame CYP2D6-Metabolisierer (genetisch): höhere Spiegel, mehr Nebenwirkungen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 2 Wochen nach deren Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr schwerer, teils lebensbedrohlicher Reaktionen durch übermässige Noradrenalinwirkung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Atomoxetin-Spiegel steigt um ein Mehrfaches – langsamer aufdosieren, auf Nebenwirkungen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, bestimmte Antipsychotika, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kalium senkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytstörungen erhöhen das Risiko einer QT-Verlängerung – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Salbutamol und andere Beta-2-Sympathomimetika (in hoher Dosis oder systemisch)",
+      "ref": [
+        "gruppe:beta2-sympathomimetika",
+        "salbutamol"
+      ],
+      "effekt": "Verstärkte Wirkung auf Puls und Blutdruck – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksteigernde Mittel und Sympathomimetika (z. B. Pseudoephedrin, Phenylephrin)",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:blutdrucksteigernd"
+      ],
+      "effekt": "Möglicher zusätzlicher Anstieg von Blutdruck und Puls.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere noradrenerg wirkende Mittel (z. B. Venlafaxin, Duloxetin, trizyklische Antidepressiva, Reboxetin)",
+      "ref": [
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva",
+        "reboxetin"
+      ],
+      "effekt": "Additive Wirkung auf Herz und Kreislauf – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die die Krampfschwelle senken (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Die blutdrucksenkende Wirkung kann abgeschwächt werden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Appetitminderung",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen, Bauchschmerzen",
+      "Schläfrigkeit (Kinder), Schlaflosigkeit (Erwachsene)",
+      "Mundtrockenheit (Erwachsene)",
+      "Anstieg von Blutdruck und Puls"
+    ],
+    "haeufig": [
+      "Reizbarkeit, Stimmungsschwankungen, Unruhe, Angst, Depression",
+      "Tics",
+      "Schwindel, Zittern, Geschmacksstörungen",
+      "Pupillenerweiterung (Mydriasis)",
+      "Herzklopfen, Herzrasen, Hitzewallungen",
+      "Verstopfung, Dyspepsie (Verdauungsbeschwerden)",
+      "Hautausschlag, Juckreiz, vermehrtes Schwitzen",
+      "Erschwertes Wasserlassen, Harnverhalt (Erwachsene), Erektions- und Ejakulationsstörungen, Gewichtsabnahme"
+    ],
+    "gelegentlich": [
+      "Suizidgedanken und suizidales Verhalten",
+      "Aggressivität, Feindseligkeit, Psychose mit Halluzinationen",
+      "Ohnmacht (Synkope), Krampfanfälle",
+      "QT-Verlängerung",
+      "Verschwommenes Sehen",
+      "Allergische Reaktionen",
+      "Atemnot"
+    ],
+    "selten": [
+      "Schwere Leberschäden bis zum akuten Leberversagen, Gelbsucht",
+      "Raynaud-Phänomen (kalte, weisse Finger)",
+      "Priapismus (schmerzhafte Dauererektion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nicht anwenden, ausser nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Ob Atomoxetin in die Muttermilch übergeht, ist nicht bekannt (im Tierversuch ja); während der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Die Wirkung baut sich über mehrere Wochen auf; einmal täglich morgens oder auf zwei Dosen verteilt, mit oder ohne Essen einnehmen.",
+    "Kapseln nicht öffnen – der Inhalt reizt die Augen.",
+    "Bei Gelbsucht, dunklem Urin, Juckreiz oder Oberbauchschmerzen sofort ärztlich abklären lassen (Leberschaden).",
+    "Puls, Blutdruck, Gewicht und bei Kindern die Grösse regelmässig kontrollieren; auf Stimmungsveränderungen und Suizidgedanken achten."
+  ],
+  "stand": "2026-10"
+}

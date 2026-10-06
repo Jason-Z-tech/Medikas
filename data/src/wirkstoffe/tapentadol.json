@@ -1,0 +1,224 @@
+{
+  "id": "tapentadol",
+  "name": "Tapentadol",
+  "synonyme": [
+    "Tapentadolhydrochlorid",
+    "Tapentadol hydrochloride"
+  ],
+  "atc": [
+    "N02AX06"
+  ],
+  "klasse": "Opioid-Analgetikum (μ-Opioidrezeptor-Agonist und Noradrenalin-Wiederaufnahmehemmer)",
+  "kurz": "Starkes Opioid-Schmerzmittel, das zusätzlich die körpereigene Schmerzhemmung über Noradrenalin verstärkt; bei starken akuten und chronischen Schmerzen.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "serotonerg",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Palexia"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mässig starke bis starke akute Schmerzen (Filmtabletten)",
+      "ids": [
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Starke chronische Schmerzen, die nur mit Opioiden ausreichend behandelt werden können (Retardtabletten)",
+      "ids": [
+        "chronische-schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert starke Schmerzen über zwei sich ergänzende Wege in einem Wirkstoff. Tapentadol ist ein Agonist am μ-Opioidrezeptor und hemmt gleichzeitig die Wiederaufnahme von Noradrenalin, wodurch absteigende schmerzhemmende Nervenbahnen im Rückenmark verstärkt werden. Die Opioidwirkung ist dadurch für eine vergleichbare Schmerzlinderung geringer, was sich etwa in weniger Magen-Darm-Beschwerden zeigen kann. Der Abbau erfolgt überwiegend durch Glucuronidierung ohne wirksame Abbauprodukte und mit geringer Beteiligung von CYP-Enzymen.",
+  "kontraindikationen": [
+    {
+      "text": "Ausgeprägte Atemdepression",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Akutes oder schweres Asthma bronchiale oder erhöhter Kohlendioxidgehalt im Blut",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Paralytischer Ileus (Darmlähmung)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, zentral wirkenden Schmerzmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz (nicht empfohlen); mittelschwere Leberinsuffizienz (Dosis anpassen)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "COPD oder Schlafapnoe",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Kopfverletzung, erhöhter Hirndruck oder Bewusstseinsstörung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Gallenwegserkrankungen oder Pankreatitis",
+      "ids": [
+        "gallensteine",
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Sucht oder Missbrauch in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, auch innerhalb von 14 Tagen nach Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr schwerer Herz-Kreislauf-Reaktionen durch Anhäufung von Noradrenalin, zudem Serotonin-Syndrom möglich."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gefahr schwerer Atemdepression, tiefer Bewusstlosigkeit und Tod – nur kombinieren, wenn keine Alternative besteht, mit niedrigsten Dosen und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Serotonerge Mittel (SSRI, SNRI, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotonin-Syndrom möglich – auf Unruhe, Fieber, Zittern und Muskelzuckungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Partialagonisten (z. B. Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung, Entzugssymptome möglich – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "rifampicin",
+        "phenobarbital",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau – Schmerzlinderung kann nachlassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel, Schläfrigkeit, Kopfschmerzen",
+      "Übelkeit",
+      "Obstipation (Verstopfung)"
+    ],
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Angst, gedrückte Stimmung, Schlafstörungen, Unruhe",
+      "Konzentrationsstörungen, Zittern, Muskelzuckungen",
+      "Hitzegefühl (Flushing)",
+      "Atemnot",
+      "Erbrechen, Durchfall, Verdauungsbeschwerden",
+      "Juckreiz, Schwitzen, Hautausschlag",
+      "Müdigkeit, Schwäche, Wassereinlagerungen"
+    ],
+    "gelegentlich": [
+      "Verwirrtheit, Euphorie, Wahrnehmungsstörungen",
+      "Bewusstseinsstörungen, Ohnmacht",
+      "Sehstörungen",
+      "Herzrasen oder langsamer Puls, Blutdruckabfall",
+      "Nesselsucht",
+      "Sexuelle Funktionsstörungen",
+      "Entzugssymptome"
+    ],
+    "selten": [
+      "Anaphylaxie, Angioödem (schwere allergische Reaktionen)",
+      "Abhängigkeit",
+      "Krampfanfälle",
+      "Atemdepression (abgeschwächte Atmung)"
+    ],
+    "unbekannt": [
+      "Delir",
+      "Serotonin-Syndrom (in Kombination mit serotonergen Mitteln)"
+    ]
+  },
+  "schwangerschaft": "Nur wenn der Nutzen das Risiko klar überwiegt. Längere Anwendung kann beim Neugeborenen ein Entzugssyndrom, Anwendung unter der Geburt eine Atemdepression auslösen.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht zerkauen oder zerkleinern.",
+    "Kein Alkohol; die Fahrtüchtigkeit ist vor allem zu Beginn und bei Dosisänderungen eingeschränkt.",
+    "Nach längerer Anwendung nicht abrupt absetzen, sondern schrittweise reduzieren (Entzugssymptome)."
+  ],
+  "stand": "2026-10"
+}

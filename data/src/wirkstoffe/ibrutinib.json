@@ -1,0 +1,219 @@
+{
+  "id": "ibrutinib",
+  "name": "Ibrutinib",
+  "synonyme": [
+    "PCI-32765"
+  ],
+  "atc": [
+    "L01EL01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Bruton-Tyrosinkinase-Hemmer, BTK-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel (BTK-Hemmer) zum Einnehmen gegen chronische lymphatische Leukämie und bestimmte Lymphome.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "blutungsrisiko-erhoehend",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "blutdrucksteigernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Imbruvica"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische lymphatische Leukämie (CLL), unbehandelt oder vorbehandelt, allein oder in Kombination (z. B. mit Venetoclax, Obinutuzumab oder Rituximab)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Rezidiviertes oder refraktäres Mantelzell-Lymphom",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Morbus Waldenström (lymphoplasmozytisches Lymphom), allein oder mit Rituximab",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schaltet ein Signalprotein ab, das bösartige B-Lymphozyten zum Überleben und Wachsen brauchen. Ibrutinib bindet kovalent und irreversibel an die Bruton-Tyrosinkinase (BTK), ein Schlüsselenzym des B-Zell-Rezeptor-Signalwegs. Dadurch werden Vermehrung und Überleben der Tumorzellen sowie ihr Einwandern in Lymphknoten und Knochenmark gehemmt; vorübergehend steigt deshalb oft die Lymphozytenzahl im Blut. Die zusätzliche Hemmung der Blutplättchenfunktion erklärt das erhöhte Blutungsrisiko.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Blutungsneigung oder gleichzeitige Behandlung mit Blutverdünnern oder Plättchenhemmern; vor und nach Operationen 3–7 Tage pausieren",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation",
+        "operation"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen (v. a. Vorhofflimmern, ventrikuläre Arrhythmien), Herzschwäche oder kardiale Risikofaktoren",
+      "ids": [
+        "vorhofflimmern",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: Blutdruck regelmässig messen",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Infektionen, inkl. opportunistischer Infektionen und Hepatitis-B-Reaktivierung",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisanpassung; bei schwerer Leberinsuffizienz nicht empfohlen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Starke CYP3A4-Induktion senkt die Ibrutinib-Spiegel stark – Wirkverlust."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Ibrutinib-Spiegel steigt sehr stark (Ketoconazol etwa 24-fach) – vermeiden oder Dosis reduzieren bzw. Behandlung unterbrechen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Deutlich höhere Ibrutinib-Spiegel – Dosis reduzieren, eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Ibrutinib-Spiegel sinkt stark – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Erhöhtes Risiko schwerer Blutungen – nicht gleichzeitig anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Blutverdünner und Plättchenhemmer (z. B. DOAK, Heparine, Acetylsalicylsäure, Clopidogrel)",
+      "ref": [
+        "gruppe:doak",
+        "gruppe:heparine",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – nur nach sorgfältiger Abwägung und mit Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche P-gp- und BCRP-Substrate (z. B. Digoxin, Methotrexat)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin",
+        "methotrexat"
+      ],
+      "effekt": "Ibrutinib kann diese Transporter im Darm hemmen – mindestens 6 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Bitterorangen (Sevilla-Orangen)",
+      "ref": [],
+      "effekt": "Hemmen CYP3A4 und erhöhen die Ibrutinib-Spiegel – meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fischöl- und Vitamin-E-Präparate",
+      "ref": [
+        "omega-3-saeurenethylester",
+        "tocopherol-vitamin-e"
+      ],
+      "effekt": "Zusätzlich erhöhte Blutungsneigung – meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen: Lungenentzündung, obere Atemwege, Haut",
+      "Neutropenie, Thrombozytopenie",
+      "Blutungen, blaue Flecken",
+      "Bluthochdruck",
+      "Durchfall, Übelkeit, Erbrechen, Stomatitis, Verstopfung",
+      "Hautausschlag",
+      "Gelenk-, Muskel- und Knochenschmerzen, Muskelkrämpfe",
+      "Fieber, periphere Ödeme, Schwindel, Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Vorhofflimmern",
+      "Herzschwäche",
+      "Sepsis, Harnwegsinfekte, Sinusitis",
+      "Weisser Hautkrebs (Basalzell- und Plattenepithelkarzinom)",
+      "Febrile Neutropenie, Leukozytose",
+      "Nasenbluten, punktförmige Hautblutungen (Petechien)",
+      "Interstitielle Lungenerkrankung",
+      "Verschwommenes Sehen, Nesselsucht, brüchige Nägel, periphere Neuropathie, erhöhte Harnsäure"
+    ],
+    "gelegentlich": [
+      "Ventrikuläre Tachyarrhythmien, Herzstillstand",
+      "Subdurales Hämatom (Blutung unter der harten Hirnhaut)",
+      "Opportunistische Infektionen (z. B. Pneumocystis, Pilze)",
+      "Leukostase-Syndrom",
+      "Tumorlyse-Syndrom",
+      "Angioödem, neutrophile Dermatosen, Pannikulitis"
+    ],
+    "unbekannt": [
+      "Hepatitis-B-Reaktivierung",
+      "Leberversagen",
+      "Progressive multifokale Leukenzephalopathie (PML)",
+      "Stevens-Johnson-Syndrom"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 3 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit unzerkaut mit Wasser schlucken; Grapefruit und Bitterorangen meiden.",
+    "Vor geplanten Operationen oder Zahnbehandlungen informieren: die Einnahme wird meist 3–7 Tage vorher und nachher unterbrochen.",
+    "Herzklopfen, unregelmässigen Puls, Atemnot oder Ohnmacht sofort melden; Blutdruck regelmässig messen.",
+    "Blutverdünner, Schmerzmittel (NSAR) sowie Fischöl- oder Vitamin-E-Präparate nur nach ärztlicher Rücksprache."
+  ],
+  "stand": "2026-10"
+}

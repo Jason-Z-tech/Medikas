@@ -1,0 +1,69 @@
+{
+  "id": "phenylephrin",
+  "name": "Phenylephrin",
+  "synonyme": ["Phenylephrine", "Phenylephrinhydrochlorid", "L-Phenylephrin"],
+  "atc": ["S01FB01", "R01AA04", "R01BA03", "C01CA06"],
+  "klasse": "Alpha-1-Sympathomimetikum (Mydriatikum, Schleimhautabschwellung, Vasopressor)",
+  "kurz": "Gefässverengender Wirkstoff: als Augentropfen zur Pupillenerweiterung, in Nasen- und Erkältungsmitteln zum Abschwellen, als Spritze gegen Blutdruckabfall.",
+  "gruppen": ["sympathomimetika"],
+  "handelsnamen": ["Neosynephrin-POS", "Vibrocil (Kombi)", "Neocitran (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Augentropfen", "Nasenspray", "Nasentropfen", "Nasengel", "Pulver zum Auflösen (Beutel)", "Injektionslösung"],
+  "indikationen": [
+    { "text": "Pupillenerweiterung für Augenuntersuchungen und Augenoperationen (Augentropfen)", "ids": ["katarakt"] },
+    { "text": "Abschwellen der Nasenschleimhaut bei Schnupfen, Heuschnupfen und Nebenhöhlenentzündung (Nasenspray, -tropfen, -gel in Kombination mit Dimetinden)", "ids": ["erkaeltung", "heuschnupfen", "sinusitis"] },
+    { "text": "Erkältungs- und Grippebeschwerden wie verstopfte Nase, Fieber und Gliederschmerzen (Trinkpulver in Kombination mit Paracetamol und Pheniramin)", "ids": ["erkaeltung", "influenza"] },
+    { "text": "Blutdruckabfall während einer Narkose (Injektion im Spital)", "ids": ["hypotonie", "anaesthesie"] }
+  ],
+  "wirkmechanismus": "Verengt Blutgefässe und lässt dadurch geschwollene Schleimhäute abschwellen bzw. hebt den Blutdruck. Phenylephrin stimuliert gezielt Alpha-1-Rezeptoren der glatten Muskulatur und hat kaum Wirkung auf Beta-Rezeptoren. Am Auge zieht es den Pupillenerweiterer-Muskel zusammen und erweitert so die Pupille, ohne die Naheinstellung (Akkommodation) wesentlich zu lähmen. Als Injektion erhöht es den Gefässwiderstand und damit den Blutdruck; der Puls kann reflektorisch langsamer werden.",
+  "kontraindikationen": [
+    { "text": "Engwinkelglaukom oder enger Kammerwinkel (Augentropfen und Einnahme)", "ids": ["engwinkelglaukom"] },
+    { "text": "Schwerer oder unbehandelter Bluthochdruck, schwere koronare Herzkrankheit, Herzrhythmusstörungen mit schnellem Puls (Einnahme, Injektion, hoch dosierte Augentropfen)", "ids": ["hypertonie", "koronare-herzkrankheit", "herzrhythmusstoerung"] },
+    { "text": "Schilddrüsenüberfunktion (Einnahme, 10%-Augentropfen)", "ids": ["hyperthyreose"] },
+    { "text": "Säuglinge und Kleinkinder (Altersgrenzen je nach Präparat; 10%-Augentropfen nicht bei Kindern)", "ids": ["kinder"] },
+    { "text": "Nasenpräparate: trockene Nasenschleimhaut (Rhinitis sicca) und Zustand nach Operationen, bei denen durch die Nase die Hirnhaut freigelegt wurde", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Herz-Kreislauf-Erkrankungen, Bluthochdruck, Herzinsuffizienz", "ids": ["hypertonie", "herzinsuffizienz", "koronare-herzkrankheit"] },
+    { "text": "Diabetes mellitus", "ids": ["diabetes"] },
+    { "text": "Prostatavergrösserung mit Restharn (Harnverhalt möglich)", "ids": ["prostatahyperplasie", "harnverhalt"] },
+    { "text": "Ältere Menschen (stärkere Kreislaufwirkung)", "ids": ["aeltere-patienten"] },
+    { "text": "Eingeschränkte Leber- oder Nierenfunktion (Kombipräparate mit Paracetamol)", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Lang dauernde Anwendung von Nasenpräparaten (Gewöhnung und Dauerschnupfen)", "ids": ["erkaeltung"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "MAO-Hemmer (auch innerhalb von 14 Tagen nach deren Absetzen)", "ref": ["gruppe:mao-hemmer"], "grund": "Gefahr einer hypertensiven Krise (gefährlicher Blutdruckanstieg) durch verstärkte Wirkung von Phenylephrin." }
+  ],
+  "interaktionen": [
+    { "text": "Trizyklische Antidepressiva", "ref": ["gruppe:trizyklische-antidepressiva"], "effekt": "Verstärkte Blutdruck- und Herzwirkung möglich.", "schwere": "mittel" },
+    { "text": "Andere Sympathomimetika (z. B. Pseudoephedrin, abschwellende Nasensprays, Stimulanzien)", "ref": ["gruppe:sympathomimetika", "gruppe:stimulanzien"], "effekt": "Additive Wirkung auf Blutdruck und Herz – nicht mehrere Erkältungs- oder Schnupfenmittel kombinieren.", "schwere": "mittel" },
+    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Blutdruckanstieg mit verlangsamtem Puls möglich.", "schwere": "mittel" },
+    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen.", "schwere": "mittel" },
+    { "text": "Ergotalkaloide und Oxytocin", "ref": ["gruppe:ergotalkaloide", "oxytocin"], "effekt": "Verstärkte Gefässverengung, starker Blutdruckanstieg möglich.", "schwere": "mittel" },
+    { "text": "Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Bei Einnahme oder Injektion kann die blutdrucksenkende Wirkung abgeschwächt werden.", "schwere": "leicht" },
+    { "text": "Halogenierte Inhalationsnarkotika", "ref": ["isofluran", "sevofluran", "desfluran"], "effekt": "Bei Injektion erhöhte Gefahr von Herzrhythmusstörungen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Augentropfen: Brennen, vorübergehend verschwommenes Sehen, Blendempfindlichkeit, Rötung des Auges",
+      "Augentropfen (v. a. 10 %): Blutdruckanstieg, Herzklopfen",
+      "Nasenpräparate: Brennen, Trockenheit der Nasenschleimhaut, Niesen",
+      "Rebound-Schwellung und Dauerschnupfen (Rhinitis medicamentosa) bei längerer Anwendung",
+      "Bluthochdruck, Herzklopfen, Reflex-Bradykardie (verlangsamter Puls)",
+      "Herzrhythmusstörungen",
+      "Kopfschmerzen, Unruhe, Schlaflosigkeit, Zittern",
+      "Übelkeit",
+      "Harnverhalt",
+      "Allergische Reaktionen"
+    ]
+  },
+  "schwangerschaft": "Erkältungs- und Nasenmittel mit Phenylephrin in der Schwangerschaft möglichst meiden, besonders im ersten Drittel. Augentropfen und Injektion nur nach ärztlicher Abwägung.",
+  "stillzeit": "Orale Erkältungsmittel mit Phenylephrin in der Stillzeit nicht empfohlen. Kurzfristige Anwendung als Augen- oder Nasentropfen nach ärztlicher Rücksprache möglich.",
+  "hinweise": [
+    "Nasenpräparate höchstens 5–7 Tage ohne Unterbruch anwenden, sonst droht Dauerschnupfen.",
+    "Nach pupillenerweiternden Augentropfen ist die Sicht für einige Stunden verschwommen und blendempfindlich – nicht selbst Auto fahren.",
+    "Nicht mehrere Erkältungsmittel gleichzeitig verwenden; bei Kombipräparaten die Paracetamol-Höchstdosis beachten.",
+    "Bei Bluthochdruck oder Herzkrankheiten vor der Anwendung in der Apotheke oder ärztlich beraten lassen."
+  ],
+  "stand": "2026-10"
+}

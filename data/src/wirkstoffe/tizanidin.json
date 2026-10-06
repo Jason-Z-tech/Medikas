@@ -1,0 +1,201 @@
+{
+  "id": "tizanidin",
+  "name": "Tizanidin",
+  "synonyme": [
+    "Tizanidinhydrochlorid",
+    "Tizanidine"
+  ],
+  "atc": [
+    "M03BX02"
+  ],
+  "klasse": "Zentral wirkendes Muskelrelaxans (Alpha-2-Adrenozeptor-Agonist)",
+  "kurz": "Muskelentspannendes Mittel bei schmerzhaften Muskelverspannungen der Wirbelsäule und bei Spastik, z. B. nach Schlaganfall oder bei multipler Sklerose.",
+  "gruppen": [
+    "muskelrelaxanzien-zentral",
+    "zentrale-alpha2-agonisten",
+    "zns-daempfend",
+    "blutdrucksenkend",
+    "bradykardisierend",
+    "cyp1a2-substrate",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Sirdalud"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schmerzhafte Muskelverspannungen bei Wirbelsäulenbeschwerden (Nacken- und Kreuzschmerzen) und nach Operationen, z. B. an Bandscheibe oder Hüfte",
+      "ids": [
+        "muskelverspannung",
+        "rueckenschmerzen",
+        "nackenschmerzen"
+      ]
+    },
+    {
+      "text": "Spastik bei neurologischen Erkrankungen, z. B. multipler Sklerose, Rückenmarkserkrankungen, nach Schlaganfall oder bei Zerebralparese",
+      "ids": [
+        "spastik",
+        "multiple-sklerose",
+        "schlaganfall"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Entspannt verkrampfte Muskeln, indem es überaktive Nervenreflexe im Rückenmark dämpft. Tizanidin stimuliert zentrale Alpha-2-Adrenozeptoren und vermindert so die Freisetzung erregender Aminosäuren aus Zwischennervenzellen des Rückenmarks; dadurch werden polysynaptische Reflexe gehemmt. Als Alpha-2-Agonist senkt es zudem Blutdruck und Puls und wirkt beruhigend. Es wird fast vollständig über CYP1A2 in der Leber abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 25 ml/min: niedrigere Dosis)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Leberfunktionsstörung; bei höheren Dosen Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, langsamer Puls, koronare Herzkrankheit oder Herzinsuffizienz",
+      "ids": [
+        "hypotonie",
+        "bradykardie",
+        "koronare-herzkrankheit",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Blutdruckabfall, Sturzgefahr)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Raucher: Wirkung kann schwächer sein",
+      "ids": [
+        "rauchen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP1A2-Hemmer: Fluvoxamin und Ciprofloxacin",
+      "ref": [
+        "fluvoxamin",
+        "ciprofloxacin"
+      ],
+      "grund": "Sie blockieren den Abbau über CYP1A2 – die Tizanidin-Spiegel steigen um das 10- bis 30-Fache, mit Gefahr von starkem Blutdruckabfall, Bradykardie und Bewusstseinsstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere CYP1A2-Hemmer (z. B. Amiodaron, Propafenon, Cimetidin, gewisse Fluorchinolone)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer",
+        "amiodaron",
+        "propafenon",
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Tizanidin-Spiegel steigen – Kombination vermeiden oder nur mit tiefer Dosis und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel (Pille)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Langsamerer Abbau von Tizanidin – niedriger dosieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel inklusive Diuretika",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, Schwindel, Ohnmacht; nach Absetzen von Tizanidin Blutdruckanstieg (Rebound) möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker, Digoxin und andere pulsverlangsamende Mittel",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:betablocker",
+        "digoxin"
+      ],
+      "effekt": "Verstärkte Bradykardie und Blutdrucksenkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin; Rauchen",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Beschleunigter Abbau über CYP1A2 – Wirkung schwächer.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Müdigkeit (v. a. bei höheren Dosen gegen Spastik)",
+      "Schwindel",
+      "Mundtrockenheit"
+    ],
+    "haeufig": [
+      "Blutdruckabfall",
+      "Übelkeit, Magen-Darm-Beschwerden",
+      "Muskelschwäche",
+      "Erhöhte Leberwerte (Transaminasen)"
+    ],
+    "gelegentlich": [
+      "Langsamer Puls (Bradykardie)"
+    ],
+    "selten": [
+      "Halluzinationen",
+      "Schlaflosigkeit, Schlafstörungen"
+    ],
+    "sehrSelten": [
+      "Hepatitis, Leberversagen"
+    ],
+    "unbekannt": [
+      "Entzugserscheinungen nach abruptem Absetzen: Blutdruckanstieg, Herzrasen (Rebound)",
+      "Verwirrtheit",
+      "Verschwommenes Sehen",
+      "Hautausschlag, Juckreiz",
+      "Ohnmacht"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen; nur wenn unbedingt nötig, nach ärztlicher Abwägung.",
+  "stillzeit": "Nicht anwenden, da Tizanidin in die Muttermilch übergehen kann.",
+  "hinweise": [
+    "Nicht abrupt absetzen, sondern langsam ausschleichen – sonst Blutdruckanstieg und Herzrasen möglich.",
+    "Alkohol meiden; Schläfrigkeit, Schwindel und Blutdruckabfall beeinträchtigen die Fahrtüchtigkeit – langsam aufstehen.",
+    "Bei höheren Dosen in den ersten Monaten Leberwerte kontrollieren.",
+    "Neu verordnete Medikamente, vor allem Antibiotika und Antidepressiva, immer auf Wechselwirkungen prüfen lassen."
+  ],
+  "stand": "2026-10"
+}

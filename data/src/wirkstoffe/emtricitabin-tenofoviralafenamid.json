@@ -1,0 +1,45 @@
+{
+  "id": "emtricitabin-tenofoviralafenamid",
+  "name": "Emtricitabin + Tenofoviralafenamid",
+  "synonyme": ["FTC/TAF", "Emtricitabin/Tenofoviralafenamid", "Emtricitabine/Tenofovir alafenamide"],
+  "kombinationAus": ["emtricitabin", "tenofoviralafenamid"],
+  "atc": ["J05AR17"],
+  "klasse": "HIV-Kombination aus zwei nukleosidischen bzw. nukleotidischen Reverse-Transkriptase-Hemmern (NRTI)",
+  "kurz": "HIV-Medikament aus zwei Wirkstoffen als Grundgerüst einer HIV-Therapie; wird mit einem weiteren HIV-Mittel kombiniert.",
+  "gruppen": [],
+  "handelsnamen": ["Descovy"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen (ab 12 Jahren, mindestens 35 kg), in Kombination mit weiteren antiretroviralen Mitteln", "ids": ["hiv"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von HIV. Emtricitabin (ein Cytidin-Analogon) wird in den Zellen zum aktiven Triphosphat phosphoryliert; Tenofoviralafenamid ist eine im Blut stabile Vorstufe, die vor allem in Lymphozyten zu Tenofovir gespalten und zum aktiven Diphosphat umgewandelt wird. Beide werden von der Reversen Transkriptase in die Virus-DNA eingebaut und führen zum Kettenabbruch. Dank der tiefen Tenofovir-Spiegel im Blut werden Nieren und Knochen weniger belastet als mit Tenofovirdisoproxil; beide Wirkstoffe wirken auch gegen das Hepatitis-B-Virus.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Hepatitis-B-Koinfektion: Absetzen kann schwere Hepatitisschübe auslösen – Leberwerte nach dem Absetzen über Monate kontrollieren", "ids": ["hepatitis-b"] },
+    { "text": "Stark eingeschränkte Nierenfunktion: nur bei Dialyse bzw. gemäss Fachinformation; Nierenfunktion regelmässig kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwere Leberinsuffizienz (keine Daten)", "ids": ["leberinsuffizienz"] },
+    { "text": "Immunrekonstitutionssyndrom, Gewichtszunahme und Anstieg der Blutfette unter der Therapie", "ids": ["hiv"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Starke Induktoren von P-Glykoprotein: Rifampicin, Rifabutin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut", "ref": ["gruppe:p-gp-induktoren", "rifampicin", "rifabutin", "carbamazepin", "oxcarbazepin", "phenytoin", "phenobarbital", "johanniskraut"], "effekt": "Tenofoviralafenamid-Spiegel sinken – Wirkverlust und Resistenzgefahr; Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Mit Ritonavir oder Cobicistat geboosterte HIV-Mittel (z. B. Darunavir, Atazanavir)", "ref": ["ritonavir", "cobicistat", "darunavir", "atazanavir"], "effekt": "Tenofoviralafenamid-Spiegel steigen – die Stärke des Präparats richtet sich nach dem Begleitmittel (tiefere Tenofoviralafenamid-Dosis bei Boosterung).", "schwere": "mittel" },
+    { "text": "Lamivudin und lamivudinhaltige Präparate", "ref": ["lamivudin", "abacavir-lamivudin", "dolutegravir-lamivudin", "abacavir-lamivudin-dolutegravir"], "effekt": "Gleicher Wirkmechanismus wie Emtricitabin – nicht kombinieren.", "schwere": "mittel" },
+    { "text": "Andere emtricitabin- oder tenofovirhaltige Präparate", "ref": ["emtricitabin", "tenofovirdisoproxil", "tenofoviralafenamid", "emtricitabin-tenofovirdisoproxil", "bictegravir-emtricitabin-tenofoviralafenamid"], "effekt": "Doppelbehandlung vermeiden.", "schwere": "mittel" },
+    { "text": "Nierenschädigende Mittel", "ref": ["gruppe:nephrotoxisch"], "effekt": "Emtricitabin wird über die Nieren ausgeschieden; Spiegel können steigen – Nierenfunktion kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Übelkeit"],
+    "haeufig": ["Kopfschmerzen, Schwindel", "Abnorme Träume", "Durchfall, Erbrechen", "Bauchschmerzen, Blähungen", "Hautausschlag", "Müdigkeit"],
+    "gelegentlich": ["Anämie", "Dyspepsie (Verdauungsbeschwerden)", "Angioödem (Schwellung von Haut und Schleimhäuten)", "Juckreiz, Nesselsucht", "Gelenkschmerzen"]
+  },
+  "schwangerschaft": "In der Schwangerschaft nach Abwägung durch die HIV-Fachperson anwendbar; die bisherigen Daten zeigen kein erhöhtes Fehlbildungsrisiko.",
+  "stillzeit": "HIV-positive Mütter sollen grundsätzlich nicht stillen (Übertragungsrisiko); ein Stillwunsch ist mit der HIV-Fachperson zu besprechen.",
+  "hinweise": [
+    "Einmal täglich mit oder ohne Mahlzeit einnehmen; keine Dosis auslassen.",
+    "Bei Hepatitis B nicht eigenmächtig absetzen.",
+    "Nierenfunktion regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

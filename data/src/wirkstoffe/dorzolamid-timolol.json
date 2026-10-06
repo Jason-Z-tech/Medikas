@@ -1,0 +1,254 @@
+{
+  "id": "dorzolamid-timolol",
+  "name": "Dorzolamid + Timolol",
+  "synonyme": [
+    "Dorzolamid/Timolol"
+  ],
+  "kombinationAus": [
+    "dorzolamid",
+    "timolol"
+  ],
+  "atc": [
+    "S01ED51"
+  ],
+  "klasse": "Glaukommittel: Fixkombination aus Carboanhydrasehemmer und Betablocker",
+  "kurz": "Augentropfen gegen Glaukom und erhöhten Augeninnendruck, wenn Betablocker-Augentropfen allein nicht genügen.",
+  "gruppen": [
+    "betablocker",
+    "bradykardisierend",
+    "blutdrucksenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Cosopt"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Augentropfen"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhöhter Augeninnendruck bei Offenwinkelglaukom oder Pseudoexfoliationsglaukom, wenn Betablocker-Augentropfen allein nicht ausreichen",
+      "ids": [
+        "glaukom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Augeninnendruck, indem die Bildung von Kammerwasser auf zwei Wegen gedrosselt wird. Dorzolamid hemmt die Carboanhydrase II im Ziliarkörper und vermindert so die Bicarbonat- und Flüssigkeitsbildung. Timolol, ein nicht selektiver Betablocker, verringert die Kammerwasserproduktion zusätzlich. Ein Teil beider Wirkstoffe gelangt in den Kreislauf; vor allem Timolol kann Puls, Blutdruck und Bronchien beeinflussen.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma bronchiale (auch in der Vorgeschichte), schwere COPD oder andere Atemwegserkrankungen mit Neigung zu Bronchospasmus",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (Sinusbradykardie), Sinusknotensyndrom, SA-Block oder AV-Block 2. oder 3. Grades ohne Herzschrittmacher",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Nicht kompensierte (manifeste) Herzinsuffizienz, kardiogener Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min), hyperchlorämische Azidose",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten (koronare Herzkrankheit, Prinzmetal-Angina, kompensierte Herzinsuffizienz, AV-Block 1. Grades) und tiefer Blutdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinsuffizienz",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere Durchblutungsstörungen der Arme und Beine (Raynaud-Syndrom, pAVK)",
+      "ids": [
+        "raynaud",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Diabetes mit Neigung zu Unterzuckerung sowie Schilddrüsenüberfunktion: Warnzeichen können verdeckt werden",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Muskelschwäche kann zunehmen)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere allergische Reaktionen in der Vorgeschichte: Reaktionen können stärker ausfallen und schlechter auf Adrenalin ansprechen",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Sulfonamid-Allergie: ähnliche Überempfindlichkeitsreaktionen möglich",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (nicht untersucht)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorgeschädigte Hornhaut (niedrige Endothelzellzahl) oder Nierensteine in der Vorgeschichte",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Geplante Operation mit Narkose: Anästhesieteam über die Augentropfen informieren",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Kontaktlinsen vor dem Eintropfen herausnehmen (Konservierungsmittel)",
+      "ids": [
+        "kontaktlinsen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Additive Verlangsamung von Herzschlag und Reizleitung, Blutdruckabfall und Herzschwäche möglich – Puls und Blutdruck überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Carboanhydrasehemmer zum Einnehmen (Acetazolamid)",
+      "ref": [
+        "acetazolamid"
+      ],
+      "effekt": "Additive Wirkungen auf den Säure-Basen-Haushalt – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker zum Einnehmen oder andere Betablocker-Augentropfen",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz, Blutdruck und Augeninnendruck – zwei Betablocker-Augentropfen nicht kombinieren, bei Tabletten den Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron) und Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung und Reizleitungsstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Chinidin, Fluoxetin, Paroxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Höhere Timolol-Spiegel im Blut; verstärkte Betablockade mit langsamem Puls ist beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin",
+      "ref": [
+        "clonidin"
+      ],
+      "effekt": "Beim Absetzen von Clonidin kann der Blutdruck unter Betablockern stark ansteigen (Rebound).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin",
+      "ref": [
+        "adrenalin"
+      ],
+      "effekt": "Pupillenerweiterung möglich; bei schwerer allergischer Reaktion wirkt Adrenalin unter Betablockern schwächer.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Insulin und orale Antidiabetika",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verdeckt werden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Brennen und Stechen am Auge",
+      "Geschmacksstörung (bitterer Geschmack)"
+    ],
+    "haeufig": [
+      "Augenrötung, Augenjucken, Tränenfluss",
+      "Verschwommenes Sehen",
+      "Hornhauterosion, oberflächliche Hornhautentzündung",
+      "Bindehaut- und Lidentzündung, Lidreizung",
+      "Kopfschmerzen, Übelkeit, Müdigkeit",
+      "Nasennebenhöhlenentzündung (Sinusitis)"
+    ],
+    "gelegentlich": [
+      "Entzündung von Regenbogenhaut und Ziliarkörper (Iridozyklitis)",
+      "Schwindel"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen (Angioödem, Nesselsucht, Bronchospasmus)",
+      "Aderhautabhebung nach Glaukomoperation, Doppelbilder, hängendes Augenlid",
+      "Kribbeln (Parästhesien), Schlaflosigkeit, Albträume",
+      "Nierensteine",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (sehr schwere Hautreaktionen)"
+    ],
+    "unbekannt": [
+      "Langsamer Puls (Bradykardie), AV-Block, Herzinsuffizienz, Blutdruckabfall",
+      "Verdeckte Unterzuckerung"
+    ]
+  },
+  "schwangerschaft": "In der Schwangerschaft nicht anwenden (Dorzolamid im Tierversuch fruchtschädigend; Timolol kann beim Neugeborenen Puls und Blutzucker senken).",
+  "stillzeit": "Nicht anwenden; ist die Behandlung nötig, wird abgestillt.",
+  "hinweise": [
+    "Nach dem Eintropfen das Auge 1–2 Minuten schliessen und den inneren Augenwinkel sanft zudrücken – so gelangt weniger Wirkstoff ins Blut.",
+    "Bei Asthma, Herzkrankheiten oder vor einer Operation die Anwendung der Augentropfen ärztlich angeben.",
+    "Bei mehreren Augenmitteln mindestens 10 Minuten Abstand einhalten."
+  ],
+  "stand": "2026-10"
+}

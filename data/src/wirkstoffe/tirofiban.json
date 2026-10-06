@@ -1,0 +1,200 @@
+{
+  "id": "tirofiban",
+  "name": "Tirofiban",
+  "synonyme": [
+    "Tirofibanhydrochlorid",
+    "Tirofiban hydrochloride"
+  ],
+  "atc": [
+    "B01AC17"
+  ],
+  "klasse": "Thrombozytenaggregationshemmer (Glykoprotein-IIb/IIIa-Rezeptorantagonist)",
+  "kurz": "Infusion im Spital, die bei akutem Koronarsyndrom ohne ST-Hebung die Blutplättchen stark hemmt, um einem Herzinfarkt vorzubeugen.",
+  "gruppen": [
+    "thrombozytenaggregationshemmer",
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Aggrastat"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung",
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung eines Herzinfarkts bei Erwachsenen mit akutem Koronarsyndrom ohne ST-Hebung (instabile Angina pectoris, Herzinfarkt ohne ST-Hebung) mit Brustschmerzen in den letzten 12 Stunden und EKG-Veränderungen oder erhöhten Herzenzymen, zusammen mit ASS und Heparin",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt",
+        "koronare-herzkrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Blutplättchen miteinander verkleben und ein Gerinnsel bilden. Tirofiban ist ein nicht-peptidischer, reversibler Hemmstoff des Glykoprotein-IIb/IIIa-Rezeptors, über den Fibrinogen die Blutplättchen vernetzt. Dadurch wird der gemeinsame Endweg der Plättchenaggregation blockiert. Nach Ende der Infusion erholt sich die Plättchenfunktion innerhalb weniger Stunden; ausgeschieden wird es vor allem über die Niere.",
+  "kontraindikationen": [
+    {
+      "text": "Schlaganfall in den letzten 30 Tagen oder jemals ein hämorrhagischer Schlaganfall (Hirnblutung)",
+      "ids": [
+        "schlaganfall",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Bekannte Erkrankung im Schädelinneren (z. B. Tumor, Gefässmissbildung, Aneurysma)",
+      "ids": [
+        "hirntumor",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Aktive oder kürzliche (innerhalb von 30 Tagen) bedeutsame Blutung, z. B. im Magen-Darm-Trakt",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Maligne (bösartig entgleiste) Hypertonie",
+      "ids": [
+        "hypertonie",
+        "hypertensive-krise"
+      ]
+    },
+    {
+      "text": "Schwere Verletzung oder grössere Operation in den letzten 6 Wochen",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie (unter 100'000 Blutplättchen pro µl) oder Störungen der Plättchenfunktion",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Gerinnungsstörungen",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Schweres Leberversagen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhtes Blutungsrisiko, z. B. nach kürzlicher Blutung, Punktion oder Operation – Punktionsstellen überwachen",
+      "ids": [
+        "aktive-blutung",
+        "operation"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min): Dosis halbieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen, Frauen und Patienten mit geringem Körpergewicht: höheres Blutungsrisiko",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Abfall der Blutplättchen – Thrombozyten kurz nach Beginn und danach täglich kontrollieren",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Schwere, unkontrollierte Hypertonie",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Thrombolyse: nicht empfohlen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere GP-IIb/IIIa-Hemmer (z. B. Eptifibatid)",
+      "ref": [
+        "eptifibatid"
+      ],
+      "effekt": "Doppelte Blockade desselben Plättchenrezeptors – stark erhöhtes Blutungsrisiko; nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gerinnselauflösende Mittel (Thrombolytika, z. B. Alteplase, Tenecteplase)",
+      "ref": [
+        "alteplase",
+        "tenecteplase"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien (z. B. Heparin, Enoxaparin, Phenprocoumon, DOAK)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; Heparin wird gezielt mitgegeben – Gerinnung (aPTT) engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Plättchenhemmer (z. B. ASS, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:p2y12-hemmer",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; ASS wird gezielt mitgegeben – auf Blutungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – möglichst vermeiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Blutungen, v. a. an der Punktionsstelle und nach Eingriffen"
+    ],
+    "haeufig": [
+      "Übelkeit",
+      "Kopfschmerzen",
+      "Fieber",
+      "Blutergüsse (Hämatome)",
+      "Blutungen aus Zahnfleisch, Magen-Darm-Trakt oder Harnwegen"
+    ],
+    "unbekannt": [
+      "Hirnblutung, Blutung im Wirbelkanal",
+      "Blutung in den Bauchraum (retroperitoneal) oder in die Lunge",
+      "Blutung in den Herzbeutel (Hämoperikard)",
+      "Akuter schwerer Abfall der Blutplättchen",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur anwenden, wenn klar notwendig.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird nur im Spital als Infusion gegeben, in der Regel zusammen mit ASS und Heparin.",
+    "Thrombozyten, Hämoglobin und Gerinnungswerte werden vor und während der Behandlung kontrolliert.",
+    "Blutungen, schwarzen Stuhl, Blut im Urin oder plötzliche starke Kopfschmerzen sofort melden."
+  ],
+  "stand": "2026-10"
+}

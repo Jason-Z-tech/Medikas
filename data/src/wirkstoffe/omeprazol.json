@@ -1,0 +1,294 @@
+{
+  "id": "omeprazol",
+  "name": "Omeprazol",
+  "synonyme": [
+    "Omeprazole",
+    "Omeprazol-Magnesium",
+    "PPI"
+  ],
+  "atc": [
+    "A02BC01"
+  ],
+  "klasse": "Protonenpumpenhemmer (PPI)",
+  "kurz": "Magensäurehemmer bei Sodbrennen, Refluxkrankheit und Magengeschwüren sowie zur Behandlung von Helicobacter pylori.",
+  "gruppen": [
+    "protonenpumpenhemmer",
+    "magensaeure-reduzierend",
+    "cyp2c19-hemmer"
+  ],
+  "handelsnamen": [
+    "Antramups",
+    "Omeprazol Sandoz",
+    "Omeprazol Mepha"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Magensaftresistente Tabletten (MUPS, in Wasser zerfallend)",
+    "Magensaftresistente Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Refluxkrankheit mit Speiseröhrenentzündung (Refluxösophagitis): Behandlung und Rückfallvorbeugung",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Sodbrennen und saures Aufstossen bei Refluxkrankheit",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Magen- und Zwölffingerdarmgeschwüre, auch durch NSAR verursacht; Vorbeugung NSAR-bedingter Geschwüre bei Risikopatienten",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Beseitigung von Helicobacter pylori in Kombination mit Antibiotika",
+      "ids": [
+        "helicobacter"
+      ]
+    },
+    {
+      "text": "Zollinger-Ellison-Syndrom (krankhaft gesteigerte Säureproduktion)",
+      "ids": []
+    },
+    {
+      "text": "Kinder ab 1 Jahr: Refluxkrankheit; ab 4 Jahren: Zwölffingerdarmgeschwür durch Helicobacter pylori",
+      "ids": [
+        "sodbrennen",
+        "helicobacter"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt die Bildung von Magensäure stark und anhaltend. Omeprazol ist eine Vorstufe (Prodrug), die sich in den sauren Belegzellen der Magenschleimhaut anreichert und dort in die aktive Form (ein Sulfenamid) umgewandelt wird. Diese blockiert irreversibel die Protonenpumpe (H+/K+-ATPase), den letzten Schritt der Säurebildung – unabhängig vom auslösenden Reiz. Die Wirkung hält länger an, als der Wirkstoff im Blut nachweisbar ist, weil erst neue Pumpen gebildet werden müssen. Omeprazol wird über CYP2C19 und CYP3A4 abgebaut und hemmt selbst CYP2C19.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Protonenpumpenhemmer (substituierte Benzimidazole)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alarmzeichen (ungewollter Gewichtsverlust, wiederholtes Erbrechen, Schluckbeschwerden, Bluterbrechen, schwarzer Stuhl): vor der Behandlung eine bösartige Erkrankung ausschliessen",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Osteoporose oder Sturzrisiko: Langzeitbehandlung in hoher Dosis erhöht das Risiko für Hüft-, Handgelenk- und Wirbelbrüche",
+      "ids": [
+        "osteoporose",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Magnesiummangel bei Behandlung über mehr als 3 Monate, besonders zusammen mit Digoxin oder Diuretika – Magnesium kontrollieren",
+      "ids": [
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Vitamin-B12-Mangel bei Langzeitbehandlung möglich",
+      "ids": [
+        "vitamin-b12-mangel"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung: Dosis begrenzen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leicht erhöhtes Risiko für Darminfektionen (Salmonellen, Campylobacter, Clostridioides difficile)",
+      "ids": [
+        "clostridioides",
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Subakuter kutaner Lupus erythematodes (Hautausschlag an sonnenexponierten Stellen): absetzen und ärztlich abklären",
+      "ids": [
+        "lupus"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nelfinavir (HIV-Mittel)",
+      "ref": [],
+      "grund": "Omeprazol senkt die Nelfinavir-Spiegel stark – Wirkungsverlust und Gefahr von Resistenzen."
+    },
+    {
+      "text": "Rilpivirin zum Einnehmen (HIV-Mittel, auch in Kombinationspräparaten)",
+      "ref": [
+        "rilpivirin",
+        "dolutegravir-rilpivirin",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil"
+      ],
+      "grund": "Rilpivirin braucht Magensäure für die Aufnahme – stark verminderte Spiegel mit Wirkungsverlust und Resistenzgefahr (laut Fachinformation von Rilpivirin kontraindiziert)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Clopidogrel",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Omeprazol hemmt CYP2C19 und vermindert so die Bildung des aktiven Clopidogrel-Metaboliten – schwächere Plättchenhemmung. Kombination vermeiden; ärztlich einen anderen Säurehemmer wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Atazanavir (HIV-Mittel)",
+      "ref": [
+        "atazanavir"
+      ],
+      "effekt": "Atazanavir-Spiegel sinken stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Arzneimittel, die Magensäure für die Aufnahme brauchen: Erlotinib, Gefitinib, Dasatinib, Nilotinib, Itraconazol, Posaconazol (Suspension)",
+      "ref": [
+        "erlotinib",
+        "gefitinib",
+        "dasatinib",
+        "nilotinib",
+        "itraconazol",
+        "posaconazol"
+      ],
+      "effekt": "Aufnahme deutlich vermindert, Wirkungsverlust möglich – Kombination möglichst vermeiden oder Einnahme gemäss Fachinformation anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat (hoch dosiert)",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöhte Methotrexat-Spiegel – bei Hochdosistherapie Omeprazol vorübergehend absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tacrolimus",
+      "ref": [
+        "tacrolimus"
+      ],
+      "effekt": "Tacrolimus-Spiegel können steigen – Spiegel und Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mycophenolat-Mofetil",
+      "ref": [
+        "mycophenolat-mofetil"
+      ],
+      "effekt": "Verminderte Spiegel des Wirkmetaboliten Mycophenolsäure – bei Transplantierten Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Citalopram, Escitalopram und Diazepam",
+      "ref": [
+        "citalopram",
+        "escitalopram",
+        "diazepam"
+      ],
+      "effekt": "Abbau über CYP2C19 gehemmt – höhere Spiegel; bei Citalopram und Escitalopram auf QT-Verlängerung achten, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoinspiegel können steigen – zu Beginn und am Ende der Omeprazol-Behandlung Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Einzelfälle mit erhöhtem INR – INR zu Beginn und am Ende der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin und Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau von Omeprazol – Wirkungsverlust; Kombination vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Aufnahme von Digoxin leicht erhöht – besonders bei älteren Menschen Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Eisenpräparate zum Einnehmen",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Eisen wird bei wenig Magensäure schlechter aufgenommen – bei Langzeitbehandlung Eisenwerte beachten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bauchschmerzen, Blähungen",
+      "Durchfall oder Verstopfung",
+      "Übelkeit, Erbrechen",
+      "Gutartige Drüsenpolypen im Magen (Fundusdrüsenpolypen)"
+    ],
+    "gelegentlich": [
+      "Schlafstörungen",
+      "Schwindel, Kribbeln (Parästhesien), Schläfrigkeit",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Knochenbrüche (Hüfte, Handgelenk, Wirbelsäule)",
+      "Unwohlsein, Wassereinlagerungen in den Beinen"
+    ],
+    "selten": [
+      "Leukopenie und Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)",
+      "Überempfindlichkeitsreaktionen wie Fieber, Angioödem oder Anaphylaxie",
+      "Hyponatriämie (Natriummangel)",
+      "Verwirrtheit, Unruhe, Depression",
+      "Geschmacksstörungen, verschwommenes Sehen",
+      "Mikroskopische Kolitis, Hepatitis",
+      "Interstitielle Nephritis (Nierenentzündung)",
+      "Lichtempfindlichkeit, Haarausfall, Gelenk- und Muskelschmerzen"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, Panzytopenie (schwerer Mangel an Blutzellen)",
+      "Leberversagen, hepatische Enzephalopathie",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme",
+      "Halluzinationen, Aggressivität",
+      "Muskelschwäche, Gynäkomastie (Brustvergrösserung beim Mann)"
+    ],
+    "unbekannt": [
+      "Hypomagnesiämie (Magnesiummangel), dadurch auch Calcium- und Kaliummangel",
+      "Subakuter kutaner Lupus erythematodes"
+    ]
+  },
+  "schwangerschaft": "Kann in der Schwangerschaft angewendet werden; umfangreiche Erfahrungen zeigen kein erhöhtes Fehlbildungsrisiko.",
+  "stillzeit": "Geht in geringer Menge in die Muttermilch über; in üblicher Dosis ist eine Schädigung des Säuglings unwahrscheinlich – Anwendung nach ärztlicher Rücksprache möglich.",
+  "hinweise": [
+    "Morgens vor dem Frühstück einnehmen; Kapseln und Tabletten ganz schlucken, nicht zerkauen. MUPS-Tabletten dürfen in Wasser zerfallen gelassen werden.",
+    "Selbstbehandlung von Sodbrennen ohne ärztlichen Rat höchstens 14 Tage.",
+    "Nach längerer Einnahme nicht abrupt absetzen: vorübergehend vermehrte Säurebildung (Rebound) möglich – Absetzen ärztlich begleiten.",
+    "Bei Langzeitbehandlung regelmässig die Notwendigkeit sowie Magnesium und Vitamin B12 überprüfen lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,212 @@
+{
+  "id": "oxcarbazepin",
+  "name": "Oxcarbazepin",
+  "synonyme": [
+    "Oxcarbazepine",
+    "Oxcarbazepinum",
+    "OXC"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N03AF02"
+  ],
+  "klasse": "Antiepileptikum (Natriumkanalblocker, Dibenzazepin-Derivat)",
+  "kurz": "Mittel gegen Epilepsie mit fokalen Anfällen; mit Carbamazepin verwandt, aber mit weniger Wechselwirkungen.",
+  "gruppen": [
+    "antiepileptika",
+    "hyponatriaemie-ausloesend",
+    "enzyminduktoren-hormone",
+    "cyp3a4-induktoren",
+    "cyp2c19-hemmer",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Trileptal",
+    "Apydan extent"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten",
+    "Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Fokale Anfälle mit oder ohne sekundäre Generalisierung, als Mono- oder Zusatztherapie bei Erwachsenen und Kindern ab 6 Jahren",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beruhigt überaktive Nervenzellen und verhindert so die Ausbreitung von Krampfanfällen. Oxcarbazepin ist ein Prodrug: Es wird rasch zum wirksamen Monohydroxy-Derivat (MHD, Licarbazepin) umgewandelt, das spannungsabhängige Natriumkanäle blockiert und so hochfrequente Entladungen von Nervenzellen hemmt. Anders als Carbamazepin wird es kaum über CYP-Enzyme abgebaut; es induziert CYP3A4 nur mässig und hemmt CYP2C19.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Überempfindlichkeit gegen Carbamazepin (Kreuzallergie bei etwa 25–30 %)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, TEN): Risiko bei Trägern von HLA-B*1502 erhöht",
+      "ids": [
+        "schwere-hautreaktion",
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Hyponatriämie (Natriummangel): Natrium vor und während der Behandlung kontrollieren, besonders bei Nierenerkrankung oder mit Diuretika",
+      "ids": [
+        "hyponatriaemie",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz (Flüssigkeitsretention) und Reizleitungsstörungen (AV-Block)",
+      "ids": [
+        "herzinsuffizienz",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Suizidgedanken und Depression",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Wirkungsverlust hormonaler Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    },
+    {
+      "text": "Beeinträchtigung der Fahrtüchtigkeit (Schwindel, Schläfrigkeit, Sehstörungen)",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz unsicher – zusätzlich nicht-hormonale Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduzierende Antiepileptika (Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Spiegel des wirksamen Metaboliten sinkt; Phenytoin-Spiegel kann bei hohen Oxcarbazepin-Dosen steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lamotrigin",
+      "ref": [
+        "lamotrigin"
+      ],
+      "effekt": "Lamotrigin-Spiegel kann sinken; mehr Nebenwirkungen wie Schwindel und Doppelbilder.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-abhängige Mittel (z. B. Dihydropyridin-Calciumantagonisten wie Felodipin, Ciclosporin)",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Spiegel und Wirkung können sinken – Wirkung bzw. Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika und andere natriumsenkende Mittel (z. B. SSRI, Desmopressin)",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:hyponatriaemie-ausloesend",
+        "desmopressin"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyponatriämie – Natrium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Verstärkte Nervengiftigkeit möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Schwindel – Alkohol meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Kopfschmerzen, Schwindel",
+      "Doppelbilder",
+      "Übelkeit, Erbrechen",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Hyponatriämie (Natriummangel)",
+      "Unruhe, Stimmungsschwankungen, Verwirrtheit, Depression, Apathie",
+      "Gang- und Koordinationsstörungen (Ataxie), Zittern, Augenzittern, Konzentrations- und Gedächtnisstörungen",
+      "Verschwommenes Sehen, Drehschwindel",
+      "Durchfall, Verstopfung, Bauchschmerzen",
+      "Hautausschlag, Haarausfall, Akne",
+      "Schwächegefühl"
+    ],
+    "gelegentlich": [
+      "Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Nesselsucht",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [],
+    "sehrSelten": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Multiorgan-Überempfindlichkeitsreaktion (DRESS), Angioödem, Anaphylaxie",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Herzrhythmusstörungen (AV-Block)",
+      "Hepatitis",
+      "Pankreatitis (Entzündung der Bauchspeicheldrüse)",
+      "Lupus-erythematodes-ähnliches Syndrom"
+    ],
+    "unbekannt": [
+      "Agranulozytose, aplastische Anämie, Panzytopenie",
+      "Schilddrüsenunterfunktion",
+      "Inadäquate ADH-Sekretion (SIADH)",
+      "Verminderte Knochendichte, Stürze",
+      "Sprachstörungen"
+    ]
+  },
+  "schwangerschaft": "Nur nach sorgfältiger ärztlicher Abwägung; nicht eigenmächtig absetzen. Möglichst Monotherapie in niedrigster wirksamer Dosis, Folsäure-Einnahme vor und während der Schwangerschaft; Spiegel können in der Schwangerschaft sinken.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen nur nach ärztlicher Abwägung und unter Beobachtung des Kindes auf Schläfrigkeit.",
+  "hinweise": [
+    "Natrium im Blut vor Behandlungsbeginn und regelmässig kontrollieren, besonders bei älteren Menschen; Warnzeichen sind Müdigkeit, Verwirrtheit, Übelkeit und vermehrte Anfälle.",
+    "Bei Hautausschlag, Fieber oder Schleimhautblasen sofort ärztlich melden.",
+    "Nicht abrupt absetzen – Gefahr von Krampfanfällen.",
+    "Alkohol meiden; Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

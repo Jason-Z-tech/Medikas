@@ -1,0 +1,78 @@
+{
+  "id": "clarithromycin",
+  "name": "Clarithromycin",
+  "synonyme": ["Clarithromycinum"],
+  "kombinationAus": [],
+  "atc": ["J01FA09"],
+  "klasse": "Makrolid-Antibiotikum; starker CYP3A4-Hemmer",
+  "kurz": "Makrolid-Antibiotikum gegen Atemwegs- und Hautinfekte und zur Helicobacter-Therapie; hat viele wichtige Wechselwirkungen.",
+  "gruppen": ["makrolide", "starke-cyp3a4-hemmer", "p-gp-hemmer", "qt-verlaengernd"],
+  "handelsnamen": ["Klacid", "Klaciped", "Clarithromycin Mepha", "Clarithromycin Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Retardtabletten", "Granulat für Suspension zum Einnehmen", "Pulver zur Herstellung einer Infusionslösung"],
+  "indikationen": [
+    { "text": "Infektionen der oberen Atemwege, z. B. Mandel-, Rachen- und Nebenhöhlenentzündung", "ids": ["atemwegsinfekt", "sinusitis"] },
+    { "text": "Infektionen der unteren Atemwege, z. B. akute Verschlimmerung einer chronischen Bronchitis und ambulant erworbene Lungenentzündung (auch durch atypische Erreger)", "ids": ["bronchitis", "copd", "lungenentzuendung"] },
+    { "text": "Akute Mittelohrentzündung bei Kindern", "ids": ["ohrenentzuendung"] },
+    { "text": "Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
+    { "text": "Beseitigung von Helicobacter pylori bei Magen- oder Zwölffingerdarmgeschwüren, kombiniert mit einem Säureblocker und einem zweiten Antibiotikum", "ids": ["helicobacter", "magen-darm-ulkus"] },
+    { "text": "Behandlung und Vorbeugung von Infektionen durch atypische Mykobakterien (Mycobacterium-avium-Komplex), z. B. bei HIV", "ids": ["hiv", "bakterielle-infektion"] }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Bakterien, indem es ihre Eiweissherstellung stoppt. Clarithromycin bindet an die 50S-Untereinheit der bakteriellen Ribosomen und blockiert die Verlängerung der Eiweisskette; sein Hauptmetabolit 14-Hydroxy-Clarithromycin ist ebenfalls wirksam. Es wirkt gegen Streptokokken, Haemophilus, atypische Erreger (Mykoplasmen, Chlamydien, Legionellen), Helicobacter pylori und Mykobakterien. Clarithromycin hemmt das Abbauenzym CYP3A4 und den Transporter P-Glykoprotein stark und erhöht dadurch die Spiegel vieler anderer Medikamente.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Makrolid-Antibiotika", "ids": [] },
+    { "text": "Angeborene oder erworbene QT-Verlängerung, ventrikuläre Herzrhythmusstörungen oder Torsade de pointes in der Vorgeschichte", "ids": ["qt-verlaengerung", "herzrhythmusstoerung"] },
+    { "text": "Hypokaliämie oder Magnesiummangel (Gefahr der QT-Verlängerung)", "ids": ["hypokaliaemie", "magnesiummangel"] },
+    { "text": "Schwere Leberinsuffizienz zusammen mit eingeschränkter Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Herzkrankheiten (koronare Herzkrankheit, Herzschwäche, langsamer Puls) und ältere Menschen: erhöhtes Risiko für Herzrhythmusstörungen", "ids": ["koronare-herzkrankheit", "herzinsuffizienz", "bradykardie", "aeltere-patienten"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung bei Kreatinin-Clearance unter 30 ml/min", "ids": ["niereninsuffizienz"] },
+    { "text": "Lebererkrankungen: Leberentzündung bis Leberversagen möglich", "ids": ["leberinsuffizienz"] },
+    { "text": "Myasthenia gravis (Verschlechterung möglich)", "ids": ["myasthenia-gravis"] },
+    { "text": "Diabetes unter Sulfonylharnstoffen oder Insulin (Unterzuckerung möglich)", "ids": ["diabetes", "hypoglykaemie"] },
+    { "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)", "ids": ["clostridioides"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Pimozid, Cisaprid, Astemizol, Terfenadin und Domperidon", "ref": ["domperidon"], "grund": "Gehemmter Abbau über CYP3A4 und zusätzliche QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)." },
+    { "text": "Ergotamin und Dihydroergotamin", "ref": ["gruppe:ergotalkaloide"], "grund": "Stark erhöhte Spiegel der Mutterkornalkaloide – Gefahr eines Ergotismus mit Gefässkrämpfen und Gewebeuntergang." },
+    { "text": "Simvastatin und Lovastatin", "ref": ["simvastatin"], "grund": "Stark erhöhte Statin-Spiegel – Gefahr von Muskelschäden bis zur Rhabdomyolyse." },
+    { "text": "Midazolam zum Einnehmen", "ref": ["midazolam"], "grund": "Vielfach erhöhter Midazolam-Spiegel – stark verlängerte Sedierung und Atemdämpfung." },
+    { "text": "Ticagrelor, Ivabradin und Ranolazin", "ref": ["ticagrelor", "ivabradin", "ranolazin"], "grund": "Stark erhöhte Spiegel – Blutungen (Ticagrelor), gefährlich langsamer Puls (Ivabradin) bzw. QT-Verlängerung (Ranolazin)." },
+    { "text": "Colchicin", "ref": ["colchicin"], "grund": "Gehemmter Abbau und Transport von Colchicin – lebensbedrohliche Colchicin-Vergiftung möglich." },
+    { "text": "Lomitapid", "ref": [], "grund": "Stark erhöhte Lomitapid-Spiegel – Gefahr schwerer Leberschäden." }
+  ],
+  "interaktionen": [
+    { "text": "Andere QT-verlängernde Arzneimittel (z. B. Amiodaron, Sotalol, Antipsychotika, Citalopram, Methadon, Fluorchinolone)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Zusätzliche QT-Verlängerung, Gefahr von Torsade de pointes – möglichst vermeiden, sonst EKG-Kontrolle.", "schwere": "schwer" },
+    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["ciclosporin", "tacrolimus", "gruppe:mtor-hemmer"], "effekt": "Stark erhöhte Spiegel mit Nieren- und Nervenschäden – Spiegel engmaschig kontrollieren, Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Andere empfindlich über CYP3A4 abgebaute Mittel (z. B. Quetiapin, Lurasidon, Fentanyl, Oxycodon, Ibrutinib, Venetoclax)", "ref": ["gruppe:cyp3a4-substrate-empfindlich"], "effekt": "Spiegel steigen stark (z. B. Atemdämpfung bei Opioiden, Blutungen bei Ibrutinib) – Kombination meiden oder Dosis gemäss Fachinformation reduzieren.", "schwere": "schwer" },
+    { "text": "Carbamazepin", "ref": ["carbamazepin"], "effekt": "Der Carbamazepin-Spiegel steigt, gleichzeitig sinkt der Clarithromycin-Spiegel – Spiegel kontrollieren.", "schwere": "schwer" },
+    { "text": "Atorvastatin (und andere über CYP3A4 abgebaute Statine)", "ref": ["atorvastatin"], "effekt": "Erhöhtes Risiko für Muskelschäden – niedrigste Statin-Dosis oder Statin während der Therapie pausieren; Pravastatin oder Rosuvastatin bevorzugen.", "schwere": "schwer" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Der Digoxin-Spiegel steigt (P-Glykoprotein-Hemmung) – Spiegel kontrollieren, Vergiftungszeichen beachten.", "schwere": "schwer" },
+    { "text": "Direkte orale Antikoagulanzien (z. B. Dabigatran, Edoxaban, Rivaroxaban, Apixaban)", "ref": ["gruppe:doak"], "effekt": "Erhöhte Spiegel und Blutungsrisiko – Vorsicht, besonders bei schwacher Nierenfunktion.", "schwere": "mittel" },
+    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung, Blutungen möglich – INR häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Triazolam, Alprazolam und Midazolam als Injektion", "ref": ["triazolam", "alprazolam"], "effekt": "Verstärkte und verlängerte Sedierung – Dosis reduzieren, überwachen.", "schwere": "mittel" },
+    { "text": "Calciumantagonisten (z. B. Verapamil, Amlodipin, Diltiazem)", "ref": ["gruppe:dhp-calciumantagonisten", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Blutdruckabfall, langsamer Puls und Rhythmusstörungen möglich – Blutdruck und Puls überwachen.", "schwere": "mittel" },
+    { "text": "Sulfonylharnstoffe, Repaglinid und Insulin", "ref": ["gruppe:sulfonylharnstoffe", "gruppe:insuline"], "effekt": "Unterzuckerung möglich – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "PDE-5-Hemmer (z. B. Sildenafil, Tadalafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Erhöhte Spiegel, stärkerer Blutdruckabfall – Dosis reduzieren.", "schwere": "mittel" },
+    { "text": "Enzyminduktoren (z. B. Rifampicin, Rifabutin, Efavirenz, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Clarithromycin wird schneller abgebaut – Wirkverlust; Rifabutin-Spiegel steigt (Augenentzündung, Neutropenie).", "schwere": "mittel" },
+    { "text": "HIV-Proteasehemmer mit Ritonavir oder Cobicistat", "ref": ["ritonavir", "cobicistat"], "effekt": "Der Clarithromycin-Spiegel steigt – bei eingeschränkter Nierenfunktion Dosis reduzieren.", "schwere": "mittel" },
+    { "text": "Zidovudin", "ref": ["zidovudin"], "effekt": "Verminderte Aufnahme von Zidovudin – Einnahme mindestens 4 Stunden auseinander.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": ["Geschmacksstörungen, Kopfschmerzen", "Schlaflosigkeit", "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verdauungsbeschwerden", "Hautausschlag, vermehrtes Schwitzen", "Abweichende Leberwerte", "Venenentzündung an der Infusionsstelle"],
+    "gelegentlich": ["Pilzinfektionen (Candidose), Scheideninfektion", "Leukopenie, Neutropenie, Eosinophilie (Blutbildveränderungen)", "Schwindel, Drehschwindel, Schläfrigkeit, Zittern, Angst", "Hörstörungen, Tinnitus (Ohrensausen)", "QT-Verlängerung im EKG, Herzklopfen", "Gastritis, Verstopfung, Mundtrockenheit, Blähungen", "Cholestase und Hepatitis (Leberentzündung)", "Juckreiz, Nesselsucht, Muskelschmerzen"],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": ["Torsade de pointes, Kammertachykardie und Kammerflimmern", "Pseudomembranöse Kolitis (schwere Dickdarmentzündung)", "Agranulozytose (starker Mangel an weissen Blutkörperchen), Thrombozytopenie", "Anaphylaxie, Angioödem", "Leberversagen", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS, AGEP)", "Verwirrtheit, Halluzinationen, Psychosen, Krampfanfälle, Hörverlust", "Rhabdomyolyse (Muskelzerfall), Nierenversagen, interstitielle Nephritis"]
+  },
+  "schwangerschaft": "Die Sicherheit ist nicht belegt; Tierversuche zeigen schädliche Wirkungen. Nur nach sorgfältiger ärztlicher Nutzen-Risiko-Abwägung anwenden.",
+  "stillzeit": "Geht in die Muttermilch über; beim Säugling sind Durchfall und Pilzbefall möglich. Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Vor Beginn alle anderen Medikamente angeben: Clarithromycin hat sehr viele, teils lebensgefährliche Wechselwirkungen.",
+    "Retardtabletten mit einer Mahlzeit und unzerkaut schlucken.",
+    "Bei Herzklopfen, Ohnmacht, Gelbsucht, dunklem Urin oder starkem Durchfall sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

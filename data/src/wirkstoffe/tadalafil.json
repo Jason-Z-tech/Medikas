@@ -1,0 +1,64 @@
+{
+  "id": "tadalafil",
+  "name": "Tadalafil",
+  "synonyme": ["Tadalafilum"],
+  "atc": ["G04BE08"],
+  "klasse": "Phosphodiesterase-5-Hemmer (PDE-5-Hemmer), lang wirksam",
+  "kurz": "Lang wirksames Mittel gegen Erektionsstörungen und Beschwerden der vergrösserten Prostata; in höherer Dosis gegen Lungenhochdruck.",
+  "gruppen": ["pde5-hemmer", "blutdrucksenkend", "cyp3a4-substrate-empfindlich"],
+  "handelsnamen": ["Cialis", "Adcirca", "Tadalafil Mepha", "Tadalafil Sandoz"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Erektionsstörungen (erektile Dysfunktion) bei erwachsenen Männern – bei Bedarf oder täglich in niedriger Dosis; sexuelle Stimulation ist für die Wirkung nötig", "ids": ["erektile-dysfunktion"] },
+    { "text": "Beschwerden beim Wasserlassen durch gutartige Prostatavergrösserung (5 mg täglich)", "ids": ["prostatahyperplasie"] },
+    { "text": "Pulmonale arterielle Hypertonie (Lungenhochdruck, WHO-Funktionsklasse II–III) bei Erwachsenen (Adcirca)", "ids": ["pulmonale-hypertonie"] }
+  ],
+  "wirkmechanismus": "Verbessert bei sexueller Erregung den Bluteinstrom in den Penis, entspannt die Muskulatur von Prostata und Blasenhals und erweitert die Lungengefässe. Tadalafil hemmt selektiv die Phosphodiesterase 5, die den Botenstoff cGMP abbaut; dadurch verstärkt sich die gefässerweiternde Wirkung von Stickstoffmonoxid in Schwellkörpern, Prostata, Blase und Lungenarterien. Wegen der langen Halbwertszeit von etwa 17,5 Stunden hält die Wirkung bis zu 36 Stunden an.",
+  "kontraindikationen": [
+    { "text": "Gleichzeitige Behandlung mit Nitraten oder anderen Stickstoffmonoxid-Donatoren (auch «Poppers»/Amylnitrit)", "ids": [] },
+    { "text": "Herzinfarkt in den letzten 90 Tagen, instabile Angina pectoris oder Angina beim Geschlechtsverkehr", "ids": ["herzinfarkt", "angina-pectoris"] },
+    { "text": "Herzinsuffizienz NYHA II oder höher in den letzten 6 Monaten", "ids": ["herzinsuffizienz"] },
+    { "text": "Unkontrollierte Herzrhythmusstörungen, tiefer Blutdruck (unter 90/50 mmHg) oder unkontrollierter Bluthochdruck", "ids": ["herzrhythmusstoerung", "hypotonie", "hypertonie"] },
+    { "text": "Schlaganfall in den letzten 6 Monaten", "ids": ["schlaganfall"] },
+    { "text": "Sehverlust auf einem Auge durch NAION (Durchblutungsstörung des Sehnervs), auch früher", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Herz-Kreislauf-Erkrankungen: kardiovaskulären Zustand vor Behandlung prüfen; Aortenstenose oder hypertrophe obstruktive Kardiomyopathie besonders empfindlich auf Blutdruckabfall", "ids": ["koronare-herzkrankheit", "herzklappenerkrankung", "kardiomyopathie"] },
+    { "text": "Erhöhtes Risiko für Dauererektion (Priapismus): Penisverformung, Sichelzellanämie, multiples Myelom, Leukämie", "ids": ["sichelzellanaemie", "multiples-myelom", "leukaemie"] },
+    { "text": "Schwere Niereninsuffizienz: tägliche Einnahme nicht empfohlen, bei Bedarf höchstens 10 mg", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwere Leberinsuffizienz: nicht empfohlen (keine Daten)", "ids": ["leberinsuffizienz"] },
+    { "text": "Plötzliche Seh- oder Hörstörungen: sofort absetzen", "ids": ["hoerstoerung"] },
+    { "text": "Bei Prostatabeschwerden vorher Prostatakrebs ausschliessen", "ids": ["prostatakrebs"] },
+    { "text": "Blutungsstörungen oder aktive Magen-Darm-Geschwüre (keine Daten)", "ids": ["blutgerinnungsstoerung", "magen-darm-ulkus"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Nitrate und NO-Donatoren (z. B. Glyceroltrinitrat, Isosorbiddinitrat, Isosorbidmononitrat, Molsidomin, Amylnitrit)", "ref": ["gruppe:nitrate", "glyceroltrinitrat", "isosorbiddinitrat", "isosorbidmononitrat", "molsidomin"], "grund": "Beide erhöhen cGMP – lebensgefährlicher Blutdruckabfall; nach der letzten Tadalafil-Dosis mindestens 48 Stunden Abstand." },
+    { "text": "Riociguat", "ref": ["riociguat"], "grund": "Stimuliert ebenfalls den cGMP-Signalweg – starker Blutdruckabfall." }
+  ],
+  "interaktionen": [
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Cobicistat, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Tadalafil-Spiegel steigt bis auf das Vierfache – nur mit Vorsicht und reduzierter Dosis; bei Lungenhochdruck meiden bzw. spezielles Schema.", "schwere": "schwer" },
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Bosentan, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "bosentan"], "effekt": "Tadalafil-Spiegel sinkt stark (mit Rifampicin um fast 90 %) – Wirkung ungenügend; bei Lungenhochdruck nicht empfohlen.", "schwere": "mittel" },
+    { "text": "Alpha-1-Blocker (z. B. Doxazosin, Alfuzosin, Tamsulosin)", "ref": ["gruppe:alpha1-blocker"], "effekt": "Verstärkte Blutdrucksenkung mit Schwindel; Kombination mit Doxazosin nicht empfohlen, zur Prostatabehandlung nicht kombinieren.", "schwere": "mittel" },
+    { "text": "Andere PDE-5-Hemmer (z. B. Sildenafil, Vardenafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Nicht kombinieren – verstärkte Nebenwirkungen und Blutdruckabfall.", "schwere": "mittel" },
+    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Tadalafil-Spiegel – Vorsicht.", "schwere": "leicht" },
+    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Zusätzliche, meist geringe Blutdrucksenkung.", "schwere": "leicht" },
+    { "text": "Alkohol in grösseren Mengen", "ref": [], "effekt": "Verstärkter Blutdruckabfall mit Schwindel beim Aufstehen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Kopfschmerzen und Gesichtsrötung (bei Lungenhochdruck-Dosierung sehr häufig, sonst häufig)"],
+    "haeufig": ["Verdauungsbeschwerden (Dyspepsie), Reflux", "Rückenschmerzen, Muskelschmerzen, Gliederschmerzen", "Verstopfte Nase", "Schwindel", "Übelkeit (bei Lungenhochdruck-Dosierung)"],
+    "gelegentlich": ["Überempfindlichkeitsreaktionen, Hautausschlag", "Verschwommenes Sehen, Augenschmerzen", "Ohrensausen (Tinnitus)", "Herzrasen, Herzklopfen", "Blutdruckabfall oder Blutdruckanstieg", "Atemnot, Nasenbluten", "Bauchschmerzen, Erbrechen", "Blut im Urin, verlängerte Erektionen", "Brustschmerzen, Wassereinlagerungen, Müdigkeit"],
+    "selten": ["Angioödem, Gesichtsschwellung, Nesselsucht", "Schlaganfall, TIA, Ohnmacht, Krampfanfälle, vorübergehender Gedächtnisverlust", "Herzinfarkt, plötzlicher Herztod", "NAION (Durchblutungsstörung des Sehnervs), Netzhautgefässverschluss, Gesichtsfeldausfälle", "Plötzlicher Hörverlust", "Priapismus (schmerzhafte Dauererektion über 4 Stunden)"],
+    "unbekannt": ["Stevens-Johnson-Syndrom, exfoliative Dermatitis (schwere Hautreaktionen)", "Instabile Angina pectoris, ventrikuläre Herzrhythmusstörungen", "Chorioretinopathia centralis serosa (Flüssigkeit unter der Netzhaut)"]
+  },
+  "schwangerschaft": "Vorsichtshalber nicht anwenden (Lungenhochdruck: keine ausreichenden Daten). Für Frauen ist die Behandlung von Erektionsstörungen nicht vorgesehen.",
+  "stillzeit": "Nicht anwenden – Tadalafil geht im Tierversuch in die Milch über.",
+  "hinweise": [
+    "Wirkt bis zu 36 Stunden: in dieser Zeit und bis 48 Stunden nach der letzten Dosis keine Nitrate oder «Poppers» – lebensbedrohlicher Blutdruckabfall.",
+    "Eine Erektion, die länger als 4 Stunden anhält, ist ein Notfall – sofort ärztliche Hilfe holen.",
+    "Einnahme unabhängig von den Mahlzeiten; grössere Mengen Alkohol meiden.",
+    "Bei plötzlicher Sehverschlechterung oder plötzlichem Hörverlust sofort absetzen und ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,263 @@
+{
+  "id": "labetalol",
+  "name": "Labetalol",
+  "synonyme": [
+    "Labetalolhydrochlorid"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C07AG01"
+  ],
+  "klasse": "Alpha- und Betablocker",
+  "kurz": "Blutdrucksenker, der Alpha- und Betarezeptoren blockiert; v. a. bei Bluthochdruck in der Schwangerschaft und bei Blutdruckkrisen eingesetzt.",
+  "gruppen": [
+    "betablocker",
+    "alpha1-blocker",
+    "blutdrucksenkend",
+    "bradykardisierend",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Trandate"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Filmtabletten",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Bluthochdruck, auch während der Schwangerschaft",
+      "ids": [
+        "hypertonie",
+        "praeeklampsie"
+      ]
+    },
+    {
+      "text": "Schwere Blutdruckkrisen und Präeklampsie (intravenös im Spital)",
+      "ids": [
+        "hypertensive-krise",
+        "praeeklampsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Gefässe erweitert und das Herz vor Stresshormonen abschirmt. Labetalol blockiert nicht-selektiv Beta-Rezeptoren und zusätzlich Alpha-1-Rezeptoren der Gefässmuskulatur (Beta- zu Alpha-Wirkung etwa 3:1 als Tablette, 7:1 intravenös). Dadurch sinkt der Gefässwiderstand, ohne dass der Puls reflektorisch ansteigt.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma bronchiale oder obstruktive Atemwegserkrankung in der Vorgeschichte",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "AV-Block II. oder III. Grades (ohne Herzschrittmacher), Sinusknotensyndrom",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom"
+      ]
+    },
+    {
+      "text": "Schwere Bradykardie",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Kardiogener Schock und andere Zustände mit schwerem, anhaltendem Blutdruckabfall",
+      "ids": [
+        "schock",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Nicht ausreichend behandelte Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Prinzmetal-Angina, unbehandeltes Phäochromozytom, metabolische Azidose",
+      "ids": [
+        "angina-pectoris",
+        "phaeochromozytom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen: selten schwere Leberschäden – bei Zeichen einer Leberstörung sofort absetzen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes mit schwankendem Blutzucker (Unterzuckerungszeichen können verdeckt sein)",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Kompensierte Herzinsuffizienz, AV-Block I. Grades",
+      "ids": [
+        "herzinsuffizienz",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Periphere Durchblutungsstörungen",
+      "ids": [
+        "pavk",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Psoriasis, Schilddrüsenüberfunktion",
+      "ids": [
+        "psoriasis",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Schwere Allergien (verstärkte Reaktionen, schlechteres Ansprechen auf Adrenalin)",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Blutdruckabfall beim Aufstehen)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Geplante Operation mit Narkose",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Gefahr von starkem Pulsabfall, AV-Block und Herzschwäche; nicht intravenös bei laufender Betablocker-Behandlung geben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clonidin und andere zentrale Alpha-2-Agonisten",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Beim Absetzen von Clonidin gefährlicher Blutdruckanstieg möglich – zuerst den Betablocker ausschleichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron, Flecainid)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Verstärkte Hemmung von Herzfrequenz und Reizleitung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker, Nitrate, Alpha-Blocker und PDE-5-Hemmer",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate",
+        "gruppe:alpha1-blocker",
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und orale Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Unterzuckerungszeichen können verdeckt sein – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkosemittel",
+      "ref": [],
+      "effekt": "Verstärkte Blutdrucksenkung – Narkoseteam informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Häufiger Zittern (Tremor).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Cimetidin",
+      "ref": [],
+      "effekt": "Erhöht die Aufnahme von eingenommenem Labetalol – Wirkung kann stärker sein.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "NSAR (Schmerz- und Rheumamittel)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Orthostatische Hypotonie (Schwindel beim Aufstehen), besonders zu Beginn",
+      "Müdigkeit, Kopfschmerzen, Schwindel",
+      "Vorübergehendes Kribbeln der Kopfhaut",
+      "Verstopfte Nase",
+      "Knöchelödeme",
+      "Ejakulationsstörungen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [
+      "Leberentzündung, Gelbsucht und Leberzellschädigung",
+      "Lupus-ähnliche Erkrankung, positive antinukleäre Antikörper",
+      "Muskelerkrankung (toxische Myopathie)"
+    ],
+    "unbekannt": [
+      "Bradykardie (langsamer Puls), AV-Block",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Hautausschlag",
+      "Verdeckte Unterzuckerungszeichen bei Diabetes"
+    ]
+  },
+  "schwangerschaft": "Wird zur Behandlung von Bluthochdruck in der Schwangerschaft eingesetzt (ärztliche Verordnung). Beim Neugeborenen können vorübergehend langsamer Puls, Blutdruckabfall, Unterzuckerung und Atemprobleme auftreten.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nach ärztlicher Abwägung möglich, Säugling auf langsamen Puls und Unterzuckerung beobachten.",
+  "hinweise": [
+    "Tabletten mit einer Mahlzeit einnehmen.",
+    "Langsam aufstehen, besonders zu Beginn der Behandlung (Schwindel, Ohnmacht).",
+    "Nicht abrupt absetzen, sondern ausschleichen.",
+    "Bei Gelbsucht, dunklem Urin, anhaltender Übelkeit oder Oberbauchschmerzen sofort ärztlich melden (Leberschaden)."
+  ],
+  "stand": "2026-10"
+}

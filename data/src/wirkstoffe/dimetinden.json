@@ -1,0 +1,54 @@
+{
+  "id": "dimetinden",
+  "name": "Dimetinden",
+  "synonyme": ["Dimetindenmaleat", "Dimetindene", "Dimethindene"],
+  "kombinationAus": [],
+  "atc": ["D04AA13", "R06AB03"],
+  "klasse": "H1-Antihistaminikum der 1. Generation (sedierend); Antipruriginosum (juckreizstillend)",
+  "kurz": "Antiallergikum gegen Juckreiz, Insektenstiche und Heuschnupfen – als Gel auf die Haut oder als Tropfen zum Einnehmen.",
+  "gruppen": ["antihistaminika-sedierend", "zns-daempfend", "anticholinerg"],
+  "handelsnamen": ["Fenistil", "Vibrocil (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Tropfen zum Einnehmen", "Gel", "Roll-on", "Nasenspray, Nasentropfen, Nasengel (Kombi mit Phenylephrin)"],
+  "indikationen": [
+    { "text": "Juckreiz bei Hautallergien und Nesselsucht, Insektenstichen, leichtem Sonnenbrand und oberflächlichen leichten Verbrennungen (Gel, Roll-on)", "ids": ["juckreiz", "urtikaria", "allergie", "sonnenbrand"] },
+    { "text": "Allergische Beschwerden wie Heuschnupfen, Nesselsucht, Nahrungsmittel- und Arzneimittelallergien sowie Juckreiz bei Hauterkrankungen wie Windpocken oder Ekzemen (Tropfen)", "ids": ["heuschnupfen", "urtikaria", "allergie", "juckreiz", "masern-mumps-roeteln"] },
+    { "text": "Abschwellung der Nasenschleimhaut bei Schnupfen, Heuschnupfen und Nasennebenhöhlenentzündung (Kombination mit Phenylephrin, Vibrocil)", "ids": ["erkaeltung", "heuschnupfen", "sinusitis"] }
+  ],
+  "wirkmechanismus": "Lindert Juckreiz und allergische Beschwerden, indem es den Botenstoff Histamin blockiert. Dimetinden ist ein Antagonist am Histamin-H1-Rezeptor und vermindert so Gefässdurchlässigkeit, Quaddelbildung, Rötung und Juckreiz. Auf der Haut wirkt es zusätzlich leicht örtlich betäubend, weshalb das Gel Juckreiz rasch lindert. Eingenommen gelangt es ins Gehirn und macht deshalb müde; zudem hat es schwache anticholinerge Wirkungen.",
+  "kontraindikationen": [
+    { "text": "Kombination mit Phenylephrin (Vibrocil): Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
+    { "text": "Kombination mit Phenylephrin (Vibrocil): trockene, krustige Entzündung der Nasenschleimhaut (Rhinitis sicca) und nach Operationen durch die Nase mit Freilegung der Hirnhaut", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Engwinkelglaukom (Tropfen; anticholinerge Wirkung)", "ids": ["engwinkelglaukom"] },
+    { "text": "Prostatavergrösserung oder Blasenentleerungsstörung (Harnverhalt möglich)", "ids": ["prostatahyperplasie", "harnverhalt"] },
+    { "text": "Epilepsie", "ids": ["epilepsie"] },
+    { "text": "Säuglinge: Tropfen nur auf ärztliche Anordnung (Beruhigung kann mit Atemaussetzern im Schlaf einhergehen)", "ids": ["kinder", "schlafapnoe"] },
+    { "text": "Ältere Menschen: stärkere Müdigkeit und Benommenheit, Sturzgefahr", "ids": ["aeltere-patienten"] },
+    { "text": "Gel: nicht grossflächig bei Säuglingen und Kleinkindern und nicht auf stark entzündete Haut oder offene Wunden; behandelte grössere Hautflächen nicht längere Zeit der Sonne aussetzen", "ids": ["kinder", "sonnenbrand"] },
+    { "text": "Kombination mit Phenylephrin (Vibrocil): Bluthochdruck, Herz-Kreislauf-Erkrankungen, Schilddrüsenüberfunktion, Diabetes", "ids": ["hypertonie", "koronare-herzkrankheit", "hyperthyreose", "diabetes"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "MAO-Hemmer (z. B. Moclobemid)", "ref": ["gruppe:mao-hemmer"], "effekt": "Verstärkte anticholinerge und dämpfende Wirkung – gleichzeitige Einnahme der Tropfen nicht empfohlen. Vibrocil (Phenylephrin) ist mit MAO-Hemmern und bis 14 Tage nach deren Absetzen kontraindiziert: Gefahr starker Blutdruckanstiege.", "schwere": "schwer" },
+    { "text": "Alkohol und andere zentral dämpfende Mittel (Schlaf- und Beruhigungsmittel, Opioide, sedierende Antidepressiva)", "ref": ["gruppe:zns-daempfend", "gruppe:benzodiazepine", "gruppe:z-substanzen", "gruppe:opioide"], "effekt": "Verstärkte Müdigkeit und Reaktionsverlangsamung – Kombination meiden, nicht Auto fahren.", "schwere": "mittel" },
+    { "text": "Trizyklische Antidepressiva und andere anticholinerg wirkende Mittel", "ref": ["gruppe:trizyklische-antidepressiva", "gruppe:anticholinerg"], "effekt": "Anticholinerge Wirkungen addieren sich: Mundtrockenheit, Verstopfung, Harnverhalt, Gefahr eines Glaukomanfalls.", "schwere": "mittel" },
+    { "text": "Kombination mit Phenylephrin (Vibrocil): Betablocker, andere Blutdrucksenker und Sympathomimetika", "ref": ["gruppe:betablocker", "gruppe:blutdrucksenkend", "gruppe:sympathomimetika"], "effekt": "Phenylephrin kann den Blutdruck erhöhen und Blutdrucksenker abschwächen; mit anderen Sympathomimetika addieren sich die Herz-Kreislauf-Wirkungen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Müdigkeit (Tropfen)"],
+    "haeufig": ["Schläfrigkeit, Benommenheit (Tropfen)", "Nervosität (Tropfen)"],
+    "selten": ["Unruhe, Erregung", "Kopfschmerzen, Schwindel", "Übelkeit, Magen-Darm-Beschwerden", "Mund- und Rachentrockenheit"],
+    "sehrSelten": ["Anaphylaktische Reaktionen mit Schwellung von Gesicht und Rachen", "Hautausschlag", "Muskelkrämpfe", "Atembeschwerden"],
+    "unbekannt": ["Trockene Haut und Brennen an der Auftragsstelle (Gel)", "Allergische Hautreaktionen (Gel)", "Brennen und Trockenheit der Nasenschleimhaut (Vibrocil)"]
+  },
+  "schwangerschaft": "Tropfen nur nach ärztlicher Abwägung, besonders im 1. Drittel zurückhaltend. Gel kleinflächig nach Abwägung möglich, nicht auf grosse, entzündete oder verletzte Hautflächen.",
+  "stillzeit": "Tropfen nicht empfohlen (Übergang in die Muttermilch, Müdigkeit beim Säugling möglich). Gel nicht auf die Brust auftragen.",
+  "hinweise": [
+    "Die Tropfen machen müde: Fahrtüchtigkeit und Reaktionsvermögen können eingeschränkt sein, besonders zusammen mit Alkohol.",
+    "Gel: bei grossflächiger Anwendung behandelte Haut nicht der Sonne aussetzen; bei Juckreiz, der nach einigen Tagen nicht bessert oder grosse Flächen betrifft, Arzt aufsuchen.",
+    "Vibrocil (mit Phenylephrin) ohne ärztlichen Rat nicht länger als 7 Tage anwenden – sonst droht eine dauerhaft verstopfte Nase."
+  ],
+  "stand": "2026-10"
+}

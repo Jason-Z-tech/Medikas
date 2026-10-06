@@ -1,0 +1,78 @@
+{
+  "id": "isotretinoin",
+  "name": "Isotretinoin",
+  "synonyme": ["13-cis-Retinsäure", "Isotretinoinum"],
+  "atc": ["D10BA01", "D10AD04"],
+  "klasse": "Retinoid (systemisches Aknemittel)",
+  "kurz": "Retinoid-Kapseln gegen schwere Akne; verkleinert die Talgdrüsen stark. Stark fruchtschädigend – strikte Verhütung nötig.",
+  "gruppen": ["teratogen", "photosensibilisierend", "hepatotoxisch"],
+  "handelsnamen": ["Roaccutan", "Isotretinoin Mepha", "Isotretinoin Sandoz", "Isotrexin (Kombi)"],
+  "abgabe": ["A", "B"],
+  "darreichung": ["Weichkapseln", "Gel (Kombination mit Erythromycin)"],
+  "indikationen": [
+    { "text": "Schwere Akne (z. B. knotige Akne, Acne conglobata, Akne mit Narbenbildung), die auf eine Standardbehandlung mit Antibiotika zum Einnehmen und Mitteln zum Auftragen nicht ausreichend anspricht", "ids": ["akne"] },
+    { "text": "Gel in Kombination mit Erythromycin (Isotrexin): leichte bis mittelschwere Akne", "ids": ["akne"] }
+  ],
+  "wirkmechanismus": "Verkleinert die Talgdrüsen und vermindert die Talgproduktion drastisch, sodass Mitesser und entzündete Pickel abheilen. Isotretinoin (13-cis-Retinsäure) ist ein Vitamin-A-Abkömmling, der die Vermehrung und Reifung der Talgdrüsenzellen hemmt und die Verhornung in den Haarfollikeln normalisiert. Dadurch nimmt indirekt auch die Besiedelung mit Aknebakterien ab; zudem wirkt es entzündungshemmend. Der genaue Mechanismus ist nicht vollständig geklärt; ein Teil wird im Körper zu Tretinoin und 4-Oxo-Isotretinoin umgewandelt.",
+  "kontraindikationen": [
+    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
+    { "text": "Frauen im gebärfähigen Alter, ausser alle Bedingungen des Schwangerschaftsverhütungsprogramms werden eingehalten", "ids": ["frauen-gebaerfaehig"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] },
+    { "text": "Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
+    { "text": "Stark erhöhte Blutfettwerte", "ids": ["hypertriglyzeridaemie", "hypercholesterinaemie"] },
+    { "text": "Hypervitaminose A (Vitamin-A-Überschuss)", "ids": [] },
+    { "text": "Allergie gegen Erdnuss oder Soja (bei Kapseln, die Sojaöl enthalten)", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Depression, Suizidgedanken oder andere psychische Erkrankungen, auch in der Vorgeschichte – Stimmung während der Behandlung beobachten", "ids": ["depression", "suizidgedanken"] },
+    { "text": "Diabetes, Übergewicht, Alkoholabhängigkeit oder Fettstoffwechselstörung: Blutzucker und Blutfette engmaschig kontrollieren", "ids": ["diabetes", "adipositas", "alkoholabhaengigkeit"] },
+    { "text": "Stark erhöhte Triglyceride: Gefahr einer Bauchspeicheldrüsenentzündung", "ids": ["pankreatitis", "hypertriglyzeridaemie"] },
+    { "text": "Schwere Niereninsuffizienz (niedrigere Anfangsdosis)", "ids": ["niereninsuffizienz"] },
+    { "text": "Starke Kopfschmerzen, Übelkeit und Sehstörungen können auf einen erhöhten Hirndruck hinweisen – sofort absetzen und abklären", "ids": ["kopfschmerzen"] },
+    { "text": "Trockene Augen, Kontaktlinsen, verminderte Nachtsicht (Vorsicht beim Autofahren in der Nacht)", "ids": ["trockenes-auge", "autofahren"] },
+    { "text": "Chronisch entzündliche Darmerkrankung oder starker blutiger Durchfall – sofort absetzen", "ids": ["colitis-ulcerosa", "morbus-crohn"] },
+    { "text": "Muskel- und Gelenkbeschwerden, besonders bei intensivem Sport (CK-Anstieg, selten Muskelzerfall)", "ids": ["muskelerkrankung"] },
+    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) – bei Blasen oder Hautablösung sofort absetzen", "ids": ["schwere-hautreaktion"] },
+    { "text": "Kinder unter 12 Jahren: nicht empfohlen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Tetracycline (z. B. Doxycyclin, Minocyclin, Tetracyclin)", "ref": ["gruppe:tetracycline"], "grund": "Beide Wirkstoffe können den Hirndruck erhöhen – Gefahr eines Pseudotumor cerebri mit starken Kopfschmerzen und Sehstörungen." }
+  ],
+  "interaktionen": [
+    { "text": "Vitamin A und andere Retinoide zum Einnehmen (z. B. Acitretin, Alitretinoin)", "ref": ["retinol-vitamin-a", "acitretin", "alitretinoin"], "effekt": "Gefahr einer Vitamin-A-Vergiftung (Hypervitaminose A) – Kombination vermeiden, auch Vitamin-A-haltige Nahrungsergänzungsmittel.", "schwere": "schwer" },
+    { "text": "Schälende Aknemittel zum Auftragen (z. B. Adapalen, Tretinoin, Benzoylperoxid) und Peelings", "ref": ["adapalen", "tretinoin", "benzoylperoxid"], "effekt": "Verstärkte Hautreizung und Austrocknung – vermeiden.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Trockene, rissige Lippen (Cheilitis)",
+      "Trockene, schuppende, juckende Haut, Hautausschlag, verletzliche Haut",
+      "Trockene, gereizte Augen, Bindehaut- und Lidrandentzündung",
+      "Gelenk-, Muskel- und Rückenschmerzen",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Erhöhte Triglyceride, vermindertes HDL-Cholesterin",
+      "Blutbildveränderungen (Anämie, zu viele oder zu wenige Blutplättchen)"
+    ],
+    "haeufig": ["Kopfschmerzen", "Nasenbluten, trockene Nase, Entzündung von Nase und Rachen", "Erhöhtes Cholesterin, erhöhter Blutzucker", "Neutropenie (Mangel an weissen Blutkörperchen)", "Blut oder Eiweiss im Urin"],
+    "selten": ["Depression, Verschlechterung einer Depression, Angst, Aggressivität, Stimmungsschwankungen", "Haarausfall", "Allergische Reaktionen, Anaphylaxie"],
+    "sehrSelten": [
+      "Suizidgedanken, Suizidversuch, Psychosen",
+      "Erhöhter Hirndruck (Pseudotumor cerebri) mit starken Kopfschmerzen, Übelkeit, Sehstörungen",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung), Hepatitis",
+      "Chronisch entzündliche Darmerkrankung, Darmblutungen",
+      "Sehstörungen: verminderte Nachtsicht, Hornhauttrübung, Katarakt",
+      "Lichtempfindlichkeit der Haut (Photosensibilität)",
+      "Sehnenentzündung, Knochenveränderungen, vorzeitiger Schluss der Wachstumsfugen",
+      "Krampfanfälle, Hörstörungen"
+    ],
+    "unbekannt": ["Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)", "Rhabdomyolyse (Muskelzerfall)", "Sexuelle Funktionsstörungen (Erektionsstörung, verminderte Libido)"]
+  },
+  "schwangerschaft": "Absolut kontraindiziert: stark fruchtschädigend schon bei kurzer Einnahme. Frauen müssen ab 1 Monat vor bis 1 Monat nach der Behandlung sicher verhüten (Schwangerschaftsverhütungsprogramm mit Schwangerschaftstests). Auch das Gel ist in der Schwangerschaft kontraindiziert.",
+  "stillzeit": "Kontraindiziert; Isotretinoin geht in die Muttermilch über.",
+  "hinweise": [
+    "Frauen: sichere Verhütung ab 1 Monat vor Beginn bis 1 Monat nach Ende der Behandlung, regelmässige Schwangerschaftstests; die Gestagen-Minipille allein gilt nicht als ausreichend.",
+    "Stimmungsveränderungen, Niedergeschlagenheit oder Suizidgedanken sofort ärztlich melden.",
+    "Während und bis 1 Monat nach der Behandlung kein Blut spenden und Kapseln nie weitergeben; Leberwerte und Blutfette werden regelmässig kontrolliert.",
+    "Lippen und Haut pflegen, Sonnenschutz verwenden; Wachsepilation, Dermabrasion und Laserbehandlungen während und bis 6 Monate nach der Behandlung meiden."
+  ],
+  "stand": "2026-10"
+}

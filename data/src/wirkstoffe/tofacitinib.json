@@ -1,0 +1,252 @@
+{
+  "id": "tofacitinib",
+  "name": "Tofacitinib",
+  "synonyme": [
+    "Tofacitinibcitrat"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L04AF01"
+  ],
+  "klasse": "Januskinase-Hemmer (JAK-Hemmer)",
+  "kurz": "Tablette, die entzündungsfördernde Signalwege (Januskinasen) hemmt; bei rheumatoider Arthritis, Psoriasis-Arthritis, Bechterew und Colitis ulcerosa.",
+  "gruppen": [
+    "jak-hemmer",
+    "immunsuppressiv",
+    "thromboserisiko-erhoehend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Xeljanz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis (meist mit Methotrexat), wenn Basistherapeutika nicht ausreichen",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Aktive Psoriasis-Arthritis",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Aktiver Morbus Bechterew",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere aktive Colitis ulcerosa",
+      "ids": [
+        "colitis-ulcerosa"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft Entzündungen, indem es die Signalweiterleitung vieler Entzündungsbotenstoffe in den Immunzellen unterbricht. Tofacitinib hemmt bevorzugt die Enzyme Januskinase 1 und 3 (JAK1/JAK3), die Signale von Zytokin-Rezeptoren über STAT-Eiweisse an den Zellkern weitergeben. Dadurch werden Aktivierung und Vermehrung von Lymphozyten sowie die Bildung entzündungsfördernder Botenstoffe gehemmt.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive Tuberkulose, schwere Infektionen wie Sepsis oder opportunistische Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alter über 65 Jahre, (ehemalige) Raucher, andere Herz-Kreislauf- oder Krebsrisikofaktoren: nur einsetzen, wenn keine geeignete Alternative besteht (mehr Herzinfarkte, Krebs und schwere Infektionen)",
+      "ids": [
+        "aeltere-patienten",
+        "rauchen",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Thrombose oder Lungenembolie in der Vorgeschichte und andere Thromboserisiken",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Krebs in der Vorgeschichte, Hautkrebsrisiko (regelmässige Hautkontrollen)",
+      "ids": [
+        "krebs",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Latente Tuberkulose, Hepatitis B oder C, wiederkehrende Infektionen; erhöhtes Risiko für Gürtelrose",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b",
+        "infektanfaelligkeit",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Divertikulitis (Risiko eines Darmdurchbruchs)",
+      "ids": [
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Niedrige Lymphozyten-, Neutrophilen- oder Hämoglobinwerte",
+      "ids": [
+        "neutropenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder mässig eingeschränkte Leberfunktion (Dosis anpassen)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Diabetes unter Blutzuckersenkern (Unterzuckerungen beobachtet)",
+      "ids": [
+        "diabetes"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Tofacitinib-Spiegel steigt etwa auf das Doppelte – Dosis halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fluconazol und andere Mittel, die CYP3A4 mässig und CYP2C19 stark hemmen",
+      "ref": [
+        "fluconazol"
+      ],
+      "effekt": "Tofacitinib-Spiegel steigt deutlich – Dosis halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Spiegel fällt stark, Wirkverlust – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Stark wirksame Immunsuppressiva (z. B. Azathioprin, Ciclosporin, Tacrolimus) und Biologika",
+      "ref": [
+        "gruppe:thiopurine",
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer"
+      ],
+      "effekt": "Additive Immunsuppression mit erhöhtem Infektionsrisiko – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – Lebendimpfungen (z. B. gegen Gürtelrose) mindestens 2–4 Wochen vor Therapiebeginn abschliessen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Östrogenhaltige Verhütungsmittel und Hormonersatztherapie",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Zusätzliches Thromboserisiko – bei weiteren Risikofaktoren mit Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Unterzuckerungen möglich – Blutzucker kontrollieren, ggf. Dosis anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Lungenentzündung, Grippe, Gürtelrose, Harnwegsinfekte, Nasennebenhöhlen- und Rachenentzündung, Bronchitis",
+      "Anämie (Blutarmut), Lymphopenie",
+      "Kopfschmerzen",
+      "Bluthochdruck",
+      "Husten",
+      "Bauchschmerzen, Erbrechen, Durchfall, Übelkeit, Gastritis",
+      "Hautausschlag, Akne",
+      "Gelenkschmerzen, Ödeme, Fieber, Müdigkeit, erhöhte Kreatinkinase"
+    ],
+    "gelegentlich": [
+      "Tuberkulose, Divertikulitis, Nierenbeckenentzündung, Zellulitis",
+      "Nicht-melanozytärer Hautkrebs, Lungenkrebs",
+      "Leukopenie, Neutropenie",
+      "Erhöhte Blutfette, Fettleber, erhöhte Leberwerte",
+      "Herzinfarkt",
+      "Tiefe Venenthrombose, Lungenembolie",
+      "Schlaflosigkeit, Parästhesien (Kribbeln)",
+      "Sehnenentzündung, Gelenkschwellung"
+    ],
+    "selten": [
+      "Sepsis",
+      "Opportunistische Infektionen (z. B. Pneumocystis-Pneumonie, Zytomegalie)"
+    ],
+    "sehrSelten": [
+      "Tuberkulose des Nervensystems, Kryptokokken-Meningitis"
+    ],
+    "unbekannt": [
+      "Lymphome",
+      "Überempfindlichkeitsreaktionen (Angioödem, Nesselsucht)",
+      "Magen-Darm-Durchbruch (Perforation)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter verhüten während und bis mindestens 4 Wochen nach der letzten Dosis zuverlässig.",
+  "stillzeit": "Kontraindiziert; nicht stillen.",
+  "hinweise": [
+    "Vor Beginn auf Tuberkulose und Hepatitis testen und Impfungen (inkl. Gürtelrose) aktualisieren lassen.",
+    "Bei plötzlicher Atemnot, Brustschmerz oder geschwollenem, schmerzhaftem Bein sofort ärztliche Hilfe holen (Thrombose, Lungenembolie).",
+    "Blutbild, Leberwerte und Blutfette werden regelmässig kontrolliert; regelmässige Hautkontrollen.",
+    "Kein Grapefruitsaft in grösseren Mengen; Retardtabletten nicht teilen oder zerkauen."
+  ],
+  "stand": "2026-10"
+}

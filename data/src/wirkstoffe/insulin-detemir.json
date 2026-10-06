@@ -1,0 +1,190 @@
+{
+  "id": "insulin-detemir",
+  "name": "Insulin detemir",
+  "synonyme": [
+    "Detemir",
+    "Detemir-Insulin"
+  ],
+  "atc": [
+    "A10AE05"
+  ],
+  "klasse": "Lang wirkendes Insulinanalogon (Basalinsulin)",
+  "kurz": "Lang wirkendes Basalinsulin (Insulinanalogon) zur Behandlung von Diabetes; wird ein- bis zweimal täglich gespritzt.",
+  "gruppen": [
+    "insuline",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Levemir"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen",
+    "Injektionslösung in Patronen"
+  ],
+  "indikationen": [
+    {
+      "text": "Diabetes mellitus, wenn eine Behandlung mit Insulin erforderlich ist",
+      "ids": [
+        "diabetes",
+        "diabetes-typ-1",
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Deckt den Grundbedarf an Insulin (Basalinsulin) und senkt so den Blutzucker. Insulin detemir trägt eine angehängte Fettsäure (Myristinsäure): Dadurch lagern sich die Moleküle an der Einstichstelle zusammen und binden im Blut an Albumin, was Aufnahme und Wirkung über bis zu 24 Stunden verlangsamt. Am Insulinrezeptor fördert es die Zuckeraufnahme in Muskel- und Fettgewebe und hemmt die Zuckerbildung in der Leber.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Unterzuckerung (Hypoglykämie): Risiko bei ausgelassenen Mahlzeiten, ungewohnter körperlicher Anstrengung, Alkohol oder zu hoher Dosis",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Zu niedrige Dosis oder Therapieunterbruch: Überzuckerung, bei Typ-1-Diabetes diabetische Ketoazidose",
+      "ids": [
+        "ketoazidose",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion: Insulinbedarf kann sinken – Blutzucker engmaschig kontrollieren",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz, besonders in Kombination mit Pioglitazon (Flüssigkeitseinlagerung)",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Fieber, Infekte und andere Begleiterkrankungen erhöhen meist den Insulinbedarf",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Diabetische Netzhauterkrankung: Eine rasche Verbesserung der Blutzuckereinstellung kann sie vorübergehend verschlechtern",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Einstichstelle regelmässig wechseln: sonst Veränderungen des Unterhautfettgewebes oder kutane Amyloidose mit schlechterer Insulinwirkung",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, SGLT-2- und DPP-4-Hemmer)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:glp1-agonisten",
+        "gruppe:sglt2-hemmer",
+        "gruppe:dpp4-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung, Unterzuckerungsgefahr – Insulindosis anpassen und Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die Warnzeichen einer Unterzuckerung (z. B. Herzklopfen, Zittern) verschleiern und die Erholung verzögern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann die Blutzuckersenkung verstärken oder abschwächen; Unterzuckerungen auch Stunden später möglich – nur mässig und zusammen mit einer Mahlzeit trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die den Blutzucker erhöhen (z. B. Kortison, Thiaziddiuretika, Schilddrüsenhormone, Sympathomimetika, Wachstumshormon, hormonale Verhütungsmittel)",
+      "ref": [
+        "gruppe:hyperglykaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:thiaziddiuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika",
+        "somatropin",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Höherer Insulinbedarf – Blutzucker kontrollieren und Dosis anpassen, auch beim Absetzen dieser Mittel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "Flüssigkeitseinlagerung und Herzinsuffizienz möglich – auf Gewichtszunahme, Ödeme und Atemnot achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, MAO-Hemmer, hoch dosierte Salicylate, Sulfonamide, anabole Steroide",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:mao-hemmer",
+        "acetylsalicylsaeure",
+        "gruppe:sulfonamide",
+        "nandrolon"
+      ],
+      "effekt": "Können den Insulinbedarf senken – Unterzuckerungsgefahr, Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Octreotid und Lanreotid",
+      "ref": [
+        "octreotid",
+        "lanreotid"
+      ],
+      "effekt": "Können den Insulinbedarf erhöhen oder senken – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung)"
+    ],
+    "haeufig": [
+      "Reaktionen an der Einstichstelle (Rötung, Schwellung, Juckreiz, Schmerz)"
+    ],
+    "gelegentlich": [
+      "Allergische Reaktionen (Nesselsucht, Hautausschlag)",
+      "Lipodystrophie (Veränderungen des Unterhautfettgewebes an der Einstichstelle)",
+      "Ödeme (Wassereinlagerungen) zu Behandlungsbeginn",
+      "Vorübergehende Sehstörungen (Refraktionsanomalien)",
+      "Vorübergehende Verschlechterung einer diabetischen Retinopathie"
+    ],
+    "selten": [
+      "Schmerzhafte Nervenstörung (periphere Neuropathie) bei rascher Verbesserung der Blutzuckerwerte"
+    ],
+    "sehrSelten": [
+      "Anaphylaktische Reaktionen (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Kutane Amyloidose (Knoten unter der Haut an der Einstichstelle)"
+    ]
+  },
+  "schwangerschaft": "Kann angewendet werden, wenn klinisch erforderlich; da sich der Insulinbedarf in der Schwangerschaft ändert, sind engmaschige Blutzuckerkontrollen nötig.",
+  "stillzeit": "Kann angewendet werden; Insulindosis und Ernährung müssen eventuell angepasst werden.",
+  "hinweise": [
+    "Ein- oder zweimal täglich, jeweils etwa zur gleichen Tageszeit, unter die Haut spritzen; nie in eine Vene und nicht in Insulinpumpen.",
+    "Anzeichen einer Unterzuckerung kennen und stets Traubenzucker mitführen; Blutzucker regelmässig messen.",
+    "Unterzuckerungen beeinträchtigen Konzentration und Fahrtüchtigkeit – vor dem Autofahren Blutzucker prüfen.",
+    "Einstichstelle innerhalb der Körperregion bei jeder Injektion wechseln."
+  ],
+  "stand": "2026-10"
+}

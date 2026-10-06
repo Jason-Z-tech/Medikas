@@ -1,0 +1,44 @@
+{
+  "id": "saccharomyces-boulardii",
+  "name": "Saccharomyces boulardii",
+  "synonyme": ["S. boulardii", "Saccharomyces cerevisiae var. boulardii", "Saccharomyces cerevisiae HANSEN CBS 5926", "Medizinische Hefe", "Trockenhefe"],
+  "atc": ["A07FA02"],
+  "klasse": "Probiotikum (lebende, gefriergetrocknete Hefe); Antidiarrhoikum",
+  "kurz": "Lebende Heilhefe gegen Durchfall, auch zur Vorbeugung von Durchfall bei Antibiotika-Behandlung und auf Reisen.",
+  "gruppen": [],
+  "handelsnamen": ["Perenterol"],
+  "abgabe": ["D"],
+  "darreichung": ["Kapseln", "Pulver zum Einnehmen (Beutel)"],
+  "indikationen": [
+    { "text": "Behandlung von akutem Durchfall", "ids": ["durchfall"] },
+    { "text": "Vorbeugung und Behandlung von Durchfall während einer Antibiotika-Behandlung", "ids": ["durchfall"] },
+    { "text": "Vorbeugung von Reisedurchfall", "ids": ["durchfall"] }
+  ],
+  "wirkmechanismus": "Unterstützt die Darmflora und hilft dem Darm, sich von Durchfall zu erholen. Die lebende Hefe übersteht die Magenpassage, siedelt sich vorübergehend im Darm an und wird nach dem Absetzen innert 2 bis 5 Tagen wieder ausgeschieden. Sie hemmt das Wachstum krankmachender Keime, baut bakterielle Giftstoffe ab (z. B. die Toxine von Clostridioides difficile) und stärkt die Darmschleimhaut sowie die örtliche Immunabwehr (sekretorisches IgA). Sie wird nicht ins Blut aufgenommen.",
+  "kontraindikationen": [
+    { "text": "Patientinnen und Patienten mit zentralem Venenkatheter, schwer kranke oder immungeschwächte Menschen (Gefahr einer Pilzinfektion im Blut)", "ids": ["immunsuppression"] },
+    { "text": "Allergie gegen Hefe", "ids": ["allergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Säuglinge und Kleinkinder sowie Durchfall mit Fieber, Blut im Stuhl oder länger als 2 Tage: ärztlich abklären; Flüssigkeitsverlust ausgleichen", "ids": ["kinder", "dehydratation"] },
+    { "text": "Laktose- oder Fructoseunverträglichkeit: je nach Darreichung sind Lactose bzw. Fructose enthalten", "ids": ["laktoseintoleranz", "fructoseintoleranz"] },
+    { "text": "Kapseln und Beutel nicht in der Nähe von Patienten mit Venenkatheter oder geschwächter Abwehr öffnen (Übertragung der Hefe über Hände und Luft)", "ids": ["immunsuppression"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Pilzmittel (Antimykotika) zum Einnehmen oder als Infusion, z. B. Fluconazol, Nystatin, Amphotericin B", "ref": ["gruppe:azol-antimykotika", "nystatin", "amphotericin-b"], "effekt": "Die Hefe wird abgetötet – Saccharomyces boulardii wird unwirksam.", "schwere": "mittel" },
+    { "text": "MAO-Hemmer", "ref": ["gruppe:mao-hemmer"], "effekt": "Ein Blutdruckanstieg ist möglich.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrSelten": ["Überempfindlichkeitsreaktionen (Juckreiz, Nesselsucht, Hautausschlag, Quincke-Ödem)", "Fungämie (Hefe im Blut) bei Patienten mit zentralem Venenkatheter, schwer Kranken oder Immungeschwächten"],
+    "unbekannt": ["Anaphylaxie (allergischer Schock)", "Blähungen", "Verstopfung"]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur nach Rücksprache mit Ärztin, Arzt oder Apotheke anwenden.",
+  "stillzeit": "Keine ausreichenden Erfahrungen; nur nach Rücksprache anwenden.",
+  "hinweise": [
+    "Nicht zusammen mit sehr heissen (über 50 °C) oder eisgekühlten Speisen und Getränken oder mit Alkohol einnehmen – die Hefe ist lebend.",
+    "Bei Durchfall genügend Flüssigkeit und Salze ersetzen, besonders bei Kindern und älteren Menschen.",
+    "Bei Antibiotika-Behandlung kann die Hefe gleichzeitig eingenommen werden; Pilzmittel heben die Wirkung dagegen auf."
+  ],
+  "stand": "2026-10"
+}

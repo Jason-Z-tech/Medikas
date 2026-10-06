@@ -1,0 +1,79 @@
+{
+  "id": "pravastatin",
+  "name": "Pravastatin",
+  "synonyme": ["Pravastatin-Natrium", "Pravastatinum"],
+  "atc": ["C10AA03"],
+  "klasse": "HMG-CoA-Reduktase-Hemmer (Statin)",
+  "kurz": "Cholesterinsenker aus der Gruppe der Statine; beugt Herzinfarkt vor und hat wenige Wechselwirkungen über Leberenzyme.",
+  "gruppen": ["statine"],
+  "handelsnamen": ["Selipran", "Pravastatin-Mepha", "Pravastatin Sandoz"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Erhöhtes Cholesterin (primäre Hypercholesterinämie, gemischte Hyperlipidämie), ergänzend zur Diät", "ids": ["hypercholesterinaemie"] },
+    { "text": "Vorbeugung von Herzinfarkt und Herz-Kreislauf-Tod bei erhöhtem Cholesterin und hohem Risiko (Primärprävention)", "ids": ["herzinfarkt", "koronare-herzkrankheit"] },
+    { "text": "Nach Herzinfarkt oder instabiler Angina pectoris zur Senkung des Risikos weiterer Herz-Kreislauf-Ereignisse (Sekundärprävention)", "ids": ["herzinfarkt", "angina-pectoris", "koronare-herzkrankheit"] }
+  ],
+  "wirkmechanismus": "Senkt das Cholesterin, indem es dessen Herstellung in der Leber bremst. Pravastatin hemmt kompetitiv die HMG-CoA-Reduktase, das Schlüsselenzym der Cholesterinsynthese. Die Leberzellen bilden daraufhin mehr LDL-Rezeptoren und entfernen mehr LDL-Cholesterin aus dem Blut. Pravastatin ist wasserlöslich, wird über den Transporter OATP1B1 in die Leber aufgenommen und kaum über Cytochrom-P450-Enzyme abgebaut – es hat deshalb weniger Wechselwirkungen als Simvastatin oder Atorvastatin.",
+  "kontraindikationen": [
+    { "text": "Aktive Lebererkrankung oder ungeklärte, anhaltend erhöhte Leberwerte (über das Dreifache der Norm)", "ids": ["leberinsuffizienz"] },
+    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Muskelschäden unter einem Statin oder Fibrat in der Vorgeschichte, eigene oder familiäre erbliche Muskelerkrankung", "ids": ["muskelerkrankung"] },
+    { "text": "Eingeschränkte Nierenfunktion", "ids": ["niereninsuffizienz"] },
+    { "text": "Schilddrüsenunterfunktion", "ids": ["hypothyreose"] },
+    { "text": "Alter über 70 Jahre (höheres Myopathierisiko)", "ids": ["aeltere-patienten"] },
+    { "text": "Alkoholmissbrauch oder Lebererkrankung in der Vorgeschichte: Leberwerte kontrollieren", "ids": ["alkoholkonsum", "leberinsuffizienz"] },
+    { "text": "Risikofaktoren für Diabetes: Blutzucker kontrollieren", "ids": ["diabetes"] },
+    { "text": "Myasthenia gravis: Statine können sie auslösen oder verschlimmern", "ids": ["myasthenia-gravis"] }
+  ],
+  "interaktionen": [
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Pravastatin-Spiegel steigt um das 5- bis 10-Fache – mit niedriger Dosis beginnen, vorsichtig steigern, auf Muskelbeschwerden achten.", "schwere": "schwer" },
+    { "text": "Fibrate (z. B. Gemfibrozil, Fenofibrat)", "ref": ["gruppe:fibrate"], "effekt": "Erhöhtes Risiko für Myopathie und Rhabdomyolyse – Kombination möglichst vermeiden.", "schwere": "schwer" },
+    { "text": "Fusidinsäure (zum Einnehmen oder als Infusion)", "ref": ["fusidinsaeure"], "effekt": "Schwere, teils tödliche Rhabdomyolysen – Statin während der Fusidinsäure-Behandlung pausieren.", "schwere": "schwer" },
+    { "text": "Clarithromycin, Erythromycin", "ref": ["clarithromycin", "erythromycin"], "effekt": "Pravastatin-Spiegel steigt (mit Clarithromycin etwa auf das Doppelte) – Vorsicht, auf Muskelbeschwerden achten.", "schwere": "mittel" },
+    { "text": "Glecaprevir/Pibrentasvir (Hepatitis-C-Mittel)", "ref": ["glecaprevir-pibrentasvir"], "effekt": "Pravastatin-Spiegel etwa verdoppelt – Pravastatin-Dosis halbieren.", "schwere": "mittel" },
+    { "text": "Colestyramin, Colestipol (Ionenaustauscher)", "ref": ["colestyramin"], "effekt": "Aufnahme von Pravastatin um 40–50 % vermindert – Pravastatin 1 Stunde vor oder frühestens 4 Stunden nach dem Ionenaustauscher einnehmen.", "schwere": "mittel" },
+    { "text": "Colchicin", "ref": ["colchicin"], "effekt": "Myopathie möglich, besonders bei eingeschränkter Nierenfunktion – auf Muskelbeschwerden achten.", "schwere": "mittel" },
+    { "text": "Daptomycin", "ref": ["daptomycin"], "effekt": "Erhöhtes Risiko für Muskelschäden – Statin während der Daptomycin-Behandlung pausieren erwägen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Kopfschmerzen, Schwindel",
+      "Schlafstörungen, Schlaflosigkeit",
+      "Sehstörungen (verschwommenes Sehen, Doppelbilder)",
+      "Verdauungsbeschwerden, Sodbrennen, Bauchschmerzen, Übelkeit, Erbrechen, Verstopfung, Durchfall, Blähungen",
+      "Juckreiz, Ausschlag, Nesselsucht, Veränderungen von Kopfhaut und Haaren (inkl. Haarausfall)",
+      "Störungen beim Wasserlassen (Schmerzen, häufiges oder nächtliches Wasserlassen)",
+      "Sexuelle Funktionsstörungen",
+      "Müdigkeit"
+    ],
+    "sehrSelten": [
+      "Rhabdomyolyse (Muskelzerfall), teils mit akutem Nierenversagen; Myopathie, Myositis",
+      "Sehnenschäden, teils mit Sehnenriss",
+      "Überempfindlichkeitsreaktionen: Anaphylaxie, Angioödem, lupusähnliches Syndrom",
+      "Gelbsucht, Hepatitis, fulminante Lebernekrose",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Periphere Polyneuropathie, Parästhesien (Kribbeln)"
+    ],
+    "unbekannt": [
+      "Immunvermittelte nekrotisierende Myopathie (anhaltende Muskelschwäche)",
+      "Dermatomyositis",
+      "Interstitielle Lungenerkrankung",
+      "Depression, Albträume, Gedächtnisverlust",
+      "Diabetes mellitus bei Personen mit Risikofaktoren",
+      "Myasthenia gravis (Muskelschwäche) oder deren Verschlechterung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert – Cholesterin ist für die Entwicklung des Ungeborenen nötig. Bei Eintritt einer Schwangerschaft sofort absetzen; Frauen im gebärfähigen Alter sollen zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert – Pravastatin geht in geringen Mengen in die Muttermilch über.",
+  "hinweise": [
+    "Einmal täglich, vorzugsweise am Abend, mit oder ohne Essen.",
+    "Unerklärliche Muskelschmerzen, -schwäche oder -krämpfe, besonders mit Fieber oder dunklem Urin, sofort ärztlich melden.",
+    "Bei Colestyramin oder Colestipol zeitlichen Abstand einhalten (Pravastatin 1 Stunde vorher oder 4 Stunden nachher).",
+    "Ernährung und Bewegung bleiben wichtig; Blutfette und Leberwerte regelmässig kontrollieren."
+  ],
+  "stand": "2026-10"
+}

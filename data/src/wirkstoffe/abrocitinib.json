@@ -1,0 +1,209 @@
+{
+  "id": "abrocitinib",
+  "name": "Abrocitinib",
+  "synonyme": [
+    "Abrocitinibum"
+  ],
+  "atc": [
+    "D11AH08"
+  ],
+  "klasse": "Januskinase-Hemmer (selektiver JAK1-Inhibitor)",
+  "kurz": "Tablette aus der Gruppe der JAK-Hemmer gegen mittelschwere bis schwere Neurodermitis; dämpft entzündliche Signale des Immunsystems.",
+  "gruppen": [
+    "jak-hemmer",
+    "immunsuppressiv",
+    "thromboserisiko-erhoehend",
+    "cyp2c19-substrate",
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Cibinqo"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere atopische Dermatitis (Neurodermitis), wenn eine systemische Behandlung angezeigt ist",
+      "ids": [
+        "neurodermitis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die überschiessende Entzündung der Haut und lindert rasch den Juckreiz. Abrocitinib hemmt bevorzugt die Januskinase 1 (JAK1), ein Enzym, das Signale vieler Entzündungsbotenstoffe (u. a. IL-4, IL-13, IL-31, IL-22, Interferon-γ) über den JAK-STAT-Weg ins Zellinnere weiterleitet. Durch die Blockade werden diese Signale abgeschwächt, was Entzündung, Juckreiz und Hautbarrierestörung vermindert. Es wird hauptsächlich über CYP2C19 und CYP2C9 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive schwere Infektionen im ganzen Körper, einschliesslich Tuberkulose",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alter ab 65 Jahren, Raucher oder ehemalige Langzeitraucher, erhöhtes Herz-Kreislauf-Risiko oder Krebsrisiko: nur einsetzen, wenn keine geeignete Alternative besteht (unter JAK-Hemmern mehr Herzinfarkte, Schlaganfälle und Krebserkrankungen beobachtet)",
+      "ids": [
+        "aeltere-patienten",
+        "rauchen",
+        "kardiovaskulaeres-risiko",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Lungenembolien in der Vorgeschichte bzw. erhöhtes Thromboserisiko",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Infektionen: vor Beginn auf Tuberkulose und Hepatitis B/C prüfen; erhöhtes Risiko für Gürtelrose und Herpes",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b",
+        "herpes",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Blutbild und Blutfette vor Beginn und während der Behandlung kontrollieren (Thrombozyten- und Lymphozytenabfall, Lipidanstieg)",
+      "ids": [
+        "thrombozytopenie",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebendimpfungen: vor Behandlungsbeginn abschliessen, während der Behandlung vermeiden",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: während der Behandlung und bis 1 Monat danach zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Heller Hautkrebs: regelmässige Hautkontrollen",
+      "ids": [
+        "hautkrebs"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2C19-Hemmer (z. B. Fluvoxamin, Fluconazol, Ticlopidin)",
+      "ref": [
+        "fluvoxamin",
+        "fluconazol"
+      ],
+      "effekt": "Abrocitinib-Spiegel steigt deutlich – Dosis halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "johanniskraut"
+      ],
+      "effekt": "Abrocitinib-Spiegel sinkt stark, Wirkverlust – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (ausser niedrig dosierte Acetylsalicylsäure) in den ersten 3 Behandlungsmonaten",
+      "ref": [
+        "gruppe:p2y12-hemmer",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Abrocitinib kann die Blutplättchen senken – erhöhtes Blutungsrisiko; in Studien ausgeschlossen, möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere stark wirksame Immunsuppressiva, Biologika oder JAK-Hemmer (z. B. Ciclosporin, Methotrexat)",
+      "ref": [
+        "gruppe:jak-hemmer",
+        "gruppe:immunsuppressiva-calcineurin",
+        "methotrexat"
+      ],
+      "effekt": "Nicht untersucht; erhöhtes Risiko für Infektionen und Knochenmarkhemmung – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung nicht anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-gp-Substrate mit enger therapeutischer Breite (z. B. Dabigatran, Digoxin)",
+      "ref": [
+        "dabigatran",
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Abrocitinib hemmt P-Glykoprotein – Dabigatran-Spiegel um etwa die Hälfte erhöht; vorsichtig kombinieren und überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Lippenherpes (Herpes simplex), Gürtelrose (Herpes zoster)",
+      "Kopfschmerzen, Schwindel",
+      "Erbrechen, Oberbauchschmerzen",
+      "Akne",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Erhöhte Kreatinkinase (CK, Muskelenzym)"
+    ],
+    "gelegentlich": [
+      "Lungenentzündung (Pneumonie)",
+      "Lymphopenie (Mangel an Lymphozyten)",
+      "Erhöhte Blutfette",
+      "Venöse Thromboembolien (Thrombose, Lungenembolie)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter müssen während der Behandlung und bis 1 Monat nach der letzten Dosis zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Einmal täglich unabhängig vom Essen einnehmen; mit einer Mahlzeit kann Übelkeit geringer sein.",
+    "Bei Fieber, Infektzeichen, Bläschenausschlag, Schmerzen oder Schwellung eines Beines, Atemnot oder Brustschmerzen sofort ärztlich abklären lassen.",
+    "Regelmässige Kontrollen von Blutbild und Blutfetten sowie der Haut (Hautkrebs-Vorsorge)."
+  ],
+  "stand": "2026-10"
+}

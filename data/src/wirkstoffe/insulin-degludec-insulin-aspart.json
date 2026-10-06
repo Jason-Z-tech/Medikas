@@ -1,0 +1,185 @@
+{
+  "id": "insulin-degludec-insulin-aspart",
+  "name": "Insulin degludec + Insulin aspart",
+  "synonyme": [
+    "IDegAsp",
+    "Insulin degludec/Insulin aspart"
+  ],
+  "kombinationAus": [
+    "insulin-degludec",
+    "insulin-aspart"
+  ],
+  "atc": [
+    "A10AD06"
+  ],
+  "klasse": "Insulin-Kombination (ultralang wirkendes Basalinsulin + schnell wirkendes Insulinanalogon)",
+  "kurz": "Mischinsulin aus einem ultralang wirkenden Basalinsulin und einem schnell wirkenden Mahlzeiteninsulin zur Behandlung von Diabetes.",
+  "gruppen": [
+    "insuline",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Ryzodeg"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen"
+  ],
+  "indikationen": [
+    {
+      "text": "Diabetes mellitus, wenn eine Behandlung mit Insulin erforderlich ist",
+      "ids": [
+        "diabetes",
+        "diabetes-typ-1",
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutzucker, indem es die Wirkung des körpereigenen Insulins ersetzt: Zucker wird vermehrt in Muskel- und Fettzellen aufgenommen und die Zuckerbildung in der Leber gehemmt. Insulin degludec bildet unter der Haut lange Ketten (Multihexamere), aus denen es langsam und gleichmässig freigesetzt wird; die Wirkung hält über 24 Stunden an (Basalinsulin). Insulin aspart wird dagegen rasch aufgenommen und deckt den Insulinbedarf zur Mahlzeit.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Unterzuckerung (Hypoglykämie): Risiko bei ausgelassenen Mahlzeiten, ungewohnter körperlicher Anstrengung, Alkohol oder zu hoher Dosis",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Zu niedrige Dosis oder Therapieunterbruch: Überzuckerung, bei Typ-1-Diabetes diabetische Ketoazidose",
+      "ids": [
+        "ketoazidose",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion: Insulinbedarf kann sinken – Blutzucker engmaschig kontrollieren",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz, besonders in Kombination mit Pioglitazon (Flüssigkeitseinlagerung)",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Fieber, Infekte und andere Begleiterkrankungen erhöhen meist den Insulinbedarf",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Einstichstelle regelmässig wechseln: sonst Veränderungen des Unterhautfettgewebes oder kutane Amyloidose mit schlechterer Insulinwirkung",
+      "ids": []
+    },
+    {
+      "text": "Verwechslungsgefahr mit anderen Insulinen: vor jeder Injektion das Etikett prüfen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, SGLT-2- und DPP-4-Hemmer)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:glp1-agonisten",
+        "gruppe:sglt2-hemmer",
+        "gruppe:dpp4-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung, Unterzuckerungsgefahr – Insulindosis anpassen und Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können die Warnzeichen einer Unterzuckerung (z. B. Herzklopfen, Zittern) verschleiern und die Erholung verzögern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann die Blutzuckersenkung verstärken oder abschwächen; Unterzuckerungen auch Stunden später möglich – nur mässig und zusammen mit einer Mahlzeit trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die den Blutzucker erhöhen (z. B. Kortison, Thiaziddiuretika, Schilddrüsenhormone, Sympathomimetika, Wachstumshormon, hormonale Verhütungsmittel)",
+      "ref": [
+        "gruppe:hyperglykaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:thiaziddiuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika",
+        "somatropin",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Höherer Insulinbedarf – Blutzucker kontrollieren und Dosis anpassen, auch beim Absetzen dieser Mittel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "Flüssigkeitseinlagerung und Herzinsuffizienz möglich – auf Gewichtszunahme, Ödeme und Atemnot achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, MAO-Hemmer, hoch dosierte Salicylate, Sulfonamide, anabole Steroide",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:mao-hemmer",
+        "acetylsalicylsaeure",
+        "gruppe:sulfonamide",
+        "nandrolon"
+      ],
+      "effekt": "Können den Insulinbedarf senken – Unterzuckerungsgefahr, Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Octreotid und Lanreotid",
+      "ref": [
+        "octreotid",
+        "lanreotid"
+      ],
+      "effekt": "Können den Insulinbedarf erhöhen oder senken – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung)"
+    ],
+    "haeufig": [
+      "Reaktionen an der Einstichstelle (Rötung, Schwellung, Juckreiz, Bluterguss)"
+    ],
+    "gelegentlich": [
+      "Lipodystrophie (Veränderungen des Unterhautfettgewebes an der Einstichstelle)",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen und Nesselsucht, bis zur Anaphylaxie (schwere allergische Reaktion)",
+      "Kutane Amyloidose (Knoten unter der Haut an der Einstichstelle)"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen. Anwendung nach ärztlicher Abwägung möglich; da sich der Insulinbedarf in der Schwangerschaft ändert, sind engmaschige Blutzuckerkontrollen nötig.",
+  "stillzeit": "Keine Erfahrungen, nachteilige Wirkungen auf den gestillten Säugling sind aber nicht zu erwarten; die Dosis muss eventuell angepasst werden.",
+  "hinweise": [
+    "Ein- oder zweimal täglich zu einer Hauptmahlzeit unter die Haut spritzen; nie in eine Vene und nicht in Insulinpumpen.",
+    "Anzeichen einer Unterzuckerung kennen und stets Traubenzucker mitführen; Blutzucker regelmässig messen.",
+    "Unterzuckerungen beeinträchtigen Konzentration und Fahrtüchtigkeit – vor dem Autofahren Blutzucker prüfen.",
+    "Einstichstelle innerhalb der Körperregion bei jeder Injektion wechseln."
+  ],
+  "stand": "2026-10"
+}

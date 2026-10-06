@@ -1,0 +1,188 @@
+{
+  "id": "rasagilin",
+  "name": "Rasagilin",
+  "synonyme": [
+    "Rasagiline",
+    "Rasagilinmesilat"
+  ],
+  "atc": [
+    "N04BD02"
+  ],
+  "klasse": "MAO-B-Hemmer (Parkinsonmittel)",
+  "kurz": "Parkinsonmittel aus der Gruppe der MAO-B-Hemmer: bremst den Abbau von Dopamin im Gehirn; allein oder zusammen mit Levodopa.",
+  "gruppen": [
+    "mao-b-hemmer",
+    "serotonerg",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Azilect",
+    "Rasagilin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Krankheit, allein oder als Zusatz zu Levodopa bei Wirkungsschwankungen gegen Ende des Dosisintervalls",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlängert die Wirkung des körpereigenen Dopamins im Gehirn. Rasagilin hemmt irreversibel und selektiv die Monoaminoxidase B (MAO-B), das Enzym, das Dopamin im Gehirn abbaut. Dadurch steigt die Dopaminkonzentration im Striatum, was die Parkinson-Beschwerden lindert und Wirkungsschwankungen von Levodopa vermindert. In der empfohlenen Dosis bleibt die MAO-A weitgehend unbeeinflusst, so dass in der Regel keine tyraminarme Diät nötig ist.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Mittelschwere Leberinsuffizienz (Anwendung vermeiden), leichte Leberinsuffizienz (Vorsicht)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwarzer Hautkrebs (Melanom): Haut regelmässig kontrollieren lassen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigertes sexuelles Verlangen)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Tagesschläfrigkeit und plötzliches Einschlafen",
+      "ids": [
+        "narkolepsie",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen, v. a. zusammen mit Levodopa",
+      "ids": [
+        "hypotonie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Andere MAO-Hemmer, auch pflanzliche oder rezeptfreie wie Johanniskraut",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:mao-b-hemmer",
+        "johanniskraut"
+      ],
+      "grund": "Gefahr von Blutdruckkrisen und Serotoninsyndrom; nach Absetzen von Rasagilin mindestens 14 Tage Abstand."
+    },
+    {
+      "text": "Pethidin",
+      "ref": [
+        "pethidin"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms; mindestens 14 Tage Abstand."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Fluoxetin und Fluvoxamin",
+      "ref": [
+        "fluoxetin",
+        "fluvoxamin"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – vermeiden; nach Absetzen von Fluoxetin mindestens 5 Wochen, nach Absetzen von Rasagilin mindestens 14 Tage warten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dextromethorphan (Hustenmittel) und Sympathomimetika (z. B. Pseudoephedrin, Ephedrin in Schnupfen- und Erkältungsmitteln)",
+      "ref": [
+        "dextromethorphan",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Nicht empfohlen: Gefahr von Blutdruckanstieg bzw. Serotoninsyndrom.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Antidepressiva (SSRI, SNRI, trizyklische und tetrazyklische Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Risiko eines Serotoninsyndroms – nur mit Vorsicht und nicht in hohen Dosen; auf Unruhe, Fieber, Muskelzuckungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Hemmer (z. B. Ciprofloxacin, Fluvoxamin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Rasagilin-Spiegel steigt – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "levodopa-carbidopa-entacapon"
+      ],
+      "effekt": "Mehr Überbewegungen und Blutdruckabfall beim Aufstehen; Levodopa-Dosis ggf. senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rauchen",
+      "ref": [],
+      "effekt": "Kann den Abbau von Rasagilin beschleunigen (CYP1A2-Induktion).",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Dyskinesien (Überbewegungen, bei Kombination mit Levodopa)"
+    ],
+    "haeufig": [
+      "Grippeähnliche Beschwerden, Schnupfen",
+      "Depression, Halluzinationen",
+      "Schwindel, Gleichgewichtsstörungen",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Angina pectoris (Brustenge)",
+      "Bauchschmerzen, Verstopfung, Übelkeit, Mundtrockenheit",
+      "Gelenk- und Nackenschmerzen, Stürze",
+      "Hautkrebs (Karzinom der Haut)"
+    ],
+    "gelegentlich": [
+      "Schlaganfall",
+      "Herzinfarkt",
+      "Malignes Melanom (schwarzer Hautkrebs)",
+      "Verwirrtheit",
+      "Blasiger Hautausschlag"
+    ],
+    "unbekannt": [
+      "Serotoninsyndrom (v. a. zusammen mit Antidepressiva)",
+      "Bluthochdruck",
+      "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigertes sexuelles Verlangen)",
+      "Übermässige Tagesschläfrigkeit, plötzliches Einschlafen"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen. Vorsichtshalber in der Schwangerschaft nicht anwenden.",
+  "stillzeit": "Rasagilin kann die Milchbildung hemmen; ob es in die Muttermilch übergeht, ist nicht bekannt. Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal täglich einnehmen, unabhängig von den Mahlzeiten.",
+    "Vor der Einnahme rezeptfreier Husten-, Schnupfen- oder Erkältungsmittel sowie von Johanniskraut in der Apotheke nachfragen.",
+    "Haut regelmässig auf auffällige Muttermale kontrollieren lassen.",
+    "Bei Tagesschläfrigkeit nicht Auto fahren; Angehörige sollten auf Spiel- oder Kaufsucht achten."
+  ],
+  "stand": "2026-10"
+}

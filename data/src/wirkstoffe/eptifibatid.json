@@ -1,0 +1,206 @@
+{
+  "id": "eptifibatid",
+  "name": "Eptifibatid",
+  "synonyme": [
+    "Eptifibatide"
+  ],
+  "atc": [
+    "B01AC16"
+  ],
+  "klasse": "Thrombozytenaggregationshemmer (Glykoprotein-IIb/IIIa-Rezeptorantagonist)",
+  "kurz": "Infusion im Spital, die bei akutem Koronarsyndrom die Blutplättchen stark hemmt und so einen Herzinfarkt verhindern soll.",
+  "gruppen": [
+    "thrombozytenaggregationshemmer",
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Integrilin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung eines Herzinfarkts bei Erwachsenen mit instabiler Angina pectoris oder Herzinfarkt ohne ST-Hebung (akutes Koronarsyndrom) mit Brustschmerzen in den letzten 24 Stunden und EKG-Veränderungen oder erhöhten Herzenzymen, zusammen mit ASS und Heparin",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt",
+        "koronare-herzkrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Blutplättchen miteinander verkleben und ein Gerinnsel in den Herzkranzgefässen bilden. Eptifibatid ist ein ringförmiges Peptid, das reversibel den Glykoprotein-IIb/IIIa-Rezeptor auf den Blutplättchen blockiert, über den Fibrinogen und von-Willebrand-Faktor die Plättchen vernetzen. Damit wird der gemeinsame Endweg der Plättchenaggregation gehemmt, unabhängig vom Auslöser. Nach Ende der Infusion normalisiert sich die Plättchenfunktion innerhalb von etwa 4–8 Stunden.",
+  "kontraindikationen": [
+    {
+      "text": "Magen-Darm-Blutung, schwere Blutung der Harn- oder Geschlechtsorgane oder andere aktive Blutung in den letzten 30 Tagen",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Schlaganfall in den letzten 30 Tagen oder jemals ein hämorrhagischer Schlaganfall (Hirnblutung)",
+      "ids": [
+        "schlaganfall",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Erkrankungen im Schädelinneren (z. B. Tumor, Gefässmissbildung, Aneurysma)",
+      "ids": [
+        "hirntumor",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Grössere Operation oder schwere Verletzung in den letzten 6 Wochen",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutungsneigung (hämorrhagische Diathese)",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie (unter 100'000 Blutplättchen pro µl)",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Stark verlängerte Gerinnungszeit (INR über 2 oder Prothrombinzeit über das 1,2-Fache)",
+      "ids": [
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Schwere, ungenügend behandelte Hypertonie (über 200/110 mmHg)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min) oder Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Klinisch bedeutsame Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutungen, v. a. an der Punktionsstelle der Arterie – Punktionsstellen sorgfältig überwachen",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Patienten mit geringem Körpergewicht: höheres Blutungsrisiko",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Mittelschwere Niereninsuffizienz (Kreatinin-Clearance 30–50 ml/min): Dosisreduktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Abfall der Blutplättchen (auch immunbedingt) – Thrombozyten vor und während der Behandlung kontrollieren",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Heparin- oder Thrombolysebehandlung: Gerinnung engmaschig kontrollieren",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Andere parenterale GP-IIb/IIIa-Hemmer (z. B. Tirofiban)",
+      "ref": [
+        "tirofiban"
+      ],
+      "grund": "Doppelte Blockade desselben Plättchenrezeptors – stark erhöhtes Blutungsrisiko."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Gerinnselauflösende Mittel (Thrombolytika, z. B. Alteplase, Tenecteplase)",
+      "ref": [
+        "alteplase",
+        "tenecteplase"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien (z. B. Heparin, Enoxaparin, Phenprocoumon, DOAK)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; Heparin wird gezielt mitgegeben – Gerinnung (aPTT/ACT) engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Plättchenhemmer (z. B. ASS, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:p2y12-hemmer",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; ASS wird gezielt mitgegeben – auf Blutungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – möglichst vermeiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Blutungen (v. a. an der Punktionsstelle, auch Magen-Darm-, Harnwegs-, Zahnfleisch- und Nasenbluten)",
+      "Abfall des Hämoglobins (Blutverlust)"
+    ],
+    "haeufig": [
+      "Blutdruckabfall (Hypotonie)",
+      "Phlebitis (Venenentzündung)"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Zerebrale Ischämie (Durchblutungsstörung des Gehirns)"
+    ],
+    "sehrSelten": [
+      "Tödliche Blutungen, Hirn- und Lungenblutung",
+      "Akuter schwerer Abfall der Blutplättchen",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Hautausschlag, Nesselsucht"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur anwenden, wenn klar notwendig.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird nur im Spital als Injektion und Infusion gegeben, in der Regel zusammen mit ASS und Heparin.",
+    "Blutbild, Thrombozyten und Gerinnungswerte werden vor und während der Behandlung kontrolliert.",
+    "Blutungen, schwarzen Stuhl, Blut im Urin oder plötzliche starke Kopfschmerzen sofort melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,200 @@
+{
+  "id": "ropivacain",
+  "name": "Ropivacain",
+  "synonyme": [
+    "Ropivacainhydrochlorid",
+    "Ropivacaine"
+  ],
+  "atc": [
+    "N01BB09"
+  ],
+  "klasse": "Lokalanästhetikum (Amid-Typ, langwirksam)",
+  "kurz": "Lang wirkendes Mittel zur örtlichen Betäubung bei Operationen sowie zur Schmerzlinderung unter der Geburt und nach Operationen.",
+  "gruppen": [
+    "lokalanaesthetika",
+    "cyp1a2-substrate",
+    "blutdrucksenkend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Naropin",
+    "Ropivacain Fresenius",
+    "Ropivacain Sintetica"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Örtliche Betäubung bei Operationen: Periduralanästhesie (auch beim Kaiserschnitt), grössere Nervenblockaden, Infiltrationsanästhesie",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Behandlung akuter Schmerzen: Periduralanalgesie unter der Geburt und nach Operationen, Nervenblockaden, Wundinfiltration",
+      "ids": [
+        "schmerzen",
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Kinder: Schmerzbehandlung während und nach Operationen (z. B. Kaudalblock)",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Betäubt örtlich, indem es die Weiterleitung von Schmerzsignalen in den Nerven vorübergehend unterbricht. Ropivacain blockiert die spannungsabhängigen Natriumkanäle der Nervenmembran und verhindert so die Fortleitung von Aktionspotenzialen. Es ist als reines S-Enantiomer weniger herzschädigend als Bupivacain und blockiert in niedriger Dosis die Schmerzfasern stärker als die motorischen Nerven, sodass die Beweglichkeit oft erhalten bleibt. Der Abbau erfolgt in der Leber hauptsächlich über CYP1A2.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Lokalanästhetika vom Amid-Typ (z. B. Lidocain, Bupivacain)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Intravenöse Regionalanästhesie (Bier-Block)",
+      "ids": []
+    },
+    {
+      "text": "Parazervikalblock in der Geburtshilfe",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Hypovolämie (Flüssigkeitsmangel)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Allgemeine Gegenanzeigen der Periduralanästhesie, z. B. Gerinnungsstörungen, Infektion an der Einstichstelle, erhöhter Hirndruck",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "aktive-infektion",
+        "hirnoedem"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "AV-Block II. oder III. Grades und andere Reizleitungsstörungen",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (verlangsamter Abbau)",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Neugeborene und Säuglinge (unreifer Abbau)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP1A2-Hemmer (z. B. Fluvoxamin, Enoxacin)",
+      "ref": [
+        "fluvoxamin",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Ropivacainspiegel steigt deutlich (Fluvoxamin senkt die Ausscheidung um rund drei Viertel) – längere Anwendung vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer (bei Periduralanästhesie)",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Gefahr eines Blutergusses im Wirbelkanal mit Lähmungen – Absetzfristen vor der Punktion einhalten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika Klasse III (z. B. Amiodaron)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Additive Wirkung auf das Herz – EKG überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Lokalanästhetika und verwandte Antiarrhythmika (z. B. Lidocain, Mexiletin)",
+      "ref": [
+        "gruppe:lokalanaesthetika",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Additive toxische Wirkung auf Herz und Nervensystem – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypotonie (Blutdruckabfall)",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Kribbeln (Parästhesien), Schwindel, Kopfschmerzen",
+      "Bradykardie oder Tachykardie (langsamer oder schneller Puls)",
+      "Blutdruckanstieg",
+      "Erbrechen",
+      "Harnverhalt",
+      "Rückenschmerzen",
+      "Fieber, Schüttelfrost"
+    ],
+    "gelegentlich": [
+      "Angst",
+      "Zeichen einer Vergiftung des Nervensystems: Taubheit um den Mund, Ohrgeräusche, Sehstörungen, Muskelzucken, Krampfanfälle",
+      "Synkope (Ohnmacht)",
+      "Atemnot",
+      "Unterkühlung"
+    ],
+    "selten": [
+      "Herzrhythmusstörungen, Herzstillstand",
+      "Allergische Reaktionen bis zur Anaphylaxie, Angioödem"
+    ],
+    "unbekannt": [
+      "Dyskinesie (unwillkürliche Bewegungen)"
+    ]
+  },
+  "schwangerschaft": "Wird zur Schmerzlinderung unter der Geburt und beim Kaiserschnitt eingesetzt; ausserhalb der Geburtshilfe in der Schwangerschaft nur nach ärztlicher Abwägung.",
+  "stillzeit": "Der Übergang in die Muttermilch ist beim Menschen nicht untersucht; die zu erwartende Menge ist gering, Stillen ist nach Rücksprache in der Regel möglich.",
+  "hinweise": [
+    "Nach einer rückenmarknahen Betäubung können Gefühl und Kraft in den Beinen über Stunden fehlen – nur mit Hilfe aufstehen.",
+    "Blutverdünnende Medikamente und Fluvoxamin vor dem Eingriff angeben.",
+    "Taubheit um den Mund, Ohrensausen, Metallgeschmack oder Unruhe sofort melden (mögliche Zeichen einer Überdosierung)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "bumetanid",
+  "name": "Bumetanid",
+  "synonyme": [
+    "Bumetanide"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C03CA02"
+  ],
+  "klasse": "Schleifendiuretikum",
+  "kurz": "Stark und rasch harntreibendes Mittel (Schleifendiuretikum) gegen Wassereinlagerungen bei Herz-, Leber- oder Nierenerkrankungen.",
+  "gruppen": [
+    "schleifendiuretika",
+    "diuretika",
+    "blutdrucksenkend",
+    "hypokaliaemie-ausloesend",
+    "hyponatriaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend",
+    "ototoxisch",
+    "lithium-spiegel-erhoehend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Burinex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Ödeme (Wassereinlagerungen) bei Herzinsuffizienz, Lebererkrankungen und Nierenerkrankungen einschliesslich nephrotischem Syndrom",
+      "ids": [
+        "oedeme",
+        "herzinsuffizienz",
+        "leberzirrhose",
+        "nephrotisches-syndrom",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Akutes Lungenödem (Injektion)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schwemmt rasch und kräftig Wasser aus, indem es die Salzausscheidung über die Niere steigert. Bumetanid hemmt im aufsteigenden Teil der Henle-Schleife den Natrium-Kalium-2-Chlorid-Kotransporter, sodass grosse Mengen Natrium, Chlorid und Wasser ausgeschieden werden; auch Kalium, Magnesium und Calcium gehen vermehrt verloren. Die Wirkung setzt nach Einnahme innert etwa einer Stunde ein und hält einige Stunden an; gewichtsbezogen ist Bumetanid etwa 40-mal stärker als Furosemid.",
+  "kontraindikationen": [
+    {
+      "text": "Anurie (fehlende Harnproduktion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberkoma oder drohendes Leberkoma (hepatische Enzephalopathie)",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Schwere Elektrolytstörungen (z. B. ausgeprägter Kalium- oder Natriummangel)",
+      "ids": [
+        "hypokaliaemie",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Ausgeprägter Flüssigkeitsmangel (Dehydratation, Hypovolämie)",
+      "ids": [
+        "dehydratation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie möglich)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Harnabflussstörungen, z. B. Prostatavergrösserung (Gefahr eines akuten Harnverhalts)",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus und Gicht (Blutzucker und Harnsäure können steigen)",
+      "ids": [
+        "diabetes",
+        "gicht"
+      ]
+    },
+    {
+      "text": "Leberzirrhose (Elektrolytverschiebungen können ein Leberkoma auslösen)",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und tiefer Blutdruck (Gefahr von Flüssigkeitsmangel, Thrombosen und Stürzen)",
+      "ids": [
+        "aeltere-patienten",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Hörstörungen, besonders bei hohen Dosen, rascher Injektion oder Niereninsuffizienz",
+      "ids": [
+        "hoerstoerung",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Aminoglykoside und andere gehörschädigende Mittel (z. B. Gentamicin, Cisplatin)",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:ototoxisch"
+      ],
+      "effekt": "Verstärkte Gehör- und Nierenschädigung – möglichst vermeiden, sonst Spiegel, Nierenfunktion und Gehör kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigen – Gefahr einer Lithiumvergiftung; Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Kalium- und Magnesiummangel verstärken die Digitalis-Toxizität – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere kaliumsenkende Mittel (z. B. Thiazide, systemische Glukokortikoide, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:laxanzien"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, Sartane und andere Blutdrucksenker",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Starker Blutdruckabfall möglich, besonders bei der ersten Dosis und bei Flüssigkeitsmangel – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte harntreibende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nierenschädigende Mittel",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antidiabetika",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Die blutzuckersenkende Wirkung kann abnehmen – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hypokaliämie (Kaliummangel)",
+      "Hyponatriämie und Hypochlorämie (Natrium- und Chloridmangel)",
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Hyperurikämie (erhöhte Harnsäure)",
+      "Schwindel, Kopfschmerzen, Müdigkeit",
+      "Blutdruckabfall beim Aufstehen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Muskelkrämpfe",
+      "Hyperglykämie (erhöhter Blutzucker), Gichtanfall",
+      "Hörstörungen, Ohrensausen",
+      "Thrombozytopenie und andere Blutbildveränderungen",
+      "Schwere Hautreaktionen",
+      "Gynäkomastie (Brustvergrösserung beim Mann)",
+      "Akuter Harnverhalt",
+      "Akutes Nierenversagen"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit; nicht zur Behandlung von Schwangerschaftsödemen oder Schwangerschaftshochdruck (verminderte Durchblutung der Plazenta).",
+  "stillzeit": "Nicht empfohlen; kann die Milchbildung hemmen.",
+  "hinweise": [
+    "Morgens bzw. tagsüber einnehmen; die Wirkung setzt rasch ein.",
+    "Kalium, Natrium, Nierenwerte, Blutzucker und Harnsäure regelmässig kontrollieren; Körpergewicht beobachten.",
+    "Bei Schwindel, starkem Durst, Muskelkrämpfen oder Hörstörungen ärztlich melden.",
+    "Bei Durchfall, Erbrechen oder starkem Schwitzen droht Flüssigkeitsmangel – ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "bupivacain",
+  "name": "Bupivacain",
+  "synonyme": [
+    "Bupivacainhydrochlorid",
+    "Bupivacaine"
+  ],
+  "atc": [
+    "N01BB01"
+  ],
+  "klasse": "Lokalanästhetikum (Amid-Typ, langwirksam)",
+  "kurz": "Lang wirkendes Mittel zur örtlichen Betäubung, z. B. für Spinal- und Periduralanästhesie, Nervenblockaden und Schmerzlinderung bei der Geburt.",
+  "gruppen": [
+    "lokalanaesthetika",
+    "blutdrucksenkend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Carbostesin",
+    "Bupivacain Sintetica"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Hyperbare Injektionslösung (Spinalanästhesie)"
+  ],
+  "indikationen": [
+    {
+      "text": "Örtliche und regionale Betäubung bei Operationen: Infiltration, Nervenblockaden, Periduralanästhesie (Epiduralanästhesie) und Spinalanästhesie",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Schmerzlinderung unter der Geburt und nach Operationen",
+      "ids": [
+        "geburtshilfe",
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Betäubt örtlich, indem es die Weiterleitung von Nervensignalen – auch von Schmerzsignalen – vorübergehend unterbricht. Bupivacain blockiert die spannungsabhängigen Natriumkanäle der Nervenmembran und verhindert so die Entstehung und Fortleitung von Aktionspotenzialen. Die Wirkung setzt langsam ein, hält aber mehrere Stunden an. Gelangt zu viel davon ins Blut, blockiert es auch Natriumkanäle im Herzen und im Gehirn, was Herzrhythmusstörungen und Krampfanfälle auslösen kann.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Lokalanästhetika vom Amid-Typ (z. B. Lidocain, Ropivacain)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Intravenöse Regionalanästhesie (Bier-Block)",
+      "ids": []
+    },
+    {
+      "text": "0,75-%-Lösung zur Periduralanästhesie in der Geburtshilfe (Herzstillstände beschrieben)",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Spinal- und Periduralanästhesie bei Schock, schwerem Blutdruckabfall oder Flüssigkeitsmangel",
+      "ids": [
+        "schock",
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Spinal- und Periduralanästhesie bei Gerinnungsstörungen oder voller Antikoagulation",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Spinal- und Periduralanästhesie bei akuten Erkrankungen des Zentralnervensystems (z. B. Hirnhautentzündung, Hirnblutung), Blutvergiftung oder Infektion an der Einstichstelle",
+      "ids": [
+        "hirnblutung",
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "AV-Block, andere Reizleitungsstörungen oder Herzinsuffizienz",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (verlangsamter Abbau)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle bei zu hohen Blutspiegeln)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer (bei Spinal- und Periduralanästhesie)",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Gefahr eines Blutergusses im Wirbelkanal mit bleibenden Lähmungen – Absetzfristen vor der Punktion einhalten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika Klasse III (z. B. Amiodaron)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Additive Wirkung auf das Herz – EKG überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Lokalanästhetika und verwandte Antiarrhythmika (z. B. Lidocain, Mexiletin)",
+      "ref": [
+        "gruppe:lokalanaesthetika",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Additive toxische Wirkung auf Herz und Nervensystem – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Schmerzlinderung, aber auch Atemdämpfung möglich – Überwachung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypotonie (Blutdruckabfall)",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Kribbeln (Parästhesien), Schwindel",
+      "Bradykardie (langsamer Puls)",
+      "Blutdruckanstieg",
+      "Erbrechen",
+      "Harnverhalt"
+    ],
+    "gelegentlich": [
+      "Zeichen einer Vergiftung des Nervensystems: Taubheit um den Mund, Ohrgeräusche, Sehstörungen, Zittern, Krampfanfälle, Bewusstlosigkeit"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Herzrhythmusstörungen, Herzstillstand",
+      "Nervenschäden, Lähmungen bis Querschnittlähmung, Arachnoiditis (Entzündung der Rückenmarkshäute)",
+      "Atemdepression",
+      "Doppeltsehen"
+    ]
+  },
+  "schwangerschaft": "Wird seit Jahrzehnten in der Geburtshilfe eingesetzt; im ersten Schwangerschaftsdrittel nur nach Abwägung. Die 0,75-%-Lösung ist für die Periduralanästhesie unter der Geburt kontraindiziert.",
+  "stillzeit": "Geht nur in sehr geringen Mengen in die Muttermilch über; Stillen ist möglich.",
+  "hinweise": [
+    "Nach einer rückenmarknahen Betäubung können Gefühl und Kraft in den Beinen über Stunden fehlen – nur mit Hilfe aufstehen.",
+    "Blutverdünnende Medikamente vor dem Eingriff unbedingt angeben.",
+    "Taubheit um den Mund, Ohrensausen, Metallgeschmack oder Unruhe sofort melden (mögliche Zeichen einer Überdosierung)."
+  ],
+  "stand": "2026-10"
+}

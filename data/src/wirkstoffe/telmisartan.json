@@ -1,0 +1,80 @@
+{
+  "id": "telmisartan",
+  "name": "Telmisartan",
+  "synonyme": ["Telmisartanum"],
+  "atc": ["C09CA07"],
+  "klasse": "Angiotensin-II-Rezeptorblocker (Sartan, AT1-Antagonist)",
+  "kurz": "Blutdrucksenker aus der Gruppe der Sartane; beugt bei hohem Herz-Kreislauf-Risiko auch Herzinfarkt und Schlaganfall vor.",
+  "gruppen": ["sartane", "raas-hemmer", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "lithium-spiegel-erhoehend", "teratogen"],
+  "handelsnamen": ["Micardis", "Telmisartan Sandoz", "Telmisartan-Mepha", "MicardisPlus (Kombi)", "Twynsta (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck (essentielle Hypertonie) bei Erwachsenen", "ids": ["hypertonie"] },
+    { "text": "Vorbeugung von Herzinfarkt, Schlaganfall und Herz-Kreislauf-Tod bei Erwachsenen mit hohem Risiko: bekannte arteriosklerotische Gefässerkrankung (koronare Herzkrankheit, Schlaganfall, Schaufensterkrankheit) oder Typ-2-Diabetes mit Organschäden", "ids": ["herzinfarkt", "schlaganfall", "koronare-herzkrankheit"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Wirkung des gefässverengenden Hormons Angiotensin II blockiert. Telmisartan bindet selektiv und lang anhaltend an den Angiotensin-II-Rezeptor Typ 1 (AT1) und hebt so die gefässverengende und aldosteronfreisetzende Wirkung von Angiotensin II auf: Die Gefässe erweitern sich, Salz- und Wasserrückhaltung nehmen ab. Anders als ACE-Hemmer hemmt es den Abbau von Bradykinin nicht, weshalb trockener Reizhusten selten ist. Telmisartan wird fast vollständig über die Galle ausgeschieden und wirkt dank langer Halbwertszeit (rund 24 Stunden) über den ganzen Tag.",
+  "kontraindikationen": [
+    { "text": "Schwangerschaft im 2. und 3. Drittel (auch im 1. Drittel nicht empfohlen)", "ids": ["schwangerschaft"] },
+    { "text": "Obstruktive Gallenwegserkrankungen (Abflussstörung der Galle)", "ids": ["gallensteine"] },
+    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
+    { "text": "Hereditäre Fructoseintoleranz (Originalpräparat enthält Sorbitol)", "ids": ["fructoseintoleranz"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion, Nierenarterienstenose oder Zustand nach Nierentransplantation: Kalium und Kreatinin kontrollieren", "ids": ["niereninsuffizienz", "transplantation"] },
+    { "text": "Leichte bis mässige Leberinsuffizienz (verminderte Ausscheidung über die Galle)", "ids": ["leberinsuffizienz"] },
+    { "text": "Flüssigkeits- oder Salzmangel, z. B. durch hoch dosierte Diuretika, Erbrechen oder Durchfall: Gefahr eines starken Blutdruckabfalls", "ids": ["dehydratation", "hypotonie"] },
+    { "text": "Erhöhtes Kalium oder Neigung dazu", "ids": ["hyperkaliaemie"] },
+    { "text": "Aorten- oder Mitralklappenstenose, hypertrophe obstruktive Kardiomyopathie", "ids": ["herzklappenerkrankung", "kardiomyopathie"] },
+    { "text": "Koronare Herzkrankheit oder Durchblutungsstörungen des Gehirns: ein zu starker Blutdruckabfall kann Herzinfarkt oder Schlaganfall begünstigen", "ids": ["koronare-herzkrankheit", "schlaganfall"] },
+    { "text": "Diabetes mit Insulin oder anderen Blutzuckersenkern: Unterzuckerungen möglich", "ids": ["diabetes", "hypoglykaemie"] },
+    { "text": "Primärer Hyperaldosteronismus: spricht meist nicht an, Anwendung nicht empfohlen", "ids": [] },
+    { "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min/1,73 m²)", "ref": ["aliskiren"], "grund": "Die doppelte Hemmung des Renin-Angiotensin-Systems erhöht das Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen." }
+  ],
+  "interaktionen": [
+    { "text": "ACE-Hemmer oder Aliskiren (doppelte RAAS-Blockade)", "ref": ["gruppe:ace-hemmer", "aliskiren"], "effekt": "Mehr Blutdruckabfall, Hyperkaliämie und Nierenversagen ohne zusätzlichen Nutzen – Kombination vermeiden; bei diabetischer Nephropathie nicht zusammen mit einem ACE-Hemmer anwenden.", "schwere": "schwer" },
+    { "text": "Kaliumsparende Diuretika, Mineralokortikoid-Antagonisten, Kaliumpräparate, kaliumhaltige Salzersatzmittel und andere kaliumerhöhende Mittel (z. B. Trimethoprim, Heparin)", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten", "gruppe:kaliumpraeparate", "gruppe:hyperkaliaemie-ausloesend"], "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.", "schwere": "schwer" },
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithiumspiegel und -toxizität steigen – Kombination möglichst meiden, sonst Lithiumspiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "NSAR inkl. COX-2-Hemmer und hoch dosierte Acetylsalicylsäure", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Abgeschwächte Blutdrucksenkung; bei älteren oder ausgetrockneten Personen Gefahr eines akuten Nierenversagens – genügend trinken, Nierenfunktion kontrollieren.", "schwere": "mittel" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spitzenspiegel steigen um rund die Hälfte – Digoxinspiegel bei Beginn, Dosisänderung und Absetzen von Telmisartan kontrollieren.", "schwere": "mittel" },
+    { "text": "Andere Blutdrucksenker, besonders hoch dosierte Diuretika", "ref": ["gruppe:blutdrucksenkend", "gruppe:diuretika"], "effekt": "Verstärkte Blutdrucksenkung; bei vorbestehendem Flüssigkeitsmangel starker Blutdruckabfall zu Beginn möglich.", "schwere": "mittel" },
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Unterzuckerungen möglich – Blutzucker zu Beginn häufiger messen.", "schwere": "leicht" },
+    { "text": "Alkohol, Barbiturate, Opioide, Antidepressiva", "ref": ["gruppe:barbiturate", "gruppe:opioide", "gruppe:trizyklische-antidepressiva"], "effekt": "Schwindel und Blutdruckabfall beim Aufstehen können verstärkt werden.", "schwere": "leicht" },
+    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Schwächen die Blutdrucksenkung ab.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Hypotonie (tiefer Blutdruck), auch beim Aufstehen – bei Behandlung zur Herz-Kreislauf-Vorbeugung häufig",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Nierenfunktionsstörung bis zum akuten Nierenversagen, erhöhtes Kreatinin",
+      "Synkope (kurze Ohnmacht), Vertigo (Drehschwindel), Bradykardie (langsamer Puls)",
+      "Harnwegsinfekte und Infekte der oberen Atemwege (z. B. Rachenentzündung, Sinusitis)",
+      "Bauchschmerzen, Durchfall, Verdauungsbeschwerden, Blähungen, Erbrechen",
+      "Muskelschmerzen, Muskelkrämpfe, Rückenschmerzen",
+      "Anämie (Blutarmut)"
+    ],
+    "selten": [
+      "Angioödem (Schwellung von Gesicht, Zunge oder Rachen), auch lebensbedrohlich",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Sepsis (Blutvergiftung), auch mit tödlichem Verlauf",
+      "Hypoglykämie (Unterzuckerung) bei Diabetikern",
+      "Thrombozytopenie (Mangel an Blutplättchen), Eosinophilie",
+      "Leberfunktionsstörung, erhöhte Leberwerte",
+      "Hautausschläge (Ekzem, Nesselsucht, toxischer Hautausschlag)",
+      "Gelenk- und Sehnenschmerzen"
+    ],
+    "sehrSelten": ["Interstitielle Lungenerkrankung"]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen, im 2. und 3. Drittel kontraindiziert (Schäden an Nieren und Schädelknochen des Ungeborenen, Fruchtwassermangel). Bei Kinderwunsch oder festgestellter Schwangerschaft rasch auf ein geeignetes Mittel umstellen.",
+  "stillzeit": "Nicht empfohlen, da Daten fehlen; besser untersuchte Alternativen wählen, besonders bei Neu- und Frühgeborenen.",
+  "hinweise": [
+    "Einmal täglich, mit oder ohne Essen; die volle Blutdrucksenkung wird nach 4–8 Wochen erreicht.",
+    "Kalium und Nierenwerte zu Beginn und regelmässig kontrollieren lassen.",
+    "Bei Durchfall, Erbrechen oder starkem Schwitzen ärztlich Rücksprache nehmen – Gefahr von Blutdruckabfall und Nierenversagen.",
+    "Zu Beginn können Schwindel und Müdigkeit die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,215 @@
+{
+  "id": "artemether-lumefantrin",
+  "name": "Artemether + Lumefantrin",
+  "synonyme": [
+    "Artemether/Lumefantrine",
+    "Co-Artemether"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "P01BF01"
+  ],
+  "klasse": "Artemisinin-Kombinationstherapie (Antimalariamittel)",
+  "kurz": "Malariamittel aus zwei Wirkstoffen zur Behandlung der akuten, unkomplizierten Malaria tropica; nicht zur Vorbeugung.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "cyp3a4-substrate-empfindlich",
+    "enzyminduktoren-hormone"
+  ],
+  "handelsnamen": [
+    "Riamet"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung der akuten, unkomplizierten Malaria durch Plasmodium falciparum (Malaria tropica) bei Erwachsenen und Kindern ab 5 kg",
+      "ids": [
+        "malaria"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Malariaerreger in den roten Blutkörperchen ab. Beide Wirkstoffe stören im Parasiten die Entgiftung des Häms, das beim Abbau von Hämoglobin entsteht. Artemether und sein aktiver Metabolit Dihydroartemisinin bilden über ihre Endoperoxidbrücke reaktive Radikale und senken die Parasitenzahl sehr rasch; das lang wirksame Lumefantrin beseitigt die verbleibenden Erreger und verhindert Rückfälle. Gegen ruhende Leberformen von P. vivax und P. ovale wirkt die Kombination nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere (komplizierte) Malaria",
+      "ids": [
+        "malaria"
+      ]
+    },
+    {
+      "text": "Angeborene oder bekannte QT-Verlängerung, plötzlicher Herztod in der Familie",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Symptomatische Herzrhythmusstörungen, klinisch relevante Bradykardie oder schwere Herzinsuffizienz mit verminderter Auswurfleistung",
+      "ids": [
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Störungen des Elektrolythaushalts wie Hypokaliämie oder Hypomagnesiämie",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung (EKG und Kalium kontrollieren)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Patientinnen und Patienten, die nicht essen können (deutlich schlechtere Aufnahme, Gefahr von Therapieversagen)",
+      "ids": []
+    },
+    {
+      "text": "Kinder unter 5 kg: keine ausreichenden Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Kurz zuvor mit Mefloquin, Chinin oder Halofantrin behandelt (QT-Verlängerung)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Malaria durch P. vivax oder P. ovale: anschliessende Behandlung der Leberformen nötig",
+      "ids": [
+        "malaria"
+      ]
+    },
+    {
+      "text": "Hormonale Verhütung (Schutz kann vermindert sein)",
+      "ids": [
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "QT-Zeit verlängernde Arzneimittel (z. B. Antiarrhythmika der Klassen IA und III, Antipsychotika, bestimmte Antidepressiva, Makrolide, Fluorchinolone, Azol-Antimykotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:antipsychotika",
+        "gruppe:makrolide",
+        "gruppe:fluorchinolone",
+        "gruppe:azol-antimykotika"
+      ],
+      "grund": "Die Wirkungen auf die QT-Zeit addieren sich – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    },
+    {
+      "text": "Arzneimittel, die über CYP2D6 abgebaut werden (z. B. Flecainid, Metoprolol, Imipramin, Amitriptylin, Clomipramin)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "flecainid",
+        "metoprolol",
+        "imipramin",
+        "amitriptylin",
+        "clomipramin"
+      ],
+      "grund": "Lumefantrin hemmt CYP2D6, die Spiegel dieser Mittel steigen – Gefahr von Herzrhythmusstörungen und anderen Überdosierungszeichen."
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "grund": "Die Spiegel von Artemether und Lumefantrin sinken stark – Gefahr von Therapieversagen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Lumefantrin-Spiegel steigen – Gefahr der QT-Verlängerung; nur mit Vorsicht und EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Der Verhütungsschutz kann vermindert sein – zusätzlich während etwa eines Monats eine nichthormonale Methode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mefloquin (vorangehende Behandlung)",
+      "ref": [
+        "mefloquin"
+      ],
+      "effekt": "Etwas tiefere Lumefantrin-Spiegel und additive Wirkung auf die QT-Zeit – auf Nahrungsaufnahme achten, EKG beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "HIV-Medikamente (Proteasehemmer, Efavirenz, Nevirapin, Etravirin)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:nnrti"
+      ],
+      "effekt": "Veränderte Spiegel auf beiden Seiten – verminderte Malaria- oder HIV-Wirkung bzw. stärkere QT-Verlängerung möglich; nur mit Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Kann die Spiegel von Artemether und Lumefantrin erhöhen – während der Behandlung meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Appetitlosigkeit",
+      "Bauchschmerzen",
+      "Schlafstörungen",
+      "Herzklopfen (Palpitationen)",
+      "Gelenk- und Muskelschmerzen",
+      "Schwäche, Müdigkeit"
+    ],
+    "haeufig": [
+      "Übelkeit, Erbrechen, Durchfall",
+      "QT-Verlängerung im EKG",
+      "Hautausschlag, Juckreiz",
+      "Husten",
+      "Missempfindungen (Parästhesien), unwillkürliche Muskelzuckungen",
+      "Gangstörungen"
+    ],
+    "gelegentlich": [
+      "Schläfrigkeit",
+      "Nesselsucht",
+      "Koordinationsstörungen (Ataxie), verminderte Hautempfindung",
+      "Erhöhte Leberwerte"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen, Angioödem"
+    ]
+  },
+  "schwangerschaft": "Im ersten Schwangerschaftsdrittel nur, wenn keine andere geeignete Malariabehandlung verfügbar ist; im zweiten und dritten Drittel nach ärztlicher Abwägung.",
+  "stillzeit": "Während der Behandlung und bis mindestens eine Woche nach der letzten Dosis nicht stillen (lange Halbwertszeit von Lumefantrin).",
+  "hinweise": [
+    "Jede Dosis mit einer fetthaltigen Mahlzeit oder Milch einnehmen – sonst wird Lumefantrin schlecht aufgenommen.",
+    "Alle 6 Dosen über 3 Tage vollständig einnehmen; bei Erbrechen innerhalb einer Stunde die Dosis wiederholen.",
+    "Nicht zur Malariavorbeugung geeignet. Als Notfall-Selbstbehandlung auf Reisen nur nach ärztlicher Beratung und danach trotzdem rasch ärztliche Kontrolle.",
+    "Bei Schwindel oder Müdigkeit nicht Auto fahren."
+  ],
+  "stand": "2026-10"
+}

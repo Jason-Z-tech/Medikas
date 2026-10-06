@@ -1,0 +1,163 @@
+{
+  "id": "haemofiltrationsloesung",
+  "name": "Hämofiltrationslösung",
+  "synonyme": [
+    "Substitutionslösung für die Hämofiltration",
+    "Dialyselösung für die kontinuierliche Nierenersatztherapie",
+    "CRRT-Lösung"
+  ],
+  "atc": [
+    "B05ZB"
+  ],
+  "klasse": "Elektrolyt-Bicarbonat-Lösung zur Hämofiltration und Hämodialyse (Nierenersatztherapie)",
+  "kurz": "Spezielle Salzlösung für die Blutwäsche auf der Intensivstation; ersetzt bei akutem Nierenversagen entzogene Flüssigkeit und Salze.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Prismasol",
+    "Phoxilium",
+    "Biphozyl",
+    "multiBic"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Lösung zur Hämofiltration und Hämodialyse (Zweikammerbeutel)"
+  ],
+  "indikationen": [
+    {
+      "text": "Kontinuierliche Nierenersatztherapie (Hämofiltration, Hämodialyse, Hämodiafiltration) bei akutem Nierenversagen, als Ersatz- (Substitutions-) oder Dialyselösung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Je nach Präparat auch bei Vergiftungen mit dialysierbaren oder filtrierbaren Stoffen",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt bei der Blutwäsche die Flüssigkeit und die Salze, die zusammen mit den Abfallstoffen aus dem Blut entfernt werden. Bei der Hämofiltration wird das Blut über einen Filter geleitet; mit dem Filtrat gehen Harnstoff, Kreatinin, Kalium und andere wasserlösliche Stoffe verloren, und die Lösung wird dem Blut in angepasster Menge zurückgegeben. Bei der Hämodialyse fliesst sie als Dialysat auf der anderen Seite der Membran, und gelöste Stoffe wandern entlang des Konzentrationsgefälles. Das enthaltene Bicarbonat gleicht eine Übersäuerung aus; die Zusammensetzung (Kalium, Calcium, Phosphat, Glucose) wird nach den Laborwerten gewählt.",
+  "kontraindikationen": [
+    {
+      "text": "Hyperkaliämie (bei kaliumhaltigen Lösungen)",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Metabolische Alkalose (bei bicarbonathaltigen Lösungen)",
+      "ids": []
+    },
+    {
+      "text": "Hyperphosphatämie (bei phosphathaltigen Lösungen wie Phoxilium oder Biphozyl)",
+      "ids": [
+        "hyperphosphataemie"
+      ]
+    },
+    {
+      "text": "Für das Verfahren: zu geringer Blutfluss am Gefässzugang, akutes Nierenversagen mit ausgeprägtem Eiweissabbau, wenn die Urämie durch Hämofiltration nicht beherrschbar ist, sowie Zustände mit erhöhtem Blutungsrisiko unter systemischer Antikoagulation",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Elektrolyte (Kalium, Natrium, Calcium, Magnesium, Phosphat) und Säure-Basen-Haushalt engmaschig kontrollieren; kaliumarme bzw. phosphatfreie Lösungen können eine Hypokaliämie bzw. Hypophosphatämie auslösen",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsbilanz genau überwachen (Gefahr von Über- oder Unterwässerung)",
+      "ids": [
+        "dehydratation",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Diabetes: glucosehaltige Lösungen können den Blutzucker erhöhen, glucosefreie ihn senken – Blutzucker kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Calciumfreie Lösungen und Citrat-Antikoagulation: ionisiertes Calcium überwachen (Gefahr der Hypokalzämie)",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Lactathaltige Lösungen bei schwerer Leberinsuffizienz oder Laktatazidose meiden",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein durch die Behandlung gesunkenes Kalium erhöht die Gefahr digitalisbedingter Herzrhythmusstörungen – Kalium und Digoxinspiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Arzneimittel, die durch Filtration oder Dialyse entfernt werden (z. B. viele Antibiotika)",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:glykopeptide",
+        "gruppe:carbapeneme"
+      ],
+      "effekt": "Ihre Blutspiegel können sinken – Dosis anpassen und, wenn möglich, Spiegel bestimmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumpräparate und andere kaliumhaltige Infusionen",
+      "ref": [
+        "gruppe:kaliumpraeparate"
+      ],
+      "effekt": "Gefahr einer Hyperkaliämie – Kalium engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Natriumhydrogencarbonat und andere Puffer",
+      "ref": [
+        "natriumhydrogencarbonat"
+      ],
+      "effekt": "Verstärkte Alkalisierung, Gefahr einer metabolischen Alkalose – Säure-Basen-Haushalt kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin D und calciumhaltige Präparate",
+      "ref": [
+        "gruppe:hyperkalzaemie-ausloesend",
+        "calcium"
+      ],
+      "effekt": "Mit calciumhaltigen Lösungen erhöhtes Risiko einer Hyperkalzämie – Calcium kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Elektrolytstörungen (z. B. Hypo- oder Hyperkaliämie, Hypophosphatämie, Hypo- oder Hyperkalzämie)",
+      "Störungen des Säure-Basen-Haushalts (metabolische Alkalose oder Azidose)",
+      "Über- oder Unterwässerung (Hypervolämie, Hypovolämie)",
+      "Hypotonie (Blutdruckabfall)",
+      "Übelkeit, Erbrechen",
+      "Muskelkrämpfe",
+      "Blutzuckerschwankungen"
+    ]
+  },
+  "schwangerschaft": "Keine Daten; Anwendung, wenn die Nierenersatztherapie klar notwendig ist.",
+  "stillzeit": "Keine Daten; Anwendung, wenn die Nierenersatztherapie klar notwendig ist.",
+  "hinweise": [
+    "Wird nur im Spital (meist auf der Intensivstation) mit einem Hämofiltrations- bzw. Dialysegerät angewendet.",
+    "Die beiden Kammern des Beutels werden unmittelbar vor Gebrauch gemischt; vor und während der Behandlung werden Elektrolyte, Blutgase und Blutzucker regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

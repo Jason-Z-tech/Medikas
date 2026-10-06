@@ -1,0 +1,231 @@
+{
+  "id": "sumatriptan",
+  "name": "Sumatriptan",
+  "synonyme": [
+    "Sumatriptan succinate",
+    "Sumatriptanum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N02CC01"
+  ],
+  "klasse": "Triptan (selektiver Serotonin-5-HT1B/1D-Rezeptoragonist), Migränemittel",
+  "kurz": "Migränemittel aus der Gruppe der Triptane gegen den akuten Migräneanfall; als Spritze auch bei Cluster-Kopfschmerz.",
+  "gruppen": [
+    "triptane",
+    "serotonerg",
+    "vasokonstriktorisch"
+  ],
+  "handelsnamen": [
+    "Imigran",
+    "Sumatriptan Mepha",
+    "Sumatriptan Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Nasenspray",
+    "Injektionslösung (Fertigspritze/Autoinjektor)"
+  ],
+  "indikationen": [
+    {
+      "text": "Akutbehandlung von Migräneanfällen mit oder ohne Aura",
+      "ids": [
+        "migraene"
+      ]
+    },
+    {
+      "text": "Akutbehandlung von Cluster-Kopfschmerz-Attacken (nur Injektion)",
+      "ids": [
+        "kopfschmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert den Migränekopfschmerz, indem es erweiterte Blutgefässe im Kopf verengt und die Freisetzung entzündlicher Botenstoffe bremst. Sumatriptan ist ein selektiver Agonist an Serotonin-5-HT1B- und -5-HT1D-Rezeptoren: Über 5-HT1B verengt es erweiterte kraniale Gefässe, über 5-HT1D hemmt es die Ausschüttung von Neuropeptiden wie CGRP aus den Endigungen des Trigeminusnervs. Es wirkt nur im Anfall, nicht vorbeugend. Der Abbau erfolgt hauptsächlich über die Monoaminoxidase A (MAO-A).",
+  "kontraindikationen": [
+    {
+      "text": "Herzinfarkt in der Vorgeschichte, koronare Herzkrankheit, Prinzmetal-Angina (Gefässkrampf-Angina) oder Zeichen einer Durchblutungsstörung des Herzens",
+      "ids": [
+        "herzinfarkt",
+        "koronare-herzkrankheit",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Periphere arterielle Verschlusskrankheit (Schaufensterkrankheit)",
+      "ids": [
+        "pavk"
+      ]
+    },
+    {
+      "text": "Schlaganfall oder vorübergehende Hirndurchblutungsstörung (TIA) in der Vorgeschichte",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Mittelschwerer bis schwerer oder nicht eingestellter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Risikofaktoren für Herz-Kreislauf-Erkrankungen (z. B. Rauchen, Diabetes, Männer über 40, Frauen nach den Wechseljahren): vor Behandlungsbeginn ärztlich abklären",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "rauchen",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Leichter, gut eingestellter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erniedrigte Krampfschwelle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Sulfonamid-Allergie (mögliche Kreuzreaktion)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Untypische Kopfschmerzen sowie hemiplegische oder Basilaris-Migräne: nicht anwenden, zuerst ärztlich abklären",
+      "ids": [
+        "migraene",
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Häufige Einnahme (an mehr als 10 Tagen pro Monat) kann einen Kopfschmerz durch Medikamentenübergebrauch auslösen",
+      "ids": [
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Personen über 65 Jahre und Kinder (begrenzte Erfahrung)",
+      "ids": [
+        "aeltere-patienten",
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ergotamin und andere Ergotalkaloide (Abstand: 24 Stunden vor bzw. 6 Stunden nach Sumatriptan)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Additive Gefässverengung mit Gefahr von Herz- und Durchblutungsstörungen."
+    },
+    {
+      "text": "MAO-Hemmer (auch bis 2 Wochen nach dem Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Der Abbau von Sumatriptan über MAO-A wird gehemmt – stark erhöhte Spiegel und Nebenwirkungen."
+    },
+    {
+      "text": "Andere Triptane",
+      "ref": [
+        "gruppe:triptane"
+      ],
+      "grund": "Additive Gefässverengung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Selten Serotoninsyndrom (Unruhe, Zittern, Fieber, Herzrasen) – auf Warnzeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "effekt": "Erhöhtes Risiko für serotonerge Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Möglicherweise erhöhtes Risiko für ein Serotoninsyndrom.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere serotonerge Mittel (z. B. Tramadol, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Additive serotonerge Wirkung – Serotoninsyndrom möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schwindel, Schläfrigkeit",
+      "Kribbeln oder Taubheitsgefühl (Parästhesien), Hitze- oder Kältegefühl",
+      "Vorübergehender Blutdruckanstieg, Gesichtsrötung (Flush)",
+      "Atemnot (Dyspnoe)",
+      "Übelkeit, Erbrechen",
+      "Schwere-, Druck- oder Engegefühl in Brust, Hals oder Gliedern",
+      "Müdigkeit, Schwächegefühl, Muskelschmerzen",
+      "Schmerzen, Brennen, Rötung oder Schwellung an der Einstichstelle (Injektion)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [
+      "Leichte Veränderungen der Leberwerte"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie (schwere allergische Reaktion)",
+      "Koronare Gefässkrämpfe, Angina pectoris, Herzinfarkt",
+      "Herzrhythmusstörungen (Herzrasen, verlangsamter Puls)",
+      "Krampfanfälle, Zittern, Bewegungsstörungen",
+      "Sehstörungen (Flimmern, Doppelbilder, vorübergehender Sehverlust)",
+      "Ischämische Kolitis (Darmentzündung durch Minderdurchblutung)",
+      "Blutdruckabfall, Raynaud-Phänomen (weisse Finger)",
+      "Durchfall"
+    ]
+  },
+  "schwangerschaft": "Daten aus Registern mit über 1000 Schwangerschaften zeigen kein erhöhtes Fehlbildungsrisiko; Anwendung nur nach ärztlicher Abwägung.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; nach der Anwendung 12 Stunden nicht stillen (Milch abpumpen und verwerfen).",
+  "hinweise": [
+    "Erst bei Beginn des Kopfschmerzes anwenden, nicht vorbeugend während der Aura; hilft die erste Dosis nicht, bei derselben Attacke keine zweite Dosis nehmen.",
+    "Bei Brustschmerzen oder starkem Engegefühl nach der Anwendung ärztlich abklären lassen.",
+    "Akutmittel gegen Migräne an höchstens 10 Tagen pro Monat verwenden, sonst droht Kopfschmerz durch Medikamentenübergebrauch.",
+    "Kann Schläfrigkeit verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

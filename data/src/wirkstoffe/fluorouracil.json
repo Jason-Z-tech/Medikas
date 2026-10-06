@@ -1,0 +1,248 @@
+{
+  "id": "fluorouracil",
+  "name": "Fluorouracil",
+  "synonyme": [
+    "5-FU",
+    "5-Fluorouracil",
+    "Fluorouracilum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01BC02"
+  ],
+  "klasse": "Zytostatikum (Pyrimidin-Antimetabolit, Fluoropyrimidin)",
+  "kurz": "Zytostatikum gegen Darm-, Magen-, Brust- und andere Krebsarten; als Creme gegen Hautkrebsvorstufen, als Lösung gegen Warzen.",
+  "gruppen": [
+    "fluoropyrimidine",
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "kardiotoxisch",
+    "photosensibilisierend",
+    "cyp2c9-hemmer"
+  ],
+  "handelsnamen": [
+    "Efudix",
+    "Fluorouracil Teva",
+    "Actikerall (Kombi)",
+    "Verrumal (Kombi)"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Creme",
+    "Lösung zum Auftragen auf die Haut",
+    "Injektions- bzw. Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Infusion: Darmkrebs (auch nach Operation), Magen- und Speiseröhrenkrebs, Bauchspeicheldrüsenkrebs, Brustkrebs, Kopf-Hals-Tumoren, meist in Kombination",
+      "ids": [
+        "darmkrebs",
+        "magen-speiseroehren-krebs",
+        "bauchspeicheldruesenkrebs",
+        "brustkrebs",
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Creme: aktinische Keratosen (Hautkrebsvorstufen), Morbus Bowen und oberflächliche Basalzellkarzinome, wenn andere Behandlungen nicht in Frage kommen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Lösung mit Salicylsäure: aktinische Keratosen (Actikerall) bzw. Warzen (Verrumal)",
+      "ids": [
+        "warzen",
+        "hautkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Teilung schnell wachsender Zellen, indem es die Herstellung von Erbgut stört. Fluorouracil wird in der Zelle zu FdUMP umgewandelt, das die Thymidylat-Synthase blockiert und so die DNA-Synthese hemmt; als FUTP wird es zudem fehlerhaft in die RNA eingebaut. Folinsäure verstärkt die Hemmung der Thymidylat-Synthase. Der Abbau erfolgt über das Enzym Dihydropyrimidin-Dehydrogenase (DPD); bei DPD-Mangel drohen schwere, teils tödliche Vergiftungen. Auf der Haut zerstört es gezielt die sich rasch teilenden, krankhaft veränderten Zellen.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannter vollständiger Mangel des Abbauenzyms DPD (Dihydropyrimidin-Dehydrogenase)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Infusion: schwere Knochenmarkschädigung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Infusion: schwere Infektionen (z. B. Gürtelrose, Windpocken) oder stark geschwächter Allgemeinzustand",
+      "ids": [
+        "aktive-infektion",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Schwangerschaft (auch Creme und Lösung)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Teilweiser DPD-Mangel: vor einer Infusionstherapie testen, Dosis anpassen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten: Gefässkrämpfe der Herzkranzgefässe, Angina pectoris bis Herzinfarkt möglich",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: mehr Nebenwirkungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Behandlung mit Blutverdünnern: INR engmaschig kontrollieren",
+      "ids": [
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Creme/Lösung: Sonne meiden, nicht auf Schleimhäute oder Augen; grossflächige Anwendung kann zu Aufnahme in den Körper führen",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Frauen und Männer mit Kinderwunsch: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Brivudin (Mittel gegen Gürtelrose) innerhalb der letzten 4 Wochen",
+      "ref": [
+        "brivudin"
+      ],
+      "grund": "Brivudin hemmt das Abbauenzym DPD dauerhaft – Fluorouracil reichert sich an, tödliche Vergiftungen sind beschrieben (gilt auch für Creme und Lösung)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Stark erhöhter INR und Blutungen möglich – INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während einer systemischen Behandlung nicht mit Lebendimpfstoffen impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel kann gefährlich steigen – Spiegel regelmässig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Folinsäure",
+      "ref": [
+        "folinsaeure"
+      ],
+      "effekt": "Verstärkt Wirkung und Nebenwirkungen (gezielt kombiniert) – Dosierung nach Schema.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metronidazol",
+      "ref": [
+        "metronidazol"
+      ],
+      "effekt": "Verminderter Abbau von Fluorouracil – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung (Neutropenie, Thrombozytopenie, Anämie)",
+      "Entzündungen der Schleimhäute in Mund, Speiseröhre und Darm",
+      "Durchfall, Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Haarausfall",
+      "Hand-Fuss-Syndrom (schmerzhafte Rötung von Handflächen und Fusssohlen)",
+      "Müdigkeit, Schwäche",
+      "Creme/Lösung: Rötung, Brennen, Schmerzen, Krusten und Erosionen an der behandelten Haut (erwartete Reaktion)"
+    ],
+    "haeufig": [
+      "Fieber bei Neutropenie (febrile Neutropenie)",
+      "Brustschmerzen und Durchblutungsstörungen des Herzens (EKG-Veränderungen)"
+    ],
+    "gelegentlich": [
+      "Herzrhythmusstörungen, Herzinfarkt, Herzmuskelentzündung, Herzinsuffizienz",
+      "Magen-Darm-Geschwüre und -Blutungen",
+      "Sepsis (Blutvergiftung), Flüssigkeitsmangel",
+      "Augenbeschwerden (Tränenfluss, verschwommenes Sehen, Augenzittern)",
+      "Kopfschmerzen, Schwindel, Bewegungsstörungen",
+      "Hautausschlag, Lichtempfindlichkeit, Pigment- und Nagelveränderungen"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "sehrSelten": [
+      "Leukenzephalopathie (Schädigung der weissen Hirnsubstanz)",
+      "Herzstillstand, plötzlicher Herztod",
+      "Akutes Nierenversagen"
+    ],
+    "unbekannt": [
+      "Hyperammonämische Enzephalopathie (Verwirrtheit durch erhöhtes Ammoniak)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, auch als Creme oder Lösung (fruchtschädigend). Frauen und Männer müssen während und einige Monate nach einer Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Vor einer Infusionstherapie wird auf einen DPD-Mangel getestet.",
+    "Kein Brivudin (Gürtelrosemittel) während der Behandlung sowie in den 4 Wochen davor und danach – auch nicht bei Anwendung der Creme.",
+    "Creme nur auf die betroffenen Hautstellen auftragen, danach Hände waschen; Sonne meiden. Die gewollte Hautentzündung heilt nach Behandlungsende ab.",
+    "Bei starkem Durchfall, Mundgeschwüren, Fieber oder Brustschmerzen sofort ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

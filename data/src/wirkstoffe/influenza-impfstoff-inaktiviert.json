@@ -1,0 +1,163 @@
+{
+  "id": "influenza-impfstoff-inaktiviert",
+  "name": "Influenza-Impfstoff (inaktiviert)",
+  "synonyme": [
+    "Grippeimpfstoff",
+    "Grippeimpfung",
+    "Influenza vaccine (inactivated)",
+    "Inaktivierter Influenza-Impfstoff"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J07BB02"
+  ],
+  "klasse": "Virusimpfstoff (inaktiviert, Spalt- oder Untereinheitenimpfstoff)",
+  "kurz": "Totimpfstoff gegen die saisonale Grippe; jährlich im Herbst empfohlen, besonders für ältere Menschen, Schwangere und chronisch Kranke.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Vaxigrip",
+    "Fluarix",
+    "Influvac",
+    "Efluelda"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionssuspension in Fertigspritze"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung der saisonalen Grippe (Influenza) bei Kindern ab 6 Monaten und Erwachsenen; Hochdosis-Impfstoff (Efluelda) für ältere Menschen",
+      "ids": [
+        "influenza",
+        "impfung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt das Immunsystem an, Abwehrstoffe gegen die in der kommenden Saison erwarteten Grippeviren zu bilden. Der Impfstoff enthält abgetötete, gespaltene Viren oder gereinigte Oberflächenproteine (Hämagglutinin, Neuraminidase) von Influenza-A- und -B-Stämmen; die Zusammensetzung wird jedes Jahr nach Empfehlung der WHO angepasst. Antikörper gegen das Hämagglutinin verhindern, dass die Viren in die Zellen eindringen. Der Schutz beginnt etwa 2 Wochen nach der Impfung und hält etwa eine Saison an; der Hochdosis-Impfstoff enthält die vierfache Antigenmenge für eine stärkere Antwort im Alter.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere allergische Reaktion auf eine frühere Grippeimpfung oder auf Herstellungsrückstände wie Neomycin, Gentamicin oder Formaldehyd (je nach Präparat)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Akute Erkrankung mit Fieber (Impfung verschieben)",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Hühnereiweissallergie: Spuren von Eiweiss möglich – ärztlich abklären; nach früherer Anaphylaxie Impfung unter Beobachtung",
+      "ids": [
+        "latexallergie"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie, Blutgerinnungsstörung oder Behandlung mit Blutverdünnern (Injektion in den Muskel)",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Geschwächtes Immunsystem: schwächere Impfantwort, Impfung trotzdem empfohlen",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Neigung zu Ohnmacht bei Spritzen",
+      "ids": [
+        "synkope"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Immunsuppressiva, Zytostatika und hoch dosierte Glukokortikoide",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Schwächere Impfantwort möglich; die Impfung wird trotzdem empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "B-Zell-depletierende Antikörper (z. B. Rituximab, Ocrelizumab, Ofatumumab)",
+      "ref": [
+        "rituximab",
+        "ocrelizumab",
+        "ofatumumab"
+      ],
+      "effekt": "Stark verminderte Impfantwort – Impfzeitpunkt mit der behandelnden Ärztin oder dem Arzt abstimmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutverdünner (Antikoagulanzien)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Blutergüsse an der Einstichstelle möglich – nach der Injektion fest drücken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Impfstoffe (z. B. COVID-19-, Pneumokokken- oder RSV-Impfstoff)",
+      "ref": [
+        "covid-19-impfstoff-mrna",
+        "pneumokokken-konjugatimpfstoff",
+        "rsv-impfstoff"
+      ],
+      "effekt": "Gleichzeitige Gabe an verschiedenen Körperstellen möglich; Impfreaktionen können etwas häufiger sein.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schmerzen an der Einstichstelle",
+      "Kopfschmerzen",
+      "Muskelschmerzen",
+      "Unwohlsein, Müdigkeit"
+    ],
+    "haeufig": [
+      "Rötung, Schwellung und Verhärtung an der Einstichstelle",
+      "Fieber, Schüttelfrost",
+      "Gelenkschmerzen",
+      "Schwitzen"
+    ],
+    "gelegentlich": [
+      "Schwindel",
+      "Übelkeit, Durchfall",
+      "Bluterguss, Juckreiz und Wärmegefühl an der Einstichstelle"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen (Ausschlag, Juckreiz)",
+      "Lymphknotenschwellung",
+      "Kribbeln (Parästhesien)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Vorübergehende Thrombozytopenie (Mangel an Blutplättchen)",
+      "Guillain-Barré-Syndrom (Nervenentzündung mit Lähmungen) und andere Nervenentzündungen",
+      "Vaskulitis (Gefässentzündung)",
+      "Fieberkrämpfe"
+    ]
+  },
+  "schwangerschaft": "Kann in jedem Schwangerschaftsdrittel gegeben werden und wird Schwangeren in der Schweiz empfohlen; die Impfung schützt auch das Neugeborene in den ersten Lebensmonaten.",
+  "stillzeit": "Impfung während der Stillzeit möglich.",
+  "hinweise": [
+    "Jährlich impfen, idealerweise zwischen Mitte Oktober und Beginn der Grippewelle, da sich die Viren laufend verändern.",
+    "Der Schutz beginnt nach etwa 2 Wochen; die Impfung schützt nicht vor Erkältungen durch andere Viren.",
+    "Kinder unter 9 Jahren, die zum ersten Mal gegen Grippe geimpft werden, erhalten 2 Dosen im Abstand von 4 Wochen."
+  ],
+  "stand": "2026-10"
+}

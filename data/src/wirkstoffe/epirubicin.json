@@ -1,0 +1,230 @@
+{
+  "id": "epirubicin",
+  "name": "Epirubicin",
+  "synonyme": [
+    "Epirubicinhydrochlorid",
+    "4'-Epidoxorubicin"
+  ],
+  "atc": [
+    "L01DB03"
+  ],
+  "klasse": "Zytostatikum; zytotoxisches Antibiotikum (Anthrazyklin)",
+  "kurz": "Chemotherapie-Mittel aus der Gruppe der Anthrazykline, v. a. gegen Brustkrebs; auch als Blasenspülung bei oberflächlichem Blasenkrebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Farmorubicin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung (auch zur Blasenspülung)"
+  ],
+  "indikationen": [
+    {
+      "text": "Brustkrebs, nach Operation (adjuvant) und bei fortgeschrittener Erkrankung",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Magenkrebs",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Eierstockkrebs",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Kleinzelliger Lungenkrebs",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Oberflächlicher Harnblasenkrebs: Blasenspülung zur Behandlung und zur Rückfallvorbeugung nach Operation",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt das Erbgut von Krebszellen und verhindert so deren Teilung. Epirubicin lagert sich zwischen die DNA-Basenpaare ein, hemmt die Topoisomerase II und bildet freie Radikale; dadurch werden DNA- und RNA-Synthese gehemmt. Als Stereoisomer von Doxorubicin wird es rascher abgebaut (u. a. durch Glucuronidierung) und ist bei vergleichbarer Wirkung etwas weniger herzschädigend. Die kumulative Herzschädigung bleibt dennoch dosisbegrenzend.",
+  "kontraindikationen": [
+    {
+      "text": "Anhaltende Knochenmarkhemmung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz, Kardiomyopathie, frischer Herzinfarkt, schwere Herzrhythmusstörungen, instabile Angina pectoris",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie",
+        "herzinfarkt",
+        "herzrhythmusstoerung",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Vorbehandlung mit der maximalen kumulativen Dosis von Epirubicin oder anderen Anthrazyklinen",
+      "ids": []
+    },
+    {
+      "text": "Akute systemische Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Blasenspülung: in die Blasenwand eingewachsene Tumoren, Harnwegsinfekt, Blasenentzündung, Blut im Urin, Schrumpfblase",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzerkrankungen, frühere Bestrahlung des Brustkorbs, Vorbehandlung mit Trastuzumab oder anderen Anthrazyklinen: Herzfunktion vor und während der Behandlung kontrollieren",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder schwer eingeschränkte Nierenfunktion (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Rasch wachsende Tumoren: Tumorlyse-Syndrom (Anstieg der Harnsäure)",
+      "ids": []
+    },
+    {
+      "text": "Austritt der Lösung ins Gewebe (Paravasat) verursacht schwere Gewebeschäden",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Trastuzumab",
+      "ref": [
+        "trastuzumab"
+      ],
+      "effekt": "Deutlich erhöhtes Risiko für Herzschwäche; nach Trastuzumab wenn möglich bis 7 Monate keine Anthrazykline, sonst Herzfunktion eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cimetidin",
+      "ref": [],
+      "effekt": "Erhöht die Epirubicin-Spiegel um etwa 50 % – während der Behandlung absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Geschwächte Abwehr – Gefahr einer Impfinfektion; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Taxane (Paclitaxel, Docetaxel)",
+      "ref": [
+        "paclitaxel",
+        "docetaxel"
+      ],
+      "effekt": "Werden Taxane vor Epirubicin gegeben, steigen die Spiegel von Epirubicin bzw. seinen Metaboliten – Epirubicin zuerst geben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten und andere herzwirksame oder herzschädigende Mittel",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:kardiotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzschwäche – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung: Leukopenie, Neutropenie, Anämie, febrile Neutropenie",
+      "Haarausfall",
+      "Rotfärbung des Urins 1–2 Tage nach der Gabe",
+      "Ausbleiben der Regelblutung (Amenorrhö)"
+    ],
+    "haeufig": [
+      "Infektionen",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Mukositis, Stomatitis, Ösophagitis (Schleimhautentzündungen)",
+      "Appetitlosigkeit, Austrocknung",
+      "Hitzewallungen",
+      "Rötung an der Infusionsstelle",
+      "Nach Blasenspülung: chemische Blasenentzündung, teils mit Blutungen; allergische Reaktionen"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Venenentzündung (Phlebitis, Thrombophlebitis)"
+    ],
+    "selten": [
+      "Herzschwäche, ventrikuläre Tachykardie, AV-Block, Bradykardie",
+      "Akute Leukämie (Zweiterkrankung)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Nesselsucht",
+      "Fieber, Schüttelfrost, Unwohlsein",
+      "Erhöhte Harnsäure, veränderte Leberwerte",
+      "Azoospermie (fehlende Spermien)"
+    ],
+    "unbekannt": [
+      "Asymptomatische Abnahme der Herzpumpfunktion (LVEF)",
+      "Blutungen",
+      "Schock, Embolien",
+      "Haut- und Nagelverfärbung, Lichtempfindlichkeit, Strahlen-Recall-Reaktion",
+      "Gewebsnekrose bei Paravasat"
+    ]
+  },
+  "schwangerschaft": "Fruchtschädigend; in der Schwangerschaft nur bei zwingender Indikation. Frauen und Männer müssen während und mehrere Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Der Urin kann sich 1–2 Tage nach der Gabe rot verfärben – das ist harmlos.",
+    "Herzfunktion vor Beginn und regelmässig kontrollieren; Atemnot, Herzklopfen oder geschwollene Beine melden.",
+    "Die Einnahme von Cimetidin (Magenmittel) angeben – es muss während der Behandlung abgesetzt werden.",
+    "Bei der Blasenspülung die Anweisungen zu Trinkmenge und Verweildauer der Lösung genau befolgen."
+  ],
+  "stand": "2026-10"
+}

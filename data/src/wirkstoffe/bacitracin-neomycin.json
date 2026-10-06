@@ -1,0 +1,47 @@
+{
+  "id": "bacitracin-neomycin",
+  "name": "Bacitracin + Neomycin",
+  "synonyme": ["Neomycin/Bacitracin", "Bacitracin-Zink und Neomycinsulfat"],
+  "kombinationAus": [],
+  "atc": ["D06AX04", "D06AX05"],
+  "klasse": "Antibiotika-Kombination zur äusserlichen Anwendung (Polypeptid-Antibiotikum + Aminoglykosid)",
+  "kurz": "Antibiotika-Salbe und -Puder gegen bakterielle Infektionen kleiner Hautwunden, z. B. Impetigo oder infizierte Schürfungen.",
+  "gruppen": ["aminoglykoside"],
+  "handelsnamen": ["Baneocin"],
+  "abgabe": ["D"],
+  "darreichung": ["Salbe", "Puder"],
+  "indikationen": [
+    { "text": "Bakterielle Infektionen der Haut auf kleiner Fläche, z. B. Impetigo (Borkenflechte), infizierte Schürf-, Schnitt- und Brandwunden, Furunkel, Nagelfalzentzündung, infizierte Ekzeme", "ids": ["hautinfektion"] }
+  ],
+  "wirkmechanismus": "Zwei Antibiotika mit sich ergänzender Wirkung töten Bakterien auf der Haut ab. Bacitracin hemmt den Aufbau der Bakterienzellwand und wirkt vor allem gegen grampositive Keime wie Staphylokokken und Streptokokken. Neomycin, ein Aminoglykosid, blockiert die Eiweissherstellung am bakteriellen Ribosom und erfasst zusätzlich viele gramnegative Keime. Die Kombination wirkt bakterizid (abtötend), und Resistenzen entstehen seltener als mit einem Wirkstoff allein.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Neomycin oder andere Aminoglykoside wie Gentamicin (Kreuzallergie)", "ids": ["allergie"] },
+    { "text": "Grossflächige Hautschäden (z. B. ausgedehnte Verbrennungen oder Ekzeme): Neomycin kann ins Blut gelangen und Gehör und Nieren schädigen", "ids": ["hoerstoerung", "niereninsuffizienz"] },
+    { "text": "Vorgeschädigtes Gehör oder Gleichgewichtsorgan sowie schwere Herz- oder Nierenfunktionsstörung, wenn eine Aufnahme ins Blut möglich ist", "ids": ["hoerstoerung", "schwindel", "niereninsuffizienz", "herzinsuffizienz"] },
+    { "text": "Anwendung im Gehörgang bei verletztem Trommelfell und Anwendung am Auge", "ids": ["ohrenentzuendung"] }
+  ],
+  "vorsicht": [
+    { "text": "Nicht länger als nötig und nicht grossflächig anwenden: Kontaktallergien gegen Neomycin sind verbreitet, besonders bei Ekzemen und Beingeschwüren", "ids": ["neurodermitis"] },
+    { "text": "Säuglinge und Kleinkinder: dünnere Haut, mehr Aufnahme ins Blut – nur kleinflächig", "ids": ["kinder"] },
+    { "text": "Eingeschränkte Nierenfunktion: Neomycin kann sich bei Aufnahme ins Blut anreichern", "ids": ["niereninsuffizienz"] },
+    { "text": "Myasthenia gravis und andere neuromuskuläre Erkrankungen: Neomycin kann bei Aufnahme ins Blut die Nerv-Muskel-Übertragung hemmen", "ids": ["myasthenia-gravis", "neuromuskulaere-erkrankung"] },
+    { "text": "Längere Anwendung: Überwucherung durch unempfindliche Keime oder Pilze möglich", "ids": ["hautpilz"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere Aminoglykoside und weitere nieren- oder gehörschädigende Antibiotika (z. B. Gentamicin, Vancomycin, Cephalosporine)", "ref": ["gruppe:aminoglykoside", "gruppe:nephrotoxisch", "gruppe:ototoxisch", "gruppe:cephalosporine"], "effekt": "Bei Aufnahme ins Blut (grossflächige Anwendung, offene Haut) addieren sich nieren- und gehörschädigende Wirkungen.", "schwere": "mittel" },
+    { "text": "Schleifendiuretika (z. B. Furosemid)", "ref": ["gruppe:schleifendiuretika"], "effekt": "Bei Aufnahme ins Blut verstärkte Gehör- und Nierenschädigung möglich.", "schwere": "mittel" },
+    { "text": "Muskelrelaxanzien und Narkosemittel", "ref": ["rocuronium", "atracurium", "cisatracurium", "suxamethonium"], "effekt": "Neomycin kann bei Aufnahme ins Blut die Muskelerschlaffung verstärken (Atemschwäche) – vor Operationen angeben.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": ["Allergische Hautreaktionen: Rötung, Juckreiz, Trockenheit, Ausschlag, Kontaktekzem (Neomycin-Allergie)", "Kreuzallergie mit anderen Aminoglykosiden", "Bei grossflächiger Anwendung oder auf offener Haut: Nierenschäden, Hörschäden und Gleichgewichtsstörungen", "Muskelschwäche durch Hemmung der Nerv-Muskel-Übertragung bei Aufnahme ins Blut"]
+  },
+  "schwangerschaft": "Nur kleinflächig und nach ärztlicher Abwägung: Aminoglykoside können nach Aufnahme ins Blut das Gehör des Ungeborenen schädigen.",
+  "stillzeit": "Kleinflächige Anwendung nach Abwägung möglich; nicht auf die Brust auftragen.",
+  "hinweise": [
+    "Nur auf kleine Hautflächen und kurzzeitig anwenden; ohne Besserung nach wenigen Tagen ärztlich kontrollieren lassen.",
+    "Bei Juckreiz, Rötung oder Verschlechterung absetzen – möglicherweise eine Neomycin-Allergie, die bei künftigen Behandlungen angegeben werden sollte.",
+    "Nicht in die Augen und nicht in den Gehörgang bei verletztem Trommelfell bringen."
+  ],
+  "stand": "2026-10"
+}

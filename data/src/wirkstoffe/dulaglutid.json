@@ -1,0 +1,50 @@
+{
+  "id": "dulaglutid",
+  "name": "Dulaglutid",
+  "synonyme": ["Dulaglutide", "Dulaglutidum"],
+  "atc": ["A10BJ05"],
+  "klasse": "GLP-1-Rezeptoragonist (Inkretin-Mimetikum), einmal wöchentlich",
+  "kurz": "Wöchentliche Spritze gegen Typ-2-Diabetes; wirkt wie ein Darmhormon, senkt den Blutzucker und verringert den Appetit.",
+  "gruppen": ["glp1-agonisten"],
+  "handelsnamen": ["Trulicity"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung im Fertigpen (Einzeldosis)"],
+  "indikationen": [
+    { "text": "Typ-2-Diabetes bei Erwachsenen, ergänzend zu Ernährung und Bewegung: allein (wenn Metformin ungeeignet ist) oder kombiniert mit anderen Blutzuckersenkern einschliesslich Insulin", "ids": ["diabetes-typ-2", "diabetes"] }
+  ],
+  "wirkmechanismus": "Wirkt wie das körpereigene Darmhormon GLP-1, das nach dem Essen ausgeschüttet wird. Dulaglutid besteht aus zwei GLP-1-ähnlichen Peptidketten, die an ein verändertes Antikörperstück (Fc-Teil von IgG4) gekoppelt sind; dadurch wird es nur langsam abgebaut und wirkt eine Woche lang. Es steigert blutzuckerabhängig die Insulinausschüttung, hemmt die Glukagonfreisetzung, verlangsamt die Magenentleerung und verstärkt das Sättigungsgefühl. In einer grossen Studie senkte es bei Typ-2-Diabetes das Risiko schwerer Herz-Kreislauf-Ereignisse.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen, bei bestätigter Pankreatitis nicht wieder beginnen", "ids": ["pankreatitis"] },
+    { "text": "Flüssigkeitsverlust durch Übelkeit, Erbrechen oder Durchfall: Gefahr einer Verschlechterung der Nierenfunktion – ausreichend trinken", "ids": ["dehydratation", "niereninsuffizienz"] },
+    { "text": "Terminale Niereninsuffizienz: sehr begrenzte Erfahrungen, nicht empfohlen", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwere Magen-Darm-Erkrankungen, einschliesslich schwerer Gastroparese (verzögerte Magenentleerung): nicht empfohlen", "ids": [] },
+    { "text": "Gallensteine und Gallenblasenentzündung möglich", "ids": ["gallensteine"] },
+    { "text": "Narkose oder tiefe Sedierung (z. B. bei Magenspiegelung): wegen verzögerter Magenentleerung Gefahr, Mageninhalt einzuatmen – Behandlung vorher angeben", "ids": ["operation", "anaesthesie"] },
+    { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr", "ids": ["hypoglykaemie"] },
+    { "text": "Kein Ersatz für Insulin; nicht bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Unterzuckerungsgefahr – Dosis des Sulfonylharnstoffs bzw. des Insulins eventuell senken, Blutzucker kontrollieren.", "schwere": "mittel" },
+    { "text": "Andere GLP-1-Agonisten (z. B. Semaglutid, Liraglutid, Tirzepatid)", "ref": ["gruppe:glp1-agonisten"], "effekt": "Doppelte Wirkung mit mehr Nebenwirkungen – nicht gleichzeitig anwenden.", "schwere": "mittel" },
+    { "text": "Orale Arzneimittel, die rasch wirken müssen oder eine enge therapeutische Breite haben", "ref": [], "effekt": "Die verzögerte Magenentleerung kann die Aufnahme verlangsamen; meist ohne klinische Bedeutung, bei engem Wirkbereich Vorsicht.", "schwere": "leicht" },
+    { "text": "Blutzuckererhöhende Mittel (z. B. Glukokortikoide, Thiazid-Diuretika)", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:thiaziddiuretika"], "effekt": "Können die blutzuckersenkende Wirkung abschwächen – Blutzucker kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Übelkeit", "Durchfall", "Erbrechen", "Bauchschmerzen", "Hypoglykämie (Unterzuckerung) in Kombination mit Insulin oder Sulfonylharnstoff"],
+    "haeufig": ["Appetitminderung", "Verdauungsbeschwerden, Verstopfung, Blähungen, Völlegefühl, Reflux, Aufstossen", "Müdigkeit (Fatigue)", "Sinustachykardie (erhöhter Puls)", "AV-Block 1. Grades (leichte Verzögerung der Erregungsleitung im Herzen, im EKG sichtbar)"],
+    "gelegentlich": ["Überempfindlichkeitsreaktionen", "Dehydratation (Flüssigkeitsmangel)", "Gallensteine (Cholelithiasis) und Cholezystitis (Gallenblasenentzündung)", "Reaktionen an der Injektionsstelle"],
+    "selten": ["Anaphylaxie (schwere allergische Reaktion)", "Angioödem (Schwellung von Gesicht, Lippen oder Rachen)", "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)"],
+    "unbekannt": ["Nicht-mechanischer Darmverschluss (Ileus)"]
+  },
+  "schwangerschaft": "Nicht anwenden: Die Erfahrungen sind unzureichend, Tierversuche zeigten Fruchtschädigung. Bei Diabetes in der Schwangerschaft wird Insulin eingesetzt.",
+  "stillzeit": "Nicht anwenden, da nicht bekannt ist, ob Dulaglutid in die Muttermilch übergeht.",
+  "hinweise": [
+    "Einmal pro Woche am gleichen Wochentag spritzen, unabhängig vom Essen; der Wochentag kann gewechselt werden, wenn seit der letzten Dosis mindestens 3 Tage vergangen sind.",
+    "Vergessene Dosis nachholen, wenn bis zur nächsten planmässigen Dosis noch mindestens 3 Tage (72 Stunden) bleiben, sonst auslassen.",
+    "Bei anhaltenden, starken Bauchschmerzen sofort ärztlich abklären lassen; bei Übelkeit, Erbrechen oder Durchfall ausreichend trinken.",
+    "Vor Operationen, Narkosen oder Magenspiegelungen die Behandlung angeben."
+  ],
+  "stand": "2026-10"
+}

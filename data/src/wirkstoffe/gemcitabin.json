@@ -1,0 +1,214 @@
+{
+  "id": "gemcitabin",
+  "name": "Gemcitabin",
+  "synonyme": [
+    "Gemcitabine",
+    "Gemcitabinum",
+    "dFdC"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01BC05"
+  ],
+  "klasse": "Zytostatikum (Antimetabolit, Pyrimidin-Nukleosid-Analogon)",
+  "kurz": "Zytostatikum (Infusion) gegen Bauchspeicheldrüsen-, Lungen-, Blasen-, Brust- und Eierstockkrebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Gemzar",
+    "Gemcitabin Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung",
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener Bauchspeicheldrüsenkrebs",
+      "ids": [
+        "bauchspeicheldruesenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs (meist mit Cisplatin)",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Blasenkrebs (mit Cisplatin)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Wiederkehrender Eierstockkrebs (mit Carboplatin)",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Brustkrebs nach Anthrazyklin-Therapie (mit Paclitaxel)",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Teilung von Krebszellen, indem es sich als falscher Baustein in das Erbgut einschleust. Gemcitabin ist ein Analogon des Nukleosids Desoxycytidin und wird in der Zelle zu Di- und Triphosphat umgewandelt. Das Diphosphat hemmt die Ribonukleotid-Reduktase und verknappt so die natürlichen DNA-Bausteine; das Triphosphat wird in die DNA eingebaut und stoppt deren Verlängerung. Die Wirkung ist auf Zellen in der Teilungsphase (S-Phase) gerichtet.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung: vor jeder Gabe Blutbild kontrollieren",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion, Lebermetastasen, Hepatitis oder Alkoholmissbrauch",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion; Zeichen eines hämolytisch-urämischen Syndroms (Blutzerfall, Nierenversagen) beachten",
+      "ids": [
+        "niereninsuffizienz",
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen: Lungenentzündung, Lungenödem und Lungenfibrose möglich",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten: Herzinsuffizienz und Rhythmusstörungen beschrieben",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Wassereinlagerungen: Hinweis auf ein Kapillarlecksyndrom",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Kinderwunsch: mögliche Unfruchtbarkeit bei Männern",
+      "ids": [
+        "maennliche-unfruchtbarkeit",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Strahlentherapie (gleichzeitig oder innerhalb von 7 Tagen)",
+      "ref": [],
+      "effekt": "Gemcitabin verstärkt die Strahlenwirkung – schwere Schleimhaut-, Speiseröhren- und Lungenschäden möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gelbfieber- und andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe",
+        "gelbfieber-impfstoff"
+      ],
+      "effekt": "Gefahr einer schweren, möglicherweise tödlichen Impfvirus-Erkrankung – nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Cisplatin, Carboplatin, Paclitaxel)",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildschäden – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende Gerinnungswerte unter Chemotherapie – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Leukopenie, Thrombozytopenie, Anämie (Blutbildveränderungen)",
+      "Atemnot (meist leicht)",
+      "Übelkeit, Erbrechen",
+      "Erhöhte Leberwerte",
+      "Hautausschlag mit Juckreiz, Haarausfall",
+      "Blut und Eiweiss im Urin",
+      "Grippeähnliche Beschwerden (Fieber, Kopf-, Rücken- und Gliederschmerzen, Schüttelfrost)",
+      "Wassereinlagerungen (Ödeme)"
+    ],
+    "haeufig": [
+      "Fieber bei Neutropenie",
+      "Appetitlosigkeit",
+      "Schlaflosigkeit, Schläfrigkeit",
+      "Husten, Schnupfen",
+      "Durchfall, Verstopfung, Mundschleimhautentzündung",
+      "Erhöhtes Bilirubin",
+      "Schwitzen"
+    ],
+    "gelegentlich": [
+      "Interstitielle Pneumonitis (Lungenentzündung), Bronchospasmus",
+      "Herzinsuffizienz, Herzrhythmusstörungen",
+      "Schlaganfall",
+      "Nierenversagen",
+      "Schwere Leberschäden bis Leberversagen"
+    ],
+    "selten": [
+      "Herzinfarkt",
+      "Gefässentzündungen mit Durchblutungsstörungen an Fingern und Zehen bis zum Absterben (Gangrän)",
+      "Lungenödem, akutes Atemnotsyndrom (ARDS)",
+      "Schwere Hautreaktionen mit Blasenbildung und Schuppung",
+      "Strahlenreaktionen in bestrahlten Bereichen",
+      "Blutdruckabfall"
+    ],
+    "sehrSelten": [
+      "Kapillarlecksyndrom (Flüssigkeitsaustritt aus den Gefässen)",
+      "Ischämische Kolitis (Darmentzündung durch Minderdurchblutung)",
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse",
+      "Anaphylaktoide Reaktion",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES, Hirnschwellung mit Kopfschmerzen, Sehstörungen, Krämpfen)"
+    ],
+    "unbekannt": [
+      "Hämolytisch-urämisches Syndrom (Blutzerfall mit Nierenversagen)",
+      "Pseudozellulitis (Hautrötung ähnlich einer Wundrose)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit (im Tierversuch fruchtschädigend). Frauen und Männer müssen während und einige Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Vor jeder Gabe Kontrolle von Blutbild sowie Leber- und Nierenwerten.",
+    "Bei Atemnot, Husten, Fieber, Blutungen, deutlicher Gewichtszunahme oder Schwellungen ärztlich melden.",
+    "Kann schläfrig machen – Vorsicht beim Autofahren und Bedienen von Maschinen."
+  ],
+  "stand": "2026-10"
+}

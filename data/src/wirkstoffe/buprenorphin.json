@@ -1,0 +1,255 @@
+{
+  "id": "buprenorphin",
+  "name": "Buprenorphin",
+  "synonyme": [
+    "Buprenorphinhydrochlorid",
+    "Buprenorphine"
+  ],
+  "atc": [
+    "N02AE01",
+    "N07BC01"
+  ],
+  "klasse": "Opioid-Partialagonist (Schmerzmittel und Substitutionsmittel)",
+  "kurz": "Opioid gegen starke Schmerzen (Pflaster, Tabletten unter die Zunge, Spritze) und zur Substitutionsbehandlung bei Opioidabhängigkeit.",
+  "gruppen": [
+    "opioide",
+    "opioid-partialagonisten",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Temgesic",
+    "Transtec",
+    "Subutex",
+    "Buvidal",
+    "Suboxone (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Sublingualtabletten",
+    "Transdermale Pflaster",
+    "Injektionslösung",
+    "Depot-Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Mässig starke bis starke Schmerzen (Sublingualtabletten, Injektion) sowie starke und Tumorschmerzen, wenn Nicht-Opioide nicht genügen (Pflaster)",
+      "ids": [
+        "schmerzen",
+        "chronische-schmerzen"
+      ]
+    },
+    {
+      "text": "Substitutionsbehandlung bei Opioidabhängigkeit im Rahmen einer medizinischen, sozialen und psychologischen Betreuung",
+      "ids": [
+        "opioidabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und unterdrückt bei Opioidabhängigkeit das Verlangen und die Entzugssymptome. Buprenorphin ist ein Partialagonist am μ-Opioidrezeptor und ein Antagonist am κ-Rezeptor; es bindet sehr fest an den Rezeptor und löst sich nur langsam. Dadurch ist die Atemdämpfung bei alleiniger Anwendung begrenzt («Ceiling-Effekt»), doch es kann die Wirkung anderer Opioide abschwächen und bei Opioidabhängigen einen Entzug auslösen. Der Abbau erfolgt in der Leber über CYP3A4 zu Norbuprenorphin.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Atemschwäche (respiratorische Insuffizienz)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akuter Alkoholrausch oder Delirium tremens",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "delir"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Pflaster)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Pflaster: nicht bei Opioidabhängigkeit und nicht zur Behandlung eines Opioidentzugs",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mittelschwere Leberinsuffizienz oder Hepatitis (Leberwerte kontrollieren)",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Asthma, COPD oder Schlafapnoe",
+      "ids": [
+        "asthma",
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Kopfverletzung, erhöhter Hirndruck oder Bewusstseinsstörung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Prostatavergrösserung oder Harnverhalt",
+      "ids": [
+        "hypotonie",
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Pflaster bei Fieber oder äusserer Wärme (verstärkte Aufnahme)",
+      "ids": [
+        "fieber",
+        "hitze"
+      ]
+    },
+    {
+      "text": "Beginn der Substitution erst bei deutlichen Entzugszeichen, sonst kann ein Entzug ausgelöst werden",
+      "ids": [
+        "opioidabhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Naltrexon oder Nalmefen zur Behandlung einer Alkohol- oder Opioidabhängigkeit",
+      "ref": [
+        "naltrexon",
+        "nalmefen"
+      ],
+      "grund": "Die Antagonisten heben die Wirkung von Buprenorphin auf und können einen akuten Entzug auslösen."
+    },
+    {
+      "text": "MAO-Hemmer, auch innerhalb von 2 Wochen nach Absetzen (Pflaster)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Mögliche Verstärkung der Opioidwirkung mit Erregung oder Dämpfung und Blutdruckschwankungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine und Z-Substanzen",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen"
+      ],
+      "effekt": "Todesfälle durch Atemdepression beschrieben, besonders bei missbräuchlicher Anwendung – nur unter ärztlicher Kontrolle und mit niedrigen Dosen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol, Gabapentinoide und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend",
+        "gruppe:antihistaminika-sedierend",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkte Sedierung und Atemdämpfung – kein Alkohol, Kombination nur mit Vorsicht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Clarithromycin, Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Buprenorphinspiegel steigt – Dosis gegebenenfalls reduzieren, überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Buprenorphinspiegel sinkt – Entzugssymptome oder ungenügende Schmerzlinderung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Reine Opioid-Agonisten (z. B. Morphin, Methadon, Fentanyl)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Buprenorphin kann deren Wirkung abschwächen oder bei Opioidgewöhnung einen Entzug auslösen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (SSRI, SNRI, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Serotonin-Syndrom möglich – auf Unruhe, Fieber, Zittern und Muskelzuckungen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Kopfschmerzen",
+      "Schlaflosigkeit",
+      "Starkes Schwitzen",
+      "Rötung und Juckreiz an der Pflasterstelle",
+      "Entzugssymptome (bei Substitution)"
+    ],
+    "haeufig": [
+      "Schwindel, Schläfrigkeit",
+      "Verstopfung, Erbrechen, Bauchschmerzen",
+      "Angst, Unruhe, Depression",
+      "Atemnot",
+      "Blutdruckabfall beim Aufstehen, Ohnmacht",
+      "Wassereinlagerungen, Müdigkeit, Schwäche",
+      "Muskel- und Gelenkschmerzen"
+    ],
+    "selten": [
+      "Atemdepression (abgeschwächte Atmung)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie und Angioödem (schwere allergische Reaktionen)",
+      "Hepatitis, Leberversagen, Gelbsucht",
+      "Halluzinationen",
+      "Abhängigkeit",
+      "Entzugssyndrom beim Neugeborenen"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; eine bestehende Substitutionsbehandlung wird in der Regel weitergeführt. Gegen Ende der Schwangerschaft Gefahr von Atemdepression und Entzugssyndrom beim Neugeborenen.",
+  "stillzeit": "Buprenorphin geht in geringen Mengen in die Muttermilch über. Unter Substitution ist Stillen nach ärztlicher Abwägung möglich; bei Schmerzbehandlung mit dem Pflaster wird vom Stillen abgeraten.",
+  "hinweise": [
+    "Sublingualtabletten unter der Zunge vollständig zergehen lassen, nicht schlucken oder kauen.",
+    "Kein Alkohol und keine Beruhigungsmittel ohne ärztliche Absprache – Gefahr lebensbedrohlicher Atemdämpfung; die Fahrtüchtigkeit kann eingeschränkt sein.",
+    "Pflaster keiner Wärme aussetzen; gebrauchte Pflaster gefaltet und für Kinder unerreichbar entsorgen.",
+    "Bei Substitution Leberwerte regelmässig kontrollieren."
+  ],
+  "stand": "2026-10"
+}

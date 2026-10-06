@@ -1,0 +1,287 @@
+{
+  "id": "bupropion",
+  "name": "Bupropion",
+  "synonyme": [
+    "Bupropion hydrochloride",
+    "Amfebutamon"
+  ],
+  "atc": [
+    "N06AX12",
+    "N07BA02"
+  ],
+  "klasse": "Antidepressivum (Noradrenalin-Dopamin-Wiederaufnahmehemmer, NDRI); Mittel zur Raucherentwöhnung",
+  "kurz": "Antriebssteigerndes Antidepressivum, das auf Noradrenalin und Dopamin wirkt; auch zur Unterstützung beim Rauchstopp.",
+  "gruppen": [
+    "starke-cyp2d6-hemmer",
+    "krampfschwellensenkend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Wellbutrin XR",
+    "Zyban"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression)",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Unterstützung der Raucherentwöhnung zusammen mit motivierender Begleitung",
+      "ids": [
+        "rauchstopp",
+        "rauchen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt antriebssteigernd und stimmungsaufhellend, indem es die Botenstoffe Noradrenalin und Dopamin im Gehirn länger wirken lässt. Bupropion und sein wichtigster aktiver Abbaustoff Hydroxybupropion (gebildet über CYP2B6) hemmen die Wiederaufnahme von Noradrenalin und Dopamin in die Nervenzellen; auf Serotonin wirken sie kaum. Bei der Raucherentwöhnung mildert es vermutlich über das Belohnungssystem Rauchverlangen und Entzugssymptome. Bupropion ist zudem ein starker Hemmer des Leberenzyms CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Krampfanfälle oder Epilepsie (aktuell oder in der Vorgeschichte)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Tumor des zentralen Nervensystems",
+      "ids": [
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Abrupter Entzug von Alkohol oder von Beruhigungsmitteln wie Benzodiazepinen",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Bulimie oder Anorexie (Essstörung), aktuell oder früher",
+      "ids": [
+        "essstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Leberzirrhose",
+      "ids": [
+        "leberzirrhose",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bipolare Störung in der Vorgeschichte (laut Fachinformation für die Raucherentwöhnung)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Risikofaktoren für Krampfanfälle: Schädel-Hirn-Trauma, Alkoholmissbrauch, mit Insulin oder Tabletten behandelter Diabetes, Stimulanzien oder Appetitzügler",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "alkoholkonsum",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Behandlungsbeginn und bei jungen Erwachsenen",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Bipolare Störung und Psychosen (Manie oder psychotische Symptome möglich)",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: Blutdruck regelmässig kontrollieren, besonders zusammen mit Nikotinpflastern",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (niedrigere Dosis)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Brugada-Syndrom oder Risikofaktoren dafür (kann demaskiert werden)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 14 Tagen nach Absetzen eines irreversiblen MAO-Hemmers)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Verstärkte Wirkung von Noradrenalin und Dopamin – Gefahr gefährlicher Blutdruckkrisen."
+    },
+    {
+      "text": "Andere bupropionhaltige Arzneimittel",
+      "ref": [],
+      "grund": "Die doppelte Einnahme erhöht dosisabhängig das Risiko für Krampfanfälle."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Über CYP2D6 abgebaute Mittel mit enger therapeutischer Breite (z. B. Metoprolol, Flecainid, Propafenon, trizyklische Antidepressiva, Haloperidol, Risperidon)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Bupropion hemmt CYP2D6 stark – Spiegel dieser Mittel steigen deutlich. Mit niedriger Dosis beginnen bzw. Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Tamoxifen",
+      "ref": [
+        "tamoxifen"
+      ],
+      "effekt": "Die Umwandlung in die wirksame Form (Endoxifen) über CYP2D6 wird gehemmt – die Wirkung gegen Brustkrebs kann nachlassen; Kombination möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mittel, die die Krampfschwelle senken (z. B. Antipsychotika, Antidepressiva, Tramadol, Theophyllin, systemische Kortikosteroide, Chinolone, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "gruppe:antipsychotika",
+        "gruppe:fluorchinolone",
+        "gruppe:glukokortikoide-systemisch",
+        "tramadol",
+        "theophyllin"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle – nur mit grosser Vorsicht und möglichst niedriger Bupropion-Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Rifampicin, Ritonavir, Efavirenz)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "ritonavir",
+        "efavirenz"
+      ],
+      "effekt": "Bupropion-Spiegel sinkt (Induktion von CYP2B6) – die Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clopidogrel und Ticlopidin",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Hemmen den Abbau von Bupropion über CYP2B6 – höhere Spiegel, mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Amantadin",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "amantadin"
+      ],
+      "effekt": "Häufiger Übelkeit, Unruhe, Zittern, Gangunsicherheit und Schwindel – vorsichtig dosieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nikotinersatz (Pflaster)",
+      "ref": [
+        "nikotin"
+      ],
+      "effekt": "Blutdruckanstieg möglich – Blutdruck wöchentlich kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel kann sinken und nach Absetzen von Bupropion wieder steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Möglichst meiden; ein abrupter Alkoholentzug erhöht das Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schlaflosigkeit",
+      "Kopfschmerzen",
+      "Mundtrockenheit",
+      "Übelkeit, Erbrechen"
+    ],
+    "haeufig": [
+      "Agitiertheit (Unruhe), Angst",
+      "Zittern (Tremor), Schwindel, Geschmacksstörungen",
+      "Appetitlosigkeit",
+      "Blutdruckanstieg (teils deutlich), Hautrötung (Flush)",
+      "Bauchschmerzen, Verstopfung",
+      "Hautausschlag, Juckreiz, Schwitzen",
+      "Sehstörungen, Ohrensausen (Tinnitus)",
+      "Fieber, Brustschmerzen, Schwäche"
+    ],
+    "gelegentlich": [
+      "Depression, Verwirrtheit",
+      "Konzentrationsstörungen",
+      "Herzrasen (Tachykardie)",
+      "Gewichtsabnahme"
+    ],
+    "selten": [
+      "Krampfanfälle (etwa 1 von 1000 Behandelten)"
+    ],
+    "sehrSelten": [
+      "Schwere Überempfindlichkeitsreaktionen (Angioödem, Atemnot, anaphylaktischer Schock, Serumkrankheit-ähnliche Reaktionen)",
+      "Halluzinationen, Aggressivität, Wahnvorstellungen, Albträume",
+      "Erythema multiforme, Stevens-Johnson-Syndrom",
+      "Hepatitis, Gelbsucht, erhöhte Leberwerte",
+      "Blutzuckerschwankungen",
+      "Herzklopfen, Ohnmacht"
+    ],
+    "unbekannt": [
+      "Suizidgedanken und suizidales Verhalten",
+      "Psychose",
+      "Hyponatriämie (Natriummangel)",
+      "Serotoninsyndrom (zusammen mit serotonergen Mitteln)",
+      "Blutbildveränderungen (Anämie, Leukopenie, Thrombozytopenie)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; einige Studien weisen auf ein möglicherweise erhöhtes Risiko für angeborene Herzfehler hin. Zur Raucherentwöhnung in der Schwangerschaft nicht anwenden.",
+  "stillzeit": "Bupropion und seine Abbauprodukte gehen in die Muttermilch über; nur nach ärztlicher Abwägung (abstillen oder auf die Behandlung verzichten).",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht teilen, zerkauen oder zerdrücken (höheres Risiko für Krampfanfälle).",
+    "Höchstdosis nicht überschreiten; bei zweimal täglicher Einnahme (Raucherentwöhnung) mindestens 8 Stunden Abstand halten und nicht kurz vor dem Schlafengehen einnehmen.",
+    "Zur Raucherentwöhnung das Rauchstopp-Datum in der zweiten Behandlungswoche festlegen.",
+    "Blutdruck regelmässig kontrollieren; Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

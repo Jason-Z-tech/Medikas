@@ -1,0 +1,213 @@
+{
+  "id": "repaglinid",
+  "name": "Repaglinid",
+  "synonyme": [
+    "Repaglinide",
+    "Repaglinidum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "A10BX02"
+  ],
+  "klasse": "Orales Antidiabetikum (Glinid, prandialer Insulinsekretagoge)",
+  "kurz": "Kurz wirkender Blutzuckersenker bei Typ-2-Diabetes, der vor jeder Hauptmahlzeit eingenommen wird und die Insulinfreisetzung anregt.",
+  "gruppen": [
+    "sulfonylharnstoffe",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "NovoNorm"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Typ-2-Diabetes, wenn Diät, Gewichtsabnahme und Bewegung nicht ausreichen; allein oder in Kombination mit Metformin",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt die Bauchspeicheldrüse kurzzeitig und passend zur Mahlzeit zur Insulinausschüttung an. Repaglinid schliesst wie die Sulfonylharnstoffe die ATP-abhängigen Kaliumkanäle der Betazellen, bindet aber an eine andere Stelle des Rezeptors. Die Wirkung setzt innerhalb von etwa 30 Minuten ein und klingt nach wenigen Stunden ab, sodass vor allem der Blutzuckeranstieg nach dem Essen gedämpft wird. Repaglinid wird über den Transporter OATP1B1 in die Leber aufgenommen und dort über CYP2C8 und CYP3A4 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Typ-1-Diabetes (C-Peptid-negativ)",
+      "ids": [
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Diabetische Ketoazidose mit oder ohne Koma",
+      "ids": [
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Schwere Einschränkung der Leberfunktion",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Ältere, geschwächte oder mangelernährte Menschen: erhöhte Unterzuckerungsgefahr",
+      "ids": [
+        "aeltere-patienten",
+        "mangelernaehrung",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis vorsichtig anpassen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Leberfunktion (verlängerte Wirkung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ausgelassene Mahlzeiten, Alkohol und ungewohnte körperliche Anstrengung (Unterzuckerungsgefahr)",
+      "ids": [
+        "hypoglykaemie",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen, Unfälle oder Operationen: vorübergehende Umstellung auf Insulin kann nötig sein",
+      "ids": [
+        "aktive-infektion",
+        "operation"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit: in einer Studie wurden vermehrt akute Koronarereignisse beobachtet",
+      "ids": [
+        "koronare-herzkrankheit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gemfibrozil",
+      "ref": [
+        "gemfibrozil"
+      ],
+      "grund": "Gemfibrozil hemmt den Abbau (CYP2C8) und die Aufnahme in die Leber (OATP1B1) – der Repaglinid-Spiegel steigt auf ein Vielfaches, mit Gefahr schwerer, lang anhaltender Unterzuckerung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Clopidogrel",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Hemmt CYP2C8 – Repaglinid-Spiegel steigt etwa auf das 4- bis 5-Fache; Kombination vermeiden, sonst Blutzucker engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Repaglinid-Spiegel steigt deutlich – Unterzuckerungsgefahr; Kombination möglichst vermeiden, Blutzucker engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere CYP2C8-Hemmer (z. B. Trimethoprim, Deferasirox)",
+      "ref": [
+        "gruppe:cyp2c8-hemmer",
+        "sulfamethoxazol-trimethoprim",
+        "deferasirox"
+      ],
+      "effekt": "Erhöhter Repaglinid-Spiegel – Kombination möglichst vermeiden, sonst Dosis senken und Blutzucker engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Repaglinid-Spiegel steigt – Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abgeschwächte Wirkung; nach dem Absetzen des Induktors Unterzuckerungsgefahr – Blutzucker kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können Warnzeichen einer Unterzuckerung verschleiern und die Blutzuckersenkung verstärken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, NSAR, Salicylate, MAO-Hemmer",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:nsar",
+        "acetylsalicylsaeure",
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Systemische Glukokortikoide, Thiazide, Schilddrüsenhormone, Sympathomimetika",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:thiaziddiuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hypoglykämie (Unterzuckerung)",
+      "Bauchschmerzen",
+      "Durchfall"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Herz-Kreislauf-Erkrankungen (z. B. akutes Koronarsyndrom)"
+    ],
+    "sehrSelten": [
+      "Allergische Reaktionen, z. B. allergische Gefässentzündung (Vaskulitis)",
+      "Vorübergehende Sehstörungen",
+      "Erbrechen, Obstipation (Verstopfung)",
+      "Leberfunktionsstörungen, erhöhte Leberwerte"
+    ],
+    "unbekannt": [
+      "Schwere Unterzuckerung mit Bewusstlosigkeit",
+      "Übelkeit",
+      "Überempfindlichkeitsreaktionen der Haut (Juckreiz, Ausschlag, Nesselsucht)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden; ein Diabetes in der Schwangerschaft wird mit Insulin behandelt.",
+  "stillzeit": "Nicht anwenden.",
+  "hinweise": [
+    "Innerhalb von 15–30 Minuten vor jeder Hauptmahlzeit einnehmen; wird eine Mahlzeit ausgelassen, auch die Tablette auslassen.",
+    "Zeichen einer Unterzuckerung kennen und Traubenzucker mitführen; Alkohol erhöht das Risiko.",
+    "Unterzuckerungen können die Fahrtüchtigkeit beeinträchtigen.",
+    "Vor Beginn neuer Medikamente (z. B. Clopidogrel, Antibiotika) die Behandlung mit Repaglinid angeben."
+  ],
+  "stand": "2026-10"
+}

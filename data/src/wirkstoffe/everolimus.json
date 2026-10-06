@@ -1,0 +1,238 @@
+{
+  "id": "everolimus",
+  "name": "Everolimus",
+  "synonyme": [
+    "RAD001"
+  ],
+  "atc": [
+    "L01EG02",
+    "L04AH02"
+  ],
+  "klasse": "mTOR-Hemmer; Krebsmittel und Immunsuppressivum",
+  "kurz": "Hemmt den Wachstumsregulator mTOR: gegen bestimmte Krebsarten und Tumoren bei tuberöser Sklerose sowie gegen Abstossung nach Transplantation.",
+  "gruppen": [
+    "mtor-hemmer",
+    "immunsuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "myelosuppressiv",
+    "hyperglykaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Afinitor",
+    "Votubia",
+    "Certican"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Tabletten zur Herstellung einer Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener Hormonrezeptor-positiver, HER2-negativer Brustkrebs nach den Wechseljahren, mit Exemestan nach Versagen eines nichtsteroidalen Aromatasehemmers (Afinitor)",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Neuroendokrine Tumoren der Bauchspeicheldrüse, des Magen-Darm-Trakts oder der Lunge (Afinitor)",
+      "ids": [
+        "bauchspeicheldruesenkrebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom nach Vorbehandlung mit einer gegen VEGF gerichteten Therapie (Afinitor)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Tuberöse Sklerose: Nieren-Angiomyolipome, subependymale Riesenzellastrozytome (Hirntumoren) und als Zusatzbehandlung bei therapieresistenten fokalen Anfällen (Votubia)",
+      "ids": [
+        "hirntumor",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Vorbeugung der Abstossung nach Nieren-, Herz- oder Lebertransplantation, kombiniert mit Ciclosporin bzw. Tacrolimus und Kortikosteroiden (Certican)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt einen zentralen Schalter für Zellwachstum und -teilung. Everolimus bindet an das Protein FKBP-12; dieser Komplex hemmt die Kinase mTOR (mTORC1). Dadurch werden Proteinsynthese, Zellteilung, Gefässneubildung im Tumor und Glukosestoffwechsel gebremst. In Immunzellen verhindert die mTOR-Hemmung die durch Interleukin-2 ausgelöste Vermehrung aktivierter T-Lymphozyten, was die Abstossung eines Transplantats unterdrückt.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Rapamycin-Abkömmlinge (z. B. Sirolimus)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nicht infektiöse Pneumonitis: Husten oder Atemnot sofort abklären",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Infektionen, auch opportunistische (z. B. Pneumocystis-Pneumonie), und Hepatitis-B-Reaktivierung",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Diabetes und erhöhte Blutfette: Blutzucker und Lipide kontrollieren",
+      "ids": [
+        "diabetes",
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion, Eiweiss im Urin: Nierenwerte kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Geplante Operationen: verzögerte Wundheilung",
+      "ids": [
+        "operation",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfungen (vermeiden)",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4- und P-gp-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Everolimus-Spiegel steigt stark (Ketoconazol etwa 15-fach) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4- und P-gp-Hemmer (z. B. Erythromycin, Verapamil, Diltiazem, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Höhere Everolimus-Spiegel – Dosis reduzieren, bei Transplantation Talspiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Everolimus-Spiegel sinkt stark – vermeiden oder Dosis erhöhen und Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin (Transplantation)",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin erhöht die Everolimus-Spiegel; die Kombination ist vorgesehen, erfordert aber Spiegelkontrollen und eine reduzierte Ciclosporin-Dosis zum Schutz der Nieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Geschwächte Abwehr – Lebendimpfstoffe vermeiden; die Wirkung anderer Impfstoffe kann vermindert sein.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "ACE-Hemmer",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für ein Angioödem (Schwellung von Gesicht, Zunge, Rachen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmen CYP3A4 und P-gp und erhöhen die Everolimus-Spiegel – meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Midazolam (zum Einnehmen)",
+      "ref": [
+        "midazolam"
+      ],
+      "effekt": "Everolimus erhöht die Midazolam-Spiegel leicht (etwa +30 %).",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Anämie",
+      "Hyperglykämie (erhöhter Blutzucker), erhöhte Blutfette (Cholesterin, Triglyzeride)",
+      "Appetitlosigkeit, Geschmacksstörungen, Durchfall, Übelkeit",
+      "Pneumonitis, Husten, Atemnot, Nasenbluten",
+      "Hautausschlag, trockene Haut, Juckreiz, Nagelveränderungen",
+      "Müdigkeit, Schwäche, periphere Ödeme, Gewichtsverlust"
+    ],
+    "haeufig": [
+      "Thrombozytopenie, Neutropenie, Leukopenie, Lymphopenie",
+      "Hypophosphatämie, Hypokaliämie, Hypokalzämie, Diabetes mellitus",
+      "Bluthochdruck, Blutungen",
+      "Erbrechen, Mundtrockenheit, Bauchschmerzen, Dyspepsie",
+      "Erhöhte Leberwerte (ALT, AST)",
+      "Nierenversagen, Proteinurie (Eiweiss im Urin)",
+      "Kopfschmerzen, Schlaflosigkeit, Bindehautentzündung",
+      "Unregelmässige Menstruation, Akne, Gelenkschmerzen, Fieber"
+    ],
+    "gelegentlich": [
+      "Herzschwäche",
+      "Tiefe Venenthrombose, Lungenembolie",
+      "Wundheilungsstörungen",
+      "Panzytopenie (Mangel an allen Blutzellen)",
+      "Akutes Atemnotsyndrom (ARDS)"
+    ],
+    "selten": [
+      "Angioödem",
+      "Erythroblastopenie (Ausfall der Bildung roter Blutkörperchen)"
+    ],
+    "unbekannt": [
+      "Hepatitis-B-Reaktivierung",
+      "Verstärkte Strahlenreaktionen, Strahlen-Recall-Reaktion"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Indikation (im Tierversuch fruchtschädigend). Frauen müssen während und bis mindestens 8 Wochen nach der Behandlung sicher verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 2 Wochen nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich (Certican zweimal täglich) immer zur gleichen Zeit und immer gleich – stets mit oder stets ohne Mahlzeit – einnehmen; Grapefruit meiden.",
+    "Bei Mundentzündung alkohol- und peroxidfreie Mundspülungen verwenden; eine dexamethasonhaltige Mundspülung kann vorbeugen.",
+    "Blutbild, Blutzucker, Blutfette und Nierenwerte werden regelmässig kontrolliert; bei Transplantation und tuberöser Sklerose auch der Blutspiegel.",
+    "Keine Lebendimpfungen; Husten, Atemnot oder Fieber sofort melden."
+  ],
+  "stand": "2026-10"
+}

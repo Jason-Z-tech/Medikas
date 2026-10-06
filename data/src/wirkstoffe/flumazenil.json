@@ -1,0 +1,178 @@
+{
+  "id": "flumazenil",
+  "name": "Flumazenil",
+  "synonyme": [
+    "Flumazenilum"
+  ],
+  "atc": [
+    "V03AB25"
+  ],
+  "klasse": "Benzodiazepin-Antagonist (Gegenmittel)",
+  "kurz": "Gegenmittel, das im Spital die beruhigende und schlafmachende Wirkung von Benzodiazepinen rasch aufhebt, z. B. nach einer Narkose.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Anexate"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Aufhebung der Sedierung durch Benzodiazepine nach Narkose oder nach kurzen diagnostischen und therapeutischen Eingriffen",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Diagnose und Behandlung einer Vergiftung oder Überdosierung mit Benzodiazepinen (Intensivmedizin)",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die beruhigende, schlafmachende und atemdämpfende Wirkung von Benzodiazepinen auf. Flumazenil ist ein Imidazobenzodiazepin, das die Benzodiazepin-Bindungsstelle am GABA-A-Rezeptor kompetitiv besetzt, ohne sie nennenswert zu aktivieren. Es verdrängt so Benzodiazepine und auch Z-Substanzen wie Zolpidem und Zopiclon. Die Wirkung tritt innert 1–2 Minuten ein, hält aber wegen der kurzen Halbwertszeit von etwa einer Stunde oft kürzer an als die des Benzodiazepins.",
+  "kontraindikationen": [
+    {
+      "text": "Benzodiazepin-Behandlung zur Kontrolle eines lebensbedrohlichen Zustands, z. B. erhöhter Hirndruck oder Status epilepticus",
+      "ids": [
+        "epilepsie",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Mischvergiftung mit trizyklischen oder tetrazyklischen Antidepressiva mit Zeichen einer schweren Vergiftung (Krampfanfälle und Herzrhythmusstörungen werden demaskiert)",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Langzeitbehandlung mit Benzodiazepinen oder Abhängigkeit: Entzugssymptome bis zu Krampfanfällen – langsam dosieren",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Epilepsie unter Benzodiazepin-Dauerbehandlung (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Schweres Schädel-Hirn-Trauma (Anstieg des Hirndrucks möglich)",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Angst- oder Panikstörung in der Vorgeschichte (Panikattacken möglich)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Erneutes Einschlafen (Resedierung) nach Abklingen der Wirkung – Überwachung nötig",
+      "ids": [
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (langsamerer Abbau)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nach Narkose erst anwenden, wenn die Wirkung muskelentspannender Mittel abgeklungen ist",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Kinder unter 1 Jahr: keine ausreichenden Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Trizyklische und tetrazyklische Antidepressiva (bei Vergiftung)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "maprotilin",
+        "mianserin"
+      ],
+      "effekt": "Bei Mischvergiftung werden Krampfanfälle und Herzrhythmusstörungen demaskiert – Flumazenil dann nicht einsetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine (z. B. Midazolam, Diazepam, Lorazepam)",
+      "ref": [
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Die Wirkung wird aufgehoben; nach Langzeitanwendung sind akute Entzugssymptome und Krampfanfälle möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Z-Substanzen (Zolpidem, Zopiclon)",
+      "ref": [
+        "gruppe:z-substanzen"
+      ],
+      "effekt": "Auch deren Wirkung wird aufgehoben.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Opioide, Barbiturate, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:barbiturate"
+      ],
+      "effekt": "Flumazenil hebt deren Wirkung nicht auf – Atmung weiter überwachen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Angst, Stimmungsschwankungen, Schlaflosigkeit",
+      "Schwindel, Kopfschmerzen, Zittern, Unruhe",
+      "Doppelbilder, vermehrter Tränenfluss",
+      "Herzklopfen, Hitzewallungen, Blutdruckabfall",
+      "Erbrechen, Schluckauf, Schwitzen",
+      "Müdigkeit, Schmerzen an der Injektionsstelle"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle (v. a. bei Epilepsie oder schwerer Leberinsuffizienz)",
+      "Herzrasen, verlangsamter Puls, Extrasystolen",
+      "Atemnot, Husten",
+      "Hörstörungen",
+      "Frösteln"
+    ],
+    "selten": [
+      "Vorübergehender Blutdruckanstieg"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis zur Anaphylaxie",
+      "Entzugssymptome nach Benzodiazepin-Langzeitanwendung",
+      "Panikattacken bei Menschen mit Panikstörung"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen fehlen; nur bei klarer Notwendigkeit anwenden. Im Notfall ist die Anwendung nicht kontraindiziert.",
+  "stillzeit": "Ob Flumazenil in die Muttermilch übergeht, ist nicht bekannt; im Notfall ist die Anwendung nicht kontraindiziert.",
+  "hinweise": [
+    "Da die Benzodiazepinwirkung zurückkehren kann, bleiben Patientinnen und Patienten nach der Gabe unter Überwachung.",
+    "Nach der Behandlung mindestens 24 Stunden nicht Auto fahren, keine Maschinen bedienen und keinen Alkohol trinken.",
+    "Wird nur von Fachpersonen im Spital oder in der Notfallmedizin angewendet."
+  ],
+  "stand": "2026-10"
+}

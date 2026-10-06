@@ -1,0 +1,66 @@
+{
+  "id": "fluticason",
+  "name": "Fluticason",
+  "synonyme": ["Fluticasonpropionat", "Fluticasone propionate", "Fluticasoni propionas"],
+  "atc": ["R03BA05", "R01AD08", "D07AC17"],
+  "klasse": "Glukokortikoid (inhalativ, nasal; topisch Klasse III – stark)",
+  "kurz": "Kortison zum Inhalieren bei Asthma, als Nasenspray bei Heuschnupfen und als Creme bei Ekzemen; wirkt örtlich entzündungshemmend.",
+  "gruppen": ["glukokortikoide-inhalativ", "glukokortikoide-topisch", "cyp3a4-substrate-empfindlich"],
+  "handelsnamen": ["Axotide", "Flutinase", "Cutivate", "Seretide (Kombi)", "Flutiform (Kombi)", "Dymista (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Dosieraerosol", "Pulverinhalator (Diskus)", "Nasenspray", "Creme", "Salbe"],
+  "indikationen": [
+    { "text": "Asthma bronchiale: regelmässige Dauerbehandlung zur Kontrolle der Entzündung (Inhalation)", "ids": ["asthma"] },
+    { "text": "Saisonaler und ganzjähriger allergischer Schnupfen (Nasenspray)", "ids": ["heuschnupfen"] },
+    { "text": "Ekzeme, Neurodermitis und andere auf Kortison ansprechende entzündliche Hauterkrankungen (Creme, Salbe)", "ids": ["neurodermitis"] },
+    { "text": "In fixer Kombination mit einem langwirksamen Beta-2-Sympathomimetikum (Seretide, Flutiform) bei Asthma, Seretide auch bei COPD; mit Azelastin (Dymista) bei allergischem Schnupfen", "ids": ["asthma", "copd", "heuschnupfen"] }
+  ],
+  "wirkmechanismus": "Hemmt die Entzündung direkt am Ort der Anwendung – in den Bronchien, in der Nasenschleimhaut oder in der Haut. Fluticasonpropionat ist ein stark wirksames Glukokortikoid mit sehr hoher Affinität zum Glukokortikoid-Rezeptor; es vermindert die Bildung entzündungsfördernder Botenstoffe und die Einwanderung von Entzündungszellen wie eosinophilen Granulozyten und Mastzellen. Verschluckter Wirkstoff wird in der Leber über CYP3A4 fast vollständig abgebaut (orale Bioverfügbarkeit unter 1 %), weshalb die Wirkung im ganzen Körper normalerweise gering bleibt – starke CYP3A4-Hemmer heben diesen Schutz auf.",
+  "kontraindikationen": [
+    { "text": "Creme/Salbe: Rosazea, Akne, periorale Dermatitis sowie unbehandelte Hautinfektionen durch Viren (z. B. Herpes, Windpocken), Bakterien oder Pilze", "ids": ["rosazea", "akne", "herpes", "hautinfektion", "hautpilz"] },
+    { "text": "Creme/Salbe: Juckreiz im After- und Genitalbereich", "ids": ["juckreiz"] },
+    { "text": "Creme/Salbe: Hauterkrankungen bei Säuglingen (je nach Präparat unter 3 bzw. 12 Monaten), inkl. Windeldermatitis", "ids": ["kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "Nicht zur Behandlung eines akuten Asthmaanfalls – dafür ein rasch wirksames Notfallspray verwenden", "ids": ["asthma"] },
+    { "text": "Aktive oder ruhende Lungentuberkulose sowie Pilz-, Virus- oder bakterielle Infektionen der Atemwege", "ids": ["tuberkulose", "aktive-infektion"] },
+    { "text": "Umstellung von Kortisontabletten auf Inhalation: Gefahr einer Nebennierenschwäche, z. B. bei Infekten oder Operationen", "ids": ["nebenniereninsuffizienz", "operation"] },
+    { "text": "Kinder: Körpergrösse bei Langzeitbehandlung (Inhalation, Nasenspray) regelmässig kontrollieren", "ids": ["kinder"] },
+    { "text": "Sehstörungen, grauer oder grüner Star bei langer, hoch dosierter Anwendung", "ids": ["glaukom", "katarakt"] },
+    { "text": "COPD: erhöhtes Risiko für Lungenentzündungen unter inhalativem Kortison", "ids": ["copd", "lungenentzuendung"] },
+    { "text": "Creme/Salbe: Gesicht, Hautfalten, grossflächige Anwendung oder luftdichte Verbände erhöhen Aufnahme und Hautverdünnung", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Ritonavir- oder Cobicistat-haltige Mittel (z. B. HIV-Therapie, Nirmatrelvir/Ritonavir)", "ref": ["ritonavir", "cobicistat", "lopinavir-ritonavir", "darunavir-cobicistat", "nirmatrelvir-ritonavir"], "effekt": "Fluticason-Spiegel im Blut steigt massiv – Cushing-Syndrom und Nebennierenschwäche wurden beschrieben. Kombination vermeiden, ausser der Nutzen überwiegt; gegebenenfalls auf ein anderes Kortikosteroid wechseln.", "schwere": "schwer" },
+    { "text": "Andere starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Erhöhte Fluticason-Spiegel und mehr Kortison-Nebenwirkungen im ganzen Körper möglich – Vorsicht, besonders bei langer Kombination.", "schwere": "mittel" },
+    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Geringer Anstieg der Fluticason-Spiegel, meist ohne klinische Bedeutung.", "schwere": "leicht" },
+    { "text": "Andere Kortikosteroide (Tabletten, weitere Inhalate oder Nasensprays)", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:glukokortikoide-inhalativ"], "effekt": "Die Kortisonmenge im Körper summiert sich – erhöhtes Risiko für systemische Nebenwirkungen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Pilzbefall von Mund und Rachen (Soor) bei Inhalation", "Nasenbluten (Nasenspray)"],
+    "haeufig": ["Heiserkeit", "Blaue Flecken (Hämatome)", "Lungenentzündung (Pneumonie) bei COPD-Patienten", "Nasenspray: Kopfschmerzen, unangenehmer Geschmack oder Geruch, trockene und gereizte Nase und Rachen", "Creme/Salbe: Juckreiz"],
+    "gelegentlich": ["Allergische Hautreaktionen", "Creme/Salbe: Brennen der Haut"],
+    "selten": ["Pilzbefall der Speiseröhre (Soor-Ösophagitis)"],
+    "sehrSelten": [
+      "Anaphylaxie und Angioödem (schwere allergische Reaktionen)",
+      "Paradoxer Bronchospasmus (Verkrampfung der Atemwege direkt nach dem Inhalieren)",
+      "Kortison-Wirkungen im ganzen Körper: Cushing-Syndrom, Nebennierenschwäche, Wachstumsverzögerung bei Kindern, Abnahme der Knochendichte",
+      "Grauer und grüner Star (Katarakt, Glaukom)",
+      "Erhöhter Blutzucker",
+      "Angst, Schlafstörungen, Verhaltensänderungen wie Unruhe und Reizbarkeit (vor allem bei Kindern)",
+      "Durchbruch der Nasenscheidewand (Nasenspray)",
+      "Creme/Salbe: Hautverdünnung, Dehnungsstreifen, erweiterte Äderchen"
+    ],
+    "unbekannt": ["Depression, Aggressivität", "Verschwommenes Sehen (Chorioretinopathie)"]
+  },
+  "schwangerschaft": "Nach ärztlicher Abwägung möglich. Bei Inhalation und Nasenspray gelangt nur wenig Wirkstoff in den Körper; eine gute Asthmakontrolle ist für Mutter und Kind wichtig.",
+  "stillzeit": "Der Übertritt in die Muttermilch ist beim Menschen nicht untersucht; inhalativ und nasal in üblicher Dosis nach Abwägung vertretbar, da kaum Wirkstoff ins Blut gelangt. Creme/Salbe nicht auf die Brust auftragen.",
+  "hinweise": [
+    "Nach dem Inhalieren den Mund ausspülen oder etwas essen – beugt Mundsoor und Heiserkeit vor.",
+    "Regelmässig anwenden, auch wenn keine Beschwerden bestehen; die volle Wirkung tritt erst nach einigen Tagen ein.",
+    "Nicht verwechseln mit Fluticasonfuroat (z. B. Avamys, Relvar, Trelegy) – eigener Wirkstoff mit anderer Dosierung.",
+    "Creme/Salbe dünn auftragen und im Gesicht nur kurzfristig anwenden."
+  ],
+  "stand": "2026-10"
+}

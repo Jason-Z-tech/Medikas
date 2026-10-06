@@ -1,0 +1,61 @@
+{
+  "id": "oxytocin",
+  "name": "Oxytocin",
+  "synonyme": ["Oxytocinum", "Wehenhormon"],
+  "atc": ["H01BB02"],
+  "klasse": "Hypophysenhinterlappenhormon (Uterotonikum, wehenförderndes Mittel)",
+  "kurz": "Wehenförderndes Hormon für die Geburtshilfe im Spital: zur Geburtseinleitung, Wehenverstärkung und gegen Blutungen nach der Geburt.",
+  "gruppen": ["qt-verlaengernd", "hyponatriaemie-ausloesend"],
+  "handelsnamen": ["Syntocinon"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung (Ampullen, zur Infusion oder Injektion)"],
+  "indikationen": [
+    { "text": "Einleitung der Geburt aus medizinischen Gründen (z. B. Übertragung, vorzeitiger Blasensprung, schwangerschaftsbedingter Bluthochdruck)", "ids": ["geburtshilfe"] },
+    { "text": "Wehenschwäche während der Geburt", "ids": ["geburtshilfe"] },
+    { "text": "Kaiserschnitt (nach Entwicklung des Kindes) und Nachgeburtsperiode: Vorbeugung und Behandlung einer erschlafften Gebärmutter (Uterusatonie) und von Blutungen nach der Geburt", "ids": ["geburtshilfe", "aktive-blutung"] }
+  ],
+  "wirkmechanismus": "Löst Wehen aus bzw. verstärkt sie und lässt die Gebärmutter nach der Geburt fest zusammenziehen, was Blutungen vermindert. Oxytocin ist ein synthetisch hergestelltes Hormon, das dem körpereigenen Hormon des Hypophysenhinterlappens entspricht. Es bindet an Oxytocin-Rezeptoren der Gebärmuttermuskulatur, deren Zahl gegen Ende der Schwangerschaft stark zunimmt, und steigert über einen Calcium-Einstrom Häufigkeit und Kraft der Kontraktionen. Zusätzlich fördert es den Milchfluss und wirkt in hoher Dosis schwach antidiuretisch (Wasserretention).",
+  "kontraindikationen": [
+    { "text": "Übermässig starke (hypertone) Wehen oder Gefährdung des Kindes (fetaler Distress), wenn die Geburt nicht unmittelbar bevorsteht", "ids": ["geburtshilfe"] },
+    { "text": "Mechanisches Geburtshindernis oder Situationen, in denen Wehen nicht ratsam sind bzw. eine vaginale Geburt nicht möglich ist: deutliches Missverhältnis zwischen kindlichem Kopf und Becken, Fehllage des Kindes, Placenta praevia, Vasa praevia, vorzeitige Plazentalösung, Nabelschnurvorfall", "ids": ["geburtshilfe", "schwangerschaft"] },
+    { "text": "Überdehnung der Gebärmutter oder erhöhte Gefahr eines Gebärmutterrisses, z. B. Mehrlingsschwangerschaft, viel Fruchtwasser (Polyhydramnion), viele vorangegangene Geburten, Narbe nach grösserer Gebärmutteroperation oder klassischem Kaiserschnitt", "ids": ["geburtshilfe"] },
+    { "text": "Längerdauernde Anwendung bei therapieresistenter Wehenschwäche, schwerer Präeklampsie oder schweren Herz-Kreislauf-Erkrankungen", "ids": ["geburtshilfe", "herzinsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Herz-Kreislauf-Erkrankungen, Neigung zu Durchblutungsstörungen des Herzens oder angeborene bzw. erworbene QT-Verlängerung", "ids": ["koronare-herzkrankheit", "qt-verlaengerung"] },
+    { "text": "Hochdosierte Langzeitinfusion mit viel Flüssigkeit: Gefahr einer Wasservergiftung mit Hyponatriämie – Flüssigkeitsbilanz und Natrium überwachen", "ids": ["hyponatriaemie"] },
+    { "text": "Niereninsuffizienz (Gefahr der Wasserretention)", "ids": ["niereninsuffizienz"] },
+    { "text": "Rasche intravenöse Bolusgabe kann einen akuten Blutdruckabfall mit Gesichtsrötung und Herzrasen auslösen, v. a. bei Herz-Kreislauf-Problemen", "ids": ["hypotonie"] },
+    { "text": "Erhöhtes Risiko einer Verbrauchskoagulopathie (disseminierte intravasale Gerinnung) nach medikamentöser Geburtseinleitung, v. a. bei Frauen ab 35 Jahren, Schwangerschaftskomplikationen oder Übertragung", "ids": ["blutgerinnungsstoerung"] },
+    { "text": "Fortlaufende Überwachung von Wehen und kindlichen Herztönen ist zwingend; bei Überstimulation Infusion sofort stoppen", "ids": ["geburtshilfe"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Prostaglandine und Analoga (z. B. Dinoproston, Misoprostol, Sulproston)", "ref": ["dinoproston", "misoprostol", "sulproston"], "effekt": "Gegenseitige Verstärkung der wehenfördernden Wirkung mit Gefahr einer Überstimulation der Gebärmutter – Kombination nicht empfohlen; Oxytocin frühestens 6 Stunden nach vaginal angewendeten Prostaglandinen beginnen.", "schwere": "schwer" },
+    { "text": "QT-verlängernde Arzneimittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen (Torsade de pointes) – Vorsicht, EKG-Überwachung.", "schwere": "mittel" },
+    { "text": "Inhalationsanästhetika (z. B. Sevofluran, Desfluran, Isofluran)", "ref": ["sevofluran", "desfluran", "isofluran"], "effekt": "Abschwächung der Oxytocin-Wirkung (Gebärmutter erschlafft); zudem wurden Herzrhythmusstörungen beschrieben.", "schwere": "mittel" },
+    { "text": "Gefässverengende Mittel (Sympathomimetika), auch als Zusatz zu Lokalanästhetika", "ref": ["gruppe:sympathomimetika"], "effekt": "Verstärkte Blutdrucksteigerung möglich; zusammen mit einer Kaudalanästhesie wurde schwerer Bluthochdruck beschrieben.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Kopfschmerzen", "Beschleunigter oder verlangsamter Herzschlag", "Übelkeit, Erbrechen"],
+    "gelegentlich": ["Herzrhythmusstörungen"],
+    "selten": ["Anaphylaktische bzw. anaphylaktoide Reaktionen mit Atemnot, Blutdruckabfall oder Schock", "Hautausschlag"],
+    "unbekannt": [
+      "Wasservergiftung mit Hyponatriämie (Kopfschmerzen, Krampfanfälle, Koma) bei hoher Dosis und viel Infusionsflüssigkeit",
+      "Akuter Blutdruckabfall mit Gesichtsrötung (Flush) nach rascher Injektion",
+      "Myokardischämie (Durchblutungsstörung des Herzens), QT-Verlängerung",
+      "Lungenödem",
+      "Disseminierte intravasale Gerinnung (Verbrauchskoagulopathie)",
+      "Angioödem",
+      "Überstimulation der Gebärmutter (Dauerkontraktion) bis zum Gebärmutterriss",
+      "Beim Kind: Sauerstoffmangel und Herzfrequenzstörungen; Gelbsucht und Netzhautblutungen beim Neugeborenen"
+    ]
+  },
+  "schwangerschaft": "Nur unter der Geburt bzw. unmittelbar danach im Spital unter Überwachung von Wehen und kindlichen Herztönen anzuwenden; zu anderen Zeitpunkten der Schwangerschaft nicht anwenden.",
+  "stillzeit": "Geht in kleinen Mengen in die Muttermilch über, wird aber im Magen-Darm-Trakt des Säuglings rasch abgebaut; Stillen ist möglich.",
+  "hinweise": [
+    "Wird nur im Spital von Fachpersonen verabreicht, meist als langsame, genau dosierte Infusion mit fortlaufender CTG-Überwachung.",
+    "Bei starken Kopfschmerzen, Verwirrtheit, Atemnot, Brustschmerzen oder Herzklopfen sofort das Behandlungsteam informieren."
+  ],
+  "stand": "2026-10"
+}

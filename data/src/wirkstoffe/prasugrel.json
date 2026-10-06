@@ -1,0 +1,54 @@
+{
+  "id": "prasugrel",
+  "name": "Prasugrel",
+  "synonyme": ["Prasugrelhydrochlorid", "Prasugrel hydrochloride", "Thienopyridin"],
+  "atc": ["B01AC22"],
+  "klasse": "Thrombozytenaggregationshemmer (P2Y12-Hemmer, Thienopyridin)",
+  "kurz": "Starker Hemmer der Blutplättchen nach Herzinfarkt mit Kathetereingriff; zusammen mit Acetylsalicylsäure gegen Stentverschluss und neuen Infarkt.",
+  "gruppen": ["thrombozytenaggregationshemmer", "p2y12-hemmer", "blutungsrisiko-erhoehend"],
+  "handelsnamen": ["Efient"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Vorbeugung von Herzinfarkt, Stentthrombose und Herztod bei akutem Koronarsyndrom (instabile Angina pectoris, Herzinfarkt mit oder ohne ST-Hebung) mit Kathetereingriff (PCI) – zusammen mit Acetylsalicylsäure", "ids": ["herzinfarkt", "angina-pectoris", "koronare-herzkrankheit"] }
+  ],
+  "wirkmechanismus": "Verhindert, dass Blutplättchen verklumpen und Gerinnsel in den Herzkranzgefässen oder im Stent bilden. Prasugrel ist eine Vorstufe (Prodrug), die im Darm und in der Leber (u. a. über CYP3A4 und CYP2B6) rasch und zuverlässig in den aktiven Metaboliten umgewandelt wird. Dieser blockiert den ADP-Rezeptor P2Y12 der Blutplättchen irreversibel. Die Wirkung setzt schneller ein und ist stärker und gleichmässiger als bei Clopidogrel und hält für die Lebensdauer der Plättchen (7–10 Tage) an.",
+  "kontraindikationen": [
+    { "text": "Aktive krankhafte Blutung", "ids": ["aktive-blutung"] },
+    { "text": "Schlaganfall oder transitorische ischämische Attacke (TIA) in der Vorgeschichte", "ids": ["schlaganfall", "hirnblutung"] },
+    { "text": "Schwere Leberfunktionsstörung (Child-Pugh C)", "ids": ["leberinsuffizienz", "leberzirrhose"] }
+  ],
+  "vorsicht": [
+    { "text": "Alter ab 75 Jahren: wegen erhöhten Risikos tödlicher Blutungen grundsätzlich nicht empfohlen, allenfalls in reduzierter Dosis", "ids": ["aeltere-patienten"] },
+    { "text": "Körpergewicht unter 60 kg: reduzierte Dosis", "ids": [] },
+    { "text": "Erhöhtes Blutungsrisiko: kürzliche Verletzung oder Operation, kürzliche oder wiederholte Magen-Darm-Blutung, aktives Magengeschwür", "ids": ["operation", "magen-darm-ulkus", "blutgerinnungsstoerung"] },
+    { "text": "Geplante Bypass-Operation: mindestens 7 Tage vorher absetzen", "ids": ["operation"] },
+    { "text": "Mässig eingeschränkte Leberfunktion und eingeschränkte Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Überempfindlichkeit gegen andere Thienopyridine (Clopidogrel, Ticlopidin), einschliesslich Angioödem", "ids": ["allergie", "angiooedem"] },
+    { "text": "Thrombotisch-thrombozytopenische Purpura (TTP): selten, lebensbedrohlich", "ids": ["thrombozytopenie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Orale Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban)", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak"], "effekt": "Deutlich erhöhtes Blutungsrisiko – Kombination nur nach strenger ärztlicher Abwägung.", "schwere": "schwer" },
+    { "text": "NSAR bei Dauereinnahme (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden.", "schwere": "mittel" },
+    { "text": "Heparine, Fondaparinux und Thrombolytika", "ref": ["gruppe:heparine", "fondaparinux", "alteplase"], "effekt": "Erhöhtes Blutungsrisiko; beim Kathetereingriff gezielt kombiniert.", "schwere": "mittel" },
+    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
+    { "text": "Opioide (z. B. Morphin) beim akuten Koronarsyndrom", "ref": ["gruppe:opioide"], "effekt": "Verzögerte und verminderte Aufnahme von Prasugrel, dadurch verzögerte Plättchenhemmung.", "schwere": "mittel" },
+    { "text": "Acetylsalicylsäure", "ref": ["acetylsalicylsaeure"], "effekt": "Mehr Blutungen; die Kombination ist nach Stent-Einlage gewollt und wird befristet eingesetzt.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Anämie (Blutarmut)", "Blutergüsse (Hämatome), Hautblutungen", "Nasenbluten", "Magen-Darm-Blutungen", "Blut im Urin", "Blutungen und Blutergüsse an der Gefässpunktionsstelle", "Hautausschlag"],
+    "gelegentlich": ["Überempfindlichkeitsreaktionen einschliesslich Angioödem", "Hirnblutung (besonders nach früherem Schlaganfall oder TIA)", "Augenblutungen", "Bluthusten", "Blutungen aus Zahnfleisch, Enddarm und im hinteren Bauchraum (retroperitoneal)", "Nachblutungen nach Eingriffen"],
+    "selten": ["Thrombozytopenie (verminderte Blutplättchen)", "Blutergüsse unter der Haut"],
+    "unbekannt": ["Thrombotisch-thrombozytopenische Purpura (TTP)"]
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen; nur anwenden, wenn der Nutzen das Risiko für das Ungeborene eindeutig überwiegt.",
+  "stillzeit": "Unbekannt, ob Prasugrel in die Muttermilch übergeht; Stillen wird nicht empfohlen.",
+  "hinweise": [
+    "Nicht eigenmächtig absetzen – nach Stent-Einlage drohen Stentverschluss und Herzinfarkt.",
+    "Vor Operationen und Zahnbehandlungen die Einnahme angeben; ein Pausieren (meist 7 Tage vorher) nur nach ärztlicher Anordnung.",
+    "Täglich etwa zur gleichen Zeit einnehmen, mit oder ohne Mahlzeit.",
+    "Bei Blutungszeichen (schwarzer Stuhl, Blut im Urin, starke Blutergüsse) oder plötzlichen neurologischen Ausfällen sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

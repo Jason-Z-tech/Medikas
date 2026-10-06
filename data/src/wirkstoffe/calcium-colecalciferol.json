@@ -1,0 +1,60 @@
+{
+  "id": "calcium-colecalciferol",
+  "name": "Calcium + Colecalciferol",
+  "synonyme": ["Calcium + Vitamin D3", "Calciumcarbonat + Colecalciferol", "Calcium-D3"],
+  "kombinationAus": ["calcium", "colecalciferol-vitamin-d3"],
+  "atc": ["A12AX"],
+  "klasse": "Calcium-Vitamin-D3-Kombination",
+  "kurz": "Calcium mit Vitamin D3 gegen Calcium- und Vitamin-D-Mangel, besonders im Alter, und zur Ergänzung einer Osteoporosebehandlung.",
+  "gruppen": ["mehrwertige-kationen", "hyperkalzaemie-ausloesend"],
+  "handelsnamen": ["Calcimagon-D3", "Calperos D3"],
+  "abgabe": ["D"],
+  "darreichung": ["Kautabletten", "Lutschtabletten", "Brausetabletten"],
+  "indikationen": [
+    { "text": "Vorbeugung und Behandlung eines kombinierten Calcium- und Vitamin-D-Mangels, besonders bei älteren Menschen", "ids": ["vitamin-d-mangel", "hypokalzaemie", "aeltere-patienten"] },
+    { "text": "Ergänzung einer spezifischen Osteoporosebehandlung (z. B. mit Bisphosphonaten) bei Calcium- und Vitamin-D-Mangel oder hohem Risiko dafür", "ids": ["osteoporose"] }
+  ],
+  "wirkmechanismus": "Liefert gleichzeitig Calcium und Vitamin D3, die der Knochen für seine Festigkeit braucht. Vitamin D3 wird in Leber und Niere zu Calcitriol aktiviert und steigert die Aufnahme von Calcium im Darm; das Calcium wird in den Knochen eingebaut. Gemeinsam gleichen sie einen Mangel aus und senken das Parathormon, das bei Mangel den Knochenabbau antreibt (sekundärer Hyperparathyreoidismus). So wird der altersbedingte Knochenabbau gebremst.",
+  "kontraindikationen": [
+    { "text": "Erhöhtes Calcium im Blut (Hyperkalzämie) und Krankheiten, die dazu führen (z. B. Myelom, Knochenmetastasen, primärer Hyperparathyreoidismus)", "ids": ["hyperkalzaemie", "hyperparathyreoidismus", "knochenmetastasen"] },
+    { "text": "Erhöhte Calciumausscheidung im Urin (Hyperkalziurie), calciumhaltige Nierensteine, Nierenverkalkung (Nephrokalzinose)", "ids": ["nierensteine"] },
+    { "text": "Vitamin-D-Überdosierung (Hypervitaminose D)", "ids": ["vergiftung"] },
+    { "text": "Schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Calcium, Phosphat und Kreatinin kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Sarkoidose (vermehrte Bildung von aktivem Vitamin D, Gefahr einer Hyperkalzämie)", "ids": ["autoimmunerkrankung"] },
+    { "text": "Ruhigstellung oder Bettlägerigkeit (erhöhte Hyperkalzämie-Gefahr)", "ids": [] },
+    { "text": "Langzeitbehandlung, besonders zusammen mit Thiaziden oder Herzglykosiden: Calcium im Blut und Urin kontrollieren", "ids": ["hyperkalzaemie"] },
+    { "text": "Weitere Calcium- oder Vitamin-D-Quellen (Präparate, grosse Mengen Milchprodukte) – Gefahr von Überdosierung und Milch-Alkali-Syndrom", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Eine Hyperkalzämie verstärkt die Digitaliswirkung (Rhythmusstörungen) – Calcium und gegebenenfalls EKG kontrollieren.", "schwere": "mittel" },
+    { "text": "Thiaziddiuretika (z. B. Hydrochlorothiazid, Chlortalidon)", "ref": ["gruppe:thiaziddiuretika"], "effekt": "Verminderte Calciumausscheidung – Hyperkalzämie möglich; Calcium regelmässig kontrollieren.", "schwere": "mittel" },
+    { "text": "Tetracycline und Fluorchinolone (z. B. Doxycyclin, Ciprofloxacin)", "ref": ["gruppe:tetracycline", "gruppe:fluorchinolone"], "effekt": "Calcium vermindert die Aufnahme des Antibiotikums – dieses mindestens 2 Stunden vor oder 4–6 Stunden nach dem Calciumpräparat einnehmen.", "schwere": "mittel" },
+    { "text": "Bisphosphonate zum Einnehmen (z. B. Alendronsäure, Risedronsäure)", "ref": ["gruppe:bisphosphonate"], "effekt": "Stark verminderte Aufnahme des Bisphosphonats – Calcium erst nach der in dessen Fachinformation genannten Wartezeit einnehmen.", "schwere": "mittel" },
+    { "text": "Schilddrüsenhormone (Levothyroxin)", "ref": ["gruppe:schilddruesenhormone"], "effekt": "Verminderte Aufnahme des Schilddrüsenhormons – mindestens 4 Stunden Abstand.", "schwere": "mittel" },
+    { "text": "Integrasehemmer gegen HIV (z. B. Dolutegravir, Bictegravir, Raltegravir)", "ref": ["gruppe:integrasehemmer"], "effekt": "Verminderte Aufnahme des HIV-Mittels – Einnahmeabstand bzw. gemeinsame Einnahme mit einer Mahlzeit gemäss dessen Fachinformation.", "schwere": "mittel" },
+    { "text": "Eltrombopag", "ref": ["eltrombopag"], "effekt": "Verminderte Aufnahme – Eltrombopag mindestens 2 Stunden vor oder 4 Stunden nach dem Calciumpräparat.", "schwere": "mittel" },
+    { "text": "Andere Vitamin-D-Präparate und aktive Vitamin-D-Formen (z. B. Calcitriol)", "ref": ["calcitriol", "paricalcitol"], "effekt": "Additive Wirkung – Gefahr einer Hyperkalzämie; nur auf ärztliche Anordnung kombinieren.", "schwere": "mittel" },
+    { "text": "Enzyminduzierende Antiepileptika (Phenytoin, Phenobarbital, Carbamazepin)", "ref": ["phenytoin", "phenobarbital", "carbamazepin"], "effekt": "Beschleunigter Abbau von Vitamin D – Wirkung vermindert.", "schwere": "leicht" },
+    { "text": "Eisenpräparate und Zink", "ref": ["gruppe:eisenpraeparate", "zink"], "effekt": "Gegenseitig verminderte Aufnahme – mindestens 2 Stunden Abstand.", "schwere": "leicht" },
+    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Vermindern die Calciumaufnahme und die Vitamin-D-Wirkung – Bedarf kann erhöht sein.", "schwere": "leicht" },
+    { "text": "Gallensäurebinder (Colestyramin) und Orlistat", "ref": ["gruppe:gallensaeurebinder", "orlistat"], "effekt": "Verminderte Aufnahme von Vitamin D – zeitversetzt einnehmen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": ["Hyperkalzämie (erhöhtes Calcium im Blut)", "Hyperkalziurie (erhöhtes Calcium im Urin)"],
+    "selten": ["Verstopfung, Blähungen, Übelkeit, Bauchschmerzen, Durchfall"],
+    "sehrSelten": ["Juckreiz, Hautausschlag, Nesselsucht", "Milch-Alkali-Syndrom (Hyperkalzämie, Alkalose, Nierenfunktionsstörung), meist nur bei Überdosierung"],
+    "unbekannt": ["Überempfindlichkeitsreaktionen wie Angioödem oder Kehlkopfschwellung"]
+  },
+  "schwangerschaft": "Bei Bedarf in üblichen Dosen erlaubt; in der Schwangerschaft insgesamt nicht mehr als 2500 mg Calcium und 4000 I. E. Vitamin D pro Tag aufnehmen.",
+  "stillzeit": "Erlaubt; Calcium und Vitamin D gehen in die Muttermilch über – bei zusätzlicher Vitamin-D-Gabe an den Säugling berücksichtigen.",
+  "hinweise": [
+    "Kautabletten kauen oder lutschen, am besten nach einer Mahlzeit.",
+    "Abstand zu Tetracyclinen, Chinolonen, Schilddrüsenhormonen, Bisphosphonaten und Eisen einhalten.",
+    "Keine weiteren Calcium- oder Vitamin-D-Präparate ohne ärztliche Absprache einnehmen."
+  ],
+  "stand": "2026-10"
+}

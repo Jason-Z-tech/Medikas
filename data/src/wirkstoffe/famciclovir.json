@@ -1,0 +1,47 @@
+{
+  "id": "famciclovir",
+  "name": "Famciclovir",
+  "synonyme": ["Famciclovirum"],
+  "atc": ["J05AB09"],
+  "klasse": "Virostatikum (Nukleosidanalogon gegen Herpesviren, Prodrug von Penciclovir)",
+  "kurz": "Tabletten gegen Herpesviren, vor allem bei Gürtelrose und Genitalherpes.",
+  "gruppen": [],
+  "handelsnamen": ["Famvir"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Gürtelrose (Herpes zoster), auch Zoster im Augenbereich (Zoster ophthalmicus) und bei geschwächter Abwehr", "ids": ["herpes", "immunsuppression"] },
+    { "text": "Genitalherpes: Behandlung von Erstinfektion und Rückfällen sowie Unterdrückung häufig wiederkehrender Rückfälle", "ids": ["herpes", "geschlechtskrankheit"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Herpesviren in befallenen Zellen. Famciclovir ist ein Prodrug, das nach der Aufnahme im Darm und in der Leber (u. a. durch Aldehydoxidase) rasch in den Wirkstoff Penciclovir umgewandelt wird. In virusinfizierten Zellen wird Penciclovir durch die virale Thymidinkinase zu Penciclovirtriphosphat aktiviert, das die virale DNA-Polymerase hemmt und lange in der Zelle verbleibt. Latente Viren werden nicht beseitigt.",
+  "kontraindikationen": [
+    { "text": "Überempfindlichkeit gegen Penciclovir (Kreuzallergie)", "ids": ["allergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosis anpassen", "ids": ["niereninsuffizienz"] },
+    { "text": "Ältere Menschen: Verwirrtheit und Schläfrigkeit häufiger", "ids": ["aeltere-patienten"] },
+    { "text": "Schwere Leberinsuffizienz: keine Erfahrungen, Umwandlung in den Wirkstoff kann vermindert sein", "ids": ["leberinsuffizienz"] },
+    { "text": "Kinder und Jugendliche: Anwendung nicht empfohlen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Probenecid und andere Mittel, die die Nierenausscheidung hemmen", "ref": [], "effekt": "Höhere Penciclovir-Spiegel – auf Nebenwirkungen achten, besonders bei eingeschränkter Nierenfunktion.", "schwere": "leicht" },
+    { "text": "Raloxifen", "ref": ["raloxifen"], "effekt": "Hemmt die Aldehydoxidase und damit die Umwandlung in Penciclovir – Wirkung kann vermindert sein; Wirksamkeit überwachen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Kopfschmerzen"],
+    "haeufig": ["Schwindel", "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall", "Abweichende Leberwerte", "Hautausschlag, Juckreiz"],
+    "gelegentlich": ["Verwirrtheit und Schläfrigkeit (vor allem bei älteren Menschen)", "Thrombozytopenie (Blutplättchenmangel)", "Nesselsucht, Angioödem"],
+    "selten": ["Halluzinationen", "Herzklopfen", "Cholestatische Gelbsucht"],
+    "unbekannt": ["Anaphylaxie (schwere allergische Reaktion)", "Krampfanfälle", "Schwere Hautreaktionen (Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)", "Leukozytoklastische Vaskulitis (Gefässentzündung der Haut)"]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; nur anwenden, wenn der Nutzen das mögliche Risiko überwiegt.",
+  "stillzeit": "Im Tierversuch geht Penciclovir in die Milch über; Anwendung nur, wenn der Nutzen das Risiko überwiegt.",
+  "hinweise": [
+    "Bei Gürtelrose möglichst innerhalb von 72 Stunden nach Auftreten des Ausschlags beginnen.",
+    "Kann unabhängig von den Mahlzeiten eingenommen werden.",
+    "Schwindel, Schläfrigkeit oder Verwirrtheit können die Fahrtüchtigkeit beeinträchtigen.",
+    "Genitalherpes bleibt ansteckend, auch unter Behandlung – Kondome verwenden, bei Beschwerden auf Geschlechtsverkehr verzichten."
+  ],
+  "stand": "2026-10"
+}

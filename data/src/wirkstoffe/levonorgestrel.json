@@ -1,0 +1,60 @@
+{
+  "id": "levonorgestrel",
+  "name": "Levonorgestrel",
+  "synonyme": ["LNG", "Pille danach", "Notfallpille", "Hormonspirale", "LNG-IUS"],
+  "atc": ["G03AD01", "G02BA03", "G03AC03"],
+  "klasse": "Gestagen; Notfallkontrazeptivum und Hormonspirale (Intrauterinsystem)",
+  "kurz": "Gelbkörperhormon-Abkömmling: als «Pille danach» bis 72 Stunden nach ungeschütztem Verkehr und als Hormonspirale zur Langzeitverhütung.",
+  "gruppen": ["gestagene", "hormonale-kontrazeptiva"],
+  "handelsnamen": ["NorLevo", "Mirena", "Kyleena", "Jaydess", "Microgynon (Kombi)", "Miranova (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten (Notfallverhütung)", "Intrauterinpessar (Hormonspirale)"],
+  "indikationen": [
+    { "text": "Notfallverhütung innerhalb von 72 Stunden nach ungeschütztem Geschlechtsverkehr oder Versagen einer Verhütungsmethode (Tablette)", "ids": ["verhuetung"] },
+    { "text": "Langzeitverhütung über mehrere Jahre mit einer Hormonspirale (Dauer je nach Präparat)", "ids": ["verhuetung"] },
+    { "text": "Starke Regelblutungen ohne organische Ursache (Mirena)", "ids": ["regelbeschwerden"] }
+  ],
+  "wirkmechanismus": "Verhindert eine Schwangerschaft auf unterschiedliche Weise, je nach Anwendung. Als «Pille danach» verzögert oder verhindert eine einmalige hohe Dosis den Eisprung, sofern sie vor dem Anstieg des Hormons LH eingenommen wird; nach erfolgter Einnistung wirkt sie nicht und ist kein Abtreibungsmittel. In der Hormonspirale wird Levonorgestrel direkt in der Gebärmutter freigesetzt: Es verdickt den Schleim am Gebärmutterhals, hemmt die Beweglichkeit der Spermien und hält die Gebärmutterschleimhaut dünn, wodurch auch die Regelblutungen schwächer werden. Der Eisprung bleibt dabei meist erhalten.",
+  "kontraindikationen": [
+    { "text": "Bestehende oder vermutete Schwangerschaft (Hormonspirale; die Notfallpille wirkt dann nicht)", "ids": ["schwangerschaft"] },
+    { "text": "Hormonspirale: akute oder wiederkehrende Entzündungen im Becken, Gebärmutterhalsentzündung, Infektionen des unteren Genitaltrakts, Gebärmutterentzündung nach der Geburt oder septischer Abort in den letzten 3 Monaten", "ids": ["vaginalinfektion", "geschlechtskrankheit"] },
+    { "text": "Hormonspirale: erhöhte Infektanfälligkeit", "ids": ["immunsuppression"] },
+    { "text": "Hormonspirale: Zellveränderungen oder bösartige Erkrankungen von Gebärmutterhals oder Gebärmutter, nicht abgeklärte Blutungen", "ids": ["gynaekologischer-krebs"] },
+    { "text": "Hormonspirale: Fehlbildungen der Gebärmutter oder Myome, die die Gebärmutterhöhle verformen", "ids": ["endometriose"] },
+    { "text": "Hormonspirale: bekannte oder vermutete gestagenabhängige Tumoren, z. B. Brustkrebs", "ids": ["brustkrebs"] },
+    { "text": "Hormonspirale: akute Lebererkrankung oder Lebertumoren", "ids": ["leberinsuffizienz", "leberkrebs"] }
+  ],
+  "vorsicht": [
+    { "text": "Notfallpille: schwere Leberfunktionsstörung (nicht empfohlen); schwere Aufnahmestörungen im Darm wie Morbus Crohn können die Wirkung vermindern", "ids": ["leberinsuffizienz", "morbus-crohn"] },
+    { "text": "Notfallpille: bei höherem Körpergewicht möglicherweise weniger wirksam (Daten begrenzt)", "ids": ["adipositas"] },
+    { "text": "Eileiterschwangerschaft oder Eileiterentzündung in der Vorgeschichte; bei Unterbauchschmerzen nach der Einnahme bzw. mit Spirale an eine Eileiterschwangerschaft denken", "ids": ["schwangerschaft"] },
+    { "text": "Hormonspirale: Migräne mit Sehstörungen, ungewöhnlich starke Kopfschmerzen, Gelbsucht, deutlicher Blutdruckanstieg, Schlaganfall oder Herzinfarkt – Entfernung erwägen", "ids": ["migraene", "hypertonie", "schlaganfall", "herzinfarkt"] },
+    { "text": "Depression in der Vorgeschichte (Stimmungsveränderungen beachten)", "ids": ["depression"] },
+    { "text": "Diabetes: Blutzucker kontrollieren", "ids": ["diabetes"] },
+    { "text": "Angeborene Herzfehler oder Herzklappenerkrankung (Risiko einer Endokarditis beim Einlegen der Spirale)", "ids": ["herzklappenerkrankung"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Efavirenz, Johanniskraut)", "ref": ["gruppe:enzyminduktoren-hormone", "gruppe:cyp3a4-induktoren"], "effekt": "Notfallpille wirkt deutlich schwächer: bei Einnahme solcher Mittel in den letzten 4 Wochen wird eine Kupferspirale oder die doppelte Levonorgestrel-Dosis (3 mg) empfohlen. Die Hormonspirale wirkt vor allem örtlich und wird kaum beeinflusst.", "schwere": "schwer" },
+    { "text": "Ulipristal (ellaOne)", "ref": ["ulipristal"], "effekt": "Gegenseitige Wirkungsabschwächung – Levonorgestrel und Ulipristal nicht gleichzeitig oder kurz nacheinander als Notfallverhütung einnehmen.", "schwere": "schwer" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Levonorgestrel kann den Abbau von Ciclosporin hemmen – Gefahr erhöhter Ciclosporin-Spiegel und -Toxizität, Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Levonorgestrel-Spiegel möglich; meist ohne klinische Bedeutung.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Notfallpille: Übelkeit, Unterbauchschmerzen, Kopfschmerzen, Müdigkeit", "Zwischen- und Schmierblutungen; bei der Hormonspirale veränderte, oft schwächere oder ausbleibende Regelblutung", "Hormonspirale: Bauch- und Beckenschmerzen, Entzündung von Scheide und Schamlippen (Vulvovaginitis), Ausfluss"],
+    "haeufig": ["Schwindel", "Erbrechen, Durchfall", "Brustspannen, Brustschmerzen", "Verspätete Regelblutung (mehr als 7 Tage) nach der Notfallpille, schmerzhafte Regelblutung", "Depressive Verstimmung, Depression, verminderte Libido", "Akne, vermehrte Behaarung (Hirsutismus)", "Eierstockzysten (meist harmlos und vorübergehend)", "Ausstossung der Hormonspirale"],
+    "gelegentlich": ["Entzündung der inneren Geschlechtsorgane (Gebärmutter, Eileiter)", "Haarausfall, Juckreiz, Ekzem", "Wassereinlagerungen (Ödeme)"],
+    "selten": ["Durchstossung der Gebärmutterwand (Perforation), meist beim Einlegen der Spirale", "Hautausschlag, Nesselsucht"],
+    "sehrSelten": ["Allergische Reaktionen mit Gesichtsschwellung (Notfallpille)"],
+    "unbekannt": ["Eileiterschwangerschaft, falls trotz Spirale eine Schwangerschaft eintritt"]
+  },
+  "schwangerschaft": "Bei bestehender Schwangerschaft nicht anwenden (die Notfallpille wirkt dann nicht). Eine versehentliche Einnahme schadet dem Kind nach bisherigen Erfahrungen nicht; tritt mit liegender Hormonspirale eine Schwangerschaft ein, sofort ärztlich abklären (Eileiterschwangerschaft ausschliessen).",
+  "stillzeit": "Erlaubt. Die Notfallpille möglichst direkt nach dem Stillen einnehmen und danach mindestens 8 Stunden nicht stillen; die Hormonspirale kann in der Stillzeit verwendet werden.",
+  "hinweise": [
+    "Die Notfallpille so früh wie möglich nach dem ungeschützten Verkehr einnehmen, spätestens nach 72 Stunden; in Apotheken nach Beratung ohne Rezept erhältlich.",
+    "Erbrechen innerhalb von 3 Stunden nach der Einnahme: erneut eine Tablette einnehmen.",
+    "Die Notfallpille schützt nicht für den Rest des Zyklus – bis zur nächsten Regel mit Kondom verhüten. Bleibt die Regel mehr als 5 Tage aus, einen Schwangerschaftstest machen.",
+    "Hormonspirale: Kontrolle einige Wochen nach dem Einlegen und danach regelmässig; bei starken Unterleibsschmerzen, Fieber oder ungewöhnlichem Ausfluss ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

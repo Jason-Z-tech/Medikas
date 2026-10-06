@@ -1,0 +1,224 @@
+{
+  "id": "clopamid",
+  "name": "Clopamid",
+  "synonyme": [
+    "Clopamide"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C03BA03"
+  ],
+  "klasse": "Thiazidartiges Diuretikum (Sulfonamid-Derivat)",
+  "kurz": "Harntreibendes Mittel (thiazidartig); in der Schweiz in fixer Kombination mit dem Betablocker Pindolol gegen Bluthochdruck erhältlich.",
+  "gruppen": [
+    "thiaziddiuretika",
+    "diuretika",
+    "blutdrucksenkend",
+    "hypokaliaemie-ausloesend",
+    "hyponatriaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend",
+    "hyperkalzaemie-ausloesend",
+    "hyperglykaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Viskaldix (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten (Kombinationspräparat)"
+  ],
+  "indikationen": [
+    {
+      "text": "Bluthochdruck (Hypertonie), als fixe Kombination mit Pindolol",
+      "ids": [
+        "hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Fördert die Ausscheidung von Salz und Wasser über die Niere und senkt dadurch den Blutdruck. Clopamid hemmt im frühen distalen Nierentubulus den Natrium-Chlorid-Kotransporter, sodass mehr Natrium, Chlorid und Wasser ausgeschieden werden; dabei gehen auch Kalium und Magnesium verloren, während Calcium zurückgehalten wird. Bei Dauerbehandlung trägt eine Abnahme des Gefässwiderstands zur Blutdrucksenkung bei.",
+  "kontraindikationen": [
+    {
+      "text": "Anurie (fehlende Harnproduktion) und schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz, Leberkoma",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Therapieresistente Hypokaliämie, Hyponatriämie oder Hyperkalzämie",
+      "ids": [
+        "hypokaliaemie",
+        "hyponatriaemie",
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Symptomatische Hyperurikämie (Gicht)",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Diabetes mellitus (Blutzucker kann steigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Flüssigkeitsmangel (Elektrolytstörungen, Blutdruckabfall)",
+      "ids": [
+        "aeltere-patienten",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Leberzirrhose (Elektrolytverschiebungen können ein Leberkoma auslösen)",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes (kann sich verschlechtern)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Plötzliche Sehverschlechterung oder Augenschmerzen (akutes Engwinkelglaukom möglich)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Viskaldix enthält zusätzlich den Betablocker Pindolol – dessen Gegenanzeigen (z. B. Asthma, AV-Block, Bradykardie) gelten ebenfalls",
+      "ids": [
+        "asthma",
+        "av-block",
+        "bradykardie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Ausscheidung sinkt, der Spiegel steigt – Gefahr einer Lithiumvergiftung; Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Kalium- und Magnesiummangel verstärken die Digitalis-Toxizität (Rhythmusstörungen) – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko für gefährliche Herzrhythmusstörungen (Torsade de pointes) – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere kaliumsenkende Mittel (z. B. Schleifendiuretika, systemische Glukokortikoide, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:laxanzien"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte blutdrucksenkende und harntreibende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antidiabetika (Insulin, Sulfonylharnstoffe, Metformin)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Die blutzuckersenkende Wirkung kann abnehmen – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Calcium und Vitamin D",
+      "ref": [
+        "calcium",
+        "colecalciferol-vitamin-d3"
+      ],
+      "effekt": "Gefahr erhöhter Calciumwerte – Calcium kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Überempfindlichkeitsreaktionen auf Allopurinol können häufiger auftreten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hypokaliämie (Kaliummangel), Hyponatriämie (Natriummangel), Magnesiummangel",
+      "Hyperurikämie (erhöhte Harnsäure), Gichtanfälle",
+      "Hyperglykämie (erhöhter Blutzucker), erhöhte Blutfette",
+      "Schwindel, Blutdruckabfall beim Aufstehen, Müdigkeit",
+      "Magen-Darm-Beschwerden, Appetitlosigkeit",
+      "Lichtempfindlichkeit der Haut, Hautausschlag",
+      "Potenzstörungen",
+      "Blutbildveränderungen (Thrombozytopenie, Agranulozytose), Pankreatitis"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen: Thiazid-Diuretika können die Durchblutung der Plazenta vermindern und beim Neugeborenen Elektrolytstörungen und Blutplättchenmangel verursachen; nur nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Geht in die Muttermilch über und kann die Milchbildung hemmen – nicht empfohlen.",
+  "hinweise": [
+    "Morgens einnehmen, damit der vermehrte Harndrang die Nachtruhe nicht stört.",
+    "Kalium, Natrium, Nierenwerte, Blutzucker und Harnsäure regelmässig kontrollieren.",
+    "Haut vor starker Sonne schützen.",
+    "Das Kombinationspräparat (mit dem Betablocker Pindolol) nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

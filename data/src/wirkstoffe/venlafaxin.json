@@ -1,0 +1,265 @@
+{
+  "id": "venlafaxin",
+  "name": "Venlafaxin",
+  "synonyme": [
+    "Venlafaxine"
+  ],
+  "atc": [
+    "N06AX16"
+  ],
+  "klasse": "Antidepressivum (Serotonin-Noradrenalin-Wiederaufnahmehemmer, SNRI)",
+  "kurz": "Antidepressivum (SNRI) gegen Depressionen sowie generalisierte Angst-, Panik- und soziale Angststörung.",
+  "gruppen": [
+    "snri",
+    "serotonerg",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "qt-verlaengernd",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Efexor ER",
+    "Venlafaxin Mepha",
+    "Venlafaxin Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Major Depression), auch zur Vorbeugung von Rückfällen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Generalisierte Angststörung",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Soziale Angststörung (soziale Phobie)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Panikstörung mit oder ohne Agoraphobie (Platzangst)",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und lindert Angst, indem es die Botenstoffe Serotonin und Noradrenalin im Gehirn länger wirken lässt. Venlafaxin und sein aktiver Hauptmetabolit O-Desmethylvenlafaxin (Desvenlafaxin, gebildet über CYP2D6) hemmen die Wiederaufnahme von Serotonin und – vor allem in höheren Dosen – von Noradrenalin; Dopamin wird nur schwach beeinflusst. An muskarinischen, histaminergen und adrenergen Rezeptoren wirkt es praktisch nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Behandlungsbeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: Blutdruck vor und während der Behandlung kontrollieren (dosisabhängiger Anstieg)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, Herzrhythmusstörungen oder verlängerte QT-Zeit",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom oder erhöhter Augeninnendruck (Pupillenerweiterung)",
+      "ids": [
+        "engwinkelglaukom",
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Einnahme von Diuretika (Hyponatriämie)",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Irreversible MAO-Hemmer (mindestens 14 Tage Abstand vor Beginn, mindestens 7 Tage nach Absetzen von Venlafaxin); reversible MAO-Hemmer wie Moclobemid, Linezolid oder Methylenblau ebenfalls nicht kombinieren",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (z. B. SSRI, Triptane, Tramadol, Fentanyl, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Zittern, Muskelzuckungen, Fieber) – nur mit sorgfältiger Beobachtung kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien, Plättchenhemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, z. B. Magen-Darm-Blutungen; unter Vitamin-K-Antagonisten INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, bestimmte Antipsychotika, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – Kombination möglichst meiden oder EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Venlafaxin-Spiegel steigt, besonders bei langsamen CYP2D6-Metabolisierern – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Haloperidol",
+      "ref": [
+        "haloperidol"
+      ],
+      "effekt": "Haloperidol-Spiegel steigt – verstärkte Haloperidol-Wirkung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Natrium senkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hyponatriaemie-ausloesend",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyponatriämie, besonders bei älteren Menschen – Natrium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Beeinträchtigung von Reaktionsvermögen und Aufmerksamkeit – Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metoprolol",
+      "ref": [
+        "metoprolol"
+      ],
+      "effekt": "Metoprolol-Spiegel kann steigen, die blutdrucksenkende Wirkung aber abnehmen – Blutdruck kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Mundtrockenheit, Verstopfung",
+      "Kopfschmerzen, Schwindel",
+      "Schläfrigkeit, Schlaflosigkeit",
+      "Vermehrtes Schwitzen (auch nachts)"
+    ],
+    "haeufig": [
+      "Appetitminderung, Gewichtsveränderungen",
+      "Nervosität, Unruhe, abnorme Träume, Verwirrtheit",
+      "Verminderte Libido, Orgasmus-, Ejakulations- und Erektionsstörungen",
+      "Zittern (Tremor), Akathisie (Bewegungsunruhe), Kribbeln",
+      "Sehstörungen, erweiterte Pupillen, Ohrensausen (Tinnitus)",
+      "Herzklopfen, Herzrasen, Blutdruckanstieg, Hitzewallungen",
+      "Durchfall, Erbrechen",
+      "Erschwertes oder häufiges Wasserlassen, erhöhtes Cholesterin"
+    ],
+    "gelegentlich": [
+      "Manie, Hypomanie, Halluzinationen",
+      "Ohnmacht (Synkope), Blutdruckabfall beim Aufstehen",
+      "Magen-Darm-Blutungen, Blutergüsse",
+      "Lichtempfindlichkeit, Nesselsucht, Angioödem, Haarausfall",
+      "Harnverhalt",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Krampfanfälle",
+      "Serotoninsyndrom, malignes neuroleptisches Syndrom",
+      "QT-Verlängerung, Torsade de pointes, Kammerflimmern",
+      "Hyponatriämie (Natriummangel), SIADH",
+      "Agranulozytose, aplastische Anämie",
+      "Akutes Engwinkelglaukom",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse), Anaphylaxie",
+      "Pankreatitis, Hepatitis, Rhabdomyolyse"
+    ],
+    "sehrSelten": [
+      "Tardive Dyskinesien (Spätdyskinesien)"
+    ],
+    "unbekannt": [
+      "Suizidgedanken und suizidales Verhalten",
+      "Aggressivität",
+      "Stress-Kardiomyopathie (Takotsubo)",
+      "Thrombozytopenie"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme gegen Ende der Schwangerschaft sind beim Neugeborenen Anpassungsstörungen und Entzugssymptome möglich, ebenso ein erhöhtes Risiko für Nachblutungen bei der Mutter.",
+  "stillzeit": "Venlafaxin und O-Desmethylvenlafaxin gehen in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Retardkapseln einmal täglich zu einer Mahlzeit, immer etwa zur gleichen Zeit, unzerkaut schlucken.",
+    "Nicht abrupt absetzen, sondern über mehrere Wochen ausschleichen (Absetzsymptome wie Schwindel, Kribbeln, Übelkeit, Unruhe).",
+    "Blutdruck regelmässig kontrollieren.",
+    "Alkohol meiden; die Fahrtüchtigkeit kann beeinträchtigt sein."
+  ],
+  "stand": "2026-10"
+}

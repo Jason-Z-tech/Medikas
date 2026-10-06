@@ -1,0 +1,182 @@
+{
+  "id": "tetracosactid",
+  "name": "Tetracosactid",
+  "synonyme": [
+    "Tetracosactide",
+    "Cosyntropin",
+    "Tetracosactrin",
+    "ACTH 1-24"
+  ],
+  "atc": [
+    "H01AA02"
+  ],
+  "klasse": "Synthetisches ACTH-Analogon (Corticotropin-Fragment 1–24); Diagnostikum",
+  "kurz": "Künstliches ACTH zum Test der Nebennierenrinden-Funktion; als Depotform selten zur Behandlung kortisonempfindlicher Krankheiten.",
+  "gruppen": [
+    "hyperglykaemie-ausloesend",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Synacthen",
+    "Synacthen Depot"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Depot-Injektionssuspension"
+  ],
+  "indikationen": [
+    {
+      "text": "Funktionstest der Nebennierenrinde (ACTH-Test), z. B. bei Verdacht auf Nebennierenrinden-Insuffizienz",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Depotform: kurzzeitige Behandlung von Erkrankungen, die auf Glukokortikoide ansprechen (z. B. Colitis ulcerosa, Morbus Crohn, rheumatoide Arthritis), wenn eine orale Kortisontherapie nicht möglich ist",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn",
+        "rheumatoide-arthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt die Nebennierenrinde an, Kortisol zu bilden – so lässt sich prüfen, ob sie normal arbeitet. Tetracosactid entspricht den ersten 24 Aminosäuren des körpereigenen ACTH (Corticotropin) und bindet an die ACTH-Rezeptoren (MC2-Rezeptoren) der Nebennierenrinde. Diese schüttet daraufhin Kortisol und in geringerem Mass Mineralokortikoide und Androgene aus. Bleibt der Kortisolanstieg im Test aus, spricht das für eine Nebenniereninsuffizienz; die Depotform wirkt über die anhaltende Kortisolbildung wie eine Kortisonbehandlung.",
+  "kontraindikationen": [
+    {
+      "text": "Allergische Erkrankungen, insbesondere Asthma (erhöhtes Risiko schwerer allergischer Reaktionen)",
+      "ids": [
+        "asthma",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Allergische Reaktion auf ACTH (Corticotropin) in der Vorgeschichte",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Depotform: akute Psychosen, Infektionskrankheiten, Magen- oder Zwölffingerdarmgeschwüre",
+      "ids": [
+        "schizophrenie",
+        "aktive-infektion",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Depotform: therapieresistente Herzinsuffizienz, Cushing-Syndrom, primäre Nebennierenrinden-Insuffizienz, adrenogenitales Syndrom",
+      "ids": [
+        "herzinsuffizienz",
+        "cushing-syndrom",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Depotform: Früh- und Neugeborene (enthält Benzylalkohol)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Gefahr schwerer allergischer Reaktionen bis zum Schock: nach der Injektion mindestens 30 Minuten überwachen",
+      "ids": [
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Depotform: kortisonartige Wirkungen – Blutzucker, Blutdruck, Kalium und Infektzeichen überwachen",
+      "ids": [
+        "diabetes",
+        "hypertonie",
+        "hypokaliaemie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Depotform: Osteoporose oder psychische Erkrankungen in der Vorgeschichte",
+      "ids": [
+        "osteoporose",
+        "depression"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion oder Leberzirrhose (verstärkte Wirkung)",
+      "ids": [
+        "hypothyreose",
+        "leberzirrhose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Glukokortikoide (z. B. Hydrocortison, Prednisolon)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Können das Testergebnis verfälschen (Mitmessung im Cortisoltest, unterdrückte Nebennierenrinde) – Einnahme vor dem Test nur nach ärztlicher Anweisung pausieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogene und östrogenhaltige Verhütungsmittel",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Erhöhen das cortisolbindende Eiweiss im Blut – falsch hohe Cortisolwerte im Test möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Depotform: Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Blutzuckersenkende Wirkung wird abgeschwächt – Blutzucker kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Depotform: Kaliumsenkende Diuretika",
+      "ref": [
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Depotform: NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie (Atemnot, Hautausschlag, Kreislaufkollaps)",
+      "Reaktionen an der Injektionsstelle",
+      "Gesichtsrötung, Schwindel, Übelkeit",
+      "Depotform: Wassereinlagerung, Bluthochdruck, erhöhter Blutzucker, Kaliummangel",
+      "Depotform: dunklere Hautpigmentierung, Akne",
+      "Depotform: psychische Veränderungen (Euphorie, Schlaflosigkeit, Verstimmung)",
+      "Depotform: Knochenschwund, erhöhte Infektanfälligkeit"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung; Daten sind begrenzt.",
+  "stillzeit": "Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird von Fachpersonen gespritzt; danach mindestens 30 Minuten Überwachung wegen möglicher allergischer Reaktionen.",
+    "Vor dem Test angeben, welche Hormon- und Kortisonpräparate eingenommen werden.",
+    "Bei der Depotform wie bei einer Kortisonbehandlung Blutdruck, Blutzucker und Kalium kontrollieren."
+  ],
+  "stand": "2026-10"
+}

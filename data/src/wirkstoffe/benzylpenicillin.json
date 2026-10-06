@@ -1,0 +1,68 @@
+{
+  "id": "benzylpenicillin",
+  "name": "Benzylpenicillin",
+  "synonyme": ["Penicillin G", "Benzylpenicillin-Natrium", "Benzylpenicillin-Kalium", "Benzylpenicillin sodium"],
+  "atc": ["J01CE01"],
+  "klasse": "Penicillin (Beta-Laktam-Antibiotikum, beta-laktamase-empfindlich)",
+  "kurz": "Klassisches Penicillin zum Spritzen gegen Streptokokken, Pneumokokken, Meningokokken und Syphilis; wird im Spital oder in der Praxis gegeben.",
+  "gruppen": ["penicilline", "krampfschwellensenkend"],
+  "handelsnamen": ["Penicillin Grünenthal"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "indikationen": [
+    { "text": "Infektionen durch penicillinempfindliche Streptokokken und Pneumokokken, z. B. Lungenentzündung, Wundrose (Erysipel), Phlegmone, komplizierte Mandelentzündung", "ids": ["lungenentzuendung", "hautinfektion", "atemwegsinfekt"] },
+    { "text": "Hirnhautentzündung (Meningitis) und Blutvergiftung durch empfindliche Meningokokken oder Pneumokokken", "ids": ["pneumokokken-meningokokken", "bakterielle-infektion"] },
+    { "text": "Bakterielle Herzinnenhautentzündung (Endokarditis) durch empfindliche Streptokokken", "ids": ["herzklappenerkrankung", "bakterielle-infektion"] },
+    { "text": "Syphilis, einschliesslich Neurosyphilis", "ids": ["geschlechtskrankheit"] },
+    { "text": "Weitere Infektionen durch empfindliche Erreger, z. B. Gasbrand, Diphtherie (zusätzlich zum Antitoxin), Aktinomykose, Leptospirose, Milzbrand, Lyme-Borreliose", "ids": ["bakterielle-infektion", "borreliose"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Benzylpenicillin blockiert die Penicillin-bindenden Proteine (Transpeptidasen) und damit die Quervernetzung des Peptidoglykans; sich teilende Bakterien gehen zugrunde (bakterizide Wirkung). Es wirkt sehr stark gegen Streptokokken, Pneumokokken, Meningokokken, Treponemen (Syphilis-Erreger), Clostridien und Borrelien, wird aber von Beta-Laktamasen, etwa der meisten Staphylokokken, zerstört. Da es von der Magensäure abgebaut wird, muss es gespritzt werden; die Ausscheidung erfolgt rasch über die Niere.",
+  "kontraindikationen": [
+    { "text": "Penicillinallergie", "ids": ["penicillinallergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Allergie gegen Cephalosporine oder andere Beta-Laktame (Kreuzallergie möglich), allergische Veranlagung oder Asthma", "ids": ["allergie", "asthma"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung nötig, bei hohen Dosen Gefahr von Krampfanfällen und Bewusstseinsstörungen", "ids": ["niereninsuffizienz"] },
+    { "text": "Epilepsie oder Hirnerkrankungen: sehr hohe Dosen können Krampfanfälle auslösen", "ids": ["epilepsie"] },
+    { "text": "Herzinsuffizienz, Ödeme oder Elektrolytstörungen: hohe Dosen belasten je nach Salz mit Natrium oder Kalium", "ids": ["herzinsuffizienz", "oedeme", "hyperkaliaemie"] },
+    { "text": "Behandlung von Syphilis oder Borreliose: Jarisch-Herxheimer-Reaktion (Fieber, Schüttelfrost, Kopfschmerzen) wenige Stunden nach der ersten Gabe möglich", "ids": ["geschlechtskrankheit", "borreliose"] },
+    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
+    { "text": "Längere hochdosierte Behandlung: Blutbild, Nierenwerte und Elektrolyte kontrollieren", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Penicilline vermindern die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Blutbild und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Der INR kann sich verändern – häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Hemmt die Ausscheidung von Penicillin über die Niere – höhere und länger anhaltende Spiegel.", "schwere": "leicht" },
+    { "text": "Indometacin, Acetylsalicylsäure und andere NSAR", "ref": ["gruppe:nsar"], "effekt": "Können die Ausscheidung von Penicillin verzögern – höhere Spiegel.", "schwere": "leicht" },
+    { "text": "Tetracycline, Chloramphenicol und andere bakteriostatische Antibiotika", "ref": ["gruppe:tetracycline", "chloramphenicol"], "effekt": "Können die bakterientötende Wirkung abschwächen – Kombination vermeiden.", "schwere": "leicht" },
+    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "In seltenen Fällen verminderte Verhütungssicherheit – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Allergische Hautreaktionen (Ausschlag, Nesselsucht, Juckreiz)"],
+    "selten": ["Anaphylaxie (schwere allergische Reaktion bis zum Kreislaufschock)", "Angioödem (Schwellung von Gesicht und Rachen)"],
+    "sehrSelten": [
+      "Hämolytische Anämie (Blutzerfall)",
+      "Interstitielle Nephritis (Nierenentzündung)",
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)"
+    ],
+    "unbekannt": [
+      "Krampfanfälle, Muskelzuckungen, Verwirrtheit bei sehr hohen Dosen oder eingeschränkter Nierenfunktion",
+      "Blutbildveränderungen (Neutropenie, Thrombozytopenie, Eosinophilie)",
+      "Elektrolytstörungen (zu viel Natrium oder Kalium) bei hohen Dosen",
+      "Jarisch-Herxheimer-Reaktion bei Syphilis oder Borreliose",
+      "Venenreizung (Phlebitis) an der Infusionsstelle",
+      "Übelkeit, Durchfall, Entzündung von Mundschleimhaut oder Zunge",
+      "Arzneimittelfieber, Serumkrankheit"
+    ]
+  },
+  "schwangerschaft": "Erlaubt, wenn eine Behandlung nötig ist; lange Erfahrung ohne Hinweise auf eine Schädigung des Kindes (z. B. Mittel der Wahl bei Syphilis in der Schwangerschaft).",
+  "stillzeit": "Erlaubt; nur geringe Mengen gehen in die Muttermilch über (beim Säugling Durchfall oder Sensibilisierung möglich).",
+  "hinweise": [
+    "Wird im Spital oder in der Praxis als Injektion oder Infusion gegeben.",
+    "Eine frühere Penicillinallergie unbedingt vorher melden; nach der Gabe auf Ausschlag, Atemnot oder Schwindel achten.",
+    "Fieber und Schüttelfrost wenige Stunden nach Beginn einer Syphilisbehandlung sind meist eine harmlose Jarisch-Herxheimer-Reaktion – trotzdem ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "carvedilol",
+  "name": "Carvedilol",
+  "synonyme": [],
+  "atc": ["C07AG02"],
+  "klasse": "Nicht selektiver Betablocker mit Alpha-1-blockierender (gefässerweiternder) Wirkung",
+  "kurz": "Betablocker mit gefässerweiternder Zusatzwirkung gegen Bluthochdruck und Angina pectoris; wichtiges Mittel bei Herzschwäche.",
+  "gruppen": ["betablocker", "blutdrucksenkend", "bradykardisierend", "cyp2d6-substrate"],
+  "handelsnamen": ["Dilatrend"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck (essentielle Hypertonie)", "ids": ["hypertonie"] },
+    { "text": "Chronisch stabile Angina pectoris", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
+    { "text": "Chronische Herzschwäche (Herzinsuffizienz), zusätzlich zur Standardtherapie", "ids": ["herzinsuffizienz"] }
+  ],
+  "wirkmechanismus": "Senkt Blutdruck und Puls und entlastet das Herz, indem es die Wirkung der Stresshormone dämpft und gleichzeitig die Blutgefässe weitet. Carvedilol blockiert nicht selektiv die Beta-1- und Beta-2-Adrenozeptoren und senkt so Herzfrequenz, Kontraktionskraft und Reninfreisetzung. Die zusätzliche Blockade der Alpha-1-Rezeptoren in den Gefässwänden erweitert die Gefässe und senkt den peripheren Widerstand. Carvedilol wird in der Leber vor allem über CYP2D6 und CYP2C9 abgebaut.",
+  "kontraindikationen": [
+    { "text": "Dekompensierte Herzschwäche (NYHA IV), die herzstärkende Infusionen erfordert", "ids": ["herzinsuffizienz"] },
+    { "text": "Asthma bronchiale oder Bronchospasmus in der Vorgeschichte; COPD mit Verengung der Bronchien", "ids": ["asthma", "copd"] },
+    { "text": "Klinisch manifeste Leberfunktionsstörung", "ids": ["leberinsuffizienz"] },
+    { "text": "AV-Block 2. und 3. Grades (ohne Herzschrittmacher), Sick-Sinus-Syndrom einschliesslich sinuatrialem Block", "ids": ["av-block", "bradykardie"] },
+    { "text": "Schwere Bradykardie (Puls unter 50 Schlägen pro Minute)", "ids": ["bradykardie"] },
+    { "text": "Kardiogener Schock; schwere Hypotonie (systolischer Blutdruck unter 85 mmHg)", "ids": ["schock", "hypotonie"] }
+  ],
+  "vorsicht": [
+    { "text": "Diabetes: Warnzeichen einer Unterzuckerung können verschleiert und die Blutzuckereinstellung verschlechtert werden", "ids": ["diabetes", "hypoglykaemie"] },
+    { "text": "Herzschwäche mit tiefem Blutdruck, koronarer Herzkrankheit, Gefässerkrankung oder Nierenschwäche: Nierenfunktion kann sich verschlechtern", "ids": ["herzinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Periphere Durchblutungsstörungen und Raynaud-Syndrom (Verschlechterung möglich)", "ids": ["pavk", "raynaud"] },
+    { "text": "Prinzmetal-Angina (Angina durch Gefässkrämpfe) und AV-Block 1. Grades", "ids": ["angina-pectoris", "av-block"] },
+    { "text": "Phäochromozytom: nur nach vorgängiger Alpha-Blockade", "ids": [] },
+    { "text": "Schilddrüsenüberfunktion: Zeichen wie Herzrasen werden verdeckt", "ids": ["hyperthyreose"] },
+    { "text": "Psoriasis (Schuppenflechte) in der Vorgeschichte", "ids": ["psoriasis"] },
+    { "text": "Allergien und Desensibilisierung: allergische Reaktionen können heftiger verlaufen und schlechter auf Adrenalin ansprechen", "ids": ["allergie", "anaphylaxie"] },
+    { "text": "Geplante Operation oder Narkose: Anästhesie informieren", "ids": ["operation", "anaesthesie"] },
+    { "text": "Kontaktlinsenträger: verminderter Tränenfluss möglich", "ids": ["trockenes-auge"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Verapamil oder Diltiazem intravenös (sowie andere Antiarrhythmika i. v.)", "ref": ["verapamil", "diltiazem"], "grund": "Die gleichzeitige Hemmung von Herzkraft und Erregungsleitung kann schweren Blutdruckabfall, AV-Block und Herzversagen auslösen." }
+  ],
+  "interaktionen": [
+    { "text": "Verapamil und Diltiazem (oral), Antiarrhythmika wie Amiodaron, Flecainid, Propafenon", "ref": ["gruppe:nicht-dhp-calciumantagonisten", "amiodaron", "gruppe:antiarrhythmika-klasse-i"], "effekt": "Gefahr von Bradykardie, AV-Block, Blutdruckabfall und Herzschwäche – nur unter EKG- und Blutdruckkontrolle.", "schwere": "schwer" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel steigen (um etwa 15 %), die AV-Überleitung wird zusätzlich verlangsamt – Spiegel und Puls kontrollieren.", "schwere": "mittel" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ciclosporin-Spiegel steigen – zu Beginn und bei Dosisänderungen Spiegel kontrollieren und Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Verstärkte Blutzuckersenkung, Warnzeichen einer Unterzuckerung werden verdeckt – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Clonidin", "ref": ["clonidin"], "effekt": "Verstärkte Blutdruck- und Pulssenkung; beim Absetzen zuerst Carvedilol, einige Tage später Clonidin schrittweise absetzen (sonst starker Blutdruckanstieg).", "schwere": "mittel" },
+    { "text": "Rifampicin", "ref": ["rifampicin"], "effekt": "Carvedilol-Spiegel sinken um etwa 70 % – Wirkung kann deutlich nachlassen.", "schwere": "mittel" },
+    { "text": "CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Chinidin)", "ref": ["gruppe:starke-cyp2d6-hemmer"], "effekt": "Höhere Carvedilol-Spiegel; vermehrt Schwindel und Blutdruckabfall beim Aufstehen.", "schwere": "mittel" },
+    { "text": "Narkosemittel", "ref": ["isofluran", "sevofluran", "propofol"], "effekt": "Verstärkte Blutdrucksenkung und Schwächung der Herzkraft – Narkoseteam informieren.", "schwere": "mittel" },
+    { "text": "Alpha-1-Blocker, Nitrate und andere Blutdrucksenker", "ref": ["gruppe:alpha1-blocker", "gruppe:nitrate"], "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.", "schwere": "mittel" },
+    { "text": "Beta-2-Sympathomimetika (Asthma-Sprays)", "ref": ["gruppe:beta2-sympathomimetika"], "effekt": "Carvedilol kann die bronchienerweiternde Wirkung aufheben.", "schwere": "mittel" },
+    { "text": "Calciumantagonisten vom Dihydropyridin-Typ (z. B. Nifedipin, Amlodipin)", "ref": ["gruppe:dhp-calciumantagonisten"], "effekt": "Verstärkte Blutdrucksenkung; bei eingeschränkter Herzfunktion Verschlechterung einer Herzschwäche möglich.", "schwere": "leicht" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte Blutdrucksenkung.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Schwindel", "Kopfschmerzen", "Müdigkeit und Schwäche (Asthenie)", "Hypotonie (tiefer Blutdruck)", "Verschlechterung einer Herzschwäche, vor allem zu Beginn und bei Dosiserhöhung"],
+    "haeufig": ["Bradykardie (langsamer Puls), Ödeme (Wassereinlagerungen)", "Blutdruckabfall beim Aufstehen, kalte Hände und Füsse", "Atemnot; Asthmaanfälle bei entsprechender Veranlagung", "Bronchitis, Lungenentzündung, Harnwegsinfekte", "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen", "Depression, depressive Verstimmung", "Sehstörungen, verminderter Tränenfluss (trockene Augen)", "Schlechtere Blutzuckereinstellung bei Diabetes, Gewichtszunahme; Verschlechterung der Nierenfunktion bei Gefässerkrankung oder Nierenschwäche"],
+    "gelegentlich": ["AV-Block, Angina pectoris", "Synkope (Ohnmacht), Kribbeln (Parästhesien)", "Schlafstörungen", "Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht, psoriasisartige Veränderungen), Haarausfall", "Erektionsstörungen", "Verstopfung"],
+    "selten": ["Thrombozytopenie (Mangel an Blutplättchen)", "Verstopfte Nase", "Mundtrockenheit"],
+    "sehrSelten": ["Leukopenie (Mangel an weissen Blutkörperchen)", "Allergische Reaktionen", "Erhöhte Leberwerte", "Harninkontinenz bei Frauen", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)"],
+    "unbekannt": ["Halluzinationen", "Vermehrtes Schwitzen"]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit nach ärztlicher Abwägung: Betablocker können die Durchblutung der Plazenta vermindern und das Wachstum des Kindes hemmen. Neugeborene in den ersten Lebenstagen auf langsamen Puls, Unterzuckerung und Atemprobleme überwachen.",
+  "stillzeit": "Stillen wird nicht empfohlen; Carvedilol und seine Abbauprodukte gehen (im Tierversuch) in die Muttermilch über.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen – bei Herzschwäche verringert das Schwindel und Blutdruckabfall beim Aufstehen.",
+    "Nicht abrupt absetzen (Gefahr von Angina-pectoris-Anfällen und Blutdruckanstieg); ein Absetzen erfolgt schrittweise nach ärztlicher Anweisung.",
+    "Zu Beginn und bei Dosiserhöhung Schwindel und Müdigkeit möglich; Vorsicht beim Autofahren, Alkohol verstärkt dies.",
+    "Bei Herzschwäche täglich wiegen: rasche Gewichtszunahme oder zunehmende Atemnot ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

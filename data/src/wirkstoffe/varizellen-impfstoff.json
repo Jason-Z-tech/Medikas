@@ -1,0 +1,219 @@
+{
+  "id": "varizellen-impfstoff",
+  "name": "Varizellen-Impfstoff",
+  "synonyme": [
+    "Windpocken-Impfstoff",
+    "Varicella vaccine (live)",
+    "VZV-Lebendimpfstoff"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J07BK01"
+  ],
+  "klasse": "Lebendimpfstoff (abgeschwächtes Varizella-Zoster-Virus, Oka-Stamm)",
+  "kurz": "Lebendimpfstoff gegen Windpocken (Varizellen) für Kleinkinder sowie ungeschützte Jugendliche und Erwachsene.",
+  "gruppen": [
+    "lebendimpfstoffe"
+  ],
+  "handelsnamen": [
+    "Varilrix",
+    "Varivax",
+    "Priorix-Tetra (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von Windpocken bei Personen ohne Immunität ab 12 Monaten (in besonderen Situationen ab 9 Monaten), z. B. Kleinkinder, Jugendliche, Frauen mit Kinderwunsch und Kontaktpersonen von Immungeschwächten",
+      "ids": [
+        "masern-mumps-roeteln",
+        "impfung"
+      ]
+    },
+    {
+      "text": "Vorbeugung nach Kontakt mit Windpocken (innerhalb von 3 bis 5 Tagen)",
+      "ids": [
+        "masern-mumps-roeteln"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine abgeschwächte, meist unbemerkte Infektion aus, nach der das Immunsystem vor Windpocken geschützt ist. Der Impfstoff enthält lebende, abgeschwächte Varizella-Zoster-Viren (Oka-Stamm). Sie regen die Bildung von Antikörpern und eine zelluläre Immunantwort an. Zwei Dosen verhindern Windpocken in den meisten Fällen; Durchbruchserkrankungen verlaufen meist mild.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Immunschwäche, z. B. Leukämie, Lymphom, andere Blut- oder Lymphsystemkrankheiten, fortgeschrittene HIV-Infektion",
+      "ids": [
+        "immunsuppression",
+        "leukaemie",
+        "lymphom",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Schwangerschaft; eine Schwangerschaft soll bis 1 Monat nach der Impfung vermieden werden",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Akute Erkrankung mit Fieber über 38,5 °C (Impfung verschieben)",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Aktive, unbehandelte Tuberkulose",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Schwere allergische Reaktion auf Neomycin oder – bei gelatinehaltigen Präparaten – auf Gelatine",
+      "ids": [
+        "latexallergie",
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Bläschenausschlag nach der Impfung: Kontakt mit ungeschützten Schwangeren, Neugeborenen und Immungeschwächten meiden (seltene Übertragung des Impfvirus)",
+      "ids": [
+        "schwangerschaft",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "HIV-Infektion oder leichtere Immunschwäche: Impfung nur nach fachärztlicher Abklärung",
+      "ids": [
+        "hiv",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter Salicylat-Behandlung (Reye-Syndrom)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie oder Blutgerinnungsstörung: Impfung unter die Haut",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Immunsuppressive Therapie (z. B. Chemotherapie, Ciclosporin, Methotrexat, Biologika, hoch dosierte Glukokortikoide)",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "grund": "Bei unterdrückter Abwehr kann sich das abgeschwächte Impfvirus ungehemmt vermehren – Gefahr einer schweren, ausgedehnten Windpocken-Erkrankung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Acetylsalicylsäure und andere Salicylate",
+      "ref": [
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Gefahr eines Reye-Syndroms – während 6 Wochen nach der Impfung keine Salicylate geben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide in hoher Dosis",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Unter hoch dosierter Therapie nicht impfen; niedrige Dosen, Inhalation oder Hautanwendung sind kein Hindernis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Biologika, JAK-Hemmer und S1P-Modulatoren",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer",
+        "gruppe:jak-hemmer",
+        "gruppe:s1p-modulatoren"
+      ],
+      "effekt": "Lebendimpfung unter dieser Therapie in der Regel nicht empfohlen – möglichst mindestens 4 Wochen vor Therapiebeginn impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunglobuline, Varizella-Zoster-Immunglobulin und Blutprodukte",
+      "ref": [
+        "immunglobulin-vom-menschen-normal",
+        "varicella-zoster-immunglobulin"
+      ],
+      "effekt": "Können die Impfung unwirksam machen – Impfung frühestens 3–5 Monate danach; nach der Impfung 1 Monat lang keine Immunglobuline, sofern nicht zwingend nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Lebendimpfstoffe (z. B. MMR, Gelbfieber)",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Am selben Tag oder mit mindestens 4 Wochen Abstand impfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Virostatika gegen Herpesviren (z. B. Aciclovir, Valaciclovir)",
+      "ref": [
+        "aciclovir",
+        "valaciclovir",
+        "famciclovir"
+      ],
+      "effekt": "Können die Vermehrung des Impfvirus hemmen und die Wirkung abschwächen – Einnahme kurz vor und nach der Impfung ärztlich abklären.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schmerzen und Rötung an der Einstichstelle",
+      "Fieber"
+    ],
+    "haeufig": [
+      "Schwellung und Juckreiz an der Einstichstelle",
+      "Hautausschlag, auch windpockenähnliche Bläschen",
+      "Reizbarkeit"
+    ],
+    "gelegentlich": [
+      "Kopfschmerzen, Müdigkeit",
+      "Lymphknotenschwellung",
+      "Husten, Schnupfen",
+      "Übelkeit, Erbrechen",
+      "Gelenk- und Muskelschmerzen"
+    ],
+    "selten": [
+      "Durchfall, Bauchschmerzen",
+      "Nesselsucht",
+      "Mittelohrentzündung, Bindehautentzündung"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Herpes zoster (Gürtelrose) durch das Impfvirus",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Hirnentzündung (Enzephalitis), Kleinhirnentzündung, Schlaganfall",
+      "Fieberkrämpfe",
+      "Gefässentzündungen (z. B. Purpura Schönlein-Henoch)",
+      "Erythema multiforme (Hautreaktion)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Eine Schwangerschaft soll bis 1 Monat nach der Impfung vermieden werden.",
+  "stillzeit": "Impfung ungeschützter stillender Frauen nach ärztlicher Abwägung möglich; eine Übertragung auf den Säugling wurde nicht beobachtet.",
+  "hinweise": [
+    "Zwei Dosen im Abstand von mindestens 4 Wochen; Kleinkinder erhalten die Impfung in der Schweiz meist kombiniert mit MMR.",
+    "Während 6 Wochen nach der Impfung keine Acetylsalicylsäure (z. B. Aspirin) geben – Gefahr des Reye-Syndroms.",
+    "Tritt nach der Impfung ein Bläschenausschlag auf, die Bläschen abdecken und Kontakt zu Schwangeren, Neugeborenen und Immungeschwächten meiden."
+  ],
+  "stand": "2026-10"
+}

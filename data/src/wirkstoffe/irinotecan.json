@@ -1,0 +1,241 @@
+{
+  "id": "irinotecan",
+  "name": "Irinotecan",
+  "synonyme": [
+    "Irinotecanhydrochlorid",
+    "CPT-11",
+    "Liposomales Irinotecan"
+  ],
+  "atc": [
+    "L01CE02"
+  ],
+  "klasse": "Zytostatikum; Topoisomerase-I-Hemmer (Camptothecin-Derivat)",
+  "kurz": "Chemotherapie-Mittel (Topoisomerase-I-Hemmer) gegen metastasierten Darmkrebs; in liposomaler Form gegen Bauchspeicheldrüsenkrebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Campto",
+    "Onivyde"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung",
+    "Liposomales Konzentrat zur Herstellung einer Infusionsdispersion"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter Dick- oder Mastdarmkrebs (kolorektales Karzinom): in Kombination mit 5-Fluorouracil/Folinsäure (auch mit Bevacizumab oder Cetuximab) oder allein nach Versagen einer Vorbehandlung",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Liposomales Irinotecan (Onivyde): metastasierter Bauchspeicheldrüsenkrebs in Kombination mit 5-Fluorouracil/Folinsäure",
+      "ids": [
+        "bauchspeicheldruesenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Krebszellen ihr Erbgut verdoppeln können. Irinotecan ist eine Vorstufe (Prodrug): Carboxylesterasen wandeln es in den 100- bis 1000-fach wirksameren Metaboliten SN-38 um. SN-38 hemmt die Topoisomerase I und stabilisiert deren Komplex mit der DNA, sodass bei der DNA-Verdoppelung Strangbrüche entstehen und die Zelle abstirbt. SN-38 wird durch das Enzym UGT1A1 abgebaut; Menschen mit verminderter UGT1A1-Aktivität (z. B. bei Morbus Meulengracht) sind empfindlicher.",
+  "kontraindikationen": [
+    {
+      "text": "Chronisch-entzündliche Darmerkrankung und/oder Darmverschluss (Campto)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Schweres Knochenmarkversagen",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Bilirubin über dem 3-Fachen des oberen Normwerts (Campto)",
+      "ids": [
+        "leberinsuffizienz",
+        "cholestase"
+      ]
+    },
+    {
+      "text": "Stark eingeschränkter Allgemeinzustand (WHO-Status über 2)",
+      "ids": []
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Bekannte verminderte UGT1A1-Aktivität (z. B. homozygot UGT1A1*28, Morbus Meulengracht): höheres Risiko für Neutropenie und Durchfall",
+      "ids": [
+        "morbus-meulengracht",
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Verzögert auftretender Durchfall: sofort behandeln, Gefahr der Austrocknung",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion oder Flüssigkeitsmangel (Gefahr eines Nierenversagens)",
+      "ids": [
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufiger schwerer Durchfall)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (interstitielle Lungenerkrankung)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Enzyminduktion senkt die Spiegel des aktiven Metaboliten SN-38 deutlich – Wirkverlust."
+    },
+    {
+      "text": "Lebendimpfstoffe (z. B. Gelbfieber) während und bis 6 Monate nach der Behandlung",
+      "ref": [
+        "gelbfieber-impfstoff",
+        "gruppe:lebendimpfstoffe"
+      ],
+      "grund": "Bei geschwächter Abwehr Gefahr einer generalisierten, möglicherweise tödlichen Impfreaktion."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Deutlich tiefere SN-38-Spiegel – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere SN-38-Spiegel – schwerer Durchfall und Neutropenie. Kombination vermeiden (bei Onivyde mindestens 1 Woche vorher absetzen).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "UGT1A1-Hemmer (z. B. Atazanavir, Regorafenib)",
+      "ref": [
+        "atazanavir",
+        "regorafenib"
+      ],
+      "effekt": "Verminderter Abbau von SN-38 – mehr Nebenwirkungen; Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien bei Narkosen (z. B. Suxamethonium, Rocuronium)",
+      "ref": [
+        "suxamethonium",
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Irinotecan hemmt die Cholinesterase: verlängerte Wirkung von Suxamethonium, abgeschwächte Wirkung nicht depolarisierender Muskelrelaxanzien.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Übermässige Immunsuppression mit Gefahr von Infektionen und Lymphoproliferation.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende INR-Werte unter Chemotherapie – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Abführmittel",
+      "ref": [
+        "gruppe:laxanzien"
+      ],
+      "effekt": "Können den Durchfall verstärken – während der Behandlung meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwerer verzögerter Durchfall (ab 24 Stunden nach der Infusion)",
+      "Neutropenie, Anämie",
+      "Übelkeit, Erbrechen",
+      "Haarausfall (vorübergehend)",
+      "Fieber ohne Infektion",
+      "Schwäche (Asthenie)",
+      "Appetitlosigkeit"
+    ],
+    "haeufig": [
+      "Akutes cholinerges Syndrom (Frühdurchfall, Schwitzen, Bauchkrämpfe, Speichelfluss, Sehstörungen, Tränenfluss)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Infektionen, febrile Neutropenie",
+      "Verstopfung",
+      "Vorübergehender Anstieg von Leberwerten, Bilirubin oder Kreatinin"
+    ],
+    "gelegentlich": [
+      "Interstitielle Lungenerkrankung (Lungeninfiltrate)",
+      "Leichte allergische Reaktionen",
+      "Nierenfunktionsstörung bis Nierenversagen bei Austrocknung"
+    ],
+    "selten": [
+      "Anaphylaktische Reaktionen",
+      "Kolitis (Dickdarmentzündung), auch pseudomembranös",
+      "Darmverschluss, Magen-Darm-Blutungen"
+    ],
+    "unbekannt": [
+      "Sepsis",
+      "Hypokaliämie, Hyponatriämie (meist durch Durchfall und Erbrechen)",
+      "Darmperforation",
+      "Thromboembolische Ereignisse"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; in der Schwangerschaft nicht anwenden. Frauen und Männer müssen während und mehrere Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Bei verzögert einsetzendem Durchfall sofort das verordnete Mittel (meist Loperamid) nach Anweisung einnehmen, viel trinken und die Ärztin oder den Arzt informieren – bei Fieber oder anhaltendem Durchfall sofort.",
+    "Johanniskraut und Lebendimpfungen sind während der Behandlung nicht erlaubt.",
+    "Schwindel und Sehstörungen sind in den ersten 24 Stunden möglich – dann nicht Auto fahren.",
+    "Campto und Onivyde sind nicht austauschbar; Blutbild vor jedem Zyklus."
+  ],
+  "stand": "2026-10"
+}

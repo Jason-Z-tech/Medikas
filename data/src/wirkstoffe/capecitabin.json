@@ -1,0 +1,251 @@
+{
+  "id": "capecitabin",
+  "name": "Capecitabin",
+  "synonyme": [
+    "Capecitabine",
+    "Capecitabinum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01BC06"
+  ],
+  "klasse": "Zytostatikum (Fluoropyrimidin, orales Prodrug von Fluorouracil)",
+  "kurz": "Zytostatikum als Tablette, das im Körper zu Fluorouracil umgewandelt wird; gegen Darm-, Magen- und Brustkrebs.",
+  "gruppen": [
+    "fluoropyrimidine",
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "kardiotoxisch",
+    "cyp2c9-hemmer"
+  ],
+  "handelsnamen": [
+    "Xeloda",
+    "Capecitabin Sandoz",
+    "Capecitabin Mepha"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Dickdarmkrebs Stadium III nach Operation (adjuvant) sowie metastasierter Darmkrebs",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Magenkrebs (mit einem Platinderivat)",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener oder metastasierter Brustkrebs (allein oder mit Docetaxel nach Vorbehandlung)",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wird erst im Körper, bevorzugt im Tumorgewebe, in den eigentlichen Wirkstoff Fluorouracil (5-FU) umgewandelt. Die Aktivierung erfolgt in drei Schritten über Carboxylesterase und Cytidin-Deaminase (Leber) sowie Thymidin-Phosphorylase, die in vielen Tumoren vermehrt vorkommt. Fluorouracil hemmt die Thymidylat-Synthase und damit die DNA-Synthese und wird fehlerhaft in die RNA eingebaut. Der Abbau erfolgt über das Enzym DPD; bei DPD-Mangel drohen schwere Vergiftungen.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannter vollständiger Mangel des Abbauenzyms DPD (Dihydropyrimidin-Dehydrogenase)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Frühere schwere, unerwartete Reaktion auf Fluoropyrimidine oder Überempfindlichkeit gegen Fluorouracil",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Leukopenie, Neutropenie oder Thrombozytopenie",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Nierenfunktionsstörung (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Teilweiser DPD-Mangel: vor Behandlungsbeginn testen, Dosis anpassen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten (koronare Herzkrankheit, Rhythmusstörungen, Angina pectoris)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Mässig eingeschränkte Nierenfunktion: Dosis reduzieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: mehr schwere Nebenwirkungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Durchfall und Flüssigkeitsmangel: Einnahme unterbrechen, Gefahr von Nierenversagen",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Behandlung mit Blutverdünnern: INR engmaschig kontrollieren",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Brivudin (Mittel gegen Gürtelrose) während und bis 4 Wochen vor der Behandlung",
+      "ref": [
+        "brivudin"
+      ],
+      "grund": "Brivudin hemmt das Abbauenzym DPD dauerhaft – Fluorouracil reichert sich an, tödliche Vergiftungen sind beschrieben."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Stark erhöhter INR und teils tödliche Blutungen beschrieben – INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel kann gefährlich steigen – Spiegel regelmässig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während der Behandlung nicht mit Lebendimpfstoffen impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Folinsäure",
+      "ref": [
+        "folinsaeure"
+      ],
+      "effekt": "Verstärkt die Nebenwirkungen von Capecitabin – nur nach Schema kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Kann die Wirkung von Fluorouracil abschwächen – Kombination vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (aluminium- und magnesiumhaltig)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Leicht erhöhte Capecitabin-Spiegel, meist ohne Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hand-Fuss-Syndrom (Rötung, Schwellung, Schmerzen an Handflächen und Fusssohlen)",
+      "Durchfall",
+      "Übelkeit, Erbrechen",
+      "Mundschleimhautentzündung (Stomatitis)",
+      "Bauchschmerzen",
+      "Appetitlosigkeit",
+      "Müdigkeit, Schwäche"
+    ],
+    "haeufig": [
+      "Neutropenie, Anämie",
+      "Infektionen (z. B. Herpes)",
+      "Flüssigkeitsmangel, Gewichtsverlust",
+      "Kopfschmerzen, Schwindel, Geschmacksstörung, Kribbeln",
+      "Tränende, gereizte Augen, Bindehautentzündung",
+      "Erhöhtes Bilirubin, veränderte Leberwerte",
+      "Hautausschlag, Haarausfall, Hautverfärbung",
+      "Fieber, Wassereinlagerungen, Brustschmerzen"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie, Fieber bei Neutropenie",
+      "Angina pectoris, Herzinfarkt, Herzrhythmusstörungen",
+      "Thrombosen und Lungenembolie",
+      "Magen-Darm-Blutungen, Darmverschluss",
+      "Lichtempfindlichkeit, Nesselsucht",
+      "Periphere Neuropathie (Nervenschäden)",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "QT-Verlängerung, Kammerflimmern, Torsade de pointes",
+      "Verengung der Tränenwege, Hornhautentzündung",
+      "Leberversagen, cholestatische Hepatitis",
+      "Angioödem",
+      "Kutaner Lupus erythematodes"
+    ],
+    "sehrSelten": [
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse"
+    ],
+    "unbekannt": [
+      "Toxische Leukenzephalopathie (Schädigung der weissen Hirnsubstanz)",
+      "Akutes Nierenversagen bei Flüssigkeitsmangel"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert (fruchtschädigend). Frauen müssen während und bis 6 Monate nach der letzten Dosis zuverlässig verhüten, Männer mit Partnerin im gebärfähigen Alter bis 3 Monate danach.",
+  "stillzeit": "Kontraindiziert; während und bis 2 Wochen nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Tabletten innerhalb von 30 Minuten nach einer Mahlzeit mit Wasser unzerkaut schlucken.",
+    "Vor Behandlungsbeginn wird auf einen DPD-Mangel getestet.",
+    "Bei Durchfall (mehr als 4 zusätzliche Stühle pro Tag), Erbrechen, Mundgeschwüren, Fieber oder schmerzhaften Händen und Füssen Einnahme unterbrechen und sofort ärztlich melden.",
+    "Kein Brivudin (Gürtelrosemittel) während der Behandlung sowie in den 4 Wochen davor und danach; bei Blutverdünnern INR engmaschig kontrollieren."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,223 @@
+{
+  "id": "darifenacin",
+  "name": "Darifenacin",
+  "synonyme": [
+    "Darifenacinhydrobromid"
+  ],
+  "atc": [
+    "G04BD10"
+  ],
+  "klasse": "Urologisches Spasmolytikum (selektiver Muskarin-M3-Rezeptor-Antagonist)",
+  "kurz": "Blasenmittel (Anticholinergikum), das Harndrang, häufiges Wasserlassen und Dranginkontinenz bei überaktiver Blase lindert.",
+  "gruppen": [
+    "anticholinerg",
+    "cyp3a4-substrate-empfindlich",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Emselex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Überaktive Blase mit Dranginkontinenz, häufigem Wasserlassen und Harndrang bei Erwachsenen",
+      "ids": [
+        "reizblase"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Entspannt die Blasenmuskulatur und vermindert so Harndrang und häufiges Wasserlassen. Darifenacin blockiert selektiv den Muskarin-M3-Rezeptor, über den der Blasenmuskel (Detrusor) zur Kontraktion angeregt wird. Dadurch nimmt die Blasenkapazität zu, und unwillkürliche Blasenkontraktionen werden gedämpft. Wegen der M3-Selektivität sind Wirkungen an Herz und Gehirn geringer, aber nicht ausgeschlossen.",
+  "kontraindikationen": [
+    {
+      "text": "Harnverhalt",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Magenentleerungsstörung (Magenretention)",
+      "ids": []
+    },
+    {
+      "text": "Unbehandeltes oder nicht kontrolliertes Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Colitis ulcerosa oder toxisches Megakolon",
+      "ids": [
+        "colitis-ulcerosa"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Behinderung des Harnabflusses, z. B. Prostatavergrösserung (Risiko eines Harnverhalts)",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Engstellen, schwere Verstopfung oder verminderte Darmbewegung",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Refluxkrankheit oder Zwerchfellbruch (Speiseröhrenentzündung kann sich verschlimmern)",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Behandeltes Engwinkelglaukom: nur unter augenärztlicher Kontrolle",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Mässig eingeschränkte Leberfunktion (tiefere Höchstdosis)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Störungen des autonomen Nervensystems (autonome Neuropathie)",
+      "ids": []
+    },
+    {
+      "text": "Ältere Menschen (anticholinerge Nebenwirkungen wie Verwirrtheit)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Hemmen den Abbau von Darifenacin stark – deutlich höhere Spiegel mit Gefahr ausgeprägter anticholinerger Nebenwirkungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke P-Glykoprotein-Hemmer (z. B. Ciclosporin, Verapamil)",
+      "ref": [
+        "ciclosporin",
+        "verapamil"
+      ],
+      "effekt": "Höhere Darifenacin-Spiegel – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Darifenacin-Spiegel – mit der niedrigeren Dosis (7,5 mg) behandeln und Verträglichkeit überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Nebenwirkungen wie Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "gruppe:trizyklische-antidepressiva",
+        "flecainid"
+      ],
+      "effekt": "Darifenacin hemmt CYP2D6 mässig – Spiegel dieser Mittel können steigen; Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Etwas höhere Darifenacin-Spiegel – mit 7,5 mg beginnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tiefere Darifenacin-Spiegel, Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigt leicht – zu Beginn Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Mundtrockenheit",
+      "Obstipation (Verstopfung)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Trockene Augen",
+      "Übelkeit",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Bauchschmerzen",
+      "Trockene Nasenschleimhaut"
+    ],
+    "gelegentlich": [
+      "Harnverhalt",
+      "Harnwegsinfekt",
+      "Schwindel, Schläfrigkeit",
+      "Verschwommenes Sehen",
+      "Geschmacksstörung",
+      "Bluthochdruck",
+      "Hautausschlag, Juckreiz",
+      "Erhöhte Leberwerte"
+    ],
+    "unbekannt": [
+      "Verwirrtheit",
+      "Halluzinationen",
+      "Depressive Verstimmung, Stimmungsschwankungen",
+      "Angioödem (Schwellung von Gesicht und Rachen)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen, da nur begrenzte Daten vorliegen.",
+  "stillzeit": "Nur nach ärztlicher Abwägung; bei Tieren geht Darifenacin in die Milch über.",
+  "hinweise": [
+    "Retardtabletten unzerkaut mit Flüssigkeit schlucken, unabhängig von den Mahlzeiten.",
+    "Schwindel und verschwommenes Sehen sind möglich – Vorsicht beim Autofahren.",
+    "Bei anhaltender Verstopfung oder Schwierigkeiten beim Wasserlassen ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

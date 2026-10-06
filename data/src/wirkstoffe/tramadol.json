@@ -1,0 +1,267 @@
+{
+  "id": "tramadol",
+  "name": "Tramadol",
+  "synonyme": [
+    "Tramadolhydrochlorid",
+    "Tramadol hydrochloride"
+  ],
+  "atc": [
+    "N02AX02"
+  ],
+  "klasse": "Opioid-Analgetikum (schwacher μ-Agonist mit Serotonin-/Noradrenalin-Wiederaufnahmehemmung)",
+  "kurz": "Opioid-Schmerzmittel bei mässig starken bis starken Schmerzen; hemmt zusätzlich die Wiederaufnahme von Serotonin und Noradrenalin.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "serotonerg",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate",
+    "hyponatriaemie-ausloesend",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Tramal",
+    "Tramadol Mepha",
+    "Tramadol Sandoz",
+    "Zaldiar (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Retardtabletten",
+    "Tropfen (Lösung zum Einnehmen)",
+    "Zäpfchen",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Mässig starke bis starke Schmerzen",
+      "ids": [
+        "schmerzen",
+        "chronische-schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen auf zwei Wegen: über die körpereigenen Opioid-Andockstellen und über eine Verstärkung der schmerzhemmenden Nervenbahnen. Tramadol wirkt schwach am μ-Opioidrezeptor, vor allem über sein Abbauprodukt O-Desmethyltramadol, das in der Leber durch CYP2D6 gebildet wird. Zusätzlich hemmt es die Wiederaufnahme von Noradrenalin und Serotonin im Rückenmark. Dadurch erklärt sich auch das Risiko für Serotonin-Syndrom und Krampfanfälle.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln, Opioiden oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Epilepsie, die durch Behandlung nicht ausreichend kontrolliert ist",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Anwendung zur Behandlung eines Opioidentzugs",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Behandelte Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosisintervall verlängern)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Atemschwäche, COPD oder Schlafapnoe",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Kopfverletzung, erhöhter Hirndruck, Schock oder Bewusstseinsstörung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem",
+        "schock",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Ultraschnelle CYP2D6-Metabolisierer (Gefahr einer Opioidvergiftung)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Kinder nach Mandeloperation oder mit Atemproblemen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Ältere Menschen über 75 Jahre",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Sucht oder Missbrauch in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit",
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Diabetes (Unterzuckerung möglich)",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, auch innerhalb von 2 Wochen nach Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotonin-Syndroms mit Erregung, Fieber und Kreislaufkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "SSRI, SNRI, trizyklische Antidepressiva, Triptane, Linezolid und andere serotonerge Mittel",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:triptane",
+        "linezolid",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotonin-Syndrom und Krampfanfälle möglich – nur mit Vorsicht, auf Unruhe, Fieber, Zittern und Muskelzuckungen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gefahr schwerer Atemdepression und tiefer Sedierung – Kombination nur, wenn keine Alternative besteht; kein Alkohol.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Schwächere und kürzere Wirkung von Tramadol sowie erhöhte Krampfneigung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Partialagonisten (z. B. Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung, Entzugssymptome möglich – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann steigen, Blutungen möglich – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Weniger wirksames Abbauprodukt – schwächere Schmerzlinderung, zugleich mehr serotonerge Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Hemmer (z. B. Ketoconazol, Erythromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Abbau von Tramadol gehemmt, Wirkung und Nebenwirkungen können zunehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Ondansetron",
+      "ref": [
+        "ondansetron"
+      ],
+      "effekt": "Kann die schmerzlindernde Wirkung von Tramadol vermindern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Schläfrigkeit",
+      "Erbrechen, Verstopfung, Mundtrockenheit",
+      "Starkes Schwitzen",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Herzklopfen, Herzrasen, Kreislaufschwäche beim Aufstehen",
+      "Würgereiz, Magenbeschwerden, Durchfall",
+      "Juckreiz, Hautausschlag, Nesselsucht"
+    ],
+    "selten": [
+      "Krampfanfälle",
+      "Halluzinationen, Verwirrtheit, Delir, Albträume",
+      "Abhängigkeit",
+      "Atemdepression, Atemnot",
+      "Allergische Reaktionen bis zur Anaphylaxie",
+      "Bradykardie (langsamer Puls), Blutdruckanstieg",
+      "Verschwommensehen, Pupillenveränderungen"
+    ],
+    "sehrSelten": [
+      "Erhöhte Leberwerte"
+    ],
+    "unbekannt": [
+      "Serotonin-Syndrom",
+      "Hypoglykämie (Unterzuckerung)",
+      "Hyponatriämie (Natriummangel)",
+      "Schluckauf"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung und nur kurzfristig; längere Anwendung kann beim Neugeborenen Entzugssymptome auslösen.",
+  "stillzeit": "Tramadol geht in die Muttermilch über. Nach einer einzelnen Dosis ist keine Stillpause nötig; bei wiederholter Einnahme wird vom Stillen abgeraten.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht zerkauen oder zerkleinern.",
+    "Kein Alkohol; die Fahrtüchtigkeit kann vor allem zu Beginn eingeschränkt sein.",
+    "Nach längerer Anwendung nicht abrupt absetzen (Entzugssymptome).",
+    "Bei Diabetes auf Zeichen einer Unterzuckerung achten."
+  ],
+  "stand": "2026-10"
+}

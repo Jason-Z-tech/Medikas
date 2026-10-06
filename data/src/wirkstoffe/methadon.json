@@ -1,0 +1,292 @@
+{
+  "id": "methadon",
+  "name": "Methadon",
+  "synonyme": [
+    "Methadone",
+    "Methadonhydrochlorid"
+  ],
+  "atc": [
+    "N07BC02"
+  ],
+  "klasse": "Opioid (voller µ-Opioidrezeptor-Agonist); Substitutionsmittel und Analgetikum",
+  "kurz": "Lang wirksames Opioid zur Substitutionsbehandlung bei Opioidabhängigkeit und gegen starke Schmerzen; untersteht dem Betäubungsmittelgesetz.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "serotonerg",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Ketalgin",
+    "Methadon Streuli"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Lösung zum Einnehmen",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Substitutionsbehandlung bei Opioidabhängigkeit",
+      "ids": [
+        "opioidabhaengigkeit",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Starke und sehr starke Schmerzen",
+      "ids": [
+        "chronische-schmerzen",
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert starke Schmerzen und verhindert bei Opioidabhängigkeit Entzugssymptome und Suchtdruck. Methadon ist ein voller Agonist am µ-Opioidrezeptor und hemmt zusätzlich NMDA-Rezeptoren sowie die Wiederaufnahme von Serotonin und Noradrenalin. Die Halbwertszeit ist lang und individuell sehr unterschiedlich (etwa 15 bis über 60 Stunden): Bei der Substitution genügt eine Dosis pro Tag, nach Dosissteigerungen kann sich Methadon aber über Tage anreichern. Abgebaut wird es vor allem über CYP3A4 und CYP2B6.",
+  "kontraindikationen": [
+    {
+      "text": "Atemdepression (Atemschwäche)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Akuter Asthmaanfall oder schwere obstruktive Atemwegserkrankung",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Akute Alkoholvergiftung",
+      "ids": [
+        "alkoholkonsum",
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Kopfverletzung oder erhöhter Hirndruck",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "QT-Verlängerung, Herzrhythmusstörungen, langsamer Puls, Kalium- oder Magnesiummangel: EKG vor und während der Behandlung, besonders bei hohen Dosen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Schlafapnoe, COPD oder eingeschränkte Atemreserve",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere und geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion oder Nebenniereninsuffizienz",
+      "ids": [
+        "hypothyreose",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung oder Harnverhalt",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck oder Flüssigkeitsmangel",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Erkrankungen der Gallenwege oder der Bauchspeicheldrüse, Verstopfung",
+      "ids": [
+        "gallensteine",
+        "pankreatitis",
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Unterzuckerung möglich, vor allem bei hohen Dosen",
+      "ids": [
+        "hypoglykaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kinder: schon kleine Mengen können tödlich sein",
+      "ids": [
+        "kinder",
+        "vergiftung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 2 Wochen nach deren Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr schwerer Reaktionen mit Erregung oder Dämpfung des Nervensystems und Serotoninsyndrom."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide, andere Opioide, Alkohol und weitere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:opioide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gefahr von tiefer Sedierung, Atemdepression, Koma und Tod – nur wenn unumgänglich, mit niedrigster Dosis und enger Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika, bestimmte Antipsychotika, Makrolide, Fluorchinolone, Citalopram)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Torsade de pointes – Kombination möglichst vermeiden, EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hemmer von CYP3A4 oder CYP2B6 (z. B. Fluconazol, Voriconazol, Clarithromycin, Fluvoxamin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer",
+        "fluvoxamin"
+      ],
+      "effekt": "Methadon-Spiegel steigt – Gefahr von Atemdepression und QT-Verlängerung; Dosis anpassen und überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut, Efavirenz, Nevirapin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut",
+        "efavirenz",
+        "gruppe:nnrti"
+      ],
+      "effekt": "Methadon-Spiegel sinkt – Entzugssymptome möglich; beim Absetzen des Induktors steigt der Spiegel wieder (Überdosierungsgefahr).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioid-Partialagonisten und -Antagonisten (z. B. Buprenorphin, Nalbuphin, Naltrexon, Naloxon)",
+      "ref": [
+        "gruppe:opioid-partialagonisten",
+        "gruppe:opioid-antagonisten"
+      ],
+      "effekt": "Können akute Entzugssymptome auslösen und die Wirkung aufheben – nicht kombinieren, ausser zur Behandlung einer Überdosierung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI, trizyklische Antidepressiva, Triptane)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotoninsyndrom möglich – auf Unruhe, Zittern, Fieber und Muskelzuckungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kalium senkende Mittel (z. B. Diuretika, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko für Herzrhythmusstörungen – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zidovudin",
+      "ref": [
+        "zidovudin"
+      ],
+      "effekt": "Zidovudin-Spiegel steigt – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstopfung und Harnverhalt werden verstärkt.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen"
+    ],
+    "haeufig": [
+      "Verstopfung",
+      "Sedierung (Dämpfung), Müdigkeit",
+      "Euphorie, Halluzinationen",
+      "Verschwommenes Sehen, enge Pupillen, trockene Augen",
+      "Drehschwindel",
+      "Schwitzen, vorübergehender Hautausschlag",
+      "Wassereinlagerungen, Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Dysphorie (Missstimmung), Unruhe, Schlaflosigkeit, Desorientiertheit",
+      "Verminderte Libido, Potenz- und Menstruationsstörungen",
+      "Kopfschmerzen, Ohnmacht",
+      "Tiefer Blutdruck, Hautrötung (Flush)",
+      "Harnverhalt",
+      "Gallenwegskrämpfe",
+      "Mundtrockenheit, Juckreiz, Nesselsucht",
+      "Lungenödem, Verschlechterung eines Asthmas"
+    ],
+    "selten": [
+      "QT-Verlängerung, Torsade de pointes (lebensbedrohliche Herzrhythmusstörung)",
+      "Bradykardie (langsamer Puls), Herzklopfen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Atemdepression (Atemschwäche), vor allem bei Überdosierung",
+      "Hypoglykämie (Unterzuckerung)",
+      "Hypokaliämie, Hypomagnesiämie",
+      "Abhängigkeit, Entzugssymptome beim Absetzen",
+      "Schlafbezogene Atemstörungen (zentrale Schlafapnoe)",
+      "Nebenniereninsuffizienz, verminderte Sexualhormone bei Langzeitgebrauch"
+    ]
+  },
+  "schwangerschaft": "Eine Substitution wird in der Schwangerschaft unter enger ärztlicher Betreuung fortgeführt, da sie sicherer ist als ein unkontrollierter Konsum oder Entzug; beim Neugeborenen ist mit Entzugssymptomen zu rechnen.",
+  "stillzeit": "Geht in die Muttermilch über; bei stabiler Dosis ist Stillen nach ärztlicher Abwägung möglich – das Kind auf Schläfrigkeit und Atemprobleme beobachten.",
+  "hinweise": [
+    "Untersteht dem Betäubungsmittelgesetz: sicher und für Kinder unzugänglich aufbewahren – schon kleine Mengen können für Kinder und Nicht-Gewöhnte tödlich sein.",
+    "Keine Beruhigungs- oder Schlafmittel und keinen Alkohol ohne ärztliche Rücksprache einnehmen (Atemstillstand möglich).",
+    "Regelmässige EKG-Kontrollen, besonders bei hohen Dosen oder neuen Begleitmedikamenten.",
+    "Die Fahrtüchtigkeit ist zu Beginn und bei Dosisänderungen eingeschränkt."
+  ],
+  "stand": "2026-10"
+}

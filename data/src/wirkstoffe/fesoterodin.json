@@ -1,0 +1,59 @@
+{
+  "id": "fesoterodin",
+  "name": "Fesoterodin",
+  "synonyme": ["Fesoterodinfumarat", "Fesoterodine"],
+  "atc": ["G04BD11"],
+  "klasse": "Urologisches Spasmolytikum (Antimuskarinikum, Prodrug)",
+  "kurz": "Blasenmittel (Retardtablette) gegen überaktive Blase mit starkem Harndrang, häufigem Wasserlassen und Dranginkontinenz.",
+  "gruppen": ["anticholinerg", "cyp2d6-substrate"],
+  "handelsnamen": ["Toviaz"],
+  "abgabe": ["B"],
+  "darreichung": ["Retardtabletten"],
+  "indikationen": [
+    { "text": "Behandlung von starkem Harndrang, häufigem Wasserlassen und Dranginkontinenz bei überaktiver Blase bei Erwachsenen", "ids": ["reizblase"] }
+  ],
+  "wirkmechanismus": "Entspannt den überaktiven Blasenmuskel, sodass die Blase mehr Urin speichern kann. Fesoterodin ist eine Vorstufe (Prodrug), die im Körper durch unspezifische Esterasen rasch in den eigentlichen Wirkstoff 5-Hydroxymethyltolterodin (5-HMT) umgewandelt wird – denselben aktiven Metaboliten wie bei Tolterodin. 5-HMT blockiert kompetitiv die Muskarinrezeptoren des Blasenmuskels und wird über CYP2D6 und CYP3A4 abgebaut.",
+  "kontraindikationen": [
+    { "text": "Harnverhalt", "ids": ["harnverhalt"] },
+    { "text": "Magenentleerungsstörung mit Retention (Magenstauung)", "ids": [] },
+    { "text": "Unkontrolliertes Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
+    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] },
+    { "text": "Schwere Leberinsuffizienz (Child-Pugh C)", "ids": ["leberinsuffizienz"] },
+    { "text": "Mittelschwere bis schwere Leber- oder Niereninsuffizienz bei gleichzeitiger Einnahme starker CYP3A4-Hemmer", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Schwere Colitis ulcerosa, toxisches Megakolon", "ids": ["colitis-ulcerosa"] },
+    { "text": "Erdnuss- oder Sojaallergie (Tabletten enthalten Sojalecithin)", "ids": ["allergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Deutliche Abflussbehinderung der Blase (z. B. vergrösserte Prostata) mit Risiko eines Harnverhalts", "ids": ["prostatahyperplasie", "harnverhalt"] },
+    { "text": "Verengungen im Magen-Darm-Trakt, verminderte Darmbewegung, schwere Verstopfung", "ids": ["darmverschluss", "verstopfung"] },
+    { "text": "Reflux oder gleichzeitige Einnahme von Mitteln, die die Speiseröhre reizen (z. B. Bisphosphonate)", "ids": ["sodbrennen"] },
+    { "text": "Eingeschränkte Nieren- oder Leberfunktion: höchstens 4 mg täglich, je nach Schweregrad und Begleitmedikation", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "Herzkrankheiten mit Risiko bei schnellem Puls (koronare Herzkrankheit, Herzrhythmusstörungen, QT-Verlängerung)", "ids": ["koronare-herzkrankheit", "herzrhythmusstoerung", "qt-verlaengerung"] },
+    { "text": "Autonome Neuropathie", "ids": [] },
+    { "text": "Angioödem unter Fesoterodin: sofort absetzen", "ids": ["angiooedem"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir) bei mittelschwerer bis schwerer Leber- oder Niereninsuffizienz", "ref": ["gruppe:starke-cyp3a4-hemmer"], "grund": "Abbau und Ausscheidung des aktiven Metaboliten sind gleichzeitig vermindert – stark erhöhte Spiegel mit Gefahr schwerer anticholinerger Nebenwirkungen." }
+  ],
+  "interaktionen": [
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Spiegel des aktiven Metaboliten etwa verdoppelt – höchstens 4 mg täglich.", "schwere": "schwer" },
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Spiegel des aktiven Metaboliten sinkt stark – Wirkung ungenügend; Kombination nicht empfohlen.", "schwere": "mittel" },
+    { "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion)", "ref": ["gruppe:starke-cyp2d6-hemmer"], "effekt": "Höhere Spiegel des aktiven Metaboliten – mehr anticholinerge Nebenwirkungen möglich.", "schwere": "mittel" },
+    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Leicht erhöhte Spiegel – auf Nebenwirkungen achten.", "schwere": "leicht" },
+    { "text": "Andere anticholinerg wirkende Mittel", "ref": ["gruppe:anticholinerg"], "effekt": "Verstärkte Wirkung und Nebenwirkungen (Mundtrockenheit, Verstopfung, Harnverhalt, Verwirrtheit).", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Mundtrockenheit"],
+    "haeufig": ["Schlaflosigkeit", "Schwindel, Kopfschmerzen", "Trockene Augen, trockener Hals", "Bauchschmerzen, Durchfall, Verdauungsbeschwerden, Verstopfung, Übelkeit", "Schmerzen beim Wasserlassen"],
+    "gelegentlich": ["Harnwegsinfektion", "Geschmacksstörung, Schläfrigkeit", "Verschwommenes Sehen", "Drehschwindel", "Herzrasen, Herzklopfen", "Halsschmerzen, Husten, trockene Nase", "Blähungen, Reflux", "Anstieg der Leberwerte (ALT, GGT)", "Hautausschlag, trockene Haut, Juckreiz", "Harnverhalt, Restharn, verzögertes Wasserlassen", "Müdigkeit"],
+    "selten": ["Angioödem", "Verwirrtheit", "Nesselsucht"]
+  },
+  "schwangerschaft": "Nicht empfohlen – es liegen keine ausreichenden Daten vor.",
+  "stillzeit": "Nicht anwenden – es ist nicht bekannt, ob der Wirkstoff in die Muttermilch übergeht.",
+  "hinweise": [
+    "Retardtabletten einmal täglich ganz mit Flüssigkeit schlucken, nicht teilen oder zerkauen.",
+    "Die volle Wirkung zeigt sich nach etwa 2–8 Wochen.",
+    "Verschwommenes Sehen, Schwindel und Schläfrigkeit können die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

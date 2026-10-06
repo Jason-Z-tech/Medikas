@@ -1,0 +1,271 @@
+{
+  "id": "metoclopramid",
+  "name": "Metoclopramid",
+  "synonyme": [
+    "MCP",
+    "Metoclopramide",
+    "Metoclopramidhydrochlorid"
+  ],
+  "atc": [
+    "A03FA01"
+  ],
+  "klasse": "Prokinetikum und Antiemetikum (Dopamin-D2-Rezeptorantagonist)",
+  "kurz": "Mittel gegen Übelkeit und Erbrechen, das auch die Magenentleerung beschleunigt; nur kurzzeitig anwenden.",
+  "gruppen": [
+    "dopaminantagonisten",
+    "zns-daempfend",
+    "krampfschwellensenkend",
+    "qt-verlaengernd",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Paspertin",
+    "Primperan",
+    "Migpriv (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Injektionslösung",
+    "Granulat (Kombination mit Acetylsalicylsäure)"
+  ],
+  "indikationen": [
+    {
+      "text": "Übelkeit und Erbrechen bei Erwachsenen, auch bei akuter Migräne (dort auch zur besseren Aufnahme von Schmerzmitteln)",
+      "ids": [
+        "uebelkeit",
+        "migraene"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Übelkeit und Erbrechen nach Operationen (Injektion; bei Kindern ab 1 Jahr nur als Mittel der zweiten Wahl)",
+      "ids": [
+        "uebelkeit",
+        "operation"
+      ]
+    },
+    {
+      "text": "Vorbeugung von verzögerter Übelkeit nach Chemotherapie und von Übelkeit bei Strahlentherapie",
+      "ids": [
+        "uebelkeit",
+        "krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt gegen Übelkeit und regt den Magen an, seinen Inhalt rascher in den Darm weiterzugeben. Metoclopramid blockiert Dopamin-D2-Rezeptoren in der Brechreizzone des Hirnstamms (Chemorezeptor-Triggerzone) und im Magen-Darm-Trakt. Zusätzlich wirkt es als Agonist an 5-HT4-Rezeptoren und in höherer Dosis als 5-HT3-Antagonist; dadurch werden die Acetylcholin-Freisetzung im Darm gefördert, die Magenentleerung beschleunigt und der Druck des unteren Speiseröhren-Schliessmuskels erhöht. Weil es ins Gehirn gelangt, kann es Bewegungsstörungen (extrapyramidale Symptome) und eine erhöhte Prolaktinausschüttung auslösen.",
+  "kontraindikationen": [
+    {
+      "text": "Magen-Darm-Blutung, mechanischer Darmverschluss oder Darmdurchbruch",
+      "ids": [
+        "aktive-blutung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Bekanntes oder vermutetes Phäochromozytom (Gefahr schwerer Blutdruckkrisen)",
+      "ids": []
+    },
+    {
+      "text": "Spätdyskinesien (unwillkürliche Bewegungen) nach Neuroleptika oder Metoclopramid in der Vorgeschichte",
+      "ids": []
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Methämoglobinämie nach Metoclopramid in der Vorgeschichte oder bekannter NADH-Cytochrom-b5-Reduktase-Mangel",
+      "ids": []
+    },
+    {
+      "text": "Kinder unter 1 Jahr",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Kinder und junge Erwachsene: erhöhtes Risiko für Bewegungsstörungen (z. B. Verkrampfungen von Hals, Zunge und Augen)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Risiko für Spätdyskinesien und Parkinsonismus",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, verlängerte QT-Zeit, langsamer Puls, Elektrolytstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder schwere Leberfunktion: Dosis verringern",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Depression in der Vorgeschichte",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Prolaktinabhängige Tumoren, z. B. Brustkrebs",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Levodopa und Dopaminagonisten (Parkinson-Mittel)",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "levodopa-carbidopa-entacapon",
+        "gruppe:dopaminagonisten"
+      ],
+      "grund": "Metoclopramid blockiert die Dopaminrezeptoren, auf die diese Mittel wirken – gegenseitige Aufhebung der Wirkung und Verschlechterung der Parkinson-Symptome."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Antipsychotika (Neuroleptika)",
+      "ref": [
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Erhöhtes Risiko für Bewegungsstörungen (extrapyramidale Symptome) und malignes neuroleptisches Syndrom.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Gefahr von Herzrhythmusstörungen – Vorsicht, besonders bei Injektion und Elektrolytstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Risiko eines Serotoninsyndroms (Unruhe, Zittern, Fieber, Muskelzuckungen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Höhere Metoclopramid-Spiegel mit mehr Nebenwirkungen – Dosis gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (Benzodiazepine, Opioide, Schlafmittel, sedierende Antihistaminika) und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit; Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Höhere Ciclosporin-Spiegel – Blutspiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Suxamethonium und Mivacurium (Muskelrelaxanzien bei Narkose)",
+      "ref": [
+        "suxamethonium",
+        "mivacurium"
+      ],
+      "effekt": "Verlängerte Muskelerschlaffung, da Metoclopramid die Plasmacholinesterase hemmt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Verminderte Aufnahme von Digoxin – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Anticholinergika und Opioide",
+      "ref": [
+        "gruppe:anticholinerg",
+        "gruppe:opioide"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung auf die Magen-Darm-Bewegung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit (Somnolenz)"
+    ],
+    "haeufig": [
+      "Extrapyramidale Störungen (z. B. Zungen-Schlund-Krämpfe, Blickkrämpfe), besonders bei Kindern und jungen Erwachsenen",
+      "Parkinsonismus, Akathisie (Sitzunruhe)",
+      "Depression",
+      "Durchfall",
+      "Schwächegefühl (Asthenie)",
+      "Hypotonie (tiefer Blutdruck), vor allem bei Injektion"
+    ],
+    "gelegentlich": [
+      "Dystonie und Dyskinesie (unwillkürliche Muskelbewegungen)",
+      "Hyperprolaktinämie (erhöhtes Prolaktin), Ausbleiben der Regelblutung",
+      "Halluzinationen, Bewusstseinsstörungen",
+      "Bradykardie (langsamer Puls), vor allem bei Injektion",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "Krampfanfälle, besonders bei Epilepsie",
+      "Verwirrtheit",
+      "Milchfluss aus der Brust (Galaktorrhö)"
+    ],
+    "unbekannt": [
+      "Spätdyskinesie (Tardive Dyskinesie), unter Umständen bleibend, vor allem bei längerer Anwendung",
+      "Malignes neuroleptisches Syndrom (hohes Fieber, Muskelstarre, Bewusstseinsstörung)",
+      "QT-Verlängerung, Torsade de pointes, AV-Block, Herzstillstand kurz nach Injektion",
+      "Methämoglobinämie (gestörter Sauerstofftransport im Blut)",
+      "Anaphylaxie, Schock",
+      "Blutdruckkrise bei Phäochromozytom",
+      "Brustvergrösserung beim Mann (Gynäkomastie)"
+    ]
+  },
+  "schwangerschaft": "Zahlreiche Daten zeigen kein erhöhtes Fehlbildungsrisiko; Anwendung bei klarer Notwendigkeit möglich. Gegen Ende der Schwangerschaft können beim Neugeborenen Bewegungsstörungen auftreten.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen während der Behandlung wird nicht empfohlen.",
+  "hinweise": [
+    "Höchstens 5 Tage anwenden (Risiko bleibender Bewegungsstörungen); Höchstdosis bei Erwachsenen 30 mg pro Tag, zwischen zwei Gaben mindestens 6 Stunden Abstand.",
+    "Kann müde machen und die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden.",
+    "Bei unwillkürlichen Bewegungen von Zunge, Gesicht, Hals oder Augen sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

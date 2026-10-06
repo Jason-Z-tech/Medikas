@@ -1,0 +1,65 @@
+{
+  "id": "posaconazol",
+  "name": "Posaconazol",
+  "synonyme": ["Posaconazole", "Posaconazolum"],
+  "atc": ["J02AC04"],
+  "klasse": "Triazol-Antimykotikum",
+  "kurz": "Breit wirksames Pilzmittel zur Vorbeugung und Behandlung schwerer Pilzinfektionen bei stark geschwächter Abwehr; viele Wechselwirkungen.",
+  "gruppen": ["azol-antimykotika", "starke-cyp3a4-hemmer", "qt-verlaengernd", "hepatotoxisch"],
+  "handelsnamen": ["Noxafil", "Posaconazol Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Magensaftresistente Tabletten", "Suspension zum Einnehmen", "Konzentrat zur Herstellung einer Infusionslösung"],
+  "indikationen": [
+    { "text": "Vorbeugung invasiver Pilzinfektionen bei hohem Risiko, z. B. während Chemotherapie bei akuter myeloischer Leukämie oder myelodysplastischem Syndrom und nach Stammzelltransplantation mit hoch dosierter Immunsuppression", "ids": ["pilzinfektion", "leukaemie", "myeloproliferative-erkrankung", "transplantation", "immunsuppression"] },
+    { "text": "Invasive Aspergillose sowie schwere Pilzinfektionen (Fusariose, Chromoblastomykose, Myzetom, Kokzidioidomykose), wenn andere Mittel unwirksam sind oder nicht vertragen werden", "ids": ["pilzinfektion"] },
+    { "text": "Candida-Infektion in Mund und Rachen bei schwerer Erkrankung oder geschwächter Abwehr (Suspension)", "ids": ["mundinfektion", "pilzinfektion"] }
+  ],
+  "wirkmechanismus": "Hemmt die Bildung eines wichtigen Bausteins der Pilzzellwand und stoppt so das Wachstum von Hefe- und Schimmelpilzen. Posaconazol blockiert die pilzeigene Lanosterol-14α-Demethylase; dadurch fehlt Ergosterol in der Zellmembran und toxische Sterolvorstufen reichern sich an. Es wirkt auch gegen viele Mucorales (Jochpilze). Posaconazol ist ein starker Hemmer von CYP3A4 und wird selbst über Glucuronidierung (UGT) und P-Glykoprotein ausgeschieden.",
+  "kontraindikationen": [
+    { "text": "Überempfindlichkeit gegen andere Azol-Antimykotika (Kreuzallergie)", "ids": ["allergie"] }
+  ],
+  "vorsicht": [
+    { "text": "QT-Verlängerung, Herzrhythmusstörungen, Herzschwäche, Bradykardie oder Elektrolytstörungen (Kalium, Magnesium, Calcium vor Beginn korrigieren)", "ids": ["qt-verlaengerung", "herzrhythmusstoerung", "herzinsuffizienz", "bradykardie", "hypokaliaemie", "magnesiummangel"] },
+    { "text": "Lebererkrankungen: Leberwerte zu Beginn und während der Behandlung kontrollieren", "ids": ["leberinsuffizienz"] },
+    { "text": "Pseudoaldosteronismus: Bluthochdruck und Kaliummangel möglich – Blutdruck und Kalium überwachen", "ids": ["hypertonie", "hypokaliaemie"] },
+    { "text": "Schwerer Durchfall oder Erbrechen (Suspension, Tabletten): ungenügende Aufnahme, Spiegel und Wirkung können zu tief sein", "ids": ["durchfall", "uebelkeit"] },
+    { "text": "Mittelschwere bis schwere Niereninsuffizienz: Infusionslösung nur nach Abwägung (Hilfsstoff reichert sich an)", "ids": ["niereninsuffizienz"] },
+    { "text": "Frauen im gebärfähigen Alter: während der Behandlung wirksam verhüten", "ids": ["frauen-gebaerfaehig"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Ergotalkaloide (Ergotamin, Dihydroergotamin, Methylergometrin)", "ref": ["methylergometrin"], "grund": "Erhöhte Spiegel – Gefahr von Ergotismus (starke Gefässverengung)." },
+    { "text": "Terfenadin, Astemizol, Cisaprid, Pimozid, Halofantrin, Chinidin", "ref": [], "grund": "Erhöhte Spiegel durch CYP3A4-Hemmung – Gefahr von QT-Verlängerung und Torsade de pointes." },
+    { "text": "Simvastatin, Lovastatin und Atorvastatin", "ref": ["simvastatin", "atorvastatin"], "grund": "Stark erhöhte Statinspiegel – Gefahr von Muskelzerfall (Rhabdomyolyse)." },
+    { "text": "Venetoclax zu Beginn und während der Dosissteigerung bei CLL", "ref": ["venetoclax"], "grund": "Erhöhte Spiegel – Gefahr eines Tumorlyse-Syndroms." },
+    { "text": "Domperidon, Quetiapin, Lurasidon, Ranolazin, Ivabradin, Eplerenon, Ticagrelor, Naloxegol (laut deren Fachinformation mit starken CYP3A4-Hemmern kontraindiziert)", "ref": ["domperidon", "quetiapin", "lurasidon", "ranolazin", "ivabradin", "eplerenon", "ticagrelor", "naloxegol"], "grund": "Stark erhöhte Spiegel – Gefahr von Herzrhythmusstörungen, Bradykardie, Hyperkaliämie, Blutungen bzw. Opioidentzug." }
+  ],
+  "interaktionen": [
+    { "text": "Enzyminduktoren (Rifampicin, Rifabutin, Phenytoin, Carbamazepin, Phenobarbital, Efavirenz, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "gruppe:p-gp-induktoren"], "effekt": "Posaconazol-Spiegel sinken deutlich – Kombination meiden; Rifabutin und Phenytoin steigen zudem selbst an.", "schwere": "schwer" },
+    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["ciclosporin", "tacrolimus", "sirolimus", "everolimus"], "effekt": "Stark erhöhte Spiegel – Ciclosporin- und Tacrolimus-Dosis reduzieren und Spiegel engmaschig messen; Sirolimus nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Weitere empfindliche CYP3A4-Substrate (z. B. Midazolam, Fentanyl, Oxycodon, Colchicin)", "ref": ["gruppe:cyp3a4-substrate-empfindlich"], "effekt": "Erhöhte Spiegel und verstärkte Wirkung – Dosis reduzieren, eng überwachen.", "schwere": "schwer" },
+    { "text": "Vinca-Alkaloide (Vincristin, Vinblastin)", "ref": ["vincristin", "vinblastin"], "effekt": "Schwere Nervenschäden (Neurotoxizität) – nur wenn keine Alternative besteht.", "schwere": "schwer" },
+    { "text": "Proteinkinase-Hemmer und andere über CYP3A4 abgebaute Krebsmittel", "ref": ["gruppe:proteinkinase-hemmer"], "effekt": "Erhöhte Spiegel und Toxizität – Dosis gemäss Fachinformation des Krebsmittels anpassen.", "schwere": "schwer" },
+    { "text": "Rivaroxaban und Apixaban", "ref": ["rivaroxaban", "apixaban"], "effekt": "Erhöhte Spiegel, Blutungsgefahr – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Andere QT-verlängernde Arzneimittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Additive QT-Verlängerung – EKG und Elektrolyte kontrollieren.", "schwere": "schwer" },
+    { "text": "Säurehemmer und Metoclopramid (nur Suspension)", "ref": ["gruppe:protonenpumpenhemmer", "gruppe:h2-blocker", "metoclopramid"], "effekt": "Schlechtere Aufnahme der Suspension – Kombination meiden oder Spiegel überwachen; die Tabletten sind kaum betroffen.", "schwere": "mittel" },
+    { "text": "Calciumantagonisten (z. B. Diltiazem, Verapamil, Nifedipin)", "ref": ["gruppe:dhp-calciumantagonisten", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Erhöhte Spiegel – Blutdruckabfall, Ödeme; Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Erhöhte Digoxin-Spiegel beschrieben – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "HIV-Mittel Atazanavir und Ritonavir", "ref": ["atazanavir", "ritonavir"], "effekt": "Erhöhte Spiegel der HIV-Mittel – auf Nebenwirkungen (z. B. Bilirubinanstieg) achten.", "schwere": "mittel" },
+    { "text": "Sulfonylharnstoffe", "ref": ["gruppe:sulfonylharnstoffe"], "effekt": "Unterzuckerungen möglich – Blutzucker häufiger messen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Neutropenie (Mangel an weissen Blutkörperchen)", "Elektrolytstörungen, Appetitlosigkeit", "Kopfschmerzen, Schwindel, Kribbeln, Schläfrigkeit, Geschmacksstörungen", "Bluthochdruck", "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall, Verdauungsbeschwerden, Mundtrockenheit, Blähungen, Verstopfung", "Erhöhte Leberwerte", "Hautausschlag, Juckreiz", "Fieber, Schwäche, Müdigkeit"],
+    "gelegentlich": ["Thrombozytopenie, Leukopenie, Anämie, Eosinophilie", "Allergische Reaktionen", "Hyperglykämie, Hypoglykämie", "Krampfanfälle, Neuropathie, Zittern", "Verschwommenes Sehen, Lichtscheu", "QT-Verlängerung, Herzklopfen, Bradykardie, Tachykardie", "Pankreatitis", "Hepatitis, Gelbsucht, Leberschäden", "Haarausfall", "Akutes Nierenversagen, Niereninsuffizienz", "Menstruationsstörungen"],
+    "selten": ["Hämolytisch-urämisches Syndrom, thrombotisch-thrombozytopenische Purpura, Panzytopenie", "Nebenniereninsuffizienz", "Psychose, Depression", "Schlaganfall, Enzephalopathie, Ohnmacht", "Doppelbilder, Hörstörungen", "Torsade de pointes, plötzlicher Herztod, Herzinsuffizienz, Herzinfarkt", "Lungenembolie, Thrombose, Pneumonitis", "Magen-Darm-Blutung, Darmverschluss", "Leberversagen", "Stevens-Johnson-Syndrom"],
+    "unbekannt": ["Pseudoaldosteronismus (Bluthochdruck mit Kaliummangel)"]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt eindeutig das Risiko (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen wirksam verhüten.",
+  "stillzeit": "Mit Beginn der Behandlung abstillen.",
+  "hinweise": [
+    "Suspension immer mit einer Mahlzeit oder einem Nahrungsergänzungsgetränk einnehmen; Tabletten unzerkaut mit einer Mahlzeit schlucken.",
+    "Tabletten und Suspension sind nicht 1:1 austauschbar – nur die verordnete Form verwenden.",
+    "Vor jedem neuen Medikament die Posaconazol-Behandlung erwähnen: viele Kombinationen sind verboten.",
+    "Leberwerte, Elektrolyte und Blutdruck werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

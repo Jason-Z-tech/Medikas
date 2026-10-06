@@ -1,0 +1,212 @@
+{
+  "id": "domperidon",
+  "name": "Domperidon",
+  "synonyme": [
+    "Domperidone",
+    "Domperidonmaleat"
+  ],
+  "atc": [
+    "A03FA03"
+  ],
+  "klasse": "Prokinetikum und Antiemetikum (peripherer Dopamin-D2-Rezeptorantagonist)",
+  "kurz": "Mittel gegen Übelkeit und Erbrechen, das die Magenentleerung fördert; wegen Herzrisiken nur kurz und niedrig dosiert anwenden.",
+  "gruppen": [
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Motilium",
+    "Motilium lingual"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitige Linderung von Übelkeit und Erbrechen bei Erwachsenen und Jugendlichen ab 12 Jahren (ab 35 kg)",
+      "ids": [
+        "uebelkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt gegen Übelkeit und beschleunigt die Weitergabe des Mageninhalts in den Darm. Domperidon blockiert Dopamin-D2-Rezeptoren in der Brechreizzone (Chemorezeptor-Triggerzone), die ausserhalb der Blut-Hirn-Schranke liegt, sowie im Magen. Dadurch steigen Magenbeweglichkeit und Druck des unteren Speiseröhren-Schliessmuskels. Da es kaum ins Gehirn gelangt, sind Bewegungsstörungen seltener als bei Metoclopramid; über die Hypophyse kann es jedoch das Prolaktin erhöhen. In höheren Spiegeln hemmt es Kaliumkanäle im Herzen (hERG) und verlängert die QT-Zeit.",
+  "kontraindikationen": [
+    {
+      "text": "Prolaktin bildender Hypophysentumor (Prolaktinom)",
+      "ids": [
+        "hyperprolaktinaemie"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Blutung, mechanischer Darmverschluss oder Darmdurchbruch",
+      "ids": [
+        "aktive-blutung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Mässige oder schwere Einschränkung der Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bekannte Verlängerung der kardialen Erregungsleitung, insbesondere der QT-Zeit",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Deutliche Elektrolytstörungen (z. B. Kalium- oder Magnesiummangel)",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Zugrunde liegende Herzerkrankungen wie dekompensierte Herzschwäche",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Personen über 60 Jahre und Tagesdosen über 30 mg: erhöhtes Risiko für schwere Herzrhythmusstörungen und plötzlichen Herztod",
+      "ids": [
+        "aeltere-patienten",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Langsamer Puls oder andere Herzkrankheiten",
+      "ids": [
+        "bradykardie",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisintervall verlängern",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder unter 12 Jahren bzw. unter 35 kg: Wirksamkeit nicht belegt",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Herzklopfen, Atemnot oder Ohnmacht während der Behandlung: absetzen und ärztlich abklären",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "QT-verlängernde Arzneimittel (z. B. Amiodaron, Sotalol, Haloperidol, Citalopram, Escitalopram, Erythromycin, Moxifloxacin, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "grund": "Zusammen mit Domperidon addiert sich die QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Posaconazol, Voriconazol, Clarithromycin, Ritonavir, Cobicistat) sowie Erythromycin",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "erythromycin"
+      ],
+      "grund": "Sie hemmen den Abbau von Domperidon – stark erhöhte Spiegel mit Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Apomorphin",
+      "ref": [
+        "apomorphin"
+      ],
+      "effekt": "Kombination nur, wenn der Nutzen überwiegt und strenge Vorsichtsmassnahmen (EKG-Kontrollen) eingehalten werden – Risiko für QT-Verlängerung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Domperidon-Spiegel – Vorsicht, auf Herzklopfen und Schwindel achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Glukokortikoide, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel verstärkt das Risiko von Herzrhythmusstörungen – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinergika (z. B. Butylscopolamin)",
+      "ref": [
+        "gruppe:anticholinerg",
+        "butylscopolamin"
+      ],
+      "effekt": "Heben die magen-darm-anregende Wirkung von Domperidon auf.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Säurebinder und säurehemmende Mittel",
+      "ref": [
+        "gruppe:antazida",
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Verminderte Aufnahme von Domperidon – nicht gleichzeitig einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Niedrigere Domperidon-Spiegel, Wirkung kann nachlassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Mundtrockenheit"
+    ],
+    "gelegentlich": [
+      "Kopfschmerzen, Schläfrigkeit",
+      "Angst, Libidoverlust",
+      "Durchfall",
+      "Hautausschlag, Juckreiz",
+      "Milchfluss aus der Brust (Galaktorrhö), Brustschmerzen und -spannen",
+      "Schwächegefühl (Asthenie)"
+    ],
+    "unbekannt": [
+      "Ventrikuläre Herzrhythmusstörungen, QT-Verlängerung, Torsade de pointes, plötzlicher Herztod",
+      "Krampfanfälle, extrapyramidale Bewegungsstörungen, Blickkrämpfe",
+      "Unruhe, Nervosität",
+      "Anaphylaxie, Angioödem, Nesselsucht",
+      "Brustvergrösserung beim Mann (Gynäkomastie), Ausbleiben der Regelblutung",
+      "Harnverhalt",
+      "Erhöhte Leberwerte und erhöhtes Prolaktin im Blut"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; in der Schwangerschaft nur anwenden, wenn der Nutzen das Risiko klar überwiegt.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; ein Risiko für Herznebenwirkungen beim Säugling ist nicht ausgeschlossen. Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Höchstdosis 30 mg pro Tag (meist 3 × 10 mg); in der Regel nicht länger als eine Woche anwenden.",
+    "Vor den Mahlzeiten einnehmen; Schmelztabletten auf der Zunge zergehen lassen.",
+    "Alle anderen Medikamente angeben – viele erhöhen zusammen mit Domperidon das Risiko für Herzrhythmusstörungen.",
+    "Bei Herzklopfen, Schwindel oder Ohnmacht sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

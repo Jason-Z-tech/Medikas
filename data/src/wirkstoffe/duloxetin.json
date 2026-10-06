@@ -1,0 +1,264 @@
+{
+  "id": "duloxetin",
+  "name": "Duloxetin",
+  "synonyme": [
+    "Duloxetine"
+  ],
+  "atc": [
+    "N06AX21"
+  ],
+  "klasse": "Antidepressivum (Serotonin-Noradrenalin-Wiederaufnahmehemmer, SNRI)",
+  "kurz": "Antidepressivum (SNRI) gegen Depressionen und generalisierte Angststörung; lindert auch Nervenschmerzen bei Diabetes.",
+  "gruppen": [
+    "snri",
+    "serotonerg",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "blutdrucksteigernd",
+    "hepatotoxisch",
+    "cyp1a2-substrate",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Cymbalta",
+    "Duloxetin Mepha",
+    "Duloxetin Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Magensaftresistente Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression)",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Schmerzen bei diabetischer Polyneuropathie (Nervenschmerzen)",
+      "ids": [
+        "nervenschmerzen",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Generalisierte Angststörung",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und dämpft die Schmerzweiterleitung, indem es die Botenstoffe Serotonin und Noradrenalin im Nervensystem länger wirken lässt. Duloxetin hemmt die Wiederaufnahme von Serotonin und Noradrenalin etwa gleich stark, Dopamin nur schwach. An histaminergen, dopaminergen, cholinergen und adrenergen Rezeptoren wirkt es kaum. Die schmerzlindernde Wirkung beruht auf der Verstärkung absteigender, schmerzhemmender Nervenbahnen im Rückenmark.",
+  "kontraindikationen": [
+    {
+      "text": "Lebererkrankung mit eingeschränkter Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Nicht eingestellter Bluthochdruck (Behandlungsbeginn kontraindiziert)",
+      "ids": [
+        "hypertonie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Behandlungsbeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Erhöhter Augeninnendruck oder Engwinkelglaukom (Pupillenerweiterung)",
+      "ids": [
+        "engwinkelglaukom",
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Einnahme von Diuretika (Hyponatriämie)",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Bluthochdruck und Herzkrankheiten: Blutdruck und Puls kontrollieren",
+      "ids": [
+        "hypertonie",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Regelmässiger, hoher Alkoholkonsum (Risiko für Leberschäden)",
+      "ids": [
+        "alkoholkonsum",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 14 Tagen nach deren Absetzen; nach Duloxetin mindestens 5 Tage Pause)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms."
+    },
+    {
+      "text": "Starke CYP1A2-Hemmer wie Fluvoxamin, Ciprofloxacin oder Enoxacin",
+      "ref": [
+        "fluvoxamin",
+        "ciprofloxacin",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "grund": "Hemmen den Abbau von Duloxetin stark – der Spiegel steigt um ein Mehrfaches (mit Fluvoxamin etwa 6-fach)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (z. B. SSRI, Triptane, Tramadol, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Zittern, Muskelzuckungen, Fieber) – nur mit sorgfältiger Beobachtung kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien, Plättchenhemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; unter Vitamin-K-Antagonisten INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über CYP2D6 abgebaute Mittel mit enger therapeutischer Breite (z. B. trizyklische Antidepressiva, Flecainid, Propafenon, Metoprolol)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Duloxetin hemmt CYP2D6 mässig – Spiegel dieser Mittel steigen; vorsichtig dosieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol (z. B. Benzodiazepine, Opioide, Antipsychotika)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit – Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Duloxetin-Spiegel steigt (mit Paroxetin um etwa 60 %) – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Rauchen",
+      "ref": [],
+      "effekt": "Tabakrauch beschleunigt den Abbau über CYP1A2 – Spiegel bei Rauchern etwa halb so hoch; eine Dosisanpassung wird nicht routinemässig empfohlen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Kopfschmerzen",
+      "Schläfrigkeit",
+      "Mundtrockenheit"
+    ],
+    "haeufig": [
+      "Schwindel, Zittern, Kribbeln, Müdigkeit",
+      "Appetitminderung, Gewichtsabnahme",
+      "Schlaflosigkeit, Unruhe, Angst, abnorme Träume",
+      "Verminderte Libido, Orgasmus-, Erektions- und Ejakulationsstörungen",
+      "Verstopfung, Durchfall, Bauchschmerzen, Erbrechen, Dyspepsie (Verdauungsbeschwerden)",
+      "Herzklopfen, Blutdruckanstieg, Hitzewallungen",
+      "Vermehrtes Schwitzen, Hautausschlag",
+      "Verschwommenes Sehen, Ohrensausen, Muskelschmerzen und -krämpfe"
+    ],
+    "gelegentlich": [
+      "Suizidgedanken",
+      "Herzrasen, Vorhofflimmern, Ohnmacht",
+      "Magen-Darm-Blutungen, Blutergüsse, Nasenbluten",
+      "Hepatitis, erhöhte Leberwerte, akute Leberschädigung",
+      "Erhöhter Blutzucker",
+      "Harnverhalt, erschwertes Wasserlassen",
+      "Lichtempfindlichkeit, Nesselsucht"
+    ],
+    "selten": [
+      "Anaphylaxie, Angioödem",
+      "Hyponatriämie (Natriummangel), SIADH",
+      "Serotoninsyndrom, Krampfanfälle",
+      "Manie, Halluzinationen, Aggressivität, suizidales Verhalten",
+      "Leberversagen, Gelbsucht",
+      "Hypertensive Krise, Glaukom",
+      "Stevens-Johnson-Syndrom",
+      "Interstitielle Lungenerkrankung, eosinophile Pneumonie"
+    ],
+    "sehrSelten": [
+      "Hautvaskulitis (Entzündung kleiner Hautgefässe)"
+    ],
+    "unbekannt": [
+      "Stress-Kardiomyopathie (Takotsubo)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme bis zur Geburt sind beim Neugeborenen Anpassungsstörungen und Entzugssymptome sowie bei der Mutter ein erhöhtes Risiko für Nachblutungen möglich.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Stillen wird nicht empfohlen.",
+  "hinweise": [
+    "Kapseln unzerkaut schlucken, nicht öffnen (magensaftresistenter Inhalt).",
+    "Nicht abrupt absetzen, sondern über mindestens 2 Wochen ausschleichen (Absetzsymptome wie Schwindel, Kribbeln, Übelkeit).",
+    "Blutdruck und Puls regelmässig kontrollieren; bei Gelbsucht, dunklem Urin oder Oberbauchschmerzen ärztlich abklären lassen (Leber).",
+    "Viel Alkohol meiden (Leberschäden); die Fahrtüchtigkeit kann beeinträchtigt sein."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "eisen-ii-sulfat",
+  "name": "Eisen(II)-sulfat",
+  "synonyme": ["Eisensulfat", "Ferrosulfat", "Ferrous sulfate", "Ferrum sulfuricum", "zweiwertiges Eisen"],
+  "atc": ["B03AA07"],
+  "klasse": "Eisenpräparat (oral, zweiwertiges Eisen)",
+  "kurz": "Eisentablette mit zweiwertigem Eisen gegen Eisenmangel und Blutarmut durch Eisenmangel.",
+  "gruppen": ["eisenpraeparate", "mehrwertige-kationen"],
+  "handelsnamen": ["Tardyferon", "Gyno-Tardyferon (Kombi)"],
+  "abgabe": ["D"],
+  "darreichung": ["Retardtabletten (Filmtabletten mit verzögerter Freisetzung)"],
+  "indikationen": [
+    { "text": "Behandlung und Vorbeugung von Eisenmangel", "ids": ["eisenmangel"] },
+    { "text": "Blutarmut durch Eisenmangel (Eisenmangelanämie)", "ids": ["eisenmangel", "anaemie"] },
+    { "text": "Kombination mit Folsäure (Gyno-Tardyferon): Eisen- und Folsäuremangel, v. a. in Schwangerschaft und Stillzeit", "ids": ["eisenmangel", "vitamin-b12-mangel", "schwangerschaft"] }
+  ],
+  "wirkmechanismus": "Ersetzt fehlendes Eisen, das der Körper für die Bildung des roten Blutfarbstoffs braucht. Zweiwertiges Eisen (Fe2+) wird vor allem im Zwölffingerdarm über einen Transporter (DMT1) in die Darmzellen aufgenommen, dort zu dreiwertigem Eisen oxidiert und an Transferrin gebunden im Blut transportiert. Im Knochenmark wird es in das Hämoglobin der roten Blutkörperchen eingebaut, der Rest wird als Ferritin gespeichert. Die Retardform gibt das Eisen langsam ab, um den Magen weniger zu reizen.",
+  "kontraindikationen": [
+    { "text": "Eisenüberladung, z. B. Hämochromatose oder Hämosiderose", "ids": ["sichelzellanaemie"] },
+    { "text": "Eisenverwertungsstörungen, z. B. Thalassämie, sideroachrestische Anämie oder Bleianämie", "ids": ["sichelzellanaemie"] },
+    { "text": "Blutarmut ohne Eisenmangel, z. B. hämolytische Anämie oder Blutarmut durch Vitamin-B12-Mangel", "ids": ["haemolytische-anaemie", "vitamin-b12-mangel"] },
+    { "text": "Kinder unter 6 Jahren (Retardtablette, Gefahr des Verschluckens)", "ids": ["kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "Entzündliche Magen-Darm-Erkrankungen oder Magen-Darm-Geschwüre (Reizung der Schleimhaut möglich)", "ids": ["magen-darm-ulkus", "morbus-crohn", "colitis-ulcerosa"] },
+    { "text": "Schluckstörungen und ältere Menschen: Tablette nicht in die Atemwege gelangen lassen (Schleimhautschäden der Bronchien beschrieben)", "ids": ["aeltere-patienten"] },
+    { "text": "Ursache der Blutarmut vorher abklären lassen, z. B. verborgene Blutungen im Magen-Darm-Trakt", "ids": ["anaemie", "aktive-blutung"] },
+    { "text": "Lebererkrankungen und Alkoholmissbrauch (Gefahr der Eisenüberladung)", "ids": ["leberinsuffizienz", "alkoholabhaengigkeit"] },
+    { "text": "Kleinkinder im Haushalt: schon wenige Tabletten können eine lebensgefährliche Eisenvergiftung verursachen", "ids": ["kinder", "vergiftung"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Tetracycline (z. B. Doxycyclin, Minocyclin)", "ref": ["gruppe:tetracycline"], "effekt": "Eisen und Tetracycline bilden Komplexe – beide werden deutlich schlechter aufgenommen. Mindestens 2–3 Stunden Abstand einhalten.", "schwere": "mittel" },
+    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin, Moxifloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Aufnahme des Antibiotikums stark vermindert – Antibiotikum mindestens 2 Stunden vor oder 4–6 Stunden nach dem Eisen einnehmen.", "schwere": "mittel" },
+    { "text": "Integrasehemmer gegen HIV (z. B. Dolutegravir, Bictegravir)", "ref": ["gruppe:integrasehemmer"], "effekt": "Aufnahme des HIV-Mittels vermindert, Wirkverlust möglich – zeitlichen Abstand gemäss Fachinformation einhalten oder gemeinsam mit einer Mahlzeit einnehmen.", "schwere": "mittel" },
+    { "text": "Levothyroxin (Schilddrüsenhormon)", "ref": ["levothyroxin"], "effekt": "Aufnahme von Levothyroxin vermindert – mindestens 2 Stunden Abstand, Schilddrüsenwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Levodopa, Methyldopa und Entacapon", "ref": ["levodopa-benserazid", "levodopa-carbidopa", "levodopa-carbidopa-entacapon", "methyldopa", "entacapon"], "effekt": "Komplexbildung mit Eisen vermindert die Aufnahme und Wirkung – Abstand von mindestens 2 Stunden.", "schwere": "mittel" },
+    { "text": "Penicillamin", "ref": ["penicillamin"], "effekt": "Aufnahme beider Wirkstoffe vermindert – mindestens 2 Stunden Abstand.", "schwere": "mittel" },
+    { "text": "Eltrombopag", "ref": ["eltrombopag"], "effekt": "Mehrwertige Kationen vermindern die Aufnahme von Eltrombopag – Abstand gemäss Fachinformation (Eltrombopag 2 Stunden vor oder 4 Stunden nach Eisen).", "schwere": "mittel" },
+    { "text": "Orale Bisphosphonate (z. B. Alendronsäure)", "ref": ["gruppe:bisphosphonate"], "effekt": "Aufnahme des Bisphosphonats vermindert – Bisphosphonat nüchtern und mit Abstand zum Eisen einnehmen.", "schwere": "mittel" },
+    { "text": "Antazida, Calcium-, Magnesium- und Zinkpräparate", "ref": ["gruppe:antazida", "calcium", "magnesium", "zink"], "effekt": "Eisenaufnahme vermindert – mindestens 2 Stunden Abstand.", "schwere": "leicht" },
+    { "text": "Säurehemmer (Protonenpumpenhemmer, H2-Blocker)", "ref": ["gruppe:magensaeure-reduzierend"], "effekt": "Weniger Magensäure verschlechtert die Eisenaufnahme; bei Langzeiteinnahme Therapieerfolg kontrollieren.", "schwere": "leicht" },
+    { "text": "Colestyramin", "ref": ["colestyramin"], "effekt": "Bindet Eisen im Darm – Abstand von mehreren Stunden einhalten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Verstopfung (Obstipation)", "Durchfall", "Bauchschmerzen, Blähbauch", "Übelkeit", "Dunkle bis schwarze Verfärbung des Stuhls (harmlos)"],
+    "gelegentlich": ["Erbrechen", "Dyspepsie (Verdauungsbeschwerden)", "Gastritis (Magenschleimhautentzündung)", "Juckreiz, Hautausschlag", "Kehlkopfschwellung (Larynxödem)"],
+    "unbekannt": ["Überempfindlichkeitsreaktionen, Nesselsucht", "Zahnverfärbungen", "Geschwüre im Mund oder in der Speiseröhre bei falscher Einnahme (Tablette gelutscht, zerkaut oder stecken geblieben)", "Schleimhautschäden der Bronchien, wenn die Tablette in die Atemwege gelangt"]
+  },
+  "schwangerschaft": "Kann bei nachgewiesenem Eisenmangel angewendet werden; Eisen- und Folsäurebedarf sind in der Schwangerschaft erhöht.",
+  "stillzeit": "Kann angewendet werden; Eisen geht nur in geringer Menge in die Muttermilch über.",
+  "hinweise": [
+    "Tablette unzerkaut mit einem Glas Wasser schlucken, nicht lutschen; nicht im Liegen einnehmen.",
+    "Am besten nüchtern oder vor dem Essen einnehmen; Tee, Kaffee, Milch und Vollkornprodukte vermindern die Aufnahme. Bei Magenbeschwerden zum Essen einnehmen.",
+    "Schwarzer Stuhl ist harmlos. Für Kinder unerreichbar aufbewahren – Eisenvergiftung ist bei Kleinkindern lebensgefährlich.",
+    "Behandlungserfolg mit Blutbild und Ferritin kontrollieren; die Eisenspeicher füllen sich erst nach mehreren Monaten."
+  ],
+  "stand": "2026-10"
+}

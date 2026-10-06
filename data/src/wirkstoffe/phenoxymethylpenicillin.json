@@ -1,0 +1,59 @@
+{
+  "id": "phenoxymethylpenicillin",
+  "name": "Phenoxymethylpenicillin",
+  "synonyme": ["Penicillin V", "Phenoxymethylpenicillin-Kalium", "Penicillin-V-Kalium", "Phenoxymethylpenicillinum"],
+  "atc": ["J01CE02"],
+  "klasse": "Oralpenicillin (Beta-Laktam-Antibiotikum, beta-laktamase-empfindlich)",
+  "kurz": "Penicillin zum Einnehmen, vor allem gegen Streptokokken-Angina, Scharlach, Wundrose und frühe Borreliose (Wanderröte).",
+  "gruppen": ["penicilline"],
+  "handelsnamen": ["Ospen", "Stabicilline"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Suspension oder Sirup zum Einnehmen"],
+  "indikationen": [
+    { "text": "Streptokokken-Angina (Mandel- und Rachenentzündung) und Scharlach", "ids": ["atemwegsinfekt"] },
+    { "text": "Leichte bis mittelschwere Infektionen der Atemwege und im HNO-Bereich durch empfindliche Erreger, z. B. Mittelohr- oder Nasennebenhöhlenentzündung", "ids": ["ohrenentzuendung", "sinusitis", "atemwegsinfekt"] },
+    { "text": "Haut- und Weichteilinfektionen durch Streptokokken, z. B. Wundrose (Erysipel) oder Impetigo", "ids": ["hautinfektion"] },
+    { "text": "Lyme-Borreliose im Frühstadium (Wanderröte)", "ids": ["borreliose"] },
+    { "text": "Vorbeugung von Rückfällen eines rheumatischen Fiebers", "ids": [] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand stört. Phenoxymethylpenicillin hemmt wie alle Penicilline die Penicillin-bindenden Proteine (Transpeptidasen) und damit die Quervernetzung des Peptidoglykans (bakterizide Wirkung). Im Gegensatz zu Benzylpenicillin ist es säurestabil und kann deshalb geschluckt werden. Das Wirkspektrum ist schmal – vor allem Streptokokken, Pneumokokken und Borrelien; Beta-Laktamase-bildende Keime wie die meisten Staphylokokken sind resistent.",
+  "kontraindikationen": [
+    { "text": "Penicillinallergie", "ids": ["penicillinallergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Allergie gegen Cephalosporine (Kreuzallergie möglich), allergische Veranlagung oder Asthma", "ids": ["allergie", "asthma"] },
+    { "text": "Schwere Magen-Darm-Störungen mit Erbrechen oder Durchfall: unsichere Aufnahme ins Blut – dann Behandlung als Spritze erwägen", "ids": ["durchfall", "uebelkeit"] },
+    { "text": "Schwere Niereninsuffizienz: Dosisanpassung", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
+    { "text": "Borreliose-Behandlung: Jarisch-Herxheimer-Reaktion (Fieber, Schüttelfrost) zu Beginn möglich", "ids": ["borreliose"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Penicilline vermindern die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Blutbild und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Der INR kann sich verändern – häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Hemmt die Ausscheidung von Penicillin über die Niere – höhere und länger anhaltende Spiegel.", "schwere": "leicht" },
+    { "text": "Tetracycline, Chloramphenicol und andere bakteriostatische Antibiotika", "ref": ["gruppe:tetracycline", "chloramphenicol"], "effekt": "Können die bakterientötende Wirkung abschwächen – Kombination vermeiden.", "schwere": "leicht" },
+    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Übelkeit, Erbrechen", "Durchfall, Bauchschmerzen"],
+    "gelegentlich": ["Allergische Hautreaktionen (Ausschlag, Nesselsucht, Juckreiz)", "Entzündung von Mundschleimhaut oder Zunge"],
+    "selten": ["Anaphylaxie (schwere allergische Reaktion) und Angioödem (Schwellung von Gesicht und Rachen)"],
+    "sehrSelten": [
+      "Blutbildveränderungen (Neutropenie, Thrombozytopenie, hämolytische Anämie)",
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Interstitielle Nephritis (Nierenentzündung)",
+      "Schwere Hautreaktionen (z. B. Stevens-Johnson-Syndrom)"
+    ],
+    "unbekannt": ["Pilzinfektionen (Mund, Scheide)", "Schwarze Haarzunge", "Jarisch-Herxheimer-Reaktion"]
+  },
+  "schwangerschaft": "Erlaubt; langjährige Erfahrung ohne Hinweise auf eine Schädigung des Kindes.",
+  "stillzeit": "Erlaubt; nur geringe Mengen gehen in die Muttermilch über (beim Säugling Durchfall oder Pilzbefall möglich).",
+  "hinweise": [
+    "Die Einnahmen gleichmässig über den Tag verteilen und die verordnete Behandlungsdauer einhalten, auch wenn die Beschwerden rasch abklingen – besonders bei Streptokokken-Angina.",
+    "Bei Hautausschlag, Atemnot oder Schwellungen sofort ärztlichen Rat einholen.",
+    "Schwerer oder blutiger Durchfall, auch nach Behandlungsende, muss ärztlich abgeklärt werden."
+  ],
+  "stand": "2026-10"
+}

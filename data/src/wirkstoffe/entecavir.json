@@ -1,0 +1,44 @@
+{
+  "id": "entecavir",
+  "name": "Entecavir",
+  "synonyme": ["ETV", "Entecavir-Monohydrat"],
+  "atc": ["J05AF10"],
+  "klasse": "Nukleosidanalogon (Guanosin-Analogon), Hepatitis-B-Mittel",
+  "kurz": "Virushemmendes Mittel zur Langzeitbehandlung der chronischen Hepatitis B.",
+  "gruppen": [],
+  "handelsnamen": ["Baraclude", "Entecavir Mepha", "Entecavir Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Chronische Hepatitis B mit aktiver Virusvermehrung bei Erwachsenen, auch bei fortgeschrittener (dekompensierter) Lebererkrankung", "ids": ["hepatitis-b"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des Hepatitis-B-Virus in der Leber. Entecavir ist ein Guanosin-Analogon, das in den Zellen zum aktiven Entecavir-Triphosphat phosphoryliert wird. Dieses konkurriert mit dem natürlichen Baustein Desoxyguanosintriphosphat und hemmt die virale Polymerase an drei Stellen: beim Start der DNA-Synthese (Priming), beim Umschreiben der prägenomischen RNA in DNA und bei der Synthese des zweiten DNA-Strangs. Gegen HIV wirkt es nur schwach, kann aber HIV-Resistenzen fördern.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 50 ml/min): Dosisanpassung", "ids": ["niereninsuffizienz"] },
+    { "text": "Absetzen der Behandlung: schwere Hepatitisschübe möglich – Leberwerte noch mehrere Monate kontrollieren", "ids": ["hepatitis-b"] },
+    { "text": "Dekompensierte Leberzirrhose: höheres Risiko für schwere Leberkomplikationen und Laktatazidose", "ids": ["leberzirrhose"] },
+    { "text": "HIV-Koinfektion ohne gleichzeitige HIV-Therapie: Gefahr von HIV-Resistenzen – vor Beginn HIV-Test", "ids": ["hiv"] },
+    { "text": "Vorbehandlung mit Lamivudin bzw. Lamivudin-Resistenz: höhere Dosis nötig, höheres Resistenzrisiko", "ids": ["hepatitis-b"] },
+    { "text": "Seltene erbliche Galactose-Intoleranz oder Laktasemangel (Tabletten enthalten Lactose)", "ids": ["laktoseintoleranz"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Nierenschädigende Mittel und Mittel, die aktiv über die Nieren ausgeschieden werden", "ref": ["gruppe:nephrotoxisch"], "effekt": "Entecavir wird überwiegend über die Nieren ausgeschieden – Spiegel von Entecavir oder dem anderen Mittel können steigen; Nierenfunktion kontrollieren.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Kopfschmerzen", "Müdigkeit", "Schwindel", "Schlaflosigkeit", "Übelkeit, Erbrechen, Durchfall", "Dyspepsie (Verdauungsbeschwerden)", "Erhöhte Leberwerte (Transaminasen)"],
+    "gelegentlich": ["Hautausschlag", "Haarausfall"],
+    "selten": ["Anaphylaktoide Reaktion (schwere allergische Reaktion)"],
+    "unbekannt": ["Laktatazidose (Übersäuerung des Blutes), vor allem bei dekompensierter Lebererkrankung", "Schwere Hepatitisschübe nach dem Absetzen"]
+  },
+  "schwangerschaft": "Nur anwenden, wenn unbedingt nötig (begrenzte Erfahrungen); Frauen im gebärfähigen Alter sollen wirksam verhüten.",
+  "stillzeit": "Gemäss Fachinformation nicht stillen (Übergang in die Muttermilch beim Menschen nicht bekannt).",
+  "hinweise": [
+    "Auf nüchternen Magen einnehmen: mindestens 2 Stunden nach und 2 Stunden vor einer Mahlzeit.",
+    "Nicht eigenmächtig absetzen – nach dem Absetzen Leberwerte regelmässig kontrollieren lassen.",
+    "Vor Beginn einen HIV-Test machen.",
+    "Die Behandlung schützt nicht vor einer Übertragung von Hepatitis B auf andere (z. B. beim Geschlechtsverkehr)."
+  ],
+  "stand": "2026-10"
+}

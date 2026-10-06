@@ -1,0 +1,82 @@
+{
+  "id": "olmesartan",
+  "name": "Olmesartan",
+  "synonyme": ["Olmesartanmedoxomil", "Olmesartan medoxomil"],
+  "atc": ["C09CA08"],
+  "klasse": "Angiotensin-II-Rezeptorblocker (Sartan, AT1-Antagonist)",
+  "kurz": "Blutdrucksenker aus der Gruppe der Sartane; oft in fixer Kombination mit Amlodipin und/oder Hydrochlorothiazid.",
+  "gruppen": ["sartane", "raas-hemmer", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "lithium-spiegel-erhoehend", "teratogen"],
+  "handelsnamen": ["Olmetec", "Votum", "Olmesartan Sandoz", "Olmetec Plus (Kombi)", "Votum Plus (Kombi)", "Sevikar (Kombi)", "Sevikar HCT (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck (essentielle Hypertonie)", "ids": ["hypertonie"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Wirkung des gefässverengenden Hormons Angiotensin II blockiert. Olmesartanmedoxomil ist ein Prodrug, das bei der Aufnahme aus dem Darm rasch zum Wirkstoff Olmesartan gespalten wird. Olmesartan blockiert selektiv den Angiotensin-II-Rezeptor Typ 1 (AT1): Die Gefässe erweitern sich, die Aldosteronausschüttung sowie die Salz- und Wasserrückhaltung nehmen ab. Der Abbau von Bradykinin wird nicht gehemmt, daher ist Reizhusten seltener als bei ACE-Hemmern. Olmesartan wird nicht über Cytochrom-P450-Enzyme abgebaut.",
+  "kontraindikationen": [
+    { "text": "Schwangerschaft im 2. und 3. Drittel (auch im 1. Drittel nicht empfohlen)", "ids": ["schwangerschaft"] },
+    { "text": "Gallenwegsobstruktion (Abflussstörung der Galle)", "ids": ["gallensteine"] }
+  ],
+  "vorsicht": [
+    { "text": "Sprue-ähnliche Enteropathie: schwerer, anhaltender Durchfall mit Gewichtsverlust, teils erst Monate bis Jahre nach Behandlungsbeginn – dann ärztlich abklären und Olmesartan absetzen", "ids": ["durchfall"] },
+    { "text": "Eingeschränkte Nierenfunktion, Nierenarterienstenose oder Zustand nach Nierentransplantation: Kalium und Kreatinin kontrollieren", "ids": ["niereninsuffizienz", "transplantation"] },
+    { "text": "Schwere Leberinsuffizienz: Anwendung nicht empfohlen", "ids": ["leberinsuffizienz"] },
+    { "text": "Flüssigkeits- oder Salzmangel, z. B. durch Diuretika, Erbrechen oder Durchfall: Gefahr eines starken Blutdruckabfalls", "ids": ["dehydratation", "hypotonie"] },
+    { "text": "Erhöhtes Kalium oder Neigung dazu", "ids": ["hyperkaliaemie"] },
+    { "text": "Aorten- oder Mitralklappenstenose, hypertrophe obstruktive Kardiomyopathie", "ids": ["herzklappenerkrankung", "kardiomyopathie"] },
+    { "text": "Primärer Hyperaldosteronismus: Anwendung nicht empfohlen", "ids": [] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min/1,73 m²)", "ref": ["aliskiren"], "grund": "Die doppelte Hemmung des Renin-Angiotensin-Systems erhöht das Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen." }
+  ],
+  "interaktionen": [
+    { "text": "ACE-Hemmer oder Aliskiren (doppelte RAAS-Blockade)", "ref": ["gruppe:ace-hemmer", "aliskiren"], "effekt": "Mehr Blutdruckabfall, Hyperkaliämie und Nierenversagen ohne zusätzlichen Nutzen – Kombination vermeiden.", "schwere": "schwer" },
+    { "text": "Kaliumsparende Diuretika, Mineralokortikoid-Antagonisten, Kaliumpräparate, kaliumhaltige Salzersatzmittel und andere kaliumerhöhende Mittel (z. B. Trimethoprim, Heparin)", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten", "gruppe:kaliumpraeparate", "gruppe:hyperkaliaemie-ausloesend"], "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.", "schwere": "schwer" },
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithiumspiegel und -toxizität steigen – Kombination möglichst meiden, sonst Lithiumspiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "NSAR inkl. COX-2-Hemmer und hoch dosierte Acetylsalicylsäure", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Abgeschwächte Blutdrucksenkung; bei älteren oder ausgetrockneten Personen Gefahr eines akuten Nierenversagens – genügend trinken, Nierenfunktion kontrollieren.", "schwere": "mittel" },
+    { "text": "Colesevelam (Gallensäurebinder)", "ref": ["colesevelam"], "effekt": "Vermindert die Aufnahme von Olmesartan – Olmesartan mindestens 4 Stunden vor Colesevelam einnehmen.", "schwere": "mittel" },
+    { "text": "Andere Blutdrucksenker, besonders hoch dosierte Diuretika", "ref": ["gruppe:blutdrucksenkend", "gruppe:diuretika"], "effekt": "Verstärkte Blutdrucksenkung; bei vorbestehendem Flüssigkeitsmangel starker Blutdruckabfall zu Beginn möglich.", "schwere": "mittel" },
+    { "text": "Antazida (Aluminium-/Magnesiumhydroxid)", "ref": ["gruppe:antazida"], "effekt": "Leicht verminderte Aufnahme von Olmesartan, meist ohne klinische Bedeutung.", "schwere": "leicht" },
+    { "text": "Alkohol, Barbiturate, Opioide, Antidepressiva", "ref": ["gruppe:barbiturate", "gruppe:opioide", "gruppe:trizyklische-antidepressiva"], "effekt": "Schwindel und Blutdruckabfall beim Aufstehen können verstärkt werden.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Schwindel, Kopfschmerzen",
+      "Bronchitis, Husten, Rachen- und Nasenschleimhautentzündung",
+      "Durchfall, Bauchschmerzen, Übelkeit, Verdauungsbeschwerden, Magen-Darm-Entzündung",
+      "Rücken-, Knochen- und Gelenkbeschwerden",
+      "Harnwegsinfekt, Hämaturie (Blut im Urin)",
+      "Periphere Ödeme (Wassereinlagerungen), Müdigkeit, Brustschmerzen, grippeähnliche Beschwerden",
+      "Erhöhte Leberwerte, Harnstoff, CK (Muskelenzym), Triglyceride und Harnsäure"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Anaphylaktische (schwere allergische) Reaktionen",
+      "Vertigo (Drehschwindel)",
+      "Angina pectoris (Brustenge)",
+      "Erbrechen",
+      "Hautausschlag, Juckreiz, Nesselsucht, allergische Dermatitis",
+      "Muskelschmerzen",
+      "Gesichtsödem, Schwäche, Unwohlsein"
+    ],
+    "selten": [
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Hypotonie (tiefer Blutdruck)",
+      "Akutes Nierenversagen, Niereninsuffizienz, erhöhtes Kreatinin",
+      "Angioödem (Schwellung von Gesicht, Zunge oder Rachen)",
+      "Muskelkrämpfe",
+      "Lethargie (Benommenheit, Antriebslosigkeit)"
+    ],
+    "sehrSelten": ["Sprue-ähnliche Enteropathie (schwerer chronischer Durchfall mit Gewichtsverlust)"],
+    "unbekannt": ["Autoimmunhepatitis (Leberentzündung)"]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen, im 2. und 3. Drittel kontraindiziert (Schäden an Nieren und Schädelknochen des Ungeborenen, Fruchtwassermangel). Bei Kinderwunsch oder festgestellter Schwangerschaft rasch auf ein geeignetes Mittel umstellen.",
+  "stillzeit": "Nicht empfohlen, da Daten fehlen; besser untersuchte Alternativen wählen, besonders bei Neu- und Frühgeborenen.",
+  "hinweise": [
+    "Einmal täglich, mit oder ohne Essen, möglichst zur gleichen Tageszeit.",
+    "Anhaltenden, starken Durchfall mit Gewichtsverlust ärztlich melden (seltene Sprue-ähnliche Darmerkrankung).",
+    "Kalium und Nierenwerte zu Beginn und regelmässig kontrollieren lassen.",
+    "Zu Beginn können Schwindel und Müdigkeit die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

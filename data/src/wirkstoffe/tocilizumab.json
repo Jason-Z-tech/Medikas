@@ -1,0 +1,231 @@
+{
+  "id": "tocilizumab",
+  "name": "Tocilizumab",
+  "synonyme": [
+    "Anti-IL-6-Rezeptor-Antikörper"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L04AC07"
+  ],
+  "klasse": "Interleukin-6-Rezeptor-Hemmer (humanisierter monoklonaler Antikörper); Biologikum",
+  "kurz": "Antikörper, der den Entzündungsbotenstoff Interleukin-6 blockiert; bei rheumatoider Arthritis, Riesenzellarteriitis und kindlichem Rheuma.",
+  "gruppen": [
+    "interleukin-hemmer",
+    "immunsuppressiv",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Actemra"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung",
+    "Injektionslösung (Fertigspritze, Fertigpen)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis, allein oder mit Methotrexat",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Riesenzellarteriitis (Gefässentzündung der grossen Arterien) bei Erwachsenen",
+      "ids": [
+        "vaskulitis"
+      ]
+    },
+    {
+      "text": "Systemische und polyartikuläre juvenile idiopathische Arthritis ab 2 Jahren",
+      "ids": [
+        "rheumatoide-arthritis",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft Entzündungen, indem es die Wirkung des Botenstoffs Interleukin-6 blockiert. Tocilizumab ist ein humanisierter monoklonaler IgG1-Antikörper, der an lösliche und membrangebundene IL-6-Rezeptoren bindet und so die IL-6-Signalübertragung hemmt. Dadurch sinken Entzündung, Fieber und Akutphase-Eiweisse wie das CRP. Weil IL-6 die Leberenzyme des Arzneimittelabbaus (Cytochrom P450) unterdrückt, normalisiert sich deren Aktivität unter Tocilizumab wieder.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive, schwere Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infektionen: Fieber und CRP-Anstieg können durch die Behandlung unterdrückt sein, Infektionen werden daher spät erkannt",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Tuberkulose (vor Beginn ausschliessen) und Hepatitis B",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Divertikulitis oder Magen-Darm-Geschwüre in der Vorgeschichte (Risiko eines Darmdurchbruchs)",
+      "ids": [
+        "divertikulitis",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen und erhöhte Leberwerte (Leberschäden bis Leberversagen möglich)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Niedrige Neutrophilen- oder Thrombozytenzahl",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette und Herz-Kreislauf-Risikofaktoren",
+      "ids": [
+        "hypercholesterinaemie",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Demyelinisierende Erkrankungen wie Multiple Sklerose",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – keine Lebendimpfungen während der Behandlung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Biologika und JAK-Hemmer",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer",
+        "gruppe:jak-hemmer"
+      ],
+      "effekt": "Additive Immunsuppression, nicht untersucht – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin und andere CYP3A4-Substrate mit enger therapeutischer Breite",
+      "ref": [
+        "ciclosporin",
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Beim Beginn oder Absetzen kann sich der Abbau beschleunigen bzw. verlangsamen – Wirkung und Spiegel überwachen, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Abbau kann sich normalisieren und beschleunigen – INR nach Beginn engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Simvastatin, Atorvastatin und Calciumantagonisten",
+      "ref": [
+        "simvastatin",
+        "atorvastatin",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Spiegel kann sinken (z. B. Simvastatin um rund die Hälfte) – Wirkung überprüfen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Theophyllin, Phenytoin und Benzodiazepine",
+      "ref": [
+        "theophyllin",
+        "phenytoin",
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Schnellerer Abbau möglich – Spiegel bzw. Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Mittel (z. B. Methotrexat)",
+      "ref": [
+        "methotrexat",
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Häufiger erhöhte Leberwerte – Leberwerte regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Abbau kann sich beschleunigen; Wirksamkeit möglicherweise vermindert.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege",
+      "Erhöhtes Cholesterin"
+    ],
+    "haeufig": [
+      "Zellulitis (Hautinfektion), Lungenentzündung, Herpes simplex und Gürtelrose",
+      "Neutropenie, Leukopenie",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Kopfschmerzen, Schwindel",
+      "Bluthochdruck",
+      "Bauchschmerzen, Mundgeschwüre, Gastritis",
+      "Ausschlag, Juckreiz, Nesselsucht",
+      "Infusions- oder Injektionsreaktionen, periphere Ödeme, Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Divertikulitis",
+      "Magengeschwür, Stomatitis (Mundschleimhautentzündung)",
+      "Erhöhte Triglyceride",
+      "Nierensteine",
+      "Schilddrüsenunterfunktion"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom",
+      "Medikamentenbedingte Leberschädigung, Hepatitis, Gelbsucht"
+    ],
+    "sehrSelten": [
+      "Leberversagen"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere, auch tödliche allergische Reaktion)",
+      "Magen-Darm-Durchbruch (Perforation), meist als Komplikation einer Divertikulitis"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung; Frauen im gebärfähigen Alter verhüten während und bis 3 Monate nach der Behandlung.",
+  "stillzeit": "Übergang in die Muttermilch ist unbekannt; Entscheid über Stillen oder Therapie ärztlich abwägen.",
+  "hinweise": [
+    "Weil Fieber und CRP unterdrückt werden, bei jedem Krankheitsgefühl, Husten oder Bauchschmerzen früh ärztlich abklären lassen.",
+    "Leberwerte, Blutbild und Blutfette werden regelmässig kontrolliert.",
+    "Vor Beginn auf Tuberkulose testen und Impfungen auffrischen.",
+    "Fertigspritzen im Kühlschrank lagern, nicht einfrieren."
+  ],
+  "stand": "2026-10"
+}

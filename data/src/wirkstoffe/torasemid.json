@@ -1,0 +1,62 @@
+{
+  "id": "torasemid",
+  "name": "Torasemid",
+  "synonyme": ["Torasemide", "Torsemide", "Torasemidum"],
+  "atc": ["C03CA04"],
+  "klasse": "Schleifendiuretikum (Pyridin-Sulfonylharnstoff)",
+  "kurz": "Lang wirkendes harntreibendes Mittel (Schleifendiuretikum) gegen Wassereinlagerungen, z. B. bei Herzschwäche, und gegen Bluthochdruck.",
+  "gruppen": ["schleifendiuretika", "diuretika", "blutdrucksenkend", "hypokaliaemie-ausloesend", "hyponatriaemie-ausloesend", "ototoxisch", "lithium-spiegel-erhoehend"],
+  "handelsnamen": ["Torem"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Wassereinlagerungen (Ödeme) bei Herzinsuffizienz, Leber- oder Nierenerkrankungen", "ids": ["oedeme", "herzinsuffizienz", "leberzirrhose", "niereninsuffizienz"] },
+    { "text": "Bluthochdruck (niedrige Dosis)", "ids": ["hypertonie"] }
+  ],
+  "wirkmechanismus": "Fördert die Ausscheidung von Salz und Wasser über die Niere. Torasemid hemmt den Natrium-Kalium-2-Chlorid-Cotransporter im aufsteigenden Teil der Henle-Schleife und steigert so die Ausscheidung von Natrium, Chlorid und Wasser; der Kaliumverlust ist im Vergleich zu Furosemid etwas geringer. Die Wirkung hält mit 6–8 Stunden länger an als bei Furosemid, und der Wirkstoff wird aus dem Darm nahezu vollständig aufgenommen. In niedriger Dosis senkt es den Blutdruck vor allem über eine Abnahme des Gefässwiderstands. Torasemid wird überwiegend in der Leber (hauptsächlich über CYP2C9) abgebaut.",
+  "kontraindikationen": [
+    { "text": "Nierenversagen mit Anurie (fehlende Harnproduktion)", "ids": ["niereninsuffizienz"] },
+    { "text": "Leberkoma oder dessen Vorstadium (hepatische Enzephalopathie)", "ids": ["leberzirrhose", "leberinsuffizienz"] },
+    { "text": "Niedriger Blutdruck, Flüssigkeitsmangel (Hypovolämie)", "ids": ["hypotonie", "dehydratation"] },
+    { "text": "Kalium- oder Natriummangel", "ids": ["hypokaliaemie", "hyponatriaemie"] },
+    { "text": "Erhebliche Störungen der Blasenentleerung, z. B. bei Prostatavergrösserung", "ids": ["prostatahyperplasie", "harnverhalt"] },
+    { "text": "Überempfindlichkeit gegen Sulfonylharnstoffe (Kreuzallergie)", "ids": ["sulfonamidallergie"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Herzrhythmusstörungen, z. B. AV-Block oder sinuatrialer Block", "ids": ["herzrhythmusstoerung", "av-block"] },
+    { "text": "Gicht oder erhöhte Harnsäure", "ids": ["gicht"] },
+    { "text": "Diabetes mellitus: Blutzucker regelmässig kontrollieren", "ids": ["diabetes"] },
+    { "text": "Leberzirrhose: Elektrolytstörungen können ein Leberkoma auslösen", "ids": ["leberzirrhose"] },
+    { "text": "Ältere Menschen: Austrocknung und Blutgerinnsel durch Bluteindickung", "ids": ["aeltere-patienten", "dehydratation", "thrombose"] },
+    { "text": "Kinder unter 12 Jahren: keine ausreichenden Erfahrungen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigt – Gefahr einer Lithiumvergiftung; Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Aminoglykoside, Cisplatin und hoch dosierte Cephalosporine", "ref": ["gruppe:aminoglykoside", "cisplatin", "gruppe:cephalosporine"], "effekt": "Verstärkte Gehör- und Nierenschädigung – möglichst vermeiden, sonst Nierenfunktion und Gehör überwachen.", "schwere": "schwer" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Ein Kalium- oder Magnesiummangel verstärkt die Giftigkeit von Digoxin – Elektrolyte kontrollieren.", "schwere": "mittel" },
+    { "text": "QT-Zeit verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Ein Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen – Kalium kontrollieren und ausgleichen.", "schwere": "mittel" },
+    { "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Abführmittel, Thiazide)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.", "schwere": "mittel" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte harntreibende und blutdrucksenkende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.", "schwere": "mittel" },
+    { "text": "Hoch dosierte Salicylate (Acetylsalicylsäure)", "ref": ["acetylsalicylsaeure"], "effekt": "Torasemid kann die Giftigkeit hoher Salicylatdosen verstärken.", "schwere": "mittel" },
+    { "text": "ACE-Hemmer und Sartane", "ref": ["gruppe:ace-hemmer", "gruppe:sartane"], "effekt": "Starker Blutdruckabfall und Verschlechterung der Nierenfunktion möglich, besonders zu Beginn – Diuretikum vorher reduzieren oder pausieren.", "schwere": "mittel" },
+    { "text": "Colestyramin", "ref": ["colestyramin"], "effekt": "Vermindert die Aufnahme von Torasemid – zeitlich getrennt einnehmen.", "schwere": "leicht" },
+    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker kontrollieren.", "schwere": "leicht" },
+    { "text": "Theophyllin", "ref": ["theophyllin"], "effekt": "Die Wirkung von Theophyllin kann verstärkt werden.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Störungen des Wasser- und Elektrolythaushalts, z. B. Hypokaliämie (Kaliummangel), besonders bei kaliumarmer Ernährung, Erbrechen, Durchfall oder Leberzirrhose", "Metabolische Alkalose, Muskelkrämpfe", "Erhöhte Harnsäure, Blutzucker und Blutfette", "Kopfschmerzen, Schwindel, Müdigkeit, Schwächegefühl", "Magen-Darm-Beschwerden wie Appetitlosigkeit, Bauchschmerzen, Übelkeit, Erbrechen, Durchfall oder Verstopfung", "Anstieg einzelner Leberwerte (z. B. Gamma-GT)"],
+    "gelegentlich": ["Mundtrockenheit", "Kribbeln oder Taubheitsgefühl in Armen und Beinen (Parästhesien)", "Harnverhalt bei Abflussstörungen (z. B. Prostatavergrösserung)", "Anstieg von Kreatinin und Harnstoff im Blut"],
+    "sehrSelten": ["Thrombozytopenie, Leukopenie, Abnahme der roten Blutkörperchen", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Allergische Hautreaktionen (Juckreiz, Ausschlag), Lichtempfindlichkeit, schwere Hautreaktionen", "Sehstörungen", "Tinnitus (Ohrgeräusche) und Hörverlust", "Thromboembolien, Durchblutungsstörungen von Herz und Gehirn und Blutdruckabfall durch Bluteindickung", "Verwirrtheit"]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit und in der niedrigsten wirksamen Dosis: Diuretika können die Durchblutung der Plazenta vermindern und beim Kind Elektrolytstörungen verursachen.",
+  "stillzeit": "Kontraindiziert; ist eine Behandlung nötig, muss abgestillt werden.",
+  "hinweise": [
+    "Am Morgen unzerkaut mit etwas Flüssigkeit einnehmen.",
+    "Körpergewicht bei Ödemen täglich kontrollieren; bei Durchfall, Erbrechen oder starkem Schwitzen ärztlichen Rat einholen.",
+    "Kalium, Natrium, Nierenwerte, Blutzucker und Harnsäure regelmässig kontrollieren lassen.",
+    "Kann besonders zu Beginn die Fahrtüchtigkeit beeinträchtigen, verstärkt durch Alkohol."
+  ],
+  "stand": "2026-10"
+}

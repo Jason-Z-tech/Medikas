@@ -1,0 +1,64 @@
+{
+  "id": "carbimazol",
+  "name": "Carbimazol",
+  "synonyme": ["Carbimazole"],
+  "atc": ["H03BB01"],
+  "klasse": "Thyreostatikum (Thioimidazol; Vorstufe von Thiamazol)",
+  "kurz": "Hemmt die Bildung von Schilddrüsenhormonen; zur Behandlung einer Schilddrüsenüberfunktion, z. B. bei Morbus Basedow.",
+  "gruppen": ["thyreostatika", "myelosuppressiv", "hepatotoxisch", "teratogen"],
+  "handelsnamen": ["Neo-Mercazole"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Schilddrüsenüberfunktion, z. B. bei Morbus Basedow oder bei Knotenkropf mit Überfunktion", "ids": ["hyperthyreose", "struma"] },
+    { "text": "Vorbereitung auf eine Schilddrüsenoperation oder Radiojodtherapie", "ids": ["hyperthyreose", "operation"] }
+  ],
+  "wirkmechanismus": "Bremst die Bildung von Schilddrüsenhormonen und normalisiert so den Stoffwechsel bei einer Überfunktion. Carbimazol wird im Körper rasch und vollständig in den Wirkstoff Thiamazol (Methimazol) umgewandelt. Thiamazol hemmt die Thyreoperoxidase, das Enzym, das Jod in das Speichereiweiss Thyreoglobulin einbaut und die Hormonvorstufen zu T4 und T3 verknüpft. Bereits gebildetes, gespeichertes Hormon wird nicht beeinflusst; deshalb setzt die Wirkung erst nach 1–3 Wochen ein, die volle Wirkung oft erst nach 4–8 Wochen.",
+  "kontraindikationen": [
+    { "text": "Schwere Blutbildveränderungen vor Behandlungsbeginn oder eine Agranulozytose (Verlust der weissen Blutkörperchen) unter früherer Behandlung mit Carbimazol oder Thiamazol", "ids": ["neutropenie", "knochenmarkschaedigung"] },
+    { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung) nach früherer Einnahme von Carbimazol oder Thiamazol", "ids": ["pankreatitis"] },
+    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Halsschmerzen, Fieber, Mundgeschwüre oder andere Infektzeichen: sofort Blutbild bestimmen lassen (Agranulozytose), Einnahme bis zur Klärung unterbrechen", "ids": ["neutropenie", "aktive-infektion"] },
+    { "text": "Lebererkrankungen: Leberwerte kontrollieren; bei Gelbsucht, dunklem Urin oder starkem Juckreiz sofort absetzen", "ids": ["leberinsuffizienz"] },
+    { "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung, da im ersten Schwangerschaftsdrittel Fehlbildungen möglich sind", "ids": ["frauen-gebaerfaehig", "schwangerschaft"] },
+    { "text": "Grosser Kropf mit Einengung der Luftröhre: der Kropf kann unter der Behandlung wachsen", "ids": ["struma"] },
+    { "text": "Akute Bauchschmerzen, Übelkeit oder Erbrechen: an eine Pankreatitis denken und ärztlich abklären", "ids": ["pankreatitis"] },
+    { "text": "Hohe Jodzufuhr (z. B. jodhaltige Kontrastmittel, Amiodaron) schwächt die Wirkung ab", "ids": ["kontrastmittel"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere Mittel, die das Knochenmark hemmen (z. B. Clozapin, Metamizol, Zytostatika)", "ref": ["gruppe:myelosuppressiv"], "effekt": "Erhöhtes Risiko für eine Agranulozytose – möglichst vermeiden, sonst Blutbild engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Mit Normalisierung der Schilddrüsenfunktion kann die gerinnungshemmende Wirkung abnehmen – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Jodhaltige Mittel (z. B. Amiodaron, Kaliumiodid, jodhaltige Kontrastmittel)", "ref": ["amiodaron", "kaliumiodid"], "effekt": "Hohe Jodzufuhr vermindert die Wirkung von Carbimazol.", "schwere": "mittel" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Wenn die Überfunktion abklingt, steigt der Digoxin-Spiegel – Spiegel kontrollieren, Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Levothyroxin", "ref": ["levothyroxin"], "effekt": "Ausserhalb der Schwangerschaft als Kombination möglich; in der Schwangerschaft nicht kombinieren.", "schwere": "mittel" },
+    { "text": "Theophyllin", "ref": ["theophyllin"], "effekt": "Mit Normalisierung der Schilddrüsenfunktion kann der Theophyllin-Spiegel steigen – Spiegel kontrollieren.", "schwere": "leicht" },
+    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Mit Normalisierung der Schilddrüsenfunktion kann eine niedrigere Betablocker-Dosis nötig werden.", "schwere": "leicht" },
+    { "text": "Glukokortikoide (z. B. Prednisolon)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Der Abbau ändert sich mit der Schilddrüsenfunktion – Dosis eventuell anpassen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Allergische Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht)", "Gelenkschmerzen", "Übelkeit, leichte Magen-Darm-Beschwerden", "Kopfschmerzen"],
+    "gelegentlich": ["Agranulozytose (starker Mangel an weissen Blutkörperchen) mit Fieber, Halsschmerzen und Infektionen, meist in den ersten Behandlungsmonaten", "Arzneimittelfieber"],
+    "sehrSelten": [
+      "Leberschäden (Gallenstau mit Gelbsucht, Hepatitis)",
+      "Aplastische Anämie, Thrombozytopenie, Panzytopenie (Mangel an allen Blutzellen)",
+      "Schwere Hautreaktionen (z. B. Stevens-Johnson-Syndrom)",
+      "Haarausfall",
+      "Insulin-Autoimmunsyndrom mit Unterzuckerung",
+      "Vaskulitis, Lupus-ähnliche Reaktionen, Nervenentzündungen",
+      "Geschmacks- und Geruchsstörungen"
+    ],
+    "unbekannt": ["Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "Angioödem", "Schilddrüsenunterfunktion und Kropfwachstum bei zu hoher Dosis"]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung in der niedrigsten wirksamen Dosis und ohne zusätzliches Levothyroxin. Im ersten Schwangerschaftsdrittel kann Carbimazol Fehlbildungen verursachen (z. B. Hautdefekte am Kopf, Fehlbildungen von Gesicht, Speiseröhre oder Bauchwand); in dieser Zeit wird meist ein anderes Thyreostatikum bevorzugt.",
+  "stillzeit": "Geht in die Muttermilch über. Stillen ist nur nach ärztlicher Abwägung bei niedriger Dosis und mit Kontrolle der Schilddrüsenwerte des Kindes möglich.",
+  "hinweise": [
+    "Bei Fieber, Halsschmerzen, Mundgeschwüren oder grippeähnlichen Beschwerden sofort ärztliche Hilfe suchen und das Blutbild bestimmen lassen.",
+    "Regelmässige Kontrollen von Schilddrüsenwerten, Blutbild und Leberwerten.",
+    "Frauen im gebärfähigen Alter sollen während der Behandlung zuverlässig verhüten.",
+    "Die Wirkung setzt erst nach einigen Wochen ein; nicht eigenmächtig absetzen."
+  ],
+  "stand": "2026-10"
+}

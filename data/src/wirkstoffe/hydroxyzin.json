@@ -1,0 +1,247 @@
+{
+  "id": "hydroxyzin",
+  "name": "Hydroxyzin",
+  "synonyme": [
+    "Hydroxyzinum",
+    "Hydroxyzine",
+    "Hydroxyzindihydrochlorid"
+  ],
+  "atc": [
+    "N05BB01"
+  ],
+  "klasse": "H1-Antihistaminikum der 1. Generation (Piperazinderivat); Anxiolytikum",
+  "kurz": "Beruhigendes Antihistaminikum gegen Angstzustände und Juckreiz.",
+  "gruppen": [
+    "antihistaminika-sedierend",
+    "zns-daempfend",
+    "anticholinerg",
+    "qt-verlaengernd",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Atarax"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische Behandlung von Angst bei Erwachsenen",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Juckreiz (Pruritus), z. B. bei Nesselsucht oder Neurodermitis",
+      "ids": [
+        "juckreiz",
+        "urtikaria",
+        "neurodermitis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt beruhigend, angstlösend und juckreizstillend. Hydroxyzin blockiert die Histamin-H1-Rezeptoren in der Haut und im Gehirn; die Blockade im Gehirn erklärt die dämpfende und angstlösende Wirkung. Zusätzlich hat es schwache anticholinerge Eigenschaften. Ein wesentlicher Teil wird in der Leber zu Cetirizin umgewandelt, das ebenfalls antihistaminisch wirkt.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Cetirizin, andere Piperazinderivate, Aminophyllin oder Ethylendiamin",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Bekannte angeborene oder erworbene QT-Verlängerung",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für eine QT-Verlängerung: Herz-Kreislauf-Erkrankung, deutlich verlangsamter Puls, Kalium- oder Magnesiummangel, plötzlicher Herztod in der Familie",
+      "ids": [
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Ältere Menschen: erhöhtes Risiko für Verwirrtheit, Stürze und anticholinerge Nebenwirkungen – niedriger dosieren",
+      "ids": [
+        "aeltere-patienten",
+        "demenz"
+      ]
+    },
+    {
+      "text": "Erhöhte Krampfneigung (Epilepsie)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Glaukom (grüner Star)",
+      "ids": [
+        "glaukom",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Erschwertes Wasserlassen, z. B. bei Prostatavergrösserung",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Verminderte Darmbeweglichkeit",
+      "ids": [
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosis reduzieren)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Arzneimittel, welche die QT-Zeit verlängern oder Torsade de pointes auslösen können (z. B. bestimmte Antiarrhythmika, Antipsychotika, Antidepressiva, Makrolide, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "grund": "Additive Verlängerung der QT-Zeit – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Zentral dämpfende Mittel (Opioide, Benzodiazepine, Schlafmittel, Alkohol)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen"
+      ],
+      "effekt": "Verstärkte Dämpfung und Schläfrigkeit – Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kalium- oder Magnesium-senkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Ein Kalium- oder Magnesiummangel erhöht das Risiko für Herzrhythmusstörungen – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschlag-verlangsamende Mittel (z. B. Betablocker, Verapamil, Diltiazem)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Ein langsamer Puls erhöht das Risiko für Herzrhythmusstörungen (Torsade de pointes).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Hydroxyzin-Spiegel kann steigen – mehr Sedierung und höheres Risiko für Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, Blasenmittel)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte anticholinerge Nebenwirkungen wie Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betahistin und Acetylcholinesterase-Hemmer (z. B. Donepezil)",
+      "ref": [
+        "betahistin",
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Hydroxyzin kann deren Wirkung abschwächen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit (Somnolenz)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Sedierung (Dämpfung)",
+      "Mundtrockenheit",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Unruhe, Verwirrtheit",
+      "Schwindel, Zittern (Tremor)",
+      "Schlaflosigkeit",
+      "Übelkeit",
+      "Unwohlsein, Fieber"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen",
+      "Desorientierung, Halluzinationen",
+      "Krampfanfälle, unwillkürliche Bewegungen (Dyskinesie)",
+      "Sehstörungen (Akkommodationsstörungen, verschwommenes Sehen)",
+      "Herzrasen (Tachykardie)",
+      "Verstopfung, Erbrechen, erhöhte Leberwerte",
+      "Harnverhalt",
+      "Hautausschlag, Juckreiz, Nesselsucht"
+    ],
+    "sehrSelten": [
+      "Anaphylaktischer Schock",
+      "Bronchospasmus (Verkrampfung der Atemwege), Angioödem",
+      "Schwere Hautreaktionen wie akute generalisierte exanthematische Pustulose (AGEP), Erythema multiforme, Stevens-Johnson-Syndrom"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung und Torsade de pointes (lebensbedrohliche Herzrhythmusstörung)",
+      "Leberentzündung (Hepatitis)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Hydroxyzin gelangt zum Kind; nach Einnahme in der späten Schwangerschaft wurden beim Neugeborenen u. a. Muskelschlaffheit, Bewegungsstörungen, Dämpfung und Harnverhalt beobachtet.",
+  "stillzeit": "Kontraindiziert, da der Abbaustoff Cetirizin in die Muttermilch übergeht; ist eine Behandlung nötig, muss abgestillt werden.",
+  "hinweise": [
+    "Kann die Fahrtüchtigkeit beeinträchtigen; Alkohol verstärkt die dämpfende Wirkung.",
+    "Höchstdosis für Erwachsene 100 mg pro Tag, für ältere Menschen 50 mg pro Tag – wegen des Risikos für Herzrhythmusstörungen nicht überschreiten.",
+    "Mindestens 5 Tage vor einem Allergietest absetzen, da das Testergebnis sonst verfälscht werden kann.",
+    "Bei Herzklopfen, Herzrasen, Ohnmacht oder starkem Schwindel sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

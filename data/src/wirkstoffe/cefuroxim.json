@@ -1,0 +1,71 @@
+{
+  "id": "cefuroxim",
+  "name": "Cefuroxim",
+  "synonyme": ["Cefuroxime", "Cefuroxim-Axetil", "Cefuroxim-Natrium", "Cefuroximum"],
+  "atc": ["J01DC02"],
+  "klasse": "Cephalosporin der 2. Generation (Beta-Laktam-Antibiotikum)",
+  "kurz": "Cephalosporin-Antibiotikum als Tablette oder Infusion, z. B. bei Atemwegs-, HNO-, Harnwegs- und Hautinfektionen sowie früher Borreliose.",
+  "gruppen": ["cephalosporine"],
+  "handelsnamen": ["Zinat", "Zinacef", "Cefuroxim Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Granulat für Suspension zum Einnehmen", "Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "indikationen": [
+    { "text": "Streptokokken-Angina (Mandel- und Rachenentzündung), akute Nasennebenhöhlen- und Mittelohrentzündung", "ids": ["atemwegsinfekt", "sinusitis", "ohrenentzuendung"] },
+    { "text": "Akute Verschlimmerung einer chronischen Bronchitis; ambulant erworbene Lungenentzündung (als Infusion)", "ids": ["bronchitis", "copd", "lungenentzuendung"] },
+    { "text": "Blasen- und Nierenbeckenentzündung", "ids": ["harnwegsinfekt"] },
+    { "text": "Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
+    { "text": "Lyme-Borreliose im Frühstadium (Tabletten)", "ids": ["borreliose"] },
+    { "text": "Als Infusion: Infektionen im Bauchraum und Vorbeugung von Infektionen bei Operationen (z. B. Bauch-, gynäkologische, orthopädische, Herz- und Gefässchirurgie)", "ids": ["bakterielle-infektion", "operation"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Cefuroxim hemmt die Penicillin-bindenden Proteine und damit die Quervernetzung des Peptidoglykans (bakterizide Wirkung). Es ist gegen viele Beta-Laktamasen stabil und wirkt gegen Streptokokken, Methicillin-empfindliche Staphylokokken, Haemophilus influenzae, Moraxella sowie einen Teil der Darmbakterien wie E. coli. Die Tablettenform Cefuroxim-Axetil ist eine Vorstufe, die in der Darmwand zu Cefuroxim gespalten wird.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Cephalosporine", "ids": ["allergie"] },
+    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf Penicilline oder andere Beta-Laktam-Antibiotika in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] }
+  ],
+  "vorsicht": [
+    { "text": "Penicillinallergie ohne schwere Sofortreaktion: Kreuzallergie möglich", "ids": ["penicillinallergie"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
+    { "text": "Behandlung der Borreliose: Jarisch-Herxheimer-Reaktion (Fieber, Schüttelfrost) zu Beginn möglich", "ids": ["borreliose"] },
+    { "text": "Phenylketonurie: die Suspension kann Aspartam (Phenylalanin-Quelle) enthalten", "ids": ["seltene-stoffwechselkrankheit"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker, Antazida)", "ref": ["gruppe:magensaeure-reduzierend", "gruppe:antazida"], "effekt": "Tabletten und Suspension: Cefuroxim wird schlechter aufgenommen – die Wirkung kann ungenügend sein.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Blutverdünnung möglich – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Schleifendiuretika wie Furosemid) bei hoher Infusionsdosis", "ref": ["gruppe:aminoglykoside", "gruppe:schleifendiuretika"], "effekt": "Mögliche Verstärkung der Nierenschädigung – Nierenfunktion kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Höhere, länger anhaltende Cefuroxim-Spiegel – Kombination nicht empfohlen.", "schwere": "leicht" },
+    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Durch Veränderung der Darmflora kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Durchfall, Übelkeit, Bauchschmerzen",
+      "Pilzinfektionen (z. B. Mund oder Scheide)",
+      "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)",
+      "Vorübergehender Anstieg der Leberwerte",
+      "Bei Infusion: Schmerzen oder Venenentzündung an der Einstichstelle"
+    ],
+    "gelegentlich": ["Erbrechen", "Hautausschlag", "Thrombozytopenie, Leukopenie", "Positiver Coombs-Test"],
+    "unbekannt": [
+      "Clostridioides-difficile-Infektion, pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Hämolytische Anämie (Blutzerfall)",
+      "Anaphylaxie, Arzneimittelfieber, Serumkrankheit",
+      "Jarisch-Herxheimer-Reaktion",
+      "Gelbsucht (meist durch Gallestau), Leberentzündung",
+      "Nesselsucht, Juckreiz, Angioödem",
+      "Schwere Hautreaktionen (Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Interstitielle Nephritis, Anstieg der Nierenwerte (Infusion)"
+    ]
+  },
+  "schwangerschaft": "Nach ärztlicher Abwägung möglich; bisher keine Hinweise auf eine Schädigung des Kindes.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nach Abwägung möglich (beim Säugling Durchfall oder Pilzbefall möglich).",
+  "hinweise": [
+    "Tabletten nach einer Mahlzeit einnehmen – so werden sie besser aufgenommen; nicht zerkauen oder zerdrücken (sehr bitterer Geschmack).",
+    "Die verordnete Behandlungsdauer einhalten.",
+    "Kann Schwindel verursachen – Vorsicht beim Autofahren und Bedienen von Maschinen.",
+    "Bei Hautausschlag, Atemnot oder schwerem Durchfall ärztlichen Rat einholen."
+  ],
+  "stand": "2026-10"
+}

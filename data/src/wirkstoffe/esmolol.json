@@ -1,0 +1,249 @@
+{
+  "id": "esmolol",
+  "name": "Esmolol",
+  "synonyme": [
+    "Esmololhydrochlorid"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C07AB09"
+  ],
+  "klasse": "Beta-1-selektiver Betablocker, ultrakurz wirksam (intravenös)",
+  "kurz": "Sehr kurz wirkender Betablocker zur Infusion im Spital; senkt rasch einen zu schnellen Puls und hohen Blutdruck, z. B. während Operationen.",
+  "gruppen": [
+    "betablocker",
+    "blutdrucksenkend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Brevibloc",
+    "Esmolol OrPha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Infusionslösung",
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Rasche Senkung der Herzfrequenz bei supraventrikulären Tachykardien, z. B. Vorhofflimmern oder Vorhofflattern",
+      "ids": [
+        "vorhofflimmern",
+        "tachykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Zu schneller Puls und Bluthochdruck während oder nach Operationen",
+      "ids": [
+        "tachykardie",
+        "hypertonie",
+        "operation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlangsamt rasch den Herzschlag und senkt den Blutdruck. Esmolol blockiert selektiv die Beta-1-Rezeptoren des Herzens ohne Eigenwirkung und vermindert so Herzfrequenz, Erregungsleitung im AV-Knoten und Herzkraft. Es wird durch Esterasen in den roten Blutkörperchen sehr schnell abgebaut (Halbwertszeit etwa 9 Minuten); die Wirkung klingt deshalb rund 10–30 Minuten nach Infusionsende ab und lässt sich gut steuern.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Sinusbradykardie, Sinusknotensyndrom, AV-Block II. oder III. Grades (ohne Herzschrittmacher)",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Kardiogener Schock, schwere Hypotonie",
+      "ids": [
+        "schock",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Nicht ausreichend behandelte (dekompensierte) Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Unbehandeltes Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Pulmonale Hypertonie (Lungenhochdruck)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Akuter Asthmaanfall, metabolische Azidose",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Asthma bronchiale oder COPD (Bronchospasmus möglich)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Kompensierte Herzinsuffizienz, AV-Block I. Grades",
+      "ids": [
+        "herzinsuffizienz",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Diabetes (Unterzuckerungszeichen können verdeckt sein)",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Anreicherung des Abbauprodukts bei längerer Infusion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Periphere Durchblutungsstörungen, Raynaud-Syndrom",
+      "ids": [
+        "pavk",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Venenreizung und Gewebeschäden bei Austritt der Lösung aus der Vene",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Verapamil intravenös (gleichzeitig oder innerhalb der letzten 48 Stunden)",
+      "ref": [
+        "verapamil"
+      ],
+      "grund": "Beide hemmen Herzkraft und Reizleitung – Gefahr von schwerem Blutdruckabfall, AV-Block und Herzstillstand."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ und Antiarrhythmika",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Verstärkte Hemmung von Puls, Reizleitung und Herzkraft – engmaschige Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Morphin",
+      "ref": [
+        "morphin"
+      ],
+      "effekt": "Morphin erhöht den Esmololspiegel um etwa die Hälfte – Dosis vorsichtig anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxinspiegel steigt leicht; zusätzliche Pulsverlangsamung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkosemittel",
+      "ref": [],
+      "effekt": "Verstärkte Blutdrucksenkung und Herzhemmung – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin und andere Sympathomimetika",
+      "ref": [
+        "adrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Gegenseitig abgeschwächte Wirkung; Adrenalin wirkt bei Anaphylaxie schwächer.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin und andere zentrale Alpha-2-Agonisten",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung und Blutdrucksenkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und orale Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Unterzuckerungszeichen können verdeckt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Suxamethonium",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Die Muskelerschlaffung kann leicht verlängert sein.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypotonie (Blutdruckabfall), oft ohne Beschwerden",
+      "Vermehrtes Schwitzen"
+    ],
+    "haeufig": [
+      "Schwindel, Schläfrigkeit, Kopfschmerzen, Kribbeln",
+      "Verwirrtheit, Unruhe, Angst, depressive Verstimmung, Konzentrationsstörungen",
+      "Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Müdigkeit, Schwächegefühl",
+      "Reizung, Entzündung oder Verhärtung an der Infusionsstelle"
+    ],
+    "gelegentlich": [
+      "Bradykardie (langsamer Puls)",
+      "Bronchospasmus (Verkrampfung der Atemwege), Atemnot",
+      "Ohnmacht (Synkope), kalte Hände und Füsse",
+      "Geschmacksstörungen"
+    ],
+    "selten": [
+      "Sinusarrest, Asystolie (Herzstillstand)",
+      "Hautnekrose bei Austritt der Lösung ins Gewebe"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hyperkaliämie (erhöhtes Kalium)"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit; kann beim Ungeborenen den Puls verlangsamen. Neugeborene nach Anwendung kurz vor der Geburt auf langsamen Puls, Unterzuckerung und Atemprobleme überwachen.",
+  "stillzeit": "Keine Daten; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird nur im Spital unter laufender Überwachung von Puls, Blutdruck und EKG gegeben.",
+    "Die Wirkung klingt nach Ende der Infusion innerhalb von etwa 30 Minuten ab."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,177 @@
+{
+  "id": "acetylcystein",
+  "name": "Acetylcystein",
+  "synonyme": [
+    "N-Acetylcystein",
+    "NAC",
+    "Acetylcysteine"
+  ],
+  "atc": [
+    "R05CB01",
+    "V03AB23",
+    "S01XA08"
+  ],
+  "klasse": "Mukolytikum (Schleimlöser); Antidot bei Paracetamolvergiftung",
+  "kurz": "Schleimlöser bei Husten mit zähem Schleim; als Infusion im Spital Gegenmittel bei einer Paracetamolvergiftung.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Fluimucil",
+    "Solmucol"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Brausetabletten",
+    "Granulat zum Einnehmen",
+    "Sirup",
+    "Injektionslösung (Infusion)"
+  ],
+  "indikationen": [
+    {
+      "text": "Schleimlösung bei akuten und chronischen Atemwegserkrankungen mit zähem Schleim, z. B. Erkältung, akute oder chronische Bronchitis",
+      "ids": [
+        "bronchitis",
+        "erkaeltung",
+        "copd"
+      ]
+    },
+    {
+      "text": "Gegenmittel bei Paracetamolvergiftung (Infusion im Spital)",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verflüssigt zähen Schleim, sodass er leichter abgehustet werden kann. Die freie Sulfhydryl-Gruppe (SH-Gruppe) spaltet Disulfidbrücken der Schleim-Glykoproteine und senkt so die Zähigkeit des Bronchialsekrets. Als Gegenmittel bei Paracetamolvergiftung liefert Acetylcystein Cystein für die Neubildung von Glutathion in der Leber; Glutathion bindet den giftigen Paracetamol-Abbaustoff NAPQI und macht ihn unschädlich.",
+  "kontraindikationen": [
+    {
+      "text": "Kinder unter 2 Jahren (als Schleimlöser zum Einnehmen)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Asthma bronchiale: Bronchospasmus möglich – bei Atemnot sofort absetzen",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre (auch in der Vorgeschichte)",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-, Lyell-Syndrom): bei neuen Haut- oder Schleimhautveränderungen sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Natriumgehalt der Brausetabletten bei salzarmer Diät oder Bluthochdruck beachten",
+      "ids": [
+        "natriumarme-diaet",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Phenylketonurie: Brausetabletten und Granulat können Aspartam (Phenylalaninquelle) enthalten",
+      "ids": [
+        "phenylketonurie"
+      ]
+    },
+    {
+      "text": "Infusion als Gegenmittel: anaphylaktoide Reaktionen möglich, besonders bei Asthma; Flüssigkeitsmenge bei Herzinsuffizienz und Kindern beachten",
+      "ids": [
+        "asthma",
+        "herzinsuffizienz",
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nitroglycerin und andere Nitrate",
+      "ref": [
+        "glyceroltrinitrat",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkte gefässerweiternde Wirkung: deutlicher Blutdruckabfall und Kopfschmerzen möglich – Blutdruck überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hustenstiller (z. B. Codein, Dextromethorphan, Butamirat)",
+      "ref": [
+        "codein",
+        "dextromethorphan",
+        "butamirat"
+      ],
+      "effekt": "Der gedämpfte Hustenreflex verhindert das Abhusten des gelösten Schleims (Sekretstau) – nur nach ärztlicher Rücksprache kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Carbamazepin-Spiegel können unter den wirksamen Bereich fallen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antibiotika zum Einnehmen (z. B. Penicilline, Cephalosporine, Tetracycline)",
+      "ref": [
+        "gruppe:penicilline",
+        "gruppe:cephalosporine",
+        "gruppe:tetracycline"
+      ],
+      "effekt": "Im Reagenzglas wurde eine Inaktivierung beobachtet – vorsichtshalber mit mindestens 2 Stunden Abstand einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Aktivkohle",
+      "ref": [
+        "aktivkohle"
+      ],
+      "effekt": "Kann die Wirkung von Acetylcystein abschwächen (wichtig bei der Behandlung einer Paracetamolvergiftung).",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Mundschleimhautentzündung (Stomatitis)",
+      "Überempfindlichkeitsreaktionen: Nesselsucht, Ausschlag, Juckreiz, Angioödem",
+      "Kopfschmerzen, Ohrensausen (Tinnitus)",
+      "Herzrasen (Tachykardie), Blutdruckabfall",
+      "Fieber"
+    ],
+    "selten": [
+      "Bronchospasmus (Verkrampfung der Atemwege), Atemnot – v. a. bei Asthma",
+      "Verdauungsbeschwerden (Dyspepsie)"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie bis zum Schock",
+      "Blutungen",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, Lyell-Syndrom)"
+    ],
+    "unbekannt": [
+      "Gesichtsschwellung",
+      "Bei Infusion als Gegenmittel: anaphylaktoide Reaktionen (Hautrötung, Juckreiz, Atemnot, Blutdruckabfall)"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Daten ohne Hinweise auf Fruchtschädigung; als Schleimlöser nur nach ärztlicher Abwägung. Bei einer Paracetamolvergiftung wird es auch in der Schwangerschaft eingesetzt.",
+  "stillzeit": "Keine Daten zum Übergang in die Muttermilch; als Schleimlöser nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Brausetabletten und Granulat in Wasser auflösen; ausreichend trinken. Zu Beginn kann sich der Auswurf vermehren – das ist erwünscht.",
+    "Antibiotika zum Einnehmen im Abstand von mindestens 2 Stunden einnehmen.",
+    "Nicht mit Hustenstillern kombinieren.",
+    "Ein leichter Schwefelgeruch der Zubereitung ist normal."
+  ],
+  "stand": "2026-10"
+}

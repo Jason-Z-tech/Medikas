@@ -1,0 +1,173 @@
+{
+  "id": "ephedrin",
+  "name": "Ephedrin",
+  "synonyme": [
+    "Ephedrine",
+    "Ephedrinhydrochlorid",
+    "Ephedrinsulfat"
+  ],
+  "atc": [
+    "C01CA26"
+  ],
+  "klasse": "Indirekt und direkt wirkendes Sympathomimetikum (Vasopressor)",
+  "kurz": "Kreislaufmittel, das während einer Narkose oder Spinalanästhesie einen zu tiefen Blutdruck anhebt.",
+  "gruppen": [
+    "sympathomimetika",
+    "blutdrucksteigernd",
+    "vasokonstriktorisch"
+  ],
+  "handelsnamen": [
+    "Ephedrin Sintetica"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (Ampullen, Fertigspritzen)"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung eines Blutdruckabfalls bei Spinal- oder Epiduralanästhesie sowie bei Allgemeinanästhesie (Narkose)",
+      "ids": [
+        "hypotonie",
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt den Blutdruck, indem es Herz und Gefässe anregt. Ephedrin setzt vor allem Noradrenalin aus den Nervenendigungen frei (indirekte Wirkung) und stimuliert zusätzlich direkt Alpha- und Beta-Rezeptoren. Dadurch steigen Herzfrequenz, Schlagkraft und Gefässtonus. Bei wiederholter Gabe lässt die Wirkung nach (Tachyphylaxie), weil die Noradrenalinspeicher erschöpft werden.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen wie koronare Herzkrankheit, Herzrhythmusstörungen oder Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung (Gefahr eines Harnverhalts)",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker kann ansteigen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kaiserschnitt: hohe Dosen können beim Kind eine Übersäuerung (Azidose) begünstigen",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Leistungssport: Ephedrin steht auf der Dopingliste",
+      "ids": [
+        "sport-doping"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nicht selektive MAO-Hemmer, auch bis 14 Tage nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Ephedrin setzt Noradrenalin frei, dessen Abbau blockiert ist – Gefahr einer hypertensiven Krise."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere indirekte Sympathomimetika und Alpha-Sympathomimetika (z. B. Pseudoephedrin, Methylphenidat, Phenylephrin, abschwellende Mittel)",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "pseudoephedrin",
+        "methylphenidat",
+        "phenylephrin"
+      ],
+      "effekt": "Gefahr eines starken Blutdruckanstiegs – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Selektiver MAO-A-Hemmer Moclobemid und Linezolid",
+      "ref": [
+        "moclobemid",
+        "linezolid"
+      ],
+      "effekt": "Gefahr eines Blutdruckanstiegs – nur unter enger Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Halogenierte Inhalationsnarkotika (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhte Gefahr von Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Noradrenalin-Wiederaufnahmehemmer (z. B. Venlafaxin, Reboxetin)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:snri",
+        "reboxetin"
+      ],
+      "effekt": "Anfallsartiger Blutdruckanstieg und Rhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ergotalkaloide (z. B. Methylergometrin) und Oxytocin",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "oxytocin"
+      ],
+      "effekt": "Verstärkte Gefässverengung, Gefahr eines starken Blutdruckanstiegs (z. B. beim Kaiserschnitt).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Mehr Nebenwirkungen wie Übelkeit, Unruhe und Schlaflosigkeit.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Herzklopfen, Herzrasen (Tachykardie), Blutdruckanstieg",
+      "Herzrhythmusstörungen",
+      "Unruhe, Angst, Verwirrtheit, Schlaflosigkeit, Zittern",
+      "Kopfschmerzen, Schwitzen",
+      "Übelkeit, Erbrechen",
+      "Atemnot",
+      "Harnverhalt",
+      "Akuter Glaukomanfall (Engwinkelglaukom)"
+    ]
+  },
+  "schwangerschaft": "Kann zur Behandlung eines Blutdruckabfalls bei einer Spinalanästhesie für den Kaiserschnitt eingesetzt werden; hohe Dosen können beim Kind eine Übersäuerung (Azidose) begünstigen.",
+  "stillzeit": "Geht in die Muttermilch über; beim Säugling wurden Unruhe und Schlafstörungen beschrieben. Stillen nach der Gabe nur nach ärztlicher Rücksprache.",
+  "hinweise": [
+    "Wird nur durch Fachpersonal im Spital, meist während einer Narkose, unter Blutdruck- und Pulskontrolle gespritzt.",
+    "Ephedrin steht auf der Dopingliste."
+  ],
+  "stand": "2026-10"
+}

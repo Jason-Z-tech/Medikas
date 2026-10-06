@@ -1,0 +1,259 @@
+{
+  "id": "brinzolamid-timolol",
+  "name": "Brinzolamid + Timolol",
+  "synonyme": [
+    "Brinzolamid/Timolol"
+  ],
+  "kombinationAus": [
+    "brinzolamid",
+    "timolol"
+  ],
+  "atc": [
+    "S01ED51"
+  ],
+  "klasse": "Glaukommittel: Fixkombination aus Carboanhydrasehemmer und Betablocker",
+  "kurz": "Augentropfen gegen Glaukom und erhöhten Augeninnendruck, wenn ein einzelnes Mittel nicht genügt.",
+  "gruppen": [
+    "betablocker",
+    "bradykardisierend",
+    "blutdrucksenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Azarga"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Augentropfen (Suspension)"
+  ],
+  "indikationen": [
+    {
+      "text": "Senkung des erhöhten Augeninnendrucks bei Offenwinkelglaukom oder okulärer Hypertension, wenn eine Behandlung mit nur einem Wirkstoff nicht ausreicht",
+      "ids": [
+        "glaukom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Augeninnendruck, indem die Bildung von Kammerwasser auf zwei Wegen gedrosselt wird. Brinzolamid hemmt die Carboanhydrase II im Ziliarkörper und vermindert so die Bicarbonat- und Flüssigkeitsbildung. Timolol, ein nicht selektiver Betablocker, verringert die Kammerwasserproduktion zusätzlich. Ein Teil beider Wirkstoffe gelangt in den Kreislauf; vor allem Timolol kann Puls, Blutdruck und Bronchien beeinflussen.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma bronchiale (auch in der Vorgeschichte), schwere COPD oder andere Atemwegserkrankungen mit Neigung zu Bronchospasmus",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (Sinusbradykardie), Sinusknotensyndrom, SA-Block oder AV-Block 2. oder 3. Grades ohne Herzschrittmacher",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Nicht kompensierte (manifeste) Herzinsuffizienz, kardiogener Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Sulfonamide",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min), hyperchlorämische Azidose",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten (koronare Herzkrankheit, Prinzmetal-Angina, kompensierte Herzinsuffizienz, AV-Block 1. Grades) und tiefer Blutdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinsuffizienz",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere Durchblutungsstörungen der Arme und Beine (Raynaud-Syndrom, pAVK)",
+      "ids": [
+        "raynaud",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Diabetes mit Neigung zu Unterzuckerung sowie Schilddrüsenüberfunktion: Warnzeichen können verdeckt werden",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Muskelschwäche kann zunehmen)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere allergische Reaktionen in der Vorgeschichte: Reaktionen können stärker ausfallen und schlechter auf Adrenalin ansprechen",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (nicht untersucht)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (nicht untersucht)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Vorgeschädigte Hornhaut, z. B. bei Diabetes oder Hornhautdystrophie (Gefahr einer Hornhautschwellung)",
+      "ids": []
+    },
+    {
+      "text": "Geplante Operation mit Narkose: Anästhesieteam über die Augentropfen informieren",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Kontaktlinsen vor dem Eintropfen herausnehmen (Konservierungsmittel)",
+      "ids": [
+        "kontaktlinsen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Additive Verlangsamung von Herzschlag und Reizleitung, Blutdruckabfall und Herzschwäche möglich – Puls und Blutdruck überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Carboanhydrasehemmer zum Einnehmen (Acetazolamid)",
+      "ref": [
+        "acetazolamid"
+      ],
+      "effekt": "Additive Wirkungen auf den Säure-Basen-Haushalt – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker zum Einnehmen oder andere Betablocker-Augentropfen",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz, Blutdruck und Augeninnendruck – zwei Betablocker-Augentropfen nicht kombinieren, bei Tabletten den Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron) und Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung und Reizleitungsstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Chinidin, Fluoxetin, Paroxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Höhere Timolol-Spiegel im Blut; verstärkte Betablockade mit langsamem Puls ist beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin",
+      "ref": [
+        "clonidin"
+      ],
+      "effekt": "Beim Absetzen von Clonidin kann der Blutdruck unter Betablockern stark ansteigen (Rebound).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin",
+      "ref": [
+        "adrenalin"
+      ],
+      "effekt": "Pupillenerweiterung möglich; bei schwerer allergischer Reaktion wirkt Adrenalin unter Betablockern schwächer.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Abbau von Brinzolamid kann gehemmt werden – Vorsicht.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Insulin und orale Antidiabetika",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verdeckt werden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Verschwommenes Sehen",
+      "Augenschmerzen, Augenreizung, Fremdkörpergefühl",
+      "Geschmacksstörung (bitterer Geschmack)"
+    ],
+    "gelegentlich": [
+      "Hornhautentzündung und Hornhauterosion, trockenes Auge",
+      "Augenrötung, Augenausfluss, Augenjucken, Lidrandentzündung",
+      "Blutdruckabfall",
+      "Husten, Rachenschmerzen, Fliessschnupfen"
+    ],
+    "unbekannt": [
+      "Langsamer Puls (Bradykardie), Herzrhythmusstörungen, Herzinsuffizienz",
+      "Bronchospasmus, Atemnot, Asthma",
+      "Schwindel, Kopfschmerzen, Müdigkeit, Depression",
+      "Kalte Hände und Füsse",
+      "Allergische Reaktionen, Hautausschlag",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (sehr schwere Hautreaktionen)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist ärztlich klar notwendig (Brinzolamid im Tierversuch fruchtschädigend). Bei Anwendung bis zur Geburt das Neugeborene auf Betablocker-Wirkungen überwachen.",
+  "stillzeit": "Timolol geht in die Muttermilch über; ein Risiko für den Säugling ist nicht auszuschliessen. Ärztlich abwägen, ob abgestillt oder die Behandlung unterbrochen wird.",
+  "hinweise": [
+    "Vor Gebrauch gut schütteln.",
+    "Nach dem Eintropfen das Auge 1–2 Minuten schliessen und den inneren Augenwinkel sanft zudrücken – so gelangt weniger Wirkstoff ins Blut.",
+    "Bei Asthma, Herzkrankheiten oder vor einer Operation die Anwendung der Augentropfen ärztlich angeben.",
+    "Bei mehreren Augenmitteln mindestens 5 Minuten Abstand einhalten."
+  ],
+  "stand": "2026-10"
+}

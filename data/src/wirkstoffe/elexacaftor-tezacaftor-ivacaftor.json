@@ -1,0 +1,197 @@
+{
+  "id": "elexacaftor-tezacaftor-ivacaftor",
+  "name": "Elexacaftor + Tezacaftor + Ivacaftor",
+  "synonyme": [
+    "ETI",
+    "Elexacaftor/Tezacaftor/Ivacaftor"
+  ],
+  "kombinationAus": [
+    "ivacaftor"
+  ],
+  "atc": [
+    "R07AX32"
+  ],
+  "klasse": "CFTR-Modulator (Kombination aus zwei CFTR-Korrektoren und einem CFTR-Potentiator)",
+  "kurz": "Gezielte Tablettentherapie der Mukoviszidose (zystische Fibrose): verbessert die Funktion des defekten CFTR-Kanals.",
+  "gruppen": [
+    "cyp3a4-substrate-empfindlich",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Trikafta"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Zystische Fibrose (Mukoviszidose) bei Patientinnen und Patienten mit mindestens einer F508del-Mutation im CFTR-Gen (je nach Zulassung auch weitere ansprechende Mutationen); Mindestalter gemäss Präparat",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert die Funktion des defekten Chloridkanals CFTR, dessen Fehlfunktion bei Mukoviszidose zu zähem Schleim in Lunge, Bauchspeicheldrüse und anderen Organen führt. Elexacaftor und Tezacaftor sind CFTR-Korrektoren: Sie helfen dem fehlgefalteten CFTR-Protein (v. a. bei der F508del-Mutation), sich richtig zu falten und an die Zelloberfläche zu gelangen. Ivacaftor ist ein CFTR-Potentiator und erhöht die Öffnungswahrscheinlichkeit des Kanals an der Zelloberfläche. Zusammen steigt der Chloridtransport, was sich an tieferen Schweisschloridwerten und einer besseren Lungenfunktion zeigt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen: bei mittelschwerer Leberinsuffizienz nicht empfohlen, bei schwerer nicht anwenden; Fälle von schwerer Leberschädigung bis Leberversagen beschrieben",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (wenig Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Depression, Angst, Schlafstörungen oder Suizidgedanken (auch neu auftretend) – umgehend ärztlich melden",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Linsentrübungen (Katarakt) möglich – augenärztliche Kontrollen",
+      "ids": [
+        "kinder",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Nach Organtransplantation (nicht untersucht, Wechselwirkungen mit Immunsuppressiva)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Hautausschlag, häufiger bei Frauen unter hormonaler Verhütung",
+      "ids": [
+        "hautausschlag"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Starke Abnahme der Wirkstoffspiegel mit Wirkungsverlust – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Posaconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Wirkstoffspiegel steigen stark – Dosis gemäss Fachinformation deutlich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Erythromycin, Verapamil, Diltiazem)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Wirkstoffspiegel steigen – Dosis gemäss Fachinformation reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Grapefruit und Bitterorangen (Pomeranzen)",
+      "ref": [],
+      "effekt": "Hemmen den Abbau der Wirkstoffe – während der Behandlung meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-Glykoprotein-Substrate (z. B. Digoxin, Dabigatran) sowie Ciclosporin, Tacrolimus, Everolimus, Sirolimus",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "ciclosporin",
+        "tacrolimus",
+        "everolimus",
+        "sirolimus"
+      ],
+      "effekt": "Ivacaftor kann deren Spiegel erhöhen – Spiegel bzw. Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine und andere OATP1B-Substrate (z. B. Rosuvastatin, Atorvastatin, Repaglinid)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Elexacaftor kann deren Spiegel erhöhen – auf Muskelbeschwerden bzw. Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Ivacaftor kann CYP2C9 hemmen – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe (z. B. Glimepirid, Glibenclamid)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Höhere Spiegel möglich (Hemmung von CYP2C9 bzw. OATP) – auf Unterzuckerung achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Keine Wirkungsabschwächung der Verhütung; Hautausschläge traten bei gleichzeitiger Einnahme aber häufiger auf.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Schwindel",
+      "Infektionen der oberen Atemwege, Nasen-Rachen-Entzündung",
+      "Halsschmerzen, verstopfte Nase",
+      "Durchfall, Bauchschmerzen",
+      "Hautausschlag",
+      "Bakterien im Sputum (Auswurf)"
+    ],
+    "haeufig": [
+      "Erhöhte Leberwerte (Transaminasen), erhöhte Kreatinkinase und Bilirubin",
+      "Grippe (Influenza), Schnupfen",
+      "Hypoglykämie (Unterzuckerung)",
+      "Ohrenschmerzen, Ohrgeräusche (Tinnitus), Gleichgewichtsstörungen",
+      "Übelkeit, Blähungen",
+      "Akne, Juckreiz",
+      "Knoten in der Brust"
+    ],
+    "gelegentlich": [
+      "Vergrösserung der Brustdrüse beim Mann (Gynäkomastie)",
+      "Pfeifende Atmung (Giemen)",
+      "Druckgefühl im Ohr"
+    ],
+    "unbekannt": [
+      "Schwere Leberschädigung bis Leberversagen",
+      "Depression, Angst, Schlafstörungen, Suizidgedanken",
+      "Linsentrübung (Katarakt) bei Kindern und Jugendlichen"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; vorsichtshalber möglichst vermeiden und nur nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Nicht bekannt, ob die Wirkstoffe beim Menschen in die Muttermilch übergehen (im Tierversuch ja); nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Morgens die Kombinationstablette und abends die Ivacaftor-Tablette jeweils mit einer fetthaltigen Mahlzeit einnehmen (z. B. mit Butter, Käse, Eiern oder Vollmilch).",
+    "Grapefruit und Bitterorangen meiden.",
+    "Leberwerte vor Beginn und regelmässig während der Behandlung kontrollieren; bei Kindern zusätzlich Augenkontrollen.",
+    "Vor jedem neuen Medikament (auch Antibiotika, Antimykotika oder Johanniskraut) Wechselwirkungen prüfen lassen."
+  ],
+  "stand": "2026-10"
+}

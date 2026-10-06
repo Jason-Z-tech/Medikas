@@ -1,0 +1,153 @@
+{
+  "id": "mavacamten",
+  "name": "Mavacamten",
+  "synonyme": [
+    "MYK-461"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C01EB24"
+  ],
+  "klasse": "Kardialer Myosin-Inhibitor",
+  "kurz": "Herzmittel bei obstruktiver hypertropher Kardiomyopathie: dämpft die übermässige Kontraktion des verdickten Herzmuskels.",
+  "gruppen": [
+    "cyp2c19-substrate",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Camzyos"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische obstruktive hypertrophe Kardiomyopathie (NYHA-Klasse II–III) bei Erwachsenen",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert die übermässige Pumpkraft des verdickten Herzmuskels und verringert so die Einengung des Ausflusstrakts der linken Herzkammer. Mavacamten hemmt selektiv und reversibel die ATPase des kardialen Myosins und reduziert die Zahl der Querbrücken zwischen Myosin und Aktin. Dadurch sinken die Hyperkontraktilität, der Druckgradient im linksventrikulären Ausflusstrakt und die Füllungsdrücke; Belastbarkeit und Beschwerden bessern sich.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft sowie Frauen im gebärfähigen Alter ohne wirksame Verhütung",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verminderte Pumpfunktion (systolische Dysfunktion) bis zur Herzinsuffizienz: Beginn nur bei LVEF von mindestens 55 %, regelmässige Echokardiografie; bei LVEF unter 50 % Behandlung unterbrechen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Begleiterkrankungen wie Infektionen oder Herzrhythmusstörungen (z. B. Vorhofflimmern) erhöhen das Risiko einer Herzinsuffizienz",
+      "ids": [
+        "aktive-infektion",
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Langsame oder unbekannte CYP2C19-Metabolisierer: höhere Spiegel, Dosis wird angepasst",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: wirksame Verhütung bis 6 Monate nach der letzten Dosis",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) bei langsamen oder unbekannten CYP2C19-Metabolisierern sowie jede Kombination eines starken CYP3A4-Hemmers mit einem starken CYP2C19-Hemmer",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Stark ansteigende Mavacamten-Spiegel – Gefahr einer Herzinsuffizienz durch zu starke Hemmung der Herzmuskelkontraktion."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "CYP2C19-Hemmer (z. B. Fluconazol, Fluvoxamin, Omeprazol, Esomeprazol)",
+      "ref": [
+        "gruppe:cyp2c19-hemmer"
+      ],
+      "effekt": "Mavacamten-Spiegel steigen – Beginn oder Dosisänderung nur nach ärztlicher Anweisung; Dosis gegebenenfalls reduzieren und LVEF kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2C19- und CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Wirkverlust; beim Absetzen des Induktors steigen die Mavacamten-Spiegel wieder an (Gefahr einer Herzinsuffizienz) – Beginn und Absetzen nur unter ärztlicher Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Mavacamten-Spiegel – Dosis gegebenenfalls reduzieren, LVEF kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel mit negativ inotroper Wirkung (Betablocker, Verapamil, Diltiazem, Disopyramid)",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Zusätzliche Abschwächung der Herzmuskelkontraktion möglich – LVEF überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Die Wirksamkeit bestimmter hormoneller Verhütungsmittel kann vermindert sein – zusätzliche oder nicht-hormonelle Verhütung ärztlich besprechen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel",
+      "Dyspnoe (Atemnot)"
+    ],
+    "haeufig": [
+      "Synkope (Ohnmacht)",
+      "Systolische Dysfunktion (verminderte Pumpleistung, LVEF unter 50 %) bis hin zur Herzinsuffizienz"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kontraindiziert – im Tierversuch fruchtschädigend. Frauen im gebärfähigen Alter brauchen vor Beginn einen negativen Schwangerschaftstest und wirksame Verhütung bis 6 Monate nach der letzten Dosis.",
+  "stillzeit": "Nicht stillen – Übergang in die Muttermilch unbekannt.",
+  "hinweise": [
+    "Vor und während der Behandlung regelmässige Herzultraschall-Kontrollen (Echokardiografie) der Pumpfunktion.",
+    "Neue Medikamente – auch rezeptfreie wie Omeprazol oder Esomeprazol – nur nach Rücksprache mit der Ärztin oder dem Arzt beginnen oder absetzen.",
+    "Bei zunehmender Atemnot, Brustschmerzen, Herzklopfen, Beinschwellungen oder raschem Gewichtsanstieg sofort ärztliche Hilfe holen.",
+    "Patientenkarte immer mitführen."
+  ],
+  "stand": "2026-10"
+}

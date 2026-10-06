@@ -1,0 +1,66 @@
+{
+  "id": "tamsulosin",
+  "name": "Tamsulosin",
+  "synonyme": ["Tamsulosinhydrochlorid", "Tamsulosin hydrochloride"],
+  "atc": ["G04CA02"],
+  "klasse": "Alpha-1A-Rezeptorenblocker (uroselektiv)",
+  "kurz": "Alpha-Blocker gegen Beschwerden beim Wasserlösen bei gutartig vergrösserter Prostata; erleichtert den Harnfluss.",
+  "gruppen": ["alpha1-blocker", "blutdrucksenkend", "cyp3a4-substrate-empfindlich", "cyp2d6-substrate"],
+  "handelsnamen": ["Pradif T", "Tamsulosin Mepha", "Duodart (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Retardtabletten", "Retardkapseln"],
+  "indikationen": [
+    { "text": "Beschwerden beim Wasserlösen (Harnspeicher- und Entleerungsbeschwerden) bei gutartiger Prostatavergrösserung", "ids": ["prostatahyperplasie"] }
+  ],
+  "wirkmechanismus": "Erleichtert das Wasserlösen, indem es die Muskulatur in Prostata, Blasenhals und Harnröhre entspannt. Tamsulosin blockiert bevorzugt die Alpha-1A- und Alpha-1D-Adrenozeptoren, die in Prostata und Blase überwiegen; dadurch sinkt der Widerstand beim Harnabfluss, der Harnstrahl wird kräftiger und Reizbeschwerden wie häufiger Harndrang nehmen ab. Die Prostata wird dabei nicht kleiner. Wegen der Bevorzugung der Rezeptoren im Harntrakt sinkt der Blutdruck meist nur wenig.",
+  "kontraindikationen": [
+    { "text": "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen) in der Vorgeschichte", "ids": ["hypotonie"] },
+    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
+    { "text": "Angioödem (Schwellung von Gesicht, Lippen oder Zunge) durch Tamsulosin in der Vorgeschichte", "ids": ["angiooedem"] }
+  ],
+  "vorsicht": [
+    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 10 ml/min): keine Erfahrungen", "ids": ["niereninsuffizienz"] },
+    { "text": "Geplante Operation am grauen oder grünen Star: Risiko eines intraoperativen Floppy-Iris-Syndroms – die Augenärztin/den Augenarzt vorher informieren", "ids": ["katarakt", "glaukom"] },
+    { "text": "Ältere Menschen und gleichzeitige Behandlung mit Blutdrucksenkern: Schwindel, Ohnmacht und Sturzgefahr möglich", "ids": ["aeltere-patienten", "hypotonie"] },
+    { "text": "Vor Behandlungsbeginn andere Ursachen mit ähnlichen Beschwerden, v. a. Prostatakrebs, ausschliessen lassen", "ids": ["prostatakrebs"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Der Tamsulosin-Spiegel steigt deutlich (mit Ketoconazol etwa 2,8-fach) – bei langsamen CYP2D6-Metabolisierern nicht kombinieren, sonst nur mit Vorsicht.", "schwere": "schwer" },
+    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Diltiazem, Verapamil, Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Tamsulosin-Spiegel möglich – auf Schwindel und Blutdruckabfall achten.", "schwere": "mittel" },
+    { "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion)", "ref": ["gruppe:starke-cyp2d6-hemmer"], "effekt": "Der Tamsulosin-Spiegel steigt (mit Paroxetin etwa 1,6-fach) – Vorsicht.", "schwere": "mittel" },
+    { "text": "Andere Alpha-1-Blocker (z. B. Alfuzosin, Doxazosin, Silodosin)", "ref": ["gruppe:alpha1-blocker"], "effekt": "Verstärkte Blutdrucksenkung mit Schwindel und Ohnmacht – Kombination nicht sinnvoll.", "schwere": "mittel" },
+    { "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Verstärkte Blutdrucksenkung möglich – PDE-5-Hemmer mit niedriger Dosis beginnen.", "schwere": "mittel" },
+    { "text": "Andere blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Leicht verstärkte Blutdrucksenkung möglich.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Schwindel", "Ejakulationsstörungen (verminderter oder fehlender Samenerguss, Samenerguss in die Blase)"],
+    "gelegentlich": [
+      "Kopfschmerzen",
+      "Herzklopfen",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Schnupfen, verstopfte Nase",
+      "Verstopfung, Durchfall, Übelkeit, Erbrechen",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Asthenie (Schwäche)"
+    ],
+    "selten": ["Synkope (Ohnmacht)", "Angioödem (Schwellung von Gesicht, Lippen, Zunge)"],
+    "sehrSelten": ["Priapismus (schmerzhafte Dauererektion)", "Stevens-Johnson-Syndrom (schwere Hautreaktion)"],
+    "unbekannt": [
+      "Intraoperatives Floppy-Iris-Syndrom bei Katarakt- oder Glaukomoperation",
+      "Verschwommenes Sehen, Sehstörungen",
+      "Nasenbluten",
+      "Mundtrockenheit",
+      "Erythema multiforme, exfoliative Dermatitis (schwere Hautreaktionen)"
+    ]
+  },
+  "schwangerschaft": "Nicht für Frauen bestimmt.",
+  "stillzeit": "Nicht für Frauen bestimmt.",
+  "hinweise": [
+    "Einmal täglich unzerkaut schlucken; Retardkapseln nach dem Frühstück, Retardtabletten (Pradif T) unabhängig von den Mahlzeiten.",
+    "Vor allem zu Beginn kann Schwindel auftreten: langsam aufstehen und vorsichtig sein beim Autofahren.",
+    "Vor einer Augenoperation am grauen oder grünen Star die Einnahme angeben – auch wenn Tamsulosin früher eingenommen wurde.",
+    "In der Kombination mit Dutasterid (Duodart) gelten zusätzlich die Hinweise zu Dutasterid."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "amantadin",
+  "name": "Amantadin",
+  "synonyme": [
+    "Amantadine",
+    "Amantadinsulfat",
+    "Amantadinhydrochlorid"
+  ],
+  "atc": [
+    "N04BB01"
+  ],
+  "klasse": "Parkinsonmittel (NMDA-Rezeptor-Antagonist, Adamantan-Derivat)",
+  "kurz": "Parkinsonmittel, das v. a. Steifigkeit, Bewegungsarmut und Überbewegungen bessert; auch bei medikamentös ausgelösten Bewegungsstörungen.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "anticholinerg",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "PK-Merz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Syndrome: Steifigkeit (Rigor), Zittern (Tremor) und Bewegungsarmut (Akinese)",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Durch Medikamente (z. B. Antipsychotika) ausgelöste Bewegungsstörungen wie Frühdyskinesien, Sitzunruhe (Akathisie) oder Parkinsonoid",
+      "ids": [
+        "dystonie"
+      ]
+    },
+    {
+      "text": "Akinetische Krise (plötzliche, schwere Bewegungsunfähigkeit) bei Parkinson – Infusion im Spital",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert die Beweglichkeit bei Parkinson, indem es das gestörte Gleichgewicht der Botenstoffe im Gehirn teilweise ausgleicht. Amantadin blockiert als nicht-kompetitiver Antagonist den NMDA-Glutamatrezeptor und dämpft so die bei Dopaminmangel überaktive glutamaterge Signalübertragung in den Basalganglien. Zusätzlich fördert es die Freisetzung von Dopamin und hemmt dessen Wiederaufnahme; ausserdem wirkt es schwach anticholinerg. Es wird unverändert über die Niere ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere, nicht ausgeglichene Herzinsuffizienz (NYHA IV)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kardiomyopathie oder Myokarditis (Herzmuskelerkrankung oder -entzündung)",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "AV-Block 2. oder 3. Grades; Bradykardie unter 55 Schlägen pro Minute",
+      "ids": [
+        "av-block",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit (auch angeboren oder in der Familie), schwere Kammerrhythmusstörungen einschliesslich Torsade de pointes in der Vorgeschichte",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Unbehandelter Kalium- oder Magnesiummangel",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis anpassen, sonst Anreicherung mit Verwirrtheit und Krampfanfällen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen sowie Verwirrtheit, Delir oder Psychosen in der Vorgeschichte",
+      "ids": [
+        "aeltere-patienten",
+        "delir",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Vergrösserte Prostata, Harnverhalt",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten: EKG vor Behandlungsbeginn sowie nach 1 und 3 Wochen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Sehstörungen (Hornhautveränderungen möglich): augenärztlich abklären",
+      "ids": [
+        "sehstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "QT-verlängernde Arzneimittel (z. B. bestimmte Antiarrhythmika, Antipsychotika, Antidepressiva, Makrolide, Fluorchinolone)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "grund": "Die QT-Verlängerungen addieren sich – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Kaliumsenkende Mittel und Diuretika (z. B. Hydrochlorothiazid, Triamteren)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:thiaziddiuretika",
+        "gruppe:kaliumsparende-diuretika"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko für Herzrhythmusstörungen; manche Diuretika vermindern zudem die Ausscheidung von Amantadin – Elektrolyte und Verträglichkeit kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Memantin",
+      "ref": [
+        "memantin"
+      ],
+      "effekt": "Ähnlicher Wirkmechanismus: erhöhtes Risiko für Psychosen und zentrale Nebenwirkungen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Biperiden, sedierende Antihistaminika, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:anticholinerg",
+        "biperiden"
+      ],
+      "effekt": "Verstärkte anticholinerge Nebenwirkungen wie Verwirrtheit, Halluzinationen und Harnverhalt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Verstärkte Parkinson-Wirkung, aber auch mehr Verwirrtheit und Halluzinationen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Psychostimulanzien und Sympathomimetika",
+      "ref": [
+        "gruppe:stimulanzien",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte zentrale Nebenwirkungen (Unruhe, Schlafstörungen, Krampfanfälle).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verminderte Alkoholverträglichkeit – Alkohol meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Schlafstörungen",
+      "Motorische und innere Unruhe",
+      "Schwindel",
+      "Übelkeit, Mundtrockenheit",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Livedo reticularis (netzartige bläuliche Hautverfärbung), oft mit Knöchel- und Unterschenkelödemen",
+      "Harnverhalt bei vergrösserter Prostata"
+    ],
+    "gelegentlich": [
+      "Verschwommenes Sehen",
+      "Psychosen mit Halluzinationen und Verfolgungsideen, v. a. bei älteren Menschen"
+    ],
+    "sehrSelten": [
+      "Herzrhythmusstörungen: QT-Verlängerung, Torsade de pointes, Kammertachykardie und Kammerflimmern",
+      "Epileptische Krampfanfälle, Muskelzuckungen (Myoklonien)",
+      "Verminderung der weissen Blutkörperchen oder der Blutplättchen",
+      "Vorübergehender Sehverlust, erhöhte Lichtempfindlichkeit der Augen"
+    ],
+    "unbekannt": [
+      "Hornhauttrübung und Hornhautödem",
+      "Suizidgedanken",
+      "Malignes neuroleptisches Syndrom bei abruptem Absetzen"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; beim Menschen wurden Fehlbildungen (u. a. Herzfehler) berichtet. Nicht anwenden, ausser bei zwingender Notwendigkeit.",
+  "stillzeit": "Amantadin geht in die Muttermilch über. Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Letzte Tagesdosis möglichst nicht nach 16 Uhr einnehmen (Schlafstörungen).",
+    "EKG vor Beginn sowie nach 1 und 3 Wochen; bei Herzklopfen, Schwindel oder Ohnmacht sofort ärztlich abklären.",
+    "Nicht abrupt absetzen: Gefahr einer starken Verschlechterung bis zur akinetischen Krise.",
+    "Alkohol meiden; Reaktionsvermögen und Fahrtüchtigkeit können beeinträchtigt sein."
+  ],
+  "stand": "2026-10"
+}

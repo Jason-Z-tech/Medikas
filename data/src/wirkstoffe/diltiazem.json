@@ -1,0 +1,70 @@
+{
+  "id": "diltiazem",
+  "name": "Diltiazem",
+  "synonyme": ["Diltiazemhydrochlorid", "Diltiazem hydrochloride"],
+  "atc": ["C08DB01"],
+  "klasse": "Calciumantagonist vom Benzothiazepin-Typ",
+  "kurz": "Calciumantagonist gegen Angina pectoris und Bluthochdruck; verlangsamt zudem den Herzschlag.",
+  "gruppen": ["nicht-dhp-calciumantagonisten", "blutdrucksenkend", "bradykardisierend", "maessige-cyp3a4-hemmer", "cyp3a4-substrate-empfindlich"],
+  "handelsnamen": ["Dilzem"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten bzw. Kapseln mit verzögerter Freisetzung (Retardform)"],
+  "indikationen": [
+    { "text": "Angina pectoris: chronisch stabile Form und vasospastische (Prinzmetal-)Angina", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
+    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] }
+  ],
+  "wirkmechanismus": "Entlastet das Herz, senkt den Blutdruck und verlangsamt den Puls, indem es den Calcium-Einstrom in Herz- und Gefässmuskelzellen hemmt. Diltiazem blockiert L-Typ-Calciumkanäle: Es erweitert die Herzkranz- und peripheren Arterien, verhindert Gefässkrämpfe und senkt so den Sauerstoffbedarf des Herzens. Zusätzlich bremst es die Erregungsbildung im Sinusknoten und die Überleitung im AV-Knoten. Diltiazem wird über CYP3A4 abgebaut und hemmt dieses Enzym mässig.",
+  "kontraindikationen": [
+    { "text": "Sick-Sinus-Syndrom, sinuatrialer Block, AV-Block 2. und 3. Grades (ausser bei funktionierendem Herzschrittmacher)", "ids": ["bradykardie", "av-block"] },
+    { "text": "Ausgeprägte Bradykardie (sehr langsamer Puls)", "ids": ["bradykardie"] },
+    { "text": "Dekompensierte Herzinsuffizienz bzw. Linksherzschwäche mit Lungenstauung", "ids": ["herzinsuffizienz"] },
+    { "text": "Kardiogener Schock, akuter Herzinfarkt mit Komplikationen, ausgeprägte Hypotonie (systolisch unter 90 mmHg)", "ids": ["schock", "herzinfarkt", "hypotonie"] },
+    { "text": "Vorhofflimmern oder -flattern bei WPW-Syndrom (zusätzliche Leitungsbahn)", "ids": ["vorhofflimmern", "herzrhythmusstoerung"] },
+    { "text": "Schwangerschaft; Frauen im gebärfähigen Alter ohne zuverlässige Verhütung", "ids": ["schwangerschaft", "frauen-gebaerfaehig"] }
+  ],
+  "vorsicht": [
+    { "text": "AV-Block 1. Grades, langsamer Puls, Neigung zu Reizleitungsstörungen", "ids": ["av-block", "bradykardie"] },
+    { "text": "Eingeschränkte Pumpfunktion der linken Herzkammer", "ids": ["herzinsuffizienz"] },
+    { "text": "Eingeschränkte Leber- oder Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Ältere Menschen: Dosis vorsichtig wählen", "ids": ["aeltere-patienten"] },
+    { "text": "Diabetes: Blutzucker kann ansteigen – Kontrollen", "ids": ["diabetes"] },
+    { "text": "Neigung zu Darmverschluss (verlangsamte Darmtätigkeit)", "ids": ["darmverschluss"] },
+    { "text": "Narkose: Herzkraft und Reizleitung können zusätzlich gedämpft werden – Anästhesie informieren", "ids": ["anaesthesie", "operation"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Dantrolen als Infusion", "ref": ["dantrolen"], "grund": "Gefahr von Kammerflimmern (im Tierversuch tödliches Kammerflimmern unter Calciumantagonist und Dantrolen i. v.)." },
+    { "text": "Ivabradin", "ref": ["ivabradin"], "grund": "Diltiazem erhöht die Ivabradin-Spiegel (CYP3A4) und verstärkt die Pulsverlangsamung – Gefahr einer ausgeprägten Bradykardie." },
+    { "text": "Lomitapid", "ref": [], "grund": "Diltiazem hemmt den Abbau von Lomitapid (CYP3A4) – stark erhöhte Spiegel mit Gefahr von Leberschäden." }
+  ],
+  "interaktionen": [
+    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Verstärkte Pulsverlangsamung, AV-Block, Blutdruckabfall und Herzschwäche – nur unter ärztlicher Überwachung (Puls, EKG).", "schwere": "schwer" },
+    { "text": "Amiodaron, Dronedaron und Digoxin", "ref": ["amiodaron", "dronedaron", "digoxin"], "effekt": "Verstärkte Bradykardie und AV-Block; Digoxin-Spiegel steigen – EKG und Spiegel kontrollieren.", "schwere": "schwer" },
+    { "text": "Simvastatin und Atorvastatin", "ref": ["simvastatin", "atorvastatin"], "effekt": "Statin-Spiegel steigen – Risiko für Muskelschäden; Simvastatin höchstens 20 mg pro Tag.", "schwere": "schwer" },
+    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["ciclosporin", "tacrolimus", "gruppe:mtor-hemmer"], "effekt": "Spiegel des Immunsuppressivums steigen – Spiegel kontrollieren, Dosis anpassen.", "schwere": "mittel" },
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Diltiazem-Spiegel sinken stark – Wirkung kann nachlassen; engmaschig überwachen.", "schwere": "mittel" },
+    { "text": "Carbamazepin und Phenytoin", "ref": ["carbamazepin", "phenytoin"], "effekt": "Spiegel von Carbamazepin bzw. Phenytoin können steigen (Schwindel, Doppelbilder), Diltiazem-Spiegel sinken – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Diltiazem-Spiegel steigen – Bradykardie und Blutdruckabfall möglich; überwachen.", "schwere": "mittel" },
+    { "text": "Midazolam und Triazolam", "ref": ["midazolam", "triazolam"], "effekt": "Deutlich höhere Spiegel – verstärkte und verlängerte Müdigkeit; Dosis reduzieren oder anderes Schlafmittel wählen.", "schwere": "mittel" },
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Erhöhtes Risiko für Nervenschäden durch Lithium – Befinden und Spiegel überwachen.", "schwere": "mittel" },
+    { "text": "Alpha-1-Blocker und Nitrate", "ref": ["gruppe:alpha1-blocker", "gruppe:nitrate"], "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.", "schwere": "mittel" },
+    { "text": "Theophyllin", "ref": ["theophyllin"], "effekt": "Theophyllin-Spiegel können steigen.", "schwere": "leicht" },
+    { "text": "Methylprednisolon", "ref": ["methylprednisolon"], "effekt": "Höhere Methylprednisolon-Spiegel – ggf. Dosis anpassen.", "schwere": "leicht" },
+    { "text": "H2-Blocker (Cimetidin)", "ref": ["gruppe:h2-blocker"], "effekt": "Höhere Diltiazem-Spiegel – Kontrolle bei Beginn oder Ende der Kombination.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Periphere Ödeme (Wassereinlagerungen, vor allem an den Knöcheln)"],
+    "haeufig": ["Kopfschmerzen, Schwindel", "AV-Block (verlangsamte Erregungsleitung im Herzen)", "Herzklopfen", "Flush (Gesichtsrötung mit Wärmegefühl)", "Verstopfung, Verdauungsstörungen, Magenschmerzen, Übelkeit", "Hautrötung (Erythem)", "Unwohlsein, Müdigkeit"],
+    "gelegentlich": ["Bradykardie (langsamer Puls)", "Blutdruckabfall beim Aufstehen", "Nervosität, Schlaflosigkeit", "Erbrechen, Durchfall", "Erhöhte Leberwerte"],
+    "selten": ["Mundtrockenheit", "Nesselsucht (Urtikaria)"],
+    "unbekannt": ["Sinusknotenstillstand, sinuatrialer Block, Herzstillstand, Verschlechterung einer Herzschwäche", "Thrombozytopenie (Mangel an Blutplättchen)", "Stimmungsschwankungen einschliesslich Depression; extrapyramidale Bewegungsstörungen", "Hepatitis; Zahnfleischwucherung (Gingivahyperplasie)", "Schwere Hautreaktionen (Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP, exfoliative Dermatitis)", "Angioödem, Lichtempfindlichkeit, Vaskulitis (Gefässentzündung)", "Brustvergrösserung beim Mann, vermehrtes Schwitzen"]
+  },
+  "schwangerschaft": "Kontraindiziert (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter sollen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Diltiazem geht in die Muttermilch über; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Retardform unzerkaut mit Flüssigkeit schlucken.",
+    "Puls regelmässig messen; bei sehr langsamem Puls, Schwindel oder Ohnmacht ärztlich melden.",
+    "Kann die Fahrtüchtigkeit beeinträchtigen, besonders zu Beginn der Behandlung.",
+    "Vor Operationen und beim Beginn neuer Medikamente die Einnahme angeben – Diltiazem hat viele Wechselwirkungen."
+  ],
+  "stand": "2026-10"
+}

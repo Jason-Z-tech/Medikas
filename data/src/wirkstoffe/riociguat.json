@@ -1,0 +1,239 @@
+{
+  "id": "riociguat",
+  "name": "Riociguat",
+  "synonyme": [
+    "BAY 63-2521"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C02KX05"
+  ],
+  "klasse": "Stimulator der löslichen Guanylatcyclase (sGC-Stimulator)",
+  "kurz": "Mittel gegen Lungenhochdruck: bei chronisch thromboembolischer pulmonaler Hypertonie (CTEPH) und bei pulmonaler arterieller Hypertonie.",
+  "gruppen": [
+    "blutdrucksenkend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Adempas"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronisch thromboembolische pulmonale Hypertonie (CTEPH), wenn nicht operabel oder nach Operation fortbestehend bzw. wiederkehrend (WHO-Funktionsklasse II–III)",
+      "ids": [
+        "pulmonale-hypertonie",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Pulmonale arterielle Hypertonie (WHO-Funktionsklasse II–III), allein oder in Kombination mit einem Endothelin-Rezeptor-Antagonisten",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Lungengefässe und senkt so den Druck im Lungenkreislauf. Riociguat stimuliert die lösliche Guanylatcyclase (sGC) auf zwei Wegen: direkt, unabhängig von Stickstoffmonoxid (NO), und indem es das Enzym für körpereigenes NO empfindlicher macht. Der Anstieg des Botenstoffs cGMP entspannt die glatte Gefässmuskulatur und wirkt Gefässumbau und Entzündung entgegen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Systolischer Blutdruck unter 95 mmHg bei Behandlungsbeginn",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Lungenhochdruck bei idiopathischer interstitieller Pneumonie (PH-IIP)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Pulmonale venookklusive Erkrankung (nicht empfohlen; Gefahr eines Lungenödems)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Blutungen der Atemwege (Bluthusten), besonders unter Gerinnungshemmern",
+      "ids": [
+        "antikoagulation",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Flüssigkeitsmangel, Ausflussbehinderung der linken Herzkammer oder autonome Funktionsstörungen",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Niereninsuffizienz (Kreatinin-Clearance unter 15 ml/min oder Dialyse: nicht empfohlen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Mittelschwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufiger tiefer Blutdruck)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Raucherinnen und Raucher (tiefere Spiegel; Dosisanpassung beim Rauchstopp)",
+      "ids": [
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung, monatlicher Schwangerschaftstest empfohlen",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "PDE-5-Hemmer (z. B. Sildenafil, Tadalafil, Vardenafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "grund": "Gleichsinnige Erhöhung von cGMP – Gefahr eines schweren Blutdruckabfalls."
+    },
+    {
+      "text": "Nitrate und NO-Donatoren in jeder Form (z. B. Nitroglycerin, Isosorbiddinitrat, Molsidomin, Amylnitrit/«Poppers»)",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "grund": "Gleichsinnige Wirkung auf den NO-cGMP-Signalweg – Gefahr eines schweren Blutdruckabfalls."
+    },
+    {
+      "text": "Unspezifische Phosphodiesterase-Hemmer (Dipyridamol, Theophyllin)",
+      "ref": [
+        "dipyridamol",
+        "theophyllin"
+      ],
+      "grund": "Verminderter Abbau von cGMP – Gefahr eines schweren Blutdruckabfalls."
+    },
+    {
+      "text": "Andere Stimulatoren der löslichen Guanylatcyclase (z. B. Vericiguat)",
+      "ref": [
+        "vericiguat"
+      ],
+      "grund": "Gleicher Wirkmechanismus – Gefahr eines schweren Blutdruckabfalls."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke Hemmer mehrerer Abbauwege (CYP, P-gp, BCRP), z. B. Ketoconazol, Itraconazol, Ritonavir-haltige HIV-Therapie",
+      "ref": [
+        "ketoconazol",
+        "itraconazol",
+        "ritonavir",
+        "cobicistat",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Riociguat-Spiegel steigen stark (Gefahr von tiefem Blutdruck) – Kombination nicht empfohlen; falls nötig, mit tiefer Dosis beginnen und überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antazida (z. B. Aluminium-/Magnesiumhydroxid)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Riociguat – Antazida mindestens 2 Stunden vor oder 1 Stunde nach Riociguat einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenytoin, Carbamazepin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Riociguat-Spiegel sinken – Dosisanpassung kann nötig sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gerinnungshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Risiko für Blutungen der Atemwege – sorgfältig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP1A1-Hemmer (z. B. Erlotinib) und Granisetron",
+      "ref": [
+        "erlotinib",
+        "granisetron"
+      ],
+      "effekt": "Können die Riociguat-Spiegel erhöhen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Schwindel",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Übelkeit, Durchfall, Erbrechen",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "haeufig": [
+      "Gastroenteritis (Magen-Darm-Entzündung), Gastritis, Sodbrennen",
+      "Anämie (Blutarmut)",
+      "Herzklopfen",
+      "Hypotonie (tiefer Blutdruck)",
+      "Bluthusten, Nasenbluten",
+      "Verstopfte Nase",
+      "Bauchschmerzen, Verstopfung, Blähbauch, Schluckbeschwerden"
+    ],
+    "gelegentlich": [
+      "Lungenblutung (schwer, teils tödlich)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kontraindiziert – im Tierversuch fruchtschädigend. Frauen im gebärfähigen Alter müssen zuverlässig verhüten; monatliche Schwangerschaftstests werden empfohlen.",
+  "stillzeit": "Nicht stillen.",
+  "hinweise": [
+    "Nie zusammen mit Potenzmitteln (PDE-5-Hemmern), Nitraten oder «Poppers» einnehmen – lebensgefährlicher Blutdruckabfall.",
+    "Rauchen schwächt die Wirkung ab; einen Rauchstopp der Ärztin oder dem Arzt mitteilen (Dosisanpassung).",
+    "Antazida mindestens 2 Stunden vor oder 1 Stunde nach Riociguat einnehmen.",
+    "Schwindel kann die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

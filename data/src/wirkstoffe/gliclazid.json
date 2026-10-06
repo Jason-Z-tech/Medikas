@@ -1,0 +1,58 @@
+{
+  "id": "gliclazid",
+  "name": "Gliclazid",
+  "synonyme": ["Gliclazide", "Gliclazidum"],
+  "atc": ["A10BB09"],
+  "klasse": "Sulfonylharnstoff (orales Antidiabetikum)",
+  "kurz": "Tablette gegen Typ-2-Diabetes; regt die Bauchspeicheldrüse zur Ausschüttung von Insulin an und kann Unterzuckerungen auslösen.",
+  "gruppen": ["sulfonylharnstoffe", "hypoglykaemie-ausloesend", "cyp2c9-substrate-eng"],
+  "handelsnamen": ["Diamicron MR"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten mit veränderter Wirkstofffreisetzung (Retardtabletten)"],
+  "indikationen": [
+    { "text": "Typ-2-Diabetes bei Erwachsenen, wenn Ernährung, Bewegung und Gewichtsabnahme allein den Blutzucker nicht ausreichend senken", "ids": ["diabetes-typ-2", "diabetes"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutzucker, indem es die Bauchspeicheldrüse zur vermehrten Ausschüttung von Insulin anregt. Gliclazid bindet an den Sulfonylharnstoff-Rezeptor (SUR1) der Betazellen und schliesst dort ATP-abhängige Kaliumkanäle; die Zellmembran wird depolarisiert, Calcium strömt ein und Insulin wird freigesetzt. Weil dies auch bei normalem Blutzucker geschieht, kann eine Unterzuckerung entstehen. Gliclazid wird in der Leber vor allem über CYP2C9 und CYP2C19 abgebaut; die Retardtablette wird einmal täglich zum Frühstück eingenommen.",
+  "kontraindikationen": [
+    { "text": "Typ-1-Diabetes", "ids": ["diabetes-typ-1"] },
+    { "text": "Diabetisches Präkoma oder Koma, diabetische Ketoazidose", "ids": ["ketoazidose"] },
+    { "text": "Schwere Nieren- oder Leberinsuffizienz (hier wird Insulin empfohlen)", "ids": ["niereninsuffizienz", "leberinsuffizienz", "schwere-leberinsuffizienz"] },
+    { "text": "Überempfindlichkeit gegen andere Sulfonylharnstoffe oder Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Unregelmässige oder ausgelassene Mahlzeiten, Fasten, Alkohol oder ungewohnte körperliche Anstrengung: Gefahr einer Unterzuckerung, die lange anhalten und nach Besserung wiederkehren kann", "ids": ["hypoglykaemie", "alkoholkonsum"] },
+    { "text": "Ältere Menschen, eingeschränkte Nieren- oder Leberfunktion, Mangelernährung: erhöhtes Unterzuckerungsrisiko", "ids": ["aeltere-patienten", "niereninsuffizienz", "leberinsuffizienz", "mangelernaehrung"] },
+    { "text": "Unterfunktion von Nebenniere, Hirnanhangsdrüse oder Schilddrüse: erhöhtes Unterzuckerungsrisiko", "ids": ["nebenniereninsuffizienz", "hypophyseninsuffizienz", "hypothyreose"] },
+    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel: Gefahr von Blutzerfall (hämolytische Anämie)", "ids": ["g6pd-mangel"] },
+    { "text": "Porphyrie: unter anderen Sulfonylharnstoffen wurden akute Porphyrie-Schübe beschrieben", "ids": ["porphyrie"] },
+    { "text": "Fieber, schwere Infekte, Unfälle oder Operationen können vorübergehend eine Umstellung auf Insulin nötig machen", "ids": ["aktive-infektion", "operation"] },
+    { "text": "Unterzuckerung kann Konzentration und Reaktionsfähigkeit beeinträchtigen (Autofahren)", "ids": ["autofahren"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Miconazol (systemisch oder als Mundgel)", "ref": ["miconazol"], "grund": "Miconazol verstärkt die blutzuckersenkende Wirkung stark – Gefahr schwerer Unterzuckerung bis zum Koma." }
+  ],
+  "interaktionen": [
+    { "text": "Alkohol und alkoholhaltige Arzneimittel", "ref": [], "effekt": "Verstärkt die Unterzuckerung und kann zum Koma führen – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Andere Blutzuckersenker (Insulin, Metformin, Acarbose, Pioglitazon, DPP-4-Hemmer, GLP-1-Agonisten, SGLT-2-Hemmer)", "ref": ["gruppe:insuline", "metformin", "acarbose", "pioglitazon", "gruppe:dpp4-hemmer", "gruppe:glp1-agonisten", "gruppe:sglt2-hemmer"], "effekt": "Verstärkte Blutzuckersenkung – Unterzuckerungsgefahr, Gliclazid-Dosis gegebenenfalls reduzieren.", "schwere": "mittel" },
+    { "text": "Fluconazol und Clarithromycin", "ref": ["fluconazol", "clarithromycin"], "effekt": "Verstärken die blutzuckersenkende Wirkung – Blutzucker engmaschig kontrollieren, Dosis eventuell anpassen.", "schwere": "mittel" },
+    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Können die Blutzuckersenkung verstärken und die Warnzeichen einer Unterzuckerung verschleiern.", "schwere": "mittel" },
+    { "text": "ACE-Hemmer (z. B. Captopril, Enalapril), H2-Blocker, MAO-Hemmer, Sulfonamide, NSAR", "ref": ["gruppe:ace-hemmer", "gruppe:h2-blocker", "gruppe:mao-hemmer", "sulfamethoxazol-trimethoprim", "gruppe:nsar"], "effekt": "Können die blutzuckersenkende Wirkung verstärken – Blutzucker kontrollieren.", "schwere": "mittel" },
+    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin, Moxifloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Blutzuckerschwankungen mit Unter- oder Überzuckerung möglich – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
+    { "text": "Glukokortikoide, Chlorpromazin in hoher Dosis, Beta-2-Sympathomimetika intravenös (Salbutamol, Terbutalin), Danazol", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:beta2-sympathomimetika"], "effekt": "Erhöhen den Blutzucker – Blutzucker häufiger messen, eventuell vorübergehend Insulin.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gliclazid kann die gerinnungshemmende Wirkung verstärken – INR kontrollieren.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "selten": ["Blutbildveränderungen (Anämie, Leukopenie, Thrombozytopenie, Granulozytopenie), meist nach Absetzen rückläufig"],
+    "unbekannt": ["Hypoglykämie (Unterzuckerung), teils lang anhaltend – die wichtigste Nebenwirkung", "Magen-Darm-Beschwerden (Bauchschmerzen, Übelkeit, Erbrechen, Verdauungsbeschwerden, Durchfall, Verstopfung)", "Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht, Angioödem)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, sehr selten DRESS)", "Erhöhte Leberwerte, vereinzelt Hepatitis mit Gelbsucht", "Vorübergehende Sehstörungen zu Behandlungsbeginn"]
+  },
+  "schwangerschaft": "Nicht anwenden: Bei geplanter oder eingetretener Schwangerschaft wird auf Insulin umgestellt.",
+  "stillzeit": "Kontraindiziert: Gefahr der Unterzuckerung beim gestillten Kind.",
+  "hinweise": [
+    "Einmal täglich zum Frühstück einnehmen; die Retardtablette nicht zerkauen (teilbare Tabletten nur an der Bruchrille teilen).",
+    "Keine Mahlzeit auslassen und Traubenzucker bei sich tragen; Unterzuckerungen können lange anhalten.",
+    "Alkohol meiden, da er Unterzuckerungen verstärkt.",
+    "Bei Fieber, schweren Infekten oder vor Operationen ärztlich klären, ob vorübergehend Insulin nötig ist."
+  ],
+  "stand": "2026-10"
+}

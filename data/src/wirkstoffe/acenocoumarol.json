@@ -1,0 +1,73 @@
+{
+  "id": "acenocoumarol",
+  "name": "Acenocoumarol",
+  "synonyme": ["Acenocoumarolum", "Nicoumalone"],
+  "atc": ["B01AA07"],
+  "klasse": "Vitamin-K-Antagonist (Cumarinderivat, orales Antikoagulans)",
+  "kurz": "Blutverdünner (Vitamin-K-Antagonist) gegen Thrombosen, Embolien und Schlaganfall bei Vorhofflimmern; kürzer wirksam als Phenprocoumon, Dosis nach INR.",
+  "gruppen": ["vitamin-k-antagonisten", "antikoagulanzien", "blutungsrisiko-erhoehend", "cyp2c9-substrate-eng", "teratogen"],
+  "handelsnamen": ["Sintrom"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Behandlung von Venenthrombosen und Lungenembolien sowie Vorbeugung von Rückfällen", "ids": ["thrombose", "lungenembolie"] },
+    { "text": "Vorbeugung von Blutgerinnseln und Schlaganfällen bei Vorhofflimmern", "ids": ["vorhofflimmern", "schlaganfall", "thromboseprophylaxe"] },
+    { "text": "Vorbeugung von Thromboembolien bei künstlichen Herzklappen und anderen Herzklappenerkrankungen", "ids": ["herzklappenerkrankung", "thromboseprophylaxe"] },
+    { "text": "Behandlung nach Herzinfarkt bei erhöhtem Risiko für thromboembolische Komplikationen", "ids": ["herzinfarkt"] }
+  ],
+  "wirkmechanismus": "Hemmt die Blutgerinnung, indem es die Wirkung von Vitamin K in der Leber blockiert. Acenocoumarol hemmt die Vitamin-K-Epoxid-Reduktase (VKORC1); dadurch werden die Gerinnungsfaktoren II, VII, IX und X sowie Protein C und S nicht mehr funktionsfähig gebildet. Die volle Wirkung setzt nach 2–3 Tagen ein, zu Beginn wird oft überlappend Heparin gegeben. Mit einer Halbwertszeit von etwa 8–11 Stunden wirkt es deutlich kürzer als Phenprocoumon, der INR normalisiert sich nach dem Absetzen innert weniger Tage; abgebaut wird es vor allem über CYP2C9, Gegenmittel ist Vitamin K.",
+  "kontraindikationen": [
+    { "text": "Erkrankungen mit erhöhter Blutungsneigung (hämorrhagische Diathese, Blutbildungsstörungen, schwere Thrombozytopenie)", "ids": ["blutgerinnungsstoerung", "thrombozytopenie"] },
+    { "text": "Aktive Blutungen oder Geschwüre im Magen-Darm-, Harn- oder Atemtrakt", "ids": ["aktive-blutung", "magen-darm-ulkus"] },
+    { "text": "Hirnblutung sowie Aneurysma im Gehirn oder an der Aorta", "ids": ["hirnblutung", "aneurysma"] },
+    { "text": "Kürzliche oder geplante Operationen an Gehirn, Rückenmark oder Auge sowie grössere Operationen mit ausgedehnten Wundflächen", "ids": ["operation"] },
+    { "text": "Schwerer Bluthochdruck", "ids": ["hypertonie"] },
+    { "text": "Schwere Leber- oder Nierenfunktionsstörung", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Bakterielle Endokarditis, Perikarditis oder Perikarderguss", "ids": [] },
+    { "text": "Schwangerschaft; drohende Fehlgeburt, Präeklampsie", "ids": ["schwangerschaft"] },
+    { "text": "Fehlende Zuverlässigkeit bei Einnahme und Kontrollen (z. B. Demenz oder Alkoholkrankheit ohne Betreuung)", "ids": ["demenz", "alkoholabhaengigkeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Ältere Menschen und Sturzgefahr (erhöhtes Blutungsrisiko)", "ids": ["aeltere-patienten"] },
+    { "text": "Leichte bis mittelschwere Leber- oder Nierenfunktionsstörung", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Schilddrüsenfunktionsstörungen: eine Überfunktion verstärkt, eine Unterfunktion schwächt die Wirkung", "ids": ["hyperthyreose", "hypothyreose"] },
+    { "text": "Herzschwäche mit Leberstauung, Fieber, Durchfall oder Ernährungsumstellung (INR-Schwankungen)", "ids": ["herzinsuffizienz", "fieber", "durchfall"] },
+    { "text": "Geplante Operationen und Zahnbehandlungen; keine Injektionen in den Muskel", "ids": ["operation"] },
+    { "text": "Angeborener Protein-C- oder Protein-S-Mangel (Gefahr von Hautnekrosen zu Therapiebeginn)", "ids": ["thromboembolie-vorgeschichte"] },
+    { "text": "Regelmässiger oder starker Alkoholkonsum", "ids": ["alkoholkonsum"] },
+    { "text": "Frauen im gebärfähigen Alter: sichere Verhütung nötig", "ids": ["frauen-gebaerfaehig"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere Antikoagulanzien (Heparine, DOAK wie Rivaroxaban, Apixaban, Edoxaban, Dabigatran)", "ref": ["gruppe:heparine", "gruppe:doak"], "effekt": "Stark erhöhtes Blutungsrisiko – nur überlappend bei Therapiebeginn oder Umstellung nach ärztlicher Anordnung.", "schwere": "schwer" },
+    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Prasugrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur bei klarer Indikation (z. B. nach Stent) und befristet.", "schwere": "schwer" },
+    { "text": "NSAR und COX-2-Hemmer (z. B. Ibuprofen, Diclofenac, Naproxen, Celecoxib)", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen – möglichst meiden; als Schmerzmittel eher Paracetamol in niedriger Dosis.", "schwere": "schwer" },
+    { "text": "Azol-Antimykotika, auch Miconazol-Mundgel (z. B. Fluconazol, Voriconazol, Miconazol)", "ref": ["gruppe:azol-antimykotika", "miconazol"], "effekt": "Gehemmter Abbau über CYP2C9 – der INR kann stark ansteigen; meiden oder INR engmaschig kontrollieren und Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Amiodaron und andere CYP2C9-Hemmer", "ref": ["amiodaron", "gruppe:cyp2c9-hemmer"], "effekt": "Stark verstärkte Wirkung, bei Amiodaron noch Wochen nach dem Absetzen – INR engmaschig kontrollieren, Dosis reduzieren.", "schwere": "schwer" },
+    { "text": "Antibiotika, besonders Cotrimoxazol, Metronidazol, Makrolide und Fluorchinolone", "ref": ["sulfamethoxazol-trimethoprim", "gruppe:nitroimidazole", "gruppe:makrolide", "gruppe:fluorchinolone"], "effekt": "INR-Anstieg und Blutungsgefahr (Abbauhemmung, gestörte Vitamin-K-bildende Darmflora) – während und kurz nach der Antibiotikatherapie INR häufiger kontrollieren.", "schwere": "schwer" },
+    { "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "rifampicin", "johanniskraut"], "effekt": "Beschleunigter Abbau – der INR sinkt (Thrombosegefahr); beim Absetzen des Induktors steigt er wieder (Blutungsgefahr). INR eng überwachen.", "schwere": "schwer" },
+    { "text": "Fluorouracil, Capecitabin und Tamoxifen", "ref": ["gruppe:fluoropyrimidine", "tamoxifen"], "effekt": "Deutlicher INR-Anstieg mit Blutungen beschrieben – INR engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko durch Hemmung der Blutplättchen; Fluoxetin und Fluvoxamin hemmen zusätzlich den Abbau – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen, INR-Veränderungen möglich – Kontrollen.", "schwere": "mittel" },
+    { "text": "Paracetamol bei regelmässiger Einnahme höherer Dosen", "ref": ["paracetamol"], "effekt": "Der INR kann nach einigen Tagen ansteigen – bei Dauereinnahme INR kontrollieren; gelegentliche Einzeldosen sind unproblematisch.", "schwere": "mittel" },
+    { "text": "Fibrate und einige Statine (z. B. Fenofibrat, Bezafibrat, Rosuvastatin, Simvastatin)", "ref": ["gruppe:fibrate", "rosuvastatin", "simvastatin"], "effekt": "Verstärkte gerinnungshemmende Wirkung – INR bei Beginn und Dosisänderung kontrollieren.", "schwere": "mittel" },
+    { "text": "Schilddrüsenhormone und Thyreostatika", "ref": ["gruppe:schilddruesenhormone", "gruppe:thyreostatika"], "effekt": "Schilddrüsenhormone verstärken die Wirkung, Thyreostatika schwächen sie ab – INR bei Dosisänderungen kontrollieren.", "schwere": "mittel" },
+    { "text": "Allopurinol", "ref": ["allopurinol"], "effekt": "Kann die gerinnungshemmende Wirkung verstärken – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Gallensäurebinder (Colestyramin) und Vitamin K (Phytomenadion), auch in Nahrungsergänzungsmitteln", "ref": ["gruppe:gallensaeurebinder", "phytomenadion"], "effekt": "Abgeschwächte Wirkung (verminderte Aufnahme bzw. direkter Gegenspieler) – Colestyramin zeitversetzt einnehmen, Vitamin-K-Zufuhr gleichmässig halten, INR kontrollieren.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Blutungen unterschiedlicher Schwere – meist leicht (Zahnfleisch- und Nasenbluten, Blutergüsse, Blut im Urin), seltener schwer (Magen-Darm-Blutung, Hirnblutung)"],
+    "selten": ["Appetitlosigkeit, Übelkeit, Erbrechen", "Allergische Hautreaktionen (Nesselsucht, Ausschlag, Juckreiz)", "Haarausfall"],
+    "sehrSelten": ["Hämorrhagische Hautnekrosen (Cumarin-Nekrose), meist bei angeborenem Protein-C-Mangel", "Gefässentzündung (Vaskulitis)", "Leberschäden"],
+    "unbekannt": ["Calciphylaxie (schmerzhafte Hautgeschwüre durch Gefässverkalkung), vor allem bei Nierenkrankheit"]
+  },
+  "schwangerschaft": "Kontraindiziert: Acenocoumarol kann das Kind schädigen (Cumarin-Embryopathie, Blutungen). Frauen im gebärfähigen Alter müssen sicher verhüten; bei Kinderwunsch oder Schwangerschaft umgehend ärztlich auf Heparin umstellen.",
+  "stillzeit": "Geht nur in geringen Mengen in die Muttermilch über; Stillen ist nach ärztlicher Abwägung möglich, das Kind erhält vorsorglich Vitamin K.",
+  "hinweise": [
+    "Regelmässige INR-Kontrollen einhalten; Antikoagulationsausweis mitführen und alle Ärztinnen, Ärzte, Zahnärzte und Apotheken informieren.",
+    "Keine neuen Medikamente, auch keine rezeptfreien Schmerzmittel oder pflanzlichen Mittel (z. B. Johanniskraut), ohne Rücksprache – viele verändern den INR.",
+    "Ernährung gleichmässig halten: die Menge Vitamin-K-reicher Lebensmittel (Kohl, Spinat, Sauerkraut, grünes Blattgemüse) nicht plötzlich stark ändern; Alkohol nur in kleinen Mengen.",
+    "Täglich zur gleichen Zeit einnehmen; bei Zeichen einer Blutung (schwarzer Stuhl, Blut im Urin, starke Kopfschmerzen) sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

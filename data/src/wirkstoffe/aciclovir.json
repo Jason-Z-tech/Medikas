@@ -1,0 +1,53 @@
+{
+  "id": "aciclovir",
+  "name": "Aciclovir",
+  "synonyme": ["Acyclovir", "Aciclovirum", "ACV"],
+  "atc": ["J05AB01", "D06BB03", "S01AD03"],
+  "klasse": "Virostatikum (Nukleosidanalogon gegen Herpesviren)",
+  "kurz": "Mittel gegen Herpesviren: als Crème bei Lippenherpes, als Tabletten oder Infusion bei Genitalherpes, Gürtelrose und Windpocken.",
+  "gruppen": ["nephrotoxisch"],
+  "handelsnamen": ["Zovirax", "Aciclovir Mepha", "Aciclovir Sandoz", "Aciclovir Spirig HC"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Tabletten", "Suspension zum Einnehmen", "Crème", "Infusionslösung (Spital)"],
+  "indikationen": [
+    { "text": "Lippenherpes (Herpes labialis) – Crème", "ids": ["herpes"] },
+    { "text": "Herpes-simplex-Infektionen von Haut und Schleimhäuten, inkl. erstmaligem und wiederkehrendem Genitalherpes; Unterdrückung häufiger Rückfälle", "ids": ["herpes", "geschlechtskrankheit"] },
+    { "text": "Gürtelrose (Herpes zoster) und Windpocken (Varizellen)", "ids": ["herpes", "masern-mumps-roeteln"] },
+    { "text": "Vorbeugung und Behandlung von Herpes-Infektionen bei geschwächter Abwehr", "ids": ["herpes", "immunsuppression"] },
+    { "text": "Als Infusion: Herpes-Enzephalitis (Hirnentzündung), Herpes beim Neugeborenen und schwere Herpes-/Varizellen-Infektionen", "ids": ["herpes"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Herpesviren in befallenen Zellen. Aciclovir wird bevorzugt in virusinfizierten Zellen durch die virale Thymidinkinase und danach durch zelluläre Enzyme zu Aciclovirtriphosphat umgewandelt. Dieses hemmt die virale DNA-Polymerase und führt nach Einbau in die Virus-DNA zum Kettenabbruch. Gesunde Zellen bleiben weitgehend verschont; ruhende (latente) Viren werden nicht beseitigt, Rückfälle bleiben daher möglich.",
+  "kontraindikationen": [
+    { "text": "Überempfindlichkeit gegen Valaciclovir (Kreuzallergie)", "ids": ["allergie"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosis anpassen; sonst Gefahr neurologischer Nebenwirkungen (Verwirrtheit, Halluzinationen, Krampfanfälle)", "ids": ["niereninsuffizienz"] },
+    { "text": "Ältere Menschen: häufiger eingeschränkte Nierenfunktion und neurologische Nebenwirkungen", "ids": ["aeltere-patienten"] },
+    { "text": "Flüssigkeitsmangel, besonders bei hoch dosierter Infusion: Gefahr von Kristallablagerungen in der Niere – ausreichend Flüssigkeit", "ids": ["dehydratation"] },
+    { "text": "Stark geschwächte Abwehr und Langzeitbehandlung: resistente Viren möglich", "ids": ["immunsuppression", "hiv"] },
+    { "text": "Crème: nicht in Augen, Mund oder Scheide auftragen", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere nierenschädigende Mittel (z. B. Ciclosporin, Tacrolimus, Aminoglykoside, Kontrastmittel), vor allem bei Infusion", "ref": ["gruppe:nephrotoxisch"], "effekt": "Höheres Risiko für Nierenschäden – Nierenfunktion überwachen, auf ausreichende Flüssigkeit achten.", "schwere": "mittel" },
+    { "text": "Lithium (bei hoch dosiertem Aciclovir als Infusion)", "ref": ["lithium"], "effekt": "Lithium-Spiegel können steigen – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Mycophenolat", "ref": ["mycophenolat-mofetil", "mycophenolsaeure"], "effekt": "Spiegel beider Mittel steigen leicht – meist ohne klinische Bedeutung, bei Niereninsuffizienz beachten.", "schwere": "leicht" },
+    { "text": "Probenecid und Cimetidin", "ref": [], "effekt": "Hemmen die Ausscheidung über die Niere – Aciclovir-Spiegel steigen; meist keine Dosisanpassung nötig.", "schwere": "leicht" },
+    { "text": "Theophyllin", "ref": ["theophyllin"], "effekt": "Theophyllin-Spiegel können steigen – bei Beschwerden Spiegel kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Kopfschmerzen, Schwindel (Tabletten/Infusion)", "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen (Tabletten/Infusion)", "Juckreiz, Hautausschlag, Lichtempfindlichkeit (Tabletten/Infusion)", "Müdigkeit, Fieber (Tabletten/Infusion)", "Venenentzündung an der Infusionsstelle, Anstieg von Leber- und Nierenwerten (Infusion)"],
+    "gelegentlich": ["Brennen, Stechen, Trockenheit oder Schuppung der Haut (Crème)", "Nesselsucht, beschleunigter diffuser Haarausfall (Tabletten/Infusion)"],
+    "selten": ["Anaphylaxie (schwere allergische Reaktion), Angioödem", "Atemnot", "Erhöhte Leber- und Nierenwerte (Tabletten)", "Hautrötung, Kontaktdermatitis (Crème)"],
+    "sehrSelten": ["Anämie, Leukopenie, Thrombozytopenie", "Verwirrtheit, Halluzinationen, Unruhe, Zittern, Ataxie, Sprechstörungen, Krampfanfälle, Schläfrigkeit, Enzephalopathie, Koma – meist bei eingeschränkter Nierenfunktion", "Hepatitis, Gelbsucht", "Akutes Nierenversagen, Nierenschmerzen"]
+  },
+  "schwangerschaft": "Grosse Schwangerschaftsregister zeigen kein erhöhtes Fehlbildungsrisiko. Tabletten oder Infusion nach ärztlicher Abwägung; die Crème kann angewendet werden.",
+  "stillzeit": "Geht in die Muttermilch über; die Mengen gelten als unbedenklich, Stillen ist in der Regel möglich. Crème nicht an der Brust auftragen.",
+  "hinweise": [
+    "Behandlung so früh wie möglich beginnen – bei Lippenherpes bei den ersten Anzeichen (Kribbeln, Spannungsgefühl).",
+    "Während der Behandlung mit Tabletten oder Infusion ausreichend trinken.",
+    "Crème mit sauberen Fingern oder Wattestäbchen auftragen, danach Hände waschen; Bläschen nicht aufstechen.",
+    "Herpes ist ansteckend: Küssen und Oralverkehr bei Lippenherpes vermeiden, bei Genitalherpes Kondome verwenden."
+  ],
+  "stand": "2026-10"
+}

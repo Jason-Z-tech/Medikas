@@ -1,0 +1,205 @@
+{
+  "id": "amilorid",
+  "name": "Amilorid",
+  "synonyme": [
+    "Amiloride",
+    "Amiloridhydrochlorid"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C03DB01"
+  ],
+  "klasse": "Kaliumsparendes Diuretikum (Hemmer des epithelialen Natriumkanals, ENaC)",
+  "kurz": "Schwach harntreibendes Mittel, das Kalium spart; in der Schweiz nur zusammen mit Hydrochlorothiazid gegen Bluthochdruck und Ödeme.",
+  "gruppen": [
+    "kaliumsparende-diuretika",
+    "diuretika",
+    "hyperkaliaemie-ausloesend",
+    "hyponatriaemie-ausloesend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Moduretic (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Bluthochdruck (in fixer Kombination mit Hydrochlorothiazid)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Ödeme bei Herzinsuffizienz",
+      "ids": [
+        "oedeme",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bauchwassersucht (Aszites) und Ödeme bei Leberzirrhose",
+      "ids": [
+        "leberzirrhose",
+        "oedeme"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verstärkt die Ausscheidung von Salz und Wasser leicht und verhindert, dass dabei zu viel Kalium verloren geht. Amilorid blockiert den epithelialen Natriumkanal (ENaC) im spätdistalen Tubulus und Sammelrohr der Niere, unabhängig von Aldosteron. Dadurch wird weniger Natrium zurückgewonnen und im Gegenzug weniger Kalium und Wasserstoffionen ausgeschieden. Allein wirkt Amilorid nur schwach harntreibend; es wird deshalb mit einem Thiaziddiuretikum kombiniert, dessen Kalium- und Magnesiumverlust es ausgleicht.",
+  "kontraindikationen": [
+    {
+      "text": "Hyperkaliämie (erhöhtes Kalium im Blut)",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Anurie, akute oder schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit (Kombipräparat)",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Diabetes mellitus, besonders mit Nierenschaden (erhöhtes Hyperkaliämierisiko)",
+      "ids": [
+        "diabetes",
+        "diabetische-nephropathie"
+      ]
+    },
+    {
+      "text": "Leicht eingeschränkte Nierenfunktion (Kalium und Kreatinin regelmässig kontrollieren)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufiger Hyperkaliämie und Hyponatriämie)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schwere Herz- oder Lungenerkrankungen mit Neigung zu Übersäuerung des Blutes (Azidose)",
+      "ids": [
+        "herzinsuffizienz",
+        "copd"
+      ]
+    },
+    {
+      "text": "Leberzirrhose (Elektrolytstörungen, hepatische Enzephalopathie möglich)",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Natriummangel (Hyponatriämie), besonders in Kombination mit Thiaziden",
+      "ids": [
+        "hyponatriaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Kaliumpräparate und kaliumhaltige Salzersatzmittel",
+      "ref": [
+        "gruppe:kaliumpraeparate"
+      ],
+      "grund": "Zusätzliche Kaliumzufuhr bei gehemmter Kaliumausscheidung – Gefahr einer lebensbedrohlichen Hyperkaliämie."
+    },
+    {
+      "text": "Andere kaliumsparende Mittel (z. B. Spironolacton, Eplerenon, Triamteren)",
+      "ref": [
+        "gruppe:mineralokortikoid-antagonisten",
+        "gruppe:kaliumsparende-diuretika"
+      ],
+      "grund": "Additive Kaliumretention – Gefahr einer lebensbedrohlichen Hyperkaliämie."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "ACE-Hemmer und Sartane",
+      "ref": [
+        "gruppe:raas-hemmer"
+      ],
+      "effekt": "Erhöhtes Hyperkaliämierisiko – Kalium und Nierenwerte eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus und Trimethoprim",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Erhöhtes Hyperkaliämierisiko – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (Schmerz- und Rheumamittel)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte Wirkung; Hyperkaliämie und akutes Nierenversagen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithiumspiegel kann steigen (v. a. durch das Thiazid im Kombipräparat) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Kopfschmerzen",
+      "Übelkeit, Appetitlosigkeit, Erbrechen",
+      "Durchfall, Bauchschmerzen",
+      "Müdigkeit, Schwächegefühl, Schwindel",
+      "Muskelkrämpfe"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hyponatriämie (Natriummangel)",
+      "Verwirrtheit",
+      "Hautausschlag, Juckreiz",
+      "Potenzstörungen",
+      "Gelbsucht (Ikterus)",
+      "Herzrhythmusstörungen bei Hyperkaliämie"
+    ]
+  },
+  "schwangerschaft": "Das Kombipräparat ist in der Schwangerschaft kontraindiziert; Diuretika können die Durchblutung der Plazenta vermindern.",
+  "stillzeit": "Kontraindiziert; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Morgens mit dem Frühstück einnehmen, damit der vermehrte Harndrang nicht die Nachtruhe stört.",
+    "Kalium, Natrium und Nierenwerte regelmässig kontrollieren lassen.",
+    "Keine kaliumhaltigen Salzersatzmittel oder Kaliumpräparate ohne ärztliche Rücksprache."
+  ],
+  "stand": "2026-10"
+}

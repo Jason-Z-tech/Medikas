@@ -1,0 +1,196 @@
+{
+  "id": "nivolumab",
+  "name": "Nivolumab",
+  "synonyme": [],
+  "atc": [
+    "L01FF01"
+  ],
+  "klasse": "Immun-Checkpoint-Inhibitor (monoklonaler Anti-PD-1-Antikörper)",
+  "kurz": "Immuntherapie (PD-1-Hemmer), die das Immunsystem gegen Krebs aktiviert; u. a. bei Melanom, Lungen-, Nieren- und Kopf-Hals-Krebs.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Opdivo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Melanom: fortgeschritten (allein oder mit Ipilimumab) sowie nach vollständiger Operation (adjuvant)",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Nicht-kleinzelliger Lungenkrebs: fortgeschritten (allein oder mit Ipilimumab und Chemotherapie) sowie rund um die Operation zusammen mit Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Pleuramesotheliom (Brustfellkrebs), mit Ipilimumab",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Nierenzellkarzinom (allein, mit Ipilimumab oder mit Cabozantinib) und Urothelkarzinom (Blasenkrebs)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Klassisches Hodgkin-Lymphom nach Rückfall",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Plattenepithelkarzinom im Kopf-Hals-Bereich nach platinhaltiger Vorbehandlung",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Speiseröhren- und Magenkrebs sowie Krebs am Übergang von Magen und Speiseröhre",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Dickdarmkrebs mit Mikrosatelliteninstabilität (MSI-H/dMMR), mit Ipilimumab",
+      "ids": [
+        "darmkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, sodass körpereigene Abwehrzellen Krebszellen wieder erkennen und angreifen. Nivolumab ist ein humaner IgG4-Antikörper gegen den Rezeptor PD-1 auf T-Lymphozyten. Er verhindert, dass die vom Tumor gebildeten Liganden PD-L1 und PD-L2 an PD-1 binden und die T-Zellen abschalten. Weil diese Immunbremse auch gesundes Gewebe schützt, können immunvermittelte Entzündungen in praktisch allen Organen auftreten.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Autoimmunerkrankungen (mögliche Verschlechterung)",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Nach Organtransplantation: Gefahr einer Abstossung",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Schilddrüsen-, Hypophysen- oder Nebennierenerkrankungen und Diabetes: Hormonwerte und Blutzucker kontrollieren",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (Risiko einer Pneumonitis)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Leber- und Nierenerkrankungen (immunvermittelte Hepatitis oder Nephritis)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Systemische Kortikosteroide oder andere Immunsuppressiva vor Therapiebeginn möglichst vermeiden",
+      "ids": [
+        "langzeit-kortison"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Therapiebeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden; zur Behandlung immunvermittelter Nebenwirkungen nach Beginn sind sie jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ipilimumab",
+      "ref": [
+        "ipilimumab"
+      ],
+      "effekt": "In Kombination deutlich häufiger schwere immunvermittelte Nebenwirkungen – engmaschige Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cabozantinib (Kombination bei Nierenkrebs)",
+      "ref": [
+        "cabozantinib"
+      ],
+      "effekt": "Häufiger stark erhöhte Leberwerte – Leberwerte vor und während der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit",
+      "Hautausschlag, Juckreiz",
+      "Durchfall, Übelkeit",
+      "Muskel-, Knochen- und Gelenkschmerzen",
+      "Appetitlosigkeit",
+      "Husten, Atemnot",
+      "Erhöhte Leberwerte; Abnahme von Lymphozyten, Neutrophilen und Blutplättchen, Anämie (Laborwerte)"
+    ],
+    "haeufig": [
+      "Hypothyreose (Schilddrüsenunterfunktion), Hyperthyreose",
+      "Pneumonitis (Lungenentzündung durch Immunreaktion)",
+      "Kolitis (Dickdarmentzündung), Stomatitis, Erbrechen, Bauchschmerzen, Verstopfung",
+      "Infusionsreaktionen, Überempfindlichkeit",
+      "Infekte der oberen Atemwege, Lungenentzündung",
+      "Kopfschmerzen, Schwindel, periphere Neuropathie",
+      "Vitiligo (Weissfleckenkrankheit), trockene Haut, Haarausfall",
+      "Fieber, Ödeme, Bluthochdruck, Hyperglykämie"
+    ],
+    "gelegentlich": [
+      "Nebenniereninsuffizienz, Hypophysitis (Hirnanhangdrüsenentzündung), Thyreoiditis",
+      "Diabetes mellitus, diabetische Ketoazidose",
+      "Hepatitis",
+      "Nephritis (Nierenentzündung), Nierenversagen",
+      "Pankreatitis, Gastritis",
+      "Uveitis (Augenentzündung)",
+      "Herzrhythmusstörungen, Vorhofflimmern",
+      "Erythema multiforme, Psoriasis, Nesselsucht"
+    ],
+    "selten": [
+      "Myokarditis (Herzmuskelentzündung), Perikarderkrankungen",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Guillain-Barré-Syndrom, Myasthenie-Syndrom, Enzephalitis",
+      "Myositis, Rhabdomyolyse (Muskelzerfall)",
+      "Sklerosierende Cholangitis (Gallengangsentzündung)",
+      "Sarkoidose"
+    ],
+    "unbekannt": [
+      "Abstossung transplantierter Organe",
+      "Hämophagozytische Lymphohistiozytose (HLH, überschiessende Immunreaktion)",
+      "Vogt-Koyanagi-Harada-Syndrom (Entzündung von Augen, Haut und Hirnhäuten)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen, ausser der Nutzen überwiegt (der Antikörper gelangt zum Kind). Frauen müssen während und mindestens 5 Monate nach der letzten Dosis sicher verhüten.",
+  "stillzeit": "Unbekannt, ob Nivolumab in die Muttermilch übergeht; ein Risiko für das Kind ist nicht auszuschliessen – nach ärztlicher Abwägung entscheiden.",
+  "hinweise": [
+    "Neue oder stärkere Beschwerden – Durchfall, Bauchschmerzen, Husten, Atemnot, Hautausschlag, Gelbsucht, starke Müdigkeit, Kopfschmerzen, Sehstörungen – sofort melden, auch Wochen bis Monate nach der letzten Gabe.",
+    "Die Patientenkarte immer mitführen und bei jedem Arztbesuch zeigen.",
+    "Schilddrüsen-, Leber- und Nierenwerte sowie der Blutzucker werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

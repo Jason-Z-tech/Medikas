@@ -1,0 +1,157 @@
+{
+  "id": "lidocain-prilocain",
+  "name": "Lidocain + Prilocain",
+  "synonyme": [
+    "Eutektische Mischung von Lokalanästhetika",
+    "Lidocaine/prilocaine"
+  ],
+  "kombinationAus": [
+    "lidocain",
+    "prilocain"
+  ],
+  "atc": [
+    "N01BB20"
+  ],
+  "klasse": "Lokalanästhetika-Kombination (Amid-Typ) zur Anwendung auf Haut und Schleimhaut",
+  "kurz": "Betäubende Crème oder Pflaster für die Haut, z. B. vor Blutentnahmen, Impfungen oder kleinen Hauteingriffen; auch für Genitalschleimhaut und Beingeschwüre.",
+  "gruppen": [
+    "lokalanaesthetika"
+  ],
+  "handelsnamen": [
+    "Emla"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Crème",
+    "Pflaster"
+  ],
+  "indikationen": [
+    {
+      "text": "Oberflächliche Betäubung der Haut vor Nadelstichen (z. B. Blutentnahme, Venenkatheter, Impfung) und vor kleineren oberflächlichen Eingriffen",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Betäubung der Genitalschleimhaut vor oberflächlichen Eingriffen oder vor einer Infiltrationsanästhesie (Crème)",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Schmerzlinderung bei der Reinigung von Unterschenkelgeschwüren (Ulcus cruris) bei Erwachsenen (Crème)",
+      "ids": [
+        "wunde"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Macht die Haut an der behandelten Stelle für einige Stunden unempfindlich gegen Schmerz. Lidocain und Prilocain bilden zusammen ein bei Raumtemperatur flüssiges («eutektisches») Gemisch, das gut in die Haut eindringt. Dort blockieren beide Wirkstoffe die Natriumkanäle der Nervenendigungen und unterbrechen so die Schmerzweiterleitung. Auf intakter Haut braucht es dafür meist rund 60 Minuten Einwirkzeit unter einem Abdeckverband.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Lokalanästhetika vom Amid-Typ",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel oder angeborene bzw. idiopathische Methämoglobinämie (erhöhte Gefahr eines Sauerstoffmangels im Blut)",
+      "ids": [
+        "g6pd-mangel",
+        "methaemoglobinaemie"
+      ]
+    },
+    {
+      "text": "Säuglinge unter 3 Monaten und Frühgeborene: Methämoglobinämie möglich – Menge und Einwirkzeit genau einhalten",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Atopische Dermatitis (Neurodermitis): kürzere Einwirkzeit, da die Wirkstoffe schneller aufgenommen werden",
+      "ids": [
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Nicht auf offene Wunden (ausser Unterschenkelgeschwüren), nicht in die Augen und nicht bei verletztem Trommelfell anwenden",
+      "ids": [
+        "trommelfellperforation"
+      ]
+    },
+    {
+      "text": "Behandlung mit Antiarrhythmika Klasse III bei grossflächiger Anwendung (Herzwirkung)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Methämoglobin bildende Mittel (z. B. Sulfonamide, Nitrofurantoin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:sulfonamide",
+        "nitrofurantoin",
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Prilocain kann in höheren Dosen die Methämoglobinbildung verstärken – besonders bei Säuglingen Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika Klasse III (z. B. Amiodaron)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Bei grossflächiger Anwendung additive Wirkung auf das Herz – Überwachung, EKG erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Lokalanästhetika und verwandte Mittel",
+      "ref": [
+        "gruppe:lokalanaesthetika",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Bei Anwendung grosser Mengen additive Wirkung auf Herz und Nervensystem.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Mittel, die den Lidocainabbau verlangsamen (z. B. Betablocker)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Bei wiederholter hoher Dosierung über längere Zeit können erhöhte Lidocainspiegel entstehen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Blässe, Rötung und Schwellung bei Anwendung auf Unterschenkelgeschwüren"
+    ],
+    "haeufig": [
+      "Vorübergehende Blässe, Rötung oder Schwellung der Haut an der Anwendungsstelle",
+      "Brennen, Juckreiz oder Reizung (Genitalschleimhaut, Beingeschwüre)"
+    ],
+    "gelegentlich": [
+      "Anfängliches Brennen, Juckreiz oder Wärmegefühl auf intakter Haut"
+    ],
+    "selten": [
+      "Methämoglobinämie (Sauerstoffmangel im Blut), v. a. bei Säuglingen",
+      "Überempfindlichkeitsreaktionen bis zur Anaphylaxie",
+      "Punktförmige Hautblutungen (v. a. bei Kindern mit Neurodermitis oder Dellwarzen)",
+      "Hornhautreizung bei versehentlichem Kontakt mit dem Auge"
+    ]
+  },
+  "schwangerschaft": "Beide Wirkstoffe passieren die Plazenta; Erfahrungen zeigen kein erhöhtes Fehlbildungsrisiko. Anwendung in üblicher Menge nach Abwägung möglich.",
+  "stillzeit": "Lidocain und Prilocain gehen nur in sehr geringen Mengen in die Muttermilch über; Stillen ist bei üblicher Anwendung möglich.",
+  "hinweise": [
+    "Crème dick auftragen und mit einem Folienverband abdecken; auf intakter Haut meist 1 Stunde, auf Genitalschleimhaut nur 5–10 Minuten einwirken lassen.",
+    "Nicht in Augen oder Gehörgang bringen; die betäubte Stelle vor Verletzungen (Kratzen, Hitze, Kälte) schützen.",
+    "Bei Säuglingen und Kleinkindern die für das Alter angegebene Höchstmenge und Einwirkzeit genau einhalten."
+  ],
+  "stand": "2026-10"
+}

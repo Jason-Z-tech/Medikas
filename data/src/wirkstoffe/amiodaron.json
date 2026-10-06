@@ -1,0 +1,108 @@
+{
+  "id": "amiodaron",
+  "name": "Amiodaron",
+  "synonyme": ["Amiodarone", "Amiodaronhydrochlorid"],
+  "atc": ["C01BD01"],
+  "klasse": "Antiarrhythmikum Klasse III (mit Eigenschaften der Klassen I, II und IV)",
+  "kurz": "Stark wirksames Rhythmusmittel gegen schwere Herzrhythmusstörungen und Vorhofflimmern; viele Wechselwirkungen und Langzeitnebenwirkungen.",
+  "gruppen": ["antiarrhythmika-klasse-iii", "qt-verlaengernd", "bradykardisierend", "p-gp-hemmer", "cyp2c9-hemmer", "hepatotoxisch", "photosensibilisierend", "teratogen"],
+  "handelsnamen": ["Cordarone"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Injektionslösung"],
+  "indikationen": [
+    { "text": "Schwere Herzrhythmusstörungen, wenn andere Mittel nicht wirken oder nicht angewendet werden können", "ids": ["herzrhythmusstoerung"] },
+    { "text": "Vorhofflimmern und Vorhofflattern (Wiederherstellung und Erhaltung des Sinusrhythmus)", "ids": ["vorhofflimmern"] },
+    { "text": "Supraventrikuläre Tachykardien, auch bei Wolff-Parkinson-White-Syndrom", "ids": ["herzrhythmusstoerung"] },
+    { "text": "Ventrikuläre Tachykardien und Kammerflimmern, intravenös auch bei der Wiederbelebung (Reanimation)", "ids": ["herzrhythmusstoerung", "schock"] }
+  ],
+  "wirkmechanismus": "Stabilisiert den Herzrhythmus, indem es die elektrische Erholungsphase der Herzmuskelzellen verlängert. Amiodaron blockiert vor allem Kaliumkanäle und verlängert so Aktionspotenzial und Refraktärzeit in Vorhöfen, AV-Knoten und Kammern (Klasse III). Zusätzlich hemmt es Natrium- und Calciumkanäle sowie Alpha- und Beta-Rezeptoren, was den Puls verlangsamt und die AV-Überleitung bremst. Amiodaron enthält viel Jod, reichert sich im Gewebe an und hat eine sehr lange Halbwertszeit von etwa 50 Tagen; die Wirkung hält nach dem Absetzen noch Wochen bis Monate an.",
+  "kontraindikationen": [
+    { "text": "Sinusbradykardie, sinuatrialer Block oder Sinusknotensyndrom ohne Herzschrittmacher", "ids": ["bradykardie"] },
+    { "text": "AV-Block 2. oder 3. Grades sowie bi- oder trifaszikulärer Block ohne Herzschrittmacher", "ids": ["av-block"] },
+    { "text": "Bestehende oder frühere Schilddrüsenfunktionsstörung", "ids": ["hyperthyreose", "hypothyreose"] },
+    { "text": "Jodüberempfindlichkeit", "ids": ["allergie"] },
+    { "text": "Schwangerschaft (ausser in lebensbedrohlichen Situationen)", "ids": ["schwangerschaft"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] },
+    { "text": "Intravenöse Gabe: schwere Hypotonie, Kreislaufkollaps, schwere Ateminsuffizienz, dekompensierte Herzinsuffizienz oder Kardiomyopathie (ausser bei Reanimation)", "ids": ["hypotonie", "schock", "herzinsuffizienz", "kardiomyopathie"] }
+  ],
+  "vorsicht": [
+    { "text": "Lungenerkrankungen (Gefahr einer Lungenentzündung oder Lungenfibrose durch Amiodaron)", "ids": ["lungenfibrose", "copd"] },
+    { "text": "Lebererkrankungen und erhöhte Leberwerte", "ids": ["leberinsuffizienz"] },
+    { "text": "Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
+    { "text": "Verlängerte QT-Zeit, Kaliummangel oder Magnesiummangel (Gefahr von Torsade de pointes)", "ids": ["qt-verlaengerung", "hypokaliaemie", "magnesiummangel"] },
+    { "text": "Operationen und Narkose (Blutdruckabfall, Bradykardie, akutes Lungenversagen möglich)", "ids": ["operation", "anaesthesie"] },
+    { "text": "Ältere Menschen (stärkere Pulsverlangsamung)", "ids": ["aeltere-patienten"] },
+    { "text": "Herzschrittmacher oder implantierter Defibrillator (Reizschwelle kann sich ändern)", "ids": ["herzrhythmusstoerung"] },
+    { "text": "Jodhaltige Kontrastmittel und Schilddrüsenuntersuchungen (Ergebnisse werden verfälscht)", "ids": ["kontrastmittel"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Klasse-III-Antiarrhythmika wie Sotalol und Dronedaron sowie Klasse-Ia-Antiarrhythmika (Chinidin, Disopyramid)", "ref": ["sotalol", "dronedaron"], "grund": "Starke zusätzliche Verlängerung der QT-Zeit – Gefahr von Torsade de pointes (lebensbedrohliche Kammerrhythmusstörung)." },
+    { "text": "Andere Mittel, die Torsade de pointes auslösen können: bestimmte Antipsychotika (z. B. Haloperidol, Droperidol, Amisulprid, Sulpirid, Tiaprid, Levomepromazin, Sertindol, Pimozid), Moxifloxacin, Erythromycin und Spiramycin intravenös, Pentamidin parenteral, Arsentrioxid", "ref": ["haloperidol", "droperidol", "amisulprid", "sulpirid", "tiaprid", "levomepromazin", "sertindol", "moxifloxacin", "erythromycin", "pentamidin", "arsentrioxid"], "grund": "Die QT-verlängernden Wirkungen addieren sich – hohes Risiko für Torsade de pointes." }
+  ],
+  "interaktionen": [
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Stark verstärkte Blutverdünnung (Hemmung von CYP2C9) – INR engmaschig kontrollieren, Dosis meist reduzieren; Effekt hält nach Absetzen lange an.", "schwere": "schwer" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxinspiegel steigt etwa auf das Doppelte – Digoxindosis halbieren, Spiegel und EKG kontrollieren.", "schwere": "schwer" },
+    { "text": "Sofosbuvir-haltige Hepatitis-C-Mittel", "ref": ["sofosbuvir", "ledipasvir-sofosbuvir", "sofosbuvir-velpatasvir", "sofosbuvir-velpatasvir-voxilaprevir"], "effekt": "Schwere, teils lebensbedrohliche Bradykardie und Herzblock – nur wenn keine Alternative, mit Herzüberwachung.", "schwere": "schwer" },
+    { "text": "Simvastatin, Atorvastatin und andere über CYP3A4 abgebaute Statine", "ref": ["simvastatin", "atorvastatin"], "effekt": "Erhöhtes Risiko für Muskelschäden bis Rhabdomyolyse – Simvastatin höchstens 20 mg pro Tag oder anderes Statin wählen.", "schwere": "schwer" },
+    { "text": "Betablocker, Verapamil, Diltiazem, Ivabradin", "ref": ["gruppe:betablocker", "gruppe:nicht-dhp-calciumantagonisten", "ivabradin"], "effekt": "Ausgeprägte Bradykardie, AV-Block und Herzschwäche möglich – nur unter EKG-Kontrolle kombinieren.", "schwere": "schwer" },
+    { "text": "Flecainid", "ref": ["flecainid"], "effekt": "Flecainidspiegel steigt stark – Flecainiddosis halbieren, EKG kontrollieren.", "schwere": "schwer" },
+    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["gruppe:immunsuppressiva-calcineurin", "gruppe:mtor-hemmer"], "effekt": "Spiegel der Immunsuppressiva steigt – Spiegel kontrollieren und Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Andere QT-verlängernde Mittel (z. B. Fluorchinolone, Makrolide, Methadon, Citalopram)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Erhöhtes Risiko für Torsade de pointes – EKG-Kontrolle, wenn möglich vermeiden.", "schwere": "schwer" },
+    { "text": "Kaliumsenkende Mittel (Diuretika, stimulierende Abführmittel, Glukokortikoide, Amphotericin B)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Kaliummangel begünstigt Torsade de pointes – Kalium und Magnesium kontrollieren.", "schwere": "schwer" },
+    { "text": "Direkte orale Antikoagulanzien, v. a. Dabigatran und Edoxaban", "ref": ["dabigatran", "edoxaban"], "effekt": "Spiegel des Gerinnungshemmers steigt (P-Glykoprotein-Hemmung) – erhöhtes Blutungsrisiko, Dosis gemäss Fachinformation anpassen.", "schwere": "mittel" },
+    { "text": "Phenytoin", "ref": ["phenytoin"], "effekt": "Phenytoinspiegel steigt – Zeichen einer Überdosierung möglich, Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Fentanyl, Midazolam)", "ref": ["fentanyl", "midazolam"], "effekt": "Verstärkte Wirkung durch höhere Spiegel möglich.", "schwere": "mittel" },
+    { "text": "Enzyminduktoren (Rifampicin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Amiodaronspiegel sinkt, Wirkung lässt nach.", "schwere": "mittel" },
+    { "text": "Grapefruitsaft", "ref": [], "effekt": "Höhere Amiodaronspiegel – während der Behandlung meiden.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hornhautablagerungen im Auge (meist ohne Beschwerden, evtl. farbige Ringe um Lichtquellen)",
+      "Übelkeit, Erbrechen, Geschmacksstörungen (v. a. zu Beginn)",
+      "Lichtempfindlichkeit der Haut (Photosensibilisierung)",
+      "Erhöhte Leberwerte ohne Beschwerden"
+    ],
+    "haeufig": [
+      "Schilddrüsenunterfunktion oder -überfunktion",
+      "Zittern, Albträume, Schlafstörungen",
+      "Mässige Bradykardie (verlangsamter Herzschlag)",
+      "Lungenschädigung (interstitielle Pneumonitis, Lungenfibrose)",
+      "Akute Leberschädigung mit Gelbsucht",
+      "Grau-bläuliche Verfärbung der Haut bei Langzeitbehandlung",
+      "Verstopfung"
+    ],
+    "gelegentlich": [
+      "Leitungsstörungen am Herzen (SA-Block, AV-Block)",
+      "Neu auftretende oder verstärkte Herzrhythmusstörungen, teils mit Herzstillstand",
+      "Periphere Nervenschädigung (Neuropathie) und Muskelschwäche (Myopathie)",
+      "Mundtrockenheit"
+    ],
+    "sehrSelten": [
+      "Entzündung oder Schädigung des Sehnervs (Optikusneuropathie) mit Sehverlust",
+      "Chronische Lebererkrankung bis zur Zirrhose",
+      "Akutes Lungenversagen (ARDS), v. a. nach Operationen",
+      "Bronchospasmus",
+      "Syndrom der inadäquaten ADH-Sekretion (SIADH, Natriummangel)",
+      "Ausgeprägte Bradykardie oder Sinusarrest",
+      "Blutbildstörungen (hämolytische oder aplastische Anämie, Thrombozytopenie)",
+      "Vaskulitis, Haarausfall, Nebenhodenentzündung"
+    ],
+    "unbekannt": [
+      "Torsade de pointes",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Angioödem, Anaphylaxie",
+      "Neutropenie, Agranulozytose",
+      "Pankreatitis",
+      "Verwirrtheit, Delir, Halluzinationen, Parkinsonismus"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, ausser in lebensbedrohlichen Situationen: Amiodaron und sein Jod können die Schilddrüse des Ungeborenen schädigen (Unterfunktion, Kropf) und den Herzschlag verlangsamen.",
+  "stillzeit": "Kontraindiziert: Amiodaron geht in grossen Mengen in die Muttermilch über.",
+  "hinweise": [
+    "Konsequenter Sonnenschutz (hoher Lichtschutzfaktor, Kleidung) während der Behandlung und Monate danach – sonst Sonnenbrand und bläuliche Hautverfärbung.",
+    "Regelmässige Kontrollen: EKG, Schilddrüsen- und Leberwerte, Lungenfunktion und bei Sehstörungen augenärztliche Untersuchung.",
+    "Bei neuem Husten, Atemnot oder Sehverschlechterung sofort ärztlich melden.",
+    "Kein Grapefruitsaft; jedes neue Medikament ärztlich prüfen lassen – Wechselwirkungen bestehen noch Monate nach dem Absetzen."
+  ],
+  "stand": "2026-10"
+}

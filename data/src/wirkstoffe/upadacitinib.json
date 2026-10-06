@@ -1,0 +1,230 @@
+{
+  "id": "upadacitinib",
+  "name": "Upadacitinib",
+  "synonyme": [],
+  "kombinationAus": [],
+  "atc": [
+    "L04AF03"
+  ],
+  "klasse": "Januskinase-Hemmer (JAK-1-selektiv)",
+  "kurz": "Tablette, die entzündungsfördernde Signalwege (Januskinase 1) hemmt; bei Rheuma, Bechterew, Neurodermitis und entzündlichen Darmerkrankungen.",
+  "gruppen": [
+    "jak-hemmer",
+    "immunsuppressiv",
+    "thromboserisiko-erhoehend",
+    "teratogen",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Rinvoq"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Aktive Psoriasis-Arthritis",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Morbus Bechterew und nicht-röntgenologische axiale Spondyloarthritis",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere atopische Dermatitis (Neurodermitis) bei Erwachsenen und Jugendlichen ab 12 Jahren",
+      "ids": [
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere aktive Colitis ulcerosa und Morbus Crohn",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft Entzündungen, indem es die Signalweiterleitung zahlreicher Entzündungsbotenstoffe in den Immunzellen unterbricht. Upadacitinib hemmt bevorzugt die Januskinase 1 (JAK1), die Signale von Zytokin-Rezeptoren (z. B. für IL-6, Interferone, IL-4/IL-13) über STAT-Eiweisse an den Zellkern weitergibt. Dadurch sinken Entzündungsaktivität, Juckreiz und Gewebeschäden.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive Tuberkulose oder aktive schwere Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alter ab 65 Jahren, (ehemalige) Raucher, andere Herz-Kreislauf- oder Krebsrisikofaktoren: nur einsetzen, wenn keine geeignete Alternative besteht",
+      "ids": [
+        "aeltere-patienten",
+        "rauchen",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Thrombose oder Lungenembolie in der Vorgeschichte und andere Thromboserisiken",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Krebs in der Vorgeschichte, Hautkrebsrisiko",
+      "ids": [
+        "krebs",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Latente Tuberkulose, Hepatitis B oder C, wiederkehrende Infektionen; erhöhtes Risiko für Gürtelrose",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b",
+        "infektanfaelligkeit",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Divertikulitis und Einnahme von NSAR oder Kortison (Risiko eines Darmdurchbruchs)",
+      "ids": [
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Niedrige Lymphozyten-, Neutrophilen- oder Hämoglobinwerte",
+      "ids": [
+        "neutropenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Itraconazol) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Upadacitinib-Spiegel steigt deutlich – bei Langzeitgabe Vorsicht, bei einigen Indikationen niedrigere Dosis.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Phenytoin, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Spiegel fällt um etwa die Hälfte, Wirkverlust – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Stark wirksame Immunsuppressiva (z. B. Azathioprin, Ciclosporin, Tacrolimus) und Biologika",
+      "ref": [
+        "gruppe:thiopurine",
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer"
+      ],
+      "effekt": "Additive Immunsuppression mit erhöhtem Infektionsrisiko – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – Lebendimpfungen nicht während oder unmittelbar vor der Behandlung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Östrogenhaltige Verhütungsmittel und Hormonersatztherapie",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Zusätzliches Thromboserisiko – bei weiteren Risikofaktoren mit Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR und systemische Glukokortikoide",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Perforation – auf Bauchschmerzen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege",
+      "Akne (bei Neurodermitis)"
+    ],
+    "haeufig": [
+      "Bronchitis, Grippe, Harnwegsinfekte, Herpes simplex, Gürtelrose, Follikulitis",
+      "Anämie, Neutropenie, Lymphopenie",
+      "Erhöhtes Cholesterin, erhöhte Kreatinkinase, erhöhte Leberwerte",
+      "Kopfschmerzen, Husten",
+      "Bauchschmerzen, Übelkeit",
+      "Ausschlag, Nesselsucht",
+      "Fieber, Müdigkeit, Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Lungenentzündung, orale Candidose (Mundsoor)",
+      "Nicht-melanozytärer Hautkrebs",
+      "Erhöhte Triglyceride",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Tiefe Venenthrombose und Lungenembolie",
+      "Herzinfarkt und andere schwere Herz-Kreislauf-Ereignisse",
+      "Lymphome und andere bösartige Tumoren",
+      "Magen-Darm-Durchbruch (Perforation)",
+      "Tuberkulose und opportunistische Infektionen"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert (fruchtschädigend im Tierversuch). Frauen im gebärfähigen Alter verhüten während und bis 4 Wochen nach der letzten Dosis zuverlässig.",
+  "stillzeit": "Nicht stillen während der Behandlung und bis 6 Tage nach der letzten Dosis.",
+  "hinweise": [
+    "Vor Beginn auf Tuberkulose und Hepatitis testen und Impfungen (inkl. Gürtelrose) aktualisieren lassen.",
+    "Bei plötzlicher Atemnot, Brustschmerz oder geschwollenem, schmerzhaftem Bein sofort ärztliche Hilfe holen.",
+    "Blutbild, Leberwerte und Blutfette werden regelmässig kontrolliert; regelmässige Hautkontrollen.",
+    "Retardtabletten ganz schlucken, nicht teilen oder zerkauen; Grapefruit meiden."
+  ],
+  "stand": "2026-10"
+}

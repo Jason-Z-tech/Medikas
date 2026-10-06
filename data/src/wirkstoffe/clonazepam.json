@@ -1,0 +1,225 @@
+{
+  "id": "clonazepam",
+  "name": "Clonazepam",
+  "synonyme": [
+    "Clonazepamum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N03AE01"
+  ],
+  "klasse": "Benzodiazepin (Antiepileptikum)",
+  "kurz": "Beruhigendes und krampflösendes Mittel aus der Gruppe der Benzodiazepine zur Behandlung von Epilepsien.",
+  "gruppen": [
+    "benzodiazepine",
+    "antiepileptika",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Rivotril"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Tropfen (Lösung zum Einnehmen)",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Epilepsien bei Säuglingen, Kindern und Erwachsenen, besonders Absencen, myoklonische und atonische Anfälle sowie BNS-Krämpfe",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Status epilepticus (Injektion)",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die Erregbarkeit von Nervenzellen und verhindert so Krampfanfälle; wirkt zudem beruhigend und muskelentspannend. Clonazepam bindet an die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors und verstärkt die hemmende Wirkung des Botenstoffs GABA, indem es die Öffnungshäufigkeit des Chloridkanals erhöht. Es wird in der Leber unter Beteiligung von CYP3A4 abgebaut und hat eine lange Halbwertszeit (etwa 30–40 Stunden).",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Ateminsuffizienz",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Benzodiazepine",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Abhängigkeit von Alkohol, Medikamenten oder Drogen in der Vorgeschichte (Abhängigkeitsrisiko)",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Chronische Lungenerkrankung oder eingeschränkte Atmung (Atemdepression)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhtes Sturz- und Verwirrtheitsrisiko",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Säuglinge und Kleinkinder: vermehrter Speichel- und Bronchialschleim",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Beeinträchtigung der Fahrtüchtigkeit",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Methadon, Tramadol)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Starke Sedierung, Atemdepression, Koma und Todesfälle möglich – nur wenn keine Alternative besteht, niedrig dosiert und kurz.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel (Schlafmittel, Antipsychotika, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der dämpfenden Wirkung bis zur Atemdepression – Alkohol meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Natriumoxybat",
+      "ref": [
+        "natriumoxybat"
+      ],
+      "effekt": "Gefährlich verstärkte Atem- und ZNS-Dämpfung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduzierende Antiepileptika (Carbamazepin, Phenytoin, Phenobarbital, Primidon)",
+      "ref": [
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "primidon"
+      ],
+      "effekt": "Clonazepam-Spiegel sinkt; Phenytoin-Spiegel kann sich verändern – Spiegel und Wirkung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Fluconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Clonazepam-Spiegel kann steigen – verstärkte Müdigkeit möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "In Einzelfällen Auslösen eines Absence-Status.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clozapin",
+      "ref": [
+        "clozapin"
+      ],
+      "effekt": "Einzelfälle von Kreislauf- und Atemstillstand beschrieben – Vorsicht bei gleichzeitigem Beginn.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral wirkende Muskelrelaxanzien",
+      "ref": [
+        "gruppe:muskelrelaxanzien-zentral"
+      ],
+      "effekt": "Verstärkte Muskelschwäche und Sturzgefahr.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Müdigkeit, Schläfrigkeit, verlangsamte Reaktionen (besonders zu Behandlungsbeginn)",
+      "Muskelschwäche, Schwindel, Gang- und Koordinationsstörungen (Ataxie)",
+      "Konzentrations- und Gedächtnisstörungen",
+      "Paradoxe Reaktionen (Unruhe, Reizbarkeit, Aggression, Halluzinationen), besonders bei Kindern und älteren Menschen",
+      "Vermehrter Speichel- und Bronchialschleim bei Säuglingen und Kleinkindern",
+      "Atemdepression (besonders bei Injektion)",
+      "Abhängigkeit und Entzugssymptome bis zu Krampfanfällen beim abrupten Absetzen",
+      "Zunahme der Anfallshäufigkeit bei bestimmten Epilepsieformen"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Indikation nach ärztlicher Abwägung; bei Einnahme in der Spätschwangerschaft drohen beim Neugeborenen Trinkschwäche, Muskelschlaffheit, Atemprobleme und Entzugssymptome.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen wird nicht empfohlen bzw. nur unter ärztlicher Überwachung des Kindes auf Schläfrigkeit und Trinkschwäche.",
+  "hinweise": [
+    "Nicht abrupt absetzen – Gefahr von Entzugssymptomen und Krampfanfällen; schrittweise nach ärztlicher Anweisung ausschleichen.",
+    "Kein Alkohol; Fahrtüchtigkeit ist besonders zu Beginn deutlich eingeschränkt.",
+    "Bei längerer Anwendung kann sich die Wirkung abschwächen und eine Abhängigkeit entstehen."
+  ],
+  "stand": "2026-10"
+}

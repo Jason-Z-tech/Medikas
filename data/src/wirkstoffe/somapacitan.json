@@ -1,0 +1,182 @@
+{
+  "id": "somapacitan",
+  "name": "Somapacitan",
+  "synonyme": [],
+  "atc": [
+    "H01AC07"
+  ],
+  "klasse": "Lang wirksames Wachstumshormon-Derivat (wöchentlich)",
+  "kurz": "Lang wirksames Wachstumshormon zur wöchentlichen Injektion bei Wachstumshormonmangel von Kindern und Erwachsenen.",
+  "gruppen": [
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Sogroya"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen"
+  ],
+  "indikationen": [
+    {
+      "text": "Wachstumsstörung bei Kindern ab 3 Jahren und Jugendlichen infolge Wachstumshormonmangels",
+      "ids": [
+        "wachstumsstoerung",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Ersatz des Wachstumshormons bei Erwachsenen mit Wachstumshormonmangel",
+      "ids": [
+        "wachstumsstoerung",
+        "hypophyseninsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt fehlendes Wachstumshormon und muss dank langer Wirkdauer nur einmal pro Woche gespritzt werden. Somapacitan ist ein gentechnisch hergestelltes Wachstumshormon mit einer angehängten Seitenkette, die sich reversibel an Albumin im Blut bindet und so den Abbau verzögert. Es aktiviert den Wachstumshormon-Rezeptor, worauf vor allem in der Leber IGF-1 gebildet wird. Dies fördert bei Kindern das Längenwachstum und beeinflusst bei Erwachsenen Körperzusammensetzung, Fett- und Knochenstoffwechsel.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive Tumorerkrankung (Hirntumoren müssen inaktiv, Krebsbehandlungen abgeschlossen sein)",
+      "ids": [
+        "krebs",
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Akute lebensbedrohliche Erkrankung nach Operationen am offenen Herzen oder im Bauchraum, nach Mehrfachverletzungen oder bei akutem Lungenversagen",
+      "ids": []
+    },
+    {
+      "text": "Wachstumsförderung bei Kindern mit bereits geschlossenen Wachstumsfugen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Diabetes oder gestörte Glukosetoleranz: Blutzucker überwachen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion kann auftreten oder sichtbar werden",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Nebennierenrinden-Insuffizienz: Kortisondosis überprüfen",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Tumorerkrankung in der Vorgeschichte (erhöhtes Risiko für Zweittumoren nach Krebs im Kindesalter)",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Kinder: Hinken oder Hüftschmerzen (Hüftkopfgleiten), Fortschreiten einer Skoliose",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Starke Kopfschmerzen, Sehstörungen oder Erbrechen (gutartige Hirndrucksteigerung)",
+      "ids": [
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Anhaltende Bauchschmerzen (Bauchspeicheldrüsenentzündung)",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Glukokortikoide (auch Hydrocortison-Ersatztherapie)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "hydrocortison"
+      ],
+      "effekt": "Glukokortikoide bremsen die Wachstumswirkung; Wachstumshormon kann einen Kortisolmangel sichtbar machen – Kortisondosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Östrogene (Hormonersatz, Pille)",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Abgeschwächte IGF-1-Antwort – oft höhere Wachstumshormon-Dosis nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Wachstumshormon erhöht den Blutzucker – Dosis der Blutzuckersenker gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Eine Schilddrüsenunterfunktion kann unter Wachstumshormon sichtbar werden – Schilddrüsenwerte kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Über CYP3A4 abgebaute Mittel (z. B. Sexualhormone, Kortikosteroide, Antiepileptika, Ciclosporin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "ciclosporin"
+      ],
+      "effekt": "Raschere Ausscheidung und schwächere Wirkung möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Gelenk- und Gliederschmerzen",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Müdigkeit, Schwäche",
+      "Reaktionen an der Injektionsstelle",
+      "Schilddrüsenunterfunktion"
+    ],
+    "gelegentlich": [
+      "Lipohypertrophie (Fettgewebsverdickung an der Einstichstelle)",
+      "Karpaltunnelsyndrom",
+      "Juckreiz, Nesselsucht",
+      "Gelenk- oder Muskelsteifigkeit"
+    ],
+    "unbekannt": [
+      "Hüftkopfgleiten bei Kindern",
+      "Gutartige Hirndrucksteigerung",
+      "Bauchspeicheldrüsenentzündung",
+      "Erhöhter Blutzucker",
+      "Überempfindlichkeitsreaktionen"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; Anwendung nicht empfohlen.",
+  "stillzeit": "Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal pro Woche am gleichen Wochentag unter die Haut spritzen; Einstichstellen wechseln.",
+    "Eine vergessene Dosis innerhalb von 3 Tagen nachholen, danach wie gewohnt weiterfahren.",
+    "Hinken, Hüft- oder Knieschmerzen sowie starke Kopfschmerzen mit Sehstörungen oder Erbrechen ärztlich abklären.",
+    "Regelmässige Kontrollen von IGF-1, Blutzucker und Schilddrüsenwerten."
+  ],
+  "stand": "2026-10"
+}

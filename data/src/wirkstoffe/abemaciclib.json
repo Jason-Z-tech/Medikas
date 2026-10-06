@@ -1,0 +1,166 @@
+{
+  "id": "abemaciclib",
+  "name": "Abemaciclib",
+  "synonyme": [],
+  "atc": [
+    "L01EF03"
+  ],
+  "klasse": "Proteinkinase-Hemmer (CDK4/6-Hemmer)",
+  "kurz": "Tablette gegen hormonempfindlichen, HER2-negativen Brustkrebs (CDK4/6-Hemmer); wird mit einer Hormontherapie kombiniert, auch nach Operation.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "myelosuppressiv",
+    "hepatotoxisch",
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Verzenios"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Früher Hormonrezeptor-positiver, HER2-negativer Brustkrebs mit Lymphknotenbefall und hohem Rückfallrisiko: nach Operation (adjuvant) zusammen mit einer antihormonellen Therapie",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter Hormonrezeptor-positiver, HER2-negativer Brustkrebs: mit einem Aromatasehemmer oder Fulvestrant; vor oder während der Wechseljahre zusätzlich mit einem LHRH-Agonisten",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Teilung hormonempfindlicher Brustkrebszellen. Abemaciclib hemmt die Cyclin-abhängigen Kinasen 4 und 6 (CDK4 stärker als CDK6); dadurch bleibt das Retinoblastom-Protein unphosphoryliert, und der Zellzyklus stoppt in der G1-Phase. Bei durchgehender Einnahme ohne Pause führt dies zu Wachstumsstillstand und Absterben von Tumorzellen. Abemaciclib wird über CYP3A4 zu ebenfalls wirksamen Metaboliten abgebaut.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Durchfall, v. a. im ersten Behandlungsmonat: sofort behandeln, viel trinken",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Neutropenie und Infektionen",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Thrombose oder Lungenembolie in der Vorgeschichte bzw. erhöhtes Thromboserisiko",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Erhöhte Leberwerte; schwer eingeschränkte Leberfunktion (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung/Pneumonitis",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion; das Kreatinin steigt durch Transporterhemmung auch ohne echte Nierenschädigung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ketoconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Abemaciclib-Spiegel steigt stark – vermeiden; wenn unumgänglich, Dosis reduzieren. Ketoconazol nicht zusammen anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abemaciclib-Spiegel sinkt stark – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Abemaciclib-Spiegel – auf Nebenwirkungen achten, gegebenenfalls Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Substrate von Transportern mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin",
+        "dabigatran"
+      ],
+      "effekt": "Abemaciclib hemmt P-gp, BCRP und weitere Transporter – deren Spiegel können steigen; überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Abemaciclib hemmt die Ausscheidung über die Niere (OCT2/MATE) – höhere Metformin-Spiegel möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmen CYP3A4 und erhöhen die Abemaciclib-Spiegel – meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall",
+      "Neutropenie, Leukopenie, Anämie, Thrombozytopenie, Lymphopenie",
+      "Infektionen",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Stomatitis",
+      "Appetitlosigkeit, Geschmacksstörungen",
+      "Haarausfall, Juckreiz, Hautausschlag",
+      "Müdigkeit, Fieber, Schwindel",
+      "Erhöhte Leberwerte (ALT, AST), erhöhtes Kreatinin"
+    ],
+    "haeufig": [
+      "Venöse Thromboembolien (Beinvenenthrombose, Lungenembolie)",
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Vermehrter Tränenfluss",
+      "Febrile Neutropenie",
+      "Trockene Haut, Nagelveränderungen",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Muskelschwäche"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und mindestens 3 Wochen nach der Behandlung sicher verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich ohne Pause einnehmen, mit oder ohne Mahlzeit; Grapefruit meiden.",
+    "Beim ersten weichen Stuhl sofort ein Mittel gegen Durchfall (z. B. Loperamid nach ärztlicher Anweisung) einnehmen, viel trinken und die Ärztin oder den Arzt informieren.",
+    "Schmerzen oder Schwellung eines Beins, plötzliche Atemnot oder Brustschmerzen sofort melden (Thrombose, Lungenembolie).",
+    "Blutbild und Leberwerte werden in den ersten Monaten engmaschig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

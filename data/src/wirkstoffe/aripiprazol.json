@@ -1,0 +1,201 @@
+{
+  "id": "aripiprazol",
+  "name": "Aripiprazol",
+  "synonyme": [
+    "Aripiprazole"
+  ],
+  "atc": [
+    "N05AX12"
+  ],
+  "klasse": "Atypisches Antipsychotikum (Dopamin-D2-Partialagonist)",
+  "kurz": "Atypisches Antipsychotikum (Dopamin-Partialagonist) gegen Schizophrenie und Manie; macht vergleichsweise wenig müde und dick.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "zns-daempfend",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Abilify",
+    "Abilify Maintena",
+    "Aripiprazol Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Schmelztabletten",
+    "Depot-Injektionssuspension"
+  ],
+  "indikationen": [
+    {
+      "text": "Schizophrenie bei Erwachsenen und Jugendlichen ab 15 Jahren; Depotspritze zur Erhaltungstherapie bei Erwachsenen",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere manische Episoden bei Bipolar-I-Störung und Vorbeugung neuer manischer Episoden; bei Jugendlichen ab 13 Jahren bis zu 12 Wochen",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stabilisiert die Signalübertragung durch Dopamin im Gehirn: Es dämpft sie, wo sie überaktiv ist, und stützt sie, wo sie zu schwach ist. Aripiprazol ist ein Partialagonist an Dopamin-D2- und -D3- sowie Serotonin-5-HT1A-Rezeptoren und ein Antagonist an 5-HT2A-Rezeptoren. Es hat nur geringe Affinität zu Histamin- und Muskarinrezeptoren, daher weniger Müdigkeit und Gewichtszunahme. Abgebaut wird es über CYP2D6 und CYP3A4.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz: erhöhte Sterblichkeit und erhöhtes Schlaganfallrisiko",
+      "ids": [
+        "demenz",
+        "aeltere-patienten",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigertes sexuelles Verlangen)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, verlängerte QT-Zeit",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Diabetes",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Schluckstörungen (Gefahr des Verschluckens)",
+      "ids": [
+        "schluckstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Aripiprazol-Spiegel steigt – Dosis etwa halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Aripiprazol-Spiegel steigt – Dosis etwa halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Spiegel sinkt stark – Dosis der Tabletten etwa verdoppeln; bei der Depotspritze länger dauernde Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI, Tramadol)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotoninsyndrom möglich – auf Unruhe, Fieber und Muskelzuckungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Sitzunruhe (Akathisie), extrapyramidale Störungen, Zittern",
+      "Schlaflosigkeit, Unruhe, Angst",
+      "Kopfschmerzen, Schwindel, Schläfrigkeit, Sedierung",
+      "Verschwommenes Sehen",
+      "Übelkeit, Erbrechen, Verstopfung, Verdauungsbeschwerden",
+      "Vermehrter Speichelfluss",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Erhöhter Blutzucker",
+      "Erhöhtes oder erniedrigtes Prolaktin",
+      "Depression, gesteigertes sexuelles Verlangen",
+      "Spätdyskinesien, Dystonie, Restless-Legs-Syndrom",
+      "Doppelbilder, Lichtempfindlichkeit der Augen",
+      "Herzrasen",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Schluckauf"
+    ],
+    "unbekannt": [
+      "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigertes sexuelles Verlangen)",
+      "Suizidgedanken und Suizidversuche, Aggression",
+      "Malignes neuroleptisches Syndrom, Serotoninsyndrom, Krampfanfälle",
+      "QT-Verlängerung, Kammerrhythmusstörungen (Torsade de pointes), plötzlicher Herztod",
+      "Verminderung der weissen Blutkörperchen oder der Blutplättchen",
+      "Venöse Thromboembolie",
+      "Diabetische Ketoazidose, Hyponatriämie",
+      "Pankreatitis, Hepatitis, Leberversagen, Rhabdomyolyse (Muskelzerfall)"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur anwenden, wenn der Nutzen das Risiko klar überwiegt. Nach Einnahme im letzten Drittel sind beim Neugeborenen Bewegungsstörungen und Entzugssymptome möglich.",
+  "stillzeit": "Aripiprazol geht in die Muttermilch über. Nur nach ärztlicher Abwägung stillen, sonst abstillen.",
+  "hinweise": [
+    "Angehörige sollten auf Spielsucht, Kaufsucht, Essattacken oder auffälliges Sexualverhalten achten und dies ärztlich melden.",
+    "Überhitzung und Flüssigkeitsmangel vermeiden (die Temperaturregulation kann gestört sein).",
+    "Abilify Maintena wird monatlich gespritzt; nach der ersten Injektion werden meist noch 14 Tage Tabletten eingenommen.",
+    "Fahrtüchtigkeit kann beeinträchtigt sein; Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

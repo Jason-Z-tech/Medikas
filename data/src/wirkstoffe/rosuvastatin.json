@@ -1,0 +1,93 @@
+{
+  "id": "rosuvastatin",
+  "name": "Rosuvastatin",
+  "synonyme": ["Rosuvastatin-Calcium", "Rosuvastatinum"],
+  "atc": ["C10AA07"],
+  "klasse": "HMG-CoA-Reduktase-Hemmer (Statin)",
+  "kurz": "Stark wirksamer Cholesterinsenker aus der Gruppe der Statine; beugt Herzinfarkt und Schlaganfall vor.",
+  "gruppen": ["statine"],
+  "handelsnamen": ["Crestor", "Rosuvastatin-Mepha", "Rosuvastatin Sandoz"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Erhöhtes Cholesterin (primäre Hypercholesterinämie inkl. heterozygoter familiärer Form, gemischte Dyslipidämie), ergänzend zur Diät", "ids": ["hypercholesterinaemie"] },
+    { "text": "Homozygote familiäre Hypercholesterinämie, ergänzend zu anderen lipidsenkenden Massnahmen", "ids": ["hypercholesterinaemie"] },
+    { "text": "Vorbeugung schwerer Herz-Kreislauf-Ereignisse (Herzinfarkt, Schlaganfall) bei Personen mit hohem Risiko", "ids": ["herzinfarkt", "schlaganfall"] }
+  ],
+  "wirkmechanismus": "Senkt das Cholesterin, indem es dessen Herstellung in der Leber bremst. Rosuvastatin hemmt selektiv und kompetitiv die HMG-CoA-Reduktase, das Schlüsselenzym der Cholesterinsynthese; die Leberzellen bilden mehr LDL-Rezeptoren und holen vermehrt LDL-Cholesterin aus dem Blut. Es ist wasserlöslich, wird kaum verstoffwechselt (gering über CYP2C9) und vor allem über Transporter (OATP1B1 in die Leber, BCRP) aufgenommen bzw. ausgeschieden – Transporterhemmer sind deshalb wichtiger als CYP3A4-Hemmer. Bei Menschen asiatischer Herkunft sind die Blutspiegel etwa doppelt so hoch.",
+  "kontraindikationen": [
+    { "text": "Aktive Lebererkrankung oder ungeklärte, anhaltend erhöhte Leberwerte (über das Dreifache der Norm)", "ids": ["leberinsuffizienz"] },
+    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)", "ids": ["niereninsuffizienz"] },
+    { "text": "Myopathie (Muskelerkrankung)", "ids": ["muskelerkrankung"] },
+    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] },
+    { "text": "Frauen im gebärfähigen Alter ohne zuverlässige Verhütung", "ids": ["frauen-gebaerfaehig"] },
+    { "text": "Höchstdosis 40 mg bei Risikofaktoren für Muskelschäden: mässige Niereninsuffizienz, Schilddrüsenunterfunktion, eigene oder familiäre erbliche Muskelerkrankung, frühere Muskelschäden unter Statin oder Fibrat, Alkoholmissbrauch, asiatische Herkunft", "ids": ["niereninsuffizienz", "hypothyreose", "muskelerkrankung", "alkoholkonsum"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: unter hohen Dosen vermehrt Eiweiss im Urin (Proteinurie)", "ids": ["niereninsuffizienz"] },
+    { "text": "Schilddrüsenunterfunktion, Alkoholmissbrauch oder Alter über 70 Jahre (höheres Myopathierisiko)", "ids": ["hypothyreose", "alkoholkonsum", "aeltere-patienten"] },
+    { "text": "Asiatische Herkunft: etwa doppelt so hohe Blutspiegel – tiefere Anfangsdosis", "ids": [] },
+    { "text": "Lebererkrankung in der Vorgeschichte: Leberwerte kontrollieren", "ids": ["leberinsuffizienz"] },
+    { "text": "Risikofaktoren für Diabetes: Blutzucker kontrollieren", "ids": ["diabetes"] },
+    { "text": "Myasthenia gravis: Statine können sie auslösen oder verschlimmern", "ids": ["myasthenia-gravis"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "grund": "Rosuvastatin-Spiegel steigt etwa um das 7-Fache – hohes Risiko für Myopathie und Rhabdomyolyse." },
+    { "text": "Sofosbuvir/Velpatasvir/Voxilaprevir (Hepatitis-C-Mittel)", "ref": ["sofosbuvir-velpatasvir-voxilaprevir"], "grund": "Hemmt die Transporter OATP1B und BCRP – Rosuvastatin-Spiegel steigt stark, Rhabdomyolyse-Gefahr (Kontraindikation laut Fachinformation des Hepatitis-C-Mittels)." },
+    { "text": "Fibrate bei einer Rosuvastatin-Dosis von 40 mg", "ref": ["gruppe:fibrate"], "grund": "Zusätzliches Risiko für Muskelschäden bei der höchsten Dosis." }
+  ],
+  "interaktionen": [
+    { "text": "Fibrate (v. a. Gemfibrozil) bei Dosen unter 40 mg", "ref": ["gruppe:fibrate"], "effekt": "Gemfibrozil verdoppelt den Rosuvastatin-Spiegel; alle Fibrate erhöhen das Myopathierisiko – Kombination möglichst meiden, sonst Dosis begrenzen und überwachen.", "schwere": "schwer" },
+    { "text": "HIV-Proteasehemmer mit Ritonavir oder Cobicistat", "ref": ["gruppe:hiv-proteasehemmer", "ritonavir", "cobicistat"], "effekt": "Rosuvastatin-Spiegel um ein Mehrfaches erhöht – mit tiefer Dosis beginnen, Höchstdosis begrenzen (oft 10 mg).", "schwere": "schwer" },
+    { "text": "Glecaprevir/Pibrentasvir (Hepatitis-C-Mittel)", "ref": ["glecaprevir-pibrentasvir"], "effekt": "Rosuvastatin-Spiegel etwa 2,2-fach erhöht – höchstens 5 mg pro Tag.", "schwere": "schwer" },
+    { "text": "Darolutamid, Regorafenib", "ref": ["darolutamid", "regorafenib"], "effekt": "Hemmung des Transporters BCRP: Rosuvastatin-Spiegel steigt auf das 4- bis 5-Fache – Dosis reduzieren, auf Muskelbeschwerden achten.", "schwere": "schwer" },
+    { "text": "Fusidinsäure (zum Einnehmen oder als Infusion)", "ref": ["fusidinsaeure"], "effekt": "Schwere, teils tödliche Rhabdomyolysen – Rosuvastatin während der Fusidinsäure-Behandlung pausieren.", "schwere": "schwer" },
+    { "text": "Weitere Transporterhemmer: Ticagrelor, Clopidogrel, Eltrombopag, Febuxostat, Teriflunomid", "ref": ["ticagrelor", "clopidogrel", "eltrombopag", "febuxostat", "teriflunomid"], "effekt": "Rosuvastatin-Spiegel steigt auf das 1,5- bis 3-Fache – mit niedriger Dosis beginnen, auf Muskelbeschwerden achten.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "INR kann steigen – zu Beginn, bei Dosisänderung und beim Absetzen INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Colchicin, Daptomycin", "ref": ["colchicin", "daptomycin"], "effekt": "Erhöhtes Risiko für Muskelschäden – bei Daptomycin Statin pausieren erwägen.", "schwere": "mittel" },
+    { "text": "Antazida mit Aluminium- oder Magnesiumhydroxid", "ref": ["gruppe:antazida"], "effekt": "Aufnahme von Rosuvastatin um rund die Hälfte vermindert – Antazidum frühestens 2 Stunden nach Rosuvastatin einnehmen.", "schwere": "leicht" },
+    { "text": "Hormonale Verhütungsmittel und Hormonersatz", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Spiegel von Ethinylestradiol und Norgestrel steigen leicht; bei der Wahl der Pille berücksichtigen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Verstopfung, Übelkeit, Bauchschmerzen",
+      "Myalgie (Muskelschmerzen)",
+      "Asthenie (Schwäche)",
+      "Diabetes mellitus bei Personen mit Risikofaktoren"
+    ],
+    "gelegentlich": ["Juckreiz, Hautausschlag, Nesselsucht"],
+    "selten": [
+      "Myopathie (inkl. Myositis), Rhabdomyolyse (Muskelzerfall), Muskelriss",
+      "Lupusähnliches Syndrom",
+      "Überempfindlichkeitsreaktionen inkl. Angioödem",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "sehrSelten": [
+      "Gelbsucht, Hepatitis",
+      "Polyneuropathie, Gedächtnisverlust",
+      "Gelenkschmerzen",
+      "Hämaturie (Blut im Urin)",
+      "Gynäkomastie (Brustvergrösserung beim Mann)"
+    ],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom, DRESS (schwere Arzneimittelreaktion mit Eosinophilie)",
+      "Immunvermittelte nekrotisierende Myopathie, Sehnenschäden",
+      "Depression, Schlafstörungen (inkl. Albträume), periphere Neuropathie",
+      "Husten, Atemnot, Durchfall, Ödeme",
+      "Myasthenia gravis (Muskelschwäche) oder deren Verschlechterung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert – Cholesterin ist für die Entwicklung des Ungeborenen nötig. Frauen im gebärfähigen Alter müssen zuverlässig verhüten; bei Eintritt einer Schwangerschaft sofort absetzen.",
+  "stillzeit": "Kontraindiziert – Rosuvastatin geht bei Tieren in die Milch über; Daten beim Menschen fehlen.",
+  "hinweise": [
+    "Einmal täglich zu einer beliebigen, aber gleichbleibenden Tageszeit, mit oder ohne Essen.",
+    "Unerklärliche Muskelschmerzen, -schwäche oder -krämpfe, besonders mit Fieber oder dunklem Urin, sofort ärztlich melden.",
+    "Magensäurebinder (Antazida) frühestens 2 Stunden nach Rosuvastatin einnehmen.",
+    "Leberwerte vor Behandlungsbeginn kontrollieren; Ernährung und Bewegung bleiben wichtig."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "adrenalin",
+  "name": "Adrenalin",
+  "synonyme": ["Epinephrin", "Epinephrine", "Adrenaline", "Suprarenin"],
+  "atc": ["C01CA24"],
+  "klasse": "Katecholamin (Alpha- und Beta-Sympathomimetikum)",
+  "kurz": "Notfallmedikament: Adrenalin-Pen gegen schwere allergische Reaktionen (Anaphylaxie) und Spritze bei Herz-Kreislauf-Stillstand.",
+  "gruppen": ["sympathomimetika"],
+  "handelsnamen": ["EpiPen", "Jext", "Adrenalin Sintetica"],
+  "abgabe": ["B"],
+  "darreichung": ["Fertigpen (Autoinjektor)", "Injektionslösung", "Fertigspritze"],
+  "indikationen": [
+    { "text": "Notfallbehandlung schwerer allergischer Reaktionen (Anaphylaxie), z. B. nach Insektenstichen, Nahrungsmitteln oder Medikamenten – Adrenalin-Pen zur Selbstanwendung", "ids": ["anaphylaxie", "allergie"] },
+    { "text": "Herz-Kreislauf-Stillstand (Wiederbelebung) und anaphylaktischer Schock – Injektion durch Fachpersonen", "ids": ["schock", "anaphylaxie"] }
+  ],
+  "wirkmechanismus": "Hebt den Blutdruck, öffnet die Atemwege und bremst die allergische Reaktion innert Minuten. Adrenalin stimuliert Alpha-Rezeptoren (Gefässverengung, Abschwellen von Schleimhaut-Ödemen) sowie Beta-1-Rezeptoren (stärkere und schnellere Herzschläge) und Beta-2-Rezeptoren (Erweiterung der Bronchien). Zudem hemmt es die Freisetzung von Histamin und anderen Entzündungsstoffen aus Mastzellen. Die Wirkung tritt nach Injektion in den Oberschenkelmuskel rasch ein, hält aber nur kurz an.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Herzerkrankungen wie koronare Herzkrankheit, Herzrhythmusstörungen oder Kardiomyopathie – im Notfall trotzdem anwenden", "ids": ["koronare-herzkrankheit", "herzrhythmusstoerung", "kardiomyopathie"] },
+    { "text": "Bluthochdruck", "ids": ["hypertonie"] },
+    { "text": "Schilddrüsenüberfunktion oder Phäochromozytom (hormonbildender Tumor der Nebenniere)", "ids": ["hyperthyreose"] },
+    { "text": "Prostatavergrösserung mit Restharn und schwere Niereninsuffizienz", "ids": ["prostatahyperplasie", "harnverhalt", "niereninsuffizienz"] },
+    { "text": "Diabetes (Blutzucker steigt vorübergehend)", "ids": ["diabetes"] },
+    { "text": "Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
+    { "text": "Kaliummangel und Calciumüberschuss", "ids": ["hypokaliaemie", "hyperkalzaemie"] },
+    { "text": "Ältere Menschen und Parkinson-Krankheit (Verstärkung von Zittern und Steifigkeit möglich)", "ids": ["aeltere-patienten", "parkinson"] },
+    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Betablocker, besonders nicht selektive (z. B. Propranolol)", "ref": ["gruppe:betablocker"], "effekt": "Adrenalin wirkt schwächer; zudem starker Blutdruckanstieg mit Pulsverlangsamung möglich. Im Notfall trotzdem anwenden und ärztlich behandeln lassen.", "schwere": "schwer" },
+    { "text": "Trizyklische Antidepressiva und MAO-Hemmer", "ref": ["gruppe:trizyklische-antidepressiva", "gruppe:mao-hemmer"], "effekt": "Verstärkte Wirkung auf Blutdruck und Herz – Bluthochdruck und Rhythmusstörungen möglich.", "schwere": "mittel" },
+    { "text": "Halogenierte Inhalationsnarkotika (z. B. Isofluran, Sevofluran, Desfluran)", "ref": ["isofluran", "sevofluran", "desfluran"], "effekt": "Erhöhte Empfindlichkeit des Herzens – Rhythmusstörungen möglich.", "schwere": "mittel" },
+    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen.", "schwere": "mittel" },
+    { "text": "Andere Sympathomimetika, Ergotalkaloide, Oxytocin", "ref": ["gruppe:sympathomimetika", "gruppe:ergotalkaloide", "oxytocin"], "effekt": "Verstärkte Wirkung auf Kreislauf und Herz, Blutdruckanstieg.", "schwere": "mittel" },
+    { "text": "Alpha-Blocker und Antipsychotika mit alpha-blockierender Wirkung", "ref": ["gruppe:alpha1-blocker", "gruppe:antipsychotika"], "effekt": "Die blutdrucksteigernde Wirkung kann abgeschwächt oder umgekehrt werden (Blutdruckabfall).", "schwere": "mittel" },
+    { "text": "COMT-Hemmer (Entacapon) und Levodopa", "ref": ["entacapon", "levodopa-carbidopa", "levodopa-benserazid"], "effekt": "Verstärkte Wirkung auf Herzfrequenz und Rhythmus möglich.", "schwere": "leicht" },
+    { "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Adrenalin erhöht vorübergehend den Blutzucker – Blutzucker kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "selten": ["Stress-Kardiomyopathie (Takotsubo-Syndrom)"],
+    "unbekannt": [
+      "Herzklopfen, Herzrasen (Tachykardie)",
+      "Herzrhythmusstörungen bis Kammerflimmern",
+      "Angina pectoris (Brustenge), Myokardischämie",
+      "Blutdruckanstieg, Gefässverengung, Blässe",
+      "Angst, Unruhe, Zittern, Kopfschmerzen, Schwindel, Halluzinationen",
+      "Schwitzen, Übelkeit, Erbrechen, Schwäche",
+      "Hyperglykämie (erhöhter Blutzucker), Hypokaliämie (Kaliummangel), metabolische Azidose",
+      "Bronchospasmus",
+      "Verletzung oder Infektion an der Injektionsstelle; Durchblutungsstörung bei versehentlicher Injektion in Finger, Hände oder Füsse"
+    ]
+  },
+  "schwangerschaft": "Bei Anaphylaxie oder Wiederbelebung lebensrettend und deshalb auch in der Schwangerschaft anzuwenden; Adrenalin kann die Durchblutung der Plazenta vorübergehend vermindern.",
+  "stillzeit": "Adrenalin wird über den Darm des Säuglings kaum aufgenommen; die Notfallanwendung ist in der Stillzeit erlaubt.",
+  "hinweise": [
+    "Im Notfall nicht zögern: Pen in die Aussenseite des Oberschenkels drücken, auch durch die Kleidung; danach Notruf 144 wählen und liegen bleiben (bei Atemnot sitzen).",
+    "Immer zwei Adrenalin-Pens dabeihaben; tritt nach 5–15 Minuten keine Besserung ein, den zweiten Pen anwenden.",
+    "Nie in Finger, Hände, Füsse oder ein Blutgefäss injizieren.",
+    "Verfalldatum regelmässig prüfen, Pen vor Hitze und Kälte schützen; verfärbte oder trübe Lösung nicht verwenden."
+  ],
+  "stand": "2026-10"
+}

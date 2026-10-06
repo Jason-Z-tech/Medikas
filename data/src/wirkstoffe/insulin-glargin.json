@@ -1,0 +1,57 @@
+{
+  "id": "insulin-glargin",
+  "name": "Insulin glargin",
+  "synonyme": ["Glargin-Insulin", "Insulin glarginum", "Insulin glargine"],
+  "atc": ["A10AE04", "A10AE54"],
+  "klasse": "Lang wirksames Insulinanalogon (Basalinsulin)",
+  "kurz": "Lang wirkendes Basalinsulin bei Diabetes; einmal täglich gespritzt, deckt es den Grundbedarf an Insulin über rund 24 Stunden.",
+  "gruppen": ["insuline", "hypoglykaemie-ausloesend"],
+  "handelsnamen": ["Lantus", "Toujeo", "Abasaglar", "Suliqua (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung 100 Einheiten/ml (Lantus, Abasaglar)", "Injektionslösung 300 Einheiten/ml (Toujeo)", "Fertigpen", "Patrone", "Durchstechflasche"],
+  "indikationen": [
+    { "text": "Diabetes mellitus bei Erwachsenen, Jugendlichen und Kindern (Lantus und Abasaglar ab 2 Jahren, Toujeo ab 6 Jahren)", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2"] }
+  ],
+  "wirkmechanismus": "Deckt als Basalinsulin gleichmässig den Grundbedarf des Körpers an Insulin, unabhängig von den Mahlzeiten. Insulin glargin ist im leicht sauren Lösungsmittel gelöst und fällt nach der Injektion unter die Haut im neutralen Gewebe als feine Ablagerung aus, aus der es langsam und gleichmässig freigesetzt wird. Dadurch wirkt es ohne ausgeprägten Wirkgipfel rund 24 Stunden (Toujeo mit 300 Einheiten/ml noch etwas flacher und länger). Im Körper wird es zum aktiven Metaboliten M1 umgewandelt, der am Insulinrezeptor wie Humaninsulin wirkt: mehr Zuckeraufnahme in die Zellen, weniger Zuckerneubildung in der Leber.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Nicht spritzen bei bestehender Unterzuckerung; Unterzuckerung droht bei ausgelassenen Mahlzeiten, ungewohnter körperlicher Anstrengung, Alkohol oder zu hoher Dosis – wegen der langen Wirkdauer kann sie länger anhalten", "ids": ["hypoglykaemie", "alkoholkonsum"] },
+    { "text": "Nicht geeignet zur Behandlung der diabetischen Ketoazidose (dafür intravenöses Normalinsulin)", "ids": ["ketoazidose"] },
+    { "text": "Eingeschränkte Nieren- oder Leberfunktion: Insulinbedarf oft vermindert, häufigere Blutzuckerkontrollen", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "Infekte, Fieber und andere Begleiterkrankungen erhöhen meist den Insulinbedarf", "ids": ["aktive-infektion", "fieber"] },
+    { "text": "Kombination mit Pioglitazon, besonders bei Herzkrankheiten: Fälle von Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
+    { "text": "Wechsel zwischen 100 und 300 Einheiten/ml (Lantus/Abasaglar und Toujeo) nur nach ärztlicher Anweisung: die Präparate sind nicht direkt austauschbar, die Dosis muss angepasst werden", "ids": [] },
+    { "text": "Rasche Verbesserung einer lange schlechten Blutzuckereinstellung: vorübergehende Verschlechterung einer diabetischen Netzhauterkrankung möglich", "ids": [] },
+    { "text": "Ältere Menschen: erhöhte Gefahr unbemerkter Unterzuckerungen", "ids": ["aeltere-patienten"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, DPP-4- und SGLT-2-Hemmer)", "ref": ["gruppe:sulfonylharnstoffe", "metformin", "gruppe:glp1-agonisten", "gruppe:dpp4-hemmer", "gruppe:sglt2-hemmer"], "effekt": "Verstärkte Blutzuckersenkung mit Unterzuckerungsgefahr – Insulindosis bei Beginn oder Änderung der Kombination anpassen, Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Betablocker, Clonidin, Lithium", "ref": ["gruppe:betablocker", "clonidin", "lithium"], "effekt": "Können die Blutzuckersenkung verstärken oder abschwächen; Betablocker und Clonidin können zudem Warnzeichen einer Unterzuckerung verschleiern – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Alkohol", "ref": [], "effekt": "Kann eine Unterzuckerung auslösen, verstärken und verlängern, besonders auf nüchternen Magen und in der Nacht – nur mässig und zum Essen trinken.", "schwere": "mittel" },
+    { "text": "Pentamidin", "ref": ["pentamidin"], "effekt": "Kann zuerst eine Unterzuckerung und danach eine Überzuckerung auslösen – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
+    { "text": "Pioglitazon", "ref": ["pioglitazon"], "effekt": "In Kombination mit Insulin Wassereinlagerungen und Fälle von Herzinsuffizienz – auf Gewichtszunahme, Ödeme und Atemnot achten.", "schwere": "mittel" },
+    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhen den Blutzucker – der Insulinbedarf steigt während der Behandlung und sinkt nach dem Absetzen wieder.", "schwere": "mittel" },
+    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin, Moxifloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Starke Blutzuckerschwankungen bis zu schwerer Unterzuckerung möglich – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
+    { "text": "ACE-Hemmer, MAO-Hemmer, Fibrate, Fluoxetin, Pentoxifyllin, Disopyramid, Salicylate, Sulfonamid-Antibiotika", "ref": ["gruppe:ace-hemmer", "gruppe:mao-hemmer", "gruppe:fibrate", "fluoxetin", "pentoxifyllin", "acetylsalicylsaeure", "sulfamethoxazol-trimethoprim"], "effekt": "Können die blutzuckersenkende Wirkung verstärken – der Insulinbedarf kann sinken.", "schwere": "leicht" },
+    { "text": "Diuretika, Schilddrüsenhormone, Östrogene und Gestagene, Somatropin, Sympathomimetika (z. B. Salbutamol, Adrenalin), Isoniazid, Phenothiazine, Danazol, Diazoxid", "ref": ["gruppe:diuretika", "gruppe:schilddruesenhormone", "gruppe:oestrogene", "gruppe:gestagene", "somatropin", "gruppe:sympathomimetika", "gruppe:beta2-sympathomimetika", "isoniazid", "diazoxid"], "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.", "schwere": "leicht" },
+    { "text": "Atypische Antipsychotika (z. B. Olanzapin, Clozapin) und HIV-Proteasehemmer", "ref": ["olanzapin", "clozapin", "gruppe:hiv-proteasehemmer"], "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Hypoglykämie (Unterzuckerung) mit Zittern, Schwitzen, Herzklopfen, Heisshunger oder Verwirrtheit; schwer bis zur Bewusstlosigkeit, oft auch nachts"],
+    "haeufig": ["Lipohypertrophie (Verdickung des Unterhautfettgewebes an der Spritzstelle)", "Reaktionen an der Injektionsstelle (Rötung, Schmerz, Juckreiz, Nesselsucht, Schwellung)"],
+    "gelegentlich": ["Lipoatrophie (Schwund des Unterhautfettgewebes an der Spritzstelle)"],
+    "selten": ["Allergische Sofortreaktionen (Hautreaktionen am ganzen Körper, Angioödem, Bronchospasmus, Blutdruckabfall, Schock)", "Vorübergehende Sehstörungen", "Retinopathie (vorübergehende Verschlechterung der diabetischen Netzhauterkrankung bei rascher Blutzuckersenkung)", "Ödeme (Wassereinlagerungen)"],
+    "sehrSelten": ["Dysgeusie (Geschmacksstörung)", "Myalgie (Muskelschmerzen)"],
+    "unbekannt": ["Kutane Amyloidose (knotige Ablagerungen unter der Haut an häufig benutzten Spritzstellen, mit verschlechterter Insulinaufnahme)"]
+  },
+  "schwangerschaft": "Kann bei Bedarf angewendet werden: Daten von über 1000 Schwangerschaften zeigen keine schädliche Wirkung auf Schwangerschaft oder Kind. Engmaschige Blutzuckerkontrollen, da sich der Insulinbedarf im Verlauf und nach der Geburt ändert.",
+  "stillzeit": "Erlaubt; Insulin wird vom gestillten Kind nicht über den Darm aufgenommen. Die Insulindosis und die Ernährung müssen eventuell angepasst werden.",
+  "hinweise": [
+    "Einmal täglich, möglichst immer zur gleichen Tageszeit spritzen; nicht mit anderen Insulinen mischen oder verdünnen.",
+    "Toujeo (300 Einheiten/ml) nie mit einer Spritze aus dem Pen aufziehen – Gefahr schwerer Überdosierung.",
+    "Die Spritzstelle innerhalb einer Körperregion regelmässig wechseln, um Verhärtungen und Ablagerungen im Unterhautgewebe zu vermeiden.",
+    "Immer Traubenzucker bei sich tragen; eine Unterzuckerung beeinträchtigt die Fahrtüchtigkeit – vor dem Autofahren Blutzucker messen."
+  ],
+  "stand": "2026-10"
+}

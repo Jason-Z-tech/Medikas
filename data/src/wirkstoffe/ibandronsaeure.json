@@ -1,0 +1,201 @@
+{
+  "id": "ibandronsaeure",
+  "name": "Ibandronsäure",
+  "synonyme": [
+    "Ibandronat",
+    "Natriumibandronat",
+    "Ibandronic acid"
+  ],
+  "atc": [
+    "M05BA06"
+  ],
+  "klasse": "Bisphosphonat",
+  "kurz": "Knochenstärkendes Mittel (Bisphosphonat) gegen Osteoporose als Monatstablette oder Spritze; höher dosiert bei Knochenmetastasen von Brustkrebs.",
+  "gruppen": [
+    "bisphosphonate",
+    "ulkusrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Bonviva",
+    "Bondronat"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Injektionslösung (Fertigspritze)",
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Osteoporose bei Frauen nach den Wechseljahren mit erhöhtem Bruchrisiko (Bonviva)",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Brustkrebs mit Knochenmetastasen: Vorbeugung von Knochenbrüchen und anderen Knochenkomplikationen (Bondronat)",
+      "ids": [
+        "knochenmetastasen",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Tumorbedingte Hyperkalzämie (erhöhtes Calcium im Blut; Bondronat als Infusion)",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst den Knochenabbau, sodass die Knochendichte zunimmt und das Bruchrisiko sinkt. Ibandronsäure ist ein stickstoffhaltiges Bisphosphonat, das sich an das Knochenmineral anlagert und von den knochenabbauenden Zellen (Osteoklasten) aufgenommen wird. Dort hemmt es die Farnesylpyrophosphat-Synthase und unterdrückt so deren Aktivität. Die starke Bindung an den Knochen erlaubt eine Einnahme einmal pro Monat oder eine Spritze alle drei Monate.",
+  "kontraindikationen": [
+    {
+      "text": "Hypokalzämie (Calciummangel im Blut)",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Tabletten: Erkrankungen der Speiseröhre, die deren Entleerung verzögern (z. B. Verengung, Achalasie)",
+      "ids": [
+        "schluckstoerung"
+      ]
+    },
+    {
+      "text": "Tabletten: Unfähigkeit, mindestens 60 Minuten aufrecht zu stehen oder zu sitzen",
+      "ids": [
+        "immobilisation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min: nicht empfohlen); bei Spritze oder Infusion Nierenwerte vor jeder Gabe",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Erkrankungen von Speiseröhre oder Magen (Schluckbeschwerden, Gastritis, Geschwüre)",
+      "ids": [
+        "schluckstoerung",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Risiko für Kiefernekrose: Krebs, Chemotherapie, Kortison, schlechte Mundhygiene, Zahnbehandlungen oder -operationen",
+      "ids": [
+        "kiefernekrose",
+        "krebs",
+        "operation"
+      ]
+    },
+    {
+      "text": "Neue Oberschenkel- oder Leistenschmerzen (Hinweis auf einen atypischen Oberschenkelbruch)",
+      "ids": [
+        "knochenbruch"
+      ]
+    },
+    {
+      "text": "Vitamin-D-Mangel und Calciummangel vor Behandlungsbeginn ausgleichen",
+      "ids": [
+        "vitamin-d-mangel",
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Chronische Ohrenentzündungen (Osteonekrose des äusseren Gehörgangs möglich)",
+      "ids": [
+        "ohrenentzuendung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Calcium, Magnesium, Eisen, Antazida und andere mehrwertige Kationen (auch in Mineralwasser und Milch)",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate",
+        "calcium"
+      ],
+      "effekt": "Vermindern die Aufnahme der Tablette stark – frühestens 60 Minuten danach einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nahrung, Getränke ausser Leitungswasser und andere Arzneimittel",
+      "ref": [],
+      "effekt": "Vermindern die Aufnahme – Tablette nüchtern einnehmen und 60 Minuten warten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide, Zytostatika und Angiogenesehemmer (z. B. Bevacizumab)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:zytostatika",
+        "bevacizumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Kiefernekrose – vor Behandlungsbeginn Zahnkontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR und Acetylsalicylsäure",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Mehr Reizungen von Speiseröhre und Magen möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Aminoglykoside (bei Infusion)",
+      "ref": [
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Beide können Calcium und Magnesium senken – Elektrolyte kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Sodbrennen, Verdauungsbeschwerden, Gastritis, Refluxösophagitis",
+      "Bauchschmerzen, Durchfall, Übelkeit",
+      "Kopfschmerzen",
+      "Hautausschlag",
+      "Gelenk-, Muskel- und Knochenschmerzen, Muskelkrämpfe",
+      "Grippeähnliche Beschwerden (Akute-Phase-Reaktion), vor allem nach der ersten Gabe",
+      "Müdigkeit",
+      "Hypokalzämie (Calciummangel) bei hoch dosierter Infusion"
+    ],
+    "gelegentlich": [
+      "Schwindel",
+      "Entzündung oder Geschwüre der Speiseröhre, Schluckbeschwerden, Erbrechen",
+      "Rückenschmerzen",
+      "Venenreizung an der Injektionsstelle"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen, Angioödem, Nesselsucht",
+      "Augenentzündungen (Uveitis, Skleritis)",
+      "Atypische Oberschenkelbrüche"
+    ],
+    "sehrSelten": [
+      "Kiefernekrose (Absterben von Kieferknochen)",
+      "Osteonekrose des äusseren Gehörgangs",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, Erythema multiforme)"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden.",
+  "stillzeit": "Nicht anwenden.",
+  "hinweise": [
+    "Monatstablette immer am gleichen Kalendertag morgens nüchtern mit einem vollen Glas Leitungswasser unzerkaut einnehmen; danach 60 Minuten aufrecht bleiben und nichts essen, trinken oder einnehmen.",
+    "Bei Spritze oder Infusion werden vor jeder Gabe die Nierenwerte bestimmt.",
+    "Für ausreichend Calcium und Vitamin D sorgen; vor Beginn Zahnstatus kontrollieren und auf gute Mundhygiene achten.",
+    "Neue Oberschenkel-, Leisten- oder Ohrenschmerzen ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

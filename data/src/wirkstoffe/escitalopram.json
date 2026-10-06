@@ -1,0 +1,275 @@
+{
+  "id": "escitalopram",
+  "name": "Escitalopram",
+  "synonyme": [
+    "Escitalopramum",
+    "Escitalopramoxalat",
+    "S-Citalopram"
+  ],
+  "atc": [
+    "N06AB10"
+  ],
+  "klasse": "Selektiver Serotonin-Wiederaufnahmehemmer (SSRI, Antidepressivum)",
+  "kurz": "Antidepressivum aus der Gruppe der SSRI gegen Depression, Panik-, soziale und generalisierte Angststörung sowie Zwangsstörung.",
+  "gruppen": [
+    "ssri",
+    "serotonerg",
+    "qt-verlaengernd",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "krampfschwellensenkend",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Cipralex",
+    "Escitalopram Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression)",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Panikstörung mit oder ohne Agoraphobie (Platzangst)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Soziale Angststörung (soziale Phobie)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Generalisierte Angststörung",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Zwangsstörungen",
+      "ids": [
+        "zwangsstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und vermindert Angst, indem es die Menge des Botenstoffs Serotonin zwischen den Nervenzellen erhöht. Escitalopram ist die wirksame Hälfte (S-Enantiomer) von Citalopram und hemmt hochselektiv den Serotonin-Transporter. Es wird über CYP2C19, CYP3A4 und CYP2D6 abgebaut; die Halbwertszeit beträgt etwa 30 Stunden. Dosisabhängig kann es die QT-Zeit im EKG verlängern.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannte QT-Verlängerung oder angeborenes Long-QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen: langsamer Puls, kürzlich erlittener Herzinfarkt, dekompensierte Herzinsuffizienz; Kalium- oder Magnesiummangel vor Beginn ausgleichen",
+      "ids": [
+        "bradykardie",
+        "herzinfarkt",
+        "herzinsuffizienz",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: tiefere Dosis, erhöhtes Risiko für Natriummangel",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion, schwere Niereninsuffizienz oder langsamer Abbau über CYP2C19",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (Pupillenerweiterung)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer: irreversible nicht selektive MAO-Hemmer sowie reversible wie Moclobemid oder Linezolid",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid",
+        "linezolid"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms (Fieber, Muskelzuckungen, Verwirrtheit, Kreislaufversagen)."
+    },
+    {
+      "text": "Arzneimittel, welche die QT-Zeit verlängern (z. B. Antiarrhythmika der Klassen IA und III, bestimmte Antipsychotika, Makrolide, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "grund": "Additive QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Selegilin (MAO-B-Hemmer)",
+      "ref": [
+        "selegilin"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – nur mit Vorsicht und Selegilin höchstens 10 mg pro Tag.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere serotonerge Mittel (Triptane, Tramadol, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – auf Fieber, Zittern, Muskelzuckungen, Unruhe und Durchfall achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kalium- oder Magnesium-senkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Ein Kalium- oder Magnesiummangel erhöht das Risiko für Torsade de pointes – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19-Hemmer (z. B. Omeprazol, Esomeprazol, Fluvoxamin)",
+      "ref": [
+        "gruppe:cyp2c19-hemmer",
+        "omeprazol",
+        "esomeprazol",
+        "fluvoxamin"
+      ],
+      "effekt": "Der Escitalopram-Spiegel steigt – Dosis gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien, Thrombozytenaggregationshemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Metoprolol, Flecainid, Propafenon, trizyklische Antidepressiva)",
+      "ref": [
+        "metoprolol",
+        "flecainid",
+        "propafenon",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Escitalopram hemmt CYP2D6 mässig – deren Spiegel können steigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Verminderter oder gesteigerter Appetit, Gewichtszunahme",
+      "Angst, Unruhe, ungewöhnliche Träume, Schlaflosigkeit, Schläfrigkeit",
+      "Verminderte Libido, Orgasmus- und Ejakulationsstörungen, Impotenz",
+      "Schwindel, Zittern, Kribbeln (Parästhesien)",
+      "Nasennebenhöhlenentzündung, Gähnen",
+      "Durchfall, Verstopfung, Erbrechen, Mundtrockenheit",
+      "Vermehrtes Schwitzen, Gelenk- und Muskelschmerzen",
+      "Müdigkeit, Fieber"
+    ],
+    "gelegentlich": [
+      "Gewichtsabnahme",
+      "Zähneknirschen, Nervosität, Panikattacken, Verwirrtheit",
+      "Geschmacksstörungen, Schlafstörungen, Ohnmacht (Synkope)",
+      "Erweiterte Pupillen, Sehstörungen, Ohrgeräusche",
+      "Herzrasen (Tachykardie)",
+      "Nasenbluten, Magen-Darm-Blutungen",
+      "Nesselsucht, Haarausfall, Hautausschlag, Juckreiz",
+      "Zwischen- und starke Menstruationsblutungen, Wassereinlagerungen"
+    ],
+    "selten": [
+      "Anaphylaktische Reaktion",
+      "Aggressivität, Depersonalisation, Halluzinationen",
+      "Serotoninsyndrom",
+      "Langsamer Puls (Bradykardie)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "QT-Verlängerung, ventrikuläre Herzrhythmusstörungen inkl. Torsade de pointes",
+      "Hyponatriämie, inadäquate ADH-Sekretion (SIADH)",
+      "Suizidgedanken und suizidales Verhalten, Manie",
+      "Krampfanfälle, Akathisie (Bewegungsunruhe), Bewegungsstörungen",
+      "Thrombozytopenie, Blutergüsse, Angioödem",
+      "Leberentzündung, erhöhte Leberwerte",
+      "Blutdruckabfall beim Aufstehen, Harnverhalt",
+      "Milchfluss (Galaktorrhö), Priapismus, Nachblutungen nach der Geburt"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung, nicht abrupt absetzen. Bei Einnahme in der Spätschwangerschaft sind beim Neugeborenen Anpassungsstörungen (z. B. Atemprobleme, Trinkschwäche, Zittern) und ein erhöhtes Risiko für Lungenhochdruck (PPHN) möglich.",
+  "stillzeit": "Escitalopram geht in die Muttermilch über; Stillen wird während der Behandlung nicht empfohlen.",
+  "hinweise": [
+    "Höchstdosis 20 mg pro Tag; bei Menschen über 65 Jahren, eingeschränkter Leberfunktion oder langsamem CYP2C19-Abbau meist höchstens 10 mg pro Tag.",
+    "Bei Herzklopfen, Schwindel oder Ohnmacht sofort ärztlich abklären lassen.",
+    "Die Wirkung setzt nach 2–4 Wochen ein; nicht abrupt absetzen, sondern über 1–2 Wochen ausschleichen.",
+    "Kann die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

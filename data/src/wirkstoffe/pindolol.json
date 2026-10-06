@@ -1,0 +1,257 @@
+{
+  "id": "pindolol",
+  "name": "Pindolol",
+  "synonyme": [
+    "Pindololum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C07AA03"
+  ],
+  "klasse": "Nichtselektiver Betablocker mit intrinsischer sympathomimetischer Aktivität (ISA)",
+  "kurz": "Betablocker gegen Bluthochdruck, Angina pectoris und Herzrhythmusstörungen; verlangsamt den Ruhepuls weniger stark als andere Betablocker.",
+  "gruppen": [
+    "betablocker",
+    "blutdrucksenkend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Visken",
+    "Viskaldix (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Angina pectoris (Vorbeugung von Anfällen)",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen mit zu schnellem Puls (z. B. Sinustachykardie, supraventrikuläre Tachykardien)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "tachykardie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck und entlastet das Herz, indem es die Wirkung der Stresshormone Adrenalin und Noradrenalin am Herzen abschwächt. Pindolol blockiert Beta-1- und Beta-2-Rezeptoren ohne Selektivität und besitzt zugleich eine ausgeprägte partielle agonistische Eigenwirkung (intrinsische sympathomimetische Aktivität, ISA). Deshalb sinken Ruhepuls und Herzauswurf weniger stark als unter anderen Betablockern, während der Anstieg von Puls und Blutdruck unter Belastung gedämpft wird.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma bronchiale oder schwere chronisch obstruktive Lungenerkrankung",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Nicht ausreichend behandelte (dekompensierte) Herzinsuffizienz, kardiogener Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    },
+    {
+      "text": "AV-Block II. und III. Grades, Sinusknotensyndrom, sinuatrialer Block",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Bradykardie (stark verlangsamter Puls) und ausgeprägte Hypotonie",
+      "ids": [
+        "bradykardie",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere periphere Durchblutungsstörungen",
+      "ids": [
+        "pavk",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Unbehandeltes Phäochromozytom, metabolische Azidose",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Diabetes mit schwankendem Blutzucker (Warnzeichen einer Unterzuckerung können verdeckt sein)",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion (Symptome werden verschleiert)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Psoriasis (Verschlechterung möglich)",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "AV-Block I. Grades und kompensierte Herzinsuffizienz",
+      "ids": [
+        "av-block",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Allergien und Desensibilisierung (verstärkte allergische Reaktionen, schlechteres Ansprechen auf Adrenalin)",
+      "ids": [
+        "allergie",
+        "anaphylaxie",
+        "insektengiftallergie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Geplante Operation mit Narkose (Narkoseärztin oder -arzt informieren)",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Gefahr von starkem Pulsabfall, AV-Block und Herzschwäche; nicht intravenös bei laufender Betablocker-Behandlung geben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron, Flecainid, Propafenon)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Verstärkte Hemmung von Herzfrequenz und Reizleitung – EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clonidin und andere zentrale Alpha-2-Agonisten",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Beim Absetzen von Clonidin gefährlicher Blutdruckanstieg möglich – zuerst den Betablocker, einige Tage später Clonidin ausschleichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Insulin und orale Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verdeckt sein – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung und Verzögerung der Reizleitung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fingolimod und andere pulsverlangsamende Mittel",
+      "ref": [
+        "fingolimod",
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Gefahr einer ausgeprägten Bradykardie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker und Nitrate",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkosemittel",
+      "ref": [],
+      "effekt": "Verstärkte Blutdrucksenkung und Herzhemmung – Narkoseteam informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin (z. B. bei allergischem Schock)",
+      "ref": [
+        "adrenalin"
+      ],
+      "effekt": "Blutdruckanstieg mit Pulsverlangsamung möglich; Adrenalin wirkt bei Anaphylaxie schwächer.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (Schmerz- und Rheumamittel)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schwindel, Müdigkeit, Kopfschmerzen",
+      "Schlafstörungen",
+      "Magen-Darm-Beschwerden (Übelkeit, Durchfall)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Bradykardie (langsamer Puls), AV-Block",
+      "Verschlechterung einer Herzinsuffizienz",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Kalte Hände und Füsse, Verschlechterung von Durchblutungsstörungen",
+      "Muskelkrämpfe, Zittern",
+      "Depressive Verstimmung, lebhafte Träume",
+      "Hautausschlag, Verschlechterung einer Psoriasis"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Betablocker können das Wachstum des Kindes vermindern und beim Neugeborenen langsamen Puls und Unterzuckerung verursachen.",
+  "stillzeit": "Pindolol geht in die Muttermilch über; nicht empfohlen bzw. nur nach strenger ärztlicher Abwägung.",
+  "hinweise": [
+    "Nicht abrupt absetzen – Gefahr von Angina-pectoris-Anfällen, Herzinfarkt und Blutdruckanstieg; über 1–2 Wochen ausschleichen.",
+    "Vor Operationen die Behandlung angeben.",
+    "Kann besonders zu Beginn und zusammen mit Alkohol die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

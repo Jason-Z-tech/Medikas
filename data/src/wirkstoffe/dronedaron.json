@@ -1,0 +1,288 @@
+{
+  "id": "dronedaron",
+  "name": "Dronedaron",
+  "synonyme": [
+    "Dronedarone",
+    "Dronedaronhydrochlorid"
+  ],
+  "atc": [
+    "C01BD07"
+  ],
+  "klasse": "Antiarrhythmikum Klasse III (Multikanalblocker, Benzofuranderivat)",
+  "kurz": "Mittel gegen Vorhofflimmern, das nach einer Rückführung in den normalen Rhythmus (Kardioversion) einen Rückfall verhindern soll.",
+  "gruppen": [
+    "antiarrhythmika-klasse-iii",
+    "qt-verlaengernd",
+    "bradykardisierend",
+    "maessige-cyp3a4-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "hepatotoxisch",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Multaq"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhaltung des normalen Herzrhythmus (Sinusrhythmus) nach erfolgreicher Kardioversion bei klinisch stabilen Erwachsenen mit anfallsweisem oder anhaltendem Vorhofflimmern, wenn andere Behandlungsmöglichkeiten erwogen wurden",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hilft, nach Vorhofflimmern den normalen Herzrhythmus zu halten, und bremst den Puls. Dronedaron ist ein mit Amiodaron verwandter Multikanalblocker ohne Jod: Es hemmt Kalium-, Natrium- und Calciumkanäle der Herzmuskelzellen und wirkt zusätzlich nicht kompetitiv antiadrenerg. Dadurch verlängern sich Aktionspotenzial und Refraktärzeit, und die Herzfrequenz sinkt. Es wird über CYP3A4 abgebaut und hemmt selbst CYP3A4, CYP2D6 und P-Glykoprotein.",
+  "kontraindikationen": [
+    {
+      "text": "AV-Block II. oder III. Grades, kompletter Schenkelblock, distaler Block, Sinusknotenfunktionsstörung, Vorhof-Erregungsleitungsstörung oder Sick-Sinus-Syndrom (ausser mit funktionierendem Herzschrittmacher)",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom"
+      ]
+    },
+    {
+      "text": "Bradykardie unter 50 Schlägen pro Minute",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Permanentes Vorhofflimmern (seit 6 Monaten oder länger bzw. unbekannter Dauer), wenn keine Rückführung in den Sinusrhythmus mehr angestrebt wird",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Hämodynamisch instabile Patienten",
+      "ids": []
+    },
+    {
+      "text": "Bestehende oder frühere Herzinsuffizienz oder eingeschränkte Pumpfunktion der linken Herzkammer",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leber- oder Lungenschäden unter einer früheren Amiodaron-Behandlung",
+      "ids": [
+        "leberinsuffizienz",
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "QTc-Zeit (nach Bazett) von 500 ms oder mehr",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschäden bis zum lebensbedrohlichen Leberversagen möglich: Leberwerte vor Beginn, nach 1 Woche, nach 1 Monat, danach monatlich bis 6 Monate und anschliessend regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Zeichen einer neuen oder sich verschlechternden Herzinsuffizienz (Gewichtszunahme, geschwollene Beine, Atemnot) sofort melden",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Lungenschäden (interstitielle Lungenerkrankung, Lungenfibrose): Atemnot oder trockenen Husten abklären",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Kalium- und Magnesiummangel vor Beginn ausgleichen (Gefahr von Rhythmusstörungen)",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Kreatininanstieg zu Beginn (gehemmte Ausscheidung) – Nierenfunktion kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen ab 75 Jahren mit mehreren Begleiterkrankungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Vorhofflimmern erfordert meist zusätzlich eine passende Blutverdünnung",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Voriconazol, Posaconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Hemmen den Abbau von Dronedaron stark – vielfach erhöhte Spiegel mit Gefahr von Bradykardie und Rhythmusstörungen."
+    },
+    {
+      "text": "Mittel, die Torsade-de-pointes-Rhythmusstörungen auslösen können (z. B. Phenothiazine, trizyklische Antidepressiva, orale Makrolide wie Erythromycin, Antiarrhythmika der Klassen I und III)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii",
+        "erythromycin"
+      ],
+      "grund": "Zusätzliche Verlängerung der QT-Zeit – Gefahr lebensbedrohlicher Kammerrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Dabigatran",
+      "ref": [
+        "dabigatran"
+      ],
+      "grund": "Dronedaron hemmt P-Glykoprotein und erhöht die Dabigatranspiegel deutlich – erhöhtes Blutungsrisiko."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxinspiegel steigen etwa auf das 2,5-Fache, zudem stärkere Pulsverlangsamung – Digoxindosis halbieren, Spiegel und EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Calcineurin- und mTOR-Hemmer (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen deutlich – Spiegel eng überwachen, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Dronedaronspiegel sinken stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Statine (z. B. Simvastatin, Atorvastatin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Höhere Statinspiegel mit Risiko für Muskelschäden – Statindosis begrenzen, auf Muskelschmerzen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rivaroxaban und Edoxaban",
+      "ref": [
+        "rivaroxaban",
+        "edoxaban"
+      ],
+      "effekt": "Höhere Spiegel und Blutungsrisiko – Rivaroxaban nicht empfohlen, Edoxaban nur in reduzierter Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker sowie Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Stärkere Verlangsamung von Puls und Erregungsleitung; Verapamil und Diltiazem erhöhen zudem die Dronedaronspiegel – niedrig dosiert beginnen, EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann steigen – engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere empfindliche CYP3A4-Substrate (z. B. Midazolam)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Spiegel dieser Mittel steigen – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kalium- oder Magnesiummangel begünstigt Rhythmusstörungen – Kalium und Magnesium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Erhöht die Dronedaronspiegel etwa auf das Dreifache – während der Behandlung meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhtes Kreatinin im Blut",
+      "QT-Verlängerung im EKG",
+      "Neu auftretende oder verschlechterte Herzinsuffizienz"
+    ],
+    "haeufig": [
+      "Bradykardie (langsamer Puls)",
+      "Durchfall, Erbrechen, Übelkeit, Bauchschmerzen, Verdauungsbeschwerden",
+      "Hautausschlag, Juckreiz",
+      "Müdigkeit, Schwäche",
+      "Erhöhte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Interstitielle Lungenerkrankung (Pneumonitis, Lungenfibrose)",
+      "Geschmacksstörungen",
+      "Lichtempfindlichkeit der Haut, Ekzem, Hautrötung"
+    ],
+    "selten": [
+      "Leberschäden bis zum lebensbedrohlichen akuten Leberversagen",
+      "Anaphylaxie und Angioödem",
+      "Geschmacksverlust",
+      "Gefässentzündung (Vaskulitis)"
+    ]
+  },
+  "schwangerschaft": "In Tierstudien fruchtschädigend; während der Schwangerschaft nicht empfohlen. Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Nicht bekannt, ob Dronedaron in die Muttermilch übergeht (bei Tieren ja); entweder abstillen oder auf die Behandlung verzichten.",
+  "hinweise": [
+    "Zweimal täglich zum Frühstück und zum Abendessen einnehmen; keinen Grapefruitsaft trinken.",
+    "Regelmässige Kontrollen von EKG, Leber- und Nierenwerten.",
+    "Bei Zeichen einer Leberschädigung (Schmerzen im rechten Oberbauch, Gelbsucht, dunkler Urin) oder einer Herzschwäche (Atemnot, Gewichtszunahme, geschwollene Beine) sofort ärztliche Hilfe holen.",
+    "Vor jeder neuen Medikation Wechselwirkungen in der Apotheke prüfen lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "calcium",
+  "name": "Calcium",
+  "synonyme": ["Kalzium", "Calciumcarbonat", "Calciumgluconat", "Calciumlactat", "Calciumcitrat"],
+  "atc": ["A12AA04", "A12AA03", "A12AA20"],
+  "klasse": "Mineralstoff (Calciumsupplement)",
+  "kurz": "Calcium zum Ausgleich eines Calciummangels und zur Unterstützung der Osteoporosebehandlung; als Spritze bei akutem Calciummangel.",
+  "gruppen": ["mehrwertige-kationen", "hyperkalzaemie-ausloesend"],
+  "handelsnamen": ["Calcimagon", "Calcium Sandoz", "Calperos"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Kautabletten", "Brausetabletten", "Lutschtabletten", "Injektionslösung (Calciumgluconat)"],
+  "indikationen": [
+    { "text": "Calciummangel und erhöhter Calciumbedarf, z. B. im Wachstum, in Schwangerschaft und Stillzeit oder bei ungenügender Zufuhr", "ids": ["hypokalzaemie"] },
+    { "text": "Vorbeugung und unterstützende Behandlung der Osteoporose, meist zusammen mit Vitamin D", "ids": ["osteoporose"] },
+    { "text": "Ergänzend bei Rachitis und Osteomalazie (zusammen mit Vitamin D)", "ids": ["vitamin-d-mangel"] },
+    { "text": "Akuter Calciummangel mit Muskelkrämpfen (hypokalzämische Tetanie) – als Injektion", "ids": ["hypokalzaemie"] }
+  ],
+  "wirkmechanismus": "Ersetzt Calcium, das für Knochen und Zähne sowie für Muskeln, Nerven, Herz und Blutgerinnung unentbehrlich ist. Rund 99 % des Körpercalciums sind im Knochen gespeichert; eine ausreichende Zufuhr bremst den Knochenabbau, besonders zusammen mit Vitamin D, das die Aufnahme im Darm steigert. Calciumcarbonat braucht für die Aufnahme Magensäure und wird zu den Mahlzeiten besser aufgenommen, Calciumcitrat unabhängig davon. Intravenös gegebenes Calcium hebt einen gefährlich tiefen Calciumspiegel innert Minuten an.",
+  "kontraindikationen": [
+    { "text": "Erhöhtes Calcium im Blut (Hyperkalzämie), z. B. bei Überfunktion der Nebenschilddrüsen, Vitamin-D-Überdosierung, Knochenmetastasen oder Myelom", "ids": ["hyperkalzaemie", "hyperparathyreoidismus"] },
+    { "text": "Erhöhte Calciumausscheidung im Urin (Hyperkalziurie), calciumhaltige Nierensteine und Nierenverkalkung (Nephrokalzinose)", "ids": ["nierensteine"] },
+    { "text": "Schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Calcium und Phosphat im Blut kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Sarkoidose (vermehrte Calciumaufnahme, Gefahr einer Hyperkalzämie)", "ids": ["autoimmunerkrankung"] },
+    { "text": "Ruhigstellung oder Bettlägerigkeit (erhöhte Hyperkalzämie-Gefahr)", "ids": [] },
+    { "text": "Gleichzeitige Einnahme von Vitamin D oder grossen Mengen Milchprodukten und calciumhaltigen Antazida (Milch-Alkali-Syndrom)", "ids": ["hyperkalzaemie"] },
+    { "text": "Injektion: langsam verabreichen (Herzrhythmusstörungen); Gewebeschäden, wenn die Lösung neben die Vene gelangt", "ids": ["herzrhythmusstoerung"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Ceftriaxon intravenös bei Neugeborenen (calciumhaltige Infusionen oder Injektionen)", "ref": ["ceftriaxon"], "grund": "Ceftriaxon bildet mit Calcium unlösliche Ausfällungen in Lunge und Nieren – bei Neugeborenen wurden Todesfälle beschrieben." }
+  ],
+  "interaktionen": [
+    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Hohe Calciumspiegel verstärken die Digitaliswirkung und -giftigkeit (Rhythmusstörungen) – Calcium intravenös nur unter EKG-Überwachung; bei Dauereinnahme Calcium kontrollieren.", "schwere": "schwer" },
+    { "text": "Tetracycline und Fluorchinolone (z. B. Doxycyclin, Ciprofloxacin)", "ref": ["gruppe:tetracycline", "gruppe:fluorchinolone"], "effekt": "Calcium bildet schwer lösliche Komplexe und vermindert die Aufnahme des Antibiotikums – dieses mindestens 2 Stunden vor oder 4–6 Stunden nach Calcium einnehmen.", "schwere": "mittel" },
+    { "text": "Bisphosphonate zum Einnehmen (z. B. Alendronsäure, Risedronsäure)", "ref": ["gruppe:bisphosphonate"], "effekt": "Stark verminderte Aufnahme des Bisphosphonats – Calcium erst nach der in dessen Fachinformation genannten Wartezeit einnehmen.", "schwere": "mittel" },
+    { "text": "Schilddrüsenhormone (Levothyroxin)", "ref": ["gruppe:schilddruesenhormone"], "effekt": "Verminderte Aufnahme des Schilddrüsenhormons – mindestens 4 Stunden Abstand.", "schwere": "mittel" },
+    { "text": "Integrasehemmer gegen HIV (z. B. Dolutegravir, Bictegravir, Raltegravir)", "ref": ["gruppe:integrasehemmer"], "effekt": "Verminderte Aufnahme des HIV-Mittels – Einnahmeabstand bzw. gemeinsame Einnahme mit einer Mahlzeit gemäss dessen Fachinformation.", "schwere": "mittel" },
+    { "text": "Thiaziddiuretika (z. B. Hydrochlorothiazid, Chlortalidon)", "ref": ["gruppe:thiaziddiuretika"], "effekt": "Verminderte Calciumausscheidung – Hyperkalzämie möglich; Calcium bei Langzeitbehandlung kontrollieren.", "schwere": "mittel" },
+    { "text": "Eltrombopag", "ref": ["eltrombopag"], "effekt": "Verminderte Aufnahme – Eltrombopag mindestens 2 Stunden vor oder 4 Stunden nach Calcium einnehmen.", "schwere": "mittel" },
+    { "text": "Eisenpräparate und Zink", "ref": ["gruppe:eisenpraeparate", "zink"], "effekt": "Gegenseitig verminderte Aufnahme – mindestens 2 Stunden Abstand.", "schwere": "leicht" },
+    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Vermindern die Calciumaufnahme im Darm – Bedarf kann erhöht sein.", "schwere": "leicht" },
+    { "text": "Natriumfluorid", "ref": ["natriumfluorid"], "effekt": "Verminderte Fluoridaufnahme – zeitversetzt einnehmen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": ["Hyperkalzämie (erhöhtes Calcium im Blut)", "Hyperkalziurie (erhöhtes Calcium im Urin)"],
+    "selten": ["Verstopfung, Blähungen, Übelkeit, Bauchschmerzen, Durchfall"],
+    "sehrSelten": ["Juckreiz, Hautausschlag, Nesselsucht", "Milch-Alkali-Syndrom (Hyperkalzämie, Alkalose, Nierenfunktionsstörung), meist nur bei Überdosierung"],
+    "unbekannt": ["Injektion: Wärmegefühl, Hitzewallung, Blutdruckabfall, langsamer Puls oder Rhythmusstörungen bei zu rascher Gabe", "Injektion: Reizung oder Gewebeschäden an der Einstichstelle"]
+  },
+  "schwangerschaft": "In üblichen Dosen erlaubt, der Bedarf ist erhöht; hohe Dosen und eine Hyperkalzämie vermeiden.",
+  "stillzeit": "Erlaubt; Calcium geht in die Muttermilch über.",
+  "hinweise": [
+    "Calciumcarbonat am besten zu den Mahlzeiten einnehmen; Kautabletten kauen oder lutschen, Brausetabletten in Wasser auflösen.",
+    "Abstand zu Antibiotika (Tetracycline, Chinolone), Schilddrüsenhormonen, Bisphosphonaten und Eisen einhalten.",
+    "Lebensmittel mit viel Oxalsäure (Spinat, Rhabarber) oder Phytinsäure (Vollkorn) vermindern die Calciumaufnahme."
+  ],
+  "stand": "2026-10"
+}

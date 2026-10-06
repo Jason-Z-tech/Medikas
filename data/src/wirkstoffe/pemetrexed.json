@@ -1,0 +1,225 @@
+{
+  "id": "pemetrexed",
+  "name": "Pemetrexed",
+  "synonyme": [
+    "Pemetrexed disodium",
+    "Pemetrexedum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01BA04"
+  ],
+  "klasse": "Zytostatikum (Antimetabolit, Folsäureantagonist)",
+  "kurz": "Zytostatikum (Infusion) gegen bestimmte Formen von Lungenkrebs und gegen das Pleuramesotheliom (Rippenfellkrebs).",
+  "gruppen": [
+    "folsaeureantagonisten",
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "nephrotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Alimta",
+    "Pemetrexed Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung eines Infusionslösungskonzentrats",
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Malignes Pleuramesotheliom (Rippenfellkrebs), das nicht operiert werden kann, in Kombination mit Cisplatin",
+      "ids": [
+        "lungenkrebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs ohne Plattenepithel-Histologie: als Ersttherapie (z. B. mit Cisplatin), als Erhaltungstherapie oder nach vorangegangener Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Teilung von Krebszellen, indem es den Folsäure-Stoffwechsel blockiert. Pemetrexed hemmt als Mehrfach-Folsäureantagonist die Enzyme Thymidylat-Synthase, Dihydrofolat-Reduktase und Glycinamid-Ribonukleotid-Formyltransferase, die für die Bildung von DNA-Bausteinen (Thymidin und Purine) nötig sind. In der Zelle wird es zu Polyglutamaten umgebaut, die länger in den Tumorzellen verbleiben und stärker wirken. Die vorbeugende Gabe von Folsäure und Vitamin B12 schützt gesunde Zellen und senkt die Toxizität.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion; bei Kreatinin-Clearance unter 45 ml/min nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Knochenmarkhemmung: vor jedem Zyklus Blutbild kontrollieren",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsansammlungen im Brust- oder Bauchraum (Pleuraerguss, Aszites): vor der Behandlung ggf. ableiten",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: schwere Herz- und Gefässereignisse beschrieben, besonders mit Cisplatin",
+      "ids": [
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel durch Erbrechen oder Durchfall",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Frühere oder gleichzeitige Bestrahlung: Strahlenpneumonitis und Hautreaktionen in bestrahlten Bereichen",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Kinderwunsch: mögliche bleibende Unfruchtbarkeit bei Männern",
+      "ids": [
+        "maennliche-unfruchtbarkeit",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfstoff",
+      "ref": [
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Bei geschwächter Abwehr kann das Impfvirus eine tödliche, generalisierte Erkrankung auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "NSAR (z. B. Ibuprofen) und hoch dosierte Acetylsalicylsäure",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Verzögerte Ausscheidung von Pemetrexed – bei eingeschränkter Nierenfunktion 2 Tage vor bis 2 Tage nach der Infusion meiden (bei lang wirksamen NSAR länger).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfvirus-Erkrankung – während der Behandlung nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Schleifendiuretika, Platinderivate, Ciclosporin)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "gruppe:schleifendiuretika",
+        "gruppe:platinderivate",
+        "ciclosporin"
+      ],
+      "effekt": "Verzögerte Ausscheidung von Pemetrexed – Nierenfunktion und Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über die Niere ausgeschiedene Mittel wie Probenecid oder Penicilline",
+      "ref": [
+        "gruppe:penicilline"
+      ],
+      "effekt": "Verzögerte Ausscheidung von Pemetrexed möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildschäden – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende Gerinnungswerte unter Chemotherapie – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Leukopenie, Anämie (Blutbildveränderungen)",
+      "Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Entzündung von Mund- und Rachenschleimhaut",
+      "Durchfall, Verstopfung",
+      "Müdigkeit",
+      "Hautausschlag, Schuppung der Haut"
+    ],
+    "haeufig": [
+      "Thrombozytopenie",
+      "Infektionen, Fieber bei Neutropenie",
+      "Flüssigkeitsmangel (Dehydratation)",
+      "Geschmacksstörung, Nervenschädigung mit Kribbeln (sensorische Neuropathie)",
+      "Bindehautentzündung, trockene oder tränende Augen",
+      "Erhöhte Leberwerte",
+      "Haarausfall, Juckreiz",
+      "Nierenfunktionsstörung bis Nierenversagen"
+    ],
+    "gelegentlich": [
+      "Sepsis (Blutvergiftung)",
+      "Herzinfarkt, Angina pectoris, Schlaganfall, Herzrhythmusstörungen",
+      "Lungenembolie",
+      "Interstitielle Pneumonitis (Lungenentzündung)",
+      "Magen-Darm-Blutungen, Darmdurchbruch, Kolitis",
+      "Panzytopenie (Mangel aller Blutzellen)"
+    ],
+    "selten": [
+      "Autoimmunhämolytische Anämie (Blutzerfall)",
+      "Anaphylaktischer Schock",
+      "Hepatitis (Leberentzündung)",
+      "Strahlenreaktion in früher bestrahlter Haut (Radiation recall)"
+    ],
+    "sehrSelten": [
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse",
+      "Blasenbildende Hauterkrankungen (z. B. Pemphigoid)"
+    ],
+    "unbekannt": [
+      "Nephrogener Diabetes insipidus",
+      "Schädigung der Nierenkanälchen (Tubulusnekrose)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit (fruchtschädigend). Frauen und Männer müssen während und einige Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Vorbehandlung zwingend: Folsäure täglich ab etwa 1 Woche vor der ersten Infusion, Vitamin-B12-Spritzen alle 9 Wochen und Dexamethason rund um jede Infusion – senkt schwere Blutbild- und Hautreaktionen.",
+    "Schmerzmittel wie Ibuprofen nur nach Rücksprache mit dem Behandlungsteam einnehmen.",
+    "Regelmässige Kontrollen von Blutbild und Nierenwerten; Fieber, Atemnot oder starken Durchfall sofort melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ursodeoxycholsaeure",
+  "name": "Ursodeoxycholsäure",
+  "synonyme": ["UDCA", "Ursodiol", "Ursodeoxycholic acid", "Acidum ursodeoxycholicum"],
+  "atc": ["A05AA02"],
+  "klasse": "Gallensäure (Cholelitholytikum, Mittel bei cholestatischen Lebererkrankungen)",
+  "kurz": "Natürliche Gallensäure zur Auflösung von Cholesterin-Gallensteinen und zur Behandlung der primär biliären Cholangitis (Gallenwegserkrankung der Leber).",
+  "gruppen": [],
+  "handelsnamen": ["Ursofalk", "Ursochol"],
+  "abgabe": ["B"],
+  "darreichung": ["Kapseln", "Tabletten", "Suspension zum Einnehmen"],
+  "indikationen": [
+    { "text": "Auflösung von kleinen, nicht verkalkten Cholesterin-Gallensteinen bei funktionsfähiger Gallenblase, wenn keine Operation erfolgt", "ids": ["gallensteine"] },
+    { "text": "Primär biliäre Cholangitis (früher primär biliäre Zirrhose), sofern keine dekompensierte Leberzirrhose vorliegt", "ids": ["gallensteine", "leberzirrhose"] },
+    { "text": "Leber- und Gallenwegserkrankung bei zystischer Fibrose (Kinder und Jugendliche)", "ids": ["zystische-fibrose", "kinder"] }
+  ],
+  "wirkmechanismus": "Macht die Galle flüssiger und schützt die Leberzellen vor schädlichen Gallensäuren. Ursodeoxycholsäure ist eine wasserlösliche (hydrophile) Gallensäure, die beim Menschen natürlicherweise in kleinen Mengen vorkommt. Sie vermindert die Cholesterinaufnahme im Darm und die Cholesterinausscheidung in die Galle; dadurch sinkt die Cholesterinsättigung der Galle und Cholesterinsteine können sich langsam auflösen. Bei cholestatischen Lebererkrankungen verdrängt sie giftigere, fettlösliche Gallensäuren, fördert den Gallefluss und wirkt zellschützend und immunmodulierend.",
+  "kontraindikationen": [
+    { "text": "Akute Entzündung der Gallenblase oder der Gallenwege", "ids": [] },
+    { "text": "Verschluss der Gallenwege (Gallengang oder Gallenblasengang)", "ids": [] },
+    { "text": "Häufige Gallenkoliken, verkalkte (röntgendichte) Gallensteine oder eingeschränkte Zusammenziehung der Gallenblase (bei der Gallensteinauflösung)", "ids": [] },
+    { "text": "Kinder mit Gallengangatresie nach erfolgloser Operation oder ohne ausreichenden Gallefluss", "ids": ["kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "Lebererkrankungen: Leberwerte in den ersten 3 Monaten alle 4 Wochen, danach alle 3 Monate kontrollieren", "ids": ["leberinsuffizienz"] },
+    { "text": "Fortgeschrittene primär biliäre Cholangitis bzw. Leberzirrhose: selten Verschlechterung (Dekompensation) beobachtet", "ids": ["leberzirrhose"] },
+    { "text": "Durchfall unter der Behandlung: Dosis reduzieren, bei Anhalten absetzen", "ids": ["durchfall"] },
+    { "text": "Frauen im gebärfähigen Alter: zuverlässig verhüten, bevorzugt nicht hormonell oder mit niedrig dosierten Östrogenen", "ids": ["frauen-gebaerfaehig", "verhuetung"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Colestyramin, Colestipol, Colesevelam und aluminiumhaltige Antazida", "ref": ["colestyramin", "colesevelam", "aluminiumhydroxid-magnesiumhydroxid", "gruppe:antazida"], "effekt": "Binden Ursodeoxycholsäure im Darm und vermindern ihre Wirkung – mindestens 2 Stunden Abstand einhalten.", "schwere": "mittel" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ciclosporin-Aufnahme kann steigen – Spiegel kontrollieren und Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Östrogene, hormonale Verhütungsmittel und Fibrate (Cholesterinsenker)", "ref": ["gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva", "gruppe:fibrate"], "effekt": "Erhöhen die Cholesterinausscheidung in die Galle und können die Auflösung von Gallensteinen behindern.", "schwere": "leicht" },
+    { "text": "Ciprofloxacin", "ref": ["ciprofloxacin"], "effekt": "In Einzelfällen verminderte Aufnahme von Ciprofloxacin.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Breiige Stühle oder Durchfall"],
+    "sehrSelten": [
+      "Starke Schmerzen im rechten Oberbauch (bei primär biliärer Cholangitis)",
+      "Verschlechterung (Dekompensation) einer fortgeschrittenen Leberzirrhose, nach Absetzen teilweise rückbildungsfähig",
+      "Verkalkung von Gallensteinen",
+      "Nesselsucht (Urtikaria)"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen beim Menschen sind begrenzt; im Tierversuch zeigten sich in der Frühschwangerschaft fruchtschädigende Wirkungen. Nur anwenden, wenn es klar notwendig ist; vor Behandlungsbeginn eine Schwangerschaft ausschliessen.",
+  "stillzeit": "Nur sehr geringe Mengen gehen in die Muttermilch über; nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Zur Gallensteinauflösung meist abends vor dem Schlafengehen einnehmen; die Behandlung dauert oft 6–24 Monate.",
+    "Regelmässige Kontrollen wahrnehmen: Leberwerte sowie bei Gallensteinen nach 6–10 Monaten Ultraschall; verkalken die Steine, wird die Behandlung beendet.",
+    "Zu cholesterinbindenden Mitteln und aluminiumhaltigen Säurebindern 2 Stunden Abstand halten."
+  ],
+  "stand": "2026-10"
+}

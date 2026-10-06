@@ -1,0 +1,64 @@
+{
+  "id": "metronidazol",
+  "name": "Metronidazol",
+  "synonyme": ["Metronidazolum", "Metronidazole"],
+  "kombinationAus": [],
+  "atc": ["J01XD01", "P01AB01", "G01AF01", "D06BX01"],
+  "klasse": "Nitroimidazol (Antibiotikum und Mittel gegen Einzeller)",
+  "kurz": "Mittel gegen Anaerobier-Bakterien und Einzeller (z. B. Trichomonaden, Amöben, Lamblien); als Gel oder Creme gegen Rosazea. Kein Alkohol!",
+  "gruppen": ["nitroimidazole", "cyp2c9-hemmer"],
+  "handelsnamen": ["Flagyl", "Metronidazol B. Braun", "Rozex"],
+  "abgabe": ["A", "B"],
+  "darreichung": ["Filmtabletten", "Infusionslösung", "Gel und Creme zum Auftragen auf die Haut"],
+  "indikationen": [
+    { "text": "Infektionen durch anaerobe Bakterien, z. B. im Bauchraum, im Becken, im Gehirn (Abszess), an Knochen, Haut und Weichteilen sowie Blutvergiftung", "ids": ["bakterielle-infektion", "hautinfektion"] },
+    { "text": "Vorbeugung von Infektionen bei Operationen im Bauch- und Beckenbereich (z. B. Darm- und gynäkologische Eingriffe)", "ids": ["operation"] },
+    { "text": "Trichomonaden-Infektion der Scheide und der Harnröhre (beide Partner behandeln)", "ids": ["geschlechtskrankheit", "vaginalinfektion"] },
+    { "text": "Bakterielle Vaginose", "ids": ["vaginalinfektion"] },
+    { "text": "Amöbenruhr und Amöben-Leberabszess, Lamblien-Infektion (Giardiasis)", "ids": ["wurmbefall", "durchfall"] },
+    { "text": "Akute Zahnfleisch- und Zahninfektionen durch Anaerobier", "ids": ["mundinfektion"] },
+    { "text": "Entzündliche Rosazea mit Knötchen und Pusteln (Gel, Creme)", "ids": ["rosazea"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien und Einzeller ab, die ohne Sauerstoff leben. Metronidazol ist eine Vorstufe: Erst in anaeroben Keimen wird seine Nitrogruppe chemisch reduziert, die entstehenden reaktiven Zwischenprodukte zerstören die Erbsubstanz (DNA) des Erregers. Deshalb wirkt es gezielt gegen Anaerobier (z. B. Bacteroides, Clostridien) und Protozoen wie Trichomonaden, Amöben und Lamblien, nicht aber gegen sauerstoffliebende Bakterien. Bei Rosazea beruht die Wirkung vermutlich auf entzündungshemmenden Effekten.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Metronidazol oder andere Nitroimidazole (z. B. Tinidazol)", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Alkohol während der Behandlung und mindestens 48 Stunden danach (Unverträglichkeitsreaktion)", "ids": ["alkoholkonsum", "alkoholabhaengigkeit"] },
+    { "text": "Schwere Leberinsuffizienz oder hepatische Enzephalopathie: Dosis reduzieren", "ids": ["leberinsuffizienz", "leberzirrhose"] },
+    { "text": "Cockayne-Syndrom (seltene Erbkrankheit): Fälle von schwerem, teils tödlichem Leberversagen – nur nach strenger Abwägung mit Leberkontrollen", "ids": ["leberinsuffizienz"] },
+    { "text": "Erkrankungen des Nervensystems (z. B. Epilepsie, periphere Neuropathie); bei Kribbeln, Gangunsicherheit oder Krampfanfällen absetzen", "ids": ["epilepsie", "nervenschmerzen"] },
+    { "text": "Blutbildstörungen in der Vorgeschichte; bei Therapie über 10 Tage Blutbild kontrollieren", "ids": ["neutropenie"] },
+    { "text": "Risikofaktoren für QT-Verlängerung, besonders mit anderen QT-verlängernden Mitteln", "ids": ["qt-verlaengerung"] },
+    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP) – bei Hautausschlag absetzen", "ids": ["schwere-hautreaktion"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Alkohol (auch in Getränken, Speisen und alkoholhaltigen Arzneimitteln)", "ref": [], "effekt": "Unverträglichkeitsreaktion (Disulfiram-artig) mit Hautrötung, Übelkeit, Erbrechen, Herzrasen und Blutdruckabfall – während und mindestens 48 Stunden nach der Behandlung meiden.", "schwere": "schwer" },
+    { "text": "Disulfiram", "ref": ["disulfiram"], "effekt": "Psychotische Reaktionen und Verwirrtheit berichtet – nicht kombinieren.", "schwere": "schwer" },
+    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Metronidazol hemmt deren Abbau – deutlich erhöhtes Blutungsrisiko. INR engmaschig kontrollieren, Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Busulfan", "ref": ["busulfan"], "effekt": "Der Busulfan-Spiegel steigt stark – Gefahr schwerer Toxizität; Kombination meiden.", "schwere": "schwer" },
+    { "text": "Lithium", "ref": ["lithium"], "effekt": "Der Lithium-Spiegel kann steigen (Vergiftung, Nierenschäden) – Lithium-Spiegel, Kreatinin und Elektrolyte kontrollieren.", "schwere": "mittel" },
+    { "text": "Fluorouracil und Capecitabin", "ref": ["fluorouracil", "capecitabin"], "effekt": "Fluorouracil wird langsamer abgebaut – mehr Nebenwirkungen.", "schwere": "mittel" },
+    { "text": "Ciclosporin und Tacrolimus", "ref": ["ciclosporin", "tacrolimus"], "effekt": "Die Spiegel können steigen – Spiegel und Nierenwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Phenytoin und Phenobarbital", "ref": ["phenytoin", "phenobarbital"], "effekt": "Metronidazol wird schneller abgebaut (Wirkverlust); der Phenytoin-Spiegel kann steigen – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "QT-verlängernde Arzneimittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "QT-Verlängerung wurde berichtet – bei Risikofaktoren EKG-Kontrolle.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": ["Metallischer oder bitterer Geschmack, belegte Zunge", "Übelkeit, Appetitlosigkeit, Magendrücken, Durchfall", "Bei Gel oder Creme: trockene Haut, Rötung, Juckreiz, Brennen"],
+    "gelegentlich": ["Kopfschmerzen, Schwindel", "Hautausschlag, Juckreiz", "Dunkelfärbung des Urins (harmlos)"],
+    "selten": [],
+    "sehrSelten": ["Agranulozytose, Neutropenie, Thrombozytopenie, Panzytopenie", "Enzephalopathie (Gehirnfunktionsstörung), Kleinhirnsyndrom mit Gangunsicherheit und Sprachstörungen, Krampfanfälle", "Verwirrtheit, Halluzinationen, psychotische Reaktionen", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Hepatitis, Gelbsucht, Leberversagen", "Erbrechen, Muskel- und Gelenkschmerzen, Sehstörungen"],
+    "unbekannt": ["Periphere Neuropathie (Kribbeln, Taubheit) bei längerer oder hoch dosierter Anwendung", "Aseptische Meningitis, Schädigung des Sehnervs, Hörverlust, Tinnitus", "Anaphylaxie, Angioödem", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse), fixes Arzneimittelexanthem", "QT-Verlängerung", "Pilzinfektionen (Candida im Mund oder in der Scheide)"]
+  },
+  "schwangerschaft": "Geht über die Plazenta; ein Fehlbildungsrisiko beim Menschen ist nicht belegt. Im 1. Drittel nur bei zwingender Indikation, im 2. und 3. Drittel nach ärztlicher Abwägung; Gel und Creme nur nach Rücksprache.",
+  "stillzeit": "Geht in höheren Konzentrationen in die Muttermilch über. Während der Einnahme bzw. Infusion nicht stillen (nach einer Einzeldosis 12–24 Stunden Stillpause); Gel und Creme nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Kein Alkohol während der Behandlung und mindestens 48 Stunden danach.",
+    "Tabletten während oder nach dem Essen einnehmen; dunkler Urin ist harmlos.",
+    "Bei Trichomonaden-Infektion den Partner mitbehandeln.",
+    "Bei Kribbeln oder Taubheit in Händen und Füssen, Gangunsicherheit oder Verwirrtheit sofort ärztlichen Rat holen."
+  ],
+  "stand": "2026-10"
+}

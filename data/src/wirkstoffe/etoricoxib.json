@@ -1,0 +1,290 @@
+{
+  "id": "etoricoxib",
+  "name": "Etoricoxib",
+  "synonyme": [
+    "Etoricoxibum"
+  ],
+  "atc": [
+    "M01AH05"
+  ],
+  "klasse": "Selektiver COX-2-Hemmer (Coxib, NSAR)",
+  "kurz": "Entzündungshemmendes Schmerzmittel aus der Gruppe der COX-2-Hemmer bei Arthrose, rheumatischen Erkrankungen und akutem Gichtanfall.",
+  "gruppen": [
+    "nsar",
+    "cox2-hemmer",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Arcoxia"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Beschwerden bei Arthrose",
+      "ids": [
+        "arthrose"
+      ]
+    },
+    {
+      "text": "Rheumatoide Arthritis",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Morbus Bechterew (Spondylitis ankylosans)",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Schmerzen und Entzündung beim akuten Gichtanfall",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Kurzzeitbehandlung mässiger Schmerzen nach Zahnoperationen",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündungen und schont dabei die Magenschleimhaut etwas mehr als herkömmliche NSAR. Etoricoxib hemmt selektiv die Cyclooxygenase-2 (COX-2) und damit die Bildung entzündungsfördernder Prostaglandine; COX-1 und die Blutplättchen werden in therapeutischer Dosis kaum beeinflusst. Es wird vorwiegend über CYP3A4 abgebaut und hat eine lange Halbwertszeit, sodass eine Einnahme pro Tag genügt.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma, Nesselsucht oder allergieartige Reaktionen nach Acetylsalicylsäure oder anderen NSAR",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive Magen-Darm-Geschwüre oder -Blutungen",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz (NYHA II–IV), gesicherte koronare Herzkrankheit, Durchblutungsstörungen der Beine oder des Gehirns",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit",
+        "pavk",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Ungenügend eingestellter Bluthochdruck (dauerhaft über 140/90 mmHg)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 16 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Risikofaktoren wie erhöhte Blutfette, Diabetes oder Rauchen",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "diabetes",
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte und ältere Menschen",
+      "ids": [
+        "magen-darm-ulkus",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Wassereinlagerungen, Ödeme",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Leber- oder Nierenfunktion, Flüssigkeitsmangel",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Infektionen: Fieber und Entzündungszeichen können verschleiert werden",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR steigt – zu Beginn und bei Dosisänderung engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigt – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin und andere starke Enzyminduktoren",
+      "ref": [
+        "rifampicin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Etoricoxib-Spiegel sinkt um rund zwei Drittel – Wirkung kann ungenügend sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogenhaltige Verhütungsmittel und Hormonersatztherapie",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Etoricoxib erhöht die Östrogenspiegel – höheres Thromboserisiko möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Methotrexat-Toxizität möglich – Blutbild und Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Acetylsalicylsäure und andere NSAR",
+      "ref": [
+        "acetylsalicylsaeure",
+        "gruppe:nsar"
+      ],
+      "effekt": "Höheres Risiko für Magen-Darm-Geschwüre; Etoricoxib ersetzt die herzschützende ASS nicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel akutes Nierenversagen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Höhere Digoxin-Spitzenspiegel – bei Vergiftungsrisiko Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Alveoläre Ostitis (Entzündung nach Zahnziehen)",
+      "Ödeme (Wassereinlagerungen)",
+      "Schwindel, Kopfschmerzen",
+      "Herzklopfen, Herzrhythmusstörungen",
+      "Bluthochdruck",
+      "Magen-Darm-Beschwerden wie Bauchschmerzen, Verstopfung, Blähungen, Sodbrennen, Durchfall, Übelkeit",
+      "Erhöhte Leberwerte",
+      "Müdigkeit, grippeähnliche Beschwerden"
+    ],
+    "gelegentlich": [
+      "Herzinsuffizienz, Vorhofflimmern, Angina pectoris, Herzinfarkt",
+      "Schlaganfall, transitorische ischämische Attacke (TIA), hypertensive Krise",
+      "Magen-Darm-Geschwüre mit Blutung oder Durchbruch",
+      "Infekte der Atem- und Harnwege",
+      "Angst, Depression, Schlaflosigkeit, Geschmacksstörungen",
+      "Hautausschlag, Juckreiz, Gesichtsödem",
+      "Erhöhte Nierenwerte, Hyperkaliämie (erhöhtes Kalium)",
+      "Atemnot, Nasenbluten"
+    ],
+    "selten": [
+      "Angioödem und Anaphylaxie (schwere allergische Reaktion)",
+      "Verwirrtheit, Halluzinationen",
+      "Hepatitis, Leberversagen, Gelbsucht",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kontraindiziert.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Blutdruck vor Behandlungsbeginn, in den ersten zwei Wochen und danach regelmässig kontrollieren.",
+    "Die Höchstdosis von 120 mg pro Tag nur beim akuten Gichtanfall und höchstens 8 Tage lang.",
+    "Ersetzt keine Acetylsalicylsäure zum Herzschutz; so kurz und niedrig dosiert wie möglich.",
+    "Kann Schwindel und Müdigkeit verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

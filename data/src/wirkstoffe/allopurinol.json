@@ -1,0 +1,207 @@
+{
+  "id": "allopurinol",
+  "name": "Allopurinol",
+  "synonyme": [
+    "Allopurinolum"
+  ],
+  "atc": [
+    "M04AA01"
+  ],
+  "klasse": "Urikostatikum (Xanthinoxidase-Hemmer)",
+  "kurz": "Senkt die Harnsäure im Blut; zur Langzeitbehandlung der Gicht und zur Vorbeugung von Harnsäuresteinen.",
+  "gruppen": [
+    "urikostatika"
+  ],
+  "handelsnamen": [
+    "Zyloric",
+    "Allopurinol Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Gicht und andere Formen erhöhter Harnsäure im Blut (Hyperurikämie)",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Harnsäure-Nierensteinen und von Calciumoxalatsteinen bei erhöhter Harnsäureausscheidung",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Vorbeugung erhöhter Harnsäure bei Krebsbehandlung mit raschem Zellzerfall",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Angeborene Enzymdefekte mit Harnsäureüberproduktion (z. B. Lesch-Nyhan-Syndrom)",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt die Harnsäure, indem es deren Bildung im Körper bremst. Allopurinol und sein lang wirksamer Metabolit Oxipurinol hemmen das Enzym Xanthinoxidase, das Hypoxanthin und Xanthin zu Harnsäure umwandelt. Dadurch sinken die Harnsäurespiegel in Blut und Urin, und Uratablagerungen (Gichtknoten) können sich langsam auflösen. Weil die Xanthinoxidase auch Azathioprin und Mercaptopurin abbaut, steigen deren Spiegel unter Allopurinol stark an.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Trägerinnen und Träger von HLA-B*58:01 (häufiger bei han-chinesischer, thailändischer oder koreanischer Herkunft): stark erhöhtes Risiko für schwere Hautreaktionen",
+      "ids": [
+        "pharmakogenetik",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (niedrigere Dosis, mehr Überempfindlichkeitsreaktionen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Leberwerte kontrollieren)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akuter Gichtanfall: Behandlung erst nach Abklingen beginnen; anfangs häufigere Anfälle möglich",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Sehr hohe Harnsäurebildung (z. B. bei Tumorbehandlung): reichlich trinken, sonst Xanthinsteine möglich",
+      "ids": [
+        "nierensteine",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz oder Bluthochdruck mit Diuretika oder ACE-Hemmern (mehr Überempfindlichkeitsreaktionen)",
+      "ids": [
+        "herzinsuffizienz",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenerkrankungen (TSH kann ansteigen)",
+      "ids": [
+        "hypothyreose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Azathioprin und Mercaptopurin",
+      "ref": [
+        "gruppe:thiopurine",
+        "azathioprin",
+        "mercaptopurin"
+      ],
+      "effekt": "Abbau stark gehemmt – deren Dosis auf einen Viertel reduzieren, sonst lebensbedrohliche Knochenmarkschädigung; Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmende Wirkung kann verstärkt werden – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel kann steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zytostatika (z. B. Cyclophosphamid)",
+      "ref": [
+        "gruppe:zytostatika",
+        "cyclophosphamid"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer (v. a. Captopril) und Thiaziddiuretika, besonders bei eingeschränkter Nierenfunktion",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "captopril",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Häufiger Überempfindlichkeitsreaktionen und Blutbildveränderungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Amoxicillin und Ampicillin",
+      "ref": [
+        "amoxicillin",
+        "gruppe:penicilline"
+      ],
+      "effekt": "Häufiger Hautausschläge.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Bei hohen Allopurinol-Dosen steigt der Theophyllin-Spiegel – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Aluminiumhaltige Antazida",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme – 3 Stunden Abstand einhalten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hautausschlag (bei Auftreten absetzen)",
+      "Erhöhtes TSH (Schilddrüsenwert)"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Hepatitis bis Lebernekrose",
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautreaktionen)"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, aplastische Anämie, Thrombozytopenie (schwere Blutbildstörungen)",
+      "Anaphylaxie, Angioödem",
+      "Haarausfall"
+    ],
+    "unbekannt": [
+      "DRESS (Arzneimittelreaktion mit Fieber, Eosinophilie und Organbeteiligung)",
+      "Aseptische Meningitis (Hirnhautentzündung ohne Erreger)"
+    ]
+  },
+  "schwangerschaft": "Nur wenn keine sicherere Alternative besteht und der Nutzen das Risiko überwiegt; die Erfahrungen sind begrenzt.",
+  "stillzeit": "Allopurinol und Oxipurinol gehen in die Muttermilch über; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Nach dem Essen mit reichlich Wasser einnehmen und täglich mindestens 2 Liter trinken.",
+    "Bei Hautausschlag, Fieber oder Schleimhautveränderungen sofort absetzen und ärztlich abklären lassen – vor allem in den ersten Behandlungsmonaten.",
+    "In den ersten Monaten können Gichtanfälle häufiger auftreten – nicht absetzen; oft wird vorbeugend Colchicin oder ein NSAR gegeben.",
+    "Kann Schwindel und Schläfrigkeit verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

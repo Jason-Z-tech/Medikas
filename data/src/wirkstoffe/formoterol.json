@@ -1,0 +1,177 @@
+{
+  "id": "formoterol",
+  "name": "Formoterol",
+  "synonyme": [
+    "Formoterolfumarat",
+    "Eformoterol",
+    "Formoterol fumarate"
+  ],
+  "atc": [
+    "R03AC13"
+  ],
+  "klasse": "Lang wirksames Beta-2-Sympathomimetikum (LABA) mit raschem Wirkungseintritt",
+  "kurz": "Rasch und lang wirkender Bronchien-Erweiterer zum Inhalieren bei Asthma (zusammen mit Kortison) und COPD.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Foradil",
+    "Oxis",
+    "Symbicort (Kombi)",
+    "Vannair (Kombi)",
+    "Foster (Kombi)",
+    "Flutiform (Kombi)",
+    "Duaklir (Kombi)",
+    "Trimbow (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulverinhalator",
+    "Kapseln zur Inhalation"
+  ],
+  "indikationen": [
+    {
+      "text": "Asthma: Dauerbehandlung zusammen mit einem inhalativen Kortison, auch zur Vorbeugung von Anstrengungsasthma",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "COPD: Dauerbehandlung zur Erweiterung der Atemwege",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Bronchien innert 1–3 Minuten und hält sie etwa 12 Stunden offen. Formoterol stimuliert selektiv Beta-2-Rezeptoren der Bronchialmuskulatur; über einen Anstieg von cAMP erschlafft die glatte Muskulatur. Dank des raschen Wirkungseintritts wird es in Kombination mit Budesonid oder Beclometason auch als Bedarfsmedikament eingesetzt. Gegen die Entzündung der Atemwege wirkt es nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Asthma: nie als alleinige Behandlung ohne inhalatives Kortison (erhöhtes Risiko schwerer Asthmaanfälle)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Ein sich verschlechterndes Asthma oder zunehmender Bedarf rasch ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, QT-Verlängerung, schwerer Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion, Phäochromozytom",
+      "ids": [
+        "hyperthyreose",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzuckeranstieg möglich)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kaliummangel",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Abschwächung der bronchienerweiternden Wirkung; bei Asthma Gefahr schwerer Bronchospasmen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht, gegebenenfalls EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Kortison, Theophyllin) und Digoxin",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:methylxanthine",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Hypokaliämie mit Risiko für Herzrhythmusstörungen, besonders unter Digoxin – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen während einer Narkose.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "gruppe:beta2-sympathomimetika",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Additive Wirkung auf Herz und Kreislauf; zwei lang wirksame Beta-2-Sympathomimetika nicht kombinieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Zittern (Tremor)",
+      "Herzklopfen"
+    ],
+    "gelegentlich": [
+      "Unruhe, Nervosität, Schlafstörungen",
+      "Schwindel",
+      "Beschleunigter Puls (Tachykardie)",
+      "Muskelkrämpfe"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen (Ausschlag, Nesselsucht, Juckreiz)",
+      "Hypokaliämie (Kaliummangel)",
+      "Herzrhythmusstörungen (Vorhofflimmern, supraventrikuläre Tachykardie, Extrasystolen)",
+      "Bronchospasmus, auch paradox nach der Inhalation"
+    ],
+    "sehrSelten": [
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Geschmacksstörungen",
+      "Angina pectoris, QT-Verlängerung",
+      "Blutdruckschwankungen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; ein gut kontrolliertes Asthma ist für Mutter und Kind wichtig.",
+  "stillzeit": "Nur nach ärztlicher Abwägung; ob Formoterol in die Muttermilch übergeht, ist nicht bekannt.",
+  "hinweise": [
+    "Bei Asthma immer zusammen mit einem inhalativen Kortison anwenden, am einfachsten als Kombinationspräparat.",
+    "Inhalationstechnik in der Apotheke oder Praxis zeigen lassen; Kapseln nur in den Inhalator einlegen, nie schlucken.",
+    "Bei zunehmendem Bedarf oder nachlassender Wirkung ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

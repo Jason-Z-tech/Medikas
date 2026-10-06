@@ -1,0 +1,238 @@
+{
+  "id": "johanniskraut",
+  "name": "Johanniskraut",
+  "synonyme": [
+    "Hypericum perforatum",
+    "St. John's Wort",
+    "Hyperici herba",
+    "Johanniskraut-Trockenextrakt"
+  ],
+  "atc": [
+    "N06AX25"
+  ],
+  "klasse": "Pflanzliches Antidepressivum (Johanniskraut-Trockenextrakt)",
+  "kurz": "Pflanzliches Mittel gegen leichte bis mittelschwere Depressionen und Verstimmungen; hat viele Wechselwirkungen, auch mit der Pille.",
+  "gruppen": [
+    "serotonerg",
+    "cyp3a4-induktoren",
+    "p-gp-induktoren",
+    "enzyminduktoren-hormone",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Remotiv",
+    "ReBalance",
+    "Hyperiforce"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Tabletten",
+    "Tropfen (Tinktur)"
+  ],
+  "indikationen": [
+    {
+      "text": "Leichte bis mittelschwere depressive Episoden (rezeptpflichtige, hoch dosierte Extrakte)",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Vorübergehende depressive Verstimmung, nervöse Unruhe und Angst (rezeptfreie Präparate)",
+      "ids": [
+        "depression",
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt bei leichten bis mittelschweren Depressionen die Stimmung auf. Der Extrakt ist ein Vielstoffgemisch, unter anderem mit Hyperforin, Hypericin und Flavonoiden; im Labor hemmt er die Wiederaufnahme von Serotonin, Noradrenalin und Dopamin und verändert die Empfindlichkeit von Rezeptoren. Welcher Inhaltsstoff für die Wirkung entscheidend ist, ist nicht vollständig geklärt. Hyperforin aktiviert den Pregnan-X-Rezeptor und induziert dadurch Abbauenzyme wie CYP3A4 sowie die Transportpumpe P-Glykoprotein – die Ursache der vielen Wechselwirkungen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Schwere Depression oder Suizidgedanken: Johanniskraut reicht nicht aus – ärztliche Behandlung nötig",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bekannte Lichtüberempfindlichkeit; während der Einnahme intensive UV-Strahlung (Sonnenbad, Solarium) meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Hormonale Verhütung: Wirkung der Pille kann vermindert sein",
+      "ids": [
+        "verhuetung"
+      ]
+    },
+    {
+      "text": "Nach Organtransplantation oder unter HIV-Therapie (Gefahr des Wirkverlusts lebenswichtiger Medikamente)",
+      "ids": [
+        "transplantation",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ciclosporin und Tacrolimus (systemisch)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "grund": "Starker Abfall der Spiegel durch Enzyminduktion – Gefahr der Abstossung eines Transplantats."
+    },
+    {
+      "text": "HIV-Proteasehemmer (z. B. Indinavir, Darunavir)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "grund": "Deutlich tiefere Spiegel – Wirkverlust und Resistenzentwicklung des HI-Virus."
+    },
+    {
+      "text": "Irinotecan",
+      "ref": [
+        "irinotecan"
+      ],
+      "grund": "Der Spiegel des wirksamen Abbauprodukts sinkt – die Krebsbehandlung wirkt schlechter."
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Cumarine wie Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "grund": "Beschleunigter Abbau – abgeschwächte Gerinnungshemmung mit Thrombosegefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Ring, Pflaster, Implantat)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Zwischenblutungen und unsichere Verhütung – zusätzlich mit Kondom verhüten oder auf Johanniskraut verzichten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (z. B. Rivaroxaban, Apixaban, Edoxaban, Dabigatran)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Spiegel sinken (Induktion von CYP3A4 und P-Glykoprotein) – Gefahr von Thrombosen und Schlaganfall; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antidepressiva und andere serotonerge Mittel (z. B. SSRI, SNRI, Triptane, Tramadol)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:triptane",
+        "tramadol"
+      ],
+      "effekt": "Serotoninsyndrom möglich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel sinkt (P-Glykoprotein-Induktion) – Wirkverlust; Kombination vermeiden oder Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "mTOR-Hemmer (z. B. Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Deutlich tiefere Spiegel – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Weitere HIV-Mittel (z. B. NNRTI wie Nevirapin, Efavirenz)",
+      "ref": [
+        "gruppe:nnrti"
+      ],
+      "effekt": "Tiefere Spiegel – Wirkverlust und Resistenzgefahr; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Orale Krebsmedikamente (z. B. Imatinib und andere Proteinkinase-Hemmer)",
+      "ref": [
+        "gruppe:proteinkinase-hemmer",
+        "imatinib"
+      ],
+      "effekt": "Tiefere Spiegel – verminderte Wirksamkeit der Krebsbehandlung; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Simvastatin, Midazolam, Calciumantagonisten)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Spiegel und Wirkung nehmen ab – Wirkung überwachen, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methadon und andere Opioide (z. B. Oxycodon)",
+      "ref": [
+        "methadon",
+        "oxycodon"
+      ],
+      "effekt": "Schwächere Wirkung; unter Methadon Entzugssymptome möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Theophyllin-Spiegel kann sinken – Spiegel kontrollieren, besonders auch beim Absetzen von Johanniskraut.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lichtempfindlich machende Mittel",
+      "ref": [
+        "gruppe:photosensibilisierend"
+      ],
+      "effekt": "Verstärkte Lichtempfindlichkeit der Haut – Sonnenschutz.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Magen-Darm-Beschwerden (Übelkeit, Bauchschmerzen, Durchfall)",
+      "Allergische Hautreaktionen (Ausschlag, Juckreiz)",
+      "Müdigkeit, Unruhe",
+      "Photosensibilisierung (sonnenbrandähnliche Hautreaktionen bei intensiver UV-Bestrahlung, vor allem bei hellhäutigen Personen)",
+      "Serotoninsyndrom zusammen mit anderen serotonergen Mitteln"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; Anwendung nicht empfohlen.",
+  "stillzeit": "Inhaltsstoffe gehen in die Muttermilch über; Anwendung nicht empfohlen.",
+  "hinweise": [
+    "Vor Beginn alle anderen Medikamente ärztlich oder in der Apotheke prüfen lassen – Johanniskraut schwächt viele Mittel ab, auch die Pille.",
+    "Die Enzyminduktion klingt erst etwa 1–2 Wochen nach dem Absetzen ab; beim Absetzen können die Spiegel anderer Medikamente wieder ansteigen.",
+    "Die Wirkung setzt nach 2–4 Wochen ein; bessern sich die Beschwerden nicht, ärztlich abklären lassen.",
+    "Hyperforinarme Extrakte beeinflussen den Medikamentenabbau weniger, Wechselwirkungen sind aber nicht sicher ausgeschlossen."
+  ],
+  "stand": "2026-10"
+}

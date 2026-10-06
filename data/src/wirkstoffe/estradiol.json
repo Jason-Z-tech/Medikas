@@ -1,0 +1,64 @@
+{
+  "id": "estradiol",
+  "name": "Estradiol",
+  "synonyme": ["17-beta-Estradiol", "Östradiol", "Oestradiol", "Estradiolvalerat", "Estradiolhemihydrat", "Hormonersatztherapie"],
+  "atc": ["G03CA03"],
+  "klasse": "Östrogen (Hormonersatztherapie)",
+  "kurz": "Natürliches weibliches Geschlechtshormon gegen Wechseljahresbeschwerden – als Tablette, Pflaster, Gel oder Vaginaltablette.",
+  "gruppen": ["oestrogene"],
+  "handelsnamen": ["Estrofem", "Progynova", "Estradot", "Oestrogel", "Divigel", "Vagifem", "Femoston (Kombi)", "Activelle (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Transdermales Pflaster", "Gel", "Vaginaltabletten"],
+  "indikationen": [
+    { "text": "Hormonersatztherapie bei Östrogenmangel-Beschwerden nach der Menopause, z. B. Hitzewallungen und Schweissausbrüche", "ids": ["wechseljahre"] },
+    { "text": "Vorbeugung von Osteoporose nach der Menopause bei hohem Knochenbruchrisiko, wenn andere Osteoporosemittel nicht geeignet sind (bestimmte Präparate)", "ids": ["osteoporose"] },
+    { "text": "Scheidentrockenheit und Rückbildung der Scheidenschleimhaut (atrophische Vaginitis) durch Östrogenmangel (Vaginaltabletten)", "ids": ["wechseljahre"] }
+  ],
+  "wirkmechanismus": "Ersetzt das nach den Wechseljahren fehlende körpereigene Östrogen. Estradiol ist chemisch identisch mit dem natürlichen 17-beta-Estradiol und bindet an Östrogenrezeptoren in Gehirn, Knochen, Haut, Scheide und Gebärmutter. Dadurch werden Hitzewallungen gelindert, der Knochenabbau gebremst und die Scheidenschleimhaut wieder aufgebaut. Da Östrogen allein die Gebärmutterschleimhaut wuchern lässt, brauchen Frauen mit Gebärmutter zusätzlich ein Gestagen.",
+  "kontraindikationen": [
+    { "text": "Bestehender, früherer oder vermuteter Brustkrebs", "ids": ["brustkrebs"] },
+    { "text": "Bekannte oder vermutete östrogenabhängige bösartige Tumoren (z. B. Gebärmutterschleimhautkrebs)", "ids": ["gynaekologischer-krebs"] },
+    { "text": "Nicht abgeklärte Blutungen aus der Scheide; unbehandelte Wucherung der Gebärmutterschleimhaut (Endometriumhyperplasie)", "ids": [] },
+    { "text": "Bestehende oder frühere venöse Thrombose oder Lungenembolie; bekannte Thromboseneigung (z. B. Protein-C-, Protein-S- oder Antithrombin-Mangel)", "ids": ["thrombose", "lungenembolie", "thromboembolie-vorgeschichte"] },
+    { "text": "Bestehende oder kürzlich aufgetretene arterielle Gefässverschlüsse wie Angina pectoris, Herzinfarkt oder Schlaganfall", "ids": ["angina-pectoris", "herzinfarkt", "schlaganfall"] },
+    { "text": "Akute Lebererkrankung oder Lebererkrankung in der Vorgeschichte, solange die Leberwerte nicht normal sind", "ids": ["leberinsuffizienz"] },
+    { "text": "Porphyrie", "ids": ["porphyrie"] },
+    { "text": "Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Frauen mit Gebärmutter: immer zusammen mit einem Gestagen anwenden (Schutz vor Gebärmutterschleimhautkrebs); unerwartete Blutungen abklären", "ids": ["gynaekologischer-krebs"] },
+    { "text": "Myome oder Endometriose", "ids": ["endometriose"] },
+    { "text": "Risikofaktoren für Thrombosen: Übergewicht, längere Ruhigstellung, grössere Operation, Thrombosen in der Familie", "ids": ["thromboembolie-vorgeschichte", "adipositas", "operation"] },
+    { "text": "Bluthochdruck, Diabetes", "ids": ["hypertonie", "diabetes"] },
+    { "text": "Gallensteine, gutartige Lebertumoren", "ids": ["gallensteine"] },
+    { "text": "Migräne oder starke Kopfschmerzen, Epilepsie, Asthma, Otosklerose", "ids": ["migraene", "epilepsie", "asthma", "hoerstoerung"] },
+    { "text": "Lupus erythematodes", "ids": ["lupus"] },
+    { "text": "Stark erhöhte Triglyceride (Risiko einer Bauchspeicheldrüsenentzündung)", "ids": ["hypertriglyzeridaemie", "pankreatitis"] },
+    { "text": "Hereditäres Angioödem: Östrogene können Schwellungsattacken auslösen", "ids": ["angiooedem"] },
+    { "text": "Beginn einer Hormonersatztherapie nach dem 65. Lebensjahr (erhöhtes Risiko einer Demenz); Herz- oder Nierenschwäche (Wassereinlagerungen)", "ids": ["aeltere-patienten", "demenz", "herzinsuffizienz", "niereninsuffizienz"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Aromatasehemmer und Antiöstrogene (z. B. Letrozol, Anastrozol, Tamoxifen)", "ref": ["gruppe:aromatasehemmer", "gruppe:serms"], "effekt": "Östrogen hebt die gewünschte Wirkung bei hormonabhängigem Brustkrebs auf – nicht kombinieren (auch lokale Östrogene nur nach Rücksprache mit der Onkologin/dem Onkologen).", "schwere": "schwer" },
+    { "text": "Enzyminduzierende Mittel (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin, Efavirenz, Nevirapin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Schnellerer Östrogenabbau – Wirkung abgeschwächt, Blutungsmuster verändert. Bei Pflaster und Gel weniger ausgeprägt.", "schwere": "mittel" },
+    { "text": "Ritonavir-haltige HIV-Mittel", "ref": ["ritonavir", "gruppe:hiv-proteasehemmer"], "effekt": "Trotz CYP3A4-Hemmung beschleunigen sie den Östrogenabbau – Wirkung kann abgeschwächt sein.", "schwere": "mittel" },
+    { "text": "Hepatitis-C-Mittel Glecaprevir/Pibrentasvir", "ref": ["glecaprevir-pibrentasvir"], "effekt": "Unter ethinylestradiolhaltigen Mitteln traten gehäuft Leberwerterhöhungen auf; für Estradiol ist das Risiko gering, die Daten sind aber begrenzt – Vorsicht, Leberwerte kontrollieren.", "schwere": "mittel" },
+    { "text": "Levothyroxin (Schilddrüsenhormon)", "ref": ["levothyroxin"], "effekt": "Östrogene zum Einnehmen erhöhen das Bindungseiweiss für Schilddrüsenhormone – der Levothyroxin-Bedarf kann steigen. TSH kontrollieren.", "schwere": "mittel" },
+    { "text": "CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Erythromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Estradiol-Spiegel mit mehr Nebenwirkungen (z. B. Brustspannen, Blutungen) möglich.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Kopfschmerzen", "Bauchschmerzen, Übelkeit", "Brustspannen, Brustschmerzen, Brustvergrösserung", "Zwischen- oder Schmierblutungen", "Wassereinlagerungen (Ödeme), Gewichtszunahme", "Wadenkrämpfe", "Hautreaktionen an der Auftragsstelle (Pflaster, Gel)", "Scheidenpilz (vaginale Candidose)"],
+    "gelegentlich": ["Depressive Verstimmung, Nervosität", "Schwindel, Sehstörungen", "Migräne", "Blähungen, Völlegefühl", "Hautausschlag, Juckreiz"],
+    "selten": ["Venöse Thromboembolie (Beinvenenthrombose, Lungenembolie)", "Gallenblasenerkrankungen", "Überempfindlichkeitsreaktionen bis Anaphylaxie"],
+    "unbekannt": ["Brustkrebs (Risiko steigt mit der Dauer, vor allem bei Kombination mit Gestagen)", "Gebärmutterschleimhautkrebs bei Östrogen-Monotherapie ohne Gestagenschutz", "Eierstockkrebs (leicht erhöhtes Risiko)", "Schlaganfall, koronare Herzkrankheit bei späterem Therapiebeginn", "Chloasma (Pigmentflecken), Erythema nodosum oder multiforme", "Wahrscheinliche Demenz bei Beginn nach dem 65. Lebensjahr"]
+  },
+  "schwangerschaft": "Kontraindiziert – nicht für die Anwendung in der Schwangerschaft bestimmt; tritt eine Schwangerschaft ein, sofort absetzen.",
+  "stillzeit": "Kontraindiziert – nicht für die Anwendung in der Stillzeit bestimmt.",
+  "hinweise": [
+    "Frauen mit Gebärmutter benötigen zusätzlich ein Gestagen; unerwartete oder anhaltende Blutungen ärztlich abklären.",
+    "So niedrig dosiert und so kurz wie nötig anwenden; mindestens jährlich ärztlich neu beurteilen lassen, Brustkrebs-Früherkennung wahrnehmen.",
+    "Gel und Pflaster: auf saubere, trockene, unverletzte Haut, nie auf die Brüste oder Schleimhäute; nach dem Auftragen des Gels Hände waschen und Hautkontakt mit Kindern vermeiden, bis es getrocknet ist.",
+    "Bei Beinschwellung, plötzlicher Atemnot, Brustschmerzen, Gelbsucht oder plötzlichen starken Kopfschmerzen sofort absetzen und ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,175 @@
+{
+  "id": "salmeterol",
+  "name": "Salmeterol",
+  "synonyme": [
+    "Salmeterolxinafoat",
+    "Salmeterol xinafoate"
+  ],
+  "atc": [
+    "R03AC12"
+  ],
+  "klasse": "Lang wirksames Beta-2-Sympathomimetikum (LABA, Bronchodilatator)",
+  "kurz": "Lang wirkendes Inhalationsmittel zur Erweiterung der Bronchien bei Asthma (nur zusammen mit Kortison) und COPD.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "cyp3a4-substrate-empfindlich",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Serevent",
+    "Seretide (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol",
+    "Pulverinhalator"
+  ],
+  "indikationen": [
+    {
+      "text": "Asthma: regelmässige Dauerbehandlung zusammen mit einem inhalativen Kortison, auch bei nächtlichem und anstrengungsbedingtem Asthma",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "COPD: Dauerbehandlung zur Erweiterung der Atemwege",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hält die Bronchien etwa 12 Stunden lang offen. Salmeterol ist ein selektiver Beta-2-Agonist mit einer langen, fettlöslichen Seitenkette, die nahe am Rezeptor verankert bleibt und ihn wiederholt aktiviert; über einen Anstieg von cAMP erschlafft die Bronchialmuskulatur. Die Wirkung setzt erst nach 10–20 Minuten ein, deshalb ist es nicht für akute Atemnot geeignet. Gegen die Entzündung der Atemwege wirkt es nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Asthma: nie als alleinige Behandlung ohne inhalatives Kortison (erhöhtes Risiko schwerer, auch tödlicher Asthmaanfälle)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot; ein sich verschlechterndes Asthma rasch ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, QT-Verlängerung, Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzuckeranstieg möglich)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kaliummangel",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir, Cobicistat)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "cobicistat"
+      ],
+      "effekt": "Salmeterol-Spiegel steigen stark (mit Ketoconazol etwa 15-fach) – Gefahr von QT-Verlängerung und Herzklopfen; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Abschwächung der bronchienerweiternden Wirkung; bei Asthma Gefahr schwerer Bronchospasmen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Kortison, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Hypokaliämie mit Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer, trizyklische Antidepressiva und andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika",
+      "ref": [
+        "gruppe:beta2-sympathomimetika"
+      ],
+      "effekt": "Doppelte Anwendung erhöht die Nebenwirkungen ohne Zusatznutzen – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Leicht erhöhte Salmeterol-Spiegel, meist ohne klinische Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Zittern (Tremor)",
+      "Herzklopfen",
+      "Muskelkrämpfe"
+    ],
+    "gelegentlich": [
+      "Hautausschlag",
+      "Nervosität",
+      "Beschleunigter Puls (Tachykardie)"
+    ],
+    "selten": [
+      "Hypokaliämie (Kaliummangel)",
+      "Schlaflosigkeit"
+    ],
+    "sehrSelten": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie, Angioödem",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Herzrhythmusstörungen (Vorhofflimmern, supraventrikuläre Tachykardie, Extrasystolen)",
+      "Paradoxer Bronchospasmus",
+      "Reizung von Mund und Rachen",
+      "Gelenkschmerzen, unspezifische Brustschmerzen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; ein gut kontrolliertes Asthma ist für Mutter und Kind wichtig.",
+  "stillzeit": "Nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nicht bei akuter Atemnot verwenden – dafür immer ein rasch wirksames Spray (z. B. Salbutamol) mitführen.",
+    "Bei Asthma immer zusammen mit einem inhalativen Kortison anwenden, am einfachsten als Kombinationspräparat.",
+    "Regelmässig zweimal täglich anwenden, auch wenn keine Beschwerden bestehen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "isosorbiddinitrat",
+  "name": "Isosorbiddinitrat",
+  "synonyme": [
+    "ISDN",
+    "Isosorbide dinitrate"
+  ],
+  "atc": [
+    "C01DA08"
+  ],
+  "klasse": "Organisches Nitrat (Antianginosum, Vasodilatator)",
+  "kurz": "Nitrat gegen Brustenge (Angina pectoris): erweitert die Blutgefässe und entlastet das Herz; im Anfall oder zur Vorbeugung.",
+  "gruppen": [
+    "nitrate",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Isoket"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Spray zur Anwendung in der Mundhöhle",
+    "Retardtabletten",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung des akuten Angina-pectoris-Anfalls und Vorbeugung vor absehbaren Belastungen (Spray)",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Langzeitvorbeugung von Angina-pectoris-Anfällen bei koronarer Herzkrankheit (Retardtabletten)",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Akute Linksherzinsuffizienz mit Lungenstauung, instabile Angina pectoris und akuter Herzinfarkt (Infusion im Spital)",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "angina-pectoris"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Blutgefässe und entlastet so das Herz. Isosorbiddinitrat setzt in der Gefässwand Stickstoffmonoxid (NO) frei, das über die Bildung von cGMP die glatte Gefässmuskulatur erschlaffen lässt. Vor allem die Venen werden weiter: Weniger Blut fliesst zum Herzen zurück, Wandspannung und Sauerstoffbedarf des Herzmuskels sinken. Zusätzlich werden Arterien und Herzkranzgefässe erweitert. Bei Dauertherapie ohne nitratfreies Intervall lässt die Wirkung nach (Nitrattoleranz).",
+  "kontraindikationen": [
+    {
+      "text": "Akutes Kreislaufversagen (Schock, Kollaps) und kardiogener Schock, sofern der Füllungsdruck nicht ausreichend hoch gehalten wird",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Hypotonie (systolischer Blutdruck unter 90 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Hypertrophe obstruktive Kardiomyopathie, konstriktive Perikarditis, Herzbeuteltamponade",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Ausgeprägter Volumenmangel (Hypovolämie)",
+      "ids": [
+        "dehydratation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Aorten- oder Mitralklappenstenose",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Neigung zu Kreislaufstörungen mit Blutdruckabfall beim Aufstehen",
+      "ids": [
+        "hypotonie",
+        "synkope"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck (z. B. nach Schädel-Hirn-Trauma oder Hirnblutung)",
+      "ids": [
+        "hirnoedem",
+        "schaedel-hirn-trauma",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Akuter Herzinfarkt: nur unter enger Kreislaufüberwachung",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhte Sturzgefahr durch Blutdruckabfall",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)",
+      "ref": [
+        "gruppe:pde5-hemmer",
+        "avanafil"
+      ],
+      "grund": "Beide erhöhen das cGMP – lebensbedrohlicher Blutdruckabfall möglich."
+    },
+    {
+      "text": "Riociguat",
+      "ref": [
+        "riociguat"
+      ],
+      "grund": "Zusätzliche Steigerung des cGMP – Gefahr eines starken Blutdruckabfalls."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere blutdrucksenkende Mittel (z. B. Betablocker, Calciumantagonisten, Diuretika, ACE-Hemmer)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alpha-1-Blocker (z. B. Tamsulosin, Doxazosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Antipsychotika",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkter Blutdruckabfall mit Schwindel und Ohnmacht möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dihydroergotamin und andere Ergotalkaloide",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Spiegel und Wirkung von Dihydroergotamin können steigen (Blutdruckanstieg).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sapropterin",
+      "ref": [
+        "sapropterin"
+      ],
+      "effekt": "Kann die blutdrucksenkende Wirkung NO-freisetzender Mittel verstärken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Heparin (intravenös)",
+      "ref": [
+        "heparin"
+      ],
+      "effekt": "Die gerinnungshemmende Wirkung kann abgeschwächt sein – aPTT kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen (vor allem zu Beginn)"
+    ],
+    "haeufig": [
+      "Schwindel, Benommenheit, Schläfrigkeit",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Herzrasen (reflektorische Tachykardie)",
+      "Schwäche"
+    ],
+    "gelegentlich": [
+      "Kreislaufkollaps, Ohnmacht (Synkope)",
+      "Verstärkte Angina-pectoris-Beschwerden",
+      "Übelkeit, Erbrechen",
+      "Gesichtsrötung (Flush)",
+      "Allergische Hautreaktionen"
+    ],
+    "sehrSelten": [
+      "Sodbrennen"
+    ],
+    "unbekannt": [
+      "Exfoliative Dermatitis (schwere Hautschuppung)"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Nitrate können in die Muttermilch übergehen; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Spray im Sitzen anwenden (Schwindel, Ohnmacht möglich); bessern sich die Brustschmerzen nicht innert weniger Minuten, sofort den Notruf 144 wählen.",
+    "Retardtabletten unzerkaut einnehmen; ein tägliches nitratfreies Intervall (meist nachts) beugt dem Wirkungsverlust vor.",
+    "Keine Potenzmittel (PDE-5-Hemmer) einnehmen; Alkohol verstärkt den Blutdruckabfall.",
+    "Kopfschmerzen zu Beginn klingen meist nach einigen Tagen ab."
+  ],
+  "stand": "2026-10"
+}

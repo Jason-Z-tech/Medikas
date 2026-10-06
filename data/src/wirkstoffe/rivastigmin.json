@@ -1,0 +1,231 @@
+{
+  "id": "rivastigmin",
+  "name": "Rivastigmin",
+  "synonyme": [
+    "Rivastigmine"
+  ],
+  "atc": [
+    "N06DA03"
+  ],
+  "klasse": "Cholinesterase-Hemmer (Acetyl- und Butyrylcholinesterase; Antidementivum)",
+  "kurz": "Mittel gegen Alzheimer- und Parkinson-Demenz, als Kapsel, Lösung oder Pflaster; hemmt den Abbau des Botenstoffs Acetylcholin.",
+  "gruppen": [
+    "acetylcholinesterasehemmer",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Exelon"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Lösung zum Einnehmen",
+    "Transdermales Pflaster"
+  ],
+  "indikationen": [
+    {
+      "text": "Leichte bis mittelschwere Alzheimer-Demenz",
+      "ids": [
+        "demenz"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Demenz bei Parkinson-Krankheit (Kapseln und Lösung)",
+      "ids": [
+        "demenz",
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert bei Demenz vorübergehend Gedächtnis und Alltagsfähigkeiten, indem es den Abbau des Botenstoffs Acetylcholin im Gehirn bremst. Rivastigmin hemmt pseudoirreversibel sowohl die Acetylcholinesterase als auch die Butyrylcholinesterase. Es wird nicht über CYP-Enzyme der Leber, sondern durch die Cholinesterasen selbst abgebaut und hat daher wenige pharmakokinetische Wechselwirkungen. Das Pflaster gibt den Wirkstoff gleichmässig ab und verursacht weniger Magen-Darm-Beschwerden.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Carbamate",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Frühere allergische Kontaktdermatitis auf ein Rivastigmin-Pflaster (für das Pflaster)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Langsamer Puls, Sinusknotensyndrom oder Reizleitungsstörungen (AV-Block)",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Risikofaktoren für Torsade de pointes",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre (auch in der Vorgeschichte)",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Asthma oder COPD",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Behinderter Harnabfluss",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Körpergewicht unter 50 kg, starkes Erbrechen (Flüssigkeitsmangel, Gewichtsverlust)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit: Zittern kann zunehmen",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Metoclopramid",
+      "ref": [
+        "metoclopramid"
+      ],
+      "effekt": "Verstärkte Bewegungsstörungen (extrapyramidale Symptome) – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker und andere pulsverlangsamende Mittel (z. B. Digoxin, Verapamil, Diltiazem, Amiodaron)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:betablocker",
+        "gruppe:herzglykoside",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung bis zur Ohnmacht – Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die Torsade de pointes auslösen können (z. B. bestimmte Antipsychotika, Antiarrhythmika, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Bei langsamem Puls erhöhtes Risiko für gefährliche Herzrhythmusstörungen – Vorsicht, gegebenenfalls EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Oxybutynin, Biperiden, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Succinylcholin (Muskelrelaxans bei Narkose)",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Verstärkte Muskelerschlaffung – Narkoseteam informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cholinerge Mittel und andere Cholinesterase-Hemmer (z. B. Bethanechol)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer",
+        "bethanechol"
+      ],
+      "effekt": "Verstärkte cholinerge Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nikotin (Rauchen)",
+      "ref": [
+        "nikotin"
+      ],
+      "effekt": "Rivastigmin wird um etwa ein Viertel rascher ausgeschieden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen",
+      "Durchfall",
+      "Appetitlosigkeit",
+      "Schwindel"
+    ],
+    "haeufig": [
+      "Unruhe, Verwirrtheit, Angst, Albträume",
+      "Kopfschmerzen, Schläfrigkeit, Zittern (Tremor)",
+      "Bauchschmerzen, Dyspepsie (Verdauungsbeschwerden)",
+      "Vermehrtes Schwitzen",
+      "Müdigkeit, Schwäche, Gewichtsabnahme",
+      "Hautreaktionen an der Pflasterstelle (Rötung, Juckreiz)"
+    ],
+    "gelegentlich": [
+      "Schlaflosigkeit, Depression",
+      "Ohnmacht (Synkope), Stürze",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Krampfanfälle",
+      "Angina pectoris (Brustenge)",
+      "Magen- und Zwölffingerdarmgeschwüre",
+      "Hautausschlag"
+    ],
+    "sehrSelten": [
+      "Herzrhythmusstörungen (Bradykardie, AV-Block, Vorhofflimmern)",
+      "Verschlechterung einer Parkinson-Krankheit, extrapyramidale Symptome",
+      "Halluzinationen",
+      "Magen-Darm-Blutungen, Pankreatitis",
+      "Schweres Erbrechen mit Speiseröhrenriss"
+    ],
+    "unbekannt": [
+      "Sick-Sinus-Syndrom",
+      "Aggressivität",
+      "Hepatitis",
+      "Pisa-Syndrom (seitliche Rumpfneigung)",
+      "Dehydratation (Flüssigkeitsmangel) bei anhaltendem Erbrechen",
+      "Allergische Kontaktdermatitis, auch ausgebreitet (Pflaster)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nur anwenden, wenn eindeutig erforderlich.",
+  "stillzeit": "Nicht stillen.",
+  "hinweise": [
+    "Kapseln und Lösung zweimal täglich zum Frühstück und Abendessen einnehmen.",
+    "Nach einem Unterbruch von mehr als 3 Tagen nur mit der niedrigsten Dosis neu beginnen (sonst starkes Erbrechen möglich).",
+    "Pflaster: täglich nur ein Pflaster, das alte zuvor entfernen und die Klebestelle wechseln – mehrere Pflaster gleichzeitig können zu gefährlicher Überdosierung führen.",
+    "Bei anhaltendem Erbrechen, Durchfall oder Gewichtsverlust ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

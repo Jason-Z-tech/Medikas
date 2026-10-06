@@ -1,0 +1,55 @@
+{
+  "id": "sulfasalazin",
+  "name": "Sulfasalazin",
+  "synonyme": ["Salazosulfapyridin", "Sulphasalazine", "Sulfasalazine"],
+  "atc": ["A07EC01"],
+  "klasse": "Aminosalicylat (Prodrug von Mesalazin und Sulfapyridin); Basistherapeutikum bei Rheuma (DMARD)",
+  "kurz": "Entzündungshemmer bei Colitis ulcerosa und Morbus Crohn sowie als Basismittel bei rheumatoider Arthritis.",
+  "gruppen": ["sulfonamide", "myelosuppressiv", "hepatotoxisch"],
+  "handelsnamen": ["Salazopyrin", "Salazopyrin EN"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Magensaftresistente Tabletten"],
+  "indikationen": [
+    { "text": "Colitis ulcerosa: Behandlung von Schüben und Vorbeugung von Rückfällen", "ids": ["colitis-ulcerosa"] },
+    { "text": "Morbus Crohn mit Befall des Dickdarms", "ids": ["morbus-crohn"] },
+    { "text": "Rheumatoide Arthritis (magensaftresistente Tabletten)", "ids": ["rheumatoide-arthritis"] }
+  ],
+  "wirkmechanismus": "Hemmt Entzündungen im Darm und in den Gelenken. Sulfasalazin ist eine Vorstufe (Prodrug): Darmbakterien spalten es im Dickdarm in 5-Aminosalicylsäure (Mesalazin) und Sulfapyridin. Mesalazin wirkt örtlich an der Darmschleimhaut entzündungshemmend (Hemmung von Prostaglandinen und Leukotrienen, Abfangen von Sauerstoffradikalen); das ins Blut aufgenommene Sulfapyridin trägt vermutlich zur Wirkung bei Rheuma bei und verursacht den Grossteil der Nebenwirkungen. Zusätzlich dämpft Sulfasalazin die Aktivierung von Immunzellen (u. a. über NF-κB).",
+  "kontraindikationen": [
+    { "text": "Überempfindlichkeit gegen Sulfonamide oder Salicylate", "ids": ["sulfonamidallergie"] },
+    { "text": "Porphyrie", "ids": ["porphyrie"] },
+    { "text": "Kinder unter 2 Jahren", "ids": ["kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "Blutbildveränderungen (Agranulozytose, Leukopenie, Thrombozytopenie, aplastische Anämie) möglich: Blutbild regelmässig kontrollieren, besonders in den ersten 3 Monaten", "ids": ["neutropenie", "knochenmarkschaedigung"] },
+    { "text": "Eingeschränkte Leber- oder Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)", "ids": ["g6pd-mangel"] },
+    { "text": "Asthma bronchiale oder ausgeprägte Allergien", "ids": ["asthma", "allergie"] },
+    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, TEN, DRESS) in der Vorgeschichte; bei Hautausschlag mit Fieber sofort absetzen", "ids": ["schwere-hautreaktion"] },
+    { "text": "Folsäuremangel: Sulfasalazin vermindert die Folsäureaufnahme", "ids": ["vitamin-b12-mangel"] },
+    { "text": "Männer mit Kinderwunsch: vorübergehend verminderte Spermienzahl und Fruchtbarkeit", "ids": ["unfruchtbarkeit"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Azathioprin und 6-Mercaptopurin", "ref": ["azathioprin", "mercaptopurin"], "effekt": "Abbau von Azathioprin/6-Mercaptopurin gehemmt (TPMT) – Gefahr schwerer Knochenmarkschädigung; Blutbild engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Andere knochenmarkhemmende Mittel (z. B. Methotrexat, Zytostatika)", "ref": ["gruppe:myelosuppressiv", "methotrexat"], "effekt": "Additive Blutbildschäden möglich; mit Methotrexat zudem mehr Magen-Darm-Beschwerden – Blutbild kontrollieren.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gerinnungshemmende Wirkung kann sich verändern – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin wird schlechter aufgenommen – Spiegel und Wirkung überwachen.", "schwere": "mittel" },
+    { "text": "Sulfonylharnstoffe", "ref": ["gruppe:sulfonylharnstoffe"], "effekt": "Blutzuckersenkende Wirkung kann verstärkt sein – Blutzucker kontrollieren.", "schwere": "leicht" },
+    { "text": "Folsäure", "ref": ["folsaeure"], "effekt": "Folsäure wird schlechter aufgenommen – bei Bedarf ergänzen (v. a. in der Schwangerschaft).", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Übelkeit", "Magenbeschwerden"],
+    "haeufig": ["Appetitlosigkeit, Erbrechen, Bauchschmerzen, Durchfall", "Kopfschmerzen, Schwindel, Geschmacksstörungen", "Ohrensausen (Tinnitus)", "Husten", "Juckreiz", "Gelenkschmerzen", "Fieber", "Leukopenie (Mangel an weissen Blutkörperchen), Eiweiss im Urin"],
+    "gelegentlich": ["Thrombozytopenie (Mangel an Blutplättchen)", "Depression", "Atemnot", "Haarausfall", "Nesselsucht", "Erhöhte Leberwerte"],
+    "unbekannt": ["Agranulozytose, aplastische Anämie, Panzytopenie (schwere Blutbildschäden); megaloblastäre oder hämolytische Anämie", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)", "Hepatitis bis Leberversagen", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Lungenschäden (Lungeninfiltrate, fibrosierende Alveolitis)", "Nierenentzündung, nephrotisches Syndrom", "Herzbeutel- oder Herzmuskelentzündung", "Vorübergehend verminderte Spermienzahl (Oligospermie)"]
+  },
+  "schwangerschaft": "Kann nach ärztlicher Abwägung angewendet werden; wegen der verminderten Folsäureaufnahme wird eine zusätzliche Folsäure-Einnahme empfohlen.",
+  "stillzeit": "Sulfapyridin geht in die Muttermilch über; bei gesunden, reifen Säuglingen meist vertretbar. Vorsicht bei Frühgeborenen, Neugeborenengelbsucht oder G6PD-Mangel; blutiger Durchfall beim Säugling wurde beschrieben.",
+  "hinweise": [
+    "Blutbild, Leber- und Nierenwerte regelmässig kontrollieren lassen; bei Halsschmerzen, Fieber, Blässe oder Blutungen sofort ärztlich melden.",
+    "Urin und Haut können sich gelb-orange verfärben; weiche Kontaktlinsen können sich dauerhaft verfärben.",
+    "Tabletten nach dem Essen mit reichlich Flüssigkeit einnehmen; magensaftresistente Tabletten nicht zerkauen."
+  ],
+  "stand": "2026-10"
+}

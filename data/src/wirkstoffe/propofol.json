@@ -1,0 +1,206 @@
+{
+  "id": "propofol",
+  "name": "Propofol",
+  "synonyme": [
+    "Propofolum",
+    "2,6-Diisopropylphenol"
+  ],
+  "atc": [
+    "N01AX10"
+  ],
+  "klasse": "Intravenöses Kurzhypnotikum (Allgemeinanästhetikum)",
+  "kurz": "Schnell und kurz wirkendes Narkosemittel, das in die Vene gegeben wird: für Vollnarkosen, Sedierung bei Untersuchungen und auf der Intensivstation.",
+  "gruppen": [
+    "zns-daempfend",
+    "blutdrucksenkend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Disoprivan",
+    "Propofol-Lipuro",
+    "Propofol Fresenius"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Emulsion zur Injektion oder Infusion"
+  ],
+  "indikationen": [
+    {
+      "text": "Einleitung und Aufrechterhaltung einer Allgemeinanästhesie (Vollnarkose) bei Erwachsenen und Kindern ab 1 Monat",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Sedierung bei diagnostischen und chirurgischen Eingriffen, allein oder zusammen mit einer örtlichen Betäubung",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Sedierung beatmeter Patientinnen und Patienten ab 16 Jahren auf der Intensivstation",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Lässt innerhalb von Sekunden einschlafen; nach Ende der Zufuhr wacht man rasch und meist klar wieder auf. Propofol verstärkt im Gehirn die hemmende Wirkung des Botenstoffs GABA am GABA-A-Rezeptor. Es wirkt nicht schmerzlindernd und wird deshalb bei Operationen mit Schmerzmitteln kombiniert. Der Abbau erfolgt sehr rasch in der Leber und zusätzlich ausserhalb der Leber.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Soja oder Erdnuss (die Emulsion enthält Sojaöl)",
+      "ids": [
+        "erdnuss-sojaallergie"
+      ]
+    },
+    {
+      "text": "Sedierung auf der Intensivstation bei Kindern und Jugendlichen bis 16 Jahre",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-, Lungen-, Nieren- oder Lebererkrankungen sowie ältere oder geschwächte Menschen (stärkerer Blutdruckabfall)",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz",
+        "leberinsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel (Hypovolämie)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Fettstoffwechselstörungen (die Emulsion enthält Fett)",
+      "ids": [
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck",
+      "ids": [
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Langsamer Puls oder Reizleitungsstörungen",
+      "ids": [
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Mitochondriale Erkrankungen",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    },
+    {
+      "text": "Missbrauch oder Abhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide, Benzodiazepine und andere zentral dämpfende Mittel (z. B. Fentanyl, Alfentanil, Midazolam)",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:zns-daempfend",
+        "alfentanil",
+        "midazolam"
+      ],
+      "effekt": "Verstärkte Sedierung, Atemdepression und Blutdruckabfall – Propofol-Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Erhöhte Propofolspiegel – Dosisreduktion von Propofol erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Ausgeprägter Blutdruckabfall nach Narkoseeinleitung beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Suxamethonium und Neostigmin",
+      "ref": [
+        "suxamethonium",
+        "neostigmin"
+      ],
+      "effekt": "Ausgeprägte Bradykardie bis Herzstillstand beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Bei Gabe von Fettemulsionen wurde eine Schädigung der weissen Hirnsubstanz (Leukenzephalopathie) beschrieben.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schmerzen an der Injektionsstelle"
+    ],
+    "haeufig": [
+      "Kopfschmerzen beim Aufwachen",
+      "Bradykardie (langsamer Puls)",
+      "Hypotonie (Blutdruckabfall)",
+      "Kurzer Atemstillstand bei der Einleitung",
+      "Übelkeit und Erbrechen beim Aufwachen"
+    ],
+    "gelegentlich": [
+      "Thrombose und Venenentzündung an der Injektionsstelle"
+    ],
+    "selten": [
+      "Krampfanfall-ähnliche Bewegungen, Muskelzuckungen"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Lungenödem",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Verfärbung des Urins bei langer Anwendung",
+      "Sexuelle Enthemmung",
+      "Fieber nach der Operation"
+    ],
+    "unbekannt": [
+      "Propofol-Infusionssyndrom (Übersäuerung, Muskelzerfall, Herz- und Nierenversagen) bei hohen Dosen über lange Zeit",
+      "Hyperkaliämie, erhöhte Blutfette",
+      "Herzrhythmusstörungen, Herzversagen",
+      "Euphorie, Missbrauch und Abhängigkeit",
+      "Hepatitis",
+      "Priapismus (schmerzhafte Dauererektion)"
+    ]
+  },
+  "schwangerschaft": "Nur wenn eindeutig erforderlich. Propofol passiert die Plazenta und kann beim Neugeborenen dämpfend wirken; hohe Dosen beim Kaiserschnitt vermeiden.",
+  "stillzeit": "Geringe Mengen gehen in die Muttermilch über. Laut Fachinformation 24 Stunden nach der Anwendung nicht stillen und die in dieser Zeit gebildete Milch verwerfen.",
+  "hinweise": [
+    "Nach Narkose oder Sedierung mindestens 24 Stunden nicht Auto fahren und nicht allein nach Hause gehen; kein Alkohol.",
+    "Eine Soja- oder Erdnussallergie vor der Anwendung melden.",
+    "Wird nur von in Anästhesie oder Intensivmedizin geschultem Personal unter Überwachung von Atmung und Kreislauf angewendet."
+  ],
+  "stand": "2026-10"
+}

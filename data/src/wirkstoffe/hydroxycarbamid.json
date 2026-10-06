@@ -1,0 +1,194 @@
+{
+  "id": "hydroxycarbamid",
+  "name": "Hydroxycarbamid",
+  "synonyme": [
+    "Hydroxyurea",
+    "Hydroxycarbamide",
+    "Hydroxyharnstoff"
+  ],
+  "atc": [
+    "L01XX05"
+  ],
+  "klasse": "Zytostatikum (Ribonukleotidreduktase-Hemmer)",
+  "kurz": "Zellteilungshemmer zum Einnehmen bei chronischen Blutkrankheiten des Knochenmarks und bei Sichelzellkrankheit.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Litalir",
+    "Siklos"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische myeloische Leukämie",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Essentielle Thrombozythämie und Polycythaemia vera (zu viele Blutplättchen bzw. rote Blutkörperchen), v. a. bei hohem Thromboserisiko",
+      "ids": [
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Sichelzellkrankheit ab 2 Jahren zur Vorbeugung wiederholter schmerzhafter Krisen und des akuten Thoraxsyndroms (Siklos)",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Teilung von Zellen im Knochenmark. Hydroxycarbamid hemmt das Enzym Ribonukleotidreduktase, sodass weniger DNA-Bausteine gebildet werden und die DNA-Synthese stoppt. Bei der Sichelzellkrankheit erhöht es zudem den Anteil an fetalem Hämoglobin (HbF), wodurch die roten Blutkörperchen seltener verklumpen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Knochenmarkhemmung (deutlich zu wenige weisse Blutkörperchen, Blutplättchen oder ausgeprägte Anämie)",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz (Siklos)",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion (Dosis anpassen)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Risiko für Hautkrebs und sekundäre Leukämie",
+      "ids": [
+        "hautkrebs",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Beingeschwüre und Hautgeschwüre, besonders bei Vorbehandlung mit Interferon",
+      "ids": [
+        "wunde"
+      ]
+    },
+    {
+      "text": "Vorbestrahlte Patienten (stärkere Hautreaktionen)",
+      "ids": []
+    },
+    {
+      "text": "Erhöhte Harnsäure, Gicht",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer mit Kinderwunsch (fruchtschädigend, Spermienbildung vermindert)",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "maennliche-unfruchtbarkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Didanosin oder Stavudin (HIV-Mittel, in der Schweiz nicht mehr im Handel)",
+      "ref": [],
+      "grund": "Gefahr tödlicher Bauchspeicheldrüsenentzündung, Leberschäden und schwerer Nervenschäden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfinfektion bei Immunschwäche – nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Bestrahlung",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung und Hautreaktionen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Interferone",
+      "ref": [
+        "peginterferon-alfa-2a",
+        "ropeginterferon-alfa-2b"
+      ],
+      "effekt": "Häufiger Hautgefässentzündungen und Geschwüre.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Harnsäuresenker (Allopurinol, Febuxostat)",
+      "ref": [
+        "gruppe:urikostatika"
+      ],
+      "effekt": "Hydroxycarbamid erhöht die Harnsäure – Dosis der Harnsäuresenker evtl. anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung (Neutropenie, Thrombozytopenie, Anämie)",
+      "Makrozytose (vergrösserte rote Blutkörperchen)",
+      "Verminderte Spermienzahl (Oligo- oder Azoospermie)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung, Stomatitis",
+      "Hautausschlag, Hautverfärbung und Verfärbung der Nägel",
+      "Haarausfall",
+      "Fieber, Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Bein- und Hautgeschwüre",
+      "Lungenentzündung, Lungenfibrose",
+      "Erhöhte Harnsäure, Nierenwerte"
+    ],
+    "sehrSelten": [
+      "Hautgefässentzündung (kutane Vaskulitis) mit Gewebsuntergang"
+    ],
+    "unbekannt": [
+      "Hautkrebs (Plattenepithel- und Basalzellkarzinom) bei Langzeitbehandlung",
+      "Sekundäre Leukämie",
+      "Hautveränderungen ähnlich einer Dermatomyositis"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, da fruchtschädigend. Frauen und Männer sollen während der Behandlung und noch mehrere Monate danach sicher verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Regelmässige Blutbildkontrollen sind unerlässlich.",
+    "Konsequenter Sonnenschutz und regelmässige Hautkontrollen (Hautkrebsrisiko).",
+    "Kapseln nicht öffnen; Angehörige sollen Kapseln oder Tabletten nur mit Handschuhen anfassen.",
+    "Vor Therapiebeginn über Spermienkonservierung sprechen."
+  ],
+  "stand": "2026-10"
+}

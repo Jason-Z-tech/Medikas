@@ -1,0 +1,52 @@
+{
+  "id": "liraglutid",
+  "name": "Liraglutid",
+  "synonyme": ["Liraglutide", "Liraglutidum"],
+  "atc": ["A10BJ02"],
+  "klasse": "GLP-1-Rezeptoragonist (Inkretin-Mimetikum)",
+  "kurz": "Tägliche Spritze bei Typ-2-Diabetes (Victoza) oder zur Gewichtsreduktion (Saxenda); wirkt wie ein Darmhormon und dämpft den Appetit.",
+  "gruppen": ["glp1-agonisten"],
+  "handelsnamen": ["Victoza", "Saxenda", "Xultophy (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung im Fertigpen"],
+  "indikationen": [
+    { "text": "Typ-2-Diabetes bei Erwachsenen sowie Kindern und Jugendlichen ab 10 Jahren, ergänzend zu Ernährung und Bewegung, allein oder kombiniert mit anderen Blutzuckersenkern (Victoza)", "ids": ["diabetes-typ-2", "diabetes"] },
+    { "text": "Gewichtsregulierung bei Adipositas (BMI ab 30) oder Übergewicht (BMI ab 27) mit gewichtsbedingter Begleiterkrankung, ergänzend zu kalorienreduzierter Ernährung und mehr Bewegung (Saxenda)", "ids": ["adipositas"] }
+  ],
+  "wirkmechanismus": "Wirkt wie das körpereigene Darmhormon GLP-1, das nach dem Essen ausgeschüttet wird. Liraglutid aktiviert den GLP-1-Rezeptor: Die Insulinfreisetzung steigt blutzuckerabhängig, die Glukagonausschüttung sinkt und der Magen entleert sich langsamer. Im Gehirn verstärkt es das Sättigungsgefühl und senkt den Appetit, was zur Gewichtsabnahme führt. Über eine Fettsäure-Seitenkette bindet es an Albumin und wirkt etwa 24 Stunden, deshalb wird es einmal täglich gespritzt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen, bei bestätigter Pankreatitis nicht wieder beginnen", "ids": ["pankreatitis"] },
+    { "text": "Gallensteine und Gallenblasenentzündung, vor allem bei starker Gewichtsabnahme", "ids": ["gallensteine"] },
+    { "text": "Flüssigkeitsverlust durch Übelkeit, Erbrechen oder Durchfall: Gefahr einer Verschlechterung der Nierenfunktion – ausreichend trinken", "ids": ["dehydratation", "niereninsuffizienz"] },
+    { "text": "Terminale Niereninsuffizienz (Saxenda: schon schwere Niereninsuffizienz) und schwere Leberinsuffizienz: nicht empfohlen", "ids": ["niereninsuffizienz", "schwere-leberinsuffizienz"] },
+    { "text": "Schilddrüsenerkrankungen (z. B. Knoten, Kropf): in Studien vermehrt Schilddrüsen-Nebenwirkungen; bei Nagetieren traten Tumoren der C-Zellen der Schilddrüse auf", "ids": ["struma", "kopf-hals-krebs"] },
+    { "text": "Entzündliche Darmerkrankungen und diabetische Gastroparese (verzögerte Magenentleerung): nicht empfohlen", "ids": ["morbus-crohn", "colitis-ulcerosa"] },
+    { "text": "Erhöhter Puls; schwere Herzinsuffizienz (NYHA IV): keine Erfahrungen", "ids": ["herzinsuffizienz", "herzrhythmusstoerung"] },
+    { "text": "Narkose oder tiefe Sedierung (z. B. bei Magenspiegelung): wegen verzögerter Magenentleerung Gefahr, Mageninhalt einzuatmen – Behandlung vorher angeben", "ids": ["operation", "anaesthesie"] },
+    { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr", "ids": ["hypoglykaemie"] },
+    { "text": "Kein Ersatz für Insulin; nicht bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Unterzuckerungsgefahr – Dosis des Sulfonylharnstoffs bzw. des Insulins eventuell senken, Blutzucker kontrollieren.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Bei Behandlungsbeginn INR häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Andere GLP-1-Agonisten (z. B. Semaglutid, Dulaglutid, Tirzepatid; auch Victoza, Saxenda und Xultophy untereinander)", "ref": ["gruppe:glp1-agonisten"], "effekt": "Doppelte Wirkung mit mehr Nebenwirkungen – nicht gleichzeitig anwenden.", "schwere": "mittel" },
+    { "text": "Orale Arzneimittel, die rasch wirken müssen oder eine enge therapeutische Breite haben", "ref": [], "effekt": "Die verzögerte Magenentleerung kann die Aufnahme geringfügig verlangsamen; meist ohne klinische Bedeutung.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Übelkeit", "Durchfall", "Erbrechen und Verstopfung (unter Saxenda sehr häufig, unter Victoza häufig)"],
+    "haeufig": ["Hypoglykämie (Unterzuckerung), vor allem in Kombination mit Sulfonylharnstoff oder Insulin", "Appetitminderung", "Kopfschmerzen, Schwindel", "Verdauungsbeschwerden, Bauchschmerzen, Gastritis, Reflux, Aufstossen, Blähungen", "Gallensteine (Cholelithiasis; vor allem unter Saxenda)", "Erhöhter Puls", "Müdigkeit, Schlaflosigkeit (Saxenda)", "Reaktionen an der Injektionsstelle"],
+    "gelegentlich": ["Akute Pankreatitis (Bauchspeicheldrüsenentzündung; unter Victoza sehr selten)", "Cholezystitis (Gallenblasenentzündung)", "Dehydratation (Flüssigkeitsmangel)", "Eingeschränkte Nierenfunktion bis akutes Nierenversagen", "Nesselsucht, Juckreiz, Hautausschlag", "Verzögerte Magenentleerung", "Unwohlsein"],
+    "selten": ["Anaphylaxie (schwere allergische Reaktion)", "Darmverschluss (Ileus)"]
+  },
+  "schwangerschaft": "Nicht anwenden: Die Erfahrungen sind begrenzt, Tierversuche zeigten Fruchtschädigung. Bei Kinderwunsch oder Schwangerschaft absetzen; bei Diabetes wird auf Insulin umgestellt.",
+  "stillzeit": "Nicht anwenden, da keine ausreichenden Erfahrungen vorliegen.",
+  "hinweise": [
+    "Einmal täglich unabhängig von den Mahlzeiten unter die Haut spritzen (Bauch, Oberschenkel oder Oberarm); die Dosis wird zur besseren Verträglichkeit schrittweise gesteigert.",
+    "Bei anhaltenden, starken Bauchschmerzen sofort ärztlich abklären lassen (mögliche Bauchspeicheldrüsenentzündung); bei Übelkeit, Erbrechen oder Durchfall ausreichend trinken.",
+    "Vor Operationen, Narkosen oder Magenspiegelungen die Behandlung angeben.",
+    "Saxenda: Bei weniger als 5 % Gewichtsabnahme nach 12 Wochen mit der Erhaltungsdosis von 3 mg täglich wird die Behandlung beendet."
+  ],
+  "stand": "2026-10"
+}

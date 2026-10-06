@@ -1,0 +1,222 @@
+{
+  "id": "rituximab",
+  "name": "Rituximab",
+  "synonyme": [],
+  "atc": [
+    "L01FA01"
+  ],
+  "klasse": "Monoklonaler Antikörper (Anti-CD20); Immunsuppressivum",
+  "kurz": "Antikörper gegen B-Lymphozyten (Anti-CD20): gegen Lymphome und chronische lymphatische Leukämie, auch bei Rheuma und Gefässentzündungen.",
+  "gruppen": [
+    "immunsuppressiv",
+    "myelosuppressiv"
+  ],
+  "handelsnamen": [
+    "MabThera"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung",
+    "Injektionslösung zur subkutanen Anwendung"
+  ],
+  "indikationen": [
+    {
+      "text": "Non-Hodgkin-Lymphome (z. B. follikuläres Lymphom, diffus grosszelliges B-Zell-Lymphom), meist mit Chemotherapie, auch als Erhaltungstherapie",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Chronische lymphatische Leukämie (CLL), in Kombination mit Chemotherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Schwere aktive rheumatoide Arthritis, mit Methotrexat, wenn TNF-Hemmer nicht ausreichend wirken oder nicht vertragen werden",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Granulomatose mit Polyangiitis und mikroskopische Polyangiitis (ANCA-assoziierte Gefässentzündungen)",
+      "ids": [
+        "vaskulitis"
+      ]
+    },
+    {
+      "text": "Mittelschwerer bis schwerer Pemphigus vulgaris (blasenbildende Autoimmunerkrankung)",
+      "ids": [
+        "pemphigus"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Entfernt gezielt B-Lymphozyten (eine Art weisser Blutkörperchen) aus Blut und Gewebe. Rituximab ist ein chimärer (Maus/Mensch) monoklonaler Antikörper gegen das Oberflächenmolekül CD20, das auf normalen und bösartigen B-Zellen vorkommt. Die markierten Zellen werden durch das Komplementsystem, durch Immunzellen (antikörperabhängige zelluläre Zytotoxizität) und durch Auslösen des programmierten Zelltods zerstört. Die B-Zellen erholen sich meist erst 6–12 Monate nach der letzten Gabe.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Mausproteine",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Aktive schwere Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Stark geschwächtes Immunsystem",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Bei rheumatoider Arthritis, Vaskulitis und Pemphigus: schwere Herzinsuffizienz (NYHA IV) oder schwere, unkontrollierte Herzkrankheit",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infusionsreaktionen (Fieber, Schüttelfrost, Blutdruckabfall, Atemnot), besonders bei der ersten Infusion und bei hoher Zahl von Tumorzellen im Blut",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Hepatitis B (auch ausgeheilt): Reaktivierung bis zum Leberversagen möglich – vor Beginn testen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen (Angina pectoris, Herzrhythmusstörungen)",
+      "ids": [
+        "angina-pectoris",
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Wiederkehrende oder chronische Infektionen",
+      "ids": [
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Behandlung mit Blutdrucksenkern: Blutdruckabfall während der Infusion",
+      "ids": [
+        "hypertonie",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Geplante Impfungen: Lebendimpfstoffe nicht empfohlen; andere Impfungen möglichst mindestens 4 Wochen vor Beginn abschliessen",
+      "ids": [
+        "lebendimpfung-geplant",
+        "impfung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht empfohlen während der Behandlung und solange die B-Zellen vermindert sind – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Immunsuppressiva und Biologika (z. B. TNF-Hemmer)",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Erhöhtes Infektionsrisiko – sorgfältig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Knochenmarkhemmende Chemotherapie",
+      "ref": [
+        "gruppe:zytostatika"
+      ],
+      "effekt": "In Kombination häufiger Neutropenie und Infektionen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Blutdruckabfall während der Infusion möglich – Pause 12 Stunden vor der Infusion erwägen (ärztliche Anweisung).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Inaktivierte Impfstoffe (z. B. Grippe-, Pneumokokken-Impfung)",
+      "ref": [
+        "influenza-impfstoff-inaktiviert",
+        "pneumokokken-konjugatimpfstoff"
+      ],
+      "effekt": "Impfantwort deutlich vermindert – Impfungen wenn möglich vor Therapiebeginn.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infusionsreaktionen (Fieber, Schüttelfrost, Hautrötung, Blutdruckabfall, Atembeschwerden), v. a. bei der ersten Infusion",
+      "Bakterielle und virale Infektionen, Bronchitis",
+      "Neutropenie, Leukopenie",
+      "Übelkeit",
+      "Juckreiz, Hautausschlag, Haarausfall",
+      "Schwäche, Kopfschmerzen",
+      "Erniedrigte Antikörperspiegel (IgG)"
+    ],
+    "haeufig": [
+      "Sepsis, Lungenentzündung, Gürtelrose (Herpes zoster), Pilzinfektionen",
+      "Anämie, Thrombozytopenie, febrile Neutropenie",
+      "Herzrhythmusstörungen, Herzrasen, Herzinfarkt",
+      "Blutdruckanstieg oder -abfall",
+      "Bronchospasmus, Atemnot, Husten",
+      "Erbrechen, Durchfall, Bauchschmerzen, Stomatitis",
+      "Muskel-, Gelenk- und Rückenschmerzen",
+      "Kribbeln, Schwindel, Angst, Schlaflosigkeit"
+    ],
+    "gelegentlich": [
+      "Herzschwäche, Angina pectoris",
+      "Hämolytische oder aplastische Anämie, Gerinnungsstörungen",
+      "Asthma, Sauerstoffmangel"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Interstitielle Lungenerkrankung",
+      "Pneumocystis-Pneumonie, schwere Virusinfektionen"
+    ],
+    "sehrSelten": [
+      "Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Tumorlyse-Syndrom",
+      "Nierenversagen",
+      "Magen-Darm-Perforation"
+    ],
+    "unbekannt": [
+      "Hepatitis-B-Reaktivierung bis zum Leberversagen",
+      "Spät auftretende Neutropenie (Wochen nach der letzten Gabe)",
+      "Enterovirale Meningoenzephalitis (Hirn- und Hirnhautentzündung)"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Indikation (kann beim Kind die B-Zellen vermindern). Frauen müssen während und bis 12 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Rituximab geht nur in sehr geringen Mengen in die Muttermilch über; Stillen wird während der Behandlung und einige Monate danach dennoch nicht empfohlen.",
+  "hinweise": [
+    "Vor jeder Infusion erhalten Sie Medikamente gegen Fieber und Allergie (z. B. Paracetamol, Antihistaminikum, oft Kortison).",
+    "Vor Beginn wird auf Hepatitis B getestet; ausstehende Impfungen möglichst vorher durchführen.",
+    "Blutdrucksenkende Medikamente werden eventuell 12 Stunden vor der Infusion pausiert – nur nach ärztlicher Anweisung.",
+    "Fieber, Infektzeichen, Verwirrtheit, Seh- oder Gangstörungen sofort melden."
+  ],
+  "stand": "2026-10"
+}

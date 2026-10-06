@@ -1,0 +1,193 @@
+{
+  "id": "bortezomib",
+  "name": "Bortezomib",
+  "synonyme": [
+    "Bortezomib",
+    "PS-341"
+  ],
+  "atc": [
+    "L01XG01"
+  ],
+  "klasse": "Proteasom-Hemmer (Krebsmittel)",
+  "kurz": "Krebsmittel gegen das Multiple Myelom und das Mantelzell-Lymphom; wird unter die Haut oder in die Vene gespritzt.",
+  "gruppen": [
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Velcade",
+    "Bortezomib Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver oder Lösung zur Injektion (unter die Haut oder in die Vene)"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiples Myelom (Knochenmarkkrebs), allein oder kombiniert mit anderen Myelom-Medikamenten",
+      "ids": [
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Mantelzell-Lymphom, zusammen mit Rituximab, Cyclophosphamid, Doxorubicin und Prednison",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert die «Müllabfuhr» der Zelle, sodass sich in Krebszellen schädliche Eiweisse anstauen und die Zellen absterben. Bortezomib hemmt reversibel die chymotrypsinähnliche Aktivität des 26S-Proteasoms. Dadurch werden regulatorische Proteine nicht mehr abgebaut, was unter anderem den Signalweg NF-κB hemmt und den programmierten Zelltod auslöst. Myelomzellen reagieren darauf besonders empfindlich.",
+  "kontraindikationen": [
+    {
+      "text": "Akute diffuse infiltrative Lungenerkrankung oder Herzbeutelerkrankung",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Periphere Neuropathie (Nervenschäden): Dosis anpassen; die Gabe unter die Haut verursacht weniger Nervenschäden",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Ohnmacht, Flüssigkeitsmangel",
+      "ids": [
+        "hypotonie",
+        "synkope",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Herzschwäche oder Herzkrankheiten",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (v. a. Thrombozytopenie) mit Blutungsgefahr",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Herpes-zoster-Reaktivierung und Hepatitis-B-Reaktivierung (vorbeugende Virusmittel)",
+      "ids": [
+        "herpes",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosis reduzieren)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes mit Tabletten (Blutzucker schwankt)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Hohe Tumorlast (Tumorlysesyndrom)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Bortezomib-Spiegel sinkt deutlich (Wirkverlust) – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Bortezomib-Spiegel steigt – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Amiodaron, Isoniazid, Nitrofurantoin, Statine, Virustatika)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Verstärkte Polyneuropathie – Nutzen abwägen, neurologisch kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall und Ohnmachtsgefahr – Dosis der Blutdrucksenker evtl. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Antidiabetika",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Unter- und Überzuckerungen beschrieben – Blutzucker eng kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Thrombozytopenie, Neutropenie, Anämie",
+      "Periphere Neuropathie (Kribbeln, Brennen, Taubheit)",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung",
+      "Appetitlosigkeit",
+      "Müdigkeit, Schwäche, Fieber",
+      "Muskelschmerzen"
+    ],
+    "haeufig": [
+      "Hypotonie (tiefer Blutdruck), auch beim Aufstehen",
+      "Herpes zoster (Gürtelrose)",
+      "Lungenentzündung und andere Infektionen",
+      "Schwindel, Kopfschmerzen",
+      "Hautausschlag, Juckreiz",
+      "Ödeme (Wassereinlagerungen)",
+      "Atemnot",
+      "Verschlechterung der Nierenfunktion"
+    ],
+    "gelegentlich": [
+      "Herzinsuffizienz, Herzrhythmusstörungen",
+      "Tumorlysesyndrom",
+      "Leberfunktionsstörung",
+      "Blutungen (z. B. Magen-Darm)"
+    ],
+    "selten": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Akute diffuse infiltrative Lungenerkrankung",
+      "Ischämische Kolitis (Darmdurchblutungsstörung)",
+      "Schwere Hautreaktionen"
+    ],
+    "sehrSelten": [
+      "Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden. Frauen sollen während und bis 8 Monate, Männer bis 3 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Meist wird eine vorbeugende Behandlung gegen Gürtelrose (z. B. Aciclovir) verschrieben – regelmässig einnehmen.",
+    "Ausreichend trinken; bei Schwindel oder Ohnmachtsneigung nicht Auto fahren.",
+    "Kribbeln, Brennen oder Taubheit in Händen und Füssen früh melden."
+  ],
+  "stand": "2026-10"
+}

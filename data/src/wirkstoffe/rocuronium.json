@@ -1,0 +1,189 @@
+{
+  "id": "rocuronium",
+  "name": "Rocuronium",
+  "synonyme": [
+    "Rocuroniumbromid",
+    "Rocuronium bromide"
+  ],
+  "atc": [
+    "M03AC09"
+  ],
+  "klasse": "Nicht depolarisierendes peripheres Muskelrelaxans (Aminosteroid)",
+  "kurz": "Muskelentspannendes Mittel für die Narkose: erleichtert das Einführen des Beatmungsschlauchs und entspannt die Muskeln bei Operationen.",
+  "gruppen": [
+    "muskelrelaxanzien-peripher"
+  ],
+  "handelsnamen": [
+    "Esmeron"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Ergänzend zur Allgemeinnarkose: Erleichterung der Intubation (auch bei Notfall-Schnelleinleitung) und Muskelentspannung während Operationen",
+      "ids": [
+        "anaesthesie",
+        "operation"
+      ]
+    },
+    {
+      "text": "Intensivstation: kurzfristige Erleichterung von Intubation und maschineller Beatmung",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Entspannt die Skelettmuskulatur vollständig, sodass Intubation und Operation möglich werden; die Atmung muss deshalb maschinell unterstützt werden. Rocuronium blockiert kompetitiv die nikotinischen Acetylcholinrezeptoren an der motorischen Endplatte und verhindert so die Übertragung des Nervenimpulses auf den Muskel. Die Wirkung setzt innerhalb von 1–2 Minuten ein und kann mit Sugammadex (bindet Rocuronium direkt) oder mit Neostigmin aufgehoben werden. Rocuronium wirkt weder schmerzstillend noch schlaffördernd.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Allergie gegen andere Muskelrelaxanzien (Kreuzreaktionen und Anaphylaxie möglich)",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis, Lambert-Eaton-Syndrom und andere neuromuskuläre Erkrankungen, Zustand nach Kinderlähmung",
+      "ids": [
+        "myasthenia-gravis",
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Leber- oder Gallenwegserkrankungen und Niereninsuffizienz (verlängerte Wirkung)",
+      "ids": [
+        "leberinsuffizienz",
+        "cholestase",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Elektrolytstörungen (tiefes Kalium oder Calcium, hohes Magnesium), Unterkühlung, Flüssigkeitsmangel",
+      "ids": [
+        "hypokaliaemie",
+        "hypokalzaemie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Starkes Übergewicht (Dosierung nach idealem Körpergewicht)",
+      "ids": [
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Verbrennungen (verminderte Wirkung)",
+      "ids": [
+        "verbrennung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Herz-Kreislauf-Erkrankungen (verzögerter Wirkungseintritt)",
+      "ids": [
+        "aeltere-patienten",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Längere Anwendung auf der Intensivstation, besonders zusammen mit Kortison (Myopathie)",
+      "ids": [
+        "langzeit-kortison"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Inhalationsanästhetika (z. B. Sevofluran, Desfluran, Isofluran)",
+      "ref": [
+        "sevofluran",
+        "desfluran",
+        "isofluran"
+      ],
+      "effekt": "Verstärken und verlängern die Muskelerschlaffung – Dosis anpassen, neuromuskuläre Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gewisse Antibiotika (Aminoglykoside, Clindamycin, Tetracycline, hoch dosiertes Metronidazol)",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "clindamycin",
+        "gruppe:tetracycline",
+        "metronidazol"
+      ],
+      "effekt": "Verstärkte und verlängerte Blockade; erneute Muskelschwäche nach dem Aufwachen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Magnesiumsulfat, Lithium, Calciumantagonisten und intravenöse Lokalanästhetika",
+      "ref": [
+        "magnesiumsulfat",
+        "lithium",
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:lokalanaesthetika"
+      ],
+      "effekt": "Verstärken die Wirkung – Überwachung der Muskelfunktion.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide bei längerer Anwendung auf der Intensivstation",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Risiko einer langdauernden Muskelschwäche (Myopathie).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Langzeitbehandlung mit Phenytoin oder Carbamazepin",
+      "ref": [
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Abgeschwächte und verkürzte Wirkung – höherer Bedarf.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Suxamethonium",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Nach Suxamethonium verstärkte Wirkung; Suxamethonium nicht nach Rocuronium geben.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [
+      "Tachykardie (Herzrasen), Blutdruckabfall",
+      "Schmerzen oder Reaktion an der Injektionsstelle",
+      "Verlängerte Muskelerschlaffung, verzögertes Erwachen aus der Narkose",
+      "Verminderte oder verstärkte Wirkung"
+    ],
+    "selten": [],
+    "sehrSelten": [
+      "Anaphylaxie und anaphylaktischer Schock (schwere allergische Reaktion)",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Angioödem, Nesselsucht, Hautrötung, Hitzegefühl",
+      "Muskelschwäche, Myopathie nach Langzeitanwendung zusammen mit Kortison",
+      "Kreislaufkollaps"
+    ],
+    "unbekannt": [
+      "Kounis-Syndrom (allergisch ausgelöster Herzinfarkt)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; beim Kaiserschnitt kann Rocuronium eingesetzt werden, ohne dass Nachteile für das Neugeborene beobachtet wurden.",
+  "stillzeit": "Nur nach Abwägung; nach einer Einzeldosis wird empfohlen, etwa 6 Stunden mit dem Stillen zu warten.",
+  "hinweise": [
+    "Wird nur von Fachpersonal für Anästhesie oder Intensivmedizin mit Beatmungsmöglichkeit verabreicht.",
+    "Bekannte Allergien gegen Narkose- oder Muskelentspannungsmittel vor der Operation unbedingt angeben.",
+    "Nach einer Narkose 24 Stunden nicht Auto fahren und keine Maschinen bedienen."
+  ],
+  "stand": "2026-10"
+}

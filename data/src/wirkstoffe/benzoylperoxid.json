@@ -1,0 +1,46 @@
+{
+  "id": "benzoylperoxid",
+  "name": "Benzoylperoxid",
+  "synonyme": ["BPO", "Benzoyl peroxide", "Benzoylis peroxidum"],
+  "atc": ["D10AE01"],
+  "klasse": "Aknemittel (antibakteriell, keratolytisch)",
+  "kurz": "Aknemittel zum Auftragen: tötet Aknebakterien ab und löst Verhornungen; auch in Kombination mit Adapalen oder Clindamycin.",
+  "gruppen": [],
+  "handelsnamen": ["Lubexyl", "Epiduo (Kombi)", "Duac (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Gel"],
+  "indikationen": [
+    { "text": "Leichte bis mittelschwere Akne vulgaris, vor allem mit entzündlichen Pickeln (Papeln, Pusteln)", "ids": ["akne"] },
+    { "text": "In fixer Kombination mit Adapalen (Epiduo) oder Clindamycin (Duac) bei Akne", "ids": ["akne"] }
+  ],
+  "wirkmechanismus": "Wirkt gegen die an der Akne beteiligten Bakterien und löst verhornte Hautschüppchen. Benzoylperoxid zerfällt in der Haut zu Benzoesäure und setzt dabei reaktiven Sauerstoff frei, der Cutibacterium acnes (früher Propionibacterium acnes) abtötet – Resistenzen entstehen dabei nicht, weshalb es mit Antibiotika zum Auftragen kombiniert wird. Zusätzlich wirkt es schälend (keratolytisch) und mitesserlösend (komedolytisch) und vermindert freie Fettsäuren im Talg.",
+  "kontraindikationen": [
+    { "text": "Kombination mit Clindamycin (Duac): Morbus Crohn, Colitis ulcerosa oder Antibiotika-bedingte Darmentzündung in der Vorgeschichte; Überempfindlichkeit gegen Lincomycin", "ids": ["morbus-crohn", "colitis-ulcerosa", "clostridioides"] },
+    { "text": "Kombination mit Adapalen (Epiduo): Schwangerschaft und geplante Schwangerschaft", "ids": ["schwangerschaft"] }
+  ],
+  "vorsicht": [
+    { "text": "Kontakt mit Augen, Mund, Lippen und Schleimhäuten vermeiden", "ids": [] },
+    { "text": "Nicht auf verletzte oder ekzematöse Haut auftragen", "ids": ["neurodermitis"] },
+    { "text": "Starke Sonnen- und UV-Bestrahlung meiden", "ids": ["sonnenbrand"] },
+    { "text": "Bei starker Reizung, Schwellung, Engegefühl im Hals oder Atemnot sofort absetzen (seltene schwere Überempfindlichkeit)", "ids": ["allergie", "anaphylaxie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Tretinoin zum Auftragen", "ref": ["tretinoin"], "effekt": "Benzoylperoxid kann Tretinoin oxidieren und unwirksam machen; zudem stärkere Reizung – zu verschiedenen Tageszeiten auftragen.", "schwere": "leicht" },
+    { "text": "Andere reizende, schälende oder austrocknende Hautmittel (z. B. Salicylsäure, Schwefel, andere Aknemittel)", "ref": ["salicylsaeure"], "effekt": "Verstärkte Hautreizung – nur vorsichtig kombinieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Brennen der Haut", "Rötung (Erythem)", "Schuppung (Hautabschälung)", "Trockene Haut"],
+    "haeufig": ["Juckreiz", "Hautschmerzen, Stechen", "Hautreizung (irritative Kontaktdermatitis)"],
+    "gelegentlich": ["Allergische Kontaktdermatitis"],
+    "unbekannt": ["Schwellung des Gesichts", "Schwere allergische Reaktionen (Anaphylaxie) mit Engegefühl im Hals, Atemnot oder Kreislaufschwäche"]
+  },
+  "schwangerschaft": "Benzoylperoxid allein kann nach ärztlicher Abwägung angewendet werden, da nur wenig in den Körper gelangt. Die Kombination mit Adapalen (Epiduo) ist in der Schwangerschaft kontraindiziert.",
+  "stillzeit": "Kann angewendet werden; nicht auf die Brust auftragen, damit der Säugling nicht damit in Kontakt kommt.",
+  "hinweise": [
+    "Bleicht Haare, Augenbrauen, Kleidung, Handtücher und Bettwäsche – Kontakt vermeiden und nach dem Auftragen die Hände waschen.",
+    "Mit niedriger Konzentration oder seltener Anwendung beginnen; anfängliche Rötung und Schuppung lassen meist nach.",
+    "Sonnenschutz verwenden; nicht auf verletzte Haut auftragen."
+  ],
+  "stand": "2026-10"
+}

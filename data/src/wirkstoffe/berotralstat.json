@@ -1,0 +1,134 @@
+{
+  "id": "berotralstat",
+  "name": "Berotralstat",
+  "synonyme": [
+    "Berotralstatum",
+    "BCX7353"
+  ],
+  "atc": [
+    "B06AC06"
+  ],
+  "klasse": "Plasma-Kallikrein-Hemmer zum Einnehmen; Mittel zur Vorbeugung des hereditären Angioödems",
+  "kurz": "Kapsel zur täglichen Einnahme, die beim erblichen Angioödem Schwellungsattacken vorbeugt.",
+  "gruppen": [
+    "maessige-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Orladeyo"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Langzeitvorbeugung wiederkehrender Attacken des hereditären Angioödems (HAE) bei Erwachsenen und Jugendlichen ab 12 Jahren",
+      "ids": [
+        "angiooedem"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert die übermässige Bildung von Bradykinin, das beim erblichen Angioödem die Schwellungen auslöst. Berotralstat ist ein kleines Molekül, das eingenommen wird und das Enzym Plasmakallikrein hemmt. Damit wird die Spaltung von hochmolekularem Kininogen zu Bradykinin gebremst, und die Attacken werden seltener. Berotralstat ist Substrat von P-Glykoprotein und BCRP und hemmt selbst mässig CYP3A4 und CYP2D6 sowie P-Glykoprotein.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "QT-Verlängerung: höhere als die empfohlenen Dosen verlängern die QT-Zeit; Vorsicht bei Long-QT-Syndrom, Herzrhythmusstörungen oder anderen QT-verlängernden Mitteln",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz: deutlich höhere Blutspiegel – Anwendung vermeiden",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung akuter Attacken geeignet; ein Notfallmedikament bereithalten",
+      "ids": [
+        "angiooedem"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "P-gp- und BCRP-Induktoren (z. B. Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:p-gp-induktoren"
+      ],
+      "effekt": "Berotralstat-Spiegel sinken stark, die Vorbeugung kann versagen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-gp- und BCRP-Hemmer (z. B. Ciclosporin)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Berotralstat-Spiegel steigen – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus, Fentanyl, Midazolam)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Berotralstat hemmt CYP3A4 – Spiegel dieser Mittel steigen; Dosis anpassen, Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Berotralstat hemmt CYP2D6 – Spiegel und Nebenwirkungen dieser Mittel können zunehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-gp-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel steigen – Digoxinspiegel kontrollieren, auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Mögliche Verstärkung der QT-Verlängerung – EKG-Kontrolle erwägen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bauchschmerzen",
+      "Durchfall",
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Erbrechen",
+      "Sodbrennen (gastroösophagealer Reflux)",
+      "Blähungen",
+      "Hautausschlag",
+      "Erhöhte Leberwerte (ALT, AST)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; vorsichtshalber während der Schwangerschaft nicht anwenden.",
+  "stillzeit": "Nicht bekannt, ob Berotralstat in die Muttermilch übergeht (bei Tieren ja); Nutzen und Risiko ärztlich abwägen.",
+  "hinweise": [
+    "Einmal täglich zu einer Mahlzeit einnehmen.",
+    "Für akute Attacken trotzdem immer ein Notfallmedikament mitführen.",
+    "Vor jeder neuen Medikation Wechselwirkungen in der Apotheke prüfen lassen."
+  ],
+  "stand": "2026-10"
+}

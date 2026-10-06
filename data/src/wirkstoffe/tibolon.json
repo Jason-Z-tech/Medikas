@@ -1,0 +1,224 @@
+{
+  "id": "tibolon",
+  "name": "Tibolon",
+  "synonyme": [
+    "Tibolone"
+  ],
+  "atc": [
+    "G03CX01"
+  ],
+  "klasse": "Synthetisches Steroid mit östrogener, gestagener und schwach androgener Wirkung (Hormonersatztherapie)",
+  "kurz": "Hormonersatzmittel gegen Wechseljahresbeschwerden mit östrogen-, gestagen- und androgenartiger Wirkung; ohne zusätzliches Gestagen.",
+  "gruppen": [
+    "oestrogene",
+    "thromboserisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Livial"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Beschwerden durch Östrogenmangel bei Frauen, deren letzte Menstruation mehr als 1 Jahr zurückliegt",
+      "ids": [
+        "wechseljahre"
+      ]
+    },
+    {
+      "text": "Vorbeugung der Osteoporose nach der Menopause bei hohem Bruchrisiko, wenn andere Mittel nicht vertragen werden oder nicht geeignet sind",
+      "ids": [
+        "osteoporose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Wechseljahresbeschwerden, indem es im Körper in mehrere hormonähnlich wirkende Stoffe umgewandelt wird. Die Metaboliten 3-alpha- und 3-beta-Hydroxytibolon wirken östrogen (gegen Hitzewallungen und Knochenabbau), das Delta-4-Isomer wirkt gestagen und androgen. Die gestagene Wirkung auf die Gebärmutterschleimhaut macht einen zusätzlichen Gestagenschutz überflüssig.",
+  "kontraindikationen": [
+    {
+      "text": "Bestehender, früherer oder vermuteter Brustkrebs (Tibolon erhöht das Rückfallrisiko)",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Östrogenabhängige bösartige Tumoren (z. B. Gebärmutterschleimhautkrebs) oder Verdacht darauf",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Nicht abgeklärte Genitalblutungen",
+      "ids": []
+    },
+    {
+      "text": "Unbehandelte Verdickung der Gebärmutterschleimhaut (Endometriumhyperplasie)",
+      "ids": []
+    },
+    {
+      "text": "Bestehende oder frühere venöse Thromboembolie (Thrombose, Lungenembolie) oder bekannte Thromboseneigung",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Bestehende oder frühere arterielle Thromboembolie (Angina pectoris, Herzinfarkt, Schlaganfall, TIA)",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Akute Lebererkrankung oder Lebererkrankung in der Vorgeschichte, solange die Leberwerte nicht normal sind",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhtes Schlaganfallrisiko, besonders bei älteren Frauen und weiteren Risikofaktoren",
+      "ids": [
+        "schlaganfall",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Erhöhtes Brustkrebsrisiko bei längerer Anwendung",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Blutungen nach den ersten Behandlungsmonaten (Abklärung der Gebärmutterschleimhaut nötig)",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für Thrombosen: Übergewicht, Ruhigstellung, Thrombosen in der Familie, Lupus erythematodes",
+      "ids": [
+        "adipositas",
+        "immobilisation",
+        "lupus"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Diabetes, Migräne, Epilepsie",
+      "ids": [
+        "hypertonie",
+        "diabetes",
+        "migraene",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Erhöhte Triglyzeride, Gallensteine",
+      "ids": [
+        "hypertriglyzeridaemie",
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Endometriose oder Myome",
+      "ids": [
+        "endometriose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Orale Antikoagulanzien (Vitamin-K-Antagonisten wie Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Tibolon steigert die Fibrinolyse und verstärkt die blutverdünnende Wirkung – INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Barbiturate, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau von Tibolon, Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Östrogene oder Gestagene",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:gestagene"
+      ],
+      "effekt": "Nicht zusätzlich zu anderen Hormonersatzmitteln anwenden – Wirkungen und Risiken addieren sich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Tibolon kann deren Spiegel mässig verändern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Unterleibs- und Beckenschmerzen",
+      "Vaginale Blutungen oder Schmierblutungen",
+      "Verdickung der Gebärmutterschleimhaut",
+      "Brustspannen",
+      "Vaginale Pilzinfektion, Ausfluss, Juckreiz im Genitalbereich",
+      "Vermehrte Körperbehaarung",
+      "Gewichtszunahme",
+      "Auffälliger Krebsabstrich (Zervixdysplasie)"
+    ],
+    "gelegentlich": [
+      "Akne",
+      "Brustbeschwerden, Brustwarzenschmerzen",
+      "Wassereinlagerungen (Ödeme)",
+      "Pilzinfektionen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Schlaganfall, venöse Thromboembolie",
+      "Brustkrebs, Gebärmutterschleimhautkrebs",
+      "Kopfschmerzen, Migräne, Schwindel, Depression",
+      "Sehstörungen",
+      "Hautausschlag, Juckreiz",
+      "Gelenk- und Muskelschmerzen",
+      "Veränderte Leberwerte"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Tritt eine Schwangerschaft ein, sofort absetzen.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Frühestens 12 Monate nach der letzten natürlichen Menstruation beginnen, sonst sind unregelmässige Blutungen häufig; Tibolon verhütet nicht.",
+    "Täglich zur gleichen Zeit einnehmen; ein zusätzliches Gestagen ist nicht nötig.",
+    "Blutungen nach mehr als 6 Monaten Anwendung oder nach Absetzen ärztlich abklären lassen.",
+    "Wer Blutverdünner wie Phenprocoumon oder Acenocoumarol einnimmt, braucht anfangs engmaschige INR-Kontrollen."
+  ],
+  "stand": "2026-10"
+}

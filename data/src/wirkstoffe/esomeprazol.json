@@ -1,0 +1,303 @@
+{
+  "id": "esomeprazol",
+  "name": "Esomeprazol",
+  "synonyme": [
+    "Esomeprazole",
+    "Esomeprazol-Magnesium",
+    "S-Omeprazol",
+    "PPI"
+  ],
+  "atc": [
+    "A02BC05",
+    "M01AE52"
+  ],
+  "klasse": "Protonenpumpenhemmer (PPI)",
+  "kurz": "Magensäurehemmer bei Refluxkrankheit, Sodbrennen und Magengeschwüren; in niedriger Dosis rezeptfrei gegen Sodbrennen erhältlich.",
+  "gruppen": [
+    "protonenpumpenhemmer",
+    "magensaeure-reduzierend",
+    "cyp2c19-hemmer"
+  ],
+  "handelsnamen": [
+    "Nexium",
+    "Nexium Control",
+    "Esomeprazol Sandoz",
+    "Esomeprazol Mepha",
+    "Vimovo (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Magensaftresistente Tabletten",
+    "Magensaftresistentes Granulat zur Herstellung einer Suspension (Beutel)",
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Refluxkrankheit mit Speiseröhrenentzündung: Behandlung und Langzeitbehandlung zur Rückfallvorbeugung",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Sodbrennen und saures Aufstossen; rezeptfreie 20-mg-Tabletten zur Kurzzeitbehandlung bei Erwachsenen",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Heilung und Vorbeugung von Magen- und Zwölffingerdarmgeschwüren bei Langzeitbehandlung mit NSAR",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Beseitigung von Helicobacter pylori in Kombination mit Antibiotika",
+      "ids": [
+        "helicobacter"
+      ]
+    },
+    {
+      "text": "Vorbeugung erneuter Blutungen nach endoskopischer Behandlung blutender Magen- oder Zwölffingerdarmgeschwüre (zunächst als Infusion)",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Zollinger-Ellison-Syndrom (krankhaft gesteigerte Säureproduktion)",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Senkt die Bildung von Magensäure stark und anhaltend. Esomeprazol ist das S-Enantiomer (eine der beiden Spiegelbildformen) von Omeprazol und wird langsamer abgebaut, wodurch höhere und gleichmässigere Spiegel erreicht werden. In den sauren Belegzellen der Magenschleimhaut wird es in die aktive Form umgewandelt und blockiert irreversibel die Protonenpumpe (H+/K+-ATPase), den letzten Schritt der Säurebildung. Esomeprazol wird über CYP2C19 und CYP3A4 abgebaut und hemmt selbst CYP2C19.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Protonenpumpenhemmer (substituierte Benzimidazole)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alarmzeichen (ungewollter Gewichtsverlust, wiederholtes Erbrechen, Schluckbeschwerden, Bluterbrechen, schwarzer Stuhl): vor der Behandlung eine bösartige Erkrankung ausschliessen",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung: Dosis begrenzen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Osteoporose oder Sturzrisiko: Langzeitbehandlung in hoher Dosis erhöht das Risiko für Hüft-, Handgelenk- und Wirbelbrüche",
+      "ids": [
+        "osteoporose",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Magnesiummangel bei Behandlung über mehr als 3 Monate, besonders zusammen mit Digoxin oder Diuretika – Magnesium kontrollieren",
+      "ids": [
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Vitamin-B12-Mangel bei Langzeitbehandlung möglich",
+      "ids": [
+        "vitamin-b12-mangel"
+      ]
+    },
+    {
+      "text": "Leicht erhöhtes Risiko für Darminfektionen (Salmonellen, Campylobacter, Clostridioides difficile)",
+      "ids": [
+        "clostridioides",
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Subakuter kutaner Lupus erythematodes (Hautausschlag an sonnenexponierten Stellen): absetzen und ärztlich abklären",
+      "ids": [
+        "lupus"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nelfinavir (HIV-Mittel)",
+      "ref": [],
+      "grund": "Esomeprazol senkt die Nelfinavir-Spiegel stark – Wirkungsverlust und Gefahr von Resistenzen."
+    },
+    {
+      "text": "Rilpivirin zum Einnehmen (HIV-Mittel, auch in Kombinationspräparaten)",
+      "ref": [
+        "rilpivirin",
+        "dolutegravir-rilpivirin",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil"
+      ],
+      "grund": "Rilpivirin braucht Magensäure für die Aufnahme – stark verminderte Spiegel mit Wirkungsverlust und Resistenzgefahr (laut Fachinformation von Rilpivirin kontraindiziert)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Clopidogrel",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Esomeprazol hemmt CYP2C19 und vermindert so die Bildung des aktiven Clopidogrel-Metaboliten – schwächere Plättchenhemmung. Kombination vermeiden; ärztlich einen anderen Säurehemmer wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Atazanavir (HIV-Mittel)",
+      "ref": [
+        "atazanavir"
+      ],
+      "effekt": "Atazanavir-Spiegel sinken stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Arzneimittel, die Magensäure für die Aufnahme brauchen: Erlotinib, Gefitinib, Dasatinib, Nilotinib, Itraconazol, Posaconazol (Suspension)",
+      "ref": [
+        "erlotinib",
+        "gefitinib",
+        "dasatinib",
+        "nilotinib",
+        "itraconazol",
+        "posaconazol"
+      ],
+      "effekt": "Aufnahme deutlich vermindert, Wirkungsverlust möglich – Kombination möglichst vermeiden oder Einnahme gemäss Fachinformation anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat (hoch dosiert)",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöhte Methotrexat-Spiegel – bei Hochdosistherapie Esomeprazol vorübergehend absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tacrolimus",
+      "ref": [
+        "tacrolimus"
+      ],
+      "effekt": "Tacrolimus-Spiegel können steigen – Spiegel und Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mycophenolat-Mofetil",
+      "ref": [
+        "mycophenolat-mofetil"
+      ],
+      "effekt": "Verminderte Spiegel des Wirkmetaboliten Mycophenolsäure – bei Transplantierten Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Citalopram, Escitalopram und Diazepam (sowie Imipramin, Clomipramin)",
+      "ref": [
+        "citalopram",
+        "escitalopram",
+        "diazepam"
+      ],
+      "effekt": "Abbau über CYP2C19 gehemmt – höhere Spiegel; bei Citalopram und Escitalopram auf QT-Verlängerung achten, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoinspiegel können steigen – zu Beginn und am Ende der Esomeprazol-Behandlung Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann ansteigen – INR zu Beginn und am Ende der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin und Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau von Esomeprazol – Wirkungsverlust; Kombination vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Voriconazol und Clarithromycin",
+      "ref": [
+        "voriconazol",
+        "clarithromycin"
+      ],
+      "effekt": "Esomeprazol-Spiegel steigen deutlich; eine Dosisanpassung ist meist nur bei schwerer Leberfunktionsstörung oder Langzeitbehandlung nötig.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Aufnahme von Digoxin leicht erhöht – besonders bei älteren Menschen Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bauchschmerzen, Blähungen",
+      "Durchfall oder Verstopfung",
+      "Übelkeit, Erbrechen",
+      "Gutartige Drüsenpolypen im Magen (Fundusdrüsenpolypen)"
+    ],
+    "gelegentlich": [
+      "Wassereinlagerungen in den Beinen",
+      "Schlafstörungen",
+      "Schwindel, Kribbeln (Parästhesien), Schläfrigkeit",
+      "Mundtrockenheit",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Knochenbrüche (Hüfte, Handgelenk, Wirbelsäule)"
+    ],
+    "selten": [
+      "Leukopenie und Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)",
+      "Überempfindlichkeitsreaktionen wie Fieber, Angioödem oder anaphylaktischer Schock",
+      "Hyponatriämie (Natriummangel)",
+      "Unruhe, Verwirrtheit, Depression",
+      "Geschmacksstörungen, verschwommenes Sehen",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Hepatitis, Mundschleimhautentzündung, Pilzbefall im Magen-Darm-Trakt",
+      "Lichtempfindlichkeit, Haarausfall, Gelenk- und Muskelschmerzen"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, Panzytopenie (schwerer Mangel an Blutzellen)",
+      "Leberversagen, hepatische Enzephalopathie",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme",
+      "Halluzinationen, Aggressivität",
+      "Interstitielle Nephritis (Nierenentzündung)",
+      "Muskelschwäche, Gynäkomastie (Brustvergrösserung beim Mann)"
+    ],
+    "unbekannt": [
+      "Hypomagnesiämie (Magnesiummangel), dadurch auch Calcium- und Kaliummangel",
+      "Mikroskopische Kolitis",
+      "Subakuter kutaner Lupus erythematodes"
+    ]
+  },
+  "schwangerschaft": "Kann nach ärztlicher Abwägung angewendet werden; Daten zu Esomeprazol und umfangreiche Erfahrungen mit Omeprazol zeigen kein erhöhtes Fehlbildungsrisiko.",
+  "stillzeit": "Es ist nicht bekannt, ob Esomeprazol in die Muttermilch übergeht; laut Fachinformation soll es in der Stillzeit nicht angewendet werden.",
+  "hinweise": [
+    "Tablette ganz mit Wasser schlucken, nicht kauen oder zerdrücken; bei Schluckbeschwerden darf sie in kohlensäurefreiem Wasser zerfallen gelassen werden.",
+    "Rezeptfreie Selbstbehandlung (20 mg) höchstens 14 Tage; ohne Besserung ärztlich abklären.",
+    "Nach längerer Einnahme nicht abrupt absetzen: vorübergehend vermehrte Säurebildung (Rebound) möglich.",
+    "Bei Langzeitbehandlung regelmässig die Notwendigkeit sowie Magnesium und Vitamin B12 überprüfen lassen."
+  ],
+  "stand": "2026-10"
+}

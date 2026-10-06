@@ -1,0 +1,70 @@
+{
+  "id": "cyproteron-ethinylestradiol",
+  "name": "Cyproteron + Ethinylestradiol",
+  "synonyme": ["Cyproteronacetat + Ethinylestradiol", "CPA/EE", "Cyproterone acetate and ethinylestradiol"],
+  "kombinationAus": ["cyproteron"],
+  "atc": ["G03HB01"],
+  "klasse": "Antiandrogen-Östrogen-Kombination (2 mg Cyproteronacetat + 0,035 mg Ethinylestradiol)",
+  "kurz": "Hormontablette gegen mittelschwere bis schwere Akne und vermehrte Körperbehaarung bei Frauen; wirkt zugleich empfängnisverhütend.",
+  "gruppen": ["antiandrogene", "gestagene", "oestrogene", "hormonale-kontrazeptiva"],
+  "handelsnamen": ["Diane-35"],
+  "abgabe": ["B"],
+  "darreichung": ["Dragées (überzogene Tabletten)"],
+  "indikationen": [
+    { "text": "Mittelschwere bis schwere, androgenabhängige Akne (mit oder ohne Seborrhö) bei Frauen im gebärfähigen Alter, wenn lokale Behandlung und Antibiotika zum Einnehmen nicht ausreichend wirken", "ids": ["akne"] },
+    { "text": "Hirsutismus (vermehrte Körperbehaarung nach männlichem Muster) bei Frauen im gebärfähigen Alter", "ids": [] },
+    { "text": "Wirkt zugleich als Verhütungsmittel, soll aber nicht allein zur Empfängnisverhütung verwendet werden", "ids": ["verhuetung"] }
+  ],
+  "wirkmechanismus": "Dämpft die Wirkung männlicher Hormone auf Haut und Haarwurzeln und verhindert gleichzeitig den Eisprung. Cyproteronacetat blockiert die Androgenrezeptoren in Talgdrüsen und Haarfollikeln und vermindert über seine Gestagenwirkung die Androgenbildung in den Eierstöcken. Ethinylestradiol steigert in der Leber die Bildung des Bindungsproteins SHBG, wodurch weniger freies Testosteron im Blut zirkuliert, und stabilisiert den Zyklus. Zusammen hemmen beide den Eisprung.",
+  "kontraindikationen": [
+    { "text": "Gleichzeitige Anwendung eines anderen hormonalen Verhütungsmittels", "ids": ["verhuetung"] },
+    { "text": "Bestehende oder frühere venöse Thrombose oder Lungenembolie; erbliche oder erworbene Thromboseneigung (z. B. APC-Resistenz/Faktor-V-Leiden, Protein-C-, Protein-S- oder Antithrombin-Mangel, Antiphospholipid-Antikörper)", "ids": ["thrombose", "lungenembolie", "thromboembolie-vorgeschichte"] },
+    { "text": "Bestehende oder frühere arterielle Thrombose (z. B. Herzinfarkt), Vorstufen wie Angina pectoris oder TIA, Schlaganfall", "ids": ["herzinfarkt", "angina-pectoris", "schlaganfall"] },
+    { "text": "Hohes Risiko für arterielle Thrombosen: Diabetes mit Gefässschäden, schwerer Bluthochdruck, schwere Fettstoffwechselstörung", "ids": ["diabetes", "hypertonie", "hypertriglyzeridaemie", "hypercholesterinaemie"] },
+    { "text": "Migräne mit Aura (neurologischen Begleitsymptomen), auch in der Vorgeschichte", "ids": ["migraene"] },
+    { "text": "Bestehende oder frühere Bauchspeicheldrüsenentzündung mit stark erhöhten Triglyceriden", "ids": ["pankreatitis", "hypertriglyzeridaemie"] },
+    { "text": "Schwere Lebererkrankung, solange die Leberwerte nicht normal sind; bestehende oder frühere Lebertumoren", "ids": ["leberinsuffizienz", "leberkrebs"] },
+    { "text": "Bekannte oder vermutete sexualhormonabhängige bösartige Tumoren (z. B. der Brust oder der Geschlechtsorgane)", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
+    { "text": "Meningeom bestehend oder in der Vorgeschichte", "ids": ["hirntumor"] },
+    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] },
+    { "text": "Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Rauchen, besonders ab 35 Jahren: stark erhöhtes Risiko für Herzinfarkt und Schlaganfall", "ids": [] },
+    { "text": "Übergewicht (BMI über 30), höheres Alter, Thrombosen bei nahen Verwandten, längere Ruhigstellung oder grössere Operation (4 Wochen vorher absetzen)", "ids": ["adipositas", "thromboembolie-vorgeschichte", "operation"] },
+    { "text": "Die Kombination hat ein etwa 1,5- bis 2-fach höheres Thromboserisiko als Pillen mit Levonorgestrel; deshalb nur bei der zugelassenen Hautindikation einsetzen und nach Abklingen der Beschwerden absetzen", "ids": ["thromboembolie-vorgeschichte"] },
+    { "text": "Bluthochdruck: Blutdruck regelmässig kontrollieren", "ids": ["hypertonie"] },
+    { "text": "Depression in der Vorgeschichte", "ids": ["depression"] },
+    { "text": "Erbliches Angioödem: Östrogene können Anfälle auslösen oder verstärken", "ids": ["angiooedem"] },
+    { "text": "Chronisch entzündliche Darmerkrankungen, Lupus erythematodes, hämolytisch-urämisches Syndrom, Sichelzellanämie", "ids": ["morbus-crohn", "colitis-ulcerosa", "lupus", "sichelzellanaemie"] },
+    { "text": "Neigung zu Chloasma: Sonne und UV-Licht meiden", "ids": ["sonnenbrand"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Andere hormonale Verhütungsmittel", "ref": ["gruppe:hormonale-kontrazeptiva"], "grund": "Doppelte Hormonzufuhr ohne zusätzlichen Nutzen, aber mit höherem Thromboserisiko." },
+    { "text": "Hepatitis-C-Kombinationen mit Ombitasvir/Paritaprevir/Ritonavir (± Dasabuvir), Glecaprevir/Pibrentasvir oder Sofosbuvir/Velpatasvir/Voxilaprevir", "ref": ["glecaprevir-pibrentasvir", "sofosbuvir-velpatasvir-voxilaprevir"], "grund": "Zusammen mit Ethinylestradiol deutlich erhöhte Leberwerte (ALT-Anstieg) – Gefahr einer Leberschädigung." }
+  ],
+  "interaktionen": [
+    { "text": "Enzyminduktoren (z. B. Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Topiramat, Rifampicin, Modafinil, Johanniskraut)", "ref": ["gruppe:enzyminduktoren-hormone", "gruppe:cyp3a4-induktoren", "johanniskraut"], "effekt": "Schwächere Wirkung mit Zwischenblutungen und möglichem Versagen der Verhütung – während der Behandlung und 28 Tage danach zusätzlich mit Kondom verhüten.", "schwere": "schwer" },
+    { "text": "HIV-Mittel (Proteasehemmer, NNRTI, z. B. Ritonavir, Efavirenz, Nevirapin)", "ref": ["gruppe:hiv-proteasehemmer", "gruppe:nnrti"], "effekt": "Hormonspiegel können deutlich sinken oder steigen – Verhütungsschutz unsicher, ärztlich abklären.", "schwere": "mittel" },
+    { "text": "Lamotrigin", "ref": ["lamotrigin"], "effekt": "Ethinylestradiol senkt den Lamotrigin-Spiegel deutlich – Anfallsgefahr; in der Pillenpause steigt der Spiegel wieder. Spiegel und Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ciclosporin-Spiegel kann steigen – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Tizanidin und Theophyllin", "ref": ["tizanidin", "theophyllin"], "effekt": "Ethinylestradiol hemmt CYP1A2 – höhere Spiegel mit verstärkter Wirkung (bei Tizanidin z. B. Blutdruckabfall, Müdigkeit).", "schwere": "mittel" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Hormonspiegel und mehr Nebenwirkungen möglich.", "schwere": "leicht" },
+    { "text": "Ulipristal (Notfallverhütung)", "ref": ["ulipristal"], "effekt": "Gegenseitige Abschwächung der Wirkung – nach Ulipristal die Einnahme frühestens nach 5 Tagen fortsetzen und bis dahin mit Kondom verhüten.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Übelkeit, Bauchschmerzen", "Gewichtszunahme", "Kopfschmerzen", "Depressive Verstimmung, Stimmungsschwankungen", "Brustschmerzen, Brustspannen"],
+    "gelegentlich": ["Erbrechen, Durchfall", "Wassereinlagerungen", "Migräne", "Verminderte Libido", "Brustvergrösserung", "Hautausschlag, Nesselsucht"],
+    "selten": ["Venöse und arterielle Thromboembolien (Beinvenenthrombose, Lungenembolie, Herzinfarkt, Schlaganfall)", "Unverträglichkeit von Kontaktlinsen", "Überempfindlichkeitsreaktionen", "Gewichtsabnahme, gesteigerte Libido", "Ausfluss aus Scheide oder Brust", "Erythema nodosum oder Erythema multiforme (entzündliche Hautrötungen)"],
+    "unbekannt": ["Blutdruckanstieg", "Zwischen- und Schmierblutungen", "Chloasma (bräunliche Pigmentflecken)", "Meningeom (Hirnhauttumor)", "Lebertumoren"]
+  },
+  "schwangerschaft": "Kontraindiziert. Vor Beginn eine Schwangerschaft ausschliessen; tritt eine Schwangerschaft ein, sofort absetzen.",
+  "stillzeit": "Kontraindiziert – die Wirkstoffe gehen in die Muttermilch über und können die Milchmenge vermindern.",
+  "hinweise": [
+    "21 Tage lang täglich zur gleichen Zeit eine Tablette, danach 7 Tage Pause; nach Abklingen der Haut- bzw. Haarbeschwerden (meist nach 3–4 Zyklen) die Notwendigkeit ärztlich überprüfen lassen.",
+    "Bei Erbrechen oder starkem Durchfall innerhalb von 3–4 Stunden nach der Einnahme ist der Verhütungsschutz unsicher.",
+    "Warnzeichen einer Thrombose (schmerzhaft geschwollenes Bein, plötzliche Atemnot, Brustschmerz, plötzliche Seh- oder Sprechstörung) sofort ärztlich abklären lassen.",
+    "Nicht rauchen; vor geplanten Operationen oder längerer Ruhigstellung die Einnahme ärztlich besprechen."
+  ],
+  "stand": "2026-10"
+}

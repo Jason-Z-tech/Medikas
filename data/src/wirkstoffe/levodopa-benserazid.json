@@ -1,0 +1,247 @@
+{
+  "id": "levodopa-benserazid",
+  "name": "Levodopa + Benserazid",
+  "synonyme": [
+    "Levodopa/Benserazid",
+    "Co-Beneldopa",
+    "Levodopa and decarboxylase inhibitor"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N04BA02"
+  ],
+  "klasse": "Dopamin-Vorstufe (Levodopa) mit peripherem Decarboxylasehemmer (Benserazid), Parkinsonmittel",
+  "kurz": "Wichtigstes Parkinsonmittel: ersetzt den fehlenden Botenstoff Dopamin im Gehirn und bessert Bewegungsarmut, Steifigkeit und Zittern.",
+  "gruppen": [
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Madopar"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Tabletten",
+    "Lösliche Tabletten",
+    "Retardkapseln",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Krankheit und Parkinson-Syndrome (ausgenommen medikamentös ausgelöste)",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt den bei Parkinson fehlenden Botenstoff Dopamin im Gehirn und verbessert so die Beweglichkeit. Levodopa gelangt als Vorstufe über die Blut-Hirn-Schranke und wird im Gehirn durch die Dopa-Decarboxylase zu Dopamin umgewandelt. Benserazid hemmt dieses Enzym nur ausserhalb des Gehirns: So erreicht mehr Levodopa das Gehirn, und Nebenwirkungen wie Übelkeit und Kreislaufbeschwerden durch Dopamin im übrigen Körper nehmen ab.",
+  "kontraindikationen": [
+    {
+      "text": "Personen unter 25 Jahren (Skelettentwicklung muss abgeschlossen sein)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwangerschaft sowie Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Dekompensierte Herz-, Leber-, Nieren- oder Hormonstörungen (z. B. Schilddrüsenüberfunktion, Phäochromozytom, Cushing-Syndrom)",
+      "ids": [
+        "herzinsuffizienz",
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "hyperthyreose",
+        "phaeochromozytom",
+        "cushing-syndrom"
+      ]
+    },
+    {
+      "text": "Psychiatrische Erkrankungen mit psychotischen Symptomen",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzinfarkt, koronare Herzkrankheit oder Herzrhythmusstörungen in der Vorgeschichte – Herz-Kreislauf regelmässig kontrollieren",
+      "ids": [
+        "herzinfarkt",
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte (Blutungsgefahr)",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Weitwinkelglaukom: Augeninnendruck kontrollieren",
+      "ids": [
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Osteoporose (Sturzgefahr bei wieder gewonnener Beweglichkeit)",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Depression, Suizidgedanken und Impulskontrollstörungen (Spielsucht, Kaufsucht, gesteigerte Sexualität, Essattacken)",
+      "ids": [
+        "depression",
+        "suizidgedanken",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Plötzliche Einschlafattacken und Tagesschläfrigkeit – kein Autofahren, solange solche Episoden auftreten",
+      "ids": [
+        "autofahren",
+        "narkolepsie"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker häufiger kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Geplante Narkose: Behandlung möglichst bis kurz vorher fortführen; abruptes Absetzen kann ein lebensbedrohliches malignes neuroleptisches Syndrom auslösen",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Verdächtige Hautveränderungen oder Melanom in der Vorgeschichte – Haut regelmässig kontrollieren",
+      "ids": [
+        "hautkrebs"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nicht-selektive MAO-Hemmer (z. B. Tranylcypromin) sowie die Kombination eines MAO-A-Hemmers mit einem MAO-B-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gehemmter Abbau von Dopamin und Noradrenalin – Gefahr gefährlicher Blutdruckkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Antipsychotika und andere Dopaminantagonisten (z. B. Haloperidol, Metoclopramid)",
+      "ref": [
+        "gruppe:antipsychotika",
+        "gruppe:dopaminantagonisten"
+      ],
+      "effekt": "Wirkung von Levodopa wird aufgehoben – Verschlechterung der Parkinson-Symptome; bei Übelkeit Domperidon bevorzugen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Selektive MAO-B-Hemmer (Selegilin, Rasagilin, Safinamid)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Verstärkte Levodopa-Wirkung mit mehr Dyskinesien und Blutdruckabfall – Levodopa-Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen (orthostatische Hypotonie) – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sympathomimetika (z. B. Adrenalin, Pseudoephedrin)",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf möglich – Dosis der Sympathomimetika reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tetrabenazin",
+      "ref": [
+        "tetrabenazin"
+      ],
+      "effekt": "Abgeschwächte Levodopa-Wirkung durch Dopaminentleerung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkose mit Halothan und ähnlichen Gasen",
+      "ref": [],
+      "effekt": "Blutdruckschwankungen und Herzrhythmusstörungen möglich – Narkoseteam informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Eisenpräparate",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Verminderte Aufnahme von Levodopa – zeitlich versetzt einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Anticholinergika (z. B. Biperiden) und Antazida",
+      "ref": [
+        "gruppe:anticholinerg",
+        "gruppe:antazida"
+      ],
+      "effekt": "Verzögerte oder verminderte Aufnahme von Levodopa (besonders bei Retardformen).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Eiweissreiche Mahlzeiten",
+      "ref": [],
+      "effekt": "Aminosäuren konkurrieren mit Levodopa um die Aufnahme in Darm und Gehirn – Wirkung kann schwanken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Appetitlosigkeit, Übelkeit, Erbrechen, Durchfall, Geschmacksstörungen",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie), Herzrhythmusstörungen",
+      "Unwillkürliche Bewegungen (Dyskinesien) und Wirkungsschwankungen (On-off-Phänomen)",
+      "Plötzliche Einschlafattacken, Tagesschläfrigkeit",
+      "Impulskontrollstörungen (Spielsucht, Kaufsucht, Hypersexualität), Dopamin-Dysregulationssyndrom",
+      "Halluzinationen, Verwirrtheit, Depression, Unruhe, Schlafstörungen",
+      "Blutbildveränderungen (hämolytische Anämie, Leukopenie, Thrombozytopenie)",
+      "Erhöhte Leberwerte, Verfärbung von Urin und Schweiss"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert: Benserazid führte im Tierversuch zu Skelettfehlbildungen. Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Nicht stillen: Levodopa hemmt die Milchbildung, und schädliche Wirkungen auf das Kind sind nicht ausgeschlossen.",
+  "hinweise": [
+    "Möglichst 30 Minuten vor oder 1 Stunde nach einer Mahlzeit einnehmen; eiweissreiche Mahlzeiten können die Wirkung abschwächen. Retardkapseln nicht öffnen oder zerkauen.",
+    "Nie abrupt absetzen – Gefahr einer lebensbedrohlichen Krise mit Fieber und Muskelstarre (malignes neuroleptisches Syndrom).",
+    "Plötzliches Einschlafen oder Kontrollverlust bei Spielen, Einkaufen oder Sexualität ärztlich melden; dann kein Auto fahren.",
+    "Urin, Schweiss und Speichel können sich dunkel verfärben – das ist harmlos."
+  ],
+  "stand": "2026-10"
+}

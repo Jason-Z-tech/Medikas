@@ -1,0 +1,246 @@
+{
+  "id": "adalimumab",
+  "name": "Adalimumab",
+  "synonyme": [
+    "Anti-TNF-alpha-Antikörper (human)"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L04AB04"
+  ],
+  "klasse": "TNF-alpha-Hemmer (humaner monoklonaler Antikörper); Biologikum",
+  "kurz": "Gespritzter Antikörper gegen den Entzündungsbotenstoff TNF-alpha; bei Rheuma, Bechterew, Psoriasis, Morbus Crohn und Colitis ulcerosa.",
+  "gruppen": [
+    "tnf-alpha-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Humira",
+    "Hyrimoz",
+    "Amgevita",
+    "Imraldi",
+    "Idacio"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (Fertigspritze, Fertigpen)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Juvenile idiopathische Arthritis (polyartikulär ab 2 Jahren, Enthesitis-assoziierte Arthritis ab 6 Jahren)",
+      "ids": [
+        "rheumatoide-arthritis",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Morbus Bechterew, nicht-röntgenologische axiale Spondyloarthritis und Psoriasis-Arthritis",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Plaque-Psoriasis (Erwachsene und Kinder ab 4 Jahren)",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Hidradenitis suppurativa (Acne inversa) ab 12 Jahren",
+      "ids": [
+        "vitiligo"
+      ]
+    },
+    {
+      "text": "Morbus Crohn und Colitis ulcerosa (Erwachsene; Morbus Crohn auch bei Kindern ab 6 Jahren)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Nicht-infektiöse Uveitis (Entzündung der mittleren Augenhaut), auch bei Kindern ab 2 Jahren",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Bremst Entzündungen in Gelenken, Haut, Darm und Auge, indem es einen zentralen Entzündungsbotenstoff ausschaltet. Adalimumab ist ein vollständig humaner monoklonaler IgG1-Antikörper, der TNF-alpha spezifisch bindet und dessen Wirkung an den Zellrezeptoren p55 und p75 blockiert. Dadurch sinken Entzündungsmarker und die Aktivität entzündlicher Zellen. Gleichzeitig wird die Abwehr gegen Infektionen, besonders Tuberkulose, geschwächt.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive Tuberkulose oder andere schwere Infektionen wie Sepsis und opportunistische Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Herzinsuffizienz (NYHA III/IV)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Latente Tuberkulose: vor Beginn ausschliessen bzw. vorbeugend behandeln",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Trägerinnen und -Träger (Reaktivierung möglich)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Wiederkehrende Infektionen oder erhöhte Infektanfälligkeit",
+      "ids": [
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Leichte Herzinsuffizienz (Verschlechterung möglich)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Multiple Sklerose oder andere demyelinisierende Erkrankungen",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Krebs oder Lymphom in der Vorgeschichte, Hautkrebsrisiko; Kombination mit Azathioprin bei jungen Männern (hepatosplenisches T-Zell-Lymphom)",
+      "ids": [
+        "krebs",
+        "lymphom",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (Panzytopenie möglich)",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung; Säuglinge, die im Mutterleib exponiert waren",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Anakinra und Abatacept",
+      "ref": [
+        "anakinra",
+        "abatacept"
+      ],
+      "effekt": "Mehr schwere Infektionen ohne Zusatznutzen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Biologika und JAK-Hemmer",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer",
+        "gruppe:jak-hemmer"
+      ],
+      "effekt": "Additive Immunsuppression mit erhöhtem Infektionsrisiko – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – keine Lebendimpfungen während der Behandlung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azathioprin und Mercaptopurin",
+      "ref": [
+        "gruppe:thiopurine"
+      ],
+      "effekt": "Seltenes hepatosplenisches T-Zell-Lymphom v. a. bei jungen Männern mit chronisch entzündlicher Darmerkrankung beobachtet – Kombination sorgfältig abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Vermindert die Bildung von Antikörpern gegen Adalimumab (erwünscht und häufig kombiniert); Infektionsrisiko beachten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der Atemwege (auch Lungenentzündung, Nasennebenhöhlenentzündung)",
+      "Reaktionen an der Einstichstelle (Rötung, Schmerzen, Schwellung)",
+      "Kopfschmerzen",
+      "Bauchschmerzen, Übelkeit, Erbrechen",
+      "Erhöhte Leberwerte",
+      "Hautausschlag",
+      "Muskel- und Skelettschmerzen",
+      "Leukopenie, Anämie, erhöhte Blutfette"
+    ],
+    "haeufig": [
+      "Schwere Infektionen wie Sepsis, Pilzinfektionen, Grippe, Harnwegs- und Hautinfektionen",
+      "Nicht-melanozytärer Hautkrebs, gutartige Tumoren",
+      "Thrombozytopenie, Leukozytose",
+      "Überempfindlichkeitsreaktionen",
+      "Stimmungsschwankungen, Angst, Schlaflosigkeit",
+      "Bluthochdruck, Herzrasen",
+      "Neue oder verschlechterte Psoriasis, Juckreiz, Nesselsucht",
+      "Fieber, Ödeme"
+    ],
+    "gelegentlich": [
+      "Tuberkulose und opportunistische Infektionen",
+      "Lymphom, Melanom, solide Tumoren",
+      "Multiple Sklerose, Neuropathie, Zittern",
+      "Herzrhythmusstörungen, Herzinsuffizienz",
+      "Lungenembolie, interstitielle Lungenerkrankung",
+      "Pankreatitis, Gallenblasenentzündung",
+      "Lupus erythematodes, Vaskulitis (Gefässentzündung)",
+      "Sarkoidose"
+    ],
+    "selten": [
+      "Leukämie",
+      "Panzytopenie",
+      "Demyelinisierende Erkrankungen wie Sehnerventzündung oder Guillain-Barré-Syndrom",
+      "Hepatitis, autoimmune Hepatitis, Hepatitis-B-Reaktivierung",
+      "Darmdurchbruch (Perforation)",
+      "Stevens-Johnson-Syndrom, Angioödem, Erythema multiforme",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Lungenfibrose"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hepatosplenisches T-Zell-Lymphom",
+      "Merkelzellkarzinom (seltener Hautkrebs), Kaposi-Sarkom",
+      "Leberversagen",
+      "Verschlechterung einer Dermatomyositis"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung. Adalimumab passiert die Plazenta; Säuglinge, die im Mutterleib exponiert waren, sollen bis 5 Monate nach der letzten Gabe in der Schwangerschaft keine Lebendimpfungen erhalten.",
+  "stillzeit": "Geht nur in sehr geringen Mengen in die Muttermilch über; Stillen ist möglich.",
+  "hinweise": [
+    "Vor Beginn auf Tuberkulose und Hepatitis B testen und den Impfstatus vervollständigen lassen.",
+    "Bei Fieber, anhaltendem Husten, Gewichtsverlust oder Nachtschweiss rasch ärztlich abklären lassen.",
+    "Regelmässige Hautkontrollen und Sonnenschutz (Hautkrebsrisiko).",
+    "Im Kühlschrank lagern; kurzzeitig (bis 14 Tage) bei Raumtemperatur bis 25 °C möglich."
+  ],
+  "stand": "2026-10"
+}

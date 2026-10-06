@@ -1,0 +1,77 @@
+{
+  "id": "voriconazol",
+  "name": "Voriconazol",
+  "synonyme": ["Voriconazole", "Voriconazolum"],
+  "atc": ["J02AC03"],
+  "klasse": "Triazol-Antimykotikum",
+  "kurz": "Breit wirksames Pilzmittel gegen schwere, lebensbedrohliche Pilzinfektionen wie Aspergillose; viele Wechselwirkungen.",
+  "gruppen": ["azol-antimykotika", "starke-cyp3a4-hemmer", "cyp2c9-hemmer", "cyp2c19-hemmer", "qt-verlaengernd", "hepatotoxisch", "photosensibilisierend"],
+  "handelsnamen": ["Vfend", "Voriconazol Mepha"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Pulver für Suspension zum Einnehmen", "Pulver zur Herstellung einer Infusionslösung"],
+  "indikationen": [
+    { "text": "Invasive Aspergillose (Schimmelpilzinfektion)", "ids": ["pilzinfektion"] },
+    { "text": "Candidämie bei Patientinnen und Patienten ohne Neutropenie sowie schwere, Fluconazol-resistente Candida-Infektionen (inkl. Candida krusei)", "ids": ["pilzinfektion"] },
+    { "text": "Schwere Pilzinfektionen durch Scedosporium- und Fusarium-Arten", "ids": ["pilzinfektion"] },
+    { "text": "Vorbeugung invasiver Pilzinfektionen bei Hochrisiko-Empfängern einer allogenen Stammzelltransplantation", "ids": ["pilzinfektion", "transplantation", "immunsuppression"] }
+  ],
+  "wirkmechanismus": "Hemmt die Bildung eines wichtigen Bausteins der Pilzzellwand und bringt so das Pilzwachstum zum Stillstand. Voriconazol blockiert die pilzeigene Lanosterol-14α-Demethylase, sodass kein Ergosterol mehr für die Zellmembran entsteht; gegen Aspergillus wirkt es abtötend. Es wird über CYP2C19, CYP2C9 und CYP3A4 abgebaut und hemmt diese Enzyme gleichzeitig – die Spiegel schwanken je nach Erbanlage stark und werden deshalb oft gemessen.",
+  "kontraindikationen": [
+    { "text": "Überempfindlichkeit gegen andere Azol-Antimykotika (Kreuzallergie)", "ids": ["allergie"] }
+  ],
+  "vorsicht": [
+    { "text": "QT-Verlängerung, Herzrhythmusstörungen, Kardiomyopathie, Bradykardie oder Elektrolytstörungen: Kalium, Magnesium und Calcium vor Beginn korrigieren", "ids": ["qt-verlaengerung", "herzrhythmusstoerung", "kardiomyopathie", "hypokaliaemie", "magnesiummangel", "hypokalzaemie"] },
+    { "text": "Lebererkrankungen: schwere Leberschäden bis Leberversagen möglich – Leberwerte zu Beginn wöchentlich, dann monatlich kontrollieren", "ids": ["leberinsuffizienz", "leberzirrhose"] },
+    { "text": "Mittelschwere bis schwere Niereninsuffizienz: Infusionslösung nur nach Abwägung (Hilfsstoff reichert sich an), Tabletten bevorzugen", "ids": ["niereninsuffizienz"] },
+    { "text": "Lichtempfindlichkeit der Haut; bei Langzeitbehandlung Plattenepithelkarzinome und Melanome der Haut – Sonne meiden, Haut regelmässig kontrollieren", "ids": ["sonnenbrand", "hautkrebs"] },
+    { "text": "Langzeitbehandlung: Knochenhautentzündung (Periostitis) und Fluorose bei Transplantierten", "ids": ["transplantation"] },
+    { "text": "Erhöhtes Risiko für Pankreatitis, z. B. nach Chemotherapie oder Stammzelltransplantation", "ids": ["pankreatitis"] },
+    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS) in der Vorgeschichte", "ids": ["schwere-hautreaktion"] },
+    { "text": "Frauen im gebärfähigen Alter: während der Behandlung wirksam verhüten", "ids": ["frauen-gebaerfaehig"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Rifampicin, Carbamazepin, Phenobarbital und andere lang wirksame Barbiturate", "ref": ["rifampicin", "carbamazepin", "phenobarbital", "primidon"], "grund": "Starke Enzyminduktion senkt die Voriconazol-Spiegel so stark, dass die Pilztherapie versagt." },
+    { "text": "Johanniskraut", "ref": ["johanniskraut"], "grund": "Enzyminduktion senkt die Voriconazol-Spiegel deutlich – Wirkverlust." },
+    { "text": "Ritonavir in hoher Dosis (ab 400 mg zweimal täglich)", "ref": ["ritonavir"], "grund": "Ritonavir senkt die Voriconazol-Spiegel deutlich – Wirkverlust." },
+    { "text": "Efavirenz in Standarddosis (ab 400 mg täglich)", "ref": ["efavirenz", "efavirenz-emtricitabin-tenofovirdisoproxil"], "grund": "Voriconazol-Spiegel sinken, Efavirenz-Spiegel steigen; nur mit angepassten Dosen beider Mittel kombinierbar." },
+    { "text": "Pimozid, Chinidin, Cisaprid, Terfenadin, Astemizol, Ivabradin", "ref": ["ivabradin"], "grund": "Erhöhte Spiegel durch CYP3A4-Hemmung – Gefahr von QT-Verlängerung, Torsade de pointes bzw. schwerer Bradykardie." },
+    { "text": "Ergotalkaloide (Ergotamin, Dihydroergotamin, Methylergometrin)", "ref": ["methylergometrin"], "grund": "Erhöhte Spiegel – Gefahr von Ergotismus (Gefässverengung mit Durchblutungsstörungen)." },
+    { "text": "Sirolimus", "ref": ["sirolimus"], "grund": "Sirolimus-Spiegel steigen auf ein Vielfaches – schwere Toxizität." },
+    { "text": "Naloxegol, Tolvaptan, Lurasidon", "ref": ["naloxegol", "tolvaptan", "lurasidon"], "grund": "Stark erhöhte Spiegel durch CYP3A4-Hemmung – Opioidentzug, gefährlich rascher Natriumanstieg bzw. schwere Nebenwirkungen." },
+    { "text": "Venetoclax zu Beginn und während der Dosissteigerung bei CLL", "ref": ["venetoclax"], "grund": "Erhöhte Spiegel – Gefahr eines Tumorlyse-Syndroms." },
+    { "text": "Simvastatin, Domperidon, Quetiapin, Ranolazin, Eplerenon, Ticagrelor (laut deren Fachinformation mit starken CYP3A4-Hemmern kontraindiziert)", "ref": ["simvastatin", "domperidon", "quetiapin", "ranolazin", "eplerenon", "ticagrelor"], "grund": "Stark erhöhte Spiegel – Gefahr von Muskelzerfall, Herzrhythmusstörungen, Hyperkaliämie bzw. Blutungen." }
+  ],
+  "interaktionen": [
+    { "text": "Phenytoin", "ref": ["phenytoin"], "effekt": "Voriconazol-Spiegel sinken, Phenytoin-Spiegel steigen – möglichst meiden; sonst Phenytoin-Spiegel überwachen und Voriconazol-Dosis erhöhen.", "schwere": "schwer" },
+    { "text": "Rifabutin", "ref": ["rifabutin"], "effekt": "Voriconazol-Spiegel sinken, Rifabutin-Spiegel steigen (Uveitis, Blutbildschäden) – meiden, sonst Dosis anpassen und Blutbild kontrollieren.", "schwere": "schwer" },
+    { "text": "Ritonavir als Booster (100 mg zweimal täglich)", "ref": ["ritonavir"], "effekt": "Senkt die Voriconazol-Spiegel – nur kombinieren, wenn der Nutzen das Risiko klar überwiegt.", "schwere": "schwer" },
+    { "text": "Ciclosporin, Tacrolimus, Everolimus", "ref": ["ciclosporin", "tacrolimus", "everolimus"], "effekt": "Stark erhöhte Spiegel – Ciclosporin-Dosis halbieren, Tacrolimus auf ein Drittel; Spiegel engmaschig messen. Everolimus nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Opioide (Fentanyl, Alfentanil, Sufentanil, Oxycodon, Methadon)", "ref": ["fentanyl", "alfentanil", "sufentanil", "oxycodon", "methadon"], "effekt": "Erhöhte Opioidspiegel – Gefahr von Atemdepression; Methadon zusätzlich QT-Verlängerung. Dosis reduzieren, eng überwachen.", "schwere": "schwer" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung, Blutungsgefahr – INR engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Rivaroxaban und Apixaban", "ref": ["rivaroxaban", "apixaban"], "effekt": "Erhöhte Spiegel, Blutungsgefahr – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Andere QT-verlängernde Arzneimittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Additive QT-Verlängerung – EKG und Elektrolyte kontrollieren.", "schwere": "schwer" },
+    { "text": "Fluconazol", "ref": ["fluconazol"], "effekt": "Deutlich erhöhte Voriconazol-Spiegel – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Krebsmedikamente: Vinca-Alkaloide und Proteinkinase-Hemmer", "ref": ["vincristin", "vinblastin", "gruppe:proteinkinase-hemmer"], "effekt": "Erhöhte Spiegel – Nervenschäden bzw. verstärkte Toxizität; meiden oder Dosis anpassen.", "schwere": "schwer" },
+    { "text": "Über CYP3A4 abgebaute Statine (z. B. Atorvastatin)", "ref": ["atorvastatin"], "effekt": "Risiko für Muskelschäden – Statindosis reduzieren, auf Muskelschmerzen achten.", "schwere": "mittel" },
+    { "text": "Benzodiazepine (Midazolam, Triazolam, Alprazolam)", "ref": ["midazolam", "triazolam", "alprazolam"], "effekt": "Stärkere und längere Sedierung – Dosis reduzieren.", "schwere": "mittel" },
+    { "text": "Sulfonylharnstoffe", "ref": ["gruppe:sulfonylharnstoffe"], "effekt": "Gefahr von Unterzuckerung – Blutzucker häufiger messen.", "schwere": "mittel" },
+    { "text": "Protonenpumpenhemmer (z. B. Omeprazol)", "ref": ["omeprazol", "esomeprazol"], "effekt": "Spiegel beider Mittel steigen – ab 40 mg Omeprazol dessen Dosis halbieren.", "schwere": "leicht" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["ibuprofen", "diclofenac"], "effekt": "Höhere NSAR-Spiegel – Dosis reduzieren, auf Nebenwirkungen achten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Sehstörungen (verschwommenes oder verändertes Sehen, Farbsehstörungen, Lichtscheu)", "Kopfschmerzen", "Periphere Ödeme (Wassereinlagerungen)", "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen", "Abnorme Leberwerte", "Hautausschlag", "Atemnot", "Fieber"],
+    "haeufig": ["Agranulozytose, Panzytopenie, Thrombozytopenie, Leukopenie, Anämie", "Hypoglykämie, Hypokaliämie, Hyponatriämie", "Depression, Halluzinationen, Angst, Schlaflosigkeit, Verwirrtheit", "Krampfanfälle, Ohnmacht, Zittern, Schwindel, Kribbeln", "Netzhautblutung", "Herzrhythmusstörungen, tiefer Blutdruck, Venenentzündung", "Gelbsucht, Hepatitis", "Akutes Nierenversagen", "Phototoxische Hautreaktionen, Haarausfall, Juckreiz"],
+    "gelegentlich": ["Knochenmarkversagen", "Nebenniereninsuffizienz, Schilddrüsenunterfunktion", "Hirnödem, Enzephalopathie, periphere Neuropathie, Geschmacksstörungen", "Sehnerverkrankungen, Doppelbilder", "Kammerflimmern, ventrikuläre Tachykardie, QT-Verlängerung", "Pankreatitis", "Leberversagen", "Stevens-Johnson-Syndrom"],
+    "selten": ["Torsade de pointes, kompletter AV-Block", "Toxische epidermale Nekrolyse, DRESS, Angioödem", "Anaphylaktoide Reaktionen", "Schilddrüsenüberfunktion"],
+    "unbekannt": ["Plattenepithelkarzinom der Haut (bei Langzeitbehandlung)", "Kutaner Lupus erythematodes", "Periostitis (Knochenhautentzündung)"]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt eindeutig das Risiko (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen wirksam verhüten.",
+  "stillzeit": "Mit Beginn der Behandlung abstillen.",
+  "hinweise": [
+    "Tabletten mindestens 1 Stunde vor oder 1 Stunde nach einer Mahlzeit einnehmen.",
+    "Direktes Sonnenlicht meiden, Sonnenschutz mit hohem Schutzfaktor und schützende Kleidung verwenden; Hautveränderungen ärztlich zeigen.",
+    "Sehstörungen sind häufig – bei Sehstörungen nicht Auto fahren und nachts nicht fahren.",
+    "Leberwerte, Nierenwerte und Elektrolyte werden regelmässig kontrolliert; oft wird der Voriconazol-Spiegel gemessen."
+  ],
+  "stand": "2026-10"
+}

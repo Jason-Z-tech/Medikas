@@ -1,0 +1,275 @@
+{
+  "id": "meloxicam",
+  "name": "Meloxicam",
+  "synonyme": [
+    "Meloxicamum"
+  ],
+  "atc": [
+    "M01AC06"
+  ],
+  "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Oxicam; COX-2-bevorzugend)",
+  "kurz": "Entzündungshemmendes Schmerzmittel (NSAR) zur Behandlung von Arthrose, rheumatoider Arthritis und Morbus Bechterew.",
+  "gruppen": [
+    "nsar",
+    "blutungsrisiko-erhoehend",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Mobicox",
+    "Meloxicam Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitbehandlung schmerzhafter Schübe einer Arthrose",
+      "ids": [
+        "arthrose"
+      ]
+    },
+    {
+      "text": "Rheumatoide Arthritis",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Morbus Bechterew (Spondylitis ankylosans)",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündungen in den Gelenken, indem es die Bildung entzündungsfördernder Botenstoffe hemmt. Meloxicam hemmt die Cyclooxygenasen und damit die Prostaglandinsynthese, wobei COX-2 bevorzugt gehemmt wird. Die lange Halbwertszeit von rund 20 Stunden erlaubt die Einnahme einmal täglich.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive oder wiederholte Magen-Darm-Geschwüre; Magen-Darm-Blutungen unter NSAR in der Vorgeschichte",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Blutungen, Hirnblutungen in der Vorgeschichte oder andere Blutungsstörungen",
+      "ids": [
+        "hirnblutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Asthma, Nesselsucht oder allergieartige Reaktionen nach Acetylsalicylsäure oder anderen NSAR",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Schwere, nicht kontrollierte Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz ohne Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 16 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen und -Risikofaktoren (Risiko für Herzinfarkt und Schlaganfall)",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "koronare-herzkrankheit",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Erkrankungen in der Vorgeschichte, einschliesslich Morbus Crohn und Colitis ulcerosa",
+      "ids": [
+        "magen-darm-ulkus",
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (höheres Blutungs- und Nierenrisiko)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Nierenfunktion, Flüssigkeitsmangel",
+      "ids": [
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Erhöhtes Kalium, z. B. bei Diabetes oder Behandlung mit kaliumerhöhenden Mitteln",
+      "ids": [
+        "hyperkaliaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Heparine)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – Kombination vermeiden oder engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NSAR, auch Acetylsalicylsäure in Schmerzdosis",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und Blutungen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigt – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöhte Methotrexat-Toxizität – Blutbild und Nierenfunktion kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide, SSRI und SNRI",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel akutes Nierenversagen und Hyperkaliämie möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pemetrexed bei eingeschränkter Nierenfunktion",
+      "ref": [
+        "pemetrexed"
+      ],
+      "effekt": "Vermehrte Pemetrexed-Toxizität – Meloxicam einige Tage vor bis nach der Gabe pausieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colestyramin",
+      "ref": [
+        "colestyramin"
+      ],
+      "effekt": "Beschleunigte Ausscheidung von Meloxicam – Wirkung schwächer.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Magen-Darm-Beschwerden wie Dyspepsie (Verdauungsbeschwerden), Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung, Blähungen, Durchfall"
+    ],
+    "haeufig": [
+      "Kopfschmerzen"
+    ],
+    "gelegentlich": [
+      "Anämie (Blutarmut)",
+      "Schwindel, Schläfrigkeit",
+      "Blutdruckanstieg, Hitzegefühl",
+      "Versteckte oder sichtbare Magen-Darm-Blutungen, Gastritis, Mundschleimhautentzündung",
+      "Erhöhte Leberwerte",
+      "Juckreiz, Hautausschlag, Angioödem (Schwellung von Haut und Schleimhaut)",
+      "Wassereinlagerungen, Hyperkaliämie (erhöhtes Kalium), veränderte Nierenwerte"
+    ],
+    "selten": [
+      "Blutbildveränderungen",
+      "Stimmungsschwankungen, Albträume",
+      "Sehstörungen, Ohrensausen (Tinnitus)",
+      "Herzklopfen",
+      "Asthmaanfälle",
+      "Magen-Darm-Geschwüre, Kolitis, Speiseröhrenentzündung",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"
+    ],
+    "sehrSelten": [
+      "Hepatitis",
+      "Magen-Darm-Durchbruch (Perforation)",
+      "Blasenbildende Hautreaktionen, Erythema multiforme",
+      "Akutes Nierenversagen"
+    ],
+    "unbekannt": [
+      "Agranulozytose (Ausfall der weissen Blutkörperchen)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Verwirrtheit",
+      "Herzinsuffizienz",
+      "Lichtempfindlichkeit der Haut"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach ärztlicher Abwägung, so niedrig dosiert und kurz wie möglich. Im letzten Drittel kontraindiziert.",
+  "stillzeit": "In der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Einmal täglich mit Wasser zu einer Mahlzeit einnehmen; höchstens 15 mg pro Tag.",
+    "So niedrig dosiert und so kurz wie möglich – Herz-Kreislauf- und Magen-Darm-Risiko steigen mit Dosis und Dauer.",
+    "Alkohol erhöht das Risiko für Magenblutungen.",
+    "Kann Schwindel, Schläfrigkeit und Sehstörungen verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

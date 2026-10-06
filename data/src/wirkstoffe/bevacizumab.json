@@ -1,0 +1,233 @@
+{
+  "id": "bevacizumab",
+  "name": "Bevacizumab",
+  "synonyme": [
+    "Bevacizumab",
+    "Anti-VEGF-Antikörper"
+  ],
+  "atc": [
+    "L01FG01"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen VEGF (Angiogenesehemmer)",
+  "kurz": "Krebsmittel als Infusion, das die Neubildung von Blutgefässen im Tumor hemmt; meist zusammen mit Chemotherapie eingesetzt.",
+  "gruppen": [
+    "blutungsrisiko-erhoehend",
+    "thromboserisiko-erhoehend",
+    "blutdrucksteigernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Avastin",
+    "Mvasi",
+    "Zirabev"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter Dickdarm- oder Mastdarmkrebs, zusammen mit Chemotherapie",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Brustkrebs, zusammen mit Chemotherapie",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs (ausser Plattenepithelkarzinom), zusammen mit Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Nierenzellkrebs",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Eierstock-, Eileiter- und Bauchfellkrebs sowie Gebärmutterhalskrebs, zusammen mit Chemotherapie",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Wiederkehrendes Glioblastom (bösartiger Hirntumor)",
+      "ids": [
+        "hirntumor"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hungert den Tumor aus, indem es die Bildung neuer Blutgefässe bremst. Bevacizumab ist ein humanisierter monoklonaler Antikörper, der den Wachstumsfaktor VEGF (vaskulärer endothelialer Wachstumsfaktor) bindet. VEGF kann dadurch nicht mehr an seine Rezeptoren auf Gefässzellen andocken. Die Tumorgefässe bilden sich zurück und neue entstehen kaum, was das Tumorwachstum verlangsamt.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Produkte aus Hamster-Eierstockzellen (CHO-Zellen) oder andere rekombinante Antikörper",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Magen-Darm-Durchbrüche und Fisteln, v. a. bei entzündlichen Bauchprozessen oder nach Bestrahlung",
+      "ids": [
+        "divertikulitis",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Geplante Operationen und frische Wunden (gestörte Wundheilung): mindestens 28 Tage vor und nach grösseren Eingriffen nicht geben",
+      "ids": [
+        "operation",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Bluthochdruck (muss vorher gut eingestellt sein und regelmässig kontrolliert werden)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Arterielle Thrombosen, Herzinfarkt oder Schlaganfall in der Vorgeschichte sowie Alter über 65 Jahre",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Venöse Thrombosen und Lungenembolie",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung, Hirnmetastasen oder Bluthusten (v. a. bei Lungenkrebs)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Eiweiss im Urin, Nierenkrankheit (Urin regelmässig kontrollieren)",
+      "ids": [
+        "niereninsuffizienz",
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Herzschwäche, besonders nach Anthrazyklin-Chemotherapie",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Sunitinib",
+      "ref": [
+        "sunitinib"
+      ],
+      "effekt": "Fälle von mikroangiopathischer hämolytischer Anämie (Blutzerfall in kleinen Gefässen) – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Anti-EGFR-Antikörper (Panitumumab, Cetuximab) zusammen mit Chemotherapie bei Darmkrebs",
+      "ref": [
+        "panitumumab",
+        "cetuximab"
+      ],
+      "effekt": "Schlechtere Wirksamkeit und mehr Nebenwirkungen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Bisphosphonate oder Denosumab (Knochenschutz)",
+      "ref": [
+        "gruppe:bisphosphonate",
+        "denosumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Kiefernekrose – vor Therapie zahnärztliche Kontrolle, invasive Zahneingriffe meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – sorgfältig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Platin- und Taxan-Chemotherapie",
+      "ref": [
+        "gruppe:platinderivate",
+        "paclitaxel",
+        "docetaxel"
+      ],
+      "effekt": "In der Kombination mehr schwere Neutropenien und Infektionen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypertonie (Bluthochdruck)",
+      "Blutungen, vor allem Nasenbluten",
+      "Proteinurie (Eiweiss im Urin)",
+      "Müdigkeit und Schwäche",
+      "Durchfall, Übelkeit, Bauchschmerzen",
+      "Kopfschmerzen, Geschmacksstörungen",
+      "Wundheilungsstörungen",
+      "Ovarialinsuffizienz (Ausbleiben der Eierstockfunktion)"
+    ],
+    "haeufig": [
+      "Magen-Darm-Perforation (Durchbruch)",
+      "Fisteln und Abszesse",
+      "Arterielle Thromboembolien (z. B. Herzinfarkt, Schlaganfall)",
+      "Venöse Thrombosen und Lungenembolie",
+      "Schwere Blutungen, z. B. Lungenblutung bei Lungenkrebs",
+      "Herzinsuffizienz (Herzschwäche)",
+      "Sepsis (Blutvergiftung)"
+    ],
+    "gelegentlich": [
+      "Nephrotisches Syndrom (starker Eiweissverlust über die Niere)"
+    ],
+    "selten": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES: Kopfschmerzen, Sehstörungen, Krampfanfälle)",
+      "Nekrotisierende Fasziitis (schwere Weichteilinfektion)"
+    ],
+    "sehrSelten": [
+      "Hypertensive Enzephalopathie (Hirnschädigung durch sehr hohen Blutdruck)"
+    ],
+    "unbekannt": [
+      "Kiefernekrose",
+      "Durchbruch der Nasenscheidewand",
+      "Gallenblasenperforation",
+      "Thrombotische Mikroangiopathie"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, da Fruchtschäden zu erwarten sind. Sichere Verhütung während und bis 6 Monate nach der letzten Dosis.",
+  "stillzeit": "Nicht stillen während der Behandlung und bis 6 Monate nach der letzten Dosis.",
+  "hinweise": [
+    "Blutdruck und Urin werden vor jeder Gabe kontrolliert.",
+    "Vor Operationen und Zahneingriffen die Behandlung angeben – ein Abstand von mindestens 4 Wochen ist nötig.",
+    "Starke Bauchschmerzen, Bluterbrechen, schwarzer Stuhl, Atemnot oder einseitige Lähmungen sofort ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,274 @@
+{
+  "id": "sertralin",
+  "name": "Sertralin",
+  "synonyme": [
+    "Sertralinum",
+    "Sertralinhydrochlorid"
+  ],
+  "atc": [
+    "N06AB06"
+  ],
+  "klasse": "Selektiver Serotonin-Wiederaufnahmehemmer (SSRI, Antidepressivum)",
+  "kurz": "Antidepressivum aus der Gruppe der SSRI gegen Depression, Zwangs-, Panik- und soziale Angststörung sowie posttraumatische Belastungsstörung.",
+  "gruppen": [
+    "ssri",
+    "serotonerg",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Zoloft",
+    "Sertralin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen, auch zur Vorbeugung von Rückfällen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Zwangsstörungen bei Erwachsenen sowie bei Kindern und Jugendlichen von 6 bis 17 Jahren",
+      "ids": [
+        "zwangsstoerung",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Panikstörung mit oder ohne Agoraphobie (Platzangst)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Soziale Angststörung (soziale Phobie)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Posttraumatische Belastungsstörung",
+      "ids": [
+        "ptbs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hellt die Stimmung auf und vermindert Angst und Zwänge, indem es die Menge des Botenstoffs Serotonin zwischen den Nervenzellen erhöht. Sertralin hemmt selektiv den Serotonin-Transporter und damit die Wiederaufnahme von Serotonin in die Nervenzelle; auf die Wiederaufnahme von Noradrenalin und Dopamin wirkt es nur schwach. Die Halbwertszeit beträgt etwa 26 Stunden; die volle Wirkung entwickelt sich über 2–4 Wochen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Beginn der Behandlung sowie bei Kindern, Jugendlichen und jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "depression",
+        "suizidgedanken",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für QT-Verlängerung (Herzerkrankung, langsamer Puls, Kalium- oder Magnesiummangel)",
+      "ids": [
+        "qt-verlaengerung",
+        "bradykardie",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhtes Risiko für Natriummangel",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzuckereinstellung kann sich verändern",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (Pupillenerweiterung)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Irreversible MAO-Hemmer – gleichzeitig sowie innerhalb von 14 Tagen nach deren Absetzen; nach Absetzen von Sertralin mindestens 7 Tage warten",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms (Fieber, Muskelzuckungen, Verwirrtheit, Kreislaufversagen)."
+    },
+    {
+      "text": "Pimozid",
+      "ref": [],
+      "grund": "Erhöhter Pimozid-Spiegel – Gefahr von QT-Verlängerung und Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Moclobemid, Linezolid, Methylenblau",
+      "ref": [
+        "moclobemid",
+        "linezolid",
+        "methylthioniniumchlorid"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – Kombination nicht empfohlen, allenfalls unter engmaschiger Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere serotonerge Mittel (Triptane, Tramadol, Fentanyl, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:triptane",
+        "tramadol",
+        "fentanyl",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – auf Fieber, Zittern, Muskelzuckungen, Unruhe und Durchfall achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien, Thrombozytenaggregationshemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt – Gerinnung (INR) kontrollieren, auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. bestimmte Antipsychotika und Antibiotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für QT-Verlängerung und Herzrhythmusstörungen – Vorsicht, gegebenenfalls EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Sertralin-Spiegel steigt – Kombination möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, trizyklische Antidepressiva)",
+      "ref": [
+        "flecainid",
+        "propafenon",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Vor allem bei höheren Sertralin-Dosen können deren Spiegel steigen – Kontrollen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Der Sertralin-Spiegel kann sinken – Wirkung kann nachlassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schlaflosigkeit, Schläfrigkeit",
+      "Schwindel, Kopfschmerzen",
+      "Durchfall, Übelkeit, Mundtrockenheit",
+      "Ejakulationsstörungen",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Angst, Unruhe, Nervosität, Albträume, Zähneknirschen",
+      "Verminderte Libido, Erektionsstörungen",
+      "Zittern, Kribbeln, erhöhte Muskelspannung, Konzentrations- und Geschmacksstörungen",
+      "Sehstörungen, Ohrgeräusche (Tinnitus)",
+      "Herzklopfen, Hitzewallungen, Gähnen",
+      "Bauchschmerzen, Erbrechen, Verstopfung, Verdauungsbeschwerden, Blähungen",
+      "Vermehrtes Schwitzen, Hautausschlag",
+      "Rücken-, Gelenk- und Muskelschmerzen, Brustschmerzen"
+    ],
+    "gelegentlich": [
+      "Halluzinationen, Aggressivität, gehobene Stimmung",
+      "Migräne, Ohnmacht (Synkope)",
+      "Herzrasen, Bluthochdruck",
+      "Nasenbluten, Atemnot",
+      "Schluckbeschwerden",
+      "Nesselsucht, Juckreiz, Haarausfall, Hautblutungen (Purpura)",
+      "Harninkontinenz"
+    ],
+    "selten": [
+      "Hyponatriämie (Natriummangel), inadäquate ADH-Sekretion (SIADH)",
+      "Krampfanfälle, Bewegungsstörungen",
+      "Serotoninsyndrom",
+      "QT-Verlängerung, Torsade de pointes",
+      "Schwere Leberfunktionsstörungen",
+      "Angioödem, schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Magen-Darm-Blutungen",
+      "Priapismus (Dauererektion), Milchfluss (Galaktorrhö)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Suizidgedanken und suizidales Verhalten",
+      "Mikroskopische Kolitis (chronischer wässriger Durchfall)",
+      "Nachblutungen nach der Geburt",
+      "Erhöhtes Risiko für Knochenbrüche"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung; Daten aus vielen Schwangerschaften zeigen kein erhöhtes Fehlbildungsrisiko. Bei Einnahme in der Spätschwangerschaft sind beim Neugeborenen Anpassungsstörungen und ein erhöhtes Risiko für Lungenhochdruck (PPHN) möglich.",
+  "stillzeit": "Sertralin geht nur in geringen Mengen in die Muttermilch über und ist im Blut gestillter Kinder meist nicht nachweisbar; eine Anwendung ist nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Einmal täglich morgens oder abends einnehmen, unabhängig von den Mahlzeiten.",
+    "Die Wirkung setzt nach 2–4 Wochen ein; zunehmende Unruhe oder Suizidgedanken zu Beginn sofort ärztlich melden.",
+    "Nicht abrupt absetzen, sondern schrittweise reduzieren (Absetzsymptome).",
+    "Kann die Fahrtüchtigkeit beeinträchtigen; Alkohol und Grapefruitsaft meiden."
+  ],
+  "stand": "2026-10"
+}

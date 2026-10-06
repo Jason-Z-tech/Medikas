@@ -1,0 +1,189 @@
+{
+  "id": "vilanterol-fluticasonfuroat",
+  "name": "Vilanterol + Fluticasonfuroat",
+  "synonyme": [
+    "Fluticasonfuroat/Vilanterol",
+    "Fluticasone furoate/Vilanterol"
+  ],
+  "kombinationAus": [
+    "fluticasonfuroat"
+  ],
+  "atc": [
+    "R03AK10"
+  ],
+  "klasse": "Inhalative Fixkombination aus lang wirksamem Beta-2-Sympathomimetikum (LABA) und Glukokortikoid",
+  "kurz": "Inhalationspulver mit Kortison und 24 Stunden wirkendem Bronchien-Erweiterer zur einmal täglichen Behandlung von Asthma und COPD.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "glukokortikoide-inhalativ",
+    "cyp3a4-substrate-empfindlich",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Relvar"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulverinhalator"
+  ],
+  "indikationen": [
+    {
+      "text": "Asthma bei Erwachsenen und Jugendlichen ab 12 Jahren, wenn eine Kombination aus inhalativem Kortison und lang wirksamem Bronchien-Erweiterer angezeigt ist",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "COPD mit eingeschränkter Lungenfunktion und wiederholten Verschlechterungen (Exazerbationen) trotz Bronchien erweiternder Therapie",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbindet eine entzündungshemmende mit einer 24 Stunden anhaltenden bronchienerweiternden Wirkung, sodass eine Inhalation pro Tag genügt. Fluticasonfuroat ist ein stark wirksames Glukokortikoid mit langer Verweildauer in der Lunge und dämpft die Entzündung der Bronchialschleimhaut. Vilanterol stimuliert selektiv Beta-2-Rezeptoren der Bronchialmuskulatur und erweitert die Atemwege. Beide Wirkstoffe werden in der Leber über CYP3A4 abgebaut.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot; bei Verschlechterung rasch ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "COPD: erhöhtes Risiko für Lungenentzündungen",
+      "ids": [
+        "copd",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Aktive oder ruhende Lungentuberkulose, Pilz- oder Virusinfektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, QT-Verlängerung",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion, Diabetes, Kaliummangel",
+      "ids": [
+        "hyperthyreose",
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Leberfunktionsstörung (höhere Fluticason-Belastung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Sehstörungen, Katarakt oder Glaukom",
+      "ids": [
+        "glaukom",
+        "katarakt",
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Milcheiweissallergie (das Pulver enthält Laktose)",
+      "ids": [
+        "nahrungsmittelallergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir, Cobicistat)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Höhere Spiegel beider Wirkstoffe – Gefahr von Kortison-Nebenwirkungen im ganzen Körper und Herz-Kreislauf-Wirkungen; Kombination vermeiden oder eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Abschwächung der bronchienerweiternden Wirkung; bei Asthma Gefahr schwerer Bronchospasmen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Kortison, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Hypokaliämie mit Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika",
+      "ref": [
+        "gruppe:beta2-sympathomimetika"
+      ],
+      "effekt": "Doppelte Anwendung erhöht die Nebenwirkungen ohne Zusatznutzen – nicht kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Nasen-Rachen-Entzündung (Nasopharyngitis)"
+    ],
+    "haeufig": [
+      "Lungenentzündung (vor allem bei COPD)",
+      "Infektionen der oberen Atemwege, Bronchitis, Grippe, Nebenhöhlenentzündung",
+      "Pilzinfektion in Mund und Rachen (Soor)",
+      "Rachenschmerzen, Husten, Heiserkeit",
+      "Bauchschmerzen",
+      "Gelenk- und Rückenschmerzen, Muskelkrämpfe",
+      "Knochenbrüche",
+      "Fieber"
+    ],
+    "gelegentlich": [
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Extrasystolen (Extraschläge des Herzens)",
+      "Verschwommenes Sehen"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie, Angioödem, Ausschlag, Nesselsucht",
+      "Angst, Zittern",
+      "Herzklopfen, beschleunigter Puls",
+      "Paradoxer Bronchospasmus"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung, wenn der Nutzen für die Mutter das mögliche Risiko für das Kind überwiegt; ein gut kontrolliertes Asthma ist wichtig.",
+  "stillzeit": "Nur nach ärztlicher Abwägung; ob die Wirkstoffe in die Muttermilch übergehen, ist nicht ausreichend bekannt.",
+  "hinweise": [
+    "Einmal täglich jeweils zur gleichen Tageszeit inhalieren; nicht zur Behandlung akuter Atemnot.",
+    "Nach der Inhalation den Mund mit Wasser ausspülen und ausspucken.",
+    "Nicht abrupt absetzen; eine Ritonavir- oder Cobicistat-haltige HIV-Therapie ärztlich angeben."
+  ],
+  "stand": "2026-10"
+}

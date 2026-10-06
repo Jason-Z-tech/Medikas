@@ -1,0 +1,263 @@
+{
+  "id": "fentanyl",
+  "name": "Fentanyl",
+  "synonyme": [
+    "Fentanylcitrat",
+    "Fentanyl citrate",
+    "Fentanylum"
+  ],
+  "atc": [
+    "N01AH01",
+    "N02AB03"
+  ],
+  "klasse": "Opioid-Analgetikum (starker μ-Opioidrezeptor-Agonist)",
+  "kurz": "Sehr starkes Opioid-Schmerzmittel: als Pflaster bei chronischen Schmerzen, gegen Durchbruchschmerzen bei Krebs und als Spritze bei Narkosen.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "serotonerg",
+    "cyp3a4-substrate-empfindlich",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Durogesic",
+    "Fentanyl Sandoz",
+    "Sintenyl",
+    "Effentora",
+    "Abstral",
+    "Instanyl"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Transdermale Pflaster",
+    "Buccaltabletten",
+    "Sublingualtabletten",
+    "Nasenspray",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Starke chronische Schmerzen, die eine langdauernde Opioidbehandlung erfordern (Pflaster, bei Kindern nur nach Opioid-Vorbehandlung)",
+      "ids": [
+        "chronische-schmerzen"
+      ]
+    },
+    {
+      "text": "Durchbruchschmerzen bei Krebspatientinnen und -patienten unter Opioid-Dauertherapie (Buccal-, Sublingualtabletten, Nasenspray)",
+      "ids": [
+        "chronische-schmerzen"
+      ]
+    },
+    {
+      "text": "Schmerzausschaltung bei Narkosen und in der Intensivmedizin (Injektion)",
+      "ids": [
+        "anaesthesie",
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert sehr starke Schmerzen, indem es an die körpereigenen Opioid-Andockstellen in Gehirn und Rückenmark bindet. Fentanyl ist ein synthetischer, stark fettlöslicher Agonist am μ-Opioidrezeptor und etwa 100-mal stärker wirksam als Morphin. Es hemmt Weiterleitung und Wahrnehmung von Schmerzreizen, dämpft aber auch das Atemzentrum. Der Abbau erfolgt in der Leber überwiegend über CYP3A4 zum unwirksamen Norfentanyl.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Atemdepression (stark abgeschwächte Atmung)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Pflaster: akute oder postoperative Schmerzen; Präparate gegen Durchbruchschmerzen: Personen ohne Opioid-Dauertherapie und andere akute Schmerzen als Durchbruchschmerzen",
+      "ids": []
+    },
+    {
+      "text": "Schwere obstruktive Lungenerkrankung (Präparate gegen Durchbruchschmerzen)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Nasenspray: frühere Bestrahlung im Gesichtsbereich oder wiederkehrendes Nasenbluten",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "COPD, Asthma oder Schlafapnoe (Gefahr der Atemdepression)",
+      "ids": [
+        "copd",
+        "asthma",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck, Kopfverletzung oder Bewusstseinsstörung",
+      "ids": [
+        "hirnoedem",
+        "schaedel-hirn-trauma",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Bradykardie und andere Herzrhythmusstörungen",
+      "ids": [
+        "bradykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Sucht oder Missbrauch in der Vorgeschichte (hohes Abhängigkeitspotenzial)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Pflaster bei Fieber oder äusserer Wärme (verstärkte Aufnahme bis zur Überdosierung)",
+      "ids": [
+        "fieber",
+        "hitze"
+      ]
+    },
+    {
+      "text": "Kinder: Pflaster nur ab 2 Jahren und nach Opioid-Vorbehandlung; versehentlicher Kontakt mit Pflastern kann tödlich sein",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Natriumoxybat (bei Präparaten gegen Durchbruchschmerzen)",
+      "ref": [
+        "natriumoxybat"
+      ],
+      "grund": "Beide dämpfen das Zentralnervensystem stark – Gefahr von Atemstillstand, Koma und Tod."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gefahr schwerer Atemdepression, tiefer Bewusstlosigkeit und Tod – nur kombinieren, wenn keine Alternative besteht, mit niedrigsten Dosen und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ritonavir, Clarithromycin, Itraconazol, Fluconazol, Verapamil)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Fentanylspiegel steigt, Gefahr lebensbedrohlicher Atemdepression – möglichst vermeiden, sonst eng überwachen und Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 14 Tagen nach Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Unvorhersehbare Verstärkung der Opioidwirkung und Serotonin-Syndrom möglich – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abgeschwächte Wirkung; nach Absetzen des Induktors steigt der Fentanylspiegel wieder – Gefahr einer Überdosierung, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (SSRI, SNRI, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotonin-Syndrom möglich (Unruhe, Fieber, Zittern, Muskelzuckungen) – bei solchen Symptomen sofort ärztlich abklären.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Partialagonisten (z. B. Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung, bei Opioidgewöhnung Entzugssymptome – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Verstopfung bis Darmlähmung sowie Harnverhalt möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Schwindel",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen",
+      "Obstipation (Verstopfung)"
+    ],
+    "haeufig": [
+      "Überempfindlichkeitsreaktionen",
+      "Appetitlosigkeit",
+      "Schlaflosigkeit, Angst, Verwirrtheit, Halluzinationen",
+      "Zittern, Kribbeln",
+      "Herzklopfen, Herzrasen",
+      "Atemnot",
+      "Mundtrockenheit, Durchfall, Bauchschmerzen",
+      "Starkes Schwitzen, Juckreiz, Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Atemdepression (abgeschwächte Atmung)",
+      "Krampfanfälle, Bewusstseinsstörungen",
+      "Bradykardie (langsamer Puls), Blutdruckabfall",
+      "Ileus (Darmlähmung)",
+      "Erektionsstörung",
+      "Hautreaktionen an der Pflasterstelle",
+      "Entzugssymptome"
+    ],
+    "selten": [
+      "Atemstillstand (Apnoe)",
+      "Miosis (enge Pupillen)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Delir",
+      "Androgenmangel bei Langzeitanwendung",
+      "Serotonin-Syndrom",
+      "Abhängigkeit und Toleranz",
+      "Hyperalgesie (erhöhte Schmerzempfindlichkeit)"
+    ]
+  },
+  "schwangerschaft": "Nur wenn eindeutig erforderlich. Langdauernde Anwendung kann beim Neugeborenen ein Entzugssyndrom auslösen; während der Geburt nicht anwenden (Atemdepression beim Kind).",
+  "stillzeit": "Fentanyl geht in die Muttermilch über und kann beim Säugling Atemdepression verursachen. Während der Behandlung und mindestens 72 Stunden nach Entfernen des Pflasters nicht stillen.",
+  "hinweise": [
+    "Pflaster nicht zerschneiden und keiner Wärme aussetzen (Heizkissen, Sauna, heisses Bad); gebrauchte Pflaster mit der Klebeseite nach innen falten und für Kinder unerreichbar entsorgen.",
+    "Kein Alkohol; die Fahrtüchtigkeit ist vor allem zu Beginn und bei Dosisänderungen eingeschränkt.",
+    "Bei Atemproblemen oder ungewöhnlicher Schläfrigkeit sofort Hilfe holen; nach längerer Anwendung nicht abrupt absetzen.",
+    "Die verschiedenen Präparate gegen Durchbruchschmerzen sind nicht Mikrogramm für Mikrogramm austauschbar."
+  ],
+  "stand": "2026-10"
+}

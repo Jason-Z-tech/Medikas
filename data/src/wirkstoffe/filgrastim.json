@@ -1,0 +1,190 @@
+{
+  "id": "filgrastim",
+  "name": "Filgrastim",
+  "synonyme": [
+    "G-CSF",
+    "r-metHuG-CSF",
+    "Granulozyten-Kolonie-stimulierender Faktor"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L03AA02"
+  ],
+  "klasse": "Hämatopoetischer Wachstumsfaktor (Granulozyten-Kolonie-stimulierender Faktor, G-CSF)",
+  "kurz": "Gentechnisch hergestellter Wachstumsfaktor, der die Bildung weisser Blutkörperchen anregt, v. a. während einer Chemotherapie.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Neupogen",
+    "Zarzio"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektions- oder Infusionslösung (Fertigspritze, Durchstechflasche)"
+  ],
+  "indikationen": [
+    {
+      "text": "Verkürzung der Neutropenie (Mangel an neutrophilen Granulozyten) und Senkung des Risikos für Fieber mit Neutropenie bei zytotoxischer Chemotherapie (nicht bei chronischer myeloischer Leukämie und myelodysplastischen Syndromen)",
+      "ids": [
+        "neutropenie",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Verkürzung der Neutropenie nach knochenmarkzerstörender Therapie mit anschliessender Knochenmark- oder Stammzelltransplantation",
+      "ids": [
+        "neutropenie",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Mobilisierung von Blutstammzellen ins Blut zur Gewinnung für eine Transplantation (bei Patienten und gesunden Spendern)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Schwere angeborene, zyklische oder idiopathische Neutropenie mit wiederholten schweren Infektionen",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Anhaltende Neutropenie bei fortgeschrittener HIV-Infektion",
+      "ids": [
+        "neutropenie",
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt das Knochenmark an, mehr infektabwehrende weisse Blutkörperchen (neutrophile Granulozyten) zu bilden und ins Blut abzugeben. Filgrastim ist ein gentechnisch hergestellter humaner G-CSF, der an den G-CSF-Rezeptor auf Vorläuferzellen der Granulozyten bindet. Dadurch werden Vermehrung, Ausreifung und Funktion der Neutrophilen gesteigert; die Zahl der Neutrophilen steigt innerhalb von 24 Stunden an. In höheren Dosen werden zudem Blutstammzellen aus dem Knochenmark ins Blut ausgeschwemmt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Sichelzellkrankheit (Sichelzellkrisen möglich, teils tödlich)",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "Vergrösserte Milz; Schmerzen im linken Oberbauch oder in der linken Schulter können auf einen Milzriss hinweisen",
+      "ids": []
+    },
+    {
+      "text": "Lungenerkrankungen: Lungeninfiltrate oder ARDS (akutes Lungenversagen) möglich – bei Husten, Fieber und Atemnot sofort abklären",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Myeloische Leukämie, myelodysplastisches Syndrom oder chronische myeloische Leukämie (mögliche Wachstumsförderung bösartiger Zellen)",
+      "ids": [
+        "leukaemie",
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Kapillarlecksyndrom (Flüssigkeitsaustritt aus den Gefässen mit Blutdruckabfall und Ödemen)",
+      "ids": [
+        "oedeme",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Nierenentzündung (Glomerulonephritis) – Urin kontrollieren",
+      "ids": [
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Osteoporose bei Langzeitbehandlung (Knochendichte überwachen)",
+      "ids": [
+        "osteoporose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Zytostatika (Chemotherapie)",
+      "ref": [
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Rasch teilende Blutvorläuferzellen reagieren empfindlicher auf Chemotherapie – Filgrastim nicht in den 24 Stunden vor bis 24 Stunden nach der Chemotherapie geben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorouracil und andere Fluoropyrimidine",
+      "ref": [
+        "gruppe:fluoropyrimidine"
+      ],
+      "effekt": "Die Neutropenie kann sich verschlimmern – gleichzeitige Gabe vermeiden, Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium fördert die Freisetzung von Neutrophilen; die Wirkung von Filgrastim kann verstärkt werden – Blutbild kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Wachstumsfaktoren der weissen Blutkörperchen (z. B. Pegfilgrastim, Lenograstim)",
+      "ref": [
+        "pegfilgrastim",
+        "lenograstim",
+        "lipegfilgrastim"
+      ],
+      "effekt": "Gleiche Wirkung, nicht untersucht – nicht gleichzeitig anwenden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochen- und Muskelschmerzen",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Thrombozytopenie (Mangel an Blutplättchen) und Anämie (Blutarmut)",
+      "Fieber, Müdigkeit",
+      "Haarausfall und Schleimhautentzündung (im Rahmen der Chemotherapie)"
+    ],
+    "haeufig": [
+      "Milzvergrösserung",
+      "Erhöhte Werte von LDH und alkalischer Phosphatase im Blut",
+      "Blutdruckabfall oder Blutdruckanstieg",
+      "Husten, Atemnot, Bluthusten (Hämoptyse)",
+      "Hautausschlag, Hautrötung",
+      "Schmerzen beim Wasserlassen (Dysurie)"
+    ],
+    "gelegentlich": [
+      "Milzriss (Milzruptur)",
+      "Sichelzellkrisen bei Sichelzellkrankheit",
+      "Überempfindlichkeitsreaktionen",
+      "ARDS (akutes Lungenversagen), Lungeninfiltrate, Lungenblutung",
+      "Sweet-Syndrom (akute fieberhafte Hauterkrankung)",
+      "Hautvaskulitis (Gefässentzündung)",
+      "Glomerulonephritis (Nierenentzündung), Eiweiss im Urin",
+      "Pseudogicht und erhöhte Harnsäure"
+    ],
+    "selten": [
+      "Kapillarlecksyndrom",
+      "Aortitis (Entzündung der Hauptschlagader)",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Myelodysplastisches Syndrom oder akute myeloische Leukämie (bei bestimmten Patientengruppen)"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen sind begrenzt; nur nach strenger ärztlicher Nutzen-Risiko-Abwägung anwenden.",
+  "stillzeit": "Ob Filgrastim in die Muttermilch übergeht, ist nicht bekannt; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Bei Schmerzen im linken Oberbauch oder in der linken Schulterspitze sofort ärztliche Hilfe holen (möglicher Milzriss).",
+    "Knochenschmerzen sind häufig und lassen sich meist mit einfachen Schmerzmitteln wie Paracetamol lindern.",
+    "Während der Behandlung wird das Blutbild regelmässig kontrolliert.",
+    "Fertigspritzen im Kühlschrank lagern, nicht einfrieren."
+  ],
+  "stand": "2026-10"
+}

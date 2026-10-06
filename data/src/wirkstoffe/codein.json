@@ -1,0 +1,251 @@
+{
+  "id": "codein",
+  "name": "Codein",
+  "synonyme": [
+    "Codeinphosphat",
+    "Methylmorphin",
+    "Codeine"
+  ],
+  "atc": [
+    "R05DA04"
+  ],
+  "klasse": "Opioid (Antitussivum; schwaches Opioid-Analgetikum in Kombinationen)",
+  "kurz": "Opioid gegen quälenden trockenen Reizhusten; mit Paracetamol kombiniert auch gegen Schmerzen. Wird im Körper teilweise zu Morphin.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Codein Knoll",
+    "Resyl plus (Kombi)",
+    "Co-Dafalgan (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Tropfen",
+    "Sirup",
+    "Brausetabletten (Kombipräparat)"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische Behandlung von trockenem Reizhusten",
+      "ids": [
+        "bronchitis",
+        "erkaeltung"
+      ]
+    },
+    {
+      "text": "In fixer Kombination mit Paracetamol: mässig starke Schmerzen, wenn Paracetamol allein nicht ausreicht",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft den Hustenreflex im Hirnstamm und lindert Schmerzen. Codein ist selbst nur ein schwacher Agonist am μ-Opioidrezeptor; seine schmerzstillende Wirkung beruht vor allem auf Morphin, das in der Leber über das Enzym CYP2D6 aus einem kleinen Teil der Dosis gebildet wird. Wie viel Morphin entsteht, hängt vom CYP2D6-Erbgut ab: ultraschnelle Metabolisierer bilden gefährlich viel Morphin, langsame Metabolisierer kaum.",
+  "kontraindikationen": [
+    {
+      "text": "Kinder unter 12 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche nach Entfernung der Rachen- oder Gaumenmandeln wegen nächtlicher Atemaussetzer (Schlafapnoe)",
+      "ids": [
+        "kinder",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Bekannte ultraschnelle CYP2D6-Metabolisierer (genetisch beschleunigte Umwandlung zu Morphin)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Atemdepression, Ateminsuffizienz oder akuter Asthmaanfall",
+      "ids": [
+        "atemnot",
+        "asthma"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "COPD, chronische Atemwegserkrankungen, Schlafapnoe; Jugendliche ab 12 Jahren mit eingeschränkter Atemfunktion",
+      "ids": [
+        "copd",
+        "schlafapnoe",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Opioid- oder andere Suchterkrankung (Missbrauchs- und Abhängigkeitsrisiko)",
+      "ids": [
+        "abhaengigkeit",
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Sturz- und Verwirrtheitsgefahr, Atemdämpfung)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Kopfverletzungen oder erhöhter Hirndruck",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck oder Flüssigkeitsmangel",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Gallenwegserkrankungen, Bauchspeicheldrüsenentzündung, Verstopfung oder Darmverschluss",
+      "ids": [
+        "gallensteine",
+        "pankreatitis",
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung (Harnverhalt)",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Husten mit viel Schleim: Hustenunterdrückung kann zu Sekretstau führen",
+      "ids": [
+        "bronchitis"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide und andere zentral dämpfende Mittel, Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Schwere Sedierung, Atemdepression, Koma und Tod möglich – nur kombinieren, wenn keine Alternative besteht, mit niedrigster Dosis und kurzer Dauer.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Opioide",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Additive Atemdämpfung und Sedierung – meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Erregungszustände oder verstärkte Dämpfung von Atmung und Kreislauf möglich – nicht kombinieren, auch nicht innerhalb von 2 Wochen nach Absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Weniger Umwandlung zu Morphin – die schmerzstillende Wirkung kann ausbleiben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, Antihistaminika der 1. Generation)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Verstopfung bis zur Darmlähmung und Harnverhalt möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Antagonisten und -Partialagonisten (z. B. Naltrexon, Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-antagonisten",
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abschwächung der Codein-Wirkung; bei Opioidgewöhnung Entzugssymptome möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schleimlöser (z. B. Acetylcystein, Ambroxol, Bromhexin, Efeu)",
+      "ref": [
+        "acetylcystein",
+        "ambroxol",
+        "bromhexin",
+        "efeublaetter-extrakt"
+      ],
+      "effekt": "Gelöster Schleim kann bei gedämpftem Hustenreflex schlechter abgehustet werden (Sekretstau).",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen (v. a. zu Beginn)",
+      "Obstipation (Verstopfung)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Schläfrigkeit, Benommenheit"
+    ],
+    "gelegentlich": [
+      "Schlafstörungen",
+      "Kurzatmigkeit",
+      "Mundtrockenheit",
+      "Juckreiz, Hautrötung, Nesselsucht",
+      "Ohrensausen (Tinnitus)"
+    ],
+    "selten": [
+      "Schwere allergische Reaktionen, einschliesslich Stevens-Johnson-Syndrom"
+    ],
+    "unbekannt": [
+      "Atemdepression (gefährlich abgeflachte Atmung), v. a. bei hohen Dosen oder ultraschnellem CYP2D6-Stoffwechsel",
+      "Abhängigkeit und Entzugserscheinungen bei längerer Einnahme",
+      "Blutdruckabfall, Ohnmacht",
+      "Euphorie oder Verstimmung",
+      "Krampf der Gallenwege"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung und kurzfristig. Einnahme kurz vor der Geburt kann beim Neugeborenen Atemdämpfung, längere Einnahme Entzugssymptome verursachen.",
+  "stillzeit": "Kontraindiziert: Codein und Morphin gehen in die Muttermilch über; bei ultraschnellem Stoffwechsel der Mutter ist eine lebensgefährliche Atemdämpfung beim Säugling möglich.",
+  "hinweise": [
+    "Beeinträchtigt die Fahrtüchtigkeit; keinen Alkohol trinken.",
+    "Nur kurzfristig und nur bei trockenem Reizhusten anwenden, nicht bei Husten mit viel Schleim.",
+    "Kann abhängig machen – nicht länger und nicht höher dosiert einnehmen als verordnet.",
+    "Bei Atemnot, starker Schläfrigkeit, sehr engen Pupillen oder Verwirrtheit (Zeichen einer Überdosierung) sofort den Notruf (144) wählen."
+  ],
+  "stand": "2026-10"
+}

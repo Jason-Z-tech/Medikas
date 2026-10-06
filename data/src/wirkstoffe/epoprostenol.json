@@ -1,0 +1,158 @@
+{
+  "id": "epoprostenol",
+  "name": "Epoprostenol",
+  "synonyme": [
+    "Prostacyclin",
+    "PGI2",
+    "Epoprostenol-Natrium"
+  ],
+  "atc": [
+    "B01AC09"
+  ],
+  "klasse": "Prostacyclin (Prostaglandin I2)",
+  "kurz": "Dem körpereigenen Prostacyclin entsprechender Gefässerweiterer, der als Dauerinfusion bei schwerer pulmonaler arterieller Hypertonie eingesetzt wird.",
+  "gruppen": [
+    "blutdrucksenkend",
+    "thrombozytenaggregationshemmer",
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Veletri"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Pulmonale arterielle Hypertonie (idiopathisch, erblich oder bei Bindegewebserkrankungen) mit deutlichen Beschwerden (WHO-Funktionsklasse III–IV)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Blutgefässe der Lunge und entlastet so das rechte Herz. Epoprostenol ist synthetisch hergestelltes Prostacyclin und aktiviert Prostacyclin-(IP-)Rezeptoren; der Anstieg von cAMP entspannt die glatte Gefässmuskulatur in Lungen- und Körperkreislauf. Zusätzlich hemmt es stark die Verklumpung der Blutplättchen. Wegen einer Halbwertszeit von nur wenigen Minuten muss es ohne Unterbruch über einen zentralen Venenkatheter infundiert werden.",
+  "kontraindikationen": [
+    {
+      "text": "Herzinsuffizienz infolge schwerer Funktionsstörung der linken Herzkammer (Dauerbehandlung)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungenödem während der Dosisfindung (dann keine Dauerbehandlung)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Unterbrechung oder abruptes Absetzen: lebensbedrohlicher Rückfall der pulmonalen Hypertonie (Rebound)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall, Schwindel und Ohnmacht",
+      "ids": [
+        "hypotonie",
+        "synkope"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder gleichzeitige Behandlung mit Blutverdünnern (Hemmung der Blutplättchen)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Infektionen über den zentralen Venenkatheter bis hin zur Sepsis",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Pulmonale venookklusive Erkrankung: Gefahr eines Lungenödems",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien, Plättchenhemmer und NSAR",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – Gerinnung und Blutungszeichen überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker und andere Gefässerweiterer (z. B. Nitrate)",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxinspiegel kann steigen – Spiegel kontrollieren, v. a. bei Neigung zu Digoxin-Toxizität.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gerinnselauflösende Mittel (z. B. Alteplase)",
+      "ref": [
+        "alteplase"
+      ],
+      "effekt": "Etwas raschere Ausscheidung von Alteplase; zusätzlich erhöhtes Blutungsrisiko.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Gesichtsrötung (Flush)",
+      "Übelkeit, Erbrechen",
+      "Durchfall",
+      "Kieferschmerzen"
+    ],
+    "haeufig": [
+      "Sepsis und Katheterinfektionen",
+      "Thrombozytopenie (Mangel an Blutplättchen), Blutungen",
+      "Blutdruckabfall (Hypotonie)",
+      "Herzrasen oder verlangsamter Puls",
+      "Bauchkrämpfe",
+      "Hautausschlag",
+      "Gelenkschmerzen, Brustschmerzen",
+      "Angst, Nervosität"
+    ],
+    "gelegentlich": [
+      "Schwitzen",
+      "Mundtrockenheit"
+    ],
+    "unbekannt": [
+      "Lungenödem",
+      "Aszites (Bauchwasser)",
+      "Vergrösserte Milz",
+      "Herzinsuffizienz mit hohem Herzzeitvolumen"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit; eine pulmonale Hypertonie ist in der Schwangerschaft sehr gefährlich, deshalb wirksame Verhütung und spezialisierte ärztliche Begleitung.",
+  "stillzeit": "Ein Risiko für den Säugling ist nicht auszuschliessen; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Dauerinfusion mit tragbarer Pumpe über einen zentralen Venenkatheter: Unterbrechungen unbedingt vermeiden, Ersatzpumpe und Infusionsmaterial bereithalten.",
+    "Katheter steril pflegen; Fieber, Rötung oder Schmerzen an der Austrittsstelle sofort melden.",
+    "Dosis nur nach ärztlicher Anweisung ändern; Schwindel beim Aufstehen kann auf zu tiefen Blutdruck hinweisen."
+  ],
+  "stand": "2026-10"
+}

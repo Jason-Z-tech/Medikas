@@ -1,0 +1,190 @@
+{
+  "id": "bromazepam",
+  "name": "Bromazepam",
+  "synonyme": [
+    "Bromazepamum"
+  ],
+  "atc": [
+    "N05BA08"
+  ],
+  "klasse": "Benzodiazepin (Anxiolytikum, Beruhigungsmittel)",
+  "kurz": "Beruhigungsmittel aus der Gruppe der Benzodiazepine zur kurzzeitigen Behandlung von Angst-, Spannungs- und Erregungszuständen.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Lexotanil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Angst-, Spannungs- und Erregungszustände (kurzzeitige Behandlung)",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Körperliche Beschwerden, die durch Angst oder seelische Anspannung ausgelöst werden (psychosomatische Störungen)",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt angstlösend, beruhigend und muskelentspannend, indem es die hemmenden Signale im Gehirn verstärkt. Bromazepam bindet an die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors und verstärkt die Wirkung des hemmenden Botenstoffs GABA (vermehrter Chlorid-Einstrom, verminderte Erregbarkeit der Nervenzellen). In höheren Dosen wirkt es auch schlaffördernd und krampflösend. Die Halbwertszeit beträgt etwa 20 Stunden.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis (krankhafte Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Ateminsuffizienz (Atemschwäche)",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom (Atemaussetzer im Schlaf)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Benzodiazepine",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alkohol-, Medikamenten- oder Drogenabhängigkeit in der Vorgeschichte (erhöhtes Abhängigkeitsrisiko)",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: stärkere Wirkung, Verwirrtheit und Sturzgefahr – niedriger dosieren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression: nicht als alleinige Behandlung, da Suizidgedanken verdeckt oder verstärkt werden können",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Chronische Atemwegserkrankungen mit eingeschränkter Atemfunktion",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nur ausnahmsweise nach strenger ärztlicher Abwägung",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Paradoxe Reaktionen (Unruhe, Aggressivität, Albträume, Halluzinationen) möglich – dann absetzen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Tramadol, Methadon)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Gefahr von starker Sedierung, Atemdepression, Koma und Tod – nur kombinieren, wenn keine Alternative besteht, mit tiefster Dosis und kürzester Dauer.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (Schlafmittel, Antipsychotika, sedierende Antihistaminika, sedierende Antidepressiva, Antiepileptika)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:z-substanzen",
+        "gruppe:antipsychotika",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der dämpfenden Wirkung mit Schläfrigkeit, Benommenheit und Sturzgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluvoxamin und andere CYP1A2-Hemmer",
+      "ref": [
+        "fluvoxamin",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Der Bromazepam-Spiegel steigt deutlich (mit Fluvoxamin etwa 2,4-fach) – stärkere und längere Wirkung; Kombination möglichst vermeiden oder Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral wirkende Muskelrelaxanzien (z. B. Tizanidin, Baclofen)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-zentral"
+      ],
+      "effekt": "Verstärkte Muskelentspannung und Sedierung – erhöhte Sturzgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cimetidin, Propranolol",
+      "ref": [
+        "propranolol"
+      ],
+      "effekt": "Können den Abbau von Bromazepam verlangsamen und die Wirkung verlängern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Müdigkeit, Schläfrigkeit und verminderte Aufmerksamkeit (auch am Folgetag)",
+      "Muskelschwäche, Gangunsicherheit (Ataxie), Stürze",
+      "Schwindel, Kopfschmerzen, Doppeltsehen",
+      "Verwirrtheit, Gedächtnislücken (anterograde Amnesie)",
+      "Paradoxe Reaktionen wie Unruhe, Reizbarkeit, Aggressivität, Albträume, Halluzinationen",
+      "Abhängigkeit; Entzugs- und Absetzsymptome (Schlaflosigkeit, Angst, Krampfanfälle)",
+      "Atemdepression (abgeschwächte Atmung)",
+      "Magen-Darm-Beschwerden, Hautreaktionen"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit, besonders im ersten Drittel. Bei Einnahme gegen Ende der Schwangerschaft oder unter der Geburt drohen beim Neugeborenen Muskelschlaffheit, Trinkschwäche, Unterkühlung, Atemprobleme und Entzugssymptome.",
+  "stillzeit": "Bromazepam geht in die Muttermilch über; während der Einnahme soll nicht gestillt werden.",
+  "hinweise": [
+    "Kann die Fahrtüchtigkeit und das Reaktionsvermögen stark beeinträchtigen – auch noch am nächsten Tag.",
+    "Keinen Alkohol trinken: verstärkte Dämpfung.",
+    "Möglichst kurz anwenden (in der Regel höchstens 8–12 Wochen inklusive Ausschleichen), da sich eine Abhängigkeit entwickeln kann.",
+    "Nach längerer Einnahme nicht abrupt absetzen, sondern nach ärztlicher Anleitung schrittweise reduzieren."
+  ],
+  "stand": "2026-10"
+}

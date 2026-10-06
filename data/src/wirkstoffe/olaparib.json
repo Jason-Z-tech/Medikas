@@ -1,0 +1,209 @@
+{
+  "id": "olaparib",
+  "name": "Olaparib",
+  "synonyme": [
+    "Olaparib",
+    "PARP-Inhibitor"
+  ],
+  "atc": [
+    "L01XK01"
+  ],
+  "klasse": "PARP-Hemmer (Krebsmittel)",
+  "kurz": "Krebsmittel in Tablettenform, v. a. bei Tumoren mit BRCA-Veränderung (Eierstock-, Brust-, Prostata-, Bauchspeicheldrüsenkrebs).",
+  "gruppen": [
+    "myelosuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Lynparza"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Eierstock-, Eileiter- und Bauchfellkrebs als Erhaltungstherapie nach Ansprechen auf Platin-Chemotherapie (je nach Situation bei BRCA-Mutation oder HRD, allein oder mit Bevacizumab)",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "HER2-negativer Brustkrebs mit erblicher BRCA-Mutation (nach Operation oder metastasiert)",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Bauchspeicheldrüsenkrebs mit erblicher BRCA-Mutation als Erhaltungstherapie nach Platin-Chemotherapie",
+      "ids": [
+        "bauchspeicheldruesenkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter kastrationsresistenter Prostatakrebs (bei BRCA-Mutation oder zusammen mit Abirateron)",
+      "ids": [
+        "prostatakrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Krebszellen Schäden an ihrem Erbgut reparieren. Olaparib hemmt die Enzyme PARP-1, -2 und -3, die Einzelstrangbrüche der DNA reparieren, und hält PARP an der DNA fest. Daraus entstehen Doppelstrangbrüche, die Zellen mit defekter homologer Rekombination (z. B. bei BRCA1/2-Mutation) nicht reparieren können – sie sterben ab (synthetische Letalität).",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit (während der Behandlung und 1 Monat danach)",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen (v. a. Anämie): Blutbild vor Beginn, im ersten Jahr monatlich, danach regelmässig",
+      "ids": [
+        "anaemie",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Myelodysplastisches Syndrom oder akute myeloische Leukämie als seltene Spätfolge",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Pneumonitis (Lungenentzündung): bei neuer Atemnot oder Husten abklären",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Venöse Thromboembolien, besonders bei Prostatakrebs mit Hormontherapie",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosis reduzieren) und Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter (Schwangerschaftstest vor Beginn, sichere Verhütung)",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir, Fluconazol, Verapamil)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Olaparib-Spiegel steigt stark – Kombination vermeiden; wenn nötig Olaparib-Dosis deutlich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Olaparib-Spiegel sinkt stark (Wirkverlust) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Krebsmittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte und verlängerte Blutbildveränderungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus, Simvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Olaparib hemmt CYP3A4 schwach – Spiegel dieser Mittel können steigen, Vorsicht und Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-gp-Substrate (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel dieser Mittel können steigen – klinisch überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Wirksamkeit möglicherweise vermindert – zusätzlich eine nicht hormonelle Methode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine und Metformin (Transporter-Substrate)",
+      "ref": [
+        "gruppe:statine",
+        "metformin"
+      ],
+      "effekt": "Spiegel können ansteigen – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Anämie (Blutarmut)",
+      "Neutropenie, Leukopenie, Thrombozytopenie",
+      "Übelkeit, Erbrechen, Durchfall, Dyspepsie (Verdauungsbeschwerden)",
+      "Müdigkeit und Schwäche",
+      "Appetitlosigkeit",
+      "Kopfschmerzen, Schwindel, Geschmacksstörungen",
+      "Husten, Atemnot"
+    ],
+    "haeufig": [
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Oberbauchschmerzen",
+      "Hautausschlag",
+      "Anstieg des Kreatinins im Blut",
+      "Venöse Thromboembolie",
+      "Lymphopenie"
+    ],
+    "gelegentlich": [
+      "Myelodysplastisches Syndrom / akute myeloische Leukämie",
+      "Pneumonitis (Lungenentzündung)",
+      "Überempfindlichkeitsreaktionen, Dermatitis"
+    ],
+    "selten": [
+      "Erythema nodosum (schmerzhafte Hautknoten)",
+      "Angioödem (Schwellung von Haut und Schleimhaut)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Arzneimittelbedingte Leberschädigung"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (fruchtschädigend im Tierversuch). Frauen sollen während und bis 6 Monate, Männer mit Partnerin bis 3 Monate nach der letzten Dosis sicher verhüten.",
+  "stillzeit": "Kontraindiziert während der Behandlung und 1 Monat danach.",
+  "hinweise": [
+    "Tabletten ganz schlucken, mit oder ohne Essen; Grapefruit und Grapefruitsaft meiden.",
+    "Blutbildkontrollen einhalten; anhaltende Müdigkeit, Fieber, blaue Flecken oder Blutungen melden.",
+    "Neue Medikamente, auch pflanzliche (Johanniskraut), immer zuerst mit Ärztin, Arzt oder Apotheke besprechen."
+  ],
+  "stand": "2026-10"
+}

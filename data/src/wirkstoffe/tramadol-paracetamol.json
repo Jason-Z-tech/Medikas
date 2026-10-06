@@ -1,0 +1,265 @@
+{
+  "id": "tramadol-paracetamol",
+  "name": "Tramadol + Paracetamol",
+  "synonyme": [
+    "Tramadol/Paracetamol",
+    "Tramadol/paracetamol"
+  ],
+  "kombinationAus": [
+    "tramadol",
+    "paracetamol"
+  ],
+  "atc": [
+    "N02AJ13"
+  ],
+  "klasse": "Analgetika-Kombination (Opioid + Nicht-Opioid)",
+  "kurz": "Schmerzmittel aus dem Opioid Tramadol und Paracetamol bei mässig starken bis starken Schmerzen.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "serotonerg",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate",
+    "hepatotoxisch",
+    "hyponatriaemie-ausloesend",
+    "hypoglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Zaldiar"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mässig starke bis starke Schmerzen bei Erwachsenen und Jugendlichen ab 12 Jahren, wenn eine Kombination aus Tramadol und Paracetamol nötig ist",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert zwei unterschiedlich wirkende Schmerzmittel, die sich ergänzen. Tramadol wirkt schwach an μ-Opioidrezeptoren – vor allem über sein durch CYP2D6 gebildetes Abbauprodukt O-Desmethyltramadol – und hemmt zusätzlich die Wiederaufnahme von Noradrenalin und Serotonin, was die körpereigene Schmerzhemmung im Rückenmark verstärkt. Paracetamol hemmt vor allem im Zentralnervensystem die Bildung von Prostaglandinen. Die Kombination wirkt rascher als Tramadol allein und länger als Paracetamol allein.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln, Opioiden oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Epilepsie, die durch Behandlung nicht ausreichend kontrolliert ist",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Niereninsuffizienz (bei Kreatinin-Clearance unter 10 ml/min nicht empfohlen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Behandelte Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Atemschwäche, COPD oder Schlafapnoe",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Kopfverletzung, erhöhter Hirndruck oder Bewusstseinsstörung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Ultraschnelle CYP2D6-Metabolisierer (Gefahr einer Opioidvergiftung)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Chronischer Alkoholkonsum, Mangelernährung oder Glucose-6-Phosphat-Dehydrogenase-Mangel",
+      "ids": [
+        "alkoholkonsum",
+        "mangelernaehrung",
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Sucht oder Missbrauch in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Diabetes (Unterzuckerung möglich)",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, auch innerhalb von 2 Wochen nach Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotonin-Syndroms mit Erregung, Fieber und Kreislaufkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere paracetamol- oder tramadolhaltige Arzneimittel",
+      "ref": [
+        "paracetamol",
+        "paracetamol-codein",
+        "tramadol"
+      ],
+      "effekt": "Gefahr einer Überdosierung mit Leberschaden bzw. Opioidvergiftung – nicht gleichzeitig einnehmen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "SSRI, SNRI, trizyklische Antidepressiva, Triptane, Linezolid und andere serotonerge Mittel",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:triptane",
+        "linezolid",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotonin-Syndrom und Krampfanfälle möglich – nur mit Vorsicht, auf Unruhe, Fieber, Zittern und Muskelzuckungen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gefahr schwerer Atemdepression und tiefer Sedierung – Kombination nur, wenn keine Alternative besteht; kein Alkohol.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Schwächere und kürzere Wirkung von Tramadol sowie erhöhte Krampfneigung – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Partialagonisten (z. B. Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung, Entzugssymptome möglich – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann steigen, Blutungen möglich – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Weniger wirksames Abbauprodukt – schwächere Schmerzlinderung, zugleich mehr serotonerge Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Flucloxacillin",
+      "ref": [
+        "flucloxacillin"
+      ],
+      "effekt": "Gefahr einer metabolischen Azidose mit hoher Anionenlücke, v. a. bei schwerer Krankheit, Mangelernährung oder Niereninsuffizienz.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Schwindel",
+      "Schläfrigkeit"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Zittern",
+      "Verwirrtheit, Stimmungsschwankungen, Schlafstörungen",
+      "Erbrechen, Verstopfung, Durchfall",
+      "Mundtrockenheit, Bauchschmerzen, Verdauungsbeschwerden",
+      "Schwitzen, Juckreiz"
+    ],
+    "gelegentlich": [
+      "Depression, Halluzinationen, Albträume",
+      "Muskelzuckungen, Kribbeln, Ohrgeräusche",
+      "Herzrhythmusstörungen, Herzrasen, Bluthochdruck",
+      "Atemnot",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Nesselsucht"
+    ],
+    "selten": [
+      "Krampfanfälle",
+      "Abhängigkeit, Delir",
+      "Ohnmacht, Koordinationsstörungen",
+      "Verschwommensehen"
+    ],
+    "sehrSelten": [
+      "Missbrauch"
+    ],
+    "unbekannt": [
+      "Serotonin-Syndrom",
+      "Hypoglykämie (Unterzuckerung)",
+      "Hyponatriämie (Natriummangel)",
+      "Atemdepression",
+      "Schwere Hautreaktionen",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Soll in der Schwangerschaft nicht angewendet werden. Tramadol passiert die Plazenta; längere Anwendung kann beim Neugeborenen Entzugssymptome auslösen.",
+  "stillzeit": "Nicht empfohlen; Tramadol geht in die Muttermilch über. Nach einer einzelnen Einnahme ist eine Stillpause in der Regel nicht nötig.",
+  "hinweise": [
+    "Höchstens 8 Filmtabletten pro Tag (entspricht 2,6 g Paracetamol); keine weiteren paracetamol- oder tramadolhaltigen Mittel gleichzeitig.",
+    "Kein Alkohol; die Fahrtüchtigkeit kann eingeschränkt sein.",
+    "Nach längerer Anwendung nicht abrupt absetzen (Entzugssymptome).",
+    "Bei Diabetes auf Zeichen einer Unterzuckerung achten."
+  ],
+  "stand": "2026-10"
+}

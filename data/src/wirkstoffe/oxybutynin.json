@@ -1,0 +1,69 @@
+{
+  "id": "oxybutynin",
+  "name": "Oxybutynin",
+  "synonyme": ["Oxybutyninhydrochlorid", "Oxybutynin chloride", "Oxybutynini hydrochloridum"],
+  "atc": ["G04BD04"],
+  "klasse": "Urologisches Spasmolytikum (Antimuskarinikum)",
+  "kurz": "Entspannt die Blasenmuskulatur bei überaktiver Blase, starkem Harndrang und Dranginkontinenz; als Tablette oder Hautpflaster.",
+  "gruppen": ["anticholinerg"],
+  "handelsnamen": ["Ditropan", "Kentera"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Transdermales Pflaster"],
+  "indikationen": [
+    { "text": "Dranginkontinenz, häufiges Wasserlassen und starker Harndrang bei überaktiver (instabiler) Blase, auch bei nervenbedingter Blasenstörung", "ids": ["reizblase"] },
+    { "text": "Kinder ab 5 Jahren mit nervenbedingter (neurogener) Blasenfunktionsstörung (Tabletten)", "ids": ["reizblase", "kinder"] }
+  ],
+  "wirkmechanismus": "Entspannt den Blasenmuskel, sodass die Blase mehr Urin fassen kann und der Harndrang seltener und schwächer wird. Oxybutynin blockiert Muskarinrezeptoren (vor allem M1 und M3) am Blasenmuskel (Detrusor) und wirkt zusätzlich direkt krampflösend auf die glatte Muskulatur. Beim Einnehmen entsteht durch Abbau in Darmwand und Leber (CYP3A4) der ebenfalls stark anticholinerg wirkende Metabolit N-Desethyloxybutynin, der vor allem die Mundtrockenheit verursacht; beim Pflaster entsteht davon weniger. Oxybutynin gelangt ins Gehirn und kann dort Müdigkeit und Verwirrtheit auslösen.",
+  "kontraindikationen": [
+    { "text": "Harnverhalt oder Abflussbehinderung der Harnwege mit Gefahr eines Harnverhalts", "ids": ["harnverhalt", "prostatahyperplasie"] },
+    { "text": "Engwinkelglaukom oder flache Vorderkammer des Auges", "ids": ["engwinkelglaukom"] },
+    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] },
+    { "text": "Verengung oder Lähmung des Magen-Darm-Trakts (Ileus, Darmatonie), schwere Colitis ulcerosa, toxisches Megakolon", "ids": ["darmverschluss", "colitis-ulcerosa"] },
+    { "text": "Häufiges Wasserlassen wegen Herz- oder Niereninsuffizienz", "ids": ["herzinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Kinder unter 5 Jahren", "ids": ["kinder"] }
+  ],
+  "vorsicht": [
+    { "text": "Ältere und gebrechliche Menschen: erhöhtes Risiko für Verwirrtheit, Gedächtnisstörungen und Stürze", "ids": ["aeltere-patienten", "demenz", "delir"] },
+    { "text": "Eingeschränkte Leber- oder Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Herzkrankheiten mit schnellem Puls, Herzrhythmusstörungen, Bluthochdruck, Schilddrüsenüberfunktion (Beschleunigung des Herzschlags)", "ids": ["herzrhythmusstoerung", "koronare-herzkrankheit", "hypertonie", "hyperthyreose"] },
+    { "text": "Zwerchfellbruch oder Reflux (Speiseröhrenentzündung kann sich verschlechtern)", "ids": ["sodbrennen"] },
+    { "text": "Vergrösserte Prostata (Restharn), Verstopfung", "ids": ["prostatahyperplasie", "verstopfung"] },
+    { "text": "Autonome Neuropathie, Parkinson-Krankheit", "ids": ["parkinson"] },
+    { "text": "Hitze und Fieber: verminderte Schweissbildung kann zu Hitzestau oder Hitzschlag führen", "ids": ["fieber"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere anticholinerg wirkende Mittel (z. B. andere Blasenmittel, trizyklische Antidepressiva, Biperiden, sedierende Antihistaminika, einige Antipsychotika)", "ref": ["gruppe:anticholinerg"], "effekt": "Verstärkte anticholinerge Nebenwirkungen: Mundtrockenheit, Verstopfung, Harnverhalt, Sehstörungen, Verwirrtheit.", "schwere": "mittel" },
+    { "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Erythromycin, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Oxybutynin-Spiegel mit mehr Nebenwirkungen – Vorsicht, eventuell Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Acetylcholinesterase-Hemmer (z. B. Donepezil, Rivastigmin, Galantamin)", "ref": ["gruppe:acetylcholinesterasehemmer"], "effekt": "Gegenläufige Wirkung – beide Mittel können sich abschwächen; anticholinerge Last bei Demenz ungünstig.", "schwere": "mittel" },
+    { "text": "Mittel, die eine Speiseröhrenentzündung fördern (z. B. Bisphosphonate zum Einnehmen)", "ref": ["gruppe:bisphosphonate"], "effekt": "Verlangsamte Magen-Darm-Passage kann Reizungen der Speiseröhre verstärken.", "schwere": "leicht" },
+    { "text": "Prokinetika (Metoclopramid, Domperidon)", "ref": ["metoclopramid", "domperidon"], "effekt": "Gegenläufige Wirkung auf die Magen-Darm-Bewegung.", "schwere": "leicht" },
+    { "text": "Alkohol und zentral dämpfende Mittel", "ref": ["gruppe:zns-daempfend"], "effekt": "Schläfrigkeit kann verstärkt werden.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Mundtrockenheit", "Verstopfung", "Übelkeit", "Schwindel, Kopfschmerzen, Schläfrigkeit", "Trockene Haut", "Juckreiz und Rötung an der Klebestelle (Pflaster)"],
+    "haeufig": ["Verwirrtheit", "Durchfall, Erbrechen", "Trockene Augen", "Harnverhalt", "Gesichtsrötung (Flush)"],
+    "gelegentlich": ["Bauchbeschwerden, Appetitlosigkeit, Schluckbeschwerden"],
+    "unbekannt": [
+      "Unruhe, Angst, Halluzinationen, Albträume, Paranoia",
+      "Kognitive Störungen bei älteren Menschen",
+      "Krampfanfälle",
+      "Verschwommenes Sehen, erweiterte Pupillen, Auslösung eines Engwinkelglaukoms",
+      "Herzrasen, Herzrhythmusstörungen",
+      "Verminderte Schweissbildung, Hitzschlag",
+      "Angioödem, Nesselsucht, Lichtempfindlichkeit",
+      "Harnwegsinfektionen",
+      "Reflux, Pseudo-Obstruktion des Darms bei Risikopatienten",
+      "Erektionsstörungen"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn eindeutig erforderlich – zur Sicherheit in der Schwangerschaft liegen keine ausreichenden Daten vor.",
+  "stillzeit": "Nicht empfohlen – Oxybutynin kann in die Muttermilch übergehen und die Milchbildung hemmen.",
+  "hinweise": [
+    "Kann Schläfrigkeit und verschwommenes Sehen verursachen: Vorsicht beim Autofahren und Bedienen von Maschinen; Alkohol verstärkt die Müdigkeit.",
+    "Bei Hitze, Sport oder Fieber auf ausreichende Abkühlung achten, da weniger geschwitzt wird.",
+    "Wegen Mundtrockenheit auf gute Zahnpflege achten (Kariesrisiko).",
+    "Pflaster zweimal wöchentlich auf saubere, trockene Haut von Bauch, Hüfte oder Gesäss kleben und die Klebestelle jedes Mal wechseln."
+  ],
+  "stand": "2026-10"
+}

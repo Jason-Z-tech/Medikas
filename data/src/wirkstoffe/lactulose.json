@@ -1,0 +1,58 @@
+{
+  "id": "lactulose",
+  "name": "Lactulose",
+  "synonyme": ["Lactulosum", "Laktulose"],
+  "atc": ["A06AD11"],
+  "klasse": "Osmotisches Laxans (synthetischer Zweifachzucker)",
+  "kurz": "Abführmittel, das Wasser im Darm hält und den Stuhl weich macht; auch zur Behandlung der Hirnstörung bei schwerer Lebererkrankung.",
+  "gruppen": ["laxanzien", "hypokaliaemie-ausloesend"],
+  "handelsnamen": ["Duphalac", "Gatinar"],
+  "abgabe": ["D"],
+  "darreichung": ["Sirup (Lösung zum Einnehmen)"],
+  "indikationen": [
+    { "text": "Verstopfung", "ids": ["verstopfung"] },
+    { "text": "Zustände, bei denen ein weicher Stuhl erwünscht ist, z. B. Hämorrhoiden oder nach Operationen im Enddarmbereich", "ids": ["haemorrhoiden", "operation"] },
+    { "text": "Vorbeugung und Behandlung der hepatischen Enzephalopathie (Hirnfunktionsstörung bei schwerer Lebererkrankung)", "ids": ["leberzirrhose", "leberinsuffizienz"] }
+  ],
+  "wirkmechanismus": "Hält Wasser im Darm zurück und macht so den Stuhl weicher und voluminöser. Lactulose ist ein künstlicher Zweifachzucker aus Galactose und Fructose, der im Dünndarm weder gespalten noch aufgenommen wird. Im Dickdarm bauen Bakterien ihn zu kurzkettigen Säuren (z. B. Milch- und Essigsäure) ab; dadurch sinkt der pH-Wert, der osmotische Druck steigt und die Darmbewegung wird angeregt. Bei hepatischer Enzephalopathie bindet das saure Milieu Ammoniak als Ammonium, das nicht ins Blut übertreten kann, und fördert ammoniakverwertende Bakterien – der Ammoniakspiegel im Blut sinkt. Die abführende Wirkung tritt nach 24–48 Stunden ein.",
+  "kontraindikationen": [
+    { "text": "Galaktosämie (angeborene Galactose-Stoffwechselstörung)", "ids": ["seltene-stoffwechselkrankheit"] },
+    { "text": "Darmverschluss, Darmdurchbruch oder Gefahr eines Darmdurchbruchs", "ids": ["darmverschluss"] }
+  ],
+  "vorsicht": [
+    { "text": "Bauchschmerzen unklarer Ursache vor Beginn ärztlich abklären", "ids": ["schmerzen"] },
+    { "text": "Lactoseintoleranz und seltene erbliche Galactose- oder Fructose-Unverträglichkeit (Sirup enthält Lactose, Galactose und Fructose)", "ids": ["laktoseintoleranz", "fructoseintoleranz"] },
+    { "text": "Diabetes: bei den hohen Dosen gegen hepatische Enzephalopathie den Zuckergehalt berücksichtigen", "ids": ["diabetes"] },
+    { "text": "Längere Anwendung oder Durchfall: Wasser- und Salzverlust, besonders bei älteren Menschen – Elektrolyte kontrollieren", "ids": ["aeltere-patienten", "dehydratation", "hypokaliaemie"] },
+    { "text": "Roemheld-Syndrom (Herzbeschwerden durch Blähungen): nur nach ärztlicher Rücksprache", "ids": [] },
+    { "text": "Säuglinge und Kleinkinder: nur auf ärztliche Verordnung", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Kaliumsenkende Mittel (Thiaziddiuretika, Glukokortikoide, Amphotericin B)", "ref": ["gruppe:diuretika", "gruppe:glukokortikoide-systemisch", "amphotericin-b"], "effekt": "Lactulose kann den Kaliumverlust verstärken – Kalium kontrollieren.", "schwere": "mittel" },
+    { "text": "Herzglykoside (Digoxin, Digitoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Ein Kaliummangel verstärkt die Wirkung und Giftigkeit der Herzglykoside.", "schwere": "mittel" },
+    { "text": "Arzneimittel mit pH-abhängiger Freisetzung im Dickdarm (z. B. Mesalazin)", "ref": ["mesalazin"], "effekt": "Der gesenkte pH-Wert im Dickdarm kann die Freisetzung und damit die Wirkung vermindern.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Durchfall (vor allem bei hoher Dosis)"],
+    "haeufig": [
+      "Blähungen (Flatulenz), besonders in den ersten Tagen",
+      "Bauchschmerzen",
+      "Übelkeit, Erbrechen"
+    ],
+    "gelegentlich": [
+      "Störungen des Elektrolythaushalts infolge von Durchfall"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen mit Hautausschlag, Juckreiz oder Nesselsucht"
+    ]
+  },
+  "schwangerschaft": "Kann angewendet werden; Lactulose wird praktisch nicht ins Blut aufgenommen.",
+  "stillzeit": "Kann angewendet werden.",
+  "hinweise": [
+    "Die abführende Wirkung setzt erst nach 1–2 Tagen ein; täglich ausreichend trinken.",
+    "Blähungen zu Beginn sind häufig und lassen meist nach einigen Tagen nach.",
+    "Den Sirup pur oder verdünnt, z. B. mit Wasser oder Saft, einnehmen."
+  ],
+  "stand": "2026-10"
+}

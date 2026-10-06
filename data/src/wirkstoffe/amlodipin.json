@@ -1,0 +1,59 @@
+{
+  "id": "amlodipin",
+  "name": "Amlodipin",
+  "synonyme": ["Amlodipine", "Amlodipinbesilat", "Amlodipine besilate"],
+  "atc": ["C08CA01"],
+  "klasse": "Calciumantagonist vom Dihydropyridin-Typ",
+  "kurz": "Blutdrucksenker aus der Gruppe der Calciumantagonisten; weitet die Gefässe, auch gegen Angina pectoris.",
+  "gruppen": ["dhp-calciumantagonisten", "blutdrucksenkend", "cyp3a4-substrate-empfindlich"],
+  "handelsnamen": ["Norvasc", "Amlodipin-Mepha", "Exforge (Kombi)", "Exforge HCT (Kombi)", "Sevikar (Kombi)", "Sevikar HCT (Kombi)", "Twynsta (Kombi)", "Coveram (Kombi)", "Triplixam (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] },
+    { "text": "Chronisch stabile Angina pectoris und vasospastische Angina (Prinzmetal-Angina)", "ids": ["angina-pectoris", "koronare-herzkrankheit"] }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Muskulatur der Blutgefässe entspannt und die Arterien weitet. Amlodipin blockiert spannungsabhängige L-Typ-Calciumkanäle vor allem in der glatten Gefässmuskulatur; weniger Calcium strömt ein, der periphere Gefässwiderstand sinkt. Bei Angina pectoris vermindert es die Nachlast und damit den Sauerstoffbedarf des Herzens und erweitert die Herzkranzgefässe. Dank der sehr langen Halbwertszeit von 35–50 Stunden genügt eine Einnahme pro Tag; die volle Wirkung baut sich über einige Tage auf.",
+  "kontraindikationen": [
+    { "text": "Schwere Hypotonie (sehr tiefer Blutdruck)", "ids": ["hypotonie"] },
+    { "text": "Schock, einschliesslich kardiogener Schock", "ids": ["schock"] },
+    { "text": "Verengung des Ausflusstrakts der linken Herzkammer (z. B. hochgradige Aortenstenose)", "ids": ["herzklappenerkrankung"] },
+    { "text": "Kreislaufinstabile Herzschwäche nach akutem Herzinfarkt", "ids": ["herzinsuffizienz", "herzinfarkt"] },
+    { "text": "Überempfindlichkeit gegen andere Dihydropyridine (z. B. Nifedipin, Lercanidipin)", "ids": [] }
+  ],
+  "vorsicht": [
+    { "text": "Herzschwäche (in Studien vermehrt Lungenödeme)", "ids": ["herzinsuffizienz"] },
+    { "text": "Eingeschränkte Leberfunktion: längere Halbwertszeit, vorsichtig dosieren", "ids": ["leberinsuffizienz"] },
+    { "text": "Ältere Menschen: Dosis nur vorsichtig steigern", "ids": ["aeltere-patienten"] },
+    { "text": "Hypertensive Krise: Wirksamkeit und Sicherheit nicht belegt", "ids": ["hypertonie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Dantrolen-Infusion", "ref": ["dantrolen"], "effekt": "Im Tierversuch tödliches Kammerflimmern und Kreislaufkollaps mit Hyperkaliämie unter Calciumantagonist plus Dantrolen i. v. – bei Neigung zu maligner Hyperthermie Kombination meiden.", "schwere": "schwer" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Amlodipin-Spiegel können deutlich steigen, besonders bei älteren Menschen: starker Blutdruckabfall, Ödeme – Blutdruck überwachen, ggf. Dosis anpassen.", "schwere": "mittel" },
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Amlodipin-Spiegel sinken – Blutdruck kontrollieren, ggf. Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Simvastatin", "ref": ["simvastatin"], "effekt": "Simvastatin-Spiegel steigen (Risiko für Muskelschäden) – Simvastatin höchstens 20 mg pro Tag.", "schwere": "mittel" },
+    { "text": "Ciclosporin und Tacrolimus", "ref": ["ciclosporin", "tacrolimus"], "effekt": "Spiegel des Immunsuppressivums können steigen – Spiegel kontrollieren und Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Erythromycin, Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Amlodipin-Spiegel steigen mässig – auf Blutdruckabfall und Ödeme achten.", "schwere": "leicht" },
+    { "text": "mTOR-Hemmer (Sirolimus, Everolimus, Temsirolimus)", "ref": ["gruppe:mtor-hemmer"], "effekt": "Spiegel des mTOR-Hemmers können steigen.", "schwere": "leicht" },
+    { "text": "Alpha-1-Blocker, PDE-5-Hemmer und andere Blutdrucksenker", "ref": ["gruppe:alpha1-blocker", "gruppe:pde5-hemmer"], "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.", "schwere": "leicht" },
+    { "text": "Grapefruit und Grapefruitsaft", "ref": [], "effekt": "Kann die Amlodipin-Spiegel erhöhen – während der Behandlung nicht empfohlen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Ödeme (Wassereinlagerungen, vor allem Knöchelschwellungen)"],
+    "haeufig": ["Kopfschmerzen (vor allem zu Beginn), Schwindel, Schläfrigkeit", "Flush (Gesichtsrötung mit Wärmegefühl)", "Herzklopfen (Palpitationen)", "Bauchschmerzen, Übelkeit, Verdauungsstörungen, veränderte Stuhlgewohnheiten", "Sehstörungen (auch Doppeltsehen)", "Atemnot", "Muskelkrämpfe", "Müdigkeit, Schwäche"],
+    "gelegentlich": ["Hypotonie (tiefer Blutdruck), Synkope (Ohnmacht)", "Herzrhythmusstörungen (inkl. Bradykardie, Vorhofflimmern)", "Schlaflosigkeit, Stimmungsschwankungen, Depression", "Zittern, Kribbeln, Geschmacksstörungen, Ohrensausen", "Husten, Schnupfen, Mundtrockenheit, Erbrechen", "Hautausschlag, Juckreiz, Nesselsucht, Haarausfall, vermehrtes Schwitzen", "Gelenk-, Muskel- und Rückenschmerzen", "Vermehrter Harndrang, Erektionsstörungen, Brustvergrösserung beim Mann"],
+    "selten": ["Verwirrtheit"],
+    "sehrSelten": ["Leukopenie und Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)", "Herzinfarkt", "Zahnfleischwucherung (Gingivahyperplasie)", "Hepatitis, Gelbsucht, erhöhte Leberwerte; Pankreatitis, Gastritis", "Angioödem, Erythema multiforme, Stevens-Johnson-Syndrom, exfoliative Dermatitis", "Hyperglykämie (erhöhter Blutzucker), periphere Neuropathie", "Lichtempfindlichkeit, Vaskulitis (Gefässentzündung)"],
+    "unbekannt": ["Extrapyramidale Störungen (Bewegungsstörungen)", "Toxische epidermale Nekrolyse"]
+  },
+  "schwangerschaft": "Sicherheit nicht belegt; nur anwenden, wenn keine sicherere Alternative besteht und die Erkrankung ein grösseres Risiko für Mutter und Kind darstellt.",
+  "stillzeit": "Amlodipin geht in geringer Menge in die Muttermilch über; über Stillen oder Behandlung wird ärztlich entschieden.",
+  "hinweise": [
+    "Einmal täglich, unabhängig von den Mahlzeiten; die volle Blutdrucksenkung tritt erst nach einigen Tagen ein.",
+    "Grapefruit und Grapefruitsaft meiden.",
+    "Knöchelschwellungen sind häufig; bei störenden Schwellungen ärztlich besprechen statt eigenmächtig absetzen.",
+    "Schwindel, Müdigkeit oder Kopfschmerzen können besonders zu Beginn die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

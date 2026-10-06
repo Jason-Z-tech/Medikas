@@ -1,0 +1,221 @@
+{
+  "id": "paracetamol",
+  "name": "Paracetamol",
+  "synonyme": [
+    "Acetaminophen",
+    "APAP",
+    "Paracetamolum"
+  ],
+  "atc": [
+    "N02BE01"
+  ],
+  "klasse": "Analgetikum und Antipyretikum (Nicht-Opioid, Anilin-Derivat)",
+  "kurz": "Schmerz- und Fiebermittel bei leichten bis mässig starken Schmerzen; gut magenverträglich, aber in Überdosis stark leberschädigend.",
+  "gruppen": [
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Dafalgan",
+    "Panadol",
+    "Ben-u-ron",
+    "Acetalgin",
+    "Perfalgan",
+    "Panadol Extra (Kombi)",
+    "Co-Dafalgan (Kombi)",
+    "Saridon (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Filmtabletten",
+    "Brausetabletten",
+    "Schmelztabletten",
+    "Sirup",
+    "Zäpfchen",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Leichte bis mässig starke Schmerzen, z. B. Kopf-, Zahn-, Gelenk- und Regelschmerzen",
+      "ids": [
+        "schmerzen",
+        "kopfschmerzen",
+        "regelbeschwerden"
+      ]
+    },
+    {
+      "text": "Fieber",
+      "ids": [
+        "fieber"
+      ]
+    },
+    {
+      "text": "Infusion: kurzfristige Behandlung mässig starker Schmerzen, besonders nach Operationen, und von Fieber, wenn eine Einnahme nicht möglich ist",
+      "ids": [
+        "schmerzen",
+        "fieber"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und senkt Fieber, ohne Magen und Blutplättchen wesentlich zu beeinflussen. Paracetamol hemmt vorwiegend im Zentralnervensystem die Bildung von Prostaglandinen und beeinflusst schmerzhemmende Bahnen, unter anderem über serotonerge Mechanismen; entzündungshemmend wirkt es kaum. In der Leber entsteht in kleinen Mengen das giftige Abbauprodukt NAPQI, das normalerweise durch Glutathion entgiftet wird. Bei Überdosierung oder Glutathionmangel kann es die Leber schwer schädigen; Gegenmittel ist Acetylcystein.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz, akute Hepatitis oder dekompensierte aktive Lebererkrankung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Morbus Meulengracht (Gilbert-Syndrom)",
+      "ids": [
+        "morbus-meulengracht"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mittelschwere Leberinsuffizienz oder chronischer Alkoholkonsum",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Mangelernährung, Untergewicht, Essstörungen oder Flüssigkeitsmangel (Glutathionmangel)",
+      "ids": [
+        "mangelernaehrung",
+        "untergewicht",
+        "essstoerung",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Dosisabstand verlängern)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Hämolyse möglich)",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Analgetika-Asthma (Kreuzreaktion selten möglich)",
+      "ids": [
+        "analgetika-asthma"
+      ]
+    },
+    {
+      "text": "Häufige Einnahme bei Kopfschmerzen (Kopfschmerz durch Medikamentenübergebrauch)",
+      "ids": [
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen oder Blutvergiftung (Gefahr einer metabolischen Azidose)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere paracetamolhaltige Arzneimittel (auch Kombinations-, Grippe- und Erkältungsmittel)",
+      "ref": [
+        "paracetamol-codein",
+        "tramadol-paracetamol",
+        "paracetamol-phenylephrin-pheniramin"
+      ],
+      "effekt": "Gefahr einer Überdosierung mit schwerem Leberschaden – Gesamtdosis beachten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Regelmässige Einnahme über mehrere Tage kann den INR erhöhen – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenobarbital, Phenytoin, Johanniskraut) und Isoniazid",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "johanniskraut",
+        "isoniazid"
+      ],
+      "effekt": "Mehr leberschädigendes Abbauprodukt – Vorsicht, Höchstdosis nicht ausschöpfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Flucloxacillin",
+      "ref": [
+        "flucloxacillin"
+      ],
+      "effekt": "Gefahr einer metabolischen Azidose mit hoher Anionenlücke, v. a. bei schwerer Krankheit, Mangelernährung oder Niereninsuffizienz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zidovudin",
+      "ref": [
+        "zidovudin"
+      ],
+      "effekt": "Erhöhtes Risiko für eine Neutropenie (Mangel an weissen Blutkörperchen) – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Chloramphenicol",
+      "ref": [
+        "chloramphenicol"
+      ],
+      "effekt": "Ausscheidung von Chloramphenicol verlangsamt – höhere Spiegel möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Metoclopramid bzw. Colestyramin",
+      "ref": [
+        "metoclopramid",
+        "colestyramin"
+      ],
+      "effekt": "Metoclopramid beschleunigt, Colestyramin vermindert die Aufnahme von Paracetamol – Colestyramin im Abstand von mindestens 1 Stunde einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "selten": [
+      "Überempfindlichkeitsreaktionen (Hautausschlag, Nesselsucht)",
+      "Erhöhte Leberwerte",
+      "Blutdruckabfall, Unwohlsein (Infusion)"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion), Angioödem",
+      "Thrombozytopenie, Leukopenie, Agranulozytose (Blutbildveränderungen)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP)",
+      "Bronchospasmus bei Analgetika-Asthma"
+    ],
+    "unbekannt": [
+      "Leberschaden bis Leberversagen bei Überdosierung oder Risikofaktoren",
+      "Metabolische Azidose mit hoher Anionenlücke bei Risikofaktoren",
+      "Schmerzen oder Brennen an der Infusionsstelle"
+    ]
+  },
+  "schwangerschaft": "Gilt als Schmerz- und Fiebermittel der Wahl in der Schwangerschaft; dennoch nur bei Bedarf, in der niedrigsten wirksamen Dosis und so kurz wie möglich einnehmen.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; in üblicher Dosierung ist Stillen möglich.",
+  "hinweise": [
+    "Höchstdosis beachten: Erwachsene in der Regel höchstens 4 g pro Tag, bei Lebererkrankung, regelmässigem Alkoholkonsum oder Körpergewicht unter 50 kg weniger; Kinder nach Körpergewicht dosieren.",
+    "Viele Kombinations-, Grippe- und Erkältungsmittel enthalten ebenfalls Paracetamol – nicht doppelt einnehmen.",
+    "Bei Verdacht auf Überdosierung sofort ärztliche Hilfe holen, auch ohne Beschwerden – das Gegenmittel wirkt nur früh.",
+    "Ohne ärztlichen Rat nicht länger als 5 Tage gegen Schmerzen bzw. 3 Tage gegen Fieber einnehmen."
+  ],
+  "stand": "2026-10"
+}

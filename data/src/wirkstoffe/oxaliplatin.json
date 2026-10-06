@@ -1,0 +1,207 @@
+{
+  "id": "oxaliplatin",
+  "name": "Oxaliplatin",
+  "synonyme": [
+    "Oxaliplatin",
+    "L-OHP"
+  ],
+  "atc": [
+    "L01XA03"
+  ],
+  "klasse": "Zytostatikum (Platinverbindung)",
+  "kurz": "Chemotherapeutikum als Infusion, vor allem gegen Darmkrebs, zusammen mit 5-Fluorouracil und Folinsäure (FOLFOX).",
+  "gruppen": [
+    "zytostatika",
+    "platinderivate",
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Eloxatin",
+    "Oxaliplatin Teva"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Dickdarmkrebs im Stadium III nach vollständiger Operation (adjuvant), zusammen mit 5-Fluorouracil und Folinsäure",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Dick- oder Mastdarmkrebs, zusammen mit 5-Fluorouracil und Folinsäure",
+      "ids": [
+        "darmkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt das Erbgut von Krebszellen, sodass sie absterben. Oxaliplatin ist eine Platinverbindung mit Diaminocyclohexan-Rest; ihre aktiven Abbauprodukte vernetzen DNA-Stränge und hemmen so DNA-Synthese und Zellteilung. Die Wirkung ergänzt sich mit 5-Fluorouracil. Typisch sind kälteausgelöste Nervenreizungen kurz nach der Infusion und eine mit der Gesamtdosis zunehmende Nervenschädigung.",
+  "kontraindikationen": [
+    {
+      "text": "Knochenmarkhemmung vor dem ersten Zyklus (zu wenig Neutrophile oder Blutplättchen)",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Periphere sensorische Neuropathie mit Funktionseinschränkung vor dem ersten Zyklus",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nervenschäden: Kälteempfindlichkeit, Kribbeln, Taubheit; bei anhaltenden Beschwerden Dosis reduzieren oder absetzen",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, Herzrhythmusstörungen, Elektrolytstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Allergische Reaktionen bis Anaphylaxie, auch Kreuzallergie mit anderen Platinverbindungen",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Durchfall und Erbrechen mit Flüssigkeitsverlust, Darmentzündung",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Mittelschwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungensymptome wie Husten oder Atemnot (interstitielle Lungenerkrankung möglich)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – EKG und Elektrolyte kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfinfektion bei Immunschwäche – während der Therapie nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Taxane, Bortezomib)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Verstärkte Nervenschäden – neurologische Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Stärkere Blutbildveränderungen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "In Kombination mit 5-Fluorouracil INR-Anstieg und Blutungen möglich – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Periphere sensorische Neuropathie (Kribbeln, Taubheit, Kälteempfindlichkeit)",
+      "Neutropenie, Thrombozytopenie, Anämie",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Müdigkeit, Fieber",
+      "Allergische Reaktionen",
+      "Erhöhte Leberwerte",
+      "Infektionen"
+    ],
+    "haeufig": [
+      "Laryngopharyngeale Dysästhesie (Engegefühl im Hals, Schluck- oder Atembeschwerden, meist kälteausgelöst)",
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Hypokaliämie (Kaliummangel)",
+      "Thrombosen, Lungenembolie",
+      "Depression, Schlaflosigkeit",
+      "Haarausfall"
+    ],
+    "gelegentlich": [
+      "Ileus (Darmverschluss)",
+      "Metabolische Azidose (Übersäuerung)"
+    ],
+    "selten": [
+      "Interstitielle Lungenerkrankung, Lungenfibrose",
+      "Hörverlust",
+      "Immunhämolytische Anämie und Immunthrombozytopenie",
+      "Kolitis inkl. Clostridioides-difficile-Durchfall",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)"
+    ],
+    "sehrSelten": [
+      "Hämolytisch-urämisches Syndrom",
+      "Leberschäden (sinusoidales Obstruktionssyndrom)"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Herzinfarkt, Krampfanfälle"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, da Fruchtschäden möglich sind. Frauen sollen während und bis 9 Monate, Männer bis 6 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "In den Tagen nach der Infusion Kälte meiden: keine kalten Getränke, kein Eis, Handschuhe beim Berühren kalter Gegenstände.",
+    "Kribbeln oder Taubheit, die zwischen den Zyklen anhält, melden – die Dosis wird dann angepasst.",
+    "Fahrtüchtigkeit kann durch Schwindel oder Sehstörungen eingeschränkt sein."
+  ],
+  "stand": "2026-10"
+}

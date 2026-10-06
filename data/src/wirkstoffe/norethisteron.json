@@ -1,0 +1,64 @@
+{
+  "id": "norethisteron",
+  "name": "Norethisteron",
+  "synonyme": ["Norethisteronacetat", "NETA", "Norethindrone", "Norethisteronum"],
+  "atc": ["G03DC02", "G03AC01"],
+  "klasse": "Gestagen (19-Nortestosteron-Derivat)",
+  "kurz": "Künstliches Gelbkörperhormon gegen Blutungs- und Zyklusstörungen; mit Östrogen kombiniert als Hormonersatz in den Wechseljahren.",
+  "gruppen": ["gestagene"],
+  "handelsnamen": ["Primolut-N", "Activelle (Kombi)", "Kliogest (Kombi)", "Trisequens (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten", "Filmtabletten (Kombination mit Estradiol)"],
+  "indikationen": [
+    { "text": "Funktionelle (hormonell bedingte) Gebärmutterblutungen und Zwischenblutungen", "ids": ["regelbeschwerden"] },
+    { "text": "Ausbleibende Regelblutung (primäre und sekundäre Amenorrhö), meist im Wechsel mit einem Östrogen", "ids": ["regelbeschwerden"] },
+    { "text": "Prämenstruelles Syndrom, schmerzhafte Brustveränderungen (Mastopathie)", "ids": ["regelbeschwerden"] },
+    { "text": "Endometriose", "ids": ["endometriose"] },
+    { "text": "Verschiebung der Monatsblutung", "ids": [] },
+    { "text": "In fixer Kombination mit Estradiol (z. B. Activelle, Kliogest, Trisequens): Hormonersatz bei Wechseljahresbeschwerden und Vorbeugung von Osteoporose bei hohem Frakturrisiko, wenn andere Mittel nicht in Frage kommen", "ids": ["wechseljahre", "osteoporose"] }
+  ],
+  "wirkmechanismus": "Wirkt wie das körpereigene Gelbkörperhormon und stabilisiert so die Gebärmutterschleimhaut. Norethisteron bindet an Progesteronrezeptoren und wandelt die durch Östrogen aufgebaute Schleimhaut in eine sekretorische Schleimhaut um; nach Absetzen kommt es zu einer geordneten Abbruchblutung. In höherer Dosis hemmt es die Ausschüttung der Hirnanhangshormone und damit den Eisprung. Es hat zusätzlich eine leichte androgene Wirkung, und ein kleiner Teil wird im Körper zu Ethinylestradiol umgewandelt.",
+  "kontraindikationen": [
+    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
+    { "text": "Bestehende oder frühere venöse Thromboembolie (Thrombose, Lungenembolie)", "ids": ["thrombose", "lungenembolie", "thromboembolie-vorgeschichte"] },
+    { "text": "Bestehende oder frühere arterielle Thromboembolie (Herzinfarkt, Schlaganfall) oder Vorstufen (Angina pectoris, TIA)", "ids": ["herzinfarkt", "schlaganfall", "angina-pectoris"] },
+    { "text": "Schwere Lebererkrankung, Lebertumoren (auch früher), Dubin-Johnson- oder Rotor-Syndrom", "ids": ["leberinsuffizienz", "leberkrebs"] },
+    { "text": "Gelbsucht oder starker Juckreiz während einer früheren Schwangerschaft, Herpes gestationis in der Vorgeschichte", "ids": [] },
+    { "text": "Schwerer Diabetes mit Gefässschäden", "ids": ["diabetes"] },
+    { "text": "Bekannte oder vermutete sexualhormonabhängige Tumoren (z. B. Brustkrebs, Gebärmutterschleimhautkrebs)", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
+    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] },
+    { "text": "Porphyrie", "ids": ["porphyrie"] }
+  ],
+  "vorsicht": [
+    { "text": "Risikofaktoren für Thrombosen (Übergewicht, Rauchen, Bettlägerigkeit, Operation)", "ids": ["thromboembolie-vorgeschichte", "adipositas", "operation"] },
+    { "text": "Diabetes mellitus: Zuckertoleranz kann sich verschlechtern", "ids": ["diabetes"] },
+    { "text": "Bluthochdruck", "ids": ["hypertonie"] },
+    { "text": "Migräne, Epilepsie", "ids": ["migraene", "epilepsie"] },
+    { "text": "Depression in der Vorgeschichte", "ids": ["depression"] },
+    { "text": "Neigung zu Chloasma (Pigmentflecken): Sonne und UV-Licht meiden", "ids": ["sonnenbrand"] },
+    { "text": "Bei Hormonersatz mit Estradiol: Klassenrisiken für Brust- und Gebärmutterschleimhautkrebs, Thrombose und Schlaganfall beachten", "ids": ["brustkrebs", "wechseljahre", "schlaganfall"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Primidon, Rifampicin, Johanniskraut)", "ref": ["gruppe:enzyminduktoren-hormone", "gruppe:cyp3a4-induktoren", "johanniskraut"], "effekt": "Beschleunigter Abbau von Norethisteron – Wirkung abgeschwächt, Zwischenblutungen möglich.", "schwere": "mittel" },
+    { "text": "Ritonavir (HIV-Mittel)", "ref": ["ritonavir"], "effekt": "Wirkt zusammen mit Steroidhormonen enzyminduzierend – Hormonwirkung kann abnehmen.", "schwere": "mittel" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Sexualhormone können den Ciclosporin-Spiegel erhöhen – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Hormonspiegel möglich.", "schwere": "leicht" },
+    { "text": "Blutzuckersenkende Mittel", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Bedarf an Antidiabetika kann sich ändern – Blutzucker kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Brustspannen oder Brustschmerzen (bei Hormonersatz mit Estradiol)", "Blutungen aus der Scheide, Schmierblutungen (bei Hormonersatz mit Estradiol)"],
+    "haeufig": ["Kopfschmerzen", "Übelkeit", "Gewichtszunahme, Wassereinlagerungen (Ödeme)", "Depressive Verstimmung", "Scheidenpilz oder Scheidenentzündung", "Rückenschmerzen"],
+    "gelegentlich": ["Migräne", "Libidoveränderungen, Nervosität", "Bauchschmerzen, Blähungen", "Akne, Haarausfall, vermehrte Behaarung, Juckreiz", "Oberflächliche Venenentzündung (Thrombophlebitis)", "Überempfindlichkeitsreaktionen"],
+    "selten": ["Venöse Thromboembolie (Beinvenenthrombose, Lungenembolie)"],
+    "unbekannt": ["Cholestatische Gelbsucht (Gallenstau)", "Chloasma (bräunliche Pigmentflecken)", "Nesselsucht, Hautausschlag", "Herzinfarkt und Schlaganfall (Klassenrisiko bei Hormonersatz)"]
+  },
+  "schwangerschaft": "Kontraindiziert. Hohe Dosen von Nortestosteron-Gestagenen können bei weiblichen Feten zu einer Vermännlichung der äusseren Geschlechtsorgane führen; vor Behandlungsbeginn eine Schwangerschaft ausschliessen.",
+  "stillzeit": "Nicht empfohlen – Norethisteron geht in die Muttermilch über.",
+  "hinweise": [
+    "Norethisteron als Einzelpräparat ist in der eingesetzten Form kein zuverlässiges Verhütungsmittel; bei Bedarf nichthormonal verhüten.",
+    "Bei Zeichen einer Thrombose (geschwollenes, schmerzhaftes Bein, Brustschmerz, plötzliche Atemnot), erstmaliger Migräne oder Sehstörungen sofort absetzen und ärztlichen Rat einholen.",
+    "Bei Hormonersatz Nutzen und Risiken mindestens jährlich ärztlich überprüfen lassen."
+  ],
+  "stand": "2026-10"
+}

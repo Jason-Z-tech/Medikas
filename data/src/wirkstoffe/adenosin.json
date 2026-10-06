@@ -1,0 +1,60 @@
+{
+  "id": "adenosin",
+  "name": "Adenosin",
+  "synonyme": ["Adenosine", "Adenosinum"],
+  "atc": ["C01EB10"],
+  "klasse": "Antiarrhythmikum (Purinnukleosid, Adenosin-A1-Rezeptor-Agonist)",
+  "kurz": "Notfallspritze im Spital, die anfallsweises Herzrasen aus den Vorhöfen innert Sekunden beendet.",
+  "gruppen": ["bradykardisierend"],
+  "handelsnamen": ["Krenosin"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung"],
+  "indikationen": [
+    { "text": "Rasche Beendigung von anfallsweisem supraventrikulärem Herzrasen (paroxysmale supraventrikuläre Tachykardie), auch bei Wolff-Parkinson-White-Syndrom", "ids": ["herzrhythmusstoerung"] },
+    { "text": "Diagnostische Hilfe zur Unterscheidung von Tachykardien mit breiten oder schmalen QRS-Komplexen", "ids": ["herzrhythmusstoerung"] }
+  ],
+  "wirkmechanismus": "Unterbricht für wenige Sekunden die elektrische Überleitung im Herzen und beendet so kreisende Erregungen, die Herzrasen verursachen. Adenosin aktiviert A1-Rezeptoren im AV-Knoten und Sinusknoten; dadurch öffnen sich Kaliumkanäle, die Zellen werden hyperpolarisiert und die AV-Überleitung wird kurzzeitig blockiert. Über A2-Rezeptoren erweitert es zudem Blutgefässe. Adenosin wird im Blut innerhalb von weniger als 10 Sekunden abgebaut, weshalb es als schneller Bolus gespritzt wird und die Wirkung nur kurz anhält.",
+  "kontraindikationen": [
+    { "text": "AV-Block 2. oder 3. Grades und Sinusknotensyndrom ohne funktionierenden Herzschrittmacher", "ids": ["av-block", "bradykardie"] },
+    { "text": "Chronisch-obstruktive Lungenerkrankung mit Bronchospasmus, z. B. Asthma bronchiale", "ids": ["asthma", "copd"] },
+    { "text": "Long-QT-Syndrom", "ids": ["qt-verlaengerung"] },
+    { "text": "Schwere Hypotonie", "ids": ["hypotonie"] },
+    { "text": "Dekompensierte Herzinsuffizienz", "ids": ["herzinsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Vorhofflimmern oder -flattern mit zusätzlicher Leitungsbahn (Gefahr einer beschleunigten Überleitung auf die Kammern)", "ids": ["vorhofflimmern"] },
+    { "text": "AV-Block 1. Grades oder Schenkelblock", "ids": ["av-block"] },
+    { "text": "Koronare Herzkrankheit, instabile Angina pectoris, frischer Herzinfarkt", "ids": ["koronare-herzkrankheit", "angina-pectoris", "herzinfarkt"] },
+    { "text": "Herzklappenstenose, Perikarditis, Herztransplantation (erhöhte Empfindlichkeit)", "ids": ["herzklappenerkrankung", "transplantation"] },
+    { "text": "Krampfanfälle in der Vorgeschichte", "ids": ["epilepsie"] },
+    { "text": "Volumenmangel oder Hirndurchblutungsstörung", "ids": ["dehydratation", "schlaganfall"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Dipyridamol", "ref": ["dipyridamol"], "effekt": "Starke Verstärkung der Adenosinwirkung (Hemmung der Wiederaufnahme) – Adenosin vermeiden oder Dosis deutlich reduzieren; Dipyridamol möglichst 24 Stunden vorher absetzen.", "schwere": "schwer" },
+    { "text": "Theophyllin, Aminophyllin, Coffein", "ref": ["theophyllin", "coffein"], "effekt": "Abschwächung der Adenosinwirkung (Rezeptorblockade) – koffeinhaltige Getränke vor geplanter Gabe meiden.", "schwere": "mittel" },
+    { "text": "Carbamazepin", "ref": ["carbamazepin"], "effekt": "Verstärkte Blockade der AV-Überleitung möglich.", "schwere": "mittel" },
+    { "text": "Pulsverlangsamende Mittel (Betablocker, Verapamil, Diltiazem, Digoxin)", "ref": ["gruppe:betablocker", "gruppe:nicht-dhp-calciumantagonisten", "gruppe:herzglykoside"], "effekt": "Verstärkte Bradykardie und AV-Blockierung möglich.", "schwere": "mittel" },
+    { "text": "Ticagrelor", "ref": ["ticagrelor"], "effekt": "Kann die Adenosinwirkung verstärken (z. B. Atemnot, Bradykardie).", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautrötung (Flush)",
+      "Bradykardie, kurze Herzpausen (Asystolie), AV-Block, Extraschläge aus Vorhöfen oder Kammern",
+      "Atemnot",
+      "Druck- oder Schmerzgefühl in der Brust"
+    ],
+    "haeufig": ["Kopfschmerzen", "Schwindel, Benommenheit", "Übelkeit", "Angstgefühl", "Brennendes Gefühl"],
+    "gelegentlich": ["Verschwommenes Sehen", "Herzklopfen", "Schwitzen", "Metallischer Geschmack", "Hyperventilation", "Druckgefühl im Kopf"],
+    "sehrSelten": ["Schwere Bradykardie", "Vorhofflimmern, Kammerflimmern, Torsade de pointes", "Bronchospasmus", "Reaktionen an der Injektionsstelle"],
+    "unbekannt": ["Herzstillstand, teils tödlich", "Herzinfarkt", "Atemstillstand", "Krampfanfälle", "Bewusstlosigkeit, Ohnmacht (Synkope)", "Blutdruckabfall", "Erbrechen", "Anaphylaktische Reaktion, Angioödem"]
+  },
+  "schwangerschaft": "Nur wenige Daten; nur anwenden, wenn der Nutzen das mögliche Risiko klar überwiegt.",
+  "stillzeit": "Keine Daten; wegen der sehr kurzen Wirkdauer ist ein Risiko für den Säugling unwahrscheinlich – Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur unter EKG-Überwachung mit bereitstehender Notfallausrüstung gegeben.",
+    "Ein kurzes Engegefühl in der Brust, Atemnot und Hitzegefühl sind häufig und verschwinden meist innerhalb einer Minute.",
+    "Kaffee, Tee, Cola und Energydrinks können die Wirkung abschwächen."
+  ],
+  "stand": "2026-10"
+}

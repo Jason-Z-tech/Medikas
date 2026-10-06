@@ -1,0 +1,222 @@
+{
+  "id": "eletriptan",
+  "name": "Eletriptan",
+  "synonyme": [
+    "Eletriptan hydrobromide",
+    "Eletriptanum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N02CC06"
+  ],
+  "klasse": "Triptan (selektiver Serotonin-5-HT1B/1D-Rezeptoragonist), Migränemittel",
+  "kurz": "Migränemittel aus der Gruppe der Triptane gegen den akuten Migräneanfall.",
+  "gruppen": [
+    "triptane",
+    "serotonerg",
+    "vasokonstriktorisch",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Relpax"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Akutbehandlung der Kopfschmerzphase von Migräneanfällen mit oder ohne Aura bei Erwachsenen",
+      "ids": [
+        "migraene"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert den Migränekopfschmerz, indem es erweiterte Blutgefässe im Kopf verengt und die Ausschüttung entzündlicher Botenstoffe hemmt. Eletriptan ist ein selektiver Agonist an Serotonin-5-HT1B- und -5-HT1D-Rezeptoren an Hirngefässen und Trigeminusnerven und hemmt die Freisetzung von Neuropeptiden. Im Unterschied zu anderen Triptanen wird es hauptsächlich über CYP3A4 abgebaut und ist daher empfindlich für CYP3A4-Hemmer.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Mittelschwerer bis schwerer sowie unbehandelter leichter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit, Herzinfarkt in der Vorgeschichte oder Prinzmetal-Angina",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Bedeutsame Herzrhythmusstörungen oder Herzinsuffizienz",
+      "ids": [
+        "herzrhythmusstoerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Periphere arterielle Verschlusskrankheit (Schaufensterkrankheit)",
+      "ids": [
+        "pavk"
+      ]
+    },
+    {
+      "text": "Schlaganfall oder vorübergehende Hirndurchblutungsstörung (TIA) in der Vorgeschichte",
+      "ids": [
+        "schlaganfall"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Risikofaktoren für Herz-Kreislauf-Erkrankungen (z. B. Rauchen, Diabetes): vor Behandlungsbeginn ärztlich abklären",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "rauchen",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (stärkerer Blutdruckanstieg)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Untypische Kopfschmerzen sowie hemiplegische oder Basilaris-Migräne: nicht anwenden",
+      "ids": [
+        "migraene",
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Häufige Einnahme (an mehr als 10 Tagen pro Monat) kann einen Kopfschmerz durch Medikamentenübergebrauch auslösen",
+      "ids": [
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Personen über 65 Jahre und Jugendliche unter 18 Jahren (nicht empfohlen)",
+      "ids": [
+        "aeltere-patienten",
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer, z. B. Ketoconazol, Itraconazol, Clarithromycin, Erythromycin, HIV-Proteasehemmer (Ritonavir, Indinavir, Nelfinavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "erythromycin"
+      ],
+      "grund": "Hemmung des Abbaus über CYP3A4 – mehrfach erhöhte Eletriptan-Spiegel mit Gefahr von Gefässverengung und Herzschäden."
+    },
+    {
+      "text": "Ergotamin und andere Ergotalkaloide (Abstand mindestens 24 Stunden)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Additive Gefässverengung mit Gefahr von Herz- und Durchblutungsstörungen."
+    },
+    {
+      "text": "Andere Triptane (5-HT1B/1D-Agonisten)",
+      "ref": [
+        "gruppe:triptane"
+      ],
+      "grund": "Additive Gefässverengung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Verapamil, Diltiazem) und Grapefruitsaft",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Eletriptan-Spiegel steigt – Kombination möglichst meiden oder ärztlich abklären.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Selten Serotoninsyndrom (Unruhe, Zittern, Fieber, Herzrasen) – auf Warnzeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Johanniskraut und andere serotonerge Mittel",
+      "ref": [
+        "johanniskraut",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Erhöhtes Risiko für serotonerge Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Eletriptan-Spiegel und Wirkung können sinken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schläfrigkeit, Schwindel, Kopfschmerzen, Kribbeln oder Taubheitsgefühl",
+      "Herzklopfen, Herzrasen, Hitzewallungen",
+      "Engegefühl im Hals, Rachenentzündung",
+      "Übelkeit, Bauchschmerzen, Mundtrockenheit, Verdauungsbeschwerden",
+      "Schwitzen",
+      "Rücken- und Muskelschmerzen, Muskelschwäche",
+      "Wärmegefühl, Schwäche, Schmerzen oder Engegefühl in der Brust, Schüttelfrost"
+    ],
+    "gelegentlich": [
+      "Verwirrtheit, Unruhe, Depression, Schlaflosigkeit",
+      "Zittern, Koordinations- und Sprachstörungen",
+      "Sehstörungen, Augenschmerzen, Lichtscheu, Ohrensausen",
+      "Atemnot, Gähnen",
+      "Durchfall",
+      "Hautausschlag, Juckreiz",
+      "Häufiges Wasserlassen, Wassereinlagerungen (Ödeme)"
+    ],
+    "selten": [
+      "Verlangsamter Puls (Bradykardie)",
+      "Kreislaufschock",
+      "Asthma",
+      "Verstopfung",
+      "Nesselsucht"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen einschliesslich Angioödem",
+      "Serotoninsyndrom",
+      "Ohnmacht (Synkope)",
+      "Herzinfarkt, koronare Gefässkrämpfe",
+      "Blutdruckanstieg",
+      "Ischämische Kolitis (Darmentzündung durch Minderdurchblutung)",
+      "Erbrechen"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; nur anwenden, wenn eindeutig erforderlich.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; nach der Einnahme 24 Stunden nicht stillen.",
+  "hinweise": [
+    "Vor einer Behandlung mit Antibiotika, Pilz- oder HIV-Mitteln die Einnahme von Eletriptan angeben (gefährliche Wechselwirkungen).",
+    "Akutmittel gegen Migräne an höchstens 10 Tagen pro Monat verwenden, sonst droht Kopfschmerz durch Medikamentenübergebrauch.",
+    "Kann Schläfrigkeit und Schwindel verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

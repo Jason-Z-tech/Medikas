@@ -1,0 +1,64 @@
+{
+  "id": "rivaroxaban",
+  "name": "Rivaroxaban",
+  "synonyme": ["DOAK", "NOAK", "Faktor-Xa-Hemmer"],
+  "atc": ["B01AF01"],
+  "klasse": "Direkter Faktor-Xa-Hemmer; direktes orales Antikoagulans (DOAK)",
+  "kurz": "Blutverdünner zum Schlucken (Faktor-Xa-Hemmer) gegen Schlaganfall bei Vorhofflimmern, gegen Thrombosen und Lungenembolien.",
+  "gruppen": ["antikoagulanzien", "doak", "blutungsrisiko-erhoehend", "p-gp-substrate-eng"],
+  "handelsnamen": ["Xarelto"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Vorbeugung von Schlaganfall und systemischer Embolie bei nicht valvulärem Vorhofflimmern", "ids": ["vorhofflimmern", "schlaganfall"] },
+    { "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie sowie Vorbeugung von Rückfällen", "ids": ["thrombose", "lungenembolie"] },
+    { "text": "Thrombosevorbeugung nach geplantem Hüft- oder Kniegelenkersatz", "ids": ["thromboseprophylaxe", "operation"] },
+    { "text": "Vorbeugung von Herzinfarkt, Schlaganfall und Gefässtod bei koronarer Herzkrankheit oder symptomatischer Schaufensterkrankheit (niedrige Dosis zusammen mit Acetylsalicylsäure)", "ids": ["koronare-herzkrankheit", "pavk"] }
+  ],
+  "wirkmechanismus": "Hemmt die Blutgerinnung, indem es einen zentralen Gerinnungsfaktor direkt blockiert. Rivaroxaban bindet direkt und reversibel an den Gerinnungsfaktor Xa, sowohl frei im Blut als auch im Gerinnsel, ohne Antithrombin zu benötigen. Dadurch entsteht weniger Thrombin und es bilden sich keine neuen Gerinnsel. Es wird über CYP3A4 und den Transporter P-Glykoprotein abgebaut und etwa zu einem Drittel unverändert über die Nieren ausgeschieden; als Gegenmittel steht Andexanet alfa zur Verfügung.",
+  "kontraindikationen": [
+    { "text": "Aktive, klinisch relevante Blutung", "ids": ["aktive-blutung"] },
+    { "text": "Erkrankungen mit hohem Risiko für schwere Blutungen (z. B. aktuelles oder kürzliches Magen-Darm-Geschwür, Tumor mit hohem Blutungsrisiko, kürzliche Hirnblutung, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen, Aneurysmen)", "ids": ["magen-darm-ulkus", "hirnblutung", "krebs", "aneurysma", "operation"] },
+    { "text": "Lebererkrankung mit Gerinnungsstörung und relevantem Blutungsrisiko, einschliesslich Leberzirrhose Child-Pugh B und C", "ids": ["leberinsuffizienz", "leberzirrhose"] },
+    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] },
+    { "text": "Niedrige Dosis mit Plättchenhemmern: früherer Schlaganfall oder TIA (nach akutem Koronarsyndrom) bzw. früherer hämorrhagischer oder lakunärer Schlaganfall oder Schlaganfall im letzten Monat (bei KHK/pAVK)", "ids": ["schlaganfall", "hirnblutung"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: bei Kreatinin-Clearance 15–29 ml/min nur mit Vorsicht, unter 15 ml/min nicht empfohlen", "ids": ["niereninsuffizienz"] },
+    { "text": "Ältere Menschen: höheres Blutungsrisiko", "ids": ["aeltere-patienten"] },
+    { "text": "Erhöhtes Blutungsrisiko: Gerinnungsstörung, schwerer unkontrollierter Bluthochdruck, Magen-Darm-Erkrankungen, Netzhauterkrankung durch Gefässschäden", "ids": ["blutgerinnungsstoerung", "hypertonie", "magen-darm-ulkus"] },
+    { "text": "Operationen und rückenmarksnahe Anästhesie: rechtzeitig pausieren, Gefahr spinaler oder epiduraler Hämatome", "ids": ["operation", "anaesthesie"] },
+    { "text": "Künstliche Herzklappen (auch nach Katheter-Klappenersatz TAVI): nicht empfohlen", "ids": ["herzklappenerkrankung"] },
+    { "text": "Antiphospholipid-Syndrom (besonders dreifach positiv): DOAK nicht empfohlen", "ids": ["thromboembolie-vorgeschichte", "lupus"] },
+    { "text": "Kreislaufinstabile Lungenembolie oder geplante Thrombolyse: kein Ersatz für Heparin", "ids": ["lungenembolie"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Andere Antikoagulanzien (z. B. Heparine, Fondaparinux, Phenprocoumon, Apixaban, Dabigatran), ausser bei Umstellung oder Heparin zum Offenhalten von Kathetern", "ref": ["gruppe:antikoagulanzien"], "grund": "Zusätzliche Gerinnungshemmung – stark erhöhtes Risiko schwerer Blutungen." }
+  ],
+  "interaktionen": [
+    { "text": "Starke Hemmer von CYP3A4 und P-Glykoprotein: Azol-Antimykotika (Ketoconazol, Itraconazol, Voriconazol, Posaconazol) und HIV-Proteasehemmer (z. B. Ritonavir, Cobicistat)", "ref": ["ketoconazol", "itraconazol", "voriconazol", "posaconazol", "gruppe:hiv-proteasehemmer", "cobicistat"], "effekt": "Rivaroxaban-Spiegel steigt stark – Kombination nicht empfohlen.", "schwere": "schwer" },
+    { "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Rivaroxaban-Spiegel sinkt – Gefahr von Schlaganfall und Thrombose; Kombination meiden.", "schwere": "schwer" },
+    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur auf ärztliche Anordnung (z. B. niedrig dosiert mit ASS bei KHK/pAVK).", "schwere": "schwer" },
+    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders bei Dauereinnahme – möglichst meiden.", "schwere": "schwer" },
+    { "text": "Dronedaron", "ref": ["dronedaron"], "effekt": "Wenige Daten, Spiegelanstieg wahrscheinlich – Kombination meiden.", "schwere": "schwer" },
+    { "text": "Clarithromycin, Erythromycin, Fluconazol", "ref": ["clarithromycin", "erythromycin", "fluconazol"], "effekt": "Rivaroxaban-Spiegel steigt mässig – besonders bei eingeschränkter Nierenfunktion auf Blutungen achten.", "schwere": "mittel" },
+    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Anämie (Blutarmut)", "Schwindel, Kopfschmerzen", "Blutungen: Nasen-, Zahnfleisch-, Augen-, Magen-Darm- und Harnwegsblutungen, Blutergüsse", "Verstärkte Monatsblutung (bei Frauen unter 55 Jahren sehr häufig)", "Bauchschmerzen, Verdauungsbeschwerden, Übelkeit, Verstopfung, Durchfall, Erbrechen", "Erhöhte Leberwerte (Transaminasen)", "Juckreiz, Hautausschlag", "Tiefer Blutdruck, Fieber, Wassereinlagerungen, Kraftlosigkeit, eingeschränkte Nierenfunktion"],
+    "gelegentlich": ["Hirnblutung", "Thrombozytopenie oder Thrombozytose (veränderte Plättchenzahl)", "Allergische Reaktionen, Angioödem, Nesselsucht", "Ohnmacht, schneller Herzschlag", "Mundtrockenheit", "Leberfunktionsstörung, erhöhtes Bilirubin", "Gelenkblutungen"],
+    "selten": ["Gelbsucht, Gallestauung, Hepatitis", "Muskelblutungen", "Pseudoaneurysma nach Gefässpunktion"],
+    "sehrSelten": ["Anaphylaktische Reaktionen bis Schock", "Schwere Haut- und Überempfindlichkeitsreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)", "Eosinophile Pneumonie"],
+    "unbekannt": ["Kompartmentsyndrom oder akutes Nierenversagen als Folge einer Blutung", "Antikoagulanzien-assoziierte Nephropathie (Nierenschädigung durch Blutungen in der Niere)"]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter sollen während der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – entweder abstillen oder die Behandlung absetzen.",
+  "hinweise": [
+    "Tabletten zu 15 mg und 20 mg mit einer Mahlzeit einnehmen (sonst ungenügende Aufnahme); 2.5 mg und 10 mg unabhängig vom Essen.",
+    "Tabletten dürfen zerstossen und mit Wasser oder Apfelmus eingenommen werden.",
+    "Nicht eigenmächtig absetzen – Gefahr von Schlaganfall oder Thrombose; vor Operationen, Zahnbehandlungen und neuen Medikamenten Arzt oder Apotheke informieren.",
+    "Bei Blutungszeichen (schwarzer Stuhl, Blut im Urin, starke Kopfschmerzen, ungewöhnliche Blutergüsse) sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

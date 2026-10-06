@@ -1,0 +1,75 @@
+{
+  "id": "ceftazidim",
+  "name": "Ceftazidim",
+  "synonyme": ["Ceftazidime", "Ceftazidim-Pentahydrat", "Ceftazidimum"],
+  "atc": ["J01DD02"],
+  "klasse": "Cephalosporin der 3. Generation mit Pseudomonas-Wirkung (Beta-Laktam-Antibiotikum)",
+  "kurz": "Cephalosporin-Antibiotikum als Injektion oder Infusion im Spital gegen schwere Infektionen, besonders durch Pseudomonas-Bakterien.",
+  "gruppen": ["cephalosporine"],
+  "handelsnamen": ["Fortam"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "indikationen": [
+    { "text": "Im Spital erworbene Lungenentzündung, auch bei beatmeten Patienten", "ids": ["lungenentzuendung"] },
+    { "text": "Lungeninfektionen bei zystischer Fibrose", "ids": ["zystische-fibrose"] },
+    { "text": "Bakterielle Hirnhautentzündung (Meningitis)", "ids": ["pneumokokken-meningokokken", "bakterielle-infektion"] },
+    { "text": "Chronisch eitrige Mittelohrentzündung und maligne Otitis externa (schwere Gehörgangsentzündung)", "ids": ["ohrenentzuendung"] },
+    { "text": "Komplizierte Infektionen von Harnwegen, Haut und Weichteilen, Bauchraum, Knochen und Gelenken; Bauchfellentzündung bei Peritonealdialyse", "ids": ["harnwegsinfekt", "hautinfektion", "bakterielle-infektion"] },
+    { "text": "Fieber bei Neutropenie mit Verdacht auf eine bakterielle Infektion", "ids": ["neutropenie", "aktive-infektion"] },
+    { "text": "Infektionsvorbeugung bei Prostataoperation durch die Harnröhre (TURP)", "ids": ["operation", "prostatahyperplasie"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Ceftazidim hemmt die Penicillin-bindenden Proteine und damit die Quervernetzung des Peptidoglykans (bakterizide Wirkung). Es wirkt vor allem gegen gramnegative Bakterien einschliesslich Pseudomonas aeruginosa, gegen grampositive Keime wie Staphylokokken dagegen nur schwach. Bakterien mit Beta-Laktamasen vom ESBL- oder AmpC-Typ sowie Carbapenemase-Bildner sind meist resistent. Ceftazidim wird fast unverändert über die Niere ausgeschieden.",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Cephalosporine", "ids": ["allergie"] },
+    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf Penicilline oder andere Beta-Laktam-Antibiotika in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosis unbedingt anpassen – sonst neurologische Störungen wie Zittern, Muskelzuckungen, Krampfanfälle, Enzephalopathie bis zum Koma", "ids": ["niereninsuffizienz", "epilepsie"] },
+    { "text": "Penicillinallergie ohne schwere Sofortreaktion: Kreuzallergie möglich", "ids": ["penicillinallergie"] },
+    { "text": "Natriumgehalt bei salzarmer Diät oder Herzinsuffizienz beachten", "ids": ["herzinsuffizienz"] },
+    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
+    { "text": "Längere Behandlung: Überwucherung durch unempfindliche Keime (z. B. Enterokokken, Candida) möglich", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Schleifendiuretika wie Furosemid)", "ref": ["gruppe:aminoglykoside", "gruppe:schleifendiuretika", "gruppe:nephrotoxisch"], "effekt": "Bei hohen Dosen mögliche Verstärkung der Nierenschädigung – Nierenfunktion kontrollieren.", "schwere": "mittel" },
+    { "text": "Chloramphenicol", "ref": ["chloramphenicol"], "effekt": "Wirkt im Labor antagonistisch – Kombination vermeiden.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Blutverdünnung möglich – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Eosinophilie, Thrombozytose (Vermehrung der Blutplättchen)",
+      "Venenentzündung (Phlebitis) bei Infusion, Schmerzen und Entzündung an der Einstichstelle",
+      "Durchfall",
+      "Vorübergehender Anstieg der Leberwerte",
+      "Hautausschlag (fleckig oder mit Quaddeln)",
+      "Positiver Coombs-Test"
+    ],
+    "gelegentlich": [
+      "Pilzinfektionen (Candidose)",
+      "Leukopenie, Neutropenie, Thrombozytopenie",
+      "Kopfschmerzen, Schwindel",
+      "Antibiotika-assoziierte Kolitis, Bauchschmerzen, Übelkeit, Erbrechen",
+      "Juckreiz, Fieber",
+      "Vorübergehender Anstieg der Nierenwerte"
+    ],
+    "sehrSelten": ["Interstitielle Nephritis (Nierenentzündung), akutes Nierenversagen"],
+    "unbekannt": [
+      "Agranulozytose, hämolytische Anämie, Lymphozytose",
+      "Anaphylaxie (schwere allergische Reaktion bis zum Schock)",
+      "Neurologische Störungen bei eingeschränkter Nierenfunktion (Zittern, Muskelzuckungen, Krampfanfälle, Enzephalopathie, Koma)",
+      "Kribbeln (Parästhesien), Geschmacksstörung",
+      "Gelbsucht",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS), Angioödem"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; im Tierversuch keine Hinweise auf eine Schädigung, Erfahrungen beim Menschen begrenzt.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Wird im Spital als Injektion oder Infusion gegeben.",
+    "Bei eingeschränkter Nierenfunktion wird die Dosis angepasst; Verwirrtheit oder Muskelzuckungen sofort melden.",
+    "Allergien gegen Penicilline oder Cephalosporine vor der Behandlung angeben."
+  ],
+  "stand": "2026-10"
+}

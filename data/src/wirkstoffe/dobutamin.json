@@ -1,0 +1,157 @@
+{
+  "id": "dobutamin",
+  "name": "Dobutamin",
+  "synonyme": [
+    "Dobutamine",
+    "Dobutaminhydrochlorid"
+  ],
+  "atc": [
+    "C01CA07"
+  ],
+  "klasse": "Beta-1-Sympathomimetikum (Inotropikum)",
+  "kurz": "Herzstärkendes Infusionsmittel für die Intensivmedizin, das bei akuter Herzschwäche oder Schock die Pumpkraft des Herzens erhöht.",
+  "gruppen": [
+    "sympathomimetika",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat bzw. Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitige Unterstützung der Herzkraft bei akuter Herzinsuffizienz mit vermindertem Herzzeitvolumen, z. B. bei kardiogenem Schock, nach Herzinfarkt oder nach Herzoperationen",
+      "ids": [
+        "herzinsuffizienz",
+        "schock",
+        "herzinfarkt"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stärkt die Pumpkraft des Herzens. Dobutamin ist ein synthetisches Katecholamin, das vorwiegend die Beta-1-Rezeptoren des Herzmuskels stimuliert und so Schlagkraft und Herzzeitvolumen erhöht. Herzfrequenz und Blutdruck steigen meist nur mässig, weil sich schwache gefässerweiternde (Beta-2) und gefässverengende (Alpha-1) Effekte weitgehend aufheben. Anders als Dopamin setzt es kein Noradrenalin frei; die Wirkung klingt wenige Minuten nach Infusionsende ab.",
+  "kontraindikationen": [
+    {
+      "text": "Mechanische Behinderung der Füllung oder des Auswurfs der Herzkammern, z. B. hypertrophe obstruktive Kardiomyopathie, schwere Aortenklappenstenose, Herzbeuteltamponade oder Pericarditis constrictiva",
+      "ids": [
+        "kardiomyopathie",
+        "herzklappenerkrankung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Volumenmangel (Hypovolämie) vor Beginn ausgleichen",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Vorhofflimmern: Dobutamin beschleunigt die Überleitung auf die Kammern – vorher Frequenzkontrolle",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit, frischer Herzinfarkt: höherer Sauerstoffbedarf, Angina pectoris und Rhythmusstörungen möglich",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: stärkerer Blutdruckanstieg möglich",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Kaliummangel: Kalium kontrollieren",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Asthma und Sulfitüberempfindlichkeit (manche Präparate enthalten Natriummetabisulfit)",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Heben die Herzwirkung von Dobutamin auf; die verbleibende Alpha-Wirkung kann Gefässe verengen und den Blutdruck steigern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkte Kreislaufwirkung möglich – vorsichtig dosieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Inhalationsnarkotika (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhte Gefahr von Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Kreislaufwirkung und Rhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "COMT-Hemmer (Entacapon)",
+      "ref": [
+        "entacapon",
+        "levodopa-carbidopa-entacapon"
+      ],
+      "effekt": "Verzögerter Abbau von Dobutamin – verstärkte Wirkung auf Herz und Kreislauf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Kaliumabfall – Kalium kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Herzrasen (Tachykardie), Extrasystolen, Herzklopfen",
+      "Herzrhythmusstörungen bis Kammertachykardie oder Kammerflimmern",
+      "Blutdruckanstieg, seltener Blutdruckabfall",
+      "Brustschmerzen (Angina pectoris)",
+      "Kopfschmerzen, Übelkeit",
+      "Atemnot",
+      "Hypokaliämie (Kaliummangel)",
+      "Venenentzündung an der Infusionsstelle"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nur bei klarer Notwendigkeit nach ärztlicher Abwägung.",
+  "stillzeit": "Nicht bekannt, ob Dobutamin in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur im Spital als Dauerinfusion mit Infusionspumpe unter laufender Überwachung von EKG, Blutdruck und Puls gegeben.",
+    "Nicht mit alkalischen Lösungen (z. B. Natriumhydrogencarbonat) in derselben Leitung mischen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,229 @@
+{
+  "id": "metamizol",
+  "name": "Metamizol",
+  "synonyme": [
+    "Metamizol-Natrium",
+    "Dipyron",
+    "Novaminsulfon",
+    "Metamizole"
+  ],
+  "atc": [
+    "N02BB02"
+  ],
+  "klasse": "Nicht-opioides Analgetikum und Antipyretikum (Pyrazolon-Derivat)",
+  "kurz": "Starkes Schmerz- und Fiebermittel, auch gegen krampfartige Schmerzen; sehr selten gefährlicher Mangel an weissen Blutkörperchen.",
+  "gruppen": [
+    "myelosuppressiv",
+    "cyp3a4-induktoren"
+  ],
+  "handelsnamen": [
+    "Novalgin",
+    "Minalgin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Tropfen (Lösung zum Einnehmen)",
+    "Zäpfchen",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Starke akute Schmerzen, z. B. nach Verletzungen oder Operationen",
+      "ids": [
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Krampfartige Schmerzen (Koliken), z. B. bei Gallen- oder Nierensteinen",
+      "ids": [
+        "schmerzen",
+        "nierensteine",
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Tumorschmerzen und andere starke chronische Schmerzen",
+      "ids": [
+        "chronische-schmerzen"
+      ]
+    },
+    {
+      "text": "Hohes Fieber, das auf andere Massnahmen nicht anspricht",
+      "ids": [
+        "fieber"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert starke Schmerzen, senkt Fieber und entspannt verkrampfte glatte Muskulatur, z. B. bei Koliken. Metamizol ist eine Vorstufe, die im Darm zu 4-Methylaminoantipyrin umgewandelt wird; dieses und weitere Abbauprodukte hemmen die Prostaglandinbildung vor allem im Zentralnervensystem und aktivieren schmerzhemmende Bahnen. Die entzündungshemmende Wirkung ist gering, und Magen und Nieren werden weniger belastet als durch NSAR.",
+  "kontraindikationen": [
+    {
+      "text": "Agranulozytose nach Metamizol oder anderen Pyrazolonen in der Vorgeschichte, Allergie gegen Pyrazolone (z. B. Propyphenazon, Phenazon)",
+      "ids": [
+        "neutropenie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Störungen der Knochenmarkfunktion oder Krankheiten der Blutbildung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Analgetika-Asthma oder andere Unverträglichkeit von Schmerzmitteln (Nesselsucht, Angioödem)",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Akute intermittierende Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Angeborener Glucose-6-Phosphat-Dehydrogenase-Mangel",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Säuglinge unter 3 Monaten oder unter 5 kg Körpergewicht",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Injektion bei tiefem Blutdruck oder instabilem Kreislauf",
+      "ids": [
+        "hypotonie",
+        "schock"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Fieber, Halsschmerzen oder Entzündungen im Mund während der Behandlung: sofort Blutbild (Verdacht auf Agranulozytose)",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Flüssigkeitsmangel oder beginnendes Kreislaufversagen (Blutdruckabfall, v. a. bei Injektion)",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Asthma, chronische Nesselsucht oder Heuschnupfen mit Nasenpolypen (Risiko schwerer Überempfindlichkeitsreaktionen)",
+      "ids": [
+        "asthma",
+        "urtikaria",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion (wiederholte hohe Dosen vermeiden)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Verstärkte Schädigung des Blutbildes, besonders bei älteren Menschen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Mittel, die das Knochenmark hemmen können (z. B. Clozapin, Thyreostatika, Zytostatika)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "clozapin",
+        "gruppe:thyreostatika"
+      ],
+      "effekt": "Erhöhtes Risiko einer Agranulozytose – möglichst vermeiden, sonst Blutbild eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Acetylsalicylsäure in niedriger Dosis",
+      "ref": [
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Metamizol kann die herzschützende Plättchenhemmung abschwächen – ASS mindestens 30 Minuten vor Metamizol einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über CYP2B6 und CYP3A4 abgebaute Mittel (z. B. Bupropion, Efavirenz, Methadon, Valproinsäure, Ciclosporin, Tacrolimus, Sertralin)",
+      "ref": [
+        "bupropion",
+        "efavirenz",
+        "methadon",
+        "valproinsaeure",
+        "ciclosporin",
+        "tacrolimus",
+        "sertralin",
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Metamizol beschleunigt deren Abbau – Spiegel und Wirkung können sinken; Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Blutdruckabfall (v. a. bei rascher Injektion)",
+      "Fixes Arzneimittelexanthem (Hautausschlag immer an derselben Stelle)"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen (Juckreiz, Nesselsucht, Atemnot)",
+      "Leukopenie (Verminderung der weissen Blutkörperchen)",
+      "Hautausschlag"
+    ],
+    "sehrSelten": [
+      "Agranulozytose (lebensgefährlicher Mangel an weissen Blutkörperchen)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Analgetika-Asthma-Anfall",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Akute Nierenfunktionsstörung, interstitielle Nephritis"
+    ],
+    "unbekannt": [
+      "Anaphylaktischer Schock",
+      "Aplastische Anämie, Panzytopenie",
+      "Arzneimittelbedingte Leberentzündung (Hepatitis)",
+      "DRESS (schwere Arzneimittelreaktion mit Fieber und Organbeteiligung)",
+      "Kounis-Syndrom (allergisch ausgelöster Herzinfarkt)",
+      "Rotfärbung des Urins (harmlos)"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach strenger ärztlicher Abwägung; im letzten Drittel kontraindiziert (Gefahr eines vorzeitigen Verschlusses des Ductus arteriosus beim Kind und von Gerinnungsstörungen).",
+  "stillzeit": "Abbauprodukte gehen in die Muttermilch über. Wiederholte Anwendung vermeiden; nach einer Einzeldosis 48 Stunden nicht stillen und die Milch verwerfen.",
+  "hinweise": [
+    "Bei Fieber, Halsschmerzen, Schluckbeschwerden oder Entzündungen im Mund während oder kurz nach der Einnahme sofort ärztliche Hilfe holen und ein Blutbild machen lassen.",
+    "Bei längerer Anwendung regelmässige Blutbildkontrollen.",
+    "Eine Rotfärbung des Urins durch ein Abbauprodukt ist harmlos.",
+    "Injektionen nur langsam und im Liegen verabreichen (Blutdruckabfall)."
+  ],
+  "stand": "2026-10"
+}

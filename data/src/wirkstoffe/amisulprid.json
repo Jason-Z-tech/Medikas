@@ -1,0 +1,235 @@
+{
+  "id": "amisulprid",
+  "name": "Amisulprid",
+  "synonyme": [
+    "Amisulpride"
+  ],
+  "atc": [
+    "N05AL05"
+  ],
+  "klasse": "Atypisches Antipsychotikum (Benzamid)",
+  "kurz": "Atypisches Antipsychotikum gegen akute und chronische Schizophrenie, auch bei Antriebsarmut und Rückzug (Negativsymptome).",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "zns-daempfend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Solian",
+    "Amisulprid Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute und chronische Schizophrenie mit Positivsymptomen (Wahn, Halluzinationen) und/oder Negativsymptomen (Antriebsarmut, Rückzug)",
+      "ids": [
+        "schizophrenie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt im Gehirn gezielt bestimmte Dopamin-Rezeptoren und lindert so Wahn und Halluzinationen. Amisulprid ist ein selektiver Antagonist an Dopamin-D2- und -D3-Rezeptoren, bevorzugt im limbischen System. In niedriger Dosis blockiert es vor allem präsynaptische Rezeptoren und steigert so die Dopaminfreisetzung, was gegen Negativsymptome wirkt. Es wird kaum verstoffwechselt und hauptsächlich über die Niere ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Prolaktinabhängige Tumoren, z. B. Prolaktinom der Hirnanhangdrüse oder Brustkrebs",
+      "ids": [
+        "hyperprolaktinaemie",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Kinder vor der Pubertät",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis reduzieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, langsamer Puls, verlängerte QT-Zeit, Kalium- oder Magnesiummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "bradykardie",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz: erhöhte Sterblichkeit und erhöhtes Schlaganfallrisiko",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Diabetes oder Risikofaktoren dafür",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Levodopa",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "levodopa-carbidopa-entacapon"
+      ],
+      "grund": "Gegenseitige Aufhebung der Wirkung (Dopamin-Antagonist gegen Dopamin-Vorstufe)."
+    },
+    {
+      "text": "Arzneimittel, die Torsade de pointes auslösen können: Antiarrhythmika Klasse Ia und III (z. B. Chinidin, Amiodaron, Sotalol), Methadon, Erythromycin i. v., Pentamidin u. a.",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "amiodaron",
+        "sotalol",
+        "methadon",
+        "erythromycin",
+        "pentamidin"
+      ],
+      "grund": "Die QT-Verlängerungen addieren sich – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Pulsverlangsamende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Clonidin, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "digoxin"
+      ],
+      "effekt": "Erhöhte Gefahr von Torsade de pointes – Kombination möglichst vermeiden, sonst EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Weitere QT-verlängernde Mittel (z. B. andere Antipsychotika, bestimmte Antidepressiva)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – vermeiden; falls unumgänglich, EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Diuretika, Abführmittel, systemische Glukokortikoide)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel begünstigt Herzrhythmusstörungen – Kalium vorher ausgleichen und kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dopaminagonisten (ausserhalb der Parkinson-Behandlung)",
+      "ref": [
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Extrapyramidale Störungen (Zittern, Muskelsteife, Bewegungsarmut, vermehrter Speichelfluss, Sitzunruhe)"
+    ],
+    "haeufig": [
+      "Akute Dystonie (Muskelkrämpfe, z. B. Schiefhals, Blickkrämpfe)",
+      "Schläfrigkeit",
+      "Schlaflosigkeit, Angst, Unruhe",
+      "Verstopfung, Übelkeit, Erbrechen, Mundtrockenheit",
+      "Erhöhtes Prolaktin mit Milchfluss, Ausbleiben der Regel, Brustvergrösserung, Brustschmerzen, Erektions- und Orgasmusstörungen",
+      "Gewichtszunahme",
+      "Hypotonie (tiefer Blutdruck)"
+    ],
+    "gelegentlich": [
+      "Spätdyskinesien",
+      "Krampfanfälle",
+      "Bradykardie (langsamer Puls)",
+      "Erhöhter Blutzucker",
+      "Erhöhte Leberwerte",
+      "Leukopenie, Neutropenie",
+      "Allergische Reaktionen",
+      "Verwirrtheit"
+    ],
+    "selten": [
+      "Malignes neuroleptisches Syndrom",
+      "QT-Verlängerung und Kammerrhythmusstörungen (Torsade de pointes), Herzstillstand, plötzlicher Herztod",
+      "Venöse Thromboembolie",
+      "Agranulozytose",
+      "Hyponatriämie (SIADH)",
+      "Gutartige Tumoren der Hirnanhangdrüse (Prolaktinom)",
+      "Osteopenie, Osteoporose"
+    ],
+    "unbekannt": [
+      "Angioödem, Nesselsucht",
+      "Restless-Legs-Syndrom",
+      "Entzugssymptome und Bewegungsstörungen beim Neugeborenen"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen. Nicht empfohlen, ausser der Nutzen überwiegt das Risiko; nach Einnahme im letzten Drittel sind beim Neugeborenen Bewegungsstörungen und Entzugssymptome möglich.",
+  "stillzeit": "Amisulprid geht in die Muttermilch über. In der Stillzeit kontraindiziert.",
+  "hinweise": [
+    "Vor Beginn EKG sowie Kalium und Magnesium kontrollieren; bei Herzklopfen oder Ohnmacht sofort ärztlich abklären.",
+    "Bei eingeschränkter Nierenfunktion wird die Dosis reduziert.",
+    "Ausbleibende Regel, Milchfluss oder sexuelle Störungen ärztlich ansprechen (Prolaktinanstieg).",
+    "Alkohol meiden; Fahrtüchtigkeit kann beeinträchtigt sein."
+  ],
+  "stand": "2026-10"
+}

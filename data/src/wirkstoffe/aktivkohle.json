@@ -1,0 +1,48 @@
+{
+  "id": "aktivkohle",
+  "name": "Aktivkohle",
+  "synonyme": ["Medizinische Kohle", "Kohle", "Carbo activatus", "Carbo medicinalis", "Activated charcoal", "Tierkohle"],
+  "atc": ["A07BA01"],
+  "klasse": "Adsorbens (Bindemittel); Antidot bei Vergiftungen",
+  "kurz": "Bindet Giftstoffe und Medikamente im Magen-Darm-Trakt, damit sie nicht ins Blut gelangen – wichtigstes Mittel bei vielen Vergiftungen.",
+  "gruppen": [],
+  "handelsnamen": ["Carbomix", "Carbolevure (Kombi)"],
+  "abgabe": ["D"],
+  "darreichung": ["Granulat zur Herstellung einer Suspension zum Einnehmen", "Kapseln (Kombination mit Hefe)"],
+  "indikationen": [
+    { "text": "Akute Vergiftungen durch geschluckte Medikamente, Chemikalien oder Pflanzengifte (Giftentfernung aus dem Magen-Darm-Trakt); wiederholte Gabe zur beschleunigten Ausscheidung bestimmter Stoffe (z. B. Carbamazepin, Phenobarbital, Theophyllin)", "ids": ["vergiftung"] },
+    { "text": "Als Kombination mit Hefe (Carbolevure): Blähungen und Durchfall", "ids": ["dyspepsie", "durchfall"] }
+  ],
+  "wirkmechanismus": "Bindet viele Giftstoffe an seiner Oberfläche, sodass sie mit dem Stuhl ausgeschieden statt ins Blut aufgenommen werden. Aktivkohle ist eine hochporöse Kohle mit einer inneren Oberfläche von rund 1000 Quadratmetern pro Gramm, an die sich Medikamente und Gifte physikalisch anlagern (Adsorption). Wiederholte Gaben unterbrechen zudem den Kreislauf von Stoffen, die über Galle oder Darmwand erneut in den Darm gelangen. Aktivkohle selbst wird nicht aufgenommen. Schlecht oder gar nicht gebunden werden Alkohole, Säuren und Laugen, Eisen, Lithium und andere Metallsalze, Cyanid sowie Erdöldestillate.",
+  "kontraindikationen": [
+    { "text": "Bewusstseinsstörung ohne gesicherte Atemwege (Gefahr, dass Kohle in die Lunge gelangt)", "ids": [] },
+    { "text": "Vergiftungen mit ätzenden Stoffen (Säuren, Laugen): unwirksam und erschwert die Magenspiegelung", "ids": [] },
+    { "text": "Darmverschluss (Ileus) oder Magen-Darm-Durchbruch", "ids": ["darmverschluss"] }
+  ],
+  "vorsicht": [
+    { "text": "Vergiftungen mit schlecht gebundenen Stoffen (Alkohol, Eisen, Lithium, Lösungsmittel, Benzin) – Kohle hilft hier nicht", "ids": [] },
+    { "text": "Verlangsamte Darmtätigkeit (z. B. durch Opioide oder anticholinerg wirkende Gifte): Gefahr von Verstopfung und Darmverschluss bei wiederholter Gabe", "ids": ["verstopfung"] },
+    { "text": "Erbrechen oder Schluckstörungen: Gefahr des Einatmens (Aspirationspneumonie)", "ids": ["lungenentzuendung"] },
+    { "text": "Kinder: Flüssigkeitshaushalt überwachen, besonders bei gleichzeitiger Gabe eines Abführmittels", "ids": ["kinder", "dehydratation"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Alle gleichzeitig eingenommenen Arzneimittel, besonders solche mit enger therapeutischer Breite (z. B. Antiepileptika, Herzglykoside, Schilddrüsenhormone, Vitamin-K-Antagonisten)", "ref": ["gruppe:antiepileptika", "gruppe:herzglykoside", "gruppe:schilddruesenhormone", "gruppe:vitamin-k-antagonisten"], "effekt": "Werden an die Kohle gebunden und schlechter aufgenommen – bei Einnahme ausserhalb eines Notfalls mindestens 2 Stunden Abstand halten.", "schwere": "mittel" },
+    { "text": "Hormonale Verhütungsmittel (Pille)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Verminderte Aufnahme möglich – Verhütungsschutz unsicher; zusätzlich verhüten.", "schwere": "mittel" },
+    { "text": "Orale Gegengifte (z. B. Acetylcystein zum Einnehmen)", "ref": ["acetylcystein"], "effekt": "Werden ebenfalls gebunden – Gegengifte bei Vergiftungen nach ärztlicher Anweisung zeitlich versetzt oder als Infusion geben.", "schwere": "mittel" },
+    { "text": "Abführmittel (z. B. Sorbitol, Macrogol)", "ref": ["gruppe:laxanzien"], "effekt": "Verstärkter Flüssigkeits- und Salzverlust möglich, besonders bei Kindern – nur nach ärztlicher Anweisung kombinieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Schwarzfärbung des Stuhls (harmlos)"],
+    "haeufig": ["Erbrechen", "Verstopfung (Obstipation)"],
+    "unbekannt": ["Durchfall (v. a. zusammen mit Abführmitteln)", "Aspiration (Einatmen) von Kohle mit Lungenentzündung", "Darmverschluss durch Kohleansammlungen bei wiederholter Gabe"]
+  },
+  "schwangerschaft": "Aktivkohle wird nicht aufgenommen; bei Vergiftungen in der Schwangerschaft anwendbar.",
+  "stillzeit": "Anwendung in der Stillzeit möglich.",
+  "hinweise": [
+    "Bei Vergiftungsverdacht sofort Tox Info Suisse (Notruf 145) oder den Notruf 144 kontaktieren; Kohle wirkt am besten innerhalb der ersten Stunde nach der Giftaufnahme.",
+    "Der Stuhl färbt sich schwarz – das ist harmlos.",
+    "Andere Medikamente mindestens 2 Stunden vor oder nach der Kohle einnehmen."
+  ],
+  "stand": "2026-10"
+}

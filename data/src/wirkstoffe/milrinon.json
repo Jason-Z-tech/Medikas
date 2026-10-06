@@ -1,0 +1,159 @@
+{
+  "id": "milrinon",
+  "name": "Milrinon",
+  "synonyme": [
+    "Milrinone",
+    "Milrinonlactat"
+  ],
+  "atc": [
+    "C01CE02"
+  ],
+  "klasse": "Phosphodiesterase-3-Hemmer (Inotropikum, Inodilatator)",
+  "kurz": "Infusionsmittel für die Intensivmedizin, das bei schwerer akuter Herzschwäche die Herzkraft stärkt und die Gefässe erweitert.",
+  "gruppen": [
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Corotrop"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung bzw. Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitbehandlung der schweren, auf die übliche Therapie nicht ansprechenden Herzinsuffizienz, auch nach Herzoperationen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stärkt die Pumpkraft des Herzens und erweitert gleichzeitig die Blutgefässe. Milrinon hemmt das Enzym Phosphodiesterase 3 in Herzmuskel- und Gefässmuskelzellen, wodurch das zyklische AMP (cAMP) ansteigt. Im Herzen nimmt dadurch die Kontraktionskraft zu, in den Gefässen erschlafft die Muskulatur, sodass Vor- und Nachlast sinken. Die Wirkung ist unabhängig von Beta-Rezeptoren und bleibt daher auch unter Betablockern erhalten.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Hypovolämie (ausgeprägter Flüssigkeitsmangel)",
+      "ids": [
+        "dehydratation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere obstruktive Aorten- oder Pulmonalklappenerkrankung oder hypertrophe obstruktive Kardiomyopathie (Ausflussbehinderung kann sich verschlimmern)",
+      "ids": [
+        "herzklappenerkrankung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Ventrikuläre und supraventrikuläre Herzrhythmusstörungen möglich – EKG-Überwachung",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Vorhofflimmern oder -flattern: die Kammerfrequenz kann ansteigen – vorher Frequenzkontrolle",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis reduzieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck: Blutdruck überwachen; Volumen- und Kaliummangel vorher ausgleichen",
+      "ids": [
+        "hypotonie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Akute Phase eines Herzinfarkts: Anwendung nicht empfohlen",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Thrombozytenzahl kontrollieren",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Furosemid und Bumetanid über dieselbe Infusionsleitung",
+      "ref": [
+        "furosemid",
+        "bumetanid"
+      ],
+      "effekt": "Ausfällung (chemische Unverträglichkeit) – nicht über denselben Zugang geben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Verstärkte Harnausscheidung durch die bessere Herzleistung; Gefahr von Flüssigkeits- und Kaliummangel mit Rhythmusstörungen – Kalium und Flüssigkeitsbilanz kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere blutdrucksenkende und gefässerweiternde Mittel (z. B. Nitrate)",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall – Blutdruck überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere herzkraftsteigernde Mittel (z. B. Dobutamin, Dopamin, Digoxin)",
+      "ref": [
+        "dobutamin",
+        "dopamin",
+        "digoxin"
+      ],
+      "effekt": "Additive Wirkung auf die Herzkraft; Rhythmusstörungen möglich – EKG überwachen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Ventrikuläre Extrasystolen und Kammertachykardien",
+      "Supraventrikuläre Rhythmusstörungen",
+      "Hypotonie (Blutdruckabfall)",
+      "Kopfschmerzen"
+    ],
+    "gelegentlich": [
+      "Kammerflimmern",
+      "Brustschmerzen (Angina pectoris)",
+      "Zittern (Tremor)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Hypokaliämie (Kaliummangel)",
+      "Erhöhte Leberwerte"
+    ],
+    "sehrSelten": [
+      "Torsade de pointes (gefährliche Rhythmusstörung)",
+      "Anaphylaktischer Schock",
+      "Bronchospasmus (Verkrampfung der Atemwege)"
+    ],
+    "unbekannt": [
+      "Nierenversagen als Folge eines Blutdruckabfalls",
+      "Reaktionen an der Infusionsstelle"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur anwenden, wenn der Nutzen das mögliche Risiko klar überwiegt.",
+  "stillzeit": "Nicht bekannt, ob Milrinon in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur im Spital als Infusion unter laufender Überwachung von EKG, Blutdruck, Flüssigkeitsbilanz, Elektrolyten und Nierenfunktion gegeben.",
+    "Nicht mit Furosemid oder Bumetanid über dieselbe Leitung infundieren."
+  ],
+  "stand": "2026-10"
+}

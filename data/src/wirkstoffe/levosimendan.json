@@ -1,0 +1,180 @@
+{
+  "id": "levosimendan",
+  "name": "Levosimendan",
+  "synonyme": [
+    "Levosimendane",
+    "OR-1259"
+  ],
+  "atc": [
+    "C01CX08"
+  ],
+  "klasse": "Calcium-Sensitizer (Inotropikum, Inodilatator)",
+  "kurz": "Infusionsmittel bei akut verschlechterter schwerer Herzschwäche; stärkt die Herzkraft und erweitert die Gefässe.",
+  "gruppen": [
+    "blutdrucksenkend",
+    "hypokaliaemie-ausloesend",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Simdax"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitbehandlung einer akut dekompensierten schweren chronischen Herzinsuffizienz, wenn die übliche Therapie nicht ausreicht und eine Unterstützung der Herzkraft nötig ist",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stärkt die Pumpkraft des Herzens, ohne seinen Sauerstoffbedarf wesentlich zu erhöhen, und erweitert die Blutgefässe. Levosimendan bindet calciumabhängig an Troponin C und macht die kontraktilen Eiweisse des Herzmuskels empfindlicher für Calcium (Calcium-Sensitizer). Zudem öffnet es ATP-abhängige Kaliumkanäle in der glatten Gefässmuskulatur und erweitert so Arterien, Venen und Herzkranzgefässe. Der aktive Metabolit OR-1896 hat eine lange Halbwertszeit, sodass die Wirkung nach einer 24-stündigen Infusion etwa 7–9 Tage anhält.",
+  "kontraindikationen": [
+    {
+      "text": "Bedeutsame mechanische Behinderung der Füllung oder des Auswurfs der Herzkammern",
+      "ids": [
+        "herzklappenerkrankung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hypotonie und Tachykardie",
+      "ids": [
+        "hypotonie",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Torsade de pointes in der Vorgeschichte",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Niedriger Ausgangsblutdruck oder Volumenmangel: starker Blutdruckabfall möglich – Volumen vorher ausgleichen",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Kaliummangel vor Beginn ausgleichen; Kalium während der Behandlung kontrollieren",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Herzrasen, Vorhofflimmern mit schneller Kammerfrequenz oder lebensbedrohliche Rhythmusstörungen",
+      "ids": [
+        "tachykardie",
+        "vorhofflimmern",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder gleichzeitige QT-verlängernde Mittel",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit mit akuter Durchblutungsstörung",
+      "ids": [
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Nieren- oder Leberinsuffizienz: Anreicherung des aktiven Metaboliten, länger anhaltende Wirkung",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutarmut: der Hämoglobinwert kann sinken",
+      "ids": [
+        "anaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nitrate, insbesondere Isosorbidmononitrat",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "effekt": "Deutlich verstärkter Blutdruckabfall beim Aufstehen (orthostatische Hypotonie) – Blutdruck eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere blutdrucksenkende und gefässerweiternde Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für einen Blutdruckabfall.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung möglich – EKG überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Kaliumabfall mit erhöhtem Risiko für Rhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Hypotonie (Blutdruckabfall)",
+      "Ventrikuläre Tachykardie (Kammerherzrasen)"
+    ],
+    "haeufig": [
+      "Hypokaliämie (Kaliummangel)",
+      "Schlaflosigkeit",
+      "Schwindel",
+      "Vorhofflimmern, Herzrasen, Extrasystolen",
+      "Verschlechterung der Herzinsuffizienz, Durchblutungsstörung des Herzmuskels (Myokardischämie)",
+      "Übelkeit, Erbrechen, Verstopfung, Durchfall",
+      "Verminderter Hämoglobinwert"
+    ],
+    "unbekannt": [
+      "Kammerflimmern"
+    ]
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen, in Tierstudien fortpflanzungsschädigend; nur anwenden, wenn der Nutzen das Risiko für das Ungeborene überwiegt.",
+  "stillzeit": "Der aktive Metabolit kann in die Muttermilch übergehen; während und bis 14 Tage nach der Infusion nicht stillen.",
+  "hinweise": [
+    "Wird nur im Spital als Infusion unter Überwachung von EKG, Blutdruck, Herzfrequenz und Urinmenge gegeben.",
+    "Wegen des lange wirksamen Metaboliten werden Blutdruck, EKG und Kalium auch einige Tage nach Ende der Infusion kontrolliert."
+  ],
+  "stand": "2026-10"
+}

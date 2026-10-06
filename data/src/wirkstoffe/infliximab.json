@@ -1,0 +1,242 @@
+{
+  "id": "infliximab",
+  "name": "Infliximab",
+  "synonyme": [
+    "Anti-TNF-alpha-Antikörper"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L04AB02"
+  ],
+  "klasse": "TNF-alpha-Hemmer (chimärer monoklonaler Antikörper); Biologikum",
+  "kurz": "Antikörper gegen den Entzündungsbotenstoff TNF-alpha; als Infusion oder Spritze bei Morbus Crohn, Colitis ulcerosa, Rheuma und Psoriasis.",
+  "gruppen": [
+    "tnf-alpha-hemmer",
+    "immunsuppressiv",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Remicade",
+    "Inflectra",
+    "Remsima"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver für ein Konzentrat zur Herstellung einer Infusionslösung",
+    "Injektionslösung zur subkutanen Anwendung (Fertigpen, Fertigspritze)"
+  ],
+  "indikationen": [
+    {
+      "text": "Rheumatoide Arthritis (zusammen mit Methotrexat)",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Morbus Crohn, auch mit Fisteln (Erwachsene und Kinder ab 6 Jahren)",
+      "ids": [
+        "morbus-crohn"
+      ]
+    },
+    {
+      "text": "Colitis ulcerosa (Erwachsene und Kinder ab 6 Jahren)",
+      "ids": [
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Morbus Bechterew und Psoriasis-Arthritis",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Plaque-Psoriasis",
+      "ids": [
+        "psoriasis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst Entzündungen im Darm, in Gelenken und in der Haut, indem es einen zentralen Entzündungsbotenstoff ausschaltet. Infliximab ist ein chimärer (Maus-Mensch-)monoklonaler IgG1-Antikörper, der lösliches und membrangebundenes TNF-alpha mit hoher Affinität bindet. Dadurch wird die TNF-vermittelte Entzündungskaskade unterbrochen, und TNF-produzierende Immunzellen werden teilweise abgebaut. Zugleich wird die Abwehr gegen Infektionen, besonders Tuberkulose, geschwächt.",
+  "kontraindikationen": [
+    {
+      "text": "Tuberkulose oder andere schwere Infektionen wie Sepsis, Abszesse und opportunistische Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Herzinsuffizienz (NYHA III/IV)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Maus-Proteine",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Latente Tuberkulose: vor Beginn ausschliessen bzw. vorbeugend behandeln",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Trägerinnen und -Träger (Reaktivierung möglich)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Leichte Herzinsuffizienz (Verschlechterung möglich)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Multiple Sklerose oder andere demyelinisierende Erkrankungen",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Krebs, Lymphom oder Dysplasie in der Vorgeschichte; junge Männer unter zusätzlicher Thiopurin-Therapie (hepatosplenisches T-Zell-Lymphom)",
+      "ids": [
+        "krebs",
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen, besonders nach längerer Therapiepause (verzögerte Überempfindlichkeit möglich)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen (seltene schwere Leberschäden)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Anakinra und Abatacept",
+      "ref": [
+        "anakinra",
+        "abatacept"
+      ],
+      "effekt": "Mehr schwere Infektionen ohne Zusatznutzen – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Biologika und JAK-Hemmer",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer",
+        "gruppe:jak-hemmer"
+      ],
+      "effekt": "Additive Immunsuppression mit erhöhtem Infektionsrisiko – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – keine Lebendimpfungen während der Behandlung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Therapeutische Bakterien wie BCG zur Blasenspülung",
+      "ref": [
+        "bcg-intravesikal"
+      ],
+      "effekt": "Gefahr einer verbreiteten Infektion – nicht gleichzeitig anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azathioprin und Mercaptopurin",
+      "ref": [
+        "gruppe:thiopurine"
+      ],
+      "effekt": "Seltenes, meist tödliches hepatosplenisches T-Zell-Lymphom v. a. bei jungen Männern beobachtet – Nutzen der Kombination sorgfältig abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat und andere Immunsuppressiva",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Vermindern die Bildung von Antikörpern gegen Infliximab (erwünscht), erhöhen aber das Infektionsrisiko.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Virusinfektionen (z. B. Grippe, Herpes)",
+      "Infektionen der oberen Atemwege, Nasennebenhöhlenentzündung",
+      "Kopfschmerzen",
+      "Bauchschmerzen, Übelkeit",
+      "Infusionsreaktionen (Fieber, Schüttelfrost, Juckreiz, Atemnot während oder kurz nach der Infusion)"
+    ],
+    "haeufig": [
+      "Bakterielle Infektionen (z. B. Sepsis, Abszesse, Zellulitis)",
+      "Neutropenie, Leukopenie, Anämie",
+      "Depression, Schlaflosigkeit, Schwindel",
+      "Herzrasen, Blutdruckveränderungen, Hitzewallungen",
+      "Durchfall, Verstopfung, Verdauungsbeschwerden",
+      "Erhöhte Leberwerte",
+      "Neue oder verschlechterte Psoriasis, Ausschlag, Nesselsucht",
+      "Gelenk- und Muskelschmerzen, Brustschmerzen, Müdigkeit, Fieber"
+    ],
+    "gelegentlich": [
+      "Tuberkulose, Pilzinfektionen",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Lupus-ähnliches Syndrom",
+      "Verschlechterung einer Herzinsuffizienz, Herzrhythmusstörungen",
+      "Interstitielle Lungenerkrankung, Lungenödem",
+      "Hepatitis (Leberentzündung)",
+      "Krampfanfälle, Neuropathie (Nervenschädigung)"
+    ],
+    "selten": [
+      "Lymphom",
+      "Demyelinisierende Erkrankungen (z. B. Multiple Sklerose, Sehnerventzündung, Guillain-Barré-Syndrom)",
+      "Autoimmune Hepatitis",
+      "Vaskulitis (Gefässentzündung)",
+      "Toxische epidermale Nekrolyse, Stevens-Johnson-Syndrom",
+      "Agranulozytose (fast völliges Fehlen bestimmter weisser Blutkörperchen)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hepatosplenisches T-Zell-Lymphom",
+      "Leberversagen, Hepatitis-B-Reaktivierung",
+      "Melanom, Merkelzellkarzinom",
+      "Herzinfarkt oder Durchblutungsstörung des Herzens sowie vorübergehender Sehverlust während oder kurz nach der Infusion"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung. Infliximab passiert die Plazenta und ist bis zu 12 Monate nach der Geburt im Blut des Kindes nachweisbar; in dieser Zeit keine Lebendimpfungen beim Säugling.",
+  "stillzeit": "Geht in sehr geringen Mengen in die Muttermilch über; Stillen ist nach ärztlicher Abwägung möglich. Lebendimpfungen des gestillten Säuglings ärztlich besprechen.",
+  "hinweise": [
+    "Vor Beginn auf Tuberkulose und Hepatitis B testen und den Impfstatus vervollständigen lassen.",
+    "Infusionen erfolgen unter Überwachung; Fieber, Atemnot oder Ausschlag auch Tage nach der Infusion melden.",
+    "Bei Infektzeichen (Fieber, Husten, Brennen beim Wasserlassen) rasch ärztlich abklären lassen.",
+    "Regelmässige Hautkontrollen und Sonnenschutz (Hautkrebsrisiko)."
+  ],
+  "stand": "2026-10"
+}

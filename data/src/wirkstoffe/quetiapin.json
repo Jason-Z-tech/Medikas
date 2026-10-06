@@ -1,0 +1,257 @@
+{
+  "id": "quetiapin",
+  "name": "Quetiapin",
+  "synonyme": [
+    "Quetiapine",
+    "Quetiapinfumarat"
+  ],
+  "atc": [
+    "N05AH04"
+  ],
+  "klasse": "Atypisches Antipsychotikum (Dibenzothiazepin)",
+  "kurz": "Atypisches Antipsychotikum bei Schizophrenie und bipolarer Störung (Manie und Depression); als Retardform auch Zusatz bei Depression.",
+  "gruppen": [
+    "antipsychotika",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "anticholinerg",
+    "blutdrucksenkend",
+    "hyperglykaemie-ausloesend",
+    "krampfschwellensenkend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Seroquel",
+    "Seroquel XR",
+    "Sequase"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schizophrenie",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung: mittelschwere bis schwere manische Episoden, depressive Episoden sowie Vorbeugung von Rückfällen",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Zusatzbehandlung bei Depression (Major Depression), wenn ein Antidepressivum allein nicht ausreicht (Retardtabletten)",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft psychotische und manische Beschwerden, stabilisiert die Stimmung und wirkt beruhigend. Quetiapin blockiert Serotonin-5-HT2A- und, schwächer und nur kurz, Dopamin-D2-Rezeptoren, weshalb Bewegungsstörungen selten sind. Die starke Histamin-H1-Blockade erklärt die Müdigkeit, die Alpha-1-Blockade den Blutdruckabfall. Der aktive Metabolit Norquetiapin hemmt zusätzlich die Noradrenalin-Wiederaufnahme; der Abbau erfolgt über CYP3A4.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, v. a. bei jungen Erwachsenen mit Depression",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz: erhöhte Sterblichkeit und erhöhtes Schlaganfallrisiko",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, verlängerte QT-Zeit, Neigung zu tiefem Blutdruck",
+      "ids": [
+        "qt-verlaengerung",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Diabetes, Übergewicht, erhöhte Blutfette",
+      "ids": [
+        "diabetes",
+        "adipositas",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schlafapnoe",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Missbrauch oder Abhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Harnverhalt, vergrösserte Prostata, Engwinkelglaukom",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Schluckstörungen (Gefahr des Verschluckens)",
+      "ids": [
+        "schluckstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "CYP3A4-Hemmer wie HIV-Proteasehemmer, Azol-Antimykotika (z. B. Ketoconazol, Itraconazol), Erythromycin, Clarithromycin",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:azol-antimykotika",
+        "erythromycin",
+        "clarithromycin"
+      ],
+      "grund": "Der Quetiapin-Spiegel steigt um ein Vielfaches (mit Ketoconazol etwa 5- bis 8-fach) – starke Sedierung, Blutdruckabfall und Herzrhythmusstörungen möglich."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Phenytoin, Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Quetiapin-Spiegel sinkt stark – Wirkverlust; Kombination meiden oder Dosis deutlich anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Fluconazol) und Grapefruitsaft",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Quetiapin-Spiegel steigt – Dosis ggf. senken; Grapefruitsaft meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung und Atemdepression.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Weitere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Nebenwirkungen wie Harnverhalt, Verstopfung und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Etwas häufiger Bewegungsstörungen (extrapyramidale Symptome).",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Schwindel, Kopfschmerzen",
+      "Mundtrockenheit",
+      "Gewichtszunahme",
+      "Erhöhte Triglyceride und Cholesterin, erniedrigtes HDL",
+      "Erniedrigtes Hämoglobin",
+      "Extrapyramidale Störungen (Bewegungsstörungen)",
+      "Absetzsymptome (Schlaflosigkeit, Übelkeit, Kopfschmerzen, Durchfall, Erbrechen)"
+    ],
+    "haeufig": [
+      "Erhöhter Blutzucker, gesteigerter Appetit",
+      "Herzrasen, Herzklopfen, orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Verstopfung, Verdauungsbeschwerden, Erbrechen",
+      "Leukopenie, verminderte Neutrophile",
+      "Erhöhtes Prolaktin, erniedrigte Schilddrüsenhormone",
+      "Suizidgedanken, abnorme Träume, Reizbarkeit",
+      "Verschwommenes Sehen, Atemnot",
+      "Periphere Ödeme, Fieber, Schwäche, erhöhte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle",
+      "Restless-Legs-Syndrom, Spätdyskinesien",
+      "Ohnmacht (Synkope)",
+      "QT-Verlängerung, Bradykardie",
+      "Thrombozytopenie, Anämie",
+      "Hyponatriämie, Diabetes",
+      "Harnverhalt, sexuelle Funktionsstörungen",
+      "Schluckstörungen"
+    ],
+    "selten": [
+      "Agranulozytose",
+      "Malignes neuroleptisches Syndrom",
+      "Venöse Thromboembolie",
+      "Pankreatitis, Darmverschluss",
+      "Hepatitis, Gelbsucht",
+      "Priapismus, Milchfluss",
+      "Schlafwandeln"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie, Angioödem",
+      "Stevens-Johnson-Syndrom (schwere Hautreaktion)",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "SIADH (Natriummangel durch zu viel antidiuretisches Hormon)"
+    ],
+    "unbekannt": [
+      "Toxische epidermale Nekrolyse, DRESS",
+      "Kardiomyopathie, Myokarditis",
+      "Entzugssymptome und Bewegungsstörungen beim Neugeborenen"
+    ]
+  },
+  "schwangerschaft": "Daten aus dem ersten Drittel zeigen bisher kein erhöhtes Fehlbildungsrisiko, sind aber begrenzt. Nur anwenden, wenn der Nutzen das Risiko überwiegt; nach Einnahme im letzten Drittel sind beim Neugeborenen Bewegungsstörungen und Entzugssymptome möglich.",
+  "stillzeit": "Quetiapin geht in geringen Mengen in die Muttermilch über. Nur nach ärztlicher Abwägung stillen.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, ohne Mahlzeit oder mit einer leichten Mahlzeit; Grapefruitsaft meiden.",
+    "Nicht abrupt absetzen, sondern über mindestens 1–2 Wochen ausschleichen.",
+    "Gewicht, Blutzucker und Blutfette regelmässig kontrollieren; Fahrtüchtigkeit und Alkoholverträglichkeit sind vermindert.",
+    "Kann Urin-Drogentests auf Methadon oder trizyklische Antidepressiva falsch positiv machen."
+  ],
+  "stand": "2026-10"
+}

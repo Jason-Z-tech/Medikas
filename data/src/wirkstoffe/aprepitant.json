@@ -1,0 +1,74 @@
+{
+  "id": "aprepitant",
+  "name": "Aprepitant",
+  "synonyme": ["Aprepitantum", "MK-0869"],
+  "atc": ["A04AD12"],
+  "klasse": "Antiemetikum (Neurokinin-1-Rezeptorantagonist)",
+  "kurz": "Kapseln gegen Übelkeit und Erbrechen bei Chemotherapie, kombiniert mit einem Setron und Dexamethason; beeinflusst viele andere Medikamente.",
+  "gruppen": ["maessige-cyp3a4-hemmer", "cyp3a4-substrate-empfindlich", "enzyminduktoren-hormone"],
+  "handelsnamen": ["Emend"],
+  "abgabe": ["B"],
+  "darreichung": ["Kapseln"],
+  "indikationen": [
+    { "text": "Vorbeugung von akuter und verzögerter Übelkeit und Erbrechen bei stark oder mässig brechreizauslösender Chemotherapie, in Kombination mit einem 5-HT3-Antagonisten und Dexamethason (Erwachsene und Jugendliche ab 12 Jahren)", "ids": ["uebelkeit", "krebs"] }
+  ],
+  "wirkmechanismus": "Unterdrückt vor allem den verzögerten Brechreiz, der in den Tagen nach einer Chemotherapie auftritt. Aprepitant blockiert im Gehirn selektiv die Neurokinin-1-(NK1-)Rezeptoren, an denen der Botenstoff Substanz P Erbrechen auslöst. Es ergänzt damit die Wirkung von 5-HT3-Antagonisten (Setronen) und Dexamethason. Aprepitant wird über CYP3A4 abgebaut, hemmt dieses Enzym während der 3-tägigen Behandlung mässig und induziert danach CYP3A4 und CYP2C9 für einige Wochen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Schwere Einschränkung der Leberfunktion: kaum Erfahrungen", "ids": ["leberinsuffizienz"] },
+    { "text": "Gleichzeitige Behandlung mit Medikamenten, die über CYP3A4 abgebaut werden – besonders mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus, Fentanyl, Ergotalkaloide)", "ids": ["transplantation"] },
+    { "text": "Frauen, die hormonell verhüten: Schutz während und bis 2 Monate nach der Behandlung vermindert", "ids": ["verhuetung", "frauen-gebaerfaehig"] },
+    { "text": "Behandlung mit Vitamin-K-Antagonisten: INR-Kontrollen nötig", "ids": ["thromboseprophylaxe"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Pimozid, Terfenadin, Astemizol, Cisaprid", "ref": [], "grund": "Aprepitant hemmt deren Abbau über CYP3A4 – erhöhte Spiegel können lebensbedrohliche Herzrhythmusstörungen (QT-Verlängerung) auslösen." }
+  ],
+  "interaktionen": [
+    { "text": "Dexamethason und Methylprednisolon", "ref": ["dexamethason", "methylprednisolon"], "effekt": "Spiegel der Kortikosteroide steigen deutlich – orale Dexamethason-Dosis im Antiemese-Schema um etwa die Hälfte reduzieren; Methylprednisolon i. v. um etwa ein Viertel, oral um die Hälfte.", "schwere": "schwer" },
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Aprepitant-Spiegel stark gesenkt, Wirkung ungenügend – Kombination vermeiden.", "schwere": "schwer" },
+    { "text": "Empfindliche CYP3A4-Substrate (z. B. Ciclosporin, Tacrolimus, Sirolimus, Everolimus, Fentanyl, Midazolam, Ergotalkaloide)", "ref": ["gruppe:cyp3a4-substrate-empfindlich", "ciclosporin", "tacrolimus", "sirolimus", "everolimus", "fentanyl", "midazolam", "gruppe:ergotalkaloide"], "effekt": "Höhere Spiegel dieser Mittel mit Gefahr von Nebenwirkungen – Vorsicht, Spiegel bzw. Wirkung überwachen.", "schwere": "schwer" },
+    { "text": "Hormonale Verhütungsmittel", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Verhütungsschutz während und bis 2 Monate nach der letzten Dosis vermindert – zusätzlich nicht hormonell verhüten.", "schwere": "schwer" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Mehrfach höhere Aprepitant-Spiegel – nur mit Vorsicht kombinieren.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol, Warfarin)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Abschwächung der Gerinnungshemmung durch CYP2C9-Induktion – INR in den 2 Wochen nach jeder Aprepitant-Behandlung kontrollieren, besonders nach 7–10 Tagen.", "schwere": "mittel" },
+    { "text": "Chemotherapeutika, die über CYP3A4 abgebaut werden (z. B. Docetaxel, Paclitaxel, Etoposid, Irinotecan, Ifosfamid, Vinorelbin, Vincristin)", "ref": ["docetaxel", "paclitaxel", "etoposid", "irinotecan", "ifosfamid", "vinorelbin", "vincristin"], "effekt": "Möglicherweise höhere Spiegel und mehr Toxizität – Vorsicht und zusätzliche Überwachung.", "schwere": "mittel" },
+    { "text": "Benzodiazepine wie Midazolam, Alprazolam, Triazolam", "ref": ["midazolam", "alprazolam", "triazolam"], "effekt": "Verstärkte und verlängerte Sedierung.", "schwere": "mittel" },
+    { "text": "Phenytoin und andere CYP2C9-Substrate", "ref": ["phenytoin", "gruppe:cyp2c9-substrate-eng"], "effekt": "Spiegel können sinken – bei Phenytoin Spiegel kontrollieren.", "schwere": "leicht" },
+    { "text": "Diltiazem", "ref": ["diltiazem"], "effekt": "Gegenseitig erhöhte Spiegel; Blutdruck kann stärker sinken.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Schluckauf",
+      "Müdigkeit (Fatigue)",
+      "Appetitlosigkeit",
+      "Obstipation (Verstopfung)",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Kopfschmerzen",
+      "Erhöhte Leberwerte (ALT)"
+    ],
+    "gelegentlich": [
+      "Schwindel, Schläfrigkeit, Angst",
+      "Bauchschmerzen, Aufstossen, Mundtrockenheit, Blähungen, Übelkeit",
+      "Herzklopfen, Hitzewallungen",
+      "Hautausschlag, Akne",
+      "Schmerzen beim Wasserlassen",
+      "Febrile Neutropenie, Anämie (Blutarmut)"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Langsamer Puls (Bradykardie)"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis zur Anaphylaxie",
+      "Angioödem, Nesselsucht, Juckreiz"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur anwenden, wenn es klar notwendig ist. Hormonelle Verhütung kann während und bis 2 Monate nach der Einnahme unzuverlässig sein.",
+  "stillzeit": "Nicht bekannt, ob Aprepitant in die Muttermilch übergeht; Stillen während der Behandlung wird nicht empfohlen.",
+  "hinweise": [
+    "Üblicherweise 3 Tage: 1 Stunde vor der Chemotherapie am Tag 1, dann je morgens an Tag 2 und 3; mit oder ohne Essen.",
+    "Bis 2 Monate nach der letzten Dosis zusätzlich nicht hormonell verhüten (z. B. Kondom).",
+    "Wer Phenprocoumon oder einen anderen Vitamin-K-Antagonisten nimmt: INR in den Wochen danach kontrollieren lassen.",
+    "Alle anderen Medikamente angeben – Aprepitant verändert die Spiegel vieler Arzneimittel."
+  ],
+  "stand": "2026-10"
+}

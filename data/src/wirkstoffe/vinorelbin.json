@@ -1,0 +1,249 @@
+{
+  "id": "vinorelbin",
+  "name": "Vinorelbin",
+  "synonyme": [
+    "Vinorelbine",
+    "Vinorelbintartrat"
+  ],
+  "atc": [
+    "L01CA04"
+  ],
+  "klasse": "Zytostatikum; Vinca-Alkaloid (Mitosehemmer)",
+  "kurz": "Chemotherapie-Mittel (Vinca-Alkaloid) gegen nicht-kleinzelligen Lungenkrebs und fortgeschrittenen Brustkrebs; als Infusion oder Kapsel.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "neuropathie-ausloesend",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Navelbine"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung",
+    "Weichkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht-kleinzelliger Lungenkrebs (NSCLC), allein oder in Kombination mit anderen Krebsmitteln",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener oder metastasierter Brustkrebs, z. B. nach Versagen einer anthrazyklinhaltigen Chemotherapie",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Teilung von Krebszellen, indem es den Aufbau des Zellteilungsapparats stört. Vinorelbin ist ein halbsynthetisches Vinca-Alkaloid, das an Tubulin bindet und die Polymerisation der Mikrotubuli hemmt. Dadurch kann sich die Mitosespindel nicht ausbilden; die Zellen werden in der Metaphase (G2/M-Phase) blockiert und sterben ab. Die Wirkung auf die Mikrotubuli der Nervenzellen erklärt die Nervenschäden.",
+  "kontraindikationen": [
+    {
+      "text": "Neutrophile Granulozyten unter 1500/mm³ oder schwere Infektion (aktuell oder in den letzten 2 Wochen)",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Thrombozyten unter 100'000/mm³",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Kapseln: schwere Leberinsuffizienz sowie Erkrankungen oder grössere Operationen an Magen oder Dünndarm, welche die Aufnahme beeinträchtigen",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "malabsorption"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Fieber, Schüttelfrost oder Halsschmerzen während der Behandlung: sofort ärztliche Abklärung (Gefahr einer Blutvergiftung bei Neutropenie)",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit (seltene Herzinfarkte und Angina pectoris)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Vorbestehende Nervenschäden (periphere Neuropathie)",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Starke Verstopfung oder Darmlähmung (Ileus) in der Vorgeschichte",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen; neu auftretender Husten oder Atemnot sofort abklären (interstitielle Lungenerkrankung)",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfstoff",
+      "ref": [
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Bei durch die Chemotherapie geschwächter Abwehr kann der Lebendimpfstoff eine generalisierte, möglicherweise tödliche Impfinfektion auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Vinorelbin-Spiegel – mehr Neutropenie und Nervenschäden. Kombination möglichst vermeiden, sonst eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer generalisierten Impfinfektion – nicht empfohlen; wenn möglich inaktivierte Impfstoffe verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Zytostatika vermindern die Aufnahme von Phenytoin aus dem Darm – Krampfanfälle möglich. Kombination nicht empfohlen, sonst Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Schnellerer Abbau – die Wirkung von Vinorelbin kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mitomycin",
+      "ref": [
+        "mitomycin"
+      ],
+      "effekt": "Erhöhtes Risiko für Bronchospasmus und Atemnot, selten interstitielle Lungenentzündung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cisplatin und andere knochenmarkhemmende Mittel",
+      "ref": [
+        "cisplatin",
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Häufiger und stärkere Neutropenie – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lapatinib",
+      "ref": [
+        "lapatinib"
+      ],
+      "effekt": "Häufiger schwere Neutropenie – Blutbild überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Übermässige Immunsuppression mit Gefahr von Infektionen und Lymphoproliferation.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende INR-Werte unter Chemotherapie – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung: Neutropenie (Mangel an weissen Blutkörperchen) und Anämie (Blutarmut)",
+      "Neurologische Störungen, v. a. abgeschwächte Sehnenreflexe",
+      "Übelkeit und Erbrechen",
+      "Obstipation (Verstopfung)",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Haarausfall",
+      "Erhöhte Leberwerte",
+      "Reaktionen an der Injektionsstelle (Rötung, Schmerz, Venenentzündung)"
+    ],
+    "haeufig": [
+      "Infektionen (bakteriell, viral oder durch Pilze)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Durchfall",
+      "Gelenk- und Muskelschmerzen, auch Kieferschmerzen",
+      "Erschöpfung (Asthenie), Fieber",
+      "Schmerzen, auch im Brustkorb und im Tumorbereich"
+    ],
+    "gelegentlich": [
+      "Sepsis (Blutvergiftung)",
+      "Schwere Parästhesien (Kribbeln, Taubheit) und Muskelschwäche",
+      "Atemnot und Bronchospasmus (Verkrampfung der Atemwege)",
+      "Blutdruckabfall oder -anstieg, Hitzegefühl"
+    ],
+    "selten": [
+      "Darmlähmung (paralytischer Ileus)",
+      "Herzinfarkt, Angina pectoris",
+      "Interstitielle Lungenerkrankung",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Gewebsnekrose bei Austritt der Infusion ins Gewebe (Paravasat)"
+    ],
+    "sehrSelten": [
+      "Guillain-Barré-Syndrom (aufsteigende Lähmung)"
+    ],
+    "unbekannt": [
+      "Febrile Neutropenie, septischer Schock",
+      "Hyponatriämie (Natriummangel) durch SIADH"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; in der Schwangerschaft nur bei zwingender Indikation. Frauen und Männer müssen während und noch mehrere Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – vor Behandlungsbeginn abstillen.",
+  "hinweise": [
+    "Die Infusion darf nur in die Vene gegeben werden – eine Gabe in den Rückenmarkskanal (intrathekal) ist tödlich.",
+    "Vor jeder Gabe wird das Blutbild kontrolliert; bei Fieber, Schüttelfrost oder Halsschmerzen sofort ärztliche Hilfe holen.",
+    "Kapseln unzerkaut mit Wasser zu einer leichten Mahlzeit schlucken, nicht lutschen; beschädigte Kapseln nicht berühren (reizend).",
+    "Verstopfung vorbeugen (Flüssigkeit, Abführmittel nach Rücksprache); bei Bauchschmerzen ohne Stuhlgang Arzt informieren."
+  ],
+  "stand": "2026-10"
+}

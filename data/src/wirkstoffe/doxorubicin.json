@@ -1,0 +1,259 @@
+{
+  "id": "doxorubicin",
+  "name": "Doxorubicin",
+  "synonyme": [
+    "Doxorubicinhydrochlorid",
+    "Adriamycin",
+    "Pegyliertes liposomales Doxorubicin"
+  ],
+  "atc": [
+    "L01DB01"
+  ],
+  "klasse": "Zytostatikum; zytotoxisches Antibiotikum (Anthrazyklin)",
+  "kurz": "Chemotherapie-Mittel aus der Gruppe der Anthrazykline gegen viele Krebsarten, u. a. Brustkrebs, Lymphome, Leukämien und Sarkome.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Adriblastin",
+    "Caelyx"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Pulver zur Herstellung einer Injektionslösung",
+    "Liposomales Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Brustkrebs; liposomal (Caelyx) bei metastasiertem Brustkrebs mit erhöhtem Herzrisiko",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Hodgkin- und Non-Hodgkin-Lymphome, akute Leukämien",
+      "ids": [
+        "lymphom",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Weichteil- und Knochensarkome",
+      "ids": [
+        "sarkom"
+      ]
+    },
+    {
+      "text": "Lungen-, Harnblasen- (auch als Blasenspülung), Schilddrüsen- und Hodenkrebs",
+      "ids": [
+        "lungenkrebs",
+        "nierenkrebs",
+        "kopf-hals-krebs",
+        "hodenkrebs"
+      ]
+    },
+    {
+      "text": "Gynäkologische Tumoren; liposomal bei fortgeschrittenem Eierstockkrebs",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Liposomal: multiples Myelom (mit Bortezomib) und Kaposi-Sarkom bei AIDS",
+      "ids": [
+        "multiples-myelom",
+        "sarkom",
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt das Erbgut von Krebszellen und verhindert so deren Teilung. Doxorubicin lagert sich zwischen die DNA-Basenpaare ein (Interkalation), hemmt die Topoisomerase II und führt zu DNA-Strangbrüchen; zudem entstehen freie Sauerstoffradikale. Die Radikalbildung im Herzmuskel gilt als Hauptursache der dosisabhängigen Herzschädigung. In pegylierten Liposomen verpackt (Caelyx) zirkuliert der Wirkstoff länger, reichert sich stärker im Tumorgewebe an und schädigt das Herz weniger.",
+  "kontraindikationen": [
+    {
+      "text": "Anhaltende Knochenmarkhemmung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz, frischer Herzinfarkt, schwere Herzrhythmusstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Vorbehandlung mit der maximalen kumulativen Dosis von Doxorubicin oder anderen Anthrazyklinen",
+      "ids": []
+    },
+    {
+      "text": "Blasenspülung: in die Blasenwand eingewachsene Tumoren, Harnwegsinfekt, Blasenentzündung, Blut im Urin",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzerkrankungen, frühere Bestrahlung des Brustkorbs, Vorbehandlung mit Trastuzumab oder anderen herzschädigenden Mitteln: Herzfunktion vor und während der Behandlung kontrollieren",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und ältere Menschen (empfindlicheres Herz)",
+      "ids": [
+        "kinder",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Rasch wachsende Tumoren: Tumorlyse-Syndrom (Anstieg der Harnsäure)",
+      "ids": []
+    },
+    {
+      "text": "Austritt der Lösung ins Gewebe (Paravasat) verursacht schwere Gewebeschäden",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Trastuzumab",
+      "ref": [
+        "trastuzumab"
+      ],
+      "effekt": "Deutlich erhöhtes Risiko für Herzschwäche; nach Trastuzumab wenn möglich bis 7 Monate keine Anthrazykline, sonst Herzfunktion eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Paclitaxel",
+      "ref": [
+        "paclitaxel"
+      ],
+      "effekt": "Wird Paclitaxel vor Doxorubicin gegeben, steigen die Doxorubicin-Spiegel – mehr Herzschäden und Neutropenie. Doxorubicin zuerst geben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Geschwächte Abwehr – Gefahr einer Impfinfektion; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere herzschädigende oder herzwirksame Mittel (z. B. Calciumantagonisten)",
+      "ref": [
+        "gruppe:kardiotoxisch",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Mehr Herzschäden – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Höhere Doxorubicin-Spiegel und stärkere Knochenmarkhemmung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- und P-gp-Hemmer (z. B. Verapamil, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Höhere Doxorubicin-Spiegel möglich – mehr Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tiefere Doxorubicin-Spiegel – Wirkung kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cyclophosphamid",
+      "ref": [
+        "cyclophosphamid"
+      ],
+      "effekt": "Verstärkung einer hämorrhagischen (blutigen) Blasenentzündung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung: Leukopenie, Neutropenie, Anämie, Thrombozytopenie",
+      "Infektionen",
+      "Haarausfall (bei konventionellem Doxorubicin meist vollständig)",
+      "Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Mukositis, Stomatitis (Mund- und Schleimhautentzündung), Durchfall",
+      "Hand-Fuss-Syndrom (schmerzhafte Rötung von Handflächen und Fusssohlen, v. a. bei liposomalem Doxorubicin)",
+      "Fieber, Müdigkeit"
+    ],
+    "haeufig": [
+      "Kardiomyopathie, Herzschwäche (dosisabhängig, auch Jahre später)",
+      "Herzrasen, Herzrhythmusstörungen",
+      "Bindehautentzündung (Konjunktivitis)",
+      "Juckreiz, Hautausschlag, Verfärbung von Haut und Nägeln",
+      "Lokale Reaktionen und Venenentzündung an der Injektionsstelle"
+    ],
+    "unbekannt": [
+      "Akute myeloische Leukämie, myelodysplastisches Syndrom (Zweiterkrankung)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Thrombophlebitis, Thromboembolien",
+      "Gewebsnekrose bei Paravasat",
+      "Tumorlyse-Syndrom",
+      "Strahlen-Recall-Reaktion",
+      "Ausbleiben der Regelblutung, Unfruchtbarkeit"
+    ]
+  },
+  "schwangerschaft": "Fruchtschädigend; in der Schwangerschaft nur bei zwingender Indikation. Frauen und Männer müssen während und mehrere Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – Doxorubicin geht in die Muttermilch über.",
+  "hinweise": [
+    "Der Urin kann sich 1–2 Tage nach der Gabe rötlich verfärben – das ist harmlos.",
+    "Herzfunktion vor Beginn und regelmässig kontrollieren; Atemnot, Herzklopfen oder geschwollene Beine melden – auch Jahre nach der Behandlung.",
+    "Konventionelles und liposomales Doxorubicin (Caelyx) sind nicht austauschbar.",
+    "Schmerzen oder Brennen an der Infusionsstelle sofort melden (Gefahr eines Paravasats)."
+  ],
+  "stand": "2026-10"
+}

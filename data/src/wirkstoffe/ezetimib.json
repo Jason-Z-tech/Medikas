@@ -1,0 +1,71 @@
+{
+  "id": "ezetimib",
+  "name": "Ezetimib",
+  "synonyme": ["Ezetimibe", "Ezetimibum"],
+  "atc": ["C10AX09"],
+  "klasse": "Cholesterinresorptionshemmer (NPC1L1-Hemmer), Lipidsenker",
+  "kurz": "Cholesterinsenker, der die Aufnahme von Cholesterin aus dem Darm hemmt; meist zusätzlich zu einem Statin.",
+  "gruppen": [],
+  "handelsnamen": ["Ezetrol", "Ezetimib Sandoz", "Ezetimib-Mepha", "Inegy (Kombi)", "Atozet (Kombi)", "Nustendi (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Tabletten"],
+  "indikationen": [
+    { "text": "Erhöhtes Cholesterin (primäre Hypercholesterinämie): zusätzlich zu einem Statin oder allein, wenn Statine nicht vertragen werden oder ungeeignet sind", "ids": ["hypercholesterinaemie"] },
+    { "text": "Homozygote familiäre Hypercholesterinämie, zusammen mit einem Statin", "ids": ["hypercholesterinaemie"] },
+    { "text": "Homozygote Sitosterinämie (Phytosterinämie, seltene erbliche Stoffwechselkrankheit)", "ids": ["seltene-stoffwechselkrankheit"] },
+    { "text": "Senkung des Risikos für Herz-Kreislauf-Ereignisse bei koronarer Herzkrankheit mit akutem Koronarsyndrom in der Vorgeschichte, zusammen mit einem Statin", "ids": ["herzinfarkt", "koronare-herzkrankheit"] }
+  ],
+  "wirkmechanismus": "Senkt das Cholesterin, indem es dessen Aufnahme aus dem Darm bremst. Ezetimib hemmt das Transportprotein Niemann-Pick C1-Like 1 (NPC1L1) in der Dünndarmwand, über das Cholesterin aus Nahrung und Galle sowie Pflanzensterine aufgenommen werden. Dadurch gelangt weniger Cholesterin zur Leber; diese bildet mehr LDL-Rezeptoren und senkt so das LDL-Cholesterin im Blut. Zusammen mit einem Statin, das die Cholesterinbildung in der Leber hemmt, ergänzen sich die beiden Wirkprinzipien. Ezetimib wird zu einem ebenfalls wirksamen Glucuronid umgewandelt und nicht über CYP-Enzyme abgebaut.",
+  "kontraindikationen": [
+    { "text": "In Kombination mit einem Statin: aktive Lebererkrankung oder ungeklärte, anhaltend erhöhte Leberwerte", "ids": ["leberinsuffizienz"] },
+    { "text": "In Kombination mit einem Statin: Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Mässige bis schwere Leberinsuffizienz: Anwendung nicht empfohlen", "ids": ["leberinsuffizienz"] },
+    { "text": "Muskelbeschwerden: Myopathie und Rhabdomyolyse wurden berichtet, meist zusammen mit Statinen – bei Verdacht sofort absetzen", "ids": ["muskelerkrankung"] },
+    { "text": "Gallensteine, besonders bei gleichzeitiger Einnahme von Fenofibrat", "ids": ["gallensteine"] },
+    { "text": "Laktoseintoleranz (Tabletten enthalten Lactose)", "ids": ["laktoseintoleranz"] },
+    { "text": "Kinder unter 6 Jahren: nicht empfohlen", "ids": ["kinder"] }
+  ],
+  "interaktionen": [
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ezetimib-Spiegel steigt stark (bei Nierentransplantierten bis über 10-fach), Ciclosporin-Spiegel leicht – Ciclosporin-Spiegel überwachen.", "schwere": "schwer" },
+    { "text": "Gallensäurebinder (Colestyramin, Colesevelam)", "ref": ["colestyramin", "colesevelam"], "effekt": "Aufnahme von Ezetimib deutlich vermindert – Ezetimib mindestens 2 Stunden vor oder 4 Stunden nach dem Gallensäurebinder einnehmen.", "schwere": "mittel" },
+    { "text": "Fibrate", "ref": ["gruppe:fibrate"], "effekt": "Ezetimib-Spiegel steigt leicht, Gallensteinrisiko möglicherweise erhöht; untersucht ist nur die Kombination mit Fenofibrat.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Erhöhungen des INR wurden berichtet – INR zu Beginn kontrollieren.", "schwere": "mittel" },
+    { "text": "Statine", "ref": ["gruppe:statine"], "effekt": "Keine pharmakokinetische Wechselwirkung; Muskelbeschwerden und erhöhte Leberwerte unter der Kombination etwas häufiger.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Bauchschmerzen, Durchfall, Blähungen",
+      "Müdigkeit",
+      "In Kombination mit einem Statin: Kopfschmerzen, Muskelschmerzen, erhöhte Transaminasen (Leberwerte)"
+    ],
+    "gelegentlich": [
+      "Erhöhte Leberwerte (Gamma-GT, Transaminasen) und CK (Muskelenzym) unter Ezetimib allein",
+      "Husten",
+      "Verdauungsbeschwerden, Sodbrennen (Reflux), Übelkeit",
+      "Gelenkschmerzen, Muskelkrämpfe, Nackenschmerzen",
+      "Verminderter Appetit",
+      "Hitzewallungen, Bluthochdruck",
+      "Brustschmerzen, Schmerzen"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen: Anaphylaxie, Angioödem, Ausschlag, Nesselsucht; Erythema multiforme",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Myopathie, Rhabdomyolyse (Muskelzerfall)",
+      "Hepatitis, Gallensteine, Gallenblasenentzündung",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Schwindel, Kribbeln, Depression",
+      "Atemnot, Verstopfung, Schwäche"
+    ]
+  },
+  "schwangerschaft": "Allein nur bei eindeutiger Notwendigkeit (keine ausreichenden Daten); zusammen mit einem Statin kontraindiziert.",
+  "stillzeit": "Nicht anwenden – nicht bekannt, ob Ezetimib in die Muttermilch übergeht; zusammen mit einem Statin kontraindiziert.",
+  "hinweise": [
+    "Einmal täglich zu beliebiger Tageszeit, mit oder ohne Essen.",
+    "Bei Colestyramin oder Colesevelam Abstand einhalten: Ezetimib 2 Stunden vorher oder 4 Stunden nachher.",
+    "Cholesterinarme Ernährung und Bewegung fortsetzen; Blutfette und Leberwerte regelmässig kontrollieren.",
+    "Unerklärliche Muskelschmerzen oder -schwäche ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

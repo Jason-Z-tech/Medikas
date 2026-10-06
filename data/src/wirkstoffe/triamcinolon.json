@@ -1,0 +1,73 @@
+{
+  "id": "triamcinolon",
+  "name": "Triamcinolon",
+  "synonyme": ["Triamcinolonacetonid", "Triamcinolone", "Triamcinolone acetonide"],
+  "kombinationAus": [],
+  "atc": ["D07AB09", "H02AB08", "A01AC01", "R01AD11"],
+  "klasse": "Glukokortikoid (synthetisch): Depot-Kristallsuspension zur Injektion, Nasenspray, topisch mittelstark (Klasse II)",
+  "kurz": "Kortison als Depotspritze in Gelenk, Muskel oder Haut, als Nasenspray gegen Heuschnupfen und in Hautcremes gegen entzündliche Pilzinfektionen.",
+  "gruppen": ["glukokortikoide-systemisch", "glukokortikoide-topisch", "cyp3a4-substrate-empfindlich", "hypokaliaemie-ausloesend", "ulkusrisiko-erhoehend", "immunsuppressiv"],
+  "handelsnamen": ["Kenacort-A", "Triamcort", "Nasacort", "Pevisone (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Kristallsuspension zur Injektion (in Gelenk, Muskel oder Hautveränderung)", "Nasenspray", "Creme (Kombi mit Econazol)"],
+  "indikationen": [
+    { "text": "Entzündete Gelenke bei rheumatoider Arthritis oder aktivierter Arthrose, Schleimbeutel- und Sehnenscheidenentzündungen (Injektion in oder an das Gelenk)", "ids": ["rheumatoide-arthritis", "arthrose", "sehnenerkrankung"] },
+    { "text": "Umschriebene Hauterkrankungen wie Keloide (Wulstnarben), Lichen, chronische Ekzeme oder Psoriasis-Herde (Injektion in die Hautveränderung)", "ids": ["psoriasis", "neurodermitis"] },
+    { "text": "Kortisonbedürftige allergische und entzündliche Erkrankungen, wenn eine Langzeitwirkung erwünscht ist, z. B. schwerer Heuschnupfen (Injektion in den Muskel)", "ids": ["heuschnupfen", "allergie"] },
+    { "text": "Allergischer Schnupfen (Heuschnupfen, ganzjährige Allergie) (Nasenspray)", "ids": ["heuschnupfen"] },
+    { "text": "Entzündliche Pilzinfektionen der Haut (Kombination mit Econazol, Pevisone)", "ids": ["hautpilz"] }
+  ],
+  "wirkmechanismus": "Hemmt Entzündungen und allergische Reaktionen stark. Triamcinolon ist ein synthetisches Glukokortikoid, etwa fünfmal stärker entzündungshemmend als Cortisol und praktisch ohne salzbindende (mineralokortikoide) Wirkung. Es bindet an den Glukokortikoid-Rezeptor und unterdrückt die Bildung von Entzündungsbotenstoffen sowie die Aktivität von Immunzellen. Als schwer lösliche Kristallsuspension (Triamcinolonacetonid) wird es nach der Injektion über Wochen freigesetzt; im Nasenspray wirkt es vor allem örtlich.",
+  "kontraindikationen": [
+    { "text": "Infektion im oder am Gelenk bzw. an der Einstichstelle, instabiles Gelenk (Injektion ins Gelenk)", "ids": ["aktive-infektion"] },
+    { "text": "Systemische Pilzinfektionen und unbehandelte schwere Infektionen (Injektion)", "ids": ["pilzinfektion", "aktive-infektion"] },
+    { "text": "Idiopathische thrombozytopenische Purpura (Injektion in den Muskel)", "ids": ["thrombozytopenie"] },
+    { "text": "Frühgeborene und Neugeborene (die Injektionssuspension enthält Benzylalkohol)", "ids": ["kinder"] },
+    { "text": "Auf der Haut (Kombi-Creme): Herpes, Windpocken, Hauttuberkulose, Rosazea, periorale Dermatitis", "ids": ["herpes", "tuberkulose", "rosazea"] }
+  ],
+  "vorsicht": [
+    { "text": "Infektionen, auch ruhende Tuberkulose oder Herpes: können sich verschlimmern oder verschleiert werden", "ids": ["aktive-infektion", "tuberkulose", "herpes"] },
+    { "text": "Diabetes: Blutzucker kann nach einer Depotspritze über Tage bis Wochen steigen", "ids": ["diabetes"] },
+    { "text": "Bluthochdruck, Herzschwäche", "ids": ["hypertonie", "herzinsuffizienz"] },
+    { "text": "Magen-Darm-Geschwüre", "ids": ["magen-darm-ulkus"] },
+    { "text": "Osteoporose", "ids": ["osteoporose"] },
+    { "text": "Glaukom, Katarakt; verschwommenes Sehen augenärztlich abklären lassen", "ids": ["glaukom", "katarakt"] },
+    { "text": "Psychische Erkrankungen: Depression, Manie oder Psychose können ausgelöst oder verstärkt werden", "ids": ["depression", "bipolare-stoerung"] },
+    { "text": "Myasthenia gravis: Muskelschwäche kann vorübergehend zunehmen", "ids": ["myasthenia-gravis"] },
+    { "text": "Wiederholte Injektionen ins selbe Gelenk können Knorpel und Knochen schädigen; das Gelenk nach der Injektion einige Tage schonen", "ids": ["arthrose"] },
+    { "text": "Kinder: Wachstumshemmung bei längerer Anwendung möglich, auch bei Nasenspray Körpergrösse kontrollieren", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Starke CYP3A4-Hemmer, besonders HIV-Mittel mit Ritonavir oder Cobicistat, sowie Itraconazol, Ketoconazol, Clarithromycin", "ref": ["gruppe:starke-cyp3a4-hemmer", "ritonavir", "cobicistat"], "effekt": "Triamcinolon wird stark verzögert abgebaut: Schon nach einer einzelnen Gelenk- oder Muskelinjektion, auch mit Nasenspray, sind Cushing-Syndrom und Unterdrückung der Nebennieren beschrieben – Kombination möglichst vermeiden.", "schwere": "schwer" },
+    { "text": "Lebendimpfstoffe", "ref": ["gruppe:lebendimpfstoffe"], "effekt": "Bei immunsuppressiven Dosen keine Lebendimpfungen: Gefahr einer Impfinfektion und verminderte Impfantwort.", "schwere": "schwer" },
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Schnellerer Abbau, abgeschwächte Kortisonwirkung.", "schwere": "mittel" },
+    { "text": "NSAR und Acetylsalicylsäure", "ref": ["gruppe:nsar", "acetylsalicylsaeure"], "effekt": "Höheres Risiko für Magen-Darm-Geschwüre und -Blutungen.", "schwere": "mittel" },
+    { "text": "Kaliumsenkende Mittel (Diuretika, Amphotericin B) und Herzglykoside", "ref": ["gruppe:hypokaliaemie-ausloesend", "amphotericin-b", "gruppe:herzglykoside"], "effekt": "Verstärkter Kaliumverlust; Kaliummangel erhöht die Giftigkeit von Digoxin – Kalium kontrollieren.", "schwere": "mittel" },
+    { "text": "Blutzuckersenkende Mittel (Insuline, Sulfonylharnstoffe, Metformin u. a.)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Kortison erhöht den Blutzucker – nach einer Depotspritze Blutzucker häufiger kontrollieren, Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gerinnungshemmung kann verstärkt oder abgeschwächt werden – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, besonders bei älteren Menschen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Kopfschmerzen, Nasenbluten, Rachenentzündung (Nasenspray)"],
+    "unbekannt": [
+      "Cushing-Syndrom, Unterdrückung der Nebennierenfunktion und Zyklusstörungen (auch nach einer einzelnen Depotspritze möglich)",
+      "Erhöhter Blutzucker, Wassereinlagerungen, Bluthochdruck, Kaliummangel",
+      "Osteoporose, Muskelschwäche, Magen-Darm-Geschwüre bei wiederholter Anwendung",
+      "Hautverdünnung, Dellen und helle Flecken an der Einstichstelle; Gesichtsrötung (Flush) nach der Injektion",
+      "Vorübergehende Gelenkschmerzen und -schwellung nach der Injektion, Gelenkinfektion, Knochennekrose",
+      "Erhöhte Infektanfälligkeit; psychische Veränderungen wie Schlafstörungen, Stimmungsschwankungen, Psychose",
+      "Grauer oder grüner Star, verschwommenes Sehen",
+      "Anaphylaktische Reaktionen; Reizung und Trockenheit der Nase, selten Perforation der Nasenscheidewand (Nasenspray)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; Depotspritzen wirken lange und sollen in der Schwangerschaft möglichst vermieden werden. Nasenspray nur, wenn nötig (begrenzte Daten).",
+  "stillzeit": "Glukokortikoide gehen in die Muttermilch über: Depotinjektion nur nach ärztlicher Abwägung. Nasenspray in üblicher Dosis nach Abwägung möglich.",
+  "hinweise": [
+    "Die Kristallsuspension darf nur in Gelenke, Muskeln oder Gewebe gespritzt werden – nie in die Vene, in den Rückenmarkskanal oder ins Auge.",
+    "Nach einer Depotspritze wirkt das Kortison wochenlang: Bei Diabetes Blutzucker engmaschiger messen; vor Operationen die Spritze angeben.",
+    "HIV-Medikamente mit Ritonavir oder Cobicistat vor jeder Kortisonspritze unbedingt angeben.",
+    "Nasenspray: Die volle Wirkung setzt erst nach einigen Tagen ein; bei Kindern die niedrigste wirksame Dosis verwenden."
+  ],
+  "stand": "2026-10"
+}

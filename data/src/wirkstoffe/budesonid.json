@@ -1,0 +1,59 @@
+{
+  "id": "budesonid",
+  "name": "Budesonid",
+  "synonyme": ["Budesonide", "Budesonidum"],
+  "atc": ["A07EA06", "R03BA02", "R01AD05"],
+  "klasse": "Glukokortikoid (Kortison) mit vorwiegend örtlicher Wirkung in Darm, Speiseröhre, Atemwegen und Nase",
+  "kurz": "Kortison, das vor allem dort wirkt, wo es angewendet wird: bei Morbus Crohn, Colitis, Asthma und Heuschnupfen – mit weniger Ganzkörper-Nebenwirkungen.",
+  "gruppen": ["glukokortikoide-inhalativ", "cyp3a4-substrate-empfindlich"],
+  "handelsnamen": ["Entocort", "Budenofalk", "Cortiment", "Jorveza", "Pulmicort", "Rhinocort", "Miflonide", "Symbicort (Kombi)", "Trixeo (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Kapseln (magensaftresistent bzw. mit verzögerter Freisetzung)", "Retardtabletten", "Schmelztabletten", "Rektalschaum", "Klysma (Einlauf)", "Pulver zur Inhalation", "Suspension zur Inhalation (Vernebler)", "Nasenspray"],
+  "indikationen": [
+    { "text": "Leichter bis mittelschwerer Morbus Crohn mit Befall von Dünndarmende und/oder rechtem Dickdarm (Kapseln)", "ids": ["morbus-crohn"] },
+    { "text": "Mikroskopische (kollagene) Kolitis mit chronischem wässrigem Durchfall (Kapseln, je nach Präparat)", "ids": ["durchfall"] },
+    { "text": "Leichte bis mittelschwere aktive Colitis ulcerosa (Retardtabletten; Rektalschaum oder Klysma bei Befall von Enddarm und unterem Dickdarm)", "ids": ["colitis-ulcerosa"] },
+    { "text": "Eosinophile Ösophagitis (allergisch bedingte Entzündung der Speiseröhre) bei Erwachsenen (Schmelztabletten)", "ids": [] },
+    { "text": "Asthma bronchiale als entzündungshemmende Dauertherapie (Inhalation)", "ids": ["asthma"] },
+    { "text": "Allergischer Schnupfen (Heuschnupfen) und Nasenpolypen (Nasenspray)", "ids": ["heuschnupfen"] }
+  ],
+  "wirkmechanismus": "Dämpft Entzündungen direkt dort, wo es angewendet wird – im Darm, in der Speiseröhre, in den Bronchien oder in der Nase. Budesonid ist ein stark wirksames Glukokortikoid, das an den Glukokortikoidrezeptor in den Zellen bindet und die Bildung entzündungsfördernder Botenstoffe (Zytokine, Prostaglandine, Leukotriene) sowie die Einwanderung von Entzündungszellen hemmt. Nach dem Schlucken werden rund 85–90 % beim ersten Durchgang durch die Leber über CYP3A4 abgebaut, deshalb sind Kortison-Nebenwirkungen im ganzen Körper deutlich seltener als etwa bei Prednison. Spezielle Darreichungen setzen den Wirkstoff gezielt im Dünndarm oder Dickdarm frei.",
+  "kontraindikationen": [
+    { "text": "Leberzirrhose (Kapseln zum Einnehmen, je nach Präparat): stark erhöhte Budesonid-Spiegel im Blut", "ids": ["leberzirrhose"] }
+  ],
+  "vorsicht": [
+    { "text": "Infektionen wie Tuberkulose, Pilz-, Virus- oder bakterielle Infektionen; Windpocken oder Masern bei fehlender Immunität können schwer verlaufen", "ids": ["aktive-infektion", "tuberkulose", "masern-mumps-roeteln"] },
+    { "text": "Umstellung von Kortisontabletten: Gefahr einer Nebennierenschwäche, besonders bei Stress, Operationen oder Unfällen", "ids": ["nebenniereninsuffizienz", "operation"] },
+    { "text": "Eingeschränkte Leberfunktion (bei Einnahme): mehr Kortison-Nebenwirkungen möglich", "ids": ["leberinsuffizienz"] },
+    { "text": "Diabetes, Bluthochdruck, Osteoporose, Magengeschwüre (bei Einnahme über längere Zeit)", "ids": ["diabetes", "hypertonie", "osteoporose", "magen-darm-ulkus"] },
+    { "text": "Grüner oder grauer Star sowie Sehstörungen: Augenkontrolle bei verschwommenem Sehen", "ids": ["glaukom", "katarakt"] },
+    { "text": "Kinder unter Langzeittherapie: Körperlänge regelmässig kontrollieren", "ids": ["kinder"] },
+    { "text": "Asthma: nicht zur Behandlung eines akuten Anfalls geeignet; selten paradoxe Verkrampfung der Atemwege", "ids": ["asthma"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Cobicistat, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Budesonid-Spiegel steigen stark (mit Ketoconazol etwa auf das Achtfache) – Gefahr von Cushing-Syndrom und Nebennierenunterdrückung, auch bei Inhalation; Kombination vermeiden.", "schwere": "schwer" },
+    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Diltiazem, Verapamil, Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Budesonid-Spiegel möglich – auf Kortison-Nebenwirkungen achten.", "schwere": "mittel" },
+    { "text": "Grapefruitsaft (bei Einnahme)", "ref": [], "effekt": "Etwa verdoppelte Budesonid-Aufnahme – während der Behandlung keinen Grapefruitsaft trinken.", "schwere": "mittel" },
+    { "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Rifampicin, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Budesonid wird schneller abgebaut – Wirkung kann nachlassen.", "schwere": "mittel" },
+    { "text": "Colestyramin und Antazida (bei Einnahme)", "ref": ["colestyramin", "gruppe:antazida"], "effekt": "Können Budesonid binden bzw. die Freisetzung stören – mindestens 2 Stunden Abstand.", "schwere": "leicht" },
+    { "text": "Östrogene und hormonale Verhütungsmittel", "ref": ["gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva"], "effekt": "Kortisonwirkung kann verstärkt sein; mit niedrig dosierter Pille kein relevanter Effekt beobachtet.", "schwere": "leicht" },
+    { "text": "Herzglykoside und kaliumsenkende Diuretika (bei Einnahme)", "ref": ["gruppe:herzglykoside", "gruppe:diuretika"], "effekt": "Ein kortisonbedingter Kaliummangel kann die Wirkung von Herzglykosiden verstärken – Kalium kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Pilzinfektion (Soor) in Mund und Rachen bei Inhalation bzw. in der Speiseröhre bei Schmelztabletten", "Heiserkeit, Rachenreizung und Husten (Inhalation)", "Nasenbluten und Reizung der Nasenschleimhaut (Nasenspray)", "Kortisontypische Veränderungen wie Vollmondgesicht (bei Einnahme)", "Hypokaliämie (Kaliummangel) bei Einnahme", "Verdauungsbeschwerden, Muskelkrämpfe, Herzklopfen", "Nervosität, Schlafstörungen, Stimmungsschwankungen", "Hautausschlag, Nesselsucht"],
+    "gelegentlich": ["Angst, Zittern (Tremor), Depression", "Verschwommenes Sehen"],
+    "selten": ["Grauer Star (Katarakt), grüner Star (Glaukom)", "Paradoxer Bronchospasmus (Verkrampfung der Atemwege nach Inhalation)", "Blaue Flecken", "Verhaltensänderungen und Aggressivität, besonders bei Kindern", "Unterdrückung der Nebennierenfunktion"],
+    "sehrSelten": ["Anaphylaxie (schwere allergische Reaktion)", "Wachstumsverzögerung bei Kindern", "Abnahme der Knochendichte", "Durchbruch der Nasenscheidewand (Nasenspray)"],
+    "unbekannt": ["Chorioretinopathia centralis serosa (Netzhauterkrankung mit Sehstörung)"]
+  },
+  "schwangerschaft": "Inhaliertes Budesonid ist gut untersucht und kann in der Schwangerschaft angewendet werden. Zum Einnehmen nur nach ärztlicher Abwägung.",
+  "stillzeit": "Geht in sehr geringen Mengen in die Muttermilch über; Inhalation in üblicher Dosis vertretbar, Einnahme nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nach dem Inhalieren den Mund mit Wasser ausspülen oder die Zähne putzen (beugt Soor und Heiserkeit vor).",
+    "Zur Inhalation regelmässig anwenden, auch ohne Beschwerden; im akuten Asthmaanfall das Notfallspray benutzen.",
+    "Kapseln und Tabletten unzerkaut schlucken; während der Behandlung keinen Grapefruitsaft trinken.",
+    "Nach längerer Einnahme nicht abrupt absetzen, sondern nach ärztlicher Anweisung ausschleichen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "linagliptin",
+  "name": "Linagliptin",
+  "synonyme": ["Linagliptinum"],
+  "atc": ["A10BH05", "A10BD11", "A10BD19"],
+  "klasse": "DPP-4-Hemmer (Gliptin, orales Antidiabetikum)",
+  "kurz": "Tablette gegen Typ-2-Diabetes; verstärkt körpereigene Darmhormone. Wird über die Galle ausgeschieden, daher keine Dosisanpassung bei Nierenschwäche.",
+  "gruppen": ["dpp4-hemmer"],
+  "handelsnamen": ["Trajenta", "Jentadueto (Kombi)", "Glyxambi (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Typ-2-Diabetes bei Erwachsenen, ergänzend zu Ernährung und Bewegung: allein (wenn Metformin ungeeignet ist) oder kombiniert mit anderen Blutzuckersenkern einschliesslich Insulin", "ids": ["diabetes-typ-2", "diabetes"] }
+  ],
+  "wirkmechanismus": "Verstärkt die Wirkung körpereigener Darmhormone, die nach dem Essen die Insulinausschüttung anregen. Linagliptin hemmt das Enzym Dipeptidylpeptidase-4 (DPP-4) fest und lang anhaltend, sodass die Inkretine GLP-1 und GIP länger aktiv bleiben; die Insulinfreisetzung steigt blutzuckerabhängig und die Glukagonausschüttung sinkt. Linagliptin wird überwiegend unverändert über Galle und Darm ausgeschieden, nur etwa 5 % über die Nieren – deshalb ist bei eingeschränkter Nieren- oder Leberfunktion keine Dosisanpassung nötig.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen; Vorsicht bei Pankreatitis in der Vorgeschichte", "ids": ["pankreatitis"] },
+    { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr, deren Dosis eventuell senken", "ids": ["hypoglykaemie"] },
+    { "text": "Bullöses Pemphigoid (blasenbildende Hauterkrankung): bei Blasen auf der Haut absetzen und ärztlich abklären", "ids": ["pemphigus"] },
+    { "text": "Überempfindlichkeitsreaktionen wie Angioödem möglich", "ids": ["angiooedem"] },
+    { "text": "Nicht geeignet bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Mehr Unterzuckerungen – Dosis von Insulin oder Sulfonylharnstoff eventuell senken.", "schwere": "mittel" },
+    { "text": "Starke CYP3A4- und P-Glykoprotein-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "gruppe:p-gp-induktoren"], "effekt": "Senken den Linagliptin-Spiegel – die Wirkung kann ungenügend sein; Blutzucker kontrollieren.", "schwere": "mittel" },
+    { "text": "Starke P-Glykoprotein- und CYP3A4-Hemmer (z. B. Ritonavir)", "ref": ["gruppe:p-gp-hemmer", "gruppe:starke-cyp3a4-hemmer"], "effekt": "Linagliptin-Spiegel steigt, ohne klinisch bedeutsame Folgen – keine Dosisanpassung nötig.", "schwere": "leicht" },
+    { "text": "Blutzuckererhöhende Mittel (z. B. Glukokortikoide, Thiazid-Diuretika)", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:thiaziddiuretika"], "effekt": "Können die blutzuckersenkende Wirkung abschwächen – Blutzucker kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Hypoglykämie (Unterzuckerung) in Kombination mit Metformin und Sulfonylharnstoff"],
+    "haeufig": ["Erhöhte Lipase-Werte im Blut"],
+    "gelegentlich": ["Nasopharyngitis (Nasen-Rachen-Entzündung)", "Überempfindlichkeitsreaktionen (z. B. Überempfindlichkeit der Bronchien)", "Husten", "Hautausschlag", "Erhöhte Amylase-Werte im Blut", "Verstopfung (in Kombination mit Insulin)"],
+    "selten": ["Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "Angioödem (Schwellung von Gesicht, Lippen oder Rachen)", "Urtikaria (Nesselsucht)", "Bullöses Pemphigoid (blasenbildende Hauterkrankung)"]
+  },
+  "schwangerschaft": "Vorsichtshalber nicht anwenden: Es liegen keine ausreichenden Erfahrungen vor; in der Schwangerschaft wird Insulin bevorzugt.",
+  "stillzeit": "Nicht empfohlen: Linagliptin geht bei Tieren in die Milch über, ein Risiko für das gestillte Kind ist nicht auszuschliessen – ärztlich entscheiden, ob abgestillt oder die Behandlung beendet wird.",
+  "hinweise": [
+    "Einmal täglich zu einer beliebigen Tageszeit, unabhängig von den Mahlzeiten einnehmen.",
+    "Bei anhaltenden, starken Bauchschmerzen sofort ärztlich abklären lassen (mögliche Bauchspeicheldrüsenentzündung).",
+    "In Kombination mit Sulfonylharnstoff oder Insulin kann eine Unterzuckerung die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

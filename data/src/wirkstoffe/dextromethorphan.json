@@ -1,0 +1,181 @@
+{
+  "id": "dextromethorphan",
+  "name": "Dextromethorphan",
+  "synonyme": [
+    "DXM",
+    "Dextromethorphanhydrobromid",
+    "Dextromethorphan hydrobromide"
+  ],
+  "atc": [
+    "R05DA09"
+  ],
+  "klasse": "Zentral wirkendes Antitussivum (Morphinan-Abkömmling ohne schmerzstillende Opioidwirkung)",
+  "kurz": "Hustenstiller gegen trockenen Reizhusten; dämpft das Hustenzentrum im Gehirn, wirkt aber nicht schmerzstillend.",
+  "gruppen": [
+    "serotonerg",
+    "cyp2d6-substrate",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Bexin",
+    "Vicks MediNait (Kombi)"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Sirup",
+    "Tabletten",
+    "Lösung zum Einnehmen (Kombipräparat)"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische Behandlung von trockenem Reizhusten, z. B. bei Erkältung",
+      "ids": [
+        "erkaeltung",
+        "bronchitis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft den Hustenreflex im Hirnstamm. Dextromethorphan ist ein Morphinan-Abkömmling ohne relevante Wirkung an μ-Opioidrezeptoren und deshalb ohne schmerzstillende Wirkung. Es wirkt am Sigma-1-Rezeptor, blockiert NMDA-Rezeptoren und hemmt die Wiederaufnahme von Serotonin. Abgebaut wird es vor allem über CYP2D6 zu Dextrorphan; bei langsamen Metabolisierern wirkt es stärker und länger.",
+  "kontraindikationen": [
+    {
+      "text": "Atemdepression oder Ateminsuffizienz",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Asthma bronchiale, COPD oder Lungenentzündung",
+      "ids": [
+        "asthma",
+        "copd",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Kleinkinder unter 2 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Husten mit viel Schleim: Hustenunterdrückung kann zu Sekretstau führen",
+      "ids": [
+        "bronchitis"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langsamer CYP2D6-Stoffwechsel (genetisch oder durch Medikamente): stärkere und längere Wirkung",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Missbrauchsgefahr, besonders bei Jugendlichen (rauschartige Zustände bei hohen Dosen)",
+      "ids": [
+        "abhaengigkeit",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Müdigkeit und Schwindel beeinträchtigen die Fahrtüchtigkeit, besonders zusammen mit Alkohol",
+      "ids": [
+        "autofahren",
+        "alkoholkonsum"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (z. B. Moclobemid, Tranylcypromin) – auch innerhalb von 2 Wochen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines Serotonin-Syndroms mit hohem Fieber, Erregung, Muskelzuckungen und Kreislaufversagen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Dextromethorphan-Spiegel steigt um ein Vielfaches – mehr Nebenwirkungen und Serotonin-Syndrom möglich; meiden oder nur nach ärztlicher Rücksprache.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "SSRI, SNRI und andere serotonerge Mittel (z. B. Tramadol, Triptane, Linezolid)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Risiko eines Serotonin-Syndroms (Unruhe, Fieber, Muskelzuckungen, Durchfall) – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-B-Hemmer (z. B. Selegilin, Rasagilin, Safinamid)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Risiko eines Serotonin-Syndroms – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (z. B. Benzodiazepine, Opioide, sedierende Antihistaminika) und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schleimlöser (z. B. Acetylcystein, Ambroxol, Bromhexin, Efeu)",
+      "ref": [
+        "acetylcystein",
+        "ambroxol",
+        "bromhexin",
+        "efeublaetter-extrakt"
+      ],
+      "effekt": "Gelöster Schleim kann bei gedämpftem Hustenreflex schlechter abgehustet werden (Sekretstau) – nicht ohne ärztlichen Rat kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Müdigkeit, Benommenheit",
+      "Schwindel",
+      "Übelkeit, Erbrechen, Magen-Darm-Beschwerden"
+    ],
+    "sehrSelten": [
+      "Halluzinationen",
+      "Abhängigkeit bei Missbrauch",
+      "Überempfindlichkeitsreaktionen (Hautausschlag, Nesselsucht, Angioödem, Bronchospasmus)"
+    ],
+    "unbekannt": [
+      "Serotonin-Syndrom (Fieber, Unruhe, Muskelzuckungen, Durchfall), v. a. in Kombination mit serotonergen Mitteln",
+      "Bei Überdosierung: Verwirrtheit, Erregung, Sprach- und Bewegungsstörungen, Atemdämpfung"
+    ]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht anwenden; danach nur kurzfristig nach ärztlicher Abwägung. Hohe Dosen kurz vor der Geburt können beim Neugeborenen die Atmung dämpfen.",
+  "stillzeit": "Nicht anwenden; der Übergang in die Muttermilch ist ungenügend untersucht und eine Atemdämpfung beim Säugling nicht auszuschliessen.",
+  "hinweise": [
+    "Nur bei trockenem Reizhusten und nur wenige Tage anwenden; bei Husten länger als 1–2 Wochen, Fieber oder Atemnot ärztlich abklären.",
+    "Vor der Einnahme in der Apotheke Antidepressiva und andere Dauermedikamente angeben (Serotonin-Syndrom).",
+    "Kein Alkohol; die Fahrtüchtigkeit kann beeinträchtigt sein.",
+    "Missbrauchsgefahr: hohe Dosen wirken berauschend und sind gefährlich – ausser Reichweite von Kindern und Jugendlichen aufbewahren."
+  ],
+  "stand": "2026-10"
+}

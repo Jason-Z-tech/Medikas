@@ -1,0 +1,62 @@
+{
+  "id": "scopolamin",
+  "name": "Scopolamin",
+  "synonyme": ["Hyoscin", "Hyoscine", "Scopolaminhydrobromid", "Scopolamine"],
+  "atc": ["A04AD01"],
+  "klasse": "Antiemetikum gegen Reisekrankheit (zentral wirksames Anticholinergikum)",
+  "kurz": "Pflaster hinter dem Ohr zur Vorbeugung von Übelkeit, Erbrechen und Schwindel bei Reisekrankheit.",
+  "gruppen": ["anticholinerg", "zns-daempfend"],
+  "handelsnamen": ["Scopoderm TTS"],
+  "abgabe": ["B"],
+  "darreichung": ["Transdermales Pflaster"],
+  "indikationen": [
+    { "text": "Vorbeugung der Beschwerden der Reisekrankheit (Übelkeit, Erbrechen, Schwindel) bei Erwachsenen und Kindern ab 10 Jahren", "ids": ["reisekrankheit", "uebelkeit"] }
+  ],
+  "wirkmechanismus": "Dämpft die Weiterleitung von Signalen aus dem Gleichgewichtsorgan an das Brechzentrum und beugt so der Reisekrankheit vor. Scopolamin blockiert als tertiäres Amin Muskarinrezeptoren im Gehirn, unter anderem in den Vestibulariskernen und im Brechzentrum. Das Pflaster gibt den Wirkstoff gleichmässig über rund 72 Stunden durch die Haut ab, was die Nebenwirkungen im Vergleich zu Tabletten verringert. Wie Atropin hemmt es zudem Speichel- und Schweissbildung und erweitert die Pupille.",
+  "kontraindikationen": [
+    { "text": "Engwinkelglaukom oder Neigung dazu (enger Kammerwinkel)", "ids": ["engwinkelglaukom", "glaukom"] }
+  ],
+  "vorsicht": [
+    { "text": "Prostatavergrösserung, Harnverhalt oder Blasenentleerungsstörungen", "ids": ["prostatahyperplasie", "harnverhalt"] },
+    { "text": "Verengung am Magenausgang oder Darmverschluss", "ids": ["darmverschluss"] },
+    { "text": "Ältere Menschen: Verwirrtheit, Halluzinationen und Gedächtnisstörungen häufiger", "ids": ["aeltere-patienten", "delir", "demenz"] },
+    { "text": "Epilepsie oder Psychosen in der Vorgeschichte (Anfälle bzw. psychotische Reaktionen möglich)", "ids": ["epilepsie", "schizophrenie"] },
+    { "text": "Eingeschränkte Leber- oder Nierenfunktion", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
+    { "text": "Kinder unter 10 Jahren: nicht empfohlen", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Alkohol und andere zentral dämpfende Mittel (Schlaf- und Beruhigungsmittel, Opioide, sedierende Antihistaminika)", "ref": ["gruppe:zns-daempfend"], "effekt": "Verstärkte Müdigkeit und Benommenheit; Fahrtüchtigkeit zusätzlich vermindert.", "schwere": "mittel" },
+    { "text": "Andere anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, Antihistaminika wie Dimenhydrinat oder Meclozin, Antipsychotika, Amantadin)", "ref": ["gruppe:anticholinerg", "gruppe:trizyklische-antidepressiva", "gruppe:antihistaminika-sedierend", "gruppe:antipsychotika", "amantadin", "gruppe:muskarinantagonisten-inhalativ"], "effekt": "Verstärkte Nebenwirkungen wie Mundtrockenheit, Sehstörungen, Harnverhalt und Verwirrtheit.", "schwere": "mittel" },
+    { "text": "Gleichzeitig eingenommene Tabletten und Kapseln", "ref": [], "effekt": "Verlangsamte Magenentleerung kann die Aufnahme anderer Arzneimittel verändern.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Mundtrockenheit"],
+    "haeufig": [
+      "Schläfrigkeit (Somnolenz)",
+      "Verschwommenes Sehen, Akkommodationsstörungen, Pupillenerweiterung (auch einseitig nach Berühren des Auges mit Pflasterresten)",
+      "Lidreizung",
+      "Hautreizung an der Klebestelle"
+    ],
+    "selten": [
+      "Gedächtnis- und Konzentrationsstörungen, Unruhe, Desorientierung, Verwirrtheit, Halluzinationen",
+      "Glaukomanfall (Anstieg des Augeninnendrucks)",
+      "Störungen beim Wasserlassen, Harnverhalt"
+    ],
+    "sehrSelten": [
+      "Ausgedehnter Hautausschlag"
+    ],
+    "unbekannt": [
+      "Entzugsbeschwerden nach Entfernen des Pflasters nach mehrtägiger Anwendung (Schwindel, Übelkeit, Erbrechen, Kopfschmerzen, Gleichgewichtsstörungen)"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; in der Schwangerschaft nur nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Scopolamin geht in die Muttermilch über; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Pflaster am Vorabend oder spätestens 5–6 Stunden vor Reiseantritt auf saubere, unbehaarte Haut hinter dem Ohr kleben; wirkt bis zu 72 Stunden.",
+    "Nach dem Aufkleben oder Entfernen gründlich die Hände waschen: Wirkstoff in den Augen erweitert die Pupille und stört das Sehen.",
+    "Kann müde machen und das Sehen beeinträchtigen: nicht selbst Auto fahren oder Maschinen bedienen; Alkohol meiden.",
+    "Vor einer MRI-Untersuchung entfernen (Pflaster enthält Metall)."
+  ],
+  "stand": "2026-10"
+}

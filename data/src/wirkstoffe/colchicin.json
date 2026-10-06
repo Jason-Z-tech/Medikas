@@ -1,0 +1,219 @@
+{
+  "id": "colchicin",
+  "name": "Colchicin",
+  "synonyme": [
+    "Colchicine",
+    "Colchicinum"
+  ],
+  "atc": [
+    "M04AC01"
+  ],
+  "klasse": "Gichtmittel (Mitosehemmer, Alkaloid der Herbstzeitlose)",
+  "kurz": "Entzündungshemmer aus der Herbstzeitlose gegen akute Gichtanfälle und zu deren Vorbeugung; schon geringe Überdosen sind giftig.",
+  "gruppen": [
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-substrate-eng",
+    "myotoxisch",
+    "myelosuppressiv",
+    "neuropathie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Colchicum-Dispert"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dragées (überzogene Tabletten)"
+  ],
+  "indikationen": [
+    {
+      "text": "Akuter Gichtanfall",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Gichtanfällen, besonders zu Beginn einer harnsäuresenkenden Behandlung",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Familiäres Mittelmeerfieber: Vorbeugung von Fieberschüben und einer Amyloidose",
+      "ids": [
+        "amyloidose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Entzündung im Gelenk, indem es weisse Blutkörperchen daran hindert, einzuwandern und Entzündungsstoffe freizusetzen. Colchicin bindet an Tubulin und hemmt den Aufbau der Mikrotubuli; dadurch werden Beweglichkeit, Zellteilung und Aktivierung der neutrophilen Granulozyten sowie das NLRP3-Inflammasom gebremst. Es senkt die Harnsäure nicht. Abgebaut und ausgeschieden wird es über CYP3A4 und P-Glykoprotein; die therapeutische Breite ist sehr gering.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutbildstörungen (Blutdyskrasien)",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Schwangerschaft (ausser bei familiärem Mittelmeerfieber nach ärztlicher Abwägung)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mässige Nieren- oder Leberfunktionsstörung (niedrigere Dosis, Vergiftungsgefahr)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere und geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Muskelerkrankungen oder gleichzeitige Behandlung mit Statinen (Myopathie, Rhabdomyolyse)",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Blutbild kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Kinderwunsch (vorübergehende Störung der Spermienbildung möglich)",
+      "ids": [
+        "maennliche-unfruchtbarkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer oder P-Glykoprotein-Hemmer (z. B. Clarithromycin, Ketoconazol, Ritonavir, Ciclosporin, Verapamil) bei eingeschränkter Nieren- oder Leberfunktion",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer",
+        "clarithromycin",
+        "ciclosporin"
+      ],
+      "grund": "Abbau und Ausscheidung von Colchicin werden blockiert – lebensbedrohliche, teils tödliche Vergiftungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ketoconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "clarithromycin",
+        "ritonavir"
+      ],
+      "effekt": "Colchicin-Spiegel steigt stark – Kombination vermeiden oder Colchicin-Dosis deutlich reduzieren; tödliche Vergiftungen beschrieben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-Glykoprotein-Hemmer (z. B. Ciclosporin, Verapamil, Ranolazin)",
+      "ref": [
+        "gruppe:p-gp-hemmer",
+        "ciclosporin",
+        "verapamil",
+        "ranolazin"
+      ],
+      "effekt": "Colchicin-Spiegel steigt stark – Kombination vermeiden oder Dosis deutlich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem) und Grapefruitsaft",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer",
+        "erythromycin",
+        "fluconazol",
+        "diltiazem"
+      ],
+      "effekt": "Colchicin-Spiegel steigt – Dosis reduzieren, auf Vergiftungszeichen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Statine und Fibrate",
+      "ref": [
+        "gruppe:statine",
+        "gruppe:fibrate"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden bis Rhabdomyolyse – Muskelschmerzen sofort melden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildschäden – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Einzelfälle von Muskelschädigung (Rhabdomyolyse) beschrieben.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Vitamin B12",
+      "ref": [
+        "cyanocobalamin"
+      ],
+      "effekt": "Colchicin kann die Aufnahme von Vitamin B12 vermindern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Durchfall",
+      "Übelkeit, Erbrechen",
+      "Bauchschmerzen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Knochenmarkschädigung mit Agranulozytose, Thrombozytopenie oder aplastischer Anämie",
+      "Periphere Neuropathie (Nervenschädigung)",
+      "Myopathie (Muskelerkrankung), Rhabdomyolyse (Muskelzerfall)",
+      "Magen-Darm-Blutungen",
+      "Leberschäden",
+      "Haarausfall, Hautausschlag",
+      "Störung der Spermienbildung, Ausbleiben der Regelblutung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert; einzige Ausnahme ist das familiäre Mittelmeerfieber, bei dem die Behandlung nach ärztlicher Abwägung weitergeführt werden kann.",
+  "stillzeit": "Geht in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Die verordnete Höchstdosis beim akuten Anfall nicht überschreiten; schon geringe Überdosen können tödlich sein. Für Kinder unerreichbar aufbewahren.",
+    "Bei Durchfall, Übelkeit oder Erbrechen (erste Vergiftungszeichen) Einnahme stoppen und ärztlichen Rat einholen.",
+    "Keinen Grapefruitsaft trinken.",
+    "Bei Langzeitbehandlung Blutbild sowie Nieren- und Leberwerte regelmässig kontrollieren."
+  ],
+  "stand": "2026-10"
+}

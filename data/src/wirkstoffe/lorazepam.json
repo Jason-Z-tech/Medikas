@@ -1,0 +1,228 @@
+{
+  "id": "lorazepam",
+  "name": "Lorazepam",
+  "synonyme": [
+    "Lorazepamum"
+  ],
+  "atc": [
+    "N05BA06"
+  ],
+  "klasse": "Benzodiazepin (Anxiolytikum, mittellang wirksam)",
+  "kurz": "Beruhigungsmittel aus der Gruppe der Benzodiazepine gegen Angst-, Spannungs- und Erregungszustände; auch vor Eingriffen und bei Krampfanfällen.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Temesta",
+    "Temesta Expidet",
+    "Lorasifar"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Schmelztabletten",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Angst-, Spannungs- und Erregungszustände",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Schlafstörungen bei Angst oder Unruhe",
+      "ids": [
+        "schlafstoerung"
+      ]
+    },
+    {
+      "text": "Beruhigung vor operativen oder diagnostischen Eingriffen (Prämedikation)",
+      "ids": [
+        "anaesthesie",
+        "operation"
+      ]
+    },
+    {
+      "text": "Status epilepticus (Injektion)",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt angstlösend, beruhigend, schlaffördernd und krampflösend. Lorazepam verstärkt über die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors die Wirkung des hemmenden Botenstoffs GABA. Es wird ohne Beteiligung der Cytochrom-P450-Enzyme an Glucuronsäure gekoppelt und über die Niere ausgeschieden; wirksame Abbauprodukte entstehen nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Ateminsuffizienz",
+      "ids": [
+        "copd",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Abhängigkeit von Alkohol, Medikamenten oder Drogen in der Vorgeschichte (ausser zur Behandlung eines akuten Entzugs)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlaf- oder Schmerzmitteln",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Ältere und geschwächte Menschen: Sturzgefahr und Verwirrtheit – niedriger dosieren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression: nicht allein mit Benzodiazepinen behandeln (Suizidgefahr kann verdeckt werden)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Chronische Ateminsuffizienz, z. B. COPD",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Leber- oder Niereninsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Längere Anwendung: Gewöhnung und Abhängigkeit, Entzugssymptome beim Absetzen",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Paradoxe Reaktionen (Unruhe, Aggressivität), v. a. bei Kindern und älteren Menschen",
+      "ids": [
+        "kinder",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Tramadol, Codein)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Starke Dämpfung, Atemdepression, Koma und Tod möglich – nur wenn keine Alternative besteht, niedrig dosiert und kurz.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkte Dämpfung und Atemdepression – Alkohol meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clozapin und Olanzapin (v. a. bei Injektion)",
+      "ref": [
+        "clozapin",
+        "olanzapin"
+      ],
+      "effekt": "Starke Sedierung, Speichelfluss sowie Kreislauf- und Atemdepression bis zum Atemstillstand beschrieben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (Antipsychotika, Schlafmittel, sedierende Antidepressiva und Antihistaminika, Antiepileptika)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung, Sturzgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Hemmt den Abbau von Lorazepam, der Spiegel steigt um etwa die Hälfte – Lorazepam-Dosis etwa halbieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien",
+      "ref": [
+        "gruppe:muskelrelaxanzien-zentral",
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Verstärkte muskelentspannende Wirkung, Sturzgefahr.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Sedierung, Müdigkeit, Schläfrigkeit"
+    ],
+    "haeufig": [
+      "Ataxie (Gangunsicherheit), Schwindel",
+      "Verwirrtheit",
+      "Depression oder Demaskierung einer Depression",
+      "Muskelschwäche, Kraftlosigkeit"
+    ],
+    "gelegentlich": [
+      "Libidoveränderungen, Erektionsstörungen",
+      "Übelkeit"
+    ],
+    "unbekannt": [
+      "Atemdepression bis Atemstillstand, Verschlechterung einer Schlafapnoe oder COPD",
+      "Anterograde Amnesie (Gedächtnislücken)",
+      "Paradoxe Reaktionen (Unruhe, Aggressivität, Halluzinationen), Enthemmung, Suizidgedanken",
+      "Abhängigkeit und Entzugssymptome",
+      "Blutbildveränderungen (Thrombozytopenie, Agranulozytose, Panzytopenie)",
+      "Anaphylaxie, allergische Hautreaktionen",
+      "Hyponatriämie (SIADH)",
+      "Blutdruckabfall, erhöhte Leberwerte, Gelbsucht"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit. Bei Anwendung gegen Ende der Schwangerschaft oder während der Geburt können beim Neugeborenen Muskelschlaffheit, Atemprobleme, Unterkühlung und Entzugssymptome auftreten.",
+  "stillzeit": "Lorazepam geht in die Muttermilch über (Müdigkeit, Trinkschwäche beim Säugling möglich). Nicht stillen, ausser nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Temesta Expidet zergeht ohne Wasser auf der Zunge.",
+    "So kurz wie möglich anwenden (bei Schlafstörungen höchstens 4 Wochen, bei Angst höchstens 8–12 Wochen, jeweils einschliesslich Ausschleichen); nach längerer Einnahme langsam ausschleichen.",
+    "Kein Alkohol; Fahrtüchtigkeit beeinträchtigt.",
+    "Ältere Menschen: erhöhte Sturzgefahr, besonders nachts."
+  ],
+  "stand": "2026-10"
+}

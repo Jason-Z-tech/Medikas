@@ -1,0 +1,138 @@
+{
+  "id": "palbociclib",
+  "name": "Palbociclib",
+  "synonyme": [],
+  "atc": [
+    "L01EF01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (CDK4/6-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel (CDK4/6-Hemmer), das zusammen mit einer Hormontherapie gegen fortgeschrittenen hormonempfindlichen Brustkrebs wirkt.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Ibrance"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter Hormonrezeptor-positiver, HER2-negativer Brustkrebs: mit einem Aromatasehemmer oder mit Fulvestrant nach antihormoneller Vorbehandlung; vor oder während der Wechseljahre zusätzlich mit einem LHRH-Agonisten",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Teilung hormonempfindlicher Brustkrebszellen. Palbociclib hemmt selektiv die Cyclin-abhängigen Kinasen 4 und 6 (CDK4/6), die zusammen mit Cyclin D das Retinoblastom-Protein (Rb) phosphorylieren. Ohne diese Phosphorylierung bleibt der Zellzyklus in der G1-Phase stehen, und die Zelle kann die DNA-Synthese nicht beginnen. Zusammen mit einer antihormonellen Therapie verstärkt sich die wachstumshemmende Wirkung.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Neutropenie: Blutbild vor jedem Zyklus und am Tag 15 der ersten beiden Zyklen",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Infektionen; Fieber sofort melden",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung/Pneumonitis: neue Atembeschwerden sofort abklären",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion (wenig Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Induziert CYP3A4 und senkt die Palbociclib-Spiegel stark – Wirkverlust."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ketoconazol, Ritonavir; Grapefruit)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Palbociclib-Spiegel steigt (Itraconazol etwa +87 %) – vermeiden; wenn unumgänglich, Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Palbociclib-Spiegel sinkt stark (Rifampicin etwa −85 %) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Midazolam, Ciclosporin, Tacrolimus, Everolimus, Fentanyl, Ergotamin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Palbociclib hemmt CYP3A4 schwach – deren Spiegel steigen (Midazolam etwa +60 %); Dosis gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Säurehemmende Mittel (z. B. Protonenpumpenhemmer) – nur Kapseln",
+      "ref": [
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Bei nüchterner Einnahme der Kapseln verminderte Aufnahme – Kapseln mit einer Mahlzeit einnehmen; Tabletten sind nicht betroffen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Leukopenie, Anämie, Thrombozytopenie",
+      "Infektionen",
+      "Stomatitis, Übelkeit, Durchfall, Erbrechen",
+      "Appetitlosigkeit",
+      "Haarausfall, Hautausschlag, trockene Haut",
+      "Müdigkeit, Schwäche (Asthenie), Fieber"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie",
+      "Geschmacksstörungen",
+      "Verschwommenes Sehen, vermehrter Tränenfluss, trockene Augen",
+      "Nasenbluten",
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Erhöhte Leberwerte (ALT, AST)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen und Männer mit Partnerin im gebärfähigen Alter müssen während und noch einige Wochen nach der Behandlung sicher verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einnahme an 21 Tagen, danach 7 Tage Pause; täglich etwa zur gleichen Zeit. Kapseln mit einer Mahlzeit, Tabletten mit oder ohne Mahlzeit unzerkaut schlucken.",
+    "Grapefruit und Grapefruitsaft meiden; Johanniskraut ist nicht erlaubt.",
+    "Das Blutbild wird regelmässig kontrolliert; Fieber oder Infektzeichen sofort melden."
+  ],
+  "stand": "2026-10"
+}

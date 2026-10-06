@@ -1,0 +1,166 @@
+{
+  "id": "beclometason",
+  "name": "Beclometason",
+  "synonyme": [
+    "Beclometasondipropionat",
+    "BDP",
+    "Beclomethasone dipropionate"
+  ],
+  "atc": [
+    "R03BA01",
+    "R01AD01",
+    "D07AC15",
+    "A07EA07"
+  ],
+  "klasse": "Glukokortikoid zur Inhalation (inhalatives Kortikosteroid, ICS)",
+  "kurz": "Kortison zum Inhalieren für die Dauerbehandlung von Asthma; hemmt die Entzündung der Bronchien. Auch in Kombipräparaten mit Bronchienerweiterern.",
+  "gruppen": [
+    "glukokortikoide-inhalativ"
+  ],
+  "handelsnamen": [
+    "Qvar",
+    "Foster (Kombi)",
+    "Trimbow (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol",
+    "Atemzugausgelöstes Dosieraerosol (Autohaler)",
+    "Pulver zur Inhalation (Kombipräparat)"
+  ],
+  "indikationen": [
+    {
+      "text": "Entzündungshemmende Dauerbehandlung von Asthma bronchiale",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "In fixer Kombination mit langwirksamen Bronchienerweiterern (Foster, Trimbow) bei Asthma und bei COPD mit häufigen Verschlechterungen",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Entzündung in den Bronchien und macht sie weniger reizbar. Beclometasondipropionat ist ein Prodrug: in der Lunge wird es durch Esterasen zum stark wirksamen Beclometason-17-monopropionat gespalten, das an Glukokortikoid-Rezeptoren bindet. Dadurch werden die Bildung von Entzündungsbotenstoffen und die Einwanderung von Entzündungszellen vermindert. Die Wirkung baut sich über Tage bis Wochen auf; es ist kein Mittel gegen akute Anfälle.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung eines akuten Asthmaanfalls – dafür ein kurz wirksames Notfallspray verwenden",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Lungentuberkulose oder unbehandelte Pilz-, Virus- oder bakterielle Infektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Umstellung von Kortisontabletten: Gefahr einer Nebennierenschwäche bei Stress (Operation, schwerer Infekt); allergische Beschwerden können wieder auftreten",
+      "ids": [
+        "langzeit-kortison",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter Langzeittherapie: Längenwachstum regelmässig kontrollieren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Hohe Dosen über lange Zeit: Abnahme der Knochendichte, grauer und grüner Star möglich",
+      "ids": [
+        "osteoporose",
+        "katarakt",
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Sehstörungen wie verschwommenes Sehen ärztlich abklären lassen",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Paradoxer Bronchospasmus direkt nach dem Inhalieren: sofort ein Notfallspray anwenden und ärztlich abklären",
+      "ids": [
+        "atemnot"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Ketoconazol, Itraconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Höhere Kortisonspiegel im Blut möglich (weniger ausgeprägt als bei Fluticason) – auf systemische Kortisonwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Tabletten, Spritzen)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Die Kortisonbelastung addiert sich (Nebennierenunterdrückung, Knochenschwund); nach Umstellung von Tabletten Nebennierenschwäche möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Kortisonpräparate zum Inhalieren, als Nasenspray oder auf der Haut",
+      "ref": [
+        "gruppe:glukokortikoide-inhalativ",
+        "gruppe:glukokortikoide-topisch"
+      ],
+      "effekt": "Gesamtdosis an Kortison steigt – bei hohen Dosen mehr systemische Nebenwirkungen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Disulfiram und Metronidazol (bei ethanolhaltigen Dosieraerosolen)",
+      "ref": [
+        "disulfiram",
+        "metronidazol",
+        "gruppe:disulfiramartig"
+      ],
+      "effekt": "Das Spray enthält eine kleine Menge Alkohol; bei empfindlichen Personen ist theoretisch eine Unverträglichkeitsreaktion möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Mundsoor (Pilzinfektion in Mund und Rachen)",
+      "Heiserkeit",
+      "Rachenreizung"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen der Haut (Ausschlag, Nesselsucht, Juckreiz, Rötung)"
+    ],
+    "sehrSelten": [
+      "Angioödem (Schwellung von Augen, Gesicht, Lippen, Rachen), Atemnot, Anaphylaxie",
+      "Paradoxer Bronchospasmus",
+      "Systemische Kortisonwirkungen: Nebennierenunterdrückung, Cushing-Syndrom, Wachstumsverzögerung bei Kindern, Abnahme der Knochendichte, grauer und grüner Star"
+    ],
+    "unbekannt": [
+      "Psychomotorische Überaktivität, Schlafstörungen, Angst, Depression, Aggressivität (v. a. bei Kindern)",
+      "Verschwommensehen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Nutzen-Risiko-Abwägung; eine gute Asthmakontrolle ist für Mutter und Kind wichtig, und mit inhaliertem Beclometason liegen langjährige Erfahrungen vor.",
+  "stillzeit": "Ein Übergang in die Muttermilch in geringen Mengen ist anzunehmen; bei inhalierten Dosen ist ein Risiko für den Säugling unwahrscheinlich – Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Regelmässig anwenden, auch bei Beschwerdefreiheit; die volle Wirkung tritt erst nach einigen Tagen ein.",
+    "Nach dem Inhalieren den Mund ausspülen oder vor dem Essen inhalieren – beugt Mundsoor und Heiserkeit vor.",
+    "Nicht abrupt absetzen; nach Umstellung von Kortisontabletten bei Operationen oder schweren Infekten die frühere Kortisonbehandlung angeben.",
+    "Bei Kindern unter Langzeittherapie das Längenwachstum regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

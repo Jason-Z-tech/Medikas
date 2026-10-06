@@ -1,0 +1,59 @@
+{
+  "id": "linezolid",
+  "name": "Linezolid",
+  "synonyme": ["Linezolidum"],
+  "atc": ["J01XX08"],
+  "klasse": "Oxazolidinon-Antibiotikum",
+  "kurz": "Reserve-Antibiotikum gegen schwere Infektionen mit grampositiven Bakterien, auch MRSA; schwacher MAO-Hemmer mit vielen Wechselwirkungen.",
+  "gruppen": ["mao-hemmer", "serotonerg", "myelosuppressiv"],
+  "handelsnamen": ["Zyvoxid", "Linezolid Mepha"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Infusionslösung"],
+  "indikationen": [
+    { "text": "Nosokomiale (im Spital erworbene) und ambulant erworbene Lungenentzündung durch empfindliche grampositive Bakterien, z. B. MRSA", "ids": ["lungenentzuendung", "bakterielle-infektion"] },
+    { "text": "Komplizierte Haut- und Weichteilinfektionen durch empfindliche grampositive Bakterien", "ids": ["hautinfektion", "bakterielle-infektion"] }
+  ],
+  "wirkmechanismus": "Verhindert, dass Bakterien Eiweisse herstellen können, und stoppt so ihr Wachstum. Linezolid bindet an die 23S-ribosomale RNA der 50S-Untereinheit und verhindert die Bildung des 70S-Initiationskomplexes – ein Mechanismus, den kein anderes gebräuchliches Antibiotikum nutzt, daher wirkt es auch gegen Methicillin-resistente Staphylokokken (MRSA) und Vancomycin-resistente Enterokokken. Gegen gramnegative Bakterien ist es unwirksam. Zusätzlich hemmt Linezolid schwach und reversibel die Monoaminoxidase (MAO), was Wechselwirkungen mit serotonergen und blutdrucksteigernden Mitteln erklärt.",
+  "kontraindikationen": [
+    { "text": "Ohne engmaschige Blutdrucküberwachung: unkontrollierter Bluthochdruck, Phäochromozytom, Karzinoid-Syndrom, Schilddrüsenüberfunktion (Thyreotoxikose)", "ids": ["hypertonie", "hyperthyreose"] },
+    { "text": "Ohne engmaschige Überwachung: bipolare Depression, schizoaffektive Störung, akute Verwirrtheitszustände", "ids": ["bipolare-stoerung", "schizophrenie", "delir"] }
+  ],
+  "vorsicht": [
+    { "text": "Myelosuppression (Blutarmut, Mangel an Blutplättchen und weissen Blutkörperchen), vor allem bei Behandlung über 10–14 Tage, Niereninsuffizienz oder vorbestehenden Blutbildstörungen – Blutbild wöchentlich kontrollieren", "ids": ["knochenmarkschaedigung", "anaemie", "thrombozytopenie", "neutropenie"] },
+    { "text": "Behandlung länger als 28 Tage: Risiko für periphere Neuropathie und Sehnerv-Schäden (optische Neuropathie) bis zum Sehverlust", "ids": ["nervenschmerzen"] },
+    { "text": "Laktatazidose (Übersäuerung des Blutes) mit Übelkeit, Erbrechen und schneller Atmung möglich", "ids": [] },
+    { "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte", "ids": ["epilepsie"] },
+    { "text": "Diabetes unter Insulin oder Tabletten: Unterzuckerungen möglich", "ids": ["diabetes", "hypoglykaemie"] },
+    { "text": "Schwere Niereninsuffizienz: Abbauprodukte reichern sich an", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwere Leberinsuffizienz: nur nach strenger Nutzen-Risiko-Abwägung", "ids": ["leberinsuffizienz"] },
+    { "text": "Durchfall während oder nach der Behandlung: an Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "MAO-Hemmer (z. B. Moclobemid, Selegilin, Rasagilin, Safinamid) oder deren Einnahme innerhalb der letzten 2 Wochen", "ref": ["gruppe:mao-hemmer", "gruppe:mao-b-hemmer"], "grund": "Additive MAO-Hemmung – Gefahr von Blutdruckkrisen und Serotoninsyndrom." },
+    { "text": "Ohne engmaschige Überwachung: SSRI und SNRI, trizyklische Antidepressiva, Triptane, Pethidin, Buspiron", "ref": ["gruppe:ssri", "gruppe:snri", "gruppe:trizyklische-antidepressiva", "gruppe:triptane", "pethidin", "buspiron"], "grund": "Gefahr eines Serotoninsyndroms (Verwirrtheit, Fieber, Muskelzucken, Herzrasen)." },
+    { "text": "Ohne engmaschige Blutdrucküberwachung: direkt und indirekt wirkende Sympathomimetika (z. B. Pseudoephedrin, auch bronchienerweiternde Adrenergika), Adrenalin, Noradrenalin, Dopamin, Dobutamin", "ref": ["gruppe:sympathomimetika", "pseudoephedrin", "adrenalin", "noradrenalin", "dopamin", "dobutamin", "gruppe:beta2-sympathomimetika"], "grund": "Linezolid verstärkt die blutdrucksteigernde Wirkung – Gefahr eines starken Blutdruckanstiegs." }
+  ],
+  "interaktionen": [
+    { "text": "Weitere serotonerge Mittel (z. B. Tramadol, Tapentadol, Methadon, Fentanyl, Dextromethorphan, Lithium, Johanniskraut, Trazodon)", "ref": ["gruppe:serotonerg", "tramadol", "dextromethorphan"], "effekt": "Risiko eines Serotoninsyndroms – möglichst vermeiden, sonst eng auf Unruhe, Fieber, Zittern, Muskelzucken achten.", "schwere": "schwer" },
+    { "text": "Methylenblau (Methylthioniniumchlorid)", "ref": ["methylthioniniumchlorid"], "effekt": "Starke MAO-Hemmung durch Methylenblau – Serotoninsyndrom und Blutdruckkrisen möglich; Kombination vermeiden.", "schwere": "schwer" },
+    { "text": "Andere knochenmarkhemmende Mittel (z. B. Zytostatika, Ganciclovir/Valganciclovir, Methotrexat)", "ref": ["gruppe:myelosuppressiv"], "effekt": "Verstärkte Blutbildschäden (Anämie, Thrombozytopenie) – Blutbild engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Insulin und orale Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Symptomatische Unterzuckerungen beschrieben – Blutzucker häufiger messen, Dosis ggf. anpassen.", "schwere": "mittel" },
+    { "text": "Rifampicin", "ref": ["rifampicin"], "effekt": "Senkt die Linezolid-Spiegel um etwa ein Drittel – Wirksamkeit kann vermindert sein.", "schwere": "mittel" },
+    { "text": "Levodopa und andere dopaminerge Parkinsonmittel", "ref": ["levodopa-carbidopa", "levodopa-benserazid", "gruppe:dopaminagonisten"], "effekt": "Blutdruckanstieg möglich (MAO-Hemmung) – Blutdruck überwachen.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Candida-Infektionen (Mund- oder Scheidenpilz)", "Kopfschmerzen, Schwindel, Schlaflosigkeit", "Metallischer Geschmack (Geschmacksstörung)", "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung", "Anämie (Blutarmut)", "Bluthochdruck", "Erhöhte Leber- und Nierenwerte", "Juckreiz, Hautausschlag, Fieber"],
+    "gelegentlich": ["Thrombozytopenie, Leukopenie, Neutropenie (Mangel an Blutplättchen bzw. weissen Blutkörperchen)", "Krampfanfälle", "Kribbeln und Taubheitsgefühl", "Verschwommenes Sehen", "Tinnitus (Ohrgeräusche)", "Herzrhythmusstörungen (Tachykardie), vorübergehende Durchblutungsstörung des Gehirns (TIA)", "Hyponatriämie (Natriummangel)", "Pankreatitis, Nierenversagen"],
+    "selten": ["Panzytopenie (Mangel an allen Blutzellen)", "Gesichtsfeldausfälle", "Pseudomembranöse Kolitis (Clostridioides difficile)", "Oberflächliche Zahnverfärbung (entfernbar)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"],
+    "unbekannt": ["Myelosuppression, sideroblastische Anämie", "Serotoninsyndrom", "Laktatazidose", "Periphere Neuropathie und optische Neuropathie bis zum Sehverlust", "Hypoglykämie (Unterzuckerung)", "Anaphylaxie, Angioödem", "Haarausfall"]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit anwenden; es gibt kaum Erfahrungen und Tierversuche zeigten schädliche Wirkungen.",
+  "stillzeit": "Vor und während der Behandlung abstillen; Linezolid geht im Tierversuch in die Milch über.",
+  "hinweise": [
+    "Grössere Mengen tyraminreicher Lebensmittel meiden (gereifter Käse, Hefeextrakt, Sojasauce, Salami, Fassbier, Rotwein) – Gefahr eines Blutdruckanstiegs.",
+    "Blutbild wöchentlich kontrollieren; die Behandlung dauert in der Regel höchstens 28 Tage.",
+    "Sehstörungen (verschwommenes Sehen, Farbsehen, Gesichtsfeldausfälle) und Kribbeln in Händen oder Füssen sofort melden.",
+    "Alle anderen Medikamente angeben, besonders Antidepressiva, Migränemittel, Schmerzmittel und Erkältungsmittel mit Pseudoephedrin."
+  ],
+  "stand": "2026-10"
+}

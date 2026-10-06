@@ -1,0 +1,216 @@
+{
+  "id": "ruxolitinib",
+  "name": "Ruxolitinib",
+  "synonyme": [
+    "Ruxolitinibphosphat",
+    "Ruxolitinibum"
+  ],
+  "atc": [
+    "L01EJ01",
+    "D11AH09"
+  ],
+  "klasse": "Januskinase-Hemmer (JAK1/JAK2-Inhibitor); Proteinkinase-Hemmer",
+  "kurz": "JAK-Hemmer: als Tablette gegen Myelofibrose, Polycythaemia vera und Graft-versus-Host-Krankheit, als Creme gegen Vitiligo.",
+  "gruppen": [
+    "jak-hemmer",
+    "proteinkinase-hemmer",
+    "myelosuppressiv",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Jakavi",
+    "Opzelura"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Creme"
+  ],
+  "indikationen": [
+    {
+      "text": "Myelofibrose (primär oder nach Polycythaemia vera bzw. essenzieller Thrombozythämie) mit vergrösserter Milz oder Beschwerden (Tabletten)",
+      "ids": [
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Polycythaemia vera, wenn Hydroxycarbamid nicht ausreichend wirkt oder nicht vertragen wird (Tabletten)",
+      "ids": [
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Akute und chronische Graft-versus-Host-Krankheit nach Stammzelltransplantation, wenn Kortison nicht ausreichend wirkt (Tabletten)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Nicht-segmentale Vitiligo mit Beteiligung des Gesichts bei Erwachsenen und Jugendlichen ab 12 Jahren (Creme)",
+      "ids": [
+        "vitiligo"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst überaktive Signalwege der Blutbildung und des Immunsystems. Ruxolitinib hemmt selektiv die Januskinasen JAK1 und JAK2, die Signale von Zytokinen und Wachstumsfaktoren über den JAK-STAT-Weg ins Zellinnere weiterleiten. Bei Myelofibrose und Polycythaemia vera ist dieser Weg (oft durch eine JAK2-Mutation) dauerhaft aktiviert; die Hemmung verkleinert die Milz und lindert Beschwerden wie Nachtschweiss und Juckreiz. Bei Vitiligo und Graft-versus-Host-Krankheit dämpft es T-Zellen, die Pigmentzellen bzw. körpereigenes Gewebe angreifen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft (Tabletten und Creme)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit (Tabletten und Creme)",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen (Thrombozytopenie, Anämie, Neutropenie): Blutbild vor Beginn und regelmässig während der Behandlung kontrollieren",
+      "ids": [
+        "thrombozytopenie",
+        "anaemie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Infektionen: vor Beginn auf Tuberkulose und Hepatitis B prüfen; Gürtelrose und sehr selten progressive multifokale Leukenzephalopathie (PML) möglich",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b",
+        "aktive-infektion",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion: Dosisanpassung",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Heller Hautkrebs (nicht-melanozytärer Hautkrebs): regelmässige Hautkontrollen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette: Lipide kontrollieren",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Risikofaktoren, Thrombosen oder Krebserkrankungen in der Vorgeschichte (unter JAK-Hemmern mehr Herzinfarkte, Thrombosen und Krebserkrankungen beobachtet)",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "thromboembolie-vorgeschichte",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: während der Behandlung zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Ruxolitinib-Spiegel steigt deutlich – Dosis der Tabletten etwa halbieren, Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fluconazol (hemmt CYP2C9 und CYP3A4)",
+      "ref": [
+        "fluconazol"
+      ],
+      "effekt": "Ruxolitinib-Spiegel steigt stark – Dosis halbieren; Fluconazol-Dosen über 200 mg pro Tag vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Diltiazem)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Ruxolitinib-Spiegel steigt – Blutbild und Verträglichkeit engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Ruxolitinib-Spiegel sinkt – Wirkung überwachen, Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende oder immunsuppressive Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen und erhöhtes Infektionsrisiko – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche Substrate der Transporter P-gp und BCRP (z. B. Dabigatran, Ciclosporin, Rosuvastatin, Digoxin)",
+      "ref": [
+        "dabigatran",
+        "ciclosporin",
+        "rosuvastatin",
+        "digoxin"
+      ],
+      "effekt": "Ruxolitinib kann diese Transporter im Darm hemmen – höhere Spiegel möglich; Überwachung empfohlen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Anämie, Thrombozytopenie, Neutropenie (Blutbildveränderungen)",
+      "Blutergüsse (Hämatome) und andere Blutungen",
+      "Harnwegsinfektionen",
+      "Schwindel, Kopfschmerzen",
+      "Gewichtszunahme, erhöhte Blutfette (Cholesterin, Triglyceride)",
+      "Erhöhte Leberwerte",
+      "Bluthochdruck",
+      "Verstopfung"
+    ],
+    "haeufig": [
+      "Gürtelrose (Herpes zoster), Lungenentzündung",
+      "Magen-Darm-Blutungen, Hirnblutung",
+      "Blähungen",
+      "Akne und Juckreiz an der Auftragsstelle (Creme)"
+    ],
+    "gelegentlich": [
+      "Tuberkulose"
+    ],
+    "unbekannt": [
+      "Wiederaufflammen einer Hepatitis B",
+      "Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)",
+      "Heller Hautkrebs (nicht-melanozytärer Hautkrebs)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, auch die Creme. Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Blutbild vor Beginn und regelmässig während der Behandlung kontrollieren lassen.",
+    "Tabletten nicht eigenmächtig absetzen: Beschwerden der Myelofibrose können innerhalb etwa einer Woche zurückkehren; das Absetzen erfolgt schrittweise nach ärztlicher Anweisung.",
+    "Creme nur auf höchstens 10 % der Körperoberfläche auftragen; die Repigmentierung braucht oft mehrere Monate.",
+    "Fieber, Infektzeichen, Bläschenausschlag oder neue neurologische Beschwerden umgehend ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,254 @@
+{
+  "id": "pantoprazol",
+  "name": "Pantoprazol",
+  "synonyme": [
+    "Pantoprazole",
+    "Pantoprazol-Natrium",
+    "PPI"
+  ],
+  "atc": [
+    "A02BC02"
+  ],
+  "klasse": "Protonenpumpenhemmer (PPI)",
+  "kurz": "Magensäurehemmer bei Sodbrennen, Refluxkrankheit und Magengeschwüren; in niedriger Dosis rezeptfrei gegen Sodbrennen erhältlich.",
+  "gruppen": [
+    "protonenpumpenhemmer",
+    "magensaeure-reduzierend"
+  ],
+  "handelsnamen": [
+    "Pantozol",
+    "Pantozol Control",
+    "Zurcal",
+    "Pantoprazol Sandoz",
+    "Pantoprazol Mepha"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Magensaftresistente Tabletten",
+    "Pulver zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Refluxkrankheit mit Speiseröhrenentzündung: Behandlung und Langzeitbehandlung zur Rückfallvorbeugung",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Kurzzeitbehandlung von Sodbrennen und saurem Aufstossen bei Erwachsenen (rezeptfreie 20-mg-Tabletten)",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Magen- und Zwölffingerdarmgeschwüre",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Magen-Darm-Geschwüren bei Risikopatienten, die dauerhaft NSAR einnehmen",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Beseitigung von Helicobacter pylori in Kombination mit Antibiotika",
+      "ids": [
+        "helicobacter"
+      ]
+    },
+    {
+      "text": "Zollinger-Ellison-Syndrom und andere Zustände mit krankhaft gesteigerter Säurebildung",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Senkt die Bildung von Magensäure stark und anhaltend. Pantoprazol wird in den sauren Belegzellen der Magenschleimhaut in seine aktive Form umgewandelt und blockiert dort irreversibel die Protonenpumpe (H+/K+-ATPase), den letzten Schritt der Säurebildung. Da neue Pumpen erst nachgebildet werden müssen, hält die Wirkung länger an, als der Wirkstoff im Blut vorhanden ist. Pantoprazol wird über CYP2C19 und CYP3A4 abgebaut, hemmt diese Enzyme aber kaum und hat daher weniger Wechselwirkungen als Omeprazol.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Protonenpumpenhemmer (substituierte Benzimidazole)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alarmzeichen (ungewollter Gewichtsverlust, wiederholtes Erbrechen, Schluckbeschwerden, Bluterbrechen, schwarzer Stuhl): vor der Behandlung eine bösartige Erkrankung ausschliessen",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung: Leberwerte überwachen, Dosis begrenzen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Osteoporose oder Sturzrisiko: Langzeitbehandlung in hoher Dosis erhöht das Risiko für Hüft-, Handgelenk- und Wirbelbrüche",
+      "ids": [
+        "osteoporose",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Magnesiummangel bei Behandlung über mehr als 3 Monate, besonders zusammen mit Digoxin oder Diuretika – Magnesium kontrollieren",
+      "ids": [
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Vitamin-B12-Mangel bei Langzeitbehandlung möglich",
+      "ids": [
+        "vitamin-b12-mangel"
+      ]
+    },
+    {
+      "text": "Leicht erhöhtes Risiko für Darminfektionen (Salmonellen, Campylobacter, Clostridioides difficile)",
+      "ids": [
+        "clostridioides",
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Subakuter kutaner Lupus erythematodes (Hautausschlag an sonnenexponierten Stellen): absetzen und ärztlich abklären",
+      "ids": [
+        "lupus"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Rilpivirin zum Einnehmen (HIV-Mittel, auch in Kombinationspräparaten)",
+      "ref": [
+        "rilpivirin",
+        "dolutegravir-rilpivirin",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil"
+      ],
+      "grund": "Rilpivirin braucht Magensäure für die Aufnahme – stark verminderte Spiegel mit Wirkungsverlust und Resistenzgefahr (laut Fachinformation von Rilpivirin kontraindiziert)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Atazanavir und andere HIV-Mittel, deren Aufnahme vom Magen-pH abhängt",
+      "ref": [
+        "atazanavir"
+      ],
+      "effekt": "Spiegel des HIV-Mittels sinken stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Arzneimittel, die Magensäure für die Aufnahme brauchen: Erlotinib, Gefitinib, Dasatinib, Nilotinib, Itraconazol, Posaconazol (Suspension)",
+      "ref": [
+        "erlotinib",
+        "gefitinib",
+        "dasatinib",
+        "nilotinib",
+        "itraconazol",
+        "posaconazol"
+      ],
+      "effekt": "Aufnahme deutlich vermindert, Wirkungsverlust möglich – Kombination möglichst vermeiden oder Einnahme gemäss Fachinformation anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Einzelfälle mit erhöhtem INR und Blutungen – INR zu Beginn, am Ende und bei unregelmässiger Pantoprazol-Einnahme kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat (hoch dosiert)",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöhte Methotrexat-Spiegel – bei Hochdosistherapie Pantoprazol vorübergehend absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mycophenolat-Mofetil",
+      "ref": [
+        "mycophenolat-mofetil"
+      ],
+      "effekt": "Verminderte Spiegel des Wirkmetaboliten Mycophenolsäure – bei Transplantierten Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin und Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau von Pantoprazol – Wirkungsverlust möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluvoxamin",
+      "ref": [
+        "fluvoxamin"
+      ],
+      "effekt": "Hemmt den Abbau von Pantoprazol (CYP2C19) – höhere Spiegel; bei hochdosierter Langzeitbehandlung Dosis gegebenenfalls senken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Eisenpräparate zum Einnehmen",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Eisen wird bei wenig Magensäure schlechter aufgenommen – bei Langzeitbehandlung Eisenwerte beachten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Gutartige Drüsenpolypen im Magen (Fundusdrüsenpolypen)"
+    ],
+    "gelegentlich": [
+      "Kopfschmerzen, Schwindel",
+      "Schlafstörungen",
+      "Durchfall, Verstopfung, Blähungen, Bauchschmerzen",
+      "Übelkeit, Erbrechen, Mundtrockenheit",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz",
+      "Knochenbrüche (Hüfte, Handgelenk, Wirbelsäule)",
+      "Schwäche, Müdigkeit, Unwohlsein"
+    ],
+    "selten": [
+      "Agranulozytose (starker Mangel an weissen Blutkörperchen)",
+      "Überempfindlichkeitsreaktionen bis zum anaphylaktischen Schock, Angioödem, Nesselsucht",
+      "Depression, Geschmacksstörungen, Sehstörungen",
+      "Erhöhte Blutfette, Gewichtsveränderungen",
+      "Gelenk- und Muskelschmerzen",
+      "Gynäkomastie (Brustvergrösserung beim Mann), Fieber, Wassereinlagerungen"
+    ],
+    "sehrSelten": [
+      "Thrombozytopenie, Leukopenie, Panzytopenie (Mangel an Blutzellen)",
+      "Desorientierung"
+    ],
+    "unbekannt": [
+      "Hyponatriämie (Natriummangel) und Hypomagnesiämie (Magnesiummangel)",
+      "Halluzinationen, Verwirrtheit",
+      "Mikroskopische Kolitis",
+      "Leberzellschädigung, Gelbsucht, Leberversagen",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme, DRESS",
+      "Subakuter kutaner Lupus erythematodes, Lichtempfindlichkeit",
+      "Tubulointerstitielle Nephritis (Nierenentzündung)",
+      "Muskelkrämpfe"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen sind begrenzt; vorsichtshalber in der Schwangerschaft nur nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Pantoprazol geht in die Muttermilch über; nur nach ärztlicher Nutzen-Risiko-Abwägung anwenden.",
+  "hinweise": [
+    "Tablette unzerkaut mit etwas Wasser etwa 1 Stunde vor einer Mahlzeit, meist vor dem Frühstück, einnehmen.",
+    "Rezeptfreie Selbstbehandlung (20 mg) höchstens 4 Wochen; tritt nach 2 Wochen keine Besserung ein, ärztlich abklären.",
+    "Nach längerer Einnahme nicht abrupt absetzen: vorübergehend vermehrte Säurebildung (Rebound) möglich.",
+    "Bei Langzeitbehandlung regelmässig die Notwendigkeit sowie Magnesium und Vitamin B12 überprüfen lassen."
+  ],
+  "stand": "2026-10"
+}

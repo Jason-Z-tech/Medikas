@@ -1,0 +1,256 @@
+{
+  "id": "oxycodon",
+  "name": "Oxycodon",
+  "synonyme": [
+    "Oxycodonhydrochlorid",
+    "Oxycodone"
+  ],
+  "atc": [
+    "N02AA05"
+  ],
+  "klasse": "Opioid-Analgetikum (starker μ-Opioidrezeptor-Agonist)",
+  "kurz": "Starkes Opioid-Schmerzmittel bei starken Schmerzen, die nur mit Opioiden ausreichend behandelt werden können.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "serotonerg",
+    "cyp3a4-substrate-empfindlich",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "OxyContin",
+    "OxyNorm",
+    "Oxycodon Mepha",
+    "Targin (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Retardtabletten",
+    "Kapseln",
+    "Schmelztabletten",
+    "Lösung zum Einnehmen",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Starke Schmerzen, die nur mit Opioid-Analgetika ausreichend behandelt werden können",
+      "ids": [
+        "schmerzen",
+        "chronische-schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert starke Schmerzen, indem es an die körpereigenen Opioid-Andockstellen in Gehirn und Rückenmark bindet. Oxycodon ist ein halbsynthetischer Agonist vor allem am μ-Opioidrezeptor und hemmt Weiterleitung und Wahrnehmung von Schmerzreizen. Der Abbau erfolgt in der Leber überwiegend über CYP3A4 zu Noroxycodon und in geringem Mass über CYP2D6 zu Oxymorphon; deshalb beeinflussen CYP3A4-Hemmer und -Induktoren die Wirkung deutlich.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Atemdepression (stark abgeschwächte Atmung)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere chronisch obstruktive Lungenerkrankung, Cor pulmonale oder schweres Asthma",
+      "ids": [
+        "copd",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Paralytischer Ileus (Darmlähmung) oder akutes Abdomen",
+      "ids": [
+        "darmverschluss"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (höhere Spiegel, Dosis anpassen)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schlafapnoe oder eingeschränkte Atemfunktion",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Kopfverletzung, erhöhter Hirndruck oder Bewusstseinsstörung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Schilddrüsenunterfunktion oder Nebenniereninsuffizienz",
+      "ids": [
+        "hypotonie",
+        "hypothyreose",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung oder Harnverhalt",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Gallenwegserkrankungen oder Pankreatitis",
+      "ids": [
+        "gallensteine",
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Sucht oder Missbrauch in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine und Z-Substanzen",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen"
+      ],
+      "effekt": "Gefahr schwerer Atemdepression, tiefer Bewusstlosigkeit und Tod – nur kombinieren, wenn keine Alternative besteht, mit niedrigsten Dosen und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gabapentin und Pregabalin",
+      "ref": [
+        "gruppe:gabapentinoide"
+      ],
+      "effekt": "Verstärkte Atemdämpfung und Sedierung – Dosis anpassen, auf Atemprobleme achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Voriconazol, Ritonavir, Grapefruitsaft)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Oxycodonspiegel steigt deutlich – Gefahr von Atemdepression; Dosis anpassen und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:antipsychotika",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Verstärkte Sedierung und Atemdämpfung – kein Alkohol.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Oxycodonspiegel sinkt, Schmerzlinderung abgeschwächt; nach Absetzen des Induktors Gefahr einer Überdosierung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (SSRI, SNRI, MAO-Hemmer)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:mao-hemmer",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotonin-Syndrom möglich; MAO-Hemmer zudem mit Verstärkung der Opioidwirkung – nur mit Vorsicht, 14 Tage Abstand zu MAO-Hemmern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR-Veränderungen in beide Richtungen beobachtet – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Partialagonisten (z. B. Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung, Entzugssymptome möglich – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Verstopfung bis Darmlähmung sowie Harnverhalt möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Schwindel, Kopfschmerzen",
+      "Obstipation (Verstopfung)",
+      "Übelkeit, Erbrechen",
+      "Juckreiz"
+    ],
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Angst, Verwirrtheit, Depression, Schlafstörungen",
+      "Zittern, Benommenheit",
+      "Atemnot",
+      "Bauchschmerzen, Durchfall, Mundtrockenheit, Verdauungsbeschwerden",
+      "Hautausschlag, Schwitzen",
+      "Schwäche, Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Atemdepression (abgeschwächte Atmung)",
+      "Überempfindlichkeitsreaktionen",
+      "Halluzinationen, Euphorie",
+      "Krampfanfälle, Ohnmacht",
+      "Herzrasen",
+      "Ileus (Darmlähmung)",
+      "Harnverhalt, Erektionsstörung",
+      "Abhängigkeit und Entzugssymptome"
+    ],
+    "selten": [
+      "Blutdruckabfall, Schwindel beim Aufstehen",
+      "Nesselsucht"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Aggression",
+      "Hyperalgesie (erhöhte Schmerzempfindlichkeit)",
+      "Gallenkoliken, Cholestase (Gallenstau)",
+      "Schlafapnoe",
+      "Ausbleiben der Regel"
+    ]
+  },
+  "schwangerschaft": "Möglichst nicht anwenden; nur nach strenger ärztlicher Abwägung. Längere Anwendung kann beim Neugeborenen ein Entzugssyndrom, Anwendung unter der Geburt eine Atemdepression auslösen.",
+  "stillzeit": "Oxycodon geht in die Muttermilch über und kann beim Säugling Atemdepression verursachen; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht zerkauen oder zerkleinern – sonst Gefahr einer lebensbedrohlichen Überdosierung.",
+    "Kein Alkohol und kein Grapefruitsaft; die Fahrtüchtigkeit ist vor allem zu Beginn und bei Dosisänderungen eingeschränkt.",
+    "Gegen Verstopfung von Beginn an vorbeugen (Abführmittel, ausreichend trinken).",
+    "Nach längerer Anwendung nicht abrupt absetzen (Entzugssymptome)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,260 @@
+{
+  "id": "hydroxychloroquin",
+  "name": "Hydroxychloroquin",
+  "synonyme": [
+    "HCQ",
+    "Hydroxychloroquine",
+    "Hydroxychloroquinsulfat"
+  ],
+  "atc": [
+    "P01BA02"
+  ],
+  "klasse": "4-Aminochinolin; Antimalariamittel und langsam wirkendes Basistherapeutikum (DMARD)",
+  "kurz": "Basismedikament gegen rheumatoide Arthritis und Lupus; wird auch zur Vorbeugung und Behandlung von Malaria eingesetzt.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "hypoglykaemie-ausloesend",
+    "krampfschwellensenkend",
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Plaquenil",
+    "Hydroxychloroquin Zentiva"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Rheumatoide Arthritis (chronische Polyarthritis)",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Systemischer und diskoider (chronischer Haut-)Lupus erythematodes",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Durch Sonnenlicht ausgelöste Hauterkrankungen (Lichtdermatosen)",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Vorbeugung und Behandlung der Malaria durch empfindliche Erreger (nicht bei Chloroquin-resistenter Malaria tropica)",
+      "ids": [
+        "malaria"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft ein überaktives Immunsystem und wirkt gegen Malariaerreger. Hydroxychloroquin reichert sich in sauren Zellbläschen (Lysosomen) an und erhöht deren pH-Wert; dadurch werden die Antigenpräsentation und die Aktivierung von Toll-like-Rezeptoren gehemmt und weniger entzündungsfördernde Zytokine gebildet. In Malariaparasiten verhindert es die Entgiftung des Häms aus dem Hämoglobinabbau, was die Erreger in ihren Blutstadien abtötet. Die Wirkung bei Rheuma und Lupus setzt erst nach mehreren Wochen bis Monaten ein.",
+  "kontraindikationen": [
+    {
+      "text": "Bestehende Makulopathie oder andere Netzhautschäden, auch durch frühere Behandlung mit 4-Aminochinolinen",
+      "ids": [
+        "makuladegeneration",
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen 4-Aminochinoline (z. B. Chloroquin)",
+      "ids": []
+    },
+    {
+      "text": "Kinder unter 6 Jahren (Tabletten nicht geeignet)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzerkrankungen, angeborene oder erworbene QT-Verlängerung, langsamer Puls, Elektrolytstörungen (Gefahr von Herzrhythmusstörungen und Kardiomyopathie)",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "kardiomyopathie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes: schwere Unterzuckerungen möglich, auch ohne Antidiabetika",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Porphyrie und Psoriasis (können sich verschlechtern)",
+      "ids": [
+        "porphyrie",
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfschwelle kann sinken)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte (psychiatrische Nebenwirkungen bis zu suizidalem Verhalten möglich)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Muskelschwäche oder Myasthenia gravis (Myopathie und Neuromyopathie möglich)",
+      "ids": [
+        "myasthenia-gravis",
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Kleinkinder im Haushalt: schon wenige Tabletten können bei versehentlicher Einnahme tödlich sein",
+      "ids": [
+        "kinder",
+        "vergiftung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere QT-Zeit verlängernde Mittel (z. B. Amiodaron, Makrolide, Fluorchinolone, Antipsychotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen (Torsade de pointes) – Kombination möglichst vermeiden, sonst EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung bis zu schweren Unterzuckerungen – Blutzucker engmaschig kontrollieren, Dosis der Antidiabetika gegebenenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mefloquin und andere krampfschwellensenkende Mittel",
+      "ref": [
+        "mefloquin",
+        "gruppe:krampfschwellensenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle; Mefloquin verstärkt zudem die QT-Verlängerung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und andere empfindliche P-Glykoprotein-Substrate (z. B. Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Die Spiegel dieser Mittel können steigen – Digoxinspiegel kontrollieren, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Erhöhte Ciclosporin-Spiegel möglich – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tamoxifen und andere netzhautschädigende Mittel",
+      "ref": [
+        "tamoxifen"
+      ],
+      "effekt": "Erhöhtes Risiko für Netzhautschäden – Kombination nicht empfohlen, sonst engmaschige augenärztliche Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiepileptika",
+      "ref": [
+        "gruppe:antiepileptika"
+      ],
+      "effekt": "Die Wirkung der Antiepileptika kann abgeschwächt werden – Anfallskontrolle überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Agalsidase (Enzymersatz bei Morbus Fabry)",
+      "ref": [
+        "agalsidase-alfa",
+        "agalsidase-beta"
+      ],
+      "effekt": "Hydroxychloroquin kann die Wirkung der Enzymersatztherapie aufheben – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida und Kaolin",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Hydroxychloroquin – mindestens 4 Stunden Abstand einhalten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bauchschmerzen",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Durchfall, Erbrechen",
+      "Kopfschmerzen",
+      "Verschwommenes Sehen durch Störung der Naheinstellung (meist vorübergehend)",
+      "Hautausschlag, Juckreiz",
+      "Stimmungsschwankungen (Affektlabilität)"
+    ],
+    "gelegentlich": [
+      "Retinopathie (Netzhautschaden) mit Pigmentveränderungen und Gesichtsfeldausfällen",
+      "Hornhautveränderungen",
+      "Schwindel, Ohrensausen (Tinnitus)",
+      "Nervosität",
+      "Erhöhte Leberwerte",
+      "Haarausfall, Pigmentveränderungen von Haut, Schleimhaut und Haaren"
+    ],
+    "unbekannt": [
+      "Kardiomyopathie, Reizleitungsstörungen und QT-Verlängerung",
+      "Hypoglykämie (Unterzuckerung)",
+      "Knochenmarkhemmung (Agranulozytose, Anämie, Thrombozytopenie)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Krampfanfälle, Psychosen, Depression und Suizidgedanken",
+      "Myopathie und Neuromyopathie (Muskelschwäche)",
+      "Akutes Leberversagen",
+      "Anaphylaxie, Angioödem, Bronchospasmus"
+    ]
+  },
+  "schwangerschaft": "Hydroxychloroquin passiert die Plazenta; Anwendung nur nach sorgfältiger ärztlicher Abwägung. Eine laufende Lupus-Behandlung nicht eigenmächtig absetzen, da ein Krankheitsschub Mutter und Kind gefährden kann.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Säuglinge reagieren empfindlich auf 4-Aminochinoline. Stillen nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Augenärztliche Untersuchung vor Behandlungsbeginn und danach regelmässig (spätestens nach 5 Jahren jährlich); Sehstörungen sofort melden.",
+    "Mit einer Mahlzeit oder einem Glas Milch einnehmen; Antazida nur mit 4 Stunden Abstand.",
+    "Für Kinder unerreichbar aufbewahren: schon wenige Tabletten können für Kleinkinder tödlich sein.",
+    "Die Wirkung bei Rheuma und Lupus tritt erst nach Wochen bis Monaten ein – nicht vorzeitig absetzen."
+  ],
+  "stand": "2026-10"
+}

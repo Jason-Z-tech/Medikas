@@ -1,0 +1,205 @@
+{
+  "id": "zolpidem",
+  "name": "Zolpidem",
+  "synonyme": [
+    "Zolpidemtartrat",
+    "Zolpidemi tartras"
+  ],
+  "atc": [
+    "N05CF02"
+  ],
+  "klasse": "Hypnotikum (Z-Substanz, Imidazopyridin)",
+  "kurz": "Schlafmittel aus der Gruppe der Z-Substanzen zur kurzzeitigen Behandlung schwerer Schlafstörungen.",
+  "gruppen": [
+    "z-substanzen",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Stilnox",
+    "Zolpidem Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitbehandlung von Schlafstörungen bei Erwachsenen, wenn sie schwer sind, stark beeinträchtigen oder sehr belasten",
+      "ids": [
+        "schlafstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Fördert das Einschlafen, indem es hemmende Signale im Gehirn verstärkt. Zolpidem bindet bevorzugt an GABA-A-Rezeptoren mit der Alpha-1-Untereinheit (Omega-1-Bindungsstelle) und verstärkt so die Wirkung des hemmenden Botenstoffs GABA; es wirkt dadurch vor allem schlafanstossend und kaum muskelentspannend oder krampflösend. Die Wirkung tritt rasch ein, die Halbwertszeit beträgt etwa 2,5 Stunden. Der Abbau erfolgt in der Leber vorwiegend über CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis (krankhafte Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere akute oder chronische Ateminsuffizienz (Atemschwäche)",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom (Atemaussetzer im Schlaf)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frühere komplexe Schlafverhaltensweisen nach Einnahme von Zolpidem (z. B. Schlafwandeln, Autofahren im Schlaf)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alkohol-, Medikamenten- oder Drogenabhängigkeit in der Vorgeschichte (erhöhtes Abhängigkeitsrisiko)",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Sturzgefahr, Verwirrtheit – niedrigere Dosis",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression: Suizidgedanken können verdeckt oder verstärkt werden",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leberinsuffizienz, leichte Ateminsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "copd"
+      ]
+    },
+    {
+      "text": "Angeborenes Long-QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: Anwendung nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Tramadol, Methadon)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Gefahr von starker Sedierung, Atemdepression, Koma und Tod – nur kombinieren, wenn keine Alternative besteht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (Benzodiazepine, Antipsychotika, sedierende Antidepressiva und Antihistaminika, Antiepileptika)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:antipsychotika",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Verstärkte Dämpfung mit Benommenheit am Folgetag und Sturzgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluvoxamin und Ciprofloxacin",
+      "ref": [
+        "fluvoxamin",
+        "ciprofloxacin"
+      ],
+      "effekt": "Hemmen den Abbau von Zolpidem – der Spiegel steigt; Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Verstärkte und verlängerte Wirkung – Dosisreduktion erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau – die Wirkung kann deutlich nachlassen; mit Johanniskraut nicht empfohlen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schläfrigkeit, Benommenheit am Folgetag",
+      "Kopfschmerzen, Schwindel",
+      "Gedächtnislücken (anterograde Amnesie), verstärkte Schlaflosigkeit",
+      "Halluzinationen, Unruhe (Agitiertheit), Albträume",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Infekte der oberen und unteren Atemwege",
+      "Rückenschmerzen",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Verwirrtheit, Reizbarkeit, Aggressivität",
+      "Schlafwandeln und andere komplexe Schlafverhaltensweisen",
+      "Kribbeln (Parästhesie), Zittern, Konzentrations- und Sprachstörungen",
+      "Doppeltsehen, verschwommenes Sehen",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz, vermehrtes Schwitzen",
+      "Gelenk- und Muskelschmerzen, Muskelkrämpfe",
+      "Appetitstörungen"
+    ],
+    "selten": [
+      "Libidostörungen",
+      "Bewusstseinsstörungen",
+      "Leberschäden",
+      "Nesselsucht",
+      "Gangstörungen, Stürze (vor allem bei älteren Menschen)"
+    ],
+    "sehrSelten": [
+      "Wahnvorstellungen",
+      "Abhängigkeit",
+      "Atemdepression"
+    ],
+    "unbekannt": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Wut, Psychose, abnormes Verhalten",
+      "Toleranzentwicklung, Entzugssymptome und Rebound-Schlaflosigkeit"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen. Bei Einnahme im letzten Schwangerschaftsdrittel oder unter der Geburt können beim Neugeborenen Unterkühlung, Muskelschlaffheit, Atemprobleme und Entzugssymptome auftreten.",
+  "stillzeit": "Zolpidem geht in geringen Mengen in die Muttermilch über; in der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Unmittelbar vor dem Zubettgehen einnehmen und nur, wenn danach 7–8 Stunden Schlaf möglich sind; eine kurz zuvor eingenommene Mahlzeit kann den Wirkungseintritt verzögern.",
+    "Die Höchstdosis von 10 mg pro Nacht nicht überschreiten; am Folgetag kann die Fahrtüchtigkeit beeinträchtigt sein.",
+    "Keinen Alkohol trinken.",
+    "So kurz wie möglich anwenden (höchstens 4 Wochen inklusive Ausschleichen) und nach längerer Einnahme nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

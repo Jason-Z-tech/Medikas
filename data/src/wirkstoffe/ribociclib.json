@@ -1,0 +1,180 @@
+{
+  "id": "ribociclib",
+  "name": "Ribociclib",
+  "synonyme": [
+    "Ribociclibsuccinat",
+    "LEE011"
+  ],
+  "atc": [
+    "L01EF02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (CDK4/6-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel (CDK4/6-Hemmer), zusammen mit einer Hormontherapie gegen hormonempfindlichen, HER2-negativen Brustkrebs.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "starke-cyp3a4-hemmer",
+    "qt-verlaengernd",
+    "hepatotoxisch",
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Kisqali"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter Hormonrezeptor-positiver, HER2-negativer Brustkrebs: mit einem Aromatasehemmer oder Fulvestrant; vor oder während der Wechseljahre zusätzlich mit einem LHRH-Agonisten",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Früher Hormonrezeptor-positiver, HER2-negativer Brustkrebs mit hohem Rückfallrisiko: nach Operation (adjuvant) zusammen mit einem Aromatasehemmer",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Teilung hormonempfindlicher Brustkrebszellen. Ribociclib hemmt selektiv die Cyclin-abhängigen Kinasen 4 und 6 (CDK4/6); dadurch bleibt das Retinoblastom-Protein unphosphoryliert, und der Zellzyklus stoppt in der G1-Phase. Zusammen mit einer antihormonellen Therapie wird das Tumorwachstum stärker gebremst als mit der Hormontherapie allein. Ribociclib wird über CYP3A4 abgebaut und hemmt dieses Enzym selbst deutlich.",
+  "kontraindikationen": [
+    {
+      "text": "Erdnuss- oder Sojaallergie (die Tabletten enthalten Sojalecithin)",
+      "ids": [
+        "erdnuss-sojaallergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verlängerte QT-Zeit oder Risiko dafür (angeborenes Long-QT-Syndrom, Herzkrankheit, langsamer Puls, Elektrolytstörungen): EKG vor Beginn und regelmässig",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Leberschädigung möglich: Leberwerte vor und während der Behandlung kontrollieren; eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Neutropenie und Infektionen",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung/Pneumonitis",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (toxische epidermale Nekrolyse, DRESS)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ketoconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Ribociclib-Spiegel steigt deutlich (Ritonavir etwa 3-fach) – mehr QT-Verlängerung und Neutropenie; vermeiden, sonst Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Ribociclib-Spiegel sinkt stark – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Antiarrhythmika, Methadon, Moxifloxacin, Haloperidol, Ondansetron intravenös)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung, Gefahr von Torsade de pointes – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Tamoxifen",
+      "ref": [
+        "tamoxifen"
+      ],
+      "effekt": "Höhere Tamoxifen-Spiegel und stärkere QT-Verlängerung – nicht zusammen anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Midazolam, Simvastatin, Ciclosporin, Tacrolimus, Everolimus, Fentanyl, Pimozid, Ergotamin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Ribociclib hemmt CYP3A4 stark – deren Spiegel steigen; meiden oder Dosis reduzieren und überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Grapefruit, Granatapfel und deren Säfte",
+      "ref": [],
+      "effekt": "Hemmen CYP3A4 und erhöhen die Ribociclib-Spiegel – meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Leukopenie, Anämie, Lymphopenie",
+      "Infektionen (v. a. Harnwege und obere Atemwege)",
+      "Übelkeit, Durchfall, Erbrechen, Verstopfung, Bauchschmerzen, Stomatitis",
+      "Appetitlosigkeit",
+      "Kopfschmerzen, Schwindel",
+      "Haarausfall, Hautausschlag, Juckreiz",
+      "Müdigkeit, Rückenschmerzen, periphere Ödeme, Fieber",
+      "Erhöhte Leberwerte (ALT, AST)"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie, Thrombozytopenie",
+      "QT-Verlängerung im EKG",
+      "Synkope (Ohnmacht)",
+      "Hypokalzämie, Hypokaliämie, Hypophosphatämie",
+      "Vermehrter Tränenfluss, trockene Augen",
+      "Trockene Haut, Hautrötung, Vitiligo (Weissfleckenkrankheit)",
+      "Leberschädigung (Hepatotoxizität)",
+      "Erhöhtes Kreatinin"
+    ],
+    "unbekannt": [
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Toxische epidermale Nekrolyse, DRESS (schwere Arzneimittelreaktionen)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und mindestens 21 Tage nach der letzten Dosis sicher verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 21 Tage nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Bei fortgeschrittenem Brustkrebs Einnahme an 21 Tagen, danach 7 Tage Pause; einmal täglich, möglichst morgens, mit oder ohne Mahlzeit.",
+    "EKG vor Beginn und in den ersten Behandlungszyklen; Leberwerte und Blutbild werden regelmässig kontrolliert.",
+    "Grapefruit, Granatapfel und deren Säfte meiden; vor jedem neuen Medikament (auch rezeptfrei) Wechselwirkungen prüfen lassen.",
+    "Herzklopfen, Ohnmacht, Gelbsucht oder dunkler Urin sofort melden."
+  ],
+  "stand": "2026-10"
+}

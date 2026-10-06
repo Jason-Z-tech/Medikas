@@ -1,0 +1,186 @@
+{
+  "id": "salbutamol",
+  "name": "Salbutamol",
+  "synonyme": [
+    "Albuterol",
+    "Salbutamolsulfat"
+  ],
+  "atc": [
+    "R03AC02",
+    "R03CC02"
+  ],
+  "klasse": "Kurz wirksames Beta-2-Sympathomimetikum (SABA, Bronchodilatator)",
+  "kurz": "Rasch wirkendes Spray zur Erweiterung der Bronchien bei akuter Atemnot durch Asthma oder COPD.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Ventolin",
+    "Dospir (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol",
+    "Pulverinhalator",
+    "Inhalationslösung (Vernebler)"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung und Vorbeugung akuter Atemnot (Bronchospasmus) bei Asthma bronchiale, auch vor körperlicher Anstrengung oder Allergenkontakt",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Verengung der Atemwege bei chronisch obstruktiver Lungenerkrankung (COPD) und chronischer Bronchitis",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert innert Minuten verengte Bronchien und erleichtert das Atmen. Salbutamol stimuliert selektiv Beta-2-Rezeptoren der Bronchialmuskulatur; über einen Anstieg von cAMP erschlafft die glatte Muskulatur. Die Wirkung beginnt nach wenigen Minuten und hält etwa 4–6 Stunden an. Auf die Entzündung der Atemwege bei Asthma hat es keinen Einfluss.",
+  "kontraindikationen": [
+    {
+      "text": "Behandlung vorzeitiger Wehen oder einer drohenden Fehlgeburt (inhalative Formen)",
+      "ids": [
+        "geburtshilfe",
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Zunehmender Bedarf oder nachlassende Wirkung: Zeichen eines sich verschlechternden Asthmas – rasch ärztlich abklären",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen (koronare Herzkrankheit, Herzrhythmusstörungen, Bluthochdruck, QT-Verlängerung)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "hypertonie",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzuckeranstieg möglich)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kaliummangel, besonders bei schwerem Asthmaanfall (Kalium kontrollieren)",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Paradoxe Verkrampfung der Atemwege nach der Inhalation möglich – dann sofort absetzen und ärztliche Hilfe holen",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, besonders nicht selektive wie Propranolol (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung; Betablocker können bei Asthma schwere Bronchospasmen auslösen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Kortison, Theophyllin)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Gefahr einer ausgeprägten Hypokaliämie mit Herzrhythmusstörungen – Kalium kontrollieren, besonders bei schwerem Asthma.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Eine Hypokaliämie erhöht das Risiko für Digitalis-bedingte Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Die Wirkung auf Herz und Kreislauf kann verstärkt werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen während einer Narkose.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Sympathomimetika",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Additive Wirkung auf Herz und Kreislauf.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Zittern (Tremor)",
+      "Kopfschmerzen",
+      "Beschleunigter Puls (Tachykardie)"
+    ],
+    "gelegentlich": [
+      "Herzklopfen",
+      "Reizung von Mund und Rachen",
+      "Muskelkrämpfe"
+    ],
+    "selten": [
+      "Hypokaliämie (Kaliummangel)",
+      "Erweiterung der Blutgefässe mit Hautrötung"
+    ],
+    "sehrSelten": [
+      "Überempfindlichkeitsreaktionen (Angioödem, Nesselsucht, Blutdruckabfall, Kollaps)",
+      "Paradoxer Bronchospasmus",
+      "Herzrhythmusstörungen (Vorhofflimmern, supraventrikuläre Tachykardie, Extrasystolen)",
+      "Hyperaktivität"
+    ],
+    "unbekannt": [
+      "Myokardischämie (Durchblutungsstörung des Herzmuskels)",
+      "Laktatazidose bei sehr hohen Dosen (z. B. Vernebler im Spital)"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; ein gut kontrolliertes Asthma ist für Mutter und Kind wichtig.",
+  "stillzeit": "Salbutamol geht wahrscheinlich in die Muttermilch über; Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Dosieraerosol vor Gebrauch schütteln; mit Inhalierhilfe (Spacer) gelangt mehr Wirkstoff in die Lunge – Inhalationstechnik in der Apotheke zeigen lassen.",
+    "Wird das Spray häufiger als gewohnt gebraucht, ist das Asthma nicht ausreichend kontrolliert – ärztlich abklären lassen.",
+    "Bei Asthma ersetzt Salbutamol keine entzündungshemmende Basistherapie mit inhalativem Kortison."
+  ],
+  "stand": "2026-10"
+}

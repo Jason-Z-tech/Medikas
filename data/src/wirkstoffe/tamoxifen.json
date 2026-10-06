@@ -1,0 +1,197 @@
+{
+  "id": "tamoxifen",
+  "name": "Tamoxifen",
+  "synonyme": [
+    "Tamoxifen",
+    "Tamoxifencitrat"
+  ],
+  "atc": [
+    "L02BA01"
+  ],
+  "klasse": "Selektiver Östrogenrezeptor-Modulator (Antiöstrogen)",
+  "kurz": "Antihormon-Tablette gegen hormonempfindlichen Brustkrebs; blockiert die Wirkung von Östrogen im Brustgewebe.",
+  "gruppen": [
+    "serms",
+    "cyp2d6-substrate",
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Nolvadex",
+    "Tamoxifen Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Hormonrezeptor-positiver Brustkrebs nach Operation (adjuvant), vor und nach den Wechseljahren",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener oder metastasierter hormonabhängiger Brustkrebs",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Östrogen das Wachstum von Brustkrebszellen anregt. Tamoxifen bindet an den Östrogenrezeptor und wirkt im Brustgewebe als Gegenspieler, an Gebärmutter, Knochen und Blutgerinnung dagegen teilweise östrogenartig. Es ist ein Prodrug: Über CYP2D6 und CYP3A4 entsteht der hauptsächlich wirksame Metabolit Endoxifen. Bei stark verminderter CYP2D6-Aktivität (genetisch oder durch Hemmer) kann die Wirkung schwächer sein.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Thrombose oder Lungenembolie in der Vorgeschichte, Immobilisation, Operationen",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "immobilisation",
+        "operation"
+      ]
+    },
+    {
+      "text": "Veränderungen der Gebärmutterschleimhaut (Polypen, Gebärmutterkrebs): ungewöhnliche Blutungen abklären",
+      "ids": [
+        "gynaekologischer-krebs",
+        "zyklusstoerungen"
+      ]
+    },
+    {
+      "text": "Sehstörungen, grauer Star",
+      "ids": [
+        "katarakt",
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen und erhöhte Blutfette (Triglyceride)",
+      "ids": [
+        "leberinsuffizienz",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Knochenmetastasen (Hyperkalzämie zu Beginn möglich)",
+      "ids": [
+        "knochenmetastasen",
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Genetisch langsamer CYP2D6-Abbau (schwächere Wirkung möglich)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Weniger aktiver Metabolit Endoxifen, dadurch möglicherweise schwächere Krebswirkung – vermeiden, bei Antidepressiva z. B. auf Escitalopram oder Venlafaxin ausweichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Deutlich verstärkte Blutverdünnung – INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Aromatasehemmer (Anastrozol, Letrozol)",
+      "ref": [
+        "gruppe:aromatasehemmer"
+      ],
+      "effekt": "Gleichzeitige Gabe ohne Zusatznutzen; Spiegel von Letrozol bzw. Anastrozol sinken – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogene und hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Können die Wirkung von Tamoxifen aufheben – nicht anwenden; nicht hormonell verhüten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tamoxifen-Spiegel sinkt – Wirkverlust möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zytostatika",
+      "ref": [
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Erhöhtes Thromboserisiko bei gleichzeitiger Chemotherapie.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hitzewallungen",
+      "Übelkeit",
+      "Flüssigkeitseinlagerungen (Ödeme)",
+      "Scheidenblutungen oder Ausfluss",
+      "Hautausschlag",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Thrombosen und Lungenembolie",
+      "Ischämischer Schlaganfall",
+      "Grauer Star (Katarakt), Netzhautveränderungen",
+      "Gebärmuttermyome, Polypen der Gebärmutterschleimhaut",
+      "Erhöhte Triglyceride, Fettleber, erhöhte Leberwerte",
+      "Kopfschmerzen, Wadenkrämpfe, Muskelschmerzen",
+      "Haarausfall",
+      "Anämie, Überempfindlichkeitsreaktionen"
+    ],
+    "gelegentlich": [
+      "Gebärmutterkrebs (Endometriumkarzinom)",
+      "Hyperkalzämie bei Knochenmetastasen",
+      "Interstitielle Pneumonitis",
+      "Leukopenie, Thrombozytopenie",
+      "Pankreatitis"
+    ],
+    "selten": [
+      "Uterussarkom",
+      "Agranulozytose, Neutropenie",
+      "Sehnerventzündung",
+      "Hepatitis, Cholestase, Leberversagen",
+      "Stevens-Johnson-Syndrom und andere schwere Hautreaktionen",
+      "Angioödem",
+      "Tumorschmerz zu Beginn (Flare)"
+    ],
+    "sehrSelten": [
+      "Kutaner Lupus erythematodes"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kontraindiziert. Vor Beginn Schwangerschaft ausschliessen; während und noch mehrere Monate nach der Behandlung zuverlässig, aber nicht hormonell verhüten.",
+  "stillzeit": "Nicht stillen; Tamoxifen kann zudem die Milchbildung hemmen.",
+  "hinweise": [
+    "Täglich zur gleichen Zeit einnehmen, meist über 5–10 Jahre; nicht eigenmächtig absetzen.",
+    "Ungewöhnliche Blutungen aus der Scheide, Beinschwellung, Atemnot oder Sehstörungen sofort melden; jährliche gynäkologische Kontrolle.",
+    "Vor neuen Medikamenten, besonders Antidepressiva, Rücksprache halten (Paroxetin, Fluoxetin meiden)."
+  ],
+  "stand": "2026-10"
+}

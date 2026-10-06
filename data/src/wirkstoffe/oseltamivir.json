@@ -1,0 +1,46 @@
+{
+  "id": "oseltamivir",
+  "name": "Oseltamivir",
+  "synonyme": ["Oseltamivirphosphat", "Oseltamivir phosphate"],
+  "atc": ["J05AH02"],
+  "klasse": "Neuraminidasehemmer (Grippemittel)",
+  "kurz": "Grippemittel (Neuraminidasehemmer) zur Behandlung und Vorbeugung der echten Grippe (Influenza A und B); wirkt am besten bei frühem Beginn.",
+  "gruppen": [],
+  "handelsnamen": ["Tamiflu"],
+  "abgabe": ["B"],
+  "darreichung": ["Kapseln", "Pulver zur Herstellung einer Suspension zum Einnehmen"],
+  "indikationen": [
+    { "text": "Behandlung der Grippe (Influenza A und B) bei Erwachsenen und Kindern, auch Säuglingen; Beginn innerhalb von 48 Stunden nach Symptombeginn", "ids": ["influenza"] },
+    { "text": "Vorbeugung der Grippe nach engem Kontakt mit einer erkrankten Person sowie in Ausnahmesituationen während einer Grippewelle", "ids": ["influenza"] }
+  ],
+  "wirkmechanismus": "Verhindert, dass sich Grippeviren im Körper weiter ausbreiten. Oseltamivir ist eine Vorstufe (Prodrug), die in der Leber durch Esterasen zu Oseltamivircarboxylat umgewandelt wird. Dieses hemmt selektiv die Neuraminidase der Influenza-A- und -B-Viren, ein Enzym an der Virusoberfläche, das die Freisetzung neu gebildeter Viren aus infizierten Zellen ermöglicht. Die Viren bleiben an der Zelloberfläche haften und können sich nicht ausbreiten; gegen Erkältungsviren wirkt Oseltamivir nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei sehr schwerer Einschränkung nicht empfohlen", "ids": ["niereninsuffizienz"] },
+    { "text": "Kinder und Jugendliche: neuropsychiatrische Ereignisse wie Verwirrtheit, Krampfanfälle oder abnormes Verhalten möglich (auch durch die Grippe selbst) – auf Verhaltensänderungen achten", "ids": ["kinder"] },
+    { "text": "Geschwächtes Immunsystem: Wirksamkeit weniger gut belegt, Resistenzbildung häufiger", "ids": ["immunsuppression"] },
+    { "text": "Hereditäre Fructoseintoleranz (die Suspension enthält Sorbitol)", "ids": ["fructoseintoleranz"] },
+    { "text": "Ersetzt die Grippeimpfung nicht", "ids": ["impfung"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Grippe-Lebendimpfstoff (Nasenspray)", "ref": [], "effekt": "Oseltamivir kann die Wirkung des Lebendimpfstoffs aufheben – nicht innerhalb von 48 Stunden vor bis 2 Wochen nach der Lebendimpfung einnehmen. Inaktivierte Grippeimpfstoffe (Spritze) sind nicht betroffen.", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Verdoppelt etwa den Spiegel des aktiven Metaboliten; wegen der grossen Sicherheitsbreite keine Dosisanpassung nötig.", "schwere": "leicht" },
+    { "text": "Über die Niere ausgeschiedene Mittel mit enger therapeutischer Breite (z. B. Methotrexat)", "ref": ["methotrexat"], "effekt": "Mögliche Konkurrenz bei der Ausscheidung über die Niere – Vorsicht.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Kopfschmerzen", "Übelkeit", "Erbrechen (vor allem bei Kindern)"],
+    "haeufig": ["Bauchschmerzen, Verdauungsbeschwerden, Durchfall", "Schwindel, Müdigkeit, Schlaflosigkeit", "Husten, Halsschmerzen, Schnupfen", "Bronchitis, Infekte der oberen Atemwege, Herpes simplex", "Schmerzen, Gliederschmerzen, Fieber", "Bindehautentzündung, Ohrenschmerzen (bei Kindern)"],
+    "gelegentlich": ["Krampfanfälle, Bewusstseinsstörungen", "Herzrhythmusstörungen", "Erhöhte Leberwerte", "Hautausschlag, Ekzem, Nesselsucht", "Überempfindlichkeitsreaktionen"],
+    "selten": ["Neuropsychiatrische Störungen wie Verwirrtheit, Delir, Halluzinationen, Albträume, Angst, abnormes Verhalten bis zur Selbstverletzung (vor allem bei Kindern und Jugendlichen)", "Thrombozytopenie (Mangel an Blutplättchen)", "Sehstörungen", "Magen-Darm-Blutungen, blutige Darmentzündung", "Hepatitis bis zum Leberversagen", "Anaphylaxie und Angioödem", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)"]
+  },
+  "schwangerschaft": "Kann in der Schwangerschaft nach ärztlicher Abwägung angewendet werden; umfangreiche Daten zeigen kein erhöhtes Fehlbildungsrisiko, und Schwangere haben ein erhöhtes Risiko für schwere Grippeverläufe.",
+  "stillzeit": "Geht nur in sehr geringen Mengen in die Muttermilch über; die Anwendung in der Stillzeit ist nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Möglichst früh beginnen, am besten innerhalb von 48 Stunden nach den ersten Grippesymptomen; Behandlung vollständig durchführen (meist 5 Tage).",
+    "Zusammen mit einer Mahlzeit eingenommen wird es oft besser vertragen.",
+    "Bei Kindern und Jugendlichen auf ungewöhnliches Verhalten achten.",
+    "Die jährliche Grippeimpfung bleibt der wichtigste Schutz."
+  ],
+  "stand": "2026-10"
+}

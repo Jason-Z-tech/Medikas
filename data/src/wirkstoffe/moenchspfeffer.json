@@ -1,0 +1,42 @@
+{
+  "id": "moenchspfeffer",
+  "name": "Mönchspfeffer",
+  "synonyme": ["Vitex agnus-castus", "Agni casti fructus", "Keuschlammfrüchte", "Keuschbaum", "Mönchspfefferfrüchte-Extrakt"],
+  "atc": ["G02CX03"],
+  "klasse": "Pflanzliches Arzneimittel (Phytotherapeutikum)",
+  "kurz": "Pflanzliches Mittel aus Mönchspfeffer-Früchten gegen Beschwerden vor der Monatsblutung (prämenstruelles Syndrom).",
+  "gruppen": [],
+  "handelsnamen": ["Prefemin", "Premens"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "Prämenstruelles Syndrom: Beschwerden in den Tagen vor der Monatsblutung wie Reizbarkeit, Stimmungsschwankungen, Kopfschmerzen, Brustspannen und Blähbauch", "ids": ["regelbeschwerden"] }
+  ],
+  "wirkmechanismus": "Lindert Beschwerden, die in den Tagen vor der Monatsblutung auftreten. Inhaltsstoffe des Mönchspfeffer-Extrakts (u. a. Diterpene) binden an Dopamin-D2-Rezeptoren der Hirnanhangdrüse und dämpfen so eine vermehrte Ausschüttung von Prolaktin, die mit Brustspannen und anderen prämenstruellen Beschwerden in Verbindung gebracht wird. Daneben werden Wirkungen an Opioid- und Östrogenrezeptoren diskutiert; der genaue Wirkmechanismus ist nicht vollständig geklärt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Östrogenabhängige Tumoren (z. B. Brustkrebs) in der Vorgeschichte: nur nach ärztlicher Rücksprache", "ids": ["brustkrebs"] },
+    { "text": "Erkrankungen der Hirnanhangdrüse oder erhöhtes Prolaktin: vorher ärztlich abklären, da Mönchspfeffer Beschwerden verschleiern kann", "ids": ["hyperprolaktinaemie"] },
+    { "text": "Gleichzeitige Behandlung mit Dopamin-Agonisten oder -Antagonisten, Östrogenen oder Antiöstrogenen", "ids": [] },
+    { "text": "Kinder und Jugendliche unter 18 Jahren: keine ausreichenden Erfahrungen", "ids": ["kinder"] },
+    { "text": "Starke oder anhaltende Beschwerden sowie Zyklusstörungen ärztlich abklären lassen", "ids": ["regelbeschwerden"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Dopamin-Antagonisten (z. B. Antipsychotika, Metoclopramid)", "ref": ["gruppe:dopaminantagonisten", "gruppe:antipsychotika"], "effekt": "Wegen der dopaminergen Wirkung ist eine gegenseitige Wirkungsabschwächung möglich.", "schwere": "leicht" },
+    { "text": "Dopaminagonisten (z. B. Cabergolin, Bromocriptin)", "ref": ["gruppe:dopaminagonisten", "cabergolin", "bromocriptin"], "effekt": "Gegenseitige Verstärkung der dopaminergen Wirkung nicht ausgeschlossen.", "schwere": "leicht" },
+    { "text": "Östrogene und hormonale Verhütungsmittel", "ref": ["gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva"], "effekt": "Eine gegenseitige Beeinflussung ist nicht ausgeschlossen – bei gleichzeitiger Hormonbehandlung ärztlich besprechen.", "schwere": "leicht" },
+    { "text": "Antiöstrogene (z. B. Tamoxifen, Aromatasehemmer)", "ref": ["gruppe:serms", "gruppe:aromatasehemmer"], "effekt": "Eine Beeinflussung der Antiöstrogen-Wirkung ist nicht ausgeschlossen – nur nach ärztlicher Rücksprache anwenden.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": ["Allergische Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht)", "Schwere allergische Reaktionen mit Gesichtsschwellung, Atemnot oder Schluckbeschwerden", "Kopfschmerzen, Schwindel", "Magen-Darm-Beschwerden (Übelkeit, Bauchschmerzen)", "Akne", "Veränderungen der Monatsblutung (Zyklusstörungen)"]
+  },
+  "schwangerschaft": "Nicht anwenden; es liegen keine ausreichenden Daten vor. Bei Verdacht auf Schwangerschaft absetzen.",
+  "stillzeit": "Nicht anwenden – Mönchspfeffer kann die Milchbildung vermindern, und Daten zum Übergang in die Muttermilch fehlen.",
+  "hinweise": [
+    "Die Wirkung setzt allmählich ein; die Einnahme erfolgt in der Regel über mindestens 3 Monatszyklen ohne Pause.",
+    "Bei Verdacht auf Schwangerschaft absetzen.",
+    "Bei starken oder anhaltenden Beschwerden ärztlich abklären lassen (z. B. Prolaktinerhöhung oder Hypophysenerkrankung)."
+  ],
+  "stand": "2026-10"
+}

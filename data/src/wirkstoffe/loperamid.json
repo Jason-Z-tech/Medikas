@@ -1,0 +1,55 @@
+{
+  "id": "loperamid",
+  "name": "Loperamid",
+  "synonyme": ["Loperamidhydrochlorid", "Loperamide"],
+  "atc": ["A07DA03", "A07DA53"],
+  "klasse": "Antidiarrhoikum (peripher wirkender Opioidrezeptor-Agonist)",
+  "kurz": "Mittel gegen Durchfall, das die Darmbewegung bremst; wirkt in üblicher Dosis nur im Darm und nicht im Gehirn.",
+  "gruppen": [],
+  "handelsnamen": ["Imodium", "Lopimed"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Kapseln", "Schmelztabletten"],
+  "indikationen": [
+    { "text": "Symptomatische Behandlung von akutem Durchfall (zur Selbstbehandlung ab 12 Jahren)", "ids": ["durchfall"] },
+    { "text": "Chronischer Durchfall, nur auf ärztliche Verordnung", "ids": ["durchfall"] }
+  ],
+  "wirkmechanismus": "Bremst die Darmbewegungen, sodass dem Stuhl mehr Wasser entzogen wird und der Durchfall nachlässt. Loperamid bindet an µ-Opioidrezeptoren in der Darmwand und hemmt dort die Freisetzung von Acetylcholin und Prostaglandinen: Die Peristaltik nimmt ab, die Passagezeit verlängert sich, Wasser und Salze werden vermehrt zurückgeholt, und der Schliessmuskel am After spannt sich stärker an. In üblicher Dosis gelangt es kaum ins Gehirn, weil es in der Leber stark abgebaut wird (CYP3A4, CYP2C8) und die Transportpumpe P-Glykoprotein es aus dem Gehirn hinausbefördert.",
+  "kontraindikationen": [
+    { "text": "Kinder unter 2 Jahren", "ids": ["kinder"] },
+    { "text": "Akute Dysenterie (Durchfall mit Blut im Stuhl und hohem Fieber)", "ids": [] },
+    { "text": "Akuter Schub einer Colitis ulcerosa", "ids": ["colitis-ulcerosa"] },
+    { "text": "Bakterielle Darmentzündung durch eindringende Erreger (z. B. Salmonellen, Shigellen, Campylobacter)", "ids": [] },
+    { "text": "Pseudomembranöse Kolitis bzw. Antibiotika-bedingter Durchfall durch Clostridioides difficile", "ids": ["clostridioides"] },
+    { "text": "Zustände, bei denen eine Hemmung der Darmbewegung vermieden werden muss (Darmverschluss, Megakolon, toxisches Megakolon); sofort absetzen bei Verstopfung, Blähbauch oder Ileus", "ids": ["darmverschluss"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Leberfunktion: verminderter Abbau, Gefahr zentraler Nebenwirkungen", "ids": ["leberinsuffizienz"] },
+    { "text": "Flüssigkeits- und Salzverlust ausgleichen, besonders bei Kindern und älteren Menschen", "ids": ["dehydratation", "kinder", "aeltere-patienten"] },
+    { "text": "HIV/AIDS mit infektiöser Darmentzündung: beim ersten Anzeichen eines Blähbauchs absetzen (Gefahr eines toxischen Megakolons)", "ids": ["hiv"] },
+    { "text": "Herzrhythmusstörungen und QT-Verlängerung: bei Überdosierung schwere, teils tödliche Rhythmusstörungen beschrieben", "ids": ["qt-verlaengerung", "herzrhythmusstoerung"] },
+    { "text": "Missbrauch in hohen Dosen (z. B. zur Linderung von Opioid-Entzugssymptomen) ist lebensgefährlich", "ids": ["abhaengigkeit"] },
+    { "text": "Chronisch-entzündliche Darmerkrankung ausserhalb eines akuten Schubs: nur nach ärztlicher Rücksprache", "ids": ["morbus-crohn", "colitis-ulcerosa"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Starke CYP3A4- und P-Glykoprotein-Hemmer (z. B. Itraconazol, Ketoconazol, Ritonavir, Clarithromycin, Chinidin)", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:p-gp-hemmer"], "effekt": "Loperamid-Spiegel steigen auf das 2- bis 5-Fache; bei höheren Dosen Gefahr von Atemdepression und Herzrhythmusstörungen – nicht höher als empfohlen dosieren.", "schwere": "mittel" },
+    { "text": "Gemfibrozil (CYP2C8-Hemmer)", "ref": ["gemfibrozil"], "effekt": "Loperamid-Spiegel etwa verdoppelt; zusammen mit Itraconazol bis 13-fach erhöht – Kombination meiden oder niedrig dosieren.", "schwere": "mittel" },
+    { "text": "Desmopressin zum Einnehmen", "ref": ["desmopressin"], "effekt": "Desmopressin-Spiegel steigen etwa auf das Dreifache (langsamere Darmpassage) – Gefahr von Hyponatriämie.", "schwere": "mittel" },
+    { "text": "Andere Mittel, welche die Darmbewegung hemmen (z. B. Opioide, anticholinerg wirkende Mittel)", "ref": ["gruppe:opioide", "gruppe:anticholinerg"], "effekt": "Verstärkte Verstopfung bis zum Darmverschluss möglich.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Verstopfung (Obstipation)", "Übelkeit", "Blähungen", "Kopfschmerzen", "Schwindel"],
+    "gelegentlich": ["Bauchschmerzen und Bauchbeschwerden", "Mundtrockenheit", "Erbrechen", "Dyspepsie (Verdauungsbeschwerden)", "Schläfrigkeit", "Hautausschlag"],
+    "selten": ["Darmverschluss (Ileus) und Megakolon (stark erweiterter Dickdarm)", "Harnverhalt", "Überempfindlichkeitsreaktionen bis Anaphylaxie, Angioödem", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)", "Bewusstseinsstörungen, Koordinationsstörungen, enge Pupillen (Miosis)"],
+    "unbekannt": ["Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "QT-Verlängerung, Torsade de pointes und Herzstillstand bei Überdosierung oder Missbrauch"]
+  },
+  "schwangerschaft": "Erfahrungen sind begrenzt; besonders im ersten Schwangerschaftsdrittel nur nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Loperamid behandelt nur das Symptom: verlorene Flüssigkeit und Salze ersetzen (z. B. mit Rehydratationslösung).",
+    "Bei Fieber, Blut im Stuhl oder fehlender Besserung nach 48 Stunden ärztlich abklären; bei Verstopfung oder Blähbauch absetzen.",
+    "Die angegebene Tageshöchstdosis nie überschreiten – Überdosen können lebensbedrohliche Herzrhythmusstörungen auslösen.",
+    "Kann Müdigkeit und Schwindel verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

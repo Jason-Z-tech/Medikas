@@ -1,0 +1,62 @@
+{
+  "id": "natriumpicosulfat",
+  "name": "Natriumpicosulfat",
+  "synonyme": ["Picosulfat", "Sodium picosulfate", "Natrii picosulfas"],
+  "atc": ["A06AB08", "A06AB58"],
+  "klasse": "Stimulierendes Laxans (Abführmittel, Triarylmethan-Derivat)",
+  "kurz": "Abführmittel als Tropfen oder Tabletten bei Verstopfung; in Kombination mit Magnesiumcitrat zur Darmreinigung vor einer Darmspiegelung.",
+  "gruppen": ["laxanzien", "hypokaliaemie-ausloesend"],
+  "handelsnamen": ["Laxoberon", "Picoprep (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Tropfen", "Tabletten", "Pulver zur Herstellung einer Lösung (Kombination)"],
+  "indikationen": [
+    { "text": "Kurzzeitige Behandlung von Verstopfung und Zustände, bei denen ein erleichterter Stuhlgang erwünscht ist", "ids": ["verstopfung"] },
+    { "text": "Darmreinigung vor Darmspiegelung, Röntgenuntersuchungen oder Operationen (Kombination mit Magnesiumoxid und Citronensäure)", "ids": ["darmvorbereitung"] }
+  ],
+  "wirkmechanismus": "Regt den Dickdarm an und sorgt für weicheren Stuhl. Natriumpicosulfat ist eine Vorstufe (Prodrug), die unverändert in den Dickdarm gelangt und dort von Darmbakterien zum wirksamen BHPM (Bis-(p-hydroxyphenyl)-pyridyl-2-methan, wie bei Bisacodyl) gespalten wird. Dieses verstärkt die Peristaltik und fördert die Ansammlung von Wasser und Salzen im Darm; die Wirkung tritt nach 6–12 Stunden ein. In der Kombination zur Darmreinigung bildet sich zusätzlich Magnesiumcitrat, das als osmotisches Abführmittel Wasser in den Darm zieht.",
+  "kontraindikationen": [
+    { "text": "Darmverschluss (Ileus) oder Darmverengung", "ids": ["darmverschluss"] },
+    { "text": "Akute Bauchbeschwerden wie Blinddarmentzündung, akute entzündliche Darmerkrankungen", "ids": ["morbus-crohn", "colitis-ulcerosa"] },
+    { "text": "Starke Bauchschmerzen mit Übelkeit und Erbrechen", "ids": [] },
+    { "text": "Schwerer Flüssigkeitsmangel (Dehydratation)", "ids": ["dehydratation"] },
+    { "text": "Darmreinigungs-Kombination zusätzlich: dekompensierte Herzschwäche, schwere Niereninsuffizienz (Magnesiumanreicherung), Magen-Darm-Geschwüre, Magenentleerungsstörung, toxisches Megakolon, Darmdurchbruch, Rhabdomyolyse, erhöhtes Magnesium", "ids": ["herzinsuffizienz", "niereninsuffizienz", "magen-darm-ulkus"] }
+  ],
+  "vorsicht": [
+    { "text": "Längere Anwendung: Verlust von Wasser und Salzen, besonders Kaliummangel", "ids": ["hypokaliaemie", "dehydratation"] },
+    { "text": "Darmreinigung: Gefahr von Natriummangel (Hyponatriämie), selten mit Krampfanfällen – besonders bei älteren Menschen, Epilepsie und Medikamenten, die das Natrium senken", "ids": ["hyponatriaemie", "epilepsie", "aeltere-patienten"] },
+    { "text": "Ältere oder geschwächte Menschen, eingeschränkte Nierenfunktion", "ids": ["aeltere-patienten", "niereninsuffizienz"] },
+    { "text": "Kinder: nur auf ärztlichen Rat", "ids": ["kinder"] },
+    { "text": "Seltene erbliche Fructose-Unverträglichkeit (Tropfen können Sorbitol enthalten)", "ids": ["fructoseintoleranz"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Kaliumsenkende Mittel (Diuretika, Glukokortikoide)", "ref": ["gruppe:diuretika", "gruppe:glukokortikoide-systemisch"], "effekt": "Verstärkter Verlust von Kalium und anderen Salzen bei hoher Dosierung.", "schwere": "mittel" },
+    { "text": "Herzglykoside (Digoxin, Digitoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Kaliummangel erhöht die Empfindlichkeit für Herzglykoside (Herzrhythmusstörungen).", "schwere": "mittel" },
+    { "text": "Darmreinigung: Mittel, die das Natrium senken (z. B. SSRI, trizyklische Antidepressiva, Carbamazepin, Diuretika)", "ref": ["gruppe:hyponatriaemie-ausloesend", "gruppe:trizyklische-antidepressiva"], "effekt": "Erhöhtes Risiko für Natriummangel und Krampfanfälle – Elektrolyte kontrollieren.", "schwere": "mittel" },
+    { "text": "Darmreinigung: Tetracycline, Fluorchinolone und Penicillamin", "ref": ["gruppe:tetracycline", "gruppe:fluorchinolone", "penicillamin"], "effekt": "Magnesium bindet diese Mittel – mindestens 2 Stunden vor und 6 Stunden nach der Darmreinigungslösung einnehmen.", "schwere": "mittel" },
+    { "text": "Darmreinigung: andere regelmässig eingenommene Medikamente (z. B. Pille, Antiepileptika, Blutzuckersenker)", "ref": ["gruppe:hormonale-kontrazeptiva", "gruppe:antiepileptika"], "effekt": "Werden während der Darmreinigung schlechter aufgenommen – Zeitpunkt der Einnahme ärztlich besprechen.", "schwere": "mittel" },
+    { "text": "Antibiotika", "ref": [], "effekt": "Können die abführende Wirkung abschwächen, da Darmbakterien zur Aktivierung nötig sind.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Durchfall"],
+    "gelegentlich": [
+      "Bauchbeschwerden, Bauchschmerzen, Bauchkrämpfe",
+      "Übelkeit, Erbrechen",
+      "Schwindel"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen mit Hautausschlag, Juckreiz oder Angioödem",
+      "Kurze Ohnmacht (Synkope)",
+      "Darmreinigung: Kopfschmerzen, Schmerzen im Analbereich",
+      "Darmreinigung: Natriummangel (Hyponatriämie), Kaliummangel, Magnesiumüberschuss, sehr selten mit Krampfanfällen"
+    ]
+  },
+  "schwangerschaft": "Es sind keine schädlichen Wirkungen bekannt; dennoch nur nach ärztlicher Rücksprache anwenden, wenn Ernährungsmassnahmen nicht ausreichen.",
+  "stillzeit": "Der Wirkstoff geht nicht nennenswert in die Muttermilch über; Anwendung in der Stillzeit möglich.",
+  "hinweise": [
+    "Abends einnehmen, die Wirkung tritt am nächsten Morgen ein (nach 6–12 Stunden).",
+    "Abführmittel nur kurzzeitig anwenden; bei anhaltender Verstopfung ärztlich abklären lassen.",
+    "Bei der Darmreinigung genau nach Anleitung reichlich klare Flüssigkeit trinken, um Austrocknung und Salzverlust zu vermeiden."
+  ],
+  "stand": "2026-10"
+}

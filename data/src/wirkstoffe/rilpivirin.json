@@ -1,0 +1,57 @@
+{
+  "id": "rilpivirin",
+  "name": "Rilpivirin",
+  "synonyme": ["RPV", "Rilpivirine", "TMC278"],
+  "atc": ["J05AG05"],
+  "klasse": "Nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI)",
+  "kurz": "HIV-Medikament (NNRTI) als Tablette in Kombinationstherapien oder als Depotspritze zusammen mit Cabotegravir alle 1–2 Monate.",
+  "gruppen": ["nnrti"],
+  "handelsnamen": ["Edurant", "Rekambys", "Juluca (Kombi)", "Odefsey (Kombi)", "Eviplera (Kombi)"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Depot-Injektionssuspension (intramuskulär)"],
+  "indikationen": [
+    { "text": "HIV-1-Infektion bei bisher unbehandelten Erwachsenen und Jugendlichen mit einer Viruslast bis 100'000 Kopien/ml, als Tablette in Kombination mit anderen antiretroviralen Mitteln", "ids": ["hiv"] },
+    { "text": "Erhaltungstherapie der HIV-1-Infektion als Depotspritze zusammen mit Cabotegravir bei Erwachsenen mit stabil nicht nachweisbarer Viruslast und ohne Resistenzen gegen NNRTI oder Integrasehemmer", "ids": ["hiv"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von HIV. Rilpivirin ist ein NNRTI aus der Gruppe der Diarylpyrimidine, der nicht kompetitiv an eine Tasche nahe dem aktiven Zentrum der Reversen Transkriptase von HIV-1 bindet. Dadurch verändert sich die Form des Enzyms, und das Virus kann seine RNA nicht mehr in DNA umschreiben. Rilpivirin wird über CYP3A4 abgebaut; als Tablette braucht es Magensäure und eine Mahlzeit, um ausreichend aufgenommen zu werden.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Depression oder andere psychische Erkrankungen (depressive Verstimmung, Suizidgedanken möglich)", "ids": ["depression", "suizidgedanken"] },
+    { "text": "Herzrhythmusstörungen, verlängerte QT-Zeit oder Einnahme weiterer QT-verlängernder Mittel", "ids": ["qt-verlaengerung", "herzrhythmusstoerung"] },
+    { "text": "Hepatitis-B- oder -C-Koinfektion bzw. erhöhte Leberwerte: Leberwerte häufiger kontrollieren", "ids": ["hepatitis-b", "hepatitis-c"] },
+    { "text": "Schwere Nieren- oder Leberinsuffizienz", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
+    { "text": "Hohe Viruslast (über 100'000 Kopien/ml) bei Therapiebeginn: höheres Risiko für Therapieversagen und Resistenzen", "ids": ["hiv"] },
+    { "text": "Schwangerschaft: tiefere Spiegel im 2. und 3. Drittel – Viruslast engmaschig kontrollieren", "ids": ["schwangerschaft"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Antiepileptika Carbamazepin, Oxcarbazepin, Phenobarbital, Phenytoin", "ref": ["carbamazepin", "oxcarbazepin", "phenobarbital", "phenytoin"], "grund": "Induktion von CYP3A4 senkt den Rilpivirin-Spiegel stark – Wirkverlust und Resistenzentwicklung." },
+    { "text": "Rifampicin, Rifabutin, Rifapentin und Johanniskraut", "ref": ["rifampicin", "rifabutin", "johanniskraut"], "grund": "Induktion von CYP3A4 senkt den Rilpivirin-Spiegel stark – Wirkverlust und Resistenzentwicklung." },
+    { "text": "Systemisches Dexamethason (ausser als Einzeldosis)", "ref": ["dexamethason"], "grund": "Enzyminduktion senkt den Rilpivirin-Spiegel – Wirkverlust." },
+    { "text": "Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol, Esomeprazol) – nur bei Rilpivirin-Tabletten", "ref": ["gruppe:protonenpumpenhemmer"], "grund": "Die starke Säurehemmung vermindert die Aufnahme von Rilpivirin aus dem Darm – Wirkverlust und Resistenzentwicklung." }
+  ],
+  "interaktionen": [
+    { "text": "H2-Blocker (z. B. Famotidin)", "ref": ["gruppe:h2-blocker"], "effekt": "Aufnahme von Rilpivirin vermindert – H2-Blocker mindestens 12 Stunden vor oder 4 Stunden nach den Rilpivirin-Tabletten einnehmen.", "schwere": "mittel" },
+    { "text": "Antazida (Säurebinder mit Aluminium, Magnesium oder Calcium)", "ref": ["gruppe:antazida"], "effekt": "Aufnahme vermindert – Antazida mindestens 2 Stunden vor oder 4 Stunden nach den Rilpivirin-Tabletten einnehmen.", "schwere": "mittel" },
+    { "text": "QT-verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Rilpivirin verlängert in hohen Dosen die QT-Zeit – Vorsicht bei Mitteln mit bekanntem Risiko für Torsade de pointes.", "schwere": "mittel" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Ketoconazol, geboosterte Proteasehemmer)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Rilpivirin-Spiegel steigen; meist keine Dosisanpassung nötig. Statt Clarithromycin oder Erythromycin möglichst Azithromycin verwenden.", "schwere": "mittel" },
+    { "text": "Andere NNRTI (Efavirenz, Etravirin, Nevirapin, Doravirin)", "ref": ["efavirenz", "etravirin", "nevirapin", "doravirin"], "effekt": "Nicht kombinieren (gleiche Wirkstoffklasse; Efavirenz, Etravirin und Nevirapin senken zudem den Rilpivirin-Spiegel).", "schwere": "mittel" },
+    { "text": "Dabigatran", "ref": ["dabigatran"], "effekt": "Rilpivirin hemmt P-Glykoprotein im Darm; ein Anstieg von Dabigatran ist nicht auszuschliessen – mit Vorsicht kombinieren.", "schwere": "mittel" },
+    { "text": "Methadon", "ref": ["methadon"], "effekt": "Methadon-Spiegel sinkt leicht – auf Entzugssymptome achten.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Kopfschmerzen", "Schwindel", "Schlaflosigkeit", "Übelkeit", "Anstieg von Gesamt- und LDL-Cholesterin", "Erhöhte Leberwerte (Transaminasen) und Pankreas-Amylase", "Reaktionen an der Injektionsstelle (Schmerzen, Verhärtung, Knoten) bei der Depotspritze"],
+    "haeufig": ["Depression, depressive Verstimmung", "Abnorme Träume, Schlafstörungen, Schläfrigkeit", "Verminderter Appetit", "Bauchschmerzen, Erbrechen, Mundtrockenheit", "Hautausschlag", "Müdigkeit", "Fieber nach der Depotspritze", "Veränderte Laborwerte (weniger weisse Blutkörperchen, Blutplättchen und Hämoglobin; Triglyceride, Lipase und Bilirubin erhöht)"],
+    "gelegentlich": ["Immunrekonstitutionssyndrom (Entzündungsreaktion zu Therapiebeginn)"],
+    "selten": ["Reaktion kurz nach der Depotspritze (Atemnot, Bauchkrämpfe, Schwitzen, Taubheitsgefühl im Mund)"],
+    "unbekannt": ["Schwere Haut- und Überempfindlichkeitsreaktionen mit Fieber und Organbeteiligung (DRESS)"]
+  },
+  "schwangerschaft": "Rilpivirin-Tabletten können bei Bedarf in der Schwangerschaft angewendet werden; wegen tieferer Spiegel im 2. und 3. Drittel Viruslast engmaschig kontrollieren. Die Depotspritze nur nach sorgfältiger Nutzen-Risiko-Abwägung.",
+  "stillzeit": "HIV-positive Mütter sollen grundsätzlich nicht stillen (Übertragungsrisiko); ein Stillwunsch ist mit der HIV-Fachperson zu besprechen.",
+  "hinweise": [
+    "Tabletten immer mit einer Mahlzeit einnehmen; ein Eiweissdrink allein genügt nicht.",
+    "Keine Säureblocker vom Typ PPI (z. B. Pantoprazol, Omeprazol); H2-Blocker und Antazida nur zeitversetzt.",
+    "Depotspritze: Termine genau einhalten; nach dem Absetzen bleibt Rilpivirin noch monatelang bis jahrelang im Körper – Anschlussbehandlung mit der Fachperson planen.",
+    "Bei Stimmungsveränderungen oder Hautausschlag mit Fieber sofort ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

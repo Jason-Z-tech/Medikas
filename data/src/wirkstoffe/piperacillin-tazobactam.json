@@ -1,0 +1,91 @@
+{
+  "id": "piperacillin-tazobactam",
+  "name": "Piperacillin + Tazobactam",
+  "synonyme": ["Pip/Taz", "Piperacillin/Tazobactam", "Piperacillin-Tazobactam"],
+  "kombinationAus": [],
+  "atc": ["J01CR05"],
+  "klasse": "Acylaminopenicillin mit Beta-Laktamase-Hemmer (Beta-Laktam-Antibiotikum)",
+  "kurz": "Sehr breit wirksames Penicillin-Antibiotikum als Infusion im Spital, auch gegen Pseudomonas, z. B. bei schwerer Lungenentzündung.",
+  "gruppen": ["penicilline", "hypokaliaemie-ausloesend", "blutungsrisiko-erhoehend"],
+  "handelsnamen": ["Tazobac", "Piperacillin/Tazobactam Fresenius"],
+  "abgabe": ["A"],
+  "darreichung": ["Pulver zur Herstellung einer Infusionslösung"],
+  "indikationen": [
+    { "text": "Schwere Lungenentzündung, auch im Spital erworben und bei beatmeten Patienten", "ids": ["lungenentzuendung"] },
+    { "text": "Komplizierte Harnwegsinfektionen einschliesslich Nierenbeckenentzündung", "ids": ["harnwegsinfekt"] },
+    { "text": "Komplizierte Infektionen im Bauchraum (auch bei Kindern ab 2 Jahren)", "ids": ["bakterielle-infektion"] },
+    { "text": "Komplizierte Haut- und Weichteilinfektionen, einschliesslich diabetischer Fussinfektionen", "ids": ["hautinfektion", "diabetes"] },
+    { "text": "Bakterien im Blut (Bakteriämie) im Zusammenhang mit diesen Infektionen", "ids": ["bakterielle-infektion"] },
+    { "text": "Fieber bei Neutropenie mit Verdacht auf eine bakterielle Infektion, zusammen mit einem Aminoglykosid (auch bei Kindern ab 2 Jahren)", "ids": ["neutropenie", "aktive-infektion"] }
+  ],
+  "wirkmechanismus": "Tötet ein sehr breites Spektrum von Bakterien ab. Piperacillin hemmt die Penicillin-bindenden Proteine und damit den Aufbau der bakteriellen Zellwand (bakterizide Wirkung); es erfasst viele gramnegative Keime einschliesslich Pseudomonas aeruginosa sowie Anaerobier. Tazobactam hemmt zahlreiche Beta-Laktamasen und schützt Piperacillin so vor dem Abbau durch resistente Bakterien. Gegen MRSA und Carbapenemase-bildende Erreger wirkt die Kombination nicht.",
+  "kontraindikationen": [
+    { "text": "Penicillinallergie", "ids": ["penicillinallergie"] },
+    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf ein anderes Beta-Laktam-Antibiotikum (Cephalosporin, Monobactam, Carbapenem) in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei hohen Dosen erhöhtes Risiko für Krampfanfälle", "ids": ["niereninsuffizienz", "epilepsie"] },
+    { "text": "Blutungsneigung oder Gerinnungsstörung: Blutungen möglich, besonders bei Niereninsuffizienz – Gerinnungswerte kontrollieren", "ids": ["blutgerinnungsstoerung"] },
+    { "text": "Tiefes Kalium oder Einnahme kaliumsenkender Mittel: Hypokaliämie möglich – Elektrolyte kontrollieren", "ids": ["hypokaliaemie"] },
+    { "text": "Herzinsuffizienz, Ödeme oder salzarme Diät: hoher Natriumgehalt", "ids": ["herzinsuffizienz", "oedeme"] },
+    { "text": "Längere Behandlung: Leukopenie oder Neutropenie möglich – Blutbild kontrollieren", "ids": ["neutropenie"] },
+    { "text": "Schwer kranke Patienten mit gleichzeitiger Vancomycin-Gabe: erhöhtes Risiko für akutes Nierenversagen", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
+    { "text": "Anhaltendes Fieber, Blutzellmangel und vergrösserte Leber oder Milz: an eine hämophagozytische Lymphohistiozytose (HLH, überschiessende Immunreaktion) denken", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Piperacillin vermindert die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Methotrexat-Spiegel, Blutbild und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
+    { "text": "Vancomycin", "ref": ["vancomycin"], "effekt": "Häufiger akute Nierenschädigung – Nierenfunktion eng überwachen.", "schwere": "mittel" },
+    { "text": "Antikoagulanzien und Thrombozytenaggregationshemmer (z. B. Heparin, Phenprocoumon, DOAK, Clopidogrel)", "ref": ["gruppe:antikoagulanzien", "gruppe:thrombozytenaggregationshemmer"], "effekt": "Erhöhtes Blutungsrisiko – Gerinnungswerte häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Nicht depolarisierende Muskelrelaxanzien (z. B. Vecuronium, Rocuronium)", "ref": ["rocuronium", "atracurium", "cisatracurium"], "effekt": "Verlängerte Muskellähmung nach einer Narkose möglich – neuromuskuläre Funktion überwachen.", "schwere": "mittel" },
+    { "text": "Aminoglykoside (z. B. Gentamicin, Tobramycin, Amikacin)", "ref": ["gruppe:aminoglykoside"], "effekt": "Nicht in derselben Infusion mischen (gegenseitige Inaktivierung); bei schwerer Niereninsuffizienz können Aminoglykosid-Spiegel sinken – Spiegel kontrollieren.", "schwere": "mittel" },
+    { "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Glukokortikoide)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Verstärkte Kaliumverluste – Kalium kontrollieren.", "schwere": "mittel" },
+    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
+    { "text": "Probenecid", "ref": [], "effekt": "Längere Halbwertszeit und höhere Spiegel von Piperacillin und Tazobactam.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Durchfall"],
+    "haeufig": [
+      "Candida-Infektionen (Pilzbefall)",
+      "Thrombozytopenie, Anämie",
+      "Schlaflosigkeit, Kopfschmerzen",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung, Verdauungsbeschwerden",
+      "Hautausschlag, Juckreiz",
+      "Fieber, Reaktionen an der Infusionsstelle",
+      "Anstieg von Leber- und Nierenwerten, verlängerte Gerinnungszeit, positiver Coombs-Test"
+    ],
+    "gelegentlich": [
+      "Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Hypokaliämie (Kaliummangel), tiefer Blutzucker",
+      "Blutdruckabfall, Venenentzündung, Hitzegefühl",
+      "Gelbsucht",
+      "Nesselsucht (Urtikaria)",
+      "Gelenk- und Muskelschmerzen, Schüttelfrost"
+    ],
+    "selten": [
+      "Agranulozytose",
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Nasenbluten, Mundschleimhautentzündung",
+      "Toxische epidermale Nekrolyse (schwere Hautablösung)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie bis zum anaphylaktischen Schock",
+      "Panzytopenie, Neutropenie, hämolytische Anämie, Eosinophilie",
+      "Leberentzündung",
+      "Stevens-Johnson-Syndrom, DRESS, AGEP",
+      "Interstitielle Nephritis, Nierenversagen",
+      "Eosinophile Pneumonie (allergische Lungenentzündung)",
+      "Hämophagozytische Lymphohistiozytose (HLH)",
+      "Krampfanfälle (vor allem bei hohen Dosen und eingeschränkter Nierenfunktion)"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn eindeutig nötig und der Nutzen das mögliche Risiko überwiegt; beide Wirkstoffe passieren die Plazenta.",
+  "stillzeit": "Piperacillin geht in geringen Mengen in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird im Spital als Infusion verabreicht.",
+    "Bei längerer Behandlung werden Blutbild, Nieren- und Leberwerte sowie Kalium kontrolliert.",
+    "Hautausschlag, Atemnot, Blutungszeichen oder schweren Durchfall sofort melden."
+  ],
+  "stand": "2026-10"
+}

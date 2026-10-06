@@ -1,0 +1,269 @@
+{
+  "id": "risperidon",
+  "name": "Risperidon",
+  "synonyme": [
+    "Risperidone"
+  ],
+  "atc": [
+    "N05AX08"
+  ],
+  "klasse": "Atypisches Antipsychotikum (Benzisoxazol)",
+  "kurz": "Atypisches Antipsychotikum gegen Schizophrenie und Manie; kurzzeitig auch bei anhaltender Aggression (Demenz, Verhaltensstörungen bei Kindern).",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "zns-daempfend",
+    "blutdrucksenkend",
+    "hyperglykaemie-ausloesend",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Risperdal",
+    "Risperdal Consta",
+    "Risperidon Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten",
+    "Lösung zum Einnehmen",
+    "Depot-Injektionssuspension"
+  ],
+  "indikationen": [
+    {
+      "text": "Schizophrenie, auch als Langzeitbehandlung mit Depotspritze",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere manische Episoden bei bipolarer Störung",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Kurzzeitbehandlung (bis 6 Wochen) anhaltender Aggression bei mittelschwerer bis schwerer Alzheimer-Demenz, wenn nicht-medikamentöse Massnahmen nicht ausreichen",
+      "ids": [
+        "demenz"
+      ]
+    },
+    {
+      "text": "Kurzzeitbehandlung anhaltender Aggression bei Verhaltensstörungen von Kindern ab 5 Jahren und Jugendlichen mit unterdurchschnittlicher Intelligenz oder geistiger Behinderung",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft Wahn, Halluzinationen, Erregung und Aggression, indem es die Wirkung von Dopamin und Serotonin im Gehirn hemmt. Risperidon blockiert stark Serotonin-5-HT2A- und Dopamin-D2-Rezeptoren, ausserdem Alpha-1- und Histamin-H1-Rezeptoren (Blutdruckabfall, Müdigkeit). Es wird über CYP2D6 zum ebenso wirksamen 9-Hydroxy-Risperidon (Paliperidon) umgewandelt; beide zusammen bilden die aktive Fraktion.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Ältere Menschen mit Demenz: erhöhte Sterblichkeit und erhöhtes Schlaganfallrisiko, besonders zusammen mit Furosemid",
+      "ids": [
+        "demenz",
+        "aeltere-patienten",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit oder Lewy-Körper-Demenz",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, verlängerte QT-Zeit, Neigung zu tiefem Blutdruck",
+      "ids": [
+        "qt-verlaengerung",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Diabetes, Übergewicht",
+      "ids": [
+        "diabetes",
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Prolaktinabhängige Tumoren",
+      "ids": [
+        "hyperprolaktinaemie",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Nieren- oder Leberinsuffizienz: Dosis reduzieren",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Geplante Operation am Grauen Star (Floppy-Iris-Syndrom)",
+      "ids": [
+        "katarakt"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Furosemid bei älteren Menschen mit Demenz",
+      "ref": [
+        "furosemid"
+      ],
+      "effekt": "Höhere Sterblichkeit beobachtet – sorgfältig abwägen, auf ausreichende Flüssigkeit achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Paliperidon",
+      "ref": [
+        "paliperidon"
+      ],
+      "effekt": "Paliperidon ist der Wirkmetabolit von Risperidon – Kombination nicht empfohlen (Überdosierung).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Spiegel der aktiven Fraktion steigt – Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4- und P-gp-Induktoren (z. B. Carbamazepin, Rifampicin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:p-gp-induktoren"
+      ],
+      "effekt": "Spiegel sinkt – Wirkung kontrollieren, Dosis anpassen; nach Absetzen des Induktors Dosis wieder senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- und P-gp-Hemmer (z. B. Itraconazol, Ritonavir, Verapamil)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Spiegel steigt – Dosis ggf. senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Weitere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Psychostimulanzien (z. B. Methylphenidat)",
+      "ref": [
+        "gruppe:stimulanzien"
+      ],
+      "effekt": "Bei Dosisänderungen eines der Mittel können Bewegungsstörungen auftreten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Parkinsonismus (Muskelsteife, Bewegungsarmut, Zittern)",
+      "Schläfrigkeit, Sedierung",
+      "Kopfschmerzen",
+      "Schlaflosigkeit"
+    ],
+    "haeufig": [
+      "Erhöhtes Prolaktin (Milchfluss, Zyklusstörungen, Brustvergrösserung)",
+      "Gewichtszunahme, Appetitveränderungen",
+      "Sitzunruhe (Akathisie), Dystonie, Schwindel, Dyskinesien",
+      "Angst, Unruhe, Depression",
+      "Herzrasen, Bluthochdruck",
+      "Atemwegsinfekte, Lungenentzündung, Husten, Nasenbluten",
+      "Übelkeit, Erbrechen, Verstopfung, Durchfall, Bauchschmerzen",
+      "Ödeme, Fieber, Muskel- und Gelenkschmerzen"
+    ],
+    "gelegentlich": [
+      "Diabetes, erhöhter Blutzucker",
+      "Spätdyskinesien, Krampfanfälle",
+      "Ohnmacht, orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "QT-Verlängerung, AV-Block, Vorhofflimmern, Bradykardie",
+      "Neutropenie, Anämie",
+      "Sexuelle Funktionsstörungen, Erektionsstörung",
+      "Schluckstörungen, Aspirationspneumonie",
+      "Durchblutungsstörungen des Gehirns (bei älteren Menschen mit Demenz)"
+    ],
+    "selten": [
+      "Malignes neuroleptisches Syndrom",
+      "Venöse Thromboembolie",
+      "Schlafapnoe",
+      "Pankreatitis, Darmverschluss",
+      "Gelbsucht",
+      "Priapismus",
+      "SIADH (Natriummangel durch zu viel antidiuretisches Hormon)",
+      "Floppy-Iris-Syndrom bei Operation des Grauen Stars"
+    ],
+    "sehrSelten": [
+      "Diabetische Ketoazidose"
+    ],
+    "unbekannt": [
+      "Agranulozytose",
+      "Anaphylaxie, Angioödem",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Entzugssymptome und Bewegungsstörungen beim Neugeborenen"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur anwenden, wenn der Nutzen das Risiko überwiegt. Nach Einnahme im letzten Drittel sind beim Neugeborenen Bewegungsstörungen und Entzugssymptome möglich.",
+  "stillzeit": "Risperidon und sein Wirkmetabolit gehen in die Muttermilch über. Nur nach ärztlicher Abwägung stillen.",
+  "hinweise": [
+    "Gewicht, Blutzucker und Blutfette regelmässig kontrollieren.",
+    "Vor einer Operation am Grauen Star die Augenärztin bzw. den Augenarzt über die Einnahme informieren.",
+    "Langsam aufstehen (Schwindel, Blutdruckabfall); Alkohol meiden, Fahrtüchtigkeit kann beeinträchtigt sein.",
+    "Risperdal Consta wird alle 2 Wochen gespritzt; in den ersten 3 Wochen sind zusätzlich Tabletten nötig."
+  ],
+  "stand": "2026-10"
+}

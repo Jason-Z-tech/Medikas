@@ -1,0 +1,68 @@
+{
+  "id": "levofloxacin",
+  "name": "Levofloxacin",
+  "synonyme": ["Levofloxacinum", "Levofloxacin-Hemihydrat"],
+  "kombinationAus": [],
+  "atc": ["J01MA12", "S01AE05"],
+  "klasse": "Fluorchinolon-Antibiotikum (Gyrasehemmer)",
+  "kurz": "Breit wirksames Antibiotikum (Fluorchinolon) für ausgewählte Atemwegs-, Harnwegs-, Prostata- und Hautinfekte; selten bleibende Sehnen- und Nervenschäden.",
+  "gruppen": ["fluorchinolone", "qt-verlaengernd", "krampfschwellensenkend", "photosensibilisierend", "hypoglykaemie-ausloesend"],
+  "handelsnamen": ["Tavanic", "Levofloxacin Mepha", "Levofloxacin Sandoz"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten", "Infusionslösung"],
+  "indikationen": [
+    { "text": "Ambulant erworbene Lungenentzündung", "ids": ["lungenentzuendung"] },
+    { "text": "Akute bakterielle Nasennebenhöhlenentzündung und akute Verschlimmerung einer chronischen Bronchitis – nur, wenn andere Antibiotika ungeeignet sind", "ids": ["sinusitis", "bronchitis", "copd"] },
+    { "text": "Akute Nierenbeckenentzündung und komplizierte Harnwegsinfektionen; unkomplizierte Blasenentzündung nur, wenn andere Antibiotika ungeeignet sind", "ids": ["harnwegsinfekt"] },
+    { "text": "Chronische bakterielle Prostataentzündung", "ids": ["harnwegsinfekt"] },
+    { "text": "Komplizierte Haut- und Weichteilinfektionen, wenn andere Antibiotika ungeeignet sind", "ids": ["hautinfektion"] },
+    { "text": "Lungenmilzbrand (Vorbeugung nach Kontakt und Behandlung)", "ids": ["bakterielle-infektion"] }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es das Kopieren ihrer Erbsubstanz verhindert. Levofloxacin, die wirksame Hälfte (L-Isomer) von Ofloxacin, hemmt die bakteriellen Topoisomerasen II (DNA-Gyrase) und IV; es entstehen tödliche DNA-Brüche. Es wirkt gegen viele gramnegative Erreger und – besser als Ciprofloxacin – gegen Pneumokokken und atypische Erreger (Mykoplasmen, Chlamydien, Legionellen).",
+  "kontraindikationen": [
+    { "text": "Allergie gegen Levofloxacin oder andere Chinolone (Kreuzallergie)", "ids": [] },
+    { "text": "Epilepsie", "ids": ["epilepsie"] },
+    { "text": "Sehnenbeschwerden nach früherer Behandlung mit Fluorchinolonen", "ids": ["sehnenerkrankung"] },
+    { "text": "Kinder und Jugendliche in der Wachstumsphase", "ids": ["kinder"] },
+    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
+    { "text": "Stillzeit", "ids": ["stillzeit"] }
+  ],
+  "vorsicht": [
+    { "text": "Höheres Risiko für Sehnenentzündung und -riss bei über 60-Jährigen, Nierenschwäche, nach Organtransplantation und mit Kortison", "ids": ["aeltere-patienten", "transplantation", "sehnenerkrankung"] },
+    { "text": "Aortenaneurysma, Risikofaktoren dafür oder Herzklappenundichtigkeit: nur nach sorgfältiger Abwägung", "ids": ["aneurysma", "herzklappenerkrankung"] },
+    { "text": "QT-Verlängerung, Herzrhythmusstörungen, Herzschwäche, langsamer Puls, Hypokaliämie oder Magnesiummangel", "ids": ["qt-verlaengerung", "herzrhythmusstoerung", "herzinsuffizienz", "bradykardie", "hypokaliaemie"] },
+    { "text": "Myasthenia gravis (Verschlechterung bis Atemlähmung möglich)", "ids": ["myasthenia-gravis"] },
+    { "text": "Periphere Neuropathie (Kribbeln, Taubheit, Schmerzen) – bei Auftreten sofort absetzen", "ids": ["nervenschmerzen"] },
+    { "text": "Depression oder Psychose: Verschlechterung bis zu Suizidgedanken möglich", "ids": ["depression", "suizidgedanken", "schizophrenie"] },
+    { "text": "Diabetes: Unter- oder Überzuckerung möglich, besonders mit Sulfonylharnstoffen oder Insulin", "ids": ["diabetes", "hypoglykaemie"] },
+    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung", "ids": ["niereninsuffizienz"] },
+    { "text": "Lebererkrankung: schwere Leberentzündung bis Leberversagen möglich", "ids": ["leberinsuffizienz"] },
+    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)", "ids": ["g6pd-mangel"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Andere QT-verlängernde Arzneimittel (z. B. Antiarrhythmika Klasse IA und III, Antipsychotika, trizyklische Antidepressiva, Makrolide)", "ref": ["gruppe:qt-verlaengernd", "gruppe:antiarrhythmika-klasse-iii"], "effekt": "Zusätzliche QT-Verlängerung, Gefahr von Torsade de pointes – möglichst vermeiden, sonst EKG-Kontrolle.", "schwere": "schwer" },
+    { "text": "Mehrwertige Kationen (Eisen, Zink, Magnesium, Aluminium, Calcium), Antazida und Sucralfat", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida"], "effekt": "Levofloxacin wird schlechter aufgenommen – Wirkverlust. Diese Mittel mindestens 2 Stunden vor oder nach Levofloxacin einnehmen.", "schwere": "mittel" },
+    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Deutlich erhöhtes Risiko für Sehnenentzündung und Sehnenriss – Kombination möglichst vermeiden.", "schwere": "mittel" },
+    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung, Blutungen möglich – INR häufiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Sulfonylharnstoffe und Insulin", "ref": ["gruppe:sulfonylharnstoffe", "gruppe:insuline"], "effekt": "Schwere Unterzuckerungen bis zum Koma möglich – Blutzucker engmaschig messen.", "schwere": "mittel" },
+    { "text": "Theophyllin und NSAR", "ref": ["theophyllin", "gruppe:nsar"], "effekt": "Die Krampfschwelle sinkt stärker – erhöhtes Risiko für Krampfanfälle.", "schwere": "mittel" },
+    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Die Halbwertszeit von Ciclosporin verlängert sich leicht – Spiegel kontrollieren.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": ["Schlaflosigkeit", "Kopfschmerzen, Schwindel", "Übelkeit, Erbrechen, Durchfall", "Erhöhte Leberwerte", "Reaktionen an der Infusionsstelle (Schmerz, Rötung)"],
+    "gelegentlich": ["Pilzinfektionen", "Leukopenie, Eosinophilie (Blutbildveränderungen)", "Angst, Verwirrtheit, Nervosität, Schläfrigkeit, Zittern, Geschmacksstörungen", "Drehschwindel, Atemnot", "Bauchschmerzen, Verdauungsbeschwerden, Blähungen, Verstopfung", "Hautausschlag, Juckreiz, Nesselsucht, vermehrtes Schwitzen", "Gelenk- und Muskelschmerzen", "Erhöhtes Kreatinin, Schwäche, Appetitlosigkeit"],
+    "selten": ["Sehnenentzündung (z. B. Achillessehne), Muskelschwäche", "Thrombozytopenie, Neutropenie", "Angioödem, Überempfindlichkeitsreaktionen", "Hypoglykämie (Unterzuckerung), vor allem bei Diabetes", "Psychotische Reaktionen, Depression, Unruhe, Albträume", "Krampfanfälle, Kribbeln, Sehstörungen, Tinnitus", "Herzrasen, Herzklopfen, Blutdruckabfall", "Akutes Nierenversagen, Fieber"],
+    "sehrSelten": [],
+    "unbekannt": ["QT-Verlängerung, Kammertachykardie, Torsade de pointes", "Sehnenriss, Rhabdomyolyse, Verschlechterung einer Myasthenia gravis", "Periphere Neuropathie (teils bleibend), Geruchs- und Geschmacksverlust, Hörverlust", "Agranulozytose, Panzytopenie, hämolytische Anämie, anaphylaktischer Schock", "Schwere Leberschäden bis zum akuten Leberversagen", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS), Lichtempfindlichkeit", "Pseudomembranöse Kolitis, Pankreatitis", "Aortenaneurysma und -dissektion, Herzklappenundichtigkeit"]
+  },
+  "schwangerschaft": "Kontraindiziert, da in Tierversuchen Gelenkknorpelschäden beim Jungtier auftraten.",
+  "stillzeit": "Kontraindiziert; Levofloxacin geht in die Muttermilch über und könnte den Gelenkknorpel des Säuglings schädigen.",
+  "hinweise": [
+    "Eisen-, Zink-, Magnesium- und Calciumpräparate sowie Antazida mindestens 2 Stunden Abstand einhalten.",
+    "Bei Sehnenschmerzen, Kribbeln, Taubheit, plötzlichen Brust-, Bauch- oder Rückenschmerzen sofort absetzen und ärztliche Hilfe holen.",
+    "Starke Sonne und Solarium meiden; Schwindel und Sehstörungen können das Autofahren beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,169 @@
+{
+  "id": "vedolizumab",
+  "name": "Vedolizumab",
+  "synonyme": [
+    "Anti-alpha4beta7-Integrin-Antikörper"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L04AG05"
+  ],
+  "klasse": "Darmselektiver Integrin-Hemmer (humanisierter monoklonaler Antikörper gegen alpha4beta7-Integrin); Biologikum",
+  "kurz": "Antikörper, der gezielt die Einwanderung von Entzündungszellen in die Darmwand bremst; bei Colitis ulcerosa und Morbus Crohn.",
+  "gruppen": [
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Entyvio"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver für ein Konzentrat zur Herstellung einer Infusionslösung",
+    "Injektionslösung (Fertigspritze, Fertigpen)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive Colitis ulcerosa bei Erwachsenen, wenn herkömmliche Therapie oder TNF-Hemmer nicht ausreichen oder nicht vertragen werden",
+      "ids": [
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Mittelschwerer bis schwerer aktiver Morbus Crohn bei Erwachsenen, wenn herkömmliche Therapie oder TNF-Hemmer nicht ausreichen oder nicht vertragen werden",
+      "ids": [
+        "morbus-crohn"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass bestimmte Abwehrzellen aus dem Blut in die entzündete Darmwand einwandern. Vedolizumab ist ein humanisierter monoklonaler IgG1-Antikörper, der an das alpha4beta7-Integrin auf Gedächtnis-T-Lymphozyten bindet. Dadurch wird deren Anheftung an das Adhäsionsmolekül MAdCAM-1 blockiert, das vorwiegend in den Blutgefässen des Darms vorkommt. Die Wirkung ist weitgehend auf den Darm beschränkt; die allgemeine Immunabwehr wird kaum geschwächt.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive schwere Infektionen wie Tuberkulose, Sepsis, Zytomegalie-Infektion oder Listeriose",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "cmv-infektion"
+      ]
+    },
+    {
+      "text": "Opportunistische Infektionen wie progressive multifokale Leukenzephalopathie (PML)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Neue oder sich verschlechternde neurologische Symptome (Hinweis auf PML) – sofort abklären",
+      "ids": []
+    },
+    {
+      "text": "Vorbehandlung mit Natalizumab oder Rituximab (erhöhtes PML-Risiko)",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Chronische oder wiederkehrende Infektionen, latente Tuberkulose",
+      "ids": [
+        "infektanfaelligkeit",
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Infusions- und Überempfindlichkeitsreaktionen bis Anaphylaxie",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Krebs in der Vorgeschichte (Daten begrenzt)",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Natalizumab",
+      "ref": [
+        "natalizumab"
+      ],
+      "effekt": "Ähnlicher Wirkmechanismus und erhöhtes PML-Risiko – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "TNF-alpha-Hemmer und andere Biologika",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer"
+      ],
+      "effekt": "Kombination nicht untersucht, erhöhtes Infektionsrisiko möglich – nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Lebendimpfungen, besonders orale, nur wenn der Nutzen das Risiko klar überwiegt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Totimpfstoffe (z. B. Cholera-Impfung)",
+      "ref": [
+        "cholera-impfstoff"
+      ],
+      "effekt": "Impfantwort kann vermindert sein.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Nasen-Rachen-Entzündung (Erkältung)",
+      "Kopfschmerzen",
+      "Gelenkschmerzen"
+    ],
+    "haeufig": [
+      "Bronchitis, Magen-Darm-Infekt, Grippe, Nasennebenhöhlen- und Rachenentzündung, Gürtelrose",
+      "Parästhesien (Kribbeln)",
+      "Bluthochdruck",
+      "Husten, Halsschmerzen",
+      "Übelkeit, Verdauungsbeschwerden, Verstopfung, Blähungen, Analabszess, Analfissur, Hämorrhoiden",
+      "Ausschlag, Juckreiz, Ekzem, Akne, Nachtschweiss",
+      "Rückenschmerzen, Muskelkrämpfe, Gliederschmerzen",
+      "Fieber, Müdigkeit; Reaktionen an der Einstichstelle (bei Spritze)"
+    ],
+    "gelegentlich": [
+      "Infektionen der Atemwege, Scheidenpilz, Follikulitis",
+      "Verschwommenes Sehen",
+      "Infusionsreaktionen, Schüttelfrost"
+    ],
+    "selten": [],
+    "sehrSelten": [
+      "Lungenentzündung",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Interstitielle Lungenerkrankung"
+    ]
+  },
+  "schwangerschaft": "Vorsichtshalber vermeiden, ausser der Nutzen überwiegt klar das Risiko; Frauen im gebärfähigen Alter verhüten während und bis 18 Wochen nach der letzten Gabe.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Stillen nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Neue Verwirrtheit, Sehstörungen, Lähmungen oder Gangunsicherheit sofort ärztlich melden (PML).",
+    "Vor Beginn Impfstatus vervollständigen; bei Fieber oder Infektzeichen ärztlich abklären lassen.",
+    "Infusionen erfolgen unter Überwachung; Fertigspritzen im Kühlschrank lagern."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mesalazin",
+  "name": "Mesalazin",
+  "synonyme": ["5-Aminosalicylsäure", "5-ASA", "Mesalamine", "Mesalamin"],
+  "atc": ["A07EC02"],
+  "klasse": "Aminosalicylat (Entzündungshemmer bei chronisch-entzündlichen Darmerkrankungen)",
+  "kurz": "Entzündungshemmer, der direkt an der Darmschleimhaut wirkt – Basismittel bei Colitis ulcerosa, teils auch bei Morbus Crohn.",
+  "gruppen": ["nephrotoxisch"],
+  "handelsnamen": ["Asacol", "Pentasa", "Salofalk", "Mezavant"],
+  "abgabe": ["B"],
+  "darreichung": ["Magensaftresistente Tabletten", "Retardtabletten", "Retardgranulat (Beutel)", "Suppositorien (Zäpfchen)", "Klysma (Einlauf)", "Rektalschaum"],
+  "indikationen": [
+    { "text": "Colitis ulcerosa: Behandlung leichter bis mittelschwerer Schübe und Vorbeugung von Rückfällen", "ids": ["colitis-ulcerosa"] },
+    { "text": "Entzündung des Enddarms und unteren Dickdarms (Proktitis, Proktosigmoiditis) mit Zäpfchen, Klysma oder Rektalschaum", "ids": ["colitis-ulcerosa"] },
+    { "text": "Morbus Crohn (je nach Präparat, z. B. Pentasa)", "ids": ["morbus-crohn"] }
+  ],
+  "wirkmechanismus": "Hemmt die Entzündung direkt an der Darmschleimhaut. Mesalazin (5-Aminosalicylsäure) vermindert die Bildung entzündungsfördernder Botenstoffe wie Prostaglandine und Leukotriene, fängt Sauerstoffradikale ab und dämpft entzündliche Signalwege (u. a. NF-κB, Aktivierung von PPAR-γ). Damit der Wirkstoff dort ankommt, wo die Entzündung sitzt, wird er in magensaftresistenten oder retardierten Tabletten und Granulaten im Dünndarm bzw. Dickdarm freigesetzt oder als Zäpfchen, Einlauf oder Schaum rektal angewendet. Der aufgenommene Anteil wird in Darmwand und Leber acetyliert und über die Nieren ausgeschieden.",
+  "kontraindikationen": [
+    { "text": "Überempfindlichkeit gegen Salicylate (z. B. Acetylsalicylsäure)", "ids": ["analgetika-asthma"] },
+    { "text": "Schwere Einschränkung der Nierenfunktion", "ids": ["niereninsuffizienz"] },
+    { "text": "Schwere Einschränkung der Leberfunktion", "ids": ["leberinsuffizienz"] }
+  ],
+  "vorsicht": [
+    { "text": "Leicht bis mittelschwer eingeschränkte Nierenfunktion: Nierenentzündung möglich – Nierenwerte und Urin vor Beginn und regelmässig kontrollieren", "ids": ["niereninsuffizienz"] },
+    { "text": "Nierensteine: unter Mesalazin können sich Steine bilden – ausreichend trinken", "ids": ["nierensteine"] },
+    { "text": "Leicht bis mittelschwer eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
+    { "text": "Lungenerkrankungen, insbesondere Asthma", "ids": ["asthma"] },
+    { "text": "Frühere Herzmuskel- oder Herzbeutelentzündung, auch durch Mesalazin oder Sulfasalazin", "ids": ["kardiomyopathie"] },
+    { "text": "Blutbildveränderungen oder Blutungsneigung", "ids": ["neutropenie", "blutgerinnungsstoerung"] },
+    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, TEN, DRESS) in der Vorgeschichte; bei Hautausschlag mit Fieber sofort absetzen", "ids": ["schwere-hautreaktion"] },
+    { "text": "Magen- oder Zwölffingerdarmgeschwür", "ids": ["magen-darm-ulkus"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Azathioprin, 6-Mercaptopurin, Thioguanin", "ref": ["azathioprin", "mercaptopurin"], "effekt": "Erhöhtes Risiko für Blutbildschäden (Leukopenie) – Blutbild regelmässig kontrollieren.", "schwere": "mittel" },
+    { "text": "Andere nierenschädigende Mittel (z. B. NSAR, Methotrexat, Ciclosporin)", "ref": ["gruppe:nephrotoxisch", "gruppe:nsar"], "effekt": "Erhöhtes Risiko für Nierenschäden – Nierenfunktion überwachen.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gerinnungshemmende Wirkung kann abgeschwächt sein – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Lactulose und andere Mittel, die den pH-Wert im Darm senken", "ref": ["lactulose"], "effekt": "Können die Freisetzung aus pH-abhängigen Tabletten vermindern – Wirkung kann nachlassen.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Durchfall, Bauchschmerzen, Blähungen", "Übelkeit, Erbrechen", "Kopfschmerzen", "Hautausschlag"],
+    "gelegentlich": ["Juckreiz, Nesselsucht"],
+    "selten": ["Schwindel", "Herzmuskel- und Herzbeutelentzündung (Myokarditis, Perikarditis)", "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "Lichtempfindlichkeit der Haut"],
+    "sehrSelten": ["Blutbildveränderungen (Agranulozytose, aplastische Anämie, Thrombozytopenie, Panzytopenie)", "Interstitielle Nephritis (Nierenentzündung), nephrotisches Syndrom, Nierenversagen", "Allergische Lungenentzündung, Lungenfibrose", "Hepatitis, Gallestau", "Periphere Nervenschädigung (Neuropathie)", "Lupus-ähnliches Syndrom, Muskel- und Gelenkschmerzen", "Haarausfall", "Vorübergehend verminderte Spermienzahl"],
+    "unbekannt": ["Nierensteine", "Schwere Hautreaktionen (DRESS, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)", "Akute Unverträglichkeit mit Verschlechterung der Darmbeschwerden (Krämpfe, blutiger Durchfall, Fieber)", "Idiopathische intrakranielle Hypertonie (erhöhter Hirndruck mit Kopfschmerz und Sehstörungen)"]
+  },
+  "schwangerschaft": "Kann nach ärztlicher Abwägung angewendet werden; umfangreiche Erfahrungen zeigen kein erhöhtes Fehlbildungsrisiko.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nach Abwägung möglich – auf Durchfall beim Säugling achten.",
+  "hinweise": [
+    "Nierenwerte und Urin vor Beginn und dann regelmässig kontrollieren lassen, ebenso das Blutbild.",
+    "Tabletten und Granulat unzerkaut schlucken.",
+    "Bei Krämpfen, Fieber, starken Kopfschmerzen oder Hautausschlag kurz nach Beginn ärztlich melden (mögliche Unverträglichkeit).",
+    "Ausreichend trinken (beugt Nierensteinen vor)."
+  ],
+  "stand": "2026-10"
+}

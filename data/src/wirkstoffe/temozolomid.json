@@ -1,0 +1,191 @@
+{
+  "id": "temozolomid",
+  "name": "Temozolomid",
+  "synonyme": [
+    "Temozolomide",
+    "TMZ",
+    "Temozolomidum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01AX03"
+  ],
+  "klasse": "Zytostatikum (Alkylans, Imidazotetrazin)",
+  "kurz": "Zytostatikum als Kapsel zur Behandlung bösartiger Hirntumoren wie des Glioblastoms, oft zusammen mit Bestrahlung.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Temodal",
+    "Temozolomid Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostiziertes Glioblastom (bösartiger Hirntumor) bei Erwachsenen, zunächst zusammen mit Bestrahlung, danach allein",
+      "ids": [
+        "hirntumor",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Wiederkehrende oder fortschreitende bösartige Gliome (Glioblastom, anaplastisches Astrozytom) bei Kindern ab 3 Jahren und Erwachsenen nach Standardtherapie",
+      "ids": [
+        "hirntumor",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Hirntumorzellen, indem es deren Erbgut schädigt. Temozolomid ist ein Prodrug, das ohne Leberstoffwechsel beim pH-Wert des Körpers spontan zum aktiven Methyltriazen MTIC zerfällt. MTIC hängt Methylgruppen an die DNA-Base Guanin (vor allem an der O6- und N7-Position); die entstehenden Fehlpaarungen lösen den Zelltod aus. Tumoren, deren Reparaturenzym MGMT abgeschaltet ist (methylierter MGMT-Promotor), sprechen besonders gut an; der Wirkstoff gelangt gut ins Gehirn.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Dacarbazin (Kreuzallergie, gleicher Wirkmetabolit)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Knochenmarkhemmung",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Pneumocystis-Pneumonie (Lungeninfektion bei Abwehrschwäche), besonders während der Kombination mit Bestrahlung und Kortison: vorbeugende Behandlung",
+      "ids": [
+        "lungenentzuendung",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Hepatitis B oder andere latente Virusinfektionen (z. B. Herpes, Zytomegalie): Gefahr der Reaktivierung",
+      "ids": [
+        "hepatitis-b",
+        "virusinfektion"
+      ]
+    },
+    {
+      "text": "Leberschäden bis Leberversagen möglich: Leberwerte vor, während und nach jedem Zyklus kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Leberfunktionsstörung: wenig Erfahrung",
+      "ids": [
+        "niereninsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Frauen: höheres Risiko für schwere Blutbildveränderungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Übelkeit und Erbrechen: vorbeugend Antiemetika",
+      "ids": [
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Kinderwunsch: mögliche bleibende Unfruchtbarkeit bei Männern, vor Therapie Spermienkonservierung erwägen",
+      "ids": [
+        "maennliche-unfruchtbarkeit",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während der Behandlung nicht mit Lebendimpfstoffen impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Glukokortikoide (z. B. Dexamethason bei Hirnödem)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "dexamethason"
+      ],
+      "effekt": "Erhöhtes Risiko für Infektionen wie Pneumocystis-Pneumonie – Vorbeugung nach ärztlicher Anordnung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Etwas verminderte Ausscheidung von Temozolomid; klinisch meist ohne Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen",
+      "Verstopfung",
+      "Appetitlosigkeit",
+      "Müdigkeit",
+      "Kopfschmerzen",
+      "Haarausfall",
+      "Hautausschlag"
+    ],
+    "haeufig": [
+      "Mangel an Blutplättchen, weissen und roten Blutkörperchen (Thrombozytopenie, Neutropenie, Lymphopenie, Anämie)",
+      "Infektionen, Mundsoor (Pilzbefall)",
+      "Krampfanfälle",
+      "Schwindel, Gedächtnis- und Konzentrationsstörungen, Verwirrtheit",
+      "Schlafstörungen, Angst",
+      "Durchfall, Bauchschmerzen, Mundschleimhautentzündung",
+      "Atemnot, Husten",
+      "Erhöhte Leberwerte"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Pneumocystis-Pneumonie und andere opportunistische Infektionen (z. B. Zytomegalie, Hepatitis-B-Reaktivierung)",
+      "Lang anhaltender Mangel aller Blutzellen, aplastische Anämie",
+      "Myelodysplastisches Syndrom und Zweitleukämien",
+      "Leberschäden bis Leberversagen",
+      "Interstitielle Pneumonitis, Lungenfibrose",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Diabetes insipidus"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen und Männer müssen während und bis mehrere Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kapseln nüchtern (mindestens 1 Stunde vor einer Mahlzeit) unzerkaut mit Wasser schlucken; nicht öffnen – bei Kontakt mit dem Inhalt Haut sofort waschen.",
+    "Vorbeugend Mittel gegen Übelkeit einnehmen; bei Erbrechen am selben Tag keine zweite Dosis nehmen.",
+    "Blutbild- und Leberkontrollen vor und während jedes Zyklus; Fieber und Infektzeichen sofort melden."
+  ],
+  "stand": "2026-10"
+}

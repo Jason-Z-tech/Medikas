@@ -1,0 +1,182 @@
+{
+  "id": "molsidomin",
+  "name": "Molsidomin",
+  "synonyme": [
+    "Molsidomine"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C01DX12"
+  ],
+  "klasse": "NO-Donator (Sydnonimin); Antianginosum",
+  "kurz": "Gefässerweiterndes Mittel zur Vorbeugung von Angina-pectoris-Anfällen (Brustenge); wirkt ähnlich wie Nitrate.",
+  "gruppen": [
+    "nitrate",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Corvaton"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung und Langzeitbehandlung der Angina pectoris (Brustenge) bei koronarer Herzkrankheit",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Blutgefässe und entlastet so das Herz, das dadurch weniger Sauerstoff braucht. Molsidomin ist ein Prodrug: In der Leber entsteht daraus Linsidomin (SIN-1), das ohne Beteiligung von Enzymen Stickstoffmonoxid (NO) freisetzt. NO aktiviert in der glatten Gefässmuskulatur die lösliche Guanylatcyclase; der Anstieg von cGMP erschlafft vor allem die Venen (Senkung der Vorlast) und erweitert auch die Herzkranzgefässe. Anders als bei Nitraten entwickelt sich kaum eine Gewöhnung (Toleranz).",
+  "kontraindikationen": [
+    {
+      "text": "Akutes Kreislaufversagen (Schock, Kreislaufkollaps) und kardiogener Schock",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Stark erniedrigter Blutdruck (systolisch unter 90 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Hypertrophe obstruktive Kardiomyopathie, Aorten- oder Mitralklappenstenose, Perikarderkrankungen (Gefahr eines starken Blutdruckabfalls)",
+      "ids": [
+        "kardiomyopathie",
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Frischer Herzinfarkt: nur unter engmaschiger Kreislaufüberwachung",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Neigung zu tiefem Blutdruck oder Flüssigkeitsmangel",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Erkrankungen mit erhöhtem Hirndruck",
+      "ids": [
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (langsamerer Abbau, Dosis anpassen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und eingeschränkte Nierenfunktion (Schwindel, Sturzgefahr)",
+      "ids": [
+        "aeltere-patienten",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "PDE-5-Hemmer (z. B. Sildenafil, Tadalafil, Vardenafil, Avanafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "grund": "Beide erhöhen den Botenstoff cGMP – Gefahr eines lebensbedrohlichen Blutdruckabfalls."
+    },
+    {
+      "text": "Riociguat (Stimulator der löslichen Guanylatcyclase)",
+      "ref": [
+        "riociguat"
+      ],
+      "grund": "Gleichsinnige Steigerung von cGMP – Gefahr eines schweren Blutdruckabfalls."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere Blutdrucksenker (z. B. Betablocker, Calciumantagonisten, Diuretika, ACE-Hemmer)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – vor allem zu Beginn Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nitrate (z. B. Nitroglycerin, Isosorbidmononitrat)",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "effekt": "Gleichsinnige Wirkung: stärkerer Blutdruckabfall und mehr Kopfschmerzen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vericiguat",
+      "ref": [
+        "vericiguat"
+      ],
+      "effekt": "Verstärkte Gefässerweiterung und Blutdrucksenkung – nur unter ärztlicher Kontrolle kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Antipsychotika",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Zusätzlicher Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkt die Blutdrucksenkung – Schwindel und Ohnmacht möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen, vor allem zu Behandlungsbeginn",
+      "Hypotonie (tiefer Blutdruck), Schwindel und Kreislaufbeschwerden beim Aufstehen"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Übelkeit",
+      "Allergische Hautreaktionen (Ausschlag, Juckreiz)"
+    ],
+    "sehrSelten": [
+      "Anaphylaktischer Schock (schwere allergische Reaktion)",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen. Im ersten Drittel nicht anwenden, danach nur bei zwingender Notwendigkeit nach ärztlicher Abwägung.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Nicht zur Behandlung eines akuten Angina-pectoris-Anfalls geeignet – dafür ein rasch wirkendes Nitrat (z. B. Nitroglycerin-Spray) verwenden.",
+    "Keine Potenzmittel vom Typ Sildenafil oder Tadalafil einnehmen: lebensgefährlicher Blutdruckabfall.",
+    "Alkohol verstärkt die Blutdrucksenkung; besonders zu Beginn kann die Fahrtüchtigkeit beeinträchtigt sein.",
+    "Retardtabletten unzerkaut mit Flüssigkeit einnehmen."
+  ],
+  "stand": "2026-10"
+}

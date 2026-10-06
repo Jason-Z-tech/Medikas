@@ -1,0 +1,53 @@
+{
+  "id": "emtricitabin-tenofovirdisoproxil",
+  "name": "Emtricitabin + Tenofovirdisoproxil",
+  "synonyme": ["FTC/TDF", "Emtricitabin/Tenofovir", "Emtricitabine/Tenofovir disoproxil"],
+  "kombinationAus": ["emtricitabin", "tenofovirdisoproxil"],
+  "atc": ["J05AR03"],
+  "klasse": "HIV-Kombination aus zwei nukleosidischen bzw. nukleotidischen Reverse-Transkriptase-Hemmern (NRTI)",
+  "kurz": "HIV-Medikament aus zwei Wirkstoffen; zur Behandlung (mit weiteren Mitteln) und zur Vorbeugung einer HIV-Ansteckung (PrEP).",
+  "gruppen": ["nephrotoxisch"],
+  "handelsnamen": ["Truvada", "Emtricitabin/Tenofovir Mepha"],
+  "abgabe": ["A"],
+  "darreichung": ["Filmtabletten"],
+  "indikationen": [
+    { "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen, in Kombination mit weiteren antiretroviralen Mitteln", "ids": ["hiv"] },
+    { "text": "Präexpositionsprophylaxe (PrEP): Vorbeugung einer sexuell erworbenen HIV-1-Infektion bei Erwachsenen und Jugendlichen mit erhöhtem Risiko, zusammen mit Safer-Sex-Massnahmen", "ids": ["hiv"] }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von HIV und verhindert bei vorbeugender Einnahme, dass sich das Virus nach einer Ansteckung im Körper festsetzt. Emtricitabin (ein Cytidin-Analogon) und Tenofovir (ein Adenosin-Nukleotid-Analogon, aus der Vorstufe Tenofovirdisoproxil freigesetzt) werden in den Zellen zu ihren aktiven Triphosphat- bzw. Diphosphat-Formen umgewandelt. Diese werden von der Reversen Transkriptase in die Virus-DNA eingebaut und führen zum Kettenabbruch. Beide Wirkstoffe wirken auch gegen das Hepatitis-B-Virus.",
+  "kontraindikationen": [
+    { "text": "Anwendung zur PrEP bei unbekanntem oder positivem HIV-Status (vor Beginn HIV-Test)", "ids": ["hiv"] }
+  ],
+  "vorsicht": [
+    { "text": "Eingeschränkte Nierenfunktion: Nierenwerte vor und während der Einnahme kontrollieren; zur PrEP bei deutlich verminderter Nierenfunktion nicht empfohlen", "ids": ["niereninsuffizienz"] },
+    { "text": "Knochenerkrankungen oder erhöhtes Frakturrisiko (Abnahme der Knochendichte)", "ids": ["osteoporose"] },
+    { "text": "Hepatitis-B-Infektion: nach dem Absetzen (auch einer PrEP) schwere Hepatitisschübe möglich", "ids": ["hepatitis-b"] },
+    { "text": "PrEP: HIV-Test alle 3 Monate; bei grippeähnlichen Beschwerden nach einem Risikokontakt an eine frische HIV-Infektion denken (Resistenzgefahr)", "ids": ["hiv"] },
+    { "text": "Lebererkrankungen, z. B. chronische Hepatitis: häufiger Leberwertveränderungen", "ids": ["leberinsuffizienz"] },
+    { "text": "Gleichzeitige oder kürzliche Einnahme nierenschädigender Mittel", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Foscarnet, Ganciclovir, Pentamidin, Vancomycin, Cidofovir)", "ref": ["gruppe:nephrotoxisch", "foscarnet", "ganciclovir", "pentamidin"], "effekt": "Erhöhtes Risiko für Nierenschäden – möglichst vermeiden, sonst Nierenfunktion wöchentlich kontrollieren.", "schwere": "schwer" },
+    { "text": "Hoch dosierte oder mehrere NSAR gleichzeitig (z. B. Diclofenac, Ibuprofen)", "ref": ["gruppe:nsar"], "effekt": "Fälle von akutem Nierenversagen, vor allem bei Risikofaktoren – Nierenfunktion kontrollieren, möglichst andere Schmerzmittel.", "schwere": "mittel" },
+    { "text": "Mit Ritonavir oder Cobicistat geboosterte HIV-Mittel (z. B. Darunavir, Atazanavir, Lopinavir)", "ref": ["ritonavir", "cobicistat", "darunavir", "atazanavir", "lopinavir-ritonavir"], "effekt": "Tenofovir-Spiegel steigen – Nierenfunktion engmaschiger kontrollieren.", "schwere": "mittel" },
+    { "text": "Hepatitis-C-Mittel mit Sofosbuvir und Ledipasvir oder Velpatasvir", "ref": ["ledipasvir-sofosbuvir", "sofosbuvir-velpatasvir", "sofosbuvir-velpatasvir-voxilaprevir"], "effekt": "Tenofovir-Spiegel steigen – Nierenfunktion überwachen.", "schwere": "mittel" },
+    { "text": "Lamivudin und lamivudinhaltige Präparate", "ref": ["lamivudin", "abacavir-lamivudin", "dolutegravir-lamivudin", "abacavir-lamivudin-dolutegravir"], "effekt": "Gleicher Wirkmechanismus wie Emtricitabin – nicht kombinieren.", "schwere": "mittel" },
+    { "text": "Andere emtricitabin- oder tenofovirhaltige Präparate", "ref": ["emtricitabin", "tenofovirdisoproxil", "tenofoviralafenamid", "emtricitabin-tenofoviralafenamid", "bictegravir-emtricitabin-tenofoviralafenamid"], "effekt": "Doppelbehandlung vermeiden.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": ["Durchfall, Übelkeit, Erbrechen", "Kopfschmerzen, Schwindel", "Hautausschlag", "Asthenie (Schwäche)", "Hypophosphatämie (zu wenig Phosphat im Blut)", "Erhöhte Kreatinkinase (CK)"],
+    "haeufig": ["Bauchschmerzen, Verdauungsbeschwerden, Blähungen", "Schlaflosigkeit, abnorme Träume", "Juckreiz, Nesselsucht, Hautverfärbung (vor allem an Handflächen und Fusssohlen)", "Neutropenie (Mangel an weissen Blutkörperchen)", "Allergische Reaktionen", "Erhöhte Leber-, Bauchspeicheldrüsen-, Blutzucker- oder Triglyceridwerte", "Müdigkeit, Schmerzen"],
+    "gelegentlich": ["Proximale Tubulopathie der Niere (inkl. Fanconi-Syndrom), Kreatininanstieg, Eiweiss im Urin", "Anämie", "Hypokaliämie (Kaliummangel)", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Angioödem (Schwellung von Haut und Schleimhäuten)", "Rhabdomyolyse (Muskelzerfall), Muskelschwäche"],
+    "selten": ["Akutes Nierenversagen, Nierenentzündung, nephrogener Diabetes insipidus", "Osteomalazie (Knochenerweichung) mit Knochenschmerzen und Brüchen", "Laktatazidose (Übersäuerung des Blutes)", "Fettleber, Hepatitis"]
+  },
+  "schwangerschaft": "Kann bei Bedarf in der Schwangerschaft angewendet werden; umfangreiche Daten zeigen kein erhöhtes Fehlbildungsrisiko.",
+  "stillzeit": "Beide Wirkstoffe gehen in die Muttermilch über; gemäss Fachinformation in der Stillzeit nicht anwenden. HIV-positive Mütter sollen grundsätzlich nicht stillen; bei PrEP das Vorgehen mit der Fachperson besprechen.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen.",
+    "PrEP: vor Beginn und danach alle 3 Monate HIV-Test sowie Kontrollen auf sexuell übertragbare Infektionen und der Nierenfunktion; PrEP schützt nicht vor anderen Geschlechtskrankheiten.",
+    "Regelmässig einnehmen – vergessene Dosen vermindern Wirkung bzw. Schutz.",
+    "Bei Hepatitis B nicht eigenmächtig absetzen."
+  ],
+  "stand": "2026-10"
+}

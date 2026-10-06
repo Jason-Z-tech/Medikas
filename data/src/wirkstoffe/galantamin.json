@@ -1,0 +1,224 @@
+{
+  "id": "galantamin",
+  "name": "Galantamin",
+  "synonyme": [
+    "Galantamine"
+  ],
+  "atc": [
+    "N06DA04"
+  ],
+  "klasse": "Acetylcholinesterase-Hemmer (Antidementivum)",
+  "kurz": "Mittel gegen leichte bis mittelschwere Alzheimer-Demenz; hemmt den Abbau des Botenstoffs Acetylcholin im Gehirn.",
+  "gruppen": [
+    "acetylcholinesterasehemmer",
+    "bradykardisierend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Reminyl"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Leichte bis mittelschwere Alzheimer-Demenz (symptomatische Behandlung)",
+      "ids": [
+        "demenz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert bei Alzheimer-Demenz vorübergehend Gedächtnis und Alltagsfähigkeiten, indem es den Abbau des Botenstoffs Acetylcholin bremst. Galantamin, ursprünglich aus Schneeglöckchen gewonnen, hemmt selektiv, kompetitiv und reversibel die Acetylcholinesterase. Zusätzlich verstärkt es als allosterischer Modulator die Wirkung von Acetylcholin an nikotinischen Rezeptoren. Abgebaut wird es über CYP2D6 und CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh-Score über 9)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 9 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Gleichzeitig deutlich eingeschränkte Leber- und Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Langsamer Puls, Sinusknotensyndrom oder Reizleitungsstörungen (AV-Block)",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, kürzlicher Herzinfarkt, Herzinsuffizienz",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre (auch in der Vorgeschichte), Einnahme von NSAR",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Asthma oder COPD",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Behinderter Harnabfluss oder kürzliche Darm- oder Blasenoperation",
+      "ids": [
+        "harnverhalt",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Mässig eingeschränkte Leberfunktion (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen: bei Hautausschlag sofort absetzen und ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Gewichtsverlust: Körpergewicht kontrollieren",
+      "ids": [
+        "untergewicht"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Galantamin-Spiegel steigt – vor allem zu Beginn auf Übelkeit, Erbrechen und langsamen Puls achten, Dosis gegebenenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Erythromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Galantamin-Spiegel steigt – auf cholinerge Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pulsverlangsamende Mittel (z. B. Digoxin, Betablocker, Verapamil, Diltiazem, Amiodaron)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:betablocker",
+        "gruppe:herzglykoside",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung und Reizleitungsstörungen – Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Oxybutynin, Biperiden, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Succinylcholin (Muskelrelaxans bei Narkose)",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Verstärkte Muskelerschlaffung – Narkoseteam informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cholinerge Mittel und andere Cholinesterase-Hemmer (z. B. Bethanechol)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer",
+        "bethanechol"
+      ],
+      "effekt": "Verstärkte cholinerge Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Erbrechen"
+    ],
+    "haeufig": [
+      "Appetitminderung, Gewichtsabnahme",
+      "Halluzinationen, Depression",
+      "Schwindel, Zittern, Kopfschmerzen, Schläfrigkeit",
+      "Ohnmacht (Synkope), Stürze",
+      "Bradykardie (langsamer Puls), Bluthochdruck",
+      "Bauchschmerzen, Durchfall, Dyspepsie (Verdauungsbeschwerden)",
+      "Muskelkrämpfe",
+      "Müdigkeit, Schwäche"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Dehydratation (Flüssigkeitsmangel)",
+      "AV-Block 1. Grades, Herzklopfen, Extrasystolen",
+      "Tiefer Blutdruck, Hitzewallungen",
+      "Kribbeln, Geschmacksstörungen, verschwommenes Sehen, Ohrensausen",
+      "Vermehrtes Schwitzen, Muskelschwäche",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Kompletter AV-Block",
+      "Hepatitis",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, akute generalisierte exanthematische Pustulose, Erythema multiforme)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Krampfanfälle"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nur nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Nicht stillen.",
+  "hinweise": [
+    "Retardkapsel einmal täglich am Morgen mit dem Frühstück und reichlich Flüssigkeit einnehmen; während der Behandlung genug trinken.",
+    "Nach einem Unterbruch von mehreren Tagen mit der niedrigsten Dosis neu beginnen.",
+    "Vor einer Narkose die Einnahme angeben.",
+    "Bei Hautausschlag, Ohnmacht oder sehr langsamem Puls ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

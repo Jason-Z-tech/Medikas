@@ -1,0 +1,297 @@
+{
+  "id": "celecoxib",
+  "name": "Celecoxib",
+  "synonyme": [
+    "Celecoxibum"
+  ],
+  "atc": [
+    "M01AH01"
+  ],
+  "klasse": "Selektiver COX-2-Hemmer (Coxib, NSAR)",
+  "kurz": "Entzündungshemmendes Schmerzmittel aus der Gruppe der COX-2-Hemmer bei Arthrose, rheumatoider Arthritis und Morbus Bechterew.",
+  "gruppen": [
+    "nsar",
+    "cox2-hemmer",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Celebrex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Beschwerden bei Arthrose",
+      "ids": [
+        "arthrose"
+      ]
+    },
+    {
+      "text": "Rheumatoide Arthritis",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Morbus Bechterew (Spondylitis ankylosans)",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündungen und schont dabei die Magenschleimhaut etwas mehr als herkömmliche NSAR. Celecoxib hemmt selektiv die Cyclooxygenase-2 (COX-2), die im entzündeten Gewebe Prostaglandine bildet; die für Magenschutz und Blutplättchen wichtige COX-1 wird in therapeutischer Dosis kaum gehemmt. Deshalb hemmt Celecoxib die Blutplättchen nicht und ersetzt keine Acetylsalicylsäure zum Herzschutz. Abgebaut wird es hauptsächlich über CYP2C9.",
+  "kontraindikationen": [
+    {
+      "text": "Sulfonamid-Allergie",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Asthma, Nesselsucht oder allergieartige Reaktionen nach Acetylsalicylsäure oder anderen NSAR",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive Magen-Darm-Geschwüre oder -Blutungen",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz (NYHA II–IV), gesicherte koronare Herzkrankheit, Durchblutungsstörungen der Beine oder des Gehirns",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit",
+        "pavk",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft sowie Frauen im gebärfähigen Alter ohne wirksame Verhütung",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Risikofaktoren wie Bluthochdruck, erhöhte Blutfette, Diabetes oder Rauchen",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "hypertonie",
+        "diabetes",
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte und ältere Menschen",
+      "ids": [
+        "magen-darm-ulkus",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Leberfunktion (Dosis halbieren) und eingeschränkte Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bekannt langsamer Abbau über CYP2C9 (genetisch): niedrigere Dosis",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Wassereinlagerungen und Ödeme",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen: beim ersten Ausschlag absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann ansteigen, Blutungen möglich – INR zu Beginn und bei Dosisänderung kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigt – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fluconazol und andere CYP2C9-Hemmer",
+      "ref": [
+        "fluconazol",
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Celecoxib-Spiegel verdoppelt sich etwa – mit der niedrigsten Dosis beginnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate (z. B. Metoprolol, Flecainid, gewisse Antidepressiva und Antipsychotika)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Celecoxib hemmt CYP2D6 – deren Spiegel können steigen; Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Acetylsalicylsäure und andere NSAR",
+      "ref": [
+        "acetylsalicylsaeure",
+        "gruppe:nsar"
+      ],
+      "effekt": "Höheres Risiko für Magen-Darm-Geschwüre; Celecoxib ersetzt die herzschützende ASS nicht. Andere NSAR nicht zusätzlich einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel akutes Nierenversagen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Methotrexat-Toxizität möglich – Blutbild und Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Rifampicin und Carbamazepin",
+      "ref": [
+        "rifampicin",
+        "carbamazepin"
+      ],
+      "effekt": "Beschleunigter Abbau – Wirkung kann schwächer sein.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Bluthochdruck",
+      "Dyspepsie (Verdauungsbeschwerden), Bauchschmerzen, Durchfall, Blähungen",
+      "Schwindel, Schlaflosigkeit",
+      "Hautausschlag, Juckreiz",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Infekte der oberen Atemwege, Nasennebenhöhlenentzündung, Harnwegsinfekte"
+    ],
+    "gelegentlich": [
+      "Anämie (Blutarmut)",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Sehstörungen, Ohrensausen (Tinnitus)",
+      "Herzinsuffizienz, Herzklopfen",
+      "Erhöhte Leber- und Nierenwerte",
+      "Nesselsucht"
+    ],
+    "selten": [
+      "Magen-Darm-Geschwüre, -Blutungen und -Durchbrüche",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung), Hepatitis",
+      "Angioödem (Schwellung von Haut und Schleimhaut)",
+      "Blutbildveränderungen",
+      "Verwirrtheit",
+      "Akutes Nierenversagen"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Leberversagen",
+      "Hirnblutung"
+    ],
+    "unbekannt": [
+      "Herzinfarkt und Schlaganfall (Risiko steigt mit Dosis und Behandlungsdauer)",
+      "Vorübergehend verminderte Fruchtbarkeit bei Frauen"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen, die schwanger werden können, sollen während der Behandlung wirksam verhüten.",
+  "stillzeit": "Kontraindiziert; Celecoxib geht in geringen Mengen in die Muttermilch über.",
+  "hinweise": [
+    "Mit oder ohne Essen einnehmen; so niedrig dosiert und so kurz wie möglich.",
+    "Ersetzt keine Acetylsalicylsäure zum Schutz von Herz und Gefässen.",
+    "Blutdruck regelmässig kontrollieren.",
+    "Kann Schwindel verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

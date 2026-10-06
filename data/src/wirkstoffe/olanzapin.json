@@ -1,0 +1,264 @@
+{
+  "id": "olanzapin",
+  "name": "Olanzapin",
+  "synonyme": [
+    "Olanzapine",
+    "Olanzapinpamoat"
+  ],
+  "atc": [
+    "N05AH03"
+  ],
+  "klasse": "Atypisches Antipsychotikum (Thienobenzodiazepin)",
+  "kurz": "Atypisches Antipsychotikum gegen Schizophrenie und Manie; auch zur Vorbeugung von Rückfällen bei bipolarer Störung.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "zns-daempfend",
+    "anticholinerg",
+    "blutdrucksenkend",
+    "hyperglykaemie-ausloesend",
+    "krampfschwellensenkend",
+    "qt-verlaengernd",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Zyprexa",
+    "Zyprexa Velotab",
+    "Zypadhera",
+    "Olanzapin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten",
+    "Depot-Injektionssuspension"
+  ],
+  "indikationen": [
+    {
+      "text": "Schizophrenie, akut und zur Erhaltung (Depotspritze nach Stabilisierung mit Tabletten)",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere manische Episoden",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Rückfällen bei bipolarer Störung, wenn die manische Episode auf Olanzapin angesprochen hat",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft Wahn, Halluzinationen und manische Erregung, indem es im Gehirn die Wirkung der Botenstoffe Dopamin und Serotonin hemmt. Olanzapin blockiert Serotonin-5-HT2A- und Dopamin-D2-Rezeptoren sowie Histamin-H1-, Muskarin- und Alpha-1-Rezeptoren. Die H1-Blockade erklärt Müdigkeit und Gewichtszunahme, die Muskarinblockade Mundtrockenheit und Verstopfung. Abgebaut wird es v. a. über CYP1A2 und Glucuronidierung.",
+  "kontraindikationen": [
+    {
+      "text": "Bekanntes Risiko für ein Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Ältere Menschen mit Demenz: erhöhte Sterblichkeit und erhöhtes Schlaganfallrisiko",
+      "ids": [
+        "demenz",
+        "aeltere-patienten",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit: Verschlechterung, nicht empfohlen",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Diabetes, Übergewicht, erhöhte Blutfette",
+      "ids": [
+        "diabetes",
+        "adipositas",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Vergrösserte Prostata, Darmlähmung in der Vorgeschichte",
+      "ids": [
+        "prostatahyperplasie",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Erhöhte Leberwerte, Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Verminderte weisse Blutkörperchen, Knochenmarkerkrankungen",
+      "ids": [
+        "neutropenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, verlängerte QT-Zeit",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine als Spritze zusammen mit einer Olanzapin-Injektion",
+      "ref": [
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Gefahr von starkem Blutdruckabfall sowie Atem- und Kreislaufdepression – nicht gleichzeitig spritzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP1A2-Hemmer (z. B. Fluvoxamin, Ciprofloxacin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Olanzapin-Spiegel steigt – niedrigere Anfangsdosis, Dosis ggf. senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rauchen und Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Beschleunigter Abbau, der Spiegel sinkt; nach einem Rauchstopp kann er steigen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung und Blutdruckabfall.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Weitere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Häufiger Neutropenie – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aktivkohle",
+      "ref": [
+        "aktivkohle"
+      ],
+      "effekt": "Vermindert die Aufnahme von Olanzapin um 50–60 %.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Gewichtszunahme",
+      "Schläfrigkeit",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Erhöhtes Prolaktin"
+    ],
+    "haeufig": [
+      "Erhöhter Blutzucker, erhöhtes Cholesterin und Triglyceride, gesteigerter Appetit",
+      "Schwindel, Sitzunruhe (Akathisie), Parkinsonismus, Dyskinesien",
+      "Mundtrockenheit, Verstopfung",
+      "Vorübergehend erhöhte Leberwerte",
+      "Leukopenie, Neutropenie, Eosinophilie",
+      "Ödeme, Schwäche, Fieber",
+      "Gelenkschmerzen, Hautausschlag",
+      "Erektionsstörung, verminderte Libido"
+    ],
+    "gelegentlich": [
+      "Neu auftretender oder verschlechterter Diabetes, selten mit Ketoazidose oder Koma",
+      "Krampfanfälle",
+      "Spätdyskinesien, Dystonie",
+      "Bradykardie, QT-Verlängerung",
+      "Venöse Thromboembolie (Thrombose, Lungenembolie)",
+      "Lichtempfindlichkeit, Haarausfall",
+      "Harnverhalt, Harninkontinenz",
+      "Milchfluss, Brustvergrösserung, Ausbleiben der Regel"
+    ],
+    "selten": [
+      "Malignes neuroleptisches Syndrom",
+      "Kammerrhythmusstörungen, plötzlicher Herztod",
+      "Pankreatitis, Hepatitis",
+      "Thrombozytopenie",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Priapismus",
+      "Zypadhera: Post-Injektions-Syndrom mit starker Sedierung oder Delir"
+    ],
+    "unbekannt": [
+      "DRESS (schwere Arzneimittelreaktion mit Hautausschlag, Eosinophilie und Organbeteiligung)",
+      "Entzugssymptome und Bewegungsstörungen beim Neugeborenen"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur anwenden, wenn der Nutzen das Risiko überwiegt. Bei Einnahme im letzten Drittel können beim Neugeborenen Bewegungsstörungen und Entzugssymptome auftreten.",
+  "stillzeit": "Olanzapin geht in die Muttermilch über. Nicht stillen.",
+  "hinweise": [
+    "Gewicht, Blutzucker und Blutfette vor und regelmässig während der Behandlung kontrollieren.",
+    "Zypadhera: nach jeder Injektion mindestens 3 Stunden in der Praxis bzw. Klinik bleiben und an diesem Tag nicht Auto fahren.",
+    "Rauchbeginn oder Rauchstopp ärztlich mitteilen (der Spiegel ändert sich).",
+    "Fahrtüchtigkeit kann beeinträchtigt sein; Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

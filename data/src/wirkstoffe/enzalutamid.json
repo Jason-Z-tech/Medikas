@@ -1,0 +1,225 @@
+{
+  "id": "enzalutamid",
+  "name": "Enzalutamid",
+  "synonyme": [
+    "Enzalutamide",
+    "MDV3100"
+  ],
+  "atc": [
+    "L02BB04"
+  ],
+  "klasse": "Androgenrezeptor-Hemmer der 2. Generation",
+  "kurz": "Antihormon-Medikament gegen Prostatakrebs; hemmt die Testosteronwirkung stärker als ältere Antiandrogene.",
+  "gruppen": [
+    "antiandrogene",
+    "cyp3a4-induktoren",
+    "krampfschwellensenkend",
+    "qt-verlaengernd",
+    "blutdrucksteigernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Xtandi"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Weichkapseln",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter hormonsensitiver Prostatakrebs, zusammen mit einer Hormonentzugstherapie",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Nicht metastasierter kastrationsresistenter Prostatakrebs mit hohem Metastasierungsrisiko",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter kastrationsresistenter Prostatakrebs, vor oder nach Docetaxel-Chemotherapie",
+      "ids": [
+        "prostatakrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert die Wirkung von Testosteron in Prostatakrebszellen an mehreren Stellen. Enzalutamid bindet mit hoher Affinität an den Androgenrezeptor, verhindert seine Wanderung in den Zellkern, seine Bindung an die DNA und das Anlagern von Ko-Aktivatoren. Dadurch wird das Wachstum androgenabhängiger Tumorzellen gehemmt. Enzalutamid ist ein starker CYP3A4-Induktor und verursacht dadurch viele Wechselwirkungen.",
+  "kontraindikationen": [
+    {
+      "text": "Frauen, die schwanger sind oder schwanger werden können",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Epilepsie, Krampfanfälle in der Vorgeschichte oder Risikofaktoren (Hirnverletzung, Schlaganfall, Hirnmetastasen)",
+      "ids": [
+        "epilepsie",
+        "schlaganfall",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Bluthochdruck und verlängerte QT-Zeit",
+      "ids": [
+        "koronare-herzkrankheit",
+        "hypertonie",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Stürze und Knochenbrüche (Knochendichte und Sturzrisiko beachten)",
+      "ids": [
+        "osteoporose",
+        "knochenbruch",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Posteriores reversibles Enzephalopathie-Syndrom (PRES): bei Kopfschmerzen, Verwirrtheit oder Sehstörungen absetzen",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (z. B. Stevens-Johnson-Syndrom)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Simvastatin, Tacrolimus, Ciclosporin, viele Krebsmittel)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "tacrolimus",
+        "ciclosporin"
+      ],
+      "effekt": "Enzalutamid senkt deren Spiegel stark – möglichst meiden oder Dosis anpassen und Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Abgeschwächte Blutverdünnung – möglichst meiden, sonst INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (z. B. Rivaroxaban, Apixaban, Edoxaban)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Spiegel und Wirkung können sinken – Kombination ärztlich prüfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2C8-Hemmer (z. B. Gemfibrozil)",
+      "ref": [
+        "gruppe:cyp2c8-hemmer"
+      ],
+      "effekt": "Enzalutamid-Spiegel verdoppelt sich etwa – meiden oder Dosis halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Enzalutamid-Spiegel kann sinken – möglichst meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol, Clozapin)",
+      "ref": [
+        "gruppe:krampfschwellensenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel und Antiarrhythmika",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – sorgfältig abwägen, EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19-Substrate (z. B. Clopidogrel, Omeprazol, Citalopram)",
+      "ref": [
+        "gruppe:cyp2c19-substrate"
+      ],
+      "effekt": "Spiegel bzw. Wirkung dieser Mittel können sich verändern – Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-gp-Substrate (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel können sich verändern – Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit und Schwäche",
+      "Hitzewallungen",
+      "Hypertonie (Bluthochdruck)",
+      "Stürze"
+    ],
+    "haeufig": [
+      "Knochenbrüche",
+      "Kopfschmerzen",
+      "Gedächtnis- und Konzentrationsstörungen",
+      "Angst",
+      "Restless-Legs-Syndrom",
+      "Gynäkomastie, Brustschmerzen",
+      "Trockene Haut, Juckreiz",
+      "Ischämische Herzkrankheit (z. B. Angina pectoris, Herzinfarkt)"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle",
+      "Leukopenie, Neutropenie",
+      "Halluzinationen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "QT-Verlängerung",
+      "Schwere Hautreaktionen (z. B. Stevens-Johnson-Syndrom)",
+      "Gesichts-, Zungen- oder Lippenschwellung",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Thrombozytopenie"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert; nicht für Frauen bestimmt. Männer sollen mit Kondom und einer zusätzlichen Methode verhüten, wenn die Partnerin schwanger werden kann – während und bis 3 Monate nach der Behandlung.",
+  "stillzeit": "Nicht für Frauen bestimmt.",
+  "hinweise": [
+    "Kapseln bzw. Tabletten ganz schlucken, mit oder ohne Essen; Schwangere sollen sie nicht berühren.",
+    "Wegen vieler Wechselwirkungen jedes neue Medikament mit Ärztin, Arzt oder Apotheke abklären.",
+    "Bei Krampfanfall, Verwirrtheit oder Sehstörungen sofort Notfall; vorsichtig beim Autofahren.",
+    "Blutdruck regelmässig kontrollieren; Sturzprophylaxe beachten."
+  ],
+  "stand": "2026-10"
+}

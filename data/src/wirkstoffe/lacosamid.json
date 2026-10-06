@@ -1,0 +1,187 @@
+{
+  "id": "lacosamid",
+  "name": "Lacosamid",
+  "synonyme": [
+    "Lacosamide",
+    "Lacosamidum",
+    "LCM"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N03AX18"
+  ],
+  "klasse": "Antiepileptikum (Natriumkanalmodulator, verstärkt die langsame Inaktivierung)",
+  "kurz": "Mittel gegen Epilepsie mit fokalen Anfällen; auch als Infusion. Kann die Erregungsleitung im Herzen verlangsamen.",
+  "gruppen": [
+    "antiepileptika",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Vimpat"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Sirup",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fokale Anfälle mit oder ohne sekundäre Generalisierung, als Mono- oder Zusatztherapie bei Erwachsenen und Kindern",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Primär generalisierte tonisch-klonische Anfälle bei idiopathischer generalisierter Epilepsie (Zusatztherapie)",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beruhigt überaktive Nervenzellen und verhindert so Krampfanfälle. Lacosamid verstärkt selektiv die langsame Inaktivierung spannungsabhängiger Natriumkanäle; dadurch werden dauerhaft übererregte Nervenmembranen stabilisiert, ohne die normale Signalübertragung stark zu beeinträchtigen. Es wird teils in der Leber (u. a. über CYP2C19, CYP3A4, CYP2C9) abgebaut und teils unverändert über die Nieren ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "AV-Block 2. oder 3. Grades",
+      "ids": [
+        "av-block"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Reizleitungsstörungen, PR-Verlängerung, schwere Herzerkrankung (Herzinfarkt, Herzinsuffizienz) oder Natriumkanalerkrankungen des Herzens (z. B. Brugada-Syndrom)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "herzinfarkt",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorhofflimmern oder -flattern kann auftreten, besonders bei diabetischer Neuropathie oder Herzerkrankung",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Schwindel und Stürze, höheres Risiko für Herzrhythmusstörungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Leberfunktionsstörung: Dosis anpassen",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Depression und Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Beeinträchtigung der Fahrtüchtigkeit (Schwindel, verschwommenes Sehen)",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Mittel, die die PR-Zeit verlängern (z. B. Carbamazepin, Lamotrigin, Eslicarbazepin, Pregabalin, Antiarrhythmika der Klasse I)",
+      "ref": [
+        "carbamazepin",
+        "lamotrigin",
+        "eslicarbazepin",
+        "pregabalin",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Verstärkte Verzögerung der Erregungsleitung bis zum AV-Block möglich – EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzfrequenzsenkende Mittel (Betablocker, Verapamil, Diltiazem, Digoxin)",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "digoxin"
+      ],
+      "effekt": "Additive Verlangsamung von Puls und Erregungsleitung – Puls und EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- oder CYP2C9-Hemmer bei eingeschränkter Nieren- oder Leberfunktion (z. B. Itraconazol, Clarithromycin, Ritonavir, Fluconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Lacosamid-Spiegel kann steigen – Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (Carbamazepin, Phenytoin, Phenobarbital, Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Lacosamid-Spiegel sinkt um etwa 15–20 %.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkter Schwindel und Gangunsicherheit möglich – Alkohol meiden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel, Kopfschmerzen",
+      "Doppelbilder",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Depression, Verwirrtheit, Schlaflosigkeit",
+      "Gleichgewichts- und Koordinationsstörungen, Gedächtnis- und Konzentrationsstörungen, Schläfrigkeit, Zittern, Augenzittern, Kribbeln, Sprechstörungen",
+      "Verschwommenes Sehen, Drehschwindel, Ohrensausen",
+      "Erbrechen, Verstopfung, Blähungen, Verdauungsbeschwerden, Mundtrockenheit, Durchfall",
+      "Juckreiz, Hautausschlag",
+      "Muskelkrämpfe, Gangstörungen, Stürze",
+      "Müdigkeit, Schwäche, Reizbarkeit"
+    ],
+    "gelegentlich": [
+      "AV-Block, langsamer Puls (Bradykardie), PR-Verlängerung, Vorhofflimmern oder -flattern",
+      "Ohnmacht (Synkope)",
+      "Aggression, Unruhe, Halluzinationen, Suizidgedanken und -versuche",
+      "Überempfindlichkeitsreaktionen, Angioödem, Nesselsucht",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Agranulozytose (Verlust der weissen Blutkörperchen)",
+      "Multiorgan-Überempfindlichkeitsreaktion (DRESS)",
+      "Psychotische Störungen",
+      "Krampfanfälle",
+      "Ventrikuläre Herzrhythmusstörungen",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; nur anwenden, wenn der Nutzen das mögliche Risiko klar überwiegt. Nicht eigenmächtig absetzen.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen während der Behandlung wird nicht empfohlen.",
+  "hinweise": [
+    "Bei Herzerkrankungen oder herzwirksamen Begleitmitteln vor Beginn und nach Dosissteigerung ein EKG machen lassen.",
+    "Bei Herzklopfen, sehr langsamem Puls, Schwindel oder Ohnmacht sofort ärztlich melden.",
+    "Nicht abrupt absetzen – Gefahr von Krampfanfällen.",
+    "Alkohol meiden; Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

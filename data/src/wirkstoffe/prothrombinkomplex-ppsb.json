@@ -1,0 +1,43 @@
+{
+  "id": "prothrombinkomplex-ppsb",
+  "name": "Prothrombinkomplex (PPSB)",
+  "synonyme": ["PPSB", "Prothrombinkomplex-Konzentrat", "PCC", "Prothrombin complex concentrate", "4-Faktoren-Konzentrat"],
+  "atc": ["B02BD01"],
+  "klasse": "Gerinnungsfaktorenkonzentrat aus Humanplasma (Faktoren II, VII, IX und X sowie Protein C und S)",
+  "kurz": "Konzentrat aus Gerinnungsfaktoren, das die Wirkung von Blutverdünnern wie Phenprocoumon bei Blutungen oder Notoperationen rasch aufhebt.",
+  "gruppen": [],
+  "handelsnamen": ["Beriplex P/N", "Octaplex"],
+  "abgabe": ["B"],
+  "darreichung": ["Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"],
+  "indikationen": [
+    { "text": "Behandlung und Vorbeugung von Blutungen bei erworbenem Mangel an Prothrombinkomplex-Faktoren, vor allem unter Vitamin-K-Antagonisten, wenn eine rasche Korrektur nötig ist (schwere Blutung, Notoperation)", "ids": ["aktive-blutung", "operation", "blutgerinnungsstoerung"] },
+    { "text": "Angeborener Mangel an Faktor II oder X, wenn kein spezifisches Einzelfaktorkonzentrat verfügbar ist", "ids": ["blutgerinnungsstoerung"] }
+  ],
+  "wirkmechanismus": "Ersetzt fehlende Gerinnungsfaktoren und bringt die Blutgerinnung innert Minuten wieder in Gang. PPSB ist ein aus menschlichem Spenderplasma gewonnenes Konzentrat der Vitamin-K-abhängigen Gerinnungsfaktoren II (Prothrombin), VII, IX und X sowie der gerinnungshemmenden Proteine C und S. Nach der Infusion normalisieren sich INR bzw. Quick-Wert rasch. Weil die zugeführten Faktoren nur eine begrenzte Zeit wirken, wird bei Vitamin-K-Antagonisten zusätzlich Vitamin K gegeben.",
+  "kontraindikationen": [
+    { "text": "Bekannte heparininduzierte Thrombozytopenie (HIT), auch in der Vorgeschichte, sowie Überempfindlichkeit gegen Heparin (die Präparate enthalten Heparin)", "ids": ["thrombozytopenie"] }
+  ],
+  "vorsicht": [
+    { "text": "Erhöhtes Thromboserisiko: koronare Herzkrankheit, Herzinfarkt, Thrombosen in der Vorgeschichte, Lebererkrankung, rund um Operationen, Neugeborene", "ids": ["koronare-herzkrankheit", "herzinfarkt", "thromboembolie-vorgeschichte", "leberinsuffizienz", "operation"] },
+    { "text": "Verbrauchskoagulopathie (disseminierte intravasale Gerinnung): erst nach Behebung der Verbrauchsreaktion", "ids": ["blutgerinnungsstoerung"] },
+    { "text": "Allergische Reaktionen bis Anaphylaxie möglich", "ids": ["anaphylaxie"] },
+    { "text": "Plasmapräparat: Übertragung von Krankheitserregern trotz Virusinaktivierung nicht völlig ausgeschlossen", "ids": [] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol, Warfarin)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Hebt deren Wirkung rasch auf (erwünscht). Für eine anhaltende Korrektur zusätzlich Vitamin K geben; danach erhöhtes Thromboserisiko beachten.", "schwere": "mittel" },
+    { "text": "Tranexamsäure und andere Antifibrinolytika", "ref": ["tranexamsaeure"], "effekt": "Mögliche Zunahme des Thromboserisikos – nur gezielt im Spital kombinieren.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": ["Thromboembolische Ereignisse (Thrombosen, Embolien)", "Kopfschmerzen"],
+    "unbekannt": ["Überempfindlichkeitsreaktionen bis anaphylaktischer Schock", "Verbrauchskoagulopathie (disseminierte intravasale Gerinnung)", "Heparininduzierte Thrombozytopenie (HIT)", "Bildung von Antikörpern gegen einzelne Gerinnungsfaktoren", "Fieber"]
+  },
+  "schwangerschaft": "Keine kontrollierten Erfahrungen; nur bei eindeutiger Notwendigkeit anwenden.",
+  "stillzeit": "Keine Daten; nur bei eindeutiger Notwendigkeit anwenden.",
+  "hinweise": [
+    "Wird im Spital als langsame intravenöse Injektion gegeben; bei Vitamin-K-Antagonisten wird zusätzlich Vitamin K verabreicht.",
+    "Nach der Gabe auf Zeichen einer Thrombose (Beinschwellung, Brustschmerz, Atemnot) oder einer allergischen Reaktion achten.",
+    "Bei regelmässiger Behandlung mit Plasmapräparaten werden Impfungen gegen Hepatitis A und B empfohlen."
+  ],
+  "stand": "2026-10"
+}

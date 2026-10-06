@@ -1,0 +1,204 @@
+{
+  "id": "lamotrigin",
+  "name": "Lamotrigin",
+  "synonyme": [
+    "Lamotrigine",
+    "Lamotriginum",
+    "LTG"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N03AX09"
+  ],
+  "klasse": "Antiepileptikum (Natriumkanalblocker, Phenyltriazin); Stimmungsstabilisierer",
+  "kurz": "Mittel gegen Epilepsie; bei bipolarer Störung zur Vorbeugung depressiver Phasen. Langsames Einschleichen schützt vor schweren Hautreaktionen.",
+  "gruppen": [
+    "antiepileptika"
+  ],
+  "handelsnamen": [
+    "Lamictal",
+    "Lamotrigin Desitin",
+    "Lamotrigin Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Dispergierbare Tabletten / Kautabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Epilepsie: fokale und generalisierte Anfälle einschliesslich tonisch-klonischer Anfälle sowie Anfälle beim Lennox-Gastaut-Syndrom, allein oder in Kombination",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Typische Absencen bei Kindern (Monotherapie)",
+      "ids": [
+        "epilepsie",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Vorbeugung depressiver Episoden bei Erwachsenen mit bipolarer Störung",
+      "ids": [
+        "bipolare-stoerung",
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beruhigt überaktive Nervenzellen und verhindert so Krampfanfälle; stabilisiert zudem die Stimmung. Lamotrigin blockiert spannungsabhängige Natriumkanäle und hemmt dadurch die übermässige Freisetzung des erregenden Botenstoffs Glutamat. Es wird in der Leber durch Glucuronidierung abgebaut; Valproinsäure hemmt diesen Abbau, Enzyminduktoren und Östrogene beschleunigen ihn.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, TEN, DRESS), besonders in den ersten 8 Wochen, bei zu schneller Aufdosierung, mit Valproinsäure und bei Kindern – bei Ausschlag sofort ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion",
+        "hautausschlag",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Hämophagozytische Lymphohistiozytose (lebensbedrohliche Überreaktion des Immunsystems) mit Fieber, Ausschlag und Lymphknotenschwellung",
+      "ids": []
+    },
+    {
+      "text": "Herzerkrankungen mit Reizleitungsstörungen, Brugada-Syndrom oder struktureller Herzerkrankung (Lamotrigin kann Herzrhythmusstörungen begünstigen)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder mittelschwere bis schwere Leberfunktion (Dosisanpassung)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Suizidgedanken und Depression",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Beginn oder Absetzen hormonaler Verhütungsmittel verändert den Lamotrigin-Spiegel",
+      "ids": [
+        "verhuetung",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Myoklonische Anfälle können sich verschlechtern",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Lamotrigin-Spiegel verdoppelt sich – erhöhtes Risiko schwerer Hautreaktionen; besonders langsames Aufdosieren mit halbierter Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduzierende Mittel (Carbamazepin, Phenytoin, Phenobarbital, Primidon, Rifampicin)",
+      "ref": [
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "primidon",
+        "rifampicin"
+      ],
+      "effekt": "Lamotrigin-Spiegel sinkt etwa um die Hälfte – höhere Dosis nötig; beim Absetzen des Induktors Dosis wieder anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ritonavir-geboosterte HIV-Proteasehemmer (z. B. Lopinavir/Ritonavir, Atazanavir/Ritonavir)",
+      "ref": [
+        "lopinavir-ritonavir",
+        "ritonavir"
+      ],
+      "effekt": "Lamotrigin-Spiegel sinkt – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogenhaltige Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Lamotrigin-Spiegel sinkt etwa um die Hälfte (in der pillenfreien Woche Anstieg); Lamotrigin kann die Gestagenwirkung leicht vermindern – Dosis ärztlich anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin und Oxcarbazepin",
+      "ref": [
+        "carbamazepin",
+        "oxcarbazepin"
+      ],
+      "effekt": "Mehr Schwindel, Doppelbilder und Gangunsicherheit möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Risperidon",
+      "ref": [
+        "risperidon"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Hautausschlag"
+    ],
+    "haeufig": [
+      "Aggression, Reizbarkeit",
+      "Schläfrigkeit, Schwindel, Zittern, Schlaflosigkeit, Unruhe",
+      "Übelkeit, Erbrechen, Durchfall, Mundtrockenheit",
+      "Gelenkschmerzen, Rückenschmerzen",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Gang- und Koordinationsstörungen (Ataxie)",
+      "Doppelbilder, verschwommenes Sehen",
+      "Haarausfall"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom",
+      "Augenzittern (Nystagmus)",
+      "Aseptische Meningitis (nicht-bakterielle Hirnhautentzündung)",
+      "Bindehautentzündung"
+    ],
+    "sehrSelten": [
+      "Toxische epidermale Nekrolyse, DRESS (Multiorgan-Überempfindlichkeitsreaktion)",
+      "Blutbildveränderungen (Neutropenie, Thrombozytopenie, aplastische Anämie, Agranulozytose)",
+      "Hämophagozytische Lymphohistiozytose",
+      "Leberversagen, Leberfunktionsstörung",
+      "Verwirrtheit, Halluzinationen, Tics",
+      "Bewegungsstörungen, Verschlechterung einer Parkinson-Krankheit, Zunahme von Anfällen",
+      "Lupus-ähnliche Reaktionen"
+    ],
+    "unbekannt": [
+      "Lymphknotenschwellung",
+      "Albträume"
+    ]
+  },
+  "schwangerschaft": "Nach heutigen Daten kein wesentlich erhöhtes Fehlbildungsrisiko; Anwendung nach ärztlicher Abwägung möglich. Die Spiegel sinken in der Schwangerschaft und steigen nach der Geburt – engmaschige Kontrollen; Folsäure-Einnahme empfohlen.",
+  "stillzeit": "Geht in die Muttermilch über, beim Säugling können relevante Spiegel entstehen; Stillen nach ärztlicher Abwägung möglich, Kind auf Ausschlag, Schläfrigkeit und Trinkschwäche beobachten.",
+  "hinweise": [
+    "Dosis nur langsam nach Plan steigern; bei Hautausschlag, Fieber, Schleimhautblasen oder Lymphknotenschwellung sofort ärztlich melden.",
+    "Nach einer Pause von mehr als 5 Halbwertszeiten nicht mit der vollen Dosis neu beginnen, sondern erneut einschleichen.",
+    "Nicht abrupt absetzen – Gefahr von Krampfanfällen.",
+    "Beginn oder Absetzen der Pille ärztlich mitteilen (Dosisanpassung)."
+  ],
+  "stand": "2026-10"
+}

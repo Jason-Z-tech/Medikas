@@ -1,0 +1,71 @@
+{
+  "id": "hydrocortison",
+  "name": "Hydrocortison",
+  "synonyme": ["Cortisol", "Hydrocortisonacetat", "Hydrocortisonbutyrat", "Hydrocortison-Natriumsuccinat", "Hydrocortisone"],
+  "kombinationAus": [],
+  "atc": ["D07AA02", "D07AB02", "H02AB09", "A07EA02", "S01BA02"],
+  "klasse": "Glukokortikoid (identisch mit dem körpereigenen Cortisol); systemisch zum Hormonersatz und im Notfall, topisch schwach bis mittelstark (Klasse I–II)",
+  "kurz": "Körpereigenes Kortison: als Tablette Ersatz bei Nebennierenschwäche, als Spritze im Notfall, als Creme gegen Ekzeme und Juckreiz.",
+  "gruppen": ["glukokortikoide-systemisch", "glukokortikoide-topisch", "hypokaliaemie-ausloesend", "ulkusrisiko-erhoehend", "immunsuppressiv"],
+  "handelsnamen": ["Solu-Cortef", "Hydrocortone", "Plenadren", "Locoid", "Dermacalm-d", "Fucidin-H (Kombi)"],
+  "abgabe": ["B", "D"],
+  "darreichung": ["Tabletten", "Tabletten mit veränderter Wirkstofffreisetzung", "Pulver und Lösungsmittel zur Injektion", "Creme", "Salbe", "Lösung und Emulsion zur Anwendung auf der Haut"],
+  "indikationen": [
+    { "text": "Ersatzbehandlung bei Unterfunktion der Nebennierenrinde (Morbus Addison, Ausfall der Hirnanhangsdrüse, angeborene Störungen der Nebennierenhormone)", "ids": ["nebenniereninsuffizienz"] },
+    { "text": "Akute Nebennierenkrise und Notfälle wie Schock, schwere allergische Reaktionen (ergänzend zu Adrenalin) und schwerer Asthmaanfall (Injektion)", "ids": ["nebenniereninsuffizienz", "schock", "anaphylaxie", "asthma"] },
+    { "text": "Weitere entzündliche und allergische Erkrankungen, die rasch eine hoch dosierte Kortisonbehandlung brauchen (Injektion)", "ids": ["allergie", "autoimmunerkrankung"] },
+    { "text": "Entzündliche, allergische und juckende Hauterkrankungen wie Ekzeme, Kontaktdermatitis, Insektenstiche und Sonnenbrand (Creme, Salbe; Hydrocortisonacetat schwach, Hydrocortisonbutyrat mittelstark)", "ids": ["neurodermitis", "juckreiz", "sonnenbrand", "allergie"] }
+  ],
+  "wirkmechanismus": "Ersetzt das körpereigene Stresshormon Cortisol oder hemmt Entzündungen und allergische Reaktionen. Hydrocortison ist chemisch identisch mit Cortisol und bindet an den Glukokortikoid-Rezeptor im Zellinneren, der das Ablesen zahlreicher Gene verändert; so werden Entzündungsbotenstoffe und Immunzellen gebremst. Anders als die meisten synthetischen Kortisone wirkt Hydrocortison zusätzlich spürbar salz- und wasserbindend (mineralokortikoid) und eignet sich deshalb besonders für den Hormonersatz. Auf der Haut ist es als Acetat ein schwaches, als Butyrat ein mittelstarkes Kortikoid.",
+  "kontraindikationen": [
+    { "text": "Systemische Pilzinfektionen ohne gleichzeitige gezielte Behandlung (Injektion, hohe Dosen)", "ids": ["pilzinfektion"] },
+    { "text": "Auf der Haut: virale Infektionen (Herpes, Windpocken), Hauttuberkulose, unbehandelte bakterielle oder Pilzinfektionen", "ids": ["herpes", "hautinfektion", "hautpilz", "tuberkulose"] },
+    { "text": "Auf der Haut: Rosazea, periorale Dermatitis (Ausschlag um den Mund) und Akne", "ids": ["rosazea", "akne"] }
+  ],
+  "vorsicht": [
+    { "text": "Nebennierenschwäche: bei Fieber, Infekten, Erbrechen, Unfällen oder Operationen muss die Dosis erhöht bzw. auf eine Spritze gewechselt werden – sonst droht eine lebensbedrohliche Nebennierenkrise", "ids": ["nebenniereninsuffizienz", "aktive-infektion", "operation"] },
+    { "text": "Infektionen, auch ruhende Tuberkulose oder Herpes: können sich unter höheren Dosen verschlimmern", "ids": ["aktive-infektion", "tuberkulose", "herpes"] },
+    { "text": "Diabetes: Blutzucker kann steigen", "ids": ["diabetes"] },
+    { "text": "Bluthochdruck, Herzschwäche, Ödeme: Salz- und Wassereinlagerung", "ids": ["hypertonie", "herzinsuffizienz", "oedeme"] },
+    { "text": "Magen-Darm-Geschwüre oder Divertikulitis", "ids": ["magen-darm-ulkus", "divertikulitis"] },
+    { "text": "Osteoporose (bei längerer Gabe über dem Ersatzbedarf)", "ids": ["osteoporose"] },
+    { "text": "Glaukom, Katarakt; verschwommenes Sehen augenärztlich abklären lassen", "ids": ["glaukom", "katarakt"] },
+    { "text": "Psychische Erkrankungen: Depression, Manie oder Psychose können ausgelöst oder verstärkt werden", "ids": ["depression", "bipolare-stoerung"] },
+    { "text": "Schilddrüsenunterfunktion und Leberzirrhose verstärken die Kortisonwirkung", "ids": ["hypothyreose", "leberzirrhose"] },
+    { "text": "Auf der Haut: im Gesicht, in Hautfalten, im Genitalbereich, bei Kindern, grossflächig, lange oder unter luftdichten Verbänden nur nach ärztlicher Anweisung (Hautverdünnung, Aufnahme ins Blut)", "ids": ["kinder"] }
+  ],
+  "kontraMedikamente": [
+    { "text": "Lebendimpfstoffe bei immunsuppressiv hohen Kortisondosen", "ref": ["gruppe:lebendimpfstoffe"], "grund": "Unter starker Unterdrückung des Immunsystems kann sich der abgeschwächte Impfkeim vermehren und eine schwere Infektion auslösen; zudem bleibt die Impfantwort aus." }
+  ],
+  "interaktionen": [
+    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Hydrocortison wird schneller abgebaut – bei Nebennierenschwäche Gefahr einer Unterversorgung bis zur Nebennierenkrise; Dosis meist erhöhen.", "schwere": "schwer" },
+    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Itraconazol, Ketoconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer", "ritonavir", "cobicistat"], "effekt": "Hydrocortison wird langsamer abgebaut – Kortisonnebenwirkungen bis Cushing-Syndrom; Dosisreduktion erwägen.", "schwere": "schwer" },
+    { "text": "NSAR und Acetylsalicylsäure", "ref": ["gruppe:nsar", "acetylsalicylsaeure"], "effekt": "Höheres Risiko für Magen-Darm-Geschwüre und -Blutungen bei höheren Kortisondosen.", "schwere": "mittel" },
+    { "text": "Kaliumsenkende Mittel (Diuretika, Amphotericin B, Abführmittel) und Herzglykoside", "ref": ["gruppe:hypokaliaemie-ausloesend", "amphotericin-b", "gruppe:herzglykoside"], "effekt": "Verstärkter Kaliumverlust; Kaliummangel erhöht die Giftigkeit von Digoxin – Kalium kontrollieren.", "schwere": "mittel" },
+    { "text": "Blutzuckersenkende Mittel (Insuline, Sulfonylharnstoffe, Metformin u. a.)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Kortison erhöht den Blutzucker und schwächt die Wirkung ab – Blutzucker kontrollieren, Dosis anpassen.", "schwere": "mittel" },
+    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gerinnungshemmung kann verstärkt oder abgeschwächt werden – INR kontrollieren.", "schwere": "mittel" },
+    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, besonders bei älteren Menschen.", "schwere": "mittel" },
+    { "text": "Östrogene und hormonale Verhütungsmittel", "ref": ["gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva"], "effekt": "Erhöhen das Cortisol-bindende Eiweiss im Blut; bei Ersatzbehandlung kann eine Dosisanpassung nötig sein.", "schwere": "leicht" }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Cushing-Syndrom (Vollmondgesicht, Fettansatz am Rumpf) und Unterdrückung der eigenen Nebennierenfunktion bei längerer, über dem Bedarf liegender Dosierung",
+      "Erhöhter Blutzucker, Salz- und Wassereinlagerung mit Ödemen und Bluthochdruck, Kaliummangel",
+      "Erhöhte Infektanfälligkeit, Verschleierung von Infektionszeichen",
+      "Magen-Darm-Geschwüre, Osteoporose und Muskelschwäche bei längerer höherer Dosierung",
+      "Psychische Veränderungen: Schlafstörungen, Euphorie, Stimmungsschwankungen, Depression, Psychose",
+      "Grauer oder grüner Star (Katarakt, Glaukom), verschwommenes Sehen",
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie (vor allem Injektion), allergische Kontaktdermatitis (Haut)",
+      "Auf der Haut bei längerer Anwendung: Hautverdünnung, Dehnungsstreifen, erweiterte Äderchen, periorale Dermatitis"
+    ]
+  },
+  "schwangerschaft": "Eine Ersatzbehandlung bei Nebennierenschwäche muss in der Schwangerschaft weitergeführt werden (Dosis ärztlich anpassen). Höhere Dosen nur nach ärztlicher Abwägung; Hydrocortison wird in der Plazenta zu einem grossen Teil abgebaut. Auf der Haut kleinflächig und kurzzeitig möglich.",
+  "stillzeit": "Ersatzdosen und äusserliche Anwendung sind mit dem Stillen vereinbar; nicht auf die Brust auftragen. Bei hohen Dosen ärztliche Abwägung.",
+  "hinweise": [
+    "Bei Nebennierenschwäche einen Notfallausweis und eine Notfallspritze mitführen und die Dosisregeln für Fieber, Erbrechen und Operationen mit dem Arzt besprechen.",
+    "Nach längerer Einnahme höherer Dosen nicht abrupt absetzen, sondern schrittweise ausschleichen.",
+    "Tabletten möglichst dem natürlichen Tagesrhythmus entsprechend einnehmen, die Hauptdosis am Morgen.",
+    "Rezeptfreie Hydrocortison-Creme ohne ärztlichen Rat nur kurzzeitig, kleinflächig und nicht im Gesicht oder an den Augen anwenden."
+  ],
+  "stand": "2026-10"
+}

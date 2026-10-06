@@ -1,0 +1,153 @@
+{
+  "id": "melatonin",
+  "name": "Melatonin",
+  "synonyme": [
+    "N-Acetyl-5-methoxytryptamin"
+  ],
+  "atc": [
+    "N05CH01"
+  ],
+  "klasse": "Melatoninrezeptor-Agonist (Hypnotikum, Retardform)",
+  "kurz": "Retardpräparat mit dem körpereigenen Schlafhormon gegen Schlafstörungen ab 55 Jahren und bei Kindern mit Autismus.",
+  "gruppen": [
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Circadin",
+    "Slenyto"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitbehandlung (bis 13 Wochen) von Schlafstörungen mit schlechter Schlafqualität (primäre Insomnie) bei Menschen ab 55 Jahren",
+      "ids": [
+        "schlafstoerung",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schlafstörungen bei Kindern und Jugendlichen von 2 bis 18 Jahren mit Autismus-Spektrum-Störung und/oder Smith-Magenis-Syndrom, wenn Massnahmen zur Schlafhygiene nicht ausreichen",
+      "ids": [
+        "schlafstoerung",
+        "autismus",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt das körpereigene Schlafhormon, dessen nächtliche Bildung im Alter und bei manchen Entwicklungsstörungen vermindert ist. Melatonin wird natürlicherweise nachts in der Zirbeldrüse gebildet und signalisiert dem Körper über die Melatoninrezeptoren MT1 und MT2, vor allem im Nucleus suprachiasmaticus (der «inneren Uhr»), dass es Nacht ist. Die Retardform gibt den Wirkstoff über mehrere Stunden ab und ahmt so die natürliche nächtliche Ausschüttung nach. Melatonin wird in der Leber hauptsächlich über CYP1A2 abgebaut.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Autoimmunerkrankungen: keine Daten, Anwendung nicht empfohlen",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: Anwendung nicht empfohlen (verminderte Ausscheidung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kann Schläfrigkeit verursachen – Vorsicht beim Autofahren",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Fluvoxamin",
+      "ref": [
+        "fluvoxamin"
+      ],
+      "effekt": "Hemmt den Abbau von Melatonin stark (Spiegel etwa 17-fach erhöht) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere CYP1A2-Hemmer (z. B. Ciprofloxacin und andere Chinolone, Cimetidin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer",
+        "ciprofloxacin"
+      ],
+      "effekt": "Der Melatonin-Spiegel kann steigen – verstärkte Schläfrigkeit möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Benzodiazepine und Z-Substanzen (z. B. Zolpidem, Zopiclon)",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit und Beeinträchtigung von Aufmerksamkeit, Gedächtnis und Koordination.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogene (hormonale Verhütung, Hormonersatztherapie)",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Der Melatonin-Spiegel kann steigen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP1A2-Induktoren (z. B. Carbamazepin, Rifampicin)",
+      "ref": [
+        "carbamazepin",
+        "rifampicin"
+      ],
+      "effekt": "Beschleunigter Abbau – die Wirkung kann nachlassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Bei Kindern und Jugendlichen (Slenyto): Schläfrigkeit, Müdigkeit, Kopfschmerzen, Stimmungsschwankungen, Reizbarkeit"
+    ],
+    "gelegentlich": [
+      "Bei Erwachsenen: Kopfschmerzen, Migräne, Schwindel, Schläfrigkeit",
+      "Nervosität, Unruhe, Reizbarkeit, Schlaflosigkeit",
+      "Ungewöhnliche Träume, Albträume",
+      "Bauchschmerzen, Verdauungsbeschwerden, Übelkeit, Mundtrockenheit",
+      "Hautausschlag, Juckreiz, nächtliches Schwitzen",
+      "Erhöhter Blutdruck",
+      "Gewichtszunahme"
+    ],
+    "selten": [
+      "Gürtelrose (Herpes zoster)",
+      "Stimmungsschwankungen, Aggressivität",
+      "Ohnmacht (Synkope), Gedächtnisstörungen",
+      "Sehstörungen, Tränenfluss",
+      "Herzklopfen, Angina pectoris (Brustenge)",
+      "Erhöhte Triglyceride (Blutfette)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Angioödem und andere Überempfindlichkeitsreaktionen"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; in der Schwangerschaft vorsichtshalber nicht anwenden.",
+  "stillzeit": "Melatonin geht in die Muttermilch über; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Retardtabletten unzerkaut schlucken (nicht zerkleinern oder zerkauen), sonst geht die verzögerte Freisetzung verloren.",
+    "Abends vor dem Schlafengehen einnehmen (Circadin 1–2 Stunden vorher und nach einer Mahlzeit).",
+    "Alkohol vermindert die Wirkung und sollte gemieden werden; Rauchen kann die Wirkung abschwächen.",
+    "Kann Schläfrigkeit verursachen – Vorsicht beim Autofahren und Bedienen von Maschinen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,280 @@
+{
+  "id": "atenolol",
+  "name": "Atenolol",
+  "synonyme": [
+    "Atenololum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C07AB03"
+  ],
+  "klasse": "Beta-1-selektiver Betablocker",
+  "kurz": "Betablocker gegen Bluthochdruck, Angina pectoris und schnelle Herzrhythmusstörungen; wird über die Niere ausgeschieden.",
+  "gruppen": [
+    "betablocker",
+    "blutdrucksenkend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Tenormin",
+    "Atenolol Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Angina pectoris (Brustenge)",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, v. a. schnelle supraventrikuläre Rhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Frühbehandlung und Langzeittherapie nach Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlangsamt den Herzschlag und senkt den Blutdruck, indem es die Wirkung der Stresshormone am Herzen blockiert. Atenolol hemmt bevorzugt die Beta-1-Rezeptoren des Herzens und vermindert so Herzfrequenz, Kontraktionskraft und Sauerstoffbedarf. Es ist wasserlöslich, gelangt kaum ins Gehirn, wird praktisch nicht in der Leber abgebaut und unverändert über die Niere ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "AV-Block 2. oder 3. Grades, Sinusknotensyndrom (Sick-Sinus-Syndrom)",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Bradykardie",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Kardiogener Schock, unbehandelte oder dekompensierte Herzinsuffizienz",
+      "ids": [
+        "schock",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ausgeprägt tiefer Blutdruck",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere periphere arterielle Durchblutungsstörungen",
+      "ids": [
+        "pavk"
+      ]
+    },
+    {
+      "text": "Unbehandeltes Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Metabolische Azidose (Übersäuerung des Blutes)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis anpassen (Ausscheidung über die Niere)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Asthma bronchiale oder COPD (Verengung der Atemwege möglich)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: Warnzeichen einer Unterzuckerung können verdeckt werden",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "AV-Block 1. Grades, Prinzmetal-Angina",
+      "ids": [
+        "av-block",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Leichtere Durchblutungsstörungen oder Raynaud-Syndrom",
+      "ids": [
+        "pavk",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Psoriasis (Schuppenflechte)",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion: Symptome können verdeckt werden",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Schwere Allergien: Reaktionen können heftiger sein und schlechter auf Adrenalin ansprechen",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Geplante Operation mit Narkose",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Bradykardie, AV-Block, Blutdruckabfall und Herzschwäche möglich; Verapamil/Diltiazem nie intravenös bei laufender Betablocker-Therapie.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron, Flecainid, Propafenon)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "amiodaron",
+        "dronedaron"
+      ],
+      "effekt": "Verstärkte Hemmung von Herzfrequenz und Reizleitung – EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clonidin",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Starker Blutdruckanstieg beim Absetzen von Clonidin – den Betablocker zuerst ausschleichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Verlangsamung von Puls und Reizleitung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Unterzuckerungszeichen können verdeckt werden – Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker und Nitrate",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Indometacin)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sympathomimetika (z. B. Adrenalin)",
+      "ref": [
+        "adrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Gegenseitige Abschwächung; Blutdruckanstieg möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkosemittel",
+      "ref": [],
+      "effekt": "Verstärkte Blutdrucksenkung und Herzdämpfung – Narkoseteam informieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Bradykardie (langsamer Puls)",
+      "Kalte Hände und Füsse",
+      "Müdigkeit",
+      "Magen-Darm-Beschwerden (Übelkeit, Durchfall, Verstopfung)"
+    ],
+    "gelegentlich": [
+      "Schlafstörungen",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Verschlechterung einer Herzinsuffizienz, AV-Block",
+      "Schwindel, Kopfschmerzen, Kribbeln",
+      "Stimmungsschwankungen, Albträume, Verwirrtheit, Depression",
+      "Bronchospasmus bei Asthma",
+      "Thrombozytopenie (Mangel an Blutplättchen), Purpura",
+      "Hautausschlag, Verschlechterung einer Psoriasis, Haarausfall",
+      "Sehstörungen, trockene Augen",
+      "Erektionsstörungen",
+      "Leberschädigung mit Gallenstau"
+    ],
+    "sehrSelten": [
+      "Erhöhte antinukleäre Antikörper (ANA)"
+    ],
+    "unbekannt": [
+      "Lupus-ähnliches Krankheitsbild"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung: Atenolol geht auf das Kind über und wurde mit Wachstumsverzögerung in Verbindung gebracht. Das Neugeborene auf langsamen Puls und Unterzuckerung überwachen.",
+  "stillzeit": "Atenolol reichert sich in der Muttermilch an; Stillen wird nicht empfohlen bzw. nur unter Beobachtung des Säuglings (langsamer Puls, Unterzuckerung).",
+  "hinweise": [
+    "Nicht abrupt absetzen – über 1–2 Wochen ausschleichen.",
+    "Bei eingeschränkter Nierenfunktion ist eine tiefere Dosis nötig.",
+    "Schwindel und Müdigkeit können die Fahrtüchtigkeit beeinträchtigen, besonders zu Beginn und mit Alkohol."
+  ],
+  "stand": "2026-10"
+}

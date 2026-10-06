@@ -1,0 +1,58 @@
+{
+  "id": "palonosetron",
+  "name": "Palonosetron",
+  "synonyme": ["Palonosetronhydrochlorid", "Palonosetron hydrochloride"],
+  "atc": ["A04AA05"],
+  "klasse": "Antiemetikum (Serotonin-5-HT3-Rezeptorantagonist, «Setron» mit langer Wirkdauer)",
+  "kurz": "Lang wirkendes Mittel gegen Übelkeit und Erbrechen bei Chemotherapie; meist als einmalige Infusion vor der Behandlung.",
+  "gruppen": ["antiemetika-5ht3"],
+  "handelsnamen": ["Aloxi", "Akynzeo (Kombi)"],
+  "abgabe": ["B"],
+  "darreichung": ["Injektionslösung", "Kapseln (Kombination mit Netupitant)"],
+  "indikationen": [
+    { "text": "Vorbeugung von akuter Übelkeit und Erbrechen bei stark brechreizauslösender Chemotherapie (z. B. mit Cisplatin); Injektion bei Erwachsenen und Kindern ab 1 Monat", "ids": ["uebelkeit", "krebs"] },
+    { "text": "Vorbeugung von Übelkeit und Erbrechen bei mässig brechreizauslösender Chemotherapie (Erwachsene und Kinder ab 1 Monat)", "ids": ["uebelkeit", "krebs"] }
+  ],
+  "wirkmechanismus": "Verhindert den durch Chemotherapie ausgelösten Brechreiz über mehrere Tage. Palonosetron blockiert selektiv und mit sehr hoher Bindungsstärke die Serotonin-5-HT3-Rezeptoren an den Vagusnerv-Endigungen im Darm und in der Brechreizzone des Hirnstamms. Im Unterschied zu älteren Setronen bindet es zusätzlich allosterisch, führt zur Internalisierung der Rezeptoren und hat eine lange Halbwertszeit von rund 40 Stunden; deshalb genügt meist eine Einzeldosis pro Chemotherapie-Zyklus.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    { "text": "Verstopfung oder Darmverschluss in der Vorgeschichte: auf Zeichen einer Darmlähmung achten", "ids": ["verstopfung", "darmverschluss"] },
+    { "text": "Bestehende oder drohende QT-Verlängerung, Herzkrankheiten, Elektrolytstörungen", "ids": ["qt-verlaengerung", "herzrhythmusstoerung", "hypokaliaemie"] },
+    { "text": "Überempfindlichkeit gegen andere 5-HT3-Antagonisten (Kreuzreaktion möglich)", "ids": ["allergie"] }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    { "text": "Apomorphin", "ref": ["apomorphin"], "effekt": "Mit 5-HT3-Antagonisten wurden starker Blutdruckabfall und Bewusstlosigkeit beobachtet; laut Fachinformation von Apomorphin ist die Kombination kontraindiziert.", "schwere": "schwer" },
+    { "text": "Serotonerge Mittel (z. B. SSRI, SNRI)", "ref": ["gruppe:serotonerg", "gruppe:ssri", "gruppe:snri"], "effekt": "Risiko eines Serotoninsyndroms (Unruhe, Zittern, Fieber, Muskelzuckungen) – auf Symptome achten.", "schwere": "mittel" },
+    { "text": "QT-verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Bei Risikopatienten Vorsicht; Palonosetron selbst verlängert die QT-Zeit in üblicher Dosis kaum.", "schwere": "mittel" }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Schwindel",
+      "Obstipation (Verstopfung)",
+      "Durchfall"
+    ],
+    "gelegentlich": [
+      "Schlaflosigkeit oder Schläfrigkeit, Angst",
+      "Missempfindungen (Kribbeln), periphere Nervenstörungen",
+      "Herzrhythmusstörungen (Herzrasen, langsamer Puls, Extrasystolen), QT-Verlängerung im EKG",
+      "Blutdruckabfall oder Blutdruckanstieg",
+      "Bauchschmerzen, Verdauungsbeschwerden, Mundtrockenheit, Blähungen",
+      "Elektrolytstörungen (z. B. erhöhtes Kalium, tiefes Calcium), erhöhter Blutzucker",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Müdigkeit, Schwäche, grippeähnliche Beschwerden"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie und andere Überempfindlichkeitsreaktionen",
+      "Reaktionen an der Injektionsstelle (Brennen, Schmerzen, Rötung)"
+    ]
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen; in der Schwangerschaft nur anwenden, wenn es klar notwendig ist.",
+  "stillzeit": "Nicht bekannt, ob Palonosetron in die Muttermilch übergeht; während der Behandlung soll nicht gestillt werden.",
+  "hinweise": [
+    "Wird in der Regel einmalig etwa 30 Minuten vor Beginn der Chemotherapie gespritzt; weitere Gaben innerhalb von 7 Tagen nicht empfohlen.",
+    "Verstopfung ist häufig: ausreichend trinken und bei anhaltenden Beschwerden die Behandlungsteams informieren."
+  ],
+  "stand": "2026-10"
+}
