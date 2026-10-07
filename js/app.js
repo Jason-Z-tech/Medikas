@@ -1,4 +1,4 @@
-// Medi-Lexikon – Oberfläche: Router, Ansichten, Suchfeld mit Vorschlägen und persönlicher Check.
+// Medi-Lexikon – Oberfläche: Router, Ansichten und Suchfeld mit Vorschlägen.
 // Alle Daten liegen lokal (data/medikamente.js); es wird nichts an einen Server gesendet.
 (function () {
   'use strict';
@@ -7,9 +7,6 @@
   const P = window.MEDI_PRAEPARATE || { liste: [] };
   const S = window.MediSuche;
   const main = document.getElementById('inhalt');
-  // In einem Rahmen (z. B. eingebettete Vorschau) gibt es keinen Druckdialog
-  let imRahmen = false;
-  try { imRahmen = window.self !== window.top; } catch (e) { imRahmen = true; }
 
   /* ---------- Nachschlagetabellen ---------- */
   const WS = new Map(M.wirkstoffe.map((w) => [w.id, w]));
@@ -113,9 +110,6 @@
   };
 
   const ICON = {
-    plus: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
-    haken: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>',
-    druck: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>',
     suche: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
   };
 
@@ -138,70 +132,18 @@
     return esc(text);
   }
 
-  /* ---------- Persönliches Profil (nur im Browser gespeichert) ---------- */
-  // Gesundheitsangaben bleiben standardmässig nur bis zum Schliessen des Tabs (sessionStorage);
-  // dauerhaft auf diesem Gerät (localStorage) nur, wenn man es im Check ausdrücklich wählt.
-  const PROFIL_KEY = 'medi-profil';
-  const MERKEN_KEY = 'medi-profil-merken';
-  const speicherLesen = (store, key) => { try { return window[store].getItem(key); } catch (e) { return null; } };
-  const speicherSchreiben = (store, key, wert) => {
+  /* ---------- Früheres Profil des entfernten «Mein Check» löschen ---------- */
+  // Gesundheitsangaben aus älteren Versionen sollen nicht im Browser liegen bleiben.
+  for (const store of ['localStorage', 'sessionStorage']) {
     try {
-      if (wert == null) window[store].removeItem(key);
-      else window[store].setItem(key, wert);
+      window[store].removeItem('medi-profil');
+      window[store].removeItem('medi-profil-merken');
     } catch (e) { /* Speicher gesperrt (privater Modus) */ }
-  };
-  const dauerhaft = () => speicherLesen('localStorage', MERKEN_KEY) === '1';
-  let profil = { krankheiten: [], medikamente: [] };
-  function ladeProfil() {
-    profil = { krankheiten: [], medikamente: [] };
-    try {
-      const gespeichert = JSON.parse(speicherLesen(dauerhaft() ? 'localStorage' : 'sessionStorage', PROFIL_KEY) || 'null');
-      if (gespeichert) {
-        profil = {
-          krankheiten: eindeutig(gespeichert.krankheiten || []).filter((id) => KR.has(id)),
-          medikamente: eindeutig(gespeichert.medikamente || []).filter((id) => WS.has(id) || KURZ.has(id)),
-        };
-      }
-    } catch (e) { /* kaputter Eintrag: leeres Profil */ }
-  }
-  ladeProfil();
-  const profilLeer = () => profil.krankheiten.length + profil.medikamente.length === 0;
-  function speichereProfil() {
-    const text = JSON.stringify(profil);
-    if (dauerhaft()) speicherSchreiben('localStorage', PROFIL_KEY, text);
-    else speicherSchreiben('sessionStorage', PROFIL_KEY, text);
-    zeigeProfilZahl();
-  }
-  function setzeDauerhaft(an) {
-    speicherSchreiben('localStorage', MERKEN_KEY, an ? '1' : null);
-    if (an) {
-      speicherSchreiben('localStorage', PROFIL_KEY, JSON.stringify(profil));
-      speicherSchreiben('sessionStorage', PROFIL_KEY, null);
-    } else {
-      speicherSchreiben('sessionStorage', PROFIL_KEY, JSON.stringify(profil));
-      speicherSchreiben('localStorage', PROFIL_KEY, null);
-    }
-  }
-  function profilUmschalten(liste, id) {
-    ladeProfil(); // Änderungen aus anderen Tabs nicht überschreiben
-    const arr = profil[liste];
-    const i = arr.indexOf(id);
-    if (i >= 0) arr.splice(i, 1);
-    else arr.push(id);
-    speichereProfil();
-    return i < 0;
-  }
-  function zeigeProfilZahl() {
-    const el = $('#profil-zahl');
-    const n = alleBefunde().filter((b) => b.stufe === 'kontra' || b.stufe === 'schwer').length;
-    el.textContent = n;
-    el.hidden = n === 0;
-    el.title = n ? `${n} wichtige Warnungen in Ihrem Check` : '';
   }
 
-  /* ---------- Gegenanzeigen und Wechselwirkungen prüfen ---------- */
-  const RANG = { kontra: 0, schwer: 1, vorsicht: 2, mittel: 3, leicht: 4, doppelt: 5 };
-  const STUFE_TEXT = { kontra: 'Kontraindiziert', schwer: 'Schwerwiegend', vorsicht: 'Vorsicht', mittel: 'Mittel', leicht: 'Gering', doppelt: 'Gleiche Gruppe' };
+  /* ---------- Wechselwirkungen ---------- */
+  const RANG = { kontra: 0, schwer: 1, vorsicht: 2, mittel: 3, leicht: 4 };
+  const STUFE_TEXT = { kontra: 'Kontraindiziert', schwer: 'Schwerwiegend', vorsicht: 'Vorsicht', mittel: 'Mittel', leicht: 'Gering' };
 
   /** Wirkstoff samt Bestandteilen (bei Kombinationen) und allen Gruppen. */
   function identitaet(w) {
@@ -209,69 +151,6 @@
     const gruppen = new Set(w.gruppen || []);
     for (const id of w.kombinationAus || []) for (const g of (WS.get(id) || {}).gruppen || []) gruppen.add(g);
     return { ids, gruppen };
-  }
-  const trifft = (e, ident) => (e.ref || []).some((r) => (r.startsWith('gruppe:') ? ident.gruppen.has(r.slice(7)) : ident.ids.has(r)));
-
-  /** Alle Befunde für Wirkstoff w gegenüber dem Profil (Krankheiten und andere Medikamente). */
-  function befundeFuer(w, prof) {
-    const out = [];
-    if (!w || !w.indikationen) return out;
-    for (const kid of prof.krankheiten) {
-      const k = KR.get(kid);
-      if (!k) continue;
-      for (const e of w.kontraindikationen || []) {
-        if ((e.ids || []).includes(kid)) out.push({ stufe: 'kontra', paar: kid, titel: `${linkWs(w.id)} bei ${linkKr(kid)}`, text: e.text });
-      }
-      for (const e of w.vorsicht || []) {
-        if ((e.ids || []).includes(kid)) out.push({ stufe: 'vorsicht', paar: kid, titel: `${linkWs(w.id)} bei ${linkKr(kid)}`, text: e.text });
-      }
-    }
-    const idW = identitaet(w);
-    for (const mid of prof.medikamente) {
-      if (mid === w.id) continue;
-      const m = WS.get(mid) || KURZ.get(mid); // Kurzeinträge: nur Verweise aus w zählen
-      if (!m) continue;
-      const idM = identitaet(m);
-      const titel = `${linkWs(w.id)} + ${linkWs(m.id)}`;
-      const gleich = Array.from(idW.ids).filter((x) => idM.ids.has(x));
-      if (gleich.length) {
-        const namen = gleich.map((x) => (WS.get(x) || KURZ.get(x) || { name: x }).name).join(', ');
-        out.push({ stufe: 'vorsicht', paar: mid, titel: `${linkWs(w.id)} und ${linkWs(m.id)}`,
-          text: `Beide enthalten ${namen}.`, detail: 'Gefahr der Doppeldosierung – nur nach Rücksprache gleichzeitig einnehmen.' });
-      }
-      for (const e of w.kontraMedikamente || []) if (trifft(e, idM)) out.push({ stufe: 'kontra', paar: mid, titel, text: e.text, detail: e.grund });
-      for (const e of m.kontraMedikamente || []) if (trifft(e, idW)) out.push({ stufe: 'kontra', paar: mid, titel, text: e.text, detail: e.grund });
-      for (const e of w.interaktionen || []) if (trifft(e, idM)) out.push({ stufe: e.schwere, paar: mid, titel, text: e.text, detail: e.effekt });
-      for (const e of m.interaktionen || []) if (trifft(e, idW)) out.push({ stufe: e.schwere, paar: mid, titel, text: e.text, detail: e.effekt });
-      const gemeinsam = Array.from(idW.gruppen).filter((g) => idM.gruppen.has(g) && (GR.get(g) || {}).art === 'wirkstoffklasse');
-      if (gemeinsam.length && !gleich.length) {
-        out.push({ stufe: 'doppelt', paar: mid, titel: `${linkWs(w.id)} und ${linkWs(m.id)}`,
-          text: `Beide gehören zur Gruppe «${GR.get(gemeinsam[0]).name}».`, detail: 'Doppelte Einnahme mit Ärztin, Arzt oder Apotheke klären.' });
-      }
-    }
-    const gesehen = new Set();
-    return out
-      .filter((b) => {
-        const key = `${b.paar}|${b.text}|${b.detail || ''}`;
-        if (gesehen.has(key)) return false;
-        gesehen.add(key);
-        return true;
-      })
-      .sort((a, b) => RANG[a.stufe] - RANG[b.stufe]);
-  }
-
-  /** Befunde im ganzen Profil: jedes Medikament gegen die Krankheiten, jedes Paar genau einmal. */
-  function alleBefunde() {
-    const out = [];
-    const meds = profil.medikamente;
-    for (const id of meds) if (WS.has(id)) out.push(...befundeFuer(WS.get(id), { krankheiten: profil.krankheiten, medikamente: [] }));
-    for (let i = 0; i < meds.length; i++) {
-      for (let j = i + 1; j < meds.length; j++) {
-        const [a, b] = WS.has(meds[i]) ? [meds[i], meds[j]] : [meds[j], meds[i]];
-        if (WS.has(a)) out.push(...befundeFuer(WS.get(a), { krankheiten: [], medikamente: [b] }));
-      }
-    }
-    return out.sort((a, b) => RANG[a.stufe] - RANG[b.stufe]);
   }
 
   /** Einträge anderer Monografien, die auf diesen Wirkstoff (direkt oder über eine Gruppe) verweisen. */
@@ -302,19 +181,6 @@
     return { direkt: direkt.sort(ordnen), gruppe: gruppe.sort(ordnen) };
   }
 
-  const befundLi = (b) =>
-    `<li class="stufe-${b.stufe}"><span class="stufe-label">${STUFE_TEXT[b.stufe]}</span><strong>${b.titel}</strong>` +
-    `<span class="klein">${esc(b.text)}${b.detail ? ` – ${esc(b.detail)}` : ''}</span></li>`;
-
-  function warnPunkt(r) {
-    if (profilLeer() || !(r.typ === 'wirkstoff' || r.typ === 'marke')) return '';
-    const b = befundeFuer(WS.get(r.id), profil);
-    if (!b.length) return '';
-    const rot = b[0].stufe === 'kontra' || b[0].stufe === 'schwer';
-    if (!rot && !['vorsicht', 'mittel'].includes(b[0].stufe)) return '';
-    return `<span class="punkt punkt--${rot ? 'rot' : 'gelb'}" title="Achtung: passt möglicherweise nicht zu Ihrem Profil">!<span class="vh"> Achtung: passt möglicherweise nicht zu Ihrem Profil</span></span>`;
-  }
-
   /* ---------- Suchfeld mit Vorschlägen (Combobox) ---------- */
   const TYP_TEXT = { wirkstoff: 'Wirkstoff', marke: 'Marke', kurz: 'Wirkstoff', krankheit: 'Krankheit', gruppe: 'Gruppe', praeparat: 'Präparat' };
   function zielHash(r) {
@@ -333,7 +199,7 @@
     if (r.treffer && r.typ !== 'marke' && S.falte(r.treffer) !== S.falte(r.label)) sub = `«${r.treffer}» · ${sub}`;
     return `<li class="option" role="option" id="${id}-opt-${i}" data-i="${i}" aria-selected="false">` +
       `<span class="option__typ"><span class="typ typ--${r.typ}">${TYP_TEXT[r.typ]}</span></span>` +
-      `<span class="option__label">${label}</span><span class="option__warn">${warnPunkt(r)}</span>` +
+      `<span class="option__label">${label}</span>` +
       `<span class="option__sub">${esc(sub)}</span></li>`;
   }
 
@@ -486,14 +352,11 @@
     return `<div class="wrap seite">${pfad}${inhalt}</div>`;
   }
   function wirkstoffKachel(w, extra) {
-    const b = profilLeer() || !w.indikationen ? [] : befundeFuer(w, profil);
-    const klasse = b.length && RANG[b[0].stufe] <= 1 ? ' eintrag--rot' : b.length && RANG[b[0].stufe] <= 3 ? ' eintrag--gelb' : '';
     const marken = (w.handelsnamen || []).slice(0, 4).join(', ');
-    return `<li><a class="eintrag${klasse}" href="#/wirkstoff/${w.id}"><strong>${esc(w.name)}</strong>` +
+    return `<li><a class="eintrag" href="#/wirkstoff/${w.id}"><strong>${esc(w.name)}</strong>` +
       `<span>${esc(w.kurz || w.klasse || '')}</span>` +
       (marken ? `<span class="eintrag__marken">${esc(marken)}</span>` : '') +
       (extra ? `<span>${extra}</span>` : '') +
-      (klasse ? `<span class="vh">Achtung: passt möglicherweise nicht zu Ihrem Profil</span>` : '') +
       `</a></li>`;
   }
   const abschnitt = (id, titel, inhalt, zaehler) =>
@@ -506,9 +369,6 @@
     const markenZahl = new Set(M.wirkstoffe.concat(M.kurzeintraege || []).flatMap((w) => w.handelsnamen || [])).size;
     const beispiele = ['Bluthochdruck', 'Aspirin', 'Ibuprofen', 'Sodbrennen', 'Diabetes', 'Dafalgan', 'Cipralex', 'Migräne']
       .filter((b) => S.suche(INDEX, b, { limit: 1 }).length);
-    const profilKarte = profilLeer()
-      ? `<div class="karte"><h2>Persönlicher Medikamenten-Check</h2><p>Tragen Sie Ihre Erkrankungen (z. B. Bluthochdruck, Asthma, Schwangerschaft) und Ihre Medikamente ein. Danach markiert die Suche Mittel, die nicht zu Ihnen passen könnten, und jede Wirkstoffseite zeigt Gegenanzeigen und Wechselwirkungen für Sie.</p><a class="knopf" href="#/check">${ICON.plus}Check einrichten</a></div>`
-      : `<div class="karte"><h2>Ihr Profil wird berücksichtigt</h2><div class="chips">${profil.krankheiten.map((id) => `<a class="chip" href="#/krankheit/${id}">${esc(KR.get(id).name)}</a>`).join('')}${profil.medikamente.map((id) => `<a class="chip" href="#/wirkstoff/${id}">${esc((WS.get(id) || KURZ.get(id)).name)}</a>`).join('')}</div><p class="quelle">Treffer mit <span class="punkt punkt--rot" aria-hidden="true">!</span> passen möglicherweise nicht zu Ihren Angaben. <a href="#/check">Check ansehen und bearbeiten</a></p></div>`;
     main.innerHTML =
       `<section class="held"><div class="wrap">` +
       `<p class="held__kicker">Unabhängig · ohne Werbung · ohne Tracking${M.stand ? ` · Stand ${esc(M.stand)}` : ''}</p>` +
@@ -516,7 +376,7 @@
       `<p class="held__lead">Wirkstoff, Markenname oder Krankheit eintippen – schon beim ersten Buchstaben erscheinen Vorschläge, auch bei Tippfehlern. Zu jedem Medikament: Wirkungsweise, Gegenanzeigen, Wechselwirkungen und Nebenwirkungen nach Häufigkeit.</p>` +
       `<div id="start-suche"></div>` +
       (beispiele.length ? `<div class="beispiele"><span>Beispiele:</span>${beispiele.map((b) => `<button class="chip" type="button" data-beispiel="${esc(b)}">${esc(b)}</button>`).join('')}</div>` : '') +
-      `</div></section><div class="wrap">${profilKarte}` +
+      `</div></section><div class="wrap">` +
       `<div class="zahlen">` +
       `<div class="zahl"><strong>${zahl(M.wirkstoffe.length + (M.kurzeintraege || []).length)}</strong><span>Wirkstoffe</span></div>` +
       `<div class="zahl"><strong>${zahl(markenZahl)}</strong><span>Schweizer Handelsnamen</span></div>` +
@@ -526,7 +386,6 @@
       `<a class="kachel" href="#/a-z"><h3>Wirkstoffe A–Z</h3><p>Alle Wirkstoffe alphabetisch und nach Organsystem.</p></a>` +
       `<a class="kachel" href="#/krankheiten"><h3>Nach Krankheit</h3><p>Was hilft bei Bluthochdruck, Migräne oder Sodbrennen – und was ist dann tabu?</p></a>` +
       `<a class="kachel" href="#/gruppen"><h3>Wirkstoffgruppen</h3><p>NSAR, Betablocker, CYP3A4-Hemmer: wer mit wem nicht kann.</p></a>` +
-      `<a class="kachel" href="#/check"><h3>Mein Check</h3><p>Eigene Medikamente und Erkrankungen gegeneinander prüfen.</p></a>` +
       `</div></div>`;
     const input = suchfeld($('#start-suche'), { id: 'suche-start', gross: true, placeholder: 'z. B. Aspirin, Bluthochdruck, Pantoprazol …' });
     $$('[data-beispiel]').forEach((b) => b.addEventListener('click', () => {
@@ -552,18 +411,6 @@
       return { titel: kern.name, ziel };
     }
     const w = { ...kern, ...d };
-    const genommen = profil.medikamente.includes(id);
-    const befunde = befundeFuer(w, profil);
-    let profilBox;
-    if (profilLeer()) {
-      profilBox = `<div class="profilbox no-print"><h2>Passt das zu mir?</h2><p>Tragen Sie im <a href="#/check">Check</a> Ihre Erkrankungen und Medikamente ein – dann sehen Sie hier, ob es Gegenanzeigen oder Wechselwirkungen gibt.</p></div>`;
-    } else if (befunde.length) {
-      const rot = RANG[befunde[0].stufe] <= 1;
-      profilBox = `<div class="profilbox profilbox--${rot ? 'rot' : 'gelb'}"><h2>${rot ? 'Achtung bei Ihrem Profil' : 'Hinweise zu Ihrem Profil'}</h2><ul class="liste-saubere warnliste">${befunde.map(befundLi).join('')}</ul><p class="quelle">Bitte besprechen Sie das mit Ihrer Ärztin, Ihrem Arzt oder in der Apotheke. Setzen Sie nichts eigenmächtig ab.</p></div>`;
-    } else {
-      profilBox = `<div class="profilbox profilbox--gruen"><h2>Keine Konflikte mit Ihrem Profil gefunden</h2><p>In unseren Daten gibt es keine Gegenanzeige oder Wechselwirkung mit Ihren Angaben. Das ist keine Garantie – die Daten sind vereinfacht und nicht vollständig.</p></div>`;
-    }
-
     const teile = [];
     const toc = [];
     const add = (aid, titel, html, n) => {
@@ -633,7 +480,7 @@
     }
     const gruppenLinks = (w.gruppen || []).filter((g) => GR.has(g)).map((g) => linkGr(g)).join(', ');
     add('quelle', 'Quelle und Stand',
-      (gruppenLinks ? `<p>Gruppen für den Wechselwirkungs-Check: ${gruppenLinks}.</p>` : '') +
+      (gruppenLinks ? `<p>Wirkstoffgruppen (Grundlage der Wechselwirkungs-Hinweise): ${gruppenLinks}.</p>` : '') +
       `<p>Datenstand: ${esc(w.stand)}. ${w.zweitpruefung
         ? 'Redaktionell zusammengefasst und von einer zweiten, unabhängigen Prüfung gegen die Fachinformation gegengelesen.'
         : 'Redaktionell zusammengefasst und automatisch auf Format und Verweise geprüft; eine unabhängige Zweitprüfung steht noch aus.'}</p>${fachinfoHinweis()}`);
@@ -646,14 +493,9 @@
       ((w.darreichung || []).length ? `<span class="meta__item">${esc(w.darreichung.join(', '))}</span>` : '') + `</div>` +
       ((w.handelsnamen || []).length ? `<p class="meta__item">In der Schweiz zum Beispiel als:</p><ul class="marken">${w.handelsnamen.map((h) => `<li><span class="marke-chip">${esc(h)}</span></li>`).join('')}</ul>` : '') +
       ((w.kombinationAus || []).length ? `<p class="meta__item">Kombination aus: ${w.kombinationAus.map((k) => linkWs(k)).join(' + ')}</p>` : '') +
-      `<div class="knopfreihe"><button class="knopf" type="button" id="nehme-knopf" aria-pressed="${genommen}">${genommen ? ICON.haken : ICON.plus}${genommen ? 'In meinem Check' : 'Ich nehme dieses Medikament'}</button>` +
-      `<a class="knopf knopf--leise" href="#/check">Zum Check</a></div></div>` +
+      `</div>` +
       `<div class="mono"><nav class="inhalt-nav" aria-label="Inhalt dieser Seite"><ol>${toc.map(([aid, t]) => `<li><a href="#/wirkstoff/${id}/${aid}" data-scroll="${aid}">${esc(t)}</a></li>`).join('')}</ol></nav>` +
-      `<div>${profilBox}${teile.join('')}</div></div>`);
-    $('#nehme-knopf').addEventListener('click', () => {
-      profilUmschalten('medikamente', id);
-      render(true, '#nehme-knopf');
-    });
+      `<div>${teile.join('')}</div></div>`);
     return { titel: w.name, ziel };
   }
 
@@ -676,7 +518,6 @@
   function viewKrankheit(id) {
     const k = KR.get(id);
     if (!k) return view404();
-    const betrifft = profil.krankheiten.includes(id);
     const mittel = eintraegeVon(indiziert.get(id) || []);
     const warn = eintraegeVon(gegenanzeige.get(id) || []);
     const kontra = warn.filter((x) => x.stufe === 'kontra');
@@ -695,8 +536,7 @@
     main.innerHTML = seite([`<a href="#/krankheiten">Krankheiten</a>`, esc(k.name)],
       `<div class="mono-kopf"><h1 tabindex="-1">${esc(k.name)}</h1>` +
       `<p class="mono-kopf__klasse">${esc(k.kategorie)}</p>` +
-      ((k.synonyme || []).length ? `<p class="lead">Auch: ${esc(k.synonyme.join(', '))}</p>` : '') +
-      `<div class="knopfreihe"><button class="knopf" type="button" id="betrifft-knopf" aria-pressed="${betrifft}">${betrifft ? ICON.haken : ICON.plus}${betrifft ? 'In meinem Check' : 'Betrifft mich – in den Check'}</button></div></div>` +
+      ((k.synonyme || []).length ? `<p class="lead">Auch: ${esc(k.synonyme.join(', '))}</p>` : '') + `</div>` +
       abschnitt('mittel', `Medikamente bei ${esc(k.name)}`,
         mittel.length ? gruppenHtml : `<p class="leer">In unseren Daten ist kein Medikament mit diesem Anwendungsgebiet verzeichnet.</p>`, mittel.length) +
       abschnitt('vorsicht', `Vorsicht bei ${esc(k.name)}`,
@@ -708,10 +548,6 @@
           : `<p class="leer">In unseren Daten sind keine Gegenanzeigen für diese Situation verzeichnet.</p>`,
         warn.length) +
       `<div class="karte">${fachinfoHinweis()}</div>`);
-    $('#betrifft-knopf').addEventListener('click', () => {
-      profilUmschalten('krankheiten', id);
-      render(true, '#betrifft-knopf');
-    });
     const filter = $('#warn-filter');
     if (filter) {
       filter.addEventListener('input', () => {
@@ -853,66 +689,6 @@
     return { titel: 'Wirkstoffgruppen' };
   }
 
-  function viewCheck() {
-    const befunde = alleBefunde();
-    const ohneDaten = profil.medikamente.filter((id) => !WS.has(id));
-    const chip = (liste, id, name, href) =>
-      `<span class="chip chip--entf"><a href="${href}">${esc(name)}</a><button type="button" data-entf="${liste}" data-id="${id}" aria-label="${esc(name)} entfernen">×</button></span>`;
-    const rot = befunde.filter((b) => RANG[b.stufe] <= 1).length;
-    const gelb = befunde.filter((b) => RANG[b.stufe] >= 2 && RANG[b.stufe] <= 3).length;
-    let ergebnis;
-    if (profilLeer()) ergebnis = `<p class="leer">Noch keine Angaben. Fügen Sie oben Erkrankungen und Medikamente hinzu.</p>`;
-    else if (!befunde.length) ergebnis = `<div class="profilbox profilbox--gruen"><h3>Keine Konflikte gefunden</h3><p>In unseren Daten gibt es zwischen Ihren Angaben keine bekannte Gegenanzeige oder Wechselwirkung. Das ist keine Garantie – besprechen Sie Ihre Medikation regelmässig mit Ihrer Ärztin, Ihrem Arzt oder Ihrer Apotheke.</p></div>`;
-    else ergebnis = `<p>${rot ? `<strong>${rot} wichtige Warnung${rot === 1 ? '' : 'en'}</strong>` : 'Keine schwerwiegenden Konflikte'}${gelb ? `, ${gelb} Hinweis${gelb === 1 ? '' : 'e'} zur Vorsicht` : ''}.</p><ul class="liste-saubere warnliste">${befunde.map(befundLi).join('')}</ul>`;
-    main.innerHTML = seite([`Mein Check`],
-      `<h1 tabindex="-1">Mein Medikamenten-Check</h1>` +
-      `<p class="lead">Erkrankungen und Medikamente eintragen – der Check zeigt Gegenanzeigen und Wechselwirkungen. Ihre Angaben bleiben in diesem Browser und werden nirgends hin gesendet.</p>` +
-      `<p class="merken"><label><input type="checkbox" id="check-merken"${dauerhaft() ? ' checked' : ''}> Auf diesem Gerät dauerhaft merken</label> <span class="quelle">Sonst werden die Angaben beim Schliessen des Tabs gelöscht. Auf geteilten Geräten nicht empfohlen.</span></p>` +
-      `<div class="check-eingabe">` +
-      `<div class="karte"><h2>Meine Erkrankungen und Situationen</h2><div id="check-krankheit"></div><div class="chips">${profil.krankheiten.map((id) => chip('krankheiten', id, KR.get(id).name, `#/krankheit/${id}`)).join('') || '<span class="leer">z. B. Bluthochdruck, Asthma, Schwangerschaft, Niereninsuffizienz</span>'}</div></div>` +
-      `<div class="karte"><h2>Meine Medikamente</h2><div id="check-medikament"></div><div class="chips">${profil.medikamente.map((id) => chip('medikamente', id, (WS.get(id) || KURZ.get(id)).name, `#/wirkstoff/${id}`)).join('') || '<span class="leer">Wirkstoff oder Markenname, z. B. Dafalgan, Concor, Xarelto</span>'}</div></div>` +
-      `</div>` +
-      abschnitt('ergebnis', 'Ergebnis', ergebnis +
-        (ohneDaten.length ? `<p class="hinweis">Für ${ohneDaten.map((id) => esc(KURZ.get(id).name)).join(', ')} liegen keine Wechselwirkungsdaten vor.</p>` : '') +
-        (profilLeer() ? '' : `<div class="knopfreihe no-print">${imRahmen ? '' : `<button class="knopf knopf--leise" type="button" id="check-drucken">${ICON.druck}Drucken / als PDF</button>`}<button class="knopf knopf--leise" type="button" id="check-leeren">Alle Angaben löschen</button></div>`)) +
-      `<div class="karte">${fachinfoHinweis()}</div>`);
-    suchfeld($('#check-krankheit'), {
-      id: 'check-kr', typen: ['krankheit'], label: 'Erkrankung oder Situation hinzufügen', placeholder: 'Erkrankung hinzufügen …',
-      onSelect: (r) => { if (!profil.krankheiten.includes(r.id)) profilUmschalten('krankheiten', r.id); render(true, '#check-kr'); },
-    });
-    suchfeld($('#check-medikament'), {
-      id: 'check-med', typen: ['wirkstoff', 'marke', 'kurz'], label: 'Medikament hinzufügen', placeholder: 'Medikament hinzufügen …',
-      onSelect: (r) => { if (!profil.medikamente.includes(r.id)) profilUmschalten('medikamente', r.id); render(true, '#check-med'); },
-    });
-    $$('[data-entf]').forEach((b) => b.addEventListener('click', () => {
-      profilUmschalten(b.dataset.entf, b.dataset.id);
-      render(true, b.dataset.entf === 'krankheiten' ? '#check-kr' : '#check-med');
-    }));
-    $('#check-merken').addEventListener('change', (ev) => setzeDauerhaft(ev.target.checked));
-    const drucken = $('#check-drucken');
-    if (drucken) drucken.addEventListener('click', () => window.print());
-    const leeren = $('#check-leeren');
-    if (leeren) {
-      leeren.addEventListener('click', () => {
-        // Zweistufig auf der Seite bestätigen (Browser-Dialoge sind in eingebetteten Ansichten gesperrt)
-        if (leeren.dataset.bestaetigen !== 'ja') {
-          leeren.dataset.bestaetigen = 'ja';
-          leeren.textContent = 'Wirklich alle löschen? Zum Bestätigen nochmals klicken';
-          setTimeout(() => {
-            if (!leeren.isConnected) return;
-            leeren.dataset.bestaetigen = '';
-            leeren.textContent = 'Alle Angaben löschen';
-          }, 6000);
-          return;
-        }
-        profil = { krankheiten: [], medikamente: [] };
-        speichereProfil();
-        render(true, '#check-kr');
-      });
-    }
-    return { titel: 'Mein Medikamenten-Check' };
-  }
-
   function viewInfo() {
     const nMono = M.wirkstoffe.length;
     main.innerHTML = seite([`Über die Daten`],
@@ -922,9 +698,9 @@
       `<div class="karte hinweis--rot"><h2>Wichtig: kein Ersatz für Beratung</h2><p>Die Texte sind vereinfachte Zusammenfassungen und können Fehler enthalten oder veraltet sein. Massgebend sind ausschliesslich die von Swissmedic genehmigten Fach- und Patienteninformationen auf <a href="https://www.swissmedicinfo.ch/" rel="noopener">swissmedicinfo.ch</a> sowie die Beratung durch Ärztin, Arzt oder Apotheke. Setzen Sie Medikamente nie eigenmächtig ab und ändern Sie keine Dosis ohne Rücksprache. Im Notfall: <strong>144</strong>, bei Vergiftungen <strong>145</strong> (Tox Info Suisse).</p></div>` +
       `<div class="karte"><h2>Häufigkeit von Nebenwirkungen</h2><div class="tabelle-scroll"><table class="tabelle"><tbody>${NW.map(([, l, d]) => `<tr><th scope="row">${l}</th><td>${d}</td></tr>`).join('')}</tbody></table></div><p class="quelle">Diese Einteilung entspricht der Konvention in den Schweizer Fachinformationen (MedDRA).</p></div>` +
       `<div class="karte"><h2>Abgabekategorien in der Schweiz</h2><div class="tabelle-scroll"><table class="tabelle"><tbody>${['A', 'B', 'D', 'E'].map((a) => `<tr><th scope="row">${abgabeBadge(a)}</th><td>${esc(ABGABE[a][1])}</td></tr>`).join('')}</tbody></table></div><p class="quelle">Die frühere Kategorie C wurde 2019 aufgehoben; die Präparate wurden den Kategorien B oder D zugeteilt.</p></div>` +
-      `<div class="karte"><h2>Wie funktioniert der Check?</h2><p>Jeder Wirkstoff gehört zu Gruppen – z. B. Ibuprofen zu den NSAR, Clarithromycin zu den starken CYP3A4-Hemmern, Citalopram zu den QT-verlängernden und serotonergen Mitteln. Gegenanzeigen und Wechselwirkungen verweisen auf Krankheiten, einzelne Wirkstoffe oder solche Gruppen. Der Check gleicht Ihre Angaben in beide Richtungen ab. Er findet nur, was in den Daten steht – fehlende Warnungen bedeuten nicht, dass eine Kombination sicher ist.</p></div>` +
+      `<div class="karte"><h2>Wie entstehen die Wechselwirkungs-Hinweise?</h2><p>Jeder Wirkstoff gehört zu Gruppen – z. B. Ibuprofen zu den NSAR, Clarithromycin zu den starken CYP3A4-Hemmern, Citalopram zu den QT-verlängernden und serotonergen Mitteln. Gegenanzeigen und Wechselwirkungen verweisen auf Krankheiten, einzelne Wirkstoffe oder solche Gruppen. Jede Wirkstoffseite zeigt deshalb nicht nur die eigenen Wechselwirkungen, sondern auch jene, die andere Monografien über diesen Wirkstoff oder seine Gruppen nennen. Es erscheint nur, was in den Daten steht – fehlt ein Hinweis, heisst das nicht, dass eine Kombination sicher ist.</p></div>` +
       `<div class="karte"><h2>Quellen</h2><ul class="punkte"><li>Swissmedic: Fach- und Patienteninformationen (<a href="https://www.swissmedicinfo.ch/" rel="noopener">swissmedicinfo.ch</a>) und Listen der zugelassenen Humanarzneimittel (<a href="https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html" rel="noopener">swissmedic.ch</a>).</li><li>Wirkstoff-Monografien: redaktionell zusammengefasst nach pharmakologischem Standardwissen und Fachinformationen und automatisch auf Format, Verweise und Schreibweise geprüft. ${zahl(M.wirkstoffe.filter((w) => w.zweitpruefung).length)} häufig verwendete Wirkstoffe wurden zusätzlich von einer zweiten, unabhängigen Prüfung gegengelesen – das steht jeweils unten auf der Wirkstoffseite. Stand siehe jeweilige Seite.</li><li>Häufigkeitsangaben: MedDRA-Konvention der Fachinformationen.</li></ul></div>` +
-      `<div class="karte"><h2>Datenschutz</h2><p>Kein Tracking, keine Cookies, keine Werbung, keine externen Schriften oder Skripte. Ihr Check-Profil bleibt nur im Browser: standardmässig bis zum Schliessen des Tabs (sessionStorage), auf Wunsch dauerhaft auf diesem Gerät (localStorage). Es wird nie übertragen und lässt sich im Check jederzeit löschen. Das Farbschema wird lokal gespeichert.</p></div>`);
+      `<div class="karte"><h2>Datenschutz</h2><p>Kein Tracking, keine Cookies, keine Werbung, keine externen Schriften oder Skripte. Es werden keine Gesundheitsangaben erfasst oder gespeichert; Suchanfragen bleiben im Browser. Nur das gewählte Farbschema wird lokal auf diesem Gerät gespeichert.</p></div>`);
     return { titel: 'Über die Daten' };
   }
 
@@ -944,7 +720,6 @@
     [/^a-z$/, () => viewAZ(), 'a-z'],
     [/^krankheiten$/, () => viewKrankheiten(), 'krankheiten'],
     [/^gruppen$/, () => viewGruppen(), 'gruppen'],
-    [/^check$/, () => viewCheck(), 'check'],
     [/^info$/, () => viewInfo(), 'info'],
   ];
   let aktuelleSeite = null;
@@ -1045,13 +820,6 @@
     main.focus();
     main.scrollIntoView();
   });
-  window.addEventListener('storage', (ev) => {
-    if (ev.key !== PROFIL_KEY && ev.key !== MERKEN_KEY) return;
-    ladeProfil();
-    zeigeProfilZahl();
-    render(true);
-  });
-  zeigeProfilZahl();
   render(false);
   erstesRendern = false;
 })();

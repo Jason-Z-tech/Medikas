@@ -70,8 +70,8 @@ die Datei `data/medikamente.js`, die die Webseite lädt. Von Hand wird nur in `d
 - `ids` verweisen auf `krankheiten.json`. Passt keine id, bleibt `ids` leer – der Text wird trotzdem angezeigt.
 - `ref` verweist auf einen Wirkstoff (`"methotrexat"`) aus `substanzen.json` oder eine Gruppe (`"gruppe:nsar"`).
   Mehrere Verweise sind erlaubt. Passt kein Verweis, bleibt `ref` leer.
-- `gruppen` ist entscheidend für den Wechselwirkungs-Check: Nimmt jemand Clarithromycin
-  (Gruppe `starke-cyp3a4-hemmer`) und schaut Simvastatin an, das auf `gruppe:starke-cyp3a4-hemmer` verweist,
-  erscheint eine Warnung. Darum jede zutreffende Gruppe eintragen – auch pharmakokinetische
+- `gruppen` ist entscheidend für die Wechselwirkungs-Hinweise: Simvastatin verweist auf
+  `gruppe:starke-cyp3a4-hemmer`; deshalb zeigt auch die Seite von Clarithromycin (Gruppe `starke-cyp3a4-hemmer`)
+  diese Warnung. Darum jede zutreffende Gruppe eintragen – auch pharmakokinetische
   (`starke-cyp3a4-hemmer`, `cyp3a4-induktoren`, `starke-cyp3a4-induktoren`, `p-gp-hemmer` …) und Risikogruppen
   (`qt-verlaengernd`, `serotonerg`, `zns-daempfend`, `hyperkaliaemie-ausloesend` …).

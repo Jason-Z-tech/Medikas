@@ -172,7 +172,7 @@ async function testBrowser() {
   const BASE = `http://127.0.0.1:${server.address().port}/index.html`;
   const daten = JSON.parse(readFileSync(path.join(HIER, '..', 'data', 'medikamente.js'), 'utf8').replace(/^[\s\S]*?window\.MEDI = /, '').replace(/;\s*$/, ''));
   const hat = (id) => daten.wirkstoffe.some((w) => w.id === id);
-  const ROUTEN = ['', 'a-z', 'krankheiten', 'gruppen', 'check', 'info', 'suche/blut', 'gibt-es-nicht'];
+  const ROUTEN = ['', 'a-z', 'krankheiten', 'gruppen', 'info', 'suche/blut', 'gibt-es-nicht'];
   if (daten.wirkstoffe[0]) ROUTEN.push(`wirkstoff/${daten.wirkstoffe[0].id}`);
   if (daten.krankheiten[0]) ROUTEN.push(`krankheit/${daten.krankheiten[0].id}`);
   if (daten.gruppen[0]) ROUTEN.push(`gruppe/${daten.gruppen[0].id}`);
@@ -220,30 +220,17 @@ async function testBrowser() {
         check(/Bluthochdruck/.test(erstes), `${tag} «bluthoch» → Bluthochdruck, erhalten: ${erstes}`);
       }
 
-      // Profil: Bluthochdruck + ASS + Ibuprofen → Check zeigt Warnungen
+      // Wechselwirkungen auf der Wirkstoffseite; früheres Check-Profil wird gelöscht
       if (vp.label === 'Desktop' && hat('acetylsalicylsaeure') && hat('ibuprofen')) {
-        const t = '[Desktop · Check]';
-        await page.goto(`${BASE}#/wirkstoff/ibuprofen`);
-        await page.click('#nehme-knopf');
-        check(await page.eval(`document.getElementById('nehme-knopf').getAttribute('aria-pressed') === 'true'`), `${t} «Ich nehme» schaltet nicht`);
+        const t = '[Desktop · Wechselwirkungen]';
         await page.goto(`${BASE}#/wirkstoff/acetylsalicylsaeure`);
-        check(await page.eval(`!!document.querySelector('.profilbox--rot, .profilbox--gelb')`), `${t} ASS-Seite warnt nicht vor Ibuprofen`);
-        await page.click('#nehme-knopf');
-        await page.goto(`${BASE}#/check`);
-        const n = await page.eval(`document.querySelectorAll('#ergebnis .warnliste li').length`);
-        check(n >= 1, `${t} Check zeigt keine Wechselwirkung ASS + Ibuprofen`);
-        await page.type('#check-kr', 'Bluthochdruck');
-        await waitFor(page, `!document.getElementById('check-kr-liste').hidden`);
-        await page.key('Enter');
-        check(await waitFor(page, `[...document.querySelectorAll('.chip--entf a')].some((a) => /Bluthochdruck/.test(a.textContent))`), `${t} Krankheit wird nicht hinzugefügt`);
+        check(await page.eval(`!!document.querySelector('#wechselwirkungen li, #rueckverweise li')`), `${t} ASS-Seite zeigt keine Wechselwirkungen`);
+        check(await page.eval(`!document.querySelector('a[href="#/check"]')`), `${t} Link auf den entfernten Check`);
+        await page.eval(`sessionStorage.setItem('medi-profil', '{"krankheiten":[],"medikamente":["ibuprofen"]}'); localStorage.setItem('medi-profil-merken', '1')`);
         await page.reload();
-        check(await page.eval(`document.querySelectorAll('.chip--entf').length === 3`), `${t} Profil bleibt nach Neuladen nicht erhalten`);
-        await page.goto(`${BASE}#/`);
-        await page.type('#suche-start', 'diclo');
-        await waitFor(page, `!document.getElementById('suche-start-liste').hidden`);
-        if (hat('diclofenac')) check(await page.eval(`!!document.querySelector('#suche-start-liste .punkt')`), `${t} Suchvorschlag markiert Konflikt (Diclofenac + Profil) nicht`);
-        // aufräumen
-        await page.eval(`sessionStorage.removeItem('medi-profil'); localStorage.removeItem('medi-profil')`);
+        check(await page.eval(`sessionStorage.getItem('medi-profil') === null && localStorage.getItem('medi-profil-merken') === null`), `${t} altes Profil wird nicht gelöscht`);
+        await page.goto(`${BASE}#/check`);
+        check(await page.eval(`document.querySelector('h1').textContent === 'Nicht gefunden'`), `${t} #/check sollte «Nicht gefunden» zeigen`);
       }
 
       // Skip-Link: springt zum Inhalt, ohne die Seite zu wechseln

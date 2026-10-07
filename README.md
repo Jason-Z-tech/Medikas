@@ -2,7 +2,7 @@
 
 Unabhängiges, werbefreies Nachschlagewerk zu den in der Schweiz zugelassenen Medikamenten:
 Wirkungsweise, Gegenanzeigen (Krankheiten und Medikamente), Wechselwirkungen und Nebenwirkungen nach Häufigkeit –
-mit schlauer Suche und persönlichem Medikamenten-Check.
+mit schlauer Suche, auch nach Krankheit.
 
 - **Schlaue Suche:** Vorschläge ab dem ersten Buchstaben – für Wirkstoffe, Schweizer Markennamen, Krankheiten
   (auch Laienbegriffe wie «Zucker» oder «hoher Blutdruck») und Wirkstoffgruppen. Tippfehler und Schreibvarianten
@@ -10,9 +10,9 @@ mit schlauer Suche und persönlichem Medikamenten-Check.
 - **Wirkstoffseiten:** Anwendungsgebiete, Wirkungsweise, Gegenanzeigen, «nicht kombinieren mit», Wechselwirkungen
   nach Schweregrad, Nebenwirkungen nach Häufigkeit (sehr häufig … sehr selten), Schwangerschaft/Stillzeit, Hinweise.
 - **Krankheitsseiten:** Welche Medikamente helfen – und welche sind bei dieser Krankheit tabu oder nur mit Vorsicht.
-- **Mein Check:** Eigene Erkrankungen und Medikamente eintragen; die Seite prüft Gegenanzeigen und Wechselwirkungen
-  (in beide Richtungen, auch über Wirkstoffgruppen wie «starke CYP3A4-Hemmer» oder «QT-verlängernd») und markiert
-  problematische Treffer schon in der Suche. Die Angaben bleiben im Browser (localStorage).
+- **Wechselwirkungen in beide Richtungen:** Jede Wirkstoffseite zeigt auch, was andere Monografien über diesen
+  Wirkstoff oder seine Gruppen sagen (z. B. «starke CYP3A4-Hemmer» oder «QT-verlängernd»).
+- **Datenschutz:** Keine Gesundheitsangaben, kein Tracking; nur das Farbschema wird lokal gespeichert.
 
 ## Starten
 
@@ -37,7 +37,7 @@ dass GitHub die Dateien unverändert ausliefert.
 | `data/src/wirkstoffe/*.json` | eine Monografie pro Wirkstoff (Format: `data/SCHEMA.md`, Regeln: `data/REDAKTION.md`) |
 | `data/src/substanzen.json` | Verzeichnis aller Wirkstoffe mit ATC-Code und Schweizer Handelsnamen |
 | `data/src/krankheiten.json` | Krankheiten, Zustände und Situationen mit Synonymen |
-| `data/src/gruppen.json` | Wirkstoffgruppen für den Wechselwirkungs-Check |
+| `data/src/gruppen.json` | Wirkstoffgruppen für die Wechselwirkungs-Hinweise |
 | `data/src/geprueft.json` | Wirkstoffe, deren Monografie eine zusätzliche unabhängige Zweitprüfung hatte |
 | `data/medikamente.js` | gebündelte Daten für die Webseite (erzeugt) |
 | `data/praeparate.js` | optionale Swissmedic-Präparateliste (erzeugt, siehe unten) |
@@ -70,7 +70,7 @@ node tests/test.mjs
 ```
 
 Prüft die Suche (Tippfehler, Synonyme, Umlaute), den Excel-Import, alle Daten und klickt die Seite in Chrome
-auf Desktop-, Tablet- und Handy-Breite durch (Suche, Tastatur, Check, Hell/Dunkel, jede Wirkstoff-, Krankheits- und
+auf Desktop-, Tablet- und Handy-Breite durch (Suche, Tastatur, Hell/Dunkel, jede Wirkstoff-, Krankheits- und
 Gruppenseite). Unter Linux ggf. `CHROME_PATH=/pfad/zu/chrome CHROME_NO_SANDBOX=1` setzen.
 
 ## Wichtig
