@@ -1,50 +1,246 @@
 {
   "id": "clopidogrel",
   "name": "Clopidogrel",
-  "synonyme": ["Clopidogrelhydrogensulfat", "Clopidogrel bisulfate", "Thienopyridin"],
-  "atc": ["B01AC04"],
+  "synonyme": [
+    "Clopidogrelhydrogensulfat",
+    "Clopidogrel bisulfate"
+  ],
+  "atc": [
+    "B01AC04"
+  ],
   "klasse": "Thrombozytenaggregationshemmer (P2Y12-Hemmer, Thienopyridin)",
   "kurz": "Hemmt die Blutplättchen und beugt so Herzinfarkt, Schlaganfall und Stentverschluss vor; oft zusammen mit Acetylsalicylsäure.",
-  "gruppen": ["thrombozytenaggregationshemmer", "p2y12-hemmer", "blutungsrisiko-erhoehend"],
-  "handelsnamen": ["Plavix", "Clopidogrel Mepha", "Clopidogrel Sandoz"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "thrombozytenaggregationshemmer",
+    "p2y12-hemmer",
+    "blutungsrisiko-erhoehend",
+    "cyp2c19-substrate",
+    "cyp2c8-hemmer"
+  ],
+  "handelsnamen": [
+    "Plavix",
+    "Clopidogrel Mepha",
+    "Clopidogrel Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung von Herzinfarkt, Schlaganfall und Gefässtod nach kürzlichem Herzinfarkt, nach kürzlichem ischämischem Schlaganfall oder bei nachgewiesener Schaufensterkrankheit (pAVK)", "ids": ["herzinfarkt", "schlaganfall", "pavk"] },
-    { "text": "Akutes Koronarsyndrom (instabile Angina pectoris, Herzinfarkt mit oder ohne ST-Hebung), auch nach Einlage eines Stents – zusammen mit Acetylsalicylsäure", "ids": ["herzinfarkt", "angina-pectoris", "koronare-herzkrankheit"] }
+    {
+      "text": "Vorbeugung von Herzinfarkt, Schlaganfall und Gefässtod nach kürzlichem Herzinfarkt, nach kürzlichem ischämischem Schlaganfall oder bei nachgewiesener Schaufensterkrankheit (pAVK)",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Akutes Koronarsyndrom (instabile Angina pectoris, Herzinfarkt mit oder ohne ST-Hebung), auch nach Einlage eines Stents – zusammen mit Acetylsalicylsäure",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    }
   ],
   "wirkmechanismus": "Verhindert, dass Blutplättchen verklumpen und Gerinnsel in den Arterien bilden. Clopidogrel ist eine unwirksame Vorstufe (Prodrug), die in der Leber vor allem über das Enzym CYP2C19 in einen aktiven Metaboliten umgewandelt wird. Dieser blockiert den ADP-Rezeptor P2Y12 der Blutplättchen irreversibel und hemmt damit deren Aktivierung. Die Hemmung hält für die ganze Lebensdauer der Plättchen (7–10 Tage) an. Bei genetisch langsamer CYP2C19-Aktivität entsteht weniger Wirkstoff, die Wirkung ist dann schwächer.",
   "kontraindikationen": [
-    { "text": "Schwere Leberfunktionsstörung", "ids": ["leberinsuffizienz"] },
-    { "text": "Akute krankhafte Blutung, z. B. blutendes Magen-Darm-Geschwür oder Hirnblutung", "ids": ["aktive-blutung", "magen-darm-ulkus", "hirnblutung"] }
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute krankhafte Blutung, z. B. blutendes Magen-Darm-Geschwür oder Hirnblutung",
+      "ids": [
+        "aktive-blutung",
+        "magen-darm-ulkus",
+        "hirnblutung"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Erhöhtes Blutungsrisiko durch Verletzungen, Operationen oder Erkrankungen mit Blutungsneigung (z. B. Magen-Darm-Geschwüre)", "ids": ["operation", "magen-darm-ulkus", "blutgerinnungsstoerung"] },
-    { "text": "Kürzlicher ischämischer Schlaganfall oder TIA: Kombination mit Acetylsalicylsäure erhöht das Blutungsrisiko", "ids": ["schlaganfall"] },
-    { "text": "Eingeschränkte Nieren- oder mässig eingeschränkte Leberfunktion", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Thrombotisch-thrombozytopenische Purpura (TTP): sehr selten, lebensbedrohlich – sofortige Behandlung nötig", "ids": ["thrombozytopenie"] },
-    { "text": "Frühere Überempfindlichkeits- oder Blutbildreaktionen auf andere Thienopyridine (Ticlopidin, Prasugrel)", "ids": ["allergie", "neutropenie"] },
-    { "text": "Genetisch langsamer CYP2C19-Stoffwechsel: verminderte Wirkung", "ids": [] }
+    {
+      "text": "Erhöhtes Blutungsrisiko durch Verletzungen, Operationen oder Erkrankungen mit Blutungsneigung (z. B. Magen-Darm-Geschwüre)",
+      "ids": [
+        "operation",
+        "magen-darm-ulkus",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Kürzlicher ischämischer Schlaganfall oder TIA: Kombination mit Acetylsalicylsäure erhöht das Blutungsrisiko",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder mässig eingeschränkte Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Thrombotisch-thrombozytopenische Purpura (TTP): sehr selten, lebensbedrohlich – sofortige Behandlung nötig",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Frühere Überempfindlichkeits- oder Blutbildreaktionen auf andere Thienopyridine (Ticlopidin, Prasugrel)",
+      "ids": [
+        "allergie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Genetisch langsamer CYP2C19-Stoffwechsel: verminderte Wirkung",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Orale Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban)", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur auf ärztliche Anordnung und möglichst kurz kombinieren.", "schwere": "schwer" },
-    { "text": "Omeprazol und Esomeprazol sowie andere CYP2C19-Hemmer (z. B. Fluvoxamin, Fluoxetin, Fluconazol, Voriconazol)", "ref": ["omeprazol", "esomeprazol", "gruppe:cyp2c19-hemmer"], "effekt": "Weniger aktiver Metabolit, schwächere Plättchenhemmung – Kombination meiden; als Magenschutz eher Pantoprazol wählen.", "schwere": "schwer" },
-    { "text": "Repaglinid (Blutzuckersenker)", "ref": ["repaglinid"], "effekt": "Clopidogrel hemmt CYP2C8 – Repaglinid-Spiegel steigt mehrfach, Gefahr von Unterzuckerung; Kombination meiden oder Blutzucker eng kontrollieren.", "schwere": "schwer" },
-    { "text": "Geboosterte HIV-Therapie mit Ritonavir oder Cobicistat", "ref": ["ritonavir", "cobicistat"], "effekt": "Deutlich verminderte Plättchenhemmung, Thrombosen beschrieben – Kombination meiden.", "schwere": "schwer" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Magen-Darm-Blutungen – möglichst meiden, sonst Magenschutz.", "schwere": "mittel" },
-    { "text": "Heparine, Fondaparinux und Thrombolytika", "ref": ["gruppe:heparine", "fondaparinux", "alteplase"], "effekt": "Erhöhtes Blutungsrisiko; im Spital beim akuten Koronarsyndrom gezielt kombiniert.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
-    { "text": "Opioide (z. B. Morphin) beim akuten Koronarsyndrom", "ref": ["gruppe:opioide"], "effekt": "Verzögerte und verminderte Aufnahme von Clopidogrel, dadurch schwächere Plättchenhemmung zu Beginn.", "schwere": "mittel" },
-    { "text": "Rosuvastatin", "ref": ["rosuvastatin"], "effekt": "Rosuvastatin-Spiegel steigt etwa auf das Doppelte – auf Muskelschmerzen achten.", "schwere": "mittel" },
-    { "text": "Acetylsalicylsäure", "ref": ["acetylsalicylsaeure"], "effekt": "Mehr Blutungen; die Kombination wird nach Stent oder Herzinfarkt gezielt und befristet eingesetzt.", "schwere": "leicht" }
+    {
+      "text": "Orale Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – nur auf ärztliche Anordnung und möglichst kurz kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Omeprazol und Esomeprazol sowie andere CYP2C19-Hemmer (z. B. Fluvoxamin, Fluoxetin, Fluconazol, Voriconazol)",
+      "ref": [
+        "omeprazol",
+        "esomeprazol",
+        "gruppe:cyp2c19-hemmer"
+      ],
+      "effekt": "Weniger aktiver Metabolit, schwächere Plättchenhemmung – Kombination meiden; als Magenschutz eher Pantoprazol wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Repaglinid (Blutzuckersenker)",
+      "ref": [
+        "repaglinid"
+      ],
+      "effekt": "Clopidogrel hemmt CYP2C8 – Repaglinid-Spiegel steigt mehrfach, Gefahr von Unterzuckerung; Kombination meiden oder Blutzucker eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Medikamente, die über CYP2C8 abgebaut werden (z. B. Paclitaxel)",
+      "ref": [
+        "paclitaxel"
+      ],
+      "effekt": "Clopidogrel hemmt CYP2C8 – höhere Spiegel und mehr Nebenwirkungen möglich; nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Geboosterte HIV-Therapie mit Ritonavir oder Cobicistat",
+      "ref": [
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Deutlich verminderte Plättchenhemmung, Thrombosen beschrieben – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Magen-Darm-Blutungen – möglichst meiden, sonst Magenschutz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Heparine, Fondaparinux und Thrombolytika",
+      "ref": [
+        "gruppe:heparine",
+        "fondaparinux",
+        "alteplase"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; im Spital beim akuten Koronarsyndrom gezielt kombiniert.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide (z. B. Morphin) beim akuten Koronarsyndrom",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Verzögerte und verminderte Aufnahme von Clopidogrel, dadurch schwächere Plättchenhemmung zu Beginn.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rosuvastatin",
+      "ref": [
+        "rosuvastatin"
+      ],
+      "effekt": "Rosuvastatin-Spiegel steigt etwa auf das Doppelte – auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Acetylsalicylsäure",
+      "ref": [
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Mehr Blutungen; die Kombination wird nach Stent oder Herzinfarkt gezielt und befristet eingesetzt.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Blutergüsse (Hämatome), Hautblutungen", "Nasenbluten", "Magen-Darm-Blutungen", "Durchfall, Bauchschmerzen, Verdauungsbeschwerden", "Nachblutung an Punktionsstellen"],
-    "gelegentlich": ["Hirnblutung (teils tödlich)", "Verminderung von Blutplättchen und weissen Blutkörperchen, Eosinophilie", "Kopfschmerzen, Schwindel, Kribbeln", "Magen- und Zwölffingerdarmgeschwüre, Gastritis, Übelkeit, Erbrechen, Verstopfung", "Augenblutungen", "Hautausschlag, Juckreiz", "Blut im Urin"],
-    "selten": ["Neutropenie, auch schwere (Mangel an weissen Blutkörperchen)", "Drehschwindel", "Blutungen im hinteren Bauchraum (retroperitoneal)", "Gynäkomastie (Brustvergrösserung beim Mann)"],
-    "sehrSelten": ["Thrombotisch-thrombozytopenische Purpura (TTP)", "Agranulozytose, aplastische Anämie, Panzytopenie, schwere Thrombozytopenie", "Erworbene Hämophilie A", "Anaphylaktoide Reaktionen, Serumkrankheit, Angioödem", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)", "Akutes Leberversagen, Hepatitis, Pankreatitis", "Schwere, auch tödliche Blutungen", "Interstitielle oder eosinophile Pneumonie, Bronchospasmus"],
-    "unbekannt": ["Insulin-Autoimmunsyndrom mit schwerer Unterzuckerung", "Kounis-Syndrom (allergisch ausgelöste Brustenge)", "Kreuzallergie mit anderen Thienopyridinen"]
+    "haeufig": [
+      "Blutergüsse (Hämatome), Hautblutungen",
+      "Nasenbluten",
+      "Magen-Darm-Blutungen",
+      "Durchfall, Bauchschmerzen, Verdauungsbeschwerden",
+      "Nachblutung an Punktionsstellen"
+    ],
+    "gelegentlich": [
+      "Hirnblutung (teils tödlich)",
+      "Verminderung von Blutplättchen und weissen Blutkörperchen, Eosinophilie",
+      "Kopfschmerzen, Schwindel, Kribbeln",
+      "Magen- und Zwölffingerdarmgeschwüre, Gastritis, Übelkeit, Erbrechen, Verstopfung",
+      "Augenblutungen",
+      "Hautausschlag, Juckreiz",
+      "Blut im Urin"
+    ],
+    "selten": [
+      "Neutropenie, auch schwere (Mangel an weissen Blutkörperchen)",
+      "Drehschwindel",
+      "Blutungen im hinteren Bauchraum (retroperitoneal)",
+      "Gynäkomastie (Brustvergrösserung beim Mann)"
+    ],
+    "sehrSelten": [
+      "Thrombotisch-thrombozytopenische Purpura (TTP)",
+      "Agranulozytose, aplastische Anämie, Panzytopenie, schwere Thrombozytopenie",
+      "Erworbene Hämophilie A",
+      "Anaphylaktoide Reaktionen, Serumkrankheit, Angioödem",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Akutes Leberversagen, Hepatitis, Pankreatitis",
+      "Schwere, auch tödliche Blutungen",
+      "Interstitielle oder eosinophile Pneumonie, Bronchospasmus"
+    ],
+    "unbekannt": [
+      "Insulin-Autoimmunsyndrom mit schwerer Unterzuckerung",
+      "Kounis-Syndrom (allergisch ausgelöste Brustenge)",
+      "Kreuzallergie mit anderen Thienopyridinen"
+    ]
   },
   "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen; vorsichtshalber in der Schwangerschaft nicht anwenden, ausser nach strenger ärztlicher Abwägung.",
   "stillzeit": "Im Tierversuch Übergang in die Muttermilch; während der Behandlung nicht stillen.",

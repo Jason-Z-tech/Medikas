@@ -1,46 +1,198 @@
 {
   "id": "kaliumchlorid",
   "name": "Kaliumchlorid",
-  "synonyme": ["KCl", "Kalium", "Potassium chloride", "Kalii chloridum"],
-  "atc": ["B05XA01", "A12BA01"],
+  "synonyme": [
+    "KCl",
+    "Kalium",
+    "Potassium chloride",
+    "Kalii chloridum"
+  ],
+  "atc": [
+    "B05XA01",
+    "A12BA01"
+  ],
   "klasse": "Kaliumpräparat (Elektrolytersatz)",
   "kurz": "Kaliumpräparat zum Einnehmen oder als Infusionszusatz, um einen Kaliummangel (z. B. durch Entwässerungsmittel) auszugleichen.",
-  "gruppen": ["kaliumpraeparate", "hyperkaliaemie-ausloesend"],
-  "handelsnamen": ["KCl-retard Zyma", "Kaliumchlorid Bichsel"],
-  "abgabe": ["B"],
-  "darreichung": ["Retardtabletten (Retard-Dragées)", "Konzentrat zur Herstellung einer Infusionslösung"],
+  "gruppen": [
+    "kaliumpraeparate",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "KCl-retard Zyma",
+    "Kaliumchlorid Bichsel"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten (Retard-Dragées)",
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
   "indikationen": [
-    { "text": "Behandlung und Vorbeugung von Kaliummangel (Hypokaliämie), z. B. unter Entwässerungsmitteln oder Kortison, bei Erbrechen, Durchfall oder Abführmittelmissbrauch", "ids": ["hypokaliaemie"] },
-    { "text": "Kaliummangel bei Behandlung mit Herzglykosiden (Digitalis), wo ein Mangel Rhythmusstörungen begünstigt", "ids": ["hypokaliaemie", "herzrhythmusstoerung"] },
-    { "text": "Kaliummangel mit hypochlorämischer Alkalose; Infusionskonzentrat, wenn eine Einnahme nicht möglich ist", "ids": ["hypokaliaemie"] }
+    {
+      "text": "Behandlung und Vorbeugung von Kaliummangel (Hypokaliämie), z. B. unter Entwässerungsmitteln oder Kortison, bei Erbrechen, Durchfall oder Abführmittelmissbrauch",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Kaliummangel bei Behandlung mit Herzglykosiden (Digitalis), wo ein Mangel Rhythmusstörungen begünstigt",
+      "ids": [
+        "hypokaliaemie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Kaliummangel mit hypochlorämischer Alkalose; Infusionskonzentrat, wenn eine Einnahme nicht möglich ist",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt fehlendes Kalium. Kalium ist das wichtigste Elektrolyt im Inneren der Zellen und bestimmt zusammen mit Natrium die elektrische Spannung an den Zellmembranen; es ist daher unentbehrlich für die Erregung von Nerven, Muskeln und Herz. Ein Mangel führt zu Muskelschwäche, Darmträgheit und Herzrhythmusstörungen. Das Chlorid gleicht gleichzeitig einen Chloridverlust aus. In den Retardtabletten ist das Kaliumchlorid in ein Wachsgerüst eingebettet und wird langsam freigesetzt, um die Schleimhaut des Magen-Darm-Trakts zu schonen.",
   "kontraindikationen": [
-    { "text": "Hyperkaliämie (zu hohes Kalium) oder Zustände, die dazu führen: schwere Niereninsuffizienz mit stark verminderter Harnmenge, unbehandelte Nebenniereninsuffizienz (Morbus Addison), akute Austrocknung, ausgedehnte Gewebeschäden (z. B. schwere Verbrennungen)", "ids": ["hyperkaliaemie", "niereninsuffizienz", "nebenniereninsuffizienz", "dehydratation"] },
-    { "text": "Retardtabletten: Engstellen oder verzögerte Passage im Magen-Darm-Trakt (z. B. Verengung der Speiseröhre, Druck durch einen stark vergrösserten Herzvorhof, Magenlähmung, Darmverengung)", "ids": ["darmverschluss"] },
-    { "text": "Hyperchlorämie (zu hohes Chlorid)" }
+    {
+      "text": "Hyperkaliämie (zu hohes Kalium) oder Zustände, die dazu führen: schwere Niereninsuffizienz mit stark verminderter Harnmenge, unbehandelte Nebenniereninsuffizienz (Morbus Addison), akute Austrocknung, ausgedehnte Gewebeschäden (z. B. schwere Verbrennungen)",
+      "ids": [
+        "hyperkaliaemie",
+        "niereninsuffizienz",
+        "nebenniereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Retardtabletten: Engstellen oder verzögerte Passage im Magen-Darm-Trakt (z. B. Verengung der Speiseröhre, Druck durch einen stark vergrösserten Herzvorhof, Magenlähmung, Darmverengung)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Hyperchlorämie (zu hohes Chlorid)"
+    }
   ],
   "vorsicht": [
-    { "text": "Leichte bis mittelschwere Niereninsuffizienz und ältere Menschen: Kalium und Nierenfunktion engmaschig kontrollieren", "ids": ["niereninsuffizienz", "aeltere-patienten"] },
-    { "text": "Herzkrankheiten, insbesondere Reizleitungsstörungen (AV-Block) und Digitalisbehandlung", "ids": ["av-block", "herzrhythmusstoerung"] },
-    { "text": "Diabetes mit Insulinmangel und Übersäuerung (Ketoazidose): Kalium kann trotz Mangel im Körper im Blut erhöht sein", "ids": ["diabetes", "ketoazidose"] },
-    { "text": "Magen-Darm-Geschwüre in der Vorgeschichte; Schmerzen, Erbrechen oder Blut im Stuhl sofort melden (Schleimhautschäden durch die Tabletten)", "ids": ["magen-darm-ulkus"] },
-    { "text": "Infusionskonzentrat: nie unverdünnt oder als schnelle Injektion – Gefahr eines tödlichen Herzstillstands; Infusionsgeschwindigkeit begrenzen, EKG-Überwachung bei höheren Raten", "ids": ["herzrhythmusstoerung"] }
+    {
+      "text": "Leichte bis mittelschwere Niereninsuffizienz und ältere Menschen: Kalium und Nierenfunktion engmaschig kontrollieren",
+      "ids": [
+        "niereninsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, insbesondere Reizleitungsstörungen (AV-Block) und Digitalisbehandlung",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes mit Insulinmangel und Übersäuerung (Ketoazidose): Kalium kann trotz Mangel im Körper im Blut erhöht sein",
+      "ids": [
+        "diabetes",
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte; Schmerzen, Erbrechen oder Blut im Stuhl sofort melden (Schleimhautschäden durch die Tabletten)",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Infusionskonzentrat: nie unverdünnt oder als schnelle Injektion – Gefahr eines tödlichen Herzstillstands; Infusionsgeschwindigkeit begrenzen, EKG-Überwachung bei höheren Raten",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Kaliumsparende Diuretika (Amilorid, Triamteren) und Mineralokortikoid-Antagonisten (Spironolacton, Eplerenon, Finerenon)", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten"], "effekt": "Gefahr einer schweren, lebensbedrohlichen Hyperkaliämie – Kombination vermeiden; nur bei nachgewiesenem Kaliummangel unter engmaschiger Kaliumkontrolle.", "schwere": "schwer" },
-    { "text": "ACE-Hemmer, Sartane, Aliskiren und Sacubitril/Valsartan", "ref": ["gruppe:raas-hemmer", "gruppe:ace-hemmer", "gruppe:sartane"], "effekt": "Hyperkaliämie möglich, v. a. bei eingeschränkter Nierenfunktion – Kalium regelmässig kontrollieren.", "schwere": "schwer" },
-    { "text": "Ciclosporin und Tacrolimus", "ref": ["gruppe:immunsuppressiva-calcineurin"], "effekt": "Verminderte Kaliumausscheidung – Hyperkaliämie möglich; Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Trimethoprim (z. B. in Cotrimoxazol) und Heparine", "ref": ["sulfamethoxazol-trimethoprim", "gruppe:heparine"], "effekt": "Hemmen die Kaliumausscheidung – Hyperkaliämie möglich.", "schwere": "mittel" },
-    { "text": "NSAR", "ref": ["gruppe:nsar"], "effekt": "Verminderte Kaliumausscheidung über die Niere – Kalium kontrollieren, v. a. bei Niereninsuffizienz.", "schwere": "mittel" },
-    { "text": "Andere Kaliumpräparate und kaliumhaltige Salzersatzmittel", "ref": ["gruppe:kaliumpraeparate"], "effekt": "Additive Kaliumzufuhr – Gefahr der Hyperkaliämie.", "schwere": "mittel" },
-    { "text": "Anticholinerg wirkende Mittel (z. B. Oxybutynin, Amitriptylin, Biperiden)", "ref": ["gruppe:anticholinerg"], "effekt": "Verlangsamte Magen-Darm-Passage – die Retardtablette kann länger an einer Stelle liegen und die Schleimhaut schädigen (Geschwüre). Flüssige Kaliumpräparate erwägen.", "schwere": "mittel" },
-    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Kaliummangel und Kaliumüberschuss verändern die Digitaliswirkung; bei digitalisbedingtem AV-Block kann Kalium die Reizleitung weiter verschlechtern – Kalium und EKG kontrollieren.", "schwere": "mittel" },
-    { "text": "Drospirenon (in hormonalen Verhütungsmitteln)", "ref": ["drospirenon", "ethinylestradiol-drospirenon"], "effekt": "Leicht kaliumsparende Wirkung – im ersten Behandlungszyklus Kalium kontrollieren, v. a. bei Nierenerkrankung.", "schwere": "leicht" }
+    {
+      "text": "Kaliumsparende Diuretika (Amilorid, Triamteren) und Mineralokortikoid-Antagonisten (Spironolacton, Eplerenon, Finerenon)",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten"
+      ],
+      "effekt": "Gefahr einer schweren, lebensbedrohlichen Hyperkaliämie – Kombination vermeiden; nur bei nachgewiesenem Kaliummangel unter engmaschiger Kaliumkontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "ACE-Hemmer, Sartane, Aliskiren und Sacubitril/Valsartan",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:ace-hemmer",
+        "gruppe:sartane"
+      ],
+      "effekt": "Hyperkaliämie möglich, v. a. bei eingeschränkter Nierenfunktion – Kalium regelmässig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Verminderte Kaliumausscheidung – Hyperkaliämie möglich; Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trimethoprim (z. B. in Cotrimoxazol) und Heparine",
+      "ref": [
+        "sulfamethoxazol-trimethoprim",
+        "gruppe:heparine"
+      ],
+      "effekt": "Hemmen die Kaliumausscheidung – Hyperkaliämie möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Verminderte Kaliumausscheidung über die Niere – Kalium kontrollieren, v. a. bei Niereninsuffizienz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Kaliumpräparate und kaliumhaltige Salzersatzmittel",
+      "ref": [
+        "gruppe:kaliumpraeparate"
+      ],
+      "effekt": "Additive Kaliumzufuhr – Gefahr der Hyperkaliämie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Oxybutynin, Amitriptylin, Biperiden)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verlangsamte Magen-Darm-Passage – die Retardtablette kann länger an einer Stelle liegen und die Schleimhaut schädigen (Geschwüre). Flüssige Kaliumpräparate erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Kaliummangel und Kaliumüberschuss verändern die Digitaliswirkung; bei digitalisbedingtem AV-Block kann Kalium die Reizleitung weiter verschlechtern – Kalium und EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Drospirenon (in hormonalen Verhütungsmitteln)",
+      "ref": [
+        "drospirenon",
+        "ethinylestradiol-drospirenon"
+      ],
+      "effekt": "Leicht kaliumsparende Wirkung – im ersten Behandlungszyklus Kalium kontrollieren, v. a. bei Nierenerkrankung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "unbekannt": ["Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Bauchschmerzen, Blähungen, Durchfall (häufigste Nebenwirkungen)", "Geschwüre, Blutungen, Durchbruch (Perforation) oder Verengungen im Magen-Darm-Trakt durch Retardtabletten", "Hyperkaliämie (zu hohes Kalium) mit Muskelschwäche, Kribbeln und Herzrhythmusstörungen bis Herzstillstand", "Hautausschlag, Juckreiz", "Infusion: Venenreizung, Schmerzen und Venenentzündung an der Infusionsstelle"]
+    "unbekannt": [
+      "Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Bauchschmerzen, Blähungen, Durchfall (häufigste Nebenwirkungen)",
+      "Geschwüre, Blutungen, Durchbruch (Perforation) oder Verengungen im Magen-Darm-Trakt durch Retardtabletten",
+      "Hyperkaliämie (zu hohes Kalium) mit Muskelschwäche, Kribbeln und Herzrhythmusstörungen bis Herzstillstand",
+      "Hautausschlag, Juckreiz",
+      "Infusion: Venenreizung, Schmerzen und Venenentzündung an der Infusionsstelle"
+    ]
   },
   "schwangerschaft": "Kann zum Ausgleich eines Kaliummangels angewendet werden; Kalium ist ein natürlicher Bestandteil des Körpers.",
   "stillzeit": "Kann angewendet werden.",

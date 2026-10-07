@@ -1,45 +1,168 @@
 {
   "id": "valaciclovir",
   "name": "Valaciclovir",
-  "synonyme": ["Valacyclovir", "Valaciclovirhydrochlorid", "Valaciclovirum"],
-  "atc": ["J05AB11"],
+  "synonyme": [
+    "Valacyclovir",
+    "Valaciclovirhydrochlorid",
+    "Valaciclovirum"
+  ],
+  "atc": [
+    "J05AB11"
+  ],
   "klasse": "Virostatikum (Nukleosidanalogon gegen Herpesviren, Prodrug von Aciclovir)",
   "kurz": "Tabletten gegen Herpesviren bei Gürtelrose, Genital- und Lippenherpes; wird im Körper zu Aciclovir umgewandelt.",
-  "gruppen": ["nephrotoxisch"],
-  "handelsnamen": ["Valtrex", "Valaciclovir Mepha", "Valaciclovir Sandoz"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "nephrotoxisch"
+  ],
+  "handelsnamen": [
+    "Valtrex",
+    "Valaciclovir Mepha",
+    "Valaciclovir Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Gürtelrose (Herpes zoster), inkl. Zoster im Augenbereich (Zoster ophthalmicus)", "ids": ["herpes"] },
-    { "text": "Herpes-simplex-Infektionen von Haut und Schleimhäuten, inkl. Genitalherpes (Erstinfektion und Rückfälle)", "ids": ["herpes", "geschlechtskrankheit"] },
-    { "text": "Unterdrückung häufig wiederkehrender Herpes-simplex-Infektionen und Verminderung der Übertragung von Genitalherpes", "ids": ["herpes", "geschlechtskrankheit"] },
-    { "text": "Lippenherpes (Herpes labialis) als Eintagesbehandlung", "ids": ["herpes"] },
-    { "text": "Vorbeugung einer Zytomegalievirus-(CMV-)Infektion und -Erkrankung nach Organtransplantation", "ids": ["cmv-infektion", "transplantation"] }
+    {
+      "text": "Gürtelrose (Herpes zoster), inkl. Zoster im Augenbereich (Zoster ophthalmicus)",
+      "ids": [
+        "herpes"
+      ]
+    },
+    {
+      "text": "Herpes-simplex-Infektionen von Haut und Schleimhäuten, inkl. Genitalherpes (Erstinfektion und Rückfälle)",
+      "ids": [
+        "herpes",
+        "geschlechtskrankheit"
+      ]
+    },
+    {
+      "text": "Unterdrückung häufig wiederkehrender Herpes-simplex-Infektionen und Verminderung der Übertragung von Genitalherpes",
+      "ids": [
+        "herpes",
+        "geschlechtskrankheit"
+      ]
+    },
+    {
+      "text": "Lippenherpes (Herpes labialis) als Eintagesbehandlung",
+      "ids": [
+        "herpes"
+      ]
+    },
+    {
+      "text": "Vorbeugung einer Zytomegalievirus-(CMV-)Infektion und -Erkrankung nach Organtransplantation",
+      "ids": [
+        "cmv-infektion",
+        "transplantation"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung von Herpesviren in befallenen Zellen. Valaciclovir ist ein Prodrug (Valinester) von Aciclovir: Es wird im Darm viel besser aufgenommen und in Darm und Leber fast vollständig in Aciclovir umgewandelt, sodass drei- bis fünfmal höhere Aciclovir-Spiegel als nach Einnahme von Aciclovir selbst entstehen. In infizierten Zellen wird Aciclovir durch die virale Thymidinkinase zu Aciclovirtriphosphat aktiviert, das die virale DNA-Polymerase hemmt und zum Kettenabbruch führt. Latente Viren werden nicht beseitigt.",
   "kontraindikationen": [
-    { "text": "Überempfindlichkeit gegen Aciclovir (Kreuzallergie)", "ids": ["allergie"] }
+    {
+      "text": "Überempfindlichkeit gegen Aciclovir (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: Dosis anpassen; sonst Gefahr von Nierenversagen und neurologischen Nebenwirkungen (Verwirrtheit, Halluzinationen, Krampfanfälle)", "ids": ["niereninsuffizienz"] },
-    { "text": "Ältere Menschen: häufiger Nierenfunktionsstörungen und zentralnervöse Nebenwirkungen", "ids": ["aeltere-patienten"] },
-    { "text": "Flüssigkeitsmangel: ausreichend trinken, um Nierenschäden zu vermeiden", "ids": ["dehydratation"] },
-    { "text": "Hohe Dosen (CMV-Vorbeugung) bei Leberzirrhose oder Lebertransplantation: kaum Erfahrungen", "ids": ["leberzirrhose", "leberinsuffizienz"] },
-    { "text": "Fortgeschrittene HIV-Erkrankung unter hoher Dosis: thrombotische Mikroangiopathie (TTP/HUS) beschrieben", "ids": ["hiv"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis anpassen; sonst Gefahr von Nierenversagen und neurologischen Nebenwirkungen (Verwirrtheit, Halluzinationen, Krampfanfälle)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: häufiger Nierenfunktionsstörungen und zentralnervöse Nebenwirkungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel: ausreichend trinken, um Nierenschäden zu vermeiden",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Hohe Dosen (CMV-Vorbeugung) bei Leberzirrhose oder Lebertransplantation: kaum Erfahrungen",
+      "ids": [
+        "leberzirrhose",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene HIV-Erkrankung unter hoher Dosis: thrombotische Mikroangiopathie (TTP/HUS) beschrieben",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere nierenschädigende Mittel (z. B. Aminoglykoside, platinhaltige Zytostatika, jodhaltige Kontrastmittel, Foscarnet, Pentamidin, Ciclosporin, Tacrolimus), vor allem bei hohen Valaciclovir-Dosen", "ref": ["gruppe:nephrotoxisch", "foscarnet", "pentamidin"], "effekt": "Höheres Risiko für Nierenschäden – Nierenfunktion überwachen.", "schwere": "mittel" },
-    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Konkurrenz bei der Nierenausscheidung, vor allem bei hohen Valaciclovir-Dosen – Nierenfunktion und Methotrexat-Verträglichkeit überwachen.", "schwere": "mittel" },
-    { "text": "Mycophenolat", "ref": ["mycophenolat-mofetil", "mycophenolsaeure"], "effekt": "Spiegel beider Mittel steigen – nach Transplantation Nierenfunktion beachten.", "schwere": "leicht" },
-    { "text": "Probenecid und Cimetidin", "ref": [], "effekt": "Aciclovir-Spiegel steigen; bei üblichen Dosen meist ohne Bedeutung, bei hohen Dosen Vorsicht.", "schwere": "leicht" }
+    {
+      "text": "Andere nierenschädigende Mittel (z. B. Aminoglykoside, platinhaltige Zytostatika, jodhaltige Kontrastmittel, Foscarnet, Pentamidin, Ciclosporin, Tacrolimus), vor allem bei hohen Valaciclovir-Dosen",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "foscarnet",
+        "pentamidin"
+      ],
+      "effekt": "Höheres Risiko für Nierenschäden – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Konkurrenz bei der Nierenausscheidung, vor allem bei hohen Valaciclovir-Dosen – Nierenfunktion und Methotrexat-Verträglichkeit überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mycophenolat",
+      "ref": [
+        "mycophenolat-mofetil",
+        "mycophenolsaeure"
+      ],
+      "effekt": "Spiegel beider Mittel steigen – nach Transplantation Nierenfunktion beachten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Probenecid und Cimetidin",
+      "ref": [],
+      "effekt": "Aciclovir-Spiegel steigen; bei üblichen Dosen meist ohne Bedeutung, bei hohen Dosen Vorsicht.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen"],
-    "haeufig": ["Übelkeit, Erbrechen, Durchfall", "Hautausschlag, auch durch Licht ausgelöst, Juckreiz"],
-    "gelegentlich": ["Leukopenie, Thrombozytopenie (vor allem bei geschwächter Abwehr)", "Schwindel, Verwirrtheit, Halluzinationen, Bewusstseinstrübung, Zittern, Unruhe", "Atemnot", "Bauchbeschwerden", "Erhöhte Leberwerte", "Nesselsucht", "Nierenschmerzen, Blut im Urin"],
-    "selten": ["Anaphylaxie (schwere allergische Reaktion), Angioödem", "Ataxie, Sprechstörungen, Krampfanfälle, Enzephalopathie, Koma, Psychose, Delir", "Nierenfunktionsstörung bis akutes Nierenversagen (besonders bei älteren Menschen oder zu hoher Dosis)"],
-    "unbekannt": ["DRESS (schwere Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)"]
+    "sehrHaeufig": [
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Übelkeit, Erbrechen, Durchfall",
+      "Hautausschlag, auch durch Licht ausgelöst, Juckreiz"
+    ],
+    "gelegentlich": [
+      "Leukopenie, Thrombozytopenie (vor allem bei geschwächter Abwehr)",
+      "Schwindel, Verwirrtheit, Halluzinationen, Bewusstseinstrübung, Zittern, Unruhe",
+      "Atemnot",
+      "Bauchbeschwerden",
+      "Erhöhte Leberwerte",
+      "Nesselsucht",
+      "Nierenschmerzen, Blut im Urin"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion), Angioödem",
+      "Ataxie, Sprechstörungen, Krampfanfälle, Enzephalopathie, Koma, Psychose, Delir",
+      "Nierenfunktionsstörung bis akutes Nierenversagen (besonders bei älteren Menschen oder zu hoher Dosis)"
+    ],
+    "unbekannt": [
+      "DRESS (schwere Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)"
+    ]
   },
   "schwangerschaft": "Schwangerschaftsregister zu Valaciclovir und Aciclovir zeigen kein erhöhtes Fehlbildungsrisiko; Anwendung nach ärztlicher Abwägung.",
   "stillzeit": "Aciclovir geht in die Muttermilch über; die Mengen gelten als gering, Stillen ist nach ärztlicher Abwägung möglich.",

@@ -1,54 +1,260 @@
 {
   "id": "doxycyclin",
   "name": "Doxycyclin",
-  "synonyme": ["Doxycycline", "Doxycyclinum", "Doxycyclin-Hyclat", "Doxycyclin-Monohydrat"],
-  "atc": ["J01AA02"],
+  "synonyme": [
+    "Doxycycline",
+    "Doxycyclinum",
+    "Doxycyclin-Hyclat",
+    "Doxycyclin-Monohydrat"
+  ],
+  "atc": [
+    "J01AA02"
+  ],
   "klasse": "Tetracyclin-Antibiotikum",
   "kurz": "Breit wirksames Antibiotikum aus der Gruppe der Tetracycline, z. B. bei Atemwegsinfekten, Borreliose, Chlamydien und schwerer Akne.",
-  "gruppen": ["tetracycline", "photosensibilisierend", "teratogen"],
-  "handelsnamen": ["Vibramycin", "Supracyclin", "Doxycyclin Mepha", "Doxycyclin Sandoz"],
-  "abgabe": ["A"],
-  "darreichung": ["Tabletten", "Lösliche Tabletten"],
+  "gruppen": [
+    "tetracycline",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Vibramycin",
+    "Supracyclin",
+    "Doxycyclin Mepha",
+    "Doxycyclin Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Lösliche Tabletten"
+  ],
   "indikationen": [
-    { "text": "Atemwegsinfektionen, z. B. Verschlimmerung einer chronischen Bronchitis, Nasennebenhöhlenentzündung, Lungenentzündung durch Mykoplasmen, Chlamydien oder Legionellen", "ids": ["atemwegsinfekt", "bronchitis", "copd", "sinusitis", "lungenentzuendung"] },
-    { "text": "Sexuell übertragbare Infektionen, z. B. Chlamydien-Infektionen von Harnröhre und Gebärmutterhals, Syphilis bei Penicillinallergie", "ids": ["geschlechtskrankheit"] },
-    { "text": "Lyme-Borreliose im Frühstadium (z. B. Wanderröte)", "ids": ["borreliose"] },
-    { "text": "Seltenere Infektionen wie Rickettsiosen, Q-Fieber, Brucellose, Cholera oder Milzbrand", "ids": ["bakterielle-infektion"] },
-    { "text": "Schwere entzündliche Akne (zusätzlich zur äusserlichen Behandlung)", "ids": ["akne"] }
+    {
+      "text": "Atemwegsinfektionen, z. B. Verschlimmerung einer chronischen Bronchitis, Nasennebenhöhlenentzündung, Lungenentzündung durch Mykoplasmen, Chlamydien oder Legionellen",
+      "ids": [
+        "atemwegsinfekt",
+        "bronchitis",
+        "copd",
+        "sinusitis",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Sexuell übertragbare Infektionen, z. B. Chlamydien-Infektionen von Harnröhre und Gebärmutterhals, Syphilis bei Penicillinallergie",
+      "ids": [
+        "geschlechtskrankheit"
+      ]
+    },
+    {
+      "text": "Lyme-Borreliose im Frühstadium (z. B. Wanderröte)",
+      "ids": [
+        "borreliose"
+      ]
+    },
+    {
+      "text": "Seltenere Infektionen wie Rickettsiosen, Q-Fieber, Brucellose, Cholera oder Milzbrand",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Schwere entzündliche Akne (zusätzlich zur äusserlichen Behandlung)",
+      "ids": [
+        "akne"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt das Wachstum und die Vermehrung von Bakterien. Doxycyclin bindet an die 30S-Untereinheit der bakteriellen Ribosomen und verhindert die Anlagerung der Aminoacyl-tRNA; dadurch wird die Eiweissbildung der Bakterien blockiert (bakteriostatische Wirkung). Das Spektrum umfasst viele grampositive und gramnegative Keime sowie Erreger, die in Zellen leben, wie Chlamydien, Mykoplasmen und Rickettsien, ausserdem Borrelien. Doxycyclin ist gut fettlöslich, wird fast vollständig aufgenommen und reichert sich auch bei eingeschränkter Nierenfunktion kaum an.",
   "kontraindikationen": [
-    { "text": "Allergie gegen andere Tetracycline (Kreuzallergie)", "ids": ["allergie"] },
-    { "text": "Kinder unter 8 Jahren (bleibende Zahnverfärbung, Störung des Knochenwachstums)", "ids": ["kinder"] },
-    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
-    { "text": "Stillzeit", "ids": ["stillzeit"] },
-    { "text": "Schwere Leberfunktionsstörung", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Allergie gegen andere Tetracycline (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Kinder unter 8 Jahren (bleibende Zahnverfärbung, Störung des Knochenwachstums)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Leichte bis mittelschwere Leberfunktionsstörung oder gleichzeitige Einnahme leberschädigender Mittel", "ids": ["leberinsuffizienz"] },
-    { "text": "Myasthenia gravis (Muskelschwäche kann zunehmen)", "ids": ["myasthenia-gravis"] },
-    { "text": "Sonne und UV-Licht: Gefahr von sonnenbrandähnlichen Hautreaktionen und Ablösung der Nägel", "ids": ["sonnenbrand"] },
-    { "text": "Systemischer Lupus erythematodes (kann sich verschlechtern)", "ids": ["lupus"] },
-    { "text": "Akute Porphyrie", "ids": ["porphyrie"] },
-    { "text": "Starke Kopfschmerzen mit Sehstörungen: mögliches Zeichen eines erhöhten Hirndrucks (Pseudotumor cerebri) – Behandlung abbrechen", "ids": ["kopfschmerzen"] },
-    { "text": "Schwerer oder anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
-    { "text": "Bettlägerigkeit oder Schluckstörungen: erhöhte Gefahr von Speiseröhrengeschwüren", "ids": [] }
+    {
+      "text": "Leichte bis mittelschwere Leberfunktionsstörung oder gleichzeitige Einnahme leberschädigender Mittel",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Muskelschwäche kann zunehmen)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Sonne und UV-Licht: Gefahr von sonnenbrandähnlichen Hautreaktionen und Ablösung der Nägel",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Systemischer Lupus erythematodes (kann sich verschlechtern)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Starke Kopfschmerzen mit Sehstörungen: mögliches Zeichen eines erhöhten Hirndrucks (Pseudotumor cerebri) – Behandlung abbrechen",
+      "ids": [
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Schwerer oder anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Bettlägerigkeit oder Schluckstörungen: erhöhte Gefahr von Speiseröhrengeschwüren",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Isotretinoin (Aknemittel zum Einnehmen)", "ref": ["isotretinoin"], "grund": "Beide Mittel können den Hirndruck erhöhen – die Kombination steigert das Risiko eines Pseudotumor cerebri." },
-    { "text": "Acitretin", "ref": ["acitretin"], "grund": "Gefahr eines erhöhten Hirndrucks (Pseudotumor cerebri); die Kombination ist in der Fachinformation von Acitretin kontraindiziert." }
+    {
+      "text": "Isotretinoin (Aknemittel zum Einnehmen)",
+      "ref": [
+        "isotretinoin"
+      ],
+      "grund": "Beide Mittel können den Hirndruck erhöhen – die Kombination steigert das Risiko eines Pseudotumor cerebri."
+    },
+    {
+      "text": "Acitretin",
+      "ref": [
+        "acitretin"
+      ],
+      "grund": "Gefahr eines erhöhten Hirndrucks (Pseudotumor cerebri); die Kombination ist in der Fachinformation von Acitretin kontraindiziert."
+    },
+    {
+      "text": "Alitretinoin (zum Einnehmen)",
+      "ref": [
+        "alitretinoin"
+      ],
+      "grund": "Gefahr eines erhöhten Hirndrucks (Pseudotumor cerebri); die Kombination ist in der Fachinformation von Alitretinoin kontraindiziert."
+    }
   ],
   "interaktionen": [
-    { "text": "Calcium-, Magnesium-, Aluminium-, Eisen- und Zinkhaltige Mittel (Antazida, Mineralstoff- und Eisenpräparate), Bismut", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida", "gruppe:eisenpraeparate"], "effekt": "Doxycyclin wird im Darm gebunden und schlecht aufgenommen – Wirkungsverlust. Mindestens 2–3 Stunden Abstand einhalten.", "schwere": "mittel" },
-    { "text": "Methoxyfluran (Schmerzmittel zum Inhalieren)", "ref": ["methoxyfluran"], "effekt": "Schwere, teils tödliche Nierenschäden beschrieben – nicht kombinieren.", "schwere": "schwer" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Blutverdünnung möglich – INR häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Phenytoin, Barbiturate) und regelmässiger Alkoholkonsum", "ref": ["gruppe:cyp3a4-induktoren", "gruppe:barbiturate"], "effekt": "Doxycyclin wird schneller abgebaut, die Wirkung kann ungenügend sein – ärztliche Dosisanpassung prüfen.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ciclosporin-Spiegel können steigen – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Erhöhte Methotrexat-Toxizität möglich – Blutbild und Nierenfunktion kontrollieren.", "schwere": "mittel" },
-    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
-    { "text": "Penicilline und Cephalosporine", "ref": ["gruppe:penicilline", "gruppe:cephalosporine"], "effekt": "Doxycyclin kann die bakterientötende Wirkung von Beta-Laktam-Antibiotika abschwächen – Kombination vermeiden.", "schwere": "leicht" },
-    { "text": "Sulfonylharnstoffe", "ref": ["gruppe:sulfonylharnstoffe"], "effekt": "Die Blutzuckersenkung kann verstärkt werden – Blutzucker kontrollieren.", "schwere": "leicht" },
-    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "In seltenen Fällen, besonders bei Durchfall oder Erbrechen, verminderte Verhütungssicherheit – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+    {
+      "text": "Calcium-, Magnesium-, Aluminium-, Eisen- und Zinkhaltige Mittel (Antazida, Mineralstoff- und Eisenpräparate), Bismut",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Doxycyclin wird im Darm gebunden und schlecht aufgenommen – Wirkungsverlust. Mindestens 2–3 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methoxyfluran (Schmerzmittel zum Inhalieren)",
+      "ref": [
+        "methoxyfluran"
+      ],
+      "effekt": "Schwere, teils tödliche Nierenschäden beschrieben – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Phenytoin, Barbiturate) und regelmässiger Alkoholkonsum",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:barbiturate"
+      ],
+      "effekt": "Doxycyclin wird schneller abgebaut, die Wirkung kann ungenügend sein – ärztliche Dosisanpassung prüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöhte Methotrexat-Toxizität möglich – Blutbild und Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Typhus-Lebendimpfstoff zum Schlucken",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Penicilline und Cephalosporine",
+      "ref": [
+        "gruppe:penicilline",
+        "gruppe:cephalosporine"
+      ],
+      "effekt": "Doxycyclin kann die bakterientötende Wirkung von Beta-Laktam-Antibiotika abschwächen – Kombination möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Die Blutzuckersenkung kann verstärkt werden – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel («Pille»)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "In seltenen Fällen, besonders bei Durchfall oder Erbrechen, verminderte Verhütungssicherheit – im Zweifel zusätzlich verhüten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [
@@ -58,7 +264,9 @@
       "Hautausschlag",
       "Überempfindlichkeitsreaktionen (z. B. Nesselsucht, Schwellungen, in schweren Fällen Anaphylaxie)"
     ],
-    "gelegentlich": ["Dyspepsie (Sodbrennen, Magenschleimhautreizung)"],
+    "gelegentlich": [
+      "Dyspepsie (Sodbrennen, Magenschleimhautreizung)"
+    ],
     "selten": [
       "Speiseröhrenentzündung und -geschwüre, Schluckbeschwerden",
       "Durchfall, Bauchschmerzen, Zungenentzündung",

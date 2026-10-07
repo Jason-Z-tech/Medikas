@@ -1,44 +1,183 @@
 {
   "id": "glucose",
   "name": "Glucose",
-  "synonyme": ["Glukose", "Dextrose", "Traubenzucker", "D-Glucose", "Glucose-Infusionslösung"],
-  "atc": ["B05BA03", "B05CX01"],
+  "synonyme": [
+    "Glukose",
+    "Dextrose",
+    "Traubenzucker",
+    "D-Glucose",
+    "Glucose-Infusionslösung"
+  ],
+  "atc": [
+    "B05BA03",
+    "B05CX01"
+  ],
   "klasse": "Kohlenhydrat-Infusionslösung (Energie- und Flüssigkeitszufuhr)",
   "kurz": "Zuckerlösung zur Infusion: liefert Energie und Flüssigkeit, behandelt Unterzuckerung und dient als Trägerlösung für Medikamente.",
-  "gruppen": ["hyponatriaemie-ausloesend", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Glucose Bichsel", "Glucose B. Braun", "Glucose Fresenius"],
-  "abgabe": ["B"],
-  "darreichung": ["Infusionslösung 5 % und 10 %", "Konzentrierte Lösungen (z. B. 20 %, 40 %, 50 %, 70 %)"],
+  "gruppen": [
+    "hyponatriaemie-ausloesend",
+    "hypokaliaemie-ausloesend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Glucose Bichsel",
+    "Glucose B. Braun",
+    "Glucose Fresenius"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung 5 % und 10 %",
+    "Konzentrierte Lösungen (z. B. 20 %, 40 %, 50 %, 70 %)"
+  ],
   "indikationen": [
-    { "text": "Behandlung einer Unterzuckerung (Hypoglykämie), v. a. konzentrierte Lösungen", "ids": ["hypoglykaemie"] },
-    { "text": "Kohlenhydrat- und Energiezufuhr, auch als Teil der parenteralen Ernährung", "ids": ["mangelernaehrung"] },
-    { "text": "Flüssigkeitszufuhr (freies Wasser), z. B. bei Flüssigkeitsmangel mit erhöhtem Natrium (hypertone Dehydratation)", "ids": ["dehydratation"] },
-    { "text": "Träger- und Verdünnungslösung für verträgliche Arzneimittel (5 %)" }
+    {
+      "text": "Behandlung einer Unterzuckerung (Hypoglykämie), v. a. konzentrierte Lösungen",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Kohlenhydrat- und Energiezufuhr, auch als Teil der parenteralen Ernährung",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Flüssigkeitszufuhr (freies Wasser), z. B. bei Flüssigkeitsmangel mit erhöhtem Natrium (hypertone Dehydratation)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Träger- und Verdünnungslösung für verträgliche Arzneimittel (5 %)"
+    }
   ],
   "wirkmechanismus": "Liefert dem Körper schnell verfügbare Energie und Flüssigkeit. Glucose ist der wichtigste Energieträger der Zellen; sie wird mit Hilfe von Insulin in die Zellen aufgenommen und zu Kohlendioxid und Wasser verstoffwechselt (rund 4 kcal pro Gramm) oder als Glykogen gespeichert. Eine 5 %-Lösung ist anfangs etwa blutisoton, nach dem Verbrauch der Glucose bleibt aber freies Wasser zurück – sie wirkt im Körper deshalb wie eine natriumfreie, hypotone Lösung. Konzentrierte Lösungen heben den Blutzucker rasch an.",
   "kontraindikationen": [
-    { "text": "Nicht eingestellte Hyperglykämie (stark erhöhter Blutzucker), hyperosmolares Koma, sonstige ausgeprägte Glucoseverwertungsstörungen", "ids": ["diabetes", "ketoazidose"] },
-    { "text": "Überwässerung (Hyperhydratation) und hypotone Zustände, z. B. Wasserintoxikation", "ids": ["hyponatriaemie", "oedeme"] },
-    { "text": "Hyperlaktatämie (erhöhter Milchsäurespiegel im Blut)" },
-    { "text": "Konzentrierte Lösungen: Blutungen in Gehirn oder Rückenmark, schwere Austrocknung, Delirium tremens bei Flüssigkeitsmangel", "ids": ["hirnblutung", "dehydratation", "delir", "alkoholabhaengigkeit"] }
+    {
+      "text": "Nicht eingestellte Hyperglykämie (stark erhöhter Blutzucker), hyperosmolares Koma, sonstige ausgeprägte Glucoseverwertungsstörungen",
+      "ids": [
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Überwässerung (Hyperhydratation) und hypotone Zustände, z. B. Wasserintoxikation",
+      "ids": [
+        "hyponatriaemie",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Hyperlaktatämie (erhöhter Milchsäurespiegel im Blut)"
+    },
+    {
+      "text": "Konzentrierte Lösungen: Blutungen in Gehirn oder Rückenmark, schwere Austrocknung, Delirium tremens bei Flüssigkeitsmangel",
+      "ids": [
+        "hirnblutung",
+        "delir"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Gefahr der akuten Hyponatriämie (Natriummangel) mit Hirnschwellung, v. a. bei Kindern, älteren Menschen, Frauen, nach Operationen, bei Hirnerkrankungen und erhöhter ADH-Ausschüttung (SIADH)", "ids": ["hyponatriaemie", "kinder", "aeltere-patienten", "operation"] },
-    { "text": "Diabetes und Stressstoffwechsel: Blutzucker engmaschig kontrollieren, ggf. Insulin anpassen", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2"] },
-    { "text": "Kalium-, Phosphat- und Magnesiumabfall (Glucose verschiebt sie in die Zellen); bei Mangelernährung Gefahr des Refeeding-Syndroms", "ids": ["hypokaliaemie", "magnesiummangel", "mangelernaehrung"] },
-    { "text": "Alkoholkrankheit und Mangelernährung: vor der Glucose Vitamin B1 (Thiamin) geben, sonst Gefahr einer Wernicke-Enzephalopathie", "ids": ["alkoholabhaengigkeit", "mangelernaehrung"] },
-    { "text": "Akuter Schlaganfall und Schädel-Hirn-Verletzung: hoher Blutzucker verschlechtert die Prognose", "ids": ["schlaganfall"] },
-    { "text": "Herz- und Niereninsuffizienz: Gefahr der Überwässerung", "ids": ["herzinsuffizienz", "niereninsuffizienz"] }
+    {
+      "text": "Gefahr der akuten Hyponatriämie (Natriummangel) mit Hirnschwellung, v. a. bei Kindern, älteren Menschen, Frauen, nach Operationen, bei Hirnerkrankungen und erhöhter ADH-Ausschüttung (SIADH)",
+      "ids": [
+        "hyponatriaemie",
+        "kinder",
+        "aeltere-patienten",
+        "operation"
+      ]
+    },
+    {
+      "text": "Diabetes und Stressstoffwechsel: Blutzucker engmaschig kontrollieren, ggf. Insulin anpassen",
+      "ids": [
+        "diabetes",
+        "diabetes-typ-1",
+        "diabetes-typ-2"
+      ]
+    },
+    {
+      "text": "Kalium-, Phosphat- und Magnesiumabfall (Glucose verschiebt sie in die Zellen); bei Mangelernährung Gefahr des Refeeding-Syndroms",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Alkoholkrankheit und Mangelernährung: vor der Glucose Vitamin B1 (Thiamin) geben, sonst Gefahr einer Wernicke-Enzephalopathie",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Akuter Schlaganfall und Schädel-Hirn-Verletzung: hoher Blutzucker verschlechtert die Prognose",
+      "ids": [
+        "schlaganfall",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Herz- und Niereninsuffizienz: Gefahr der Überwässerung",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Arzneimittel, die die ADH-Wirkung verstärken oder Natrium senken (z. B. SSRI, Carbamazepin, Oxcarbazepin, Thiazide, Opioide, Antipsychotika, Desmopressin, NSAR)", "ref": ["gruppe:hyponatriaemie-ausloesend", "gruppe:ssri", "gruppe:thiaziddiuretika", "desmopressin"], "effekt": "Erhöhtes Risiko einer akuten Hyponatriämie mit Hirnschwellung unter Glucoselösungen – Natrium engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Insulin und blutzuckersenkende Mittel", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Gegenläufige Wirkung auf den Blutzucker – Blutzucker kontrollieren und Therapie anpassen.", "schwere": "mittel" },
-    { "text": "Herzglykoside (z. B. Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Glucose (v. a. mit Insulin) senkt das Kalium und kann so Herzrhythmusstörungen durch Digitalis begünstigen – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Verstärkter Blutzuckeranstieg – Blutzucker kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Arzneimittel, die die ADH-Wirkung verstärken oder Natrium senken (z. B. SSRI, Carbamazepin, Oxcarbazepin, Thiazide, Opioide, Antipsychotika, Desmopressin, NSAR)",
+      "ref": [
+        "gruppe:hyponatriaemie-ausloesend",
+        "gruppe:ssri",
+        "gruppe:thiaziddiuretika",
+        "desmopressin"
+      ],
+      "effekt": "Erhöhtes Risiko einer akuten Hyponatriämie mit Hirnschwellung unter Glucoselösungen – Natrium engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und blutzuckersenkende Mittel",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Gegenläufige Wirkung auf den Blutzucker – Blutzucker kontrollieren und Therapie anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Glucose (v. a. mit Insulin) senkt das Kalium und kann so Herzrhythmusstörungen durch Digitalis begünstigen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verstärkter Blutzuckeranstieg – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "unbekannt": ["Hyperglykämie (zu hoher Blutzucker), Zucker im Urin, vermehrtes Wasserlassen", "Akute Hyponatriämie mit Hirnschwellung (hyponatriämische Enzephalopathie): Kopfschmerzen, Übelkeit, Krampfanfälle, Bewusstseinsstörung", "Hypokaliämie, Hypophosphatämie, Hypomagnesiämie", "Überwässerung, Ödeme", "Venenreizung und Venenentzündung (Thrombophlebitis), v. a. bei konzentrierten Lösungen", "Gewebeschäden bei Austritt neben die Vene (Paravasat)", "Fieber, Schüttelfrost, Reaktionen an der Infusionsstelle", "Überempfindlichkeitsreaktionen"]
+    "unbekannt": [
+      "Hyperglykämie (zu hoher Blutzucker), Zucker im Urin, vermehrtes Wasserlassen",
+      "Akute Hyponatriämie mit Hirnschwellung (hyponatriämische Enzephalopathie): Kopfschmerzen, Übelkeit, Krampfanfälle, Bewusstseinsstörung",
+      "Hypokaliämie, Hypophosphatämie, Hypomagnesiämie",
+      "Überwässerung, Ödeme",
+      "Venenreizung und Venenentzündung (Thrombophlebitis), v. a. bei konzentrierten Lösungen",
+      "Gewebeschäden bei Austritt neben die Vene (Paravasat)",
+      "Fieber, Schüttelfrost, Reaktionen an der Infusionsstelle",
+      "Überempfindlichkeitsreaktionen"
+    ]
   },
   "schwangerschaft": "Kann angewendet werden. Blutzucker, Natrium und Flüssigkeitshaushalt überwachen; bei der Geburt kann zu viel Glucose beim Neugeborenen eine Unterzuckerung und bei der Mutter einen Natriummangel auslösen.",
   "stillzeit": "Kann angewendet werden.",

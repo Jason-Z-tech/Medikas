@@ -1,40 +1,153 @@
 {
   "id": "eisen-iii-carboxymaltose",
   "name": "Eisen(III)-carboxymaltose",
-  "synonyme": ["Eisencarboxymaltose", "Ferric carboxymaltose", "FCM", "Eiseninfusion"],
-  "atc": ["B03AC"],
+  "synonyme": [
+    "Eisencarboxymaltose",
+    "Ferric carboxymaltose",
+    "FCM"
+  ],
+  "atc": [
+    "B03AC"
+  ],
   "klasse": "Eisenpräparat (intravenös, dreiwertiges Eisen)",
   "kurz": "Eiseninfusion, die in einer oder zwei Gaben grosse Eisenmengen zuführt – wenn Eisentabletten nicht wirken oder nicht vertragen werden.",
-  "gruppen": ["eisenpraeparate"],
-  "handelsnamen": ["Ferinject"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektions- und Infusionslösung (Durchstechflaschen)"],
+  "gruppen": [
+    "eisenpraeparate"
+  ],
+  "handelsnamen": [
+    "Ferinject"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektions- und Infusionslösung (Durchstechflaschen)"
+  ],
   "indikationen": [
-    { "text": "Eisenmangel mit oder ohne Blutarmut, wenn Eisen zum Einnehmen nicht wirkt, nicht vertragen wird oder eine rasche Eisenzufuhr nötig ist (Diagnose durch Laborwerte gesichert) – häufig z. B. bei Herzschwäche, entzündlichen Darmerkrankungen oder chronischer Nierenkrankheit", "ids": ["eisenmangel", "anaemie", "herzinsuffizienz", "morbus-crohn", "colitis-ulcerosa", "niereninsuffizienz"] }
+    {
+      "text": "Eisenmangel mit oder ohne Blutarmut, wenn Eisen zum Einnehmen nicht wirkt, nicht vertragen wird oder eine rasche Eisenzufuhr nötig ist (Diagnose durch Laborwerte gesichert) – häufig z. B. bei Herzschwäche, entzündlichen Darmerkrankungen oder chronischer Nierenkrankheit",
+      "ids": [
+        "eisenmangel",
+        "anaemie",
+        "herzinsuffizienz",
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Füllt die Eisenspeicher direkt über die Vene auf, unter Umgehung des Darms. Eisencarboxymaltose ist ein stabiler Komplex aus einem Eisen(III)-hydroxid-Kern und einer Kohlenhydrathülle, der kaum freies Eisen abgibt. Er wird von Fresszellen (Makrophagen) in Leber, Milz und Knochenmark aufgenommen; das freigesetzte Eisen wird an Transferrin gebunden oder als Ferritin gespeichert und für die Hämoglobinbildung genutzt. Dank der Stabilität können bis zu 1000 mg Eisen in einer Kurzinfusion gegeben werden.",
   "kontraindikationen": [
-    { "text": "Schwere Überempfindlichkeitsreaktion auf ein anderes Eisenpräparat zur Injektion oder Infusion", "ids": ["anaphylaxie"] },
-    { "text": "Blutarmut, die nicht durch Eisenmangel verursacht ist, z. B. andere mikrozytäre Anämien", "ids": ["anaemie", "sichelzellanaemie"] },
-    { "text": "Eisenüberladung oder Eisenverwertungsstörungen", "ids": ["sichelzellanaemie"] }
+    {
+      "text": "Schwere Überempfindlichkeitsreaktion auf ein anderes Eisenpräparat zur Injektion oder Infusion",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Blutarmut, die nicht durch Eisenmangel verursacht ist, z. B. andere mikrozytäre Anämien",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "Eisenüberladung oder Eisenverwertungsstörungen",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Schwere allergische (anaphylaktische) Reaktionen möglich, auch wenn frühere Gaben gut vertragen wurden: Gabe nur mit Notfallausrüstung, Überwachung mindestens 30 Minuten", "ids": ["anaphylaxie"] },
-    { "text": "Erhöhtes Allergierisiko bei bekannten Allergien, schwerem Asthma, Ekzem und Immun- oder Entzündungskrankheiten (z. B. Lupus, rheumatoide Arthritis)", "ids": ["allergie", "asthma", "neurodermitis", "lupus", "rheumatoide-arthritis"] },
-    { "text": "Phosphatmangel (Hypophosphatämie), der symptomatisch werden und zu Knochenerweichung (Osteomalazie) und Brüchen führen kann – v. a. bei wiederholter Gabe, Vitamin-D-Mangel, Nebenschilddrüsen-Überfunktion, Malabsorption oder entzündlichen Darmerkrankungen", "ids": ["vitamin-d-mangel", "hyperparathyreoidismus", "osteoporose", "morbus-crohn", "colitis-ulcerosa"] },
-    { "text": "Leberfunktionsstörungen: nur nach sorgfältiger Abwägung, Eisenstatus überwachen (Eisenüberladung vermeiden)", "ids": ["leberinsuffizienz"] },
-    { "text": "Akute oder chronische Infektionen: bei bakterieller Blutinfektion nicht anwenden bzw. Behandlung unterbrechen", "ids": ["aktive-infektion", "bakterielle-infektion"] },
-    { "text": "Austritt der Lösung neben die Vene (Paravasat) kann eine lang anhaltende braune Hautverfärbung verursachen", "ids": [] }
+    {
+      "text": "Schwere allergische (anaphylaktische) Reaktionen möglich, auch wenn frühere Gaben gut vertragen wurden: Gabe nur mit Notfallausrüstung, Überwachung mindestens 30 Minuten",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Allergierisiko bei bekannten Allergien, schwerem Asthma, Ekzem und Immun- oder Entzündungskrankheiten (z. B. Lupus, rheumatoide Arthritis)",
+      "ids": [
+        "allergie",
+        "asthma",
+        "neurodermitis",
+        "lupus",
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Phosphatmangel (Hypophosphatämie), der symptomatisch werden und zu Knochenerweichung (Osteomalazie) und Brüchen führen kann – v. a. bei wiederholter Gabe, Vitamin-D-Mangel, Nebenschilddrüsen-Überfunktion, Malabsorption oder entzündlichen Darmerkrankungen",
+      "ids": [
+        "vitamin-d-mangel",
+        "hyperparathyreoidismus",
+        "osteoporose",
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Leberfunktionsstörungen: nur nach sorgfältiger Abwägung, Eisenstatus überwachen (Eisenüberladung vermeiden)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute oder chronische Infektionen: bei bakterieller Blutinfektion nicht anwenden bzw. Behandlung unterbrechen",
+      "ids": [
+        "aktive-infektion",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Austritt der Lösung neben die Vene (Paravasat) kann eine lang anhaltende braune Hautverfärbung verursachen",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Eisen zum Einnehmen (Tabletten, Tropfen, Sirup)", "ref": ["eisen-ii-sulfat", "eisen-iii-hydroxid-polymaltose-komplex", "eisen-ii-gluconat"], "effekt": "Die Aufnahme von oralem Eisen ist nach einer Infusion vermindert – eine orale Eisentherapie frühestens 5 Tage nach der letzten Infusion beginnen.", "schwere": "leicht" }
+    {
+      "text": "Eisen zum Einnehmen (Tabletten, Tropfen, Sirup)",
+      "ref": [
+        "eisen-ii-sulfat",
+        "eisen-iii-hydroxid-polymaltose-komplex",
+        "eisen-ii-gluconat"
+      ],
+      "effekt": "Die Aufnahme von oralem Eisen ist nach einer Infusion vermindert – eine orale Eisentherapie frühestens 5 Tage nach der letzten Infusion beginnen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Hypophosphatämie (Phosphatmangel im Blut)", "Kopfschmerzen", "Schwindel", "Flush (Hitzegefühl, Hautrötung)", "Bluthochdruck", "Übelkeit", "Reaktionen an der Infusionsstelle (Schmerzen, Bluterguss, Verfärbung, Paravasat)"],
-    "gelegentlich": ["Überempfindlichkeitsreaktionen", "Kribbeln (Parästhesien), Geschmacksstörung", "Herzrasen, Blutdruckabfall", "Atemnot", "Erbrechen, Bauchschmerzen, Durchfall, Verstopfung", "Juckreiz, Nesselsucht, Hautausschlag", "Muskel-, Gelenk- und Rückenschmerzen", "Fieber, Müdigkeit, Schüttelfrost, Wassereinlagerungen", "Erhöhte Leberwerte"],
-    "selten": ["Anaphylaktische Reaktionen (allergischer Schock)", "Bronchospasmus (Verkrampfung der Atemwege)", "Kurze Bewusstlosigkeit (Synkope)", "Venenentzündung", "Angst"],
-    "unbekannt": ["Hypophosphatämische Osteomalazie (Knochenerweichung durch Phosphatmangel), Knochenbrüche", "Kounis-Syndrom (allergisch ausgelöster Herzinfarkt)", "Gesichtsschwellung (Angioödem)"]
+    "haeufig": [
+      "Hypophosphatämie (Phosphatmangel im Blut)",
+      "Kopfschmerzen",
+      "Schwindel",
+      "Flush (Hitzegefühl, Hautrötung)",
+      "Bluthochdruck",
+      "Übelkeit",
+      "Reaktionen an der Infusionsstelle (Schmerzen, Bluterguss, Verfärbung, Paravasat)"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Kribbeln (Parästhesien), Geschmacksstörung",
+      "Herzrasen, Blutdruckabfall",
+      "Atemnot",
+      "Erbrechen, Bauchschmerzen, Durchfall, Verstopfung",
+      "Juckreiz, Nesselsucht, Hautausschlag",
+      "Muskel-, Gelenk- und Rückenschmerzen",
+      "Fieber, Müdigkeit, Schüttelfrost, Wassereinlagerungen",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Anaphylaktische Reaktionen (allergischer Schock)",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Kurze Bewusstlosigkeit (Synkope)",
+      "Venenentzündung",
+      "Angst"
+    ],
+    "unbekannt": [
+      "Hypophosphatämische Osteomalazie (Knochenerweichung durch Phosphatmangel), Knochenbrüche",
+      "Kounis-Syndrom (allergisch ausgelöster Herzinfarkt)",
+      "Gesichtsschwellung (Angioödem)"
+    ]
   },
   "schwangerschaft": "Im 1. Drittel nicht anwenden. Im 2. und 3. Drittel nur, wenn der Nutzen das Risiko klar überwiegt; eine allergische Reaktion der Mutter kann beim Ungeborenen eine Verlangsamung des Herzschlags auslösen.",
   "stillzeit": "Es geht nur sehr wenig Eisen in die Muttermilch über; die Anwendung ist nach ärztlicher Abwägung möglich.",

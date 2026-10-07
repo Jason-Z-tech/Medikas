@@ -1,53 +1,245 @@
 {
   "id": "spironolacton",
   "name": "Spironolacton",
-  "synonyme": ["Spironolactone", "Spironolactonum"],
-  "atc": ["C03DA01"],
+  "synonyme": [
+    "Spironolactone",
+    "Spironolactonum"
+  ],
+  "atc": [
+    "C03DA01"
+  ],
   "klasse": "Mineralokortikoid-Rezeptor-Antagonist (Aldosteronantagonist); kaliumsparendes Diuretikum",
   "kurz": "Kaliumsparendes Entwässerungsmittel (Aldosteron-Hemmer) bei Herzschwäche, Wassereinlagerungen, Leberzirrhose und Hyperaldosteronismus.",
-  "gruppen": ["mineralokortikoid-antagonisten", "kaliumsparende-diuretika", "diuretika", "blutdrucksenkend", "hyperkaliaemie-ausloesend"],
-  "handelsnamen": ["Aldactone", "Xenalon", "Lasilacton (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "mineralokortikoid-antagonisten",
+    "kaliumsparende-diuretika",
+    "diuretika",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Aldactone",
+    "Xenalon",
+    "Lasilacton (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Schwere Herzinsuffizienz, zusätzlich zur Standardtherapie", "ids": ["herzinsuffizienz"] },
-    { "text": "Wassereinlagerungen und Aszites (Bauchwasser) bei Leberzirrhose", "ids": ["leberzirrhose", "oedeme"] },
-    { "text": "Wassereinlagerungen bei nephrotischem Syndrom und bei Herzinsuffizienz", "ids": ["nephrotisches-syndrom", "oedeme"] },
-    { "text": "Primärer Hyperaldosteronismus (Conn-Syndrom): zur Diagnose, zur Vorbereitung auf eine Operation oder als Dauerbehandlung", "ids": [] },
-    { "text": "Bluthochdruck, meist als Ergänzung zu anderen Blutdrucksenkern", "ids": ["hypertonie"] }
+    {
+      "text": "Schwere Herzinsuffizienz, zusätzlich zur Standardtherapie",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Wassereinlagerungen und Aszites (Bauchwasser) bei Leberzirrhose",
+      "ids": [
+        "leberzirrhose",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Wassereinlagerungen bei nephrotischem Syndrom und bei Herzinsuffizienz",
+      "ids": [
+        "nephrotisches-syndrom",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Primärer Hyperaldosteronismus (Conn-Syndrom): zur Diagnose, zur Vorbereitung auf eine Operation oder als Dauerbehandlung",
+      "ids": [
+        "hyperaldosteronismus"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, meist als Ergänzung zu anderen Blutdrucksenkern",
+      "ids": [
+        "hypertonie"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Wirkung des Hormons Aldosteron in der Niere; dadurch werden mehr Salz und Wasser ausgeschieden, Kalium dagegen zurückgehalten. Spironolacton und seine aktiven Abbauprodukte (u. a. Canrenon) blockieren kompetitiv den Mineralokortikoid-Rezeptor im spätdistalen Tubulus und im Sammelrohr. Bei Herzinsuffizienz wirkt es zusätzlich den schädlichen Aldosteronwirkungen auf Herz und Gefässe (Umbau, Vernarbung) entgegen. Es bindet auch an Androgen- und Progesteronrezeptoren, was hormonelle Nebenwirkungen wie eine Brustvergrösserung bei Männern erklärt. Die volle harntreibende Wirkung entwickelt sich erst nach 2–3 Tagen.",
   "kontraindikationen": [
-    { "text": "Anurie, akutes Nierenversagen, schwere oder sich rasch verschlechternde Nierenfunktion", "ids": ["niereninsuffizienz"] },
-    { "text": "Hyperkaliämie (erhöhtes Kalium)", "ids": ["hyperkaliaemie"] },
-    { "text": "Nebenniereninsuffizienz (Morbus Addison)", "ids": ["nebenniereninsuffizienz"] }
+    {
+      "text": "Anurie, akutes Nierenversagen, schwere oder sich rasch verschlechternde Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hyperkaliämie (erhöhtes Kalium)",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Nebenniereninsuffizienz (Morbus Addison)",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion, Diabetes und höheres Alter: erhöhtes Risiko für eine gefährliche Hyperkaliämie", "ids": ["niereninsuffizienz", "diabetes", "aeltere-patienten", "hyperkaliaemie"] },
-    { "text": "Herzinsuffizienz: Kalium und Nierenfunktion zu Beginn und danach regelmässig kontrollieren", "ids": ["herzinsuffizienz"] },
-    { "text": "Leberzirrhose: Elektrolytstörungen können ein Leberkoma auslösen", "ids": ["leberzirrhose"] },
-    { "text": "Natriummangel oder Flüssigkeitsmangel", "ids": ["hyponatriaemie", "dehydratation"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion, Diabetes und höheres Alter: erhöhtes Risiko für eine gefährliche Hyperkaliämie",
+      "ids": [
+        "niereninsuffizienz",
+        "diabetes",
+        "aeltere-patienten",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz: Kalium und Nierenfunktion zu Beginn und danach regelmässig kontrollieren",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberzirrhose: Elektrolytstörungen können ein Leberkoma auslösen",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Natriummangel oder Flüssigkeitsmangel",
+      "ids": [
+        "hyponatriaemie",
+        "dehydratation"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Eplerenon", "ref": ["eplerenon"], "grund": "Doppelte Blockade des Mineralokortikoid-Rezeptors – hohes Risiko einer lebensbedrohlichen Hyperkaliämie." },
-    { "text": "Andere kaliumsparende Diuretika (z. B. Amilorid)", "ref": ["gruppe:kaliumsparende-diuretika"], "grund": "Additive Kaliumretention – Gefahr einer lebensbedrohlichen Hyperkaliämie." },
-    { "text": "Mitotan", "ref": ["mitotan"], "grund": "Spironolacton kann die Wirkung von Mitotan aufheben; die Kombination ist in der Fachinformation von Mitotan kontraindiziert." }
+    {
+      "text": "Eplerenon",
+      "ref": [
+        "eplerenon"
+      ],
+      "grund": "Doppelte Blockade des Mineralokortikoid-Rezeptors – hohes Risiko einer lebensbedrohlichen Hyperkaliämie."
+    },
+    {
+      "text": "Andere kaliumsparende Diuretika (z. B. Amilorid)",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika"
+      ],
+      "grund": "Additive Kaliumretention – Gefahr einer lebensbedrohlichen Hyperkaliämie."
+    },
+    {
+      "text": "Mitotan",
+      "ref": [
+        "mitotan"
+      ],
+      "grund": "Spironolacton kann die Wirkung von Mitotan aufheben; die Kombination ist in der Fachinformation von Mitotan kontraindiziert."
+    }
   ],
   "interaktionen": [
-    { "text": "ACE-Hemmer, Sartane und Aliskiren", "ref": ["gruppe:raas-hemmer"], "effekt": "Erhöhtes Risiko für eine gefährliche Hyperkaliämie – Kalium und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Kaliumpräparate und kaliumhaltige Salzersatzmittel", "ref": ["gruppe:kaliumpraeparate"], "effekt": "Gefahr einer schweren Hyperkaliämie – nur bei nachgewiesenem Kaliummangel und unter Kontrolle.", "schwere": "schwer" },
-    { "text": "Ciclosporin und Tacrolimus", "ref": ["gruppe:immunsuppressiva-calcineurin"], "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium kontrollieren.", "schwere": "schwer" },
-    { "text": "Abirateron", "ref": ["abirateron"], "effekt": "Spironolacton bindet an den Androgenrezeptor und kann den PSA-Wert erhöhen – Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Trimethoprim (Cotrimoxazol) und Heparine", "ref": ["sulfamethoxazol-trimethoprim", "gruppe:heparine"], "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, hoch dosierte Acetylsalicylsäure)", "ref": ["gruppe:nsar"], "effekt": "Hyperkaliämie, abgeschwächte harntreibende Wirkung und Gefahr eines akuten Nierenversagens.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel kann steigen; Spironolacton kann zudem gewisse Digoxin-Messmethoden verfälschen – Spiegel und Puls kontrollieren.", "schwere": "mittel" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel kann steigen – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Colestyramin", "ref": ["colestyramin"], "effekt": "Gefahr einer Übersäuerung des Blutes mit erhöhtem Kalium (hyperkaliämische metabolische Azidose).", "schwere": "leicht" },
-    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung.", "schwere": "leicht" }
+    {
+      "text": "ACE-Hemmer, Sartane und Aliskiren",
+      "ref": [
+        "gruppe:raas-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für eine gefährliche Hyperkaliämie – Kalium und Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumpräparate und kaliumhaltige Salzersatzmittel",
+      "ref": [
+        "gruppe:kaliumpraeparate"
+      ],
+      "effekt": "Gefahr einer schweren Hyperkaliämie – nur bei nachgewiesenem Kaliummangel und unter Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Abirateron",
+      "ref": [
+        "abirateron"
+      ],
+      "effekt": "Spironolacton bindet an den Androgenrezeptor und kann den PSA-Wert erhöhen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Trimethoprim (Cotrimoxazol) und Heparine",
+      "ref": [
+        "sulfamethoxazol-trimethoprim",
+        "gruppe:heparine"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, hoch dosierte Acetylsalicylsäure)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Hyperkaliämie, abgeschwächte harntreibende Wirkung und Gefahr eines akuten Nierenversagens.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel kann steigen; Spironolacton kann zudem gewisse Digoxin-Messmethoden verfälschen – Spiegel und Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel kann steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colestyramin",
+      "ref": [
+        "colestyramin"
+      ],
+      "effekt": "Gefahr einer Übersäuerung des Blutes mit erhöhtem Kalium (hyperkaliämische metabolische Azidose).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Hyperkaliämie (erhöhtes Kalium)", "Gynäkomastie (Brustvergrösserung beim Mann), Brustschmerzen", "Verwirrtheit, Schwindel", "Übelkeit", "Juckreiz, Hautausschlag", "Muskelkrämpfe", "Akute Nierenschädigung", "Unwohlsein"],
-    "unbekannt": ["Agranulozytose, Leukopenie, Thrombozytopenie", "Elektrolytstörungen wie Natriummangel", "Libidoveränderungen, Menstruationsstörungen", "Leberfunktionsstörungen", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS), Pemphigoid", "Haarausfall, vermehrte Körperbehaarung, Nesselsucht", "Gutartige Knoten in der Brust beim Mann", "Magen-Darm-Beschwerden"]
+    "haeufig": [
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Gynäkomastie (Brustvergrösserung beim Mann), Brustschmerzen",
+      "Verwirrtheit, Schwindel",
+      "Übelkeit",
+      "Juckreiz, Hautausschlag",
+      "Muskelkrämpfe",
+      "Akute Nierenschädigung",
+      "Unwohlsein"
+    ],
+    "unbekannt": [
+      "Agranulozytose, Leukopenie, Thrombozytopenie",
+      "Elektrolytstörungen wie Natriummangel",
+      "Libidoveränderungen, Menstruationsstörungen",
+      "Leberfunktionsstörungen",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS), Pemphigoid",
+      "Haarausfall, vermehrte Körperbehaarung, Nesselsucht",
+      "Gutartige Knoten in der Brust beim Mann",
+      "Magen-Darm-Beschwerden"
+    ]
   },
   "schwangerschaft": "Nur bei zwingender Notwendigkeit nach ärztlicher Abwägung: im Tierversuch führte Spironolacton zu einer Verweiblichung männlicher Nachkommen.",
   "stillzeit": "Ein Abbauprodukt (Canrenon) geht in die Muttermilch über; während der Behandlung nicht stillen.",

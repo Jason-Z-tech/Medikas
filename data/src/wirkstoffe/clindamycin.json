@@ -1,53 +1,221 @@
 {
   "id": "clindamycin",
   "name": "Clindamycin",
-  "synonyme": ["Clindamycinum", "Clindamycin-Hydrochlorid", "Clindamycin-Phosphat", "Clindamycin-Palmitat"],
+  "synonyme": [
+    "Clindamycinum",
+    "Clindamycin-Hydrochlorid",
+    "Clindamycin-Phosphat",
+    "Clindamycin-Palmitat"
+  ],
   "kombinationAus": [],
-  "atc": ["J01FF01", "D10AF01", "G01AA10"],
+  "atc": [
+    "J01FF01",
+    "D10AF01",
+    "G01AA10"
+  ],
   "klasse": "Lincosamid-Antibiotikum",
   "kurz": "Antibiotikum gegen Infektionen von Knochen, Haut, Zähnen und Atemwegen, oft bei Penicillinallergie; als Gel gegen Akne, als Creme gegen Scheideninfekte.",
   "gruppen": [],
-  "handelsnamen": ["Dalacin C", "Clindamycin Mepha", "Clindamycin Sandoz", "Dalacin T", "Dalacin V", "Duac (Kombi)"],
-  "abgabe": ["A", "B"],
-  "darreichung": ["Kapseln", "Injektions- und Infusionslösung", "Lösung und Gel zum Auftragen auf die Haut", "Vaginalcreme"],
+  "handelsnamen": [
+    "Dalacin C",
+    "Clindamycin Mepha",
+    "Clindamycin Sandoz",
+    "Dalacin T",
+    "Dalacin V",
+    "Duac (Kombi)"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Injektions- und Infusionslösung",
+    "Lösung und Gel zum Auftragen auf die Haut",
+    "Vaginalcreme"
+  ],
   "indikationen": [
-    { "text": "Infektionen der Knochen und Gelenke (z. B. Osteomyelitis)", "ids": ["bakterielle-infektion"] },
-    { "text": "Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
-    { "text": "Infektionen im Zahn- und Kieferbereich", "ids": ["mundinfektion"] },
-    { "text": "Infektionen der oberen und unteren Atemwege (z. B. Mandel-, Nebenhöhlen-, Mittelohr- und Lungenentzündung, Lungenabszess)", "ids": ["atemwegsinfekt", "sinusitis", "ohrenentzuendung", "lungenentzuendung"] },
-    { "text": "Infektionen im Becken- und Bauchraum (bei Bauchinfektionen kombiniert mit einem gegen gramnegative Keime wirksamen Antibiotikum)", "ids": ["bakterielle-infektion"] },
-    { "text": "Akne (Anwendung auf der Haut)", "ids": ["akne"] },
-    { "text": "Bakterielle Vaginose (Vaginalcreme)", "ids": ["vaginalinfektion"] }
+    {
+      "text": "Infektionen der Knochen und Gelenke (z. B. Osteomyelitis)",
+      "ids": [
+        "osteomyelitis"
+      ]
+    },
+    {
+      "text": "Haut- und Weichteilinfektionen",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Infektionen im Zahn- und Kieferbereich",
+      "ids": [
+        "mundinfektion"
+      ]
+    },
+    {
+      "text": "Infektionen der oberen und unteren Atemwege (z. B. Mandel-, Nebenhöhlen-, Mittelohr- und Lungenentzündung, Lungenabszess)",
+      "ids": [
+        "atemwegsinfekt",
+        "sinusitis",
+        "ohrenentzuendung",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Infektionen im Becken- und Bauchraum (bei Bauchinfektionen kombiniert mit einem gegen gramnegative Keime wirksamen Antibiotikum)",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Akne (Anwendung auf der Haut)",
+      "ids": [
+        "akne"
+      ]
+    },
+    {
+      "text": "Bakterielle Vaginose (Vaginalcreme)",
+      "ids": [
+        "vaginalinfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt das Wachstum von Bakterien, indem es ihre Eiweissherstellung stoppt. Clindamycin bindet an die 50S-Untereinheit der bakteriellen Ribosomen und hemmt die Peptidkettenbildung; es wirkt vorwiegend bakteriostatisch gegen grampositive Kokken (Staphylokokken, Streptokokken) und Anaerobier. Es dringt gut in Knochen und Gewebe ein und hemmt die Toxinbildung von Streptokokken und Staphylokokken. Gegen Enterokokken und die meisten gramnegativen Keime wirkt es nicht.",
   "kontraindikationen": [
-    { "text": "Allergie gegen Clindamycin oder Lincomycin", "ids": [] }
+    {
+      "text": "Allergie gegen Clindamycin oder Lincomycin",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Clindamycin löst häufiger als andere Antibiotika eine Clostridioides-difficile-Kolitis aus – bei Durchfall sofort ärztlich abklären, keine Darmmotilitätshemmer einnehmen", "ids": ["clostridioides", "durchfall"] },
-    { "text": "Entzündliche Darmerkrankungen oder Antibiotika-Kolitis in der Vorgeschichte", "ids": ["colitis-ulcerosa", "morbus-crohn"] },
-    { "text": "Schwere Lebererkrankungen und längere Therapie: Leber- und Nierenwerte sowie Blutbild kontrollieren", "ids": ["leberinsuffizienz"] },
-    { "text": "Schwere Hautreaktionen (DRESS, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP) – bei Hautausschlag absetzen", "ids": ["schwere-hautreaktion"] },
-    { "text": "Myasthenia gravis und andere neuromuskuläre Erkrankungen (Verstärkung der Muskelschwäche)", "ids": ["myasthenia-gravis", "neuromuskulaere-erkrankung"] },
-    { "text": "Früh- und Neugeborene: Injektionslösung enthält Benzylalkohol", "ids": ["kinder"] },
-    { "text": "Neigung zu Allergien oder Asthma", "ids": ["allergie", "asthma"] }
+    {
+      "text": "Clindamycin löst häufiger als andere Antibiotika eine Clostridioides-difficile-Kolitis aus – bei Durchfall sofort ärztlich abklären, keine Darmmotilitätshemmer einnehmen",
+      "ids": [
+        "clostridioides",
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen oder Antibiotika-Kolitis in der Vorgeschichte",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn"
+      ]
+    },
+    {
+      "text": "Schwere Lebererkrankungen und längere Therapie: Leber- und Nierenwerte sowie Blutbild kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (DRESS, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP) – bei Hautausschlag absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis und andere neuromuskuläre Erkrankungen (Verstärkung der Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis",
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Früh- und Neugeborene: Injektionslösung enthält Benzylalkohol",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Neigung zu Allergien oder Asthma",
+      "ids": [
+        "allergie",
+        "asthma"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Muskelrelaxanzien bei Narkosen (z. B. Rocuronium, Atracurium, Suxamethonium)", "ref": ["rocuronium", "atracurium", "cisatracurium", "mivacurium", "suxamethonium"], "effekt": "Clindamycin verstärkt die neuromuskuläre Blockade – Atemlähmung möglich; Narkoseteam informieren, überwachen.", "schwere": "mittel" },
-    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung und Blutungen berichtet – INR häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Starke Enzyminduktoren (z. B. Rifampicin)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Clindamycin wird über CYP3A4 schneller abgebaut – Wirkverlust möglich.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Der Clindamycin-Spiegel kann steigen – auf Nebenwirkungen achten.", "schwere": "leicht" },
-    { "text": "Erythromycin und andere Makrolide", "ref": ["gruppe:makrolide"], "effekt": "Gegenseitige Abschwächung der Wirkung (gleicher Angriffsort am Ribosom) – nicht kombinieren.", "schwere": "leicht" },
-    { "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.", "schwere": "leicht" }
+    {
+      "text": "Muskelrelaxanzien bei Narkosen (z. B. Rocuronium, Atracurium, Suxamethonium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher",
+        "suxamethonium"
+      ],
+      "effekt": "Clindamycin verstärkt die neuromuskuläre Blockade – Atemlähmung möglich; Narkoseteam informieren, überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung und Blutungen berichtet – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Clindamycin wird über CYP3A4 schneller abgebaut – Wirkverlust möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Clindamycin-Spiegel kann steigen – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Erythromycin und andere Makrolide",
+      "ref": [
+        "gruppe:makrolide"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung (gleicher Angriffsort am Ribosom) – nicht kombinieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [],
-    "haeufig": ["Durchfall, Bauchschmerzen", "Pseudomembranöse Kolitis (schwere Dickdarmentzündung durch Clostridioides difficile)", "Fleckiger Hautausschlag", "Abweichende Leberwerte", "Venenentzündung bei Infusion", "Bei Anwendung auf der Haut: Trockenheit, Rötung, Brennen; bei Vaginalcreme: Scheidenpilz"],
-    "gelegentlich": ["Übelkeit, Erbrechen", "Geschmacksstörungen", "Nesselsucht"],
-    "selten": ["Erythema multiforme (Hautausschlag mit kokardenförmigen Flecken)", "Juckreiz"],
+    "haeufig": [
+      "Durchfall, Bauchschmerzen",
+      "Pseudomembranöse Kolitis (schwere Dickdarmentzündung durch Clostridioides difficile)",
+      "Fleckiger Hautausschlag",
+      "Abweichende Leberwerte",
+      "Venenentzündung bei Infusion",
+      "Bei Anwendung auf der Haut: Trockenheit, Rötung, Brennen; bei Vaginalcreme: Scheidenpilz"
+    ],
+    "gelegentlich": [
+      "Übelkeit, Erbrechen",
+      "Geschmacksstörungen",
+      "Nesselsucht"
+    ],
+    "selten": [
+      "Erythema multiforme (Hautausschlag mit kokardenförmigen Flecken)",
+      "Juckreiz"
+    ],
     "sehrSelten": [],
-    "unbekannt": ["Agranulozytose, Neutropenie, Thrombozytopenie (Blutbildschäden)", "Anaphylaxie, Angioödem", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS, AGEP)", "Gelbsucht", "Speiseröhrenentzündung oder -geschwür bei Kapseln", "Akute Nierenschädigung"]
+    "unbekannt": [
+      "Agranulozytose, Neutropenie, Thrombozytopenie (Blutbildschäden)",
+      "Anaphylaxie, Angioödem",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS, AGEP)",
+      "Gelbsucht",
+      "Speiseröhrenentzündung oder -geschwür bei Kapseln",
+      "Akute Nierenschädigung"
+    ]
   },
   "schwangerschaft": "Im 2. und 3. Drittel zeigten Studien kein erhöhtes Fehlbildungsrisiko; für das 1. Drittel sind die Daten begrenzt. Nur bei klarer Notwendigkeit nach ärztlicher Abwägung; die Anwendung auf der Haut gilt als vertretbar.",
   "stillzeit": "Geht in die Muttermilch über; beim Säugling sind Durchfall, Pilzbefall und selten blutiger Stuhl möglich. Nach ärztlicher Abwägung, Kind beobachten.",

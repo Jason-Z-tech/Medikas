@@ -1,37 +1,119 @@
 {
   "id": "ascorbinsaeure-vitamin-c",
   "name": "Ascorbinsäure (Vitamin C)",
-  "synonyme": ["Vitamin C", "Ascorbic acid", "Acidum ascorbicum", "Natriumascorbat", "Calciumascorbat"],
-  "atc": ["A11GA01"],
+  "synonyme": [
+    "Vitamin C",
+    "Ascorbic acid",
+    "Acidum ascorbicum",
+    "Natriumascorbat",
+    "Calciumascorbat"
+  ],
+  "atc": [
+    "A11GA01"
+  ],
   "klasse": "Vitamin C",
   "kurz": "Vitamin C zur Vorbeugung und Behandlung eines Vitamin-C-Mangels und bei erhöhtem Bedarf.",
   "gruppen": [],
-  "handelsnamen": ["Redoxon"],
-  "abgabe": ["D"],
-  "darreichung": ["Brausetabletten", "Kautabletten"],
+  "handelsnamen": [
+    "Redoxon"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Brausetabletten",
+    "Kautabletten"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung und Behandlung eines Vitamin-C-Mangels (bis hin zu Skorbut), z. B. bei einseitiger Ernährung", "ids": ["mangelernaehrung"] },
-    { "text": "Erhöhter Vitamin-C-Bedarf, z. B. in der Erholungsphase nach Krankheiten", "ids": ["mangelernaehrung"] }
+    {
+      "text": "Vorbeugung und Behandlung eines Vitamin-C-Mangels (bis hin zu Skorbut), z. B. bei einseitiger Ernährung",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Erhöhter Vitamin-C-Bedarf, z. B. in der Erholungsphase nach Krankheiten",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt Vitamin C, das der Mensch nicht selbst bilden kann. Ascorbinsäure ist ein wasserlösliches Antioxidans und Cofaktor von Enzymen, die unter anderem Kollagen für Bindegewebe, Gefässe, Haut und Wundheilung sowie Carnitin und Noradrenalin bilden. Zudem verbessert es die Aufnahme von Eisen aus pflanzlicher Nahrung. Ein schwerer Mangel führt zu Skorbut mit Zahnfleischbluten, Blutergüssen und Wundheilungsstörungen; Überschüsse werden rasch über die Niere ausgeschieden.",
   "kontraindikationen": [
-    { "text": "Oxalat-Nierensteine oder erhöhte Oxalatausscheidung im Urin (Hyperoxalurie)", "ids": ["nierensteine"] },
-    { "text": "Eisenspeicherkrankheiten (z. B. Hämochromatose, Thalassämie, sideroblastische Anämie), da Vitamin C die Eisenaufnahme steigert", "ids": ["sichelzellanaemie"] }
+    {
+      "text": "Oxalat-Nierensteine oder erhöhte Oxalatausscheidung im Urin (Hyperoxalurie)",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Eisenspeicherkrankheiten (z. B. Hämochromatose, Thalassämie, sideroblastische Anämie), da Vitamin C die Eisenaufnahme steigert",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel: hohe Dosen können Blutzerfall (Hämolyse) auslösen", "ids": ["g6pd-mangel"] },
-    { "text": "Eingeschränkte Nierenfunktion (Gefahr von Oxalatablagerungen)", "ids": ["niereninsuffizienz"] },
-    { "text": "Neigung zu Nierensteinen", "ids": ["nierensteine"] },
-    { "text": "Natriumgehalt der Brausetabletten bei salzarmer Diät, Bluthochdruck oder Herzschwäche beachten", "ids": ["hypertonie", "herzinsuffizienz"] }
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel: hohe Dosen können Blutzerfall (Hämolyse) auslösen",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Gefahr von Oxalatablagerungen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neigung zu Nierensteinen",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Natriumgehalt der Brausetabletten bei salzarmer Diät, Bluthochdruck oder Herzschwäche beachten",
+      "ids": [
+        "hypertonie",
+        "herzinsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Deferoxamin (Eisenausleitung)", "ref": ["deferoxamin"], "effekt": "Hohe Vitamin-C-Dosen können bei Eisenüberladung die Herzfunktion verschlechtern – nur nach ärztlicher Anweisung und in niedriger Dosis kombinieren.", "schwere": "mittel" },
-    { "text": "Aluminiumhaltige Antazida", "ref": ["aluminiumhydroxid-magnesiumhydroxid"], "effekt": "Vitamin C kann die Aufnahme von Aluminium steigern – besonders bei eingeschränkter Nierenfunktion zeitversetzt einnehmen.", "schwere": "leicht" },
-    { "text": "Eisenpräparate", "ref": ["gruppe:eisenpraeparate"], "effekt": "Bessere Eisenaufnahme – meist erwünscht, bei Eisenüberladung jedoch zu vermeiden.", "schwere": "leicht" }
+    {
+      "text": "Deferoxamin (Eisenausleitung)",
+      "ref": [
+        "deferoxamin"
+      ],
+      "effekt": "Hohe Vitamin-C-Dosen können bei Eisenüberladung die Herzfunktion verschlechtern – nur nach ärztlicher Anweisung und in niedriger Dosis kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aluminiumhaltige Antazida",
+      "ref": [
+        "aluminiumhydroxid-magnesiumhydroxid"
+      ],
+      "effekt": "Vitamin C kann die Aufnahme von Aluminium steigern – besonders bei eingeschränkter Nierenfunktion zeitversetzt einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Eisenpräparate",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Bessere Eisenaufnahme – meist erwünscht, bei Eisenüberladung jedoch zu vermeiden.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "unbekannt": ["Magen-Darm-Beschwerden wie Durchfall, Übelkeit, Bauchkrämpfe (vor allem bei Dosen über 1 g pro Tag)", "Oxalat-Nierensteine bei hohen Dosen", "Hämolyse (Blutzerfall) bei G6PD-Mangel", "Überempfindlichkeitsreaktionen (Hautausschlag, Juckreiz)"]
+    "unbekannt": [
+      "Magen-Darm-Beschwerden wie Durchfall, Übelkeit, Bauchkrämpfe (vor allem bei Dosen über 1 g pro Tag)",
+      "Oxalat-Nierensteine bei hohen Dosen",
+      "Hämolyse (Blutzerfall) bei G6PD-Mangel",
+      "Überempfindlichkeitsreaktionen (Hautausschlag, Juckreiz)"
+    ]
   },
   "schwangerschaft": "In üblichen Dosen erlaubt; sehr hohe Dosen meiden.",
   "stillzeit": "In üblichen Dosen erlaubt; Vitamin C geht in die Muttermilch über.",

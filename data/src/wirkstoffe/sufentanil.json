@@ -1,0 +1,191 @@
+{
+  "id": "sufentanil",
+  "name": "Sufentanil",
+  "synonyme": [
+    "Sufentanilcitrat",
+    "Sufentanil citrate"
+  ],
+  "atc": [
+    "N01AH03"
+  ],
+  "klasse": "Opioid-Analgetikum (µ-Agonist) für Anästhesie und Epiduralanalgesie",
+  "kurz": "Sehr starkes Schmerzmittel aus der Gruppe der Opioide für Narkosen und für die Periduralanalgesie, z. B. bei der Geburt.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich",
+    "bradykardisierend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Sufenta"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Schmerzausschaltung als Teil einer Allgemeinanästhesie; in hoher Dosis als Hauptanästhetikum bei grossen Operationen (z. B. am Herzen) mit Beatmung",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Periduralanalgesie (rückenmarksnahe Gabe) zusammen mit einem Lokalanästhetikum bei Schmerzen nach Operationen und während der Geburt",
+      "ids": [
+        "schmerzen",
+        "geburtshilfe"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Sehr starkes Schmerzmittel, etwa 5- bis 10-mal stärker als Fentanyl. Sufentanil ist ein hochselektiver Agonist am µ-Opioidrezeptor und hemmt die Schmerzweiterleitung in Rückenmark und Gehirn. Es ist sehr fettlöslich, wirkt rasch und bei periduraler Gabe zusammen mit Lokalanästhetika direkt im Rückenmarksbereich. Der Abbau erfolgt in der Leber über CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Unverträglichkeit von anderen Opioiden (Morphinomimetika)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Intravenöse Gabe während der Geburt oder beim Kaiserschnitt vor dem Abklemmen der Nabelschnur (Atemdepression beim Neugeborenen); die peridurale Gabe unter der Geburt ist dagegen möglich",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Peridurale Gabe bei schwerer Blutung, Schock, Blutvergiftung, Infektion an der Einstichstelle, Gerinnungsstörung oder gerinnungshemmender Behandlung",
+      "ids": [
+        "aktive-blutung",
+        "schock",
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Atemdepression: nur mit Überwachung und Beatmungsmöglichkeit; die Atemdämpfung kann nach dem Eingriff andauern oder wiederkehren – Vorsicht bei Lungenerkrankungen und Schlafapnoe",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Muskelsteifigkeit, auch der Brustwand, besonders bei rascher Injektion",
+      "ids": []
+    },
+    {
+      "text": "Bradykardie und Blutdruckabfall, besonders bei Flüssigkeitsmangel",
+      "ids": [
+        "bradykardie",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck oder Schädel-Hirn-Verletzung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion, ältere Menschen, Schilddrüsenunterfunktion: niedrigere Dosis",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "aeltere-patienten",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Opioidabhängigkeit oder Langzeitbehandlung mit Opioiden",
+      "ids": [
+        "opioidabhaengigkeit",
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ritonavir, Itraconazol, Clarithromycin, Erythromycin, Fluconazol, Diltiazem)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Sufentanil wird langsamer abgebaut – verlängerte Atemdepression; Dosis reduzieren und länger überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine, Barbiturate, Propofol, Narkosegase und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:barbiturate",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung von Atmung und Kreislauf – Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer (auch in den 2 Wochen davor)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Schwere, unvorhersehbare Reaktionen möglich – MAO-Hemmer in der Regel 2 Wochen vor dem Eingriff absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Fieber, Muskelzuckungen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Bradykardie und Blutdruckabfall.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Sedierung (Schläfrigkeit), besonders bei periduraler Gabe",
+      "Juckreiz"
+    ],
+    "haeufig": [
+      "Schwindel, Kopfschmerzen",
+      "Übelkeit, Erbrechen",
+      "Tachykardie (Herzrasen)",
+      "Blutdruckanstieg oder -abfall",
+      "Muskelzuckungen",
+      "Harnverhalt",
+      "Fieber",
+      "Zittern beim Neugeborenen nach Gabe unter der Geburt"
+    ],
+    "unbekannt": [
+      "Atemdepression bis Atemstillstand",
+      "Muskelsteifigkeit (auch der Brustwand)",
+      "Bradykardie, Herzrhythmusstörungen, Herzstillstand",
+      "Bronchospasmus, Laryngospasmus",
+      "Krampfanfälle, Myoklonien (Muskelzuckungen)",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit. Intravenös unter der Geburt kontraindiziert (Atemdepression beim Neugeborenen); peridural zusammen mit einem Lokalanästhetikum zur Geburtsanalgesie möglich.",
+  "stillzeit": "Sufentanil geht in die Muttermilch über; nach intravenöser Gabe 24 Stunden lang nicht stillen.",
+  "hinweise": [
+    "Wird nur durch Anästhesiefachpersonen mit Überwachung und Beatmungsmöglichkeit verabreicht; Gegenmittel ist Naloxon.",
+    "Antidepressiva (v. a. MAO-Hemmer), Pilz-, HIV- und Antibiotika-Behandlungen vor dem Eingriff angeben.",
+    "Nach dem Eingriff mindestens 24 Stunden kein Fahrzeug lenken, keine Maschinen bedienen und keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

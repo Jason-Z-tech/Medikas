@@ -1,0 +1,183 @@
+{
+  "id": "dexmedetomidin",
+  "name": "Dexmedetomidin",
+  "synonyme": [
+    "Dexmedetomidine",
+    "Dexmedetomidinhydrochlorid"
+  ],
+  "atc": [
+    "N05CM18"
+  ],
+  "klasse": "Zentraler Alpha-2-Adrenozeptor-Agonist (Sedativum für Intensivmedizin)",
+  "kurz": "Beruhigungsmittel zur Infusion im Spital für die leichte bis mittlere Sedierung von Erwachsenen auf der Intensivstation.",
+  "gruppen": [
+    "zentrale-alpha2-agonisten",
+    "zns-daempfend",
+    "bradykardisierend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Dexdor"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Sedierung erwachsener Patientinnen und Patienten auf der Intensivstation, die durch Ansprechen noch weckbar bleiben sollen",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beruhigt und dämpft, ohne die Atmung wesentlich zu beeinträchtigen. Dexmedetomidin ist ein hochselektiver Agonist an Alpha-2-Adrenozeptoren; im Hirnstamm (Locus coeruleus) vermindert es die Freisetzung von Noradrenalin und bewirkt so eine schlafähnliche, leicht weckbare Sedierung. Es wirkt zudem schmerzlindernd und senkt durch die verminderte Sympathikusaktivität Puls und Blutdruck; bei rascher Gabe kann der Blutdruck zunächst durch Gefässverengung ansteigen.",
+  "kontraindikationen": [
+    {
+      "text": "AV-Block 2. oder 3. Grades ohne Herzschrittmacher",
+      "ids": [
+        "av-block"
+      ]
+    },
+    {
+      "text": "Unkontrollierter tiefer Blutdruck (Hypotonie)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Akute zerebrovaskuläre Ereignisse (z. B. frischer Schlaganfall oder Hirnblutung)",
+      "ids": [
+        "schlaganfall",
+        "hirnblutung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Vorbestehender langsamer Puls (Bradykardie) oder Reizleitungsstörungen",
+      "ids": [
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Herzschwäche oder schwere Herzerkrankungen",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel (Hypovolämie) oder tiefer Blutdruck",
+      "ids": [
+        "dehydratation",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Patientinnen und Patienten bis 65 Jahre: in einer grossen Studie höhere Sterblichkeit als unter anderen Sedativa",
+      "ids": []
+    },
+    {
+      "text": "Schwere neurologische Erkrankungen (z. B. Hirnverletzung, Krampfanfälle)",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Veranlagung zu maligner Hyperthermie (Anwendung nicht empfohlen)",
+      "ids": [
+        "maligne-hyperthermie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Narkosemittel, Schlaf- und Beruhigungsmittel (z. B. Propofol, Benzodiazepine)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "propofol"
+      ],
+      "effekt": "Gegenseitige Wirkungsverstärkung – Dosis der anderen Mittel gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Sedierung und Schmerzlinderung; Atmung und Kreislauf überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende und pulsverlangsamende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Clonidin)",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:bradykardisierend",
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall und langsamer Puls – engmaschige Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über CYP2B6 abgebaute Mittel (z. B. Ketamin, Bupropion, Cyclophosphamid)",
+      "ref": [
+        "ketamin",
+        "bupropion",
+        "cyclophosphamid",
+        "ifosfamid"
+      ],
+      "effekt": "Dexmedetomidin hemmt CYP2B6 im Reagenzglas; höhere Spiegel dieser Mittel sind nicht ausgeschlossen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bradykardie (langsamer Puls)",
+      "Hypotonie (tiefer Blutdruck)",
+      "Hypertonie (hoher Blutdruck)"
+    ],
+    "haeufig": [
+      "Myokardischämie oder Herzinfarkt",
+      "Tachykardie (Herzrasen)",
+      "Übelkeit, Erbrechen",
+      "Mundtrockenheit",
+      "Hyperglykämie oder Hypoglykämie (zu hoher oder zu tiefer Blutzucker)",
+      "Unruhe (Agitiertheit)",
+      "Entzugssyndrom nach dem Absetzen",
+      "Erhöhte Körpertemperatur (Hyperthermie)"
+    ],
+    "gelegentlich": [
+      "AV-Block 1. Grades",
+      "Vermindertes Herzzeitvolumen, Herzstillstand",
+      "Atemnot, Atemstillstand (Apnoe)",
+      "Halluzinationen",
+      "Metabolische Azidose (Übersäuerung des Blutes)",
+      "Geblähter Bauch",
+      "Durst"
+    ],
+    "unbekannt": [
+      "Polyurie (vermehrte Harnausscheidung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn es eindeutig erforderlich ist.",
+  "stillzeit": "Dexmedetomidin geht in die Muttermilch über; 24 Stunden nach Ende der Infusion ist es kaum mehr nachweisbar. Über das Stillen entscheidet die Ärztin oder der Arzt.",
+  "hinweise": [
+    "Wird nur im Spital unter fortlaufender Überwachung von Herz, Kreislauf und Atmung angewendet.",
+    "Nach längerer Anwendung können beim Absetzen Unruhe und Blutdruckanstieg auftreten."
+  ],
+  "stand": "2026-10"
+}

@@ -1,67 +1,352 @@
 {
   "id": "methylprednisolon",
   "name": "Methylprednisolon",
-  "synonyme": ["Methylprednisolone", "Methylprednisolonum", "Methylprednisolonaceponat", "Methylprednisolon-Natriumhydrogensuccinat", "Methylprednisolonacetat"],
-  "atc": ["H02AB04", "D07AC14"],
+  "synonyme": [
+    "Methylprednisolone",
+    "Methylprednisolonum",
+    "Methylprednisolonaceponat",
+    "Methylprednisolon-Natriumhydrogensuccinat",
+    "Methylprednisolonacetat"
+  ],
+  "atc": [
+    "H02AB04",
+    "D07AC14"
+  ],
   "klasse": "Glukokortikoid (systemisch); als Methylprednisolonaceponat topisches Kortikosteroid Klasse III (stark)",
   "kurz": "Kortison zum Einnehmen, Spritzen und Auftragen: hemmt Entzündungen und Immunreaktionen, z. B. bei Rheuma, Allergien, Asthma, MS-Schüben und Ekzemen.",
-  "gruppen": ["glukokortikoide-systemisch", "glukokortikoide-topisch", "cyp3a4-substrate-empfindlich", "hypokaliaemie-ausloesend", "ulkusrisiko-erhoehend", "immunsuppressiv"],
-  "handelsnamen": ["Medrol", "Solu-Medrol", "Depo-Medrol", "Advantan"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten", "Pulver und Lösungsmittel zur Herstellung einer Injektions-/Infusionslösung", "Kristallsuspension zur Injektion (Depot)", "Creme", "Salbe", "Fettsalbe", "Emulsion (Milch)"],
+  "gruppen": [
+    "glukokortikoide-systemisch",
+    "glukokortikoide-topisch",
+    "cyp3a4-substrate-empfindlich",
+    "hypokaliaemie-ausloesend",
+    "ulkusrisiko-erhoehend",
+    "immunsuppressiv",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Medrol",
+    "Solu-Medrol",
+    "Depo-Medrol",
+    "Advantan"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Pulver und Lösungsmittel zur Herstellung einer Injektions-/Infusionslösung",
+    "Kristallsuspension zur Injektion (Depot)",
+    "Creme",
+    "Salbe",
+    "Fettsalbe",
+    "Emulsion (Milch)"
+  ],
   "indikationen": [
-    { "text": "Entzündliche rheumatische Erkrankungen, z. B. rheumatoide Arthritis, Psoriasis-Arthritis, Morbus Bechterew, akuter Gichtanfall", "ids": ["rheumatoide-arthritis", "spondyloarthritis", "gicht"] },
-    { "text": "Kollagenosen und Gefässentzündungen, z. B. systemischer Lupus erythematodes, Polymyalgia rheumatica, Riesenzellarteriitis", "ids": ["lupus", "vaskulitis"] },
-    { "text": "Schwere allergische Erkrankungen und Asthma bronchiale; als Injektion zusätzlich bei schweren allergischen Reaktionen", "ids": ["allergie", "asthma", "heuschnupfen", "anaphylaxie"] },
-    { "text": "Schwere Hauterkrankungen, z. B. Pemphigus, schweres Erythema multiforme, schwere Ekzeme", "ids": ["neurodermitis", "schwere-hautreaktion"] },
-    { "text": "Akute Schübe chronisch entzündlicher Darmerkrankungen (Colitis ulcerosa, Morbus Crohn)", "ids": ["colitis-ulcerosa", "morbus-crohn"] },
-    { "text": "Akute Schübe der Multiplen Sklerose (hoch dosierte Infusion)", "ids": ["multiple-sklerose"] },
-    { "text": "Blutkrankheiten wie Immunthrombozytopenie und autoimmunhämolytische Anämie; begleitend bei Leukämien und Lymphomen", "ids": ["thrombozytopenie", "haemolytische-anaemie", "leukaemie", "lymphom"] },
-    { "text": "Nephrotisches Syndrom, Sarkoidose und andere entzündliche Lungenerkrankungen", "ids": ["nephrotisches-syndrom", "autoimmunerkrankung", "lungenfibrose"] },
-    { "text": "Vorbeugung und Behandlung von Abstossungsreaktionen nach Organtransplantation", "ids": ["transplantation"] },
-    { "text": "Nebennierenrindeninsuffizienz (Ersatztherapie, meist zusammen mit einem Mineralokortikoid)", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Kristallsuspension (Depo-Medrol): Injektion in Gelenke oder Weichteile bei entzündlichen Gelenk-, Schleimbeutel- und Sehnenscheidenerkrankungen", "ids": ["arthrose", "rheumatoide-arthritis", "sehnenerkrankung"] },
-    { "text": "Creme, Salbe, Milch (Methylprednisolonaceponat): Ekzeme wie Neurodermitis (atopische Dermatitis) und Kontaktekzem", "ids": ["neurodermitis"] }
+    {
+      "text": "Entzündliche rheumatische Erkrankungen, z. B. rheumatoide Arthritis, Psoriasis-Arthritis, Morbus Bechterew, akuter Gichtanfall",
+      "ids": [
+        "rheumatoide-arthritis",
+        "spondyloarthritis",
+        "gicht"
+      ]
+    },
+    {
+      "text": "Kollagenosen und Gefässentzündungen, z. B. systemischer Lupus erythematodes, Polymyalgia rheumatica, Riesenzellarteriitis",
+      "ids": [
+        "lupus",
+        "vaskulitis"
+      ]
+    },
+    {
+      "text": "Schwere allergische Erkrankungen und Asthma bronchiale; als Injektion zusätzlich bei schweren allergischen Reaktionen",
+      "ids": [
+        "allergie",
+        "asthma",
+        "heuschnupfen",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Schwere Hauterkrankungen, z. B. Pemphigus, schweres Erythema multiforme, schwere Ekzeme",
+      "ids": [
+        "neurodermitis",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Akute Schübe chronisch entzündlicher Darmerkrankungen (Colitis ulcerosa, Morbus Crohn)",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn"
+      ]
+    },
+    {
+      "text": "Akute Schübe der Multiplen Sklerose (hoch dosierte Infusion)",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Blutkrankheiten wie Immunthrombozytopenie und autoimmunhämolytische Anämie; begleitend bei Leukämien und Lymphomen",
+      "ids": [
+        "thrombozytopenie",
+        "haemolytische-anaemie",
+        "leukaemie",
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Nephrotisches Syndrom, Sarkoidose und andere entzündliche Lungenerkrankungen",
+      "ids": [
+        "nephrotisches-syndrom",
+        "autoimmunerkrankung",
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Vorbeugung und Behandlung von Abstossungsreaktionen nach Organtransplantation",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Nebennierenrindeninsuffizienz (Ersatztherapie, meist zusammen mit einem Mineralokortikoid)",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kristallsuspension (Depo-Medrol): Injektion in Gelenke oder Weichteile bei entzündlichen Gelenk-, Schleimbeutel- und Sehnenscheidenerkrankungen",
+      "ids": [
+        "arthrose",
+        "rheumatoide-arthritis",
+        "sehnenerkrankung"
+      ]
+    },
+    {
+      "text": "Creme, Salbe, Milch (Methylprednisolonaceponat): Ekzeme wie Neurodermitis (atopische Dermatitis) und Kontaktekzem",
+      "ids": [
+        "neurodermitis"
+      ]
+    }
   ],
   "wirkmechanismus": "Dämpft Entzündungen, Allergien und überschiessende Immunreaktionen. Methylprednisolon ist ein synthetisches Glukokortikoid, das an den Glukokortikoid-Rezeptor im Zellinneren bindet und die Ablesung zahlreicher Gene verändert: Die Bildung entzündungsfördernder Botenstoffe (Zytokine, Prostaglandine, Leukotriene) wird gehemmt und die Aktivität von T-Zellen und anderen Abwehrzellen herabgesetzt. 4 mg Methylprednisolon entsprechen etwa 5 mg Prednisolon; die salzspeichernde (mineralokortikoide) Wirkung ist gering. Das in Hautpräparaten verwendete Methylprednisolonaceponat wird erst in der Haut in seine wirksame Form umgewandelt und gelangt kaum in den Blutkreislauf.",
   "kontraindikationen": [
-    { "text": "Systemische Pilzinfektionen (bei Einnahme oder Injektion)", "ids": ["pilzinfektion"] },
-    { "text": "Injektion in den Rückenmarkskanal (intrathekal); Depo-Medrol zudem nicht intravenös und nicht in infizierte Gelenke oder Gewebe", "ids": ["aktive-infektion"] },
-    { "text": "Kuhmilchallergie (nur Solu-Medrol 40 mg: enthält Laktose aus Kuhmilch)", "ids": [] },
-    { "text": "Hautpräparate: Tuberkulose oder Syphilis der Haut, Virusinfektionen der Haut (z. B. Windpocken, Gürtelrose, Herpes), Impfreaktionen, Rosazea, periorale Dermatitis und Akne im Behandlungsgebiet", "ids": ["herpes", "rosazea", "akne"] },
-    { "text": "Hautpräparate: Säuglinge unter 4 Monaten", "ids": ["kinder"] }
+    {
+      "text": "Systemische Pilzinfektionen (bei Einnahme oder Injektion)",
+      "ids": [
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Injektion in den Rückenmarkskanal (intrathekal); Depo-Medrol zudem nicht intravenös und nicht in infizierte Gelenke oder Gewebe",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Kuhmilchallergie (nur Solu-Medrol 40 mg: enthält Laktose aus Kuhmilch)",
+      "ids": [
+        "nahrungsmittelallergie"
+      ]
+    },
+    {
+      "text": "Hautpräparate: Tuberkulose oder Syphilis der Haut, Virusinfektionen der Haut (z. B. Windpocken, Gürtelrose, Herpes), Impfreaktionen, Rosazea, periorale Dermatitis und Akne im Behandlungsgebiet",
+      "ids": [
+        "herpes",
+        "rosazea",
+        "akne"
+      ]
+    },
+    {
+      "text": "Hautpräparate: Säuglinge unter 4 Monaten",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Infektionen: erhöhte Anfälligkeit, Anzeichen können verschleiert werden; latente Tuberkulose, Hepatitis B oder Wurminfektionen (Strongyloides) können aufflammen", "ids": ["aktive-infektion", "tuberkulose", "hepatitis-b", "wurmbefall"] },
-    { "text": "Diabetes mellitus: Blutzucker steigt, Behandlung muss angepasst werden", "ids": ["diabetes"] },
-    { "text": "Bluthochdruck, Herzschwäche, Wassereinlagerungen (Salz- und Wasserretention)", "ids": ["hypertonie", "herzinsuffizienz", "oedeme"] },
-    { "text": "Magen-Darm-Geschwüre in der Vorgeschichte, besonders bei gleichzeitiger Einnahme von NSAR", "ids": ["magen-darm-ulkus"] },
-    { "text": "Knochen und Wachstum: Osteoporose bei längerer Behandlung; bei Kindern Wachstumshemmung", "ids": ["osteoporose", "kinder"] },
-    { "text": "Psychische Erkrankungen: Stimmungsschwankungen, Depression und Psychosen können auftreten oder sich verschlechtern", "ids": ["depression", "bipolare-stoerung", "schizophrenie"] },
-    { "text": "Grüner oder grauer Star, Herpes-Infektion am Auge", "ids": ["glaukom", "katarakt"] },
-    { "text": "Myasthenia gravis (anfangs Verschlechterung der Muskelschwäche möglich)", "ids": ["myasthenia-gravis"] },
-    { "text": "Hoch dosierte Infusionen: Herzrhythmusstörungen möglich; bei wiederholter Stosstherapie Leberschäden beschrieben", "ids": ["herzrhythmusstoerung", "leberinsuffizienz"] },
-    { "text": "Nach längerer Behandlung nicht abrupt absetzen (Gefahr einer Nebennierenschwäche, besonders bei Stress, Infekten oder Operationen)", "ids": ["nebenniereninsuffizienz", "operation"] }
+    {
+      "text": "Infektionen: erhöhte Anfälligkeit, Anzeichen können verschleiert werden; latente Tuberkulose, Hepatitis B oder Wurminfektionen (Strongyloides) können aufflammen",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "hepatitis-b",
+        "wurmbefall"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: Blutzucker steigt, Behandlung muss angepasst werden",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Herzschwäche, Wassereinlagerungen (Salz- und Wasserretention)",
+      "ids": [
+        "hypertonie",
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte, besonders bei gleichzeitiger Einnahme von NSAR",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Knochen und Wachstum: Osteoporose bei längerer Behandlung; bei Kindern Wachstumshemmung",
+      "ids": [
+        "osteoporose",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Psychische Erkrankungen: Stimmungsschwankungen, Depression und Psychosen können auftreten oder sich verschlechtern",
+      "ids": [
+        "depression",
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Grüner oder grauer Star, Herpes-Infektion am Auge",
+      "ids": [
+        "glaukom",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (anfangs Verschlechterung der Muskelschwäche möglich)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Hoch dosierte Infusionen: Herzrhythmusstörungen möglich; bei wiederholter Stosstherapie Leberschäden beschrieben",
+      "ids": [
+        "herzrhythmusstoerung",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nach längerer Behandlung nicht abrupt absetzen (Gefahr einer Nebennierenschwäche, besonders bei Stress, Infekten oder Operationen)",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "operation"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Lebendimpfstoffe (z. B. Masern-Mumps-Röteln, Varizellen, Gelbfieber) unter immunsuppressiven Dosen", "ref": ["gruppe:lebendimpfstoffe"], "grund": "Unter hoch dosiertem Kortison kann sich das abgeschwächte Impfvirus ungehemmt vermehren – Gefahr einer schweren Impfinfektion." }
+    {
+      "text": "Lebendimpfstoffe (z. B. Masern-Mumps-Röteln, Varizellen, Gelbfieber) unter immunsuppressiven Dosen",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "grund": "Unter hoch dosiertem Kortison kann sich das abgeschwächte Impfvirus ungehemmt vermehren – Gefahr einer schweren Impfinfektion."
+    }
   ],
   "interaktionen": [
-    { "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir, Cobicistat, Diltiazem, Aprepitant)", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:maessige-cyp3a4-hemmer"], "effekt": "Methylprednisolon-Spiegel steigt – verstärkte Kortison-Nebenwirkungen (Cushing-Syndrom, Nebennierensuppression); Dosis gegebenenfalls reduzieren.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Methylprednisolon wird schneller abgebaut – Wirkung kann ungenügend sein; Dosis gegebenenfalls erhöhen.", "schwere": "mittel" },
-    { "text": "NSAR und Acetylsalicylsäure", "ref": ["gruppe:nsar", "acetylsalicylsaeure"], "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen; bei Bedarf Magenschutz.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gerinnungswert (INR) kann steigen oder sinken – häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Amphotericin B, Abführmittel)", "ref": ["gruppe:hypokaliaemie-ausloesend", "amphotericin-b"], "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Herzglykoside (Digoxin, Digitoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Ein durch Kortison verursachter Kaliummangel erhöht das Risiko für Glykosid-Vergiftung und Rhythmusstörungen.", "schwere": "mittel" },
-    { "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe, Metformin u. a.)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Blutzucker steigt, die Wirkung der Antidiabetika wird abgeschwächt – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Gegenseitige Hemmung des Abbaus; Krampfanfälle wurden beschrieben.", "schwere": "mittel" },
-    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, besonders bei älteren Menschen.", "schwere": "mittel" },
-    { "text": "Acetylcholinesterase-Hemmer bei Myasthenia gravis (z. B. Pyridostigmin)", "ref": ["gruppe:acetylcholinesterasehemmer"], "effekt": "Muskelschwäche kann sich vorübergehend verstärken (myasthene Krise).", "schwere": "mittel" },
-    { "text": "Totimpfstoffe", "ref": [], "effekt": "Unter hohen Dosen kann die Impfantwort vermindert sein.", "schwere": "leicht" }
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir, Cobicistat, Diltiazem, Aprepitant)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Methylprednisolon-Spiegel steigt – verstärkte Kortison-Nebenwirkungen (Cushing-Syndrom, Nebennierensuppression); Dosis gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Methylprednisolon wird schneller abgebaut – Wirkung kann ungenügend sein; Dosis gegebenenfalls erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR und Acetylsalicylsäure",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen; bei Bedarf Magenschutz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungswert (INR) kann steigen oder sinken – häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Amphotericin B, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "amphotericin-b"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin, Digitoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein durch Kortison verursachter Kaliummangel erhöht das Risiko für Glykosid-Vergiftung und Rhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe, Metformin u. a.)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Blutzucker steigt, die Wirkung der Antidiabetika wird abgeschwächt – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Gegenseitige Hemmung des Abbaus; Krampfanfälle wurden beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, besonders bei älteren Menschen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Acetylcholinesterase-Hemmer bei Myasthenia gravis (z. B. Pyridostigmin)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Muskelschwäche kann sich vorübergehend verstärken (myasthene Krise).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [],
+      "effekt": "Unter hohen Dosen kann die Impfantwort vermindert sein.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Hautpräparate: Brennen und Juckreiz an der Auftragsstelle"],
-    "gelegentlich": ["Hautpräparate: Trockenheit, Rötung, Bläschen, Haarbalgentzündung (Follikulitis), Ausschlag, Kribbeln der Haut"],
+    "haeufig": [
+      "Hautpräparate: Brennen und Juckreiz an der Auftragsstelle"
+    ],
+    "gelegentlich": [
+      "Hautpräparate: Trockenheit, Rötung, Bläschen, Haarbalgentzündung (Follikulitis), Ausschlag, Kribbeln der Haut"
+    ],
     "unbekannt": [
       "Erhöhte Infektanfälligkeit, Verschleierung von Infektionen",
       "Cushing-Syndrom (Vollmondgesicht, Stammfettsucht) und Unterdrückung der Nebennierenfunktion bei längerer Anwendung",

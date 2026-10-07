@@ -1,63 +1,314 @@
 {
   "id": "ethinylestradiol-desogestrel",
   "name": "Ethinylestradiol + Desogestrel",
-  "synonyme": ["Desogestrel + Ethinylestradiol", "EE/DSG", "Kombinationspille", "Antibabypille", "Pille"],
-  "kombinationAus": ["desogestrel"],
-  "atc": ["G03AA09", "G03AB05"],
+  "synonyme": [
+    "Desogestrel + Ethinylestradiol",
+    "EE/DSG",
+    "Kombinationspille",
+    "Antibabypille",
+    "Pille"
+  ],
+  "kombinationAus": [
+    "desogestrel"
+  ],
+  "atc": [
+    "G03AA09",
+    "G03AB05"
+  ],
   "klasse": "Kombiniertes orales Kontrazeptivum (Östrogen + Gestagen der 3. Generation)",
   "kurz": "Antibabypille mit Östrogen und Desogestrel; etwas höheres Thromboserisiko als Pillen mit Levonorgestrel.",
-  "gruppen": ["oestrogene", "gestagene", "hormonale-kontrazeptiva"],
-  "handelsnamen": ["Marvelon", "Mercilon"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten (Einphasen- und Dreiphasenpräparate, Langzyklus)"],
+  "gruppen": [
+    "oestrogene",
+    "gestagene",
+    "hormonale-kontrazeptiva",
+    "thromboserisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Marvelon",
+    "Mercilon"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Hormonale Empfängnisverhütung (Kontrazeption)", "ids": ["verhuetung"] }
+    {
+      "text": "Hormonale Empfängnisverhütung (Kontrazeption)",
+      "ids": [
+        "verhuetung"
+      ]
+    }
   ],
   "wirkmechanismus": "Verhindert eine Schwangerschaft vor allem, indem der Eisprung unterdrückt wird. Das Östrogen Ethinylestradiol und das Gestagen Desogestrel hemmen über die Hirnanhangdrüse die Ausschüttung von FSH und LH, sodass keine Eizelle heranreift. Desogestrel ist eine Vorstufe (Prodrug) und wird in Darmwand und Leber zum eigentlichen Wirkstoff Etonogestrel umgewandelt. Zusätzlich verdickt das Gestagen den Schleim am Gebärmutterhals und verändert die Gebärmutterschleimhaut; Ethinylestradiol stabilisiert den Zyklus.",
   "kontraindikationen": [
-    { "text": "Bestehende oder frühere venöse Thrombose oder Embolie (z. B. Beinvenenthrombose, Lungenembolie)", "ids": ["thrombose", "lungenembolie", "thromboembolie-vorgeschichte"] },
-    { "text": "Bekannte erbliche oder erworbene Thromboseneigung (z. B. Faktor-V-Leiden/APC-Resistenz, Antithrombin-, Protein-C- oder Protein-S-Mangel, Antiphospholipid-Antikörper)", "ids": ["thromboembolie-vorgeschichte"] },
-    { "text": "Grössere Operation mit längerer Bettlägerigkeit", "ids": ["operation"] },
-    { "text": "Bestehende oder frühere arterielle Gefässverschlüsse: Herzinfarkt, Angina pectoris, Schlaganfall oder TIA", "ids": ["herzinfarkt", "angina-pectoris", "schlaganfall"] },
-    { "text": "Migräne mit Aura (mit neurologischen Ausfällen wie Seh- oder Sprachstörungen)", "ids": ["migraene"] },
-    { "text": "Hohes Risiko für arterielle Thrombosen, z. B. Diabetes mit Gefässschäden, schwerer Bluthochdruck, schwere Fettstoffwechselstörung", "ids": ["diabetes", "hypertonie", "hypercholesterinaemie"] },
-    { "text": "Bauchspeicheldrüsenentzündung mit stark erhöhten Triglyceriden (aktuell oder früher)", "ids": ["pankreatitis", "hypertriglyzeridaemie"] },
-    { "text": "Schwere Lebererkrankung, solange die Leberwerte nicht normal sind; gut- oder bösartige Lebertumoren", "ids": ["leberinsuffizienz", "leberkrebs"] },
-    { "text": "Bekannte oder vermutete hormonabhängige bösartige Tumoren (z. B. Brust, Gebärmutter)", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
-    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] },
-    { "text": "Bestehende oder vermutete Schwangerschaft", "ids": ["schwangerschaft"] }
+    {
+      "text": "Bestehende oder frühere venöse Thrombose oder Embolie (z. B. Beinvenenthrombose, Lungenembolie)",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Bekannte erbliche oder erworbene Thromboseneigung (z. B. Faktor-V-Leiden/APC-Resistenz, Antithrombin-, Protein-C- oder Protein-S-Mangel, Antiphospholipid-Antikörper)",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Grössere Operation mit längerer Bettlägerigkeit",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Bestehende oder frühere arterielle Gefässverschlüsse: Herzinfarkt, Angina pectoris, Schlaganfall oder TIA",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Migräne mit Aura (mit neurologischen Ausfällen wie Seh- oder Sprachstörungen)",
+      "ids": [
+        "migraene"
+      ]
+    },
+    {
+      "text": "Hohes Risiko für arterielle Thrombosen, z. B. Diabetes mit Gefässschäden, schwerer Bluthochdruck, schwere Fettstoffwechselstörung",
+      "ids": [
+        "diabetes",
+        "hypertonie",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Bauchspeicheldrüsenentzündung mit stark erhöhten Triglyceriden (aktuell oder früher)",
+      "ids": [
+        "pankreatitis",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Schwere Lebererkrankung, solange die Leberwerte nicht normal sind; gut- oder bösartige Lebertumoren",
+      "ids": [
+        "leberinsuffizienz",
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Bekannte oder vermutete hormonabhängige bösartige Tumoren (z. B. Brust, Gebärmutter)",
+      "ids": [
+        "brustkrebs",
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Nicht abgeklärte Blutungen aus der Scheide",
+      "ids": []
+    },
+    {
+      "text": "Bestehende oder vermutete Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Weitere Thrombose-Risikofaktoren: Alter über 35 Jahre, Übergewicht (BMI über 30), Thrombosen bei nahen Verwandten in jungen Jahren, Wochenbett, längere Ruhigstellung", "ids": ["thromboembolie-vorgeschichte", "adipositas"] },
-    { "text": "Rauchen, besonders ab 35 Jahren (deutlich erhöhtes Risiko für Herzinfarkt und Schlaganfall)", "ids": ["rauchstopp"] },
-    { "text": "Bluthochdruck: Blutdruck regelmässig kontrollieren, bei deutlichem Anstieg absetzen", "ids": ["hypertonie"] },
-    { "text": "Migräne ohne Aura, neu auftretende oder stärkere Kopfschmerzen", "ids": ["migraene", "kopfschmerzen"] },
-    { "text": "Diabetes mellitus (Blutzucker überwachen)", "ids": ["diabetes"] },
-    { "text": "Depression in der Vorgeschichte; Stimmungsveränderungen oder Suizidgedanken sofort ärztlich melden", "ids": ["depression", "suizidgedanken"] },
-    { "text": "Lebererkrankungen, Gallensteine oder Gelbsucht bzw. Juckreiz in einer früheren Schwangerschaft", "ids": ["leberinsuffizienz", "gallensteine"] },
-    { "text": "Hereditäres Angioödem: Östrogene können Schwellungsattacken auslösen", "ids": ["angiooedem"] },
-    { "text": "Chronisch entzündliche Darmerkrankungen, Lupus erythematodes, Sichelzellkrankheit", "ids": ["morbus-crohn", "colitis-ulcerosa", "lupus", "sichelzellanaemie"] },
-    { "text": "Neigung zu Chloasma (bräunliche Pigmentflecken im Gesicht): Sonne und UV-Strahlung meiden", "ids": ["sonnenbrand"] }
+    {
+      "text": "Weitere Thrombose-Risikofaktoren: Alter über 35 Jahre, Übergewicht (BMI über 30), Thrombosen bei nahen Verwandten in jungen Jahren, Wochenbett, längere Ruhigstellung",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Rauchen, besonders ab 35 Jahren (deutlich erhöhtes Risiko für Herzinfarkt und Schlaganfall)",
+      "ids": [
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: Blutdruck regelmässig kontrollieren, bei deutlichem Anstieg absetzen",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Migräne ohne Aura, neu auftretende oder stärkere Kopfschmerzen",
+      "ids": [
+        "migraene",
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus (Blutzucker überwachen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Depression in der Vorgeschichte; Stimmungsveränderungen oder Suizidgedanken sofort ärztlich melden",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen, Gallensteine oder Gelbsucht bzw. Juckreiz in einer früheren Schwangerschaft",
+      "ids": [
+        "leberinsuffizienz",
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Hereditäres Angioödem: Östrogene können Schwellungsattacken auslösen",
+      "ids": [
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Chronisch entzündliche Darmerkrankungen, Lupus erythematodes, Sichelzellkrankheit",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "lupus",
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "Neigung zu Chloasma (bräunliche Pigmentflecken im Gesicht): Sonne und UV-Strahlung meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Hepatitis-C-Mittel mit Ombitasvir/Paritaprevir/Ritonavir (mit oder ohne Dasabuvir), Glecaprevir/Pibrentasvir oder Sofosbuvir/Velpatasvir/Voxilaprevir", "ref": ["glecaprevir-pibrentasvir", "sofosbuvir-velpatasvir-voxilaprevir"], "grund": "Zusammen mit Ethinylestradiol traten gehäuft deutliche Leberwerterhöhungen (ALT) auf; die Pille frühestens etwa 2 Wochen nach Therapieende wieder beginnen." }
+    {
+      "text": "Hepatitis-C-Mittel mit Ombitasvir/Paritaprevir/Ritonavir (mit oder ohne Dasabuvir), Glecaprevir/Pibrentasvir oder Sofosbuvir/Velpatasvir/Voxilaprevir",
+      "ref": [
+        "glecaprevir-pibrentasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "grund": "Zusammen mit Ethinylestradiol traten gehäuft deutliche Leberwerterhöhungen (ALT) auf; die Pille frühestens etwa 2 Wochen nach Therapieende wieder beginnen."
+    }
   ],
   "interaktionen": [
-    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Topiramat, Modafinil, Efavirenz, Johanniskraut)", "ref": ["gruppe:enzyminduktoren-hormone", "gruppe:cyp3a4-induktoren"], "effekt": "Beschleunigter Hormonabbau: Verhütungsschutz unsicher, Zwischenblutungen. Während der Einnahme und 28 Tage danach zusätzlich ein Kondom verwenden; bei längerer Behandlung eine nicht hormonale Methode wählen.", "schwere": "schwer" },
-    { "text": "Lamotrigin (Antiepileptikum)", "ref": ["lamotrigin"], "effekt": "Ethinylestradiol senkt den Lamotrigin-Spiegel etwa um die Hälfte – Gefahr von Krampfanfällen; in der pillenfreien Woche steigt er wieder an. Beginn und Absetzen der Pille nur mit ärztlicher Dosisanpassung und Spiegelkontrollen.", "schwere": "schwer" },
-    { "text": "HIV-Mittel: Proteasehemmer mit Ritonavir oder Cobicistat, NNRTI (z. B. Efavirenz, Nevirapin)", "ref": ["gruppe:hiv-proteasehemmer", "gruppe:nnrti", "ritonavir", "cobicistat"], "effekt": "Hormonspiegel können deutlich sinken oder steigen – Verhütungsschutz bzw. Verträglichkeit verändert. Kombination ärztlich prüfen lassen, ggf. andere Verhütungsmethode.", "schwere": "mittel" },
-    { "text": "Ulipristal (ellaOne, «Pille danach»)", "ref": ["ulipristal"], "effekt": "Gegenseitige Wirkungsabschwächung. Die Pille frühestens 5 Tage nach Ulipristal wieder einnehmen und bis zur nächsten Regelblutung zusätzlich ein Kondom verwenden.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ciclosporin-Spiegel können steigen – Spiegel und Nierenwerte kontrollieren.", "schwere": "mittel" },
-    { "text": "Tizanidin, Theophyllin, Melatonin (Abbau über CYP1A2)", "ref": ["tizanidin", "theophyllin", "melatonin"], "effekt": "Ethinylestradiol hemmt ihren Abbau – Spiegel steigen (bei Tizanidin z. B. Blutdruckabfall, Müdigkeit). Vorsicht, Dosis ggf. reduzieren.", "schwere": "mittel" },
-    { "text": "Tranexamsäure", "ref": ["tranexamsaeure"], "effekt": "Das Thromboserisiko kann zusätzlich steigen – nur nach ärztlicher Abwägung kombinieren.", "schwere": "mittel" },
-    { "text": "Levothyroxin (Schilddrüsenhormon)", "ref": ["levothyroxin"], "effekt": "Östrogene erhöhen das Bindungseiweiss für Schilddrüsenhormone – der Bedarf kann steigen. TSH nach Beginn oder Absetzen der Pille kontrollieren.", "schwere": "leicht" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Hormonspiegel möglich; meist ohne klinische Bedeutung.", "schwere": "leicht" }
+    {
+      "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Topiramat, Modafinil, Efavirenz, Johanniskraut)",
+      "ref": [
+        "gruppe:enzyminduktoren-hormone",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Hormonabbau: Verhütungsschutz unsicher, Zwischenblutungen. Während der Einnahme und 28 Tage danach zusätzlich ein Kondom verwenden; bei längerer Behandlung eine nicht hormonale Methode wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lamotrigin (Antiepileptikum)",
+      "ref": [
+        "lamotrigin"
+      ],
+      "effekt": "Ethinylestradiol senkt den Lamotrigin-Spiegel etwa um die Hälfte – Gefahr von Krampfanfällen; in der pillenfreien Woche steigt er wieder an. Beginn und Absetzen der Pille nur mit ärztlicher Dosisanpassung und Spiegelkontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Mittel: Proteasehemmer mit Ritonavir oder Cobicistat, NNRTI (z. B. Efavirenz, Nevirapin)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:nnrti",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Hormonspiegel können deutlich sinken oder steigen – Verhütungsschutz bzw. Verträglichkeit verändert. Kombination ärztlich prüfen lassen, ggf. andere Verhütungsmethode.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ulipristal (ellaOne, «Pille danach»)",
+      "ref": [
+        "ulipristal"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung. Die Pille frühestens 5 Tage nach Ulipristal wieder einnehmen und bis zur nächsten Regelblutung zusätzlich ein Kondom verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel können steigen – Spiegel und Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tizanidin, Theophyllin, Melatonin (Abbau über CYP1A2)",
+      "ref": [
+        "tizanidin",
+        "theophyllin",
+        "melatonin"
+      ],
+      "effekt": "Ethinylestradiol hemmt ihren Abbau – Spiegel steigen (bei Tizanidin z. B. Blutdruckabfall, Müdigkeit). Vorsicht, Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tranexamsäure",
+      "ref": [
+        "tranexamsaeure"
+      ],
+      "effekt": "Das Thromboserisiko kann zusätzlich steigen – nur nach ärztlicher Abwägung kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levothyroxin (Schilddrüsenhormon)",
+      "ref": [
+        "levothyroxin"
+      ],
+      "effekt": "Östrogene erhöhen das Bindungseiweiss für Schilddrüsenhormone – der Bedarf kann steigen. TSH nach Beginn oder Absetzen der Pille kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Hormonspiegel möglich; meist ohne klinische Bedeutung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen", "Übelkeit, Bauchschmerzen", "Depressive Verstimmung, Stimmungsschwankungen", "Brustschmerzen, Brustspannen", "Gewichtszunahme", "Zwischen- und Schmierblutungen, vor allem in den ersten Monaten"],
-    "gelegentlich": ["Migräne", "Erbrechen, Durchfall", "Verminderte Libido", "Wassereinlagerungen (Ödeme)", "Hautausschlag, Nesselsucht", "Brustvergrösserung"],
-    "selten": ["Venöse Thromboembolie (Beinvenenthrombose, Lungenembolie)", "Arterielle Thromboembolie (Herzinfarkt, Schlaganfall)", "Überempfindlichkeitsreaktionen", "Erythema nodosum oder multiforme (entzündliche Hautknoten bzw. Hautausschlag)", "Unverträglichkeit von Kontaktlinsen", "Scheidenausfluss, Absonderung aus der Brust", "Gesteigerte Libido, Gewichtsabnahme"],
-    "unbekannt": ["Blutdruckanstieg", "Chloasma (bräunliche Pigmentflecken im Gesicht)", "Lebertumoren", "Auslösung oder Verschlechterung eines hereditären Angioödems", "Leicht erhöhte Häufigkeit von Brustkrebsdiagnosen"]
+    "haeufig": [
+      "Kopfschmerzen",
+      "Übelkeit, Bauchschmerzen",
+      "Depressive Verstimmung, Stimmungsschwankungen",
+      "Brustschmerzen, Brustspannen",
+      "Gewichtszunahme",
+      "Zwischen- und Schmierblutungen, vor allem in den ersten Monaten"
+    ],
+    "gelegentlich": [
+      "Migräne",
+      "Erbrechen, Durchfall",
+      "Verminderte Libido",
+      "Wassereinlagerungen (Ödeme)",
+      "Hautausschlag, Nesselsucht",
+      "Brustvergrösserung"
+    ],
+    "selten": [
+      "Venöse Thromboembolie (Beinvenenthrombose, Lungenembolie)",
+      "Arterielle Thromboembolie (Herzinfarkt, Schlaganfall)",
+      "Überempfindlichkeitsreaktionen",
+      "Erythema nodosum oder multiforme (entzündliche Hautknoten bzw. Hautausschlag)",
+      "Unverträglichkeit von Kontaktlinsen",
+      "Scheidenausfluss, Absonderung aus der Brust",
+      "Gesteigerte Libido, Gewichtsabnahme"
+    ],
+    "unbekannt": [
+      "Blutdruckanstieg",
+      "Chloasma (bräunliche Pigmentflecken im Gesicht)",
+      "Lebertumoren",
+      "Auslösung oder Verschlechterung eines hereditären Angioödems",
+      "Leicht erhöhte Häufigkeit von Brustkrebsdiagnosen"
+    ]
   },
   "schwangerschaft": "Kontraindiziert; bei Eintritt einer Schwangerschaft sofort absetzen. Eine versehentliche Einnahme in der Frühschwangerschaft erhöht das Fehlbildungsrisiko nach heutigem Wissen nicht.",
   "stillzeit": "Nicht empfohlen: Östrogene können die Milchmenge vermindern, und geringe Mengen gehen in die Muttermilch über. In der Stillzeit sind östrogenfreie Methoden besser geeignet.",

@@ -18,7 +18,10 @@
     "antiepileptika",
     "teratogen",
     "hepatotoxisch",
-    "zns-daempfend"
+    "zns-daempfend",
+    "hyponatriaemie-ausloesend",
+    "blutungsrisiko-erhoehend",
+    "cyp2c9-hemmer"
   ],
   "handelsnamen": [
     "Depakine",
@@ -128,7 +131,15 @@
       "ids": []
     }
   ],
-  "kontraMedikamente": [],
+  "kontraMedikamente": [
+    {
+      "text": "Mefloquin (Malariamittel)",
+      "ref": [
+        "mefloquin"
+      ],
+      "grund": "Mefloquin senkt den Valproinsäure-Spiegel und die Krampfschwelle – Gefahr von Krampfanfällen."
+    }
+  ],
   "interaktionen": [
     {
       "text": "Carbapeneme (Meropenem, Imipenem, Ertapenem)",
@@ -144,14 +155,6 @@
         "lamotrigin"
       ],
       "effekt": "Lamotrigin-Spiegel verdoppelt sich – höheres Risiko schwerer Hautreaktionen; Lamotrigin-Dosis halbieren und langsam steigern.",
-      "schwere": "schwer"
-    },
-    {
-      "text": "Mefloquin",
-      "ref": [
-        "mefloquin"
-      ],
-      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
       "schwere": "schwer"
     },
     {

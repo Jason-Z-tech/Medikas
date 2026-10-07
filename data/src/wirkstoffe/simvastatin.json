@@ -1,55 +1,261 @@
 {
   "id": "simvastatin",
   "name": "Simvastatin",
-  "synonyme": ["Simvastatinum"],
-  "atc": ["C10AA01"],
+  "synonyme": [
+    "Simvastatinum"
+  ],
+  "atc": [
+    "C10AA01"
+  ],
   "klasse": "HMG-CoA-Reduktase-Hemmer (Statin)",
   "kurz": "Cholesterinsenker aus der Gruppe der Statine; beugt Herzinfarkt und Schlaganfall vor. Viele Wechselwirkungen über CYP3A4.",
-  "gruppen": ["statine", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Zocor", "Simvastatin-Mepha", "Simvastatin Sandoz", "Inegy (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "statine",
+    "cyp3a4-substrate-empfindlich",
+    "myotoxisch"
+  ],
+  "handelsnamen": [
+    "Zocor",
+    "Simvastatin-Mepha",
+    "Simvastatin Sandoz",
+    "Inegy (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Erhöhtes Cholesterin (primäre Hypercholesterinämie, gemischte Hyperlipidämie), ergänzend zur Diät", "ids": ["hypercholesterinaemie"] },
-    { "text": "Homozygote familiäre Hypercholesterinämie, ergänzend zu anderen lipidsenkenden Massnahmen", "ids": ["hypercholesterinaemie"] },
-    { "text": "Senkung des Risikos für Herzinfarkt, Schlaganfall und Herz-Kreislauf-Tod bei koronarer Herzkrankheit, anderen arteriosklerotischen Gefässerkrankungen oder Diabetes – auch bei normalem Cholesterin", "ids": ["herzinfarkt", "schlaganfall", "koronare-herzkrankheit"] }
+    {
+      "text": "Erhöhtes Cholesterin (primäre Hypercholesterinämie, gemischte Hyperlipidämie), ergänzend zur Diät",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Homozygote familiäre Hypercholesterinämie, ergänzend zu anderen lipidsenkenden Massnahmen",
+      "ids": [
+        "hypercholesterinaemie",
+        "familiaere-hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Senkung des Risikos für Herzinfarkt, Schlaganfall und Herz-Kreislauf-Tod bei koronarer Herzkrankheit, anderen arteriosklerotischen Gefässerkrankungen oder Diabetes – auch bei normalem Cholesterin",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt das Cholesterin, indem es dessen Herstellung in der Leber bremst. Simvastatin ist ein Prodrug (Lacton), das in der Leber zur aktiven Beta-Hydroxysäure umgewandelt wird; diese hemmt die HMG-CoA-Reduktase, das Schlüsselenzym der Cholesterinsynthese. Die Leberzellen bilden daraufhin mehr LDL-Rezeptoren und holen vermehrt LDL-Cholesterin aus dem Blut; zusätzlich sinken die Triglyceride leicht und das HDL-Cholesterin steigt etwas. Simvastatin wird vor allem über CYP3A4 abgebaut, deshalb sind Wechselwirkungen häufig und können zu Muskelschäden führen.",
   "kontraindikationen": [
-    { "text": "Aktive Lebererkrankung oder ungeklärte, anhaltend erhöhte Leberwerte (Transaminasen)", "ids": ["leberinsuffizienz"] },
-    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
-    { "text": "Stillzeit", "ids": ["stillzeit"] }
+    {
+      "text": "Aktive Lebererkrankung oder ungeklärte, anhaltend erhöhte Leberwerte (Transaminasen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Muskelschäden unter einem Statin oder Fibrat in der Vorgeschichte, erbliche Muskelerkrankungen (Risiko für Myopathie und Rhabdomyolyse)", "ids": ["muskelerkrankung"] },
-    { "text": "Eingeschränkte Nierenfunktion", "ids": ["niereninsuffizienz"] },
-    { "text": "Unbehandelte Schilddrüsenunterfunktion", "ids": ["hypothyreose"] },
-    { "text": "Alter ab 65 Jahren (höheres Myopathierisiko)", "ids": ["aeltere-patienten"] },
-    { "text": "Hoher Alkoholkonsum oder Lebererkrankung in der Vorgeschichte: Leberwerte kontrollieren", "ids": ["alkoholkonsum", "leberinsuffizienz"] },
-    { "text": "Risikofaktoren für Diabetes (erhöhter Nüchternblutzucker, Übergewicht, erhöhte Triglyceride, Bluthochdruck): Blutzucker kontrollieren", "ids": ["diabetes"] },
-    { "text": "Myasthenia gravis: Statine können sie auslösen oder verschlimmern", "ids": ["myasthenia-gravis"] }
+    {
+      "text": "Muskelschäden unter einem Statin oder Fibrat in der Vorgeschichte, erbliche Muskelerkrankungen (Risiko für Myopathie und Rhabdomyolyse)",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Unbehandelte Schilddrüsenunterfunktion",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Alter ab 65 Jahren (höheres Myopathierisiko)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Hoher Alkoholkonsum oder Lebererkrankung in der Vorgeschichte: Leberwerte kontrollieren",
+      "ids": [
+        "alkoholkonsum",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für Diabetes (erhöhter Nüchternblutzucker, Übergewicht, erhöhte Triglyceride, Bluthochdruck): Blutzucker kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: Statine können sie auslösen oder verschlimmern",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Starke CYP3A4-Hemmer, z. B. Itraconazol, Ketoconazol (zum Einnehmen), Posaconazol, Voriconazol, Clarithromycin, HIV-Proteasehemmer und Cobicistat-haltige Mittel", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:hiv-proteasehemmer", "cobicistat"], "grund": "Der Abbau von Simvastatin wird blockiert – stark erhöhte Spiegel mit hohem Risiko für Myopathie und Rhabdomyolyse." },
-    { "text": "Erythromycin (zum Einnehmen oder als Infusion)", "ref": ["erythromycin"], "grund": "Hemmt CYP3A4 – deutlich erhöhte Simvastatin-Spiegel mit Rhabdomyolyse-Gefahr." },
-    { "text": "Gemfibrozil", "ref": ["gemfibrozil"], "grund": "Erhöht die Spiegel der aktiven Simvastatinsäure und das Myopathierisiko stark." },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "grund": "Hemmt Abbau und Leberaufnahme von Simvastatin – stark erhöhtes Risiko für Myopathie und Rhabdomyolyse." },
-    { "text": "Danazol", "ref": [], "grund": "Erhöht die Simvastatin-Spiegel – stark erhöhtes Myopathierisiko." },
-    { "text": "Lomitapid bei homozygoter familiärer Hypercholesterinämie mit mehr als 40 mg Simvastatin pro Tag", "ref": [], "grund": "Lomitapid hemmt CYP3A4 – Simvastatin-Spiegel und Myopathierisiko steigen." },
-    { "text": "Glecaprevir/Pibrentasvir (Hepatitis-C-Mittel)", "ref": ["glecaprevir-pibrentasvir"], "grund": "Hemmt Leber-Transporter (OATP1B1/1B3) und erhöht die Statinspiegel deutlich – Myopathie-Gefahr (Kontraindikation laut Fachinformation von Glecaprevir/Pibrentasvir)." }
+    {
+      "text": "Starke CYP3A4-Hemmer, z. B. Itraconazol, Ketoconazol (zum Einnehmen), Posaconazol, Voriconazol, Clarithromycin, HIV-Proteasehemmer und Cobicistat-haltige Mittel",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "cobicistat"
+      ],
+      "grund": "Der Abbau von Simvastatin wird blockiert – stark erhöhte Spiegel mit hohem Risiko für Myopathie und Rhabdomyolyse."
+    },
+    {
+      "text": "Erythromycin (zum Einnehmen oder als Infusion)",
+      "ref": [
+        "erythromycin"
+      ],
+      "grund": "Hemmt CYP3A4 – deutlich erhöhte Simvastatin-Spiegel mit Rhabdomyolyse-Gefahr."
+    },
+    {
+      "text": "Gemfibrozil",
+      "ref": [
+        "gemfibrozil"
+      ],
+      "grund": "Erhöht die Spiegel der aktiven Simvastatinsäure und das Myopathierisiko stark."
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "grund": "Hemmt Abbau und Leberaufnahme von Simvastatin – stark erhöhtes Risiko für Myopathie und Rhabdomyolyse."
+    },
+    {
+      "text": "Danazol",
+      "ref": [],
+      "grund": "Erhöht die Simvastatin-Spiegel – stark erhöhtes Myopathierisiko."
+    },
+    {
+      "text": "Lomitapid bei homozygoter familiärer Hypercholesterinämie mit mehr als 40 mg Simvastatin pro Tag",
+      "ref": [],
+      "grund": "Lomitapid hemmt CYP3A4 – Simvastatin-Spiegel und Myopathierisiko steigen."
+    },
+    {
+      "text": "Glecaprevir/Pibrentasvir (Hepatitis-C-Mittel)",
+      "ref": [
+        "glecaprevir-pibrentasvir"
+      ],
+      "grund": "Hemmt Leber-Transporter (OATP1B1/1B3) und erhöht die Statinspiegel deutlich – Myopathie-Gefahr (Kontraindikation laut Fachinformation von Glecaprevir/Pibrentasvir)."
+    }
   ],
   "interaktionen": [
-    { "text": "Amiodaron, Amlodipin, Ranolazin", "ref": ["amiodaron", "amlodipin", "ranolazin"], "effekt": "Simvastatin-Spiegel steigen – höchstens 20 mg Simvastatin pro Tag, auf Muskelbeschwerden achten.", "schwere": "schwer" },
-    { "text": "Verapamil, Diltiazem, Dronedaron", "ref": ["gruppe:nicht-dhp-calciumantagonisten", "dronedaron"], "effekt": "Simvastatin-Spiegel steigen deutlich – höchstens 10 mg Simvastatin pro Tag.", "schwere": "schwer" },
-    { "text": "Fusidinsäure (zum Einnehmen oder als Infusion)", "ref": ["fusidinsaeure"], "effekt": "Schwere, teils tödliche Rhabdomyolysen – Simvastatin während der Fusidinsäure-Behandlung pausieren.", "schwere": "schwer" },
-    { "text": "Andere mässige CYP3A4-Hemmer (z. B. Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Erhöhtes Myopathierisiko – Dosis begrenzen, auf Muskelbeschwerden achten.", "schwere": "mittel" },
-    { "text": "Ticagrelor", "ref": ["ticagrelor"], "effekt": "Simvastatin-Spiegel steigt – Dosen über 40 mg pro Tag nicht empfohlen.", "schwere": "mittel" },
-    { "text": "Fibrate ausser Gemfibrozil (z. B. Fenofibrat, Bezafibrat)", "ref": ["gruppe:fibrate"], "effekt": "Erhöhtes Myopathierisiko; mit anderen Fibraten als Fenofibrat höchstens 10 mg Simvastatin pro Tag.", "schwere": "mittel" },
-    { "text": "Colchicin", "ref": ["colchicin"], "effekt": "Myopathie und Rhabdomyolyse möglich, besonders bei eingeschränkter Nierenfunktion – auf Muskelbeschwerden achten.", "schwere": "mittel" },
-    { "text": "Daptomycin", "ref": ["daptomycin"], "effekt": "Erhöhtes Risiko für Muskelschäden – Statin während der Daptomycin-Behandlung pausieren erwägen.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "INR kann steigen – zu Beginn und bei Dosisänderung INR kontrollieren.", "schwere": "mittel" },
-    { "text": "Grapefruitsaft", "ref": [], "effekt": "Hemmt CYP3A4 im Darm und erhöht die Simvastatin-Spiegel – während der Behandlung meiden.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Simvastatin-Spiegel sinkt stark, die Cholesterinsenkung wird schwächer – LDL kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "Amiodaron, Amlodipin, Ranolazin",
+      "ref": [
+        "amiodaron",
+        "amlodipin",
+        "ranolazin"
+      ],
+      "effekt": "Simvastatin-Spiegel steigen – höchstens 20 mg Simvastatin pro Tag, auf Muskelbeschwerden achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Verapamil, Diltiazem, Dronedaron",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "dronedaron"
+      ],
+      "effekt": "Simvastatin-Spiegel steigen deutlich – höchstens 10 mg Simvastatin pro Tag.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fusidinsäure (zum Einnehmen oder als Infusion)",
+      "ref": [
+        "fusidinsaeure"
+      ],
+      "effekt": "Schwere, teils tödliche Rhabdomyolysen – Simvastatin während der Fusidinsäure-Behandlung pausieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere mässige CYP3A4-Hemmer (z. B. Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhtes Myopathierisiko – Dosis begrenzen, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ticagrelor",
+      "ref": [
+        "ticagrelor"
+      ],
+      "effekt": "Simvastatin-Spiegel steigt – Dosen über 40 mg pro Tag nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fibrate ausser Gemfibrozil (z. B. Fenofibrat, Bezafibrat)",
+      "ref": [
+        "gruppe:fibrate"
+      ],
+      "effekt": "Erhöhtes Myopathierisiko; mit anderen Fibraten als Fenofibrat höchstens 10 mg Simvastatin pro Tag.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "effekt": "Myopathie und Rhabdomyolyse möglich, besonders bei eingeschränkter Nierenfunktion – auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Daptomycin",
+      "ref": [
+        "daptomycin"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden – Statin während der Daptomycin-Behandlung pausieren erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann steigen – zu Beginn und bei Dosisänderung INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmt CYP3A4 im Darm und erhöht die Simvastatin-Spiegel – während der Behandlung meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Simvastatin-Spiegel sinkt stark, die Cholesterinsenkung wird schwächer – LDL kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
     "selten": [
@@ -63,6 +269,7 @@
       "Anämie (Blutarmut), Schwäche"
     ],
     "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
       "Leberversagen, auch tödlich",
       "Muskelriss",
       "Gedächtnisstörungen, Schlaflosigkeit",

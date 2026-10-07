@@ -1,0 +1,182 @@
+{
+  "id": "agomelatin",
+  "name": "Agomelatin",
+  "synonyme": [
+    "Agomelatine"
+  ],
+  "atc": [
+    "N06AX22"
+  ],
+  "klasse": "Antidepressivum (Melatonin-MT1/MT2-Agonist und Serotonin-5-HT2C-Antagonist)",
+  "kurz": "Antidepressivum, das an Melatonin-Rezeptoren wirkt und den Schlaf-Wach-Rhythmus stabilisiert; regelmässige Leberkontrollen nötig.",
+  "gruppen": [
+    "cyp1a2-substrate",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Valdoxan"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Episoden einer Major Depression) bei Erwachsenen",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Stimmung und normalisiert einen gestörten Schlaf-Wach-Rhythmus. Agomelatin aktiviert die Melatonin-Rezeptoren MT1 und MT2 und blockiert Serotonin-5-HT2C-Rezeptoren; dadurch wird vor allem im Stirnhirn mehr Dopamin und Noradrenalin freigesetzt. Die Serotoninkonzentration im synaptischen Spalt wird nicht erhöht. Der Abbau erfolgt fast vollständig über CYP1A2 in der Leber.",
+  "kontraindikationen": [
+    {
+      "text": "Eingeschränkte Leberfunktion (z. B. Leberzirrhose oder aktive Lebererkrankung)",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Leberwerte (Transaminasen) über dem 3-Fachen der Norm",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhte Leberwerte oder Risikofaktoren für Leberschäden (Übergewicht, Fettleber, Diabetes, hoher Alkoholkonsum, leberschädigende Medikamente)",
+      "ids": [
+        "fettleber",
+        "adipositas",
+        "diabetes",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Menschen ab 75 Jahren: Wirksamkeit nicht belegt – nicht anwenden",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz: nicht anwenden",
+      "ids": [
+        "demenz"
+      ]
+    },
+    {
+      "text": "Bipolare Störung, Manie oder Hypomanie in der Vorgeschichte",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Niereninsuffizienz (begrenzte Erfahrungen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP1A2-Hemmer wie Fluvoxamin und Ciprofloxacin",
+      "ref": [
+        "fluvoxamin",
+        "ciprofloxacin"
+      ],
+      "grund": "Hemmen den Abbau von Agomelatin stark – die Spiegel steigen um ein Vielfaches (unter Fluvoxamin rund 60-fach), mit Gefahr ausgeprägter Nebenwirkungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP1A2-Hemmer (z. B. Propranolol, Enoxacin) und Östrogene (auch in Verhütungsmitteln oder Hormonersatz)",
+      "ref": [
+        "propranolol",
+        "gruppe:cyp1a2-hemmer",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Agomelatin-Spiegel steigt – Vorsicht, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden – Leberwerte engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Belastet zusätzlich die Leber und verstärkt die Dämpfung – während der Behandlung meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Beschleunigt den Abbau über CYP1A2 – Wirkung kann abgeschwächt sein.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Rauchen",
+      "ref": [],
+      "effekt": "Beschleunigt den Abbau über CYP1A2 – bei starken Raucherinnen und Rauchern tiefere Spiegel.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen",
+      "Schwindel, Schläfrigkeit, Müdigkeit",
+      "Schlaflosigkeit, ungewöhnliche Träume",
+      "Angst",
+      "Übelkeit, Durchfall, Verstopfung, Bauchschmerzen, Erbrechen",
+      "Rückenschmerzen",
+      "Gewichtszunahme",
+      "Erhöhte Leberwerte (ALT, AST)"
+    ],
+    "gelegentlich": [
+      "Missempfindungen, Restless-Legs-Syndrom",
+      "Verschwommenes Sehen",
+      "Ohrensausen (Tinnitus)",
+      "Vermehrtes Schwitzen, Ekzem, Juckreiz, Nesselsucht",
+      "Unruhe, Reizbarkeit, Aggressivität, Albträume",
+      "Manie oder Hypomanie",
+      "Suizidgedanken oder suizidales Verhalten",
+      "Gewichtsabnahme"
+    ],
+    "selten": [
+      "Hepatitis (Leberentzündung), Gelbsucht",
+      "Leberversagen (in Einzelfällen tödlich oder mit Lebertransplantation)",
+      "Hautausschlag, Gesichtsschwellung, Angioödem",
+      "Halluzinationen",
+      "Sitzunruhe (Akathisie)",
+      "Harnverhalt"
+    ]
+  },
+  "schwangerschaft": "Vorsichtshalber nicht anwenden (begrenzte Daten).",
+  "stillzeit": "Geht vermutlich in die Muttermilch über; ob abgestillt oder auf die Behandlung verzichtet wird, entscheidet die Ärztin oder der Arzt.",
+  "hinweise": [
+    "Leberwerte vor Beginn sowie nach etwa 3, 6, 12 und 24 Wochen und nach jeder Dosiserhöhung kontrollieren lassen.",
+    "Bei Zeichen einer Leberschädigung (dunkler Urin, heller Stuhl, Gelbfärbung von Haut oder Augen, Schmerzen im rechten Oberbauch, ungewohnte Müdigkeit) sofort absetzen und ärztlich melden.",
+    "Am Abend vor dem Zubettgehen einnehmen; keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

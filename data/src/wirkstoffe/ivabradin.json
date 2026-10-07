@@ -1,53 +1,215 @@
 {
   "id": "ivabradin",
   "name": "Ivabradin",
-  "synonyme": ["Ivabradine", "Ivabradinhydrochlorid"],
-  "atc": ["C01EB17"],
+  "synonyme": [
+    "Ivabradine",
+    "Ivabradinhydrochlorid"
+  ],
+  "atc": [
+    "C01EB17"
+  ],
   "klasse": "If-Kanal-Hemmer (selektiver Herzfrequenzsenker)",
   "kurz": "Senkt gezielt den Puls ohne den Blutdruck zu beeinflussen; bei stabiler Angina pectoris und chronischer Herzschwäche.",
-  "gruppen": ["bradykardisierend", "cyp3a4-substrate-empfindlich", "teratogen"],
-  "handelsnamen": ["Procoralan"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "bradykardisierend",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Procoralan"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Chronische stabile Angina pectoris bei koronarer Herzkrankheit mit Sinusrhythmus und Ruhepuls ab 70/min, wenn Betablocker nicht vertragen werden oder nicht ausreichen", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
-    { "text": "Chronische Herzinsuffizienz (NYHA II–IV) mit eingeschränkter Pumpfunktion, Sinusrhythmus und Ruhepuls ab 75/min, zusätzlich zur Standardtherapie", "ids": ["herzinsuffizienz"] }
+    {
+      "text": "Chronische stabile Angina pectoris bei koronarer Herzkrankheit mit Sinusrhythmus und Ruhepuls ab 70/min, wenn Betablocker nicht vertragen werden oder nicht ausreichen",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Chronische Herzinsuffizienz (NYHA II–IV) mit eingeschränkter Pumpfunktion, Sinusrhythmus und Ruhepuls ab 75/min, zusätzlich zur Standardtherapie",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Verlangsamt den Herzschlag, damit das Herz weniger Sauerstoff braucht und sich länger füllen kann. Ivabradin hemmt selektiv den If-Strom (HCN-Kanäle) in den Schrittmacherzellen des Sinusknotens, der die Geschwindigkeit der spontanen Erregungsbildung bestimmt. Anders als Betablocker oder Calciumantagonisten beeinflusst es weder Kontraktionskraft noch AV-Überleitung noch Blutdruck. Weil ähnliche Kanäle in der Netzhaut vorkommen, kann es vorübergehende Lichterscheinungen (Phosphene) auslösen. Ivabradin wird über CYP3A4 abgebaut.",
   "kontraindikationen": [
-    { "text": "Ruhepuls unter 70/min vor Behandlungsbeginn", "ids": ["bradykardie"] },
-    { "text": "Sinusknotensyndrom, sinuatrialer Block, AV-Block 3. Grades oder Abhängigkeit von einem Herzschrittmacher", "ids": ["bradykardie", "av-block"] },
-    { "text": "Kardiogener Schock und akuter Herzinfarkt", "ids": ["schock", "herzinfarkt"] },
-    { "text": "Schwere Hypotonie (unter 90/50 mmHg)", "ids": ["hypotonie"] },
-    { "text": "Instabile Angina pectoris", "ids": ["angina-pectoris"] },
-    { "text": "Instabile oder akute Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
-    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
-    { "text": "Schwangerschaft, Stillzeit sowie Frauen im gebärfähigen Alter ohne zuverlässige Verhütung", "ids": ["schwangerschaft", "stillzeit", "frauen-gebaerfaehig"] }
+    {
+      "text": "Ruhepuls unter 70/min vor Behandlungsbeginn",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Sinusknotensyndrom, sinuatrialer Block, AV-Block 3. Grades oder Abhängigkeit von einem Herzschrittmacher",
+      "ids": [
+        "sick-sinus-syndrom",
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Kardiogener Schock und akuter Herzinfarkt",
+      "ids": [
+        "schock",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Schwere Hypotonie (unter 90/50 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris",
+      "ids": []
+    },
+    {
+      "text": "Instabile oder akute Herzinsuffizienz",
+      "ids": []
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft, Stillzeit sowie Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit",
+        "frauen-gebaerfaehig"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Vorhofflimmern und andere Rhythmusstörungen (unwirksam, erhöhtes Risiko für Vorhofflimmern)", "ids": ["vorhofflimmern", "herzrhythmusstoerung"] },
-    { "text": "AV-Block 2. Grades", "ids": ["av-block"] },
-    { "text": "Angeborenes Long-QT-Syndrom oder Einnahme QT-verlängernder Mittel", "ids": ["qt-verlaengerung"] },
-    { "text": "Leichte bis mässige Hypotonie", "ids": ["hypotonie"] },
-    { "text": "Mittelschwere Leberinsuffizienz und schwere Niereninsuffizienz", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
-    { "text": "Kürzlich erlittener Schlaganfall", "ids": ["schlaganfall"] },
-    { "text": "Retinitis pigmentosa (Netzhauterkrankung)", "ids": [] },
-    { "text": "Ältere Menschen ab 75 Jahren (niedrigere Anfangsdosis)", "ids": ["aeltere-patienten"] }
+    {
+      "text": "Vorhofflimmern und andere Rhythmusstörungen (unwirksam, erhöhtes Risiko für Vorhofflimmern)",
+      "ids": [
+        "vorhofflimmern",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "AV-Block 2. Grades",
+      "ids": [
+        "av-block"
+      ]
+    },
+    {
+      "text": "Angeborenes Long-QT-Syndrom oder Einnahme QT-verlängernder Mittel",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Hypotonie",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Mittelschwere Leberinsuffizienz und schwere Niereninsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kürzlich erlittener Schlaganfall",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Retinitis pigmentosa (Netzhauterkrankung)",
+      "ids": []
+    },
+    {
+      "text": "Ältere Menschen ab 75 Jahren (niedrigere Anfangsdosis)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Erythromycin zum Einnehmen, Josamycin, Ritonavir, Nelfinavir, Nefazodon)", "ref": ["gruppe:starke-cyp3a4-hemmer", "erythromycin"], "grund": "Der Ivabradinspiegel steigt um ein Mehrfaches – Gefahr einer ausgeprägten Bradykardie." },
-    { "text": "Verapamil und Diltiazem", "ref": ["gruppe:nicht-dhp-calciumantagonisten"], "grund": "Höhere Ivabradinspiegel (mässige CYP3A4-Hemmung) und zusätzliche Pulsverlangsamung." }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Erythromycin zum Einnehmen, Josamycin, Ritonavir, Nelfinavir, Nefazodon)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "erythromycin"
+      ],
+      "grund": "Der Ivabradinspiegel steigt um ein Mehrfaches – Gefahr einer ausgeprägten Bradykardie."
+    },
+    {
+      "text": "Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "grund": "Höhere Ivabradinspiegel (mässige CYP3A4-Hemmung) und zusätzliche Pulsverlangsamung."
+    }
   ],
   "interaktionen": [
-    { "text": "QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Pimozid, Sertindol, Mefloquin, Pentamidin)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Die Pulsverlangsamung kann eine QT-Verlängerung verstärken – Kombination vermeiden oder engmaschige EKG-Kontrolle.", "schwere": "schwer" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höherer Ivabradinspiegel – nur mit niedriger Anfangsdosis und Pulskontrolle.", "schwere": "mittel" },
-    { "text": "Grapefruitsaft", "ref": [], "effekt": "Ivabradinspiegel verdoppelt sich etwa – Grapefruitsaft meiden.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Barbiturate, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Ivabradinspiegel sinkt, Wirkung lässt nach – Dosis evtl. anpassen.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Diuretika (Thiazide, Schleifendiuretika)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Kaliummangel und langsamer Puls begünstigen gefährliche Rhythmusstörungen – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere pulsverlangsamende Mittel (Betablocker, Digoxin, Amiodaron)", "ref": ["gruppe:bradykardisierend"], "effekt": "Additive Pulsverlangsamung – Herzfrequenz kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Pimozid, Sertindol, Mefloquin, Pentamidin)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Die Pulsverlangsamung kann eine QT-Verlängerung verstärken – Kombination vermeiden oder engmaschige EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höherer Ivabradinspiegel – nur mit niedriger Anfangsdosis und Pulskontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Ivabradinspiegel verdoppelt sich etwa – Grapefruitsaft meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Barbiturate, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Ivabradinspiegel sinkt, Wirkung lässt nach – Dosis evtl. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Diuretika (Thiazide, Schleifendiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel und langsamer Puls begünstigen gefährliche Rhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere pulsverlangsamende Mittel (Betablocker, Digoxin, Amiodaron)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Additive Pulsverlangsamung – Herzfrequenz kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Lichterscheinungen (Phosphene: vorübergehende Helligkeitswahrnehmungen im Gesichtsfeld)"],
+    "sehrHaeufig": [
+      "Lichterscheinungen (Phosphene: vorübergehende Helligkeitswahrnehmungen im Gesichtsfeld)"
+    ],
     "haeufig": [
       "Kopfschmerzen (v. a. im ersten Monat), Schwindel",
       "Verschwommenes Sehen",
@@ -65,8 +227,14 @@
       "Angioödem, Hautausschlag",
       "Eosinophilie, erhöhte Harnsäure, erhöhtes Kreatinin"
     ],
-    "selten": ["Hautrötung, Juckreiz, Nesselsucht", "Unwohlsein"],
-    "sehrSelten": ["AV-Block 2. und 3. Grades", "Sinusknotensyndrom"]
+    "selten": [
+      "Hautrötung, Juckreiz, Nesselsucht",
+      "Unwohlsein"
+    ],
+    "sehrSelten": [
+      "AV-Block 2. und 3. Grades",
+      "Sinusknotensyndrom"
+    ]
   },
   "schwangerschaft": "Kontraindiziert: In Tierversuchen traten Fehlbildungen des Herzens auf. Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
   "stillzeit": "Kontraindiziert; wer Ivabradin braucht, muss abstillen.",

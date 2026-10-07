@@ -1,59 +1,274 @@
 {
   "id": "flecainid",
   "name": "Flecainid",
-  "synonyme": ["Flecainide", "Flecainidacetat"],
-  "atc": ["C01BC04"],
+  "synonyme": [
+    "Flecainide",
+    "Flecainidacetat"
+  ],
+  "atc": [
+    "C01BC04"
+  ],
   "klasse": "Antiarrhythmikum Klasse IC (Natriumkanalblocker)",
   "kurz": "Rhythmusmittel gegen anfallsweises Herzrasen und Vorhofflimmern bei Menschen ohne strukturelle Herzerkrankung.",
-  "gruppen": ["antiarrhythmika-klasse-i", "cyp2d6-substrate", "qt-verlaengernd"],
-  "handelsnamen": ["Tambocor"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "antiarrhythmika-klasse-i",
+    "cyp2d6-substrate",
+    "qt-verlaengernd",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Tambocor"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Anfallsweise supraventrikuläre Tachykardien (Herzrasen), z. B. AV-Knoten-Reentry-Tachykardie oder bei Wolff-Parkinson-White-Syndrom", "ids": ["herzrhythmusstoerung"] },
-    { "text": "Anfallsweises (paroxysmales) Vorhofflimmern oder -flattern mit belastenden Beschwerden bei Patienten ohne strukturelle Herzerkrankung", "ids": ["vorhofflimmern"] },
-    { "text": "Symptomatische, lebensbedrohliche ventrikuläre Tachykardien, wenn andere Behandlungen nicht wirksam oder nicht geeignet sind", "ids": ["herzrhythmusstoerung"] }
+    {
+      "text": "Anfallsweise supraventrikuläre Tachykardien (Herzrasen), z. B. AV-Knoten-Reentry-Tachykardie oder bei Wolff-Parkinson-White-Syndrom",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Anfallsweises (paroxysmales) Vorhofflimmern oder -flattern mit belastenden Beschwerden bei Patienten ohne strukturelle Herzerkrankung",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Symptomatische, lebensbedrohliche ventrikuläre Tachykardien, wenn andere Behandlungen nicht wirksam oder nicht geeignet sind",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
   ],
   "wirkmechanismus": "Bremst die elektrische Erregungsleitung im Herzen und verhindert dadurch kreisende Erregungen, die Herzrasen auslösen. Flecainid blockiert die schnellen Natriumkanäle der Herzmuskelzellen stark und löst sich nur langsam wieder von ihnen (Klasse IC). Dadurch werden die Leitungsgeschwindigkeit in Vorhöfen, AV-Knoten, His-Purkinje-System, Kammern und zusätzlichen Leitungsbahnen deutlich verlangsamt (im EKG Verbreiterung von PR- und QRS-Intervall). Flecainid wird teilweise über CYP2D6 abgebaut und zu einem grossen Teil über die Niere ausgeschieden.",
   "kontraindikationen": [
-    { "text": "Herzinsuffizienz oder eingeschränkte Pumpfunktion der linken Herzkammer", "ids": ["herzinsuffizienz"] },
-    { "text": "Nach Herzinfarkt oder bei struktureller Herzerkrankung (erhöhte Sterblichkeit durch neu ausgelöste Rhythmusstörungen)", "ids": ["herzinfarkt", "koronare-herzkrankheit"] },
-    { "text": "Kardiogener Schock", "ids": ["schock"] },
-    { "text": "Hämodynamisch bedeutsame Herzklappenerkrankung", "ids": ["herzklappenerkrankung"] },
-    { "text": "Sinusknotenfunktionsstörung, AV-Block 2. oder 3. Grades, Schenkelblock oder distaler Block ohne Herzschrittmacher", "ids": ["av-block", "bradykardie"] },
-    { "text": "Bekanntes Brugada-Syndrom", "ids": ["herzrhythmusstoerung"] },
-    { "text": "Lang bestehendes Vorhofflimmern, bei dem keine Wiederherstellung des Sinusrhythmus versucht wird", "ids": ["vorhofflimmern"] }
+    {
+      "text": "Herzinsuffizienz oder eingeschränkte Pumpfunktion der linken Herzkammer",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nach Herzinfarkt oder bei struktureller Herzerkrankung (erhöhte Sterblichkeit durch neu ausgelöste Rhythmusstörungen)",
+      "ids": [
+        "herzinfarkt",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Kardiogener Schock",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Hämodynamisch bedeutsame Herzklappenerkrankung",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Sinusknotenfunktionsstörung, AV-Block 2. oder 3. Grades, Schenkelblock oder distaler Block ohne Herzschrittmacher",
+      "ids": [
+        "sick-sinus-syndrom",
+        "av-block",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Bekanntes Brugada-Syndrom",
+      "ids": []
+    },
+    {
+      "text": "Lang bestehendes Vorhofflimmern, bei dem keine Wiederherstellung des Sinusrhythmus versucht wird",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: Dosis reduzieren, Plasmaspiegel kontrollieren", "ids": ["niereninsuffizienz"] },
-    { "text": "Eingeschränkte Leberfunktion: nur mit Spiegelkontrollen", "ids": ["leberinsuffizienz"] },
-    { "text": "Kalium- oder Magnesiumstörungen vor Behandlungsbeginn korrigieren", "ids": ["hypokaliaemie", "hyperkaliaemie", "magnesiummangel"] },
-    { "text": "Herzschrittmacher oder implantierter Defibrillator (Reizschwelle kann steigen)", "ids": ["herzrhythmusstoerung"] },
-    { "text": "Vorhofflattern: Gefahr einer schnellen Überleitung auf die Kammern – meist mit AV-Knoten-bremsendem Mittel kombiniert", "ids": ["vorhofflimmern"] },
-    { "text": "Ältere Menschen (häufig verminderte Nierenfunktion)", "ids": ["aeltere-patienten"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis reduzieren, Plasmaspiegel kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: nur mit Spiegelkontrollen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kalium- oder Magnesiumstörungen vor Behandlungsbeginn korrigieren",
+      "ids": [
+        "hypokaliaemie",
+        "hyperkaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Herzschrittmacher oder implantierter Defibrillator (Reizschwelle kann steigen)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Vorhofflattern: Gefahr einer schnellen Überleitung auf die Kammern – meist mit AV-Knoten-bremsendem Mittel kombiniert",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufig verminderte Nierenfunktion)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Andere Klasse-I-Antiarrhythmika (Natriumkanalblocker, z. B. Propafenon, Lidocain intravenös)", "ref": ["gruppe:antiarrhythmika-klasse-i", "propafenon"], "grund": "Die Natriumkanalblockade addiert sich – Gefahr schwerer Leitungsstörungen und lebensbedrohlicher Kammerrhythmusstörungen." }
+    {
+      "text": "Andere Klasse-I-Antiarrhythmika (Natriumkanalblocker, z. B. Propafenon, Lidocain intravenös)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "propafenon"
+      ],
+      "grund": "Die Natriumkanalblockade addiert sich – Gefahr schwerer Leitungsstörungen und lebensbedrohlicher Kammerrhythmusstörungen."
+    },
+    {
+      "text": "Ritonavir-haltige Mittel (z. B. Norvir, Paxlovid)",
+      "ref": [
+        "ritonavir",
+        "nirmatrelvir-ritonavir"
+      ],
+      "grund": "Ritonavir hemmt den Abbau von Flecainid stark – Gefahr lebensbedrohlicher Kammerrhythmusstörungen (laut Fachinformation von Ritonavir kontraindiziert)."
+    }
   ],
   "interaktionen": [
-    { "text": "Amiodaron", "ref": ["amiodaron"], "effekt": "Flecainidspiegel steigt stark – Flecainiddosis etwa halbieren, Spiegel und EKG kontrollieren.", "schwere": "schwer" },
-    { "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion, Terbinafin)", "ref": ["gruppe:starke-cyp2d6-hemmer"], "effekt": "Flecainidspiegel steigt – Gefahr von Rhythmusstörungen; Dosis reduzieren, Spiegel kontrollieren.", "schwere": "schwer" },
-    { "text": "HIV-Proteasehemmer, v. a. Ritonavir", "ref": ["gruppe:hiv-proteasehemmer", "ritonavir"], "effekt": "Stark erhöhte Flecainidspiegel mit Gefahr von Kammerrhythmusstörungen – Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Betablocker, Verapamil, Diltiazem", "ref": ["gruppe:betablocker", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Verstärkte Schwächung der Pumpkraft, Pulsverlangsamung und Leitungsstörungen – nur unter ärztlicher Kontrolle kombinieren.", "schwere": "mittel" },
-    { "text": "Andere QT-verlängernde Mittel und Klasse-III-Antiarrhythmika", "ref": ["gruppe:qt-verlaengernd", "gruppe:antiarrhythmika-klasse-iii"], "effekt": "Erhöhtes Risiko für neue, gefährliche Herzrhythmusstörungen – EKG-Kontrolle.", "schwere": "mittel" },
-    { "text": "Trizyklische Antidepressiva", "ref": ["gruppe:trizyklische-antidepressiva"], "effekt": "Zusätzliche Natriumkanalblockade und gegenseitige Hemmung des Abbaus – Rhythmusstörungen möglich.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Mittel (Diuretika, Abführmittel, Glukokortikoide)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Kaliummangel erhöht das Risiko von Rhythmusstörungen – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxinspiegel steigt leicht (etwa 15–25 %) – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Enzyminduktoren (Phenytoin, Phenobarbital, Carbamazepin)", "ref": ["phenytoin", "phenobarbital", "carbamazepin"], "effekt": "Rascherer Abbau von Flecainid, Wirkung kann nachlassen.", "schwere": "leicht" },
-    { "text": "Cimetidin", "ref": [], "effekt": "Flecainidspiegel steigt mässig.", "schwere": "leicht" }
+    {
+      "text": "Amiodaron",
+      "ref": [
+        "amiodaron"
+      ],
+      "effekt": "Flecainidspiegel steigt stark – Flecainiddosis etwa halbieren, Spiegel und EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion, Terbinafin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Flecainidspiegel steigt – Gefahr von Rhythmusstörungen; Dosis reduzieren, Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Proteasehemmer, v. a. Ritonavir",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "ritonavir"
+      ],
+      "effekt": "Stark erhöhte Flecainidspiegel mit Gefahr von Kammerrhythmusstörungen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker, Verapamil, Diltiazem",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Schwächung der Pumpkraft, Pulsverlangsamung und Leitungsstörungen – nur unter ärztlicher Kontrolle kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel und Klasse-III-Antiarrhythmika",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Erhöhtes Risiko für neue, gefährliche Herzrhythmusstörungen – EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Zusätzliche Natriumkanalblockade und gegenseitige Hemmung des Abbaus – Rhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Abführmittel, Glukokortikoide)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko von Rhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxinspiegel steigt leicht (etwa 15–25 %) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (Phenytoin, Phenobarbital, Carbamazepin)",
+      "ref": [
+        "phenytoin",
+        "phenobarbital",
+        "carbamazepin"
+      ],
+      "effekt": "Rascherer Abbau von Flecainid, Wirkung kann nachlassen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Cimetidin",
+      "ref": [],
+      "effekt": "Flecainidspiegel steigt mässig.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Schwindel, Benommenheit", "Sehstörungen (Doppelbilder, verschwommenes Sehen, Schwierigkeiten beim Scharfstellen)"],
-    "haeufig": ["Neu ausgelöste oder verstärkte Herzrhythmusstörungen (Proarrhythmie), besonders bei struktureller Herzerkrankung", "Atemnot", "Schwäche, Müdigkeit", "Fieber", "Ödeme (Wassereinlagerungen)"],
-    "gelegentlich": ["Übelkeit, Erbrechen, Verstopfung, Bauchschmerzen, Durchfall, Blähungen", "Appetitlosigkeit", "Verminderung von roten und weissen Blutkörperchen sowie Blutplättchen", "Allergische Hautreaktionen, Haarausfall"],
-    "selten": ["Halluzinationen, Depression, Verwirrtheit, Angst, Schlaflosigkeit", "Kribbeln, Gangunsicherheit, Zittern, Ohnmacht (Synkope), Krampfanfälle", "Periphere Neuropathie (Nervenschädigung)", "Ohrensausen (Tinnitus), Drehschwindel", "Pneumonitis (Lungenentzündung ohne Erreger)", "Erhöhte Leberwerte, Gelbsucht", "Nesselsucht"],
-    "sehrSelten": ["Hornhautablagerungen", "Lichtempfindlichkeit der Haut"],
-    "unbekannt": ["AV-Block 2. und 3. Grades, Sinusarrest, Bradykardie, Kammerflimmern, Herzstillstand", "Verschlechterung einer Herzinsuffizienz, Blutdruckabfall", "Demaskierung eines Brugada-Syndroms", "Lungenfibrose und interstitielle Lungenerkrankung"]
+    "sehrHaeufig": [
+      "Schwindel, Benommenheit",
+      "Sehstörungen (Doppelbilder, verschwommenes Sehen, Schwierigkeiten beim Scharfstellen)"
+    ],
+    "haeufig": [
+      "Neu ausgelöste oder verstärkte Herzrhythmusstörungen (Proarrhythmie), besonders bei struktureller Herzerkrankung",
+      "Atemnot",
+      "Schwäche, Müdigkeit",
+      "Fieber",
+      "Ödeme (Wassereinlagerungen)"
+    ],
+    "gelegentlich": [
+      "Übelkeit, Erbrechen, Verstopfung, Bauchschmerzen, Durchfall, Blähungen",
+      "Appetitlosigkeit",
+      "Verminderung von roten und weissen Blutkörperchen sowie Blutplättchen",
+      "Allergische Hautreaktionen, Haarausfall"
+    ],
+    "selten": [
+      "Halluzinationen, Depression, Verwirrtheit, Angst, Schlaflosigkeit",
+      "Kribbeln, Gangunsicherheit, Zittern, Ohnmacht (Synkope), Krampfanfälle",
+      "Periphere Neuropathie (Nervenschädigung)",
+      "Ohrensausen (Tinnitus), Drehschwindel",
+      "Pneumonitis (Lungenentzündung ohne Erreger)",
+      "Erhöhte Leberwerte, Gelbsucht",
+      "Nesselsucht"
+    ],
+    "sehrSelten": [
+      "Hornhautablagerungen",
+      "Lichtempfindlichkeit der Haut"
+    ],
+    "unbekannt": [
+      "AV-Block 2. und 3. Grades, Sinusarrest, Bradykardie, Kammerflimmern, Herzstillstand",
+      "Verschlechterung einer Herzinsuffizienz, Blutdruckabfall",
+      "Demaskierung eines Brugada-Syndroms",
+      "Lungenfibrose und interstitielle Lungenerkrankung"
+    ]
   },
   "schwangerschaft": "Nur nach strenger ärztlicher Abwägung: Flecainid gelangt zum Ungeborenen, und in Tierversuchen traten Fehlbildungen auf.",
   "stillzeit": "Geht in die Muttermilch über; Anwendung in der Stillzeit nur nach ärztlicher Abwägung.",

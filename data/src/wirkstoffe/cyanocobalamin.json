@@ -1,44 +1,141 @@
 {
   "id": "cyanocobalamin",
   "name": "Cyanocobalamin",
-  "synonyme": ["Vitamin B12", "Cobalamin", "Cyanocobalaminum", "Vit. B12"],
-  "atc": ["B03BA01"],
+  "synonyme": [
+    "Vitamin B12",
+    "Cobalamin",
+    "Cyanocobalaminum",
+    "Vit. B12"
+  ],
+  "atc": [
+    "B03BA01"
+  ],
   "klasse": "Vitamin B12 (Antianämikum)",
   "kurz": "Vitamin B12 zum Einnehmen oder Spritzen bei Vitamin-B12-Mangel, z. B. bei perniziöser Anämie oder veganer Ernährung.",
   "gruppen": [],
-  "handelsnamen": ["Betolvex"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Filmtabletten (hoch dosiert)", "Injektionslösung"],
+  "handelsnamen": [
+    "Betolvex"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Filmtabletten (hoch dosiert)",
+    "Injektionslösung"
+  ],
   "indikationen": [
-    { "text": "Behandlung und Vorbeugung von Vitamin-B12-Mangel, z. B. bei perniziöser Anämie, nach Magen- oder Darmoperationen, bei Aufnahmestörungen oder streng veganer Ernährung", "ids": ["vitamin-b12-mangel", "mangelernaehrung"] },
-    { "text": "Blutarmut durch Vitamin-B12-Mangel (megaloblastäre Anämie) und durch B12-Mangel bedingte Nervenschäden", "ids": ["vitamin-b12-mangel", "anaemie", "nervenschmerzen"] }
+    {
+      "text": "Behandlung und Vorbeugung von Vitamin-B12-Mangel, z. B. bei perniziöser Anämie, nach Magen- oder Darmoperationen, bei Aufnahmestörungen oder streng veganer Ernährung",
+      "ids": [
+        "vitamin-b12-mangel",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Blutarmut durch Vitamin-B12-Mangel (megaloblastäre Anämie) und durch B12-Mangel bedingte Nervenschäden",
+      "ids": [
+        "vitamin-b12-mangel",
+        "anaemie",
+        "nervenschmerzen"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt fehlendes Vitamin B12, das für die Blutbildung und die Nerven unentbehrlich ist. Cyanocobalamin wird im Körper in die aktiven Formen Methylcobalamin und Adenosylcobalamin umgewandelt. Diese sind Coenzyme der Methioninsynthase (Bildung von DNA-Bausteinen zusammen mit Folsäure, Abbau von Homocystein) und der Methylmalonyl-CoA-Mutase (wichtig für die Myelinscheiden der Nerven). Normalerweise wird B12 mit Hilfe des Intrinsic Factor im Dünndarm aufgenommen; aus hoch dosierten Tabletten gelangt rund 1 % auch ohne Intrinsic Factor ins Blut, weshalb sie auch bei perniziöser Anämie wirken können.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Vor Behandlungsbeginn die Diagnose sichern: Vitamin B12 kann einen Folsäuremangel verschleiern und umgekehrt", "ids": ["vitamin-b12-mangel"] },
-    { "text": "Zu Beginn der Behandlung einer schweren Blutarmut kann das Kalium im Blut stark absinken – Kalium kontrollieren, v. a. bei Herzkrankheiten", "ids": ["hypokaliaemie", "herzrhythmusstoerung"] },
-    { "text": "Lebersche Optikusatrophie (erbliche Sehnervenerkrankung) und tabakbedingte Sehnervenschädigung: Cyanocobalamin nicht anwenden, da sich der Sehnerv verschlechtern kann; Hydroxocobalamin bevorzugen", "ids": [] },
-    { "text": "Kobaltallergie (Cobalt ist Bestandteil von Vitamin B12)", "ids": ["allergie"] }
+    {
+      "text": "Vor Behandlungsbeginn die Diagnose sichern: Vitamin B12 kann einen Folsäuremangel verschleiern und umgekehrt",
+      "ids": [
+        "vitamin-b12-mangel"
+      ]
+    },
+    {
+      "text": "Zu Beginn der Behandlung einer schweren Blutarmut kann das Kalium im Blut stark absinken – Kalium kontrollieren, v. a. bei Herzkrankheiten",
+      "ids": [
+        "hypokaliaemie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Lebersche Optikusatrophie (erbliche Sehnervenerkrankung) und tabakbedingte Sehnervenschädigung: Cyanocobalamin nicht anwenden, da sich der Sehnerv verschlechtern kann; Hydroxocobalamin bevorzugen",
+      "ids": []
+    },
+    {
+      "text": "Kobaltallergie (Cobalt ist Bestandteil von Vitamin B12)",
+      "ids": [
+        "allergie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Metformin (Langzeittherapie)", "ref": ["metformin"], "effekt": "Vermindert die Vitamin-B12-Aufnahme aus dem Darm; ein Mangel kann sich langsam entwickeln – B12-Spiegel regelmässig kontrollieren.", "schwere": "mittel" },
-    { "text": "Säurehemmer (Protonenpumpenhemmer, H2-Blocker) bei Langzeiteinnahme", "ref": ["gruppe:protonenpumpenhemmer", "gruppe:h2-blocker"], "effekt": "Verminderte Freisetzung und Aufnahme von B12 aus der Nahrung; bei Mangel ist die Injektion oder hoch dosierte Tablette wirksam.", "schwere": "leicht" },
-    { "text": "Chloramphenicol", "ref": ["chloramphenicol"], "effekt": "Kann das Ansprechen des Blutbildes auf Vitamin B12 abschwächen – Blutbild kontrollieren.", "schwere": "mittel" },
-    { "text": "Lachgas (Distickstoffmonoxid)", "ref": ["distickstoffmonoxid"], "effekt": "Inaktiviert Vitamin B12; bei bestehendem Mangel können Blut- und Nervenschäden ausgelöst oder verschlimmert werden.", "schwere": "mittel" },
-    { "text": "Colchicin", "ref": ["colchicin"], "effekt": "Kann die B12-Aufnahme aus dem Darm vermindern.", "schwere": "leicht" },
-    { "text": "Hormonale Verhütungsmittel", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Können den gemessenen B12-Spiegel senken, meist ohne klinische Bedeutung.", "schwere": "leicht" }
+    {
+      "text": "Metformin (Langzeittherapie)",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Vermindert die Vitamin-B12-Aufnahme aus dem Darm; ein Mangel kann sich langsam entwickeln – B12-Spiegel regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Säurehemmer (Protonenpumpenhemmer, H2-Blocker) bei Langzeiteinnahme",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Verminderte Freisetzung und Aufnahme von B12 aus der Nahrung; bei Mangel ist die Injektion oder hoch dosierte Tablette wirksam.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Chloramphenicol",
+      "ref": [
+        "chloramphenicol"
+      ],
+      "effekt": "Kann das Ansprechen des Blutbildes auf Vitamin B12 abschwächen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lachgas (Distickstoffmonoxid)",
+      "ref": [
+        "distickstoffmonoxid"
+      ],
+      "effekt": "Inaktiviert Vitamin B12; bei bestehendem Mangel können Blut- und Nervenschäden ausgelöst oder verschlimmert werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "effekt": "Kann die B12-Aufnahme aus dem Darm vermindern.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Können den gemessenen B12-Spiegel senken, meist ohne klinische Bedeutung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrSelten": ["Anaphylaktische Reaktionen (schwere allergische Reaktion, v. a. nach Injektion)"],
-    "unbekannt": ["Überempfindlichkeitsreaktionen der Haut (Juckreiz, Ausschlag, Nesselsucht)", "Akne, akneähnlicher Ausschlag", "Magen-Darm-Beschwerden wie Übelkeit oder Durchfall", "Schmerzen und Rötung an der Injektionsstelle", "Hypokaliämie (Kaliummangel) zu Beginn der Behandlung einer schweren Blutarmut"]
+    "sehrSelten": [
+      "Anaphylaktische Reaktionen (schwere allergische Reaktion, v. a. nach Injektion)"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen der Haut (Juckreiz, Ausschlag, Nesselsucht)",
+      "Akne, akneähnlicher Ausschlag",
+      "Magen-Darm-Beschwerden wie Übelkeit oder Durchfall",
+      "Schmerzen und Rötung an der Injektionsstelle",
+      "Hypokaliämie (Kaliummangel) zu Beginn der Behandlung einer schweren Blutarmut"
+    ]
   },
   "schwangerschaft": "In üblichen Dosen zur Behandlung eines Mangels erlaubt; Vitamin B12 ist in der Schwangerschaft wichtig.",
   "stillzeit": "Erlaubt; Vitamin B12 geht in die Muttermilch über, was bei Mangel der Mutter auch für das Kind wichtig ist.",
   "hinweise": [
     "Bei perniziöser Anämie oder nach Magenentfernung ist die Behandlung meist lebenslang nötig – nicht eigenmächtig absetzen.",
-    "Tabletten nüchtern mit Wasser einnehmen.",
     "Zu Beginn der Behandlung Blutbild und Kalium kontrollieren lassen.",
     "Bei Vitamin-B12-Mangel nie nur Folsäure einnehmen: die Blutarmut bessert sich, die Nervenschäden schreiten aber fort."
   ],

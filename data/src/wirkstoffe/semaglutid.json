@@ -1,46 +1,183 @@
 {
   "id": "semaglutid",
   "name": "Semaglutid",
-  "synonyme": ["Semaglutide", "Semaglutidum"],
-  "atc": ["A10BJ06"],
+  "synonyme": [
+    "Semaglutide",
+    "Semaglutidum"
+  ],
+  "atc": [
+    "A10BJ06"
+  ],
   "klasse": "GLP-1-Rezeptoragonist (Inkretin-Mimetikum); Spritze einmal wöchentlich oder Tablette täglich",
   "kurz": "Wöchentliche Spritze oder tägliche Tablette gegen Typ-2-Diabetes (Ozempic, Rybelsus); als Wegovy zur Gewichtsreduktion bei Adipositas.",
-  "gruppen": ["glp1-agonisten"],
-  "handelsnamen": ["Ozempic", "Rybelsus", "Wegovy"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung im Fertigpen", "Tabletten (Rybelsus)"],
+  "gruppen": [
+    "glp1-agonisten"
+  ],
+  "handelsnamen": [
+    "Ozempic",
+    "Rybelsus",
+    "Wegovy"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen",
+    "Tabletten (Rybelsus)"
+  ],
   "indikationen": [
-    { "text": "Typ-2-Diabetes bei Erwachsenen, ergänzend zu Ernährung und Bewegung: allein (wenn Metformin ungeeignet ist) oder kombiniert mit anderen Blutzuckersenkern (Ozempic als Spritze, Rybelsus als Tablette)", "ids": ["diabetes-typ-2", "diabetes"] },
-    { "text": "Gewichtsregulierung bei Adipositas (BMI ab 30) oder Übergewicht (BMI ab 27) mit gewichtsbedingter Begleiterkrankung, ergänzend zu kalorienreduzierter Ernährung und mehr Bewegung (Wegovy)", "ids": ["adipositas"] }
+    {
+      "text": "Typ-2-Diabetes bei Erwachsenen, ergänzend zu Ernährung und Bewegung: allein (wenn Metformin ungeeignet ist) oder kombiniert mit anderen Blutzuckersenkern (Ozempic als Spritze, Rybelsus als Tablette)",
+      "ids": [
+        "diabetes-typ-2",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Gewichtsregulierung bei Adipositas (BMI ab 30) oder Übergewicht (BMI ab 27) mit gewichtsbedingter Begleiterkrankung, ergänzend zu kalorienreduzierter Ernährung und mehr Bewegung (Wegovy)",
+      "ids": [
+        "adipositas"
+      ]
+    }
   ],
   "wirkmechanismus": "Wirkt wie das körpereigene Darmhormon GLP-1: Semaglutid steigert blutzuckerabhängig die Insulinausschüttung, hemmt die Glukagonfreisetzung, verlangsamt die Magenentleerung und dämpft über das Gehirn Appetit und Hungergefühl. Dank einer Fettsäure-Seitenkette bindet es stark an Albumin und hat eine Halbwertszeit von etwa einer Woche, deshalb wird es einmal wöchentlich gespritzt. In der Tablette (Rybelsus) schützt der Hilfsstoff SNAC den Wirkstoff im Magen und ermöglicht die Aufnahme über die Magenschleimhaut – daher die strengen Einnahmeregeln. In grossen Studien senkte Semaglutid bei Typ-2-Diabetes bzw. bei Übergewicht mit bestehender Herz-Kreislauf-Erkrankung das Risiko schwerer Herz-Kreislauf-Ereignisse.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen, bei bestätigter Pankreatitis nicht wieder beginnen", "ids": ["pankreatitis"] },
-    { "text": "Diabetische Retinopathie (Netzhautschaden), besonders unter Insulin: eine rasche Blutzuckersenkung kann sie vorübergehend verschlechtern – augenärztliche Kontrollen", "ids": [] },
-    { "text": "Plötzlicher Sehverlust auf einem Auge: sehr selten Durchblutungsstörung des Sehnervs (NAION) – sofort ärztlich abklären", "ids": ["sehstoerung"] },
-    { "text": "Gallensteine und Gallenblasenentzündung, vor allem bei starker Gewichtsabnahme", "ids": ["gallensteine"] },
-    { "text": "Flüssigkeitsverlust durch Übelkeit, Erbrechen oder Durchfall: Gefahr einer Verschlechterung der Nierenfunktion – ausreichend trinken", "ids": ["dehydratation", "niereninsuffizienz"] },
-    { "text": "Narkose oder tiefe Sedierung (z. B. bei Magenspiegelung): wegen verzögerter Magenentleerung Gefahr, Mageninhalt einzuatmen – Behandlung vorher angeben", "ids": ["operation", "anaesthesie"] },
-    { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr; bei raschem Reduzieren des Insulins Gefahr einer Ketoazidose", "ids": ["hypoglykaemie", "ketoazidose"] },
-    { "text": "Schwere Herzinsuffizienz (NYHA IV), terminale Niereninsuffizienz und schwere Magen-Darm-Erkrankungen (z. B. Gastroparese): keine oder begrenzte Erfahrungen", "ids": ["herzinsuffizienz", "niereninsuffizienz"] },
-    { "text": "Kein Ersatz für Insulin; nicht bei Typ-1-Diabetes", "ids": ["diabetes-typ-1"] }
+    {
+      "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen, bei bestätigter Pankreatitis nicht wieder beginnen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Diabetische Retinopathie (Netzhautschaden), besonders unter Insulin: eine rasche Blutzuckersenkung kann sie vorübergehend verschlechtern – augenärztliche Kontrollen",
+      "ids": []
+    },
+    {
+      "text": "Plötzlicher Sehverlust auf einem Auge: sehr selten Durchblutungsstörung des Sehnervs (NAION) – sofort ärztlich abklären",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Gallensteine und Gallenblasenentzündung, vor allem bei starker Gewichtsabnahme",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsverlust durch Übelkeit, Erbrechen oder Durchfall: Gefahr einer Verschlechterung der Nierenfunktion – ausreichend trinken",
+      "ids": [
+        "dehydratation",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Narkose oder tiefe Sedierung (z. B. bei Magenspiegelung): wegen verzögerter Magenentleerung Gefahr, Mageninhalt einzuatmen – Behandlung vorher angeben",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr; bei raschem Reduzieren des Insulins Gefahr einer Ketoazidose",
+      "ids": [
+        "hypoglykaemie",
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz (NYHA IV), terminale Niereninsuffizienz und schwere Magen-Darm-Erkrankungen (z. B. Gastroparese): keine oder begrenzte Erfahrungen",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kein Ersatz für Insulin; nicht bei Typ-1-Diabetes",
+      "ids": [
+        "diabetes-typ-1"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Unterzuckerungsgefahr – Dosis des Sulfonylharnstoffs bzw. des Insulins eventuell senken, Blutzucker kontrollieren.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Bei Behandlungsbeginn INR häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Levothyroxin (bei Semaglutid-Tabletten)", "ref": ["levothyroxin"], "effekt": "Rybelsus erhöht die Aufnahme von Levothyroxin um rund ein Drittel – Schilddrüsenwerte kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere GLP-1-Agonisten (z. B. Liraglutid, Dulaglutid, Tirzepatid)", "ref": ["gruppe:glp1-agonisten"], "effekt": "Doppelte Wirkung mit mehr Nebenwirkungen – nicht gleichzeitig anwenden.", "schwere": "mittel" },
-    { "text": "Andere orale Arzneimittel", "ref": [], "effekt": "Die verzögerte Magenentleerung kann deren Aufnahme beeinflussen; Rybelsus nüchtern einnehmen und andere Tabletten erst 30 Minuten danach.", "schwere": "leicht" }
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Unterzuckerungsgefahr – Dosis des Sulfonylharnstoffs bzw. des Insulins eventuell senken, Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Bei Behandlungsbeginn INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levothyroxin (bei Semaglutid-Tabletten)",
+      "ref": [
+        "levothyroxin"
+      ],
+      "effekt": "Rybelsus erhöht die Aufnahme von Levothyroxin um rund ein Drittel – Schilddrüsenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere GLP-1-Agonisten (z. B. Liraglutid, Dulaglutid, Tirzepatid)",
+      "ref": [
+        "gruppe:glp1-agonisten"
+      ],
+      "effekt": "Doppelte Wirkung mit mehr Nebenwirkungen – nicht gleichzeitig anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere orale Arzneimittel",
+      "ref": [],
+      "effekt": "Die verzögerte Magenentleerung kann deren Aufnahme beeinflussen; Rybelsus nüchtern einnehmen und andere Tabletten erst 30 Minuten danach.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Übelkeit", "Durchfall", "Erbrechen, Verstopfung, Bauchschmerzen (unter Wegovy sehr häufig, unter Ozempic häufig)", "Kopfschmerzen und Müdigkeit (unter Wegovy)", "Hypoglykämie (Unterzuckerung) in Kombination mit Insulin oder Sulfonylharnstoff"],
-    "haeufig": ["Appetitminderung", "Schwindel", "Verdauungsbeschwerden, Gastritis, Reflux, Aufstossen, Blähungen", "Gallensteine (Cholelithiasis)", "Komplikationen einer diabetischen Retinopathie (Netzhautschaden) bei Typ-2-Diabetes", "Haarausfall (unter Wegovy)", "Erhöhte Lipase- und Amylasewerte"],
-    "gelegentlich": ["Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "Erhöhter Puls", "Verzögerte Magenentleerung", "Geschmacksstörung", "Überempfindlichkeitsreaktionen", "Reaktionen an der Injektionsstelle", "Blutdruckabfall, Schwindel beim Aufstehen (unter Wegovy)"],
-    "selten": ["Anaphylaxie (schwere allergische Reaktion)"],
-    "sehrSelten": ["NAION (nicht-arteriitische anteriore ischämische Optikusneuropathie): Durchblutungsstörung des Sehnervs mit plötzlichem Sehverlust"],
-    "unbekannt": ["Darmverschluss (Ileus)", "Angioödem (Schwellung von Gesicht, Lippen oder Rachen)"]
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Durchfall",
+      "Erbrechen, Verstopfung, Bauchschmerzen (unter Wegovy sehr häufig, unter Ozempic häufig)",
+      "Kopfschmerzen und Müdigkeit (unter Wegovy)",
+      "Hypoglykämie (Unterzuckerung) in Kombination mit Insulin oder Sulfonylharnstoff"
+    ],
+    "haeufig": [
+      "Appetitminderung",
+      "Schwindel",
+      "Verdauungsbeschwerden, Gastritis, Reflux, Aufstossen, Blähungen",
+      "Gallensteine (Cholelithiasis)",
+      "Komplikationen einer diabetischen Retinopathie (Netzhautschaden) bei Typ-2-Diabetes",
+      "Haarausfall (unter Wegovy)",
+      "Erhöhte Lipase- und Amylasewerte"
+    ],
+    "gelegentlich": [
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Erhöhter Puls",
+      "Verzögerte Magenentleerung",
+      "Geschmacksstörung",
+      "Überempfindlichkeitsreaktionen",
+      "Reaktionen an der Injektionsstelle",
+      "Blutdruckabfall, Schwindel beim Aufstehen (unter Wegovy)"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "sehrSelten": [
+      "NAION (nicht-arteriitische anteriore ischämische Optikusneuropathie): Durchblutungsstörung des Sehnervs mit plötzlichem Sehverlust"
+    ],
+    "unbekannt": [
+      "Darmverschluss (Ileus)",
+      "Angioödem (Schwellung von Gesicht, Lippen oder Rachen)"
+    ]
   },
   "schwangerschaft": "Nicht anwenden: Tierversuche zeigten Fruchtschädigung. Wegen der langen Wirkdauer mindestens 2 Monate vor einer geplanten Schwangerschaft absetzen; bei Diabetes wird Insulin eingesetzt.",
   "stillzeit": "Nicht anwenden: Semaglutid geht bei Tieren in die Milch über; bei Rybelsus gelangt zudem der Hilfsstoff SNAC in die Muttermilch.",

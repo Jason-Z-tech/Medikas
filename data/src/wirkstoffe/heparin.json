@@ -1,59 +1,271 @@
 {
   "id": "heparin",
   "name": "Heparin",
-  "synonyme": ["Heparin-Natrium", "Heparin-Calcium", "Unfraktioniertes Heparin", "UFH"],
-  "atc": ["B01AB01", "C05BA03"],
+  "synonyme": [
+    "Heparin-Natrium",
+    "Heparin-Calcium",
+    "Unfraktioniertes Heparin",
+    "UFH"
+  ],
+  "atc": [
+    "B01AB01",
+    "C05BA03"
+  ],
   "klasse": "Unfraktioniertes Heparin (Antikoagulans); äusserlich als Venen- und Prellungsmittel",
   "kurz": "Gerinnungshemmende Spritze zur Behandlung und Vorbeugung von Thrombosen und Embolien; als Gel bei Blutergüssen und oberflächlicher Venenentzündung.",
-  "gruppen": ["heparine", "antikoagulanzien", "blutungsrisiko-erhoehend", "hyperkaliaemie-ausloesend"],
-  "handelsnamen": ["Liquemin", "Heparin Bichsel", "Lioton"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Injektionslösung (intravenös, unter die Haut)", "Gel"],
+  "gruppen": [
+    "heparine",
+    "antikoagulanzien",
+    "blutungsrisiko-erhoehend",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Liquemin",
+    "Heparin Bichsel",
+    "Lioton"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Injektionslösung (intravenös, unter die Haut)",
+    "Gel"
+  ],
   "indikationen": [
-    { "text": "Behandlung von tiefen Venenthrombosen und Lungenembolien", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Vorbeugung von Thrombosen und Embolien, z. B. rund um Operationen oder bei Bettlägerigkeit", "ids": ["thromboseprophylaxe", "operation"] },
-    { "text": "Instabile Angina pectoris und akuter Herzinfarkt (zusammen mit anderen Mitteln)", "ids": ["angina-pectoris", "herzinfarkt"] },
-    { "text": "Gerinnungshemmung bei Herz-Lungen-Maschine und Blutwäsche (Dialyse)", "ids": [] },
-    { "text": "Gel: Blutergüsse, Prellungen und Verstauchungen; oberflächliche Venenentzündung und Beschwerden bei Krampfadern", "ids": ["sportverletzung", "varizen"] }
+    {
+      "text": "Behandlung von tiefen Venenthrombosen und Lungenembolien",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Thrombosen und Embolien, z. B. rund um Operationen oder bei Bettlägerigkeit",
+      "ids": [
+        "thromboseprophylaxe",
+        "operation"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris und akuter Herzinfarkt (zusammen mit anderen Mitteln)",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Gerinnungshemmung bei Herz-Lungen-Maschine und Blutwäsche (Dialyse)",
+      "ids": []
+    },
+    {
+      "text": "Gel: Blutergüsse, Prellungen und Verstauchungen; oberflächliche Venenentzündung und Beschwerden bei Krampfadern",
+      "ids": [
+        "sportverletzung",
+        "varizen"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Blutgerinnung sofort, indem es einen körpereigenen Gerinnungshemmer verstärkt. Heparin bindet an Antithrombin und beschleunigt dessen Hemmwirkung auf Thrombin (Faktor IIa) und Faktor Xa um ein Vielfaches; so wird die Bildung und das Wachstum von Blutgerinnseln verhindert. Es wirkt nur gespritzt (in die Vene oder unter die Haut), hat eine kurze Wirkdauer und wird bei hoher Dosierung über die aPTT gesteuert; Protamin hebt die Wirkung auf. Als Gel auf der Haut wirkt es örtlich abschwellend und unterstützt die Rückbildung von Blutergüssen.",
   "kontraindikationen": [
-    { "text": "Heparin-induzierte Thrombozytopenie Typ II (HIT) aktuell oder in der Vorgeschichte", "ids": ["thrombozytopenie"] },
-    { "text": "Aktive schwere Blutungen und Erkrankungen mit erhöhter Blutungsneigung (Gerinnungsstörung, schwere Thrombozytopenie)", "ids": ["aktive-blutung", "blutgerinnungsstoerung"] },
-    { "text": "Frische Hirnblutung oder Hirnaneurysma; kürzliche Operationen oder Verletzungen an Gehirn, Rückenmark, Auge oder Ohr", "ids": ["hirnblutung", "aneurysma", "operation"] },
-    { "text": "Magen-Darm-Geschwüre", "ids": ["magen-darm-ulkus"] },
-    { "text": "Schwerer, nicht eingestellter Bluthochdruck", "ids": ["hypertonie"] },
-    { "text": "Bakterielle Endokarditis (Herzinnenhautentzündung)", "ids": [] },
-    { "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion während einer Behandlung mit hohen (therapeutischen) Dosen", "ids": ["anaesthesie"] },
-    { "text": "Gel: Anwendung auf offenen Wunden, Schleimhäuten oder blutenden Hautstellen", "ids": [] }
+    {
+      "text": "Heparin-induzierte Thrombozytopenie Typ II (HIT) aktuell oder in der Vorgeschichte",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Aktive schwere Blutungen und Erkrankungen mit erhöhter Blutungsneigung (Gerinnungsstörung, schwere Thrombozytopenie)",
+      "ids": [
+        "aktive-blutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Frische Hirnblutung oder Hirnaneurysma; kürzliche Operationen oder Verletzungen an Gehirn, Rückenmark, Auge oder Ohr",
+      "ids": [
+        "hirnblutung",
+        "aneurysma",
+        "operation"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Schwerer, nicht eingestellter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Bakterielle Endokarditis (Herzinnenhautentzündung)",
+      "ids": [
+        "endokarditis"
+      ]
+    },
+    {
+      "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion während einer Behandlung mit hohen (therapeutischen) Dosen",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Gel: Anwendung auf offenen Wunden, Schleimhäuten oder blutenden Hautstellen",
+      "ids": []
+    },
+    {
+      "text": "Benzylalkoholhaltige Präparate: Frühgeborene und Neugeborene",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Thrombozytenzahl vor Beginn und regelmässig in den ersten Wochen kontrollieren – ein Abfall kann auf eine HIT hinweisen", "ids": ["thrombozytopenie"] },
-    { "text": "Eingeschränkte Nieren- oder Leberfunktion", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Erhöhtes Kalium möglich (Hemmung der Aldosteronbildung), besonders bei Diabetes, Niereninsuffizienz oder kaliumerhöhenden Medikamenten", "ids": ["hyperkaliaemie", "diabetes"] },
-    { "text": "Ältere Menschen (erhöhtes Blutungsrisiko)", "ids": ["aeltere-patienten"] },
-    { "text": "Langzeitbehandlung: Knochenschwund (Osteoporose) möglich", "ids": ["osteoporose"] },
-    { "text": "Rückenmarksnahe Anästhesie oder Punktion: Gefahr eines Blutergusses im Wirbelkanal mit Lähmungen – vorgeschriebene Zeitabstände einhalten", "ids": ["anaesthesie"] },
-    { "text": "Keine Injektionen in den Muskel (Blutergüsse)", "ids": [] }
+    {
+      "text": "Thrombozytenzahl vor Beginn und regelmässig in den ersten Wochen kontrollieren – ein Abfall kann auf eine HIT hinweisen",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhtes Kalium möglich (Hemmung der Aldosteronbildung), besonders bei Diabetes, Niereninsuffizienz oder kaliumerhöhenden Medikamenten",
+      "ids": [
+        "hyperkaliaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (erhöhtes Blutungsrisiko)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Knochenschwund (Osteoporose) möglich",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Rückenmarksnahe Anästhesie oder Punktion: Gefahr eines Blutergusses im Wirbelkanal mit Lähmungen – vorgeschriebene Zeitabstände einhalten",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Keine Injektionen in den Muskel (Blutergüsse)",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Antikoagulanzien (Vitamin-K-Antagonisten, DOAK, andere Heparine)", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak", "gruppe:heparine"], "effekt": "Stark erhöhtes Blutungsrisiko – nur überlappend bei Therapiebeginn oder Umstellung nach ärztlicher Anordnung.", "schwere": "schwer" },
-    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Erhöhtes Blutungsrisiko – beim Herzinfarkt gezielt kombiniert, sonst nur nach ärztlicher Anordnung; auf Blutungszeichen achten.", "schwere": "schwer" },
-    { "text": "Thrombolytika (z. B. Alteplase, Tenecteplase)", "ref": ["alteplase", "tenecteplase"], "effekt": "Stark erhöhtes Blutungsrisiko – nur unter Spitalüberwachung nach festem Schema.", "schwere": "schwer" },
-    { "text": "NSAR und COX-2-Hemmer (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Erhöhtes Risiko für Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko – auf Blutungszeichen achten.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.", "schwere": "mittel" },
-    { "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)", "ref": ["gruppe:hyperkaliaemie-ausloesend"], "effekt": "Zusätzliche Kaliumerhöhung möglich – Kalium kontrollieren, besonders bei Nieren- oder Zuckerkrankheit.", "schwere": "mittel" },
-    { "text": "Glyceroltrinitrat intravenös", "ref": ["glyceroltrinitrat"], "effekt": "Kann die Heparinwirkung abschwächen – aPTT kontrollieren; nach Absetzen des Nitrats Blutungsgefahr.", "schwere": "mittel" }
+    {
+      "text": "Andere Antikoagulanzien (Vitamin-K-Antagonisten, DOAK, andere Heparine)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak",
+        "gruppe:heparine"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – nur überlappend bei Therapiebeginn oder Umstellung nach ärztlicher Anordnung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – beim Herzinfarkt gezielt kombiniert, sonst nur nach ärztlicher Anordnung; auf Blutungszeichen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombolytika (z. B. Alteplase, Tenecteplase)",
+      "ref": [
+        "alteplase",
+        "tenecteplase"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – nur unter Spitalüberwachung nach festem Schema.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR und COX-2-Hemmer (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Zusätzliche Kaliumerhöhung möglich – Kalium kontrollieren, besonders bei Nieren- oder Zuckerkrankheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Glyceroltrinitrat intravenös",
+      "ref": [
+        "glyceroltrinitrat"
+      ],
+      "effekt": "Kann die Heparinwirkung abschwächen – aPTT kontrollieren; nach Absetzen des Nitrats Blutungsgefahr.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Anstieg von Leberwerten (Transaminasen, Gamma-GT, LDH) und Lipase – meist harmlos und vorübergehend"],
-    "haeufig": ["Blutungen (z. B. Blutergüsse, Nasen-, Zahnfleisch-, Wund- oder Magen-Darm-Blutungen), abhängig von der Dosis", "Leichter, vorübergehender Abfall der Blutplättchen zu Behandlungsbeginn (HIT Typ I)"],
-    "gelegentlich": ["Allergische Reaktionen (Hautausschlag, Juckreiz, Nesselsucht, Fieber, Atemnot, Blutdruckabfall)", "Reaktionen an der Einstichstelle (Verhärtung, Rötung, kleine Blutergüsse)"],
-    "selten": ["Heparin-induzierte Thrombozytopenie Typ II (HIT) mit starkem Plättchenabfall und gefährlichen Thrombosen – meist 5–14 Tage nach Beginn", "Hyperkaliämie (erhöhtes Kalium) durch Hemmung der Aldosteronbildung", "Hautnekrosen an der Einstichstelle", "Vorübergehender Haarausfall"],
-    "sehrSelten": ["Anaphylaktischer Schock", "Priapismus (schmerzhafte Dauererektion)", "Gel: Hautrötung, Juckreiz oder allergische Hautreaktion an der Auftragsstelle"],
-    "unbekannt": ["Osteoporose bei Langzeitbehandlung mit hohen Dosen"]
+    "sehrHaeufig": [
+      "Anstieg von Leberwerten (Transaminasen, Gamma-GT, LDH) und Lipase – meist harmlos und vorübergehend"
+    ],
+    "haeufig": [
+      "Blutungen (z. B. Blutergüsse, Nasen-, Zahnfleisch-, Wund- oder Magen-Darm-Blutungen), abhängig von der Dosis",
+      "Leichter, vorübergehender Abfall der Blutplättchen zu Behandlungsbeginn (HIT Typ I)"
+    ],
+    "gelegentlich": [
+      "Allergische Reaktionen (Hautausschlag, Juckreiz, Nesselsucht, Fieber, Atemnot, Blutdruckabfall)",
+      "Reaktionen an der Einstichstelle (Verhärtung, Rötung, kleine Blutergüsse)"
+    ],
+    "selten": [
+      "Heparin-induzierte Thrombozytopenie Typ II (HIT) mit starkem Plättchenabfall und gefährlichen Thrombosen – meist 5–14 Tage nach Beginn",
+      "Hyperkaliämie (erhöhtes Kalium) durch Hemmung der Aldosteronbildung",
+      "Hautnekrosen an der Einstichstelle",
+      "Vorübergehender Haarausfall"
+    ],
+    "sehrSelten": [
+      "Anaphylaktischer Schock",
+      "Priapismus (schmerzhafte Dauererektion)",
+      "Gel: Hautrötung, Juckreiz oder allergische Hautreaktion an der Auftragsstelle"
+    ],
+    "unbekannt": [
+      "Osteoporose bei Langzeitbehandlung mit hohen Dosen"
+    ]
   },
   "schwangerschaft": "Erlaubt, wenn nötig: Heparin geht nicht über die Plazenta und ist in der Schwangerschaft ein bevorzugtes Antikoagulans (benzylalkoholhaltige Präparate meiden). Eine rückenmarksnahe Anästhesie bei der Geburt muss zeitlich geplant werden.",
   "stillzeit": "Erlaubt; Heparin geht nicht in nennenswerter Menge in die Muttermilch über und wird vom Kind im Darm nicht aufgenommen.",

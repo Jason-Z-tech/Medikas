@@ -1,53 +1,200 @@
 {
   "id": "meropenem",
   "name": "Meropenem",
-  "synonyme": ["Meropenemum", "Meropenem-Trihydrat"],
+  "synonyme": [
+    "Meropenemum",
+    "Meropenem-Trihydrat"
+  ],
   "kombinationAus": [],
-  "atc": ["J01DH02"],
+  "atc": [
+    "J01DH02"
+  ],
   "klasse": "Betalaktam-Antibiotikum aus der Gruppe der Carbapeneme",
   "kurz": "Sehr breit wirksames Reserve-Antibiotikum (Carbapenem), das im Spital als Infusion bei schweren bakteriellen Infektionen gegeben wird.",
-  "gruppen": ["carbapeneme"],
-  "handelsnamen": ["Meronem", "Meropenem Labatec", "Meropenem Sandoz"],
-  "abgabe": ["A"],
-  "darreichung": ["Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "gruppen": [
+    "carbapeneme"
+  ],
+  "handelsnamen": [
+    "Meronem",
+    "Meropenem Labatec",
+    "Meropenem Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
   "indikationen": [
-    { "text": "Schwere Lungenentzündung, auch im Spital erworben und bei beatmeten Patienten", "ids": ["lungenentzuendung"] },
-    { "text": "Infektionen der Lunge und Bronchien bei zystischer Fibrose", "ids": ["zystische-fibrose"] },
-    { "text": "Komplizierte Harnwegsinfektionen", "ids": ["harnwegsinfekt"] },
-    { "text": "Komplizierte Infektionen im Bauchraum sowie Infektionen während und nach der Geburt", "ids": ["bakterielle-infektion"] },
-    { "text": "Komplizierte Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
-    { "text": "Akute bakterielle Hirnhautentzündung (Meningitis)", "ids": ["pneumokokken-meningokokken"] },
-    { "text": "Fieber bei Mangel an weissen Blutkörperchen (Neutropenie), wenn eine bakterielle Infektion vermutet wird", "ids": ["neutropenie", "fieber"] },
-    { "text": "Blutvergiftung (Bakteriämie) im Zusammenhang mit diesen Infektionen", "ids": ["bakterielle-infektion"] }
+    {
+      "text": "Schwere Lungenentzündung, auch im Spital erworben und bei beatmeten Patienten",
+      "ids": [
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Infektionen der Lunge und Bronchien bei zystischer Fibrose",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    },
+    {
+      "text": "Komplizierte Harnwegsinfektionen",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Komplizierte Infektionen im Bauchraum sowie Infektionen während und nach der Geburt",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Komplizierte Haut- und Weichteilinfektionen",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Akute bakterielle Hirnhautentzündung (Meningitis)",
+      "ids": [
+        "pneumokokken-meningokokken"
+      ]
+    },
+    {
+      "text": "Fieber bei Mangel an weissen Blutkörperchen (Neutropenie), wenn eine bakterielle Infektion vermutet wird",
+      "ids": [
+        "neutropenie",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Blutvergiftung (Bakteriämie) im Zusammenhang mit diesen Infektionen",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Meropenem bindet an die Penicillin-bindenden Proteine (PBP) der Bakterien und blockiert so die Quervernetzung des Zellwandbausteins Peptidoglykan; die Bakterien platzen. Als Carbapenem ist es gegen die meisten Betalaktamasen einschliesslich ESBL stabil und wirkt gegen viele grampositive, gramnegative (auch Pseudomonas) und anaerobe Erreger. Carbapenemase-bildende Bakterien und MRSA sind resistent.",
   "kontraindikationen": [
-    { "text": "Allergie gegen andere Carbapeneme (z. B. Imipenem, Ertapenem)", "ids": [] },
-    { "text": "Schwere Überempfindlichkeitsreaktion (z. B. Anaphylaxie, schwere Hautreaktion) auf andere Betalaktam-Antibiotika wie Penicilline oder Cephalosporine", "ids": ["penicillinallergie"] }
+    {
+      "text": "Allergie gegen andere Carbapeneme (z. B. Imipenem, Ertapenem)",
+      "ids": []
+    },
+    {
+      "text": "Schwere Überempfindlichkeitsreaktion (z. B. Anaphylaxie, schwere Hautreaktion) auf andere Betalaktam-Antibiotika wie Penicilline oder Cephalosporine",
+      "ids": [
+        "penicillinallergie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Leichtere Allergie gegen Penicilline oder Cephalosporine (Kreuzallergie möglich)", "ids": ["penicillinallergie"] },
-    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS) möglich – bei Hautausschlag sofort ärztlich abklären", "ids": ["schwere-hautreaktion"] },
-    { "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)", "ids": ["clostridioides"] },
-    { "text": "Epilepsie und andere Erkrankungen des Gehirns (Krampfanfälle möglich)", "ids": ["epilepsie"] },
-    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung nötig", "ids": ["niereninsuffizienz"] },
-    { "text": "Lebererkrankungen: Leberwerte überwachen", "ids": ["leberinsuffizienz"] },
-    { "text": "Säuglinge unter 3 Monaten: Wirksamkeit und Sicherheit nicht belegt", "ids": ["kinder"] }
+    {
+      "text": "Leichtere Allergie gegen Penicilline oder Cephalosporine (Kreuzallergie möglich)",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS) möglich – bei Hautausschlag sofort ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Epilepsie und andere Erkrankungen des Gehirns (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung nötig",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: Leberwerte überwachen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Säuglinge unter 3 Monaten: Wirksamkeit und Sicherheit nicht belegt",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Valproinsäure (Antiepileptikum)", "ref": ["valproinsaeure"], "effekt": "Der Valproinsäure-Spiegel fällt innerhalb von 1–2 Tagen um 60–100 % – Gefahr von Krampfanfällen. Kombination wird nicht empfohlen; anderes Antibiotikum oder vorübergehend anderes Antiepileptikum wählen.", "schwere": "schwer" },
-    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Blutgerinnungshemmung möglich – INR während und kurz nach der Behandlung häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Probenecid", "ref": [], "effekt": "Hemmt die Ausscheidung von Meropenem über die Niere und erhöht dessen Spiegel – Kombination wird nicht empfohlen.", "schwere": "leicht" },
-    { "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.", "schwere": "leicht" }
+    {
+      "text": "Valproinsäure (Antiepileptikum)",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Der Valproinsäure-Spiegel fällt innerhalb von 1–2 Tagen um 60–100 % – Gefahr von Krampfanfällen. Kombination wird nicht empfohlen; anderes Antibiotikum oder vorübergehend anderes Antiepileptikum wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutgerinnungshemmung möglich – INR während und kurz nach der Behandlung häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Hemmt die Ausscheidung von Meropenem über die Niere und erhöht dessen Spiegel – Kombination wird nicht empfohlen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [],
-    "haeufig": ["Durchfall, Übelkeit, Erbrechen, Bauchschmerzen", "Kopfschmerzen", "Hautausschlag, Juckreiz", "Erhöhte Leberwerte (Transaminasen, alkalische Phosphatase, LDH)", "Thrombozytose (Vermehrung der Blutplättchen)", "Entzündung und Schmerzen an der Einstichstelle"],
-    "gelegentlich": ["Pilzinfektionen in Mund oder Scheide (Candidose)", "Veränderungen des Blutbilds (Eosinophilie, Thrombozytopenie, Leukopenie, Neutropenie)", "Agranulozytose (starker Mangel an weissen Blutkörperchen) und hämolytische Anämie (Blutzerfall)", "Parästhesien (Kribbeln)", "Antibiotika-assoziierte Kolitis (Dickdarmentzündung)", "Anaphylaxie und Angioödem (schwere allergische Reaktion, Schwellungen)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)", "Erhöhte Nierenwerte und erhöhtes Bilirubin"],
-    "selten": ["Krampfanfälle"],
+    "haeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Kopfschmerzen",
+      "Hautausschlag, Juckreiz",
+      "Erhöhte Leberwerte (Transaminasen, alkalische Phosphatase, LDH)",
+      "Thrombozytose (Vermehrung der Blutplättchen)",
+      "Entzündung und Schmerzen an der Einstichstelle"
+    ],
+    "gelegentlich": [
+      "Pilzinfektionen in Mund oder Scheide (Candidose)",
+      "Veränderungen des Blutbilds (Eosinophilie, Thrombozytopenie, Leukopenie, Neutropenie)",
+      "Agranulozytose (starker Mangel an weissen Blutkörperchen) und hämolytische Anämie (Blutzerfall)",
+      "Parästhesien (Kribbeln)",
+      "Antibiotika-assoziierte Kolitis (Dickdarmentzündung)",
+      "Anaphylaxie und Angioödem (schwere allergische Reaktion, Schwellungen)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)",
+      "Erhöhte Nierenwerte und erhöhtes Bilirubin"
+    ],
+    "selten": [
+      "Krampfanfälle"
+    ],
     "sehrSelten": [],
-    "unbekannt": ["Delir (akute Verwirrtheit)", "DRESS (Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)", "Akute generalisierte exanthematische Pustulose (AGEP)"]
+    "unbekannt": [
+      "Delir (akute Verwirrtheit)",
+      "DRESS (Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)",
+      "Akute generalisierte exanthematische Pustulose (AGEP)"
+    ]
   },
   "schwangerschaft": "Erfahrungen bei Schwangeren sind begrenzt; Tierversuche zeigen keine schädliche Wirkung. Anwendung nur, wenn der Nutzen das mögliche Risiko klar überwiegt.",
   "stillzeit": "Geht in geringen Mengen in die Muttermilch über. Nur nach ärztlicher Abwägung anwenden; beim Säugling auf Durchfall und Pilzbefall achten.",

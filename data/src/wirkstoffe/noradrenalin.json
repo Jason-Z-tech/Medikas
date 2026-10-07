@@ -1,41 +1,169 @@
 {
   "id": "noradrenalin",
   "name": "Noradrenalin",
-  "synonyme": ["Norepinephrin", "Norepinephrine", "Noradrenaline", "Noradrenalintartrat"],
-  "atc": ["C01CA03"],
+  "synonyme": [
+    "Norepinephrin",
+    "Norepinephrine",
+    "Noradrenaline",
+    "Noradrenalintartrat"
+  ],
+  "atc": [
+    "C01CA03"
+  ],
   "klasse": "Katecholamin (Vasopressor, vorwiegend Alpha-Sympathomimetikum)",
   "kurz": "Kreislaufmittel für die Intensivmedizin: hebt einen lebensbedrohlich tiefen Blutdruck, z. B. bei Schock, durch Verengung der Blutgefässe.",
-  "gruppen": ["sympathomimetika"],
-  "handelsnamen": ["Noradrenalin Sintetica"],
-  "abgabe": ["B"],
-  "darreichung": ["Infusionskonzentrat", "Injektionslösung"],
+  "gruppen": [
+    "sympathomimetika",
+    "blutdrucksteigernd",
+    "vasokonstriktorisch"
+  ],
+  "handelsnamen": [
+    "Noradrenalin Sintetica"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat",
+    "Injektionslösung"
+  ],
   "indikationen": [
-    { "text": "Wiederherstellung des Blutdrucks bei akuter, schwerer Hypotonie, z. B. bei septischem oder kardiogenem Schock (Notfall- und Intensivmedizin)", "ids": ["schock", "hypotonie"] }
+    {
+      "text": "Wiederherstellung des Blutdrucks bei akuter, schwerer Hypotonie, z. B. bei septischem oder kardiogenem Schock (Notfall- und Intensivmedizin)",
+      "ids": [
+        "schock",
+        "hypotonie"
+      ]
+    }
   ],
   "wirkmechanismus": "Hebt den Blutdruck, indem es die Blutgefässe stark verengt. Noradrenalin ist der natürliche Botenstoff des sympathischen Nervensystems; es stimuliert vor allem Alpha-1-Rezeptoren der Gefässmuskulatur und erhöht dadurch den Gefässwiderstand. Über Beta-1-Rezeptoren steigert es zusätzlich mässig die Kontraktionskraft des Herzens, während Beta-2-Rezeptoren kaum angesprochen werden. Durch den Blutdruckanstieg kann der Puls reflektorisch langsamer werden. Die Wirkung setzt sofort ein und klingt nach Ende der Infusion innerhalb weniger Minuten ab.",
   "kontraindikationen": [
-    { "text": "Blutdruckabfall durch unbehandelten Volumenmangel (zuerst Flüssigkeit ersetzen), ausser als Notfallmassnahme bis zur Volumengabe", "ids": ["dehydratation", "hypotonie"] }
+    {
+      "text": "Blutdruckabfall durch unbehandelten Volumenmangel (zuerst Flüssigkeit ersetzen), ausser als Notfallmassnahme bis zur Volumengabe",
+      "ids": [
+        "dehydratation"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Herzrhythmusstörungen, koronare Herzkrankheit, frischer Herzinfarkt", "ids": ["herzrhythmusstoerung", "koronare-herzkrankheit", "herzinfarkt"] },
-    { "text": "Durchblutungsstörungen oder Thrombosen von Darm- oder Extremitätengefässen (Gefahr von Gewebeschäden)", "ids": ["pavk", "thrombose"] },
-    { "text": "Bluthochdruck und Schilddrüsenüberfunktion", "ids": ["hypertonie", "hyperthyreose"] },
-    { "text": "Diabetes (Blutzucker steigt)", "ids": ["diabetes"] },
-    { "text": "Ältere Menschen und Menschen mit Gefässverkalkung", "ids": ["aeltere-patienten"] },
-    { "text": "Eingeschränkte Nierenfunktion (verminderte Nierendurchblutung möglich)", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Herzrhythmusstörungen, koronare Herzkrankheit, frischer Herzinfarkt",
+      "ids": [
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Durchblutungsstörungen oder Thrombosen von Darm- oder Extremitätengefässen (Gefahr von Gewebeschäden)",
+      "ids": [
+        "pavk",
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Bluthochdruck und Schilddrüsenüberfunktion",
+      "ids": [
+        "hypertonie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker steigt)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Menschen mit Gefässverkalkung",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (verminderte Nierendurchblutung möglich)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Narkose mit Halothan oder Cyclopropan", "ref": [], "grund": "Diese Narkosegase machen das Herz empfindlich für Katecholamine – Gefahr von Kammerflimmern." }
+    {
+      "text": "Narkose mit Halothan oder Cyclopropan",
+      "ref": [],
+      "grund": "Diese Narkosegase machen das Herz empfindlich für Katecholamine – Gefahr von Kammerflimmern."
+    }
   ],
   "interaktionen": [
-    { "text": "MAO-Hemmer (auch Linezolid)", "ref": ["gruppe:mao-hemmer", "linezolid"], "effekt": "Gefährlicher Blutdruckanstieg möglich – nur mit stark reduzierter Dosis unter engmaschiger Überwachung.", "schwere": "schwer" },
-    { "text": "Trizyklische Antidepressiva", "ref": ["gruppe:trizyklische-antidepressiva"], "effekt": "Verstärkte Wirkung auf Blutdruck und Herz (Hemmung der Wiederaufnahme) – Bluthochdruck und Rhythmusstörungen möglich.", "schwere": "schwer" },
-    { "text": "Halogenierte Inhalationsnarkotika (z. B. Isofluran, Sevofluran, Desfluran)", "ref": ["isofluran", "sevofluran", "desfluran"], "effekt": "Erhöhte Empfindlichkeit des Herzens – Rhythmusstörungen möglich.", "schwere": "mittel" },
-    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen.", "schwere": "mittel" },
-    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Stärkerer Blutdruckanstieg mit Pulsverlangsamung möglich, besonders bei nicht selektiven Betablockern.", "schwere": "mittel" },
-    { "text": "Andere Sympathomimetika, Ergotalkaloide, Oxytocin", "ref": ["gruppe:sympathomimetika", "gruppe:ergotalkaloide", "oxytocin"], "effekt": "Verstärkte Gefässverengung und Blutdruckanstieg.", "schwere": "mittel" },
-    { "text": "Schilddrüsenhormone", "ref": ["gruppe:schilddruesenhormone"], "effekt": "Verstärkte Wirkung auf das Herz möglich.", "schwere": "leicht" },
-    { "text": "Alpha-1-Blocker", "ref": ["gruppe:alpha1-blocker"], "effekt": "Abgeschwächte blutdrucksteigernde Wirkung.", "schwere": "leicht" }
+    {
+      "text": "MAO-Hemmer (auch Linezolid)",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "linezolid"
+      ],
+      "effekt": "Gefährlicher Blutdruckanstieg möglich – nur mit stark reduzierter Dosis unter engmaschiger Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Blutdruck und Herz (Hemmung der Wiederaufnahme) – Bluthochdruck und Rhythmusstörungen möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Halogenierte Inhalationsnarkotika (z. B. Isofluran, Sevofluran, Desfluran)",
+      "ref": [
+        "isofluran",
+        "sevofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhte Empfindlichkeit des Herzens – Rhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Stärkerer Blutdruckanstieg mit Pulsverlangsamung möglich, besonders bei nicht selektiven Betablockern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Sympathomimetika, Ergotalkaloide, Oxytocin",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:ergotalkaloide",
+        "oxytocin"
+      ],
+      "effekt": "Verstärkte Gefässverengung und Blutdruckanstieg.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Verstärkte Wirkung auf das Herz möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Alpha-1-Blocker",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Abgeschwächte blutdrucksteigernde Wirkung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "unbekannt": [

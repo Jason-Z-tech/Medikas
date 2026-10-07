@@ -1,54 +1,233 @@
 {
   "id": "lercanidipin",
   "name": "Lercanidipin",
-  "synonyme": ["Lercanidipine", "Lercanidipinhydrochlorid"],
-  "atc": ["C08CA13"],
+  "synonyme": [
+    "Lercanidipine",
+    "Lercanidipinhydrochlorid"
+  ],
+  "atc": [
+    "C08CA13"
+  ],
   "klasse": "Calciumantagonist vom Dihydropyridin-Typ (stark fettlöslich, langwirksam)",
   "kurz": "Blutdrucksenker aus der Gruppe der Calciumantagonisten; weitet die Gefässe bei leichtem bis mittelschwerem Bluthochdruck.",
-  "gruppen": ["dhp-calciumantagonisten", "blutdrucksenkend", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Zanidip", "Zanipress (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "dhp-calciumantagonisten",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Zanidip",
+    "Zanipress (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Leichter bis mittelschwerer Bluthochdruck (essentielle Hypertonie)", "ids": ["hypertonie"] }
+    {
+      "text": "Leichter bis mittelschwerer Bluthochdruck (essentielle Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den Blutdruck, indem es die Muskulatur der Arterien entspannt. Lercanidipin blockiert sehr gefässselektiv die L-Typ-Calciumkanäle der glatten Gefässmuskulatur und senkt so den peripheren Widerstand, ohne die Herzkraft wesentlich zu beeinflussen. Weil sich der stark fettlösliche Wirkstoff in den Zellmembranen anreichert, hält die Wirkung trotz kurzer Plasmahalbwertszeit 24 Stunden an. Der Abbau erfolgt fast vollständig über CYP3A4, deshalb reagieren die Spiegel stark auf Hemmer dieses Enzyms.",
   "kontraindikationen": [
-    { "text": "Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] },
-    { "text": "Frauen im gebärfähigen Alter ohne zuverlässige Verhütung", "ids": ["frauen-gebaerfaehig"] },
-    { "text": "Verengung des Ausflusstrakts der linken Herzkammer (z. B. Aortenstenose)", "ids": ["herzklappenerkrankung"] },
-    { "text": "Unbehandelte Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
-    { "text": "Instabile Angina pectoris; innerhalb eines Monats nach einem Herzinfarkt", "ids": ["angina-pectoris", "herzinfarkt"] },
-    { "text": "Schwere Nieren- oder Leberfunktionsstörung (Nierenfunktion unter 30 ml/min)", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Überempfindlichkeit gegen andere Dihydropyridine (z. B. Amlodipin, Nifedipin)", "ids": [] }
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Verengung des Ausflusstrakts der linken Herzkammer (z. B. Aortenstenose)",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Unbehandelte Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris; innerhalb eines Monats nach einem Herzinfarkt",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Leberfunktionsstörung (Nierenfunktion unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Dihydropyridine (z. B. Amlodipin, Nifedipin)",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Sick-Sinus-Syndrom ohne Herzschrittmacher", "ids": ["bradykardie"] },
-    { "text": "Eingeschränkte Pumpfunktion der linken Herzkammer und koronare Herzkrankheit (selten verstärkte Durchblutungsstörung des Herzens)", "ids": ["herzinsuffizienz", "koronare-herzkrankheit"] },
-    { "text": "Leicht bis mässig eingeschränkte Nieren- oder Leberfunktion", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Peritonealdialyse: das Dialysat kann sich trüben", "ids": ["niereninsuffizienz"] },
-    { "text": "Alkohol verstärkt die gefässerweiternde Wirkung", "ids": ["alkoholkonsum"] }
+    {
+      "text": "Sick-Sinus-Syndrom ohne Herzschrittmacher",
+      "ids": [
+        "sick-sinus-syndrom",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Pumpfunktion der linken Herzkammer und koronare Herzkrankheit (selten verstärkte Durchblutungsstörung des Herzens)",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Nieren- oder Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Peritonealdialyse: das Dialysat kann sich trüben",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Alkohol verstärkt die gefässerweiternde Wirkung",
+      "ids": [
+        "alkoholkonsum"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Clarithromycin, Erythromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer", "erythromycin"], "grund": "Hemmen den Abbau von Lercanidipin – die Spiegel steigen um ein Vielfaches (mit Ketoconazol etwa 15-fach), Gefahr eines starken Blutdruckabfalls." },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "grund": "Gegenseitige Spiegelerhöhung: Lercanidipin steigt etwa auf das Dreifache, Ciclosporin um rund ein Fünftel." },
-    { "text": "Grapefruitsaft", "ref": [], "grund": "Hemmt den Abbau von Lercanidipin im Darm – stark erhöhte Spiegel und übermässige Blutdrucksenkung." }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Clarithromycin, Erythromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "erythromycin"
+      ],
+      "grund": "Hemmen den Abbau von Lercanidipin – die Spiegel steigen um ein Vielfaches (mit Ketoconazol etwa 15-fach), Gefahr eines starken Blutdruckabfalls."
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "grund": "Gegenseitige Spiegelerhöhung: Lercanidipin steigt etwa auf das Dreifache, Ciclosporin um rund ein Fünftel."
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "grund": "Hemmt den Abbau von Lercanidipin im Darm – stark erhöhte Spiegel und übermässige Blutdrucksenkung."
+    }
   ],
   "interaktionen": [
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Lercanidipin-Spiegel – Blutdruck kontrollieren.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Lercanidipin-Spiegel sinken, die Wirkung kann nachlassen – Blutdruck häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Simvastatin", "ref": ["simvastatin"], "effekt": "Simvastatin-Spiegel steigen um gut die Hälfte – Lercanidipin morgens, Simvastatin abends einnehmen.", "schwere": "mittel" },
-    { "text": "Alkohol", "ref": [], "effekt": "Kann die blutdrucksenkende Wirkung verstärken – meiden.", "schwere": "mittel" },
-    { "text": "Midazolam", "ref": ["midazolam"], "effekt": "Die Aufnahme von Lercanidipin steigt um etwa 40 % – Vorsicht, besonders bei älteren Menschen.", "schwere": "leicht" },
-    { "text": "Betablocker (z. B. Metoprolol)", "ref": ["gruppe:betablocker"], "effekt": "Gut kombinierbar mit verstärkter Blutdrucksenkung; Metoprolol senkt die Aufnahme von Lercanidipin um etwa die Hälfte – ggf. Dosis anpassen.", "schwere": "leicht" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spitzenspiegel können steigen – auf Überdosierungszeichen achten.", "schwere": "leicht" },
-    { "text": "Cimetidin in hohen Dosen", "ref": ["gruppe:h2-blocker"], "effekt": "Höhere Lercanidipin-Spiegel möglich – Vorsicht.", "schwere": "leicht" }
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Lercanidipin-Spiegel – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Lercanidipin-Spiegel sinken, die Wirkung kann nachlassen – Blutdruck häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Simvastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "effekt": "Simvastatin-Spiegel steigen um gut die Hälfte – Lercanidipin morgens, Simvastatin abends einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann die blutdrucksenkende Wirkung verstärken – meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Midazolam",
+      "ref": [
+        "midazolam"
+      ],
+      "effekt": "Die Aufnahme von Lercanidipin steigt um etwa 40 % – Vorsicht, besonders bei älteren Menschen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Betablocker (z. B. Metoprolol)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Gut kombinierbar mit verstärkter Blutdrucksenkung; Metoprolol senkt die Aufnahme von Lercanidipin um etwa die Hälfte – ggf. Dosis anpassen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spitzenspiegel können steigen – auf Überdosierungszeichen achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Cimetidin in hohen Dosen",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Höhere Lercanidipin-Spiegel möglich – Vorsicht.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "gelegentlich": ["Kopfschmerzen", "Schwindel", "Herzklopfen, beschleunigter Puls (Tachykardie)", "Flush (Gesichtsrötung mit Wärmegefühl)", "Periphere Ödeme (Wassereinlagerungen, vor allem an den Knöcheln)"],
-    "selten": ["Schläfrigkeit", "Angina pectoris (Brustenge)", "Übelkeit, Verdauungsstörungen, Durchfall, Bauchschmerzen, Erbrechen", "Hautausschlag, Juckreiz", "Muskelschmerzen", "Vermehrtes Wasserlassen (Polyurie)", "Schwäche, Müdigkeit", "Überempfindlichkeitsreaktionen"],
-    "sehrSelten": ["Hypotonie (tiefer Blutdruck)"],
-    "unbekannt": ["Synkope (Ohnmacht)", "Zahnfleischwucherung (Gingivahyperplasie)", "Erhöhte Leberwerte", "Angioödem (Schwellung von Gesicht, Lippen, Zunge)", "Trübes Dialysat bei Peritonealdialyse"]
+    "gelegentlich": [
+      "Kopfschmerzen",
+      "Schwindel",
+      "Herzklopfen, beschleunigter Puls (Tachykardie)",
+      "Flush (Gesichtsrötung mit Wärmegefühl)",
+      "Periphere Ödeme (Wassereinlagerungen, vor allem an den Knöcheln)"
+    ],
+    "selten": [
+      "Schläfrigkeit",
+      "Angina pectoris (Brustenge)",
+      "Übelkeit, Verdauungsstörungen, Durchfall, Bauchschmerzen, Erbrechen",
+      "Hautausschlag, Juckreiz",
+      "Muskelschmerzen",
+      "Vermehrtes Wasserlassen (Polyurie)",
+      "Schwäche, Müdigkeit",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "sehrSelten": [
+      "Hypotonie (tiefer Blutdruck)"
+    ],
+    "unbekannt": [
+      "Synkope (Ohnmacht)",
+      "Zahnfleischwucherung (Gingivahyperplasie)",
+      "Erhöhte Leberwerte",
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge)",
+      "Trübes Dialysat bei Peritonealdialyse"
+    ]
   },
   "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter dürfen Lercanidipin nur mit zuverlässiger Verhütung einnehmen.",
   "stillzeit": "Kontraindiziert.",

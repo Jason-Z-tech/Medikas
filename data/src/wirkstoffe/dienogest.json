@@ -1,43 +1,171 @@
 {
   "id": "dienogest",
   "name": "Dienogest",
-  "synonyme": ["Dienogestum", "STS-557"],
-  "atc": ["G03DB08"],
+  "synonyme": [
+    "Dienogestum",
+    "STS-557"
+  ],
+  "atc": [
+    "G03DB08"
+  ],
   "klasse": "Gestagen (19-Nortestosteron-Derivat mit antiandrogener Wirkung)",
   "kurz": "Hormontablette (Gestagen) zur Langzeitbehandlung der Endometriose; auch Bestandteil von Antibabypillen.",
-  "gruppen": ["gestagene"],
-  "handelsnamen": ["Visanne", "Qlaira (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "gestagene"
+  ],
+  "handelsnamen": [
+    "Visanne",
+    "Qlaira (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Behandlung der Endometriose (Gebärmutterschleimhaut ausserhalb der Gebärmutter) – Visanne 2 mg", "ids": ["endometriose"] }
+    {
+      "text": "Behandlung der Endometriose (Gebärmutterschleimhaut ausserhalb der Gebärmutter) – Visanne 2 mg",
+      "ids": [
+        "endometriose"
+      ]
+    }
   ],
   "wirkmechanismus": "Lässt Endometriose-Herde schrumpfen, indem es eine dauerhafte Gestagenwirkung erzeugt und die Östrogenbildung dämpft. Dienogest bindet stark an Progesteronrezeptoren und wirkt an der Gebärmutterschleimhaut kräftig gestagen; zugleich hat es eine antiandrogene, aber keine androgene Wirkung. Bei täglicher Einnahme senkt es die Hormonausschüttung der Eierstöcke mässig, sodass ein östrogenarmes, gestagenbetontes Milieu entsteht. Das Gewebe der Endometrioseherde wird zunächst umgewandelt (Dezidualisierung) und bildet sich dann zurück.",
   "kontraindikationen": [
-    { "text": "Akute venöse Thromboembolie (Thrombose, Lungenembolie)", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Bestehende oder frühere arterielle und kardiovaskuläre Erkrankungen (z. B. Herzinfarkt, Schlaganfall, koronare Herzkrankheit)", "ids": ["herzinfarkt", "schlaganfall", "koronare-herzkrankheit"] },
-    { "text": "Diabetes mellitus mit Gefässschäden", "ids": ["diabetes"] },
-    { "text": "Bestehende oder frühere schwere Lebererkrankung, solange die Leberwerte nicht normal sind", "ids": ["leberinsuffizienz"] },
-    { "text": "Bestehende oder frühere gutartige oder bösartige Lebertumoren", "ids": ["leberkrebs"] },
-    { "text": "Bekannte oder vermutete sexualhormonabhängige bösartige Tumoren (z. B. Brustkrebs)", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
-    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] }
+    {
+      "text": "Akute venöse Thromboembolie (Thrombose, Lungenembolie)",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Bestehende oder frühere arterielle und kardiovaskuläre Erkrankungen (z. B. Herzinfarkt, Schlaganfall, koronare Herzkrankheit)",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus mit Gefässschäden",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Bestehende oder frühere schwere Lebererkrankung, solange die Leberwerte nicht normal sind",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bestehende oder frühere gutartige oder bösartige Lebertumoren",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Bekannte oder vermutete sexualhormonabhängige bösartige Tumoren (z. B. Brustkrebs)",
+      "ids": [
+        "brustkrebs",
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Nicht abgeklärte Blutungen aus der Scheide",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Depression in der Vorgeschichte: Stimmung überwachen, bei schwerer Depression absetzen", "ids": ["depression"] },
-    { "text": "Jugendliche: Abnahme der Knochendichte möglich – Nutzen und Risiko sorgfältig abwägen", "ids": ["kinder", "osteoporose"] },
-    { "text": "Risikofaktoren für Osteoporose (Kalzium- und Vitamin-D-Zufuhr beachten)", "ids": ["osteoporose"] },
-    { "text": "Thrombose in der Vorgeschichte oder Risikofaktoren; vor geplanten Operationen ärztlich besprechen", "ids": ["thromboembolie-vorgeschichte", "operation"] },
-    { "text": "Bluthochdruck: bei deutlichem Anstieg absetzen", "ids": ["hypertonie"] },
-    { "text": "Diabetes oder frühere Schwangerschaftsdiabetes: Blutzucker überwachen", "ids": ["diabetes"] },
-    { "text": "Adenomyose oder Myome: verstärkte Blutungen und Blutarmut möglich", "ids": ["endometriose", "anaemie"] },
-    { "text": "Frühere Eileiterschwangerschaft oder Eileiterschaden (bei Schwangerschaft unter Therapie erhöhtes Risiko einer Eileiterschwangerschaft)", "ids": [] }
+    {
+      "text": "Depression in der Vorgeschichte: Stimmung überwachen, bei schwerer Depression absetzen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Jugendliche: Abnahme der Knochendichte möglich – Nutzen und Risiko sorgfältig abwägen",
+      "ids": [
+        "kinder",
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für Osteoporose (Kalzium- und Vitamin-D-Zufuhr beachten)",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Thrombose in der Vorgeschichte oder Risikofaktoren; vor geplanten Operationen ärztlich besprechen",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "operation"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: bei deutlichem Anstieg absetzen",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Diabetes oder frühere Schwangerschaftsdiabetes: Blutzucker überwachen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Adenomyose oder Myome: verstärkte Blutungen und Blutarmut möglich",
+      "ids": [
+        "endometriose",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Frühere Eileiterschwangerschaft oder Eileiterschaden (bei Schwangerschaft unter Therapie erhöhtes Risiko einer Eileiterschwangerschaft)",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "johanniskraut"], "effekt": "Deutlich tiefere Dienogest-Spiegel – Wirkung gegen Endometriose kann nachlassen, Blutungsmuster verändert sich.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Dienogest-Spiegel steigt (mit Ketoconazol etwa um das Dreifache) – mehr Nebenwirkungen möglich.", "schwere": "mittel" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Mässiger Anstieg der Dienogest-Spiegel.", "schwere": "leicht" },
-    { "text": "HIV- und Hepatitis-C-Mittel (Proteasehemmer, NNRTI)", "ref": ["gruppe:hiv-proteasehemmer", "gruppe:nnrti"], "effekt": "Gestagenspiegel können steigen oder sinken – Wirkung und Verträglichkeit beobachten.", "schwere": "mittel" }
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Deutlich tiefere Dienogest-Spiegel – Wirkung gegen Endometriose kann nachlassen, Blutungsmuster verändert sich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Dienogest-Spiegel steigt (mit Ketoconazol etwa um das Dreifache) – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Mässiger Anstieg der Dienogest-Spiegel.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "HIV- und Hepatitis-C-Mittel (Proteasehemmer, NNRTI)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:nnrti",
+        "gruppe:hcv-daa"
+      ],
+      "effekt": "Gestagenspiegel können steigen oder sinken – Wirkung und Verträglichkeit beobachten.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [

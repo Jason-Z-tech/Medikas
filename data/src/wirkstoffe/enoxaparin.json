@@ -1,54 +1,249 @@
 {
   "id": "enoxaparin",
   "name": "Enoxaparin",
-  "synonyme": ["Enoxaparin-Natrium", "Enoxaparin sodium", "Niedermolekulares Heparin", "NMH"],
-  "atc": ["B01AB05"],
+  "synonyme": [
+    "Enoxaparin-Natrium",
+    "Enoxaparin sodium",
+    "Niedermolekulares Heparin",
+    "NMH"
+  ],
+  "atc": [
+    "B01AB05"
+  ],
   "klasse": "Niedermolekulares Heparin (Antikoagulans)",
   "kurz": "Gerinnungshemmende Spritze (niedermolekulares Heparin) gegen Thrombosen und Lungenembolien sowie beim akuten Herzinfarkt.",
-  "gruppen": ["antikoagulanzien", "heparine", "blutungsrisiko-erhoehend", "hyperkaliaemie-ausloesend"],
-  "handelsnamen": ["Clexane"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung in Fertigspritzen", "Injektionslösung in Durchstechflaschen"],
+  "gruppen": [
+    "antikoagulanzien",
+    "heparine",
+    "blutungsrisiko-erhoehend",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Clexane"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung in Fertigspritzen",
+    "Injektionslösung in Durchstechflaschen"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung von Thrombosen und Embolien bei chirurgischen Eingriffen mit mässigem oder hohem Risiko, z. B. orthopädische und allgemeinchirurgische Operationen", "ids": ["thromboseprophylaxe", "operation"] },
-    { "text": "Thrombosevorbeugung bei Patientinnen und Patienten mit akuter internistischer Erkrankung und eingeschränkter Beweglichkeit", "ids": ["thromboseprophylaxe"] },
-    { "text": "Behandlung der tiefen Venenthrombose mit oder ohne Lungenembolie", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Instabile Angina pectoris und Herzinfarkt ohne ST-Hebung (zusammen mit Acetylsalicylsäure)", "ids": ["angina-pectoris", "herzinfarkt"] },
-    { "text": "Akuter Herzinfarkt mit ST-Hebung, zusammen mit einer Thrombolyse oder einer Kathetertherapie", "ids": ["herzinfarkt"] },
-    { "text": "Verhinderung von Gerinnseln im Dialysekreislauf bei Hämodialyse", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Vorbeugung von Thrombosen und Embolien bei chirurgischen Eingriffen mit mässigem oder hohem Risiko, z. B. orthopädische und allgemeinchirurgische Operationen",
+      "ids": [
+        "thromboseprophylaxe",
+        "operation"
+      ]
+    },
+    {
+      "text": "Thrombosevorbeugung bei Patientinnen und Patienten mit akuter internistischer Erkrankung und eingeschränkter Beweglichkeit",
+      "ids": [
+        "thromboseprophylaxe"
+      ]
+    },
+    {
+      "text": "Behandlung der tiefen Venenthrombose mit oder ohne Lungenembolie",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris und Herzinfarkt ohne ST-Hebung (zusammen mit Acetylsalicylsäure)",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Akuter Herzinfarkt mit ST-Hebung, zusammen mit einer Thrombolyse oder einer Kathetertherapie",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Verhinderung von Gerinnseln im Dialysekreislauf bei Hämodialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Blutgerinnung und verhindert so, dass sich Blutgerinnsel bilden oder vergrössern. Enoxaparin ist ein niedermolekulares Heparin, das an den körpereigenen Hemmstoff Antithrombin bindet und dessen Wirkung vor allem gegen den Gerinnungsfaktor Xa, in geringerem Mass auch gegen Thrombin (Faktor IIa), stark verstärkt. Gegenüber unfraktioniertem Heparin ist die Wirkung besser vorhersehbar und hält länger an, sodass ein bis zwei Spritzen unter die Haut pro Tag genügen. Die Ausscheidung erfolgt überwiegend über die Nieren; die Wirkung kann über die Anti-Xa-Aktivität gemessen werden.",
   "kontraindikationen": [
-    { "text": "Immunbedingte heparininduzierte Thrombozytopenie (HIT) in den letzten 100 Tagen oder nachweisbare HIT-Antikörper; Überempfindlichkeit gegen Heparin oder andere niedermolekulare Heparine", "ids": ["thrombozytopenie"] },
-    { "text": "Aktive, klinisch relevante Blutung", "ids": ["aktive-blutung"] },
-    { "text": "Zustände mit hohem Blutungsrisiko: kürzlicher hämorrhagischer Schlaganfall, Magen-Darm-Geschwür, bösartiger Tumor mit hohem Blutungsrisiko, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen oder Aneurysmen", "ids": ["hirnblutung", "magen-darm-ulkus", "krebs", "aneurysma", "operation"] },
-    { "text": "Spinal-, Peridural- oder lokoregionale Anästhesie innerhalb von 24 Stunden nach einer Behandlungsdosis", "ids": ["anaesthesie"] }
+    {
+      "text": "Immunbedingte heparininduzierte Thrombozytopenie (HIT) in den letzten 100 Tagen oder nachweisbare HIT-Antikörper; Überempfindlichkeit gegen Heparin oder andere niedermolekulare Heparine",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Aktive, klinisch relevante Blutung",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Zustände mit hohem Blutungsrisiko: kürzlicher hämorrhagischer Schlaganfall, Magen-Darm-Geschwür, bösartiger Tumor mit hohem Blutungsrisiko, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen oder Aneurysmen",
+      "ids": [
+        "hirnblutung",
+        "magen-darm-ulkus",
+        "krebs",
+        "aneurysma",
+        "operation"
+      ]
+    },
+    {
+      "text": "Spinal-, Peridural- oder lokoregionale Anästhesie innerhalb von 24 Stunden nach einer Behandlungsdosis",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: Anreicherung und Blutungsrisiko, bei schwerer Niereninsuffizienz Dosisanpassung", "ids": ["niereninsuffizienz"] },
-    { "text": "Eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
-    { "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion: Gefahr eines spinalen oder epiduralen Hämatoms mit möglicher Lähmung", "ids": ["anaesthesie"] },
-    { "text": "Gerinnungsstörungen, Magen-Darm-Geschwüre in der Vorgeschichte, kürzlicher ischämischer Schlaganfall", "ids": ["blutgerinnungsstoerung", "magen-darm-ulkus", "schlaganfall"] },
-    { "text": "Unkontrollierter schwerer Bluthochdruck, diabetische Netzhauterkrankung", "ids": ["hypertonie", "diabetes"] },
-    { "text": "Risiko für erhöhtes Kalium (Diabetes, Nierenschwäche, kaliumerhöhende Arzneimittel)", "ids": ["hyperkaliaemie"] },
-    { "text": "Künstliche Herzklappen, besonders in der Schwangerschaft: Klappenthrombosen beschrieben", "ids": ["herzklappenerkrankung", "schwangerschaft"] },
-    { "text": "Ältere Menschen und Körpergewicht unter 45 kg (Frauen) bzw. 57 kg (Männer): höheres Blutungsrisiko", "ids": ["aeltere-patienten"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: Anreicherung und Blutungsrisiko, bei schwerer Niereninsuffizienz Dosisanpassung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion: Gefahr eines spinalen oder epiduralen Hämatoms mit möglicher Lähmung",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Gerinnungsstörungen, Magen-Darm-Geschwüre in der Vorgeschichte, kürzlicher ischämischer Schlaganfall",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "magen-darm-ulkus",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Unkontrollierter schwerer Bluthochdruck, diabetische Netzhauterkrankung",
+      "ids": [
+        "hypertonie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Risiko für erhöhtes Kalium (Diabetes, Nierenschwäche, kaliumerhöhende Arzneimittel)",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Künstliche Herzklappen, besonders in der Schwangerschaft: Klappenthrombosen beschrieben",
+      "ids": [
+        "herzklappenerkrankung",
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Körpergewicht unter 45 kg (Frauen) bzw. 57 kg (Männer): höheres Blutungsrisiko",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Gerinnungshemmer (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Fondaparinux)", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak", "fondaparinux"], "effekt": "Stark erhöhtes Blutungsrisiko – nur bei geplanter Umstellung oder überlappend nach ärztlichem Plan.", "schwere": "schwer" },
-    { "text": "Thrombolytika (z. B. Alteplase, Tenecteplase)", "ref": ["alteplase", "tenecteplase"], "effekt": "Erhöhtes Risiko schwerer Blutungen – nur gezielt beim Herzinfarkt im Spital.", "schwere": "schwer" },
-    { "text": "NSAR in entzündungshemmender Dosis und Salicylate (z. B. Ibuprofen, Diclofenac, Ketorolac)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – Kombination möglichst meiden.", "schwere": "schwer" },
-    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure in niedriger Dosis, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Erhöhtes Blutungsrisiko; beim akuten Koronarsyndrom gezielt kombiniert – klinisch überwachen.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhtes Risiko für Blutungen, v. a. im Magen-Darm-Trakt – Vorsicht.", "schwere": "mittel" },
-    { "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)", "ref": ["gruppe:hyperkaliaemie-ausloesend"], "effekt": "Zusätzlicher Kaliumanstieg möglich – Kalium kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "Andere Gerinnungshemmer (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Fondaparinux)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak",
+        "fondaparinux"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – nur bei geplanter Umstellung oder überlappend nach ärztlichem Plan.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombolytika (z. B. Alteplase, Tenecteplase)",
+      "ref": [
+        "alteplase",
+        "tenecteplase"
+      ],
+      "effekt": "Erhöhtes Risiko schwerer Blutungen – nur gezielt beim Herzinfarkt im Spital.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR in entzündungshemmender Dosis und Salicylate (z. B. Ibuprofen, Diclofenac, Ketorolac)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – Kombination möglichst meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure in niedriger Dosis, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; beim akuten Koronarsyndrom gezielt kombiniert – klinisch überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Blutungen, v. a. im Magen-Darm-Trakt – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Zusätzlicher Kaliumanstieg möglich – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Erhöhte Leberwerte (vor allem Transaminasen)"],
-    "haeufig": ["Blutungen, Blutarmut infolge Blutungen", "Thrombozytopenie (verminderte Blutplättchen) oder Thrombozytose (vermehrte Blutplättchen)", "Bluterguss, Schmerzen und andere Reaktionen an der Einstichstelle", "Allergische Reaktionen", "Kopfschmerzen", "Nesselsucht, Juckreiz, Hautrötung"],
-    "gelegentlich": ["Hirnblutungen und Blutungen im hinteren Bauchraum (retroperitoneal)", "Blasenbildende Hautentzündung", "Hautreizung und Hautnekrose an der Einstichstelle", "Leberzellschädigung"],
-    "selten": ["Anaphylaktische und anaphylaktoide Reaktionen bis Schock", "Heparininduzierte Thrombozytopenie Typ II mit Thrombosen (Gefässverschlüsse bis Organinfarkt oder Gliedmassenischämie)", "Spinale oder epidurale Hämatome nach rückenmarksnaher Anästhesie", "Hyperkaliämie (erhöhtes Kalium)", "Gallestauung (cholestatische Leberschädigung)", "Haarausfall, Hautgefässentzündung", "Osteoporose bei Langzeitanwendung über 3 Monate"]
+    "sehrHaeufig": [
+      "Erhöhte Leberwerte (vor allem Transaminasen)"
+    ],
+    "haeufig": [
+      "Blutungen, Blutarmut infolge Blutungen",
+      "Thrombozytopenie (verminderte Blutplättchen) oder Thrombozytose (vermehrte Blutplättchen)",
+      "Bluterguss, Schmerzen und andere Reaktionen an der Einstichstelle",
+      "Allergische Reaktionen",
+      "Kopfschmerzen",
+      "Nesselsucht, Juckreiz, Hautrötung"
+    ],
+    "gelegentlich": [
+      "Hirnblutungen und Blutungen im hinteren Bauchraum (retroperitoneal)",
+      "Blasenbildende Hautentzündung",
+      "Hautreizung und Hautnekrose an der Einstichstelle",
+      "Leberzellschädigung"
+    ],
+    "selten": [
+      "Anaphylaktische und anaphylaktoide Reaktionen bis Schock",
+      "Heparininduzierte Thrombozytopenie Typ II mit Thrombosen (Gefässverschlüsse bis Organinfarkt oder Gliedmassenischämie)",
+      "Spinale oder epidurale Hämatome nach rückenmarksnaher Anästhesie",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Gallestauung (cholestatische Leberschädigung)",
+      "Haarausfall, Hautgefässentzündung",
+      "Osteoporose bei Langzeitanwendung über 3 Monate"
+    ]
   },
   "schwangerschaft": "Keine Hinweise auf Fruchtschädigung; Enoxaparin passiert die Plazenta im 2. Drittel nicht. Anwendung nur nach ärztlicher Abwägung; Schwangere mit künstlicher Herzklappe brauchen eine besonders enge Überwachung.",
   "stillzeit": "Geht kaum in die Muttermilch über und wird vom Säugling über den Darm nicht aufgenommen; Anwendung in der Stillzeit möglich.",

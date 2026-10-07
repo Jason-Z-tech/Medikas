@@ -1,0 +1,230 @@
+{
+  "id": "nortriptylin",
+  "name": "Nortriptylin",
+  "synonyme": [
+    "Nortriptyline",
+    "Nortriptylinhydrochlorid"
+  ],
+  "atc": [
+    "N06AA10"
+  ],
+  "klasse": "Trizyklisches Antidepressivum (vorwiegend Noradrenalin-Wiederaufnahmehemmer)",
+  "kurz": "Antidepressivum aus der Gruppe der Trizyklika mit eher antriebssteigernder Wirkung; wirksamer Abbaustoff von Amitriptylin.",
+  "gruppen": [
+    "trizyklische-antidepressiva",
+    "anticholinerg",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Nortrilen"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dragées"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt Stimmung und Antrieb, indem es die Konzentration des Botenstoffs Noradrenalin im Gehirn erhöht. Nortriptylin, der wirksame Abbaustoff von Amitriptylin, hemmt vor allem die Wiederaufnahme von Noradrenalin und schwächer die von Serotonin. Es blockiert Muskarin-, Histamin- und Alpha-1-Rezeptoren weniger stark als Amitriptylin und wirkt daher weniger dämpfend und anticholinerg. Der Abbau erfolgt hauptsächlich über CYP2D6; bei langsamen Metabolisierern steigen die Spiegel stark an.",
+  "kontraindikationen": [
+    {
+      "text": "Frischer Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Herzblock oder andere Herzrhythmusstörungen",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten und QT-Verlängerung",
+      "ids": [
+        "koronare-herzkrankheit",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erniedrigte Krampfschwelle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Harnverhalt oder Prostatavergrösserung",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich) oder Schizophrenie",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion oder Behandlung mit Schilddrüsenhormonen",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Verwirrtheit, Blutdruckabfall beim Aufstehen und Sturzgefahr",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer – auch innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms und von Blutdruckkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion, Terbinafin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Nortriptylin-Spiegel kann sich vervielfachen – Dosis anpassen, Spiegel und EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel und Antiarrhythmika der Klasse I",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Erhöhte Gefahr gefährlicher Herzrhythmusstörungen – möglichst vermeiden, EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sympathomimetika, z. B. Adrenalin oder Noradrenalin (auch in Lokalanästhetika)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Starker Blutdruckanstieg und Herzrhythmusstörungen möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI, Tramadol, Triptane, Lithium)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotoninsyndrom möglich; SSRI wie Fluoxetin und Paroxetin erhöhen zudem den Nortriptylin-Spiegel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit; Gefahr eines Darmverschlusses.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Reaktionsverlangsamung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin und andere zentral wirkende Blutdrucksenker",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Blutdrucksenkende Wirkung abgeschwächt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Nortriptylin-Spiegel sinkt, Wirkung kann abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung kann sich verändern – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Mundtrockenheit",
+      "Obstipation (Verstopfung)",
+      "Vermehrtes Schwitzen",
+      "Zittern (Tremor)",
+      "Schwindel, Müdigkeit",
+      "Verschwommenes Sehen (Akkommodationsstörungen)",
+      "Herzklopfen, Herzrasen",
+      "Gewichtszunahme"
+    ],
+    "unbekannt": [
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Harnverhalt, Blasenentleerungsstörungen",
+      "Verwirrtheit (v. a. bei älteren Menschen), Unruhe, Umschlagen in eine Manie",
+      "Krampfanfälle",
+      "Herzrhythmus- und Reizleitungsstörungen, QT-Verlängerung",
+      "Blutbildveränderungen bis Agranulozytose",
+      "Hyponatriämie (Natriummangel)",
+      "Suizidgedanken und suizidales Verhalten"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme bis zur Geburt sind beim Neugeborenen Anpassungs- und Entzugsstörungen (Atemprobleme, Zittern, Trinkschwäche) möglich.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung, der Säugling ist zu beobachten.",
+  "hinweise": [
+    "Die stimmungsaufhellende Wirkung setzt erst nach 2–4 Wochen ein.",
+    "Nicht abrupt absetzen, sondern schrittweise nach ärztlicher Anweisung.",
+    "Vorsicht beim Autofahren, besonders zu Beginn; keinen Alkohol trinken.",
+    "EKG und gegebenenfalls Blutspiegel kontrollieren; eine Überdosis ist lebensgefährlich – für Kinder unzugänglich aufbewahren."
+  ],
+  "stand": "2026-10"
+}

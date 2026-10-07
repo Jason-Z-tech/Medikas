@@ -1,39 +1,130 @@
 {
   "id": "finasterid",
   "name": "Finasterid",
-  "synonyme": ["Finasteride"],
-  "atc": ["G04CB01", "D11AX10"],
+  "synonyme": [
+    "Finasteride"
+  ],
+  "atc": [
+    "G04CB01",
+    "D11AX10"
+  ],
   "klasse": "5-Alpha-Reduktase-Hemmer (Typ 2)",
   "kurz": "Hemmt die Bildung des Hormons DHT: 5 mg gegen gutartige Prostatavergrösserung, 1 mg gegen erblichen Haarausfall bei Männern.",
-  "gruppen": ["5-alpha-reduktase-hemmer", "teratogen"],
-  "handelsnamen": ["Proscar", "Propecia", "Finasterid Mepha"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "5-alpha-reduktase-hemmer",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Proscar",
+    "Propecia",
+    "Finasterid Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Gutartige Prostatavergrösserung mit Beschwerden (5 mg): bessert die Beschwerden, verkleinert die Prostata und senkt das Risiko für akuten Harnverhalt und Operationen", "ids": ["prostatahyperplasie", "harnverhalt"] },
-    { "text": "Erblich bedingter Haarausfall (androgenetische Alopezie) bei Männern (1 mg)", "ids": ["haarausfall"] }
+    {
+      "text": "Gutartige Prostatavergrösserung mit Beschwerden (5 mg): bessert die Beschwerden, verkleinert die Prostata und senkt das Risiko für akuten Harnverhalt und Operationen",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Erblich bedingter Haarausfall (androgenetische Alopezie) bei Männern (1 mg)",
+      "ids": [
+        "haarausfall"
+      ]
+    }
   ],
   "wirkmechanismus": "Verkleinert die Prostata bzw. bremst den Haarausfall, indem es die Bildung des stark wirksamen männlichen Hormons Dihydrotestosteron (DHT) vermindert. Finasterid hemmt spezifisch das Enzym 5-Alpha-Reduktase Typ 2, das in Prostata, Haarwurzeln und Haut Testosteron in DHT umwandelt. Der DHT-Spiegel im Blut sinkt um rund 70 %, in der Prostata noch stärker, während der Testosteronspiegel weitgehend unverändert bleibt. Die Prostata schrumpft langsam über Monate; beim Haarausfall ist eine Wirkung frühestens nach 3–6 Monaten zu erwarten.",
   "kontraindikationen": [
-    { "text": "Frauen, insbesondere Schwangere und Frauen, die schwanger werden könnten (Gefahr von Fehlbildungen der Geschlechtsorgane eines männlichen Fötus)", "ids": ["schwangerschaft", "frauen-gebaerfaehig"] },
-    { "text": "Kinder und Jugendliche", "ids": ["kinder"] }
+    {
+      "text": "Frauen, insbesondere Schwangere und Frauen, die schwanger werden könnten (Gefahr von Fehlbildungen der Geschlechtsorgane eines männlichen Fötus)",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Stimmungsveränderungen, Depression und Suizidgedanken wurden berichtet – bei solchen Anzeichen Behandlung beenden und ärztlich abklären", "ids": ["depression", "suizidgedanken"] },
-    { "text": "Der PSA-Wert (Prostatakrebs-Marker) wird etwa halbiert und muss entsprechend bewertet werden; Prostatakrebs vor Behandlungsbeginn ausschliessen", "ids": ["prostatakrebs"] },
-    { "text": "Grosse Restharnmenge oder stark verminderter Harnfluss: sorgfältig auf eine Harnabflussbehinderung überwachen", "ids": ["harnverhalt"] },
-    { "text": "Eingeschränkte Leberfunktion (Abbau über die Leber, wenig Daten)", "ids": ["leberinsuffizienz"] },
-    { "text": "Veränderungen der Brust (Knoten, Schmerzen, Ausfluss) melden: Brustkrebs beim Mann wurde berichtet", "ids": ["brustkrebs"] },
-    { "text": "Sexuelle Funktionsstörungen können auch nach dem Absetzen anhalten", "ids": ["erektile-dysfunktion"] }
+    {
+      "text": "Stimmungsveränderungen, Depression und Suizidgedanken wurden berichtet – bei solchen Anzeichen Behandlung beenden und ärztlich abklären",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Der PSA-Wert (Prostatakrebs-Marker) wird etwa halbiert und muss entsprechend bewertet werden; Prostatakrebs vor Behandlungsbeginn ausschliessen",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Grosse Restharnmenge oder stark verminderter Harnfluss: sorgfältig auf eine Harnabflussbehinderung überwachen",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Abbau über die Leber, wenig Daten)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Veränderungen der Brust (Knoten, Schmerzen, Ausfluss) melden: Brustkrebs beim Mann wurde berichtet",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Sexuelle Funktionsstörungen können auch nach dem Absetzen anhalten",
+      "ids": [
+        "erektile-dysfunktion"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Finasterid-Spiegel können steigen; klinisch meist ohne Bedeutung, da Finasterid eine grosse Sicherheitsbreite hat.", "schwere": "leicht" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Finasterid-Spiegel können sinken – die Wirkung kann schwächer ausfallen.", "schwere": "leicht" }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Finasterid-Spiegel können steigen; klinisch meist ohne Bedeutung, da Finasterid eine grosse Sicherheitsbreite hat.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Finasterid-Spiegel können sinken – die Wirkung kann schwächer ausfallen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Erektionsstörung (Impotenz) – bei 1 mg gelegentlich", "Verminderte Libido (Lust auf Sex) – bei 1 mg gelegentlich", "Vermindertes Ejakulatvolumen"],
-    "gelegentlich": ["Ejakulationsstörungen", "Spannungsgefühl oder Vergrösserung der Brust (Gynäkomastie)", "Hautausschlag"],
+    "haeufig": [
+      "Erektionsstörung (Impotenz) – bei 1 mg gelegentlich",
+      "Verminderte Libido (Lust auf Sex) – bei 1 mg gelegentlich",
+      "Vermindertes Ejakulatvolumen"
+    ],
+    "gelegentlich": [
+      "Ejakulationsstörungen",
+      "Spannungsgefühl oder Vergrösserung der Brust (Gynäkomastie)",
+      "Hautausschlag"
+    ],
     "unbekannt": [
       "Depression, Angst, Suizidgedanken",
       "Sexuelle Funktionsstörungen, die nach dem Absetzen anhalten",

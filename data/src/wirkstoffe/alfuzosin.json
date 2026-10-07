@@ -1,43 +1,158 @@
 {
   "id": "alfuzosin",
   "name": "Alfuzosin",
-  "synonyme": ["Alfuzosinhydrochlorid", "Alfuzosin hydrochloride"],
-  "atc": ["G04CA01"],
+  "synonyme": [
+    "Alfuzosinhydrochlorid",
+    "Alfuzosin hydrochloride"
+  ],
+  "atc": [
+    "G04CA01"
+  ],
   "klasse": "Alpha-1-Rezeptorenblocker (uroselektiv)",
   "kurz": "Alpha-Blocker gegen Beschwerden beim Wasserlösen bei gutartig vergrösserter Prostata; entspannt Blasenhals und Prostata.",
-  "gruppen": ["alpha1-blocker", "blutdrucksenkend", "cyp3a4-substrate-empfindlich", "qt-verlaengernd"],
-  "handelsnamen": ["Xatral Uno"],
-  "abgabe": ["B"],
-  "darreichung": ["Retardtabletten"],
+  "gruppen": [
+    "alpha1-blocker",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Xatral Uno"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
   "indikationen": [
-    { "text": "Beschwerden beim Wasserlösen (z. B. häufiger oder erschwerter Harndrang, schwacher Harnstrahl, nächtliches Wasserlösen) bei gutartiger Prostatavergrösserung", "ids": ["prostatahyperplasie"] }
+    {
+      "text": "Beschwerden beim Wasserlösen (z. B. häufiger oder erschwerter Harndrang, schwacher Harnstrahl, nächtliches Wasserlösen) bei gutartiger Prostatavergrösserung",
+      "ids": [
+        "prostatahyperplasie"
+      ]
+    }
   ],
   "wirkmechanismus": "Erleichtert das Wasserlösen, indem es die Muskulatur in Prostata, Blasenhals und Harnröhre entspannt. Alfuzosin blockiert Alpha-1-Adrenozeptoren, die im unteren Harntrakt die Spannung der glatten Muskulatur steuern; dadurch sinkt der Widerstand beim Harnabfluss, der Harnstrahl wird kräftiger und Restharn sowie Reizbeschwerden nehmen ab. Die Prostata selbst wird dabei nicht kleiner. Weil auch Alpha-1-Rezeptoren in den Blutgefässen gehemmt werden, kann der Blutdruck sinken, besonders beim Aufstehen und zu Behandlungsbeginn.",
   "kontraindikationen": [
-    { "text": "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen) in der Vorgeschichte", "ids": ["hypotonie"] },
-    { "text": "Leberinsuffizienz", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen) in der Vorgeschichte",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min): Retardform nicht empfohlen, da keine Sicherheitsdaten", "ids": ["niereninsuffizienz"] },
-    { "text": "Koronare Herzkrankheit: bei neu auftretender oder zunehmender Angina pectoris Behandlung abbrechen", "ids": ["koronare-herzkrankheit", "angina-pectoris"] },
-    { "text": "Angeborene oder erworbene QT-Verlängerung oder Einnahme QT-verlängernder Mittel: vor und während der Behandlung ärztlich beurteilen", "ids": ["qt-verlaengerung"] },
-    { "text": "Ältere Menschen und gleichzeitige Behandlung mit Blutdrucksenkern: Schwindel, Ohnmacht und Sturzgefahr, v. a. in den ersten Stunden nach Einnahme", "ids": ["aeltere-patienten", "hypertonie"] },
-    { "text": "Geplante Operation am grauen Star (Katarakt): Risiko eines intraoperativen Floppy-Iris-Syndroms – die Augenärztin/den Augenarzt vorher informieren", "ids": ["katarakt"] },
-    { "text": "Narkose: ausgeprägter Blutdruckabfall möglich; Behandlung laut Fachinformation 24 Stunden vor einer Operation unterbrechen", "ids": ["operation"] }
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min): Retardform nicht empfohlen, da keine Sicherheitsdaten",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit: bei neu auftretender oder zunehmender Angina pectoris Behandlung abbrechen",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene QT-Verlängerung oder Einnahme QT-verlängernder Mittel: vor und während der Behandlung ärztlich beurteilen",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und gleichzeitige Behandlung mit Blutdrucksenkern: Schwindel, Ohnmacht und Sturzgefahr, v. a. in den ersten Stunden nach Einnahme",
+      "ids": [
+        "aeltere-patienten",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Geplante Operation am grauen Star (Katarakt): Risiko eines intraoperativen Floppy-Iris-Syndroms – die Augenärztin/den Augenarzt vorher informieren",
+      "ids": [
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Narkose: ausgeprägter Blutdruckabfall möglich; Behandlung laut Fachinformation 24 Stunden vor einer Operation unterbrechen",
+      "ids": [
+        "operation"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Andere Alpha-1-Blocker (z. B. Tamsulosin, Doxazosin, Silodosin)", "ref": ["gruppe:alpha1-blocker"], "grund": "Additive Gefässerweiterung mit Gefahr von starkem Blutdruckabfall und Ohnmacht." },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "grund": "Gehemmter Abbau – der Alfuzosin-Spiegel steigt deutlich (mit Ketoconazol etwa 3-fach), mit Gefahr eines Blutdruckabfalls." }
+    {
+      "text": "Andere Alpha-1-Blocker (z. B. Tamsulosin, Doxazosin, Silodosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "grund": "Additive Gefässerweiterung mit Gefahr von starkem Blutdruckabfall und Ohnmacht."
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Gehemmter Abbau – der Alfuzosin-Spiegel steigt deutlich (mit Ketoconazol etwa 3-fach), mit Gefahr eines Blutdruckabfalls."
+    }
   ],
   "interaktionen": [
-    { "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Verstärkte Blutdrucksenkung mit Schwindel oder Ohnmacht – nur bei stabiler Alfuzosin-Dosis und mit niedriger Anfangsdosis des PDE-5-Hemmers.", "schwere": "mittel" },
-    { "text": "Blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung, v. a. Schwindel beim Aufstehen – Blutdruck kontrollieren.", "schwere": "mittel" },
-    { "text": "Nitrate", "ref": ["gruppe:nitrate"], "effekt": "Erhöhtes Risiko für Blutdruckabfall und Ohnmacht.", "schwere": "mittel" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Alfuzosin-Spiegel möglich (mit Diltiazem etwa 1,5-fach) – auf Blutdruckabfall achten.", "schwere": "mittel" },
-    { "text": "Andere QT-verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Additive Wirkung auf die QT-Zeit möglich – bei Risikofaktoren EKG kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung mit Schwindel oder Ohnmacht – nur bei stabiler Alfuzosin-Dosis und mit niedriger Anfangsdosis des PDE-5-Hemmers.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, v. a. Schwindel beim Aufstehen – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nitrate",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "effekt": "Erhöhtes Risiko für Blutdruckabfall und Ohnmacht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Alfuzosin-Spiegel möglich (mit Diltiazem etwa 1,5-fach) – auf Blutdruckabfall achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive Wirkung auf die QT-Zeit möglich – bei Risikofaktoren EKG kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Schwindel, Benommenheit, Drehschwindel", "Kopfschmerzen", "Übelkeit, Bauchschmerzen", "Asthenie (Schwäche), Unwohlsein"],
+    "haeufig": [
+      "Schwindel, Benommenheit, Drehschwindel",
+      "Kopfschmerzen",
+      "Übelkeit, Bauchschmerzen",
+      "Asthenie (Schwäche), Unwohlsein"
+    ],
     "gelegentlich": [
       "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen), v. a. zu Behandlungsbeginn",
       "Synkope (Ohnmacht)",
@@ -48,7 +163,10 @@
       "Hautausschlag, Juckreiz",
       "Ödeme (Wassereinlagerungen), Hitzewallungen, Brustschmerzen"
     ],
-    "sehrSelten": ["Neu auftretende oder verstärkte Angina pectoris bei bestehender koronarer Herzkrankheit", "Nesselsucht, Angioödem"],
+    "sehrSelten": [
+      "Neu auftretende oder verstärkte Angina pectoris bei bestehender koronarer Herzkrankheit",
+      "Nesselsucht, Angioödem"
+    ],
     "unbekannt": [
       "Intraoperatives Floppy-Iris-Syndrom bei Kataraktoperation",
       "Priapismus (schmerzhafte Dauererektion)",

@@ -1,53 +1,239 @@
 {
   "id": "metformin",
   "name": "Metformin",
-  "synonyme": ["Metforminhydrochlorid", "Metformin hydrochloride", "Dimethylbiguanid"],
-  "atc": ["A10BA02"],
+  "synonyme": [
+    "Metforminhydrochlorid",
+    "Metformin hydrochloride",
+    "Dimethylbiguanid"
+  ],
+  "atc": [
+    "A10BA02"
+  ],
   "klasse": "Biguanid (orales Antidiabetikum)",
   "kurz": "Tablette gegen Typ-2-Diabetes; senkt den Blutzucker vor allem über die Leber und löst allein keine Unterzuckerung aus.",
   "gruppen": [],
-  "handelsnamen": ["Glucophage", "Metfin", "Janumet (Kombi)", "Galvumet (Kombi)", "Jentadueto (Kombi)", "Jardiance Met (Kombi)", "Xigduo XR (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten", "Retardtabletten (in Kombinationspräparaten)"],
+  "handelsnamen": [
+    "Glucophage",
+    "Metfin",
+    "Janumet (Kombi)",
+    "Galvumet (Kombi)",
+    "Jentadueto (Kombi)",
+    "Jardiance Met (Kombi)",
+    "Xigduo XR (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten (in Kombinationspräparaten)"
+  ],
   "indikationen": [
-    { "text": "Typ-2-Diabetes bei Erwachsenen, besonders bei Übergewicht, wenn Ernährung und Bewegung nicht ausreichen – allein oder kombiniert mit anderen Blutzuckersenkern oder Insulin", "ids": ["diabetes-typ-2", "diabetes"] },
-    { "text": "Typ-2-Diabetes bei Kindern ab 10 Jahren und Jugendlichen, allein oder zusammen mit Insulin", "ids": ["diabetes-typ-2"] },
-    { "text": "Senkung des Risikos diabetesbedingter Komplikationen bei übergewichtigen Erwachsenen mit Typ-2-Diabetes als Erstbehandlung nach ungenügender Diät", "ids": ["diabetes-typ-2"] }
+    {
+      "text": "Typ-2-Diabetes bei Erwachsenen, besonders bei Übergewicht, wenn Ernährung und Bewegung nicht ausreichen – allein oder kombiniert mit anderen Blutzuckersenkern oder Insulin",
+      "ids": [
+        "diabetes-typ-2",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Typ-2-Diabetes bei Kindern ab 10 Jahren und Jugendlichen, allein oder zusammen mit Insulin",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    },
+    {
+      "text": "Senkung des Risikos diabetesbedingter Komplikationen bei übergewichtigen Erwachsenen mit Typ-2-Diabetes als Erstbehandlung nach ungenügender Diät",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den erhöhten Blutzucker, vor allem indem es die Zuckerneubildung in der Leber bremst. Metformin hemmt die Glukoneogenese und den Glykogenabbau in der Leber (unter anderem über die mitochondriale Atmungskette und die AMP-aktivierte Proteinkinase), verbessert die Insulinempfindlichkeit der Muskulatur und verzögert die Zuckeraufnahme im Darm. Weil es die Insulinausschüttung nicht steigert, verursacht es allein keine Unterzuckerung und begünstigt keine Gewichtszunahme. Es wird unverändert über die Nieren ausgeschieden; bei eingeschränkter Nierenfunktion reichert es sich an und kann eine Laktatazidose (gefährliche Übersäuerung des Blutes) auslösen.",
   "kontraindikationen": [
-    { "text": "Akute metabolische Azidose jeder Art (z. B. Laktatazidose, diabetische Ketoazidose) und diabetisches Präkoma", "ids": ["ketoazidose"] },
-    { "text": "Schwere Niereninsuffizienz (eGFR unter 30 ml/min)", "ids": ["niereninsuffizienz"] },
-    { "text": "Akute Zustände, die die Nierenfunktion gefährden: Flüssigkeitsmangel (z. B. bei Durchfall oder Erbrechen), schwere Infektionen, Schock", "ids": ["dehydratation", "aktive-infektion", "schock"] },
-    { "text": "Erkrankungen mit Sauerstoffmangel im Gewebe: dekompensierte Herzinsuffizienz, Atemversagen, frischer Herzinfarkt, Schock", "ids": ["herzinsuffizienz", "herzinfarkt", "schlafapnoe"] },
-    { "text": "Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
-    { "text": "Akute Alkoholvergiftung, Alkoholismus", "ids": ["alkoholabhaengigkeit"] }
+    {
+      "text": "Akute metabolische Azidose jeder Art (z. B. Laktatazidose, diabetische Ketoazidose) und diabetisches Präkoma",
+      "ids": [
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (eGFR unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute Zustände, die die Nierenfunktion gefährden: Flüssigkeitsmangel (z. B. bei Durchfall oder Erbrechen), schwere Infektionen, Schock",
+      "ids": [
+        "dehydratation",
+        "aktive-infektion",
+        "schock"
+      ]
+    },
+    {
+      "text": "Erkrankungen mit Sauerstoffmangel im Gewebe: dekompensierte Herzinsuffizienz, Atemversagen, frischer Herzinfarkt, Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute Alkoholvergiftung, Alkoholismus",
+      "ids": [
+        "alkoholabhaengigkeit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Mässig eingeschränkte Nierenfunktion (eGFR 30–59 ml/min): Dosis reduzieren; Nierenfunktion vor Beginn und mindestens jährlich kontrollieren, bei älteren Menschen und eingeschränkter Funktion häufiger", "ids": ["niereninsuffizienz", "aeltere-patienten"] },
-    { "text": "Röntgen- oder CT-Untersuchungen mit jodhaltigem Kontrastmittel: Metformin vorher oder spätestens zum Zeitpunkt der Untersuchung absetzen, frühestens 48 Stunden danach bei stabiler Nierenfunktion wieder beginnen", "ids": ["kontrastmittel"] },
-    { "text": "Operationen in Allgemein-, Spinal- oder Epiduralanästhesie: Metformin zum Zeitpunkt des Eingriffs absetzen, frühestens 48 Stunden danach bei stabiler Nierenfunktion wieder beginnen", "ids": ["operation", "anaesthesie"] },
-    { "text": "Erbrechen, Durchfall, Fieber oder ungenügende Flüssigkeitsaufnahme: Metformin vorübergehend pausieren (Gefahr der Laktatazidose)", "ids": ["dehydratation", "durchfall", "uebelkeit"] },
-    { "text": "Anzeichen einer Laktatazidose (Muskelkrämpfe, Bauchschmerzen, Atemnot, starke Schwäche, Untertemperatur) – Metformin stoppen und sofort ärztlich abklären", "ids": [] },
-    { "text": "Langzeitbehandlung: Vitamin-B12-Mangel möglich – Kontrolle, besonders bei Blutarmut oder Nervenbeschwerden", "ids": ["vitamin-b12-mangel", "anaemie"] },
-    { "text": "Stabile Herzinsuffizienz: regelmässige Kontrolle von Herz- und Nierenfunktion", "ids": ["herzinsuffizienz"] },
-    { "text": "In Kombination mit Insulin oder Sulfonylharnstoffen Gefahr der Unterzuckerung", "ids": ["hypoglykaemie"] },
-    { "text": "Regelmässiger oder übermässiger Alkoholkonsum erhöht das Laktatazidose-Risiko", "ids": ["alkoholkonsum"] }
+    {
+      "text": "Mässig eingeschränkte Nierenfunktion (eGFR 30–59 ml/min): Dosis reduzieren; Nierenfunktion vor Beginn und mindestens jährlich kontrollieren, bei älteren Menschen und eingeschränkter Funktion häufiger",
+      "ids": [
+        "niereninsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Röntgen- oder CT-Untersuchungen mit jodhaltigem Kontrastmittel: Metformin vorher oder spätestens zum Zeitpunkt der Untersuchung absetzen, frühestens 48 Stunden danach bei stabiler Nierenfunktion wieder beginnen",
+      "ids": [
+        "kontrastmittel"
+      ]
+    },
+    {
+      "text": "Operationen in Allgemein-, Spinal- oder Epiduralanästhesie: Metformin zum Zeitpunkt des Eingriffs absetzen, frühestens 48 Stunden danach bei stabiler Nierenfunktion wieder beginnen",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Erbrechen, Durchfall, Fieber oder ungenügende Flüssigkeitsaufnahme: Metformin vorübergehend pausieren (Gefahr der Laktatazidose)",
+      "ids": [
+        "dehydratation",
+        "durchfall",
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Anzeichen einer Laktatazidose (Muskelkrämpfe, Bauchschmerzen, Atemnot, starke Schwäche, Untertemperatur) – Metformin stoppen und sofort ärztlich abklären",
+      "ids": []
+    },
+    {
+      "text": "Langzeitbehandlung: Vitamin-B12-Mangel möglich – Kontrolle, besonders bei Blutarmut oder Nervenbeschwerden",
+      "ids": [
+        "vitamin-b12-mangel",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Stabile Herzinsuffizienz: regelmässige Kontrolle von Herz- und Nierenfunktion",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "In Kombination mit Insulin oder Sulfonylharnstoffen Gefahr der Unterzuckerung",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Regelmässiger oder übermässiger Alkoholkonsum erhöht das Laktatazidose-Risiko",
+      "ids": [
+        "alkoholkonsum"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Jodhaltige Kontrastmittel (Röntgen, CT, Angiografie)", "ref": ["iohexol", "iodixanol", "iomeprol", "iopamidol", "iopromid"], "effekt": "Können die Nierenfunktion verschlechtern, sodass sich Metformin anreichert und eine Laktatazidose droht – Metformin vor oder bei der Untersuchung pausieren und frühestens 48 Stunden danach bei stabiler Nierenfunktion wieder einnehmen.", "schwere": "schwer" },
-    { "text": "Alkohol und alkoholhaltige Arzneimittel", "ref": [], "effekt": "Erhöhtes Risiko einer Laktatazidose, besonders bei Fasten, Mangelernährung oder Leberschaden – Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Mittel, die die Nierenfunktion beeinträchtigen können: NSAR, ACE-Hemmer, Sartane, Diuretika (besonders Schleifendiuretika)", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer", "gruppe:ace-hemmer", "gruppe:sartane", "gruppe:diuretika"], "effekt": "Erhöhtes Laktatazidose-Risiko bei Verschlechterung der Nierenfunktion – Nierenfunktion bei Beginn und regelmässig kontrollieren.", "schwere": "mittel" },
-    { "text": "Hemmer der Nieren-Transporter OCT2/MATE (z. B. Dolutegravir, Ranolazin, Vandetanib, Trimethoprim, Isavuconazol, Crizotinib, Olaparib)", "ref": ["dolutegravir", "ranolazin", "vandetanib", "sulfamethoxazol-trimethoprim", "isavuconazol", "crizotinib", "olaparib"], "effekt": "Vermindern die Ausscheidung und erhöhen den Metformin-Spiegel – Verträglichkeit und Nierenfunktion überwachen, Metformin-Dosis eventuell senken.", "schwere": "mittel" },
-    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "In Kombination Unterzuckerungsgefahr – Dosis von Insulin oder Sulfonylharnstoff gegebenenfalls anpassen.", "schwere": "mittel" },
-    { "text": "Glukokortikoide (auch lokal) und Beta-2-Sympathomimetika", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:beta2-sympathomimetika"], "effekt": "Erhöhen den Blutzucker – häufiger messen, Dosis der Diabetesmedikamente eventuell anpassen.", "schwere": "leicht" },
-    { "text": "Verapamil und Rifampicin (Einfluss auf den Leber-Transporter OCT1)", "ref": ["verapamil", "rifampicin"], "effekt": "Verapamil kann die Wirkung von Metformin abschwächen, Rifampicin kann sie verstärken – Blutzucker kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Jodhaltige Kontrastmittel (Röntgen, CT, Angiografie)",
+      "ref": [
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Können die Nierenfunktion verschlechtern, sodass sich Metformin anreichert und eine Laktatazidose droht – Metformin vor oder bei der Untersuchung pausieren und frühestens 48 Stunden danach bei stabiler Nierenfunktion wieder einnehmen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol und alkoholhaltige Arzneimittel",
+      "ref": [],
+      "effekt": "Erhöhtes Risiko einer Laktatazidose, besonders bei Fasten, Mangelernährung oder Leberschaden – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mittel, die die Nierenfunktion beeinträchtigen können: NSAR, ACE-Hemmer, Sartane, Diuretika (besonders Schleifendiuretika)",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer",
+        "gruppe:ace-hemmer",
+        "gruppe:sartane",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Erhöhtes Laktatazidose-Risiko bei Verschlechterung der Nierenfunktion – Nierenfunktion bei Beginn und regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hemmer der Nieren-Transporter OCT2/MATE (z. B. Dolutegravir, Ranolazin, Vandetanib, Trimethoprim, Isavuconazol, Crizotinib, Olaparib)",
+      "ref": [
+        "dolutegravir",
+        "ranolazin",
+        "vandetanib",
+        "sulfamethoxazol-trimethoprim",
+        "isavuconazol",
+        "crizotinib",
+        "olaparib"
+      ],
+      "effekt": "Vermindern die Ausscheidung und erhöhen den Metformin-Spiegel – Verträglichkeit und Nierenfunktion überwachen, Metformin-Dosis eventuell senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "In Kombination Unterzuckerungsgefahr – Dosis von Insulin oder Sulfonylharnstoff gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Glukokortikoide (auch lokal) und Beta-2-Sympathomimetika",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:beta2-sympathomimetika"
+      ],
+      "effekt": "Erhöhen den Blutzucker – häufiger messen, Dosis der Diabetesmedikamente eventuell anpassen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Verapamil und Rifampicin (Einfluss auf den Leber-Transporter OCT1)",
+      "ref": [
+        "verapamil",
+        "rifampicin"
+      ],
+      "effekt": "Verapamil kann die Wirkung von Metformin abschwächen, Rifampicin kann sie verstärken – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Durchfall, Bauchschmerzen und Appetitlosigkeit (vor allem zu Behandlungsbeginn, meist vorübergehend)"],
-    "haeufig": ["Geschmacksstörung (z. B. metallischer Geschmack)", "Vitamin-B12-Mangel bzw. erniedrigter Vitamin-B12-Spiegel bei Langzeitbehandlung (kann zu Blutarmut oder Nervenschäden führen)"],
-    "sehrSelten": ["Laktatazidose (lebensbedrohliche Übersäuerung des Blutes)", "Hautreaktionen wie Rötung, Juckreiz, Nesselsucht", "Veränderte Leberwerte oder Hepatitis (Leberentzündung), nach Absetzen rückläufig"]
+    "sehrHaeufig": [
+      "Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Durchfall, Bauchschmerzen und Appetitlosigkeit (vor allem zu Behandlungsbeginn, meist vorübergehend)"
+    ],
+    "haeufig": [
+      "Geschmacksstörung (z. B. metallischer Geschmack)",
+      "Vitamin-B12-Mangel bzw. erniedrigter Vitamin-B12-Spiegel bei Langzeitbehandlung (kann zu Blutarmut oder Nervenschäden führen)"
+    ],
+    "sehrSelten": [
+      "Laktatazidose (lebensbedrohliche Übersäuerung des Blutes)",
+      "Hautreaktionen wie Rötung, Juckreiz, Nesselsucht",
+      "Veränderte Leberwerte oder Hepatitis (Leberentzündung), nach Absetzen rückläufig"
+    ]
   },
   "schwangerschaft": "Nur nach ärztlicher Abwägung: Umfangreiche Daten zeigen kein erhöhtes Fehlbildungsrisiko. Bei Kinderwunsch oder Schwangerschaft wird die Diabetesbehandlung ärztlich überprüft; häufig wird Insulin eingesetzt.",
   "stillzeit": "Nicht empfohlen: Metformin geht in geringer Menge in die Muttermilch über; beim gestillten Kind wurden bisher keine Wirkungen beobachtet, die Daten sind aber begrenzt. Ärztliche Nutzen-Risiko-Abwägung.",

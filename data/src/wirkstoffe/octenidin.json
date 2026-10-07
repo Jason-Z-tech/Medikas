@@ -1,38 +1,104 @@
 {
   "id": "octenidin",
   "name": "Octenidin",
-  "synonyme": ["Octenidindihydrochlorid", "Octenidine", "Octenidin + Phenoxyethanol"],
-  "atc": ["D08AJ57"],
+  "synonyme": [
+    "Octenidindihydrochlorid",
+    "Octenidine",
+    "Octenidin + Phenoxyethanol"
+  ],
+  "atc": [
+    "D08AJ57"
+  ],
   "klasse": "Antiseptikum (kationisches Tensid, kombiniert mit Phenoxyethanol)",
   "kurz": "Farbloses Desinfektionsmittel für Wunden, Schleimhäute und Haut; wirkt rasch gegen Bakterien, Pilze und manche Viren.",
   "gruppen": [],
-  "handelsnamen": ["Octenisept"],
-  "abgabe": ["D"],
-  "darreichung": ["Lösung", "Spray"],
+  "handelsnamen": [
+    "Octenisept"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Lösung",
+    "Spray"
+  ],
   "indikationen": [
-    { "text": "Unterstützende antiseptische Wundbehandlung", "ids": ["hautinfektion"] },
-    { "text": "Antiseptik von Schleimhaut und angrenzender Haut vor Eingriffen, z. B. im Genitalbereich und in der Scheide oder vor dem Legen eines Blasenkatheters", "ids": ["operation"] },
-    { "text": "Zeitlich begrenzte antiseptische Behandlung in der Mundhöhle", "ids": ["mundinfektion"] },
-    { "text": "Zeitlich begrenzte unterstützende Behandlung von Pilzinfektionen der Haut zwischen den Zehen", "ids": ["hautpilz"] }
+    {
+      "text": "Unterstützende antiseptische Wundbehandlung",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Antiseptik von Schleimhaut und angrenzender Haut vor Eingriffen, z. B. im Genitalbereich und in der Scheide oder vor dem Legen eines Blasenkatheters",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Zeitlich begrenzte antiseptische Behandlung in der Mundhöhle",
+      "ids": [
+        "mundinfektion"
+      ]
+    },
+    {
+      "text": "Zeitlich begrenzte unterstützende Behandlung von Pilzinfektionen der Haut zwischen den Zehen",
+      "ids": [
+        "hautpilz"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Krankheitserreger auf Haut, Schleimhaut und in Wunden innert etwa einer Minute ab. Octenidin ist ein kationisches (positiv geladenes) Tensid, das sich an die negativ geladenen Zellwände und Membranen von Mikroorganismen bindet und diese zerstört; der Zusatzstoff Phenoxyethanol verstärkt die Wirkung. Wirksam ist es gegen Bakterien (auch MRSA), Pilze sowie behüllte Viren wie Herpes-simplex- und Hepatitis-B-Viren. Octenidin wird über Haut, Schleimhaut und Wunden praktisch nicht in den Körper aufgenommen.",
   "kontraindikationen": [
-    { "text": "Spülungen der Bauchhöhle (z. B. während Operationen) und der Harnblase", "ids": [] },
-    { "text": "Anwendung am Trommelfell", "ids": [] }
+    {
+      "text": "Spülungen der Bauchhöhle (z. B. während Operationen) und der Harnblase",
+      "ids": []
+    },
+    {
+      "text": "Anwendung am Trommelfell",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Nicht mit einer Spritze oder unter Druck in Wunden, Wundkanäle oder ins Gewebe einbringen – Gefahr anhaltender Schwellungen und Gewebeschäden; der Abfluss muss gewährleistet sein", "ids": ["hautinfektion"] },
-    { "text": "Nicht in die Augen bringen und nicht in grösseren Mengen schlucken", "ids": [] },
-    { "text": "Nur zeitlich begrenzt anwenden; heilt eine Wunde nicht, ärztlich abklären lassen", "ids": ["hautinfektion"] }
+    {
+      "text": "Nicht mit einer Spritze oder unter Druck in Wunden, Wundkanäle oder ins Gewebe einbringen – Gefahr anhaltender Schwellungen und Gewebeschäden; der Abfluss muss gewährleistet sein",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Nicht in die Augen bringen und nicht in grösseren Mengen schlucken",
+      "ids": []
+    },
+    {
+      "text": "Nur zeitlich begrenzt anwenden; heilt eine Wunde nicht, ärztlich abklären lassen",
+      "ids": [
+        "hautinfektion"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Povidon-Iod an derselben oder angrenzender Hautstelle", "ref": ["povidon-iod"], "effekt": "Vorübergehende dunkle, braun-violette Verfärbung – nicht unmittelbar nacheinander an derselben Stelle anwenden.", "schwere": "leicht" }
+    {
+      "text": "Povidon-Iod an derselben oder angrenzender Hautstelle",
+      "ref": [
+        "povidon-iod"
+      ],
+      "effekt": "Vorübergehende dunkle, braun-violette Verfärbung – nicht unmittelbar nacheinander an derselben Stelle anwenden.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "selten": ["Brennen, Rötung, Juckreiz und Wärmegefühl an der Anwendungsstelle"],
-    "sehrSelten": ["Kontaktallergische Reaktionen, z. B. vorübergehende Rötung"],
-    "unbekannt": ["Vorübergehend bitterer Geschmack nach Anwendung in der Mundhöhle", "Anhaltende Schwellung, Entzündung und Gewebeschäden nach Einspritzen unter Druck in tiefe Wunden"]
+    "selten": [
+      "Brennen, Rötung, Juckreiz und Wärmegefühl an der Anwendungsstelle"
+    ],
+    "sehrSelten": [
+      "Kontaktallergische Reaktionen, z. B. vorübergehende Rötung"
+    ],
+    "unbekannt": [
+      "Vorübergehend bitterer Geschmack nach Anwendung in der Mundhöhle",
+      "Anhaltende Schwellung, Entzündung und Gewebeschäden nach Einspritzen unter Druck in tiefe Wunden"
+    ]
   },
   "schwangerschaft": "Nach bisherigen Erfahrungen möglich; Octenidin wird praktisch nicht in den Körper aufgenommen.",
   "stillzeit": "Möglich, da praktisch keine Aufnahme in den Körper erfolgt; nicht unmittelbar vor dem Stillen auf die Brust auftragen.",

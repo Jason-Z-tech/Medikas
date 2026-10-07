@@ -1,0 +1,234 @@
+{
+  "id": "moclobemid",
+  "name": "Moclobemid",
+  "synonyme": [
+    "Moclobemide"
+  ],
+  "atc": [
+    "N06AG02"
+  ],
+  "klasse": "Reversibler Hemmer der Monoaminoxidase A (RIMA), Antidepressivum",
+  "kurz": "Antidepressivum, das den Abbau von Botenstoffen im Gehirn bremst (MAO-A-Hemmer); auch bei sozialer Angststörung.",
+  "gruppen": [
+    "mao-hemmer",
+    "serotonerg",
+    "cyp2c19-hemmer",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Aurorix"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Soziale Phobie (soziale Angststörung)",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Stimmung, indem es den Abbau der Botenstoffe Serotonin, Noradrenalin und Dopamin im Gehirn verlangsamt. Moclobemid hemmt das Enzym Monoaminoxidase A selektiv und reversibel; die Hemmung klingt innerhalb von etwa 24 Stunden nach dem Absetzen ab. Da Tyramin aus der Nahrung das Medikament vom Enzym verdrängen kann, sind – anders als bei älteren, irreversiblen MAO-Hemmern – keine strengen Diätvorschriften nötig. Abbau in der Leber v. a. über CYP2C19 und CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Verwirrtheitszustände",
+      "ids": [
+        "delir"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Phäochromozytom (Gefahr von Blutdruckkrisen)",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Bluthochdruck oder Schilddrüsenüberfunktion (Blutdruckanstieg möglich)",
+      "ids": [
+        "hypertonie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Schizophrenie (Verstärkung psychotischer Symptome möglich)",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Selegilin und andere MAO-B-Hemmer",
+      "ref": [
+        "selegilin",
+        "gruppe:mao-b-hemmer"
+      ],
+      "grund": "Kombinierte Hemmung beider MAO-Formen – Gefahr von Blutdruckkrisen und Serotoninsyndrom."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Pethidin, Tramadol und Dextromethorphan (Hustenmittel)",
+      "ref": [
+        "pethidin",
+        "tramadol",
+        "dextromethorphan"
+      ],
+      "effekt": "Gefahr eines schweren Serotoninsyndroms – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "SSRI, SNRI, Clomipramin und andere serotonerge Antidepressiva, Johanniskraut",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "clomipramin",
+        "gruppe:trizyklische-antidepressiva",
+        "johanniskraut"
+      ],
+      "effekt": "Serotoninsyndrom möglich – Kombination vermeiden; beim Wechsel die vorgeschriebenen Pausen einhalten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Triptane (Migränemittel)",
+      "ref": [
+        "gruppe:triptane"
+      ],
+      "effekt": "Höhere Triptan-Spiegel (Abbau über MAO-A) und Gefahr eines Serotoninsyndroms – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sympathomimetika (z. B. Pseudoephedrin, Phenylephrin, Ephedrin in Schnupfen- und Grippemitteln)",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Starker Blutdruckanstieg bis zur Blutdruckkrise möglich – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Linezolid und Methylenblau",
+      "ref": [
+        "linezolid",
+        "methylthioniniumchlorid"
+      ],
+      "effekt": "Zusätzliche MAO-Hemmung – Gefahr eines Serotoninsyndroms und von Blutdruckkrisen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Bupropion",
+      "ref": [
+        "bupropion"
+      ],
+      "effekt": "Gefahr von Blutdruckkrisen und Krampfanfällen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide (z. B. Morphin, Fentanyl)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Wirkungsverstärkung möglich; Fentanyl kann zusätzlich ein Serotoninsyndrom begünstigen – Dosis anpassen, überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cimetidin",
+      "ref": [],
+      "effekt": "Hemmt den Abbau von Moclobemid – Spiegel etwa verdoppelt; Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über CYP2C19 abgebaute Mittel (z. B. Omeprazol)",
+      "ref": [
+        "omeprazol",
+        "gruppe:cyp2c19-substrate"
+      ],
+      "effekt": "Spiegel dieser Mittel können deutlich steigen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Sehr grosse Mengen tyraminreicher Nahrungsmittel (lang gereifter Käse, Hefeextrakt, fermentierte Sojaprodukte)",
+      "ref": [],
+      "effekt": "Blutdruckanstieg möglich – nach dem Essen einnehmen und grosse Mengen meiden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schlafstörungen",
+      "Schwindel",
+      "Kopfschmerzen",
+      "Mundtrockenheit",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Unruhe, Angst, Reizbarkeit",
+      "Missempfindungen (Parästhesien)",
+      "Sehstörungen",
+      "Blutdruckabfall (Hypotonie)",
+      "Erbrechen, Durchfall, Verstopfung",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Verwirrtheit",
+      "Suizidgedanken",
+      "Geschmacksstörungen",
+      "Wassereinlagerungen (Ödeme)",
+      "Juckreiz, Nesselsucht",
+      "Hitzegefühl (Flush)",
+      "Schwäche"
+    ],
+    "unbekannt": [
+      "Serotoninsyndrom (bei Kombination mit serotonergen Mitteln)",
+      "Hyponatriämie (Natriummangel)",
+      "Erhöhte Leberwerte",
+      "Milchfluss (Galaktorrhö)",
+      "Appetitminderung"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung (keine ausreichenden Erfahrungen).",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Nach dem Essen einnehmen; sehr grosse Mengen tyraminreicher Nahrungsmittel meiden.",
+    "Keine rezeptfreien Schnupfen-, Grippe- oder Hustenmittel (Pseudoephedrin, Phenylephrin, Dextromethorphan) ohne Rücksprache mit Apotheke oder Arztpraxis.",
+    "Beim Wechsel auf oder von anderen Antidepressiva die ärztlich vorgegebenen Pausen einhalten.",
+    "Die stimmungsaufhellende Wirkung setzt meist nach 1–3 Wochen ein."
+  ],
+  "stand": "2026-10"
+}

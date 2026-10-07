@@ -1,56 +1,267 @@
 {
   "id": "sildenafil",
   "name": "Sildenafil",
-  "synonyme": ["Sildenafilcitrat", "Sildenafil citrate"],
-  "atc": ["G04BE03"],
+  "synonyme": [
+    "Sildenafilcitrat",
+    "Sildenafil citrate"
+  ],
+  "atc": [
+    "G04BE03"
+  ],
   "klasse": "Phosphodiesterase-5-Hemmer (PDE-5-Hemmer)",
   "kurz": "Potenzmittel bei Erektionsstörungen; in anderer Dosierung zur Behandlung des Lungenhochdrucks (pulmonale arterielle Hypertonie).",
-  "gruppen": ["pde5-hemmer", "blutdrucksenkend", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Viagra", "Revatio", "Sildenafil Mepha", "Sildenafil Sandoz"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten", "Schmelztabletten", "Pulver für Suspension zum Einnehmen (Revatio)"],
+  "gruppen": [
+    "pde5-hemmer",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Viagra",
+    "Revatio",
+    "Sildenafil Mepha",
+    "Sildenafil Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten",
+    "Pulver für Suspension zum Einnehmen (Revatio)"
+  ],
   "indikationen": [
-    { "text": "Erektionsstörungen (erektile Dysfunktion) bei erwachsenen Männern – eine sexuelle Stimulation ist für die Wirkung nötig", "ids": ["erektile-dysfunktion"] },
-    { "text": "Pulmonale arterielle Hypertonie (Lungenhochdruck, WHO-Funktionsklasse II–III) bei Erwachsenen sowie bei Kindern und Jugendlichen von 1 bis 17 Jahren (Revatio)", "ids": ["pulmonale-hypertonie"] }
+    {
+      "text": "Erektionsstörungen (erektile Dysfunktion) bei erwachsenen Männern – eine sexuelle Stimulation ist für die Wirkung nötig",
+      "ids": [
+        "erektile-dysfunktion"
+      ]
+    },
+    {
+      "text": "Pulmonale arterielle Hypertonie (Lungenhochdruck, WHO-Funktionsklasse II–III) bei Erwachsenen sowie bei Kindern und Jugendlichen von 1 bis 17 Jahren (Revatio)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
   ],
   "wirkmechanismus": "Verbessert die Durchblutung des Penis bei sexueller Erregung bzw. erweitert die Blutgefässe der Lunge. Sildenafil hemmt selektiv das Enzym Phosphodiesterase 5, das den Botenstoff cGMP abbaut. Bei sexueller Stimulation freigesetztes Stickstoffmonoxid (NO) erhöht cGMP in den Schwellkörpern; durch die Hemmung des Abbaus bleibt cGMP länger erhöht, die glatte Muskulatur entspannt sich und Blut strömt ein. In den Lungengefässen bewirkt derselbe Mechanismus eine Gefässerweiterung und senkt den Lungenarteriendruck.",
   "kontraindikationen": [
-    { "text": "Gleichzeitige Behandlung mit Nitraten oder anderen Stickstoffmonoxid-Donatoren (auch «Poppers»/Amylnitrit)", "ids": [] },
-    { "text": "Männer, denen von sexueller Aktivität abgeraten wird, z. B. bei instabiler Angina pectoris oder schwerer Herzinsuffizienz", "ids": ["angina-pectoris", "herzinsuffizienz"] },
-    { "text": "Kürzlich erlittener Schlaganfall oder Herzinfarkt", "ids": ["schlaganfall", "herzinfarkt"] },
-    { "text": "Tiefer Blutdruck (unter 90/50 mmHg)", "ids": ["hypotonie"] },
-    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
-    { "text": "Sehverlust auf einem Auge durch NAION (Durchblutungsstörung des Sehnervs), auch früher", "ids": [] },
-    { "text": "Erbliche degenerative Netzhauterkrankungen (z. B. Retinitis pigmentosa)", "ids": [] }
+    {
+      "text": "Gleichzeitige Behandlung mit Nitraten oder anderen Stickstoffmonoxid-Donatoren (auch «Poppers»/Amylnitrit)",
+      "ids": []
+    },
+    {
+      "text": "Männer, denen von sexueller Aktivität abgeraten wird, z. B. bei instabiler Angina pectoris oder schwerer Herzinsuffizienz",
+      "ids": [
+        "angina-pectoris",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kürzlich erlittener Schlaganfall oder Herzinfarkt",
+      "ids": [
+        "schlaganfall",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck (unter 90/50 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Sehverlust auf einem Auge durch NAION (Durchblutungsstörung des Sehnervs), auch früher",
+      "ids": []
+    },
+    {
+      "text": "Erbliche degenerative Netzhauterkrankungen (z. B. Retinitis pigmentosa)",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Herz-Kreislauf-Erkrankungen: vor Behandlung kardiovaskulären Zustand prüfen; Aortenstenose, hypertrophe obstruktive Kardiomyopathie besonders empfindlich auf Blutdruckabfall", "ids": ["koronare-herzkrankheit", "herzklappenerkrankung", "kardiomyopathie"] },
-    { "text": "Erhöhtes Risiko für Dauererektion (Priapismus): Penisverformung (z. B. Induratio penis plastica), Sichelzellanämie, multiples Myelom, Leukämie", "ids": ["sichelzellanaemie", "multiples-myelom", "leukaemie"] },
-    { "text": "Blutungsstörungen oder aktive Magen-Darm-Geschwüre (keine Daten)", "ids": ["blutgerinnungsstoerung", "magen-darm-ulkus"] },
-    { "text": "Schwere Niereninsuffizienz oder Leberinsuffizienz: niedrigere Anfangsdosis", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Plötzlicher Seh- oder Hörverlust: sofort absetzen und ärztlich abklären", "ids": ["hoerstoerung"] },
-    { "text": "Ältere Menschen: höhere Spiegel, niedrigere Anfangsdosis", "ids": ["aeltere-patienten"] },
-    { "text": "Lungenhochdruck bei Venenverschlusskrankheit der Lunge: Lungenödem möglich", "ids": ["pulmonale-hypertonie"] }
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: vor Behandlung kardiovaskulären Zustand prüfen; Aortenstenose, hypertrophe obstruktive Kardiomyopathie besonders empfindlich auf Blutdruckabfall",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzklappenerkrankung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Dauererektion (Priapismus): Penisverformung (z. B. Induratio penis plastica), Sichelzellanämie, multiples Myelom, Leukämie",
+      "ids": [
+        "sichelzellanaemie",
+        "multiples-myelom",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Blutungsstörungen oder aktive Magen-Darm-Geschwüre (keine Daten)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz oder Leberinsuffizienz: niedrigere Anfangsdosis",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Plötzlicher Seh- oder Hörverlust: sofort absetzen und ärztlich abklären",
+      "ids": [
+        "hoerstoerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: höhere Spiegel, niedrigere Anfangsdosis",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Lungenhochdruck bei Venenverschlusskrankheit der Lunge: Lungenödem möglich",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Nitrate und NO-Donatoren (z. B. Glyceroltrinitrat, Isosorbiddinitrat, Isosorbidmononitrat, Molsidomin, Amylnitrit)", "ref": ["gruppe:nitrate", "glyceroltrinitrat", "isosorbiddinitrat", "isosorbidmononitrat", "molsidomin"], "grund": "Beide erhöhen cGMP – lebensgefährlicher Blutdruckabfall möglich." },
-    { "text": "Riociguat", "ref": ["riociguat"], "grund": "Stimuliert ebenfalls den cGMP-Signalweg – starker Blutdruckabfall." },
-    { "text": "Ketoconazol, Itraconazol und Ritonavir (bei Lungenhochdruck-Behandlung mit Revatio)", "ref": ["ketoconazol", "itraconazol", "ritonavir"], "grund": "Hemmen den Abbau von Sildenafil stark (mit Ritonavir etwa 11-fach höhere Spiegel) – Gefahr von Blutdruckabfall und schweren Nebenwirkungen." }
+    {
+      "text": "Nitrate und NO-Donatoren (z. B. Glyceroltrinitrat, Isosorbiddinitrat, Isosorbidmononitrat, Molsidomin, Amylnitrit)",
+      "ref": [
+        "gruppe:nitrate",
+        "glyceroltrinitrat",
+        "isosorbiddinitrat",
+        "isosorbidmononitrat",
+        "molsidomin"
+      ],
+      "grund": "Beide erhöhen cGMP – lebensgefährlicher Blutdruckabfall möglich."
+    },
+    {
+      "text": "Riociguat",
+      "ref": [
+        "riociguat"
+      ],
+      "grund": "Stimuliert ebenfalls den cGMP-Signalweg – starker Blutdruckabfall."
+    },
+    {
+      "text": "Ketoconazol, Itraconazol und Ritonavir (bei Lungenhochdruck-Behandlung mit Revatio)",
+      "ref": [
+        "ketoconazol",
+        "itraconazol",
+        "ritonavir"
+      ],
+      "grund": "Hemmen den Abbau von Sildenafil stark (mit Ritonavir etwa 11-fach höhere Spiegel) – Gefahr von Blutdruckabfall und schweren Nebenwirkungen."
+    }
   ],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Clarithromycin, Ketoconazol, Itraconazol)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Stark erhöhte Sildenafil-Spiegel – bei Erektionsstörungen höchstens 25 mg innerhalb von 48 Stunden (mit Ritonavir nicht empfohlen); bei Lungenhochdruck teils kontraindiziert.", "schwere": "schwer" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Höhere Spiegel – mit 25 mg beginnen.", "schwere": "mittel" },
-    { "text": "Alpha-1-Blocker (z. B. Doxazosin, Tamsulosin, Alfuzosin)", "ref": ["gruppe:alpha1-blocker"], "effekt": "Blutdruckabfall mit Schwindel oder Ohnmacht möglich – nur bei stabiler Alpha-Blocker-Therapie und mit niedriger Sildenafil-Dosis beginnen.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Bosentan, Rifampicin, Carbamazepin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "bosentan"], "effekt": "Sildenafil-Spiegel sinkt deutlich (mit Bosentan um etwa 60 %) – Wirkung kann ungenügend sein.", "schwere": "mittel" },
-    { "text": "Andere PDE-5-Hemmer (z. B. Tadalafil, Vardenafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Nicht kombinieren – verstärkte Nebenwirkungen und Blutdruckabfall.", "schwere": "mittel" },
-    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Zusätzliche, meist geringe Blutdrucksenkung.", "schwere": "leicht" },
-    { "text": "Vitamin-K-Antagonisten (bei Lungenhochdruck)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Etwas höheres Blutungsrisiko (v. a. Nasenbluten) möglich.", "schwere": "leicht" }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Clarithromycin, Ketoconazol, Itraconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Stark erhöhte Sildenafil-Spiegel – bei Erektionsstörungen höchstens 25 mg innerhalb von 48 Stunden (mit Ritonavir nicht empfohlen); bei Lungenhochdruck teils kontraindiziert.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Spiegel – mit 25 mg beginnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alpha-1-Blocker (z. B. Doxazosin, Tamsulosin, Alfuzosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Blutdruckabfall mit Schwindel oder Ohnmacht möglich – nur bei stabiler Alpha-Blocker-Therapie und mit niedriger Sildenafil-Dosis beginnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Bosentan, Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "bosentan"
+      ],
+      "effekt": "Sildenafil-Spiegel sinkt deutlich (mit Bosentan um etwa 60 %) – Wirkung kann ungenügend sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere PDE-5-Hemmer (z. B. Tadalafil, Vardenafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Nicht kombinieren – verstärkte Nebenwirkungen und Blutdruckabfall.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vericiguat",
+      "ref": [
+        "vericiguat"
+      ],
+      "effekt": "Zusätzliche Blutdrucksenkung über den cGMP-Signalweg – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Zusätzliche, meist geringe Blutdrucksenkung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (bei Lungenhochdruck)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Etwas höheres Blutungsrisiko (v. a. Nasenbluten) möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen", "Durchfall und Gliederschmerzen (bei Lungenhochdruck-Dosierung)"],
-    "haeufig": ["Gesichtsrötung (Flush), Hitzewallungen", "Verstopfte Nase", "Verdauungsbeschwerden (Dyspepsie), Übelkeit", "Schwindel", "Sehstörungen: veränderte Farbwahrnehmung (Blau- oder Gelbstich), verschwommenes Sehen", "Nasenbluten, Schlaflosigkeit, Muskelschmerzen (bei Lungenhochdruck-Dosierung)"],
-    "gelegentlich": ["Herzrasen, Herzklopfen", "Blutdruckabfall oder Blutdruckanstieg", "Augenschmerzen, Lichtempfindlichkeit, gerötete Augen", "Ohrensausen (Tinnitus)", "Schläfrigkeit", "Erbrechen, Mundtrockenheit", "Hautausschlag", "Blut im Urin", "Brustschmerzen, Müdigkeit"],
-    "selten": ["Herzinfarkt, Herzrhythmusstörungen, plötzlicher Herztod", "Schlaganfall, TIA, Krampfanfälle, Ohnmacht", "NAION (Durchblutungsstörung des Sehnervs mit Sehverlust), Netzhautgefässverschluss", "Plötzlicher Hörverlust", "Priapismus (schmerzhafte Dauererektion über 4 Stunden)", "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)"]
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Durchfall und Gliederschmerzen (bei Lungenhochdruck-Dosierung)"
+    ],
+    "haeufig": [
+      "Gesichtsrötung (Flush), Hitzewallungen",
+      "Verstopfte Nase",
+      "Verdauungsbeschwerden (Dyspepsie), Übelkeit",
+      "Schwindel",
+      "Sehstörungen: veränderte Farbwahrnehmung (Blau- oder Gelbstich), verschwommenes Sehen",
+      "Nasenbluten, Schlaflosigkeit, Muskelschmerzen (bei Lungenhochdruck-Dosierung)"
+    ],
+    "gelegentlich": [
+      "Herzrasen, Herzklopfen",
+      "Blutdruckabfall oder Blutdruckanstieg",
+      "Augenschmerzen, Lichtempfindlichkeit, gerötete Augen",
+      "Ohrensausen (Tinnitus)",
+      "Schläfrigkeit",
+      "Erbrechen, Mundtrockenheit",
+      "Hautausschlag",
+      "Blut im Urin",
+      "Brustschmerzen, Müdigkeit"
+    ],
+    "selten": [
+      "Herzinfarkt, Herzrhythmusstörungen, plötzlicher Herztod",
+      "Schlaganfall, TIA, Krampfanfälle, Ohnmacht",
+      "NAION (Durchblutungsstörung des Sehnervs mit Sehverlust), Netzhautgefässverschluss",
+      "Plötzlicher Hörverlust",
+      "Priapismus (schmerzhafte Dauererektion über 4 Stunden)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)"
+    ]
   },
   "schwangerschaft": "Bei Lungenhochdruck nur, wenn unbedingt erforderlich – es liegen keine ausreichenden Daten vor. Für Frauen ist die Behandlung von Erektionsstörungen nicht vorgesehen.",
   "stillzeit": "Geht in sehr geringen Mengen in die Muttermilch über; nur nach ärztlicher Abwägung.",

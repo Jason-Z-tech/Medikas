@@ -1,0 +1,180 @@
+{
+  "id": "alfentanil",
+  "name": "Alfentanil",
+  "synonyme": [
+    "Alfentanilhydrochlorid",
+    "Alfentanil hydrochloride"
+  ],
+  "atc": [
+    "N01AH02"
+  ],
+  "klasse": "Opioid-Analgetikum (µ-Agonist) für die Anästhesie",
+  "kurz": "Sehr rasch und kurz wirkendes starkes Schmerzmittel aus der Gruppe der Opioide für Narkosen und kurze Eingriffe.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich",
+    "bradykardisierend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Rapifen"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Schmerzausschaltung während einer Allgemeinanästhesie, besonders bei kurzen und ambulanten Eingriffen",
+      "ids": [
+        "anaesthesie",
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Einleitung einer Narkose (in höherer Dosis, mit Beatmung)",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Starkes Schmerzmittel, das innerhalb von 1–2 Minuten wirkt und rasch wieder nachlässt. Alfentanil ist ein synthetischer Agonist am µ-Opioidrezeptor in Gehirn und Rückenmark und hemmt so Schmerzweiterleitung und -wahrnehmung. Das kleine Verteilungsvolumen erklärt die kurze Wirkdauer. Der Abbau erfolgt in der Leber vorwiegend über CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Unverträglichkeit von anderen Opioiden (Morphinomimetika)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Atemdepression: nur mit Überwachung und Beatmungsmöglichkeit; die Atemdämpfung kann nach dem Eingriff andauern oder wiederkehren – Vorsicht bei Lungenerkrankungen und Schlafapnoe",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Muskelsteifigkeit, auch der Brustwand, besonders bei rascher Injektion",
+      "ids": []
+    },
+    {
+      "text": "Bradykardie und Blutdruckabfall, besonders bei Flüssigkeitsmangel",
+      "ids": [
+        "bradykardie",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck oder Schädel-Hirn-Verletzung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion, ältere Menschen, Schilddrüsenunterfunktion: niedrigere Dosis",
+      "ids": [
+        "leberinsuffizienz",
+        "aeltere-patienten",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Opioidabhängigkeit oder Langzeitbehandlung mit Opioiden",
+      "ids": [
+        "opioidabhaengigkeit",
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ritonavir, Itraconazol, Clarithromycin, Erythromycin, Fluconazol, Diltiazem)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Alfentanil wird langsamer abgebaut – verlängerte Atemdepression; Dosis reduzieren und länger überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Benzodiazepine, Barbiturate, Propofol, Narkosegase und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:barbiturate",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung von Atmung und Kreislauf – Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer (auch in den 2 Wochen davor)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Schwere, unvorhersehbare Reaktionen möglich – MAO-Hemmer in der Regel 2 Wochen vor dem Eingriff absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Fieber, Muskelzuckungen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Bradykardie und Blutdruckabfall.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Erbrechen"
+    ],
+    "haeufig": [
+      "Muskelsteifigkeit (Rigor), unwillkürliche Bewegungen",
+      "Schwindel, Benommenheit (Sedierung)",
+      "Sehstörungen",
+      "Bradykardie (langsamer Puls) oder Tachykardie",
+      "Blutdruckabfall oder -anstieg",
+      "Apnoe (Atemstillstand)"
+    ],
+    "gelegentlich": [
+      "Atemdepression",
+      "Herzrhythmusstörungen",
+      "Laryngospasmus, Husten, Schluckauf",
+      "Kopfschmerzen, Schläfrigkeit",
+      "Unruhe oder Verwirrtheit nach der Narkose",
+      "Allergische Hautreaktionen, Juckreiz, Schwitzen"
+    ],
+    "unbekannt": [
+      "Herzstillstand",
+      "Atemstillstand",
+      "Bewusstlosigkeit, Krampfanfälle, Myoklonien (Muskelzuckungen)",
+      "Bronchospasmus",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit. Alfentanil gelangt zum Ungeborenen; bei Gabe unter der Geburt kann beim Neugeborenen eine Atemdämpfung auftreten (Gegenmittel Naloxon bereithalten).",
+  "stillzeit": "Alfentanil geht in die Muttermilch über; nach der Gabe 24 Stunden lang nicht stillen.",
+  "hinweise": [
+    "Wird nur durch Anästhesiefachpersonen mit Überwachung und Beatmungsmöglichkeit verabreicht; Gegenmittel ist Naloxon.",
+    "Antidepressiva (v. a. MAO-Hemmer), Pilz-, HIV- und Antibiotika-Behandlungen vor dem Eingriff angeben.",
+    "Nach dem Eingriff mindestens 24 Stunden kein Fahrzeug lenken, keine Maschinen bedienen und keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

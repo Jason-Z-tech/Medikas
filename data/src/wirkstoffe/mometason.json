@@ -1,43 +1,165 @@
 {
   "id": "mometason",
   "name": "Mometason",
-  "synonyme": ["Mometasonfuroat", "Mometasone furoate", "Mometasone"],
+  "synonyme": [
+    "Mometasonfuroat",
+    "Mometasone furoate",
+    "Mometasone"
+  ],
   "kombinationAus": [],
-  "atc": ["D07AC13", "R01AD09", "R03BA07"],
+  "atc": [
+    "D07AC13",
+    "R01AD09",
+    "R03BA07"
+  ],
   "klasse": "Glukokortikoid: topisch stark wirksam (Klasse III), nasal und inhalativ",
   "kurz": "Kortison als Creme oder Salbe gegen Ekzeme und Psoriasis, als Nasenspray gegen Heuschnupfen und Nasenpolypen, inhaliert gegen Asthma.",
-  "gruppen": ["glukokortikoide-topisch", "glukokortikoide-inhalativ"],
-  "handelsnamen": ["Elocom", "Monovo", "Nasonex", "Atectura (Kombi)", "Enerzair (Kombi)"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Creme", "Salbe", "Lösung und Emulsion zur Anwendung auf der Haut", "Nasenspray", "Pulver zur Inhalation (Kombi)"],
+  "gruppen": [
+    "glukokortikoide-topisch",
+    "glukokortikoide-inhalativ"
+  ],
+  "handelsnamen": [
+    "Elocom",
+    "Monovo",
+    "Nasonex",
+    "Atectura (Kombi)",
+    "Enerzair (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Creme",
+    "Salbe",
+    "Lösung und Emulsion zur Anwendung auf der Haut",
+    "Nasenspray",
+    "Pulver zur Inhalation (Kombi)"
+  ],
   "indikationen": [
-    { "text": "Entzündliche und juckende Hauterkrankungen, die auf Kortison ansprechen, z. B. Neurodermitis, Ekzeme, Psoriasis (Creme, Salbe, Lösung)", "ids": ["neurodermitis", "psoriasis", "juckreiz"] },
-    { "text": "Allergischer Schnupfen (Heuschnupfen und ganzjährige Allergie), auch zur Vorbeugung vor der Pollensaison (Nasenspray)", "ids": ["heuschnupfen"] },
-    { "text": "Nasenpolypen bei Erwachsenen (Nasenspray)", "ids": ["sinusitis"] },
-    { "text": "Asthma bronchiale (Inhalation in Kombination mit Indacaterol bzw. Indacaterol und Glycopyrronium)", "ids": ["asthma"] }
+    {
+      "text": "Entzündliche und juckende Hauterkrankungen, die auf Kortison ansprechen, z. B. Neurodermitis, Ekzeme, Psoriasis (Creme, Salbe, Lösung)",
+      "ids": [
+        "neurodermitis",
+        "psoriasis",
+        "juckreiz"
+      ]
+    },
+    {
+      "text": "Allergischer Schnupfen (Heuschnupfen und ganzjährige Allergie), auch zur Vorbeugung vor der Pollensaison (Nasenspray)",
+      "ids": [
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Nasenpolypen bei Erwachsenen (Nasenspray)",
+      "ids": [
+        "sinusitis"
+      ]
+    },
+    {
+      "text": "Asthma bronchiale (Inhalation in Kombination mit Indacaterol bzw. Indacaterol und Glycopyrronium)",
+      "ids": [
+        "asthma"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt örtlich Entzündung, Schwellung und Juckreiz. Mometasonfuroat ist ein stark wirksames synthetisches Glukokortikoid, das an den Glukokortikoid-Rezeptor bindet und die Bildung von Entzündungsbotenstoffen sowie das Einwandern von Entzündungszellen unterdrückt. Es wirkt vor allem dort, wo es aufgetragen, gesprüht oder inhaliert wird: Verschluckter oder aufgenommener Wirkstoff wird in der Leber über CYP3A4 rasch abgebaut, sodass der übrige Körper wenig belastet wird.",
   "kontraindikationen": [
-    { "text": "Auf der Haut: virale Infektionen (Herpes, Windpocken), Hauttuberkulose, unbehandelte bakterielle oder Pilzinfektionen", "ids": ["herpes", "hautinfektion", "hautpilz", "tuberkulose"] },
-    { "text": "Auf der Haut: Rosazea, periorale Dermatitis (Ausschlag um den Mund), Akne, dünne (atrophische) Haut", "ids": ["rosazea", "akne"] },
-    { "text": "Nasenspray: unbehandelte örtliche Infektion der Nasenschleimhaut (z. B. Herpes) sowie kürzliche Operation oder Verletzung der Nase bis zur Abheilung", "ids": ["herpes", "operation"] }
+    {
+      "text": "Auf der Haut: virale Infektionen (Herpes, Windpocken), Hauttuberkulose, unbehandelte bakterielle oder Pilzinfektionen",
+      "ids": [
+        "herpes",
+        "hautinfektion",
+        "hautpilz",
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Auf der Haut: Rosazea, periorale Dermatitis (Ausschlag um den Mund), Akne, dünne (atrophische) Haut",
+      "ids": [
+        "rosazea",
+        "akne"
+      ]
+    },
+    {
+      "text": "Nasenspray: unbehandelte örtliche Infektion der Nasenschleimhaut (z. B. Herpes) sowie kürzliche Operation oder Verletzung der Nase bis zur Abheilung",
+      "ids": [
+        "herpes",
+        "operation"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Auf der Haut: im Gesicht, in Hautfalten, im Genitalbereich, grossflächig oder unter luftdichten Verbänden nur nach ärztlicher Anweisung (Hautverdünnung, Aufnahme ins Blut)", "ids": [] },
-    { "text": "Aktive oder ruhende Tuberkulose der Atemwege, unbehandelte Infektionen, Herpes am Auge (Nasenspray, Inhalation)", "ids": ["tuberkulose", "aktive-infektion", "herpes"] },
-    { "text": "Verschwommenes Sehen oder andere Sehstörungen augenärztlich abklären lassen (Katarakt, Glaukom)", "ids": ["glaukom", "katarakt"] },
-    { "text": "Kinder: nur kleinflächig und kurz auf der Haut; bei längerer Anwendung von Nasenspray oder Inhalation Körpergrösse kontrollieren", "ids": ["kinder"] },
-    { "text": "Wechsel von Kortisontabletten auf Nasenspray oder Inhalation: vorübergehende Nebennierenschwäche möglich", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Inhalation: kein Mittel für den akuten Asthmaanfall; bei Verkrampfung der Atemwege direkt nach dem Inhalieren absetzen", "ids": ["asthma"] }
+    {
+      "text": "Auf der Haut: im Gesicht, in Hautfalten, im Genitalbereich, grossflächig oder unter luftdichten Verbänden nur nach ärztlicher Anweisung (Hautverdünnung, Aufnahme ins Blut)",
+      "ids": []
+    },
+    {
+      "text": "Aktive oder ruhende Tuberkulose der Atemwege, unbehandelte Infektionen, Herpes am Auge (Nasenspray, Inhalation)",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Verschwommenes Sehen oder andere Sehstörungen augenärztlich abklären lassen (Katarakt, Glaukom)",
+      "ids": [
+        "glaukom",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Kinder: nur kleinflächig und kurz auf der Haut; bei längerer Anwendung von Nasenspray oder Inhalation Körpergrösse kontrollieren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Wechsel von Kortisontabletten auf Nasenspray oder Inhalation: vorübergehende Nebennierenschwäche möglich",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Inhalation: kein Mittel für den akuten Asthmaanfall; bei Verkrampfung der Atemwege direkt nach dem Inhalieren absetzen",
+      "ids": [
+        "asthma"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Itraconazol, Ketoconazol)", "ref": ["gruppe:starke-cyp3a4-hemmer", "ritonavir", "cobicistat"], "effekt": "Bei Nasenspray und Inhalation steigt die Menge Mometason im Blut – Kortisonnebenwirkungen wie Cushing-Syndrom und Nebennierenunterdrückung möglich; Kombination möglichst vermeiden oder überwachen.", "schwere": "schwer" },
-    { "text": "Andere Kortisonpräparate (Tabletten, Sprays, Inhalatoren, Cremes)", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:glukokortikoide-inhalativ"], "effekt": "Die Kortisonbelastung des Körpers addiert sich – Gesamtmenge beachten, besonders bei Kindern.", "schwere": "leicht" }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Itraconazol, Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Bei Nasenspray und Inhalation steigt die Menge Mometason im Blut – Kortisonnebenwirkungen wie Cushing-Syndrom und Nebennierenunterdrückung möglich; Kombination möglichst vermeiden oder überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Kortisonpräparate (Tabletten, Sprays, Inhalatoren, Cremes)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:glukokortikoide-inhalativ"
+      ],
+      "effekt": "Die Kortisonbelastung des Körpers addiert sich – Gesamtmenge beachten, besonders bei Kindern.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Nasenbluten, Brennen und Reizung der Nase, Rachenentzündung (Nasenspray)", "Kopfschmerzen", "Mundsoor (Pilzbefall im Mund) und Heiserkeit (Inhalation)"],
-    "sehrSelten": ["Haarbalgentzündung (Follikulitis) und Brennen der Haut (Creme, Salbe)"],
+    "haeufig": [
+      "Nasenbluten, Brennen und Reizung der Nase, Rachenentzündung (Nasenspray)",
+      "Kopfschmerzen",
+      "Mundsoor (Pilzbefall im Mund) und Heiserkeit (Inhalation)"
+    ],
+    "sehrSelten": [
+      "Haarbalgentzündung (Follikulitis) und Brennen der Haut (Creme, Salbe)"
+    ],
     "unbekannt": [
       "Hautverdünnung (Atrophie), Dehnungsstreifen, Pigmentverlust, vermehrte Behaarung, akneartige Hautentzündung (äusserliche Anwendung)",
       "Kontaktdermatitis, Juckreiz und Schmerzen an der Auftragsstelle",

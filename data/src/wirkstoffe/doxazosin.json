@@ -1,41 +1,163 @@
 {
   "id": "doxazosin",
   "name": "Doxazosin",
-  "synonyme": ["Doxazosine", "Doxazosinmesilat"],
-  "atc": ["C02CA04"],
+  "synonyme": [
+    "Doxazosine",
+    "Doxazosinmesilat"
+  ],
+  "atc": [
+    "C02CA04"
+  ],
   "klasse": "Selektiver Alpha-1-Blocker (Antihypertensivum, Prostatamittel)",
   "kurz": "Alpha-Blocker gegen Bluthochdruck und Beschwerden beim Wasserlösen bei gutartiger Prostatavergrösserung.",
-  "gruppen": ["alpha1-blocker", "blutdrucksenkend"],
-  "handelsnamen": ["Cardura", "Cardura CR"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten", "Retardtabletten"],
+  "gruppen": [
+    "alpha1-blocker",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Cardura",
+    "Cardura CR"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] },
-    { "text": "Beschwerden beim Wasserlösen und schwacher Harnstrahl bei gutartiger Prostatavergrösserung", "ids": ["prostatahyperplasie"] }
+    {
+      "text": "Bluthochdruck (Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Beschwerden beim Wasserlösen und schwacher Harnstrahl bei gutartiger Prostatavergrösserung",
+      "ids": [
+        "prostatahyperplasie"
+      ]
+    }
   ],
   "wirkmechanismus": "Entspannt die Muskulatur in den Blutgefässen sowie in Prostata und Blasenhals. Doxazosin blockiert selektiv und kompetitiv Alpha-1-Rezeptoren, über die Noradrenalin normalerweise die glatte Muskulatur zusammenzieht. In den Gefässen sinkt dadurch der Widerstand und damit der Blutdruck; in Prostata und Blasenhals lässt der Druck auf die Harnröhre nach, sodass der Urin leichter abfliesst. Die erste Dosis kann einen deutlichen Blutdruckabfall auslösen (First-Dose-Effekt).",
   "kontraindikationen": [
-    { "text": "Überempfindlichkeit gegen Chinazoline wie Prazosin oder Terazosin (Kreuzallergie)", "ids": ["allergie"] },
-    { "text": "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen) in der Vorgeschichte", "ids": ["hypotonie"] },
-    { "text": "Bei Prostatavergrösserung: Rückstau in die oberen Harnwege, chronische Harnwegsinfekte oder Blasensteine", "ids": ["harnwegsinfekt", "nierensteine"] },
-    { "text": "Überlaufblase, fehlende Urinausscheidung (Anurie) mit oder ohne fortschreitende Niereninsuffizienz", "ids": ["harnverhalt", "niereninsuffizienz"] },
-    { "text": "Retardtabletten: Verengungen im Magen-Darm-Trakt oder Darmverschluss in der Vorgeschichte", "ids": ["darmverschluss"] }
+    {
+      "text": "Überempfindlichkeit gegen Chinazoline wie Prazosin oder Terazosin (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen) in der Vorgeschichte",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Bei Prostatavergrösserung: Rückstau in die oberen Harnwege, chronische Harnwegsinfekte oder Blasensteine",
+      "ids": [
+        "harnwegsinfekt",
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Überlaufblase, fehlende Urinausscheidung (Anurie) mit oder ohne fortschreitende Niereninsuffizienz",
+      "ids": [
+        "harnverhalt",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Retardtabletten: Verengungen im Magen-Darm-Trakt oder Darmverschluss in der Vorgeschichte",
+      "ids": [
+        "darmverschluss"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Beginn der Behandlung und Dosiserhöhung (Schwindel, Ohnmacht durch Blutdruckabfall)", "ids": ["hypotonie", "autofahren"] },
-    { "text": "Herzerkrankungen wie Lungenödem bei Aorten- oder Mitralstenose, Herzinsuffizienz", "ids": ["herzklappenerkrankung", "herzinsuffizienz"] },
-    { "text": "Eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
-    { "text": "Geplante Operation am grauen Star (Floppy-Iris-Syndrom möglich) – Augenarzt informieren", "ids": ["katarakt"] },
-    { "text": "Ältere Menschen (Sturzgefahr durch Blutdruckabfall)", "ids": ["aeltere-patienten"] }
+    {
+      "text": "Beginn der Behandlung und Dosiserhöhung (Schwindel, Ohnmacht durch Blutdruckabfall)",
+      "ids": [
+        "hypotonie",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen wie Lungenödem bei Aorten- oder Mitralstenose, Herzinsuffizienz",
+      "ids": [
+        "herzklappenerkrankung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Geplante Operation am grauen Star (Floppy-Iris-Syndrom möglich) – Augenarzt informieren",
+      "ids": [
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Sturzgefahr durch Blutdruckabfall)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Ausgeprägter Blutdruckabfall möglich – nur bei stabil eingestelltem Alpha-Blocker und mit niedrigster PDE-5-Hemmer-Dosis beginnen.", "schwere": "mittel" },
-    { "text": "Andere Alpha-1-Blocker (z. B. Tamsulosin, Alfuzosin)", "ref": ["gruppe:alpha1-blocker"], "effekt": "Doppelte Alpha-Blockade – starke Blutdrucksenkung; nicht kombinieren.", "schwere": "mittel" },
-    { "text": "Andere Blutdrucksenker und Nitrate", "ref": ["gruppe:blutdrucksenkend", "gruppe:nitrate"], "effekt": "Verstärkte Blutdrucksenkung, Schwindel und Ohnmachtsgefahr.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Doxazosinspiegel kann steigen – auf Blutdruckabfall achten.", "schwere": "mittel" },
-    { "text": "NSAR und Östrogene", "ref": ["gruppe:nsar", "gruppe:oestrogene"], "effekt": "Können die blutdrucksenkende Wirkung abschwächen.", "schwere": "leicht" },
-    { "text": "Alkohol", "ref": [], "effekt": "Verstärkter Blutdruckabfall möglich.", "schwere": "leicht" }
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Ausgeprägter Blutdruckabfall möglich – nur bei stabil eingestelltem Alpha-Blocker und mit niedrigster PDE-5-Hemmer-Dosis beginnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Alpha-1-Blocker (z. B. Tamsulosin, Alfuzosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Doppelte Alpha-Blockade – starke Blutdrucksenkung; nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker und Nitrate",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, Schwindel und Ohnmachtsgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Doxazosinspiegel kann steigen – auf Blutdruckabfall achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR und Östrogene",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Können die blutdrucksenkende Wirkung abschwächen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkter Blutdruckabfall möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [
@@ -59,6 +181,9 @@
       "Gewichtszunahme, Gicht",
       "Erektionsstörungen"
     ],
+    "selten": [
+      "Magen-Darm-Verschluss (Retardtabletten)"
+    ],
     "sehrSelten": [
       "Leukopenie und Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)",
       "Bradykardie, Herzrhythmusstörungen",
@@ -67,7 +192,10 @@
       "Priapismus (schmerzhafte Dauererektion)",
       "Verschwommenes Sehen, Haarausfall, Nesselsucht"
     ],
-    "unbekannt": ["Intraoperatives Floppy-Iris-Syndrom bei Kataraktoperation", "Retrograde Ejakulation (Samenerguss in die Blase)"]
+    "unbekannt": [
+      "Intraoperatives Floppy-Iris-Syndrom bei Kataraktoperation",
+      "Retrograde Ejakulation (Samenerguss in die Blase)"
+    ]
   },
   "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; es gibt kaum Erfahrungen bei Schwangeren.",
   "stillzeit": "Geht in die Muttermilch über; Anwendung in der Stillzeit nicht empfohlen.",

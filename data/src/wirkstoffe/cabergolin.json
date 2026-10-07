@@ -1,47 +1,203 @@
 {
   "id": "cabergolin",
   "name": "Cabergolin",
-  "synonyme": ["Cabergoline", "Cabergolinum"],
-  "atc": ["G02CB03", "N04BC06"],
+  "synonyme": [
+    "Cabergoline",
+    "Cabergolinum"
+  ],
+  "atc": [
+    "G02CB03",
+    "N04BC06"
+  ],
   "klasse": "Dopaminagonist (Ergolin-Derivat); Prolaktinhemmer",
   "kurz": "Hemmt die Bildung des Milchhormons Prolaktin; zum Abstillen und bei krankhaft erhöhtem Prolaktin, z. B. durch einen Hypophysentumor.",
-  "gruppen": ["dopaminagonisten", "ergotalkaloide", "blutdrucksenkend"],
-  "handelsnamen": ["Dostinex"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "dopaminagonisten",
+    "ergotalkaloide",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Dostinex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Abstillen: Verhinderung der Milchbildung direkt nach der Geburt oder Unterdrückung einer bereits eingesetzten Milchbildung", "ids": ["hyperprolaktinaemie"] },
-    { "text": "Durch zu viel Prolaktin verursachte Störungen, z. B. Prolaktin bildende Hypophysentumoren (Prolaktinome) oder Hyperprolaktinämie unbekannter Ursache", "ids": ["hyperprolaktinaemie"] }
+    {
+      "text": "Abstillen: Verhinderung der Milchbildung direkt nach der Geburt oder Unterdrückung einer bereits eingesetzten Milchbildung",
+      "ids": [
+        "hyperprolaktinaemie"
+      ]
+    },
+    {
+      "text": "Durch zu viel Prolaktin verursachte Störungen, z. B. Prolaktin bildende Hypophysentumoren (Prolaktinome) oder Hyperprolaktinämie unbekannter Ursache",
+      "ids": [
+        "hyperprolaktinaemie"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt die Menge des Hormons Prolaktin, das die Milchbildung anregt und bei Überschuss Zyklusstörungen, Unfruchtbarkeit und Libidoverlust verursacht. Cabergolin ist ein lang wirksamer Agonist an Dopamin-D2-Rezeptoren der prolaktinbildenden Zellen der Hirnanhangdrüse (Hypophyse) und hemmt dort die Prolaktinausschüttung; Prolaktinome können dabei schrumpfen. Wegen der sehr langen Halbwertszeit genügt meist eine Einnahme ein- bis zweimal pro Woche. Als Mutterkorn-(Ergolin-)Abkömmling stimuliert es auch Serotonin-5-HT2B-Rezeptoren, was mit Fibrosen und Herzklappenveränderungen in Verbindung gebracht wird.",
   "kontraindikationen": [
-    { "text": "Überempfindlichkeit gegen Mutterkornalkaloide (Ergotalkaloide)", "ids": [] },
-    { "text": "Fibrotische Erkrankungen von Lunge, Brustfell, Herzbeutel oder Retroperitoneum (Bindegewebsvermehrung hinter dem Bauchraum) in der Vorgeschichte", "ids": ["lungenfibrose"] },
-    { "text": "Bei Langzeitbehandlung: nachgewiesene Herzklappenveränderungen (z. B. im Herzultraschall)", "ids": ["herzklappenerkrankung"] }
+    {
+      "text": "Überempfindlichkeit gegen Mutterkornalkaloide (Ergotalkaloide)",
+      "ids": []
+    },
+    {
+      "text": "Fibrotische Erkrankungen von Lunge, Brustfell, Herzbeutel oder Retroperitoneum (Bindegewebsvermehrung hinter dem Bauchraum) in der Vorgeschichte",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Bei Langzeitbehandlung: nachgewiesene Herzklappenveränderungen (z. B. im Herzultraschall)",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Präeklampsie (Schwangerschaftsvergiftung) oder Bluthochdruck nach der Geburt: nur nach strenger Nutzen-Risiko-Abwägung", "ids": ["hypertonie", "schwangerschaft"] },
-    { "text": "Blutdruckabfall besonders in den ersten Tagen, vor allem zusammen mit Blutdrucksenkern", "ids": ["hypotonie"] },
-    { "text": "Schwere Herz-Kreislauf-Erkrankungen, Raynaud-Syndrom", "ids": ["koronare-herzkrankheit", "herzinsuffizienz", "raynaud"] },
-    { "text": "Magen-Darm-Geschwüre oder -Blutungen", "ids": ["magen-darm-ulkus"] },
-    { "text": "Psychosen in der Vorgeschichte; Impulskontrollstörungen (Spiel-, Kauf-, Esssucht, Hypersexualität) möglich", "ids": ["schizophrenie", "abhaengigkeit"] },
-    { "text": "Schwere Leberfunktionsstörung (niedrigere Dosis nötig)", "ids": ["leberinsuffizienz"] },
-    { "text": "Langzeitbehandlung: Herzultraschall vor Beginn und regelmässig; auf Zeichen einer Fibrose achten (Atemnot, anhaltender Husten, Brust- oder Flankenschmerzen, Beinödeme)", "ids": ["herzklappenerkrankung", "lungenfibrose"] },
-    { "text": "Schläfrigkeit und plötzliches Einschlafen im Alltag", "ids": ["autofahren"] }
+    {
+      "text": "Präeklampsie (Schwangerschaftsvergiftung) oder Bluthochdruck nach der Geburt: nur nach strenger Nutzen-Risiko-Abwägung",
+      "ids": [
+        "hypertonie",
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall besonders in den ersten Tagen, vor allem zusammen mit Blutdrucksenkern",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere Herz-Kreislauf-Erkrankungen, Raynaud-Syndrom",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinsuffizienz",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre oder -Blutungen",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Psychosen in der Vorgeschichte; Impulskontrollstörungen (Spiel-, Kauf-, Esssucht, Hypersexualität) möglich",
+      "ids": [
+        "schizophrenie",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (niedrigere Dosis nötig)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Herzultraschall vor Beginn und regelmässig; auf Zeichen einer Fibrose achten (Atemnot, anhaltender Husten, Brust- oder Flankenschmerzen, Beinödeme)",
+      "ids": [
+        "herzklappenerkrankung",
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Schläfrigkeit und plötzliches Einschlafen im Alltag",
+      "ids": [
+        "autofahren"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Dopamin-Antagonisten: Antipsychotika, Metoclopramid", "ref": ["gruppe:dopaminantagonisten", "gruppe:antipsychotika", "metoclopramid"], "effekt": "Gegenseitige Wirkungsabschwächung (Prolaktinsenkung bzw. antipsychotische Wirkung) – Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Andere Mutterkornalkaloide (z. B. Methylergometrin, Ergotamin)", "ref": ["gruppe:ergotalkaloide", "methylergometrin"], "effekt": "Verstärkte gefässverengende und andere Ergot-Wirkungen; die gleichzeitige Anwendung wird nicht empfohlen (auch nicht Methylergometrin nach der Geburt).", "schwere": "schwer" },
-    { "text": "Makrolid-Antibiotika (z. B. Erythromycin, Clarithromycin)", "ref": ["gruppe:makrolide"], "effekt": "Höhere Cabergolin-Spiegel mit mehr Nebenwirkungen (Übelkeit, Blutdruckabfall) möglich – Vorsicht.", "schwere": "mittel" },
-    { "text": "Blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen – Blutdruck in den ersten Tagen kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere dopaminerge Parkinsonmittel (Levodopa, Dopaminagonisten)", "ref": ["gruppe:dopaminagonisten", "levodopa-benserazid", "levodopa-carbidopa"], "effekt": "Verstärkte dopaminerge Nebenwirkungen wie Übelkeit, Blutdruckabfall, Halluzinationen und Impulskontrollstörungen.", "schwere": "mittel" }
+    {
+      "text": "Dopamin-Antagonisten: Antipsychotika, Metoclopramid",
+      "ref": [
+        "gruppe:dopaminantagonisten",
+        "gruppe:antipsychotika",
+        "metoclopramid"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung (Prolaktinsenkung bzw. antipsychotische Wirkung) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Mutterkornalkaloide (z. B. Methylergometrin, Ergotamin)",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "methylergometrin"
+      ],
+      "effekt": "Verstärkte gefässverengende und andere Ergot-Wirkungen; die gleichzeitige Anwendung wird nicht empfohlen (auch nicht Methylergometrin nach der Geburt).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Makrolid-Antibiotika (z. B. Erythromycin, Clarithromycin)",
+      "ref": [
+        "gruppe:makrolide"
+      ],
+      "effekt": "Höhere Cabergolin-Spiegel mit mehr Nebenwirkungen (Übelkeit, Blutdruckabfall) möglich – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen – Blutdruck in den ersten Tagen kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere dopaminerge Parkinsonmittel (Levodopa, Dopaminagonisten)",
+      "ref": [
+        "gruppe:dopaminagonisten",
+        "levodopa-benserazid",
+        "levodopa-carbidopa"
+      ],
+      "effekt": "Verstärkte dopaminerge Nebenwirkungen wie Übelkeit, Blutdruckabfall, Halluzinationen und Impulskontrollstörungen.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Übelkeit", "Kopfschmerzen", "Schwindel", "Bauchschmerzen, Verdauungsbeschwerden (Dyspepsie), Magenschleimhautentzündung", "Schwäche und Müdigkeit", "Herzklappenveränderungen (Valvulopathie) und verwandte Störungen wie Herzbeutelentzündung oder -erguss"],
-    "haeufig": ["Depression", "Schläfrigkeit (Somnolenz)", "Verstopfung, Erbrechen", "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)", "Hitzewallungen", "Brustschmerzen (Mastodynie)"],
-    "gelegentlich": ["Herzklopfen (Palpitationen)", "Ohnmacht (Synkope), Kribbeln (Parästhesien)", "Vorübergehende Gesichtsfeldausfälle", "Atemnot, Pleuraerguss (Flüssigkeit im Brustfellraum), Lungenfibrose", "Nasenbluten", "Krämpfe der Fingergefässe (Vasospasmus)", "Haarausfall, Hautausschlag", "Wassereinlagerungen (Ödeme)", "Wadenkrämpfe", "Überempfindlichkeitsreaktionen, gesteigerte Libido"],
-    "unbekannt": ["Impulskontrollstörungen (Spielsucht, Kaufsucht, gesteigerter Sexualtrieb, Essattacken)", "Plötzliches Einschlafen im Alltag", "Halluzinationen, Wahnvorstellungen, psychotische Störungen, Aggression", "Angina pectoris", "Zittern (Tremor), Sehstörungen", "Erhöhte Leberwerte und CK"]
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Kopfschmerzen",
+      "Schwindel",
+      "Bauchschmerzen, Verdauungsbeschwerden (Dyspepsie), Magenschleimhautentzündung",
+      "Schwäche und Müdigkeit",
+      "Herzklappenveränderungen (Valvulopathie) und verwandte Störungen wie Herzbeutelentzündung oder -erguss"
+    ],
+    "haeufig": [
+      "Depression",
+      "Schläfrigkeit (Somnolenz)",
+      "Verstopfung, Erbrechen",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Hitzewallungen",
+      "Brustschmerzen (Mastodynie)"
+    ],
+    "gelegentlich": [
+      "Herzklopfen (Palpitationen)",
+      "Ohnmacht (Synkope), Kribbeln (Parästhesien)",
+      "Vorübergehende Gesichtsfeldausfälle",
+      "Atemnot, Pleuraerguss (Flüssigkeit im Brustfellraum), Lungenfibrose",
+      "Nasenbluten",
+      "Krämpfe der Fingergefässe (Vasospasmus)",
+      "Haarausfall, Hautausschlag",
+      "Wassereinlagerungen (Ödeme)",
+      "Wadenkrämpfe",
+      "Überempfindlichkeitsreaktionen, gesteigerte Libido"
+    ],
+    "unbekannt": [
+      "Impulskontrollstörungen (Spielsucht, Kaufsucht, gesteigerter Sexualtrieb, Essattacken)",
+      "Plötzliches Einschlafen im Alltag",
+      "Halluzinationen, Wahnvorstellungen, psychotische Störungen, Aggression",
+      "Angina pectoris",
+      "Zittern (Tremor), Sehstörungen",
+      "Erhöhte Leberwerte und CK"
+    ]
   },
   "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Kinderwunsch Cabergolin vorsorglich etwa einen Monat vor der geplanten Empfängnis absetzen; tritt unter der Behandlung eine Schwangerschaft ein, ärztlich über das Absetzen entscheiden. Die bisherigen Erfahrungen zeigen kein erhöhtes Fehlbildungsrisiko.",
   "stillzeit": "Cabergolin unterdrückt die Milchbildung. Frauen, die stillen möchten, dürfen es nicht einnehmen; bei Behandlung einer Hyperprolaktinämie nicht stillen.",

@@ -1,50 +1,205 @@
 {
   "id": "bictegravir-emtricitabin-tenofoviralafenamid",
   "name": "Bictegravir + Emtricitabin + Tenofoviralafenamid",
-  "synonyme": ["BIC/FTC/TAF", "Bictegravir/Emtricitabin/Tenofoviralafenamid"],
-  "kombinationAus": ["emtricitabin", "tenofoviralafenamid"],
-  "atc": ["J05AR20"],
+  "synonyme": [
+    "BIC/FTC/TAF",
+    "Bictegravir/Emtricitabin/Tenofoviralafenamid"
+  ],
+  "kombinationAus": [
+    "emtricitabin",
+    "tenofoviralafenamid"
+  ],
+  "atc": [
+    "J05AR20"
+  ],
   "klasse": "HIV-Kombination: Integrasehemmer (Bictegravir) und zwei NRTI (Emtricitabin, Tenofoviralafenamid)",
   "kurz": "HIV-Medikament mit drei Wirkstoffen in einer Tablette; vollständige HIV-Therapie mit einer Tablette täglich.",
-  "gruppen": ["integrasehemmer"],
-  "handelsnamen": ["Biktarvy"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "integrasehemmer"
+  ],
+  "handelsnamen": [
+    "Biktarvy"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "HIV-1-Infektion bei Erwachsenen sowie Kindern und Jugendlichen ab einem Mindestgewicht, ohne bekannte Resistenzen gegen Integrasehemmer, Emtricitabin oder Tenofovir", "ids": ["hiv"] }
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen sowie Kindern und Jugendlichen ab einem Mindestgewicht, ohne bekannte Resistenzen gegen Integrasehemmer, Emtricitabin oder Tenofovir",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung von HIV an zwei Stellen. Bictegravir blockiert die Integrase und verhindert den Einbau der Virus-DNA in das Erbgut der Wirtszelle (Strangtransfer). Emtricitabin und Tenofovir (aus der Vorstufe Tenofoviralafenamid freigesetzt) werden in den Zellen zu ihren aktiven Formen phosphoryliert, von der Reversen Transkriptase in die Virus-DNA eingebaut und führen zum Kettenabbruch. Bictegravir hemmt zudem Nierentransporter (OCT2, MATE1), was den Kreatininwert leicht erhöht, ohne die Nierenfunktion zu verschlechtern.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Hepatitis-B-Koinfektion: Absetzen kann schwere Hepatitisschübe auslösen – Leberwerte nach dem Absetzen über Monate kontrollieren", "ids": ["hepatitis-b"] },
-    { "text": "Stark eingeschränkte Nierenfunktion: nur bei Dialyse bzw. gemäss Fachinformation", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Leberinsuffizienz: nicht empfohlen", "ids": ["leberinsuffizienz"] },
-    { "text": "Depression oder Suizidgedanken in der Vorgeschichte", "ids": ["depression", "suizidgedanken"] },
-    { "text": "Immunrekonstitutionssyndrom, Gewichtszunahme und Anstieg der Blutfette unter der Therapie", "ids": ["hiv"] }
+    {
+      "text": "Hepatitis-B-Koinfektion: Absetzen kann schwere Hepatitisschübe auslösen – Leberwerte nach dem Absetzen über Monate kontrollieren",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Stark eingeschränkte Nierenfunktion: nur bei Dialyse bzw. gemäss Fachinformation",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom, Gewichtszunahme und Anstieg der Blutfette unter der Therapie",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Rifampicin", "ref": ["rifampicin"], "grund": "Starke Induktion von CYP3A, UGT1A1 und P-Glykoprotein senkt die Spiegel von Bictegravir und Tenofoviralafenamid deutlich – Wirkverlust und Resistenzentwicklung." },
-    { "text": "Johanniskraut", "ref": ["johanniskraut"], "grund": "Enzym- und P-Glykoprotein-Induktion senkt die Spiegel von Bictegravir und Tenofoviralafenamid – Wirkverlust und Resistenzentwicklung." }
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "grund": "Starke Induktion von CYP3A, UGT1A1 und P-Glykoprotein senkt die Spiegel von Bictegravir und Tenofoviralafenamid deutlich – Wirkverlust und Resistenzentwicklung."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Enzym- und P-Glykoprotein-Induktion senkt die Spiegel von Bictegravir und Tenofoviralafenamid – Wirkverlust und Resistenzentwicklung."
+    }
   ],
   "interaktionen": [
-    { "text": "Weitere Enzyminduktoren: Rifabutin, Rifapentin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital", "ref": ["rifabutin", "carbamazepin", "oxcarbazepin", "phenytoin", "phenobarbital", "gruppe:cyp3a4-induktoren", "gruppe:p-gp-induktoren"], "effekt": "Bictegravir- und Tenofoviralafenamid-Spiegel sinken – Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Antazida mit Aluminium oder Magnesium", "ref": ["gruppe:antazida"], "effekt": "Komplexbildung vermindert die Aufnahme von Bictegravir – nicht gleichzeitig einnehmen; Biktarvy mindestens 2 Stunden vor dem Antazidum oder mit einer Mahlzeit 2 Stunden danach.", "schwere": "mittel" },
-    { "text": "Calcium- und Eisenpräparate, Multivitamine mit Mineralstoffen", "ref": ["gruppe:mehrwertige-kationen", "gruppe:eisenpraeparate", "calcium"], "effekt": "Aufnahme von Bictegravir vermindert – nur zusammen mit einer Mahlzeit gleichzeitig einnehmen, nüchtern Biktarvy mindestens 2 Stunden vorher.", "schwere": "mittel" },
-    { "text": "Atazanavir", "ref": ["atazanavir"], "effekt": "Hemmt den Abbau von Bictegravir (UGT1A1) stark – Kombination nicht empfohlen.", "schwere": "mittel" },
-    { "text": "Lamivudin und lamivudinhaltige Präparate", "ref": ["lamivudin", "abacavir-lamivudin", "dolutegravir-lamivudin", "abacavir-lamivudin-dolutegravir"], "effekt": "Gleicher Wirkmechanismus wie Emtricitabin – nicht kombinieren.", "schwere": "mittel" },
-    { "text": "Andere emtricitabin- oder tenofovirhaltige Präparate", "ref": ["emtricitabin", "tenofovirdisoproxil", "tenofoviralafenamid", "emtricitabin-tenofovirdisoproxil", "emtricitabin-tenofoviralafenamid"], "effekt": "Doppelbehandlung vermeiden.", "schwere": "mittel" },
-    { "text": "Metformin", "ref": ["metformin"], "effekt": "Bictegravir erhöht den Metformin-Spiegel mässig – Blutzucker und Nierenfunktion kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Weitere Enzyminduktoren: Rifabutin, Rifapentin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital",
+      "ref": [
+        "rifabutin",
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenytoin",
+        "phenobarbital",
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:p-gp-induktoren"
+      ],
+      "effekt": "Bictegravir- und Tenofoviralafenamid-Spiegel sinken – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antazida mit Aluminium oder Magnesium",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Komplexbildung vermindert die Aufnahme von Bictegravir deutlich – Biktarvy nüchtern mindestens 2 Stunden vor dem Antazidum einnehmen; gleichzeitige Einnahme oder Einnahme innerhalb von 2 Stunden nach dem Antazidum nicht empfohlen (auch nicht mit einer Mahlzeit).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calcium- und Eisenpräparate, Multivitamine mit Mineralstoffen",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:eisenpraeparate",
+        "calcium"
+      ],
+      "effekt": "Aufnahme von Bictegravir vermindert – nur zusammen mit einer Mahlzeit gleichzeitig einnehmen, nüchtern Biktarvy mindestens 2 Stunden vorher.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Atazanavir",
+      "ref": [
+        "atazanavir"
+      ],
+      "effekt": "Hemmt den Abbau von Bictegravir (UGT1A1) stark – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin (zum Einnehmen oder intravenös)",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Hemmung von P-Glykoprotein erhöht die Spiegel von Bictegravir und Tenofoviralafenamid – Kombination nicht empfohlen; falls nötig, Nierenfunktion engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lamivudin und lamivudinhaltige Präparate",
+      "ref": [
+        "lamivudin",
+        "abacavir-lamivudin",
+        "abacavir-lamivudin-dolutegravir",
+        "dolutegravir-lamivudin",
+        "doravirin-lamivudin-tenofovirdisoproxil",
+        "zidovudin-lamivudin"
+      ],
+      "effekt": "Gleicher Wirkmechanismus wie Emtricitabin – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere emtricitabin- oder tenofovirhaltige Präparate",
+      "ref": [
+        "emtricitabin",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "tenofovirdisoproxil",
+        "tenofoviralafenamid",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "effekt": "Doppelbehandlung vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Bictegravir erhöht den Metformin-Spiegel mässig – Blutzucker und Nierenfunktion kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen, Schwindel", "Durchfall, Übelkeit", "Abnorme Träume", "Depression", "Müdigkeit"],
-    "gelegentlich": ["Erbrechen, Bauchschmerzen, Verdauungsbeschwerden, Blähungen", "Angst, Schlafstörungen", "Suizidgedanken oder Suizidversuch (vor allem bei psychischer Vorerkrankung)", "Hautausschlag, Juckreiz, Nesselsucht, Angioödem", "Gelenkschmerzen", "Anämie", "Erhöhtes Bilirubin"],
-    "unbekannt": ["Stevens-Johnson-Syndrom (Einzelfälle nach Markteinführung)"]
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Durchfall, Übelkeit",
+      "Abnorme Träume",
+      "Depression",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Erbrechen, Bauchschmerzen, Verdauungsbeschwerden, Blähungen",
+      "Angst, Schlafstörungen",
+      "Suizidgedanken oder Suizidversuch (vor allem bei psychischer Vorerkrankung)",
+      "Hautausschlag, Juckreiz, Nesselsucht, Angioödem",
+      "Gelenkschmerzen",
+      "Anämie",
+      "Erhöhtes Bilirubin"
+    ],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom (Einzelfälle nach Markteinführung)"
+    ]
   },
   "schwangerschaft": "In der Schwangerschaft nach Abwägung durch die HIV-Fachperson; die bisherigen Daten zeigen kein erhöhtes Fehlbildungsrisiko, im letzten Drittel sind die Spiegel aber tiefer – Viruslast engmaschig kontrollieren.",
   "stillzeit": "HIV-positive Mütter sollen grundsätzlich nicht stillen (Übertragungsrisiko); ein Stillwunsch ist mit der HIV-Fachperson zu besprechen.",
   "hinweise": [
     "Einmal täglich mit oder ohne Mahlzeit einnehmen; keine Dosis auslassen.",
-    "Antazida, Calcium- und Eisenpräparate nur zeitversetzt bzw. zusammen mit einer Mahlzeit einnehmen.",
+    "Aluminium- oder magnesiumhaltige Antazida: Biktarvy mindestens 2 Stunden vorher einnehmen. Calcium- und Eisenpräparate nur zusammen mit einer Mahlzeit gleichzeitig einnehmen.",
     "Bei Hepatitis B nicht eigenmächtig absetzen.",
     "Ein leichter Kreatininanstieg zu Beginn ist meist harmlos (Hemmung eines Nierentransporters)."
   ],

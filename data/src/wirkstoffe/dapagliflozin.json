@@ -1,49 +1,201 @@
 {
   "id": "dapagliflozin",
   "name": "Dapagliflozin",
-  "synonyme": ["Dapagliflozinum", "Dapagliflozin-Propandiol"],
-  "atc": ["A10BK01", "A10BD15", "A10BD21"],
+  "synonyme": [
+    "Dapagliflozinum",
+    "Dapagliflozin-Propandiol"
+  ],
+  "atc": [
+    "A10BK01",
+    "A10BD15",
+    "A10BD21"
+  ],
   "klasse": "SGLT2-Hemmer (Gliflozin); Antidiabetikum, auch bei Herzinsuffizienz und chronischer Nierenkrankheit",
   "kurz": "Diabetesmittel, das Zucker über den Urin ausscheidet; auch zur Behandlung von Herzschwäche und chronischer Nierenkrankheit.",
-  "gruppen": ["sglt2-hemmer", "blutdrucksenkend"],
-  "handelsnamen": ["Forxiga", "Xigduo XR (Kombi)", "Qtern (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten", "Retardtabletten (Kombination mit Metformin)"],
+  "gruppen": [
+    "sglt2-hemmer",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Forxiga",
+    "Xigduo XR (Kombi)",
+    "Qtern (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten (Kombination mit Metformin)"
+  ],
   "indikationen": [
-    { "text": "Typ-2-Diabetes zusätzlich zu Diät und Bewegung – allein, wenn Metformin nicht geeignet ist, oder kombiniert mit anderen Blutzuckersenkern einschliesslich Insulin", "ids": ["diabetes-typ-2"] },
-    { "text": "Symptomatische chronische Herzinsuffizienz (Herzschwäche) bei Erwachsenen", "ids": ["herzinsuffizienz"] },
-    { "text": "Chronische Nierenkrankheit (Niereninsuffizienz) bei Erwachsenen", "ids": ["niereninsuffizienz"] },
-    { "text": "Als fixe Kombination mit Metformin (Xigduo XR) oder Saxagliptin (Qtern) bei Typ-2-Diabetes", "ids": ["diabetes-typ-2"] }
+    {
+      "text": "Typ-2-Diabetes zusätzlich zu Diät und Bewegung – allein, wenn Metformin nicht geeignet ist, oder kombiniert mit anderen Blutzuckersenkern einschliesslich Insulin",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    },
+    {
+      "text": "Symptomatische chronische Herzinsuffizienz (Herzschwäche) bei Erwachsenen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Chronische Nierenkrankheit (Niereninsuffizienz) bei Erwachsenen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Als fixe Kombination mit Metformin (Xigduo XR) oder Saxagliptin (Qtern) bei Typ-2-Diabetes",
+      "ids": [
+        "diabetes-typ-2"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den Blutzucker, indem die Nieren überschüssigen Zucker mit dem Urin ausscheiden. Dapagliflozin hemmt selektiv und reversibel den Natrium-Glukose-Cotransporter 2 (SGLT2) im proximalen Nierentubulus, der normalerweise den grössten Teil der gefilterten Glukose in den Körper zurückholt. Die Wirkung ist unabhängig vom Insulin; zusätzlich entstehen eine leichte osmotische Diurese, eine vermehrte Natriumausscheidung, ein Kalorienverlust und eine mässige Blutdrucksenkung. Bei Herz- und Nierenkrankheit tragen vermutlich die Senkung des Drucks in den Nierenkörperchen (tubuloglomerulärer Feedback) und die Entlastung des Herzens zur Schutzwirkung bei.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Ketoazidose (Übersäuerung des Blutes), auch bei nur leicht erhöhtem Blutzucker: Risiko steigt bei Operationen, Fasten, schweren akuten Erkrankungen, Alkoholmissbrauch und starker Verminderung der Insulindosis", "ids": ["ketoazidose", "operation", "alkoholkonsum"] },
-    { "text": "Typ-1-Diabetes: nicht zugelassen (erhöhtes Ketoazidose-Risiko)", "ids": ["diabetes-typ-1"] },
-    { "text": "Flüssigkeitsmangel, tiefer Blutdruck, ältere Menschen und gleichzeitige Einnahme von Diuretika (Gefahr von Austrocknung und Blutdruckabfall)", "ids": ["dehydratation", "hypotonie", "aeltere-patienten"] },
-    { "text": "Eingeschränkte Nierenfunktion: Blutzuckersenkung lässt bei einer eGFR unter 45 ml/min nach; Behandlungsbeginn bei eGFR unter 25 ml/min nicht empfohlen, bei Dialyse nicht untersucht", "ids": ["niereninsuffizienz"] },
-    { "text": "Harnwegsinfekte, auch schwere Verläufe (Nierenbeckenentzündung, Urosepsis)", "ids": ["harnwegsinfekt"] },
-    { "text": "Genitale Pilzinfektionen; sehr selten Fournier-Gangrän (schwere Weichteilinfektion im Genital- und Dammbereich)", "ids": ["vaginalinfektion"] },
-    { "text": "Schwere Leberfunktionsstörung", "ids": ["leberinsuffizienz"] },
-    { "text": "Durchblutungsstörungen oder Wunden an den Füssen: bei SGLT2-Hemmern wurden vermehrt Amputationen an Zehen und Füssen beobachtet – regelmässige Fusskontrolle", "ids": ["pavk", "diabetes"] }
+    {
+      "text": "Ketoazidose (Übersäuerung des Blutes), auch bei nur leicht erhöhtem Blutzucker: Risiko steigt bei Operationen, Fasten, schweren akuten Erkrankungen, Alkoholmissbrauch und starker Verminderung der Insulindosis",
+      "ids": [
+        "ketoazidose",
+        "operation",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Typ-1-Diabetes: nicht zugelassen (erhöhtes Ketoazidose-Risiko)",
+      "ids": [
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel, tiefer Blutdruck, ältere Menschen und gleichzeitige Einnahme von Diuretika (Gefahr von Austrocknung und Blutdruckabfall)",
+      "ids": [
+        "dehydratation",
+        "hypotonie",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Blutzuckersenkung lässt bei einer eGFR unter 45 ml/min nach; Behandlungsbeginn bei eGFR unter 25 ml/min nicht empfohlen, bei Dialyse nicht untersucht",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Harnwegsinfekte, auch schwere Verläufe (Nierenbeckenentzündung, Urosepsis)",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Genitale Pilzinfektionen; sehr selten Fournier-Gangrän (schwere Weichteilinfektion im Genital- und Dammbereich)",
+      "ids": [
+        "vaginalinfektion"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Durchblutungsstörungen oder Wunden an den Füssen: bei SGLT2-Hemmern wurden vermehrt Amputationen an Zehen und Füssen beobachtet – regelmässige Fusskontrolle",
+      "ids": [
+        "pavk",
+        "diabetes"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Insulin und Sulfonylharnstoffe (z. B. Gliclazid, Glimepirid)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Erhöhtes Risiko für Unterzuckerung – Dosis von Insulin bzw. Sulfonylharnstoff gegebenenfalls reduzieren.", "schwere": "mittel" },
-    { "text": "Schleifen- und Thiaziddiuretika (z. B. Furosemid, Torasemid, Hydrochlorothiazid)", "ref": ["gruppe:schleifendiuretika", "gruppe:thiaziddiuretika"], "effekt": "Verstärkte Harnausscheidung – Gefahr von Flüssigkeitsmangel und Blutdruckabfall; Flüssigkeitshaushalt, Blutdruck und Nierenwerte überwachen.", "schwere": "mittel" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "SGLT2-Hemmer können die Lithiumausscheidung über die Niere steigern und den Lithiumspiegel senken – Spiegel bei Beginn und Dosisänderung kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Zusätzliche Blutdrucksenkung, vor allem bei älteren Menschen – auf Schwindel und Blutdruckabfall achten.", "schwere": "leicht" },
-    { "text": "Rifampicin", "ref": ["rifampicin"], "effekt": "Etwas tiefere Dapagliflozin-Spiegel (Enzyminduktion) – klinisch meist ohne Bedeutung.", "schwere": "leicht" },
-    { "text": "Mefenaminsäure", "ref": ["mefenaminsaeure"], "effekt": "Etwas höhere Dapagliflozin-Spiegel (Hemmung des Abbaus über UGT1A9) – klinisch meist ohne Bedeutung.", "schwere": "leicht" }
+    {
+      "text": "Insulin und Sulfonylharnstoffe (z. B. Gliclazid, Glimepirid)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Erhöhtes Risiko für Unterzuckerung – Dosis von Insulin bzw. Sulfonylharnstoff gegebenenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schleifen- und Thiaziddiuretika (z. B. Furosemid, Torasemid, Hydrochlorothiazid)",
+      "ref": [
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkte Harnausscheidung – Gefahr von Flüssigkeitsmangel und Blutdruckabfall; Flüssigkeitshaushalt, Blutdruck und Nierenwerte überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "SGLT2-Hemmer können die Lithiumausscheidung über die Niere steigern und den Lithiumspiegel senken – Spiegel bei Beginn und Dosisänderung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Zusätzliche Blutdrucksenkung, vor allem bei älteren Menschen – auf Schwindel und Blutdruckabfall achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Etwas tiefere Dapagliflozin-Spiegel (Enzyminduktion) – klinisch meist ohne Bedeutung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Mefenaminsäure",
+      "ref": [
+        "mefenaminsaeure"
+      ],
+      "effekt": "Etwas höhere Dapagliflozin-Spiegel (Hemmung des Abbaus über UGT1A9) – klinisch meist ohne Bedeutung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hypoglykämie (Unterzuckerung) bei Kombination mit Insulin oder Sulfonylharnstoffen"],
-    "haeufig": ["Genitalinfektionen wie Scheidenpilz (Vulvovaginitis) oder Eichelentzündung (Balanitis)", "Harnwegsinfekte", "Vermehrtes Wasserlassen (Polyurie), Brennen beim Wasserlassen (Dysurie)", "Schwindel", "Hautausschlag", "Rückenschmerzen", "Anstieg von Hämatokrit und Blutfetten, vorübergehender Rückgang der Nierenfunktion zu Therapiebeginn"],
-    "gelegentlich": ["Volumenmangel (Austrocknung, tiefer Blutdruck)", "Durst, Mundtrockenheit", "Verstopfung", "Nächtliches Wasserlassen (Nykturie)", "Juckreiz im Genitalbereich", "Gewichtsabnahme", "Anstieg von Kreatinin und Harnstoff im Blut"],
-    "selten": ["Diabetische Ketoazidose (lebensbedrohliche Übersäuerung, auch bei fast normalem Blutzucker)"],
-    "sehrSelten": ["Fournier-Gangrän (nekrotisierende Fasziitis im Genital- und Dammbereich)", "Angioödem (Schwellung von Gesicht, Lippen, Zunge)", "Tubulointerstitielle Nephritis (Nierenentzündung)"]
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung) bei Kombination mit Insulin oder Sulfonylharnstoffen"
+    ],
+    "haeufig": [
+      "Genitalinfektionen wie Scheidenpilz (Vulvovaginitis) oder Eichelentzündung (Balanitis)",
+      "Harnwegsinfekte",
+      "Vermehrtes Wasserlassen (Polyurie), Brennen beim Wasserlassen (Dysurie)",
+      "Schwindel",
+      "Hautausschlag",
+      "Rückenschmerzen",
+      "Anstieg von Hämatokrit und Blutfetten, vorübergehender Rückgang der Nierenfunktion zu Therapiebeginn"
+    ],
+    "gelegentlich": [
+      "Volumenmangel (Austrocknung, tiefer Blutdruck)",
+      "Durst, Mundtrockenheit",
+      "Verstopfung",
+      "Nächtliches Wasserlassen (Nykturie)",
+      "Juckreiz im Genitalbereich",
+      "Gewichtsabnahme",
+      "Anstieg von Kreatinin und Harnstoff im Blut"
+    ],
+    "selten": [
+      "Diabetische Ketoazidose (lebensbedrohliche Übersäuerung, auch bei fast normalem Blutzucker)"
+    ],
+    "sehrSelten": [
+      "Fournier-Gangrän (nekrotisierende Fasziitis im Genital- und Dammbereich)",
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge)",
+      "Tubulointerstitielle Nephritis (Nierenentzündung)"
+    ]
   },
-  "schwangerschaft": "Nicht anwenden: im 2. und 3. Schwangerschaftsdrittel nicht empfohlen (Nierenschäden im Tierversuch). Bei Eintritt einer Schwangerschaft absetzen und ärztlich auf eine andere Behandlung umstellen.",
+  "schwangerschaft": "Nicht empfohlen, besonders im 2. und 3. Schwangerschaftsdrittel (Nierenschäden im Tierversuch). Bei Eintritt einer Schwangerschaft absetzen und ärztlich auf eine andere Behandlung umstellen.",
   "stillzeit": "Nicht anwenden, da ein Übergang in die Muttermilch und Auswirkungen auf das gestillte Kind nicht ausgeschlossen werden können.",
   "hinweise": [
     "Der Urin-Zuckertest fällt unter der Behandlung immer positiv aus – zur Kontrolle den Blutzucker messen.",

@@ -1,0 +1,157 @@
+{
+  "id": "distickstoffmonoxid",
+  "name": "Distickstoffmonoxid",
+  "synonyme": [
+    "Lachgas",
+    "Stickoxydul",
+    "Nitrous oxide",
+    "N2O"
+  ],
+  "atc": [
+    "N01AX13"
+  ],
+  "klasse": "Inhalationsanästhetikum und Analgetikum (medizinisches Gas)",
+  "kurz": "Lachgas: rasch wirkendes Schmerzmittel zum Einatmen bei kurzen schmerzhaften Eingriffen; auch Zusatz bei der Vollnarkose.",
+  "gruppen": [
+    "zns-daempfend",
+    "neuropathie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Livopan (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Gas zur medizinischen Anwendung (Inhalation)",
+    "Gasgemisch mit 50 % Sauerstoff"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitige Behandlung leichter bis mittelstarker Schmerzen, wenn ein rascher Wirkungseintritt und ein rasches Abklingen erwünscht sind, z. B. bei kleinen Eingriffen oder Verbandswechseln (Gemisch mit 50 % Sauerstoff; Erwachsene und Kinder ab 1 Monat)",
+      "ids": [
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Bestandteil einer Allgemeinanästhesie zusammen mit anderen Narkosemitteln",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und wirkt beruhigend, solange es eingeatmet wird; nach Ende der Inhalation klingt die Wirkung innert Minuten ab. Distickstoffmonoxid hemmt NMDA-Rezeptoren im Zentralnervensystem und setzt körpereigene Opioide frei, die schmerzhemmende Nervenbahnen aktivieren. Allein ist es nur ein schwaches Narkosemittel. Es oxidiert das Kobalt im Vitamin B12 und hemmt so die Methioninsynthase; bei langer oder wiederholter Anwendung kann dies Blutbildung und Nerven schädigen.",
+  "kontraindikationen": [
+    {
+      "text": "Luft- oder Gasansammlungen im Körper, die sich ausdehnen können: Pneumothorax, Luftembolie, Taucherkrankheit, stark geblähter Darm oder Darmverschluss",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Nach Augenoperationen mit Gasfüllung des Auges, solange das Gas vorhanden ist",
+      "ids": [
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Schädel-Hirn-Verletzung, erhöhter Hirndruck oder Bewusstseinsstörung",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Unbehandelter Vitamin-B12- oder Folsäuremangel sowie angeborene Störungen dieses Stoffwechsels",
+      "ids": [
+        "vitamin-b12-mangel",
+        "seltene-stoffwechselkrankheit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Wiederholte oder längere Anwendung sowie Missbrauch: Inaktivierung von Vitamin B12 mit Blutarmut und Nervenschäden (Rückenmark, Polyneuropathie)",
+      "ids": [
+        "vitamin-b12-mangel",
+        "anaemie",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz oder deutlich eingeschränkte Herzfunktion",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Erkrankungen von Mittelohr oder Nasennebenhöhlen: Druckanstieg mit Ohrenschmerzen",
+      "ids": [
+        "ohrenentzuendung",
+        "sinusitis"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Gabe zentral dämpfender Mittel: tiefere Sedierung – Bewusstsein und Schutzreflexe überwachen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide, Benzodiazepine und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Sedierung bis Bewusstseinsverlust und Atemdepression – überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Lachgas hemmt wie Methotrexat den Folsäurestoffwechsel – verstärkte Methotrexat-Toxizität möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Narkosemittel (z. B. Isofluran, Sevofluran, Desfluran, Propofol)",
+      "ref": [
+        "isofluran",
+        "sevofluran",
+        "desfluran",
+        "propofol"
+      ],
+      "effekt": "Additive Wirkung; geringerer Bedarf an anderen Narkosemitteln.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Schwindel, Benommenheit",
+      "Euphorie (Hochgefühl)",
+      "Übelkeit, Erbrechen"
+    ],
+    "unbekannt": [
+      "Megaloblastäre Anämie und Leukopenie bei längerer oder wiederholter Anwendung",
+      "Nervenschäden (Polyneuropathie, Rückenmarksdegeneration) bei längerer Anwendung oder Missbrauch",
+      "Kopfschmerzen",
+      "Krampfanfälle",
+      "Verwirrtheit, Angst, Unruhe, Psychose",
+      "Abhängigkeit",
+      "Ohrenschmerzen und Druckgefühl im Mittelohr",
+      "Geblähter Darm"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; die kurzzeitige Anwendung, z. B. zur Schmerzlinderung unter der Geburt, ist üblich. Längere oder wiederholte Anwendung vermeiden.",
+  "stillzeit": "Kurzzeitige Anwendung ist mit dem Stillen vereinbar; nicht während des Stillens selbst einatmen.",
+  "hinweise": [
+    "Wird nur unter Aufsicht von geschultem Fachpersonal über Maske oder Mundstück eingeatmet.",
+    "Nach der Anwendung erst dann ein Fahrzeug lenken oder Maschinen bedienen, wenn die Wirkung vollständig abgeklungen ist und die Fachperson es erlaubt.",
+    "Missbrauch als Partydroge kann schwere, teils bleibende Nervenschäden verursachen."
+  ],
+  "stand": "2026-10"
+}

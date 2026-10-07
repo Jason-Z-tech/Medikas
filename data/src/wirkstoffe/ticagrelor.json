@@ -2,53 +2,250 @@
   "id": "ticagrelor",
   "name": "Ticagrelor",
   "synonyme": [],
-  "atc": ["B01AC24"],
+  "atc": [
+    "B01AC24"
+  ],
   "klasse": "Thrombozytenaggregationshemmer (reversibler P2Y12-Hemmer, Cyclopentyl-Triazolopyrimidin)",
   "kurz": "Hemmt die Blutplättchen nach Herzinfarkt oder instabiler Angina pectoris; zusammen mit niedrig dosierter Acetylsalicylsäure.",
-  "gruppen": ["thrombozytenaggregationshemmer", "p2y12-hemmer", "blutungsrisiko-erhoehend", "cyp3a4-substrate-empfindlich", "bradykardisierend"],
-  "handelsnamen": ["Brilique"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "thrombozytenaggregationshemmer",
+    "p2y12-hemmer",
+    "blutungsrisiko-erhoehend",
+    "cyp3a4-substrate-empfindlich",
+    "bradykardisierend",
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Brilique"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Akutes Koronarsyndrom (instabile Angina pectoris, Herzinfarkt mit oder ohne ST-Hebung): Vorbeugung von Herzinfarkt, Schlaganfall und Herztod – zusammen mit Acetylsalicylsäure", "ids": ["herzinfarkt", "angina-pectoris", "koronare-herzkrankheit"] },
-    { "text": "Langzeitvorbeugung bei hohem Risiko nach einem Herzinfarkt, der mindestens ein Jahr zurückliegt (niedrigere Dosis, zusammen mit Acetylsalicylsäure)", "ids": ["herzinfarkt", "koronare-herzkrankheit"] }
+    {
+      "text": "Akutes Koronarsyndrom (instabile Angina pectoris, Herzinfarkt mit oder ohne ST-Hebung): Vorbeugung von Herzinfarkt, Schlaganfall und Herztod – zusammen mit Acetylsalicylsäure",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Langzeitvorbeugung bei hohem Risiko nach einem Herzinfarkt, der mindestens ein Jahr zurückliegt (niedrigere Dosis, zusammen mit Acetylsalicylsäure)",
+      "ids": [
+        "herzinfarkt",
+        "koronare-herzkrankheit"
+      ]
+    }
   ],
   "wirkmechanismus": "Verhindert, dass Blutplättchen verklumpen und Gerinnsel in den Herzkranzgefässen bilden. Ticagrelor blockiert den ADP-Rezeptor P2Y12 der Blutplättchen direkt und reversibel; es muss nicht erst in der Leber aktiviert werden und wirkt deshalb rasch und unabhängig vom CYP2C19-Stoffwechsel. Weil die Bindung umkehrbar ist, lässt die Wirkung nach dem Absetzen innerhalb weniger Tage nach. Zusätzlich hemmt Ticagrelor die Wiederaufnahme von Adenosin, was die häufige Atemnot erklären könnte. Der Abbau erfolgt über CYP3A4.",
   "kontraindikationen": [
-    { "text": "Aktive krankhafte Blutung", "ids": ["aktive-blutung"] },
-    { "text": "Hirnblutung in der Vorgeschichte", "ids": ["hirnblutung"] },
-    { "text": "Schwere Leberfunktionsstörung", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Aktive krankhafte Blutung",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Hirnblutung in der Vorgeschichte",
+      "ids": [
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Erhöhtes Blutungsrisiko: kürzliche Verletzung oder Operation, Gerinnungsstörung, kürzliche Magen-Darm-Blutung", "ids": ["operation", "blutgerinnungsstoerung", "magen-darm-ulkus"] },
-    { "text": "Langsamer Puls, Sick-Sinus-Syndrom, AV-Block 2. oder 3. Grades ohne Schrittmacher, Ohnmachtsanfälle (Pausen im Herzrhythmus möglich)", "ids": ["bradykardie", "av-block"] },
-    { "text": "Asthma oder COPD: Atemnot als Nebenwirkung häufig", "ids": ["asthma", "copd"] },
-    { "text": "Erhöhte Harnsäure oder Gicht", "ids": ["gicht"] },
-    { "text": "Mässig eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
-    { "text": "Dialysepflichtige Niereninsuffizienz (wenig Erfahrung)", "ids": ["niereninsuffizienz"] },
-    { "text": "Zentrale Schlafapnoe (Atemaussetzer) möglich", "ids": ["schlafapnoe"] }
+    {
+      "text": "Erhöhtes Blutungsrisiko: kürzliche Verletzung oder Operation, Gerinnungsstörung, kürzliche Magen-Darm-Blutung",
+      "ids": [
+        "operation",
+        "blutgerinnungsstoerung",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Langsamer Puls, Sick-Sinus-Syndrom, AV-Block 2. oder 3. Grades ohne Schrittmacher, Ohnmachtsanfälle (Pausen im Herzrhythmus möglich)",
+      "ids": [
+        "bradykardie",
+        "av-block",
+        "sick-sinus-syndrom",
+        "synkope"
+      ]
+    },
+    {
+      "text": "Asthma oder COPD: Atemnot als Nebenwirkung häufig",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Erhöhte Harnsäure oder Gicht",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Mässig eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Dialysepflichtige Niereninsuffizienz (wenig Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Zentrale Schlafapnoe (Atemaussetzer) möglich",
+      "ids": [
+        "schlafapnoe"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir, Atazanavir, Nefazodon)", "ref": ["gruppe:starke-cyp3a4-hemmer", "ketoconazol", "clarithromycin", "ritonavir", "atazanavir"], "grund": "Hemmen den Abbau von Ticagrelor – Spiegel steigt stark an, erhöhtes Blutungsrisiko." }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir, Atazanavir, Nefazodon)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ketoconazol",
+        "clarithromycin",
+        "ritonavir",
+        "atazanavir"
+      ],
+      "grund": "Hemmen den Abbau von Ticagrelor – Spiegel steigt stark an, erhöhtes Blutungsrisiko."
+    }
   ],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Ticagrelor wird rascher abgebaut – Wirkungsverlust; Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Orale Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban)", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur nach strenger ärztlicher Abwägung.", "schwere": "schwer" },
-    { "text": "Acetylsalicylsäure in höherer Erhaltungsdosis", "ref": ["acetylsalicylsaeure"], "effekt": "Höhere ASS-Erhaltungsdosen schwächen den Nutzen ab – nur niedrig dosierte ASS (75–150 mg pro Tag) kombinieren.", "schwere": "mittel" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin, Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Ticagrelor-Spiegel steigt – auf Blutungen achten.", "schwere": "mittel" },
-    { "text": "Simvastatin und Lovastatin in Dosen über 40 mg", "ref": ["simvastatin"], "effekt": "Ticagrelor erhöht deren Spiegel – Gefahr von Muskelschäden; Dosis begrenzen.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel steigt – Spiegel und Puls kontrollieren.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ticagrelor-Spiegel steigt – Vorsicht.", "schwere": "mittel" },
-    { "text": "Herzschlag-verlangsamende Mittel (Betablocker, Verapamil, Diltiazem, Digoxin)", "ref": ["gruppe:bradykardisierend"], "effekt": "Mehr Bradykardie und Herzrhythmuspausen möglich – Puls beobachten.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
-    { "text": "Opioide (z. B. Morphin, Fentanyl) beim akuten Koronarsyndrom", "ref": ["gruppe:opioide"], "effekt": "Verzögerte und verminderte Aufnahme von Ticagrelor, dadurch verzögerte Plättchenhemmung.", "schwere": "mittel" }
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Ticagrelor wird rascher abgebaut – Wirkungsverlust; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Orale Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – nur nach strenger ärztlicher Abwägung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Acetylsalicylsäure in höherer Erhaltungsdosis",
+      "ref": [
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Höhere ASS-Erhaltungsdosen schwächen den Nutzen ab – nur niedrig dosierte ASS (75–150 mg pro Tag) kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Ticagrelor-Spiegel steigt – auf Blutungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Simvastatin und Lovastatin in Dosen über 40 mg",
+      "ref": [
+        "simvastatin"
+      ],
+      "effekt": "Ticagrelor erhöht deren Spiegel – Gefahr von Muskelschäden; Dosis begrenzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigt – Spiegel und Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ticagrelor-Spiegel steigt – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschlag-verlangsamende Mittel (Betablocker, Verapamil, Diltiazem, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Mehr Bradykardie und Herzrhythmuspausen möglich – Puls beobachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide (z. B. Morphin, Fentanyl) beim akuten Koronarsyndrom",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Verzögerte und verminderte Aufnahme von Ticagrelor, dadurch verzögerte Plättchenhemmung.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Blutungen (z. B. Blutergüsse, Nasenbluten)", "Dyspnoe (Atemnot, meist leicht und vorübergehend)", "Hyperurikämie (erhöhte Harnsäure)"],
-    "haeufig": ["Gicht", "Schwindel, Kopfschmerzen, Ohnmacht", "Tiefer Blutdruck", "Magen-Darm-Blutungen und Blutungen der Atemwege", "Durchfall, Übelkeit, Verdauungsbeschwerden, Verstopfung", "Hautausschlag, Juckreiz, Hautblutungen", "Blutungen der Harnwege, erhöhtes Kreatinin", "Nachblutungen nach Eingriffen und nach Verletzungen"],
-    "gelegentlich": ["Hirnblutung", "Überempfindlichkeitsreaktionen einschliesslich Angioödem", "Verwirrtheit", "Augen- und Ohrenblutungen", "Blutungen im hinteren Bauchraum (retroperitoneal), Muskelblutungen", "Blutungen aus Tumoren"],
-    "unbekannt": ["Thrombotisch-thrombozytopenische Purpura (TTP)", "Bradyarrhythmie (zu langsamer Herzschlag, Rhythmuspausen)", "Zentrale Schlafapnoe einschliesslich Cheyne-Stokes-Atmung"]
+    "sehrHaeufig": [
+      "Blutungen (z. B. Blutergüsse, Nasenbluten)",
+      "Dyspnoe (Atemnot, meist leicht und vorübergehend)",
+      "Hyperurikämie (erhöhte Harnsäure)"
+    ],
+    "haeufig": [
+      "Gicht",
+      "Schwindel, Kopfschmerzen, Ohnmacht",
+      "Tiefer Blutdruck",
+      "Magen-Darm-Blutungen und Blutungen der Atemwege",
+      "Durchfall, Übelkeit, Verdauungsbeschwerden, Verstopfung",
+      "Hautausschlag, Juckreiz, Hautblutungen",
+      "Blutungen der Harnwege, erhöhtes Kreatinin",
+      "Nachblutungen nach Eingriffen und nach Verletzungen"
+    ],
+    "gelegentlich": [
+      "Hirnblutung",
+      "Überempfindlichkeitsreaktionen einschliesslich Angioödem",
+      "Verwirrtheit",
+      "Augen- und Ohrenblutungen",
+      "Blutungen im hinteren Bauchraum (retroperitoneal), Muskelblutungen",
+      "Blutungen aus Tumoren"
+    ],
+    "unbekannt": [
+      "Thrombotisch-thrombozytopenische Purpura (TTP)",
+      "Bradyarrhythmie (zu langsamer Herzschlag, Rhythmuspausen)",
+      "Zentrale Schlafapnoe einschliesslich Cheyne-Stokes-Atmung"
+    ]
   },
   "schwangerschaft": "Nicht empfohlen; Frauen im gebärfähigen Alter sollen während der Behandlung sicher verhüten.",
   "stillzeit": "Ticagrelor geht im Tierversuch in die Milch über; Stillen oder Behandlung abbrechen – ärztlich entscheiden.",

@@ -1,50 +1,210 @@
 {
   "id": "nitrofurantoin",
   "name": "Nitrofurantoin",
-  "synonyme": ["Nitrofurantoin-Makrokristalle", "Nitrofurantoinum"],
-  "atc": ["J01XE01"],
+  "synonyme": [
+    "Nitrofurantoin-Makrokristalle",
+    "Nitrofurantoinum"
+  ],
+  "atc": [
+    "J01XE01"
+  ],
   "klasse": "Nitrofuran-Antibiotikum (Harnwegsantiinfektivum)",
   "kurz": "Antibiotikum, das nur im Urin wirkt; gegen unkomplizierte Blasenentzündungen und zur Vorbeugung wiederkehrender Harnwegsinfekte.",
-  "gruppen": ["hepatotoxisch"],
-  "handelsnamen": ["Uvamin retard", "Furadantin retard"],
-  "abgabe": ["A"],
-  "darreichung": ["Retardkapseln"],
+  "gruppen": [
+    "hepatotoxisch",
+    "neuropathie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Uvamin retard",
+    "Furadantin retard"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Retardkapseln"
+  ],
   "indikationen": [
-    { "text": "Akute, unkomplizierte Infektionen der unteren Harnwege (Blasenentzündung) durch empfindliche Bakterien", "ids": ["harnwegsinfekt"] },
-    { "text": "Langzeitvorbeugung bei häufig wiederkehrenden Harnwegsinfekten, wenn andere Massnahmen nicht genügen", "ids": ["harnwegsinfekt"] }
+    {
+      "text": "Akute, unkomplizierte Infektionen der unteren Harnwege (Blasenentzündung) durch empfindliche Bakterien",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Langzeitvorbeugung bei häufig wiederkehrenden Harnwegsinfekten, wenn andere Massnahmen nicht genügen",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Bakterien in der Blase ab, wirkt aber kaum im übrigen Körper. Nitrofurantoin wird in den Bakterien durch bakterielle Nitroreduktasen zu reaktiven Zwischenprodukten umgewandelt, die ribosomale Proteine, die Erbsubstanz (DNA) und Enzyme des Energiestoffwechsels schädigen. Weil der Wirkstoff rasch über die Niere ausgeschieden wird, entstehen wirksame Konzentrationen nur im Urin; für Nierenbeckenentzündungen oder Infektionen ausserhalb der Harnwege ist er deshalb nicht geeignet.",
   "kontraindikationen": [
-    { "text": "Eingeschränkte Nierenfunktion mit verminderter Urinausscheidung (Oligurie, Anurie) oder deutlich verminderter Kreatinin-Clearance: ungenügende Wirkung und mehr Nebenwirkungen", "ids": ["niereninsuffizienz"] },
-    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr einer hämolytischen Anämie)", "ids": ["g6pd-mangel", "haemolytische-anaemie"] },
-    { "text": "Bestehende Polyneuropathie (Nervenschädigung)", "ids": ["nervenschmerzen"] },
-    { "text": "Frühere Leberschäden oder Lungenreaktionen durch Nitrofurantoin", "ids": ["leberinsuffizienz", "lungenfibrose"] },
-    { "text": "Letzte Schwangerschaftswochen und Geburt (Gefahr eines Blutzerfalls beim Neugeborenen)", "ids": ["schwangerschaft"] },
-    { "text": "Säuglinge in den ersten 3 Lebensmonaten", "ids": ["kinder"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion mit verminderter Urinausscheidung (Oligurie, Anurie) oder deutlich verminderter Kreatinin-Clearance: ungenügende Wirkung und mehr Nebenwirkungen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr einer hämolytischen Anämie)",
+      "ids": [
+        "g6pd-mangel",
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Bestehende Polyneuropathie (Nervenschädigung)",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Frühere Leberschäden oder Lungenreaktionen durch Nitrofurantoin",
+      "ids": [
+        "leberinsuffizienz",
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Letzte Schwangerschaftswochen und Geburt (Gefahr eines Blutzerfalls beim Neugeborenen)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Säuglinge in den ersten 3 Lebensmonaten",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Ältere Menschen: häufiger eingeschränkte Nierenfunktion sowie Lungen-, Leber- und Nervenreaktionen", "ids": ["aeltere-patienten", "niereninsuffizienz"] },
-    { "text": "Langzeitanwendung: Lungenfibrose, chronische Hepatitis und Nervenschäden möglich – Lungen-, Leber- und Nervenfunktion regelmässig kontrollieren", "ids": ["lungenfibrose", "leberinsuffizienz"] },
-    { "text": "Erhöhtes Risiko für Nervenschäden bei Diabetes, Blutarmut, Vitamin-B-Mangel, Elektrolytstörungen und geschwächtem Allgemeinzustand", "ids": ["diabetes", "anaemie", "vitamin-b12-mangel", "mangelernaehrung"] },
-    { "text": "Lungenerkrankungen: akute oder chronische Lungenreaktionen können sich überlagern", "ids": ["lungenfibrose", "copd", "asthma"] },
-    { "text": "Lebererkrankungen", "ids": ["leberinsuffizienz"] },
-    { "text": "Fieberhafte Nierenbeckenentzündung oder Blutvergiftung: Nitrofurantoin erreicht keine wirksamen Spiegel im Gewebe", "ids": ["bakterielle-infektion"] }
+    {
+      "text": "Ältere Menschen: häufiger eingeschränkte Nierenfunktion sowie Lungen-, Leber- und Nervenreaktionen",
+      "ids": [
+        "aeltere-patienten",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Langzeitanwendung: Lungenfibrose, chronische Hepatitis und Nervenschäden möglich – Lungen-, Leber- und Nervenfunktion regelmässig kontrollieren",
+      "ids": [
+        "lungenfibrose",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Nervenschäden bei Diabetes, Blutarmut, Vitamin-B-Mangel, Elektrolytstörungen und geschwächtem Allgemeinzustand",
+      "ids": [
+        "diabetes",
+        "anaemie",
+        "vitamin-b12-mangel",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen: akute oder chronische Lungenreaktionen können sich überlagern",
+      "ids": [
+        "lungenfibrose",
+        "copd",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Fieberhafte Nierenbeckenentzündung oder Blutvergiftung: Nitrofurantoin erreicht keine wirksamen Spiegel im Gewebe",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Probenecid und Sulfinpyrazon (Gichtmittel)", "ref": [], "effekt": "Hemmen die Ausscheidung von Nitrofurantoin über die Niere: schwächere Wirkung im Urin und mehr Nebenwirkungen.", "schwere": "mittel" },
-    { "text": "Antazida, insbesondere mit Magnesiumtrisilikat", "ref": ["gruppe:antazida"], "effekt": "Verminderte Aufnahme von Nitrofurantoin – zeitlich getrennt einnehmen.", "schwere": "mittel" },
-    { "text": "Orale Typhus-Lebendimpfung", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können den Schluckimpfstoff unwirksam machen – Abstand gemäss Impfstoff-Fachinformation (mindestens 3 Tage) einhalten.", "schwere": "mittel" },
-    { "text": "Andere leberschädigende Arzneimittel", "ref": ["gruppe:hepatotoxisch"], "effekt": "Zusätzliches Risiko für Leberschäden, vor allem bei Langzeitanwendung – Leberwerte kontrollieren.", "schwere": "mittel" },
-    { "text": "Chinolon-Antibiotika (z. B. Norfloxacin, Ciprofloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Gegenseitige Abschwächung der antibakteriellen Wirkung (Antagonismus im Labor) – Kombination vermeiden.", "schwere": "leicht" },
-    { "text": "Carboanhydrasehemmer und urinalkalisierende Mittel (z. B. Acetazolamid, Citrate)", "ref": ["acetazolamid"], "effekt": "Alkalischer Urin vermindert die Wirkung von Nitrofurantoin.", "schwere": "leicht" }
+    {
+      "text": "Probenecid und Sulfinpyrazon (Gichtmittel)",
+      "ref": [],
+      "effekt": "Hemmen die Ausscheidung von Nitrofurantoin über die Niere: schwächere Wirkung im Urin und mehr Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida, insbesondere mit Magnesiumtrisilikat",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Nitrofurantoin – zeitlich getrennt einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Typhus-Lebendimpfung",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Antibiotika können den Schluckimpfstoff unwirksam machen – Abstand gemäss Impfstoff-Fachinformation (mindestens 3 Tage) einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Arzneimittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Zusätzliches Risiko für Leberschäden, vor allem bei Langzeitanwendung – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Chinolon-Antibiotika (z. B. Norfloxacin, Ciprofloxacin)",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Gegenseitige Abschwächung der antibakteriellen Wirkung (Antagonismus im Labor) – Kombination vermeiden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Carboanhydrasehemmer und urinalkalisierende Mittel (z. B. Acetazolamid, Citrate)",
+      "ref": [
+        "acetazolamid"
+      ],
+      "effekt": "Alkalischer Urin vermindert die Wirkung von Nitrofurantoin.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Übelkeit, Appetitlosigkeit, Erbrechen", "Kopfschmerzen", "Schwindel und Benommenheit"],
-    "gelegentlich": ["Allergische Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht)", "Durchfall, Bauchschmerzen"],
-    "selten": ["Akute Lungenreaktionen (Fieber, Husten, Atemnot, Brustschmerzen)", "Chronische Lungenveränderungen bis Lungenfibrose bei Langzeitanwendung", "Periphere Polyneuropathie (Kribbeln, Taubheit, Schwäche in Armen und Beinen)", "Cholestatische Gelbsucht und Hepatitis (Leberentzündung)", "Hämolytische Anämie (Blutzerfall), besonders bei G6PD-Mangel", "Blutbildveränderungen (Leukopenie, Agranulozytose, Thrombozytopenie)", "Vorübergehender Haarausfall"],
-    "sehrSelten": ["Chronisch aktive Hepatitis, Leberversagen", "Anaphylaxie (schwere allergische Reaktion) und Angioödem", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, exfoliative Dermatitis)", "Lupus-ähnliches Syndrom", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Gutartige Hirndrucksteigerung"],
-    "unbekannt": ["Arzneimittelfieber", "Antibiotika-assoziierte Durchfälle bis pseudomembranöse Kolitis (Clostridioides difficile)", "Aplastische Anämie"]
+    "haeufig": [
+      "Übelkeit, Appetitlosigkeit, Erbrechen",
+      "Kopfschmerzen",
+      "Schwindel und Benommenheit"
+    ],
+    "gelegentlich": [
+      "Allergische Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht)",
+      "Durchfall, Bauchschmerzen"
+    ],
+    "selten": [
+      "Akute Lungenreaktionen (Fieber, Husten, Atemnot, Brustschmerzen)",
+      "Chronische Lungenveränderungen bis Lungenfibrose bei Langzeitanwendung",
+      "Periphere Polyneuropathie (Kribbeln, Taubheit, Schwäche in Armen und Beinen)",
+      "Cholestatische Gelbsucht und Hepatitis (Leberentzündung)",
+      "Hämolytische Anämie (Blutzerfall), besonders bei G6PD-Mangel",
+      "Blutbildveränderungen (Leukopenie, Agranulozytose, Thrombozytopenie)",
+      "Vorübergehender Haarausfall"
+    ],
+    "sehrSelten": [
+      "Chronisch aktive Hepatitis, Leberversagen",
+      "Anaphylaxie (schwere allergische Reaktion) und Angioödem",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, exfoliative Dermatitis)",
+      "Lupus-ähnliches Syndrom",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Gutartige Hirndrucksteigerung"
+    ],
+    "unbekannt": [
+      "Arzneimittelfieber",
+      "Antibiotika-assoziierte Durchfälle bis pseudomembranöse Kolitis (Clostridioides difficile)",
+      "Aplastische Anämie"
+    ]
   },
   "schwangerschaft": "Nach ärztlicher Abwägung möglich; in den letzten Schwangerschaftswochen und unter der Geburt kontraindiziert, da beim Neugeborenen ein Blutzerfall (hämolytische Anämie) ausgelöst werden kann.",
   "stillzeit": "Geht in geringen Mengen in die Muttermilch über. Nicht anwenden, wenn das gestillte Kind jünger als 1 Monat ist oder einen G6PD-Mangel hat bzw. haben könnte; sonst nach ärztlicher Abwägung.",

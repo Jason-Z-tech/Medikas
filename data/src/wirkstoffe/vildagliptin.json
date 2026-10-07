@@ -1,46 +1,154 @@
 {
   "id": "vildagliptin",
   "name": "Vildagliptin",
-  "synonyme": ["Vildagliptinum"],
-  "atc": ["A10BH02", "A10BD08"],
+  "synonyme": [
+    "Vildagliptinum"
+  ],
+  "atc": [
+    "A10BH02",
+    "A10BD08"
+  ],
   "klasse": "DPP-4-Hemmer (Gliptin, orales Antidiabetikum)",
   "kurz": "Tablette gegen Typ-2-Diabetes; verstärkt körpereigene Darmhormone, die Insulin freisetzen. Die Leberwerte werden regelmässig kontrolliert.",
-  "gruppen": ["dpp4-hemmer"],
-  "handelsnamen": ["Galvus", "Galvumet (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "dpp4-hemmer"
+  ],
+  "handelsnamen": [
+    "Galvus",
+    "Galvumet (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Typ-2-Diabetes bei Erwachsenen, ergänzend zu Ernährung und Bewegung: allein (wenn Metformin ungeeignet ist) oder kombiniert mit Metformin, Sulfonylharnstoff, Pioglitazon oder Insulin", "ids": ["diabetes-typ-2", "diabetes"] }
+    {
+      "text": "Typ-2-Diabetes bei Erwachsenen, ergänzend zu Ernährung und Bewegung: allein (wenn Metformin ungeeignet ist) oder kombiniert mit Metformin, Sulfonylharnstoff, Pioglitazon oder Insulin",
+      "ids": [
+        "diabetes-typ-2",
+        "diabetes"
+      ]
+    }
   ],
   "wirkmechanismus": "Verstärkt die Wirkung körpereigener Darmhormone, die nach dem Essen die Insulinausschüttung anregen. Vildagliptin hemmt das Enzym Dipeptidylpeptidase-4 (DPP-4), sodass die Inkretine GLP-1 und GIP langsamer abgebaut werden. Dadurch steigt die blutzuckerabhängige Insulinfreisetzung und die Glukagonausschüttung sinkt; bei normalem Blutzucker lässt die Wirkung nach. Vildagliptin wird hauptsächlich durch Hydrolyse und nicht über Cytochrom-P450-Enzyme abgebaut und über die Nieren ausgeschieden.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Leberinsuffizienz, auch bei Leberwerten (ALT/AST) über dem Dreifachen der Norm vor Behandlungsbeginn: nicht anwenden. Leberwerte vor Beginn, im ersten Jahr alle 3 Monate und danach regelmässig kontrollieren; bei Gelbsucht absetzen", "ids": ["leberinsuffizienz"] },
-    { "text": "Mässige oder schwere Niereninsuffizienz: nur einmal täglich 50 mg", "ids": ["niereninsuffizienz"] },
-    { "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen", "ids": ["pankreatitis"] },
-    { "text": "Schwere Herzinsuffizienz (NYHA IV): keine Erfahrungen, nicht empfohlen", "ids": ["herzinsuffizienz"] },
-    { "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr, deren Dosis eventuell senken", "ids": ["hypoglykaemie"] },
-    { "text": "Hautveränderungen wie Blasen oder Geschwüre (auch bullöses Pemphigoid): Haut im Rahmen der Diabeteskontrollen regelmässig untersuchen", "ids": ["pemphigus"] },
-    { "text": "Nicht geeignet bei Typ-1-Diabetes oder diabetischer Ketoazidose", "ids": ["diabetes-typ-1", "ketoazidose"] }
+    {
+      "text": "Leberinsuffizienz, auch bei Leberwerten (ALT/AST) über dem Dreifachen der Norm vor Behandlungsbeginn: nicht anwenden. Leberwerte vor Beginn, im ersten Jahr alle 3 Monate und danach regelmässig kontrollieren; bei Gelbsucht absetzen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Mässige oder schwere Niereninsuffizienz: Dosis wird reduziert",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute Pankreatitis (Bauchspeicheldrüsenentzündung): bei anhaltenden starken Bauchschmerzen absetzen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz (NYHA IV): keine Erfahrungen, nicht empfohlen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "In Kombination mit Sulfonylharnstoff oder Insulin: Unterzuckerungsgefahr, deren Dosis eventuell senken",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Hautveränderungen wie Blasen oder Geschwüre (auch bullöses Pemphigoid): Haut im Rahmen der Diabeteskontrollen regelmässig untersuchen",
+      "ids": [
+        "pemphigus"
+      ]
+    },
+    {
+      "text": "Nicht geeignet bei Typ-1-Diabetes oder diabetischer Ketoazidose",
+      "ids": [
+        "diabetes-typ-1",
+        "ketoazidose"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Insulin und Sulfonylharnstoffe", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Mehr Unterzuckerungen – Dosis von Insulin oder Sulfonylharnstoff eventuell senken.", "schwere": "mittel" },
-    { "text": "ACE-Hemmer (z. B. Ramipril, Lisinopril, Enalapril)", "ref": ["gruppe:ace-hemmer"], "effekt": "Erhöhtes Risiko für ein Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen) – bei Schwellungen sofort ärztliche Hilfe.", "schwere": "mittel" },
-    { "text": "Pioglitazon", "ref": ["pioglitazon"], "effekt": "In Kombination häufiger Wassereinlagerungen und Gewichtszunahme – Ödeme beobachten.", "schwere": "leicht" },
-    { "text": "Blutzuckererhöhende Mittel: Thiazid-Diuretika, Glukokortikoide, Schilddrüsenhormone, Sympathomimetika", "ref": ["gruppe:thiaziddiuretika", "gruppe:glukokortikoide-systemisch", "gruppe:schilddruesenhormone", "gruppe:sympathomimetika"], "effekt": "Können die blutzuckersenkende Wirkung abschwächen – Blutzucker kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Mehr Unterzuckerungen – Dosis von Insulin oder Sulfonylharnstoff eventuell senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer (z. B. Ramipril, Lisinopril, Enalapril)",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für ein Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen) – bei Schwellungen sofort ärztliche Hilfe.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "In Kombination häufiger Wassereinlagerungen und Gewichtszunahme – Ödeme beobachten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutzuckererhöhende Mittel: Thiazid-Diuretika, Glukokortikoide, Schilddrüsenhormone, Sympathomimetika",
+      "ref": [
+        "gruppe:thiaziddiuretika",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schilddruesenhormone",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Können die blutzuckersenkende Wirkung abschwächen – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Schwindel", "Hypoglykämie (Unterzuckerung), vor allem in Kombination mit Sulfonylharnstoff oder Insulin", "Kopfschmerzen und Zittern (in Kombination mit Metformin oder Sulfonylharnstoff)", "Übelkeit (in Kombination mit Metformin)", "Periphere Ödeme (Wassereinlagerungen) und Gewichtszunahme in Kombination mit Pioglitazon", "Schwäche (Asthenie) in Kombination mit Sulfonylharnstoff"],
-    "gelegentlich": ["Verstopfung", "Gelenkschmerzen (Arthralgie)"],
-    "selten": ["Angioödem (Schwellung von Gesicht, Lippen oder Rachen), häufiger zusammen mit ACE-Hemmern"],
-    "sehrSelten": ["Infektionen der oberen Atemwege, Nasen-Rachen-Entzündung"],
-    "unbekannt": ["Leberfunktionsstörungen bis Hepatitis (nach Absetzen meist rückläufig)", "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "Nesselsucht, schuppende und blasenbildende Hautveränderungen einschliesslich bullöses Pemphigoid", "Kutane Vaskulitis", "Muskelschmerzen (Myalgie)"]
+    "haeufig": [
+      "Schwindel",
+      "Hypoglykämie (Unterzuckerung), vor allem in Kombination mit Sulfonylharnstoff oder Insulin",
+      "Kopfschmerzen und Zittern (in Kombination mit Metformin oder Sulfonylharnstoff)",
+      "Übelkeit (in Kombination mit Metformin)",
+      "Periphere Ödeme (Wassereinlagerungen) und Gewichtszunahme in Kombination mit Pioglitazon",
+      "Schwäche (Asthenie) in Kombination mit Sulfonylharnstoff"
+    ],
+    "gelegentlich": [
+      "Verstopfung",
+      "Gelenkschmerzen (Arthralgie)"
+    ],
+    "selten": [
+      "Angioödem (Schwellung von Gesicht, Lippen oder Rachen), häufiger zusammen mit ACE-Hemmern"
+    ],
+    "sehrSelten": [
+      "Infektionen der oberen Atemwege, Nasen-Rachen-Entzündung"
+    ],
+    "unbekannt": [
+      "Leberfunktionsstörungen bis Hepatitis (nach Absetzen meist rückläufig)",
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Nesselsucht, schuppende und blasenbildende Hautveränderungen einschliesslich bullöses Pemphigoid",
+      "Kutane Vaskulitis",
+      "Muskelschmerzen (Myalgie)"
+    ]
   },
   "schwangerschaft": "Nicht anwenden: Es liegen keine ausreichenden Erfahrungen vor; in der Schwangerschaft wird Insulin bevorzugt.",
   "stillzeit": "Nicht anwenden: Es ist nicht bekannt, ob Vildagliptin beim Menschen in die Muttermilch übergeht (bei Tieren ja).",
   "hinweise": [
-    "Unabhängig von den Mahlzeiten einnehmen (meist morgens und abends je 50 mg; mit Sulfonylharnstoff einmal morgens).",
+    "Unabhängig von den Mahlzeiten einnehmen.",
     "Leberwerte vor Beginn und im ersten Jahr alle 3 Monate kontrollieren lassen; bei Gelbfärbung von Haut oder Augen sofort ärztlich abklären.",
     "Bei anhaltenden, starken Bauchschmerzen sofort ärztlich abklären lassen (mögliche Bauchspeicheldrüsenentzündung).",
     "In Kombination mit Sulfonylharnstoff oder Insulin kann eine Unterzuckerung die Fahrtüchtigkeit beeinträchtigen."

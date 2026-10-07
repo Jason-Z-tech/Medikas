@@ -1,49 +1,203 @@
 {
   "id": "fondaparinux",
   "name": "Fondaparinux",
-  "synonyme": ["Fondaparinux-Natrium", "Fondaparinux sodium", "Pentasaccharid"],
-  "atc": ["B01AX05"],
+  "synonyme": [
+    "Fondaparinux-Natrium",
+    "Fondaparinux sodium",
+    "Pentasaccharid"
+  ],
+  "atc": [
+    "B01AX05"
+  ],
   "klasse": "Synthetisches Pentasaccharid; selektiver indirekter Faktor-Xa-Hemmer (Antikoagulans)",
   "kurz": "Gerinnungshemmende Spritze, einmal täglich, zur Vorbeugung und Behandlung von Thrombosen und Lungenembolien.",
-  "gruppen": ["antikoagulanzien", "blutungsrisiko-erhoehend"],
-  "handelsnamen": ["Arixtra"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung in Fertigspritzen"],
+  "gruppen": [
+    "antikoagulanzien",
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Arixtra"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung in Fertigspritzen"
+  ],
   "indikationen": [
-    { "text": "Thrombosevorbeugung bei grossen orthopädischen Eingriffen an den Beinen (Hüftfraktur, Hüft- oder Kniegelenkersatz) und bei Bauchoperationen mit hohem Risiko", "ids": ["thromboseprophylaxe", "operation"] },
-    { "text": "Thrombosevorbeugung bei internistischen Patientinnen und Patienten mit hohem Risiko und Bettlägerigkeit wegen akuter Erkrankung", "ids": ["thromboseprophylaxe"] },
-    { "text": "Behandlung der akuten tiefen Venenthrombose und der Lungenembolie", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Oberflächliche Venenthrombose der Beine ohne gleichzeitige tiefe Venenthrombose", "ids": ["thrombose"] },
-    { "text": "Instabile Angina pectoris und Herzinfarkt (akutes Koronarsyndrom)", "ids": ["angina-pectoris", "herzinfarkt"] }
+    {
+      "text": "Thrombosevorbeugung bei grossen orthopädischen Eingriffen an den Beinen (Hüftfraktur, Hüft- oder Kniegelenkersatz) und bei Bauchoperationen mit hohem Risiko",
+      "ids": [
+        "thromboseprophylaxe",
+        "operation"
+      ]
+    },
+    {
+      "text": "Thrombosevorbeugung bei internistischen Patientinnen und Patienten mit hohem Risiko und Bettlägerigkeit wegen akuter Erkrankung",
+      "ids": [
+        "thromboseprophylaxe"
+      ]
+    },
+    {
+      "text": "Behandlung der akuten tiefen Venenthrombose und der Lungenembolie",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Oberflächliche Venenthrombose der Beine ohne gleichzeitige tiefe Venenthrombose",
+      "ids": [
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris und Herzinfarkt (akutes Koronarsyndrom)",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Blutgerinnung und verhindert so Blutgerinnsel. Fondaparinux ist ein vollsynthetisches Pentasaccharid, das genau der Bindungsstelle des Heparins für Antithrombin entspricht. Es bindet selektiv an Antithrombin und verstärkt dessen Hemmung des Gerinnungsfaktors Xa etwa 300-fach; Thrombin selbst wird nicht gehemmt. Weil es nicht mit dem Plättchenfaktor 4 reagiert, ist eine heparininduzierte Thrombozytopenie praktisch nicht zu erwarten. Fondaparinux wird unverändert über die Nieren ausgeschieden und hat eine lange Halbwertszeit (etwa 17–21 Stunden), sodass eine Spritze pro Tag genügt.",
   "kontraindikationen": [
-    { "text": "Aktive, klinisch relevante Blutung", "ids": ["aktive-blutung"] },
-    { "text": "Akute bakterielle Endokarditis", "ids": ["bakterielle-infektion"] },
-    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 20 ml/min bei Vorbeugungsdosis, unter 30 ml/min bei Behandlungsdosis)", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Aktive, klinisch relevante Blutung",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Akute bakterielle Endokarditis",
+      "ids": [
+        "endokarditis"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 20 ml/min bei Vorbeugungsdosis, unter 30 ml/min bei Behandlungsdosis)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Erhöhtes Blutungsrisiko: Gerinnungsstörung, aktives Magen-Darm-Geschwür, kürzliche Hirnblutung, kurz nach Operationen an Gehirn, Rückenmark oder Auge", "ids": ["blutgerinnungsstoerung", "magen-darm-ulkus", "hirnblutung", "operation"] },
-    { "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion: Gefahr eines spinalen oder epiduralen Hämatoms mit möglicher Lähmung", "ids": ["anaesthesie"] },
-    { "text": "Mässig eingeschränkte Nierenfunktion: Anreicherung möglich", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Leberfunktionsstörung", "ids": ["leberinsuffizienz"] },
-    { "text": "Ältere Menschen und Körpergewicht unter 50 kg: höheres Blutungsrisiko", "ids": ["aeltere-patienten"] },
-    { "text": "Heparininduzierte Thrombozytopenie in der Vorgeschichte: wenig untersucht, Einzelfälle beschrieben", "ids": ["thrombozytopenie"] },
-    { "text": "Latexallergie: Die Nadelschutzkappe der Fertigspritze kann Naturkautschuk enthalten", "ids": ["latexallergie"] }
+    {
+      "text": "Erhöhtes Blutungsrisiko: Gerinnungsstörung, aktives Magen-Darm-Geschwür, kürzliche Hirnblutung, kurz nach Operationen an Gehirn, Rückenmark oder Auge",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "magen-darm-ulkus",
+        "hirnblutung",
+        "operation"
+      ]
+    },
+    {
+      "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion: Gefahr eines spinalen oder epiduralen Hämatoms mit möglicher Lähmung",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Mässig eingeschränkte Nierenfunktion: Anreicherung möglich",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Körpergewicht unter 50 kg: höheres Blutungsrisiko",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Heparininduzierte Thrombozytopenie in der Vorgeschichte: wenig untersucht, Einzelfälle beschrieben",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Latexallergie: Die Nadelschutzkappe der Fertigspritze kann Naturkautschuk enthalten",
+      "ids": [
+        "latexallergie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Gerinnungshemmer (Heparine, Phenprocoumon, Rivaroxaban, Apixaban, Dabigatran)", "ref": ["gruppe:heparine", "gruppe:vitamin-k-antagonisten", "gruppe:doak"], "effekt": "Stark erhöhtes Blutungsrisiko – nur bei geplanter Umstellung nach ärztlichem Plan.", "schwere": "schwer" },
-    { "text": "Thrombolytika (z. B. Alteplase)", "ref": ["alteplase", "tenecteplase"], "effekt": "Erhöhtes Blutungsrisiko – nur unter Spitalüberwachung.", "schwere": "mittel" },
-    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Erhöhtes Blutungsrisiko; beim akuten Koronarsyndrom gezielt kombiniert – klinisch überwachen.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" }
+    {
+      "text": "Andere Gerinnungshemmer (Heparine, Phenprocoumon, Rivaroxaban, Apixaban, Dabigatran)",
+      "ref": [
+        "gruppe:heparine",
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – nur bei geplanter Umstellung nach ärztlichem Plan.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombolytika (z. B. Alteplase)",
+      "ref": [
+        "alteplase",
+        "tenecteplase"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – nur unter Spitalüberwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; beim akuten Koronarsyndrom gezielt kombiniert – klinisch überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Blutungen (nach Operationen, Blutergüsse, Nasenbluten, Magen-Darm-, Harnwegs- und Scheidenblutungen)", "Anämie (Blutarmut)"],
-    "gelegentlich": ["Thrombozytopenie oder Thrombozytose (veränderte Plättchenzahl), Purpura (punktförmige Hautblutungen)", "Übelkeit, Erbrechen", "Erhöhte Leberwerte, Leberfunktionsstörung", "Hautausschlag, Juckreiz", "Wassereinlagerungen, Fieber, Wundsekret"],
-    "selten": ["Hirnblutung und Blutungen im hinteren Bauchraum (retroperitoneal)", "Allergische Reaktionen", "Hypokaliämie (Kaliummangel)", "Schwindel, Kopfschmerzen, Benommenheit, Angst, Verwirrtheit", "Blutdruckabfall, Atemnot, Husten", "Bauchschmerzen, Verdauungsbeschwerden, Verstopfung, Durchfall", "Reaktionen an der Einstichstelle"],
-    "sehrSelten": ["Angioödem, anaphylaktische oder anaphylaktoide Reaktionen"]
+    "haeufig": [
+      "Blutungen (nach Operationen, Blutergüsse, Nasenbluten, Magen-Darm-, Harnwegs- und Scheidenblutungen)",
+      "Anämie (Blutarmut)"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie oder Thrombozytose (veränderte Plättchenzahl), Purpura (punktförmige Hautblutungen)",
+      "Übelkeit, Erbrechen",
+      "Erhöhte Leberwerte, Leberfunktionsstörung",
+      "Hautausschlag, Juckreiz",
+      "Wassereinlagerungen, Fieber, Wundsekret"
+    ],
+    "selten": [
+      "Hirnblutung und Blutungen im hinteren Bauchraum (retroperitoneal)",
+      "Allergische Reaktionen",
+      "Hypokaliämie (Kaliummangel)",
+      "Schwindel, Kopfschmerzen, Benommenheit, Angst, Verwirrtheit",
+      "Blutdruckabfall, Atemnot, Husten",
+      "Bauchschmerzen, Verdauungsbeschwerden, Verstopfung, Durchfall",
+      "Reaktionen an der Einstichstelle"
+    ],
+    "sehrSelten": [
+      "Angioödem, anaphylaktische oder anaphylaktoide Reaktionen"
+    ]
   },
   "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen; nur anwenden, wenn eindeutig erforderlich.",
   "stillzeit": "Im Tierversuch Übergang in die Milch; Stillen während der Behandlung wird nicht empfohlen.",

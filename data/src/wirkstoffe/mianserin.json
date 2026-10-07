@@ -1,0 +1,176 @@
+{
+  "id": "mianserin",
+  "name": "Mianserin",
+  "synonyme": [
+    "Mianserine",
+    "Mianserinhydrochlorid"
+  ],
+  "atc": [
+    "N06AX03"
+  ],
+  "klasse": "Tetrazyklisches Antidepressivum (Alpha-2-Antagonist, dämpfend)",
+  "kurz": "Dämpfendes Antidepressivum mit vierringiger Struktur; häufig bei Depressionen mit Schlafstörungen und Unruhe eingesetzt.",
+  "gruppen": [
+    "zns-daempfend",
+    "krampfschwellensenkend",
+    "myelosuppressiv",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Mianserin Mepha",
+    "Tolvon"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Stimmung und fördert den Schlaf. Mianserin blockiert präsynaptische Alpha-2-Adrenozeptoren und steigert so die Freisetzung von Noradrenalin; die Wiederaufnahme von Botenstoffen hemmt es kaum. Zusätzlich blockiert es Serotonin-5-HT2- und Histamin-H1-Rezeptoren, was die ausgeprägte Müdigkeit erklärt. Es wirkt kaum anticholinerg und ist daher bei Herz-, Augen- oder Prostataproblemen meist besser verträglich als Trizyklika. Abbau in der Leber u. a. über CYP2D6 und CYP3A4.",
+  "kontraindikationen": [
+    {
+      "text": "Manie",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen in der Vorgeschichte und ältere Menschen: Risiko einer Agranulozytose, besonders in den ersten Behandlungsmonaten",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen (z. B. nach Herzinfarkt, Herzrhythmusstörungen)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom oder Prostatavergrösserung",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bipolare Störung in der Vorgeschichte (Umschlagen in eine Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 2 Wochen nach deren Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Gefahr schwerer Wechselwirkungen – nicht gleichzeitig anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel (Schlaf- und Beruhigungsmittel, Opioide)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:opioide"
+      ],
+      "effekt": "Deutlich verstärkte Dämpfung – keinen Alkohol trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Mittel, die das Knochenmark schädigen können (z. B. Clozapin, Metamizol, Zytostatika)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "clozapin",
+        "metamizol"
+      ],
+      "effekt": "Erhöhtes Risiko für einen gefährlichen Mangel an weissen Blutkörperchen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Mianserin-Spiegel sinkt, Wirkung kann abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR kann sich verändern – zu Beginn und am Ende der Behandlung kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Müdigkeit, Schläfrigkeit (v. a. zu Behandlungsbeginn)"
+    ],
+    "unbekannt": [
+      "Agranulozytose und andere Blutbildveränderungen (Mangel an weissen Blutkörperchen)",
+      "Krampfanfälle",
+      "Umschlagen in eine Manie (Hypomanie)",
+      "Blutdruckabfall beim Aufstehen",
+      "Erhöhte Leberwerte, Gelbsucht",
+      "Gelenkschmerzen, Wassereinlagerungen (Ödeme)",
+      "Hautausschlag",
+      "Brustvergrösserung beim Mann, Milchfluss"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung (begrenzte Erfahrungen).",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Bei Fieber, Halsschmerzen, Entzündungen im Mund oder anderen Infektzeichen sofort ärztlich das Blutbild kontrollieren lassen (besonders in den ersten Behandlungsmonaten).",
+    "Wegen der dämpfenden Wirkung meist abends einnehmen; Vorsicht beim Autofahren, keinen Alkohol trinken.",
+    "Nicht abrupt absetzen, sondern schrittweise nach ärztlicher Anweisung."
+  ],
+  "stand": "2026-10"
+}

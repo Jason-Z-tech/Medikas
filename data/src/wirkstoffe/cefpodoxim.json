@@ -1,42 +1,154 @@
 {
   "id": "cefpodoxim",
   "name": "Cefpodoxim",
-  "synonyme": ["Cefpodoxime", "Cefpodoxim-Proxetil", "Cefpodoximum"],
-  "atc": ["J01DD13"],
+  "synonyme": [
+    "Cefpodoxime",
+    "Cefpodoxim-Proxetil",
+    "Cefpodoximum"
+  ],
+  "atc": [
+    "J01DD13"
+  ],
   "klasse": "Oralcephalosporin der 3. Generation (Beta-Laktam-Antibiotikum)",
   "kurz": "Cephalosporin-Antibiotikum zum Einnehmen, z. B. bei Infekten von Atemwegen, Hals, Nase, Ohren, Harnwegen und Haut.",
-  "gruppen": ["cephalosporine"],
-  "handelsnamen": ["Podomexef"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten", "Granulat für Suspension zum Einnehmen"],
+  "gruppen": [
+    "cephalosporine"
+  ],
+  "handelsnamen": [
+    "Podomexef"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Granulat für Suspension zum Einnehmen"
+  ],
   "indikationen": [
-    { "text": "Infektionen der oberen Atemwege und im HNO-Bereich: Mandel- und Rachenentzündung, Nasennebenhöhlenentzündung, Mittelohrentzündung", "ids": ["atemwegsinfekt", "sinusitis", "ohrenentzuendung"] },
-    { "text": "Infektionen der unteren Atemwege: akute Bronchitis, Verschlimmerung einer chronischen Bronchitis, Lungenentzündung", "ids": ["bronchitis", "copd", "lungenentzuendung"] },
-    { "text": "Unkomplizierte Harnwegsinfektionen", "ids": ["harnwegsinfekt"] },
-    { "text": "Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
-    { "text": "Unkomplizierte Gonorrhö", "ids": ["geschlechtskrankheit"] }
+    {
+      "text": "Infektionen der oberen Atemwege und im HNO-Bereich: Mandel- und Rachenentzündung, Nasennebenhöhlenentzündung, Mittelohrentzündung",
+      "ids": [
+        "atemwegsinfekt",
+        "sinusitis",
+        "ohrenentzuendung"
+      ]
+    },
+    {
+      "text": "Infektionen der unteren Atemwege: akute Bronchitis, Verschlimmerung einer chronischen Bronchitis, Lungenentzündung",
+      "ids": [
+        "bronchitis",
+        "copd",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Unkomplizierte Harnwegsinfektionen",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Haut- und Weichteilinfektionen",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Unkomplizierte Gonorrhö",
+      "ids": [
+        "geschlechtskrankheit"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Cefpodoxim-Proxetil ist eine Vorstufe (Prodrug), die beim Durchtritt durch die Darmwand zum wirksamen Cefpodoxim gespalten wird. Dieses hemmt die Penicillin-bindenden Proteine und damit die Quervernetzung des Peptidoglykans (bakterizide Wirkung). Es ist gegen viele Beta-Laktamasen stabil und wirkt gegen Streptokokken, Pneumokokken, Haemophilus influenzae, Moraxella und viele E.-coli-Stämme; gegen Staphylokokken nur mässig, gegen Pseudomonas, Enterokokken und MRSA nicht.",
   "kontraindikationen": [
-    { "text": "Allergie gegen Cephalosporine", "ids": ["allergie"] },
-    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf Penicilline oder andere Beta-Laktam-Antibiotika in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] }
+    {
+      "text": "Allergie gegen Cephalosporine",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf Penicilline oder andere Beta-Laktam-Antibiotika in der Vorgeschichte",
+      "ids": [
+        "penicillinallergie",
+        "anaphylaxie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Penicillinallergie ohne schwere Sofortreaktion: Kreuzallergie möglich", "ids": ["penicillinallergie"] },
-    { "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 40 ml/min): Dosisintervall verlängern", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] }
+    {
+      "text": "Penicillinallergie ohne schwere Sofortreaktion: Kreuzallergie möglich",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 40 ml/min): Dosisintervall verlängern",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken",
+      "ids": [
+        "clostridioides"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Säurehemmende Mittel (Antazida, H2-Blocker, Protonenpumpenhemmer)", "ref": ["gruppe:magensaeure-reduzierend", "gruppe:antazida", "gruppe:h2-blocker", "gruppe:protonenpumpenhemmer"], "effekt": "Cefpodoxim wird um etwa ein Drittel schlechter aufgenommen – Antazida und H2-Blocker mit 2–3 Stunden Abstand einnehmen.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Blutverdünnung möglich – INR kontrollieren.", "schwere": "mittel" },
-    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
-    { "text": "Probenecid", "ref": [], "effekt": "Höhere und länger anhaltende Cefpodoxim-Spiegel.", "schwere": "leicht" },
-    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+    {
+      "text": "Säurehemmende Mittel (Antazida, H2-Blocker, Protonenpumpenhemmer)",
+      "ref": [
+        "gruppe:magensaeure-reduzierend",
+        "gruppe:antazida",
+        "gruppe:h2-blocker",
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Cefpodoxim wird um etwa ein Drittel schlechter aufgenommen – Antazida und H2-Blocker mit 2–3 Stunden Abstand einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Typhus-Lebendimpfstoff zum Schlucken",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Höhere und länger anhaltende Cefpodoxim-Spiegel.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel («Pille»)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Blähungen"],
-    "gelegentlich": ["Kopfschmerzen, Schwindel, Kribbeln (Parästhesien)", "Hautausschlag, Nesselsucht, Juckreiz", "Müdigkeit, Schwäche"],
+    "haeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Blähungen"
+    ],
+    "gelegentlich": [
+      "Kopfschmerzen, Schwindel, Kribbeln (Parästhesien)",
+      "Hautausschlag, Nesselsucht, Juckreiz",
+      "Müdigkeit, Schwäche"
+    ],
     "selten": [
       "Blutbildveränderungen (Abfall des Hämoglobins, Thrombozytose, Thrombozytopenie, Leukopenie, Eosinophilie)",
       "Anstieg von Leber- und Nierenwerten"
@@ -48,7 +160,10 @@
       "Leberschädigung (meist mit Gallestau)",
       "Schwere Hautreaktionen (Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"
     ],
-    "unbekannt": ["Pilzinfektionen (Mund, Scheide)", "Ohrensausen (Tinnitus)"]
+    "unbekannt": [
+      "Pilzinfektionen (Mund, Scheide)",
+      "Ohrensausen (Tinnitus)"
+    ]
   },
   "schwangerschaft": "Nur nach ärztlicher Abwägung; im Tierversuch keine Hinweise auf eine Schädigung, Erfahrungen beim Menschen begrenzt.",
   "stillzeit": "Geht in die Muttermilch über; nur nach ärztlicher Abwägung anwenden oder abstillen.",

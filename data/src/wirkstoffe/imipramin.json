@@ -1,0 +1,291 @@
+{
+  "id": "imipramin",
+  "name": "Imipramin",
+  "synonyme": [
+    "Imipramine",
+    "Imipraminhydrochlorid"
+  ],
+  "atc": [
+    "N06AA02"
+  ],
+  "klasse": "Trizyklisches Antidepressivum (nicht selektiver Monoamin-Wiederaufnahmehemmer)",
+  "kurz": "Älteres Antidepressivum aus der Gruppe der Trizyklika; auch bei Panikstörung und nächtlichem Einnässen bei Kindern.",
+  "gruppen": [
+    "trizyklische-antidepressiva",
+    "serotonerg",
+    "anticholinerg",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate",
+    "cyp2c19-substrate",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Tofranil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dragées"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Panikstörung",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Nächtliches Einnässen (Enuresis nocturna) bei Kindern ab 5 Jahren nach Ausschluss organischer Ursachen",
+      "ids": [
+        "reizblase"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Stimmung, indem es die Konzentration bestimmter Botenstoffe im Gehirn erhöht. Imipramin hemmt die Wiederaufnahme von Noradrenalin und Serotonin in die Nervenendigungen; sein wirksamer Abbaustoff Desipramin wirkt vor allem auf Noradrenalin. Zusätzlich blockiert es Muskarin-, Histamin-H1- und Alpha-1-Rezeptoren, was Mundtrockenheit, Müdigkeit und Blutdruckabfall erklärt. Abbau in der Leber über CYP2C19, CYP1A2 und CYP2D6; die stimmungsaufhellende Wirkung setzt meist erst nach 2–4 Wochen ein.",
+  "kontraindikationen": [
+    {
+      "text": "Frischer Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Angeborenes Long-QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere trizyklische Antidepressiva vom Dibenzazepin-Typ (Kreuzallergie)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten, Herzrhythmus- und Reizleitungsstörungen, QT-Verlängerung",
+      "ids": [
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erniedrigte Krampfschwelle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Harnverhalt oder Prostatavergrösserung",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich) oder Schizophrenie",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Verwirrtheit, Blutdruckabfall beim Aufstehen und Sturzgefahr",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion oder Behandlung mit Schilddrüsenhormonen (Herzrhythmusstörungen)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Chronische Verstopfung (Gefahr eines Darmverschlusses)",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer – auch innerhalb von 14 Tagen nach deren Absetzen – einschliesslich Moclobemid",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms und von Blutdruckkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (z. B. SSRI, SNRI, Triptane, Tramadol, Lithium, Linezolid, Methylenblau)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "linezolid",
+        "methylthioniniumchlorid"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Fieber, Muskelzucken, Durchfall) – nur mit Vorsicht und Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion, Terbinafin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Imipramin-Spiegel kann sich vervielfachen – Dosis anpassen, Spiegel und EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fluvoxamin",
+      "ref": [
+        "fluvoxamin"
+      ],
+      "effekt": "Hemmt den Abbau über CYP1A2 und CYP2C19 – stark erhöhte Imipramin-Spiegel.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel und Antiarrhythmika der Klasse I",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Erhöhte Gefahr gefährlicher Herzrhythmusstörungen – möglichst vermeiden, EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sympathomimetika, z. B. Adrenalin oder Noradrenalin (auch in Lokalanästhetika)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Starker Blutdruckanstieg und Herzrhythmusstörungen möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit; Gefahr eines Darmverschlusses.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Reaktionsverlangsamung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin und andere zentral wirkende Blutdrucksenker",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Blutdrucksenkende Wirkung abgeschwächt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Imipramin-Spiegel sinkt, Wirkung kann abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung kann sich verändern – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Mundtrockenheit",
+      "Obstipation (Verstopfung)",
+      "Vermehrtes Schwitzen, Hitzewallungen",
+      "Zittern (Tremor)",
+      "Verschwommenes Sehen (Akkommodationsstörungen)",
+      "Gewichtszunahme",
+      "Herzrasen (Sinustachykardie) und EKG-Veränderungen",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)"
+    ],
+    "haeufig": [
+      "Müdigkeit, Schläfrigkeit",
+      "Schwindel, Kopfschmerzen",
+      "Verwirrtheit, Unruhe, Schlafstörungen",
+      "Übelkeit, Appetitlosigkeit",
+      "Blasenentleerungsstörungen",
+      "Herzrhythmus- und Reizleitungsstörungen, Herzklopfen",
+      "Libido- und Potenzstörungen",
+      "Hautausschlag, Juckreiz"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle",
+      "Psychotische Symptome, Umschlagen in eine Manie"
+    ],
+    "sehrSelten": [
+      "Agranulozytose (starker Mangel an weissen Blutkörperchen) und andere Blutbildveränderungen",
+      "Hepatitis (Leberentzündung), Gelbsucht",
+      "Paralytischer Ileus (Darmlähmung)",
+      "Glaukomanfall"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung und Torsade de pointes (gefährliche Herzrhythmusstörung)",
+      "Suizidgedanken und suizidales Verhalten",
+      "Serotoninsyndrom",
+      "Hyponatriämie (Natriummangel)",
+      "Erhöhtes Risiko für Knochenbrüche",
+      "Absetzsymptome (Übelkeit, Kopfschmerzen, Unruhe)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme bis zur Geburt sind beim Neugeborenen Anpassungs- und Entzugsstörungen (Atemprobleme, Zittern, Trinkschwäche) möglich.",
+  "stillzeit": "Geht in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung, der Säugling ist auf Schläfrigkeit und Trinkschwäche zu beobachten.",
+  "hinweise": [
+    "Die stimmungsaufhellende Wirkung setzt erst nach 2–4 Wochen ein; Nebenwirkungen treten oft früher auf.",
+    "Nicht abrupt absetzen (Übelkeit, Kopfschmerzen, Unruhe, Schlafstörungen), sondern schrittweise nach ärztlicher Anweisung.",
+    "Vorsicht beim Autofahren, besonders zu Beginn; keinen Alkohol trinken.",
+    "Vor und während der Behandlung EKG kontrollieren; eine Überdosis ist lebensgefährlich – für Kinder unzugänglich aufbewahren."
+  ],
+  "stand": "2026-10"
+}

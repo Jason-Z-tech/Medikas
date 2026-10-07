@@ -1,59 +1,287 @@
 {
   "id": "chlortalidon",
   "name": "Chlortalidon",
-  "synonyme": ["Chlorthalidon", "Chlortalidone", "Chlorthalidone", "Chlortalidonum"],
-  "atc": ["C03BA04"],
+  "synonyme": [
+    "Chlorthalidon",
+    "Chlortalidone",
+    "Chlorthalidone",
+    "Chlortalidonum"
+  ],
+  "atc": [
+    "C03BA04"
+  ],
   "klasse": "Thiazidartiges Diuretikum (Sulfonamid-Derivat)",
   "kurz": "Lang wirkendes harntreibendes Mittel (thiazidartig) gegen Bluthochdruck, Herzschwäche und Wassereinlagerungen.",
-  "gruppen": ["thiaziddiuretika", "diuretika", "blutdrucksenkend", "hypokaliaemie-ausloesend", "hyponatriaemie-ausloesend", "lithium-spiegel-erhoehend", "photosensibilisierend"],
-  "handelsnamen": ["Hygroton", "Tenoretic (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "thiaziddiuretika",
+    "diuretika",
+    "blutdrucksenkend",
+    "hypokaliaemie-ausloesend",
+    "hyponatriaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "photosensibilisierend",
+    "hyperkalzaemie-ausloesend",
+    "hyperglykaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Hygroton",
+    "Tenoretic (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck, allein oder kombiniert mit anderen Blutdrucksenkern", "ids": ["hypertonie"] },
-    { "text": "Stabile, leichte bis mittelschwere chronische Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
-    { "text": "Wassereinlagerungen (Ödeme) bestimmter Ursache, z. B. bei Leberzirrhose oder nephrotischem Syndrom", "ids": ["oedeme", "leberzirrhose", "nephrotisches-syndrom"] }
+    {
+      "text": "Bluthochdruck, allein oder kombiniert mit anderen Blutdrucksenkern",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Stabile, leichte bis mittelschwere chronische Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Wassereinlagerungen (Ödeme) bestimmter Ursache, z. B. bei Leberzirrhose oder nephrotischem Syndrom",
+      "ids": [
+        "oedeme",
+        "leberzirrhose",
+        "nephrotisches-syndrom"
+      ]
+    }
   ],
   "wirkmechanismus": "Fördert die Ausscheidung von Salz und Wasser über die Niere und senkt so den Blutdruck. Chlortalidon hemmt wie die Thiazide den Natrium-Chlorid-Cotransporter im frühdistalen Tubulus; dadurch werden mehr Natrium, Chlorid und Wasser, aber auch Kalium und Magnesium ausgeschieden, Calcium dagegen zurückgehalten. Die Dauerwirkung auf den Blutdruck beruht zusätzlich auf einer Abnahme des Gefässwiderstands. Wegen der sehr langen Halbwertszeit von rund 50 Stunden (Bindung an die roten Blutkörperchen) hält die Wirkung 48–72 Stunden an.",
   "kontraindikationen": [
-    { "text": "Anurie (fehlende Harnproduktion) und schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
-    { "text": "Therapieresistente Hypokaliämie, Hyponatriämie oder Hyperkalzämie", "ids": ["hypokaliaemie", "hyponatriaemie", "hyperkalzaemie"] },
-    { "text": "Symptomatische Hyperurikämie (Gicht oder Harnsäuresteine in der Vorgeschichte)", "ids": ["gicht", "nierensteine"] },
-    { "text": "Unbehandelte Nebenniereninsuffizienz (Morbus Addison)", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] }
+    {
+      "text": "Anurie (fehlende Harnproduktion) und schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Therapieresistente Hypokaliämie, Hyponatriämie oder Hyperkalzämie",
+      "ids": [
+        "hypokaliaemie",
+        "hyponatriaemie",
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Symptomatische Hyperurikämie (Gicht oder Harnsäuresteine in der Vorgeschichte)",
+      "ids": [
+        "gicht",
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Unbehandelte Nebenniereninsuffizienz (Morbus Addison)",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Diabetes mellitus: der Blutzucker kann ansteigen", "ids": ["diabetes"] },
-    { "text": "Leberzirrhose: Elektrolytstörungen können ein Leberkoma auslösen", "ids": ["leberzirrhose"] },
-    { "text": "Leicht bis mässig eingeschränkte Nierenfunktion", "ids": ["niereninsuffizienz"] },
-    { "text": "Systemischer Lupus erythematodes (kann sich verschlechtern)", "ids": ["lupus"] },
-    { "text": "Plötzliche Sehverschlechterung oder Augenschmerzen: Hinweis auf akute Kurzsichtigkeit, Aderhauterguss oder akutes Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
-    { "text": "Ältere Menschen und Flüssigkeitsmangel: erhöhtes Risiko für Elektrolytstörungen und Blutdruckabfall", "ids": ["aeltere-patienten", "dehydratation"] },
-    { "text": "Erhöhte Blutfette", "ids": ["hypercholesterinaemie", "hypertriglyzeridaemie"] }
+    {
+      "text": "Diabetes mellitus: der Blutzucker kann ansteigen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Leberzirrhose: Elektrolytstörungen können ein Leberkoma auslösen",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Systemischer Lupus erythematodes (kann sich verschlechtern)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Plötzliche Sehverschlechterung oder Augenschmerzen: Hinweis auf akute Kurzsichtigkeit, Aderhauterguss oder akutes Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Flüssigkeitsmangel: erhöhtes Risiko für Elektrolytstörungen und Blutdruckabfall",
+      "ids": [
+        "aeltere-patienten",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Lithium", "ref": ["lithium"], "grund": "Chlortalidon vermindert die Ausscheidung von Lithium über die Niere – Gefahr einer Lithiumvergiftung." }
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "grund": "Chlortalidon vermindert die Ausscheidung von Lithium über die Niere – Gefahr einer Lithiumvergiftung."
+    }
   ],
   "interaktionen": [
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Ein Kalium- oder Magnesiummangel verstärkt die Giftigkeit von Digoxin (Herzrhythmusstörungen) – Elektrolyte kontrollieren.", "schwere": "mittel" },
-    { "text": "QT-Zeit verlängernde Mittel (z. B. Amiodaron, Sotalol, gewisse Antipsychotika und Antibiotika)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Ein Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen (Torsade de pointes) – Kalium kontrollieren und ausgleichen.", "schwere": "mittel" },
-    { "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Abführmittel, Amphotericin B, Schleifendiuretika)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere natriumsenkende Mittel (z. B. SSRI, Carbamazepin, Desmopressin)", "ref": ["gruppe:hyponatriaemie-ausloesend"], "effekt": "Erhöhtes Risiko für Natriummangel, besonders bei älteren Menschen.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte harntreibende und blutdrucksenkende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.", "schwere": "mittel" },
-    { "text": "Calcium und Vitamin D", "ref": ["calcium", "calcium-colecalciferol", "colecalciferol-vitamin-d3"], "effekt": "Der Calciumspiegel kann ansteigen – Calcium kontrollieren.", "schwere": "mittel" },
-    { "text": "Colestyramin", "ref": ["colestyramin"], "effekt": "Verminderte Aufnahme von Chlortalidon – zeitlich getrennt einnehmen.", "schwere": "leicht" },
-    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung; Alkohol, Beruhigungs- und Narkosemittel können den Blutdruckabfall beim Aufstehen verstärken.", "schwere": "leicht" },
-    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Der Blutzucker kann ansteigen – Dosis der Antidiabetika gegebenenfalls anpassen.", "schwere": "leicht" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Erhöhtes Risiko für erhöhte Harnsäure und Gichtanfälle.", "schwere": "leicht" },
-    { "text": "Allopurinol", "ref": ["allopurinol"], "effekt": "Häufiger Überempfindlichkeitsreaktionen auf Allopurinol.", "schwere": "leicht" }
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Ein Kalium- oder Magnesiummangel verstärkt die Giftigkeit von Digoxin (Herzrhythmusstörungen) – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Amiodaron, Sotalol, gewisse Antipsychotika und Antibiotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Ein Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen (Torsade de pointes) – Kalium kontrollieren und ausgleichen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Abführmittel, Amphotericin B, Schleifendiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere natriumsenkende Mittel (z. B. SSRI, Carbamazepin, Desmopressin)",
+      "ref": [
+        "gruppe:hyponatriaemie-ausloesend"
+      ],
+      "effekt": "Erhöhtes Risiko für Natriummangel, besonders bei älteren Menschen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte harntreibende und blutdrucksenkende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calcium und Vitamin D",
+      "ref": [
+        "calcium",
+        "calcium-colecalciferol",
+        "colecalciferol-vitamin-d3"
+      ],
+      "effekt": "Der Calciumspiegel kann ansteigen – Calcium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colestyramin",
+      "ref": [
+        "colestyramin"
+      ],
+      "effekt": "Verminderte Aufnahme von Chlortalidon – zeitlich getrennt einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung; Alkohol, Beruhigungs- und Narkosemittel können den Blutdruckabfall beim Aufstehen verstärken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Der Blutzucker kann ansteigen – Dosis der Antidiabetika gegebenenfalls anpassen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Erhöhtes Risiko für erhöhte Harnsäure und Gichtanfälle.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Häufiger Überempfindlichkeitsreaktionen auf Allopurinol.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hypokaliämie (Kaliummangel)", "Hyperurikämie (erhöhte Harnsäure)", "Erhöhte Blutfette, vor allem bei höheren Dosen"],
-    "haeufig": ["Hyponatriämie (Natriummangel), Hypomagnesiämie (Magnesiummangel)", "Hyperglykämie (erhöhter Blutzucker)", "Nesselsucht und andere Hautausschläge", "Orthostatische Hypotonie (Schwindel beim Aufstehen), verstärkt durch Alkohol oder Beruhigungsmittel", "Appetitlosigkeit, leichte Magen-Darm-Beschwerden", "Erektionsstörungen", "Schwindel"],
-    "selten": ["Hyperkalzämie (erhöhtes Calcium)", "Verschlechterung eines Diabetes, Zucker im Urin, Gichtanfälle", "Photosensibilität (Lichtempfindlichkeit der Haut)", "Herzrhythmusstörungen", "Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung, Durchfall", "Gallenstau in der Leber (intrahepatische Cholestase), Gelbsucht", "Kopfschmerzen, Kribbeln (Parästhesien), Sehstörungen", "Thrombozytopenie, Leukopenie, Agranulozytose, Eosinophilie"],
-    "sehrSelten": ["Hypochlorämische Alkalose", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Lungenödem als Überempfindlichkeitsreaktion", "Allergische interstitielle Nephritis (Nierenentzündung)", "Vaskulitis (Gefässentzündung)"],
-    "unbekannt": ["Akute Kurzsichtigkeit, Aderhauterguss, akutes Engwinkelglaukom"]
+    "sehrHaeufig": [
+      "Hypokaliämie (Kaliummangel)",
+      "Hyperurikämie (erhöhte Harnsäure)",
+      "Erhöhte Blutfette, vor allem bei höheren Dosen"
+    ],
+    "haeufig": [
+      "Hyponatriämie (Natriummangel), Hypomagnesiämie (Magnesiummangel)",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Nesselsucht und andere Hautausschläge",
+      "Orthostatische Hypotonie (Schwindel beim Aufstehen), verstärkt durch Alkohol oder Beruhigungsmittel",
+      "Appetitlosigkeit, leichte Magen-Darm-Beschwerden",
+      "Erektionsstörungen",
+      "Schwindel"
+    ],
+    "selten": [
+      "Hyperkalzämie (erhöhtes Calcium)",
+      "Verschlechterung eines Diabetes, Zucker im Urin, Gichtanfälle",
+      "Photosensibilität (Lichtempfindlichkeit der Haut)",
+      "Herzrhythmusstörungen",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung, Durchfall",
+      "Gallenstau in der Leber (intrahepatische Cholestase), Gelbsucht",
+      "Kopfschmerzen, Kribbeln (Parästhesien), Sehstörungen",
+      "Thrombozytopenie, Leukopenie, Agranulozytose, Eosinophilie"
+    ],
+    "sehrSelten": [
+      "Hypochlorämische Alkalose",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Lungenödem als Überempfindlichkeitsreaktion",
+      "Allergische interstitielle Nephritis (Nierenentzündung)",
+      "Vaskulitis (Gefässentzündung)"
+    ],
+    "unbekannt": [
+      "Akute Kurzsichtigkeit, Aderhauterguss, akutes Engwinkelglaukom"
+    ]
   },
   "schwangerschaft": "Nur bei zwingender Notwendigkeit; nicht bei schwangerschaftsbedingten Ödemen, Bluthochdruck oder Präeklampsie, da es die Durchblutung der Plazenta vermindern und beim Neugeborenen Gelbsucht, Elektrolytstörungen und Blutplättchenmangel verursachen kann.",
   "stillzeit": "Geht in die Muttermilch über und kann die Milchbildung hemmen; in der Stillzeit nicht anwenden.",

@@ -1,67 +1,319 @@
 {
   "id": "erythromycin",
   "name": "Erythromycin",
-  "synonyme": ["Erythromycinum", "Erythromycin-Lactobionat", "Erythromycin-Ethylsuccinat", "Erythromycin-Stearat"],
+  "synonyme": [
+    "Erythromycinum",
+    "Erythromycin-Lactobionat",
+    "Erythromycin-Ethylsuccinat",
+    "Erythromycin-Stearat"
+  ],
   "kombinationAus": [],
-  "atc": ["J01FA01", "D10AF02", "S01AA17"],
+  "atc": [
+    "J01FA01",
+    "D10AF02",
+    "S01AA17"
+  ],
   "klasse": "Makrolid-Antibiotikum",
   "kurz": "Älteres Makrolid-Antibiotikum zum Einnehmen oder als Infusion, z. B. bei Penicillinallergie; als Lösung oder Salbe auch gegen Akne.",
-  "gruppen": ["makrolide", "maessige-cyp3a4-hemmer", "p-gp-hemmer", "qt-verlaengernd"],
-  "handelsnamen": ["Erythrocin", "Aknemycin", "Ecolicin (Kombi)"],
-  "abgabe": ["A", "B"],
-  "darreichung": ["Filmtabletten", "Pulver zur Herstellung einer Infusionslösung", "Lösung und Salbe zum Auftragen auf die Haut", "Augensalbe (Kombination)"],
+  "gruppen": [
+    "makrolide",
+    "maessige-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "qt-verlaengernd",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Erythrocin",
+    "Aknemycin",
+    "Ecolicin (Kombi)"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Pulver zur Herstellung einer Infusionslösung",
+    "Lösung und Salbe zum Auftragen auf die Haut",
+    "Augensalbe (Kombination)"
+  ],
   "indikationen": [
-    { "text": "Infektionen der Atemwege, z. B. Mandel-, Nebenhöhlen- und Mittelohrentzündung, Lungenentzündung (auch durch Mykoplasmen, Chlamydien, Legionellen), besonders bei Penicillinallergie", "ids": ["atemwegsinfekt", "sinusitis", "ohrenentzuendung", "lungenentzuendung"] },
-    { "text": "Keuchhusten (Pertussis) und Diphtherie", "ids": ["tetanus-diphtherie-pertussis"] },
-    { "text": "Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
-    { "text": "Chlamydien-Infektionen der Harn- und Geschlechtsorgane", "ids": ["geschlechtskrankheit"] },
-    { "text": "Darminfektionen durch Campylobacter", "ids": ["durchfall"] },
-    { "text": "Akne (Anwendung auf der Haut)", "ids": ["akne"] },
-    { "text": "Bakterielle Infektionen am Auge (Augensalbe in Kombination mit Colistin)", "ids": ["augeninfektion"] }
+    {
+      "text": "Infektionen der Atemwege, z. B. Mandel-, Nebenhöhlen- und Mittelohrentzündung, Lungenentzündung (auch durch Mykoplasmen, Chlamydien, Legionellen), besonders bei Penicillinallergie",
+      "ids": [
+        "atemwegsinfekt",
+        "sinusitis",
+        "ohrenentzuendung",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Keuchhusten (Pertussis) und Diphtherie",
+      "ids": [
+        "tetanus-diphtherie-pertussis"
+      ]
+    },
+    {
+      "text": "Haut- und Weichteilinfektionen",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Chlamydien-Infektionen der Harn- und Geschlechtsorgane",
+      "ids": [
+        "geschlechtskrankheit"
+      ]
+    },
+    {
+      "text": "Darminfektionen durch Campylobacter",
+      "ids": [
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Akne (Anwendung auf der Haut)",
+      "ids": [
+        "akne"
+      ]
+    },
+    {
+      "text": "Bakterielle Infektionen am Auge (Augensalbe in Kombination mit Colistin)",
+      "ids": [
+        "augeninfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt das Wachstum von Bakterien, indem es ihre Eiweissherstellung stoppt. Erythromycin bindet an die 50S-Untereinheit der bakteriellen Ribosomen und blockiert die Verlängerung der Eiweisskette; es wirkt vorwiegend bakteriostatisch, vor allem gegen grampositive Kokken und atypische Erreger. Zusätzlich regt es als Motilin-Agonist die Darmbewegungen an, was die häufigen Magen-Darm-Beschwerden erklärt. Erythromycin hemmt das Abbauenzym CYP3A4 und den Transporter P-Glykoprotein.",
   "kontraindikationen": [
-    { "text": "Allergie gegen Makrolid-Antibiotika", "ids": [] },
-    { "text": "Angeborene oder erworbene QT-Verlängerung, ventrikuläre Herzrhythmusstörungen oder Torsade de pointes in der Vorgeschichte (gilt für Tabletten und Infusion)", "ids": ["qt-verlaengerung", "herzrhythmusstoerung"] },
-    { "text": "Nicht korrigierte Elektrolytstörungen, insbesondere Hypokaliämie oder Magnesiummangel (gilt für Tabletten und Infusion)", "ids": ["hypokaliaemie", "magnesiummangel"] }
+    {
+      "text": "Allergie gegen Makrolid-Antibiotika",
+      "ids": []
+    },
+    {
+      "text": "Angeborene oder erworbene QT-Verlängerung, ventrikuläre Herzrhythmusstörungen oder Torsade de pointes in der Vorgeschichte (gilt für Tabletten und Infusion)",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Nicht korrigierte Elektrolytstörungen, insbesondere Hypokaliämie oder Magnesiummangel (gilt für Tabletten und Infusion)",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Lebererkrankungen: Erythromycin wird über die Leber ausgeschieden, Leberentzündung möglich", "ids": ["leberinsuffizienz"] },
-    { "text": "Herzkrankheiten, langsamer Puls, ältere Menschen: erhöhtes Risiko für Herzrhythmusstörungen", "ids": ["herzinsuffizienz", "bradykardie", "aeltere-patienten"] },
-    { "text": "Myasthenia gravis (Verschlechterung der Muskelschwäche möglich)", "ids": ["myasthenia-gravis"] },
-    { "text": "Säuglinge in den ersten Lebenswochen: Risiko einer Magenpförtnerverengung (Pylorusstenose)", "ids": ["kinder"] },
-    { "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)", "ids": ["clostridioides"] },
-    { "text": "Schwere Niereninsuffizienz und hohe Dosen: Gefahr von Hörstörungen", "ids": ["niereninsuffizienz", "hoerstoerung"] }
+    {
+      "text": "Lebererkrankungen: Erythromycin wird über die Leber ausgeschieden, Leberentzündung möglich",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, langsamer Puls, ältere Menschen: erhöhtes Risiko für Herzrhythmusstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "bradykardie",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Verschlechterung der Muskelschwäche möglich)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Säuglinge in den ersten Lebenswochen: Risiko einer Magenpförtnerverengung (Pylorusstenose)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz und hohe Dosen: Gefahr von Hörstörungen",
+      "ids": [
+        "niereninsuffizienz",
+        "hoerstoerung"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Pimozid, Cisaprid, Astemizol, Terfenadin", "ref": [], "grund": "Erythromycin hemmt deren Abbau über CYP3A4 – Gefahr lebensbedrohlicher Herzrhythmusstörungen (QT-Verlängerung, Torsade de pointes)." },
-    { "text": "Domperidon", "ref": ["domperidon"], "grund": "Erhöhter Domperidon-Spiegel und zusätzliche QT-Verlängerung – Gefahr schwerer Herzrhythmusstörungen." },
-    { "text": "Ergotamin und Dihydroergotamin", "ref": ["gruppe:ergotalkaloide"], "grund": "Gehemmter Abbau der Mutterkornalkaloide – Gefahr eines Ergotismus mit schweren Durchblutungsstörungen." },
-    { "text": "Simvastatin und Lovastatin", "ref": ["simvastatin"], "grund": "Stark erhöhte Statin-Spiegel – Gefahr von Muskelschäden bis zur Rhabdomyolyse." }
+    {
+      "text": "Pimozid, Cisaprid, Astemizol, Terfenadin",
+      "ref": [],
+      "grund": "Erythromycin hemmt deren Abbau über CYP3A4 – Gefahr lebensbedrohlicher Herzrhythmusstörungen (QT-Verlängerung, Torsade de pointes)."
+    },
+    {
+      "text": "Domperidon",
+      "ref": [
+        "domperidon"
+      ],
+      "grund": "Erhöhter Domperidon-Spiegel und zusätzliche QT-Verlängerung – Gefahr schwerer Herzrhythmusstörungen."
+    },
+    {
+      "text": "Ergotamin und Dihydroergotamin",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Gehemmter Abbau der Mutterkornalkaloide – Gefahr eines Ergotismus mit schweren Durchblutungsstörungen."
+    },
+    {
+      "text": "Simvastatin und Lovastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Stark erhöhte Statin-Spiegel – Gefahr von Muskelschäden bis zur Rhabdomyolyse."
+    }
   ],
   "interaktionen": [
-    { "text": "Andere QT-verlängernde Arzneimittel (z. B. Amiodaron, Sotalol, Antipsychotika, Citalopram, Methadon)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Zusätzliche QT-Verlängerung, Gefahr von Torsade de pointes – möglichst vermeiden, sonst EKG-Kontrolle.", "schwere": "schwer" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Ritonavir) und Verapamil, Diltiazem", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Der Erythromycin-Spiegel steigt – erhöhtes Risiko für Herzrhythmusstörungen bis zum plötzlichen Herztod. Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["ciclosporin", "tacrolimus", "gruppe:mtor-hemmer"], "effekt": "Stark erhöhte Spiegel mit Nieren- und Nervenschäden – Spiegel engmaschig kontrollieren, Dosis anpassen.", "schwere": "schwer" },
-    { "text": "Colchicin", "ref": ["colchicin"], "effekt": "Erhöhte Colchicin-Spiegel – Gefahr schwerer Vergiftung, besonders bei eingeschränkter Nieren- oder Leberfunktion. Möglichst vermeiden.", "schwere": "schwer" },
-    { "text": "Carbamazepin", "ref": ["carbamazepin"], "effekt": "Der Carbamazepin-Spiegel steigt – Schwindel, Doppelbilder, Ataxie. Spiegel kontrollieren.", "schwere": "schwer" },
-    { "text": "Midazolam, Triazolam, Alprazolam", "ref": ["midazolam", "triazolam", "alprazolam"], "effekt": "Verstärkte und verlängerte Sedierung – Dosis reduzieren, überwachen.", "schwere": "mittel" },
-    { "text": "Andere Statine, die über CYP3A4 abgebaut werden (z. B. Atorvastatin)", "ref": ["atorvastatin"], "effekt": "Erhöhtes Risiko für Muskelschäden – Statin-Dosis begrenzen oder pausieren.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Der Digoxin-Spiegel steigt (P-Glykoprotein-Hemmung) – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Direkte orale Antikoagulanzien (z. B. Edoxaban, Dabigatran, Rivaroxaban)", "ref": ["gruppe:doak"], "effekt": "Erhöhte Spiegel und Blutungsrisiko – bei Edoxaban Dosisreduktion gemäss Fachinformation.", "schwere": "mittel" },
-    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung – INR häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Theophyllin", "ref": ["theophyllin"], "effekt": "Der Theophyllin-Spiegel steigt (Übelkeit, Herzrasen, Krampfanfälle möglich) – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Sildenafil und andere PDE-5-Hemmer", "ref": ["gruppe:pde5-hemmer"], "effekt": "Erhöhte Spiegel, stärkerer Blutdruckabfall – niedrigere Dosis erwägen.", "schwere": "mittel" },
-    { "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Erythromycin wird schneller abgebaut – Wirkverlust möglich.", "schwere": "mittel" },
-    { "text": "Clindamycin", "ref": ["clindamycin"], "effekt": "Gegenseitige Abschwächung der Wirkung (gleicher Angriffsort am Ribosom) – nicht kombinieren.", "schwere": "leicht" }
+    {
+      "text": "Andere QT-verlängernde Arzneimittel (z. B. Amiodaron, Sotalol, Antipsychotika, Citalopram, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung, Gefahr von Torsade de pointes – möglichst vermeiden, sonst EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Ritonavir) und Verapamil, Diltiazem",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Der Erythromycin-Spiegel steigt – erhöhtes Risiko für Herzrhythmusstörungen bis zum plötzlichen Herztod. Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Stark erhöhte Spiegel mit Nieren- und Nervenschäden – Spiegel engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "effekt": "Erhöhte Colchicin-Spiegel – Gefahr schwerer Vergiftung, besonders bei eingeschränkter Nieren- oder Leberfunktion. Möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Der Carbamazepin-Spiegel steigt – Schwindel, Doppelbilder, Ataxie. Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Midazolam, Triazolam, Alprazolam",
+      "ref": [
+        "midazolam",
+        "triazolam",
+        "alprazolam"
+      ],
+      "effekt": "Verstärkte und verlängerte Sedierung – Dosis reduzieren, überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Statine, die über CYP3A4 abgebaut werden (z. B. Atorvastatin)",
+      "ref": [
+        "atorvastatin"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden – Statin-Dosis begrenzen oder pausieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Der Digoxin-Spiegel steigt (P-Glykoprotein-Hemmung) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (z. B. Edoxaban, Dabigatran, Rivaroxaban)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Erhöhte Spiegel und Blutungsrisiko – bei Edoxaban Dosisreduktion gemäss Fachinformation.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Der Theophyllin-Spiegel steigt (Übelkeit, Herzrasen, Krampfanfälle möglich) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sildenafil und andere PDE-5-Hemmer",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Erhöhte Spiegel, stärkerer Blutdruckabfall – niedrigere Dosis erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Erythromycin wird schneller abgebaut – Wirkverlust möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clindamycin",
+      "ref": [
+        "clindamycin"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung (gleicher Angriffsort am Ribosom) – nicht kombinieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [],
-    "haeufig": ["Bauchschmerzen, Übelkeit, Erbrechen, Durchfall, Appetitlosigkeit (dosisabhängig)", "Bei Anwendung auf der Haut: Brennen, Rötung, Trockenheit, Schuppung"],
-    "gelegentlich": ["Hautausschlag, Juckreiz, Nesselsucht"],
+    "haeufig": [
+      "Bauchschmerzen, Übelkeit, Erbrechen, Durchfall, Appetitlosigkeit (dosisabhängig)",
+      "Bei Anwendung auf der Haut: Brennen, Rötung, Trockenheit, Schuppung"
+    ],
+    "gelegentlich": [
+      "Hautausschlag, Juckreiz, Nesselsucht"
+    ],
     "selten": [],
     "sehrSelten": [],
-    "unbekannt": ["QT-Verlängerung, Torsade de pointes und andere ventrikuläre Herzrhythmusstörungen", "Cholestatische Hepatitis mit Gelbsucht, Leberfunktionsstörungen", "Pseudomembranöse Kolitis (schwere Dickdarmentzündung)", "Anaphylaxie (schwere allergische Reaktion)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)", "Reversibler Hörverlust, Tinnitus (vor allem bei hohen Dosen oder Niereninsuffizienz)", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Pylorusstenose (Magenpförtnerverengung) bei Säuglingen; Venenreizung bei Infusion"]
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes und andere ventrikuläre Herzrhythmusstörungen",
+      "Cholestatische Hepatitis mit Gelbsucht, Leberfunktionsstörungen",
+      "Pseudomembranöse Kolitis (schwere Dickdarmentzündung)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)",
+      "Reversibler Hörverlust, Tinnitus (vor allem bei hohen Dosen oder Niereninsuffizienz)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Pylorusstenose (Magenpförtnerverengung) bei Säuglingen; Venenreizung bei Infusion"
+    ]
   },
   "schwangerschaft": "Langjährige Erfahrung, kein eindeutiges Fehlbildungsrisiko; einzelne Studien deuten auf ein leicht erhöhtes Risiko für Herzfehler bei Einnahme im 1. Drittel hin. Systemisch nur nach ärztlicher Abwägung; Anwendung auf der Haut gilt als unbedenklich.",
   "stillzeit": "Geht in die Muttermilch über; beim Säugling sind Durchfall und selten eine Magenpförtnerverengung möglich. Systemisch nur nach ärztlicher Abwägung; Anwendung auf der Haut (nicht im Brustbereich) ist vertretbar.",

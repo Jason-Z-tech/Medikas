@@ -1,52 +1,229 @@
 {
   "id": "glyceroltrinitrat",
   "name": "Glyceroltrinitrat",
-  "synonyme": ["Nitroglycerin", "Glyceryl trinitrate", "GTN", "Trinitrin", "Nitro"],
-  "atc": ["C01DA02", "C05AE01"],
+  "synonyme": [
+    "Nitroglycerin",
+    "Glyceryl trinitrate",
+    "GTN",
+    "Trinitrin",
+    "Nitro"
+  ],
+  "atc": [
+    "C01DA02",
+    "C05AE01"
+  ],
   "klasse": "Organisches Nitrat (NO-Donator, Vasodilatator)",
   "kurz": "Gefässerweiterndes Herzmittel: lindert rasch Anfälle von Brustenge (Angina pectoris), beugt ihnen vor und wird als Salbe bei Analfissuren eingesetzt.",
-  "gruppen": ["nitrate", "blutdrucksenkend"],
-  "handelsnamen": ["Nitroglycerin Streuli", "Nitroderm TTS", "Perlinganit", "Rectogesic"],
-  "abgabe": ["B"],
-  "darreichung": ["Zerbeisskapseln", "Transdermales Pflaster", "Infusionslösung", "Rektalsalbe"],
+  "gruppen": [
+    "nitrate",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Nitroglycerin Streuli",
+    "Nitroderm TTS",
+    "Perlinganit",
+    "Rectogesic"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Zerbeisskapseln",
+    "Transdermales Pflaster",
+    "Infusionslösung",
+    "Rektalsalbe"
+  ],
   "indikationen": [
-    { "text": "Behandlung eines akuten Angina-pectoris-Anfalls und kurzfristige Vorbeugung vor absehbarer Belastung (Zerbeisskapseln)", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
-    { "text": "Langzeitvorbeugung von Angina-pectoris-Anfällen (Pflaster)", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
-    { "text": "Akute Herzinsuffizienz mit Lungenstauung, akuter Herzinfarkt, instabile Angina pectoris und Blutdruckkontrolle bei Operationen (Infusion im Spital)", "ids": ["herzinsuffizienz", "herzinfarkt", "angina-pectoris", "hypertonie"] },
-    { "text": "Schmerzen bei chronischer Analfissur (Einriss der Afterschleimhaut) – Rektalsalbe", "ids": [] }
+    {
+      "text": "Behandlung eines akuten Angina-pectoris-Anfalls und kurzfristige Vorbeugung vor absehbarer Belastung (Zerbeisskapseln)",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Langzeitvorbeugung von Angina-pectoris-Anfällen (Pflaster)",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Akute Herzinsuffizienz mit Lungenstauung, akuter Herzinfarkt, instabile Angina pectoris und Blutdruckkontrolle bei Operationen (Infusion im Spital)",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "angina-pectoris",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schmerzen bei chronischer Analfissur (Einriss der Afterschleimhaut) – Rektalsalbe",
+      "ids": [
+        "analfissur"
+      ]
+    }
   ],
   "wirkmechanismus": "Erweitert die Blutgefässe und entlastet so das Herz, das dadurch weniger Sauerstoff braucht. Glyceroltrinitrat setzt in der Gefässwand Stickstoffmonoxid (NO) frei, das die lösliche Guanylatcyclase aktiviert; das gebildete cGMP entspannt die glatte Gefässmuskulatur. Vor allem die Venen werden erweitert, wodurch weniger Blut zum Herzen zurückfliesst (Vorlastsenkung); in höheren Dosen weiten sich auch Arterien und Herzkranzgefässe. Am After entspannt es den inneren Schliessmuskel und verbessert die Durchblutung der Fissur. Bei Dauergebrauch ohne Pause lässt die Wirkung nach (Nitrattoleranz).",
   "kontraindikationen": [
-    { "text": "Schock, Kreislaufversagen oder stark erniedrigter Blutdruck (systolisch unter 90 mmHg)", "ids": ["schock", "hypotonie"] },
-    { "text": "Kardiogener Schock, sofern der Füllungsdruck nicht ausreichend hoch gehalten werden kann", "ids": ["schock", "herzinsuffizienz"] },
-    { "text": "Hypertrophe obstruktive Kardiomyopathie, Aorten- oder Mitralklappenstenose, Herzbeuteltamponade oder konstriktive Perikarditis", "ids": ["kardiomyopathie", "herzklappenerkrankung"] },
-    { "text": "Erhöhter Hirndruck, z. B. nach Schädel-Hirn-Verletzung oder Hirnblutung", "ids": ["hirnblutung"] },
-    { "text": "Ausgeprägter Volumenmangel (Hypovolämie)", "ids": ["dehydratation"] },
-    { "text": "Schwere Anämie", "ids": ["anaemie"] }
+    {
+      "text": "Schock, Kreislaufversagen oder stark erniedrigter Blutdruck (systolisch unter 90 mmHg)",
+      "ids": [
+        "schock",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Kardiogener Schock, sofern der Füllungsdruck nicht ausreichend hoch gehalten werden kann",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Hypertrophe obstruktive Kardiomyopathie, Aorten- oder Mitralklappenstenose, Herzbeuteltamponade oder konstriktive Perikarditis",
+      "ids": [
+        "kardiomyopathie",
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck, z. B. nach Schädel-Hirn-Verletzung oder Hirnblutung",
+      "ids": [
+        "hirnoedem",
+        "schaedel-hirn-trauma",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Ausgeprägter Volumenmangel (Hypovolämie)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Schwere Anämie",
+      "ids": [
+        "anaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Neigung zu Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)", "ids": ["hypotonie"] },
-    { "text": "Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
-    { "text": "Frischer Herzinfarkt mit tiefem Blutdruck (nur unter Überwachung)", "ids": ["herzinfarkt"] },
-    { "text": "Sauerstoffmangel im Blut bei Lungenerkrankungen (Verschlechterung der Sauerstoffaufnahme möglich)", "ids": ["copd"] },
-    { "text": "Schwere Leber- oder Niereninsuffizienz", "ids": ["leberinsuffizienz", "niereninsuffizienz"] },
-    { "text": "Migräne oder Neigung zu Kopfschmerzen (Rektalsalbe und Kapseln verstärken Kopfschmerzen)", "ids": ["migraene", "kopfschmerzen"] }
+    {
+      "text": "Neigung zu Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Frischer Herzinfarkt mit tiefem Blutdruck (nur unter Überwachung)",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Sauerstoffmangel im Blut bei Lungenerkrankungen (Verschlechterung der Sauerstoffaufnahme möglich)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Migräne oder Neigung zu Kopfschmerzen (Rektalsalbe und Kapseln verstärken Kopfschmerzen)",
+      "ids": [
+        "migraene",
+        "kopfschmerzen"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)", "ref": ["gruppe:pde5-hemmer"], "grund": "Beide erhöhen cGMP – massiver, lebensbedrohlicher Blutdruckabfall möglich." },
-    { "text": "Riociguat", "ref": ["riociguat"], "grund": "Zusätzliche Stimulation der Guanylatcyclase – gefährlicher Blutdruckabfall." }
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil, Avanafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "grund": "Beide erhöhen cGMP – massiver, lebensbedrohlicher Blutdruckabfall möglich."
+    },
+    {
+      "text": "Riociguat",
+      "ref": [
+        "riociguat"
+      ],
+      "grund": "Zusätzliche Stimulation der Guanylatcyclase – gefährlicher Blutdruckabfall."
+    }
   ],
   "interaktionen": [
-    { "text": "Andere Blutdrucksenker (z. B. Calciumantagonisten, ACE-Hemmer, Betablocker, Diuretika, Alpha-Blocker)", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung, Schwindel und Ohnmachtsgefahr – Blutdruck kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere Nitrate und Molsidomin", "ref": ["gruppe:nitrate"], "effekt": "Additive Gefässerweiterung und Blutdrucksenkung.", "schwere": "mittel" },
-    { "text": "Alkohol", "ref": [], "effekt": "Verstärkter Blutdruckabfall und Kollapsgefahr.", "schwere": "mittel" },
-    { "text": "Heparin (intravenös)", "ref": ["heparin"], "effekt": "Intravenöses Glyceroltrinitrat kann die Heparinwirkung abschwächen – Gerinnungswerte kontrollieren, besonders nach Absetzen der Nitratinfusion.", "schwere": "mittel" },
-    { "text": "Trizyklische Antidepressiva und Antipsychotika", "ref": ["gruppe:trizyklische-antidepressiva", "gruppe:antipsychotika"], "effekt": "Verstärkte Blutdrucksenkung möglich.", "schwere": "leicht" },
-    { "text": "Dihydroergotamin", "ref": ["gruppe:ergotalkaloide"], "effekt": "Spiegel von Dihydroergotamin kann steigen; Gefahr von Gefässverengung.", "schwere": "leicht" },
-    { "text": "Acetylcystein", "ref": ["acetylcystein"], "effekt": "Kann die gefässerweiternde Wirkung verstärken.", "schwere": "leicht" }
+    {
+      "text": "Andere Blutdrucksenker (z. B. Calciumantagonisten, ACE-Hemmer, Betablocker, Diuretika, Alpha-Blocker)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, Schwindel und Ohnmachtsgefahr – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Nitrate und Molsidomin",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "effekt": "Additive Gefässerweiterung und Blutdrucksenkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkter Blutdruckabfall und Kollapsgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Heparin (intravenös)",
+      "ref": [
+        "heparin"
+      ],
+      "effekt": "Intravenöses Glyceroltrinitrat kann die Heparinwirkung abschwächen – Gerinnungswerte kontrollieren, besonders nach Absetzen der Nitratinfusion.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Antipsychotika",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Dihydroergotamin",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Spiegel von Dihydroergotamin kann steigen; Gefahr von Gefässverengung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Acetylcystein",
+      "ref": [
+        "acetylcystein"
+      ],
+      "effekt": "Kann die gefässerweiternde Wirkung verstärken.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen (Nitratkopfschmerz), besonders zu Beginn"],
+    "sehrHaeufig": [
+      "Kopfschmerzen (Nitratkopfschmerz), besonders zu Beginn"
+    ],
     "haeufig": [
       "Schwindel, Benommenheit, Schläfrigkeit",
       "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
@@ -62,8 +239,13 @@
       "Gesichtsrötung (Flush)",
       "Allergische Hautreaktionen"
     ],
-    "sehrSelten": ["Methämoglobinämie (verminderter Sauerstofftransport im Blut) bei hohen Dosen", "Exfoliative Dermatitis (schwere schuppende Hautentzündung)"],
-    "unbekannt": ["Nachlassende Wirkung bei Dauergebrauch (Nitrattoleranz)"]
+    "sehrSelten": [
+      "Methämoglobinämie (verminderter Sauerstofftransport im Blut) bei hohen Dosen",
+      "Exfoliative Dermatitis (schwere schuppende Hautentzündung)"
+    ],
+    "unbekannt": [
+      "Nachlassende Wirkung bei Dauergebrauch (Nitrattoleranz)"
+    ]
   },
   "schwangerschaft": "Nur nach ärztlicher Abwägung; es gibt nur wenige Daten, ein Risiko für das Ungeborene ist bisher nicht bekannt.",
   "stillzeit": "Nicht bekannt, ob Glyceroltrinitrat in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",

@@ -1,0 +1,185 @@
+{
+  "id": "cisatracurium",
+  "name": "Cisatracurium",
+  "synonyme": [
+    "Cisatracuriumbesilat",
+    "Cisatracurium besilate"
+  ],
+  "atc": [
+    "M03AC11"
+  ],
+  "klasse": "Nicht-depolarisierendes peripheres Muskelrelaxans (Benzylisochinolin)",
+  "kurz": "Muskelentspannendes Mittel für Narkose und Intensivstation; erleichtert das Einlegen des Beatmungsschlauchs und die künstliche Beatmung.",
+  "gruppen": [
+    "muskelrelaxanzien-peripher"
+  ],
+  "handelsnamen": [
+    "Nimbex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektions- bzw. Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Muskelentspannung während einer Allgemeinanästhesie, zur Erleichterung der Intubation (Einlegen des Beatmungsschlauchs) und der künstlichen Beatmung bei Erwachsenen und Kindern ab 1 Monat",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Muskelentspannung zur Erleichterung der künstlichen Beatmung bei Erwachsenen auf der Intensivstation",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Lähmt vorübergehend die Skelettmuskulatur, indem es die Signalübertragung vom Nerv auf den Muskel unterbricht. Cisatracurium blockiert kompetitiv die nikotinischen Acetylcholinrezeptoren an der motorischen Endplatte, ohne sie zu aktivieren (nicht-depolarisierend). Es zerfällt unabhängig von Leber und Niere spontan (Hofmann-Elimination) zu Laudanosin und einem Acrylat-Metaboliten. Die Wirkung lässt sich mit Acetylcholinesterase-Hemmern wie Neostigmin aufheben. Cisatracurium wirkt weder schmerzstillend noch beruhigend.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Atracurium oder Benzolsulfonsäure (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Myasthenia gravis und andere neuromuskuläre Erkrankungen: stark erhöhte Empfindlichkeit, deutlich niedrigere Dosis nötig",
+      "ids": [
+        "myasthenia-gravis",
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Frühere allergische Reaktion auf ein anderes Muskelrelaxans (Kreuzreaktionen möglich)",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Störungen des Elektrolyt- oder Säure-Basen-Haushalts, z. B. Kaliummangel oder erhöhtes Magnesium (Wirkung verändert)",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Verbrennungen: Resistenz möglich, höhere Dosen können nötig sein",
+      "ids": [
+        "verbrennung"
+      ]
+    },
+    {
+      "text": "Längere Anwendung auf der Intensivstation, besonders zusammen mit Glukokortikoiden: anhaltende Muskelschwäche (Myopathie) möglich",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Unterkühlung während Operationen: Abbau verlangsamt, Wirkung verlängert",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Inhalationsanästhetika (Isofluran, Desfluran, Sevofluran)",
+      "ref": [
+        "isofluran",
+        "desfluran",
+        "sevofluran"
+      ],
+      "effekt": "Verstärkte und verlängerte Muskelentspannung – Dosis anpassen, neuromuskuläre Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antibiotika: Aminoglykoside, Polymyxine, Clindamycin, Tetracycline",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "clindamycin",
+        "gruppe:tetracycline"
+      ],
+      "effekt": "Verstärkte und verlängerte Blockade – neuromuskuläre Funktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Magnesiumsalze (v. a. intravenös)",
+      "ref": [
+        "magnesiumsulfat",
+        "magnesium"
+      ],
+      "effekt": "Verstärkte Muskelentspannung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Acetylcholinesterase-Hemmer zur Alzheimer-Behandlung (z. B. Donepezil, Rivastigmin)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Wirkung von Cisatracurium kann verkürzt und abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Langzeitbehandlung mit Phenytoin oder Carbamazepin",
+      "ref": [
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Abgeschwächte und verkürzte Wirkung – höherer Bedarf möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Suxamethonium zur Verlängerung der Blockade",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Verlängerte, komplexe Blockade, die sich schwer aufheben lässt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika und Herz-Kreislauf-Mittel (z. B. Lidocain, Betablocker, Calciumantagonisten)",
+      "ref": [
+        "lidocain",
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Muskelentspannung kann verstärkt sein.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Diuretika (z. B. Furosemid), Lithium und Ketamin",
+      "ref": [
+        "gruppe:diuretika",
+        "lithium",
+        "ketamin"
+      ],
+      "effekt": "Muskelentspannung kann verstärkt sein.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Bradykardie (langsamer Puls)",
+      "Hypotonie (Blutdruckabfall)"
+    ],
+    "gelegentlich": [
+      "Hautrötung (Flush)",
+      "Hautausschlag",
+      "Bronchospasmus (Verkrampfung der Atemwege)"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Myopathie und Muskelschwäche nach längerer Anwendung auf der Intensivstation"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; Anwendung nur, wenn sie klar notwendig ist.",
+  "stillzeit": "Es ist nicht bekannt, ob Cisatracurium in die Muttermilch übergeht; wegen des raschen Abbaus kann nach Abklingen der Wirkung in der Regel wieder gestillt werden.",
+  "hinweise": [
+    "Wird nur im Spital durch erfahrene Anästhesie- oder Intensivfachpersonen verabreicht, wenn eine künstliche Beatmung möglich ist.",
+    "Bekannte Muskelerkrankungen und frühere allergische Reaktionen bei Narkosen vor dem Eingriff angeben.",
+    "Nach einer Narkose mindestens 24 Stunden kein Fahrzeug lenken und keine Maschinen bedienen."
+  ],
+  "stand": "2026-10"
+}

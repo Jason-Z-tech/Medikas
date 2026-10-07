@@ -1,42 +1,146 @@
 {
   "id": "clobetasol",
   "name": "Clobetasol",
-  "synonyme": ["Clobetasolpropionat", "Clobetasol propionate", "Clobetasoli propionas"],
-  "atc": ["D07AD01"],
+  "synonyme": [
+    "Clobetasolpropionat",
+    "Clobetasol propionate",
+    "Clobetasoli propionas"
+  ],
+  "atc": [
+    "D07AD01"
+  ],
   "klasse": "Glukokortikoid, topisch Klasse IV (sehr stark)",
   "kurz": "Sehr stark wirksames Kortison für Haut und Kopfhaut; kurzzeitig bei hartnäckiger Psoriasis und schweren Ekzemen.",
-  "gruppen": ["glukokortikoide-topisch"],
-  "handelsnamen": ["Dermovate", "Clarelux", "Clobex"],
-  "abgabe": ["B"],
-  "darreichung": ["Creme", "Salbe", "Lösung für die Kopfhaut", "Schaum", "Shampoo"],
+  "gruppen": [
+    "glukokortikoide-topisch"
+  ],
+  "handelsnamen": [
+    "Dermovate",
+    "Clobex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Creme",
+    "Salbe",
+    "Lösung für die Kopfhaut",
+    "Shampoo"
+  ],
   "indikationen": [
-    { "text": "Kurzzeitbehandlung hartnäckiger Psoriasis (Schuppenflechte), auch der Kopfhaut – nicht bei ausgedehnter Plaque-Psoriasis", "ids": ["psoriasis"] },
-    { "text": "Schwere, hartnäckige Ekzeme, die auf schwächere Kortisonpräparate nicht ansprechen", "ids": ["neurodermitis"] },
-    { "text": "Weitere kortisonempfindliche Hauterkrankungen wie Lichen planus (Knötchenflechte) und diskoider Lupus erythematodes", "ids": ["lupus"] }
+    {
+      "text": "Kurzzeitbehandlung hartnäckiger Psoriasis (Schuppenflechte), auch der Kopfhaut – nicht bei ausgedehnter Plaque-Psoriasis",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Schwere, hartnäckige Ekzeme, die auf schwächere Kortisonpräparate nicht ansprechen",
+      "ids": [
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Weitere kortisonempfindliche Hauterkrankungen wie Lichen planus (Knötchenflechte) und diskoider Lupus erythematodes",
+      "ids": [
+        "lupus"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt Entzündung, Juckreiz und übermässige Zellteilung in der Haut sehr stark. Clobetasolpropionat bindet an den Glukokortikoid-Rezeptor der Hautzellen und unterdrückt die Bildung entzündungsfördernder Botenstoffe; zusätzlich verengt es die kleinen Hautgefässe und bremst die Vermehrung der Hautzellen (antiproliferative Wirkung). Es gehört zu den stärksten äusserlich angewendeten Kortikosteroiden (Klasse IV) und kann bei grossflächiger oder langer Anwendung in relevanter Menge in den Körper gelangen.",
   "kontraindikationen": [
-    { "text": "Rosazea, Akne und periorale Dermatitis (Hautentzündung um den Mund)", "ids": ["rosazea", "akne"] },
-    { "text": "Unbehandelte Hautinfektionen durch Viren (z. B. Herpes, Windpocken), Bakterien oder Pilze", "ids": ["herpes", "hautinfektion", "hautpilz"] },
-    { "text": "Juckreiz ohne Entzündung sowie Juckreiz im After- und Genitalbereich", "ids": ["juckreiz"] },
-    { "text": "Hauterkrankungen bei Säuglingen unter 1 Jahr, einschliesslich Windeldermatitis", "ids": ["kinder"] },
-    { "text": "Anwendung an den Augen oder Augenlidern sowie auf offenen Wunden oder Geschwüren", "ids": [] }
+    {
+      "text": "Rosazea, Akne und periorale Dermatitis (Hautentzündung um den Mund)",
+      "ids": [
+        "rosazea",
+        "akne"
+      ]
+    },
+    {
+      "text": "Unbehandelte Hautinfektionen durch Viren (z. B. Herpes, Windpocken), Bakterien oder Pilze",
+      "ids": [
+        "herpes",
+        "hautinfektion",
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Juckreiz ohne Entzündung sowie Juckreiz im After- und Genitalbereich",
+      "ids": [
+        "juckreiz"
+      ]
+    },
+    {
+      "text": "Hauterkrankungen bei Säuglingen unter 1 Jahr, einschliesslich Windeldermatitis",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Anwendung an den Augen oder Augenlidern sowie auf offenen Wunden oder Geschwüren",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Gesicht, Hautfalten und Genitalbereich: der Wirkstoff wird stärker aufgenommen, Hautverdünnung droht rascher", "ids": [] },
-    { "text": "Grossflächige oder lange Anwendung und luftdichte Verbände: Gefahr von Kortison-Wirkungen im ganzen Körper (Cushing-Syndrom, Nebennierenschwäche, erhöhter Blutzucker)", "ids": ["nebenniereninsuffizienz", "diabetes"] },
-    { "text": "Kinder und ältere Menschen (dünnere Haut, stärkere Aufnahme)", "ids": ["kinder", "aeltere-patienten"] },
-    { "text": "Psoriasis: nach dem Absetzen Rückfall oder Umschlagen in eine pustulöse Form möglich – ausschleichen und ärztlich überwachen", "ids": ["psoriasis"] },
-    { "text": "Anwendung in Augennähe: Gefahr von grünem oder grauem Star; bei Sehstörungen augenärztlich abklären", "ids": ["glaukom", "katarakt"] },
-    { "text": "Infizierte Hautveränderungen zusätzlich gezielt behandeln; luftdichte Verbände fördern Infektionen", "ids": ["hautinfektion"] }
+    {
+      "text": "Gesicht, Hautfalten und Genitalbereich: der Wirkstoff wird stärker aufgenommen, Hautverdünnung droht rascher",
+      "ids": []
+    },
+    {
+      "text": "Grossflächige oder lange Anwendung und luftdichte Verbände: Gefahr von Kortison-Wirkungen im ganzen Körper (Cushing-Syndrom, Nebennierenschwäche, erhöhter Blutzucker)",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kinder und ältere Menschen (dünnere Haut, stärkere Aufnahme)",
+      "ids": [
+        "kinder",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Psoriasis: nach dem Absetzen Rückfall oder Umschlagen in eine pustulöse Form möglich – ausschleichen und ärztlich überwachen",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Anwendung in Augennähe: Gefahr von grünem oder grauem Star; bei Sehstörungen augenärztlich abklären",
+      "ids": [
+        "glaukom",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Infizierte Hautveränderungen zusätzlich gezielt behandeln; luftdichte Verbände fördern Infektionen",
+      "ids": [
+        "hautinfektion"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Itraconazol) bei grossflächiger oder langer Anwendung", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Der Abbau des aufgenommenen Kortisons wird gehemmt – mehr Kortison-Nebenwirkungen im ganzen Körper möglich.", "schwere": "leicht" }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Itraconazol) bei grossflächiger oder langer Anwendung",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Abbau des aufgenommenen Kortisons wird gehemmt – mehr Kortison-Nebenwirkungen im ganzen Körper möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Juckreiz", "Brennen oder Schmerzen der Haut an der Auftragsstelle"],
-    "gelegentlich": ["Hautverdünnung (Atrophie)", "Dehnungsstreifen (Striae)", "Erweiterte Äderchen (Teleangiektasien)"],
+    "haeufig": [
+      "Juckreiz",
+      "Brennen oder Schmerzen der Haut an der Auftragsstelle"
+    ],
+    "gelegentlich": [
+      "Hautverdünnung (Atrophie)",
+      "Dehnungsstreifen (Striae)",
+      "Erweiterte Äderchen (Teleangiektasien)"
+    ],
     "sehrSelten": [
       "Kortison-Wirkungen im ganzen Körper: Cushing-Syndrom, Nebennierenschwäche, erhöhter Blutzucker, Bluthochdruck, Wachstumsverzögerung bei Kindern",
       "Grauer und grüner Star (Katarakt, Glaukom)",
@@ -45,7 +149,9 @@
       "Verschlechterung der Psoriasis, pustulöse Psoriasis",
       "Pigmentveränderungen, vermehrte Behaarung, Akne, rosazeaartige Hautentzündung"
     ],
-    "unbekannt": ["Verschwommenes Sehen (Chorioretinopathie)"]
+    "unbekannt": [
+      "Verschwommenes Sehen (Chorioretinopathie)"
+    ]
   },
   "schwangerschaft": "Nur nach strenger ärztlicher Abwägung, so kurz und kleinflächig wie möglich; in Tierversuchen traten nach Anwendung starker Kortikosteroide Fehlbildungen auf.",
   "stillzeit": "Nach Abwägung kurzfristig und kleinflächig möglich; nicht auf die Brust auftragen.",

@@ -1,62 +1,295 @@
 {
   "id": "nebivolol",
   "name": "Nebivolol",
-  "synonyme": ["Nebivolol hydrochloride", "Nebivololhydrochlorid"],
-  "atc": ["C07AB12"],
+  "synonyme": [
+    "Nebivolol hydrochloride",
+    "Nebivololhydrochlorid"
+  ],
+  "atc": [
+    "C07AB12"
+  ],
   "klasse": "Beta-1-selektiver Betablocker mit gefässerweiternder Wirkung (NO-vermittelt)",
   "kurz": "Blutdrucksenker aus der Gruppe der Betablocker mit gefässerweiternder Zusatzwirkung; bei Älteren auch bei stabiler Herzschwäche.",
-  "gruppen": ["betablocker", "blutdrucksenkend", "bradykardisierend", "cyp2d6-substrate"],
-  "handelsnamen": ["Nebilet", "Nebilet Plus (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "betablocker",
+    "blutdrucksenkend",
+    "bradykardisierend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Nebilet",
+    "Nebilet Plus (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck (essentielle Hypertonie)", "ids": ["hypertonie"] },
-    { "text": "Stabile, leichte bis mittelschwere chronische Herzschwäche bei Menschen ab 70 Jahren, zusätzlich zur Standardtherapie", "ids": ["herzinsuffizienz"] }
+    {
+      "text": "Bluthochdruck (essentielle Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Stabile, leichte bis mittelschwere chronische Herzschwäche bei Menschen ab 70 Jahren, zusätzlich zur Standardtherapie",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt Puls und Blutdruck, indem es die Wirkung der Stresshormone am Herzen abschwächt und zusätzlich die Blutgefässe weitet. Nebivolol blockiert hoch selektiv und kompetitiv die Beta-1-Adrenozeptoren des Herzens und senkt so Herzfrequenz und Kontraktionskraft. Zusätzlich fördert es die Freisetzung von Stickstoffmonoxid (NO) aus der Gefässinnenwand, was die Gefässe erweitert und den peripheren Widerstand senkt. Nebivolol wird über CYP2D6 abgebaut; bei langsamen Metabolisierern sind die Spiegel höher, die Wirkung ist aber vergleichbar.",
   "kontraindikationen": [
-    { "text": "Leberinsuffizienz oder eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
-    { "text": "Akute Herzinsuffizienz, kardiogener Schock oder Phasen dekompensierter Herzschwäche, die herzstärkende Infusionen erfordern", "ids": ["herzinsuffizienz", "schock"] },
-    { "text": "Sick-Sinus-Syndrom einschliesslich sinuatrialem Block; AV-Block 2. und 3. Grades ohne Herzschrittmacher", "ids": ["bradykardie", "av-block"] },
-    { "text": "Bradykardie (Ruhepuls unter 60 Schlägen pro Minute vor Behandlungsbeginn)", "ids": ["bradykardie"] },
-    { "text": "Hypotonie (systolischer Blutdruck unter 90 mmHg)", "ids": ["hypotonie"] },
-    { "text": "Bronchospasmus oder Asthma bronchiale in der Vorgeschichte", "ids": ["asthma"] },
-    { "text": "Schwere periphere Durchblutungsstörungen", "ids": ["pavk", "raynaud"] },
-    { "text": "Unbehandeltes Phäochromozytom (hormonbildender Tumor des Nebennierenmarks)", "ids": [] },
-    { "text": "Metabolische Azidose (Übersäuerung des Blutes)", "ids": ["ketoazidose"] }
+    {
+      "text": "Leberinsuffizienz oder eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute Herzinsuffizienz, kardiogener Schock oder Phasen dekompensierter Herzschwäche, die herzstärkende Infusionen erfordern",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    },
+    {
+      "text": "Sick-Sinus-Syndrom einschliesslich sinuatrialem Block; AV-Block 2. und 3. Grades ohne Herzschrittmacher",
+      "ids": [
+        "sick-sinus-syndrom",
+        "av-block",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Bradykardie (Ruhepuls unter 60 Schlägen pro Minute vor Behandlungsbeginn)",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Hypotonie (systolischer Blutdruck unter 90 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Bronchospasmus oder Asthma bronchiale in der Vorgeschichte",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Schwere periphere Durchblutungsstörungen",
+      "ids": [
+        "pavk",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Unbehandeltes Phäochromozytom (hormonbildender Tumor des Nebennierenmarks)",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Metabolische Azidose (Übersäuerung des Blutes)",
+      "ids": [
+        "ketoazidose"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Diabetes: Warnzeichen einer Unterzuckerung (Herzrasen, Zittern) können verschleiert werden", "ids": ["diabetes", "hypoglykaemie"] },
-    { "text": "COPD und andere chronisch-obstruktive Lungenerkrankungen (Verengung der Atemwege möglich)", "ids": ["copd"] },
-    { "text": "AV-Block 1. Grades und Prinzmetal-Angina (Angina durch Gefässkrämpfe)", "ids": ["av-block", "angina-pectoris"] },
-    { "text": "Leichtere periphere Durchblutungsstörungen (pAVK, Raynaud-Syndrom) können sich verschlechtern", "ids": ["pavk", "raynaud"] },
-    { "text": "Schilddrüsenüberfunktion: Zeichen wie Herzrasen werden verdeckt", "ids": ["hyperthyreose"] },
-    { "text": "Psoriasis (Schuppenflechte) in der Vorgeschichte", "ids": ["psoriasis"] },
-    { "text": "Allergien und Desensibilisierung: allergische Reaktionen können heftiger verlaufen und schlechter auf Adrenalin ansprechen", "ids": ["allergie", "anaphylaxie"] },
-    { "text": "Geplante Operation oder Narkose: Betablocker nicht eigenmächtig absetzen, Anästhesie informieren", "ids": ["operation", "anaesthesie"] },
-    { "text": "Schwer eingeschränkte Nierenfunktion (keine Erfahrung, Anwendung nicht empfohlen)", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Diabetes: Warnzeichen einer Unterzuckerung (Herzrasen, Zittern) können verschleiert werden",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "COPD und andere chronisch-obstruktive Lungenerkrankungen (Verengung der Atemwege möglich)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "AV-Block 1. Grades und Prinzmetal-Angina (Angina durch Gefässkrämpfe)",
+      "ids": [
+        "av-block",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Leichtere periphere Durchblutungsstörungen (pAVK, Raynaud-Syndrom) können sich verschlechtern",
+      "ids": [
+        "pavk",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion: Zeichen wie Herzrasen werden verdeckt",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Psoriasis (Schuppenflechte) in der Vorgeschichte",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Allergien und Desensibilisierung: allergische Reaktionen können heftiger verlaufen und schlechter auf Adrenalin ansprechen",
+      "ids": [
+        "allergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Geplante Operation oder Narkose: Betablocker nicht eigenmächtig absetzen, Anästhesie informieren",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion (keine Erfahrung, Anwendung nicht empfohlen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ", "ref": ["gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Verstärkte Pulsverlangsamung, AV-Block und Blutdruckabfall; Verapamil intravenös kann schweren Blutdruckabfall und AV-Block auslösen – Kombination nicht empfohlen, nur unter enger ärztlicher Überwachung.", "schwere": "schwer" },
-    { "text": "Antiarrhythmika Klasse I (z. B. Flecainid, Propafenon) und Amiodaron", "ref": ["gruppe:antiarrhythmika-klasse-i", "amiodaron"], "effekt": "Verlangsamte Erregungsleitung im Herzen und geschwächte Herzkraft – Kombination nicht empfohlen bzw. nur mit EKG-Kontrolle.", "schwere": "schwer" },
-    { "text": "Zentral wirkende Blutdrucksenker (Clonidin, Moxonidin)", "ref": ["clonidin", "moxonidin"], "effekt": "Verstärkte Pulsverlangsamung; beim plötzlichen Absetzen von Clonidin droht ein starker Blutdruckanstieg – Clonidin erst einige Tage nach dem Betablocker schrittweise absetzen.", "schwere": "mittel" },
-    { "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion, Chinidin)", "ref": ["gruppe:starke-cyp2d6-hemmer"], "effekt": "Höhere Nebivolol-Spiegel; vermehrt langsamer Puls und Blutdruckabfall möglich – Puls und Blutdruck kontrollieren.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Zusätzliche Verlangsamung der Überleitung im AV-Knoten und des Pulses – Puls und EKG kontrollieren.", "schwere": "mittel" },
-    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verdeckt werden – Blutzucker häufiger messen.", "schwere": "mittel" },
-    { "text": "Narkosemittel (Inhalationsanästhetika)", "ref": ["isofluran", "sevofluran"], "effekt": "Abgeschwächte Gegenregulation des Kreislaufs, Blutdruckabfall möglich – Narkoseteam über die Einnahme informieren.", "schwere": "mittel" },
-    { "text": "Alpha-1-Blocker, Nitrate und andere Blutdrucksenker", "ref": ["gruppe:alpha1-blocker", "gruppe:nitrate"], "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.", "schwere": "mittel" },
-    { "text": "Trizyklische Antidepressiva, Barbiturate, Antipsychotika", "ref": ["gruppe:trizyklische-antidepressiva", "gruppe:barbiturate", "gruppe:antipsychotika"], "effekt": "Verstärkte Blutdrucksenkung, besonders beim Aufstehen.", "schwere": "leicht" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte Blutdrucksenkung bei regelmässiger Einnahme.", "schwere": "leicht" },
-    { "text": "Sympathomimetika (z. B. Pseudoephedrin, Adrenalin)", "ref": ["gruppe:sympathomimetika"], "effekt": "Gegenseitige Abschwächung der Wirkung.", "schwere": "leicht" }
+    {
+      "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung, AV-Block und Blutdruckabfall; Verapamil intravenös kann schweren Blutdruckabfall und AV-Block auslösen – Kombination nicht empfohlen, nur unter enger ärztlicher Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika Klasse I (z. B. Flecainid, Propafenon) und Amiodaron",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "amiodaron"
+      ],
+      "effekt": "Verlangsamte Erregungsleitung im Herzen und geschwächte Herzkraft – Kombination nicht empfohlen bzw. nur mit EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Zentral wirkende Blutdrucksenker (Clonidin, Moxonidin)",
+      "ref": [
+        "clonidin",
+        "moxonidin"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung; beim plötzlichen Absetzen von Clonidin droht ein starker Blutdruckanstieg – Clonidin erst einige Tage nach dem Betablocker schrittweise absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Höhere Nebivolol-Spiegel; vermehrt langsamer Puls und Blutdruckabfall möglich – Puls und Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Zusätzliche Verlangsamung der Überleitung im AV-Knoten und des Pulses – Puls und EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verdeckt werden – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkosemittel (Inhalationsanästhetika)",
+      "ref": [
+        "isofluran",
+        "sevofluran"
+      ],
+      "effekt": "Abgeschwächte Gegenregulation des Kreislaufs, Blutdruckabfall möglich – Narkoseteam über die Einnahme informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alpha-1-Blocker, Nitrate und andere Blutdrucksenker",
+      "ref": [
+        "gruppe:alpha1-blocker",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva, Barbiturate, Antipsychotika",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:barbiturate",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, besonders beim Aufstehen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung bei regelmässiger Einnahme.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Sympathomimetika (z. B. Pseudoephedrin, Adrenalin)",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [],
-    "haeufig": ["Kopfschmerzen", "Schwindel (bei Herzschwäche sehr häufig)", "Kribbeln (Parästhesien)", "Müdigkeit", "Atemnot (Dyspnoe)", "Verstopfung, Übelkeit, Durchfall", "Ödeme (Wassereinlagerungen)"],
-    "gelegentlich": ["Bradykardie (langsamer Puls; bei Herzschwäche sehr häufig)", "Verschlechterung einer Herzschwäche, verlangsamte AV-Überleitung bzw. AV-Block", "Hypotonie (tiefer Blutdruck)", "Bronchospasmus (Verkrampfung der Atemwege)", "Albträume, Depression", "Sehstörungen", "Verstärkte Schaufensterkrankheit (Claudicatio intermittens)", "Juckreiz, Hautausschlag, Erektionsstörungen, Verdauungsbeschwerden, Blähungen, Erbrechen"],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Schwindel (bei Herzschwäche sehr häufig)",
+      "Kribbeln (Parästhesien)",
+      "Müdigkeit",
+      "Atemnot (Dyspnoe)",
+      "Verstopfung, Übelkeit, Durchfall",
+      "Ödeme (Wassereinlagerungen)"
+    ],
+    "gelegentlich": [
+      "Bradykardie (langsamer Puls; bei Herzschwäche sehr häufig)",
+      "Verschlechterung einer Herzschwäche, verlangsamte AV-Überleitung bzw. AV-Block",
+      "Hypotonie (tiefer Blutdruck)",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Albträume, Depression",
+      "Sehstörungen",
+      "Verstärkte Schaufensterkrankheit (Claudicatio intermittens)",
+      "Juckreiz, Hautausschlag, Erektionsstörungen, Verdauungsbeschwerden, Blähungen, Erbrechen"
+    ],
     "selten": [],
-    "sehrSelten": ["Synkope (Ohnmacht)", "Verschlechterung einer Psoriasis"],
-    "unbekannt": ["Angioödem (Schwellung von Gesicht, Lippen, Zunge)", "Überempfindlichkeitsreaktionen, Nesselsucht"]
+    "sehrSelten": [
+      "Synkope (Ohnmacht)",
+      "Verschlechterung einer Psoriasis"
+    ],
+    "unbekannt": [
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge)",
+      "Überempfindlichkeitsreaktionen, Nesselsucht"
+    ]
   },
   "schwangerschaft": "Nur bei zwingender Notwendigkeit nach ärztlicher Abwägung: Betablocker können die Durchblutung der Plazenta vermindern und das Wachstum des Kindes hemmen. Neugeborene in den ersten Lebenstagen auf langsamen Puls und Unterzuckerung überwachen.",
   "stillzeit": "Nicht empfohlen; ob Nebivolol in die Muttermilch übergeht, ist beim Menschen nicht bekannt (im Tierversuch ja).",

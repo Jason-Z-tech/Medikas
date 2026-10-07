@@ -1,51 +1,218 @@
 {
   "id": "calcitriol",
   "name": "Calcitriol",
-  "synonyme": ["1,25-Dihydroxycholecalciferol", "1,25-Dihydroxyvitamin D3", "Calcitriolum"],
-  "atc": ["A11CC04", "D05AX03"],
+  "synonyme": [
+    "1,25-Dihydroxycholecalciferol",
+    "1,25-Dihydroxyvitamin D3",
+    "Calcitriolum"
+  ],
+  "atc": [
+    "A11CC04",
+    "D05AX03"
+  ],
   "klasse": "Aktives Vitamin-D-Hormon (Vitamin-D-Analogon); topisch Antipsoriatikum",
   "kurz": "Aktive Form von Vitamin D bei Nierenkrankheit und Unterfunktion der Nebenschilddrüsen; als Salbe gegen Schuppenflechte.",
-  "gruppen": ["hyperkalzaemie-ausloesend"],
-  "handelsnamen": ["Rocaltrol", "Silkis"],
-  "abgabe": ["B"],
-  "darreichung": ["Weichkapseln", "Salbe"],
+  "gruppen": [
+    "hyperkalzaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Rocaltrol",
+    "Silkis"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Weichkapseln",
+    "Salbe"
+  ],
   "indikationen": [
-    { "text": "Knochenstoffwechselstörung bei chronischer Niereninsuffizienz (renale Osteodystrophie), besonders bei Dialysepatienten", "ids": ["niereninsuffizienz", "hyperparathyreoidismus"] },
-    { "text": "Unterfunktion der Nebenschilddrüsen (nach Operation oder ohne erkennbare Ursache) und Pseudohypoparathyreoidismus mit Calciummangel", "ids": ["hypokalzaemie"] },
-    { "text": "Vitamin-D-abhängige Rachitis und hypophosphatämische (Vitamin-D-resistente) Rachitis", "ids": ["vitamin-d-mangel"] },
-    { "text": "Salbe: leichte bis mittelschwere Plaque-Psoriasis (Schuppenflechte)", "ids": ["psoriasis"] }
+    {
+      "text": "Knochenstoffwechselstörung bei chronischer Niereninsuffizienz (renale Osteodystrophie), besonders bei Dialysepatienten",
+      "ids": [
+        "niereninsuffizienz",
+        "hyperparathyreoidismus"
+      ]
+    },
+    {
+      "text": "Unterfunktion der Nebenschilddrüsen (nach Operation oder ohne erkennbare Ursache) und Pseudohypoparathyreoidismus mit Calciummangel",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Vitamin-D-abhängige Rachitis und hypophosphatämische (Vitamin-D-resistente) Rachitis",
+      "ids": [
+        "vitamin-d-mangel"
+      ]
+    },
+    {
+      "text": "Salbe: leichte bis mittelschwere Plaque-Psoriasis (Schuppenflechte)",
+      "ids": [
+        "psoriasis"
+      ]
+    }
   ],
   "wirkmechanismus": "Ist die fertige, aktive Form von Vitamin D und muss – anders als gewöhnliches Vitamin D – nicht erst in Leber und Niere umgewandelt werden. Calcitriol (1,25-Dihydroxycholecalciferol) bindet an den Vitamin-D-Rezeptor und steigert dadurch die Aufnahme von Calcium und Phosphat aus dem Darm, die Rückresorption von Calcium in der Niere und die Mineralisierung des Knochens; zudem hemmt es die Bildung von Parathormon. Deshalb wirkt es auch, wenn die kranke Niere selbst kein aktives Vitamin D mehr bilden kann. Auf der Haut hemmt es die übermässige Vermehrung der Hornzellen (Keratinozyten) und fördert deren normale Ausreifung.",
   "kontraindikationen": [
-    { "text": "Erhöhtes Calcium im Blut (Hyperkalzämie) und Erkrankungen, die mit einer Hyperkalzämie einhergehen", "ids": ["hyperkalzaemie"] },
-    { "text": "Vitamin-D-Vergiftung (Hypervitaminose D)", "ids": ["vergiftung"] },
-    { "text": "Metastatische Verkalkungen (Kalkablagerungen in Organen und Geweben)", "ids": [] },
-    { "text": "Salbe: Störungen des Calciumstoffwechsels, gleichzeitige innerliche Behandlung mit calciumspiegelwirksamen Mitteln, eingeschränkte Nierenfunktion oder schwere Leberfunktionsstörung", "ids": ["hyperkalzaemie", "niereninsuffizienz", "leberinsuffizienz"] }
+    {
+      "text": "Erhöhtes Calcium im Blut (Hyperkalzämie) und Erkrankungen, die mit einer Hyperkalzämie einhergehen",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Vitamin-D-Vergiftung (Hypervitaminose D)",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Metastatische Verkalkungen (Kalkablagerungen in Organen und Geweben)",
+      "ids": []
+    },
+    {
+      "text": "Salbe: Störungen des Calciumstoffwechsels, gleichzeitige innerliche Behandlung mit calciumspiegelwirksamen Mitteln, eingeschränkte Nierenfunktion oder schwere Leberfunktionsstörung",
+      "ids": [
+        "hyperkalzaemie",
+        "niereninsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Schmale therapeutische Breite: Calcium, Phosphat und Kreatinin im Blut regelmässig kontrollieren, zu Beginn und nach Dosisänderungen häufig", "ids": ["hyperkalzaemie"] },
-    { "text": "Niereninsuffizienz und Dialyse: Phosphat überwachen und Phosphatbinder anpassen; magnesiumhaltige Antazida meiden", "ids": ["niereninsuffizienz", "hyperphosphataemie"] },
-    { "text": "Ruhigstellung, z. B. nach Operationen (erhöhte Gefahr einer Hyperkalzämie)", "ids": ["operation"] },
-    { "text": "Nierensteine in der Vorgeschichte", "ids": ["nierensteine"] },
-    { "text": "Behandlung mit Herzglykosiden: eine Hyperkalzämie kann Herzrhythmusstörungen auslösen", "ids": ["herzrhythmusstoerung"] },
-    { "text": "Salbe: nicht auf Gesicht, Augen, Lippen oder Schleimhäute auftragen; nicht grossflächig anwenden (Aufnahme in den Körper)", "ids": ["psoriasis"] }
+    {
+      "text": "Schmale therapeutische Breite: Calcium, Phosphat und Kreatinin im Blut regelmässig kontrollieren, zu Beginn und nach Dosisänderungen häufig",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Niereninsuffizienz und Dialyse: Phosphat überwachen und Phosphatbinder anpassen; magnesiumhaltige Antazida meiden",
+      "ids": [
+        "niereninsuffizienz",
+        "hyperphosphataemie"
+      ]
+    },
+    {
+      "text": "Ruhigstellung, z. B. nach Operationen (erhöhte Gefahr einer Hyperkalzämie)",
+      "ids": [
+        "immobilisation",
+        "operation"
+      ]
+    },
+    {
+      "text": "Nierensteine in der Vorgeschichte",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Behandlung mit Herzglykosiden: eine Hyperkalzämie kann Herzrhythmusstörungen auslösen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Salbe: nicht auf Gesicht, Augen, Lippen oder Schleimhäute auftragen; nicht grossflächig anwenden (Aufnahme in den Körper)",
+      "ids": [
+        "psoriasis"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Vitamin-D-Präparate und -Analoga (z. B. Colecalciferol, Paricalcitol)", "ref": ["colecalciferol-vitamin-d3", "calcium-colecalciferol", "paricalcitol"], "effekt": "Additive Wirkung – Gefahr einer Hyperkalzämie; während der Behandlung keine weiteren Vitamin-D-Präparate ohne ärztliche Anordnung.", "schwere": "schwer" },
-    { "text": "Herzglykoside (Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Eine Hyperkalzämie verstärkt die Digitaliswirkung und kann Herzrhythmusstörungen auslösen – Dosis sorgfältig einstellen, Calcium und EKG überwachen.", "schwere": "schwer" },
-    { "text": "Thiaziddiuretika (z. B. Hydrochlorothiazid, Chlortalidon)", "ref": ["gruppe:thiaziddiuretika"], "effekt": "Verminderte Calciumausscheidung – erhöhtes Hyperkalzämie-Risiko; Calcium kontrollieren.", "schwere": "mittel" },
-    { "text": "Calciumpräparate", "ref": ["calcium"], "effekt": "Erhöhtes Hyperkalzämie-Risiko – Calciumzufuhr an die Blutwerte anpassen.", "schwere": "mittel" },
-    { "text": "Magnesiumhaltige Antazida und Abführmittel (bei Dialysepatienten)", "ref": ["gruppe:antazida", "magnesium"], "effekt": "Calcitriol steigert die Magnesiumaufnahme – Gefahr erhöhter Magnesiumspiegel; bei Niereninsuffizienz meiden.", "schwere": "mittel" },
-    { "text": "Enzyminduzierende Antiepileptika (Phenytoin, Phenobarbital, Carbamazepin)", "ref": ["phenytoin", "phenobarbital", "carbamazepin"], "effekt": "Beschleunigter Abbau von Calcitriol – höhere Dosis kann nötig sein; Calcium kontrollieren.", "schwere": "mittel" },
-    { "text": "Gallensäurebinder (Colestyramin)", "ref": ["gruppe:gallensaeurebinder"], "effekt": "Verminderte Aufnahme von Calcitriol aus dem Darm – zeitversetzt einnehmen.", "schwere": "leicht" },
-    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Können die Wirkung von Calcitriol auf die Calciumaufnahme abschwächen.", "schwere": "leicht" }
+    {
+      "text": "Andere Vitamin-D-Präparate und -Analoga (z. B. Colecalciferol, Paricalcitol)",
+      "ref": [
+        "colecalciferol-vitamin-d3",
+        "calcium-colecalciferol",
+        "paricalcitol"
+      ],
+      "effekt": "Additive Wirkung – Gefahr einer Hyperkalzämie; während der Behandlung keine weiteren Vitamin-D-Präparate ohne ärztliche Anordnung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Eine Hyperkalzämie verstärkt die Digitaliswirkung und kann Herzrhythmusstörungen auslösen – Dosis sorgfältig einstellen, Calcium und EKG überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thiaziddiuretika (z. B. Hydrochlorothiazid, Chlortalidon)",
+      "ref": [
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verminderte Calciumausscheidung – erhöhtes Hyperkalzämie-Risiko; Calcium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumpräparate",
+      "ref": [
+        "calcium"
+      ],
+      "effekt": "Erhöhtes Hyperkalzämie-Risiko – Calciumzufuhr an die Blutwerte anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Magnesiumhaltige Antazida und Abführmittel (bei Dialysepatienten)",
+      "ref": [
+        "gruppe:antazida",
+        "magnesium"
+      ],
+      "effekt": "Calcitriol steigert die Magnesiumaufnahme – Gefahr erhöhter Magnesiumspiegel; bei Niereninsuffizienz meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduzierende Antiepileptika (Phenytoin, Phenobarbital, Carbamazepin)",
+      "ref": [
+        "phenytoin",
+        "phenobarbital",
+        "carbamazepin"
+      ],
+      "effekt": "Beschleunigter Abbau von Calcitriol – höhere Dosis kann nötig sein; Calcium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (Colestyramin)",
+      "ref": [
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Verminderte Aufnahme von Calcitriol aus dem Darm – zeitversetzt einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Können die Wirkung von Calcitriol auf die Calciumaufnahme abschwächen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hyperkalzämie (erhöhtes Calcium im Blut) bei Einnahme der Kapseln"],
-    "haeufig": ["Kopfschmerzen", "Bauchschmerzen, Übelkeit", "Hautausschlag", "Harnwegsinfekte", "Salbe: Hautreizung, Rötung und Juckreiz an der behandelten Stelle"],
-    "gelegentlich": ["Appetitlosigkeit, Erbrechen", "Anstieg des Kreatinins im Blut"],
-    "unbekannt": ["Zeichen einer Hyperkalzämie: Durst, vermehrtes Wasserlassen, Verstopfung, Muskelschwäche, Teilnahmslosigkeit", "Kalkablagerungen in Geweben (Calcinose) und Nierensteine bei anhaltender Hyperkalzämie", "Überempfindlichkeitsreaktionen (Juckreiz, Nesselsucht)", "Wachstumsverzögerung bei Kindern mit anhaltender Hyperkalzämie"]
+    "sehrHaeufig": [
+      "Hyperkalzämie (erhöhtes Calcium im Blut) bei Einnahme der Kapseln"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bauchschmerzen, Übelkeit",
+      "Hautausschlag",
+      "Harnwegsinfekte",
+      "Salbe: Hautreizung, Rötung und Juckreiz an der behandelten Stelle"
+    ],
+    "gelegentlich": [
+      "Appetitlosigkeit, Erbrechen",
+      "Anstieg des Kreatinins im Blut"
+    ],
+    "unbekannt": [
+      "Zeichen einer Hyperkalzämie: Durst, vermehrtes Wasserlassen, Verstopfung, Muskelschwäche, Teilnahmslosigkeit",
+      "Kalkablagerungen in Geweben (Calcinose) und Nierensteine bei anhaltender Hyperkalzämie",
+      "Überempfindlichkeitsreaktionen (Juckreiz, Nesselsucht)",
+      "Wachstumsverzögerung bei Kindern mit anhaltender Hyperkalzämie"
+    ]
   },
   "schwangerschaft": "Nur bei klarer Notwendigkeit und unter Kontrolle des Calciums, da eine Hyperkalzämie der Mutter dem Kind schaden kann; die Salbe nur nach ärztlicher Abwägung und kleinflächig.",
   "stillzeit": "Calcitriol geht in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung mit Kontrolle des Calciums bei Mutter und Kind.",

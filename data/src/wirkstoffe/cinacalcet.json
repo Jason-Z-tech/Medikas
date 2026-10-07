@@ -1,45 +1,185 @@
 {
   "id": "cinacalcet",
   "name": "Cinacalcet",
-  "synonyme": ["Cinacalcet hydrochloride", "Cinacalcetum"],
-  "atc": ["H05BX01"],
+  "synonyme": [
+    "Cinacalcet hydrochloride",
+    "Cinacalcetum"
+  ],
+  "atc": [
+    "H05BX01"
+  ],
   "klasse": "Kalzimimetikum (Modulator des Calcium-Sensor-Rezeptors)",
   "kurz": "Senkt bei Überfunktion der Nebenschilddrüsen das Parathormon und das Calcium im Blut, vor allem bei Dialysepatienten.",
-  "gruppen": ["starke-cyp2d6-hemmer", "cyp1a2-substrate"],
-  "handelsnamen": ["Mimpara", "Cinacalcet Sandoz", "Cinacalcet Mepha"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "starke-cyp2d6-hemmer",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Mimpara",
+    "Cinacalcet Sandoz",
+    "Cinacalcet Mepha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Sekundärer Hyperparathyreoidismus (Nebenschilddrüsen-Überfunktion) bei Erwachsenen mit dialysepflichtiger Niereninsuffizienz", "ids": ["hyperparathyreoidismus", "niereninsuffizienz"] },
-    { "text": "Senkung eines erhöhten Calciums bei Nebenschilddrüsenkarzinom", "ids": ["hyperkalzaemie", "krebs"] },
-    { "text": "Primärer Hyperparathyreoidismus mit erhöhtem Calcium, wenn eine Operation angezeigt, aber nicht möglich oder nicht ratsam ist", "ids": ["hyperparathyreoidismus", "hyperkalzaemie"] }
+    {
+      "text": "Sekundärer Hyperparathyreoidismus (Nebenschilddrüsen-Überfunktion) bei Erwachsenen mit dialysepflichtiger Niereninsuffizienz",
+      "ids": [
+        "hyperparathyreoidismus",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Senkung eines erhöhten Calciums bei Nebenschilddrüsenkarzinom",
+      "ids": [
+        "hyperkalzaemie",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Primärer Hyperparathyreoidismus mit erhöhtem Calcium, wenn eine Operation angezeigt, aber nicht möglich oder nicht ratsam ist",
+      "ids": [
+        "hyperparathyreoidismus",
+        "hyperkalzaemie"
+      ]
+    }
   ],
   "wirkmechanismus": "Macht die Nebenschilddrüsen empfindlicher für Calcium, sodass sie weniger Parathormon ausschütten. Cinacalcet ist ein allosterischer Modulator des calciumsensitiven Rezeptors (CaSR) auf den Hauptzellen der Nebenschilddrüse: Schon niedrigere Calciumkonzentrationen hemmen dadurch die Parathormon-Freisetzung. In der Folge sinken Parathormon und Calcium im Blut, bei Dialysepatienten auch das Calcium-Phosphat-Produkt.",
   "kontraindikationen": [
-    { "text": "Hypokalzämie (zu tiefes Calcium im Blut)", "ids": ["hypokalzaemie"] }
+    {
+      "text": "Hypokalzämie (zu tiefes Calcium im Blut)",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Krampfanfälle oder Epilepsie in der Vorgeschichte: ein Calciumabfall senkt die Krampfschwelle", "ids": ["epilepsie"] },
-    { "text": "Verlängerte QT-Zeit, angeborenes Long-QT-Syndrom oder Einnahme QT-verlängernder Mittel: ein Calciumabfall kann gefährliche Herzrhythmusstörungen begünstigen", "ids": ["qt-verlaengerung", "herzrhythmusstoerung"] },
-    { "text": "Herzinsuffizienz: Blutdruckabfall und Verschlechterung der Herzschwäche beschrieben", "ids": ["herzinsuffizienz", "hypotonie"] },
-    { "text": "Mittelschwere bis schwere Leberinsuffizienz: Spiegel 2- bis 4-fach erhöht – sorgfältige Überwachung", "ids": ["leberinsuffizienz"] },
-    { "text": "Chronische Niereninsuffizienz ohne Dialyse: nicht zugelassen, erhöhtes Risiko für eine Hypokalzämie", "ids": ["niereninsuffizienz"] },
-    { "text": "Zu starke Senkung des Parathormons: Gefahr einer Knochenumbaustörung (adyname Knochenerkrankung) – regelmässige Laborkontrollen", "ids": [] },
-    { "text": "Rauchen: Cinacalcet wird schneller abgebaut; bei Beginn oder Ende des Rauchens kann eine Dosisanpassung nötig sein", "ids": ["rauchstopp"] }
+    {
+      "text": "Krampfanfälle oder Epilepsie in der Vorgeschichte: ein Calciumabfall senkt die Krampfschwelle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, angeborenes Long-QT-Syndrom oder Einnahme QT-verlängernder Mittel: ein Calciumabfall kann gefährliche Herzrhythmusstörungen begünstigen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz: Blutdruckabfall und Verschlechterung der Herzschwäche beschrieben",
+      "ids": [
+        "herzinsuffizienz",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz: Spiegel 2- bis 4-fach erhöht – sorgfältige Überwachung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Chronische Niereninsuffizienz ohne Dialyse: nicht zugelassen, erhöhtes Risiko für eine Hypokalzämie",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Zu starke Senkung des Parathormons: Gefahr einer Knochenumbaustörung (adyname Knochenerkrankung) – regelmässige Laborkontrollen",
+      "ids": []
+    },
+    {
+      "text": "Rauchen: Cinacalcet wird schneller abgebaut; bei Beginn oder Ende des Rauchens kann eine Dosisanpassung nötig sein",
+      "ids": [
+        "rauchen",
+        "rauchstopp"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Etelcalcetid", "ref": ["etelcalcetid"], "effekt": "Nicht zusammen anwenden – Gefahr einer schweren Hypokalzämie.", "schwere": "schwer" },
-    { "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, Metoprolol, trizyklische Antidepressiva)", "ref": ["gruppe:cyp2d6-substrate", "gruppe:trizyklische-antidepressiva", "flecainid", "propafenon", "metoprolol"], "effekt": "Cinacalcet hemmt CYP2D6 stark – die Spiegel dieser Mittel steigen (Desipramin etwa 3,6-fach). Dosis anpassen, Wirkung und EKG überwachen; Prodrugs wie Codein, Tramadol oder Tamoxifen können schwächer wirken.", "schwere": "mittel" },
-    { "text": "Dextromethorphan (Hustenmittel)", "ref": ["dextromethorphan"], "effekt": "Der Spiegel steigt stark (in Studien etwa 11-fach) – mehr Nebenwirkungen wie Schwindel und Benommenheit möglich.", "schwere": "mittel" },
-    { "text": "Andere calciumsenkende Mittel (z. B. Denosumab, Bisphosphonate, Calcitonin)", "ref": ["denosumab", "gruppe:bisphosphonate", "calcitonin"], "effekt": "Verstärkte Calciumsenkung – Calcium engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Cinacalcet-Spiegel steigen (mit Ketoconazol etwa 2-fach) – Parathormon und Calcium kontrollieren, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Cinacalcet-Spiegel können sinken – Wirkung kontrollieren, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "CYP1A2-Hemmer (z. B. Fluvoxamin, Ciprofloxacin)", "ref": ["gruppe:cyp1a2-hemmer"], "effekt": "Cinacalcet-Spiegel können steigen – Parathormon und Calcium kontrollieren.", "schwere": "mittel" },
-    { "text": "QT-verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Eine Hypokalzämie unter Cinacalcet verlängert die QT-Zeit zusätzlich – Calcium und EKG kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "Etelcalcetid",
+      "ref": [
+        "etelcalcetid"
+      ],
+      "effekt": "Nicht zusammen anwenden – Gefahr einer schweren Hypokalzämie.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, Metoprolol, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "gruppe:trizyklische-antidepressiva",
+        "flecainid",
+        "propafenon",
+        "metoprolol"
+      ],
+      "effekt": "Cinacalcet hemmt CYP2D6 stark – die Spiegel dieser Mittel steigen (Desipramin etwa 3,6-fach). Dosis anpassen, Wirkung und EKG überwachen; Prodrugs wie Codein, Tramadol oder Tamoxifen können schwächer wirken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dextromethorphan (Hustenmittel)",
+      "ref": [
+        "dextromethorphan"
+      ],
+      "effekt": "Der Spiegel steigt stark (in Studien etwa 11-fach) – mehr Nebenwirkungen wie Schwindel und Benommenheit möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere calciumsenkende Mittel (z. B. Denosumab, Bisphosphonate, Calcitonin)",
+      "ref": [
+        "denosumab",
+        "gruppe:bisphosphonate",
+        "calcitonin"
+      ],
+      "effekt": "Verstärkte Calciumsenkung – Calcium engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Cinacalcet-Spiegel steigen (mit Ketoconazol etwa 2-fach) – Parathormon und Calcium kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Cinacalcet-Spiegel können sinken – Wirkung kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Hemmer (z. B. Fluvoxamin, Ciprofloxacin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Cinacalcet-Spiegel können steigen – Parathormon und Calcium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Eine Hypokalzämie unter Cinacalcet verlängert die QT-Zeit zusätzlich – Calcium und EKG kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Übelkeit", "Erbrechen"],
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Erbrechen"
+    ],
     "haeufig": [
       "Hypokalzämie (zu tiefes Calcium; z. B. Kribbeln, Muskelkrämpfe)",
       "Krampfanfälle",

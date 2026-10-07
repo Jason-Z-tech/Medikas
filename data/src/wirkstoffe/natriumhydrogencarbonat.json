@@ -1,42 +1,164 @@
 {
   "id": "natriumhydrogencarbonat",
   "name": "Natriumhydrogencarbonat",
-  "synonyme": ["Natriumbicarbonat", "Natriumbikarbonat", "Natron", "Bicarbonat", "Sodium bicarbonate", "NaHCO3"],
-  "atc": ["B05XA02", "B05CB04"],
+  "synonyme": [
+    "Natriumbicarbonat",
+    "Natriumbikarbonat",
+    "Natron",
+    "Bicarbonat",
+    "Sodium bicarbonate",
+    "NaHCO3"
+  ],
+  "atc": [
+    "B05XA02",
+    "B05CB04"
+  ],
   "klasse": "Alkalisierendes Mittel (Puffer gegen Übersäuerung)",
   "kurz": "Basisches Salz gegen Übersäuerung des Blutes, z. B. bei Nierenkrankheit (Kapseln) oder als Infusion bei schwerer Azidose und Vergiftungen.",
-  "gruppen": ["hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Nephrotrans", "Natriumbicarbonat Bichsel"],
-  "abgabe": ["B"],
-  "darreichung": ["Magensaftresistente Weichkapseln", "Infusionslösung (z. B. 4,2 % und 8,4 %)"],
+  "gruppen": [
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Nephrotrans",
+    "Natriumbicarbonat Bichsel"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Magensaftresistente Weichkapseln",
+    "Infusionslösung (z. B. 4,2 % und 8,4 %)"
+  ],
   "indikationen": [
-    { "text": "Kapseln: metabolische Azidose (Übersäuerung des Blutes) bei chronischer Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
-    { "text": "Infusion: Behandlung einer metabolischen Azidose (Übersäuerung des Blutes)", "ids": [] },
-    { "text": "Infusion: Alkalisierung des Urins bei Vergiftungen mit schwachen Säuren (z. B. Salicylate, Barbiturate) und zur Verbesserung der Löslichkeit bestimmter Stoffe im Urin", "ids": ["vergiftung"] }
+    {
+      "text": "Kapseln: metabolische Azidose (Übersäuerung des Blutes) bei chronischer Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Infusion: Behandlung einer metabolischen Azidose (Übersäuerung des Blutes)",
+      "ids": []
+    },
+    {
+      "text": "Infusion: Alkalisierung des Urins bei Vergiftungen mit schwachen Säuren (z. B. Salicylate, Barbiturate) und zur Verbesserung der Löslichkeit bestimmter Stoffe im Urin",
+      "ids": [
+        "vergiftung"
+      ]
+    }
   ],
   "wirkmechanismus": "Neutralisiert überschüssige Säure im Blut. Bicarbonat ist der wichtigste Puffer des Körpers: Es bindet Wasserstoff-Ionen, wobei Wasser und Kohlendioxid entstehen, das über die Lunge abgeatmet wird. Dadurch steigen pH-Wert und Bicarbonatspiegel im Blut; eine ausreichende Atmung ist Voraussetzung. Über die Niere ausgeschiedenes Bicarbonat macht den Urin basisch, wodurch schwache Säuren wie Salicylate oder Barbiturate besser ausgeschieden werden. Die magensaftresistenten Kapseln geben den Wirkstoff erst im Dünndarm frei, damit im Magen kein Gas entsteht.",
   "kontraindikationen": [
-    { "text": "Metabolische oder respiratorische Alkalose (zu basisches Blut)" },
-    { "text": "Ungenügende Atmung (Hypoventilation) bzw. respiratorische Azidose – das entstehende Kohlendioxid kann nicht abgeatmet werden", "ids": ["schlafapnoe"] },
-    { "text": "Hypernatriämie (zu hohes Natrium)" }
+    {
+      "text": "Metabolische oder respiratorische Alkalose (zu basisches Blut)"
+    },
+    {
+      "text": "Ungenügende Atmung (Hypoventilation) bzw. respiratorische Azidose – das entstehende Kohlendioxid kann nicht abgeatmet werden",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Hypernatriämie (zu hohes Natrium)"
+    }
   ],
   "vorsicht": [
-    { "text": "Herzschwäche, Bluthochdruck, Ödeme, Präeklampsie und natriumarme Diät: hohe Natriumzufuhr (1 g enthält rund 12 mmol Natrium)", "ids": ["herzinsuffizienz", "hypertonie", "oedeme", "schwangerschaft"] },
-    { "text": "Hypokaliämie: der Kaliumspiegel kann durch die Alkalisierung weiter sinken – vorher ausgleichen", "ids": ["hypokaliaemie"] },
-    { "text": "Hypokalzämie: Muskelkrämpfe und Tetanie können sich verschlimmern", "ids": ["hypokalzaemie"] },
-    { "text": "Leberzirrhose und schwere Niereninsuffizienz (Natrium- und Wasserrückhaltung)", "ids": ["leberzirrhose", "niereninsuffizienz"] },
-    { "text": "Infusion: Austritt neben die Vene (Paravasat) kann schwere Gewebeschäden verursachen; bei Neugeborenen zu rasche Gabe hochkonzentrierter Lösungen vermeiden (Hirnblutungsgefahr)", "ids": ["kinder", "hirnblutung"] }
+    {
+      "text": "Herzschwäche, Bluthochdruck, Ödeme, Präeklampsie und natriumarme Diät: hohe Natriumzufuhr (1 g enthält rund 12 mmol Natrium)",
+      "ids": [
+        "herzinsuffizienz",
+        "hypertonie",
+        "oedeme",
+        "praeeklampsie",
+        "natriumarme-diaet"
+      ]
+    },
+    {
+      "text": "Hypokaliämie: der Kaliumspiegel kann durch die Alkalisierung weiter sinken – vorher ausgleichen",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Hypokalzämie: Muskelkrämpfe und Tetanie können sich verschlimmern",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Leberzirrhose und schwere Niereninsuffizienz (Natrium- und Wasserrückhaltung)",
+      "ids": [
+        "leberzirrhose",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Infusion: Austritt neben die Vene (Paravasat) kann schwere Gewebeschäden verursachen; bei Neugeborenen zu rasche Gabe hochkonzentrierter Lösungen vermeiden (Hirnblutungsgefahr)",
+      "ids": [
+        "kinder",
+        "hirnblutung"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Natrium und basischer Urin beschleunigen die Lithiumausscheidung – Lithiumspiegel kann sinken; Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Salicylate und Barbiturate (z. B. Acetylsalicylsäure, Phenobarbital)", "ref": ["acetylsalicylsaeure", "phenobarbital"], "effekt": "Basischer Urin beschleunigt ihre Ausscheidung – Wirkung kann nachlassen (bei Vergiftungen erwünscht).", "schwere": "mittel" },
-    { "text": "Schwach basische Arzneimittel, z. B. Amphetamine, Ephedrin, Pseudoephedrin, Flecainid", "ref": ["gruppe:stimulanzien", "ephedrin", "pseudoephedrin", "flecainid"], "effekt": "Basischer Urin vermindert ihre Ausscheidung – Wirkung und Nebenwirkungen können zunehmen.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Mittel (Schleifen- und Thiaziddiuretika, Glukokortikoide)", "ref": ["gruppe:schleifendiuretika", "gruppe:thiaziddiuretika", "gruppe:glukokortikoide-systemisch"], "effekt": "Verstärkte Hypokaliämie und Alkalose möglich; Glukokortikoide verstärken zudem die Natriumrückhaltung – Elektrolyte kontrollieren.", "schwere": "mittel" },
-    { "text": "Calciumhaltige Lösungen und Katecholamine (z. B. Adrenalin, Noradrenalin) in der Infusion", "ref": ["adrenalin", "noradrenalin"], "effekt": "Ausfällung von Calciumcarbonat bzw. Wirkverlust der Katecholamine – nicht mischen und nicht über dieselbe Leitung geben.", "schwere": "mittel" }
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Natrium und basischer Urin beschleunigen die Lithiumausscheidung – Lithiumspiegel kann sinken; Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Salicylate und Barbiturate (z. B. Acetylsalicylsäure, Phenobarbital)",
+      "ref": [
+        "acetylsalicylsaeure",
+        "phenobarbital"
+      ],
+      "effekt": "Basischer Urin beschleunigt ihre Ausscheidung – Wirkung kann nachlassen (bei Vergiftungen erwünscht).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schwach basische Arzneimittel, z. B. Amphetamine, Ephedrin, Pseudoephedrin, Flecainid",
+      "ref": [
+        "gruppe:stimulanzien",
+        "ephedrin",
+        "pseudoephedrin",
+        "flecainid"
+      ],
+      "effekt": "Basischer Urin vermindert ihre Ausscheidung – Wirkung und Nebenwirkungen können zunehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Schleifen- und Thiaziddiuretika, Glukokortikoide)",
+      "ref": [
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verstärkte Hypokaliämie und Alkalose möglich; Glukokortikoide verstärken zudem die Natriumrückhaltung – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumhaltige Lösungen und Katecholamine (z. B. Adrenalin, Noradrenalin) in der Infusion",
+      "ref": [
+        "adrenalin",
+        "noradrenalin"
+      ],
+      "effekt": "Ausfällung von Calciumcarbonat bzw. Wirkverlust der Katecholamine – nicht mischen und nicht über dieselbe Leitung geben.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "unbekannt": ["Blähungen, Aufstossen, Bauchschmerzen (Kapseln)", "Metabolische Alkalose (zu basisches Blut) bei Überdosierung", "Hypernatriämie, Überwässerung und Ödeme", "Hypokaliämie (Kaliummangel)", "Muskelkrämpfe und Tetanie durch Abfall des freien Calciums", "Infusion: Venenreizung, Gewebeschäden bei Paravasat"]
+    "unbekannt": [
+      "Blähungen, Aufstossen, Bauchschmerzen (Kapseln)",
+      "Metabolische Alkalose (zu basisches Blut) bei Überdosierung",
+      "Hypernatriämie, Überwässerung und Ödeme",
+      "Hypokaliämie (Kaliummangel)",
+      "Muskelkrämpfe und Tetanie durch Abfall des freien Calciums",
+      "Infusion: Venenreizung, Gewebeschäden bei Paravasat"
+    ]
   },
   "schwangerschaft": "Bei klarer Indikation anwendbar; wegen der Natriumbelastung Vorsicht bei Ödemen und Präeklampsie.",
   "stillzeit": "Kann angewendet werden.",

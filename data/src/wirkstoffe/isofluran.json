@@ -1,0 +1,176 @@
+{
+  "id": "isofluran",
+  "name": "Isofluran",
+  "synonyme": [
+    "Isoflurane"
+  ],
+  "atc": [
+    "N01AB06"
+  ],
+  "klasse": "Halogeniertes Inhalationsanästhetikum",
+  "kurz": "Narkosegas zur Einleitung und Aufrechterhaltung einer Vollnarkose; wird über die Atemluft verabreicht.",
+  "gruppen": [
+    "zns-daempfend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Forene"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Flüssigkeit zur Herstellung eines Dampfs zur Inhalation"
+  ],
+  "indikationen": [
+    {
+      "text": "Einleitung und Aufrechterhaltung einer Allgemeinanästhesie (Vollnarkose)",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schaltet Bewusstsein und Schmerzempfinden während einer Operation aus. Isofluran verstärkt hemmende Signale im Gehirn und Rückenmark, vor allem an GABA-A- und Glycinrezeptoren, und dämpft erregende Signalwege. Es wird über die Lunge aufgenommen und fast unverändert wieder abgeatmet, sodass sich die Narkosetiefe gut steuern lässt. Zudem entspannt es die Muskulatur und erweitert die Blutgefässe.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannte oder vermutete Veranlagung zur malignen Hyperthermie",
+      "ids": [
+        "maligne-hyperthermie"
+      ]
+    },
+    {
+      "text": "Leberentzündung, Gelbsucht oder unklares Fieber mit Eosinophilie nach einer früheren Narkose mit halogenierten Narkosegasen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhter Hirndruck oder Raumforderung im Gehirn: Isofluran kann den Hirndruck steigern",
+      "ids": [
+        "hirnoedem",
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen und Flüssigkeitsmangel: dosisabhängiger Blutdruckabfall",
+      "ids": [
+        "koronare-herzkrankheit",
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Neuromuskuläre Erkrankungen (v. a. Muskeldystrophie Duchenne): Gefahr einer Hyperkaliämie mit Herzrhythmusstörungen, besonders bei Kindern",
+      "ids": [
+        "neuromuskulaere-erkrankung",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: verstärkte Wirkung von Muskelrelaxanzien",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Geburtshilfe: entspannt die Gebärmutter, erhöhte Blutungsgefahr",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Stechender Geruch reizt die Atemwege: Husten und Laryngospasmus bei Einleitung über die Maske möglich",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide, Benzodiazepine und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung von Atmung und Kreislauf; geringerer Narkosegasbedarf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nicht-depolarisierende Muskelrelaxanzien (z. B. Rocuronium, Cisatracurium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Muskelentspannung deutlich verstärkt – Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Suxamethonium",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Kann zusammen mit Narkosegasen eine maligne Hyperthermie auslösen; bei Muskelerkrankungen Gefahr einer Hyperkaliämie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin und andere Sympathomimetika",
+      "ref": [
+        "adrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Herzrhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Indirekt wirkende Sympathomimetika (z. B. Amphetamine, Ephedrin) und MAO-Hemmer",
+      "ref": [
+        "gruppe:stimulanzien",
+        "ephedrin",
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Gefahr von Blutdruckkrisen während der Operation – möglichst einige Tage bzw. bei MAO-Hemmern 2 Wochen vorher absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker und Calciumantagonisten",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung und Herzdämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Distickstoffmonoxid (Lachgas)",
+      "ref": [
+        "distickstoffmonoxid"
+      ],
+      "effekt": "Senkt den Isofluranbedarf.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Blutdruckabfall, Herzrhythmusstörungen (zu langsamer oder zu schneller Puls)",
+      "Atemdepression, Husten, Laryngospasmus (Stimmritzenkrampf), Bronchospasmus",
+      "Übelkeit und Erbrechen nach der Narkose",
+      "Unruhe, Verwirrtheit und Delir in der Aufwachphase",
+      "Maligne Hyperthermie",
+      "Hyperkaliämie mit Herzrhythmusstörungen bei Muskelerkrankungen",
+      "Leberschäden bis Lebernekrose",
+      "Krampfanfälle"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit. In der Geburtshilfe kann Isofluran die Gebärmutter entspannen und den Blutverlust erhöhen.",
+  "stillzeit": "Es ist nicht bekannt, ob Isofluran in die Muttermilch übergeht; Anwendung in der Stillzeit mit Vorsicht.",
+  "hinweise": [
+    "Wird nur durch Anästhesiefachpersonen mit Narkosegerät und Überwachung verabreicht.",
+    "Vor der Narkose angeben, wenn bei Ihnen oder Blutsverwandten eine maligne Hyperthermie oder Probleme bei früheren Narkosen aufgetreten sind.",
+    "Nach einer Narkose mindestens 24 Stunden kein Fahrzeug lenken, keine Maschinen bedienen und keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

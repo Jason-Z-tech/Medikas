@@ -1,48 +1,197 @@
 {
   "id": "flucloxacillin",
   "name": "Flucloxacillin",
-  "synonyme": ["Flucloxacilline", "Floxacillin", "Flucloxacillin-Natrium", "Flucloxacillinum"],
-  "atc": ["J01CF05"],
+  "synonyme": [
+    "Flucloxacilline",
+    "Floxacillin",
+    "Flucloxacillin-Natrium",
+    "Flucloxacillinum"
+  ],
+  "atc": [
+    "J01CF05"
+  ],
   "klasse": "Penicillinase-festes Penicillin (Isoxazolylpenicillin, Beta-Laktam-Antibiotikum)",
   "kurz": "Penicillin speziell gegen Staphylokokken, z. B. bei Haut-, Wund-, Knochen- und Gelenkinfektionen; als Kapsel oder Infusion.",
-  "gruppen": ["penicilline", "hepatotoxisch"],
-  "handelsnamen": ["Floxapen"],
-  "abgabe": ["A"],
-  "darreichung": ["Kapseln", "Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "gruppen": [
+    "penicilline",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Floxapen"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
   "indikationen": [
-    { "text": "Infektionen durch Staphylokokken (auch penicillinasebildende Stämme) und Streptokokken an Haut und Weichteilen, z. B. Furunkel, Abszess, Phlegmone, infizierte Wunden und Verbrennungen", "ids": ["hautinfektion"] },
-    { "text": "Knochen- und Gelenkinfektionen (z. B. Osteomyelitis)", "ids": ["bakterielle-infektion"] },
-    { "text": "Schwere Staphylokokken-Infektionen als Infusion, z. B. Lungenentzündung, Herzinnenhautentzündung (Endokarditis), Blutvergiftung", "ids": ["lungenentzuendung", "herzklappenerkrankung", "bakterielle-infektion"] },
-    { "text": "Vorbeugung von Infektionen bei grösseren Operationen (z. B. Herz- oder orthopädische Chirurgie)", "ids": ["operation"] }
+    {
+      "text": "Infektionen durch Staphylokokken (auch penicillinasebildende Stämme) und Streptokokken an Haut und Weichteilen, z. B. Furunkel, Abszess, Phlegmone, infizierte Wunden und Verbrennungen",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Knochen- und Gelenkinfektionen (z. B. Osteomyelitis)",
+      "ids": [
+        "osteomyelitis",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Staphylokokken-Infektionen als Infusion, z. B. Lungenentzündung, Herzinnenhautentzündung (Endokarditis), Blutvergiftung",
+      "ids": [
+        "lungenentzuendung",
+        "endokarditis",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Infektionen bei grösseren Operationen (z. B. Herz- oder orthopädische Chirurgie)",
+      "ids": [
+        "operation"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Flucloxacillin hemmt die Penicillin-bindenden Proteine und damit die Quervernetzung des Peptidoglykans (bakterizide Wirkung). Dank seiner Seitenkette ist es gegen die Penicillinase (Beta-Laktamase) der Staphylokokken stabil und deshalb ein Mittel der Wahl bei Infektionen mit Methicillin-empfindlichem Staphylococcus aureus. Gegen MRSA, Enterokokken und die meisten gramnegativen Bakterien wirkt es nicht.",
   "kontraindikationen": [
-    { "text": "Penicillinallergie", "ids": ["penicillinallergie"] },
-    { "text": "Frühere Gelbsucht oder Leberfunktionsstörung durch Flucloxacillin", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Penicillinallergie",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Frühere Gelbsucht oder Leberfunktionsstörung durch Flucloxacillin",
+      "ids": [
+        "cholestase",
+        "leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Lebererkrankungen, Alter über 50 Jahre, schwere Grunderkrankungen oder Behandlung länger als 14 Tage: erhöhtes Risiko einer Leberentzündung mit Gallestau, die auch erst bis zu 2 Monate nach Behandlungsende auftreten kann", "ids": ["leberinsuffizienz", "aeltere-patienten"] },
-    { "text": "Metabolische Azidose (Übersäuerung des Blutes) mit erhöhter Anionenlücke, besonders zusammen mit Paracetamol und bei Sepsis, Mangelernährung, Alkoholabhängigkeit oder schwerer Niereninsuffizienz", "ids": ["aktive-infektion", "mangelernaehrung", "alkoholabhaengigkeit", "niereninsuffizienz"] },
-    { "text": "Allergie gegen Cephalosporine oder andere Beta-Laktame (Kreuzallergie möglich)", "ids": ["allergie"] },
-    { "text": "Schwere Niereninsuffizienz: Dosisanpassung", "ids": ["niereninsuffizienz"] },
-    { "text": "Neugeborene: Flucloxacillin kann Bilirubin aus der Eiweissbindung verdrängen (Gelbsucht)", "ids": ["kinder"] },
-    { "text": "Natriumgehalt der Infusionslösung bei salzarmer Diät oder Herzinsuffizienz beachten", "ids": ["herzinsuffizienz"] },
-    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] }
+    {
+      "text": "Lebererkrankungen, Alter über 50 Jahre, schwere Grunderkrankungen oder Behandlung länger als 14 Tage: erhöhtes Risiko einer Leberentzündung mit Gallestau, die auch erst bis zu 2 Monate nach Behandlungsende auftreten kann",
+      "ids": [
+        "leberinsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Metabolische Azidose (Übersäuerung des Blutes) mit erhöhter Anionenlücke, besonders zusammen mit Paracetamol und bei Sepsis, Mangelernährung, Alkoholabhängigkeit oder schwerer Niereninsuffizienz",
+      "ids": [
+        "aktive-infektion",
+        "mangelernaehrung",
+        "alkoholabhaengigkeit",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Allergie gegen Cephalosporine oder andere Beta-Laktame (Kreuzallergie möglich)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz: Dosisanpassung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neugeborene: Flucloxacillin kann Bilirubin aus der Eiweissbindung verdrängen (Gelbsucht)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Natriumgehalt der Infusionslösung bei salzarmer Diät oder Herzinsuffizienz beachten",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken",
+      "ids": [
+        "clostridioides"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Paracetamol", "ref": ["paracetamol"], "effekt": "Gefahr einer schweren metabolischen Azidose (Übersäuerung des Blutes durch 5-Oxoprolin), vor allem bei Risikofaktoren – engmaschig überwachen, Paracetamol möglichst absetzen.", "schwere": "schwer" },
-    { "text": "Voriconazol", "ref": ["voriconazol"], "effekt": "Flucloxacillin kann die Voriconazol-Spiegel deutlich senken (Enzyminduktion) – Wirkungsverlust möglich; Spiegel kontrollieren oder Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Penicilline vermindern die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Blutbild und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Der INR kann sich verändern (unter Flucloxacillin eher abgeschwächte Gerinnungshemmung beschrieben) – INR engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
-    { "text": "Probenecid", "ref": [], "effekt": "Hemmt die Ausscheidung von Flucloxacillin über die Niere – höhere und länger anhaltende Spiegel.", "schwere": "leicht" },
-    { "text": "Tetracycline, Chloramphenicol und andere bakteriostatische Antibiotika", "ref": ["gruppe:tetracycline", "chloramphenicol"], "effekt": "Können die bakterientötende Wirkung abschwächen.", "schwere": "leicht" },
-    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+    {
+      "text": "Paracetamol",
+      "ref": [
+        "paracetamol"
+      ],
+      "effekt": "Gefahr einer schweren metabolischen Azidose (Übersäuerung des Blutes durch 5-Oxoprolin), vor allem bei Risikofaktoren – engmaschig überwachen, Paracetamol möglichst absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Voriconazol",
+      "ref": [
+        "voriconazol"
+      ],
+      "effekt": "Flucloxacillin kann die Voriconazol-Spiegel deutlich senken (Enzyminduktion) – Wirkungsverlust möglich; Spiegel kontrollieren oder Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Penicilline vermindern die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Blutbild und Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Der INR kann sich verändern (unter Flucloxacillin eher abgeschwächte Gerinnungshemmung beschrieben) – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Typhus-Lebendimpfstoff zum Schlucken",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Hemmt die Ausscheidung von Flucloxacillin über die Niere – höhere und länger anhaltende Spiegel.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Tetracycline, Chloramphenicol und andere bakteriostatische Antibiotika",
+      "ref": [
+        "gruppe:tetracycline",
+        "chloramphenicol"
+      ],
+      "effekt": "Können die bakterientötende Wirkung abschwächen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel («Pille»)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Leichte Magen-Darm-Beschwerden (Übelkeit, Durchfall, Bauchschmerzen)"],
-    "gelegentlich": ["Hautausschlag, Nesselsucht, Purpura (punktförmige Hautblutungen)"],
+    "haeufig": [
+      "Leichte Magen-Darm-Beschwerden (Übelkeit, Durchfall, Bauchschmerzen)"
+    ],
+    "gelegentlich": [
+      "Hautausschlag, Nesselsucht, Purpura (punktförmige Hautblutungen)"
+    ],
     "sehrSelten": [
       "Leberentzündung und Gelbsucht durch Gallestau (auch verzögert bis 2 Monate nach Behandlungsende, teils langwierig)",
       "Neutropenie bis Agranulozytose, Thrombozytopenie",

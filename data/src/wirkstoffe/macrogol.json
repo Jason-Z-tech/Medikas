@@ -1,47 +1,191 @@
 {
   "id": "macrogol",
   "name": "Macrogol",
-  "synonyme": ["Polyethylenglykol", "PEG", "Macrogol 3350", "Macrogol 4000", "Polyethylene glycol"],
-  "atc": ["A06AD15", "A06AD65"],
+  "synonyme": [
+    "Polyethylenglykol",
+    "PEG",
+    "Macrogol 3350",
+    "Macrogol 4000",
+    "Polyethylene glycol"
+  ],
+  "atc": [
+    "A06AD15",
+    "A06AD65"
+  ],
   "klasse": "Osmotisch wirkendes Abführmittel (Laxans); in hoher Dosis Darmspüllösung",
   "kurz": "Abführmittel, das Wasser im Darm bindet und den Stuhl weicher macht; in hoher Dosis zur Darmreinigung vor einer Darmspiegelung.",
-  "gruppen": ["laxanzien"],
-  "handelsnamen": ["Movicol", "Transipeg", "Moviprep (Kombi)", "Plenvu (Kombi)", "Colopeg (Kombi)"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Pulver zur Herstellung einer Lösung zum Einnehmen (Beutel)"],
+  "gruppen": [
+    "laxanzien"
+  ],
+  "handelsnamen": [
+    "Movicol",
+    "Transipeg",
+    "Moviprep (Kombi)",
+    "Plenvu (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Lösung zum Einnehmen (Beutel)"
+  ],
   "indikationen": [
-    { "text": "Chronische Verstopfung (Obstipation)", "ids": ["verstopfung"] },
-    { "text": "Kotstau im Enddarm (Koprostase, fäkale Impaktion)", "ids": ["verstopfung"] },
-    { "text": "Darmreinigung vor Darmspiegelung (Koloskopie), Röntgenuntersuchungen oder Operationen am Darm (Darmspüllösungen wie Moviprep, Plenvu, Colopeg)", "ids": ["darmvorbereitung"] }
+    {
+      "text": "Chronische Verstopfung (Obstipation)",
+      "ids": [
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Kotstau im Enddarm (Koprostase, fäkale Impaktion)",
+      "ids": [
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Darmreinigung vor Darmspiegelung (Koloskopie), Röntgenuntersuchungen oder Operationen am Darm (Darmspüllösungen wie Moviprep, Plenvu, Colopeg)",
+      "ids": [
+        "darmvorbereitung"
+      ]
+    }
   ],
   "wirkmechanismus": "Hält Wasser im Darm zurück und macht so den Stuhl weicher und voluminöser, was die Darmbewegung anregt. Macrogol ist ein langkettiges, osmotisch wirksames Polymer, das Wassermoleküle über Wasserstoffbrücken bindet; es wird praktisch nicht aufgenommen und von den Darmbakterien nicht abgebaut. Die zugesetzten Elektrolyte sorgen dafür, dass der Körper netto kaum Wasser und Salze verliert. In den grossen Mengen der Darmspüllösungen (teils mit Natriumsulfat und Ascorbat) entsteht ein wässriger Durchfall, der den Dickdarm für Untersuchungen reinigt.",
   "kontraindikationen": [
-    { "text": "Darmverschluss (Ileus), Verdacht auf Darmverschluss oder Darmdurchbruch (Perforation)", "ids": ["darmverschluss"] },
-    { "text": "Schwere entzündliche Darmerkrankungen wie Morbus Crohn oder Colitis ulcerosa mit toxischem Megakolon", "ids": ["morbus-crohn", "colitis-ulcerosa"] },
-    { "text": "Magenentleerungsstörungen (Gastroparese) – bei Darmspüllösungen", "ids": [] },
-    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel – bei Darmspüllösungen mit Ascorbat (z. B. Moviprep, Plenvu)", "ids": ["g6pd-mangel"] },
-    { "text": "Phenylketonurie – bei Darmspüllösungen mit Aspartam", "ids": ["seltene-stoffwechselkrankheit"] }
+    {
+      "text": "Darmverschluss (Ileus), Verdacht auf Darmverschluss oder Darmdurchbruch (Perforation)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Schwere entzündliche Darmerkrankungen wie Morbus Crohn oder Colitis ulcerosa mit toxischem Megakolon",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Magenentleerungsstörungen (Gastroparese) – bei Darmspüllösungen",
+      "ids": []
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel – bei Darmspüllösungen mit Ascorbat (z. B. Moviprep, Plenvu)",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Phenylketonurie – bei Darmspüllösungen mit Aspartam",
+      "ids": [
+        "phenylketonurie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Herzschwäche, eingeschränkte Nierenfunktion oder Flüssigkeitsmangel: bei Darmreinigung Gefahr von Wasser- und Salzverschiebungen", "ids": ["herzinsuffizienz", "niereninsuffizienz", "dehydratation"] },
-    { "text": "Ältere und geschwächte Menschen: bei Darmreinigung engmaschige Überwachung (Elektrolyte, Flüssigkeit)", "ids": ["aeltere-patienten"] },
-    { "text": "Herzrhythmusstörungen oder verlängerte QT-Zeit: Elektrolytstörungen bei Darmreinigung können Rhythmusstörungen auslösen", "ids": ["herzrhythmusstoerung", "qt-verlaengerung"] },
-    { "text": "Bestehende Elektrolytstörungen (Natrium- oder Kaliummangel) vor einer Darmreinigung ausgleichen", "ids": ["hyponatriaemie", "hypokaliaemie"] },
-    { "text": "Leichte bis mittelschwere chronisch-entzündliche Darmerkrankung", "ids": ["morbus-crohn", "colitis-ulcerosa"] },
-    { "text": "Schluckstörungen, Bewusstseinsstörungen oder Neigung zum Verschlucken: Aspirationsgefahr bei grossen Trinkmengen", "ids": [] }
+    {
+      "text": "Herzschwäche, eingeschränkte Nierenfunktion oder Flüssigkeitsmangel: bei Darmreinigung Gefahr von Wasser- und Salzverschiebungen",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Ältere und geschwächte Menschen: bei Darmreinigung engmaschige Überwachung (Elektrolyte, Flüssigkeit)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen oder verlängerte QT-Zeit: Elektrolytstörungen bei Darmreinigung können Rhythmusstörungen auslösen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Bestehende Elektrolytstörungen (Natrium- oder Kaliummangel) vor einer Darmreinigung ausgleichen",
+      "ids": [
+        "hyponatriaemie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere chronisch-entzündliche Darmerkrankung",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Schluckstörungen, Bewusstseinsstörungen oder Neigung zum Verschlucken: Aspirationsgefahr bei grossen Trinkmengen",
+      "ids": [
+        "schluckstoerung",
+        "bewusstseinsstoerung"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Arzneimittel zum Einnehmen, besonders bei Darmreinigung (z. B. Pille, Antiepileptika, Antidiabetika)", "ref": ["gruppe:hormonale-kontrazeptiva", "gruppe:antiepileptika"], "effekt": "Innerhalb einer Stunde vor der Darmreinigung eingenommene Medikamente werden ausgeschwemmt und ungenügend aufgenommen; auch bei regelmässiger Macrogol-Einnahme wurde vereinzelt eine schwächere Wirkung (z. B. von Antiepileptika) berichtet – zeitlichen Abstand einhalten.", "schwere": "mittel" },
-    { "text": "Diuretika und andere Mittel, die Kalium oder Natrium senken (bei Darmreinigung)", "ref": ["gruppe:diuretika", "gruppe:hypokaliaemie-ausloesend", "gruppe:hyponatriaemie-ausloesend"], "effekt": "Erhöhtes Risiko für Elektrolytstörungen und Flüssigkeitsmangel – Elektrolyte kontrollieren, ausreichend trinken.", "schwere": "mittel" },
-    { "text": "Herzglykoside und QT-verlängernde Mittel (bei Darmreinigung)", "ref": ["gruppe:herzglykoside", "gruppe:qt-verlaengernd"], "effekt": "Kalium- oder Natriumverschiebungen können Rhythmusstörungen begünstigen – bei Risikopatienten Elektrolyte überwachen.", "schwere": "mittel" },
-    { "text": "Andickungsmittel auf Stärkebasis (bei Schluckstörungen)", "ref": [], "effekt": "Macrogol hebt die eindickende Wirkung auf – Gefahr des Verschluckens.", "schwere": "mittel" }
+    {
+      "text": "Andere Arzneimittel zum Einnehmen, besonders bei Darmreinigung (z. B. Pille, Antiepileptika, Antidiabetika)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:antiepileptika"
+      ],
+      "effekt": "Innerhalb einer Stunde vor der Darmreinigung eingenommene Medikamente werden ausgeschwemmt und ungenügend aufgenommen; auch bei regelmässiger Macrogol-Einnahme wurde vereinzelt eine schwächere Wirkung (z. B. von Antiepileptika) berichtet – zeitlichen Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika und andere Mittel, die Kalium oder Natrium senken (bei Darmreinigung)",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hyponatriaemie-ausloesend"
+      ],
+      "effekt": "Erhöhtes Risiko für Elektrolytstörungen und Flüssigkeitsmangel – Elektrolyte kontrollieren, ausreichend trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside und QT-verlängernde Mittel (bei Darmreinigung)",
+      "ref": [
+        "gruppe:herzglykoside",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Kalium- oder Natriumverschiebungen können Rhythmusstörungen begünstigen – bei Risikopatienten Elektrolyte überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andickungsmittel auf Stärkebasis (bei Schluckstörungen)",
+      "ref": [],
+      "effekt": "Macrogol hebt die eindickende Wirkung auf – Gefahr des Verschluckens.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Bauchschmerzen und Blähbauch (v. a. bei Darmreinigung)", "Übelkeit (v. a. bei Darmreinigung)", "Beschwerden am After (v. a. bei Darmreinigung)"],
-    "haeufig": ["Durchfall, besonders bei zu hoher Dosis", "Erbrechen", "Darmgeräusche und Blähungen", "Kopfschmerzen, Schwindel (bei Darmreinigung)", "Durst, Frösteln, Unwohlsein (bei Darmreinigung)"],
-    "gelegentlich": ["Dyspepsie (Verdauungsbeschwerden)"],
-    "unbekannt": ["Allergische Reaktionen bis zur Anaphylaxie, Angioödem, Hautausschlag, Juckreiz", "Elektrolytstörungen (Hyponatriämie, Hypo- oder Hyperkaliämie) und Dehydratation (Austrocknung)", "Krampfanfälle bei schwerer Hyponatriämie (Natriummangel)", "Herzrhythmusstörungen, Herzklopfen", "Ischämische Kolitis (Durchblutungsstörung des Dickdarms), v. a. nach Darmreinigung"]
+    "sehrHaeufig": [
+      "Bauchschmerzen und Blähbauch (v. a. bei Darmreinigung)",
+      "Übelkeit (v. a. bei Darmreinigung)",
+      "Beschwerden am After (v. a. bei Darmreinigung)"
+    ],
+    "haeufig": [
+      "Durchfall, besonders bei zu hoher Dosis",
+      "Erbrechen",
+      "Darmgeräusche und Blähungen",
+      "Kopfschmerzen, Schwindel (bei Darmreinigung)",
+      "Durst, Frösteln, Unwohlsein (bei Darmreinigung)"
+    ],
+    "gelegentlich": [
+      "Dyspepsie (Verdauungsbeschwerden)"
+    ],
+    "unbekannt": [
+      "Allergische Reaktionen bis zur Anaphylaxie, Angioödem, Hautausschlag, Juckreiz",
+      "Elektrolytstörungen (Hyponatriämie, Hypo- oder Hyperkaliämie) und Dehydratation (Austrocknung)",
+      "Krampfanfälle bei schwerer Hyponatriämie (Natriummangel)",
+      "Herzrhythmusstörungen, Herzklopfen",
+      "Ischämische Kolitis (Durchblutungsstörung des Dickdarms), v. a. nach Darmreinigung"
+    ]
   },
   "schwangerschaft": "Macrogol wird kaum aufgenommen; zur Behandlung der Verstopfung kann es in der Schwangerschaft angewendet werden. Darmspüllösungen nur, wenn ärztlich notwendig.",
   "stillzeit": "Keine Auswirkungen auf den gestillten Säugling zu erwarten; Anwendung möglich.",

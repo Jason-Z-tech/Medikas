@@ -1,51 +1,229 @@
 {
   "id": "eplerenon",
   "name": "Eplerenon",
-  "synonyme": ["Eplerenone", "Eplerenonum"],
-  "atc": ["C03DA04"],
+  "synonyme": [
+    "Eplerenone",
+    "Eplerenonum"
+  ],
+  "atc": [
+    "C03DA04"
+  ],
   "klasse": "Selektiver Mineralokortikoid-Rezeptor-Antagonist (Aldosteronantagonist)",
   "kurz": "Aldosteron-Hemmer, der bei Herzschwäche nach Herzinfarkt und bei chronischer Herzschwäche das Herz entlastet und die Sterblichkeit senkt.",
-  "gruppen": ["mineralokortikoid-antagonisten", "kaliumsparende-diuretika", "diuretika", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Inspra"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "mineralokortikoid-antagonisten",
+    "kaliumsparende-diuretika",
+    "diuretika",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Inspra"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Herzschwäche mit eingeschränkter Pumpfunktion (LVEF höchstens 40 %) nach einem frischen Herzinfarkt, zusätzlich zur Standardtherapie, zur Senkung des Risikos für Herz-Kreislauf-Tod", "ids": ["herzinsuffizienz", "herzinfarkt"] },
-    { "text": "Chronische Herzinsuffizienz (NYHA II) mit stark eingeschränkter Pumpfunktion (LVEF höchstens 30 %), zusätzlich zur Standardtherapie", "ids": ["herzinsuffizienz"] }
+    {
+      "text": "Herzschwäche mit eingeschränkter Pumpfunktion (LVEF höchstens 40 %) nach einem frischen Herzinfarkt, zusätzlich zur Standardtherapie, zur Senkung des Risikos für Herz-Kreislauf-Tod",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Chronische Herzinsuffizienz (NYHA II) mit stark eingeschränkter Pumpfunktion (LVEF höchstens 30 %), zusätzlich zur Standardtherapie",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Entlastet das Herz, indem es die schädlichen Wirkungen des Hormons Aldosteron blockiert. Eplerenon bindet selektiv an den Mineralokortikoid-Rezeptor und verhindert so, dass Aldosteron Salz- und Wasserrückhaltung, Kaliumverlust sowie Umbau- und Vernarbungsprozesse an Herz und Gefässen fördert. Im Gegensatz zu Spironolacton bindet es kaum an Androgen- und Progesteronrezeptoren, weshalb hormonelle Nebenwirkungen wie eine Brustvergrösserung selten sind. Eplerenon wird fast ausschliesslich über CYP3A4 abgebaut.",
   "kontraindikationen": [
-    { "text": "Kalium im Blut über 5,0 mmol/l bei Behandlungsbeginn", "ids": ["hyperkaliaemie"] },
-    { "text": "Schwere Niereninsuffizienz (eGFR unter 30 ml/min/1,73 m²)", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Leberinsuffizienz (Child-Pugh C)", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Kalium im Blut über 5,0 mmol/l bei Behandlungsbeginn",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (eGFR unter 30 ml/min/1,73 m²)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Mittelschwere Niereninsuffizienz, Diabetes (besonders mit Eiweiss im Urin) und ältere Menschen: höheres Risiko für Hyperkaliämie", "ids": ["niereninsuffizienz", "diabetes", "aeltere-patienten", "hyperkaliaemie"] },
-    { "text": "Leichte bis mittelschwere Leberinsuffizienz: Elektrolyte kontrollieren", "ids": ["leberinsuffizienz"] },
-    { "text": "Laktoseintoleranz (Tabletten enthalten Laktose)", "ids": ["laktoseintoleranz"] },
-    { "text": "Kinder und Jugendliche: keine Wirksamkeit bei Herzinsuffizienz belegt", "ids": ["kinder"] }
+    {
+      "text": "Mittelschwere Niereninsuffizienz, Diabetes (besonders mit Eiweiss im Urin) und ältere Menschen: höheres Risiko für Hyperkaliämie",
+      "ids": [
+        "niereninsuffizienz",
+        "diabetes",
+        "aeltere-patienten",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leberinsuffizienz: Elektrolyte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Laktoseintoleranz (Tabletten enthalten Laktose)",
+      "ids": [
+        "laktoseintoleranz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: keine Wirksamkeit bei Herzinsuffizienz belegt",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir, Cobicistat)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "grund": "Der Eplerenon-Spiegel steigt um ein Mehrfaches – Gefahr einer schweren Hyperkaliämie." },
-    { "text": "Kaliumsparende Diuretika (z. B. Amilorid, Spironolacton) und Kaliumpräparate", "ref": ["gruppe:kaliumsparende-diuretika", "spironolacton", "gruppe:kaliumpraeparate"], "grund": "Additive Kaliumrückhaltung – Gefahr einer lebensbedrohlichen Hyperkaliämie." },
-    { "text": "Gleichzeitige Kombination aus einem ACE-Hemmer und einem Sartan (Dreifachkombination mit Eplerenon)", "ref": [], "grund": "Dreifache Blockade des Renin-Angiotensin-Aldosteron-Systems – stark erhöhtes Risiko für Hyperkaliämie und Nierenversagen." }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir, Cobicistat)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Der Eplerenon-Spiegel steigt um ein Mehrfaches – Gefahr einer schweren Hyperkaliämie."
+    },
+    {
+      "text": "Kaliumsparende Diuretika (z. B. Amilorid, Spironolacton) und Kaliumpräparate",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "spironolacton",
+        "gruppe:kaliumpraeparate"
+      ],
+      "grund": "Additive Kaliumrückhaltung – Gefahr einer lebensbedrohlichen Hyperkaliämie."
+    },
+    {
+      "text": "Gleichzeitige Kombination aus einem ACE-Hemmer und einem Sartan (Dreifachkombination mit Eplerenon)",
+      "ref": [],
+      "grund": "Dreifache Blockade des Renin-Angiotensin-Aldosteron-Systems – stark erhöhtes Risiko für Hyperkaliämie und Nierenversagen."
+    }
   ],
   "interaktionen": [
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Verapamil, Diltiazem, Fluconazol)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Eplerenon-Spiegel etwa verdoppelt – Tageshöchstdosis 25 mg, Kalium kontrollieren.", "schwere": "schwer" },
-    { "text": "ACE-Hemmer oder Sartane", "ref": ["gruppe:ace-hemmer", "gruppe:sartane"], "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Ciclosporin und Tacrolimus", "ref": ["gruppe:immunsuppressiva-calcineurin"], "effekt": "Verschlechterung der Nierenfunktion und Hyperkaliämie möglich – Kombination vermeiden oder engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Eplerenon-Spiegel sinkt stark, Wirkungsverlust – Kombination nicht empfohlen.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac)", "ref": ["gruppe:nsar"], "effekt": "Hyperkaliämie und akutes Nierenversagen möglich, abgeschwächte Wirkung – Kalium und Nierenfunktion kontrollieren.", "schwere": "mittel" },
-    { "text": "Trimethoprim (Cotrimoxazol)", "ref": ["sulfamethoxazol-trimethoprim"], "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithiumvergiftung möglich – Kombination nicht empfohlen, sonst Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Alpha-1-Blocker, trizyklische Antidepressiva, Antipsychotika, Baclofen", "ref": ["gruppe:alpha1-blocker", "gruppe:trizyklische-antidepressiva", "gruppe:antipsychotika", "baclofen"], "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.", "schwere": "leicht" },
-    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Salz- und Wasserrückhaltung – die Wirkung von Eplerenon kann abgeschwächt werden.", "schwere": "leicht" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel steigt leicht (um etwa 16 %) – bei hohen Digoxin-Spiegeln Vorsicht.", "schwere": "leicht" }
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Verapamil, Diltiazem, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Eplerenon-Spiegel etwa verdoppelt – Tageshöchstdosis 25 mg, Kalium kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "ACE-Hemmer oder Sartane",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:sartane"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium und Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Verschlechterung der Nierenfunktion und Hyperkaliämie möglich – Kombination vermeiden oder engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Eplerenon-Spiegel sinkt stark, Wirkungsverlust – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Hyperkaliämie und akutes Nierenversagen möglich, abgeschwächte Wirkung – Kalium und Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trimethoprim (Cotrimoxazol)",
+      "ref": [
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithiumvergiftung möglich – Kombination nicht empfohlen, sonst Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alpha-1-Blocker, trizyklische Antidepressiva, Antipsychotika, Baclofen",
+      "ref": [
+        "gruppe:alpha1-blocker",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika",
+        "baclofen"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Salz- und Wasserrückhaltung – die Wirkung von Eplerenon kann abgeschwächt werden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigt leicht (um etwa 16 %) – bei hohen Digoxin-Spiegeln Vorsicht.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Hyperkaliämie (erhöhtes Kalium), erhöhtes Cholesterin", "Schwindel, Ohnmacht (Synkope), Kopfschmerzen, Schlaflosigkeit", "Hypotonie (niedriger Blutdruck)", "Verschlechterung der Herzinsuffizienz, Vorhofflimmern", "Husten", "Durchfall, Übelkeit, Erbrechen, Verstopfung", "Hautausschlag, Juckreiz, Muskelkrämpfe, Rückenschmerzen", "Eingeschränkte Nierenfunktion, Anstieg von Kreatinin und Harnstoff"],
-    "gelegentlich": ["Hyponatriämie (Natriummangel), Flüssigkeitsmangel, erhöhte Triglyceride", "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)", "Schnellerer Puls, Blutdruckabfall beim Aufstehen, arterielle Thrombose in den Beinen", "Gynäkomastie (Brustvergrösserung beim Mann)", "Schilddrüsenunterfunktion", "Gallenblasenentzündung", "Nierenbeckenentzündung, Rachenentzündung", "Vermehrtes Schwitzen, Unwohlsein"],
-    "unbekannt": ["Angioödem (Schwellung von Haut und Schleimhäuten)"]
+    "haeufig": [
+      "Hyperkaliämie (erhöhtes Kalium), erhöhtes Cholesterin",
+      "Schwindel, Ohnmacht (Synkope), Kopfschmerzen, Schlaflosigkeit",
+      "Hypotonie (niedriger Blutdruck)",
+      "Verschlechterung der Herzinsuffizienz, Vorhofflimmern",
+      "Husten",
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung",
+      "Hautausschlag, Juckreiz, Muskelkrämpfe, Rückenschmerzen",
+      "Eingeschränkte Nierenfunktion, Anstieg von Kreatinin und Harnstoff",
+      "Schwäche (Asthenie)"
+    ],
+    "gelegentlich": [
+      "Hyponatriämie (Natriummangel), Flüssigkeitsmangel, erhöhte Triglyceride",
+      "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)",
+      "Schnellerer Puls, Blutdruckabfall beim Aufstehen, arterielle Thrombose in den Beinen",
+      "Gynäkomastie (Brustvergrösserung beim Mann)",
+      "Schilddrüsenunterfunktion",
+      "Gallenblasenentzündung",
+      "Nierenbeckenentzündung, Rachenentzündung",
+      "Vermehrtes Schwitzen, Unwohlsein",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)"
+    ]
   },
   "schwangerschaft": "Keine ausreichenden Erfahrungen; nur nach sorgfältiger ärztlicher Abwägung anwenden.",
   "stillzeit": "Nicht bekannt, ob Eplerenon in die Muttermilch übergeht; entweder abstillen oder die Behandlung absetzen.",

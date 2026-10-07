@@ -1,32 +1,92 @@
 {
   "id": "dexpanthenol",
   "name": "Dexpanthenol",
-  "synonyme": ["Panthenol", "D-Panthenol", "Provitamin B5", "Dexpanthenolum"],
+  "synonyme": [
+    "Panthenol",
+    "D-Panthenol",
+    "Provitamin B5",
+    "Dexpanthenolum"
+  ],
   "kombinationAus": [],
-  "atc": ["D03AX03", "S01XA12"],
+  "atc": [
+    "D03AX03",
+    "S01XA12"
+  ],
   "klasse": "Wundheilungsmittel (Provitamin B5, Vorstufe der Pantothensäure)",
   "kurz": "Salbe und Creme zur Heilung kleiner Wunden und zur Pflege rissiger Haut und Schleimhäute (Provitamin B5).",
   "gruppen": [],
-  "handelsnamen": ["Bepanthen", "Bepanthen Plus (Kombi)"],
-  "abgabe": ["D"],
-  "darreichung": ["Salbe", "Creme", "Augen- und Nasensalbe"],
+  "handelsnamen": [
+    "Bepanthen",
+    "Bepanthen Plus (Kombi)"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Salbe",
+    "Creme",
+    "Augen- und Nasensalbe"
+  ],
   "indikationen": [
-    { "text": "Unterstützung der Heilung kleiner, oberflächlicher Wunden, Schürfungen, Hautrisse und Schrunden", "ids": ["hautinfektion"] },
-    { "text": "Leichte, oberflächliche Verbrennungen und Sonnenbrand", "ids": ["sonnenbrand"] },
-    { "text": "Pflege wunder Brustwarzen in der Stillzeit und Vorbeugung von Wundsein im Windelbereich", "ids": [] },
-    { "text": "Augen- und Nasensalbe: Heilung von Reizungen und oberflächlichen Verletzungen der Horn- und Bindehaut sowie bei trockener, rissiger oder verkrusteter Nasenschleimhaut", "ids": ["trockenes-auge", "erkaeltung"] },
-    { "text": "Kombination mit Chlorhexidin (Bepanthen Plus): kleine Wunden mit Infektionsgefahr, z. B. Schürf- und Schnittwunden", "ids": ["hautinfektion"] }
+    {
+      "text": "Unterstützung der Heilung kleiner, oberflächlicher Wunden, Schürfungen, Hautrisse und Schrunden",
+      "ids": [
+        "wunde"
+      ]
+    },
+    {
+      "text": "Leichte, oberflächliche Verbrennungen und Sonnenbrand",
+      "ids": [
+        "verbrennung",
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Pflege wunder Brustwarzen in der Stillzeit und Vorbeugung von Wundsein im Windelbereich",
+      "ids": [
+        "windeldermatitis"
+      ]
+    },
+    {
+      "text": "Augen- und Nasensalbe: Heilung von Reizungen und oberflächlichen Verletzungen der Horn- und Bindehaut sowie bei trockener, rissiger oder verkrusteter Nasenschleimhaut",
+      "ids": [
+        "trockenes-auge",
+        "erkaeltung"
+      ]
+    },
+    {
+      "text": "Kombination mit Chlorhexidin (Bepanthen Plus): kleine Wunden mit Infektionsgefahr, z. B. Schürf- und Schnittwunden",
+      "ids": [
+        "wunde",
+        "hautinfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Fördert die Regeneration von Haut und Schleimhäuten. Dexpanthenol wird in der Haut rasch in Pantothensäure (Vitamin B5) umgewandelt, einen Baustein des Coenzyms A, das die Zellen für Stoffwechsel und Zellteilung brauchen. Es regt die Neubildung der obersten Hautschicht (Epithelisierung) an, verbessert die Feuchtigkeitsbindung der Haut und lindert Juckreiz leicht.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Tiefe, stark verschmutzte oder entzündete Wunden, Bisswunden und grössere Verbrennungen ärztlich behandeln lassen", "ids": ["hautinfektion"] },
-    { "text": "Bepanthen Plus (mit Chlorhexidin): nicht in Augen, Ohren oder auf Schleimhäute bringen", "ids": [] }
+    {
+      "text": "Tiefe, stark verschmutzte oder entzündete Wunden, Bisswunden und grössere Verbrennungen ärztlich behandeln lassen",
+      "ids": [
+        "wunde",
+        "verbrennung",
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Bepanthen Plus (mit Chlorhexidin): nicht in Augen, Ohren oder auf Schleimhäute bringen",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [],
   "nebenwirkungen": {
-    "unbekannt": ["Allergische Reaktionen", "Kontaktdermatitis, Ekzem an der Auftragsstelle", "Juckreiz, Rötung, Ausschlag oder Nesselsucht", "Hautreizung, Bläschen"]
+    "unbekannt": [
+      "Allergische Reaktionen; bei Bepanthen Plus (Chlorhexidin) auch schwere allergische Reaktionen bis Anaphylaxie (allergischer Schock)",
+      "Kontaktdermatitis, Ekzem an der Auftragsstelle",
+      "Juckreiz, Rötung, Ausschlag oder Nesselsucht",
+      "Hautreizung, Bläschen"
+    ]
   },
   "schwangerschaft": "Kann angewendet werden; bei bestimmungsgemässer Anwendung sind keine Risiken bekannt.",
   "stillzeit": "Kann angewendet werden, auch zur Pflege wunder Brustwarzen. Bepanthen Plus (mit Chlorhexidin) nicht auf die Brustwarzen auftragen.",

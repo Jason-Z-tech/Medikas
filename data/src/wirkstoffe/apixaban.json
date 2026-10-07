@@ -1,51 +1,226 @@
 {
   "id": "apixaban",
   "name": "Apixaban",
-  "synonyme": ["DOAK", "NOAK", "Faktor-Xa-Hemmer"],
-  "atc": ["B01AF02"],
+  "synonyme": [],
+  "atc": [
+    "B01AF02"
+  ],
   "klasse": "Direkter Faktor-Xa-Hemmer; direktes orales Antikoagulans (DOAK)",
   "kurz": "Blutverdünner zum Schlucken (Faktor-Xa-Hemmer) gegen Schlaganfall bei Vorhofflimmern sowie gegen Thrombosen und Lungenembolien.",
-  "gruppen": ["antikoagulanzien", "doak", "blutungsrisiko-erhoehend", "p-gp-substrate-eng"],
-  "handelsnamen": ["Eliquis"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "antikoagulanzien",
+    "doak",
+    "blutungsrisiko-erhoehend",
+    "p-gp-substrate-eng"
+  ],
+  "handelsnamen": [
+    "Eliquis"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung von Schlaganfall und systemischer Embolie bei nicht valvulärem Vorhofflimmern mit mindestens einem Risikofaktor", "ids": ["vorhofflimmern", "schlaganfall"] },
-    { "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie sowie Vorbeugung von Rückfällen", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Thrombosevorbeugung nach geplantem Hüft- oder Kniegelenkersatz", "ids": ["thromboseprophylaxe", "operation"] }
+    {
+      "text": "Vorbeugung von Schlaganfall und systemischer Embolie bei nicht valvulärem Vorhofflimmern mit mindestens einem Risikofaktor",
+      "ids": [
+        "vorhofflimmern",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie sowie Vorbeugung von Rückfällen",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Thrombosevorbeugung nach geplantem Hüft- oder Kniegelenkersatz",
+      "ids": [
+        "thromboseprophylaxe",
+        "operation"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Blutgerinnung, indem es einen zentralen Gerinnungsfaktor direkt blockiert. Apixaban bindet direkt, selektiv und reversibel an den Gerinnungsfaktor Xa, frei im Blut und im Gerinnsel, ohne Antithrombin zu benötigen. Dadurch wird weniger Thrombin gebildet und neue Gerinnsel entstehen nicht. Apixaban wird über mehrere Wege ausgeschieden (u. a. Abbau über CYP3A4, Transport durch P-Glykoprotein, nur etwa ein Viertel über die Nieren); als Gegenmittel steht Andexanet alfa zur Verfügung.",
   "kontraindikationen": [
-    { "text": "Aktive, klinisch relevante Blutung", "ids": ["aktive-blutung"] },
-    { "text": "Lebererkrankung mit Gerinnungsstörung und relevantem Blutungsrisiko", "ids": ["leberinsuffizienz", "leberzirrhose"] },
-    { "text": "Erkrankungen mit hohem Risiko für schwere Blutungen (z. B. aktuelles oder kürzliches Magen-Darm-Geschwür, Tumor mit hohem Blutungsrisiko, kürzliche Hirnblutung, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen, Aneurysmen)", "ids": ["magen-darm-ulkus", "hirnblutung", "krebs", "aneurysma", "operation"] }
+    {
+      "text": "Aktive, klinisch relevante Blutung",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Lebererkrankung mit Gerinnungsstörung und relevantem Blutungsrisiko",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Erkrankungen mit hohem Risiko für schwere Blutungen (z. B. aktuelles oder kürzliches Magen-Darm-Geschwür, Tumor mit hohem Blutungsrisiko, kürzliche Hirnblutung, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen, Aneurysmen)",
+      "ids": [
+        "magen-darm-ulkus",
+        "hirnblutung",
+        "krebs",
+        "aneurysma"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: bei Kreatinin-Clearance 15–29 ml/min nur mit Vorsicht, unter 15 ml/min oder bei Dialyse nicht empfohlen", "ids": ["niereninsuffizienz"] },
-    { "text": "Ältere Menschen und Körpergewicht bis 60 kg: höheres Blutungsrisiko, teils Dosisreduktion", "ids": ["aeltere-patienten"] },
-    { "text": "Erhöhtes Blutungsrisiko: Gerinnungsstörung, verminderte Blutplättchen, schwerer unkontrollierter Bluthochdruck", "ids": ["blutgerinnungsstoerung", "thrombozytopenie", "hypertonie"] },
-    { "text": "Schwere Leberfunktionsstörung: nicht empfohlen", "ids": ["leberinsuffizienz"] },
-    { "text": "Operationen und rückenmarksnahe Anästhesie: rechtzeitig pausieren, Gefahr spinaler oder epiduraler Hämatome", "ids": ["operation", "anaesthesie"] },
-    { "text": "Künstliche Herzklappen: nicht empfohlen", "ids": ["herzklappenerkrankung"] },
-    { "text": "Antiphospholipid-Syndrom (besonders dreifach positiv): DOAK nicht empfohlen", "ids": ["thromboembolie-vorgeschichte", "lupus"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: bei Kreatinin-Clearance 15–29 ml/min nur mit Vorsicht, unter 15 ml/min oder bei Dialyse nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Körpergewicht bis 60 kg: höheres Blutungsrisiko, teils Dosisreduktion",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Erhöhtes Blutungsrisiko: Gerinnungsstörung, verminderte Blutplättchen, schwerer unkontrollierter Bluthochdruck",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "thrombozytopenie",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung: nicht empfohlen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Operationen und rückenmarksnahe Anästhesie: rechtzeitig pausieren, Gefahr spinaler oder epiduraler Hämatome",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Künstliche Herzklappen: nicht empfohlen",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Antiphospholipid-Syndrom (besonders dreifach positiv): DOAK nicht empfohlen",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "lupus"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Andere Antikoagulanzien (z. B. Heparine, Fondaparinux, Phenprocoumon, Rivaroxaban, Dabigatran), ausser bei Umstellung oder Heparin zum Offenhalten von Kathetern", "ref": ["gruppe:antikoagulanzien"], "grund": "Zusätzliche Gerinnungshemmung – stark erhöhtes Risiko schwerer Blutungen." }
+    {
+      "text": "Andere Antikoagulanzien (z. B. Heparine, Fondaparinux, Phenprocoumon, Rivaroxaban, Dabigatran), ausser bei Umstellung oder Heparin zum Offenhalten von Kathetern",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "grund": "Zusätzliche Gerinnungshemmung – stark erhöhtes Risiko schwerer Blutungen."
+    }
   ],
   "interaktionen": [
-    { "text": "Starke Hemmer von CYP3A4 und P-Glykoprotein: Azol-Antimykotika (Ketoconazol, Itraconazol, Voriconazol, Posaconazol) und HIV-Proteasehemmer (z. B. Ritonavir)", "ref": ["ketoconazol", "itraconazol", "voriconazol", "posaconazol", "gruppe:hiv-proteasehemmer"], "effekt": "Apixaban-Spiegel steigt etwa auf das Doppelte – Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Starke Induktoren von CYP3A4 und P-Glykoprotein (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "gruppe:p-gp-induktoren"], "effekt": "Apixaban-Spiegel sinkt um etwa die Hälfte – bei Thrombosebehandlung meiden, sonst nur mit Vorsicht.", "schwere": "schwer" },
-    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur nach strenger ärztlicher Abwägung.", "schwere": "schwer" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders bei Dauereinnahme – möglichst meiden.", "schwere": "schwer" },
-    { "text": "Mässige CYP3A4- oder P-gp-Hemmer (z. B. Diltiazem, Clarithromycin, Amiodaron, Verapamil)", "ref": ["diltiazem", "clarithromycin", "amiodaron", "verapamil"], "effekt": "Apixaban-Spiegel steigt mässig – keine Dosisanpassung, aber auf Blutungszeichen achten.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
-    { "text": "Aktivkohle", "ref": ["aktivkohle"], "effekt": "Vermindert die Aufnahme von Apixaban (wird bei Überdosierung genutzt).", "schwere": "leicht" }
+    {
+      "text": "Starke Hemmer von CYP3A4 und P-Glykoprotein: Azol-Antimykotika (Ketoconazol, Itraconazol, Voriconazol, Posaconazol) und HIV-Proteasehemmer (z. B. Ritonavir)",
+      "ref": [
+        "ketoconazol",
+        "itraconazol",
+        "voriconazol",
+        "posaconazol",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Apixaban-Spiegel steigt etwa auf das Doppelte – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke Induktoren von CYP3A4 und P-Glykoprotein (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:p-gp-induktoren"
+      ],
+      "effekt": "Apixaban-Spiegel sinkt um etwa die Hälfte – bei Thrombosebehandlung meiden, sonst nur mit Vorsicht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – nur nach strenger ärztlicher Abwägung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Blutungen, besonders bei Dauereinnahme – möglichst meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4- oder P-gp-Hemmer (z. B. Diltiazem, Clarithromycin, Amiodaron, Verapamil)",
+      "ref": [
+        "diltiazem",
+        "clarithromycin",
+        "amiodaron",
+        "verapamil"
+      ],
+      "effekt": "Apixaban-Spiegel steigt mässig – keine Dosisanpassung, aber auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aktivkohle",
+      "ref": [
+        "aktivkohle"
+      ],
+      "effekt": "Vermindert die Aufnahme von Apixaban (wird bei Überdosierung genutzt).",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Anämie (Blutarmut)", "Blutungen und Blutergüsse (Hämatome)", "Nasenbluten", "Magen-Darm-Blutungen", "Übelkeit", "Blut im Urin", "Erhöhte GGT (Leberwert)"],
-    "gelegentlich": ["Hirnblutung", "Thrombozytopenie (verminderte Blutplättchen)", "Überempfindlichkeit, allergisches Ödem, Anaphylaxie, Juckreiz", "Blutungen aus Enddarm, Hämorrhoiden und Mund; Bluthusten; Blutungen im Bauchraum", "Ungewöhnliche Scheidenblutungen", "Erhöhte Leberwerte und erhöhtes Bilirubin", "Hautausschlag, Haarausfall"],
-    "selten": ["Blutungen der Atemwege und im hinteren Bauchraum (retroperitoneal)", "Muskelblutungen"],
-    "unbekannt": ["Erythema multiforme (Hautreaktion), Entzündung kleiner Hautgefässe (kutane Vaskulitis)", "Antikoagulanzien-assoziierte Nephropathie (Nierenschädigung durch Blutungen in der Niere)"]
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Blutungen und Blutergüsse (Hämatome)",
+      "Nasenbluten",
+      "Magen-Darm-Blutungen",
+      "Übelkeit",
+      "Blut im Urin",
+      "Erhöhte GGT (Leberwert)"
+    ],
+    "gelegentlich": [
+      "Hirnblutung",
+      "Thrombozytopenie (verminderte Blutplättchen)",
+      "Überempfindlichkeit, allergisches Ödem, Anaphylaxie, Juckreiz",
+      "Blutungen aus Enddarm, Hämorrhoiden und Mund; Bluthusten; Blutungen im Bauchraum",
+      "Ungewöhnliche Scheidenblutungen",
+      "Erhöhte Leberwerte und erhöhtes Bilirubin",
+      "Hautausschlag, Haarausfall"
+    ],
+    "selten": [
+      "Blutungen der Atemwege und im hinteren Bauchraum (retroperitoneal)",
+      "Muskelblutungen"
+    ],
+    "unbekannt": [
+      "Erythema multiforme (Hautreaktion), Entzündung kleiner Hautgefässe (kutane Vaskulitis)",
+      "Antikoagulanzien-assoziierte Nephropathie (Nierenschädigung durch Blutungen in der Niere)"
+    ]
   },
   "schwangerschaft": "Keine ausreichenden Daten; vorsichtshalber während der Schwangerschaft nicht anwenden.",
   "stillzeit": "Unbekannt, ob Apixaban in die Muttermilch übergeht; entweder abstillen oder auf Apixaban verzichten.",

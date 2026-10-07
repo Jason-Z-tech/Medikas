@@ -1,42 +1,141 @@
 {
   "id": "povidon-iod",
   "name": "Povidon-Iod",
-  "synonyme": ["PVP-Iod", "Polyvidon-Iod", "Povidone-iodine", "Iodopovidon"],
-  "atc": ["D08AG02", "G01AX11"],
+  "synonyme": [
+    "PVP-Iod",
+    "Polyvidon-Iod",
+    "Povidone-iodine",
+    "Iodopovidon"
+  ],
+  "atc": [
+    "D08AG02",
+    "G01AX11"
+  ],
   "klasse": "Antiseptikum (Iod-Povidon-Komplex)",
   "kurz": "Iodhaltiges Desinfektionsmittel für Haut, Schleimhaut und Wunden; tötet Bakterien, Pilze und viele Viren rasch ab.",
   "gruppen": [],
-  "handelsnamen": ["Betadine"],
-  "abgabe": ["D"],
-  "darreichung": ["Lösung", "Salbe"],
+  "handelsnamen": [
+    "Betadine"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Lösung",
+    "Salbe"
+  ],
   "indikationen": [
-    { "text": "Desinfektion der Haut vor Injektionen, Punktionen, Blutentnahmen und Operationen", "ids": ["operation"] },
-    { "text": "Antiseptische Behandlung von Wunden, Schürfungen und kleinen Verbrennungen", "ids": ["hautinfektion"] },
-    { "text": "Behandlung infizierter Hautstellen, z. B. bakteriell oder durch Pilze besiedelte Hautläsionen", "ids": ["hautinfektion", "hautpilz"] },
-    { "text": "Desinfektion von Schleimhäuten, z. B. vor Eingriffen oder vor dem Legen eines Blasenkatheters", "ids": [] }
+    {
+      "text": "Desinfektion der Haut vor Injektionen, Punktionen, Blutentnahmen und Operationen",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Antiseptische Behandlung von Wunden, Schürfungen und kleinen Verbrennungen",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Behandlung infizierter Hautstellen, z. B. bakteriell oder durch Pilze besiedelte Hautläsionen",
+      "ids": [
+        "hautinfektion",
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Desinfektion von Schleimhäuten, z. B. vor Eingriffen oder vor dem Legen eines Blasenkatheters",
+      "ids": []
+    }
   ],
   "wirkmechanismus": "Tötet Krankheitserreger auf Haut, Schleimhaut und in Wunden ab. Povidon-Iod ist ein Komplex aus dem Trägerstoff Povidon und Iod, der laufend kleine Mengen freies Iod abgibt. Freies Iod oxidiert und iodiert Eiweisse, Enzyme und Membranbestandteile der Mikroorganismen und wirkt so rasch gegen Bakterien, Pilze, viele Viren und Protozoen; Resistenzen sind nicht bekannt. Durch die langsame Freisetzung ist es besser verträglich als alkoholische Iodlösung. Über Wunden und Schleimhäute kann jedoch Iod in den Körper aufgenommen werden.",
   "kontraindikationen": [
-    { "text": "Schilddrüsenüberfunktion (Hyperthyreose) oder andere manifeste Schilddrüsenerkrankungen (z. B. Knotenkropf, autonomes Adenom)", "ids": ["hyperthyreose", "struma"] },
-    { "text": "Dermatitis herpetiformis Duhring (seltene, blasenbildende Hauterkrankung)", "ids": [] },
-    { "text": "Vor und nach einer Radioiodtherapie oder Radioiod-Szintigraphie der Schilddrüse", "ids": [] }
+    {
+      "text": "Schilddrüsenüberfunktion (Hyperthyreose) oder andere manifeste Schilddrüsenerkrankungen (z. B. Knotenkropf, autonomes Adenom)",
+      "ids": [
+        "hyperthyreose",
+        "struma"
+      ]
+    },
+    {
+      "text": "Dermatitis herpetiformis Duhring (seltene, blasenbildende Hauterkrankung)",
+      "ids": []
+    },
+    {
+      "text": "Vor und nach einer Radioiodtherapie oder Radioiod-Szintigraphie der Schilddrüse",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Neugeborene und Säuglinge unter 6 Monaten: nur kleinflächig und kurz (Gefahr einer Schilddrüsenunterfunktion), Schilddrüsenwerte kontrollieren", "ids": ["kinder"] },
-    { "text": "Schwangerschaft und Stillzeit: Iod gelangt zum Kind", "ids": ["schwangerschaft", "stillzeit"] },
-    { "text": "Grossflächige oder lange Anwendung, besonders auf Wunden, Verbrennungen oder Schleimhäuten: Iodaufnahme mit Gefahr von Schilddrüsen- und Nierenstörungen, besonders bei eingeschränkter Nierenfunktion", "ids": ["niereninsuffizienz"] },
-    { "text": "Frühere Schilddrüsenerkrankung, Kropf oder höheres Alter (Gefahr einer iodbedingten Überfunktion)", "ids": ["struma", "aeltere-patienten"] }
+    {
+      "text": "Neugeborene und Säuglinge unter 6 Monaten: nur kleinflächig und kurz (Gefahr einer Schilddrüsenunterfunktion), Schilddrüsenwerte kontrollieren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit: Iod gelangt zum Kind",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Grossflächige oder lange Anwendung, besonders auf Wunden, Verbrennungen oder Schleimhäuten: Iodaufnahme mit Gefahr von Schilddrüsen- und Nierenstörungen, besonders bei eingeschränkter Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frühere Schilddrüsenerkrankung, Kropf oder höheres Alter (Gefahr einer iodbedingten Überfunktion)",
+      "ids": [
+        "struma",
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Lithium bei längerer, grossflächiger Anwendung", "ref": ["lithium"], "effekt": "Beide können eine Schilddrüsenunterfunktion fördern – längere Anwendung vermeiden, Schilddrüse kontrollieren.", "schwere": "mittel" },
-    { "text": "Quecksilberhaltige Desinfektionsmittel", "ref": [], "effekt": "Es können ätzende Quecksilberverbindungen entstehen – nicht gleichzeitig verwenden.", "schwere": "mittel" },
-    { "text": "Octenidin an derselben oder angrenzender Hautstelle", "ref": ["octenidin"], "effekt": "Vorübergehende dunkle, braun-violette Verfärbung – nicht unmittelbar nacheinander an derselben Stelle anwenden.", "schwere": "leicht" },
-    { "text": "Wasserstoffperoxid, silberhaltige Wundmittel (z. B. Silbersulfadiazin) und enzymatische Wundreinigungsmittel", "ref": ["silbersulfadiazin"], "effekt": "Gegenseitige Abschwächung der Wirkung – nicht gleichzeitig auf dieselbe Stelle auftragen.", "schwere": "leicht" }
+    {
+      "text": "Lithium bei längerer, grossflächiger Anwendung",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Beide können eine Schilddrüsenunterfunktion fördern – längere Anwendung vermeiden, Schilddrüse kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Quecksilberhaltige Desinfektionsmittel",
+      "ref": [],
+      "effekt": "Es können ätzende Quecksilberverbindungen entstehen – nicht gleichzeitig verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Octenidin an derselben oder angrenzender Hautstelle",
+      "ref": [
+        "octenidin"
+      ],
+      "effekt": "Vorübergehende dunkle, braun-violette Verfärbung – nicht unmittelbar nacheinander an derselben Stelle anwenden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Wasserstoffperoxid, silberhaltige Wundmittel (z. B. Silbersulfadiazin) und enzymatische Wundreinigungsmittel",
+      "ref": [
+        "silbersulfadiazin"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung – nicht gleichzeitig auf dieselbe Stelle auftragen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "selten": ["Überempfindlichkeitsreaktionen der Haut (Kontaktdermatitis mit Rötung, Bläschen, Juckreiz)"],
-    "sehrSelten": ["Anaphylaxie, Angioödem (akute allergische Reaktionen)", "Schilddrüsenüberfunktion durch Iod bei vorbestehender Schilddrüsenerkrankung"],
+    "selten": [
+      "Überempfindlichkeitsreaktionen der Haut (Kontaktdermatitis mit Rötung, Bläschen, Juckreiz)"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie, Angioödem (akute allergische Reaktionen)",
+      "Schilddrüsenüberfunktion durch Iod bei vorbestehender Schilddrüsenerkrankung"
+    ],
     "unbekannt": [
       "Schilddrüsenunterfunktion nach längerer oder grossflächiger Anwendung",
       "Störungen von Elektrolyt- und Säure-Basen-Haushalt, Nierenfunktionsstörung bis Nierenversagen (nach Anwendung auf grossen Flächen, z. B. Verbrennungen)",

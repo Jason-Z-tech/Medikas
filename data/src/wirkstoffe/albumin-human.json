@@ -1,33 +1,95 @@
 {
   "id": "albumin-human",
   "name": "Albumin (human)",
-  "synonyme": ["Humanalbumin", "Human albumin", "Albumin vom Menschen", "Albumin-Lösung"],
-  "atc": ["B05AA01"],
+  "synonyme": [
+    "Humanalbumin",
+    "Human albumin",
+    "Albumin vom Menschen",
+    "Albumin-Lösung"
+  ],
+  "atc": [
+    "B05AA01"
+  ],
   "klasse": "Plasmaprotein aus menschlichem Blutplasma; kolloidaler Volumenersatz",
   "kurz": "Eiweiss aus Spenderblutplasma als Infusion, um bei Volumenmangel (z. B. Schock, grosse Blutverluste) Flüssigkeit in den Blutgefässen zu halten.",
   "gruppen": [],
-  "handelsnamen": ["Albunorm", "Alburex"],
-  "abgabe": ["B"],
-  "darreichung": ["Infusionslösung 4–5 % (isoonkotisch)", "Infusionslösung 20–25 % (hyperonkotisch)"],
+  "handelsnamen": [
+    "Albunorm",
+    "Alburex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung 4–5 % (isoonkotisch)",
+    "Infusionslösung 20–25 % (hyperonkotisch)"
+  ],
   "indikationen": [
-    { "text": "Wiederherstellung und Erhaltung des Blutvolumens bei nachgewiesenem Volumenmangel, wenn ein Kolloid angezeigt ist (z. B. Schock, Verbrennungen, grosse Operationen)", "ids": ["schock", "dehydratation", "operation"] }
+    {
+      "text": "Wiederherstellung und Erhaltung des Blutvolumens bei nachgewiesenem Volumenmangel, wenn ein Kolloid angezeigt ist (z. B. Schock, Verbrennungen, grosse Operationen)",
+      "ids": [
+        "schock",
+        "dehydratation",
+        "operation"
+      ]
+    }
   ],
   "wirkmechanismus": "Hält Flüssigkeit in den Blutgefässen und stabilisiert so den Kreislauf. Albumin macht über die Hälfte der Eiweisse im Blutplasma aus und bestimmt rund 80 % des kolloidosmotischen (onkotischen) Drucks, der Wasser in den Gefässen bindet. Eine 4–5 %-Lösung entspricht dem Plasma, 20–25 %-Lösungen ziehen zusätzlich Wasser aus dem Gewebe in die Gefässe (rund 18 ml Wasser pro Gramm Albumin). Albumin dient im Blut zudem als Transporteiweiss für Hormone, Bilirubin und viele Arzneimittel.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Gefahr der Kreislaufüberlastung (Hypervolämie, Lungenödem): dekompensierte Herzschwäche, Bluthochdruck, Krampfadern der Speiseröhre (Ösophagusvarizen), Lungenödem", "ids": ["herzinsuffizienz", "hypertonie", "leberzirrhose"] },
-    { "text": "Blutungsneigung und schwere Blutarmut: Verdünnung von Gerinnungsfaktoren und roten Blutkörperchen bei grossen Mengen", "ids": ["blutgerinnungsstoerung", "anaemie"] },
-    { "text": "Fehlende oder stark verminderte Harnproduktion (renale oder postrenale Anurie)", "ids": ["niereninsuffizienz"] },
-    { "text": "Allergische Reaktionen bis zum Schock möglich: Infusion bei Anzeichen sofort stoppen", "ids": ["anaphylaxie"] },
-    { "text": "Hyperonkotische Lösungen (20–25 %): auf ausreichende Flüssigkeitszufuhr achten, Elektrolyte kontrollieren", "ids": ["dehydratation"] },
-    { "text": "Als Produkt aus menschlichem Plasma kann die Übertragung von Krankheitserregern trotz Virusinaktivierung nicht völlig ausgeschlossen werden (bei Albumin bisher nicht beobachtet)", "ids": [] }
+    {
+      "text": "Gefahr der Kreislaufüberlastung (Hypervolämie, Lungenödem): dekompensierte Herzschwäche, Bluthochdruck, Krampfadern der Speiseröhre (Ösophagusvarizen), Lungenödem",
+      "ids": [
+        "herzinsuffizienz",
+        "hypertonie",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Blutungsneigung und schwere Blutarmut: Verdünnung von Gerinnungsfaktoren und roten Blutkörperchen bei grossen Mengen",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Fehlende oder stark verminderte Harnproduktion (renale oder postrenale Anurie)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Allergische Reaktionen bis zum Schock möglich: Infusion bei Anzeichen sofort stoppen",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Hyperonkotische Lösungen (20–25 %): auf ausreichende Flüssigkeitszufuhr achten, Elektrolyte kontrollieren",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Als Produkt aus menschlichem Plasma kann die Übertragung von Krankheitserregern trotz Virusinaktivierung nicht völlig ausgeschlossen werden (bei Albumin bisher nicht beobachtet)",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [],
   "nebenwirkungen": {
-    "selten": ["Flush (Hitzegefühl, Hautrötung)", "Nesselsucht", "Fieber", "Übelkeit"],
-    "sehrSelten": ["Anaphylaktischer Schock (schwere allergische Reaktion)"],
-    "unbekannt": ["Kreislaufüberlastung mit Lungenödem bei zu rascher oder zu grosser Infusionsmenge"]
+    "selten": [
+      "Flush (Hitzegefühl, Hautrötung)",
+      "Nesselsucht",
+      "Fieber",
+      "Übelkeit"
+    ],
+    "sehrSelten": [
+      "Anaphylaktischer Schock (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Kreislaufüberlastung mit Lungenödem bei zu rascher oder zu grosser Infusionsmenge"
+    ]
   },
   "schwangerschaft": "Albumin ist ein normaler Bestandteil des menschlichen Blutes; schädliche Wirkungen sind nicht zu erwarten. Anwendung bei klarer Indikation möglich.",
   "stillzeit": "Anwendung möglich; schädliche Wirkungen auf den Säugling sind nicht zu erwarten.",

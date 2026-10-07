@@ -1,0 +1,221 @@
+{
+  "id": "desvenlafaxin",
+  "name": "Desvenlafaxin",
+  "synonyme": [
+    "Desvenlafaxine",
+    "O-Desmethylvenlafaxin",
+    "Desvenlafaxinsuccinat"
+  ],
+  "atc": [
+    "N06AX23"
+  ],
+  "klasse": "Serotonin-Noradrenalin-Wiederaufnahmehemmer (SNRI)",
+  "kurz": "Antidepressivum aus der Gruppe der SNRI; wirksamer Abbaustoff von Venlafaxin.",
+  "gruppen": [
+    "snri",
+    "serotonerg",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Pristiq"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen (Major Depression) bei Erwachsenen",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Stimmung, indem es die Botenstoffe Serotonin und Noradrenalin im Gehirn erhöht. Desvenlafaxin – der wichtigste wirksame Abbaustoff von Venlafaxin – hemmt die Wiederaufnahme von Serotonin und Noradrenalin, ohne nennenswert an Muskarin-, Histamin- oder Alpha-Rezeptoren zu binden. Es wird überwiegend an Glucuronsäure gekoppelt, nur zu einem kleinen Teil über CYP3A4 abgebaut und zu einem grossen Teil unverändert über die Niere ausgeschieden; CYP2D6 spielt kaum eine Rolle.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bluthochdruck und Herz-Kreislauf-Erkrankungen (Blutdruck vor und während der Behandlung kontrollieren)",
+      "ids": [
+        "hypertonie",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder gleichzeitige Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (Pupillenerweiterung möglich)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosisanpassung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Risiko für Natriummangel (Hyponatriämie)",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette (Cholesterin und Triglyceride können ansteigen)",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, auch Linezolid und intravenöses Methylenblau (Abstand: 14 Tage nach MAO-Hemmer, 7 Tage nach Desvenlafaxin)",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "linezolid",
+        "methylthioniniumchlorid"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (z. B. SSRI, andere SNRI, Triptane, Tramadol, Fentanyl, Lithium, Johanniskraut)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "johanniskraut"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Fieber, Muskelzucken, Durchfall) – nur mit Vorsicht und Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gerinnungshemmer (Vitamin-K-Antagonisten, DOAK)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – INR bzw. Blutungszeichen kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR, Acetylsalicylsäure und andere Plättchenhemmer",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Blutungen, besonders im Magen-Darm-Trakt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann Nebenwirkungen auf das Nervensystem verstärken – während der Behandlung meiden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Desvenlafaxin-Spiegel steigt leicht an.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Über CYP2D6 abgebaute Mittel (z. B. Metoprolol)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Bei höheren Dosen schwache Hemmung von CYP2D6 – Spiegel dieser Mittel können leicht steigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Kopfschmerzen",
+      "Schwindel",
+      "Mundtrockenheit",
+      "Vermehrtes Schwitzen",
+      "Schlaflosigkeit",
+      "Obstipation (Verstopfung)"
+    ],
+    "haeufig": [
+      "Appetitminderung, Gewichtsveränderung",
+      "Müdigkeit, Schläfrigkeit",
+      "Zittern, Missempfindungen",
+      "Verschwommenes Sehen, Ohrensausen",
+      "Herzklopfen, Herzrasen, Blutdruckanstieg",
+      "Durchfall, Erbrechen",
+      "Sexuelle Funktionsstörungen (Libidoabnahme, Ejakulations-, Orgasmus- und Erektionsstörungen)",
+      "Angst, Nervosität, ungewöhnliche Träume, Gähnen"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Ohnmacht (Synkope)",
+      "Blutdruckabfall beim Aufstehen",
+      "Nasenbluten",
+      "Harnverhalt",
+      "Erhöhte Blutfette (Cholesterin, Triglyceride)",
+      "Bewegungsstörungen (extrapyramidale Störungen)"
+    ],
+    "selten": [
+      "Hyponatriämie (Natriummangel)",
+      "Krampfanfälle",
+      "Serotoninsyndrom",
+      "Manie oder Hypomanie",
+      "Halluzinationen",
+      "Angioödem"
+    ],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom (schwere Hautreaktion)",
+      "Stress-Kardiomyopathie (Takotsubo)",
+      "Interstitielle Lungenerkrankung, eosinophile Pneumonie",
+      "Blutungen (Haut, Schleimhaut, Magen-Darm-Trakt)",
+      "Suizidgedanken und suizidales Verhalten",
+      "Absetzsymptome (Schwindel, Übelkeit, Missempfindungen, Reizbarkeit)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Einnahme in der Spätschwangerschaft kann beim Neugeborenen Anpassungsstörungen verursachen und das Risiko für Blutungen nach der Geburt erhöhen.",
+  "stillzeit": "Geht in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht teilen oder zerkauen; die leere Tablettenhülle kann im Stuhl erscheinen.",
+    "Blutdruck vor Beginn und regelmässig während der Behandlung kontrollieren.",
+    "Nicht abrupt absetzen, sondern schrittweise nach ärztlicher Anweisung (Absetzsymptome).",
+    "Die stimmungsaufhellende Wirkung setzt meist nach 2–4 Wochen ein."
+  ],
+  "stand": "2026-10"
+}

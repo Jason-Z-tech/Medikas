@@ -1,0 +1,275 @@
+{
+  "id": "fluvoxamin",
+  "name": "Fluvoxamin",
+  "synonyme": [
+    "Fluvoxamine",
+    "Fluvoxaminmaleat"
+  ],
+  "atc": [
+    "N06AB08"
+  ],
+  "klasse": "Selektiver Serotonin-Wiederaufnahmehemmer (SSRI)",
+  "kurz": "Antidepressivum aus der Gruppe der SSRI bei Depressionen und Zwangsstörungen; bremst stark den Abbau vieler anderer Medikamente.",
+  "gruppen": [
+    "ssri",
+    "serotonerg",
+    "blutungsrisiko-erhoehend",
+    "hyponatriaemie-ausloesend",
+    "cyp1a2-hemmer",
+    "cyp2c19-hemmer",
+    "cyp2c9-hemmer",
+    "maessige-cyp3a4-hemmer",
+    "cyp2d6-substrate",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Floxyfral"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Zwangsstörungen",
+      "ids": [
+        "zwangsstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Stimmung und vermindert Zwangsgedanken, indem es die Konzentration des Botenstoffs Serotonin im Gehirn erhöht. Fluvoxamin hemmt selektiv den Serotonin-Transporter an den Nervenendigungen und hat kaum Wirkung auf andere Rezeptoren. Klinisch bedeutsam ist die starke Hemmung der Leberenzyme CYP1A2 und CYP2C19 sowie die mässige Hemmung von CYP2C9 und CYP3A4 – daher zahlreiche Wechselwirkungen. Die Wirkung auf die Stimmung setzt nach 2–4 Wochen ein.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Epilepsie (bei Krampfanfällen absetzen)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich)",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder gleichzeitige Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Risiko für Natriummangel (Hyponatriämie)",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom (Pupillenerweiterung möglich)",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen, langsamer Puls",
+      "ids": [
+        "herzrhythmusstoerung",
+        "bradykardie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, auch Moclobemid und Linezolid (Abstand: 2 Wochen nach irreversiblen MAO-Hemmern, 1 Tag nach Moclobemid; 1 Woche nach Fluvoxamin)",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid",
+        "linezolid"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms."
+    },
+    {
+      "text": "Tizanidin",
+      "ref": [
+        "tizanidin"
+      ],
+      "grund": "Fluvoxamin hemmt den Abbau über CYP1A2 – der Tizanidin-Spiegel steigt um ein Vielfaches, mit Gefahr starker Blutdrucksenkung und Benommenheit."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Agomelatin",
+      "ref": [
+        "agomelatin"
+      ],
+      "effekt": "Agomelatin-Spiegel steigt um ein Vielfaches (CYP1A2-Hemmung) – Kombination nicht zulässig (laut Fachinformation von Agomelatin kontraindiziert).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Über CYP1A2 abgebaute Mittel mit enger therapeutischer Breite (z. B. Theophyllin, Clozapin, Olanzapin, Ropinirol, Melatonin, Koffein)",
+      "ref": [
+        "gruppe:cyp1a2-substrate",
+        "theophyllin",
+        "clozapin",
+        "olanzapin",
+        "ropinirol",
+        "melatonin",
+        "coffein"
+      ],
+      "effekt": "Spiegel steigen stark – Kombination vermeiden oder Dosis deutlich senken und Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere serotonerge Mittel (z. B. Triptane, Tramadol, Johanniskraut, Lithium, andere Antidepressiva, Methylenblau)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:triptane",
+        "tramadol",
+        "johanniskraut",
+        "lithium",
+        "methylthioniniumchlorid"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Fieber, Muskelzucken, Durchfall) – nur mit Vorsicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Trizyklische Antidepressiva (z. B. Clomipramin, Imipramin, Amitriptylin)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Deutlich erhöhte Spiegel des Trizyklikums und Gefahr eines Serotoninsyndroms – Kombination vermeiden oder Dosis senken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung und Blutungsgefahr – INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR, Acetylsalicylsäure, andere Plättchenhemmer und DOAK",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:doak"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clopidogrel",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Hemmung von CYP2C19 vermindert die Aktivierung von Clopidogrel – schwächere Plättchenhemmung; Kombination meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Oxidativ abgebaute Benzodiazepine (z. B. Diazepam, Alprazolam, Midazolam, Triazolam)",
+      "ref": [
+        "diazepam",
+        "alprazolam",
+        "midazolam",
+        "triazolam"
+      ],
+      "effekt": "Abbau verlangsamt – verstärkte und verlängerte Dämpfung; Dosis senken oder Alternative wählen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Methadon-Spiegel steigt – Atemdämpfung und QT-Verlängerung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin und Carbamazepin",
+      "ref": [
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Spiegel dieser Antiepileptika können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Propranolol",
+      "ref": [
+        "propranolol"
+      ],
+      "effekt": "Propranolol-Spiegel steigt deutlich – Puls und Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Übelkeit, Erbrechen",
+      "Appetitlosigkeit, Bauchschmerzen, Verdauungsbeschwerden",
+      "Verstopfung, Durchfall, Mundtrockenheit",
+      "Unruhe, Nervosität, Angst, Schlaflosigkeit",
+      "Schläfrigkeit, Schwindel, Kopfschmerzen",
+      "Zittern (Tremor)",
+      "Herzklopfen, Herzrasen",
+      "Vermehrtes Schwitzen, Schwäche"
+    ],
+    "gelegentlich": [
+      "Verwirrtheit, Halluzinationen, Aggressivität",
+      "Gangunsicherheit (Ataxie), Bewegungsstörungen",
+      "Blutdruckabfall beim Aufstehen",
+      "Hautausschlag, Juckreiz, Angioödem",
+      "Gelenk- und Muskelschmerzen",
+      "Ejakulationsstörungen"
+    ],
+    "selten": [
+      "Manie",
+      "Krampfanfälle",
+      "Leberfunktionsstörungen",
+      "Lichtempfindlichkeit der Haut",
+      "Milchfluss (Galaktorrhö)"
+    ],
+    "unbekannt": [
+      "Serotoninsyndrom",
+      "Hyponatriämie (Natriummangel) durch SIADH",
+      "Blutungen (Haut, Schleimhaut, Magen-Darm-Trakt)",
+      "Suizidgedanken und suizidales Verhalten",
+      "Sitzunruhe (Akathisie)",
+      "Absetzsymptome (Schwindel, Missempfindungen, Reizbarkeit)",
+      "Anhaltende sexuelle Funktionsstörungen"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme in der Spätschwangerschaft sind beim Neugeborenen Anpassungsstörungen und ein erhöhtes Risiko für Lungenhochdruck (PPHN) möglich.",
+  "stillzeit": "Geht in kleinen Mengen in die Muttermilch über – während der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Vor jedem neuen Medikament Apotheke oder Arztpraxis informieren: Fluvoxamin verändert den Abbau vieler Wirkstoffe.",
+    "Koffeinkonsum einschränken: Kaffee und Cola wirken stärker und länger (Herzklopfen, Schlaflosigkeit).",
+    "Tabletten mit Wasser unzerkaut schlucken; die Wirkung auf die Stimmung setzt nach 2–4 Wochen ein.",
+    "Nicht abrupt absetzen, sondern schrittweise nach ärztlicher Anweisung."
+  ],
+  "stand": "2026-10"
+}

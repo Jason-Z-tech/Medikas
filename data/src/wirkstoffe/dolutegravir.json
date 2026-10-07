@@ -1,41 +1,174 @@
 {
   "id": "dolutegravir",
   "name": "Dolutegravir",
-  "synonyme": ["DTG", "Dolutegravir-Natrium"],
-  "atc": ["J05AJ03"],
+  "synonyme": [
+    "DTG",
+    "Dolutegravir-Natrium"
+  ],
+  "atc": [
+    "J05AJ03"
+  ],
   "klasse": "HIV-Integrasehemmer (INSTI)",
   "kurz": "HIV-Medikament aus der Gruppe der Integrasehemmer; wird mit anderen HIV-Mitteln kombiniert und meist einmal täglich eingenommen.",
-  "gruppen": ["integrasehemmer"],
-  "handelsnamen": ["Tivicay", "Triumeq (Kombi)", "Dovato (Kombi)", "Juluca (Kombi)"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "integrasehemmer"
+  ],
+  "handelsnamen": [
+    "Tivicay",
+    "Triumeq (Kombi)",
+    "Dovato (Kombi)",
+    "Juluca (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "HIV-1-Infektion bei Erwachsenen, Jugendlichen und Kindern, in Kombination mit anderen antiretroviralen Mitteln", "ids": ["hiv"] }
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen, Jugendlichen und Kindern, in Kombination mit anderen antiretroviralen Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "wirkmechanismus": "Verhindert, dass HIV sein Erbgut in die menschlichen Zellen einbaut. Dolutegravir bindet an das aktive Zentrum der viralen Integrase und blockiert den Strangtransfer, mit dem die virale DNA in die DNA der Wirtszelle eingefügt wird; ohne diesen Schritt kann sich das Virus nicht vermehren. Dolutegravir hat eine hohe Resistenzbarriere. Es hemmt zudem den Nierentransporter OCT2, was den Kreatininwert leicht erhöht, ohne die Nierenfunktion zu verschlechtern.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Überempfindlichkeitsreaktionen mit Hautausschlag, Fieber oder Leberbeteiligung: sofort absetzen", "ids": ["allergie"] },
-    { "text": "Hepatitis-B- oder -C-Koinfektion: häufiger erhöhte Leberwerte; bei Hepatitis B für eine ausreichende HBV-Therapie sorgen", "ids": ["hepatitis-b", "hepatitis-c"] },
-    { "text": "Depression oder Suizidgedanken in der Vorgeschichte", "ids": ["depression", "suizidgedanken"] },
-    { "text": "Schwere Leberinsuffizienz (keine Daten)", "ids": ["leberinsuffizienz"] },
-    { "text": "Bekannte Resistenz gegen Integrasehemmer: höhere Dosis (zweimal täglich) erforderlich", "ids": ["hiv"] },
-    { "text": "Gewichtszunahme und Immunrekonstitutionssyndrom unter der Therapie", "ids": ["adipositas", "hiv"] }
+    {
+      "text": "Überempfindlichkeitsreaktionen mit Hautausschlag, Fieber oder Leberbeteiligung: sofort absetzen",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Hepatitis-B- oder -C-Koinfektion: häufiger erhöhte Leberwerte; bei Hepatitis B für eine ausreichende HBV-Therapie sorgen",
+      "ids": [
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (keine Daten)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bekannte Resistenz gegen Integrasehemmer: höhere Dosis (zweimal täglich) erforderlich",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Gewichtszunahme und Immunrekonstitutionssyndrom unter der Therapie",
+      "ids": [
+        "adipositas",
+        "hiv"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Fampridin (Mittel bei Multipler Sklerose)", "ref": ["fampridin"], "grund": "Dolutegravir hemmt den Nierentransporter OCT2, über den Fampridin ausgeschieden wird – erhöhte Fampridin-Spiegel mit Gefahr von Krampfanfällen." }
+    {
+      "text": "Fampridin (Mittel bei Multipler Sklerose)",
+      "ref": [
+        "fampridin"
+      ],
+      "grund": "Dolutegravir hemmt den Nierentransporter OCT2, über den Fampridin ausgeschieden wird – erhöhte Fampridin-Spiegel mit Gefahr von Krampfanfällen."
+    }
   ],
   "interaktionen": [
-    { "text": "Enzyminduktoren: Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut", "ref": ["rifampicin", "carbamazepin", "oxcarbazepin", "phenytoin", "phenobarbital", "johanniskraut", "gruppe:cyp3a4-induktoren"], "effekt": "Dolutegravir-Spiegel sinken (Induktion von UGT1A1 und CYP3A) – Dosis auf zweimal täglich erhöhen oder, wo möglich, Alternative wählen; bei Integrasehemmer-Resistenz meiden.", "schwere": "schwer" },
-    { "text": "Mehrwertige Kationen: Antazida, Magnesium-, Aluminium-, Calcium-, Eisen- und Zinkpräparate, Multivitamine, Sucralfat", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida", "gruppe:eisenpraeparate", "sucralfat"], "effekt": "Komplexbildung vermindert die Aufnahme – Dolutegravir 2 Stunden vor oder 6 Stunden nach diesen Präparaten einnehmen; Calcium- oder Eisenpräparate dürfen gleichzeitig eingenommen werden, wenn dies mit einer Mahlzeit geschieht.", "schwere": "mittel" },
-    { "text": "Metformin", "ref": ["metformin"], "effekt": "Dolutegravir erhöht den Metformin-Spiegel deutlich (Hemmung von OCT2/MATE) – Metformin-Dosis ggf. anpassen, Nierenfunktion kontrollieren.", "schwere": "mittel" },
-    { "text": "Efavirenz, Nevirapin, Etravirin (ohne geboosterten Proteasehemmer), Tipranavir/Ritonavir", "ref": ["efavirenz", "nevirapin", "etravirin"], "effekt": "Dolutegravir-Spiegel sinken – Dosis auf zweimal täglich erhöhen; Etravirin nur zusammen mit einem geboosterten Proteasehemmer kombinieren.", "schwere": "mittel" }
+    {
+      "text": "Enzyminduktoren: Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenytoin",
+        "phenobarbital",
+        "johanniskraut",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Dolutegravir-Spiegel sinken (Induktion von UGT1A1 und CYP3A) – Dosis auf zweimal täglich erhöhen oder, wo möglich, Alternative wählen; bei Integrasehemmer-Resistenz meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mehrwertige Kationen: Antazida, Magnesium-, Aluminium-, Calcium-, Eisen- und Zinkpräparate, Multivitamine, Sucralfat",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate",
+        "sucralfat"
+      ],
+      "effekt": "Komplexbildung vermindert die Aufnahme – Dolutegravir 2 Stunden vor oder 6 Stunden nach diesen Präparaten einnehmen; Calcium- oder Eisenpräparate dürfen gleichzeitig eingenommen werden, wenn dies mit einer Mahlzeit geschieht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Dolutegravir erhöht den Metformin-Spiegel deutlich (Hemmung von OCT2/MATE) – Metformin-Dosis ggf. anpassen, Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Efavirenz, Nevirapin, Etravirin (ohne geboosterten Proteasehemmer), Tipranavir/Ritonavir",
+      "ref": [
+        "efavirenz",
+        "nevirapin",
+        "etravirin"
+      ],
+      "effekt": "Dolutegravir-Spiegel sinken – Dosis auf zweimal täglich erhöhen; Etravirin nur zusammen mit einem geboosterten Proteasehemmer kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere dolutegravirhaltige Präparate",
+      "ref": [
+        "abacavir-lamivudin-dolutegravir",
+        "dolutegravir-lamivudin",
+        "dolutegravir-rilpivirin"
+      ],
+      "effekt": "Doppelte Einnahme vermeiden.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen", "Übelkeit", "Durchfall"],
-    "haeufig": ["Schlaflosigkeit, abnorme Träume", "Depression, Angst", "Schwindel, Schläfrigkeit", "Erbrechen, Blähungen, Bauchschmerzen", "Hautausschlag, Juckreiz", "Müdigkeit", "Erhöhte Leberwerte und Kreatinkinase (CK)", "Gewichtszunahme"],
-    "gelegentlich": ["Überempfindlichkeitsreaktionen (Ausschlag, Fieber, Organbeteiligung)", "Hepatitis (Leberentzündung)", "Suizidgedanken oder Suizidversuch (vor allem bei Depression in der Vorgeschichte)", "Panikattacken", "Gelenk- und Muskelschmerzen", "Immunrekonstitutionssyndrom"],
-    "selten": ["Akutes Leberversagen", "Erhöhtes Bilirubin", "Suizid (bei psychischer Vorerkrankung)"]
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Übelkeit",
+      "Durchfall"
+    ],
+    "haeufig": [
+      "Schlaflosigkeit, abnorme Träume",
+      "Depression, Angst",
+      "Schwindel, Schläfrigkeit",
+      "Erbrechen, Blähungen, Bauchschmerzen",
+      "Hautausschlag, Juckreiz",
+      "Müdigkeit",
+      "Erhöhte Leberwerte und Kreatinkinase (CK)",
+      "Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen (Ausschlag, Fieber, Organbeteiligung)",
+      "Hepatitis (Leberentzündung)",
+      "Suizidgedanken oder Suizidversuch (vor allem bei Depression in der Vorgeschichte)",
+      "Panikattacken",
+      "Gelenk- und Muskelschmerzen",
+      "Immunrekonstitutionssyndrom"
+    ],
+    "selten": [
+      "Akutes Leberversagen",
+      "Erhöhtes Bilirubin",
+      "Suizid (bei psychischer Vorerkrankung)"
+    ]
   },
   "schwangerschaft": "Kann bei klinischer Notwendigkeit in der Schwangerschaft angewendet werden. Ein früher vermutetes erhöhtes Risiko für Neuralrohrdefekte bei Einnahme zum Zeitpunkt der Empfängnis hat sich in grösseren Untersuchungen nicht klar bestätigt – Schwangerschaft mit der HIV-Fachperson planen.",
   "stillzeit": "HIV-positive Mütter sollen grundsätzlich nicht stillen (Übertragungsrisiko); ein Stillwunsch ist mit der HIV-Fachperson zu besprechen.",

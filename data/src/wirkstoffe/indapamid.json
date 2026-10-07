@@ -1,56 +1,270 @@
 {
   "id": "indapamid",
   "name": "Indapamid",
-  "synonyme": ["Indapamide", "Indapamidum"],
-  "atc": ["C03BA11"],
+  "synonyme": [
+    "Indapamide",
+    "Indapamidum"
+  ],
+  "atc": [
+    "C03BA11"
+  ],
   "klasse": "Thiazidartiges Diuretikum (Sulfonamid-Derivat mit Indolring)",
   "kurz": "Harntreibendes Mittel (thiazidartig) gegen Bluthochdruck; oft mit dem ACE-Hemmer Perindopril kombiniert.",
-  "gruppen": ["thiaziddiuretika", "diuretika", "blutdrucksenkend", "hypokaliaemie-ausloesend", "hyponatriaemie-ausloesend", "lithium-spiegel-erhoehend", "qt-verlaengernd", "photosensibilisierend"],
-  "handelsnamen": ["Fludex", "Coversum Combi (Kombi)", "Triplixam (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Retardtabletten"],
+  "gruppen": [
+    "thiaziddiuretika",
+    "diuretika",
+    "blutdrucksenkend",
+    "hypokaliaemie-ausloesend",
+    "hyponatriaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "qt-verlaengernd",
+    "photosensibilisierend",
+    "hyperkalzaemie-ausloesend",
+    "hyperglykaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Fludex",
+    "Coversum Combi (Kombi)",
+    "Triplixam (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck (essentielle Hypertonie)", "ids": ["hypertonie"] }
+    {
+      "text": "Bluthochdruck (essentielle Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den Blutdruck, indem es die Ausscheidung von Salz und Wasser leicht steigert und die Blutgefässe entspannt. Indapamid hemmt im frühdistalen Tubulus der Niere die Rückresorption von Natrium und Chlorid (Natrium-Chlorid-Cotransporter), wodurch auch mehr Kalium und Magnesium ausgeschieden werden. In der niedrigen Dosis der Retardtablette (1,5 mg) steht die blutdrucksenkende Wirkung im Vordergrund, die harntreibende Wirkung ist gering. Zusätzlich vermindert es den Gefässwiderstand.",
   "kontraindikationen": [
-    { "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] },
-    { "text": "Schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
-    { "text": "Hepatische Enzephalopathie oder schwere Leberinsuffizienz", "ids": ["leberinsuffizienz", "leberzirrhose"] },
-    { "text": "Hypokaliämie (Kaliummangel)", "ids": ["hypokaliaemie"] }
+    {
+      "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hepatische Enzephalopathie oder schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Hypokaliämie (Kaliummangel)",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Leberfunktion: Elektrolytstörungen können eine hepatische Enzephalopathie auslösen – bei Anzeichen sofort absetzen", "ids": ["leberinsuffizienz", "leberzirrhose"] },
-    { "text": "Natrium- und Kaliummangel, besonders bei älteren, mangelernährten oder mit mehreren Medikamenten behandelten Menschen", "ids": ["hyponatriaemie", "hypokaliaemie", "aeltere-patienten"] },
-    { "text": "Angeborene oder erworbene QT-Verlängerung: ein Kaliummangel erhöht das Risiko für Torsade de pointes", "ids": ["qt-verlaengerung", "herzrhythmusstoerung"] },
-    { "text": "Diabetes mellitus: Blutzucker kontrollieren", "ids": ["diabetes"] },
-    { "text": "Erhöhte Harnsäure oder Gicht", "ids": ["gicht"] },
-    { "text": "Überfunktion der Nebenschilddrüse (Calcium kann ansteigen)", "ids": ["hyperparathyreoidismus"] },
-    { "text": "Plötzliche Sehverschlechterung oder Augenschmerzen: Hinweis auf Aderhauterguss oder akutes Engwinkelglaukom", "ids": ["engwinkelglaukom"] },
-    { "text": "Systemischer Lupus erythematodes (kann sich verschlechtern)", "ids": ["lupus"] }
+    {
+      "text": "Eingeschränkte Leberfunktion: Elektrolytstörungen können eine hepatische Enzephalopathie auslösen – bei Anzeichen sofort absetzen",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Natrium- und Kaliummangel, besonders bei älteren, mangelernährten oder mit mehreren Medikamenten behandelten Menschen",
+      "ids": [
+        "hyponatriaemie",
+        "hypokaliaemie",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene QT-Verlängerung: ein Kaliummangel erhöht das Risiko für Torsade de pointes",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: Blutzucker kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Erhöhte Harnsäure oder Gicht",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Überfunktion der Nebenschilddrüse (Calcium kann ansteigen)",
+      "ids": [
+        "hyperparathyreoidismus"
+      ]
+    },
+    {
+      "text": "Plötzliche Sehverschlechterung oder Augenschmerzen: Hinweis auf Aderhauterguss oder akutes Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Systemischer Lupus erythematodes (kann sich verschlechtern)",
+      "ids": [
+        "lupus"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigt – Gefahr einer Lithiumvergiftung; Kombination nicht empfohlen, sonst Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Andere QT-Zeit verlängernde Mittel (z. B. Amiodaron, Sotalol, Antipsychotika, gewisse Antibiotika)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Erhöhtes Risiko für Torsade de pointes, besonders bei Kaliummangel – Kalium vorher ausgleichen, Elektrolyte und EKG kontrollieren.", "schwere": "schwer" },
-    { "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Amphotericin B, stimulierende Abführmittel)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Ein Kaliummangel verstärkt die Giftigkeit von Digoxin – Kalium und EKG kontrollieren.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, hoch dosierte Acetylsalicylsäure)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens – genügend trinken, Nierenfunktion kontrollieren.", "schwere": "mittel" },
-    { "text": "ACE-Hemmer", "ref": ["gruppe:ace-hemmer"], "effekt": "Bei bestehendem Natriummangel Gefahr eines plötzlichen Blutdruckabfalls und einer Verschlechterung der Nierenfunktion zu Behandlungsbeginn.", "schwere": "mittel" },
-    { "text": "Metformin", "ref": ["metformin"], "effekt": "Bei diuretikabedingter Verschlechterung der Nierenfunktion erhöhtes Risiko einer Laktatazidose.", "schwere": "mittel" },
-    { "text": "Jodhaltige Kontrastmittel", "ref": ["iohexol", "iopamidol"], "effekt": "Bei Flüssigkeitsmangel erhöhtes Risiko für akutes Nierenversagen – vor der Untersuchung Flüssigkeitshaushalt ausgleichen.", "schwere": "mittel" },
-    { "text": "Baclofen", "ref": ["baclofen"], "effekt": "Verstärkte Blutdrucksenkung.", "schwere": "leicht" },
-    { "text": "Trizyklische Antidepressiva und Antipsychotika", "ref": ["gruppe:trizyklische-antidepressiva", "gruppe:antipsychotika"], "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.", "schwere": "leicht" },
-    { "text": "Calciumsalze", "ref": ["calcium"], "effekt": "Gefahr eines erhöhten Calciumspiegels (verminderte Ausscheidung).", "schwere": "leicht" },
-    { "text": "Ciclosporin und Tacrolimus", "ref": ["ciclosporin", "tacrolimus"], "effekt": "Anstieg des Kreatinins im Blut möglich.", "schwere": "leicht" },
-    { "text": "Allopurinol", "ref": ["allopurinol"], "effekt": "Häufiger Überempfindlichkeitsreaktionen auf Allopurinol.", "schwere": "leicht" }
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigt – Gefahr einer Lithiumvergiftung; Kombination nicht empfohlen, sonst Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-Zeit verlängernde Mittel (z. B. Amiodaron, Sotalol, Antipsychotika, gewisse Antibiotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Torsade de pointes, besonders bei Kaliummangel – Kalium vorher ausgleichen, Elektrolyte und EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Amphotericin B, stimulierende Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Ein Kaliummangel verstärkt die Giftigkeit von Digoxin – Kalium und EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, hoch dosierte Acetylsalicylsäure)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens – genügend trinken, Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Bei bestehendem Natriummangel Gefahr eines plötzlichen Blutdruckabfalls und einer Verschlechterung der Nierenfunktion zu Behandlungsbeginn.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Bei diuretikabedingter Verschlechterung der Nierenfunktion erhöhtes Risiko einer Laktatazidose.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Jodhaltige Kontrastmittel",
+      "ref": [
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Bei Flüssigkeitsmangel erhöhtes Risiko für akutes Nierenversagen – vor der Untersuchung Flüssigkeitshaushalt ausgleichen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Baclofen",
+      "ref": [
+        "baclofen"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Antipsychotika",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Calciumsalze",
+      "ref": [
+        "calcium"
+      ],
+      "effekt": "Gefahr eines erhöhten Calciumspiegels (verminderte Ausscheidung).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Anstieg des Kreatinins im Blut möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Häufiger Überempfindlichkeitsreaktionen auf Allopurinol.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Hypokaliämie (Kaliummangel)", "Makulopapulöser Hautausschlag (Überempfindlichkeitsreaktion der Haut)"],
-    "gelegentlich": ["Hyponatriämie (Natriummangel)", "Erbrechen", "Purpura (punktförmige Hautblutungen)"],
-    "selten": ["Schwindel (Vertigo), Müdigkeit, Kopfschmerzen", "Kribbeln (Parästhesien)", "Übelkeit, Verstopfung, Mundtrockenheit", "Hypochlorämie und Hypomagnesiämie (Chlorid- und Magnesiummangel)"],
-    "sehrSelten": ["Agranulozytose, Leukopenie, Thrombozytopenie, aplastische und hämolytische Anämie", "Hyperkalzämie (erhöhtes Calcium)", "Herzrhythmusstörungen, Blutdruckabfall", "Pankreatitis (Bauchspeicheldrüsenentzündung), Leberfunktionsstörung", "Angioödem, Nesselsucht, toxische epidermale Nekrolyse, Stevens-Johnson-Syndrom", "Niereninsuffizienz"],
-    "unbekannt": ["QT-Verlängerung und Torsade de pointes (lebensbedrohliche Herzrhythmusstörung), Ohnmacht", "Hepatische Enzephalopathie bei Leberinsuffizienz, Hepatitis", "Photosensibilität (Lichtempfindlichkeit)", "Verschlechterung eines Lupus erythematodes", "Kurzsichtigkeit, verschwommenes Sehen, Aderhauterguss, akutes Engwinkelglaukom", "Erhöhte Harnsäure, Blutzucker und Leberwerte"]
+    "haeufig": [
+      "Hypokaliämie (Kaliummangel)",
+      "Makulopapulöser Hautausschlag (Überempfindlichkeitsreaktion der Haut)"
+    ],
+    "gelegentlich": [
+      "Hyponatriämie (Natriummangel)",
+      "Erbrechen",
+      "Purpura (punktförmige Hautblutungen)"
+    ],
+    "selten": [
+      "Schwindel (Vertigo), Müdigkeit, Kopfschmerzen",
+      "Kribbeln (Parästhesien)",
+      "Übelkeit, Verstopfung, Mundtrockenheit",
+      "Hypochlorämie und Hypomagnesiämie (Chlorid- und Magnesiummangel)"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, Leukopenie, Thrombozytopenie, aplastische und hämolytische Anämie",
+      "Hyperkalzämie (erhöhtes Calcium)",
+      "Herzrhythmusstörungen, Blutdruckabfall",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung), Leberfunktionsstörung",
+      "Angioödem, Nesselsucht, toxische epidermale Nekrolyse, Stevens-Johnson-Syndrom",
+      "Niereninsuffizienz"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung und Torsade de pointes (lebensbedrohliche Herzrhythmusstörung), Ohnmacht",
+      "Hepatische Enzephalopathie bei Leberinsuffizienz, Hepatitis",
+      "Photosensibilität (Lichtempfindlichkeit)",
+      "Verschlechterung eines Lupus erythematodes",
+      "Kurzsichtigkeit, verschwommenes Sehen, Aderhauterguss, akutes Engwinkelglaukom",
+      "Erhöhte Harnsäure, Blutzucker und Leberwerte"
+    ]
   },
   "schwangerschaft": "Nicht empfohlen: Diuretika können die Durchblutung der Plazenta vermindern und das Wachstum des Kindes beeinträchtigen.",
   "stillzeit": "Nicht anwenden: Indapamid geht in die Muttermilch über, kann die Milchbildung hemmen und beim Säugling Kaliummangel oder Überempfindlichkeitsreaktionen auslösen.",

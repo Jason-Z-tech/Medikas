@@ -1,36 +1,134 @@
 {
   "id": "sennoside",
   "name": "Sennoside",
-  "synonyme": ["Sennesblätter", "Sennesfrüchte", "Senna", "Sennosid A und B", "Sennae folium", "Sennae fructus"],
-  "atc": ["A06AB06"],
+  "synonyme": [
+    "Sennesblätter",
+    "Sennesfrüchte",
+    "Senna",
+    "Sennosid A und B",
+    "Sennae folium",
+    "Sennae fructus"
+  ],
+  "atc": [
+    "A06AB06"
+  ],
   "klasse": "Stimulierendes Laxans (pflanzliches Anthranoid-Abführmittel)",
   "kurz": "Pflanzliches Abführmittel aus Sennesblättern oder -früchten für die kurzzeitige Anwendung bei gelegentlicher Verstopfung.",
-  "gruppen": ["laxanzien", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Agiolax (Kombi)"],
-  "abgabe": ["D"],
-  "darreichung": ["Tabletten", "Granulat", "Tee"],
+  "gruppen": [
+    "laxanzien",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Agiolax (Kombi)"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Granulat",
+    "Tee"
+  ],
   "indikationen": [
-    { "text": "Kurzzeitige Anwendung bei gelegentlicher Verstopfung (Erwachsene und Jugendliche ab 12 Jahren)", "ids": ["verstopfung"] }
+    {
+      "text": "Kurzzeitige Anwendung bei gelegentlicher Verstopfung (Erwachsene und Jugendliche ab 12 Jahren)",
+      "ids": [
+        "verstopfung"
+      ]
+    }
   ],
   "wirkmechanismus": "Regt die Dickdarmbewegung an und hält Wasser im Darm zurück, wodurch der Stuhl weicher wird. Die Sennoside sind Anthranoid-Glykoside, die unverändert bis in den Dickdarm gelangen. Dort spalten Darmbakterien sie zum wirksamen Rheinanthron, das die Peristaltik beschleunigt, die Rückaufnahme von Wasser und Salzen hemmt und deren Ausscheidung in den Darm fördert. Die Wirkung setzt nach etwa 8–12 Stunden ein.",
   "kontraindikationen": [
-    { "text": "Darmverschluss, Darmverengung oder Darmlähmung (Atonie)", "ids": ["darmverschluss"] },
-    { "text": "Blinddarmentzündung, entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)", "ids": ["morbus-crohn", "colitis-ulcerosa"] },
-    { "text": "Bauchschmerzen unbekannter Ursache", "ids": [] },
-    { "text": "Schwerer Flüssigkeitsmangel mit Wasser- und Salzverlust", "ids": ["dehydratation"] },
-    { "text": "Kinder unter 12 Jahren", "ids": ["kinder"] }
+    {
+      "text": "Darmverschluss, Darmverengung oder Darmlähmung (Atonie)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Blinddarmentzündung, entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Bauchschmerzen unbekannter Ursache",
+      "ids": []
+    },
+    {
+      "text": "Schwerer Flüssigkeitsmangel mit Wasser- und Salzverlust",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Kinder unter 12 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Anwendung länger als 1–2 Wochen nur nach ärztlicher Abklärung: Gefahr von Kaliummangel, Gewöhnung und Verstärkung der Darmträgheit", "ids": ["verstopfung", "hypokaliaemie"] },
-    { "text": "Herzkrankheiten mit Einnahme von Herzglykosiden, Antiarrhythmika oder QT-verlängernden Mitteln (Kaliummangel gefährlich)", "ids": ["herzrhythmusstoerung", "qt-verlaengerung", "herzinsuffizienz"] },
-    { "text": "Nierenerkrankungen: Gefahr von Elektrolytstörungen", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Anwendung länger als 1–2 Wochen nur nach ärztlicher Abklärung: Gefahr von Kaliummangel, Gewöhnung und Verstärkung der Darmträgheit",
+      "ids": [
+        "verstopfung",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten mit Einnahme von Herzglykosiden, Antiarrhythmika oder QT-verlängernden Mitteln (Kaliummangel gefährlich)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nierenerkrankungen: Gefahr von Elektrolytstörungen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Herzglykoside (Digoxin, Digitoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Ein Kaliummangel bei längerer Anwendung verstärkt die Wirkung und Giftigkeit der Herzglykoside.", "schwere": "mittel" },
-    { "text": "Antiarrhythmika und andere QT-verlängernde Mittel", "ref": ["gruppe:antiarrhythmika-klasse-i", "gruppe:antiarrhythmika-klasse-iii", "gruppe:qt-verlaengernd"], "effekt": "Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Mittel (Diuretika, Glukokortikoide, Süssholzwurzel)", "ref": ["gruppe:diuretika", "gruppe:glukokortikoide-systemisch"], "effekt": "Verstärkter Kaliumverlust – bei längerer Anwendung Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere Abführmittel", "ref": ["gruppe:laxanzien"], "effekt": "Verstärkte Wirkung mit Durchfall und Bauchkrämpfen.", "schwere": "leicht" }
+    {
+      "text": "Herzglykoside (Digoxin, Digitoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein Kaliummangel bei längerer Anwendung verstärkt die Wirkung und Giftigkeit der Herzglykoside.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika und andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Glukokortikoide, Süssholzwurzel)",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – bei längerer Anwendung Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Abführmittel",
+      "ref": [
+        "gruppe:laxanzien"
+      ],
+      "effekt": "Verstärkte Wirkung mit Durchfall und Bauchkrämpfen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "unbekannt": [

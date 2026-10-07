@@ -1,28 +1,86 @@
 {
   "id": "econazol",
   "name": "Econazol",
-  "synonyme": ["Econazolnitrat", "Econazole"],
-  "atc": ["D01AC03", "G01AF05"],
+  "synonyme": [
+    "Econazolnitrat",
+    "Econazole"
+  ],
+  "atc": [
+    "D01AC03",
+    "G01AF05"
+  ],
   "klasse": "Imidazol-Antimykotikum (zur Anwendung auf der Haut und in der Scheide)",
   "kurz": "Pilzmittel für Haut und Scheide; in Pevisone mit einem Kortison kombiniert.",
   "gruppen": [],
-  "handelsnamen": ["Pevaryl", "Gyno-Pevaryl", "Pevisone (Kombi)"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Creme", "Vaginalzäpfchen (Ovula)"],
+  "handelsnamen": [
+    "Pevaryl",
+    "Gyno-Pevaryl",
+    "Pevisone (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Creme",
+    "Vaginalzäpfchen (Ovula)"
+  ],
   "indikationen": [
-    { "text": "Pilzinfektionen der Haut durch Dermatophyten, Hefen (Candida) oder Schimmelpilze, z. B. Fusspilz oder Pilzinfektionen in Hautfalten", "ids": ["hautpilz"] },
-    { "text": "Pityriasis versicolor (Kleienpilzflechte)", "ids": ["hautpilz"] },
-    { "text": "Scheidenpilz (vaginale Candidose)", "ids": ["vaginalinfektion"] }
+    {
+      "text": "Pilzinfektionen der Haut durch Dermatophyten, Hefen (Candida) oder Schimmelpilze, z. B. Fusspilz oder Pilzinfektionen in Hautfalten",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Pityriasis versicolor (Kleienpilzflechte)",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Scheidenpilz (vaginale Candidose)",
+      "ids": [
+        "vaginalinfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt das Wachstum von Pilzen, indem es den Aufbau ihrer Zellmembran stört. Econazol blockiert das pilzeigene Enzym Lanosterol-14-alpha-Demethylase und damit die Bildung von Ergosterol, dem wichtigsten Baustein der Pilzzellmembran; die Membran wird durchlässig und der Pilz stirbt ab. Es wirkt gegen Dermatophyten, Hefen und Schimmelpilze sowie gegen einige grampositive Bakterien. Nur ein kleiner Teil gelangt ins Blut; Econazol hemmt jedoch die Leberenzyme CYP3A4 und CYP2C9, was bei Blutverdünnern bedeutsam sein kann.",
   "vorsicht": [
-    { "text": "Erstmals auftretender Scheidenpilz, häufige Rückfälle, Fieber, Unterbauchschmerzen, übelriechender Ausfluss oder Blutungen: ärztlich abklären lassen", "ids": ["vaginalinfektion"] },
-    { "text": "Gleichzeitige Blutverdünnung mit Vitamin-K-Antagonisten: Gerinnungswerte (INR) kontrollieren", "ids": ["thromboseprophylaxe"] },
-    { "text": "Schwangerschaft: im 1. Drittel nur, wenn ärztlich als notwendig erachtet", "ids": ["schwangerschaft"] }
+    {
+      "text": "Erstmals auftretender Scheidenpilz, häufige Rückfälle, Fieber, Unterbauchschmerzen, übelriechender Ausfluss oder Blutungen: ärztlich abklären lassen",
+      "ids": [
+        "vaginalinfektion"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Blutverdünnung mit Vitamin-K-Antagonisten: Gerinnungswerte (INR) kontrollieren",
+      "ids": [
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: im 1. Drittel nur, wenn ärztlich als notwendig erachtet",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "interaktionen": [
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Trotz geringer Aufnahme ins Blut wurden verstärkte Gerinnungshemmung und Blutungen berichtet (Hemmung von CYP2C9/3A4) – INR kontrollieren.", "schwere": "mittel" },
-    { "text": "Latex-Kondome und Diaphragmen (bei Anwendung in der Scheide)", "ref": [], "effekt": "Vaginalzäpfchen können Latex schädigen und die Verhütungssicherheit vermindern – während der Behandlung anders verhüten.", "schwere": "mittel" }
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Trotz geringer Aufnahme ins Blut wurden verstärkte Gerinnungshemmung und Blutungen berichtet (Hemmung von CYP2C9/3A4) – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Latex-Kondome und Diaphragmen (bei Anwendung in der Scheide)",
+      "ref": [],
+      "effekt": "Vaginalzäpfchen können Latex schädigen und die Verhütungssicherheit vermindern – während der Behandlung anders verhüten.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [

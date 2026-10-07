@@ -17,6 +17,7 @@
   "gruppen": [
     "opioide",
     "zns-daempfend",
+    "serotonerg",
     "cyp3a4-substrate-empfindlich",
     "cyp2d6-substrate"
   ],
@@ -183,11 +184,14 @@
       "schwere": "mittel"
     },
     {
-      "text": "MAO-Hemmer",
+      "text": "Serotonerge Mittel (SSRI, SNRI, MAO-Hemmer)",
       "ref": [
-        "gruppe:mao-hemmer"
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:mao-hemmer",
+        "gruppe:serotonerg"
       ],
-      "effekt": "Mögliche Verstärkung der Opioidwirkung – nur mit Vorsicht, 14 Tage Abstand empfohlen.",
+      "effekt": "Serotonin-Syndrom möglich; MAO-Hemmer zudem mit Verstärkung der Opioidwirkung – nur mit Vorsicht, 14 Tage Abstand zu MAO-Hemmern.",
       "schwere": "mittel"
     }
   ],
@@ -200,7 +204,7 @@
       "Bauchschmerzen, Verstopfung, Durchfall, Blähungen",
       "Übelkeit, Erbrechen, Mundtrockenheit, Verdauungsbeschwerden",
       "Juckreiz, Hautreaktionen, Schwitzen",
-      "Schwäche, erhöhte Leberwerte"
+      "Schwäche, Müdigkeit"
     ],
     "gelegentlich": [
       "Überempfindlichkeitsreaktionen",
@@ -209,7 +213,7 @@
       "Angina pectoris (Brustenge) bei vorbestehender koronarer Herzkrankheit",
       "Blutdruckabfall oder -anstieg",
       "Atemnot, Husten",
-      "Gallenkoliken",
+      "Gallenkoliken, erhöhte Leberwerte",
       "Entzugssymptome"
     ],
     "selten": [

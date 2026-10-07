@@ -1,0 +1,214 @@
+{
+  "id": "modafinil",
+  "name": "Modafinil",
+  "synonyme": [
+    "Modafinilum"
+  ],
+  "atc": [
+    "N06BA07"
+  ],
+  "klasse": "Wachheitsförderndes Mittel (zentral wirksames Sympathomimetikum)",
+  "kurz": "Fördert die Wachheit bei krankhafter Tagesschläfrigkeit infolge Narkolepsie.",
+  "gruppen": [
+    "stimulanzien",
+    "blutdrucksteigernd",
+    "enzyminduktoren-hormone",
+    "cyp2c19-hemmer",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Modasomil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Übermässige Tagesschläfrigkeit bei Narkolepsie mit oder ohne Kataplexie (plötzlicher Verlust der Muskelspannung)",
+      "ids": [
+        "narkolepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Fördert die Wachheit, ohne so stark anzuregen wie klassische Aufputschmittel. Modafinil hemmt den Dopamin-Transporter und erhöht so die Dopaminkonzentration in bestimmten Hirnregionen; zusätzlich werden wachheitsfördernde Systeme mit Noradrenalin, Histamin und Orexin aktiviert. Der genaue Wirkmechanismus ist nicht vollständig geklärt. Modafinil induziert das Enzym CYP3A4 (vor allem im Darm) und hemmt CYP2C19.",
+  "kontraindikationen": [
+    {
+      "text": "Unkontrollierter mittelschwerer bis schwerer Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Psychiatrische Erkrankungen in der Vorgeschichte (Psychose, Depression, Manie, Suizidgedanken)",
+      "ids": [
+        "schizophrenie",
+        "depression",
+        "bipolare-stoerung",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen wie Verdickung der linken Herzkammer oder Mitralklappenprolaps (Anwendung nicht empfohlen); vor Beginn EKG",
+      "ids": [
+        "herzklappenerkrankung",
+        "kardiomyopathie",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: Blutdruck und Puls regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Missbrauch oder Abhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung nötig, hormonelle Verhütung allein ist unsicher",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nicht anwenden (schwere Hautreaktionen, psychiatrische Nebenwirkungen)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Ring, Implantat)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz unsicher (beschleunigter Abbau) – während und bis 2 Monate nach der Behandlung zusätzlich oder anders verhüten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel kann deutlich sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Triazolam, Midazolam zum Einnehmen)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Schnellerer Abbau – Wirkung dieser Mittel kann abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über CYP2C19 abgebaute Mittel (z. B. Diazepam, Phenytoin, Clomipramin, Omeprazol)",
+      "ref": [
+        "gruppe:cyp2c19-substrate",
+        "diazepam",
+        "phenytoin",
+        "clomipramin"
+      ],
+      "effekt": "Spiegel dieser Mittel können steigen – auf Nebenwirkungen achten, ggf. Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Gefahr von Blutdruckanstieg – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Stimulanzien und Sympathomimetika",
+      "ref": [
+        "gruppe:stimulanzien",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Blutdruck, mehr Nervosität und Schlaflosigkeit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung kann sich verändern – INR in den ersten Monaten häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Modafinil-Spiegel kann sinken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Nervosität, Schlaflosigkeit, Angst, Reizbarkeit",
+      "Depression, Denkstörungen, Verwirrtheit",
+      "Schwindel, Schläfrigkeit, Missempfindungen",
+      "Verschwommenes Sehen",
+      "Herzrasen, Herzklopfen, Hitzegefühl (Gefässerweiterung)",
+      "Bauchschmerzen, Übelkeit, Mundtrockenheit, Durchfall, Verdauungsbeschwerden, Verstopfung",
+      "Appetitminderung",
+      "Brustschmerzen, Schwäche, veränderte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Bluthochdruck, Herzrhythmusstörungen (z. B. Extrasystolen)",
+      "Allergische Reaktionen, Hautausschlag, Akne, Juckreiz",
+      "Unruhe, Libidominderung, Albträume",
+      "Atemnot",
+      "Muskelzuckungen, Bewegungsstörungen",
+      "Gewichtsveränderungen"
+    ],
+    "selten": [
+      "Halluzinationen, Manie, Psychose"
+    ],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS (schwere Haut- und Überempfindlichkeitsreaktionen)",
+      "Angioödem, Anaphylaxie (schwere allergische Reaktion)",
+      "Suizidgedanken",
+      "Wahnvorstellungen, Aggressivität"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden: Hinweise auf ein erhöhtes Fehlbildungsrisiko. Frauen im gebärfähigen Alter müssen während der Behandlung und bis 2 Monate danach zuverlässig – nicht allein hormonell – verhüten.",
+  "stillzeit": "Nicht anwenden (keine ausreichenden Daten).",
+  "hinweise": [
+    "Morgens einnehmen (gegebenenfalls zweite Dosis am Mittag), damit der Nachtschlaf nicht gestört wird.",
+    "Bei Hautausschlag, Fieber oder Schleimhautblasen sofort absetzen und ärztlich abklären lassen (schwere Hautreaktionen).",
+    "Blutdruck und Puls regelmässig kontrollieren.",
+    "Ersetzt keinen ausreichenden Schlaf; die Fahrtüchtigkeit ärztlich beurteilen lassen."
+  ],
+  "stand": "2026-10"
+}

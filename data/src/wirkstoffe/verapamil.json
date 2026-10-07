@@ -1,63 +1,319 @@
 {
   "id": "verapamil",
   "name": "Verapamil",
-  "synonyme": ["Verapamilhydrochlorid", "Verapamil hydrochloride"],
-  "atc": ["C08DA01"],
+  "synonyme": [
+    "Verapamilhydrochlorid",
+    "Verapamil hydrochloride"
+  ],
+  "atc": [
+    "C08DA01"
+  ],
   "klasse": "Calciumantagonist vom Phenylalkylamin-Typ; Antiarrhythmikum Klasse IV",
   "kurz": "Calciumantagonist gegen Bluthochdruck und Angina pectoris; verlangsamt zudem zu schnellen Herzschlag bei Rhythmusstörungen.",
-  "gruppen": ["nicht-dhp-calciumantagonisten", "blutdrucksenkend", "bradykardisierend", "maessige-cyp3a4-hemmer", "p-gp-hemmer", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Isoptin", "Tarka (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten", "Retardtabletten", "Injektionslösung (Spital)"],
+  "gruppen": [
+    "nicht-dhp-calciumantagonisten",
+    "blutdrucksenkend",
+    "bradykardisierend",
+    "maessige-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Isoptin",
+    "Tarka (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Retardtabletten",
+    "Injektionslösung (Spital)"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] },
-    { "text": "Koronare Herzkrankheit: chronisch stabile, vasospastische (Prinzmetal-) und instabile Angina pectoris", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
-    { "text": "Supraventrikuläre Herzrhythmusstörungen: anfallsweises Herzrasen (paroxysmale supraventrikuläre Tachykardie), Vorhofflimmern oder -flattern mit schneller Kammerfrequenz (nicht bei WPW-Syndrom)", "ids": ["herzrhythmusstoerung", "vorhofflimmern"] }
+    {
+      "text": "Bluthochdruck (Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit: chronisch stabile, vasospastische (Prinzmetal-) und instabile Angina pectoris",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Supraventrikuläre Herzrhythmusstörungen: anfallsweises Herzrasen (paroxysmale supraventrikuläre Tachykardie), Vorhofflimmern oder -flattern mit schneller Kammerfrequenz (nicht bei WPW-Syndrom)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "vorhofflimmern"
+      ]
+    }
   ],
   "wirkmechanismus": "Verlangsamt den Herzschlag, senkt den Blutdruck und entlastet das Herz, indem es den Calcium-Einstrom in Herz- und Gefässmuskelzellen hemmt. Verapamil blockiert L-Typ-Calciumkanäle im Herzen und in den Gefässen: Es bremst die Erregungsbildung im Sinusknoten und die Überleitung im AV-Knoten (Antiarrhythmikum Klasse IV), vermindert die Kontraktionskraft und erweitert die Herzkranz- und peripheren Arterien. Verapamil wird über CYP3A4 abgebaut und hemmt selbst CYP3A4 und P-Glykoprotein, was viele Wechselwirkungen erklärt.",
   "kontraindikationen": [
-    { "text": "Kardiogener Schock; akuter Herzinfarkt mit Komplikationen (Bradykardie, ausgeprägte Hypotonie, Linksherzschwäche)", "ids": ["schock", "herzinfarkt"] },
-    { "text": "AV-Block 2. und 3. Grades, Sick-Sinus-Syndrom und sinuatrialer Block (ausser bei funktionierendem Herzschrittmacher)", "ids": ["av-block", "bradykardie"] },
-    { "text": "Dekompensierte Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
-    { "text": "Vorhofflimmern oder -flattern bei zusätzlicher Leitungsbahn (WPW- oder LGL-Syndrom) – Gefahr gefährlicher Kammerrhythmusstörungen", "ids": ["vorhofflimmern", "herzrhythmusstoerung"] },
-    { "text": "Ausgeprägte Hypotonie (systolisch unter 90 mmHg) oder ausgeprägte Bradykardie", "ids": ["hypotonie", "bradykardie"] },
-    { "text": "Kammertachykardie mit breitem QRS-Komplex (bei Injektion)", "ids": ["herzrhythmusstoerung"] }
+    {
+      "text": "Kardiogener Schock; akuter Herzinfarkt mit Komplikationen (Bradykardie, ausgeprägte Hypotonie, Linksherzschwäche)",
+      "ids": [
+        "schock",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "AV-Block 2. und 3. Grades, Sick-Sinus-Syndrom und sinuatrialer Block (ausser bei funktionierendem Herzschrittmacher)",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Dekompensierte Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorhofflimmern oder -flattern bei zusätzlicher Leitungsbahn (WPW- oder LGL-Syndrom) – Gefahr gefährlicher Kammerrhythmusstörungen",
+      "ids": [
+        "vorhofflimmern",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Hypotonie (systolisch unter 90 mmHg) oder ausgeprägte Bradykardie",
+      "ids": [
+        "hypotonie",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Kammertachykardie mit breitem QRS-Komplex (bei Injektion)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "AV-Block 1. Grades, langsamer Puls", "ids": ["av-block", "bradykardie"] },
-    { "text": "Leichtere Herzschwäche: vor Behandlungsbeginn ausreichend einstellen", "ids": ["herzinsuffizienz"] },
-    { "text": "Hypertrophe obstruktive Kardiomyopathie (Lungenödem, Blutdruckabfall möglich)", "ids": ["kardiomyopathie"] },
-    { "text": "Eingeschränkte Leberfunktion: Abbau stark verlangsamt, Dosis reduzieren", "ids": ["leberinsuffizienz"] },
-    { "text": "Eingeschränkte Nierenfunktion: sorgfältig überwachen (nicht dialysierbar)", "ids": ["niereninsuffizienz"] },
-    { "text": "Erkrankungen mit gestörter Nerv-Muskel-Übertragung (Myasthenia gravis, Lambert-Eaton-Syndrom, Duchenne-Muskeldystrophie)", "ids": ["myasthenia-gravis", "neuromuskulaere-erkrankung"] },
-    { "text": "Ältere Menschen: erhöhtes Risiko für Blutdruckabfall und langsamen Puls", "ids": ["aeltere-patienten"] }
+    {
+      "text": "AV-Block 1. Grades, langsamer Puls",
+      "ids": [
+        "av-block",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Leichtere Herzschwäche: vor Behandlungsbeginn ausreichend einstellen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hypertrophe obstruktive Kardiomyopathie (Lungenödem, Blutdruckabfall möglich)",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: Abbau stark verlangsamt, Dosis reduzieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: sorgfältig überwachen (nicht dialysierbar)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Erkrankungen mit gestörter Nerv-Muskel-Übertragung (Myasthenia gravis, Lambert-Eaton-Syndrom, Duchenne-Muskeldystrophie)",
+      "ids": [
+        "myasthenia-gravis",
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhtes Risiko für Blutdruckabfall und langsamen Puls",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Ivabradin", "ref": ["ivabradin"], "grund": "Verapamil hemmt den Abbau von Ivabradin (CYP3A4), und beide senken den Puls – Gefahr einer ausgeprägten Bradykardie." },
-    { "text": "Betablocker intravenös während einer Verapamil-Behandlung (ausser in der Intensivmedizin)", "ref": ["gruppe:betablocker"], "grund": "Die gleichzeitige Hemmung von Erregungsleitung und Herzkraft kann AV-Block, schweren Blutdruckabfall und Herzstillstand auslösen." }
+    {
+      "text": "Ivabradin",
+      "ref": [
+        "ivabradin"
+      ],
+      "grund": "Verapamil hemmt den Abbau von Ivabradin (CYP3A4), und beide senken den Puls – Gefahr einer ausgeprägten Bradykardie."
+    },
+    {
+      "text": "Betablocker intravenös während einer Verapamil-Behandlung (ausser in der Intensivmedizin)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "grund": "Die gleichzeitige Hemmung von Erregungsleitung und Herzkraft kann AV-Block, schweren Blutdruckabfall und Herzstillstand auslösen."
+    }
   ],
   "interaktionen": [
-    { "text": "Betablocker (oral)", "ref": ["gruppe:betablocker"], "effekt": "Verstärkte Pulsverlangsamung, AV-Block, Blutdruckabfall und Herzschwäche – nur unter ärztlicher Überwachung von Puls und EKG.", "schwere": "schwer" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel steigen um etwa 50–75 %, die AV-Überleitung wird zusätzlich gebremst – Digoxin-Dosis reduzieren, Spiegel kontrollieren.", "schwere": "schwer" },
-    { "text": "Andere Antiarrhythmika (z. B. Amiodaron, Dronedaron, Flecainid)", "ref": ["amiodaron", "dronedaron", "gruppe:antiarrhythmika-klasse-i"], "effekt": "Addierte Wirkung auf Herzrhythmus und Herzkraft – Bradykardie, AV-Block, Blutdruckabfall; nur mit EKG-Kontrolle.", "schwere": "schwer" },
-    { "text": "Simvastatin und Atorvastatin", "ref": ["simvastatin", "atorvastatin"], "effekt": "Statin-Spiegel steigen – Gefahr von Muskelschäden bis Rhabdomyolyse; Simvastatin höchstens 20 mg pro Tag, Atorvastatin niedrig dosieren.", "schwere": "schwer" },
-    { "text": "Colchicin", "ref": ["colchicin"], "effekt": "Colchicin-Spiegel steigen (Hemmung von CYP3A4 und P-Glykoprotein) – Gefahr einer Colchicin-Vergiftung mit Muskel- und Nervenschäden; meiden oder Dosis stark reduzieren.", "schwere": "schwer" },
-    { "text": "Dabigatran", "ref": ["dabigatran"], "effekt": "Dabigatran-Spiegel steigen (P-gp-Hemmung) – erhöhtes Blutungsrisiko; Dabigatran-Dosis gemäss Fachinformation reduzieren.", "schwere": "schwer" },
-    { "text": "Dantrolen-Infusion", "ref": ["dantrolen"], "effekt": "Im Tierversuch Kammerflimmern und Kreislaufkollaps mit Hyperkaliämie – Kombination meiden.", "schwere": "schwer" },
-    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["ciclosporin", "tacrolimus", "gruppe:mtor-hemmer"], "effekt": "Spiegel des Immunsuppressivums steigen – Spiegel kontrollieren, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Erythromycin", "ref": ["gruppe:starke-cyp3a4-hemmer", "erythromycin"], "effekt": "Verapamil-Spiegel steigen – Bradykardie, AV-Block und Blutdruckabfall möglich; überwachen.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Verapamil-Spiegel sinken stark (mit Rifampicin kann die Wirkung ganz ausbleiben) – Blutdruck und Puls kontrollieren.", "schwere": "mittel" },
-    { "text": "Carbamazepin", "ref": ["carbamazepin"], "effekt": "Carbamazepin-Spiegel steigen (Schwindel, Doppelbilder, Gangunsicherheit), Verapamil-Spiegel können sinken – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Erhöhte Nervengiftigkeit von Lithium möglich, der Lithium-Spiegel kann steigen oder sinken – Spiegel und Befinden überwachen.", "schwere": "mittel" },
-    { "text": "Alkohol", "ref": [], "effekt": "Verapamil hemmt den Alkoholabbau – Alkoholwirkung verstärkt und verlängert.", "schwere": "mittel" },
-    { "text": "Midazolam und Buspiron", "ref": ["midazolam", "buspiron"], "effekt": "Spiegel steigen – verstärkte und verlängerte Müdigkeit.", "schwere": "leicht" },
-    { "text": "Grapefruitsaft", "ref": [], "effekt": "Höhere Verapamil-Spiegel – meiden.", "schwere": "leicht" }
+    {
+      "text": "Betablocker (oral)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung, AV-Block, Blutdruckabfall und Herzschwäche – nur unter ärztlicher Überwachung von Puls und EKG.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigen um etwa 50–75 %, die AV-Überleitung wird zusätzlich gebremst – Digoxin-Dosis reduzieren, Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Antiarrhythmika (z. B. Amiodaron, Dronedaron, Flecainid)",
+      "ref": [
+        "amiodaron",
+        "dronedaron",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Addierte Wirkung auf Herzrhythmus und Herzkraft – Bradykardie, AV-Block, Blutdruckabfall; nur mit EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Simvastatin und Atorvastatin",
+      "ref": [
+        "simvastatin",
+        "atorvastatin"
+      ],
+      "effekt": "Statin-Spiegel steigen – Gefahr von Muskelschäden bis Rhabdomyolyse; Simvastatin höchstens 20 mg pro Tag, Atorvastatin niedrig dosieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "effekt": "Colchicin-Spiegel steigen (Hemmung von CYP3A4 und P-Glykoprotein) – Gefahr einer Colchicin-Vergiftung mit Muskel- und Nervenschäden; meiden oder Dosis stark reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dabigatran",
+      "ref": [
+        "dabigatran"
+      ],
+      "effekt": "Dabigatran-Spiegel steigen (P-gp-Hemmung) – erhöhtes Blutungsrisiko; Dabigatran-Dosis gemäss Fachinformation reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dantrolen-Infusion",
+      "ref": [
+        "dantrolen"
+      ],
+      "effekt": "Im Tierversuch Kammerflimmern und Kreislaufkollaps mit Hyperkaliämie – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel des Immunsuppressivums steigen – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Erythromycin",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "erythromycin"
+      ],
+      "effekt": "Verapamil-Spiegel steigen – Bradykardie, AV-Block und Blutdruckabfall möglich; überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Verapamil-Spiegel sinken stark (mit Rifampicin kann die Wirkung ganz ausbleiben) – Blutdruck und Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Carbamazepin-Spiegel steigen (Schwindel, Doppelbilder, Gangunsicherheit), Verapamil-Spiegel können sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Erhöhte Nervengiftigkeit von Lithium möglich, der Lithium-Spiegel kann steigen oder sinken – Spiegel und Befinden überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verapamil hemmt den Alkoholabbau – Alkoholwirkung verstärkt und verlängert.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Midazolam und Buspiron",
+      "ref": [
+        "midazolam",
+        "buspiron"
+      ],
+      "effekt": "Spiegel steigen – verstärkte und verlängerte Müdigkeit.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Höhere Verapamil-Spiegel – meiden.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Schwindel, Kopfschmerzen", "Bradykardie (langsamer Puls)", "Hypotonie (tiefer Blutdruck), Flush (Gesichtsrötung)", "Verstopfung", "Übelkeit", "Periphere Ödeme (Wassereinlagerungen)"],
-    "gelegentlich": ["Herzklopfen, beschleunigter Puls", "Bauchschmerzen", "Müdigkeit"],
-    "selten": ["Kribbeln (Parästhesien), Zittern", "Schläfrigkeit", "Ohrensausen (Tinnitus)", "Erbrechen", "Vermehrtes Schwitzen"],
-    "unbekannt": ["AV-Block 1. bis 3. Grades, Sinusknotenstillstand, Asystolie (Herzstillstand)", "Verschlechterung einer Herzschwäche", "Überempfindlichkeitsreaktionen, Angioödem, Stevens-Johnson-Syndrom, Erythema multiforme", "Zahnfleischwucherung (Gingivahyperplasie), Ileus (Darmverschluss)", "Hyperkaliämie (erhöhtes Kalium), erhöhte Leberwerte", "Muskel- und Gelenkschmerzen, Muskelschwäche, extrapyramidale Bewegungsstörungen", "Brustvergrösserung beim Mann, Milchfluss (Galaktorrhö), Erektionsstörungen", "Bronchospasmus, Atemnot"]
+    "haeufig": [
+      "Schwindel, Kopfschmerzen",
+      "Bradykardie (langsamer Puls)",
+      "Hypotonie (tiefer Blutdruck), Flush (Gesichtsrötung)",
+      "Verstopfung",
+      "Übelkeit",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "gelegentlich": [
+      "Herzklopfen, beschleunigter Puls",
+      "Bauchschmerzen",
+      "Müdigkeit"
+    ],
+    "selten": [
+      "Kribbeln (Parästhesien), Zittern",
+      "Schläfrigkeit",
+      "Ohrensausen (Tinnitus)",
+      "Erbrechen",
+      "Vermehrtes Schwitzen"
+    ],
+    "unbekannt": [
+      "AV-Block 1. bis 3. Grades, Sinusknotenstillstand, Asystolie (Herzstillstand)",
+      "Verschlechterung einer Herzschwäche",
+      "Überempfindlichkeitsreaktionen, Angioödem, Stevens-Johnson-Syndrom, Erythema multiforme",
+      "Zahnfleischwucherung (Gingivahyperplasie), Ileus (Darmverschluss)",
+      "Hyperkaliämie (erhöhtes Kalium), erhöhte Leberwerte",
+      "Muskel- und Gelenkschmerzen, Muskelschwäche, extrapyramidale Bewegungsstörungen",
+      "Brustvergrösserung beim Mann, Milchfluss (Galaktorrhö), Erektionsstörungen",
+      "Bronchospasmus, Atemnot"
+    ]
   },
   "schwangerschaft": "Nur bei zwingender Notwendigkeit nach ärztlicher Abwägung; Verapamil passiert die Plazenta, die Erfahrungen sind begrenzt.",
   "stillzeit": "Verapamil geht in die Muttermilch über; nur anwenden, wenn es für die Mutter unbedingt nötig ist.",

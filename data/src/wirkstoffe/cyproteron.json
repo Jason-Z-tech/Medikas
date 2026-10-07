@@ -1,50 +1,209 @@
 {
   "id": "cyproteron",
   "name": "Cyproteron",
-  "synonyme": ["Cyproteronacetat", "CPA", "Cyproterone acetate"],
-  "atc": ["G03HA01"],
+  "synonyme": [
+    "Cyproteronacetat",
+    "CPA",
+    "Cyproterone acetate"
+  ],
+  "atc": [
+    "G03HA01"
+  ],
   "klasse": "Antiandrogen mit gestagener Wirkung (Steroid)",
   "kurz": "Hemmt männliche Hormone: bei Prostatakrebs, krankhaft gesteigertem Sexualtrieb und bei Frauen mit schwerer Vermännlichung (Behaarung, Haarausfall).",
-  "gruppen": ["antiandrogene", "gestagene", "hepatotoxisch", "teratogen"],
-  "handelsnamen": ["Androcur", "Diane-35 (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "antiandrogene",
+    "gestagene",
+    "hepatotoxisch",
+    "teratogen",
+    "thromboserisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Androcur",
+    "Diane-35 (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Männer: antiandrogene Behandlung des fortgeschrittenen, nicht operablen Prostatakrebses, auch zur Abschwächung des anfänglichen Hormonanstiegs unter GnRH-Agonisten und gegen Hitzewallungen", "ids": ["prostatakrebs"] },
-    { "text": "Männer: Dämpfung eines krankhaft gesteigerten oder abweichenden Sexualtriebs, wenn andere Massnahmen nicht geeignet sind", "ids": [] },
-    { "text": "Frauen: schwere Vermännlichungserscheinungen wie ausgeprägter Hirsutismus (männliches Behaarungsmuster), schwerer androgenbedingter Haarausfall, oft mit schwerer Akne oder Seborrhö – nur wenn andere Behandlungen versagt haben, kombiniert mit einem Östrogen bzw. einer Pille", "ids": ["haarausfall", "akne"] }
+    {
+      "text": "Männer: antiandrogene Behandlung des fortgeschrittenen, nicht operablen Prostatakrebses, auch zur Abschwächung des anfänglichen Hormonanstiegs unter GnRH-Agonisten und gegen Hitzewallungen",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Männer: Dämpfung eines krankhaft gesteigerten oder abweichenden Sexualtriebs, wenn andere Massnahmen nicht geeignet sind",
+      "ids": []
+    },
+    {
+      "text": "Frauen: schwere Vermännlichungserscheinungen wie ausgeprägter Hirsutismus (männliches Behaarungsmuster), schwerer androgenbedingter Haarausfall, oft mit schwerer Akne oder Seborrhö – nur wenn andere Behandlungen versagt haben, kombiniert mit einem Östrogen bzw. einer Pille",
+      "ids": [
+        "hirsutismus",
+        "haarausfall",
+        "akne"
+      ]
+    }
   ],
   "wirkmechanismus": "Blockiert die Wirkung der männlichen Geschlechtshormone und drosselt zugleich deren Bildung. Cyproteronacetat verdrängt Testosteron und Dihydrotestosteron kompetitiv von den Androgenrezeptoren in den Zielorganen (Prostata, Haarfollikel, Talgdrüsen, Gehirn). Durch seine starke gestagene Wirkung hemmt es ausserdem über die Hirnanhangsdrüse die Ausschüttung von LH und FSH, wodurch der Testosteronspiegel sinkt. Bei Frauen hemmt es so auch den Eisprung.",
   "kontraindikationen": [
-    { "text": "Meningeom (meist gutartiger Hirnhauttumor) bestehend oder in der Vorgeschichte – bei allen Anwendungsgebieten", "ids": ["hirntumor"] },
-    { "text": "Lebererkrankungen, Dubin-Johnson- oder Rotor-Syndrom, bestehende oder frühere Lebertumoren (bei Prostatakrebs nur, wenn nicht durch Metastasen bedingt)", "ids": ["leberinsuffizienz", "leberkrebs"] },
-    { "text": "Bestehende oder frühere Thrombosen oder Embolien (bei Prostatakrebs strenge Nutzen-Risiko-Abwägung)", "ids": ["thrombose", "lungenembolie", "thromboembolie-vorgeschichte"] },
-    { "text": "Schwere chronische Depression", "ids": ["depression"] },
-    { "text": "Schwerer Diabetes mit Gefässschäden", "ids": ["diabetes"] },
-    { "text": "Sichelzellanämie", "ids": ["sichelzellanaemie"] },
-    { "text": "Auszehrende Krankheiten (ausser bei Prostatakrebs)", "ids": [] },
-    { "text": "Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] },
-    { "text": "Jugendliche vor Abschluss der Pubertät (Störung von Knochenreifung und Hodenentwicklung)", "ids": ["kinder"] }
+    {
+      "text": "Meningeom (meist gutartiger Hirnhauttumor) bestehend oder in der Vorgeschichte – bei allen Anwendungsgebieten",
+      "ids": [
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen, Dubin-Johnson- oder Rotor-Syndrom, bestehende oder frühere Lebertumoren (bei Prostatakrebs nur, wenn nicht durch Metastasen bedingt)",
+      "ids": [
+        "leberinsuffizienz",
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Bestehende oder frühere Thrombosen oder Embolien (bei Prostatakrebs strenge Nutzen-Risiko-Abwägung)",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Schwere chronische Depression",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Schwerer Diabetes mit Gefässschäden",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Sichelzellanämie",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "Auszehrende Krankheiten (ausser bei Prostatakrebs)",
+      "ids": []
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Jugendliche vor Abschluss der Pubertät (Störung von Knochenreifung und Hodenentwicklung)",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Leberschäden (Gelbsucht, Hepatitis, Leberversagen) möglich, vor allem bei hohen Dosen: Leberwerte vor und während der Behandlung kontrollieren", "ids": ["leberinsuffizienz"] },
-    { "text": "Meningeom-Risiko steigt mit der Gesamtdosis und Dauer (ab etwa 25 mg täglich über längere Zeit): bei Verdacht absetzen", "ids": ["hirntumor"] },
-    { "text": "Diabetes: Blutzucker engmaschig kontrollieren", "ids": ["diabetes"] },
-    { "text": "Prostatakrebs mit früheren Thrombosen, Gefässerkrankungen oder Sichelzellanämie: sorgfältige Nutzen-Risiko-Abwägung", "ids": ["thromboembolie-vorgeschichte", "prostatakrebs"] },
-    { "text": "Depressive Verstimmungen, besonders in den ersten Wochen", "ids": ["depression"] },
-    { "text": "Atemnot unter hohen Dosen; Verminderung der Nebennierenfunktion möglich", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Langzeitbehandlung: Blutarmut und Abnahme der Knochendichte möglich (Blutbild kontrollieren)", "ids": ["anaemie", "osteoporose"] },
-    { "text": "Alkohol vermindert die triebdämpfende Wirkung; bei chronischem Alkoholmissbrauch nicht sinnvoll", "ids": ["alkoholkonsum", "alkoholabhaengigkeit"] }
+    {
+      "text": "Leberschäden (Gelbsucht, Hepatitis, Leberversagen) möglich, vor allem bei hohen Dosen: Leberwerte vor und während der Behandlung kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Meningeom-Risiko steigt mit der Gesamtdosis und Behandlungsdauer, besonders bei Tagesdosen ab 10 mg: bei Verdacht sofort absetzen",
+      "ids": [
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker engmaschig kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Prostatakrebs mit früheren Thrombosen, Gefässerkrankungen oder Sichelzellanämie: sorgfältige Nutzen-Risiko-Abwägung",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Depressive Verstimmungen, besonders in den ersten Wochen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Atemnot unter hohen Dosen; Verminderung der Nebennierenfunktion möglich",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Blutarmut und Abnahme der Knochendichte möglich (Blutbild kontrollieren)",
+      "ids": [
+        "anaemie",
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Alkohol vermindert die triebdämpfende Wirkung; bei chronischem Alkoholmissbrauch nicht sinnvoll",
+      "ids": [
+        "alkoholkonsum",
+        "alkoholabhaengigkeit"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Statine, die über CYP3A4 abgebaut werden (z. B. Simvastatin, Atorvastatin), bei hohen Cyproteron-Dosen", "ref": ["gruppe:statine"], "effekt": "Höheres Risiko für Muskelschäden (Myopathie, Rhabdomyolyse) wegen gemeinsamen Abbauwegs.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Clotrimazol)", "ref": ["gruppe:starke-cyp3a4-hemmer", "clotrimazol"], "effekt": "Können den Abbau von Cyproteron hemmen und die Spiegel erhöhen.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenytoin, Carbamazepin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "johanniskraut"], "effekt": "Können die Cyproteron-Spiegel senken und die Wirkung abschwächen.", "schwere": "mittel" },
-    { "text": "Blutzuckersenkende Mittel", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Der Bedarf an Antidiabetika kann sich ändern – Blutzucker kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "Statine, die über CYP3A4 abgebaut werden (z. B. Simvastatin, Atorvastatin), bei hohen Cyproteron-Dosen",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Höheres Risiko für Muskelschäden (Myopathie, Rhabdomyolyse) wegen gemeinsamen Abbauwegs.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Clotrimazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "clotrimazol"
+      ],
+      "effekt": "Können den Abbau von Cyproteron hemmen und die Spiegel erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenytoin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Können die Cyproteron-Spiegel senken und die Wirkung abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Der Bedarf an Antidiabetika kann sich ändern – Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Verminderte Libido und Erektionsstörungen (Männer)", "Reversible Hemmung der Samenbildung (Männer)"],
+    "sehrHaeufig": [
+      "Verminderte Libido und Erektionsstörungen (Männer)",
+      "Reversible Hemmung der Samenbildung (Männer)"
+    ],
     "haeufig": [
       "Leberschäden einschliesslich Gelbsucht, Hepatitis und Leberversagen",
       "Gewichtszunahme oder -abnahme",
@@ -53,10 +212,23 @@
       "Atemnot (Dyspnoe)",
       "Gynäkomastie (Brustvergrösserung beim Mann)"
     ],
-    "gelegentlich": ["Hautausschlag"],
-    "selten": ["Überempfindlichkeitsreaktionen"],
-    "sehrSelten": ["Gutartige und bösartige Lebertumoren", "Blutung in die Bauchhöhle (bei Lebertumoren)"],
-    "unbekannt": ["Meningeom (Hirnhauttumor), besonders bei langer Anwendung hoher Dosen", "Thromboembolische Ereignisse (Thrombose, Embolie)", "Anämie (Blutarmut) bei Langzeitbehandlung", "Osteoporose", "Bei Frauen: Zwischenblutungen, Brustspannen, Hemmung des Eisprungs"]
+    "gelegentlich": [
+      "Hautausschlag"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "sehrSelten": [
+      "Gutartige und bösartige Lebertumoren",
+      "Blutung in die Bauchhöhle (bei Lebertumoren)"
+    ],
+    "unbekannt": [
+      "Meningeom (Hirnhauttumor), besonders bei langer Anwendung hoher Dosen",
+      "Thromboembolische Ereignisse (Thrombose, Embolie)",
+      "Anämie (Blutarmut) bei Langzeitbehandlung",
+      "Osteoporose",
+      "Bei Frauen: Zwischenblutungen, Brustspannen, Hemmung des Eisprungs"
+    ]
   },
   "schwangerschaft": "Kontraindiziert: Cyproteron kann bei männlichen Feten zu einer Verweiblichung führen. Frauen müssen während der Behandlung zuverlässig verhüten (in der Regel mit einer kombinierten Pille); eine Schwangerschaft vor Beginn ausschliessen.",
   "stillzeit": "Kontraindiziert – etwa 0,2 % der Dosis gehen in die Muttermilch über und können beim Säugling antiandrogen wirken.",

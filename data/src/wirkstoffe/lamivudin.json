@@ -1,41 +1,165 @@
 {
   "id": "lamivudin",
   "name": "Lamivudin",
-  "synonyme": ["Lamivudine", "3TC"],
-  "atc": ["J05AF05"],
+  "synonyme": [
+    "Lamivudine",
+    "3TC"
+  ],
+  "atc": [
+    "J05AF05"
+  ],
   "klasse": "Nukleosidischer Reverse-Transkriptase-Hemmer (NRTI, Cytidin-Analogon)",
   "kurz": "Virushemmendes Mittel gegen HIV (immer in Kombination) und in tieferer Dosis gegen chronische Hepatitis B.",
   "gruppen": [],
-  "handelsnamen": ["3TC", "Zeffix", "Kivexa (Kombi)", "Triumeq (Kombi)", "Dovato (Kombi)", "Delstrigo (Kombi)"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten", "Lösung zum Einnehmen"],
+  "handelsnamen": [
+    "3TC",
+    "Zeffix",
+    "Kivexa (Kombi)",
+    "Triumeq (Kombi)",
+    "Dovato (Kombi)",
+    "Delstrigo (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Lösung zum Einnehmen"
+  ],
   "indikationen": [
-    { "text": "HIV-1-Infektion bei Erwachsenen und Kindern, immer in Kombination mit anderen antiretroviralen Mitteln", "ids": ["hiv"] },
-    { "text": "Chronische Hepatitis B mit aktiver Virusvermehrung bei Erwachsenen (Präparat mit 100 mg)", "ids": ["hepatitis-b"] }
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen und Kindern, immer in Kombination mit anderen antiretroviralen Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Chronische Hepatitis B mit aktiver Virusvermehrung bei Erwachsenen (Präparat mit 100 mg)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung von HIV und Hepatitis-B-Viren. Lamivudin ist ein Cytidin-Analogon, das in den Zellen zu Lamivudin-Triphosphat phosphoryliert wird. Dieses wird von der Reversen Transkriptase von HIV bzw. der Polymerase des Hepatitis-B-Virus anstelle des natürlichen Bausteins in die Virus-DNA eingebaut und bricht die Kettenverlängerung ab. Allein eingesetzt werden die Viren rasch resistent (Mutation M184V bei HIV, YMDD-Mutation bei Hepatitis B).",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Hepatitis-B-Infektion: Absetzen kann einen schweren Hepatitisschub auslösen – Leberwerte nach dem Absetzen über Monate kontrollieren", "ids": ["hepatitis-b"] },
-    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung nötig (Lösung oder Einzelpräparat statt Fixkombination)", "ids": ["niereninsuffizienz"] },
-    { "text": "Fortgeschrittene Lebererkrankung (Zirrhose) mit Hepatitis B: Risiko schwerer Leberkomplikationen", "ids": ["leberzirrhose"] },
-    { "text": "Pankreatitis in der Vorgeschichte, vor allem bei Kindern", "ids": ["pankreatitis", "kinder"] },
-    { "text": "Behandlung der Hepatitis B mit 100 mg: vorher HIV-Test, sonst Gefahr von HIV-Resistenzen", "ids": ["hiv"] },
-    { "text": "Immunrekonstitutionssyndrom zu Beginn der HIV-Therapie (Entzündungsreaktion auf verborgene Infektionen)", "ids": ["hiv"] }
+    {
+      "text": "Hepatitis-B-Infektion: Absetzen kann einen schweren Hepatitisschub auslösen – Leberwerte nach dem Absetzen über Monate kontrollieren",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung nötig (Lösung oder Einzelpräparat statt Fixkombination)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene Lebererkrankung (Zirrhose) mit Hepatitis B: Risiko schwerer Leberkomplikationen",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte, vor allem bei Kindern",
+      "ids": [
+        "pankreatitis",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Behandlung der Hepatitis B mit 100 mg: vorher HIV-Test, sonst Gefahr von HIV-Resistenzen",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom zu Beginn der HIV-Therapie (Entzündungsreaktion auf verborgene Infektionen)",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Hoch dosiertes Cotrimoxazol (Sulfamethoxazol + Trimethoprim), z. B. zur Behandlung einer Pneumocystis-Pneumonie", "ref": ["sulfamethoxazol-trimethoprim"], "effekt": "Trimethoprim hemmt die Ausscheidung von Lamivudin über die Niere – Spiegel steigen; hohe Dosen meiden, vorbeugende Dosen sind unproblematisch.", "schwere": "mittel" },
-    { "text": "Emtricitabin und emtricitabinhaltige Präparate", "ref": ["emtricitabin", "emtricitabin-tenofovirdisoproxil", "emtricitabin-tenofoviralafenamid", "bictegravir-emtricitabin-tenofoviralafenamid"], "effekt": "Gleicher Wirkmechanismus (Cytidin-Analoga) – nicht kombinieren.", "schwere": "mittel" },
-    { "text": "Cladribin", "ref": ["cladribin"], "effekt": "Lamivudin hemmt die Aktivierung von Cladribin in den Zellen – Wirkverlust möglich; Kombination nicht empfohlen.", "schwere": "mittel" },
-    { "text": "Sorbitolhaltige Arzneimittel (z. B. Säfte) bei Dauergebrauch", "ref": [], "effekt": "Sorbitol vermindert die Aufnahme von Lamivudin – möglichst meiden, sonst Viruslast häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Andere lamivudinhaltige Kombinationspräparate", "ref": ["abacavir-lamivudin", "abacavir-lamivudin-dolutegravir", "dolutegravir-lamivudin", "doravirin-lamivudin-tenofovirdisoproxil"], "effekt": "Doppelte Einnahme vermeiden.", "schwere": "mittel" }
+    {
+      "text": "Hoch dosiertes Cotrimoxazol (Sulfamethoxazol + Trimethoprim), z. B. zur Behandlung einer Pneumocystis-Pneumonie",
+      "ref": [
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Trimethoprim hemmt die Ausscheidung von Lamivudin über die Niere – Spiegel steigen; hohe Dosen meiden, vorbeugende Dosen sind unproblematisch.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Emtricitabin und emtricitabinhaltige Präparate",
+      "ref": [
+        "emtricitabin",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "bictegravir-emtricitabin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid"
+      ],
+      "effekt": "Gleicher Wirkmechanismus (Cytidin-Analoga) – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cladribin",
+      "ref": [
+        "cladribin"
+      ],
+      "effekt": "Lamivudin hemmt die Aktivierung von Cladribin in den Zellen – Wirkverlust möglich; Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sorbitolhaltige Arzneimittel (z. B. Säfte) bei Dauergebrauch",
+      "ref": [],
+      "effekt": "Sorbitol vermindert die Aufnahme von Lamivudin – möglichst meiden, sonst Viruslast häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lamivudinhaltige Kombinationspräparate",
+      "ref": [
+        "abacavir-lamivudin",
+        "abacavir-lamivudin-dolutegravir",
+        "dolutegravir-lamivudin",
+        "doravirin-lamivudin-tenofovirdisoproxil",
+        "zidovudin-lamivudin"
+      ],
+      "effekt": "Doppelte Einnahme vermeiden.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen", "Schlaflosigkeit", "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall", "Husten, Nasenbeschwerden", "Hautausschlag, Haarausfall", "Gelenk- und Muskelbeschwerden", "Müdigkeit, Unwohlsein, Fieber"],
-    "gelegentlich": ["Neutropenie, Anämie, Thrombozytopenie (Veränderungen des Blutbilds)", "Vorübergehend erhöhte Leberwerte"],
-    "selten": ["Pankreatitis (Bauchspeicheldrüsenentzündung)", "Laktatazidose (Übersäuerung des Blutes)", "Angioödem (Schwellung von Haut und Schleimhäuten)", "Rhabdomyolyse (Muskelzerfall)", "Hepatitis", "Erhöhte Amylase"],
-    "sehrSelten": ["Periphere Neuropathie (Kribbeln, Taubheitsgefühl)", "Erythroblastopenie (Aplasie der roten Blutzellen)"]
+    "haeufig": [
+      "Kopfschmerzen",
+      "Schlaflosigkeit",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall",
+      "Husten, Nasenbeschwerden",
+      "Hautausschlag, Haarausfall",
+      "Gelenk- und Muskelbeschwerden",
+      "Müdigkeit, Unwohlsein, Fieber"
+    ],
+    "gelegentlich": [
+      "Neutropenie, Anämie, Thrombozytopenie (Veränderungen des Blutbilds)",
+      "Vorübergehend erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Hepatitis",
+      "Erhöhte Amylase"
+    ],
+    "sehrSelten": [
+      "Periphere Neuropathie (Kribbeln, Taubheitsgefühl)",
+      "Erythroblastopenie (Aplasie der roten Blutzellen)",
+      "Laktatazidose (Übersäuerung des Blutes)"
+    ]
   },
   "schwangerschaft": "Kann bei Bedarf in der Schwangerschaft angewendet werden; umfangreiche Daten zeigen kein erhöhtes Fehlbildungsrisiko.",
   "stillzeit": "HIV-positive Mütter sollen grundsätzlich nicht stillen (Übertragungsrisiko); Lamivudin geht in die Muttermilch über. Bei Hepatitis B ohne HIV ist das Stillen mit der behandelnden Fachperson zu besprechen.",

@@ -1,39 +1,149 @@
 {
   "id": "bisacodyl",
   "name": "Bisacodyl",
-  "synonyme": ["Bisacodylum"],
-  "atc": ["A06AB02", "A06AG02"],
+  "synonyme": [
+    "Bisacodylum"
+  ],
+  "atc": [
+    "A06AB02",
+    "A06AG02"
+  ],
   "klasse": "Stimulierendes Laxans (Abführmittel, Diphenylmethan-Derivat)",
   "kurz": "Abführmittel, das den Dickdarm anregt; als Dragée wirkt es nach 6–12 Stunden, als Zäpfchen nach etwa 10–30 Minuten.",
-  "gruppen": ["laxanzien", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Dulcolax", "Prontolax"],
-  "abgabe": ["D"],
-  "darreichung": ["Magensaftresistente Dragées", "Zäpfchen"],
+  "gruppen": [
+    "laxanzien",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Dulcolax",
+    "Prontolax"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Magensaftresistente Dragées",
+    "Zäpfchen"
+  ],
   "indikationen": [
-    { "text": "Kurzzeitige Behandlung von Verstopfung", "ids": ["verstopfung"] },
-    { "text": "Darmentleerung vor Untersuchungen (z. B. Röntgen, Darmspiegelung) und vor oder nach Operationen", "ids": ["darmvorbereitung", "operation"] },
-    { "text": "Erkrankungen, bei denen ein erleichterter Stuhlgang erwünscht ist (z. B. Hämorrhoiden)", "ids": ["haemorrhoiden"] }
+    {
+      "text": "Kurzzeitige Behandlung von Verstopfung",
+      "ids": [
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Darmentleerung vor Untersuchungen (z. B. Röntgen, Darmspiegelung) und vor oder nach Operationen",
+      "ids": [
+        "darmvorbereitung",
+        "operation"
+      ]
+    },
+    {
+      "text": "Erkrankungen, bei denen ein erleichterter Stuhlgang erwünscht ist (z. B. Hämorrhoiden)",
+      "ids": [
+        "haemorrhoiden"
+      ]
+    }
   ],
   "wirkmechanismus": "Regt die Darmbewegung an und sorgt dafür, dass mehr Wasser im Darm bleibt, sodass der Stuhl weicher wird. Bisacodyl ist eine Vorstufe (Prodrug): Im Darm wird es durch Enzyme der Darmschleimhaut und Bakterien zum Wirkstoff BHPM (Bis-(p-hydroxyphenyl)-pyridyl-2-methan) umgewandelt. Dieser reizt die Nerven der Dickdarmschleimhaut, verstärkt die Peristaltik und hemmt die Rückaufnahme von Wasser und Salzen bzw. fördert deren Ausscheidung in den Darm. Die magensaftresistente Hülle verhindert eine Freisetzung im Magen.",
   "kontraindikationen": [
-    { "text": "Darmverschluss (Ileus) oder Darmverengung", "ids": ["darmverschluss"] },
-    { "text": "Akute Bauchbeschwerden wie Blinddarmentzündung, akute entzündliche Darmerkrankungen", "ids": ["morbus-crohn", "colitis-ulcerosa"] },
-    { "text": "Starke Bauchschmerzen mit Übelkeit und Erbrechen (mögliche Zeichen einer ernsten Erkrankung)", "ids": [] },
-    { "text": "Schwerer Flüssigkeitsmangel (Dehydratation)", "ids": ["dehydratation"] }
+    {
+      "text": "Darmverschluss (Ileus) oder Darmverengung",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Akute Bauchbeschwerden wie Blinddarmentzündung, akute entzündliche Darmerkrankungen",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Starke Bauchschmerzen mit Übelkeit und Erbrechen (mögliche Zeichen einer ernsten Erkrankung)",
+      "ids": []
+    },
+    {
+      "text": "Schwerer Flüssigkeitsmangel (Dehydratation)",
+      "ids": [
+        "dehydratation"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Längere oder hoch dosierte Anwendung: Verlust von Wasser und Salzen, besonders Kaliummangel", "ids": ["hypokaliaemie", "dehydratation"] },
-    { "text": "Herzkrankheiten mit Einnahme von Herzglykosiden oder Diuretika (Kaliummangel gefährlich)", "ids": ["herzinsuffizienz", "herzrhythmusstoerung"] },
-    { "text": "Ältere Menschen und Nierenkranke: Gefahr von Flüssigkeits- und Elektrolytverlust", "ids": ["aeltere-patienten", "niereninsuffizienz"] },
-    { "text": "Kinder: nur auf ärztlichen Rat", "ids": ["kinder"] },
-    { "text": "Seltene erbliche Fructose- oder Galactose-Unverträglichkeit (Dragées enthalten Saccharose bzw. Lactose)", "ids": ["fructoseintoleranz", "laktoseintoleranz"] }
+    {
+      "text": "Längere oder hoch dosierte Anwendung: Verlust von Wasser und Salzen, besonders Kaliummangel",
+      "ids": [
+        "hypokaliaemie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten mit Einnahme von Herzglykosiden oder Diuretika (Kaliummangel gefährlich)",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Nierenkranke: Gefahr von Flüssigkeits- und Elektrolytverlust",
+      "ids": [
+        "aeltere-patienten",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder: nur auf ärztlichen Rat",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Seltene erbliche Fructose- oder Galactose-Unverträglichkeit (Dragées enthalten Saccharose bzw. Lactose)",
+      "ids": [
+        "fructoseintoleranz",
+        "laktoseintoleranz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Kaliumsenkende Mittel (Diuretika, Glukokortikoide)", "ref": ["gruppe:diuretika", "gruppe:glukokortikoide-systemisch"], "effekt": "Verstärkter Kaliumverlust bei hoher Dosierung oder längerer Anwendung – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Herzglykoside (Digoxin, Digitoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Ein durch Abführmittel ausgelöster Kaliummangel verstärkt die Wirkung und Giftigkeit der Herzglykoside (Herzrhythmusstörungen).", "schwere": "mittel" },
-    { "text": "Antazida, säurehemmende Mittel und Milch", "ref": ["gruppe:antazida", "gruppe:magensaeure-reduzierend"], "effekt": "Die magensaftresistente Hülle kann sich schon im Magen auflösen – Magenreizung; mindestens 30 Minuten Abstand halten.", "schwere": "leicht" },
-    { "text": "Andere Abführmittel", "ref": ["gruppe:laxanzien"], "effekt": "Verstärkte Magen-Darm-Nebenwirkungen wie Krämpfe und Durchfall.", "schwere": "leicht" }
+    {
+      "text": "Kaliumsenkende Mittel (Diuretika, Glukokortikoide)",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verstärkter Kaliumverlust bei hoher Dosierung oder längerer Anwendung – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin, Digitoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein durch Abführmittel ausgelöster Kaliummangel verstärkt die Wirkung und Giftigkeit der Herzglykoside (Herzrhythmusstörungen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida, säurehemmende Mittel und Milch",
+      "ref": [
+        "gruppe:antazida",
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Die magensaftresistente Hülle kann sich schon im Magen auflösen – Magenreizung; mindestens 30 Minuten Abstand halten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Abführmittel",
+      "ref": [
+        "gruppe:laxanzien"
+      ],
+      "effekt": "Verstärkte Magen-Darm-Nebenwirkungen wie Krämpfe und Durchfall.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [

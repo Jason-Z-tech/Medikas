@@ -1,59 +1,311 @@
 {
   "id": "fluconazol",
   "name": "Fluconazol",
-  "synonyme": ["Fluconazole", "Fluconazolum"],
-  "atc": ["J02AC01"],
+  "synonyme": [
+    "Fluconazole",
+    "Fluconazolum"
+  ],
+  "atc": [
+    "J02AC01"
+  ],
   "klasse": "Triazol-Antimykotikum",
   "kurz": "Pilzmittel zum Einnehmen oder als Infusion, z. B. gegen Scheidenpilz, Mundsoor und schwere Candida- oder Kryptokokken-Infektionen.",
-  "gruppen": ["azol-antimykotika", "maessige-cyp3a4-hemmer", "cyp2c9-hemmer", "cyp2c19-hemmer", "qt-verlaengernd", "hepatotoxisch", "teratogen"],
-  "handelsnamen": ["Diflucan", "Fluconazol Mepha", "Fluconazol Sandoz", "Fluconazol Spirig HC"],
-  "abgabe": ["A", "B"],
-  "darreichung": ["Kapseln", "Pulver für Suspension zum Einnehmen", "Infusionslösung"],
+  "gruppen": [
+    "azol-antimykotika",
+    "maessige-cyp3a4-hemmer",
+    "cyp2c9-hemmer",
+    "cyp2c19-hemmer",
+    "qt-verlaengernd",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Diflucan",
+    "Fluconazol Mepha",
+    "Fluconazol Sandoz",
+    "Fluconazol Spirig HC"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Pulver für Suspension zum Einnehmen",
+    "Infusionslösung"
+  ],
   "indikationen": [
-    { "text": "Akute oder wiederkehrende Scheidenpilzinfektion (vaginale Candidose) und Candida-Balanitis", "ids": ["vaginalinfektion", "pilzinfektion"] },
-    { "text": "Schleimhaut-Candidosen in Mund, Rachen und Speiseröhre, z. B. Mundsoor, auch bei Zahnprothesen", "ids": ["mundinfektion", "pilzinfektion"] },
-    { "text": "Invasive Candida-Infektionen (z. B. Candidämie) und Kryptokokken-Meningitis, inkl. Rückfallvorbeugung bei HIV", "ids": ["pilzinfektion", "hiv"] },
-    { "text": "Vorbeugung von Candida-Infektionen bei geschwächter Abwehr, z. B. nach Chemotherapie oder Stammzelltransplantation", "ids": ["pilzinfektion", "immunsuppression", "neutropenie", "transplantation"] },
-    { "text": "Pilzinfektionen der Haut, wenn eine innerliche Behandlung nötig ist (z. B. Tinea, Pityriasis versicolor)", "ids": ["hautpilz"] }
+    {
+      "text": "Akute oder wiederkehrende Scheidenpilzinfektion (vaginale Candidose) und Candida-Balanitis",
+      "ids": [
+        "vaginalinfektion",
+        "pilzinfektion",
+        "balanitis"
+      ]
+    },
+    {
+      "text": "Schleimhaut-Candidosen in Mund, Rachen und Speiseröhre, z. B. Mundsoor, auch bei Zahnprothesen",
+      "ids": [
+        "mundinfektion",
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Invasive Candida-Infektionen (z. B. Candidämie) und Kryptokokken-Meningitis, inkl. Rückfallvorbeugung bei HIV",
+      "ids": [
+        "pilzinfektion",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Candida-Infektionen bei geschwächter Abwehr, z. B. nach Chemotherapie oder Stammzelltransplantation",
+      "ids": [
+        "pilzinfektion",
+        "immunsuppression",
+        "neutropenie",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Pilzinfektionen der Haut, wenn eine innerliche Behandlung nötig ist (z. B. Tinea, Pityriasis versicolor)",
+      "ids": [
+        "hautpilz"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Bildung eines wichtigen Bausteins der Pilzzellwand und stoppt so das Pilzwachstum. Fluconazol blockiert das pilzeigene Cytochrom-P450-Enzym Lanosterol-14α-Demethylase, wodurch kein Ergosterol mehr für die Zellmembran gebildet wird und sich toxische Sterolvorstufen anreichern. Es wird gut aufgenommen, verteilt sich auch in Liquor und Urin und wird überwiegend unverändert über die Niere ausgeschieden. Fluconazol hemmt auch menschliche Leberenzyme (stark CYP2C19 und CYP2C9, mässig CYP3A4) und verursacht dadurch zahlreiche Wechselwirkungen.",
   "kontraindikationen": [
-    { "text": "Überempfindlichkeit gegen andere Azol-Antimykotika (Kreuzallergie)", "ids": ["allergie"] }
+    {
+      "text": "Überempfindlichkeit gegen andere Azol-Antimykotika (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Herzrhythmusstörungen, QT-Verlängerung, Herzschwäche oder Elektrolytstörungen (Kalium, Magnesium): Risiko für Torsade de pointes", "ids": ["qt-verlaengerung", "herzrhythmusstoerung", "herzinsuffizienz", "hypokaliaemie", "magnesiummangel"] },
-    { "text": "Eingeschränkte Leberfunktion: seltene schwere Leberschäden – Leberwerte überwachen", "ids": ["leberinsuffizienz"] },
-    { "text": "Eingeschränkte Nierenfunktion: Dosis bei wiederholter Gabe reduzieren", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS), besonders bei HIV-Infektion – bei Ausschlag ärztlich abklären", "ids": ["schwere-hautreaktion", "hiv"] },
-    { "text": "Nebenniereninsuffizienz (reversibel) beschrieben", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Frauen im gebärfähigen Alter unter höherer oder längerer Behandlung: wirksame Verhütung bis etwa 1 Woche nach der letzten Dosis", "ids": ["frauen-gebaerfaehig", "schwangerschaft"] }
+    {
+      "text": "Herzrhythmusstörungen, QT-Verlängerung, Herzschwäche oder Elektrolytstörungen (Kalium, Magnesium): Risiko für Torsade de pointes",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: seltene schwere Leberschäden – Leberwerte überwachen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis bei wiederholter Gabe reduzieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS), besonders bei HIV-Infektion – bei Ausschlag ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Nebenniereninsuffizienz (reversibel) beschrieben",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter unter höherer oder längerer Behandlung: wirksame Verhütung bis etwa 1 Woche nach der letzten Dosis",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "schwangerschaft"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Erythromycin", "ref": ["erythromycin"], "grund": "Fluconazol erhöht den Erythromycin-Spiegel (CYP3A4-Hemmung); beide verlängern die QT-Zeit – Gefahr lebensbedrohlicher Herzrhythmusstörungen." },
-    { "text": "Pimozid, Chinidin, Cisaprid, Astemizol und Terfenadin (bei Fluconazol ab 400 mg pro Tag)", "ref": [], "grund": "Fluconazol hemmt deren Abbau über CYP3A4 – Gefahr von QT-Verlängerung und Torsade de pointes." }
+    {
+      "text": "Erythromycin",
+      "ref": [
+        "erythromycin"
+      ],
+      "grund": "Fluconazol erhöht den Erythromycin-Spiegel (CYP3A4-Hemmung); beide verlängern die QT-Zeit – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    },
+    {
+      "text": "Pimozid, Chinidin, Cisaprid, Astemizol und Terfenadin (bei Fluconazol ab 400 mg pro Tag)",
+      "ref": [],
+      "grund": "Fluconazol hemmt deren Abbau über CYP3A4 – Gefahr von QT-Verlängerung und Torsade de pointes."
+    }
   ],
   "interaktionen": [
-    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Starker INR-Anstieg und Blutungen möglich (CYP2C9-Hemmung) – INR engmaschig kontrollieren, Dosis anpassen.", "schwere": "schwer" },
-    { "text": "Andere QT-verlängernde Arzneimittel (z. B. Amiodaron, Methadon, Haloperidol, Citalopram)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Additive QT-Verlängerung, Gefahr von Torsade de pointes – EKG und Elektrolyte kontrollieren.", "schwere": "schwer" },
-    { "text": "Phenytoin", "ref": ["phenytoin"], "effekt": "Phenytoin-Spiegel steigen deutlich (CYP2C9-Hemmung) – Spiegel überwachen, Dosis anpassen.", "schwere": "schwer" },
-    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["ciclosporin", "tacrolimus", "sirolimus", "everolimus"], "effekt": "Spiegel des Immunsuppressivums steigen (Nierenschäden möglich) – Talspiegel kontrollieren, Dosis anpassen.", "schwere": "schwer" },
-    { "text": "Opioide wie Fentanyl, Alfentanil, Oxycodon, Methadon", "ref": ["fentanyl", "alfentanil", "oxycodon", "methadon"], "effekt": "Erhöhte Opioidspiegel – Gefahr von Atemdepression; eng überwachen, Dosis reduzieren.", "schwere": "schwer" },
-    { "text": "Voriconazol", "ref": ["voriconazol"], "effekt": "Deutlich erhöhte Voriconazol-Spiegel – Kombination nicht empfohlen; Abstand von 24 Stunden nach Fluconazol einhalten.", "schwere": "schwer" },
-    { "text": "Vinca-Alkaloide (Vincristin, Vinblastin)", "ref": ["vincristin", "vinblastin"], "effekt": "Erhöhte Spiegel – verstärkte Nervenschäden möglich.", "schwere": "schwer" },
-    { "text": "Statine, die über CYP3A4 oder CYP2C9 abgebaut werden (Simvastatin, Atorvastatin, Fluvastatin)", "ref": ["simvastatin", "atorvastatin", "fluvastatin"], "effekt": "Erhöhtes Risiko für Muskelschäden bis Rhabdomyolyse – auf Muskelschmerzen achten, CK kontrollieren.", "schwere": "mittel" },
-    { "text": "Sulfonylharnstoffe (z. B. Glibenclamid, Glimepirid, Gliclazid)", "ref": ["gruppe:sulfonylharnstoffe"], "effekt": "Verlängerte Wirkung, Gefahr von Unterzuckerung – Blutzucker häufiger messen.", "schwere": "mittel" },
-    { "text": "Midazolam, Triazolam und andere über CYP3A4 abgebaute Beruhigungsmittel", "ref": ["midazolam", "triazolam", "alprazolam"], "effekt": "Stärkere und längere Sedierung – Dosis reduzieren, überwachen.", "schwere": "mittel" },
-    { "text": "Rifampicin", "ref": ["rifampicin"], "effekt": "Senkt die Fluconazol-Spiegel um etwa ein Viertel – höhere Fluconazol-Dosis erwägen.", "schwere": "mittel" },
-    { "text": "Rifabutin", "ref": ["rifabutin"], "effekt": "Erhöhte Rifabutin-Spiegel, Uveitis (Augenentzündung) beschrieben – überwachen.", "schwere": "mittel" },
-    { "text": "Zidovudin", "ref": ["zidovudin"], "effekt": "Zidovudin-Spiegel steigen deutlich – auf Nebenwirkungen (Blutbild) achten.", "schwere": "mittel" },
-    { "text": "Tofacitinib und Proteinkinase-Hemmer (z. B. Ibrutinib)", "ref": ["tofacitinib", "gruppe:proteinkinase-hemmer"], "effekt": "Erhöhte Spiegel und Toxizität – Dosisanpassung gemäss Fachinformation des Partnermedikaments.", "schwere": "mittel" },
-    { "text": "NSAR, die über CYP2C9 abgebaut werden (z. B. Celecoxib, Ibuprofen, Diclofenac)", "ref": ["celecoxib", "ibuprofen", "diclofenac"], "effekt": "Höhere NSAR-Spiegel – niedrige Dosis wählen, auf Nebenwirkungen achten.", "schwere": "leicht" }
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Starker INR-Anstieg und Blutungen möglich (CYP2C9-Hemmung) – INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Arzneimittel (z. B. Amiodaron, Methadon, Haloperidol, Citalopram)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung, Gefahr von Torsade de pointes – EKG und Elektrolyte kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel steigen deutlich (CYP2C9-Hemmung) – Spiegel überwachen, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus",
+        "sirolimus",
+        "everolimus"
+      ],
+      "effekt": "Spiegel des Immunsuppressivums steigen (Nierenschäden möglich) – Talspiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide wie Fentanyl, Alfentanil, Oxycodon, Methadon",
+      "ref": [
+        "fentanyl",
+        "alfentanil",
+        "oxycodon",
+        "methadon"
+      ],
+      "effekt": "Erhöhte Opioidspiegel – Gefahr von Atemdepression; eng überwachen, Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Voriconazol",
+      "ref": [
+        "voriconazol"
+      ],
+      "effekt": "Deutlich erhöhte Voriconazol-Spiegel – Kombination nicht empfohlen; Abstand von 24 Stunden nach Fluconazol einhalten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vinca-Alkaloide (Vincristin, Vinblastin)",
+      "ref": [
+        "vincristin",
+        "vinblastin"
+      ],
+      "effekt": "Erhöhte Spiegel – verstärkte Nervenschäden möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Statine, die über CYP3A4 oder CYP2C9 abgebaut werden (Simvastatin, Atorvastatin, Fluvastatin)",
+      "ref": [
+        "simvastatin",
+        "atorvastatin",
+        "fluvastatin"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden bis Rhabdomyolyse – auf Muskelschmerzen achten, CK kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe (z. B. Glibenclamid, Glimepirid, Gliclazid)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Verlängerte Wirkung, Gefahr von Unterzuckerung – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Midazolam, Triazolam und andere über CYP3A4 abgebaute Beruhigungsmittel",
+      "ref": [
+        "midazolam",
+        "triazolam",
+        "alprazolam"
+      ],
+      "effekt": "Stärkere und längere Sedierung – Dosis reduzieren, überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Senkt die Fluconazol-Spiegel um etwa ein Viertel – höhere Fluconazol-Dosis erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifabutin",
+      "ref": [
+        "rifabutin"
+      ],
+      "effekt": "Erhöhte Rifabutin-Spiegel, Uveitis (Augenentzündung) beschrieben – überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zidovudin",
+      "ref": [
+        "zidovudin"
+      ],
+      "effekt": "Zidovudin-Spiegel steigen deutlich – auf Nebenwirkungen (Blutbild) achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tofacitinib und Proteinkinase-Hemmer (z. B. Ibrutinib)",
+      "ref": [
+        "tofacitinib",
+        "gruppe:proteinkinase-hemmer"
+      ],
+      "effekt": "Erhöhte Spiegel und Toxizität – Dosisanpassung gemäss Fachinformation des Partnermedikaments.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR, die über CYP2C9 abgebaut werden (z. B. Celecoxib, Ibuprofen, Diclofenac)",
+      "ref": [
+        "celecoxib",
+        "ibuprofen",
+        "diclofenac"
+      ],
+      "effekt": "Höhere NSAR-Spiegel – niedrige Dosis wählen, auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen", "Bauchschmerzen, Übelkeit, Erbrechen, Durchfall", "Erhöhte Leberwerte (ALT, AST, alkalische Phosphatase)", "Hautausschlag"],
-    "gelegentlich": ["Anämie (Blutarmut)", "Appetitlosigkeit", "Schlaflosigkeit, Schläfrigkeit", "Krampfanfälle, Schwindel, Kribbeln, Geschmacksstörungen", "Verstopfung, Verdauungsbeschwerden, Blähungen, Mundtrockenheit", "Cholestase, Gelbsucht, erhöhtes Bilirubin", "Juckreiz, Nesselsucht, vermehrtes Schwitzen, fixes Arzneimittelexanthem", "Muskelschmerzen, Müdigkeit, Fieber"],
-    "selten": ["Agranulozytose, Leukopenie, Neutropenie, Thrombozytopenie", "Anaphylaxie und Angioödem", "Hypokaliämie (Kaliummangel), erhöhte Blutfette", "Zittern (Tremor)", "QT-Verlängerung, Torsade de pointes (lebensgefährliche Herzrhythmusstörung)", "Leberversagen, Hepatitis, Lebernekrose", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP), Haarausfall"],
-    "unbekannt": ["DRESS (Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)", "Nebenniereninsuffizienz"]
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bauchschmerzen, Übelkeit, Erbrechen, Durchfall",
+      "Erhöhte Leberwerte (ALT, AST, alkalische Phosphatase)",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Anämie (Blutarmut)",
+      "Appetitlosigkeit",
+      "Schlaflosigkeit, Schläfrigkeit",
+      "Krampfanfälle, Schwindel, Kribbeln, Geschmacksstörungen",
+      "Verstopfung, Verdauungsbeschwerden, Blähungen, Mundtrockenheit",
+      "Cholestase, Gelbsucht, erhöhtes Bilirubin",
+      "Juckreiz, Nesselsucht, vermehrtes Schwitzen, fixes Arzneimittelexanthem",
+      "Muskelschmerzen, Müdigkeit, Fieber"
+    ],
+    "selten": [
+      "Agranulozytose, Leukopenie, Neutropenie, Thrombozytopenie",
+      "Anaphylaxie und Angioödem",
+      "Hypokaliämie (Kaliummangel), erhöhte Blutfette",
+      "Zittern (Tremor)",
+      "QT-Verlängerung, Torsade de pointes (lebensgefährliche Herzrhythmusstörung)",
+      "Leberversagen, Hepatitis, Lebernekrose",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP), Haarausfall"
+    ],
+    "unbekannt": [
+      "DRESS (Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)",
+      "Nebenniereninsuffizienz"
+    ]
   },
   "schwangerschaft": "Nicht anwenden, ausser bei schweren oder lebensbedrohlichen Pilzinfektionen. Hohe Dosen (400–800 mg pro Tag) über Wochen im ersten Drittel wurden mit Fehlbildungen in Verbindung gebracht; auch eine Einmaldosis im ersten Drittel ist mit einem leicht erhöhten Fehlgeburtsrisiko assoziiert – bei Scheidenpilz lokale Mittel bevorzugen.",
   "stillzeit": "Geht in ähnlicher Konzentration wie im Blut in die Muttermilch über. Nach einer Einzeldosis von 150 mg kann weiter gestillt werden; bei wiederholter oder hoch dosierter Behandlung wird Stillen nicht empfohlen.",

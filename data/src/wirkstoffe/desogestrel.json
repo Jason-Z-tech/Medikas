@@ -1,49 +1,204 @@
 {
   "id": "desogestrel",
   "name": "Desogestrel",
-  "synonyme": ["Minipille", "Gestagenpille", "Östrogenfreie Pille"],
-  "atc": ["G03AC09"],
+  "synonyme": [
+    "Minipille",
+    "Gestagenpille",
+    "Östrogenfreie Pille"
+  ],
+  "atc": [
+    "G03AC09"
+  ],
   "klasse": "Gestagen-Monopräparat (östrogenfreie Verhütungspille, «Minipille»)",
   "kurz": "Östrogenfreie Verhütungspille (Minipille), die täglich ohne Pause eingenommen wird; auch in der Stillzeit geeignet.",
-  "gruppen": ["gestagene", "hormonale-kontrazeptiva"],
-  "handelsnamen": ["Cerazette", "Marvelon (Kombi)", "Mercilon (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "gestagene",
+    "hormonale-kontrazeptiva"
+  ],
+  "handelsnamen": [
+    "Cerazette",
+    "Marvelon (Kombi)",
+    "Mercilon (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Hormonale Empfängnisverhütung (Kontrazeption), auch wenn Östrogene nicht vertragen werden oder ungeeignet sind", "ids": ["verhuetung"] }
+    {
+      "text": "Hormonale Empfängnisverhütung (Kontrazeption), auch wenn Östrogene nicht vertragen werden oder ungeeignet sind",
+      "ids": [
+        "verhuetung"
+      ]
+    }
   ],
   "wirkmechanismus": "Verhindert eine Schwangerschaft vor allem, indem der Eisprung unterdrückt wird. Desogestrel ist eine Vorstufe (Prodrug) und wird in Darmwand und Leber zum eigentlichen Wirkstoff Etonogestrel umgewandelt. In der Dosis von 75 Mikrogramm täglich hemmt es – anders als ältere Minipillen – in den allermeisten Zyklen den Eisprung; zusätzlich verdickt es den Schleim am Gebärmutterhals. Da kein Östrogen enthalten ist, steigt das Thromboserisiko nach heutigem Wissen kaum.",
   "kontraindikationen": [
-    { "text": "Akute venöse Thrombose oder Embolie", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Schwere Lebererkrankung, solange die Leberwerte nicht normal sind; Lebertumoren", "ids": ["leberinsuffizienz", "leberkrebs"] },
-    { "text": "Bekannte oder vermutete hormonabhängige bösartige Tumoren (z. B. Brustkrebs)", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
-    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] },
-    { "text": "Bestehende oder vermutete Schwangerschaft", "ids": ["schwangerschaft"] }
+    {
+      "text": "Akute venöse Thrombose oder Embolie",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Schwere Lebererkrankung, solange die Leberwerte nicht normal sind; Lebertumoren",
+      "ids": [
+        "leberinsuffizienz",
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Bekannte oder vermutete hormonabhängige bösartige Tumoren (z. B. Brustkrebs)",
+      "ids": [
+        "brustkrebs",
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Nicht abgeklärte Blutungen aus der Scheide",
+      "ids": []
+    },
+    {
+      "text": "Bestehende oder vermutete Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Thrombose oder Embolie in der Vorgeschichte; bei Auftreten einer Thrombose absetzen", "ids": ["thromboembolie-vorgeschichte"] },
-    { "text": "Brustkrebs-Risiko: leicht erhöhte Häufigkeit unter hormonaler Verhütung wird diskutiert", "ids": ["brustkrebs"] },
-    { "text": "Bluthochdruck: bei anhaltendem Anstieg absetzen", "ids": ["hypertonie"] },
-    { "text": "Diabetes: Blutzucker in den ersten Monaten überwachen", "ids": ["diabetes"] },
-    { "text": "Depression in der Vorgeschichte; Stimmungsveränderungen ärztlich melden", "ids": ["depression"] },
-    { "text": "Eileiterschwangerschaft in der Vorgeschichte; bei Ausbleiben der Blutung und Unterbauchschmerzen abklären", "ids": ["schwangerschaft"] },
-    { "text": "Neigung zu Chloasma (Pigmentflecken): Sonne meiden", "ids": ["sonnenbrand"] },
-    { "text": "Laktoseintoleranz (enthält Lactose)", "ids": ["laktoseintoleranz"] }
+    {
+      "text": "Thrombose oder Embolie in der Vorgeschichte; bei Auftreten einer Thrombose absetzen",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Brustkrebs-Risiko: leicht erhöhte Häufigkeit unter hormonaler Verhütung wird diskutiert",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: bei anhaltendem Anstieg absetzen",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker in den ersten Monaten überwachen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Depression in der Vorgeschichte; Stimmungsveränderungen ärztlich melden",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Eileiterschwangerschaft in der Vorgeschichte; bei Ausbleiben der Blutung und Unterbauchschmerzen abklären",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Neigung zu Chloasma (Pigmentflecken): Sonne meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Laktoseintoleranz (enthält Lactose)",
+      "ids": [
+        "laktoseintoleranz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Topiramat, Efavirenz, Johanniskraut)", "ref": ["gruppe:enzyminduktoren-hormone", "gruppe:cyp3a4-induktoren"], "effekt": "Etonogestrel wird schneller abgebaut – Verhütungsschutz unsicher. Während der Einnahme und 28 Tage danach zusätzlich Kondom; bei Langzeitbehandlung eine andere Methode wählen.", "schwere": "schwer" },
-    { "text": "HIV-Mittel (Proteasehemmer mit Ritonavir oder Cobicistat, NNRTI wie Efavirenz, Nevirapin)", "ref": ["gruppe:hiv-proteasehemmer", "gruppe:nnrti", "ritonavir", "cobicistat"], "effekt": "Hormonspiegel können sinken oder steigen – Verhütungsschutz ärztlich überprüfen lassen.", "schwere": "mittel" },
-    { "text": "Ulipristal (ellaOne)", "ref": ["ulipristal"], "effekt": "Gegenseitige Wirkungsabschwächung; nach Ulipristal frühestens nach 5 Tagen weiter einnehmen und bis zur nächsten Regel Kondom verwenden.", "schwere": "mittel" },
-    { "text": "Medizinische Kohle (Aktivkohle)", "ref": ["aktivkohle"], "effekt": "Vermindert die Aufnahme des Hormons – wie bei einer vergessenen Tablette vorgehen.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Hormonale Verhütungsmittel können den Ciclosporin-Spiegel erhöhen – Spiegel kontrollieren.", "schwere": "leicht" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Hormonspiegel möglich; meist ohne klinische Bedeutung.", "schwere": "leicht" }
+    {
+      "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Topiramat, Efavirenz, Johanniskraut)",
+      "ref": [
+        "gruppe:enzyminduktoren-hormone",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Etonogestrel wird schneller abgebaut – Verhütungsschutz unsicher. Während der Einnahme und 28 Tage danach zusätzlich Kondom; bei Langzeitbehandlung eine andere Methode wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Mittel (Proteasehemmer mit Ritonavir oder Cobicistat, NNRTI wie Efavirenz, Nevirapin)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:nnrti",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Hormonspiegel können sinken oder steigen – Verhütungsschutz ärztlich überprüfen lassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ulipristal (ellaOne)",
+      "ref": [
+        "ulipristal"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung; nach Ulipristal frühestens nach 5 Tagen weiter einnehmen und bis zur nächsten Regel Kondom verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Medizinische Kohle (Aktivkohle)",
+      "ref": [
+        "aktivkohle"
+      ],
+      "effekt": "Vermindert die Aufnahme des Hormons – wie bei einer vergessenen Tablette vorgehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Hormonale Verhütungsmittel können den Ciclosporin-Spiegel erhöhen – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Hormonspiegel möglich; meist ohne klinische Bedeutung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Unregelmässige Blutungen, Ausbleiben der Regel", "Stimmungsschwankungen, depressive Verstimmung, verminderte Libido", "Kopfschmerzen", "Übelkeit", "Akne", "Brustschmerzen", "Gewichtszunahme"],
-    "gelegentlich": ["Scheideninfektion", "Unverträglichkeit von Kontaktlinsen", "Erbrechen", "Haarausfall", "Schmerzhafte Regelblutung, Eierstockzysten", "Müdigkeit"],
-    "selten": ["Hautausschlag, Nesselsucht", "Erythema nodosum (entzündliche Hautknoten)"],
-    "unbekannt": ["Überempfindlichkeitsreaktionen bis Angioödem", "Absonderung aus der Brust"]
+    "haeufig": [
+      "Unregelmässige Blutungen, Ausbleiben der Regel",
+      "Stimmungsschwankungen, depressive Verstimmung, verminderte Libido",
+      "Kopfschmerzen",
+      "Übelkeit",
+      "Akne",
+      "Brustschmerzen",
+      "Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Scheideninfektion",
+      "Unverträglichkeit von Kontaktlinsen",
+      "Erbrechen",
+      "Haarausfall",
+      "Schmerzhafte Regelblutung, Eierstockzysten",
+      "Müdigkeit"
+    ],
+    "selten": [
+      "Hautausschlag, Nesselsucht",
+      "Erythema nodosum (entzündliche Hautknoten)"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis Angioödem",
+      "Absonderung aus der Brust"
+    ]
   },
   "schwangerschaft": "Kontraindiziert; bei Eintritt einer Schwangerschaft absetzen. Eine versehentliche Einnahme erhöht das Fehlbildungsrisiko nach heutigem Wissen nicht.",
   "stillzeit": "Erlaubt: Milchmenge und -qualität werden nicht beeinträchtigt; sehr geringe Mengen gehen in die Muttermilch über.",

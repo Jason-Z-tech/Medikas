@@ -1,64 +1,361 @@
 {
   "id": "rifampicin",
   "name": "Rifampicin",
-  "synonyme": ["Rifampin", "Rifampicinum"],
-  "atc": ["J04AB02"],
+  "synonyme": [
+    "Rifampin",
+    "Rifampicinum"
+  ],
+  "atc": [
+    "J04AB02"
+  ],
   "klasse": "Rifamycin-Antibiotikum (Tuberkulostatikum)",
   "kurz": "Wichtigstes Tuberkulosemittel, auch gegen Staphylokokken und Lepra; beschleunigt den Abbau sehr vieler anderer Medikamente.",
-  "gruppen": ["cyp3a4-induktoren", "p-gp-induktoren", "enzyminduktoren-hormone", "hepatotoxisch"],
-  "handelsnamen": ["Rimactan"],
-  "abgabe": ["A"],
-  "darreichung": ["Kapseln"],
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "p-gp-induktoren",
+    "enzyminduktoren-hormone",
+    "hepatotoxisch",
+    "oatp1b-hemmer"
+  ],
+  "handelsnamen": [
+    "Rimactan"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
   "indikationen": [
-    { "text": "Tuberkulose (alle Formen), immer in Kombination mit anderen Tuberkulosemitteln; latente Tuberkulose", "ids": ["tuberkulose"] },
-    { "text": "Lepra, in Kombination mit anderen Mitteln", "ids": ["bakterielle-infektion"] },
-    { "text": "Schwere Staphylokokken-Infektionen (auch MRSA), z. B. Knochen-, Gelenk- und Fremdkörperinfektionen, nur in Kombination mit einem anderen Antibiotikum", "ids": ["bakterielle-infektion"] },
-    { "text": "Vorbeugung bei engen Kontaktpersonen von Patienten mit Meningokokken-Meningitis und Sanierung von Keimträgern", "ids": ["pneumokokken-meningokokken"] }
+    {
+      "text": "Tuberkulose (alle Formen), immer in Kombination mit anderen Tuberkulosemitteln; latente Tuberkulose",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Lepra, in Kombination mit anderen Mitteln",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Staphylokokken-Infektionen (auch MRSA), z. B. Knochen-, Gelenk- und Fremdkörperinfektionen, nur in Kombination mit einem anderen Antibiotikum",
+      "ids": [
+        "bakterielle-infektion",
+        "osteomyelitis",
+        "resistente-keime"
+      ]
+    },
+    {
+      "text": "Vorbeugung bei engen Kontaktpersonen von Patienten mit Meningokokken-Meningitis und Sanierung von Keimträgern",
+      "ids": [
+        "pneumokokken-meningokokken"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung von Bakterien, indem es deren Ablesen der Erbinformation blockiert. Rifampicin bindet an die β-Untereinheit der bakteriellen DNA-abhängigen RNA-Polymerase und verhindert den Start der RNA-Synthese; es wirkt bakterizid, auch gegen ruhende und in Zellen liegende Tuberkulosebakterien. Weil sich bei Monotherapie rasch Resistenzen bilden, wird es fast immer kombiniert. Rifampicin aktiviert den Pregnan-X-Rezeptor und induziert dadurch stark CYP3A4, CYP2C9, CYP2C19, CYP1A2, UGT-Enzyme und P-Glykoprotein – mit sehr vielen Wechselwirkungen, die bis etwa 2 Wochen nach dem Absetzen anhalten.",
   "kontraindikationen": [
-    { "text": "Gelbsucht (Ikterus) und schwere Leberfunktionsstörung", "ids": ["leberinsuffizienz"] },
-    { "text": "Überempfindlichkeit gegen andere Rifamycine (z. B. Rifabutin)", "ids": ["allergie"] }
+    {
+      "text": "Gelbsucht (Ikterus) und schwere Leberfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Rifamycine (z. B. Rifabutin)",
+      "ids": [
+        "allergie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Vorbestehende Lebererkrankung, Alkoholkonsum, höheres Alter, Mangelernährung oder Kombination mit Isoniazid/Pyrazinamid: Gefahr von Leberschäden – Leberwerte regelmässig kontrollieren", "ids": ["leberinsuffizienz", "alkoholkonsum", "aeltere-patienten", "mangelernaehrung"] },
-    { "text": "Unregelmässige Einnahme oder Wiederaufnahme nach Pause: grippeähnliche Reaktionen, Blutplättchenmangel, Blutzerfall und akutes Nierenversagen möglich", "ids": ["thrombozytopenie", "niereninsuffizienz"] },
-    { "text": "Porphyrie: Rifampicin kann einen Schub auslösen", "ids": ["porphyrie"] },
-    { "text": "Nebenniereninsuffizienz: Gefahr einer Addison-Krise, da Kortison schneller abgebaut wird", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Diabetes: Blutzuckereinstellung kann sich verschlechtern", "ids": ["diabetes"] },
-    { "text": "Blutungsneigung oder Vitamin-K-Mangel: Gerinnungsstörungen und Blutungen möglich", "ids": ["blutgerinnungsstoerung"] },
-    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS) in der Vorgeschichte", "ids": ["schwere-hautreaktion"] },
-    { "text": "Durchfall während oder nach der Behandlung: an Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] }
+    {
+      "text": "Vorbestehende Lebererkrankung, Alkoholkonsum, höheres Alter, Mangelernährung oder Kombination mit Isoniazid/Pyrazinamid: Gefahr von Leberschäden – Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum",
+        "aeltere-patienten",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Unregelmässige Einnahme oder Wiederaufnahme nach Pause: grippeähnliche Reaktionen, Blutplättchenmangel, Blutzerfall und akutes Nierenversagen möglich",
+      "ids": [
+        "thrombozytopenie",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Porphyrie: Rifampicin kann einen Schub auslösen",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Nebenniereninsuffizienz: Gefahr einer Addison-Krise, da Kortison schneller abgebaut wird",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzuckereinstellung kann sich verschlechtern",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Vitamin-K-Mangel: Gerinnungsstörungen und Blutungen möglich",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS) in der Vorgeschichte",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Durchfall während oder nach der Behandlung: an Clostridioides-difficile-Infektion denken",
+      "ids": [
+        "clostridioides"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "HIV-Proteasehemmer, auch geboostert (z. B. Darunavir, Atazanavir, Lopinavir/Ritonavir, Saquinavir/Ritonavir)", "ref": ["gruppe:hiv-proteasehemmer", "cobicistat", "darunavir-cobicistat"], "grund": "Rifampicin senkt deren Spiegel massiv (Therapieversagen, Resistenz); mit Saquinavir/Ritonavir zudem schwere Leberschäden." },
-    { "text": "Weitere HIV-Mittel: Rilpivirin, Doravirin, Bictegravir-, Elvitegravir/Cobicistat-, Cabotegravir-, Lenacapavir- und Fostemsavir-haltige Präparate", "ref": ["rilpivirin", "doravirin", "dolutegravir-rilpivirin", "emtricitabin-rilpivirin-tenofoviralafenamid", "emtricitabin-rilpivirin-tenofovirdisoproxil", "doravirin-lamivudin-tenofovirdisoproxil", "bictegravir-emtricitabin-tenofoviralafenamid", "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid", "cabotegravir", "lenacapavir", "fostemsavir"], "grund": "Starke Enzyminduktion senkt die Spiegel so stark, dass die HIV-Therapie versagt und Resistenzen entstehen." },
-    { "text": "Voriconazol und Isavuconazol", "ref": ["voriconazol", "isavuconazol"], "grund": "Spiegel des Pilzmittels sinken so stark, dass die Behandlung unwirksam wird." },
-    { "text": "Nirmatrelvir/Ritonavir (COVID-19)", "ref": ["nirmatrelvir-ritonavir"], "grund": "Wirkverlust durch beschleunigten Abbau; Gefahr von Resistenzbildung." },
-    { "text": "Hepatitis-C-Kombinationen (Sofosbuvir/Velpatasvir, Ledipasvir/Sofosbuvir, Sofosbuvir/Velpatasvir/Voxilaprevir, Glecaprevir/Pibrentasvir)", "ref": ["sofosbuvir-velpatasvir", "ledipasvir-sofosbuvir", "sofosbuvir-velpatasvir-voxilaprevir", "glecaprevir-pibrentasvir"], "grund": "Rifampicin senkt deren Spiegel stark (P-gp- und CYP-Induktion) – Hepatitis-C-Therapie versagt." },
-    { "text": "Lurasidon und Praziquantel", "ref": ["lurasidon", "praziquantel"], "grund": "Spiegel sinken so stark, dass keine ausreichende Wirkung mehr erreicht wird." }
+    {
+      "text": "HIV-Proteasehemmer, auch geboostert (z. B. Darunavir, Atazanavir, Lopinavir/Ritonavir, Saquinavir/Ritonavir)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "cobicistat",
+        "darunavir-cobicistat"
+      ],
+      "grund": "Rifampicin senkt deren Spiegel massiv (Therapieversagen, Resistenz); mit Saquinavir/Ritonavir zudem schwere Leberschäden."
+    },
+    {
+      "text": "Weitere HIV-Mittel: Rilpivirin, Doravirin, Bictegravir-, Elvitegravir/Cobicistat-, Cabotegravir-, Lenacapavir- und Fostemsavir-haltige Präparate",
+      "ref": [
+        "rilpivirin",
+        "doravirin",
+        "dolutegravir-rilpivirin",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "doravirin-lamivudin-tenofovirdisoproxil",
+        "bictegravir-emtricitabin-tenofoviralafenamid",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "cabotegravir",
+        "lenacapavir",
+        "fostemsavir"
+      ],
+      "grund": "Starke Enzyminduktion senkt die Spiegel so stark, dass die HIV-Therapie versagt und Resistenzen entstehen."
+    },
+    {
+      "text": "Voriconazol und Isavuconazol",
+      "ref": [
+        "voriconazol",
+        "isavuconazol"
+      ],
+      "grund": "Spiegel des Pilzmittels sinken so stark, dass die Behandlung unwirksam wird."
+    },
+    {
+      "text": "Nirmatrelvir/Ritonavir (COVID-19)",
+      "ref": [
+        "nirmatrelvir-ritonavir"
+      ],
+      "grund": "Wirkverlust durch beschleunigten Abbau; Gefahr von Resistenzbildung."
+    },
+    {
+      "text": "Hepatitis-C-Kombinationen (Sofosbuvir/Velpatasvir, Ledipasvir/Sofosbuvir, Sofosbuvir/Velpatasvir/Voxilaprevir, Glecaprevir/Pibrentasvir)",
+      "ref": [
+        "sofosbuvir-velpatasvir",
+        "ledipasvir-sofosbuvir",
+        "sofosbuvir-velpatasvir-voxilaprevir",
+        "glecaprevir-pibrentasvir"
+      ],
+      "grund": "Rifampicin senkt deren Spiegel stark (P-gp- und CYP-Induktion) – Hepatitis-C-Therapie versagt."
+    },
+    {
+      "text": "Lurasidon und Praziquantel",
+      "ref": [
+        "lurasidon",
+        "praziquantel"
+      ],
+      "grund": "Spiegel sinken so stark, dass keine ausreichende Wirkung mehr erreicht wird."
+    }
   ],
   "interaktionen": [
-    { "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Vaginalring, Implantat, Notfallpille)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Verhütungsschutz geht verloren – während der Behandlung und 4 Wochen danach zusätzlich nicht-hormonell (z. B. Kondom) verhüten oder auf eine Spirale ausweichen.", "schwere": "schwer" },
-    { "text": "Gerinnungshemmer: Vitamin-K-Antagonisten und DOAK", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak"], "effekt": "Gerinnungshemmung stark abgeschwächt (Thrombosegefahr); DOAK meiden. Bei Vitamin-K-Antagonisten INR engmaschig kontrollieren – auch nach dem Absetzen von Rifampicin (Blutungsgefahr).", "schwere": "schwer" },
-    { "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus, Mycophenolat)", "ref": ["gruppe:immunsuppressiva-calcineurin", "gruppe:mtor-hemmer", "mycophenolat-mofetil"], "effekt": "Spiegel fallen stark – Gefahr einer Abstossungsreaktion; meiden oder Spiegel engmaschig überwachen.", "schwere": "schwer" },
-    { "text": "Azol-Antimykotika (Itraconazol, Posaconazol, Ketoconazol, Fluconazol)", "ref": ["gruppe:azol-antimykotika"], "effekt": "Pilzmittel-Spiegel sinken stark – Itraconazol und Posaconazol meiden, Fluconazol-Dosis erhöhen.", "schwere": "schwer" },
-    { "text": "Opioide (z. B. Methadon, Oxycodon, Fentanyl, Morphin, Buprenorphin)", "ref": ["gruppe:opioide"], "effekt": "Abgeschwächte Schmerzlinderung bzw. Entzugssymptome bei Methadon-Substitution – Dosis anpassen; beim Absetzen von Rifampicin Überdosierung möglich.", "schwere": "schwer" },
-    { "text": "Krebsmedikamente (Proteinkinase-Hemmer, viele Zytostatika und Hormontherapien)", "ref": ["gruppe:proteinkinase-hemmer", "gruppe:zytostatika"], "effekt": "Wirkverlust durch beschleunigten Abbau – Kombination in der Regel meiden.", "schwere": "schwer" },
-    { "text": "Weitere HIV-Mittel: Dolutegravir, Raltegravir, Efavirenz, Nevirapin, Maraviroc", "ref": ["dolutegravir", "raltegravir", "efavirenz", "nevirapin", "maraviroc"], "effekt": "Spiegel sinken – Dosisanpassung nötig (z. B. Dolutegravir zweimal täglich) oder Kombination meiden.", "schwere": "schwer" },
-    { "text": "Isoniazid, Pyrazinamid und andere leberschädigende Mittel (z. B. Paracetamol in hohen Dosen)", "ref": ["isoniazid", "pyrazinamid", "gruppe:hepatotoxisch"], "effekt": "Höheres Risiko für Leberschäden – in der Tuberkulosetherapie üblich, aber Leberwerte regelmässig kontrollieren.", "schwere": "mittel" },
-    { "text": "Herz-Kreislauf-Mittel (Calciumantagonisten, Betablocker, Digoxin, Statine, Ticagrelor, Antiarrhythmika wie Dronedaron)", "ref": ["gruppe:dhp-calciumantagonisten", "gruppe:nicht-dhp-calciumantagonisten", "gruppe:betablocker", "digoxin", "gruppe:statine", "ticagrelor", "dronedaron"], "effekt": "Meist deutlich schwächere Wirkung (z. B. Blutdruckanstieg) – Blutdruck, Puls, Spiegel kontrollieren und Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Kortison (systemische Glukokortikoide)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Kortisonwirkung abgeschwächt; bei Nebenniereninsuffizienz Gefahr einer Krise – Dosis meist verdoppeln.", "schwere": "mittel" },
-    { "text": "Blutzuckersenker (Sulfonylharnstoffe, Repaglinid, Pioglitazon)", "ref": ["gruppe:sulfonylharnstoffe", "repaglinid", "pioglitazon"], "effekt": "Blutzucker steigt – häufiger messen; nach Absetzen von Rifampicin Unterzuckerung möglich.", "schwere": "mittel" },
-    { "text": "Psychopharmaka und Beruhigungsmittel (z. B. Benzodiazepine, Zolpidem, Quetiapin, Haloperidol, Antidepressiva)", "ref": ["gruppe:benzodiazepine", "gruppe:z-substanzen", "gruppe:antipsychotika", "gruppe:trizyklische-antidepressiva"], "effekt": "Deutlich schwächere Wirkung – Dosis anpassen, nach Absetzen von Rifampicin wieder reduzieren.", "schwere": "mittel" },
-    { "text": "Antiepileptika (z. B. Lamotrigin, Valproinsäure, Phenytoin, Carbamazepin)", "ref": ["lamotrigin", "valproinsaeure", "phenytoin", "carbamazepin"], "effekt": "Spiegel sinken – Anfallsgefahr; Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Levothyroxin", "ref": ["levothyroxin"], "effekt": "Beschleunigter Abbau – TSH kontrollieren, Dosis ggf. erhöhen.", "schwere": "mittel" },
-    { "text": "Antazida", "ref": ["gruppe:antazida"], "effekt": "Verminderte Aufnahme von Rifampicin – Rifampicin mindestens 1 Stunde vorher einnehmen.", "schwere": "leicht" }
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Vaginalring, Implantat, Notfallpille)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz geht verloren – während der Behandlung und 4 Wochen danach zusätzlich nicht-hormonell (z. B. Kondom) verhüten oder auf eine Spirale ausweichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gerinnungshemmer: Vitamin-K-Antagonisten und DOAK",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Gerinnungshemmung stark abgeschwächt (Thrombosegefahr); DOAK meiden. Bei Vitamin-K-Antagonisten INR engmaschig kontrollieren – auch nach dem Absetzen von Rifampicin (Blutungsgefahr).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus, Mycophenolat)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer",
+        "mycophenolat-mofetil"
+      ],
+      "effekt": "Spiegel fallen stark – Gefahr einer Abstossungsreaktion; meiden oder Spiegel engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azol-Antimykotika (Itraconazol, Posaconazol, Ketoconazol, Fluconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Pilzmittel-Spiegel sinken stark – Itraconazol und Posaconazol meiden, Fluconazol-Dosis erhöhen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide (z. B. Methadon, Oxycodon, Fentanyl, Morphin, Buprenorphin)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung bzw. Entzugssymptome bei Methadon-Substitution – Dosis anpassen; beim Absetzen von Rifampicin Überdosierung möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Krebsmedikamente (Proteinkinase-Hemmer, viele Zytostatika und Hormontherapien)",
+      "ref": [
+        "gruppe:proteinkinase-hemmer",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Wirkverlust durch beschleunigten Abbau – Kombination in der Regel meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Weitere HIV-Mittel: Dolutegravir, Raltegravir, Efavirenz, Nevirapin, Maraviroc",
+      "ref": [
+        "dolutegravir",
+        "raltegravir",
+        "efavirenz",
+        "nevirapin",
+        "maraviroc"
+      ],
+      "effekt": "Spiegel sinken – Dosisanpassung nötig (z. B. Dolutegravir zweimal täglich) oder Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Isoniazid, Pyrazinamid und andere leberschädigende Mittel (z. B. Paracetamol in hohen Dosen)",
+      "ref": [
+        "isoniazid",
+        "pyrazinamid",
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – in der Tuberkulosetherapie üblich, aber Leberwerte regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herz-Kreislauf-Mittel (Calciumantagonisten, Betablocker, Digoxin, Statine, Ticagrelor, Antiarrhythmika wie Dronedaron)",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:betablocker",
+        "digoxin",
+        "gruppe:statine",
+        "ticagrelor",
+        "dronedaron"
+      ],
+      "effekt": "Meist deutlich schwächere Wirkung (z. B. Blutdruckanstieg) – Blutdruck, Puls, Spiegel kontrollieren und Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kortison (systemische Glukokortikoide)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Kortisonwirkung deutlich abgeschwächt; bei Nebenniereninsuffizienz Gefahr einer Addison-Krise – Kortisondosis ärztlich anpassen (oft erhöhen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenker (Sulfonylharnstoffe, Repaglinid, Pioglitazon)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "repaglinid",
+        "pioglitazon"
+      ],
+      "effekt": "Blutzucker steigt – häufiger messen; nach Absetzen von Rifampicin Unterzuckerung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Psychopharmaka und Beruhigungsmittel (z. B. Benzodiazepine, Zolpidem, Quetiapin, Haloperidol, Antidepressiva)",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:antipsychotika",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Deutlich schwächere Wirkung – Dosis anpassen, nach Absetzen von Rifampicin wieder reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiepileptika (z. B. Lamotrigin, Valproinsäure, Phenytoin, Carbamazepin)",
+      "ref": [
+        "lamotrigin",
+        "valproinsaeure",
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Spiegel sinken – Anfallsgefahr; Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levothyroxin",
+      "ref": [
+        "levothyroxin"
+      ],
+      "effekt": "Beschleunigter Abbau – TSH kontrollieren, Dosis ggf. erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Rifampicin – Rifampicin mindestens 1 Stunde vorher einnehmen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen, Schwindel", "Übelkeit, Erbrechen", "Erhöhte Leberwerte und erhöhtes Bilirubin", "Thrombozytopenie (Blutplättchenmangel), vor allem bei unregelmässiger Einnahme"],
-    "gelegentlich": ["Leukopenie (Mangel an weissen Blutkörperchen)", "Durchfall"],
-    "unbekannt": ["Rotorange Verfärbung von Urin, Schweiss, Speichel, Tränen und Sputum (harmlos)", "Grippeähnliche Reaktionen mit Fieber und Schüttelfrost, vor allem bei unregelmässiger Einnahme", "Hepatitis (Leberentzündung), Gelbsucht", "Appetitlosigkeit, Bauchbeschwerden, pseudomembranöse Kolitis", "Hautausschlag, Juckreiz, Nesselsucht, Hautrötung", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS, AGEP)", "Anaphylaxie, Schock, Atemnot", "Agranulozytose, hämolytische Anämie, Eosinophilie, disseminierte intravasale Gerinnung", "Akutes Nierenversagen, interstitielle Nephritis", "Nebenniereninsuffizienz", "Muskelschwäche, Menstruationsstörungen", "Psychose", "Porphyrie-Schub"]
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Übelkeit, Erbrechen",
+      "Erhöhte Leberwerte und erhöhtes Bilirubin",
+      "Thrombozytopenie (Blutplättchenmangel), vor allem bei unregelmässiger Einnahme"
+    ],
+    "gelegentlich": [
+      "Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Durchfall"
+    ],
+    "unbekannt": [
+      "Rotorange Verfärbung von Urin, Schweiss, Speichel, Tränen und Sputum (harmlos)",
+      "Grippeähnliche Reaktionen mit Fieber und Schüttelfrost, vor allem bei unregelmässiger Einnahme",
+      "Hepatitis (Leberentzündung), Gelbsucht",
+      "Appetitlosigkeit, Bauchbeschwerden, pseudomembranöse Kolitis",
+      "Hautausschlag, Juckreiz, Nesselsucht, Hautrötung",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS, AGEP)",
+      "Anaphylaxie, Schock, Atemnot",
+      "Agranulozytose, hämolytische Anämie, Eosinophilie, disseminierte intravasale Gerinnung",
+      "Akutes Nierenversagen, interstitielle Nephritis",
+      "Nebenniereninsuffizienz",
+      "Muskelschwäche, Menstruationsstörungen",
+      "Psychose",
+      "Porphyrie-Schub"
+    ]
   },
   "schwangerschaft": "Zur Behandlung einer Tuberkulose nach ärztlicher Abwägung möglich. In den letzten Wochen vor der Geburt kann es bei Mutter und Neugeborenem zu Blutungen kommen – Vitamin K wird empfohlen.",
   "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Stillen ist nach ärztlicher Abwägung in der Regel möglich, das Kind wird beobachtet.",

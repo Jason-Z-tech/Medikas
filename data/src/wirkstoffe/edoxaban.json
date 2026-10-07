@@ -1,52 +1,227 @@
 {
   "id": "edoxaban",
   "name": "Edoxaban",
-  "synonyme": ["Edoxabantosilat", "Edoxaban tosilate", "DOAK", "NOAK", "Faktor-Xa-Hemmer"],
-  "atc": ["B01AF03"],
+  "synonyme": [
+    "Edoxabantosilat",
+    "Edoxaban tosilate"
+  ],
+  "atc": [
+    "B01AF03"
+  ],
   "klasse": "Direkter Faktor-Xa-Hemmer; direktes orales Antikoagulans (DOAK)",
   "kurz": "Blutverdünner zum Schlucken (Faktor-Xa-Hemmer), einmal täglich, gegen Schlaganfall bei Vorhofflimmern sowie gegen Thrombosen und Lungenembolien.",
-  "gruppen": ["antikoagulanzien", "doak", "blutungsrisiko-erhoehend", "p-gp-substrate-eng"],
-  "handelsnamen": ["Lixiana"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "antikoagulanzien",
+    "doak",
+    "blutungsrisiko-erhoehend",
+    "p-gp-substrate-eng"
+  ],
+  "handelsnamen": [
+    "Lixiana"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung von Schlaganfall und systemischer Embolie bei nicht valvulärem Vorhofflimmern mit mindestens einem Risikofaktor (z. B. Herzschwäche, Bluthochdruck, Alter ab 75 Jahren, Diabetes, früherer Schlaganfall oder TIA)", "ids": ["vorhofflimmern", "schlaganfall"] },
-    { "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie (nach mindestens 5 Tagen Spritzenbehandlung) sowie Vorbeugung von Rückfällen", "ids": ["thrombose", "lungenembolie"] }
+    {
+      "text": "Vorbeugung von Schlaganfall und systemischer Embolie bei nicht valvulärem Vorhofflimmern mit mindestens einem Risikofaktor (z. B. Herzschwäche, Bluthochdruck, Alter ab 75 Jahren, Diabetes, früherer Schlaganfall oder TIA)",
+      "ids": [
+        "vorhofflimmern",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie (nach mindestens 5 Tagen Spritzenbehandlung) sowie Vorbeugung von Rückfällen",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Blutgerinnung, indem es einen zentralen Gerinnungsfaktor direkt blockiert. Edoxaban bindet direkt, selektiv und reversibel an den Gerinnungsfaktor Xa, frei im Blut und im Gerinnsel. Dadurch wird weniger Thrombin gebildet und neue Gerinnsel entstehen nicht. Edoxaban wird kaum über CYP-Enzyme abgebaut, ist aber ein Substrat des Transporters P-Glykoprotein und wird zu etwa der Hälfte über die Nieren ausgeschieden.",
   "kontraindikationen": [
-    { "text": "Aktive, klinisch relevante Blutung", "ids": ["aktive-blutung"] },
-    { "text": "Lebererkrankung mit Gerinnungsstörung und relevantem Blutungsrisiko", "ids": ["leberinsuffizienz", "leberzirrhose"] },
-    { "text": "Erkrankungen mit hohem Risiko für schwere Blutungen (z. B. aktuelles oder kürzliches Magen-Darm-Geschwür, Tumor mit hohem Blutungsrisiko, kürzliche Hirnblutung, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen, Aneurysmen)", "ids": ["magen-darm-ulkus", "hirnblutung", "krebs", "aneurysma", "operation"] },
-    { "text": "Schwerer, nicht kontrollierter Bluthochdruck", "ids": ["hypertonie"] },
-    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
-    { "text": "Stillzeit", "ids": ["stillzeit"] }
+    {
+      "text": "Aktive, klinisch relevante Blutung",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Lebererkrankung mit Gerinnungsstörung und relevantem Blutungsrisiko",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Erkrankungen mit hohem Risiko für schwere Blutungen (z. B. aktuelles oder kürzliches Magen-Darm-Geschwür, Tumor mit hohem Blutungsrisiko, kürzliche Hirnblutung, kürzliche Operation an Gehirn, Rückenmark oder Auge, Ösophagusvarizen, Gefässmissbildungen, Aneurysmen)",
+      "ids": [
+        "magen-darm-ulkus",
+        "hirnblutung",
+        "krebs",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Schwerer, nicht kontrollierter Bluthochdruck",
+      "ids": [
+        "hypertensive-krise"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: bei Kreatinin-Clearance 15–50 ml/min reduzierte Dosis, unter 15 ml/min oder bei Dialyse nicht empfohlen", "ids": ["niereninsuffizienz"] },
-    { "text": "Sehr gute Nierenfunktion (Kreatinin-Clearance über 95 ml/min) bei Vorhofflimmern: geringere Wirksamkeit – nur nach sorgfältiger Abwägung", "ids": ["vorhofflimmern"] },
-    { "text": "Körpergewicht bis 60 kg: reduzierte Dosis", "ids": [] },
-    { "text": "Ältere Menschen: höheres Blutungsrisiko", "ids": ["aeltere-patienten"] },
-    { "text": "Operationen und rückenmarksnahe Anästhesie: rechtzeitig pausieren, Gefahr spinaler oder epiduraler Hämatome", "ids": ["operation", "anaesthesie"] },
-    { "text": "Künstliche Herzklappen oder mittel- bis hochgradige Mitralstenose: nicht empfohlen", "ids": ["herzklappenerkrankung"] },
-    { "text": "Antiphospholipid-Syndrom (besonders dreifach positiv): DOAK nicht empfohlen", "ids": ["thromboembolie-vorgeschichte", "lupus"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: bei Kreatinin-Clearance 15–50 ml/min reduzierte Dosis, unter 15 ml/min oder bei Dialyse nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Sehr gute Nierenfunktion (Kreatinin-Clearance über 95 ml/min) bei Vorhofflimmern: geringere Wirksamkeit – nur nach sorgfältiger Abwägung",
+      "ids": [
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Körpergewicht bis 60 kg: reduzierte Dosis",
+      "ids": []
+    },
+    {
+      "text": "Ältere Menschen: höheres Blutungsrisiko",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Operationen und rückenmarksnahe Anästhesie: rechtzeitig pausieren, Gefahr spinaler oder epiduraler Hämatome",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Künstliche Herzklappen oder mittel- bis hochgradige Mitralstenose: nicht empfohlen",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Antiphospholipid-Syndrom (besonders dreifach positiv): DOAK nicht empfohlen",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "lupus"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Andere Antikoagulanzien (z. B. Heparine, Fondaparinux, Phenprocoumon, Rivaroxaban, Dabigatran), ausser bei Umstellung oder Heparin zum Offenhalten von Kathetern", "ref": ["gruppe:antikoagulanzien"], "grund": "Zusätzliche Gerinnungshemmung – stark erhöhtes Risiko schwerer Blutungen." }
+    {
+      "text": "Andere Antikoagulanzien (z. B. Heparine, Fondaparinux, Phenprocoumon, Rivaroxaban, Dabigatran), ausser bei Umstellung oder Heparin zum Offenhalten von Kathetern",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "grund": "Zusätzliche Gerinnungshemmung – stark erhöhtes Risiko schwerer Blutungen."
+    }
   ],
   "interaktionen": [
-    { "text": "P-Glykoprotein-Hemmer Ciclosporin, Dronedaron, Erythromycin, Ketoconazol", "ref": ["ciclosporin", "dronedaron", "erythromycin", "ketoconazol"], "effekt": "Edoxaban-Spiegel steigt – Dosis auf 30 mg einmal täglich reduzieren.", "schwere": "schwer" },
-    { "text": "Induktoren von P-Glykoprotein und CYP3A4 (z. B. Rifampicin, Johanniskraut, Carbamazepin, Phenytoin, Phenobarbital)", "ref": ["gruppe:p-gp-induktoren", "gruppe:cyp3a4-induktoren"], "effekt": "Edoxaban-Spiegel sinkt – Wirkungsverlust möglich; Kombination nur mit Vorsicht.", "schwere": "schwer" },
-    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Deutlich erhöhtes Blutungsrisiko; Dauerkombination mit ASS über 100 mg pro Tag nicht empfohlen.", "schwere": "schwer" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders bei Dauereinnahme – möglichst meiden.", "schwere": "schwer" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
-    { "text": "Verapamil, Amiodaron, Chinidin", "ref": ["verapamil", "amiodaron"], "effekt": "Edoxaban-Spiegel steigt etwas; keine Dosisanpassung nötig.", "schwere": "leicht" }
+    {
+      "text": "P-Glykoprotein-Hemmer Ciclosporin, Dronedaron, Erythromycin, Ketoconazol",
+      "ref": [
+        "ciclosporin",
+        "dronedaron",
+        "erythromycin",
+        "ketoconazol"
+      ],
+      "effekt": "Edoxaban-Spiegel steigt – Dosis auf 30 mg einmal täglich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Induktoren von P-Glykoprotein und CYP3A4 (z. B. Rifampicin, Johanniskraut, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:p-gp-induktoren",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Edoxaban-Spiegel sinkt – Wirkungsverlust möglich; Kombination nur mit Vorsicht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko; Dauerkombination mit ASS über 100 mg pro Tag nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Blutungen, besonders bei Dauereinnahme – möglichst meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Verapamil, Amiodaron, Chinidin",
+      "ref": [
+        "verapamil",
+        "amiodaron"
+      ],
+      "effekt": "Edoxaban-Spiegel steigt etwas; keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Anämie (Blutarmut)", "Schwindel, Kopfschmerzen", "Nasenbluten", "Magen-Darm-Blutungen, Blutungen in Mund und Rachen", "Bauchschmerzen, Übelkeit", "Erhöhte Leberwerte (Bilirubin, GGT)", "Haut- und Weichteilblutungen, Hautausschlag, Juckreiz", "Blut im Urin, Scheidenblutungen, Blutungen an Einstichstellen"],
-    "gelegentlich": ["Hirnblutung", "Thrombozytopenie (verminderte Blutplättchen)", "Überempfindlichkeitsreaktionen, Nesselsucht", "Blutungen am oder im Auge", "Bluthusten", "Erhöhte Transaminasen und alkalische Phosphatase", "Blutungen an Operationswunden"],
-    "selten": ["Anaphylaktische Reaktion, allergisches Ödem", "Subarachnoidal- und Subduralblutung", "Blutung in den Herzbeutel", "Blutungen im hinteren Bauchraum (retroperitoneal), Muskel- und Gelenkblutungen"],
-    "unbekannt": ["Antikoagulanzien-assoziierte Nephropathie (Nierenschädigung durch Blutungen in der Niere)"]
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Schwindel, Kopfschmerzen",
+      "Nasenbluten",
+      "Magen-Darm-Blutungen, Blutungen in Mund und Rachen",
+      "Bauchschmerzen, Übelkeit",
+      "Erhöhte Leberwerte (Bilirubin, GGT)",
+      "Haut- und Weichteilblutungen, Hautausschlag, Juckreiz",
+      "Blut im Urin, Scheidenblutungen, Blutungen an Einstichstellen"
+    ],
+    "gelegentlich": [
+      "Hirnblutung",
+      "Thrombozytopenie (verminderte Blutplättchen)",
+      "Überempfindlichkeitsreaktionen, Nesselsucht",
+      "Blutungen am oder im Auge",
+      "Bluthusten",
+      "Erhöhte Transaminasen und alkalische Phosphatase",
+      "Blutungen an Operationswunden"
+    ],
+    "selten": [
+      "Anaphylaktische Reaktion, allergisches Ödem",
+      "Subarachnoidal- und Subduralblutung",
+      "Blutung in den Herzbeutel",
+      "Blutungen im hinteren Bauchraum (retroperitoneal), Muskel- und Gelenkblutungen"
+    ],
+    "unbekannt": [
+      "Antikoagulanzien-assoziierte Nephropathie (Nierenschädigung durch Blutungen in der Niere)"
+    ]
   },
   "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter sollen während der Behandlung sicher verhüten.",
   "stillzeit": "Kontraindiziert – entweder abstillen oder die Behandlung absetzen.",

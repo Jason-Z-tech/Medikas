@@ -1,0 +1,175 @@
+{
+  "id": "dantrolen",
+  "name": "Dantrolen",
+  "synonyme": [
+    "Dantrolen-Natrium",
+    "Dantrolene"
+  ],
+  "atc": [
+    "M03CA01"
+  ],
+  "klasse": "Direkt am Skelettmuskel wirkendes Muskelrelaxans (Hydantoin-Derivat)",
+  "kurz": "Muskelentspannendes Mittel bei krankhaft erhöhter Muskelspannung (Spastik); als Infusion Notfallmittel bei maligner Hyperthermie in der Narkose.",
+  "gruppen": [
+    "hepatotoxisch",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Dantamacrin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Spastik (krankhaft erhöhte Muskelspannung) bei Schädigung von Gehirn oder Rückenmark, z. B. bei multipler Sklerose, nach Schlaganfall oder Rückenmarksverletzung (Kapseln)",
+      "ids": [
+        "spastik",
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Maligne Hyperthermie (lebensbedrohliche Muskelstoffwechselentgleisung in der Narkose) (Infusion)",
+      "ids": [
+        "maligne-hyperthermie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Entspannt die Skelettmuskulatur direkt im Muskel. Dantrolen hemmt am Ryanodin-Rezeptor (RyR1) die Freisetzung von Calcium aus dem sarkoplasmatischen Retikulum und entkoppelt so Erregung und Kontraktion der Muskelfaser. Bei der malignen Hyperthermie unterbricht es dadurch den unkontrollierten Calcium-Ausstrom, der Muskelstarre, Fieber und Stoffwechselentgleisung verursacht. Die Signalübertragung vom Nerv auf den Muskel wird nicht beeinflusst.",
+  "kontraindikationen": [
+    {
+      "text": "Lebererkrankungen oder eingeschränkte Leberfunktion (Kapseln)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Deutlich eingeschränkte Lungenfunktion (Kapseln)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Schwere Herzmuskelschädigung (Kapseln)",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Wenn die erhöhte Muskelspannung für Haltung, Stehen oder Gehen benötigt wird (Kapseln)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschäden: Risiko höher bei Frauen, ab 35 Jahren, bei hohen Dosen und Langzeitanwendung – Leberwerte vor und während der Behandlung kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herz- oder Lungenerkrankungen",
+      "ids": [
+        "herzinsuffizienz",
+        "copd"
+      ]
+    },
+    {
+      "text": "Schluckstörungen oder Atemschwäche: die Muskelschwäche kann sie verstärken",
+      "ids": [
+        "schluckstoerung",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Müdigkeit und Muskelschwäche: Sturzgefahr, eingeschränkte Fahrtüchtigkeit",
+      "ids": [
+        "autofahren",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Infusion: stark alkalische Lösung – Gewebeschäden, wenn sie neben die Vene gelangt",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ während der Infusion bei maligner Hyperthermie",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "verapamil",
+        "diltiazem"
+      ],
+      "effekt": "Gefahr von Hyperkaliämie (erhöhtes Kalium), Kammerflimmern und Kreislaufversagen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Östrogene bei Langzeitbehandlung mit Kapseln",
+      "ref": [
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden, besonders bei Frauen über 35 Jahren – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Mehr Leberschäden möglich – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol (z. B. Benzodiazepine, Opioide, Schlafmittel)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nicht-depolarisierende Muskelrelaxanzien (z. B. Vecuronium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Wirkung der Muskelrelaxanzien kann verstärkt werden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Schläfrigkeit, Müdigkeit, allgemeines Unwohlsein",
+      "Schwindel",
+      "Muskelschwäche",
+      "Durchfall (teils stark)",
+      "Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Kopfschmerzen",
+      "Hautausschlag"
+    ],
+    "unbekannt": [
+      "Leberentzündung (Hepatitis) und Gelbsucht, in Einzelfällen tödliches Leberversagen",
+      "Krampfanfälle",
+      "Pleuraerguss (Flüssigkeit im Brustfell)",
+      "Atemdepression",
+      "Sehstörungen",
+      "Venenentzündung an der Infusionsstelle"
+    ]
+  },
+  "schwangerschaft": "Kapseln in der Schwangerschaft nicht anwenden. Bei maligner Hyperthermie hat die lebensrettende Behandlung mit der Infusion Vorrang.",
+  "stillzeit": "Dantrolen geht in die Muttermilch über; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Leberwerte vor Beginn und regelmässig während der Behandlung mit Kapseln kontrollieren; bei Gelbfärbung, dunklem Urin oder Oberbauchschmerzen sofort ärztlich melden.",
+    "Kann Müdigkeit und Muskelschwäche verursachen: Vorsicht beim Autofahren, keinen Alkohol trinken.",
+    "Zeigt sich nach einigen Wochen keine Besserung der Spastik, wird die Behandlung beendet (Leberrisiko)."
+  ],
+  "stand": "2026-10"
+}

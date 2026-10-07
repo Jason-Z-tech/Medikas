@@ -1,50 +1,223 @@
 {
   "id": "insulin-glulisin",
   "name": "Insulin glulisin",
-  "synonyme": ["Glulisin-Insulin", "Insulin glulisinum", "Insulin glulisine"],
-  "atc": ["A10AB06"],
+  "synonyme": [
+    "Glulisin-Insulin",
+    "Insulin glulisinum",
+    "Insulin glulisine"
+  ],
+  "atc": [
+    "A10AB06"
+  ],
   "klasse": "Kurz wirksames Insulinanalogon (Mahlzeiteninsulin)",
   "kurz": "Rasch wirkendes Insulin zu den Mahlzeiten bei Diabetes, für Erwachsene und Kinder ab 6 Jahren; meist kombiniert mit einem Basalinsulin.",
-  "gruppen": ["insuline", "hypoglykaemie-ausloesend", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Apidra"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung", "Fertigpen", "Patrone", "Durchstechflasche"],
+  "gruppen": [
+    "insuline",
+    "hypoglykaemie-ausloesend",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Apidra"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Fertigpen",
+    "Patrone",
+    "Durchstechflasche"
+  ],
   "indikationen": [
-    { "text": "Diabetes mellitus bei Erwachsenen, Jugendlichen und Kindern ab 6 Jahren, die eine Behandlung mit Insulin benötigen", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2"] }
+    {
+      "text": "Diabetes mellitus bei Erwachsenen, Jugendlichen und Kindern ab 6 Jahren, die eine Behandlung mit Insulin benötigen",
+      "ids": [
+        "diabetes",
+        "diabetes-typ-1",
+        "diabetes-typ-2"
+      ]
+    }
   ],
   "wirkmechanismus": "Dämpft den Blutzuckeranstieg nach dem Essen und wirkt schneller und kürzer als Humaninsulin. Bei Insulin glulisin ist Asparagin an Position B3 durch Lysin und Lysin an Position B29 durch Glutaminsäure ersetzt; dadurch wird es nach der Injektion unter die Haut rascher aufgenommen. Die Wirkung beginnt nach etwa 10–20 Minuten; am Insulinrezeptor wirkt es wie Humaninsulin, steigert die Zuckeraufnahme in Muskel- und Fettgewebe und hemmt die Zuckerneubildung in der Leber. Es wird kurz vor oder unmittelbar nach einer Mahlzeit gespritzt und meist mit einem lang wirkenden Insulin kombiniert.",
   "kontraindikationen": [
-    { "text": "Bestehende Unterzuckerung (Hypoglykämie)", "ids": ["hypoglykaemie"] }
+    {
+      "text": "Bestehende Unterzuckerung (Hypoglykämie)",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Unterzuckerung durch ausgelassene Mahlzeiten, ungewohnte körperliche Anstrengung, Alkohol oder zu hohe Dosis; Warnzeichen können bei langer Diabetesdauer, Nervenschäden oder unter Betablockern abgeschwächt sein", "ids": ["hypoglykaemie", "alkoholkonsum"] },
-    { "text": "Zu niedrige Dosis, Unterbrechung der Behandlung oder Störung der Insulinpumpe: wegen der kurzen Wirkdauer rasch Überzuckerung und diabetische Ketoazidose möglich", "ids": ["ketoazidose", "diabetes-typ-1"] },
-    { "text": "Eingeschränkte Nieren- oder Leberfunktion: Insulinbedarf oft vermindert, häufigere Blutzuckerkontrollen", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Infekte, Fieber und andere Begleiterkrankungen erhöhen meist den Insulinbedarf", "ids": ["aktive-infektion", "fieber"] },
-    { "text": "Kombination mit Pioglitazon, besonders bei Herzkrankheiten: Fälle von Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
-    { "text": "Wechsel von Insulinart oder Marke nur unter ärztlicher Kontrolle; Verwechslungsgefahr", "ids": [] },
-    { "text": "Insulin verschiebt Kalium in die Zellen – Vorsicht bei Kaliummangel, besonders bei intravenöser Gabe", "ids": ["hypokaliaemie"] },
-    { "text": "Ältere Menschen: erhöhte Gefahr unbemerkter Unterzuckerungen", "ids": ["aeltere-patienten"] }
+    {
+      "text": "Unterzuckerung durch ausgelassene Mahlzeiten, ungewohnte körperliche Anstrengung, Alkohol oder zu hohe Dosis; Warnzeichen können bei langer Diabetesdauer, Nervenschäden oder unter Betablockern abgeschwächt sein",
+      "ids": [
+        "hypoglykaemie",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Zu niedrige Dosis, Unterbrechung der Behandlung oder Störung der Insulinpumpe: wegen der kurzen Wirkdauer rasch Überzuckerung und diabetische Ketoazidose möglich",
+      "ids": [
+        "ketoazidose",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion: Insulinbedarf oft vermindert, häufigere Blutzuckerkontrollen",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Infekte, Fieber und andere Begleiterkrankungen erhöhen meist den Insulinbedarf",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Kombination mit Pioglitazon, besonders bei Herzkrankheiten: Fälle von Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Wechsel von Insulinart oder Marke nur unter ärztlicher Kontrolle; Verwechslungsgefahr",
+      "ids": []
+    },
+    {
+      "text": "Insulin verschiebt Kalium in die Zellen – Vorsicht bei Kaliummangel, besonders bei intravenöser Gabe",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhte Gefahr unbemerkter Unterzuckerungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, DPP-4- und SGLT-2-Hemmer)", "ref": ["gruppe:sulfonylharnstoffe", "metformin", "gruppe:glp1-agonisten", "gruppe:dpp4-hemmer", "gruppe:sglt2-hemmer"], "effekt": "Verstärkte Blutzuckersenkung mit Unterzuckerungsgefahr – Insulindosis bei Beginn oder Änderung der Kombination anpassen, Blutzucker häufiger messen.", "schwere": "mittel" },
-    { "text": "Betablocker, Clonidin, Lithium", "ref": ["gruppe:betablocker", "clonidin", "lithium"], "effekt": "Können die Blutzuckersenkung verstärken oder abschwächen; Betablocker und Clonidin können zudem Warnzeichen einer Unterzuckerung verschleiern – Blutzucker häufiger messen.", "schwere": "mittel" },
-    { "text": "Alkohol", "ref": [], "effekt": "Kann eine Unterzuckerung auslösen, verstärken und verlängern, besonders auf nüchternen Magen und in der Nacht – nur mässig und zum Essen trinken.", "schwere": "mittel" },
-    { "text": "Pentamidin", "ref": ["pentamidin"], "effekt": "Kann zuerst eine Unterzuckerung und danach eine Überzuckerung auslösen – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Pioglitazon", "ref": ["pioglitazon"], "effekt": "In Kombination mit Insulin Wassereinlagerungen und Fälle von Herzinsuffizienz – auf Gewichtszunahme, Ödeme und Atemnot achten.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhen den Blutzucker – der Insulinbedarf steigt während der Behandlung und sinkt nach dem Absetzen wieder.", "schwere": "mittel" },
-    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin, Moxifloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Starke Blutzuckerschwankungen bis zu schwerer Unterzuckerung möglich – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "ACE-Hemmer, MAO-Hemmer, Fibrate, Fluoxetin, Pentoxifyllin, Disopyramid, Salicylate, Sulfonamid-Antibiotika", "ref": ["gruppe:ace-hemmer", "gruppe:mao-hemmer", "gruppe:fibrate", "fluoxetin", "pentoxifyllin", "acetylsalicylsaeure", "sulfamethoxazol-trimethoprim"], "effekt": "Können die blutzuckersenkende Wirkung verstärken – der Insulinbedarf kann sinken.", "schwere": "leicht" },
-    { "text": "Diuretika, Schilddrüsenhormone, Östrogene und Gestagene, Somatropin, Sympathomimetika (z. B. Salbutamol, Adrenalin), Isoniazid, Phenothiazine, Danazol, Diazoxid", "ref": ["gruppe:diuretika", "gruppe:schilddruesenhormone", "gruppe:oestrogene", "gruppe:gestagene", "somatropin", "gruppe:sympathomimetika", "gruppe:beta2-sympathomimetika", "isoniazid", "diazoxid"], "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.", "schwere": "leicht" },
-    { "text": "Atypische Antipsychotika (z. B. Olanzapin, Clozapin) und HIV-Proteasehemmer", "ref": ["olanzapin", "clozapin", "gruppe:hiv-proteasehemmer"], "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.", "schwere": "leicht" }
+    {
+      "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, DPP-4- und SGLT-2-Hemmer)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:glp1-agonisten",
+        "gruppe:dpp4-hemmer",
+        "gruppe:sglt2-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung mit Unterzuckerungsgefahr – Insulindosis bei Beginn oder Änderung der Kombination anpassen, Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker, Clonidin, Lithium",
+      "ref": [
+        "gruppe:betablocker",
+        "clonidin",
+        "lithium"
+      ],
+      "effekt": "Können die Blutzuckersenkung verstärken oder abschwächen; Betablocker und Clonidin können zudem Warnzeichen einer Unterzuckerung verschleiern – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann eine Unterzuckerung auslösen, verstärken und verlängern, besonders auf nüchternen Magen und in der Nacht – nur mässig und zum Essen trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pentamidin",
+      "ref": [
+        "pentamidin"
+      ],
+      "effekt": "Kann zuerst eine Unterzuckerung und danach eine Überzuckerung auslösen – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "In Kombination mit Insulin Wassereinlagerungen und Fälle von Herzinsuffizienz – auf Gewichtszunahme, Ödeme und Atemnot achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhen den Blutzucker – der Insulinbedarf steigt während der Behandlung und sinkt nach dem Absetzen wieder.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin, Moxifloxacin)",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Starke Blutzuckerschwankungen bis zu schwerer Unterzuckerung möglich – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, MAO-Hemmer, Fibrate, Fluoxetin, Pentoxifyllin, Disopyramid, Salicylate, Sulfonamid-Antibiotika",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:mao-hemmer",
+        "gruppe:fibrate",
+        "fluoxetin",
+        "pentoxifyllin",
+        "acetylsalicylsaeure",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Können die blutzuckersenkende Wirkung verstärken – der Insulinbedarf kann sinken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Diuretika, Schilddrüsenhormone, Östrogene und Gestagene, Somatropin, Sympathomimetika (z. B. Salbutamol, Adrenalin), Isoniazid, Phenothiazine, Danazol, Diazoxid",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:oestrogene",
+        "gruppe:gestagene",
+        "somatropin",
+        "gruppe:sympathomimetika",
+        "gruppe:beta2-sympathomimetika",
+        "isoniazid",
+        "diazoxid"
+      ],
+      "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Atypische Antipsychotika (z. B. Olanzapin, Clozapin) und HIV-Proteasehemmer",
+      "ref": [
+        "olanzapin",
+        "clozapin",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hypoglykämie (Unterzuckerung) mit Zittern, Schwitzen, Herzklopfen, Heisshunger oder Verwirrtheit; schwer bis zur Bewusstlosigkeit"],
-    "haeufig": ["Reaktionen an der Injektionsstelle und lokale Überempfindlichkeitsreaktionen (Rötung, Schwellung, Juckreiz)"],
-    "gelegentlich": ["Systemische Überempfindlichkeitsreaktionen (Ausschlag am ganzen Körper, Nesselsucht, Atemnot, Blutdruckabfall), im Extremfall Anaphylaxie"],
-    "selten": ["Lipodystrophie (Verdickung oder Schwund des Unterhautfettgewebes an der Spritzstelle)"],
-    "unbekannt": ["Kutane Amyloidose (knotige Ablagerungen unter der Haut an häufig benutzten Spritzstellen, mit verschlechterter Insulinaufnahme)"]
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung) mit Zittern, Schwitzen, Herzklopfen, Heisshunger oder Verwirrtheit; schwer bis zur Bewusstlosigkeit"
+    ],
+    "haeufig": [
+      "Reaktionen an der Injektionsstelle und lokale Überempfindlichkeitsreaktionen (Rötung, Schwellung, Juckreiz)"
+    ],
+    "gelegentlich": [
+      "Systemische Überempfindlichkeitsreaktionen (Ausschlag am ganzen Körper, Nesselsucht, Atemnot, Blutdruckabfall), im Extremfall Anaphylaxie"
+    ],
+    "selten": [
+      "Lipodystrophie (Verdickung oder Schwund des Unterhautfettgewebes an der Spritzstelle)"
+    ],
+    "unbekannt": [
+      "Kutane Amyloidose (knotige Ablagerungen unter der Haut an häufig benutzten Spritzstellen, mit verschlechterter Insulinaufnahme)"
+    ]
   },
   "schwangerschaft": "Nur nach ärztlicher Abwägung: Die Erfahrungen bei Schwangeren sind begrenzt, Tierstudien zeigen keine schädliche Wirkung. Engmaschige Blutzuckerkontrollen, da sich der Insulinbedarf im Verlauf und nach der Geburt ändert.",
   "stillzeit": "Vertretbar; Insulin wird vom gestillten Kind nicht über den Darm aufgenommen. Die Insulindosis und die Ernährung müssen eventuell angepasst werden.",

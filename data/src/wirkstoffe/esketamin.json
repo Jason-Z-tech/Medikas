@@ -63,9 +63,10 @@
       ]
     },
     {
-      "text": "Zustände, in denen ein Blutdruckanstieg gefährlich wäre (z. B. schlecht eingestellter Bluthochdruck, Präeklampsie, Eklampsie)",
+      "text": "Zustände, in denen ein Anstieg von Blutdruck oder Hirndruck gefährlich wäre (z. B. schlecht eingestellter Bluthochdruck, erhöhter Hirndruck, Präeklampsie, Eklampsie)",
       "ids": [
         "hypertonie",
+        "hirnoedem",
         "praeeklampsie"
       ]
     },
@@ -73,6 +74,13 @@
       "text": "Unbehandelte Schilddrüsenüberfunktion (Injektion)",
       "ids": [
         "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Injektion als alleiniges Narkosemittel bei koronarer Herzkrankheit; Situationen, die eine entspannte Gebärmutter erfordern (z. B. drohender Gebärmutterriss, Nabelschnurvorfall)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "geburtshilfe"
       ]
     }
   ],
@@ -116,9 +124,8 @@
       ]
     },
     {
-      "text": "Erhöhter Hirndruck oder erhöhter Augeninnendruck",
+      "text": "Erhöhter Augeninnendruck oder offene Augenverletzung",
       "ids": [
-        "hirnoedem",
         "glaukom"
       ]
     }
@@ -162,12 +169,12 @@
       "schwere": "mittel"
     },
     {
-      "text": "Theophyllin",
+      "text": "Theophyllin und Aminophyllin",
       "ref": [
         "theophyllin"
       ],
-      "effekt": "Gesenkte Krampfschwelle, Krampfanfälle möglich.",
-      "schwere": "mittel"
+      "effekt": "Gesenkte Krampfschwelle, Krampfanfälle möglich – Kombination möglichst vermeiden.",
+      "schwere": "schwer"
     },
     {
       "text": "Nasale Kortikosteroide oder abschwellende Nasensprays",
@@ -208,11 +215,10 @@
     ],
     "unbekannt": [
       "Atemdepression, besonders zusammen mit anderen dämpfenden Mitteln",
-      "Missbrauch und Abhängigkeit",
-      "Zystitis (Blasenentzündung) bei längerer Anwendung"
+      "Missbrauch und Abhängigkeit"
     ]
   },
-  "schwangerschaft": "Nicht empfohlen. Frauen im gebärfähigen Alter sollen während der Behandlung mit dem Nasenspray zuverlässig verhüten; im Tierversuch schädliche Wirkungen auf das sich entwickelnde Nervensystem.",
+  "schwangerschaft": "Nasenspray: nicht empfohlen; Frauen im gebärfähigen Alter sollen während der Behandlung zuverlässig verhüten (im Tierversuch schädliche Wirkungen auf das sich entwickelnde Nervensystem). Injektion nur nach strenger ärztlicher Abwägung, bei Präeklampsie und Eklampsie kontraindiziert.",
   "stillzeit": "Esketamin geht in die Muttermilch über. Ob abgestillt oder die Behandlung unterbrochen wird, entscheidet die Ärztin oder der Arzt nach Abwägung.",
   "hinweise": [
     "Der Nasenspray wird nur unter Aufsicht in der Praxis oder Klinik angewendet; danach bleibt man zur Überwachung von Blutdruck und Befinden, bis der Zustand stabil ist.",

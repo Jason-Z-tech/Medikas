@@ -1,48 +1,200 @@
 {
   "id": "multivitamine-kombination",
   "name": "Multivitamine (Kombination)",
-  "synonyme": ["Multivitaminpräparat", "Multivitamin-Mineralstoff-Präparat", "Polyvitamine"],
-  "kombinationAus": ["retinol-vitamin-a", "thiamin-vitamin-b1", "pyridoxin-vitamin-b6", "cyanocobalamin", "folsaeure", "biotin", "ascorbinsaeure-vitamin-c", "colecalciferol-vitamin-d3", "tocopherol-vitamin-e", "calcium", "magnesium", "zink"],
-  "atc": ["A11AA03", "A11BA"],
+  "synonyme": [
+    "Multivitaminpräparat",
+    "Multivitamin-Mineralstoff-Präparat",
+    "Polyvitamine"
+  ],
+  "kombinationAus": [
+    "retinol-vitamin-a",
+    "thiamin-vitamin-b1",
+    "pyridoxin-vitamin-b6",
+    "cyanocobalamin",
+    "folsaeure",
+    "biotin",
+    "ascorbinsaeure-vitamin-c",
+    "colecalciferol-vitamin-d3",
+    "tocopherol-vitamin-e",
+    "calcium",
+    "magnesium",
+    "zink"
+  ],
+  "atc": [
+    "A11AA03",
+    "A11BA"
+  ],
   "klasse": "Multivitamin- und Mineralstoffpräparat",
   "kurz": "Kombination mehrerer Vitamine, oft mit Mineralstoffen und Spurenelementen, gegen Mangel bei einseitiger Ernährung oder erhöhtem Bedarf.",
-  "gruppen": ["mehrwertige-kationen"],
-  "handelsnamen": ["Supradyn", "Berocca", "Elevit Pronatal", "Pharmaton"],
-  "abgabe": ["D"],
-  "darreichung": ["Filmtabletten", "Brausetabletten", "Kapseln"],
+  "gruppen": [
+    "mehrwertige-kationen"
+  ],
+  "handelsnamen": [
+    "Supradyn",
+    "Berocca",
+    "Elevit Pronatal",
+    "Pharmaton"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Brausetabletten",
+    "Kapseln"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung und Behandlung von Vitamin- und Mineralstoffmangel bei einseitiger oder ungenügender Ernährung und erhöhtem Bedarf (z. B. Erholungsphase nach Krankheit, starke körperliche oder geistige Belastung)", "ids": ["mangelernaehrung"] },
-    { "text": "Deckung des erhöhten Bedarfs vor und während der Schwangerschaft sowie in der Stillzeit (spezielle Präparate mit Folsäure, Jod und Eisen)", "ids": ["schwangerschaft", "stillzeit"] }
+    {
+      "text": "Vorbeugung und Behandlung von Vitamin- und Mineralstoffmangel bei einseitiger oder ungenügender Ernährung und erhöhtem Bedarf (z. B. Erholungsphase nach Krankheit, starke körperliche oder geistige Belastung)",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Deckung des erhöhten Bedarfs vor und während der Schwangerschaft sowie in der Stillzeit (spezielle Präparate mit Folsäure, Jod und Eisen)",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
   ],
   "wirkmechanismus": "Ergänzt Vitamine und Mineralstoffe, die der Körper für Stoffwechsel, Blutbildung, Nerven, Abwehr und Knochen braucht. Die Bestandteile wirken wie die entsprechenden Nährstoffe aus der Nahrung: B-Vitamine als Coenzyme im Energiestoffwechsel, Vitamin C und E als Antioxidanzien, Vitamin D und Calcium im Knochenstoffwechsel, Folsäure bei Zellteilung und Blutbildung (Vorbeugung von Neuralrohrdefekten beim Ungeborenen), Eisen, Zink und Magnesium als Bestandteile von Enzymen und Blutfarbstoff. Zusammensetzung und Dosierung unterscheiden sich je nach Präparat deutlich. Ein Nutzen ist vor allem bei tatsächlichem Mangel oder erhöhtem Bedarf belegt.",
   "kontraindikationen": [
-    { "text": "Vitamin-A- oder Vitamin-D-Überdosierung (Hypervitaminose) sowie erhöhtes Calcium im Blut oder Urin (bei Vitamin-D- bzw. calciumhaltigen Präparaten)", "ids": ["hyperkalzaemie"] },
-    { "text": "Eisenüberladung oder Eisenverwertungsstörung (z. B. Hämochromatose, Thalassämie) bei eisenhaltigen Präparaten", "ids": ["sichelzellanaemie"] },
-    { "text": "Schwere Niereninsuffizienz (Anreicherung von Mineralstoffen und Vitamin A/D)", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Vitamin-A- oder Vitamin-D-Überdosierung (Hypervitaminose) sowie erhöhtes Calcium im Blut oder Urin (bei Vitamin-D- bzw. calciumhaltigen Präparaten)",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Eisenüberladung oder Eisenverwertungsstörung (z. B. Hämochromatose, Thalassämie) bei eisenhaltigen Präparaten",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Anreicherung von Mineralstoffen und Vitamin A/D)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Gleichzeitige Einnahme weiterer Vitamin-, Mineralstoff- oder Spurenelementpräparate (Gefahr der Überdosierung, vor allem von Vitamin A, Vitamin D und Eisen)", "ids": [] },
-    { "text": "Schwangerschaft: hohe Vitamin-A-Dosen können das Kind schädigen – nur speziell für Schwangere zusammengesetzte Präparate verwenden", "ids": ["schwangerschaft"] },
-    { "text": "Eisenhaltige Präparate ausser Reichweite von Kindern aufbewahren (Eisenvergiftung)", "ids": ["kinder", "vergiftung"] },
-    { "text": "Eingeschränkte Nierenfunktion", "ids": ["niereninsuffizienz"] },
-    { "text": "Neigung zu Nierensteinen (Calcium, Vitamin C und D)", "ids": ["nierensteine"] },
-    { "text": "Natrium- und Zuckergehalt von Brausetabletten bei salzarmer Diät, Bluthochdruck, Fructoseintoleranz oder Diabetes beachten", "ids": ["hypertonie", "fructoseintoleranz", "diabetes"] }
+    {
+      "text": "Gleichzeitige Einnahme weiterer Vitamin-, Mineralstoff- oder Spurenelementpräparate (Gefahr der Überdosierung, vor allem von Vitamin A, Vitamin D und Eisen)",
+      "ids": []
+    },
+    {
+      "text": "Schwangerschaft: hohe Vitamin-A-Dosen können das Kind schädigen – nur speziell für Schwangere zusammengesetzte Präparate verwenden",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Eisenhaltige Präparate ausser Reichweite von Kindern aufbewahren (Eisenvergiftung)",
+      "ids": [
+        "kinder",
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neigung zu Nierensteinen (Calcium, Vitamin C und D)",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Natrium- und Zuckergehalt von Brausetabletten bei salzarmer Diät, Bluthochdruck, Fructoseintoleranz oder Diabetes beachten",
+      "ids": [
+        "hypertonie",
+        "fructoseintoleranz",
+        "diabetes"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Systemische Retinoide (Isotretinoin, Acitretin, Alitretinoin) bei Vitamin-A-haltigen Präparaten", "ref": ["gruppe:retinoide-systemisch"], "grund": "Additive Vitamin-A-Wirkung – Gefahr einer Hypervitaminose A mit Kopfschmerzen, Hirndrucksteigerung und Leberschäden." }
+    {
+      "text": "Systemische Retinoide (Isotretinoin, Acitretin, Alitretinoin) bei Vitamin-A-haltigen Präparaten",
+      "ref": [
+        "gruppe:retinoide-systemisch"
+      ],
+      "grund": "Additive Vitamin-A-Wirkung – Gefahr einer Hypervitaminose A mit Kopfschmerzen, Hirndrucksteigerung und Leberschäden."
+    }
   ],
   "interaktionen": [
-    { "text": "Tetracycline und Fluorchinolone (z. B. Doxycyclin, Ciprofloxacin)", "ref": ["gruppe:tetracycline", "gruppe:fluorchinolone"], "effekt": "Calcium, Magnesium, Eisen und Zink binden diese Antibiotika und vermindern ihre Aufnahme – mindestens 2–4 Stunden Abstand einhalten.", "schwere": "mittel" },
-    { "text": "Schilddrüsenhormone (Levothyroxin)", "ref": ["gruppe:schilddruesenhormone"], "effekt": "Verminderte Aufnahme des Schilddrüsenhormons – mindestens 4 Stunden Abstand.", "schwere": "mittel" },
-    { "text": "Bisphosphonate zum Einnehmen (z. B. Alendronsäure)", "ref": ["gruppe:bisphosphonate"], "effekt": "Stark verminderte Aufnahme des Bisphosphonats – Mineralstoffpräparat erst später am Tag einnehmen.", "schwere": "mittel" },
-    { "text": "Integrasehemmer gegen HIV (z. B. Dolutegravir, Bictegravir, Raltegravir)", "ref": ["gruppe:integrasehemmer"], "effekt": "Mehrwertige Kationen vermindern die Aufnahme – Einnahmeabstand gemäss Fachinformation des HIV-Mittels einhalten.", "schwere": "mittel" },
-    { "text": "Eltrombopag", "ref": ["eltrombopag"], "effekt": "Verminderte Aufnahme – Eltrombopag mindestens 2 Stunden vor oder 4 Stunden nach mineralstoffhaltigen Präparaten.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Vitamin-K-haltige Präparate können die Gerinnungshemmung abschwächen – Einnahme gleichmässig halten und INR kontrollieren.", "schwere": "mittel" },
-    { "text": "Thiaziddiuretika (bei calcium- und Vitamin-D-haltigen Präparaten)", "ref": ["gruppe:thiaziddiuretika"], "effekt": "Verminderte Calciumausscheidung – Hyperkalzämie möglich, bei Langzeiteinnahme Calcium kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Tetracycline und Fluorchinolone (z. B. Doxycyclin, Ciprofloxacin)",
+      "ref": [
+        "gruppe:tetracycline",
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Calcium, Magnesium, Eisen und Zink binden diese Antibiotika und vermindern ihre Aufnahme – mindestens 2–4 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone (Levothyroxin)",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Verminderte Aufnahme des Schilddrüsenhormons – mindestens 4 Stunden Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bisphosphonate zum Einnehmen (z. B. Alendronsäure)",
+      "ref": [
+        "gruppe:bisphosphonate"
+      ],
+      "effekt": "Stark verminderte Aufnahme des Bisphosphonats – Mineralstoffpräparat erst später am Tag einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Integrasehemmer gegen HIV (z. B. Dolutegravir, Bictegravir, Raltegravir)",
+      "ref": [
+        "gruppe:integrasehemmer"
+      ],
+      "effekt": "Mehrwertige Kationen vermindern die Aufnahme – Einnahmeabstand gemäss Fachinformation des HIV-Mittels einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Eltrombopag",
+      "ref": [
+        "eltrombopag"
+      ],
+      "effekt": "Verminderte Aufnahme – Eltrombopag mindestens 2 Stunden vor oder 4 Stunden nach mineralstoffhaltigen Präparaten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Vitamin-K-haltige Präparate können die Gerinnungshemmung abschwächen – Einnahme gleichmässig halten und INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thiaziddiuretika (bei calcium- und Vitamin-D-haltigen Präparaten)",
+      "ref": [
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verminderte Calciumausscheidung – Hyperkalzämie möglich, bei Langzeiteinnahme Calcium kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrSelten": ["Allergische Reaktionen (Hautausschlag, Juckreiz) bis hin zur Anaphylaxie"],
-    "unbekannt": ["Magen-Darm-Beschwerden wie Übelkeit, Bauchschmerzen, Verstopfung oder Durchfall", "Harmlose Gelbfärbung des Urins (Vitamin B2)", "Dunkel gefärbter Stuhl bei eisenhaltigen Präparaten"]
+    "sehrSelten": [
+      "Allergische Reaktionen (Hautausschlag, Juckreiz) bis hin zur Anaphylaxie"
+    ],
+    "unbekannt": [
+      "Magen-Darm-Beschwerden wie Übelkeit, Bauchschmerzen, Verstopfung oder Durchfall",
+      "Harmlose Gelbfärbung des Urins (Vitamin B2)",
+      "Dunkel gefärbter Stuhl bei eisenhaltigen Präparaten"
+    ]
   },
   "schwangerschaft": "Speziell für Schwangere zusammengesetzte Präparate (mit Folsäure, Jod und meist Eisen) sind geeignet und empfohlen; Präparate mit hohem Vitamin-A-Gehalt meiden.",
   "stillzeit": "In üblicher Dosierung erlaubt; Stillpräparate decken den Mehrbedarf.",

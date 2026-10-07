@@ -12,6 +12,7 @@
   "kurz": "Stark beruhigendes Antidepressivum aus der Gruppe der Trizyklika, besonders bei Depression mit Schlafstörungen, Angst und Unruhe.",
   "gruppen": [
     "trizyklische-antidepressiva",
+    "serotonerg",
     "anticholinerg",
     "zns-daempfend",
     "qt-verlaengernd",
@@ -29,7 +30,8 @@
     "B"
   ],
   "darreichung": [
-    "Tabletten"
+    "Tabletten",
+    "Tropfen"
   ],
   "indikationen": [
     {
@@ -43,6 +45,12 @@
   ],
   "wirkmechanismus": "Hellt die Stimmung auf und wirkt ausgeprägt beruhigend und schlaffördernd. Im Unterschied zu anderen Trizyklika hemmt Trimipramin die Wiederaufnahme von Serotonin und Noradrenalin nur schwach; im Vordergrund steht die Blockade von Histamin-H1-, Serotonin-5-HT2-, Alpha-1- und Dopamin-D2-Rezeptoren. Die Blockade von Muskarinrezeptoren (anticholinerge Wirkung) erklärt Nebenwirkungen wie Mundtrockenheit und Verstopfung. Die schlaffördernde Wirkung setzt rasch ein, die antidepressive Wirkung entwickelt sich über 2–4 Wochen.",
   "kontraindikationen": [
+    {
+      "text": "Kürzlich erlittener Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
     {
       "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln oder Psychopharmaka",
       "ids": [
@@ -88,10 +96,9 @@
       ]
     },
     {
-      "text": "Herzerkrankungen: Herzrhythmus- und Reizleitungsstörungen, kürzlich erlittener Herzinfarkt, QT-Verlängerung, langsamer Puls, Kaliummangel",
+      "text": "Herzerkrankungen: Herzrhythmus- und Reizleitungsstörungen, QT-Verlängerung, langsamer Puls, Kaliummangel (EKG-Kontrollen)",
       "ids": [
         "herzrhythmusstoerung",
-        "herzinfarkt",
         "qt-verlaengerung",
         "bradykardie",
         "hypokaliaemie"

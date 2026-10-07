@@ -1,0 +1,217 @@
+{
+  "id": "triazolam",
+  "name": "Triazolam",
+  "synonyme": [
+    "Triazolamum"
+  ],
+  "atc": [
+    "N05CD05"
+  ],
+  "klasse": "Benzodiazepin (kurz wirksames Schlafmittel)",
+  "kurz": "Kurz wirksames Schlafmittel aus der Gruppe der Benzodiazepine zur kurzzeitigen Behandlung von Einschlafstörungen.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Halcion"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitige Behandlung von Schlafstörungen, besonders Einschlafstörungen",
+      "ids": [
+        "schlafstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Macht rasch schläfrig, indem es die Wirkung eines hemmenden Botenstoffs im Gehirn verstärkt. Triazolam bindet an die Benzodiazepin-Bindungsstelle des GABA-A-Rezeptors und verstärkt die hemmende Wirkung von GABA. Es wird in der Leber fast vollständig über CYP3A4 abgebaut und hat eine kurze Halbwertszeit von etwa 2–5 Stunden, weshalb Müdigkeit am Folgetag selten ist. Hemmstoffe von CYP3A4 können den Spiegel jedoch um ein Vielfaches erhöhen.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis (krankhafte Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Atemschwäche (respiratorische Insuffizienz)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schlafapnoe-Syndrom (Atemaussetzer im Schlaf)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alkohol-, Medikamenten- oder Drogenabhängigkeit in der Vorgeschichte (hohes Risiko für Missbrauch und Abhängigkeit)",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: stärkere Wirkung, Verwirrtheit und erhöhte Sturzgefahr",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Chronische Atemwegserkrankungen wie COPD (Gefahr einer Atemdämpfung)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Depression: Benzodiazepine nicht als alleinige Behandlung; Suizidgefahr beachten",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nicht zur Anwendung vorgesehen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ketoconazol, Itraconazol, HIV-Proteasehemmer sowie die Wirkverstärker Ritonavir und Cobicistat",
+      "ref": [
+        "ketoconazol",
+        "itraconazol",
+        "gruppe:hiv-proteasehemmer",
+        "ritonavir",
+        "cobicistat",
+        "nirmatrelvir-ritonavir"
+      ],
+      "grund": "Starke Hemmung des Abbaus über CYP3A4 – der Triazolam-Spiegel steigt um ein Vielfaches, mit Gefahr einer starken, lang anhaltenden Dämpfung und Atemdepression."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Opioide (starke Schmerzmittel, opioidhaltige Hustenmittel, Substitutionsmittel)",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Starke Dämpfung bis Atemstillstand, Koma oder Tod möglich – nur kombinieren, wenn keine Alternative besteht, mit tiefster Dosis und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere starke und mässige CYP3A4-Hemmer (z. B. Clarithromycin, Erythromycin, Voriconazol, Posaconazol, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Triazolam-Spiegel steigt deutlich – Kombination möglichst vermeiden, sonst Dosis stark reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkte Dämpfung, Gedächtnislücken und Atemdepression – keinen Alkohol trinken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Natriumoxybat",
+      "ref": [
+        "natriumoxybat"
+      ],
+      "effekt": "Gefährliche Verstärkung der Atem- und Bewusstseinsdämpfung – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (Schlaf- und Beruhigungsmittel, Antipsychotika, sedierende Antidepressiva und Antihistaminika, Antiepileptika)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der Müdigkeit und Reaktionsverlangsamung; Sturzgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Triazolam wird sehr schnell abgebaut und kann nahezu wirkungslos werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmt den Abbau im Darm – stärkere Wirkung; während der Behandlung meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clozapin",
+      "ref": [
+        "clozapin"
+      ],
+      "effekt": "Einzelfälle von Kreislauf- und Atemstillstand beschrieben – nur unter enger Überwachung kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Schwindel, Benommenheit",
+      "Koordinationsstörungen, Gangunsicherheit (Ataxie)",
+      "Nervosität",
+      "Übelkeit, Erbrechen"
+    ],
+    "unbekannt": [
+      "Anterograde Amnesie (Erinnerungslücken für die Zeit nach der Einnahme)",
+      "Komplexe Verhaltensweisen im Schlaf (z. B. Schlafwandeln, Autofahren oder Essen ohne Erinnerung)",
+      "Paradoxe Reaktionen (Unruhe, Erregung, Aggressivität, Halluzinationen)",
+      "Verwirrtheit, besonders bei älteren Menschen",
+      "Rebound-Schlaflosigkeit und Angst am Tag",
+      "Atemdepression (Atemdämpfung)",
+      "Abhängigkeit und Entzugserscheinungen beim Absetzen",
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie, Angioödem"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden. Bei Einnahme gegen Ende der Schwangerschaft drohen beim Neugeborenen Atemprobleme, Muskelschlaffheit, Unterkühlung und Entzugssymptome.",
+  "stillzeit": "Triazolam geht vermutlich in die Muttermilch über – nicht anwenden bzw. abstillen.",
+  "hinweise": [
+    "Unmittelbar vor dem Zubettgehen einnehmen und eine ungestörte Schlafdauer von 7–8 Stunden einplanen, sonst drohen Erinnerungslücken.",
+    "Keinen Alkohol und keinen Grapefruitsaft; vor Beginn neuer Medikamente Apotheke oder Arztpraxis fragen.",
+    "Nur kurzfristig einnehmen; nach längerer Einnahme schrittweise absetzen.",
+    "Bei Schlafwandeln oder nächtlichen Handlungen ohne Erinnerung die Einnahme beenden und ärztlich Rücksprache nehmen."
+  ],
+  "stand": "2026-10"
+}

@@ -2,48 +2,217 @@
   "id": "irbesartan",
   "name": "Irbesartan",
   "synonyme": [],
-  "atc": ["C09CA04"],
+  "atc": [
+    "C09CA04"
+  ],
   "klasse": "Angiotensin-II-Rezeptorblocker (Sartan)",
   "kurz": "Blutdrucksenker aus der Gruppe der Sartane; schützt auch die Nieren bei Typ-2-Diabetes mit Bluthochdruck.",
-  "gruppen": ["sartane", "raas-hemmer", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "lithium-spiegel-erhoehend", "teratogen"],
-  "handelsnamen": ["Aprovel", "CoAprovel (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "sartane",
+    "raas-hemmer",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Aprovel",
+    "CoAprovel (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck (essentielle Hypertonie)", "ids": ["hypertonie"] },
-    { "text": "Nierenerkrankung bei Bluthochdruck und Typ-2-Diabetes", "ids": ["diabetes-typ-2", "niereninsuffizienz"] }
+    {
+      "text": "Bluthochdruck (essentielle Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Nierenerkrankung bei Bluthochdruck und Typ-2-Diabetes",
+      "ids": [
+        "diabetische-nephropathie",
+        "diabetes-typ-2"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den Blutdruck, indem es die Wirkung des gefässverengenden Hormons Angiotensin II an seinem Rezeptor blockiert. Irbesartan ist ein direkt wirksamer, selektiver Antagonist am AT1-Rezeptor: Die Gefässe weiten sich, die Aldosteronausschüttung sinkt, und die Niere scheidet mehr Salz und Wasser aus. Bei Diabetes mit Nierenschaden verlangsamt es das Fortschreiten der Nierenerkrankung. Irbesartan wird in der Leber (Glucuronidierung, CYP2C9) abgebaut und hat eine lange Halbwertszeit, sodass eine Einnahme pro Tag genügt.",
   "kontraindikationen": [
-    { "text": "2. und 3. Schwangerschaftsdrittel", "ids": ["schwangerschaft"] }
+    {
+      "text": "2. und 3. Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Angioödem in der Vorgeschichte (auch unter ACE-Hemmern)", "ids": ["angiooedem"] },
-    { "text": "Eingeschränkte Nierenfunktion, beidseitige Nierenarterienstenose oder Stenose bei Einzelniere, nach Nierentransplantation", "ids": ["niereninsuffizienz", "transplantation"] },
-    { "text": "Flüssigkeits- oder Salzmangel (Entwässerungsmittel, Durchfall, Erbrechen, Dialyse): starker Blutdruckabfall zu Beginn möglich", "ids": ["dehydratation", "hypotonie"] },
-    { "text": "Aorten- oder Mitralklappenstenose, hypertrophe Kardiomyopathie", "ids": ["herzklappenerkrankung", "kardiomyopathie"] },
-    { "text": "Risiko für Hyperkaliämie (Diabetes mit Nierenschaden, Nierenschwäche, kaliumsparende Mittel)", "ids": ["hyperkaliaemie", "diabetes"] },
-    { "text": "Diabetes unter Insulin oder Blutzuckersenkern: Unterzuckerung möglich", "ids": ["diabetes", "hypoglykaemie"] },
-    { "text": "Koronare Herzkrankheit oder Hirngefässerkrankung: übermässige Blutdrucksenkung vermeiden", "ids": ["koronare-herzkrankheit", "schlaganfall"] }
+    {
+      "text": "Angioödem in der Vorgeschichte (auch unter ACE-Hemmern)",
+      "ids": [
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion, beidseitige Nierenarterienstenose oder Stenose bei Einzelniere, nach Nierentransplantation",
+      "ids": [
+        "niereninsuffizienz",
+        "transplantation",
+        "nierenarterienstenose"
+      ]
+    },
+    {
+      "text": "Flüssigkeits- oder Salzmangel (Entwässerungsmittel, Durchfall, Erbrechen, Dialyse): starker Blutdruckabfall zu Beginn möglich",
+      "ids": [
+        "dehydratation",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Aorten- oder Mitralklappenstenose, hypertrophe Kardiomyopathie",
+      "ids": [
+        "herzklappenerkrankung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Risiko für Hyperkaliämie (Diabetes mit Nierenschaden, Nierenschwäche, kaliumsparende Mittel)",
+      "ids": [
+        "hyperkaliaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Diabetes unter Insulin oder Blutzuckersenkern: Unterzuckerung möglich",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit oder Hirngefässerkrankung: übermässige Blutdrucksenkung vermeiden",
+      "ids": [
+        "koronare-herzkrankheit",
+        "schlaganfall"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)", "ref": ["aliskiren"], "grund": "Doppelte Hemmung des Renin-Angiotensin-Systems – erhöhtes Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen." }
+    {
+      "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)",
+      "ref": [
+        "aliskiren"
+      ],
+      "grund": "Doppelte Hemmung des Renin-Angiotensin-Systems – erhöhtes Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen."
+    }
   ],
   "interaktionen": [
-    { "text": "Kaliumsparende Diuretika, Spironolacton/Eplerenon, Kaliumpräparate und kaliumhaltige Salzersatzmittel, Trimethoprim (Cotrimoxazol), Heparin", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten", "gruppe:kaliumpraeparate", "sulfamethoxazol-trimethoprim", "heparin"], "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.", "schwere": "schwer" },
-    { "text": "ACE-Hemmer und Aliskiren (doppelte RAAS-Hemmung)", "ref": ["gruppe:ace-hemmer", "aliskiren"], "effekt": "Mehr Hyperkaliämie, Blutdruckabfall und Nierenversagen – nicht empfohlen; bei diabetischer Nierenerkrankung Sartan und ACE-Hemmer nicht kombinieren.", "schwere": "schwer" },
-    { "text": "Sacubitril/Valsartan (Entresto)", "ref": ["sacubitril-valsartan"], "effekt": "Enthält bereits ein Sartan – nicht zusätzlich ein weiteres Sartan einnehmen.", "schwere": "schwer" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigen (Vergiftungsgefahr) – Kombination meiden oder Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "NSAR einschliesslich COX-2-Hemmer", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Abgeschwächte Blutdrucksenkung; Risiko für akutes Nierenversagen und Hyperkaliämie, besonders bei älteren oder ausgetrockneten Menschen – ausreichend trinken, Nierenwerte kontrollieren.", "schwere": "mittel" },
-    { "text": "Diuretika", "ref": ["gruppe:diuretika"], "effekt": "Starker Blutdruckabfall zu Behandlungsbeginn möglich, besonders bei Salz- oder Flüssigkeitsmangel.", "schwere": "mittel" },
-    { "text": "Repaglinid", "ref": ["repaglinid"], "effekt": "Irbesartan kann die Repaglinid-Spiegel erhöhen (Hemmung des Transporters OATP1B1) – Unterzuckerung möglich, Blutzucker kontrollieren.", "schwere": "mittel" },
-    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Unterzuckerungen möglich – Blutzucker kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Kaliumsparende Diuretika, Spironolacton/Eplerenon, Kaliumpräparate und kaliumhaltige Salzersatzmittel, Trimethoprim (Cotrimoxazol), Heparin",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten",
+        "gruppe:kaliumpraeparate",
+        "sulfamethoxazol-trimethoprim",
+        "gruppe:heparine"
+      ],
+      "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "ACE-Hemmer und Aliskiren (doppelte RAAS-Hemmung)",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "aliskiren"
+      ],
+      "effekt": "Mehr Hyperkaliämie, Blutdruckabfall und Nierenversagen – nicht empfohlen; bei diabetischer Nierenerkrankung Sartan und ACE-Hemmer nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sacubitril/Valsartan (Entresto)",
+      "ref": [
+        "sacubitril-valsartan"
+      ],
+      "effekt": "Enthält bereits ein Sartan – nicht zusätzlich ein weiteres Sartan einnehmen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigen (Vergiftungsgefahr) – Kombination meiden oder Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR einschliesslich COX-2-Hemmer",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; Risiko für akutes Nierenversagen und Hyperkaliämie, besonders bei älteren oder ausgetrockneten Menschen – ausreichend trinken, Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Starker Blutdruckabfall zu Behandlungsbeginn möglich, besonders bei Salz- oder Flüssigkeitsmangel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Repaglinid",
+      "ref": [
+        "repaglinid"
+      ],
+      "effekt": "Irbesartan kann die Repaglinid-Spiegel erhöhen (Hemmung des Transporters OATP1B1) – Unterzuckerung möglich, Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Unterzuckerungen möglich – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hyperkaliämie (erhöhtes Kalium) – vor allem bei Diabetes mit Nierenschaden"],
-    "haeufig": ["Schwindel, auch beim Aufstehen", "Blutdruckabfall beim Aufstehen (vor allem bei Diabetes mit Nierenschaden)", "Übelkeit, Erbrechen", "Müdigkeit", "Muskel- und Knochenschmerzen", "Anstieg der Kreatinkinase (Muskelenzym), leichter Abfall des Hämoglobins"],
-    "gelegentlich": ["Beschleunigter Puls (Tachykardie)", "Flush (Gesichtsrötung)", "Husten", "Durchfall, Verdauungsstörungen, Sodbrennen", "Brustschmerzen", "Sexuelle Funktionsstörungen", "Gelbsucht (Ikterus)"],
-    "unbekannt": ["Thrombozytopenie, Anämie", "Überempfindlichkeitsreaktionen: Angioödem, Hautausschlag, Nesselsucht, Anaphylaxie", "Hypoglykämie (Unterzuckerung)", "Kopfschmerzen, Drehschwindel, Ohrensausen, Geschmacksstörung", "Hepatitis, Leberfunktionsstörung", "Leukozytoklastische Vaskulitis (Gefässentzündung der Haut)", "Gelenk- und Muskelschmerzen, Muskelkrämpfe", "Nierenfunktionsstörung bis Nierenversagen"]
+    "sehrHaeufig": [
+      "Hyperkaliämie (erhöhtes Kalium) – vor allem bei Diabetes mit Nierenschaden"
+    ],
+    "haeufig": [
+      "Schwindel, auch beim Aufstehen",
+      "Blutdruckabfall beim Aufstehen (vor allem bei Diabetes mit Nierenschaden)",
+      "Übelkeit, Erbrechen",
+      "Müdigkeit",
+      "Muskel- und Knochenschmerzen",
+      "Anstieg der Kreatinkinase (Muskelenzym), leichter Abfall des Hämoglobins"
+    ],
+    "gelegentlich": [
+      "Beschleunigter Puls (Tachykardie)",
+      "Flush (Gesichtsrötung)",
+      "Husten",
+      "Durchfall, Verdauungsstörungen, Sodbrennen",
+      "Brustschmerzen",
+      "Sexuelle Funktionsstörungen",
+      "Gelbsucht (Ikterus)"
+    ],
+    "unbekannt": [
+      "Thrombozytopenie, Anämie",
+      "Überempfindlichkeitsreaktionen: Angioödem, Hautausschlag, Nesselsucht, Anaphylaxie",
+      "Hypoglykämie (Unterzuckerung)",
+      "Kopfschmerzen, Drehschwindel, Ohrensausen, Geschmacksstörung",
+      "Hepatitis, Leberfunktionsstörung",
+      "Leukozytoklastische Vaskulitis (Gefässentzündung der Haut)",
+      "Gelenk- und Muskelschmerzen, Muskelkrämpfe",
+      "Nierenfunktionsstörung bis Nierenversagen"
+    ]
   },
   "schwangerschaft": "Im 1. Drittel nicht empfohlen; im 2. und 3. Drittel kontraindiziert, da fruchtschädigend (Nierenschäden, Fruchtwassermangel, verzögerte Schädelverknöcherung). Bei Kinderwunsch oder festgestellter Schwangerschaft rasch ärztlich auf ein anderes Mittel umstellen.",
   "stillzeit": "Nicht empfohlen, da Daten zum Übergang in die Muttermilch fehlen; besser untersuchte Alternativen wählen.",

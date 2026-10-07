@@ -1,48 +1,200 @@
 {
   "id": "vancomycin",
   "name": "Vancomycin",
-  "synonyme": ["Vancomycinum", "Vancomycin-Hydrochlorid"],
+  "synonyme": [
+    "Vancomycinum",
+    "Vancomycin-Hydrochlorid"
+  ],
   "kombinationAus": [],
-  "atc": ["J01XA01", "A07AA09"],
+  "atc": [
+    "J01XA01",
+    "A07AA09"
+  ],
   "klasse": "Glykopeptid-Antibiotikum",
   "kurz": "Reserve-Antibiotikum gegen grampositive Keime wie MRSA, als Infusion im Spital; zum Einnehmen gegen Clostridioides-difficile-Darminfektionen.",
-  "gruppen": ["glykopeptide", "nephrotoxisch", "ototoxisch"],
-  "handelsnamen": ["Vancomycin Labatec", "Vancomycin Sandoz"],
-  "abgabe": ["A"],
-  "darreichung": ["Pulver zur Herstellung einer Infusionslösung (teils auch zur Herstellung einer Lösung zum Einnehmen)"],
+  "gruppen": [
+    "glykopeptide",
+    "nephrotoxisch",
+    "ototoxisch"
+  ],
+  "handelsnamen": [
+    "Vancomycin Labatec",
+    "Vancomycin Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung (teils auch zur Herstellung einer Lösung zum Einnehmen)"
+  ],
   "indikationen": [
-    { "text": "Schwere Infektionen durch grampositive Erreger (z. B. MRSA), besonders bei Penicillinallergie: komplizierte Haut- und Weichteilinfektionen, Knochen- und Gelenkinfektionen, Lungenentzündung, Herzinnenhautentzündung (Endokarditis), bakterielle Hirnhautentzündung, Bakteriämie (Infusion)", "ids": ["hautinfektion", "bakterielle-infektion", "lungenentzuendung", "pneumokokken-meningokokken"] },
-
-    { "text": "Vorbeugung einer Endokarditis bei Operationen bei Hochrisiko-Patienten, die keine Betalaktame erhalten können (Infusion)", "ids": ["operation"] },
-    { "text": "Darminfektion mit Clostridioides difficile (zum Einnehmen)", "ids": ["clostridioides", "durchfall"] }
+    {
+      "text": "Schwere Infektionen durch grampositive Erreger (z. B. MRSA), besonders bei Penicillinallergie: komplizierte Haut- und Weichteilinfektionen, Knochen- und Gelenkinfektionen, Lungenentzündung, Herzinnenhautentzündung (Endokarditis), bakterielle Hirnhautentzündung, Bakteriämie (Infusion)",
+      "ids": [
+        "hautinfektion",
+        "bakterielle-infektion",
+        "lungenentzuendung",
+        "pneumokokken-meningokokken",
+        "endokarditis",
+        "osteomyelitis",
+        "resistente-keime"
+      ]
+    },
+    {
+      "text": "Vorbeugung einer Endokarditis bei Operationen bei Hochrisiko-Patienten, die keine Betalaktame erhalten können (Infusion)",
+      "ids": [
+        "operation",
+        "endokarditis"
+      ]
+    },
+    {
+      "text": "Darminfektion mit Clostridioides difficile (zum Einnehmen)",
+      "ids": [
+        "clostridioides",
+        "durchfall"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand verhindert. Vancomycin bindet an das D-Alanyl-D-Alanin-Ende der Zellwandbausteine und blockiert so deren Einbau ins Peptidoglykan. Es wirkt nur gegen grampositive Bakterien, auch gegen Methicillin-resistente Staphylokokken (MRSA) und Clostridioides difficile. Aus dem Darm wird es kaum aufgenommen: Eingenommen wirkt es deshalb nur im Darm, bei Infektionen im übrigen Körper muss es als Infusion gegeben werden.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion und ältere Menschen: Dosis nach Blutspiegeln anpassen, Nierenwerte überwachen", "ids": ["niereninsuffizienz", "aeltere-patienten"] },
-    { "text": "Vorbestehende Hörstörungen: Gefahr eines bleibenden Hörverlusts – Gehör kontrollieren", "ids": ["hoerstoerung"] },
-    { "text": "Zu schnelle Infusion: Infusionsreaktion mit Hautrötung an Oberkörper und Gesicht, Juckreiz und Blutdruckabfall – mindestens 60 Minuten infundieren", "ids": ["hypotonie", "allergie"] },
-    { "text": "Schwere Hautreaktionen (DRESS, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP, lineare IgA-Dermatose) – bei Hautausschlag absetzen", "ids": ["schwere-hautreaktion"] },
-    { "text": "Längere Behandlung: Blutbild kontrollieren (Neutropenie möglich)", "ids": ["neutropenie"] },
-    { "text": "Früh- und Neugeborene: Spiegelkontrollen nötig", "ids": ["kinder"] },
-    { "text": "Einnahme bei entzündlicher Darmerkrankung oder Niereninsuffizienz: mehr Wirkstoff kann ins Blut gelangen", "ids": ["colitis-ulcerosa", "morbus-crohn", "niereninsuffizienz"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion und ältere Menschen: Dosis nach Blutspiegeln anpassen, Nierenwerte überwachen",
+      "ids": [
+        "niereninsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Vorbestehende Hörstörungen: Gefahr eines bleibenden Hörverlusts – Gehör kontrollieren",
+      "ids": [
+        "hoerstoerung"
+      ]
+    },
+    {
+      "text": "Zu schnelle Infusion: Infusionsreaktion mit Hautrötung an Oberkörper und Gesicht, Juckreiz und Blutdruckabfall – mindestens 60 Minuten infundieren",
+      "ids": [
+        "hypotonie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (DRESS, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP, lineare IgA-Dermatose) – bei Hautausschlag absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Längere Behandlung: Blutbild kontrollieren (Neutropenie möglich)",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Früh- und Neugeborene: Spiegelkontrollen nötig",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Einnahme bei entzündlicher Darmerkrankung oder Niereninsuffizienz: mehr Wirkstoff kann ins Blut gelangen",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn",
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere nieren- oder gehörschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Ciclosporin, Tacrolimus, Cisplatin, Foscarnet)", "ref": ["gruppe:nephrotoxisch", "gruppe:ototoxisch", "gruppe:aminoglykoside"], "effekt": "Additive Nieren- und Innenohrschädigung – Nierenwerte, Spiegel und Gehör engmaschig überwachen.", "schwere": "schwer" },
-    { "text": "Piperacillin-Tazobactam", "ref": ["piperacillin-tazobactam"], "effekt": "Häufiger akutes Nierenversagen als unter Vancomycin allein – Nierenfunktion engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Narkosemittel", "ref": ["propofol", "thiopental", "etomidat", "sevofluran", "isofluran", "desfluran"], "effekt": "Mehr Infusionsreaktionen (Hautrötung, Blutdruckabfall, anaphylaktoide Reaktionen) – Vancomycin-Infusion mindestens 60 Minuten vor Narkoseeinleitung beenden.", "schwere": "mittel" },
-    { "text": "Muskelrelaxanzien (z. B. Rocuronium, Atracurium, Suxamethonium)", "ref": ["rocuronium", "atracurium", "cisatracurium", "mivacurium", "suxamethonium"], "effekt": "Verstärkte neuromuskuläre Blockade möglich – überwachen.", "schwere": "mittel" },
-    { "text": "Schleifendiuretika (z. B. Furosemid)", "ref": ["gruppe:schleifendiuretika"], "effekt": "Erhöhtes Risiko für Gehörschäden – Vorsicht, Gehör überwachen.", "schwere": "mittel" },
-    { "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)", "ref": ["typhus-impfstoff"], "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.", "schwere": "leicht" }
+    {
+      "text": "Andere nieren- oder gehörschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Ciclosporin, Tacrolimus, Cisplatin, Foscarnet)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:ototoxisch",
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Additive Nieren- und Innenohrschädigung – Nierenwerte, Spiegel und Gehör engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Piperacillin-Tazobactam",
+      "ref": [
+        "piperacillin-tazobactam"
+      ],
+      "effekt": "Häufiger akutes Nierenversagen als unter Vancomycin allein – Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Narkosemittel",
+      "ref": [
+        "propofol",
+        "thiopental",
+        "etomidat",
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Mehr Infusionsreaktionen (Hautrötung, Blutdruckabfall, anaphylaktoide Reaktionen) – Vancomycin-Infusion mindestens 60 Minuten vor Narkoseeinleitung beenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien (z. B. Rocuronium, Atracurium, Suxamethonium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher",
+        "suxamethonium"
+      ],
+      "effekt": "Verstärkte neuromuskuläre Blockade möglich – überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schleifendiuretika (z. B. Furosemid)",
+      "ref": [
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Erhöhtes Risiko für Gehörschäden – Vorsicht, Gehör überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Typhus-Impfstoff zum Einnehmen (Lebendimpfstoff)",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Antibiotika können die Schluckimpfung unwirksam machen – zeitlichen Abstand gemäss Impfstoff-Fachinformation einhalten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [],
-    "haeufig": ["Rötung von Oberkörper und Gesicht bei der Infusion (Vancomycin-Infusionsreaktion), Blutdruckabfall", "Atemnot, Stridor (pfeifendes Atemgeräusch)", "Hautausschlag, Juckreiz, Nesselsucht, Schleimhautentzündung", "Eingeschränkte Nierenfunktion (Anstieg von Kreatinin und Harnstoff)", "Venenentzündung an der Infusionsstelle"],
-    "gelegentlich": ["Vorübergehender oder bleibender Hörverlust"],
-    "selten": ["Neutropenie, Agranulozytose, Thrombozytopenie, Eosinophilie", "Anaphylaxie (schwere allergische Reaktion)", "Tinnitus, Drehschwindel, Schwindel", "Übelkeit", "Interstitielle Nephritis, akutes Nierenversagen", "Arzneimittelfieber, Schüttelfrost, Krämpfe der Brust- und Rückenmuskulatur", "Vaskulitis (Gefässentzündung)"],
-    "sehrSelten": ["Pseudomembranöse Kolitis", "Herzstillstand", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, exfoliative Dermatitis, lineare IgA-Dermatose)"],
-    "unbekannt": ["DRESS und akute generalisierte exanthematische Pustulose", "Erbrechen, Durchfall", "Akute Tubulusnekrose (Nierenschädigung)"]
+    "haeufig": [
+      "Rötung von Oberkörper und Gesicht bei der Infusion (Vancomycin-Infusionsreaktion), Blutdruckabfall",
+      "Atemnot, Stridor (pfeifendes Atemgeräusch)",
+      "Hautausschlag, Juckreiz, Nesselsucht, Schleimhautentzündung",
+      "Eingeschränkte Nierenfunktion (Anstieg von Kreatinin und Harnstoff)",
+      "Venenentzündung an der Infusionsstelle"
+    ],
+    "gelegentlich": [
+      "Vorübergehender oder bleibender Hörverlust"
+    ],
+    "selten": [
+      "Neutropenie, Agranulozytose, Thrombozytopenie, Eosinophilie",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Tinnitus, Drehschwindel, Schwindel",
+      "Übelkeit",
+      "Interstitielle Nephritis, akutes Nierenversagen",
+      "Arzneimittelfieber, Schüttelfrost, Krämpfe der Brust- und Rückenmuskulatur",
+      "Vaskulitis (Gefässentzündung)"
+    ],
+    "sehrSelten": [
+      "Pseudomembranöse Kolitis",
+      "Herzstillstand",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, exfoliative Dermatitis, lineare IgA-Dermatose)"
+    ],
+    "unbekannt": [
+      "DRESS und akute generalisierte exanthematische Pustulose",
+      "Erbrechen, Durchfall",
+      "Akute Tubulusnekrose (Nierenschädigung)"
+    ]
   },
   "schwangerschaft": "Begrenzte Erfahrungen; als Infusion sind Nieren- und Gehörschäden beim Kind nicht ausgeschlossen. Nur bei klarer Notwendigkeit mit Spiegelkontrollen. Eingenommen gelangt kaum Wirkstoff ins Blut.",
   "stillzeit": "Geht in die Muttermilch über. Als Infusion nur, wenn andere Antibiotika versagt haben; beim Säugling auf Durchfall und Pilzbefall achten.",

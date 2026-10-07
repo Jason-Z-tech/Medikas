@@ -1,52 +1,267 @@
 {
   "id": "prednison",
   "name": "Prednison",
-  "synonyme": ["Prednisone"],
-  "atc": ["H02AB07"],
+  "synonyme": [
+    "Prednisone"
+  ],
+  "atc": [
+    "H02AB07"
+  ],
   "klasse": "Glukokortikoid (mittellang wirksam; Vorstufe von Prednisolon)",
   "kurz": "Häufig verwendetes Kortison zum Einnehmen gegen Entzündungen, Rheuma, Asthma, Allergien und Autoimmunerkrankungen.",
-  "gruppen": ["glukokortikoide-systemisch", "immunsuppressiv", "ulkusrisiko-erhoehend", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Prednison Galepharm", "Prednison Axapharm", "Lodotra"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten", "Tabletten mit verzögerter Wirkstofffreisetzung"],
+  "gruppen": [
+    "glukokortikoide-systemisch",
+    "immunsuppressiv",
+    "ulkusrisiko-erhoehend",
+    "hypokaliaemie-ausloesend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Prednison Galepharm",
+    "Prednison Axapharm",
+    "Lodotra"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Tabletten mit verzögerter Wirkstofffreisetzung"
+  ],
   "indikationen": [
-    { "text": "Entzündliche rheumatische Erkrankungen, z. B. rheumatoide Arthritis, Polymyalgia rheumatica, Lupus erythematodes, Vaskulitis", "ids": ["rheumatoide-arthritis", "vaskulitis", "lupus"] },
-    { "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis mit Morgensteifigkeit (Tabletten mit verzögerter Freisetzung, abends eingenommen)", "ids": ["rheumatoide-arthritis"] },
-    { "text": "Asthma bronchiale, akute Verschlechterung einer COPD und schwere allergische Reaktionen", "ids": ["asthma", "copd", "allergie"] },
-    { "text": "Entzündliche Darm-, Haut- und Nierenerkrankungen, z. B. Colitis ulcerosa, Morbus Crohn, schwere Ekzeme, nephrotisches Syndrom", "ids": ["colitis-ulcerosa", "morbus-crohn", "neurodermitis", "nephrotisches-syndrom"] },
-    { "text": "Autoimmunerkrankungen und Blutkrankheiten, z. B. autoimmune hämolytische Anämie, Immunthrombozytopenie, Sarkoidose", "ids": ["autoimmunerkrankung", "haemolytische-anaemie", "thrombozytopenie"] },
-    { "text": "In Kombination bei bestimmten Krebserkrankungen (z. B. Leukämien, Lymphome) und nach Organtransplantationen", "ids": ["leukaemie", "lymphom", "transplantation"] }
+    {
+      "text": "Entzündliche rheumatische Erkrankungen, z. B. rheumatoide Arthritis, Polymyalgia rheumatica, Lupus erythematodes, Vaskulitis",
+      "ids": [
+        "rheumatoide-arthritis",
+        "vaskulitis",
+        "lupus"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis mit Morgensteifigkeit (Tabletten mit verzögerter Freisetzung, abends eingenommen)",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Asthma bronchiale, akute Verschlechterung einer COPD und schwere allergische Reaktionen",
+      "ids": [
+        "asthma",
+        "copd",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Entzündliche Darm-, Haut- und Nierenerkrankungen, z. B. Colitis ulcerosa, Morbus Crohn, schwere Ekzeme, nephrotisches Syndrom",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn",
+        "neurodermitis",
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Autoimmunerkrankungen und Blutkrankheiten, z. B. autoimmune hämolytische Anämie, Immunthrombozytopenie, Sarkoidose",
+      "ids": [
+        "autoimmunerkrankung",
+        "haemolytische-anaemie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "In Kombination bei bestimmten Krebserkrankungen (z. B. Leukämien, Lymphome) und nach Organtransplantationen",
+      "ids": [
+        "leukaemie",
+        "lymphom",
+        "transplantation"
+      ]
+    }
   ],
   "wirkmechanismus": "Dämpft Entzündungen und überschiessende Reaktionen des Immunsystems. Prednison ist eine Vorstufe (Prodrug) und wird in der Leber rasch in den eigentlichen Wirkstoff Prednisolon umgewandelt. Prednisolon bindet an den Glukokortikoid-Rezeptor im Zellinneren und unterdrückt im Zellkern die Bildung entzündungsfördernder Botenstoffe (Zytokine, Prostaglandine, Leukotriene) sowie die Aktivität von Abwehrzellen. Es wirkt etwa 4-mal stärker entzündungshemmend als körpereigenes Cortisol und hat eine geringe salzzurückhaltende Wirkung. Die Form mit verzögerter Freisetzung gibt den Wirkstoff erst rund 4 Stunden nach der Einnahme frei, also in der Nacht, wenn die entzündlichen Botenstoffe ansteigen.",
   "kontraindikationen": [
-    { "text": "Systemische Pilzinfektionen und nicht behandelte systemische Infektionen (ausser bei lebensbedrohlichen Zuständen)", "ids": ["pilzinfektion", "aktive-infektion"] },
-    { "text": "Impfung mit Lebendimpfstoffen während einer Behandlung mit immunsuppressiven Dosen", "ids": ["lebendimpfung-geplant"] }
+    {
+      "text": "Systemische Pilzinfektionen und nicht behandelte systemische Infektionen (ausser bei lebensbedrohlichen Zuständen)",
+      "ids": [
+        "pilzinfektion",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Impfung mit Lebendimpfstoffen während einer Behandlung mit immunsuppressiven Dosen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Infektionen (Tuberkulose, Hepatitis B, Herpes, Windpocken, Masern, Wurmbefall) können aufflammen oder schwerer verlaufen; Infektzeichen können verschleiert werden", "ids": ["aktive-infektion", "tuberkulose", "hepatitis-b", "herpes", "masern-mumps-roeteln"] },
-    { "text": "Magen-Darm-Geschwüre oder entzündliche Darmerkrankungen mit Gefahr eines Durchbruchs (z. B. Divertikulitis)", "ids": ["magen-darm-ulkus", "divertikulitis"] },
-    { "text": "Diabetes mellitus: der Blutzucker steigt – Kontrollen und Anpassung der Diabetesbehandlung", "ids": ["diabetes"] },
-    { "text": "Bluthochdruck, Herzinsuffizienz, kurz zurückliegender Herzinfarkt", "ids": ["hypertonie", "herzinsuffizienz", "herzinfarkt"] },
-    { "text": "Osteoporose: bei längerer Einnahme Knochenschutz besprechen", "ids": ["osteoporose"] },
-    { "text": "Psychische Erkrankungen in der Vorgeschichte (Depression, Psychose)", "ids": ["depression", "schizophrenie", "bipolare-stoerung"] },
-    { "text": "Glaukom und Katarakt", "ids": ["glaukom", "katarakt"] },
-    { "text": "Schwere Leberfunktionsstörung: Umwandlung in Prednisolon und Abbau verändert", "ids": ["leberinsuffizienz", "leberzirrhose"] },
-    { "text": "Myasthenia gravis: anfängliche Verschlechterung möglich", "ids": ["myasthenia-gravis"] },
-    { "text": "Kinder: Wachstumshemmung bei längerer Behandlung", "ids": ["kinder"] }
+    {
+      "text": "Infektionen (Tuberkulose, Hepatitis B, Herpes, Windpocken, Masern, Wurmbefall) können aufflammen oder schwerer verlaufen; Infektzeichen können verschleiert werden",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "hepatitis-b",
+        "herpes",
+        "masern-mumps-roeteln"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre oder entzündliche Darmerkrankungen mit Gefahr eines Durchbruchs (z. B. Divertikulitis)",
+      "ids": [
+        "magen-darm-ulkus",
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: der Blutzucker steigt – Kontrollen und Anpassung der Diabetesbehandlung",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Herzinsuffizienz, kurz zurückliegender Herzinfarkt",
+      "ids": [
+        "hypertonie",
+        "herzinsuffizienz",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Osteoporose: bei längerer Einnahme Knochenschutz besprechen; bei Kindern Wachstumshemmung möglich",
+      "ids": [
+        "osteoporose",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Psychische Erkrankungen in der Vorgeschichte (Depression, Psychose)",
+      "ids": [
+        "depression",
+        "schizophrenie",
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Glaukom und Katarakt",
+      "ids": [
+        "glaukom",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung: Umwandlung in Prednisolon und Abbau verändert",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: anfängliche Verschlechterung möglich",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Bekanntes oder vermutetes Phäochromozytom: Gefahr einer lebensbedrohlichen Blutdruckkrise",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Lebendimpfstoffe", "ref": ["gruppe:lebendimpfstoffe"], "effekt": "Unter immunsuppressiven Dosen Gefahr einer Infektion durch den Impfstoff und ungenügender Impfschutz – nicht impfen.", "schwere": "schwer" },
-    { "text": "NSAR und Acetylsalicylsäure", "ref": ["gruppe:nsar", "acetylsalicylsaeure"], "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen – eventuell Magenschutz.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Gegenseitige Erhöhung der Spiegel möglich; vermehrte Nebenwirkungen, selten Krampfanfälle – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Itraconazol, Ketoconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Prednisolon-Spiegel mit mehr Kortison-Nebenwirkungen – Nutzen und Risiko abwägen.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Beschleunigter Abbau – Wirkung kann abgeschwächt sein, eventuell Dosis erhöhen.", "schwere": "mittel" },
-    { "text": "Blutzuckersenker (Insulin, orale Antidiabetika)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker kontrollieren, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Die gerinnungshemmende Wirkung kann verändert sein – INR engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Mittel (z. B. Diuretika, Abführmittel) und Herzglykoside", "ref": ["gruppe:hypokaliaemie-ausloesend", "gruppe:herzglykoside"], "effekt": "Verstärkter Kaliumverlust; bei Herzglykosiden erhöhtes Risiko für Herzrhythmusstörungen – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, v. a. bei älteren Menschen.", "schwere": "mittel" },
-    { "text": "Östrogene und hormonale Verhütungsmittel", "ref": ["gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva"], "effekt": "Können die Kortison-Wirkung verstärken.", "schwere": "leicht" },
-    { "text": "Blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Die Blutdrucksenkung kann durch Salz- und Wasserretention abgeschwächt werden.", "schwere": "leicht" }
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Unter immunsuppressiven Dosen Gefahr einer Infektion durch den Impfstoff und ungenügender Impfschutz – nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR und Acetylsalicylsäure",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen – eventuell Magenschutz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Gegenseitige Erhöhung der Spiegel möglich; vermehrte Nebenwirkungen, selten Krampfanfälle – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Itraconazol, Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Prednisolon-Spiegel mit mehr Kortison-Nebenwirkungen – Nutzen und Risiko abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Abbau – Wirkung kann abgeschwächt sein, eventuell Dosis erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenker (Insulin, orale Antidiabetika)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die gerinnungshemmende Wirkung kann verändert sein – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Diuretika, Abführmittel) und Herzglykoside",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkter Kaliumverlust; bei Herzglykosiden erhöhtes Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, v. a. bei älteren Menschen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogene und hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Können die Kortison-Wirkung verstärken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Die Blutdrucksenkung kann durch Salz- und Wasserretention abgeschwächt werden.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "unbekannt": [
@@ -58,7 +273,7 @@
       "Psychische Störungen (Schlaflosigkeit, Euphorie, Unruhe, Depression, Psychose)",
       "Bluthochdruck, Wassereinlagerungen, Kaliummangel",
       "Nebennierenrindeninsuffizienz nach dem Absetzen, Wachstumshemmung bei Kindern",
-      "Dünne Haut, Akne, verzögerte Wundheilung; grauer und grüner Star bei längerer Anwendung"
+      "Dünne Haut, Akne, verzögerte Wundheilung; grauer und grüner Star bei längerer Anwendung, verschwommenes Sehen (z. B. Chorioretinopathie)"
     ]
   },
   "schwangerschaft": "Nur nach ärztlicher Abwägung. Der Wirkstoff wird in der Plazenta zu einem grossen Teil abgebaut; bei längerer Behandlung sind dennoch Wachstumsverzögerung und eine Unterfunktion der Nebennieren beim Neugeborenen möglich.",

@@ -1,54 +1,232 @@
 {
   "id": "solifenacin",
   "name": "Solifenacin",
-  "synonyme": ["Solifenacinsuccinat", "Solifenacin succinate"],
-  "atc": ["G04BD08"],
+  "synonyme": [
+    "Solifenacinsuccinat",
+    "Solifenacin succinate"
+  ],
+  "atc": [
+    "G04BD08"
+  ],
   "klasse": "Urologisches Spasmolytikum (selektiver M3-Muskarinrezeptor-Antagonist)",
   "kurz": "Blasenmittel gegen überaktive Blase mit starkem Harndrang, häufigem Wasserlassen und Dranginkontinenz; einmal täglich.",
-  "gruppen": ["anticholinerg", "qt-verlaengernd"],
-  "handelsnamen": ["Vesicare", "Solifenacin Mepha", "Solifenacin Sandoz"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "anticholinerg",
+    "qt-verlaengernd",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Vesicare",
+    "Solifenacin Mepha",
+    "Solifenacin Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Symptomatische Behandlung von Dranginkontinenz, häufigem Wasserlassen und starkem Harndrang bei überaktiver Blase", "ids": ["reizblase"] }
+    {
+      "text": "Symptomatische Behandlung von Dranginkontinenz, häufigem Wasserlassen und starkem Harndrang bei überaktiver Blase",
+      "ids": [
+        "reizblase"
+      ]
+    }
   ],
   "wirkmechanismus": "Beruhigt den überaktiven Blasenmuskel, sodass die Blase mehr Urin speichern kann. Solifenacin ist ein kompetitiver, bevorzugt am M3-Subtyp wirkender Muskarinrezeptor-Antagonist; M3-Rezeptoren vermitteln die Kontraktion des Blasenmuskels (Detrusor). Der Wirkstoff hat eine lange Halbwertszeit (etwa 45–68 Stunden) und wird hauptsächlich über CYP3A4 in der Leber abgebaut.",
   "kontraindikationen": [
-    { "text": "Harnverhalt", "ids": ["harnverhalt"] },
-    { "text": "Schwere Magen-Darm-Erkrankungen einschliesslich toxischem Megakolon", "ids": ["colitis-ulcerosa", "darmverschluss"] },
-    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] },
-    { "text": "Engwinkelglaukom oder Risiko dafür", "ids": ["engwinkelglaukom"] },
-    { "text": "Hämodialyse-Patienten", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
-    { "text": "Schwere Niereninsuffizienz oder mässige Leberinsuffizienz bei gleichzeitiger Einnahme starker CYP3A4-Hemmer", "ids": ["niereninsuffizienz", "leberinsuffizienz"] }
+    {
+      "text": "Harnverhalt",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Schwere Magen-Darm-Erkrankungen einschliesslich toxischem Megakolon",
+      "ids": [
+        "colitis-ulcerosa",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom oder Risiko dafür",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Hämodialyse-Patienten",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz oder mässige Leberinsuffizienz bei gleichzeitiger Einnahme starker CYP3A4-Hemmer",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Deutliche Abflussbehinderung der Blase (z. B. vergrösserte Prostata) mit Risiko eines Harnverhalts", "ids": ["prostatahyperplasie", "harnverhalt"] },
-    { "text": "Verengungen im Magen-Darm-Trakt, verminderte Darmbewegung, Verstopfung", "ids": ["darmverschluss", "verstopfung"] },
-    { "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance ≤ 30 ml/min) oder mässige Leberinsuffizienz: höchstens 5 mg täglich", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "QT-Verlängerung oder Risikofaktoren (z. B. tiefes Kalium): Torsade de pointes wurde beobachtet", "ids": ["qt-verlaengerung", "hypokaliaemie", "herzrhythmusstoerung"] },
-    { "text": "Zwerchfellbruch oder Reflux", "ids": ["sodbrennen"] },
-    { "text": "Autonome Neuropathie", "ids": [] },
-    { "text": "Angioödem oder Anaphylaxie unter Solifenacin: sofort absetzen", "ids": ["angiooedem", "anaphylaxie"] }
+    {
+      "text": "Deutliche Abflussbehinderung der Blase (z. B. vergrösserte Prostata) mit Risiko eines Harnverhalts",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Verengungen im Magen-Darm-Trakt, verminderte Darmbewegung, Verstopfung",
+      "ids": [
+        "darmverschluss",
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance ≤ 30 ml/min) oder mässige Leberinsuffizienz: höchstens 5 mg täglich",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung oder Risikofaktoren (z. B. tiefes Kalium): Torsade de pointes wurde beobachtet",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Zwerchfellbruch oder Reflux",
+      "ids": [
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Autonome Neuropathie",
+      "ids": []
+    },
+    {
+      "text": "Angioödem oder Anaphylaxie unter Solifenacin: sofort absetzen",
+      "ids": [
+        "angiooedem",
+        "anaphylaxie"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir) bei Patienten mit schwerer Niereninsuffizienz oder mässiger Leberinsuffizienz", "ref": ["gruppe:starke-cyp3a4-hemmer"], "grund": "Der Abbau von Solifenacin wird blockiert und die Ausscheidung ist zusätzlich vermindert – stark erhöhte Spiegel mit Gefahr schwerer anticholinerger Wirkungen und QT-Verlängerung." }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir) bei Patienten mit schwerer Niereninsuffizienz oder mässiger Leberinsuffizienz",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Der Abbau von Solifenacin wird blockiert und die Ausscheidung ist zusätzlich vermindert – stark erhöhte Spiegel mit Gefahr schwerer anticholinerger Wirkungen und QT-Verlängerung."
+    }
   ],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Solifenacin-Spiegel steigt auf das Zwei- bis Dreifache – höchstens 5 mg täglich.", "schwere": "schwer" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Solifenacin-Spiegel sinkt – Wirkung kann ungenügend sein.", "schwere": "mittel" },
-    { "text": "Andere anticholinerg wirkende Mittel", "ref": ["gruppe:anticholinerg"], "effekt": "Verstärkte Wirkung und Nebenwirkungen; bei Wechsel von einem anderen Blasenmittel etwa eine Woche Pause einhalten.", "schwere": "mittel" },
-    { "text": "QT-verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht bei Risikopatienten.", "schwere": "mittel" },
-    { "text": "Bisphosphonate zum Einnehmen", "ref": ["gruppe:bisphosphonate"], "effekt": "Speiseröhrenentzündung kann begünstigt werden.", "schwere": "leicht" },
-    { "text": "Prokinetika (Metoclopramid)", "ref": ["metoclopramid"], "effekt": "Gegenläufige Wirkung auf die Magen-Darm-Bewegung.", "schwere": "leicht" }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Solifenacin-Spiegel steigt auf das Zwei- bis Dreifache – höchstens 5 mg täglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Solifenacin-Spiegel sinkt – Wirkung kann ungenügend sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Wirkung und Nebenwirkungen; bei Wechsel von einem anderen Blasenmittel etwa eine Woche Pause einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht bei Risikopatienten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bisphosphonate zum Einnehmen",
+      "ref": [
+        "gruppe:bisphosphonate"
+      ],
+      "effekt": "Speiseröhrenentzündung kann begünstigt werden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Prokinetika (Metoclopramid)",
+      "ref": [
+        "metoclopramid"
+      ],
+      "effekt": "Gegenläufige Wirkung auf die Magen-Darm-Bewegung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Mundtrockenheit"],
-    "haeufig": ["Verschwommenes Sehen", "Verstopfung", "Übelkeit, Verdauungsbeschwerden, Bauchschmerzen"],
-    "gelegentlich": ["Harnwegsinfektion, Blasenentzündung", "Schläfrigkeit, Geschmacksstörung", "Trockene Augen, trockene Nase, trockener Hals", "Reflux", "Trockene Haut", "Erschwertes Wasserlassen", "Müdigkeit, Wassereinlagerungen in den Beinen"],
-    "selten": ["Schwindel, Kopfschmerzen", "Darmverschluss durch Stuhl (Koprostase), Erbrechen", "Juckreiz, Hautausschlag", "Harnverhalt"],
-    "sehrSelten": ["Halluzinationen, Verwirrtheit", "Erythema multiforme, Nesselsucht, Angioödem"],
-    "unbekannt": ["Anaphylaktische Reaktion", "QT-Verlängerung, Torsade de pointes, Vorhofflimmern, Herzrasen", "Delir", "Glaukom", "Darmlähmung (Ileus)", "Leberfunktionsstörungen", "Hyperkaliämie", "Nierenfunktionsstörung", "Muskelschwäche"]
+    "sehrHaeufig": [
+      "Mundtrockenheit"
+    ],
+    "haeufig": [
+      "Verschwommenes Sehen",
+      "Verstopfung",
+      "Übelkeit, Verdauungsbeschwerden, Bauchschmerzen"
+    ],
+    "gelegentlich": [
+      "Harnwegsinfektion, Blasenentzündung",
+      "Schläfrigkeit, Geschmacksstörung",
+      "Trockene Augen, trockene Nase, trockener Hals",
+      "Reflux",
+      "Trockene Haut",
+      "Erschwertes Wasserlassen",
+      "Müdigkeit, Wassereinlagerungen in den Beinen"
+    ],
+    "selten": [
+      "Schwindel, Kopfschmerzen",
+      "Darmverschluss durch Stuhl (Koprostase), Erbrechen",
+      "Juckreiz, Hautausschlag",
+      "Harnverhalt"
+    ],
+    "sehrSelten": [
+      "Halluzinationen, Verwirrtheit",
+      "Erythema multiforme, Nesselsucht, Angioödem"
+    ],
+    "unbekannt": [
+      "Anaphylaktische Reaktion",
+      "QT-Verlängerung, Torsade de pointes, Vorhofflimmern, Herzrasen",
+      "Delir",
+      "Glaukom",
+      "Darmlähmung (Ileus)",
+      "Leberfunktionsstörungen",
+      "Hyperkaliämie",
+      "Nierenfunktionsstörung",
+      "Muskelschwäche"
+    ]
   },
   "schwangerschaft": "Nicht empfohlen – es liegen keine ausreichenden Erfahrungen vor; nur bei eindeutiger Notwendigkeit.",
   "stillzeit": "Vermeiden – im Tierversuch ging Solifenacin in die Milch über.",

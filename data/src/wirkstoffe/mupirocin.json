@@ -1,32 +1,81 @@
 {
   "id": "mupirocin",
   "name": "Mupirocin",
-  "synonyme": ["Mupirocin-Calcium", "Pseudomonsäure A", "Pseudomonic acid A"],
+  "synonyme": [
+    "Mupirocin-Calcium",
+    "Pseudomonsäure A",
+    "Pseudomonic acid A"
+  ],
   "kombinationAus": [],
-  "atc": ["D06AX09", "R01AX06"],
+  "atc": [
+    "D06AX09",
+    "R01AX06"
+  ],
   "klasse": "Antibiotikum zur äusserlichen Anwendung (Hemmer der Isoleucyl-tRNA-Synthetase)",
   "kurz": "Antibiotische Salbe gegen bakterielle Hautinfektionen wie Impetigo; als Nasensalbe gegen Staphylokokken (auch MRSA) in der Nase.",
   "gruppen": [],
-  "handelsnamen": ["Bactroban"],
-  "abgabe": ["B"],
-  "darreichung": ["Salbe", "Nasensalbe"],
+  "handelsnamen": [
+    "Bactroban"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Salbe",
+    "Nasensalbe"
+  ],
   "indikationen": [
-    { "text": "Bakterielle Hautinfektionen durch Staphylokokken und Streptokokken, z. B. Impetigo (Borkenflechte), Follikulitis, Furunkel (Salbe)", "ids": ["hautinfektion"] },
-    { "text": "Beseitigung von Staphylokokken einschliesslich MRSA aus der Nase, z. B. vor Operationen oder bei Spitalpersonal (Nasensalbe)", "ids": ["bakterielle-infektion", "operation"] }
+    {
+      "text": "Bakterielle Hautinfektionen durch Staphylokokken und Streptokokken, z. B. Impetigo (Borkenflechte), Follikulitis, Furunkel (Salbe)",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Beseitigung von Staphylokokken einschliesslich MRSA aus der Nase, z. B. vor Operationen oder bei Spitalpersonal (Nasensalbe)",
+      "ids": [
+        "bakterielle-infektion",
+        "operation"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt das Wachstum von Bakterien und tötet sie in höherer Konzentration ab. Mupirocin blockiert das bakterielle Enzym Isoleucyl-tRNA-Synthetase und unterbricht so die Eiweissherstellung der Bakterien. Es wirkt vor allem gegen Staphylokokken, auch Methicillin-resistente (MRSA), und Streptokokken. Wegen seines besonderen Wirkmechanismus gibt es keine Kreuzresistenz mit anderen Antibiotika.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Behandlung auf höchstens 10 Tage begrenzen: Gefahr von Resistenzen und Überwucherung durch unempfindliche Keime oder Pilze", "ids": ["hautinfektion", "hautpilz"] },
-    { "text": "Eingeschränkte Nierenfunktion: Die Salbengrundlage Macrogol (Polyethylenglykol) kann aus offenen Wunden oder grossen Hautschäden (z. B. Verbrennungen) aufgenommen werden und die Niere belasten", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Überempfindlichkeit oder starke örtliche Reizung: Behandlung abbrechen", "ids": ["allergie"] }
+    {
+      "text": "Behandlung auf höchstens 10 Tage begrenzen: Gefahr von Resistenzen und Überwucherung durch unempfindliche Keime oder Pilze",
+      "ids": [
+        "hautinfektion",
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Die Salbengrundlage Macrogol (Polyethylenglykol) kann aus offenen Wunden oder grossen Hautschäden (z. B. Verbrennungen) aufgenommen werden und die Niere belasten",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Überempfindlichkeit oder starke örtliche Reizung: Behandlung abbrechen",
+      "ids": [
+        "allergie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [],
   "nebenwirkungen": {
-    "haeufig": ["Brennen an der Auftragsstelle"],
-    "gelegentlich": ["Juckreiz, Rötung, Stechen und Trockenheit an der Auftragsstelle", "Allergische Hautreaktionen (Kontaktdermatitis)", "Reizungen der Nasenschleimhaut (Nasensalbe)"],
-    "sehrSelten": ["Allgemeine allergische Reaktionen wie Anaphylaxie, Ausschlag am ganzen Körper, Nesselsucht, Angioödem"]
+    "haeufig": [
+      "Brennen an der Auftragsstelle"
+    ],
+    "gelegentlich": [
+      "Juckreiz, Rötung, Stechen und Trockenheit an der Auftragsstelle",
+      "Allergische Hautreaktionen (Kontaktdermatitis)",
+      "Reizungen der Nasenschleimhaut (Nasensalbe)"
+    ],
+    "sehrSelten": [
+      "Allgemeine allergische Reaktionen wie Anaphylaxie, Ausschlag am ganzen Körper, Nesselsucht, Angioödem"
+    ]
   },
   "schwangerschaft": "Nur nach ärztlicher Abwägung: Erfahrungen sind begrenzt, es gelangt aber kaum Wirkstoff in den Körper.",
   "stillzeit": "Anwendung möglich; wird eine wunde Brustwarze behandelt, die Stelle vor dem Stillen gründlich abwaschen.",

@@ -1,0 +1,241 @@
+{
+  "id": "maprotilin",
+  "name": "Maprotilin",
+  "synonyme": [
+    "Maprotiline",
+    "Maprotilinhydrochlorid"
+  ],
+  "atc": [
+    "N06AA21"
+  ],
+  "klasse": "Tetrazyklisches Antidepressivum (vorwiegend Noradrenalin-Wiederaufnahmehemmer)",
+  "kurz": "Antidepressivum mit vierringiger Struktur, eng verwandt mit den Trizyklika; wirkt stimmungsaufhellend und dämpfend.",
+  "gruppen": [
+    "trizyklische-antidepressiva",
+    "anticholinerg",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Ludiomil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Stimmung, indem es die Konzentration des Botenstoffs Noradrenalin im Gehirn erhöht. Maprotilin hemmt stark und recht selektiv die Wiederaufnahme von Noradrenalin, die von Serotonin kaum. Zusätzlich blockiert es deutlich Histamin-H1-Rezeptoren (dämpfend) und schwächer Muskarin- und Alpha-1-Rezeptoren. Die Halbwertszeit ist mit rund zwei Tagen lang; der Abbau erfolgt hauptsächlich über CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Epilepsie oder bekannte erniedrigte Krampfschwelle (z. B. nach Hirnverletzung, im Alkohol- oder Medikamentenentzug)",
+      "ids": [
+        "epilepsie",
+        "schaedel-hirn-trauma",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Frischer Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Reizleitungsstörungen des Herzens",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Harnverhalt, z. B. bei Prostatavergrösserung",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen und QT-Verlängerung",
+      "ids": [
+        "koronare-herzkrankheit",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich) oder Schizophrenie",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion oder Behandlung mit Schilddrüsenhormonen",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Chronische Verstopfung (Gefahr eines Darmverschlusses)",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Verwirrtheit, Blutdruckabfall beim Aufstehen und Sturzgefahr",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer – auch innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms und von Blutdruckkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere Mittel, die die Krampfschwelle senken (z. B. Bupropion, Tramadol, Antipsychotika)",
+      "ref": [
+        "gruppe:krampfschwellensenkend",
+        "bupropion",
+        "tramadol",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Deutlich erhöhte Gefahr von Krampfanfällen – möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Maprotilin-Spiegel steigt deutlich – Dosis anpassen, auf Nebenwirkungen und Krampfanfälle achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel und Antiarrhythmika der Klasse I",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Erhöhte Gefahr gefährlicher Herzrhythmusstörungen – möglichst vermeiden, EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sympathomimetika, z. B. Adrenalin oder Noradrenalin (auch in Lokalanästhetika)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Starker Blutdruckanstieg und Herzrhythmusstörungen möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Reaktionsverlangsamung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin und andere zentral wirkende Blutdrucksenker",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Blutdrucksenkende Wirkung abgeschwächt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Maprotilin-Spiegel sinkt, Wirkung kann abgeschwächt sein.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Mundtrockenheit",
+      "Müdigkeit, Schläfrigkeit",
+      "Schwindel, Kopfschmerzen",
+      "Obstipation (Verstopfung)",
+      "Verschwommenes Sehen (Akkommodationsstörungen)",
+      "Zittern (Tremor), Muskelzuckungen",
+      "Hautausschlag",
+      "Gewichtszunahme"
+    ],
+    "unbekannt": [
+      "Krampfanfälle",
+      "Blutdruckabfall beim Aufstehen, Herzrasen",
+      "Herzrhythmus- und Reizleitungsstörungen, QT-Verlängerung",
+      "Harnverhalt",
+      "Verwirrtheit, Unruhe, Umschlagen in eine Manie",
+      "Blutbildveränderungen bis Agranulozytose",
+      "Erhöhte Leberwerte, Hepatitis",
+      "Suizidgedanken und suizidales Verhalten"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme bis zur Geburt sind beim Neugeborenen Anpassungs- und Entzugsstörungen (Atemprobleme, Zittern, Trinkschwäche, Krampfanfälle) möglich.",
+  "stillzeit": "Geht in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung, sonst abstillen.",
+  "hinweise": [
+    "Bei Krampfanfällen sofort ärztliche Hilfe holen; Dosis nie selbst erhöhen.",
+    "Die stimmungsaufhellende Wirkung setzt erst nach 2–3 Wochen ein; nicht abrupt absetzen.",
+    "Vorsicht beim Autofahren; keinen Alkohol trinken.",
+    "Eine Überdosis ist lebensgefährlich – für Kinder unzugänglich aufbewahren."
+  ],
+  "stand": "2026-10"
+}

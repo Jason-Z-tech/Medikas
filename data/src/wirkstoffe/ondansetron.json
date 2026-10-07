@@ -1,42 +1,167 @@
 {
   "id": "ondansetron",
   "name": "Ondansetron",
-  "synonyme": ["Ondansetronhydrochlorid", "Ondansetron hydrochloride"],
-  "atc": ["A04AA01"],
+  "synonyme": [
+    "Ondansetronhydrochlorid",
+    "Ondansetron hydrochloride"
+  ],
+  "atc": [
+    "A04AA01"
+  ],
   "klasse": "Antiemetikum (Serotonin-5-HT3-Rezeptorantagonist, «Setron»)",
   "kurz": "Mittel gegen Übelkeit und Erbrechen bei Chemo- und Strahlentherapie sowie nach Operationen.",
-  "gruppen": ["antiemetika-5ht3", "qt-verlaengernd"],
-  "handelsnamen": ["Zofran", "Ondansetron Sandoz"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten", "Schmelztabletten", "Lösung zum Einnehmen", "Injektionslösung"],
+  "gruppen": [
+    "antiemetika-5ht3",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Zofran",
+    "Ondansetron Sandoz"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten",
+    "Lösung zum Einnehmen",
+    "Injektionslösung"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung und Behandlung von Übelkeit und Erbrechen durch Chemotherapie oder Strahlentherapie (Erwachsene und Kinder ab 6 Monaten)", "ids": ["uebelkeit", "krebs"] },
-    { "text": "Vorbeugung und Behandlung von Übelkeit und Erbrechen nach Operationen (Erwachsene und Kinder ab 1 Monat)", "ids": ["uebelkeit", "operation"] }
+    {
+      "text": "Vorbeugung und Behandlung von Übelkeit und Erbrechen durch Chemotherapie oder Strahlentherapie (Erwachsene und Kinder ab 6 Monaten)",
+      "ids": [
+        "uebelkeit",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Vorbeugung und Behandlung von Übelkeit und Erbrechen nach Operationen (Erwachsene und Kinder ab 1 Monat)",
+      "ids": [
+        "uebelkeit",
+        "operation"
+      ]
+    }
   ],
   "wirkmechanismus": "Unterdrückt den Brechreiz, der durch Chemotherapie, Bestrahlung oder Narkose ausgelöst wird. Diese Behandlungen setzen im Dünndarm Serotonin frei, das über 5-HT3-Rezeptoren an Nervenendigungen des Vagusnervs und in der Brechreizzone des Hirnstamms Erbrechen auslöst. Ondansetron blockiert diese 5-HT3-Rezeptoren selektiv, peripher und zentral. Es wird in der Leber über mehrere Enzyme (vor allem CYP3A4, daneben CYP1A2 und CYP2D6) abgebaut.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Angeborenes Long-QT-Syndrom (Anwendung vermeiden) oder andere Risiken für eine QT-Verlängerung, z. B. Herzschwäche, langsamer Puls", "ids": ["qt-verlaengerung", "herzinsuffizienz", "bradykardie", "herzrhythmusstoerung"] },
-    { "text": "Kalium- oder Magnesiummangel vor Behandlungsbeginn ausgleichen", "ids": ["hypokaliaemie", "magnesiummangel"] },
-    { "text": "Mässige bis schwere Einschränkung der Leberfunktion: höchstens 8 mg pro Tag", "ids": ["leberinsuffizienz"] },
-    { "text": "Zeichen eines Darmverschlusses: Ondansetron kann eine nachlassende Darmtätigkeit verschleiern", "ids": ["darmverschluss"] },
-    { "text": "Mandeloperation bei Kindern: versteckte Nachblutungen können übersehen werden", "ids": ["operation", "kinder"] },
-    { "text": "Überempfindlichkeit gegen andere 5-HT3-Antagonisten (Kreuzreaktion möglich)", "ids": ["allergie"] },
-    { "text": "Frauen im gebärfähigen Alter und erstes Schwangerschaftsdrittel (siehe Schwangerschaft)", "ids": ["frauen-gebaerfaehig", "schwangerschaft"] }
+    {
+      "text": "Angeborenes Long-QT-Syndrom (Anwendung vermeiden) oder andere Risiken für eine QT-Verlängerung, z. B. Herzschwäche, langsamer Puls",
+      "ids": [
+        "qt-verlaengerung",
+        "herzinsuffizienz",
+        "bradykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Kalium- oder Magnesiummangel vor Behandlungsbeginn ausgleichen",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Mässige bis schwere Einschränkung der Leberfunktion: höchstens 8 mg pro Tag",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Zeichen eines Darmverschlusses: Ondansetron kann eine nachlassende Darmtätigkeit verschleiern",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Mandeloperation: versteckte Nachblutungen können übersehen werden",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere 5-HT3-Antagonisten (Kreuzreaktion möglich)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und erstes Schwangerschaftsdrittel (siehe Schwangerschaft)",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "schwangerschaft"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Apomorphin", "ref": ["apomorphin"], "grund": "Zusammen mit Ondansetron wurden starker Blutdruckabfall und Bewusstlosigkeit beobachtet." }
+    {
+      "text": "Apomorphin",
+      "ref": [
+        "apomorphin"
+      ],
+      "grund": "Zusammen mit Ondansetron wurden starker Blutdruckabfall und Bewusstlosigkeit beobachtet."
+    }
   ],
   "interaktionen": [
-    { "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Citalopram, Escitalopram, Haloperidol, Methadon, Domperidon)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Additive QT-Verlängerung, Gefahr von Herzrhythmusstörungen – Vorsicht, EKG-Kontrolle erwägen.", "schwere": "mittel" },
-    { "text": "Kardiotoxische Krebsmittel (z. B. Anthrazykline wie Doxorubicin, Trastuzumab)", "ref": ["doxorubicin", "epirubicin", "trastuzumab"], "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.", "schwere": "mittel" },
-    { "text": "Serotonerge Mittel (z. B. SSRI, SNRI)", "ref": ["gruppe:serotonerg", "gruppe:ssri", "gruppe:snri"], "effekt": "Risiko eines Serotoninsyndroms (Unruhe, Zittern, Fieber, Muskelzuckungen) – auf Symptome achten.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Mittel (z. B. Diuretika)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Kaliummangel erhöht das Risiko für QT-bedingte Herzrhythmusstörungen – Elektrolyte kontrollieren.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Induktoren (Rifampicin, Carbamazepin, Phenytoin)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Deutlich niedrigere Ondansetron-Spiegel – Wirkung kann ungenügend sein.", "schwere": "mittel" },
-    { "text": "Tramadol", "ref": ["tramadol"], "effekt": "Ondansetron kann die schmerzlindernde Wirkung von Tramadol abschwächen.", "schwere": "leicht" }
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Citalopram, Escitalopram, Haloperidol, Methadon, Domperidon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung, Gefahr von Herzrhythmusstörungen – Vorsicht, EKG-Kontrolle erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kardiotoxische Krebsmittel (z. B. Anthrazykline wie Doxorubicin, Trastuzumab)",
+      "ref": [
+        "gruppe:kardiotoxisch",
+        "doxorubicin",
+        "epirubicin",
+        "trastuzumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Risiko eines Serotoninsyndroms (Unruhe, Zittern, Fieber, Muskelzuckungen) – auf Symptome achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko für QT-bedingte Herzrhythmusstörungen – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Deutlich niedrigere Ondansetron-Spiegel – Wirkung kann ungenügend sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tramadol",
+      "ref": [
+        "tramadol"
+      ],
+      "effekt": "Ondansetron kann die schmerzlindernde Wirkung von Tramadol abschwächen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen"],
+    "sehrHaeufig": [
+      "Kopfschmerzen"
+    ],
     "haeufig": [
       "Wärmegefühl, Hautrötung (Flush)",
       "Obstipation (Verstopfung)",

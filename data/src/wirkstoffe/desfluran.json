@@ -1,0 +1,202 @@
+{
+  "id": "desfluran",
+  "name": "Desfluran",
+  "synonyme": [
+    "Desflurane"
+  ],
+  "atc": [
+    "N01AB07"
+  ],
+  "klasse": "Halogeniertes Inhalationsanästhetikum",
+  "kurz": "Narkosegas für die Vollnarkose mit besonders raschem Ein- und Ausschlafen; wird über die Atemluft verabreicht.",
+  "gruppen": [
+    "zns-daempfend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Suprane"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Flüssigkeit zur Herstellung eines Dampfs zur Inhalation"
+  ],
+  "indikationen": [
+    {
+      "text": "Einleitung und Aufrechterhaltung einer Allgemeinanästhesie (Vollnarkose) bei Erwachsenen",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Aufrechterhaltung einer Allgemeinanästhesie bei Säuglingen und Kindern (nicht zur Einleitung)",
+      "ids": [
+        "anaesthesie",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schaltet Bewusstsein und Schmerzwahrnehmung während einer Operation aus. Desfluran verstärkt hemmende Signale an GABA-A- und Glycinrezeptoren und dämpft erregende Signalwege im Zentralnervensystem. Wegen seiner sehr geringen Löslichkeit im Blut flutet es besonders schnell an und ab, sodass Narkosetiefe und Aufwachen gut steuerbar sind. Es wird praktisch unverändert abgeatmet.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannte oder vermutete Veranlagung zur malignen Hyperthermie",
+      "ids": [
+        "maligne-hyperthermie"
+      ]
+    },
+    {
+      "text": "Leberentzündung oder unklare Leberfunktionsstörung (Gelbsucht mit Fieber oder Eosinophilie) nach früherer Narkose mit halogenierten Narkosegasen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Als alleiniges Mittel zur Narkoseeinleitung bei koronarer Herzkrankheit oder wenn ein Anstieg von Puls und Blutdruck vermieden werden muss",
+      "ids": [
+        "koronare-herzkrankheit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Kinder: zur Narkoseeinleitung über die Maske nicht empfohlen (häufig Husten, Atemanhalten, Laryngospasmus); Vorsicht bei Asthma oder kürzlichem Atemwegsinfekt",
+      "ids": [
+        "kinder",
+        "asthma",
+        "atemwegsinfekt"
+      ]
+    },
+    {
+      "text": "Rasche Konzentrationssteigerung kann Puls und Blutdruck ansteigen lassen – Vorsicht bei Herzkrankheiten",
+      "ids": [
+        "koronare-herzkrankheit",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck oder Raumforderung im Gehirn",
+      "ids": [
+        "hirnoedem",
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Neuromuskuläre Erkrankungen (v. a. Muskeldystrophie Duchenne): Gefahr einer Hyperkaliämie mit Herzrhythmusstörungen, besonders bei Kindern",
+      "ids": [
+        "neuromuskulaere-erkrankung",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: verstärkte Wirkung von Muskelrelaxanzien",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Geburtshilfe: entspannt die Gebärmutter, erhöhte Blutungsgefahr",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Ausgetrockneter CO2-Absorber im Narkosegerät: Bildung von Kohlenmonoxid möglich",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide, Benzodiazepine und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung von Atmung und Kreislauf; geringerer Narkosegasbedarf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nicht-depolarisierende Muskelrelaxanzien (z. B. Rocuronium, Cisatracurium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Muskelentspannung deutlich verstärkt – Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Suxamethonium",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Kann zusammen mit Narkosegasen eine maligne Hyperthermie auslösen; bei Muskelerkrankungen Gefahr einer Hyperkaliämie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adrenalin und andere Sympathomimetika",
+      "ref": [
+        "adrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Herzrhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker und Calciumantagonisten",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung und Herzdämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Distickstoffmonoxid (Lachgas)",
+      "ref": [
+        "distickstoffmonoxid"
+      ],
+      "effekt": "Senkt den Desfluranbedarf.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Erbrechen"
+    ],
+    "haeufig": [
+      "Husten, Atemanhalten, Apnoe (Atemstillstand)",
+      "Laryngospasmus (Stimmritzenkrampf), vermehrter Speichelfluss",
+      "Pharyngitis (Rachenentzündung)",
+      "Kopfschmerzen",
+      "Konjunktivitis (Bindehautentzündung)",
+      "Bradykardie oder Tachykardie, Knotenrhythmus (Herzrhythmusstörung)",
+      "Bluthochdruck"
+    ],
+    "gelegentlich": [
+      "Unruhe (Agitation), Schwindel",
+      "Herzinfarkt, Durchblutungsstörung des Herzmuskels",
+      "Hypoxie (Sauerstoffmangel)",
+      "Muskelschmerzen",
+      "Gefässerweiterung"
+    ],
+    "unbekannt": [
+      "Maligne Hyperthermie",
+      "Hyperkaliämie mit Herzrhythmusstörungen",
+      "Leberentzündung bis Leberversagen",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Krampfanfälle",
+      "Herzstillstand"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit. In der Geburtshilfe kann Desfluran die Gebärmutter entspannen und den Blutverlust erhöhen.",
+  "stillzeit": "Es ist nicht bekannt, ob Desfluran in die Muttermilch übergeht; Anwendung in der Stillzeit mit Vorsicht.",
+  "hinweise": [
+    "Wird nur durch Anästhesiefachpersonen mit Narkosegerät und Überwachung verabreicht.",
+    "Vor der Narkose angeben, wenn bei Ihnen oder Blutsverwandten eine maligne Hyperthermie oder Probleme bei früheren Narkosen aufgetreten sind.",
+    "Nach einer Narkose mindestens 24 Stunden kein Fahrzeug lenken, keine Maschinen bedienen und keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

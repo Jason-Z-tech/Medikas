@@ -1,65 +1,344 @@
 {
   "id": "ciprofloxacin",
   "name": "Ciprofloxacin",
-  "synonyme": ["Ciprofloxacinum", "Ciprofloxacin-Hydrochlorid", "Cipro"],
+  "synonyme": [
+    "Ciprofloxacinum",
+    "Ciprofloxacin-Hydrochlorid",
+    "Cipro"
+  ],
   "kombinationAus": [],
-  "atc": ["J01MA02", "S01AE03", "S02AA15"],
+  "atc": [
+    "J01MA02",
+    "S01AE03",
+    "S02AA15"
+  ],
   "klasse": "Fluorchinolon-Antibiotikum (Gyrasehemmer)",
   "kurz": "Breit wirksames Antibiotikum (Fluorchinolon) für ausgewählte schwere Infektionen; auch als Augen- und Ohrentropfen. Selten bleibende Sehnen- und Nervenschäden.",
-  "gruppen": ["fluorchinolone", "cyp1a2-hemmer", "qt-verlaengernd", "krampfschwellensenkend", "photosensibilisierend", "hypoglykaemie-ausloesend"],
-  "handelsnamen": ["Ciproxin", "Ciprofloxacin Mepha", "Ciprofloxacin Sandoz", "Ciloxan", "Ciproxin HC (Kombi)", "Panotile Cipro"],
-  "abgabe": ["A", "B"],
-  "darreichung": ["Filmtabletten", "Suspension zum Einnehmen", "Infusionslösung", "Augentropfen", "Ohrentropfen"],
+  "gruppen": [
+    "fluorchinolone",
+    "cyp1a2-hemmer",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "photosensibilisierend",
+    "hypoglykaemie-ausloesend",
+    "tendinopathie-ausloesend",
+    "hyperglykaemie-ausloesend",
+    "neuropathie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Ciproxin",
+    "Ciprofloxacin Mepha",
+    "Ciprofloxacin Sandoz",
+    "Ciloxan",
+    "Ciproxin HC (Kombi)",
+    "Panotile Cipro"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Suspension zum Einnehmen",
+    "Infusionslösung",
+    "Augentropfen",
+    "Ohrentropfen"
+  ],
   "indikationen": [
-    { "text": "Komplizierte Harnwegsinfektionen, Nierenbeckenentzündung und bakterielle Prostataentzündung; unkomplizierte Blasenentzündung nur, wenn andere Antibiotika ungeeignet sind", "ids": ["harnwegsinfekt"] },
-    { "text": "Atemwegsinfektionen durch gramnegative Erreger, z. B. bei COPD, Bronchiektasen oder zystischer Fibrose, Lungenentzündung", "ids": ["copd", "zystische-fibrose", "lungenentzuendung"] },
-    { "text": "Chronische eitrige Mittelohrentzündung, bösartige Gehörgangsentzündung (Otitis externa maligna) sowie Ohrentropfen bei Gehörgangsentzündung", "ids": ["ohrenentzuendung"] },
-    { "text": "Bakterielle Darminfektionen, z. B. Reisedurchfall, sowie Infektionen im Bauchraum", "ids": ["durchfall", "bakterielle-infektion"] },
-    { "text": "Gonorrhö (Tripper), Nebenhodenentzündung und Infektionen im Becken", "ids": ["geschlechtskrankheit"] },
-    { "text": "Haut-, Weichteil-, Knochen- und Gelenkinfektionen durch gramnegative Erreger", "ids": ["hautinfektion", "bakterielle-infektion"] },
-    { "text": "Infektionen bei Neutropenie, Vorbeugung von Meningokokken-Erkrankungen bei Kontaktpersonen, Milzbrand", "ids": ["neutropenie", "pneumokokken-meningokokken"] },
-    { "text": "Bakterielle Bindehaut- und Hornhautentzündung (Augentropfen)", "ids": ["augeninfektion"] }
+    {
+      "text": "Komplizierte Harnwegsinfektionen, Nierenbeckenentzündung und bakterielle Prostataentzündung; unkomplizierte Blasenentzündung nur, wenn andere Antibiotika ungeeignet sind",
+      "ids": [
+        "harnwegsinfekt",
+        "prostatitis"
+      ]
+    },
+    {
+      "text": "Atemwegsinfektionen durch gramnegative Erreger, z. B. bei COPD, Bronchiektasen oder zystischer Fibrose, Lungenentzündung",
+      "ids": [
+        "copd",
+        "zystische-fibrose",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Chronische eitrige Mittelohrentzündung, bösartige Gehörgangsentzündung (Otitis externa maligna) sowie Ohrentropfen bei Gehörgangsentzündung",
+      "ids": [
+        "ohrenentzuendung"
+      ]
+    },
+    {
+      "text": "Bakterielle Darminfektionen, z. B. Reisedurchfall, sowie Infektionen im Bauchraum",
+      "ids": [
+        "durchfall",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Gonorrhö (Tripper), Nebenhodenentzündung und Infektionen im Becken",
+      "ids": [
+        "geschlechtskrankheit"
+      ]
+    },
+    {
+      "text": "Haut-, Weichteil-, Knochen- und Gelenkinfektionen durch gramnegative Erreger",
+      "ids": [
+        "hautinfektion",
+        "bakterielle-infektion",
+        "osteomyelitis"
+      ]
+    },
+    {
+      "text": "Infektionen bei Neutropenie, Vorbeugung von Meningokokken-Erkrankungen bei Kontaktpersonen, Milzbrand",
+      "ids": [
+        "neutropenie",
+        "pneumokokken-meningokokken"
+      ]
+    },
+    {
+      "text": "Bakterielle Bindehaut- und Hornhautentzündung (Augentropfen)",
+      "ids": [
+        "augeninfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Bakterien ab, indem es das Kopieren ihrer Erbsubstanz verhindert. Ciprofloxacin hemmt die bakteriellen Topoisomerasen II (DNA-Gyrase) und IV, die zum Entwinden und Trennen der DNA nötig sind; es entstehen tödliche DNA-Brüche. Es wirkt besonders gut gegen gramnegative Erreger einschliesslich Pseudomonas aeruginosa, schwächer gegen Pneumokokken und kaum gegen Anaerobier. Ciprofloxacin hemmt zudem das Leberenzym CYP1A2.",
   "kontraindikationen": [
-    { "text": "Allergie gegen Ciprofloxacin oder andere Chinolone (Kreuzallergie)", "ids": [] }
+    {
+      "text": "Allergie gegen Ciprofloxacin oder andere Chinolone (Kreuzallergie)",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Sehnenbeschwerden nach früherer Chinolon-Therapie: nicht anwenden; höheres Risiko für Sehnenentzündung und -riss bei über 60-Jährigen, Nierenschwäche, nach Organtransplantation und mit Kortison", "ids": ["sehnenerkrankung", "aeltere-patienten", "transplantation"] },
-    { "text": "Aortenaneurysma, Risikofaktoren dafür oder Herzklappenundichtigkeit: nur nach sorgfältiger Abwägung", "ids": ["aneurysma", "herzklappenerkrankung"] },
-    { "text": "Epilepsie oder andere Erkrankungen mit erhöhter Krampfneigung", "ids": ["epilepsie"] },
-    { "text": "QT-Verlängerung, Herzrhythmusstörungen, Hypokaliämie oder Magnesiummangel", "ids": ["qt-verlaengerung", "herzrhythmusstoerung", "hypokaliaemie"] },
-    { "text": "Myasthenia gravis (Verschlechterung bis Atemlähmung möglich)", "ids": ["myasthenia-gravis"] },
-    { "text": "Periphere Neuropathie (Kribbeln, Taubheit, Schmerzen) – bei Auftreten sofort absetzen", "ids": ["nervenschmerzen"] },
-    { "text": "Depression oder Psychose: Verschlechterung bis zu Suizidgedanken möglich", "ids": ["depression", "suizidgedanken", "schizophrenie"] },
-    { "text": "Diabetes: Unter- oder Überzuckerung möglich, besonders mit Sulfonylharnstoffen oder Insulin", "ids": ["diabetes", "hypoglykaemie"] },
-    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)", "ids": ["g6pd-mangel"] },
-    { "text": "Kinder und Jugendliche: nur bei bestimmten Indikationen (Gelenkknorpelschäden möglich); Niereninsuffizienz: Dosisanpassung", "ids": ["kinder", "niereninsuffizienz"] }
+    {
+      "text": "Sehnenbeschwerden nach früherer Chinolon-Therapie: nicht anwenden; höheres Risiko für Sehnenentzündung und -riss bei über 60-Jährigen, Nierenschwäche, nach Organtransplantation und mit Kortison",
+      "ids": [
+        "sehnenerkrankung",
+        "aeltere-patienten",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Aortenaneurysma, Risikofaktoren dafür oder Herzklappenundichtigkeit: nur nach sorgfältiger Abwägung",
+      "ids": [
+        "aneurysma",
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Epilepsie oder andere Erkrankungen mit erhöhter Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung, Herzrhythmusstörungen, Hypokaliämie oder Magnesiummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Verschlechterung bis Atemlähmung möglich)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Periphere Neuropathie (Kribbeln, Taubheit, Schmerzen) – bei Auftreten sofort absetzen",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Depression oder Psychose: Verschlechterung bis zu Suizidgedanken möglich",
+      "ids": [
+        "depression",
+        "suizidgedanken",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Diabetes: Unter- oder Überzuckerung möglich, besonders mit Sulfonylharnstoffen oder Insulin",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nur bei bestimmten Indikationen (Gelenkknorpelschäden möglich); Niereninsuffizienz: Dosisanpassung",
+      "ids": [
+        "kinder",
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Tizanidin", "ref": ["tizanidin"], "grund": "Ciprofloxacin hemmt den Abbau über CYP1A2, der Tizanidin-Spiegel steigt um ein Vielfaches – starker Blutdruckabfall und ausgeprägte Schläfrigkeit." }
+    {
+      "text": "Tizanidin",
+      "ref": [
+        "tizanidin"
+      ],
+      "grund": "Ciprofloxacin hemmt den Abbau über CYP1A2, der Tizanidin-Spiegel steigt um ein Vielfaches – starker Blutdruckabfall und ausgeprägte Schläfrigkeit."
+    },
+    {
+      "text": "Agomelatin und Duloxetin (laut deren Fachinformation kontraindiziert)",
+      "ref": [
+        "agomelatin",
+        "duloxetin"
+      ],
+      "grund": "Ciprofloxacin hemmt CYP1A2 stark – die Spiegel von Agomelatin bzw. Duloxetin steigen um ein Vielfaches (Gefahr von Leberschäden, Serotonin- und Kreislaufnebenwirkungen)."
+    }
   ],
   "interaktionen": [
-    { "text": "Theophyllin", "ref": ["theophyllin"], "effekt": "Der Theophyllin-Spiegel steigt stark – Gefahr von Krampfanfällen und Herzrhythmusstörungen. Möglichst vermeiden, sonst Spiegel kontrollieren und Dosis senken.", "schwere": "schwer" },
-    { "text": "Andere über CYP1A2 abgebaute Mittel (z. B. Clozapin, Olanzapin, Duloxetin, Agomelatin, Ropinirol)", "ref": ["gruppe:cyp1a2-substrate"], "effekt": "Deutlich höhere Spiegel und mehr Nebenwirkungen – teils kontraindiziert (z. B. Agomelatin, Duloxetin); sonst Dosis anpassen und überwachen.", "schwere": "schwer" },
-    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Ausscheidung von Methotrexat vermindert – erhöhte Toxizität; Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Mehrwertige Kationen (Calcium, Magnesium, Aluminium, Eisen, Zink), Antazida, Sucralfat, Sevelamer, Lanthan sowie Milchprodukte als alleinige Mahlzeit", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida", "sevelamer", "lanthan"], "effekt": "Ciprofloxacin wird kaum noch aufgenommen – Wirkverlust. Ciprofloxacin 1–2 Stunden vor oder mindestens 4 Stunden nach diesen Mitteln einnehmen.", "schwere": "mittel" },
-    { "text": "Andere QT-verlängernde Arzneimittel (z. B. Antiarrhythmika, Makrolide, Antipsychotika, Citalopram)", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Zusätzliche QT-Verlängerung möglich – Vorsicht, bei Risikofaktoren EKG-Kontrolle.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Deutlich erhöhtes Risiko für Sehnenentzündung und Sehnenriss – Kombination möglichst vermeiden.", "schwere": "mittel" },
-    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung – INR häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Sulfonylharnstoffe (z. B. Glibenclamid) und Insulin", "ref": ["gruppe:sulfonylharnstoffe", "gruppe:insuline"], "effekt": "Schwere Unterzuckerungen möglich – Blutzucker engmaschig messen.", "schwere": "mittel" },
-    { "text": "Phenytoin", "ref": ["phenytoin"], "effekt": "Der Phenytoin-Spiegel kann steigen oder fallen – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Vorübergehender Anstieg des Kreatinins – Nierenwerte kontrollieren.", "schwere": "mittel" },
-    { "text": "NSAR in hoher Dosis", "ref": ["gruppe:nsar"], "effekt": "Erhöhtes Risiko für Krampfanfälle.", "schwere": "leicht" },
-    { "text": "Coffein (Kaffee, Energydrinks)", "ref": ["coffein"], "effekt": "Coffein wird langsamer abgebaut – Nervosität, Herzklopfen, Schlafstörungen möglich.", "schwere": "leicht" }
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Der Theophyllin-Spiegel steigt stark – Gefahr von Krampfanfällen und Herzrhythmusstörungen. Möglichst vermeiden, sonst Spiegel kontrollieren und Dosis senken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere über CYP1A2 abgebaute Mittel (z. B. Clozapin, Olanzapin, Duloxetin, Agomelatin, Ropinirol)",
+      "ref": [
+        "gruppe:cyp1a2-substrate"
+      ],
+      "effekt": "Deutlich höhere Spiegel und mehr Nebenwirkungen – Dosis anpassen und überwachen (Agomelatin und Duloxetin: kontraindiziert).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Ausscheidung von Methotrexat vermindert – erhöhte Toxizität; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mehrwertige Kationen (Calcium, Magnesium, Aluminium, Eisen, Zink), Antazida, Sucralfat, Sevelamer, Lanthan sowie Milchprodukte als alleinige Mahlzeit",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "sevelamer",
+        "lanthan"
+      ],
+      "effekt": "Ciprofloxacin wird kaum noch aufgenommen – Wirkverlust. Ciprofloxacin 1–2 Stunden vor oder mindestens 4 Stunden nach diesen Mitteln einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Arzneimittel (z. B. Antiarrhythmika, Makrolide, Antipsychotika, Citalopram)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung möglich – Vorsicht, bei Risikofaktoren EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Deutlich erhöhtes Risiko für Sehnenentzündung und Sehnenriss – Kombination möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe (z. B. Glibenclamid) und Insulin",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:insuline"
+      ],
+      "effekt": "Schwere Unterzuckerungen möglich – Blutzucker engmaschig messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Der Phenytoin-Spiegel kann steigen oder fallen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Vorübergehender Anstieg des Kreatinins – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR in hoher Dosis",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Coffein (Kaffee, Energydrinks)",
+      "ref": [
+        "coffein"
+      ],
+      "effekt": "Coffein wird langsamer abgebaut – Nervosität, Herzklopfen, Schlafstörungen möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [],
-    "haeufig": ["Übelkeit, Durchfall", "Bei Augentropfen: Augenbeschwerden, weissliche Ablagerungen auf der Hornhaut"],
-    "gelegentlich": ["Pilzinfektionen", "Kopfschmerzen, Schwindel, Schlafstörungen, Geschmacksstörungen, Unruhe", "Erbrechen, Bauchschmerzen, Verdauungsbeschwerden, Blähungen", "Erhöhte Leberwerte und Bilirubin", "Hautausschlag, Juckreiz, Nesselsucht", "Gelenkschmerzen (bei Kindern häufig)", "Eosinophilie, Appetitlosigkeit, Schwäche, Fieber"],
-    "selten": ["Antibiotika-assoziierte Kolitis (sehr selten pseudomembranös)", "Blutbildveränderungen (Leukopenie, Anämie, Thrombozytopenie)", "Verwirrtheit, Angst, Albträume, Depression bis Suizidgedanken, Halluzinationen", "Krampfanfälle, Kribbeln und Missempfindungen, Zittern", "Sehstörungen, Tinnitus, Hörverlust", "Herzrasen, Blutdruckabfall, Ohnmacht", "Unter- oder Überzuckerung", "Lichtempfindlichkeit der Haut, Muskelschmerzen, Nierenversagen, Kristallurie"],
-    "sehrSelten": ["Sehnenentzündung und Sehnenriss (vor allem Achillessehne), Muskelschwäche, Verschlechterung einer Myasthenia gravis", "Agranulozytose, hämolytische Anämie, Panzytopenie", "Anaphylaktischer Schock", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)", "Lebernekrose bis Leberversagen, Pankreatitis", "Psychotische Reaktionen, Gangstörungen, erhöhter Hirndruck"],
-    "unbekannt": ["QT-Verlängerung, ventrikuläre Herzrhythmusstörungen, Torsade de pointes", "Periphere Neuropathie (teils bleibend)", "Aortenaneurysma und -dissektion, Herzklappenundichtigkeit", "DRESS und akute generalisierte exanthematische Pustulose", "Hyponatriämie (SIADH), Manie", "Lang anhaltende, möglicherweise bleibende Nebenwirkungen an Sehnen, Muskeln, Gelenken, Nerven und Psyche"]
+    "haeufig": [
+      "Übelkeit, Durchfall",
+      "Bei Augentropfen: Augenbeschwerden, weissliche Ablagerungen auf der Hornhaut"
+    ],
+    "gelegentlich": [
+      "Pilzinfektionen",
+      "Kopfschmerzen, Schwindel, Schlafstörungen, Geschmacksstörungen, Unruhe",
+      "Erbrechen, Bauchschmerzen, Verdauungsbeschwerden, Blähungen",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Gelenkschmerzen (bei Kindern häufig)",
+      "Eosinophilie, Appetitlosigkeit, Schwäche, Fieber"
+    ],
+    "selten": [
+      "Antibiotika-assoziierte Kolitis (sehr selten pseudomembranös)",
+      "Blutbildveränderungen (Leukopenie, Anämie, Thrombozytopenie)",
+      "Verwirrtheit, Angst, Albträume, Depression bis Suizidgedanken, Halluzinationen",
+      "Krampfanfälle, Kribbeln und Missempfindungen, Zittern",
+      "Sehstörungen, Tinnitus, Hörverlust",
+      "Herzrasen, Blutdruckabfall, Ohnmacht",
+      "Unter- oder Überzuckerung",
+      "Lichtempfindlichkeit der Haut, Muskelschmerzen, Nierenversagen, Kristallurie"
+    ],
+    "sehrSelten": [
+      "Sehnenentzündung und Sehnenriss (vor allem Achillessehne), Muskelschwäche, Verschlechterung einer Myasthenia gravis",
+      "Agranulozytose, hämolytische Anämie, Panzytopenie",
+      "Anaphylaktischer Schock",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Lebernekrose bis Leberversagen, Pankreatitis",
+      "Psychotische Reaktionen, Gangstörungen, erhöhter Hirndruck"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung, ventrikuläre Herzrhythmusstörungen, Torsade de pointes",
+      "Periphere Neuropathie (teils bleibend)",
+      "Aortenaneurysma und -dissektion, Herzklappenundichtigkeit",
+      "DRESS und akute generalisierte exanthematische Pustulose",
+      "Hyponatriämie (SIADH), Manie",
+      "Lang anhaltende, möglicherweise bleibende Nebenwirkungen an Sehnen, Muskeln, Gelenken, Nerven und Psyche"
+    ]
   },
   "schwangerschaft": "Vorsichtshalber nicht anwenden, da in Tierversuchen Gelenkknorpelschäden beim Jungtier auftraten. Augen- und Ohrentropfen nur nach ärztlicher Abwägung.",
   "stillzeit": "Geht in die Muttermilch über; wegen möglicher Gelenkknorpelschäden beim Säugling während der systemischen Behandlung nicht stillen.",

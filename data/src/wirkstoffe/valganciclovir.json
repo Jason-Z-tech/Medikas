@@ -1,45 +1,196 @@
 {
   "id": "valganciclovir",
   "name": "Valganciclovir",
-  "synonyme": ["Valganciclovirhydrochlorid", "Valganciclovirum"],
-  "atc": ["J05AB14"],
+  "synonyme": [
+    "Valganciclovirhydrochlorid",
+    "Valganciclovirum"
+  ],
+  "atc": [
+    "J05AB14"
+  ],
   "klasse": "Virostatikum gegen Zytomegalievirus (Nukleosidanalogon, Prodrug von Ganciclovir)",
   "kurz": "Mittel gegen das Zytomegalievirus (CMV) zur Vorbeugung nach Organtransplantation und gegen CMV-Netzhautentzündung bei AIDS.",
-  "gruppen": ["myelosuppressiv", "teratogen"],
-  "handelsnamen": ["Valcyte", "Valganciclovir Mepha"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten", "Pulver für Lösung zum Einnehmen"],
+  "gruppen": [
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Valcyte",
+    "Valganciclovir Mepha"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Pulver für Lösung zum Einnehmen"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung einer CMV-Erkrankung bei CMV-negativen Empfängerinnen und Empfängern eines Organs von einem CMV-positiven Spender (Erwachsene und Kinder)", "ids": ["cmv-infektion", "transplantation"] },
-    { "text": "Behandlung (Einleitungs- und Erhaltungstherapie) der CMV-Retinitis (Netzhautentzündung) bei Erwachsenen mit AIDS", "ids": ["cmv-infektion", "hiv"] }
+    {
+      "text": "Vorbeugung einer CMV-Erkrankung bei CMV-negativen Empfängerinnen und Empfängern eines Organs von einem CMV-positiven Spender (Erwachsene und Kinder)",
+      "ids": [
+        "cmv-infektion",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Behandlung (Einleitungs- und Erhaltungstherapie) der CMV-Retinitis (Netzhautentzündung) bei Erwachsenen mit AIDS",
+      "ids": [
+        "cmv-infektion",
+        "hiv"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung des Zytomegalievirus in befallenen Zellen. Valganciclovir ist ein Prodrug (Valinester) von Ganciclovir, das nach der Aufnahme im Darm und in der Leber rasch umgewandelt wird; so entstehen ähnliche Spiegel wie nach einer Ganciclovir-Infusion. In CMV-infizierten Zellen wird Ganciclovir durch die virale Kinase UL97 und danach durch zelluläre Enzyme zu Ganciclovirtriphosphat aktiviert, das die virale DNA-Polymerase hemmt. Weil es auch in teilungsaktive menschliche Zellen eingreift, schädigt es Knochenmark und Keimzellen.",
   "kontraindikationen": [
-    { "text": "Überempfindlichkeit gegen Ganciclovir (Kreuzallergie)", "ids": ["allergie"] },
-    { "text": "Stillzeit", "ids": ["stillzeit"] },
-    { "text": "Ausgeprägte Blutbildveränderungen: Neutrophile unter 500/µl, Blutplättchen unter 25'000/µl oder Hämoglobin unter 8 g/dl", "ids": ["neutropenie", "thrombozytopenie", "anaemie", "knochenmarkschaedigung"] }
+    {
+      "text": "Überempfindlichkeit gegen Ganciclovir (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Blutbildveränderungen: Neutrophile unter 500/µl, Blutplättchen unter 25'000/µl oder Hämoglobin unter 8 g/dl",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie",
+        "knochenmarkschaedigung"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Vorbestehende Blutbildstörungen oder Behandlung mit anderen knochenmarkhemmenden Mitteln: schwere Leukopenie, Neutropenie, Anämie, Thrombozytopenie und aplastische Anämie möglich – Blutbild regelmässig kontrollieren", "ids": ["neutropenie", "anaemie", "thrombozytopenie", "knochenmarkschaedigung"] },
-    { "text": "Eingeschränkte Nierenfunktion: Dosis nach Kreatinin-Clearance anpassen", "ids": ["niereninsuffizienz"] },
-    { "text": "Frauen im gebärfähigen Alter: wirksame Verhütung während und mindestens 30 Tage nach der Behandlung; Männer: Kondom während und mindestens 90 Tage nach der Behandlung", "ids": ["frauen-gebaerfaehig", "schwangerschaft"] },
-    { "text": "Krebserzeugend und erbgutschädigend im Tierversuch; Fruchtbarkeit kann (auch bleibend) vermindert werden", "ids": ["unfruchtbarkeit"] },
-    { "text": "Krampfanfälle möglich, besonders zusammen mit Imipenem/Cilastatin", "ids": ["epilepsie"] }
+    {
+      "text": "Vorbestehende Blutbildstörungen oder Behandlung mit anderen knochenmarkhemmenden Mitteln: schwere Leukopenie, Neutropenie, Anämie, Thrombozytopenie und aplastische Anämie möglich – Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "anaemie",
+        "thrombozytopenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis nach Kreatinin-Clearance anpassen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: wirksame Verhütung während und mindestens 30 Tage nach der Behandlung; Männer: Kondom während und mindestens 90 Tage nach der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Krebserzeugend und erbgutschädigend im Tierversuch; Fruchtbarkeit kann (auch bleibend) vermindert werden",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    },
+    {
+      "text": "Krampfanfälle möglich, besonders zusammen mit Imipenem/Cilastatin",
+      "ids": [
+        "epilepsie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Imipenem/Cilastatin", "ref": ["imipenem-cilastatin"], "effekt": "Krampfanfälle beschrieben – nur kombinieren, wenn der Nutzen das Risiko klar überwiegt.", "schwere": "schwer" },
-    { "text": "Zidovudin", "ref": ["zidovudin"], "effekt": "Beide verursachen Neutropenie und Anämie – viele Patienten vertragen die volle Dosis beider Mittel nicht; Blutbild engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Andere knochenmarkhemmende oder toxische Mittel (z. B. Zytostatika, Mycophenolat, Flucytosin, Pentamidin, Amphotericin B, Trimethoprim/Sulfamethoxazol, Hydroxycarbamid)", "ref": ["gruppe:myelosuppressiv", "mycophenolat-mofetil", "flucytosin", "pentamidin", "amphotericin-b", "sulfamethoxazol-trimethoprim", "hydroxycarbamid"], "effekt": "Additive Blutbild- und Nierenschäden – nur nach Abwägung, Blutbild und Nierenwerte engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Nierenschädigende Mittel (z. B. Ciclosporin, Tacrolimus, Amphotericin B, Foscarnet)", "ref": ["gruppe:nephrotoxisch", "foscarnet"], "effekt": "Verschlechterung der Nierenfunktion möglich, Ganciclovir reichert sich an – Kreatinin kontrollieren, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Didanosin", "ref": [], "effekt": "Didanosin-Spiegel steigen deutlich – auf Didanosin-Toxizität (z. B. Pankreatitis) achten.", "schwere": "mittel" },
-    { "text": "Probenecid", "ref": [], "effekt": "Hemmt die Ausscheidung von Ganciclovir über die Niere – höhere Spiegel und mehr Toxizität möglich.", "schwere": "mittel" }
+    {
+      "text": "Imipenem/Cilastatin",
+      "ref": [
+        "imipenem-cilastatin"
+      ],
+      "effekt": "Krampfanfälle beschrieben – nur kombinieren, wenn der Nutzen das Risiko klar überwiegt.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Zidovudin",
+      "ref": [
+        "zidovudin"
+      ],
+      "effekt": "Beide verursachen Neutropenie und Anämie – viele Patienten vertragen die volle Dosis beider Mittel nicht; Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende oder toxische Mittel (z. B. Zytostatika, Mycophenolat, Flucytosin, Pentamidin, Amphotericin B, Trimethoprim/Sulfamethoxazol, Hydroxycarbamid)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "mycophenolat-mofetil",
+        "flucytosin",
+        "pentamidin",
+        "amphotericin-b",
+        "sulfamethoxazol-trimethoprim",
+        "hydroxycarbamid"
+      ],
+      "effekt": "Additive Blutbild- und Nierenschäden – nur nach Abwägung, Blutbild und Nierenwerte engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Ciclosporin, Tacrolimus, Amphotericin B, Foscarnet)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "foscarnet"
+      ],
+      "effekt": "Verschlechterung der Nierenfunktion möglich, Ganciclovir reichert sich an – Kreatinin kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Didanosin",
+      "ref": [],
+      "effekt": "Didanosin-Spiegel steigen deutlich – auf Didanosin-Toxizität (z. B. Pankreatitis) achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Hemmt die Ausscheidung von Ganciclovir über die Niere – höhere Spiegel und mehr Toxizität möglich.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Neutropenie (Mangel an weissen Blutkörperchen), Anämie (Blutarmut)", "Durchfall, Übelkeit, Erbrechen", "Atemnot, Husten", "Kopfschmerzen", "Fieber, Müdigkeit", "Candida-Infektion im Mund"],
-    "haeufig": ["Thrombozytopenie, Leukopenie, Panzytopenie", "Infektionen (z. B. Blutvergiftung, Harnwegsinfekt, Grippe)", "Appetitlosigkeit, Gewichtsverlust", "Depression, Angst, Verwirrtheit, Schlaflosigkeit", "Krampfanfälle, periphere Neuropathie, Schwindel, Kribbeln, Geschmacksstörungen", "Netzhautablösung, Makulaödem, Augenschmerzen, Glaskörpertrübungen", "Bauchschmerzen, Verstopfung, Verdauungsbeschwerden", "Abweichende Leberwerte", "Nierenfunktionsstörung, erhöhtes Kreatinin", "Hautausschlag, Juckreiz, Nachtschweiss, Haarausfall", "Muskel-, Gelenk- und Rückenschmerzen, Muskelkrämpfe"],
-    "gelegentlich": ["Knochenmarkversagen", "Unruhe, Psychose, Halluzinationen", "Zittern", "Hörverlust", "Herzrhythmusstörungen", "Pankreatitis, Mundgeschwüre", "Nierenversagen, Blut im Urin", "Männliche Unfruchtbarkeit"],
-    "selten": ["Aplastische Anämie, Agranulozytose", "Anaphylaxie (schwere allergische Reaktion)"]
+    "sehrHaeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen), Anämie (Blutarmut)",
+      "Durchfall, Übelkeit, Erbrechen",
+      "Atemnot, Husten",
+      "Kopfschmerzen",
+      "Fieber, Müdigkeit",
+      "Candida-Infektion im Mund"
+    ],
+    "haeufig": [
+      "Thrombozytopenie, Leukopenie, Panzytopenie",
+      "Infektionen (z. B. Blutvergiftung, Harnwegsinfekt, Grippe)",
+      "Appetitlosigkeit, Gewichtsverlust",
+      "Depression, Angst, Verwirrtheit, Schlaflosigkeit",
+      "Krampfanfälle, periphere Neuropathie, Schwindel, Kribbeln, Geschmacksstörungen",
+      "Netzhautablösung, Makulaödem, Augenschmerzen, Glaskörpertrübungen",
+      "Bauchschmerzen, Verstopfung, Verdauungsbeschwerden",
+      "Abweichende Leberwerte",
+      "Nierenfunktionsstörung, erhöhtes Kreatinin",
+      "Hautausschlag, Juckreiz, Nachtschweiss, Haarausfall",
+      "Muskel-, Gelenk- und Rückenschmerzen, Muskelkrämpfe"
+    ],
+    "gelegentlich": [
+      "Knochenmarkversagen",
+      "Unruhe, Psychose, Halluzinationen",
+      "Zittern",
+      "Hörverlust",
+      "Herzrhythmusstörungen",
+      "Pankreatitis, Mundgeschwüre",
+      "Nierenversagen, Blut im Urin",
+      "Männliche Unfruchtbarkeit"
+    ],
+    "selten": [
+      "Aplastische Anämie, Agranulozytose",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
   },
   "schwangerschaft": "Nicht anwenden, ausser der Nutzen für die Mutter überwiegt eindeutig das Risiko für das Kind: Ganciclovir ist im Tierversuch fruchtschädigend und erbgutschädigend.",
   "stillzeit": "Kontraindiziert – vor Beginn abstillen.",

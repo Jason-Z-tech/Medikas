@@ -1,61 +1,316 @@
 {
   "id": "furosemid",
   "name": "Furosemid",
-  "synonyme": ["Furosemide", "Frusemide", "Furosemidum"],
-  "atc": ["C03CA01"],
+  "synonyme": [
+    "Furosemide",
+    "Frusemide",
+    "Furosemidum"
+  ],
+  "atc": [
+    "C03CA01"
+  ],
   "klasse": "Schleifendiuretikum (Sulfonamid-Derivat)",
   "kurz": "Rasch und stark wirkendes harntreibendes Mittel (Schleifendiuretikum) bei Wassereinlagerungen, Herzschwäche, Lungenödem und Bluthochdruck.",
-  "gruppen": ["schleifendiuretika", "diuretika", "blutdrucksenkend", "hypokaliaemie-ausloesend", "hyponatriaemie-ausloesend", "ototoxisch", "lithium-spiegel-erhoehend", "photosensibilisierend"],
-  "handelsnamen": ["Lasix", "Oedemex", "Lasilacton (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten", "Retardkapseln", "Injektionslösung", "Infusionskonzentrat"],
+  "gruppen": [
+    "schleifendiuretika",
+    "diuretika",
+    "blutdrucksenkend",
+    "hypokaliaemie-ausloesend",
+    "hyponatriaemie-ausloesend",
+    "ototoxisch",
+    "lithium-spiegel-erhoehend",
+    "photosensibilisierend",
+    "hypomagnesiaemie-ausloesend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Lasix",
+    "Oedemex",
+    "Lasilacton (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardkapseln",
+    "Injektionslösung",
+    "Infusionskonzentrat"
+  ],
   "indikationen": [
-    { "text": "Wassereinlagerungen (Ödeme) bei Herzinsuffizienz, Leberzirrhose (inkl. Aszites) und Nierenerkrankungen wie dem nephrotischen Syndrom", "ids": ["oedeme", "herzinsuffizienz", "leberzirrhose", "nephrotisches-syndrom"] },
-    { "text": "Akute Herzinsuffizienz mit Lungenödem (Injektion)", "ids": ["herzinsuffizienz"] },
-    { "text": "Bluthochdruck", "ids": ["hypertonie"] },
-    { "text": "Flüssigkeitsüberladung bei stark eingeschränkter Nierenfunktion (hoch dosierte Präparate)", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Wassereinlagerungen (Ödeme) bei Herzinsuffizienz, Leberzirrhose (inkl. Aszites) und Nierenerkrankungen wie dem nephrotischen Syndrom",
+      "ids": [
+        "oedeme",
+        "herzinsuffizienz",
+        "leberzirrhose",
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Akute Herzinsuffizienz mit Lungenödem (Injektion)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsüberladung bei stark eingeschränkter Nierenfunktion (hoch dosierte Präparate)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Bewirkt eine rasche und kräftige Ausscheidung von Salz und Wasser über die Niere. Furosemid hemmt den Natrium-Kalium-2-Chlorid-Cotransporter (NKCC2) im aufsteigenden Teil der Henle-Schleife, wo ein grosser Teil des Natriums zurückgewonnen wird; dadurch steigt die Ausscheidung von Natrium, Chlorid und Wasser, aber auch von Kalium, Calcium und Magnesium deutlich an. Nach Einnahme setzt die Wirkung innerhalb einer Stunde ein und hält 4–6 Stunden an, nach intravenöser Gabe beginnt sie innerhalb weniger Minuten. Bei akuter Herzinsuffizienz entlastet es das Herz zusätzlich durch eine Erweiterung der Venen. Die Wirkung bleibt auch bei eingeschränkter Nierenfunktion erhalten.",
   "kontraindikationen": [
-    { "text": "Nierenversagen mit Anurie (fehlende Harnproduktion), das nicht auf Furosemid anspricht", "ids": ["niereninsuffizienz"] },
-    { "text": "Leberkoma oder dessen Vorstadium (hepatische Enzephalopathie)", "ids": ["leberzirrhose", "leberinsuffizienz"] },
-    { "text": "Schwerer Kalium- oder Natriummangel", "ids": ["hypokaliaemie", "hyponatriaemie"] },
-    { "text": "Flüssigkeitsmangel (Hypovolämie, Dehydratation)", "ids": ["dehydratation"] },
-    { "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)", "ids": ["sulfonamidallergie"] },
-    { "text": "Stillzeit", "ids": ["stillzeit"] }
+    {
+      "text": "Nierenversagen mit Anurie (fehlende Harnproduktion), das nicht auf Furosemid anspricht",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberkoma oder dessen Vorstadium (hepatische Enzephalopathie)",
+      "ids": [
+        "leberzirrhose",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwerer Kalium- oder Natriummangel",
+      "ids": [
+        "hypokaliaemie",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel (Hypovolämie, Dehydratation)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Sulfonamide (Kreuzallergie)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Harnabflussstörungen, z. B. bei Prostatavergrösserung: Gefahr eines akuten Harnverhalts", "ids": ["prostatahyperplasie", "harnverhalt"] },
-    { "text": "Niedriger Blutdruck und Situationen, in denen ein Blutdruckabfall besonders gefährlich ist (Verengung der Herzkranz- oder Hirngefässe)", "ids": ["hypotonie", "koronare-herzkrankheit", "schlaganfall"] },
-    { "text": "Diabetes mellitus: der Blutzucker kann ansteigen", "ids": ["diabetes"] },
-    { "text": "Gicht", "ids": ["gicht"] },
-    { "text": "Leberzirrhose mit eingeschränkter Nierenfunktion: Elektrolyte engmaschig kontrollieren", "ids": ["leberzirrhose"] },
-    { "text": "Eiweissmangel im Blut, z. B. bei nephrotischem Syndrom: Wirkung abgeschwächt, Gehörschäden eher möglich", "ids": ["nephrotisches-syndrom"] },
-    { "text": "Frühgeborene: Gefahr von Nierenverkalkung und Nierensteinen", "ids": ["kinder", "nierensteine"] },
-    { "text": "Ältere Menschen: Austrocknung und Blutgerinnsel durch Bluteindickung", "ids": ["aeltere-patienten", "dehydratation", "thrombose"] }
+    {
+      "text": "Harnabflussstörungen, z. B. bei Prostatavergrösserung: Gefahr eines akuten Harnverhalts",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Niedriger Blutdruck und Situationen, in denen ein Blutdruckabfall besonders gefährlich ist (Verengung der Herzkranz- oder Hirngefässe)",
+      "ids": [
+        "hypotonie",
+        "koronare-herzkrankheit",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: der Blutzucker kann ansteigen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Gicht",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Leberzirrhose mit eingeschränkter Nierenfunktion: Elektrolyte engmaschig kontrollieren",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Eiweissmangel im Blut, z. B. bei nephrotischem Syndrom: Wirkung abgeschwächt, Gehörschäden eher möglich",
+      "ids": [
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Frühgeborene: Gefahr von Nierenverkalkung und Nierensteinen",
+      "ids": [
+        "kinder",
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Austrocknung und Blutgerinnsel durch Bluteindickung",
+      "ids": [
+        "aeltere-patienten",
+        "dehydratation",
+        "thrombose"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Aminoglykoside und andere gehörschädigende Mittel (z. B. Gentamicin, Cisplatin, Vancomycin)", "ref": ["gruppe:aminoglykoside", "gruppe:ototoxisch", "cisplatin"], "effekt": "Verstärkte, teils bleibende Gehör- und Nierenschädigung – nur bei zwingender Notwendigkeit kombinieren, Nierenfunktion und Gehör überwachen.", "schwere": "schwer" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigt – Gefahr einer Lithiumvergiftung; Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Ein Kalium- oder Magnesiummangel verstärkt die Giftigkeit von Digoxin (Herzrhythmusstörungen) – Elektrolyte kontrollieren.", "schwere": "mittel" },
-    { "text": "QT-Zeit verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Ein Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen – Kalium kontrollieren und ausgleichen.", "schwere": "mittel" },
-    { "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Abführmittel, Amphotericin B, Thiazide)", "ref": ["gruppe:hypokaliaemie-ausloesend"], "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, hoch dosierte Acetylsalicylsäure)", "ref": ["gruppe:nsar"], "effekt": "Abgeschwächte harntreibende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.", "schwere": "mittel" },
-    { "text": "ACE-Hemmer und Sartane", "ref": ["gruppe:ace-hemmer", "gruppe:sartane"], "effekt": "Starker Blutdruckabfall und Verschlechterung der Nierenfunktion möglich, besonders zu Beginn – Furosemid vorher reduzieren oder pausieren.", "schwere": "mittel" },
-    { "text": "Risperidon bei älteren Menschen mit Demenz", "ref": ["risperidon"], "effekt": "In Studien erhöhte Sterblichkeit unter der Kombination – sorgfältig abwägen, Austrocknung vermeiden.", "schwere": "mittel" },
-    { "text": "Nierenschädigende Mittel (z. B. hoch dosierte Cephalosporine, Ciclosporin) und jodhaltige Kontrastmittel", "ref": ["gruppe:nephrotoxisch", "iohexol", "iopamidol"], "effekt": "Erhöhtes Risiko für eine Verschlechterung der Nierenfunktion.", "schwere": "mittel" },
-    { "text": "Sucralfat", "ref": ["sucralfat"], "effekt": "Vermindert die Aufnahme von Furosemid – mindestens 2 Stunden Abstand.", "schwere": "leicht" },
-    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Der Blutzucker kann ansteigen – Blutzucker kontrollieren.", "schwere": "leicht" },
-    { "text": "Andere Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkte Blutdrucksenkung.", "schwere": "leicht" }
+    {
+      "text": "Aminoglykoside und andere gehörschädigende Mittel (z. B. Gentamicin, Cisplatin, Vancomycin)",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:ototoxisch",
+        "cisplatin"
+      ],
+      "effekt": "Verstärkte, teils bleibende Gehör- und Nierenschädigung – nur bei zwingender Notwendigkeit kombinieren, Nierenfunktion und Gehör überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigt – Gefahr einer Lithiumvergiftung; Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Ein Kalium- oder Magnesiummangel verstärkt die Giftigkeit von Digoxin (Herzrhythmusstörungen) – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Ein Kaliummangel erhöht das Risiko gefährlicher Herzrhythmusstörungen – Kalium kontrollieren und ausgleichen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere kaliumsenkende Mittel (systemische Glukokortikoide, Abführmittel, Amphotericin B, Thiazide)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, hoch dosierte Acetylsalicylsäure)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Abgeschwächte harntreibende Wirkung; bei Flüssigkeitsmangel Gefahr eines akuten Nierenversagens.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer und Sartane",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:sartane"
+      ],
+      "effekt": "Starker Blutdruckabfall und Verschlechterung der Nierenfunktion möglich, besonders zu Beginn – Furosemid vorher reduzieren oder pausieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Risperidon bei älteren Menschen mit Demenz",
+      "ref": [
+        "risperidon"
+      ],
+      "effekt": "In Studien erhöhte Sterblichkeit unter der Kombination – sorgfältig abwägen, Austrocknung vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. hoch dosierte Cephalosporine, Ciclosporin) und jodhaltige Kontrastmittel",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Erhöhtes Risiko für eine Verschlechterung der Nierenfunktion.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sucralfat",
+      "ref": [
+        "sucralfat"
+      ],
+      "effekt": "Vermindert die Aufnahme von Furosemid – mindestens 2 Stunden Abstand.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Der Blutzucker kann ansteigen – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Elektrolytstörungen", "Flüssigkeitsmangel (Dehydratation, Hypovolämie), besonders bei älteren Menschen", "Anstieg von Kreatinin und Triglyceriden im Blut"],
-    "haeufig": ["Hypokaliämie, Hyponatriämie, Hypochlorämie (Kalium-, Natrium-, Chloridmangel)", "Bluteindickung (Hämokonzentration)", "Erhöhtes Cholesterin, erhöhte Harnsäure, Gichtanfälle", "Hepatische Enzephalopathie bei Leberinsuffizienz", "Vermehrte Harnmenge"],
-    "gelegentlich": ["Thrombozytopenie (Mangel an Blutplättchen)", "Hörstörungen, meist vorübergehend, selten Taubheit", "Übelkeit", "Juckreiz, Nesselsucht, Hautausschläge, bullöse Hautreaktionen, Photosensibilität", "Verschlechterung der Blutzuckereinstellung"],
-    "selten": ["Anaphylaktische Reaktionen", "Tinnitus (Ohrgeräusche)", "Interstitielle Nephritis (Nierenentzündung)", "Vaskulitis (Gefässentzündung)", "Eosinophilie, Leukopenie", "Erbrechen, Durchfall", "Kribbeln (Parästhesien), Fieber"],
-    "sehrSelten": ["Agranulozytose, aplastische und hämolytische Anämie", "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)", "Gallenstau in der Leber, Anstieg der Leberwerte"],
-    "unbekannt": ["Hypokalzämie, Hypomagnesiämie, metabolische Alkalose", "Schwindel, Ohnmacht, Kopfschmerzen", "Thrombosen", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS, AGEP)", "Akutes Nierenversagen, Harnverhalt", "Nierenverkalkung und offener Ductus arteriosus bei Frühgeborenen", "Rhabdomyolyse (Muskelzerfall)"]
+    "sehrHaeufig": [
+      "Elektrolytstörungen",
+      "Flüssigkeitsmangel (Dehydratation, Hypovolämie), besonders bei älteren Menschen",
+      "Anstieg von Kreatinin und Triglyceriden im Blut"
+    ],
+    "haeufig": [
+      "Hypokaliämie, Hyponatriämie, Hypochlorämie (Kalium-, Natrium-, Chloridmangel)",
+      "Bluteindickung (Hämokonzentration)",
+      "Erhöhtes Cholesterin, erhöhte Harnsäure, Gichtanfälle",
+      "Hepatische Enzephalopathie bei Leberinsuffizienz",
+      "Vermehrte Harnmenge"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Hörstörungen, meist vorübergehend; Taubheit, teils bleibend",
+      "Übelkeit",
+      "Juckreiz, Nesselsucht, Hautausschläge, bullöse Hautreaktionen, Photosensibilität",
+      "Verschlechterung der Blutzuckereinstellung"
+    ],
+    "selten": [
+      "Anaphylaktische Reaktionen bis zum Schock",
+      "Interstitielle Nephritis (Nierenentzündung)",
+      "Vaskulitis (Gefässentzündung)",
+      "Eosinophilie, Leukopenie",
+      "Erbrechen, Durchfall",
+      "Kribbeln (Parästhesien), Fieber"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, aplastische und hämolytische Anämie",
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Gallenstau in der Leber, Anstieg der Leberwerte",
+      "Tinnitus (Ohrgeräusche)"
+    ],
+    "unbekannt": [
+      "Hypokalzämie, Hypomagnesiämie, metabolische Alkalose",
+      "Schwindel, Ohnmacht, Kopfschmerzen",
+      "Thrombosen",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS, AGEP)",
+      "Akutes Nierenversagen, Harnverhalt",
+      "Nierenverkalkung und offener Ductus arteriosus bei Frühgeborenen",
+      "Rhabdomyolyse (Muskelzerfall)"
+    ]
   },
   "schwangerschaft": "Nur bei zwingender Notwendigkeit und kurzzeitig: Furosemid gelangt zum Kind und kann dessen Elektrolythaushalt sowie die Durchblutung der Plazenta beeinträchtigen; das Wachstum des Kindes überwachen.",
   "stillzeit": "Kontraindiziert: Furosemid geht in die Muttermilch über und kann die Milchbildung hemmen; ist eine Behandlung nötig, abstillen.",

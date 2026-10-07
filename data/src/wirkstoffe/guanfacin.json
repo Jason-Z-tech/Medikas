@@ -1,39 +1,154 @@
 {
   "id": "guanfacin",
   "name": "Guanfacin",
-  "synonyme": ["Guanfacine", "Guanfacinhydrochlorid"],
-  "atc": ["C02AC02"],
+  "synonyme": [
+    "Guanfacine",
+    "Guanfacinhydrochlorid"
+  ],
+  "atc": [
+    "C02AC02"
+  ],
   "klasse": "Selektiver Alpha-2A-Agonist (Nicht-Stimulans zur ADHS-Behandlung)",
   "kurz": "ADHS-Mittel ohne Stimulanzienwirkung für Kinder und Jugendliche, wenn Stimulanzien nicht geeignet sind; kann Puls und Blutdruck senken.",
-  "gruppen": ["blutdrucksenkend", "bradykardisierend", "zns-daempfend", "qt-verlaengernd", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Intuniv"],
-  "abgabe": ["B"],
-  "darreichung": ["Retardtabletten"],
+  "gruppen": [
+    "blutdrucksenkend",
+    "bradykardisierend",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "cyp3a4-substrate-empfindlich",
+    "zentrale-alpha2-agonisten"
+  ],
+  "handelsnamen": [
+    "Intuniv"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
   "indikationen": [
-    { "text": "Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) bei Kindern und Jugendlichen von 6 bis 17 Jahren, wenn Stimulanzien nicht geeignet sind, nicht vertragen werden oder unwirksam sind – als Teil eines umfassenden Behandlungsprogramms", "ids": ["adhs", "kinder"] }
+    {
+      "text": "Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) bei Kindern und Jugendlichen von 6 bis 17 Jahren, wenn Stimulanzien nicht geeignet sind, nicht vertragen werden oder unwirksam sind – als Teil eines umfassenden Behandlungsprogramms",
+      "ids": [
+        "adhs",
+        "kinder"
+      ]
+    }
   ],
   "wirkmechanismus": "Verbessert Aufmerksamkeit und Impulskontrolle, ohne anregend zu wirken. Guanfacin stimuliert gezielt Alpha-2A-Rezeptoren im präfrontalen Kortex, dem für Planung und Steuerung des Verhaltens zuständigen Hirnbereich, und verstärkt dort die Signalübertragung zwischen Nervenzellen. Über dieselben Rezeptoren im Hirnstamm senkt es die Aktivität des sympathischen Nervensystems, was Blutdruck und Puls vermindert und müde machen kann. Guanfacin wird über CYP3A4 abgebaut.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Hypotonie, Bradykardie, AV-Block oder Ohnmachtsanfälle in der Vorgeschichte", "ids": ["hypotonie", "bradykardie", "av-block"] },
-    { "text": "Herz-Kreislauf-Erkrankungen und verlängerte QT-Zeit (auch in der Familie) oder Einnahme QT-verlängernder Mittel", "ids": ["herzrhythmusstoerung", "qt-verlaengerung"] },
-    { "text": "Ausgeprägte Müdigkeit und Schläfrigkeit, besonders zu Beginn", "ids": ["autofahren"] },
-    { "text": "Gewichtszunahme (Gewicht und BMI regelmässig kontrollieren)", "ids": ["adipositas"] },
-    { "text": "Suizidgedanken oder Depression in der Vorgeschichte", "ids": ["suizidgedanken", "depression"] },
-    { "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosis evtl. reduzieren)", "ids": ["leberinsuffizienz", "niereninsuffizienz"] }
+    {
+      "text": "Hypotonie, Bradykardie, AV-Block oder Ohnmachtsanfälle in der Vorgeschichte",
+      "ids": [
+        "hypotonie",
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen und verlängerte QT-Zeit (auch in der Familie) oder Einnahme QT-verlängernder Mittel",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Müdigkeit und Schläfrigkeit, besonders zu Beginn",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Gewichtszunahme (Gewicht und BMI regelmässig kontrollieren)",
+      "ids": [
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Suizidgedanken oder Depression in der Vorgeschichte",
+      "ids": [
+        "suizidgedanken",
+        "depression"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosis evtl. reduzieren)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir, Fluconazol, Diltiazem, Verapamil, Erythromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:maessige-cyp3a4-hemmer"], "effekt": "Guanfacinspiegel steigt (mit Ketoconazol etwa auf das Dreifache) – Dosis reduzieren; mehr Müdigkeit, Blutdruckabfall und Bradykardie möglich.", "schwere": "schwer" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Guanfacinspiegel sinkt stark (mit Rifampicin um etwa 70 %) – Dosis erhöhen, Wirkung kontrollieren.", "schwere": "mittel" },
-    { "text": "Valproinsäure", "ref": ["valproinsaeure"], "effekt": "Valproatspiegel kann steigen; verstärkte Müdigkeit möglich – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Blutdrucksenker", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Additive Blutdrucksenkung, Bradykardie und Ohnmachtsgefahr.", "schwere": "mittel" },
-    { "text": "Zentral dämpfende Mittel (z. B. Schlaf- und Beruhigungsmittel, Antipsychotika, Opioide) und Alkohol", "ref": ["gruppe:zns-daempfend", "gruppe:benzodiazepine", "gruppe:antipsychotika"], "effekt": "Verstärkte Müdigkeit und Benommenheit.", "schwere": "mittel" },
-    { "text": "Andere QT-verlängernde oder pulsverlangsamende Mittel", "ref": ["gruppe:qt-verlaengernd", "gruppe:bradykardisierend"], "effekt": "Erhöhtes Risiko für QT-Verlängerung und Bradykardie – EKG und Puls kontrollieren.", "schwere": "mittel" },
-    { "text": "Grapefruitsaft und fettreiche Mahlzeiten", "ref": [], "effekt": "Erhöhen die Aufnahme von Guanfacin – nicht zusammen einnehmen.", "schwere": "leicht" }
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir, Fluconazol, Diltiazem, Verapamil, Erythromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Guanfacinspiegel steigt (mit Ketoconazol etwa auf das Dreifache) – Dosis reduzieren; mehr Müdigkeit, Blutdruckabfall und Bradykardie möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Guanfacinspiegel sinkt stark (mit Rifampicin um etwa 70 %) – Dosis erhöhen, Wirkung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Valproatspiegel kann steigen; verstärkte Müdigkeit möglich – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Additive Blutdrucksenkung, Bradykardie und Ohnmachtsgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (z. B. Schlaf- und Beruhigungsmittel, Antipsychotika, Opioide) und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde oder pulsverlangsamende Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Erhöhtes Risiko für QT-Verlängerung und Bradykardie – EKG und Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft und fettreiche Mahlzeiten",
+      "ref": [],
+      "effekt": "Erhöhen die Aufnahme von Guanfacin – nicht zusammen einnehmen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Schläfrigkeit (Somnolenz)", "Kopfschmerzen", "Müdigkeit, Erschöpfung", "Bauchschmerzen"],
+    "sehrHaeufig": [
+      "Schläfrigkeit (Somnolenz)",
+      "Kopfschmerzen",
+      "Müdigkeit, Erschöpfung",
+      "Bauchschmerzen"
+    ],
     "haeufig": [
       "Depression, Angst, Stimmungsschwankungen, Reizbarkeit",
       "Schlaflosigkeit, Albträume, Lethargie",
@@ -54,8 +169,14 @@
       "Erhöhte Leberwerte (ALT)",
       "Brustschmerzen, Schwäche, Blässe"
     ],
-    "selten": ["Bluthochdruck", "Sinusknotensyndrom", "Unwohlsein"],
-    "unbekannt": ["Verlängerte QT-Zeit im EKG"]
+    "selten": [
+      "Bluthochdruck",
+      "Sinusknotensyndrom",
+      "Unwohlsein"
+    ],
+    "unbekannt": [
+      "Verlängerte QT-Zeit im EKG"
+    ]
   },
   "schwangerschaft": "Nicht empfohlen; es liegen kaum Erfahrungen vor. Frauen im gebärfähigen Alter sollen während der Behandlung verhüten.",
   "stillzeit": "Nicht bekannt, ob Guanfacin in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",

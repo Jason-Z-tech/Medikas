@@ -1,55 +1,266 @@
 {
   "id": "levothyroxin",
   "name": "Levothyroxin",
-  "synonyme": ["L-Thyroxin", "T4", "Levothyroxin-Natrium", "Levothyroxine", "Thyroxin"],
-  "atc": ["H03AA01"],
+  "synonyme": [
+    "L-Thyroxin",
+    "T4",
+    "Levothyroxin-Natrium",
+    "Levothyroxine",
+    "Thyroxin"
+  ],
+  "atc": [
+    "H03AA01"
+  ],
   "klasse": "Schilddrüsenhormon (synthetisches Thyroxin, T4)",
   "kurz": "Ersetzt das Schilddrüsenhormon Thyroxin bei Schilddrüsenunterfunktion; auch bei Kropf und nach Schilddrüsenoperationen.",
-  "gruppen": ["schilddruesenhormone"],
-  "handelsnamen": ["Euthyrox", "Eltroxin", "Tirosint", "Novothyral (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten", "Weichkapseln", "Lösung zum Einnehmen"],
+  "gruppen": [
+    "schilddruesenhormone"
+  ],
+  "handelsnamen": [
+    "Euthyrox",
+    "Eltroxin",
+    "Tirosint",
+    "Novothyral (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Weichkapseln",
+    "Lösung zum Einnehmen"
+  ],
   "indikationen": [
-    { "text": "Schilddrüsenunterfunktion jeder Ursache (Ersatztherapie)", "ids": ["hypothyreose"] },
-    { "text": "Gutartiger Kropf bei normaler Schilddrüsenfunktion und Vorbeugung eines erneuten Kropfwachstums nach Operation", "ids": ["struma"] },
-    { "text": "Nach Operation von Schilddrüsenkrebs: Hormonersatz und Unterdrückung des TSH", "ids": ["kopf-hals-krebs"] },
-    { "text": "Begleitend zur thyreostatischen Behandlung einer Schilddrüsenüberfunktion, sobald normale Werte erreicht sind", "ids": ["hyperthyreose"] }
+    {
+      "text": "Schilddrüsenunterfunktion jeder Ursache (Ersatztherapie)",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Gutartiger Kropf bei normaler Schilddrüsenfunktion und Vorbeugung eines erneuten Kropfwachstums nach Operation",
+      "ids": [
+        "struma"
+      ]
+    },
+    {
+      "text": "Nach Operation von Schilddrüsenkrebs: Hormonersatz und Unterdrückung des TSH",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Begleitend zur thyreostatischen Behandlung einer Schilddrüsenüberfunktion, sobald normale Werte erreicht sind",
+      "ids": [
+        "hyperthyreose"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt das fehlende körpereigene Schilddrüsenhormon und normalisiert so Stoffwechsel, Energiehaushalt und Herzfrequenz. Levothyroxin ist chemisch identisch mit dem natürlichen Thyroxin (T4) und wird in Leber, Niere und anderen Geweben zum eigentlich wirksamen Trijodthyronin (T3) umgewandelt, das an Schilddrüsenhormon-Rezeptoren im Zellkern bindet und die Ablesung zahlreicher Gene steuert. Zugleich hemmt es über eine Rückkopplung die TSH-Ausschüttung der Hirnanhangdrüse, was beim Kropf das Wachstum der Schilddrüse bremst. Wegen der langen Halbwertszeit von etwa einer Woche stellt sich die volle Wirkung erst nach einigen Wochen ein.",
   "kontraindikationen": [
-    { "text": "Unbehandelte Nebennierenrindeninsuffizienz oder unbehandelte Hypophyseninsuffizienz mit behandlungsbedürftigem Kortisolmangel", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Unbehandelte Schilddrüsenüberfunktion (Hyperthyreose)", "ids": ["hyperthyreose"] },
-    { "text": "Akuter Herzinfarkt, akute Herzmuskelentzündung (Myokarditis) oder akute Pankarditis", "ids": ["herzinfarkt", "kardiomyopathie"] },
-    { "text": "Schwangerschaft: Kombination mit einem Thyreostatikum zur Behandlung einer Überfunktion", "ids": ["schwangerschaft", "hyperthyreose"] }
+    {
+      "text": "Unbehandelte Nebennierenrindeninsuffizienz oder unbehandelte Hypophyseninsuffizienz mit behandlungsbedürftigem Kortisolmangel",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Unbehandelte Schilddrüsenüberfunktion (Hyperthyreose)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Akuter Herzinfarkt, akute Herzmuskelentzündung (Myokarditis) oder akute Pankarditis",
+      "ids": [
+        "herzinfarkt",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: Kombination mit einem Thyreostatikum zur Behandlung einer Überfunktion",
+      "ids": [
+        "schwangerschaft",
+        "hyperthyreose"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Koronare Herzkrankheit, Herzinsuffizienz, Herzrhythmusstörungen (v. a. mit schnellem Puls) und Bluthochdruck: mit niedriger Dosis beginnen und langsam steigern", "ids": ["koronare-herzkrankheit", "angina-pectoris", "herzinsuffizienz", "herzrhythmusstoerung", "hypertonie"] },
-    { "text": "Ältere Menschen: niedrige Anfangsdosis und häufigere Kontrollen", "ids": ["aeltere-patienten"] },
-    { "text": "Diabetes mellitus: Blutzucker kontrollieren, Blutzuckersenker eventuell anpassen", "ids": ["diabetes"] },
-    { "text": "Epilepsie: zu Therapiebeginn selten Krampfanfälle", "ids": ["epilepsie"] },
-    { "text": "Osteoporose-Risiko (v. a. bei Frauen nach den Wechseljahren) unter TSH-unterdrückender Dosis – Überdosierung vermeiden", "ids": ["osteoporose", "wechseljahre"] },
-    { "text": "Nicht zur Gewichtsabnahme verwenden: bei normaler Schilddrüsenfunktion wirkungslos, in hohen Dosen gefährlich", "ids": ["adipositas"] },
-    { "text": "Frühgeborene mit sehr tiefem Geburtsgewicht: Gefahr eines Kreislaufzusammenbruchs zu Behandlungsbeginn", "ids": ["kinder"] }
+    {
+      "text": "Koronare Herzkrankheit, Herzinsuffizienz, Herzrhythmusstörungen (v. a. mit schnellem Puls) und Bluthochdruck: mit niedriger Dosis beginnen und langsam steigern",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinsuffizienz",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: niedrige Anfangsdosis und häufigere Kontrollen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: Blutzucker kontrollieren, Blutzuckersenker eventuell anpassen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Epilepsie: zu Therapiebeginn selten Krampfanfälle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Osteoporose-Risiko (v. a. bei Frauen nach den Wechseljahren) unter TSH-unterdrückender Dosis – Überdosierung vermeiden",
+      "ids": [
+        "osteoporose",
+        "wechseljahre"
+      ]
+    },
+    {
+      "text": "Nicht zur Gewichtsabnahme verwenden: bei normaler Schilddrüsenfunktion wirkungslos, in hohen Dosen gefährlich",
+      "ids": [
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Frühgeborene mit sehr tiefem Geburtsgewicht: Gefahr eines Kreislaufzusammenbruchs zu Behandlungsbeginn",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Calcium-, Eisen-, Magnesium- und aluminiumhaltige Präparate, Antazida", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida", "gruppe:eisenpraeparate"], "effekt": "Vermindern die Aufnahme von Levothyroxin – mindestens 2 Stunden, besser 4 Stunden Abstand.", "schwere": "mittel" },
-    { "text": "Gallensäurebinder (Colestyramin, Colesevelam) und Phosphatbinder (Sevelamer, Lanthan)", "ref": ["colestyramin", "colesevelam", "sevelamer", "lanthan"], "effekt": "Stark verminderte Aufnahme – Levothyroxin 4–5 Stunden vorher einnehmen, TSH kontrollieren.", "schwere": "mittel" },
-    { "text": "Orlistat", "ref": ["orlistat"], "effekt": "Kann eine Schilddrüsenunterfunktion verursachen – Abstand einhalten, TSH kontrollieren.", "schwere": "mittel" },
-    { "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung – INR kontrollieren, besonders bei Beginn oder Dosisänderung.", "schwere": "mittel" },
-    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Beschleunigter Abbau von Levothyroxin – höherer Bedarf möglich, TSH kontrollieren.", "schwere": "mittel" },
-    { "text": "Amiodaron und jodhaltige Kontrastmittel", "ref": ["amiodaron"], "effekt": "Die hohe Jodmenge kann eine Unter- oder Überfunktion auslösen – Schilddrüsenwerte überwachen.", "schwere": "mittel" },
-    { "text": "Tyrosinkinase-Hemmer (z. B. Imatinib, Sunitinib, Sorafenib)", "ref": ["gruppe:proteinkinase-hemmer"], "effekt": "Können eine Schilddrüsenunterfunktion auslösen bzw. den Bedarf erhöhen – Schilddrüsenwerte kontrollieren.", "schwere": "mittel" },
-    { "text": "Thyreostatika (z. B. Carbimazol)", "ref": ["gruppe:thyreostatika"], "effekt": "Ausserhalb der Schwangerschaft als Kombination bei Überfunktion möglich; in der Schwangerschaft nicht kombinieren.", "schwere": "mittel" },
-    { "text": "Blutzuckersenker (Insulin, orale Antidiabetika)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Die blutzuckersenkende Wirkung kann abnehmen – Blutzucker kontrollieren, besonders zu Beginn.", "schwere": "leicht" },
-    { "text": "Protonenpumpenhemmer und andere Säurehemmer", "ref": ["gruppe:magensaeure-reduzierend"], "effekt": "Die Aufnahme von Levothyroxin kann vermindert sein – TSH kontrollieren.", "schwere": "leicht" },
-    { "text": "Östrogenhaltige Präparate (Pille, Hormonersatz)", "ref": ["gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva"], "effekt": "Mehr Bindungseiweiss im Blut – der Levothyroxin-Bedarf kann steigen; TSH kontrollieren.", "schwere": "leicht" },
-    { "text": "Ritonavir-haltige HIV-Medikamente", "ref": ["ritonavir", "gruppe:hiv-proteasehemmer"], "effekt": "Die Wirkung von Levothyroxin kann vermindert sein – Schilddrüsenwerte kontrollieren.", "schwere": "leicht" },
-    { "text": "Sertralin", "ref": ["sertralin"], "effekt": "Kann die Wirkung von Levothyroxin abschwächen (TSH-Anstieg).", "schwere": "leicht" }
+    {
+      "text": "Calcium-, Eisen-, Magnesium- und aluminiumhaltige Präparate, Antazida",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Vermindern die Aufnahme von Levothyroxin – mindestens 2 Stunden, besser 4 Stunden Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (Colestyramin, Colesevelam) und Phosphatbinder (Sevelamer, Lanthan)",
+      "ref": [
+        "colestyramin",
+        "colesevelam",
+        "sevelamer",
+        "lanthan"
+      ],
+      "effekt": "Stark verminderte Aufnahme – Levothyroxin 4–5 Stunden vorher einnehmen, TSH kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orlistat",
+      "ref": [
+        "orlistat"
+      ],
+      "effekt": "Kann eine Schilddrüsenunterfunktion verursachen – Abstand einhalten, TSH kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung – INR kontrollieren, besonders bei Beginn oder Dosisänderung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Abbau von Levothyroxin – höherer Bedarf möglich, TSH kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Amiodaron und jodhaltige Kontrastmittel",
+      "ref": [
+        "amiodaron",
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Die hohe Jodmenge kann eine Unter- oder Überfunktion auslösen – Schilddrüsenwerte überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tyrosinkinase-Hemmer (z. B. Imatinib, Sunitinib, Sorafenib)",
+      "ref": [
+        "gruppe:proteinkinase-hemmer"
+      ],
+      "effekt": "Können eine Schilddrüsenunterfunktion auslösen bzw. den Bedarf erhöhen – Schilddrüsenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thyreostatika (z. B. Carbimazol)",
+      "ref": [
+        "gruppe:thyreostatika"
+      ],
+      "effekt": "Ausserhalb der Schwangerschaft als Kombination bei Überfunktion möglich; in der Schwangerschaft nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenker (Insulin, orale Antidiabetika)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Die blutzuckersenkende Wirkung kann abnehmen – Blutzucker kontrollieren, besonders zu Beginn.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Protonenpumpenhemmer und andere Säurehemmer",
+      "ref": [
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Die Aufnahme von Levothyroxin kann vermindert sein – TSH kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Östrogenhaltige Präparate (Pille, Hormonersatz)",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Mehr Bindungseiweiss im Blut – der Levothyroxin-Bedarf kann steigen; TSH kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Ritonavir-haltige HIV-Medikamente",
+      "ref": [
+        "ritonavir",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Die Wirkung von Levothyroxin kann vermindert sein – Schilddrüsenwerte kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Sertralin",
+      "ref": [
+        "sertralin"
+      ],
+      "effekt": "Kann die Wirkung von Levothyroxin abschwächen (TSH-Anstieg).",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Herzklopfen (bei zu hoher Dosis)", "Schlaflosigkeit (bei zu hoher Dosis)", "Kopfschmerzen (bei zu hoher Dosis)"],
-    "haeufig": ["Nervosität (bei zu hoher Dosis)", "Beschleunigter Puls (bei zu hoher Dosis)"],
+    "sehrHaeufig": [
+      "Herzklopfen (bei zu hoher Dosis)",
+      "Schlaflosigkeit (bei zu hoher Dosis)",
+      "Kopfschmerzen (bei zu hoher Dosis)"
+    ],
+    "haeufig": [
+      "Nervosität (bei zu hoher Dosis)",
+      "Beschleunigter Puls (bei zu hoher Dosis)"
+    ],
     "unbekannt": [
       "Herzrhythmusstörungen (z. B. Vorhofflimmern), Angina pectoris",
       "Zittern, innere Unruhe",

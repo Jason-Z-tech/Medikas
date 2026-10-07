@@ -1,66 +1,336 @@
 {
   "id": "phenprocoumon",
   "name": "Phenprocoumon",
-  "synonyme": ["Phenprocoumonum", "Phenprocoumone"],
-  "atc": ["B01AA04"],
+  "synonyme": [
+    "Phenprocoumonum",
+    "Phenprocoumone"
+  ],
+  "atc": [
+    "B01AA04"
+  ],
   "klasse": "Vitamin-K-Antagonist (Cumarinderivat, orales Antikoagulans)",
   "kurz": "Blutverdünner (Vitamin-K-Antagonist) gegen Thrombosen, Embolien und Schlaganfall bei Vorhofflimmern; Dosierung nach INR-Wert.",
-  "gruppen": ["vitamin-k-antagonisten", "antikoagulanzien", "blutungsrisiko-erhoehend", "cyp2c9-substrate-eng", "teratogen"],
-  "handelsnamen": ["Marcoumar"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "vitamin-k-antagonisten",
+    "antikoagulanzien",
+    "blutungsrisiko-erhoehend",
+    "cyp2c9-substrate-eng",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Marcoumar"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Behandlung von Venenthrombosen und Lungenembolien sowie Vorbeugung von Rückfällen", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Vorbeugung von Blutgerinnseln und Schlaganfällen bei Vorhofflimmern", "ids": ["vorhofflimmern", "schlaganfall", "thromboseprophylaxe"] },
-    { "text": "Vorbeugung von Thromboembolien bei künstlichen Herzklappen und anderen Herzklappenerkrankungen", "ids": ["herzklappenerkrankung", "thromboseprophylaxe"] },
-    { "text": "Langzeitbehandlung nach Herzinfarkt bei erhöhtem Risiko für thromboembolische Komplikationen", "ids": ["herzinfarkt"] }
+    {
+      "text": "Behandlung von Venenthrombosen und Lungenembolien sowie Vorbeugung von Rückfällen",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Blutgerinnseln und Schlaganfällen bei Vorhofflimmern",
+      "ids": [
+        "vorhofflimmern",
+        "schlaganfall",
+        "thromboseprophylaxe"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Thromboembolien bei künstlichen Herzklappen und anderen Herzklappenerkrankungen",
+      "ids": [
+        "herzklappenerkrankung",
+        "thromboseprophylaxe"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung nach Herzinfarkt bei erhöhtem Risiko für thromboembolische Komplikationen",
+      "ids": [
+        "herzinfarkt"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Blutgerinnung, indem es die Wirkung von Vitamin K in der Leber blockiert. Phenprocoumon hemmt die Vitamin-K-Epoxid-Reduktase (VKORC1); dadurch werden die Gerinnungsfaktoren II, VII, IX und X sowie die Gerinnungshemmer Protein C und S nicht mehr funktionsfähig gebildet. Die volle Wirkung setzt erst nach einigen Tagen ein, weil die vorhandenen Faktoren zuerst abgebaut werden müssen; zu Beginn wird daher oft überlappend Heparin gegeben. Wegen der sehr langen Halbwertszeit von rund 150 Stunden hält die Wirkung nach dem Absetzen 1–2 Wochen an; die Dosis wird über den INR-Wert gesteuert, Gegenmittel ist Vitamin K.",
   "kontraindikationen": [
-    { "text": "Erkrankungen mit erhöhter Blutungsneigung (hämorrhagische Diathese, schwere Thrombozytopenie)", "ids": ["blutgerinnungsstoerung", "thrombozytopenie"] },
-    { "text": "Aktive Blutungen und Läsionen mit Blutungsgefahr, z. B. frische Magen-Darm-Geschwüre", "ids": ["aktive-blutung", "magen-darm-ulkus"] },
-    { "text": "Hirnblutung sowie Verdacht auf Aneurysma im Gehirn oder an der Aorta", "ids": ["hirnblutung", "aneurysma"] },
-    { "text": "Kürzliche Operationen oder Verletzungen an Gehirn, Rückenmark oder Auge; Eingriffe mit hohem Blutungsrisiko, Lumbalpunktion oder rückenmarksnahe Anästhesie", "ids": ["operation", "anaesthesie"] },
-    { "text": "Schwerer, nicht ausreichend behandelter Bluthochdruck", "ids": ["hypertonie"] },
-    { "text": "Schwere Leberfunktionsstörung", "ids": ["leberinsuffizienz", "leberzirrhose"] },
-    { "text": "Bakterielle Endokarditis (Herzinnenhautentzündung) und Perikarderguss", "ids": [] },
-    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
-    { "text": "Fehlende Zuverlässigkeit bei Einnahme und Kontrollen (z. B. Demenz oder Alkoholkrankheit ohne Betreuung)", "ids": ["demenz", "alkoholabhaengigkeit"] }
+    {
+      "text": "Erkrankungen mit erhöhter Blutungsneigung (hämorrhagische Diathese, schwere Thrombozytopenie)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Aktive Blutungen und Läsionen mit Blutungsgefahr, z. B. frische Magen-Darm-Geschwüre",
+      "ids": [
+        "aktive-blutung",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Hirnblutung sowie Verdacht auf Aneurysma im Gehirn oder an der Aorta",
+      "ids": [
+        "hirnblutung",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Kürzliche Operationen oder Verletzungen an Gehirn, Rückenmark oder Auge; Eingriffe mit hohem Blutungsrisiko, Lumbalpunktion oder rückenmarksnahe Anästhesie",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Schwerer, nicht ausreichend behandelter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Bakterielle Endokarditis (Herzinnenhautentzündung) und Perikarderguss",
+      "ids": [
+        "endokarditis"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Fehlende Zuverlässigkeit bei Einnahme und Kontrollen (z. B. Demenz oder Alkoholkrankheit ohne Betreuung)",
+      "ids": [
+        "demenz",
+        "alkoholabhaengigkeit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Ältere Menschen und Sturzgefahr (erhöhtes Blutungsrisiko)", "ids": ["aeltere-patienten"] },
-    { "text": "Eingeschränkte Nierenfunktion", "ids": ["niereninsuffizienz"] },
-    { "text": "Schilddrüsenfunktionsstörungen: eine Überfunktion verstärkt, eine Unterfunktion schwächt die Wirkung", "ids": ["hyperthyreose", "hypothyreose"] },
-    { "text": "Herzschwäche mit Leberstauung, Fieber, Durchfall oder Ernährungsumstellung (INR-Schwankungen)", "ids": ["herzinsuffizienz", "fieber", "durchfall"] },
-    { "text": "Geplante Operationen und Zahnbehandlungen; keine Injektionen in den Muskel", "ids": ["operation"] },
-    { "text": "Angeborener Protein-C- oder Protein-S-Mangel (Gefahr von Hautnekrosen zu Therapiebeginn)", "ids": ["thromboembolie-vorgeschichte"] },
-    { "text": "Regelmässiger oder starker Alkoholkonsum", "ids": ["alkoholkonsum"] },
-    { "text": "Frauen im gebärfähigen Alter: sichere Verhütung nötig", "ids": ["frauen-gebaerfaehig"] }
+    {
+      "text": "Ältere Menschen und Sturzgefahr (erhöhtes Blutungsrisiko)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsenfunktionsstörungen: eine Überfunktion verstärkt, eine Unterfunktion schwächt die Wirkung",
+      "ids": [
+        "hyperthyreose",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Herzschwäche mit Leberstauung, Fieber, Durchfall oder Ernährungsumstellung (INR-Schwankungen)",
+      "ids": [
+        "herzinsuffizienz",
+        "fieber",
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Geplante Operationen und Zahnbehandlungen; keine Injektionen in den Muskel",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Angeborener Protein-C- oder Protein-S-Mangel (Gefahr von Hautnekrosen zu Therapiebeginn)",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Regelmässiger oder starker Alkoholkonsum",
+      "ids": [
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: sichere Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Antikoagulanzien (Heparine, DOAK wie Rivaroxaban, Apixaban, Edoxaban, Dabigatran)", "ref": ["gruppe:heparine", "gruppe:doak"], "effekt": "Stark erhöhtes Blutungsrisiko – nur überlappend bei Therapiebeginn oder Umstellung nach ärztlicher Anordnung.", "schwere": "schwer" },
-    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Prasugrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur bei klarer Indikation (z. B. nach Stent) und befristet.", "schwere": "schwer" },
-    { "text": "NSAR und COX-2-Hemmer (z. B. Ibuprofen, Diclofenac, Naproxen, Celecoxib)", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen – möglichst meiden; als Schmerzmittel eher Paracetamol in niedriger Dosis.", "schwere": "schwer" },
-    { "text": "Azol-Antimykotika, auch Miconazol-Mundgel (z. B. Fluconazol, Voriconazol, Miconazol)", "ref": ["gruppe:azol-antimykotika", "miconazol"], "effekt": "Gehemmter Abbau über CYP2C9 – der INR kann stark ansteigen; meiden oder INR engmaschig kontrollieren und Dosis anpassen.", "schwere": "schwer" },
-    { "text": "Amiodaron und andere CYP2C9-Hemmer", "ref": ["amiodaron", "gruppe:cyp2c9-hemmer"], "effekt": "Stark verstärkte Wirkung, bei Amiodaron noch Wochen nach dem Absetzen – INR engmaschig kontrollieren, Dosis reduzieren.", "schwere": "schwer" },
-    { "text": "Antibiotika, besonders Cotrimoxazol, Metronidazol, Makrolide und Fluorchinolone", "ref": ["sulfamethoxazol-trimethoprim", "gruppe:nitroimidazole", "gruppe:makrolide", "gruppe:fluorchinolone"], "effekt": "INR-Anstieg und Blutungsgefahr (Abbauhemmung, gestörte Vitamin-K-bildende Darmflora) – während und kurz nach der Antibiotikatherapie INR häufiger kontrollieren.", "schwere": "schwer" },
-    { "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "rifampicin", "johanniskraut"], "effekt": "Beschleunigter Abbau – der INR sinkt (Thrombosegefahr); beim Absetzen des Induktors steigt er wieder (Blutungsgefahr). INR eng überwachen.", "schwere": "schwer" },
-    { "text": "Fluorouracil, Capecitabin und Tamoxifen", "ref": ["gruppe:fluoropyrimidine", "tamoxifen"], "effekt": "Deutlicher INR-Anstieg mit Blutungen beschrieben – INR engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko durch Hemmung der Blutplättchen; Fluoxetin und Fluvoxamin hemmen zusätzlich den Abbau – INR kontrollieren.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen, INR-Veränderungen möglich – Kontrollen.", "schwere": "mittel" },
-    { "text": "Paracetamol bei regelmässiger Einnahme höherer Dosen", "ref": ["paracetamol"], "effekt": "Der INR kann nach einigen Tagen ansteigen – bei Dauereinnahme INR kontrollieren; gelegentliche Einzeldosen sind unproblematisch.", "schwere": "mittel" },
-    { "text": "Fibrate und einige Statine (z. B. Fenofibrat, Bezafibrat, Rosuvastatin, Simvastatin)", "ref": ["gruppe:fibrate", "rosuvastatin", "simvastatin"], "effekt": "Verstärkte gerinnungshemmende Wirkung – INR bei Beginn und Dosisänderung kontrollieren.", "schwere": "mittel" },
-    { "text": "Schilddrüsenhormone und Thyreostatika", "ref": ["gruppe:schilddruesenhormone", "gruppe:thyreostatika"], "effekt": "Schilddrüsenhormone verstärken die Wirkung (schnellerer Abbau der Gerinnungsfaktoren), Thyreostatika schwächen sie ab – INR bei Dosisänderungen kontrollieren.", "schwere": "mittel" },
-    { "text": "Allopurinol", "ref": ["allopurinol"], "effekt": "Kann die gerinnungshemmende Wirkung verstärken – INR kontrollieren.", "schwere": "mittel" },
-    { "text": "Gallensäurebinder (Colestyramin) und Vitamin K (Phytomenadion), auch in Nahrungsergänzungsmitteln", "ref": ["gruppe:gallensaeurebinder", "phytomenadion"], "effekt": "Abgeschwächte Wirkung (verminderte Aufnahme bzw. direkter Gegenspieler) – Colestyramin zeitversetzt einnehmen, Vitamin-K-Zufuhr gleichmässig halten, INR kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "Andere Antikoagulanzien (Heparine, DOAK wie Rivaroxaban, Apixaban, Edoxaban, Dabigatran)",
+      "ref": [
+        "gruppe:heparine",
+        "gruppe:doak"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – nur überlappend bei Therapiebeginn oder Umstellung nach ärztlicher Anordnung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Prasugrel, Ticagrelor)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – nur bei klarer Indikation (z. B. nach Stent) und befristet.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR und COX-2-Hemmer (z. B. Ibuprofen, Diclofenac, Naproxen, Celecoxib)",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen – möglichst meiden; als Schmerzmittel eher Paracetamol in niedriger Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azol-Antimykotika, auch Miconazol-Mundgel (z. B. Fluconazol, Voriconazol, Miconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika",
+        "miconazol"
+      ],
+      "effekt": "Gehemmter Abbau über CYP2C9 – der INR kann stark ansteigen; meiden oder INR engmaschig kontrollieren und Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Amiodaron und andere CYP2C9-Hemmer",
+      "ref": [
+        "amiodaron",
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Stark verstärkte Wirkung, bei Amiodaron noch Wochen nach dem Absetzen – INR engmaschig kontrollieren, Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antibiotika, besonders Cotrimoxazol, Metronidazol, Makrolide und Fluorchinolone",
+      "ref": [
+        "sulfamethoxazol-trimethoprim",
+        "gruppe:nitroimidazole",
+        "gruppe:makrolide",
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "INR-Anstieg und Blutungsgefahr (Abbauhemmung, gestörte Vitamin-K-bildende Darmflora) – während und kurz nach der Antibiotikatherapie INR häufiger kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "rifampicin",
+        "johanniskraut"
+      ],
+      "effekt": "Beschleunigter Abbau – der INR sinkt (Thrombosegefahr); beim Absetzen des Induktors steigt er wieder (Blutungsgefahr). INR eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fluorouracil, Capecitabin und Tamoxifen",
+      "ref": [
+        "gruppe:fluoropyrimidine",
+        "tamoxifen"
+      ],
+      "effekt": "Deutlicher INR-Anstieg mit Blutungen beschrieben – INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko durch Hemmung der Blutplättchen; Fluoxetin und Fluvoxamin hemmen zusätzlich den Abbau – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen, INR-Veränderungen möglich – Kontrollen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paracetamol bei regelmässiger Einnahme höherer Dosen",
+      "ref": [
+        "paracetamol"
+      ],
+      "effekt": "Der INR kann nach einigen Tagen ansteigen – bei Dauereinnahme INR kontrollieren; gelegentliche Einzeldosen sind unproblematisch.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fibrate und einige Statine (z. B. Fenofibrat, Bezafibrat, Rosuvastatin, Simvastatin)",
+      "ref": [
+        "gruppe:fibrate",
+        "rosuvastatin",
+        "simvastatin"
+      ],
+      "effekt": "Verstärkte gerinnungshemmende Wirkung – INR bei Beginn und Dosisänderung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone und Thyreostatika",
+      "ref": [
+        "gruppe:schilddruesenhormone",
+        "gruppe:thyreostatika"
+      ],
+      "effekt": "Schilddrüsenhormone verstärken die Wirkung (schnellerer Abbau der Gerinnungsfaktoren), Thyreostatika schwächen sie ab – INR bei Dosisänderungen kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Kann die gerinnungshemmende Wirkung verstärken – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (Colestyramin) und Vitamin K (Phytomenadion), auch in Nahrungsergänzungsmitteln",
+      "ref": [
+        "gruppe:gallensaeurebinder",
+        "phytomenadion"
+      ],
+      "effekt": "Abgeschwächte Wirkung (verminderte Aufnahme bzw. direkter Gegenspieler) – Colestyramin zeitversetzt einnehmen, Vitamin-K-Zufuhr gleichmässig halten, INR kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Blutungen unterschiedlicher Schwere – meist leicht (Zahnfleisch- und Nasenbluten, Blutergüsse, Blut im Urin), seltener schwer (Magen-Darm-Blutung, Hirnblutung)"],
-    "gelegentlich": ["Übelkeit, Appetitlosigkeit, Erbrechen, Durchfall", "Vorübergehender Haarausfall", "Hautausschlag, Juckreiz, Nesselsucht"],
-    "selten": ["Cumarin-Nekrose (Absterben von Hautarealen), meist in den ersten Behandlungstagen und bei Protein-C-Mangel"],
-    "sehrSelten": ["Purple-toe-Syndrom (schmerzhafte violette Verfärbung der Zehen)", "Gefässentzündung (Vaskulitis)"],
-    "unbekannt": ["Leberentzündung (Hepatitis) bis hin zu schweren Leberschäden", "Osteoporose bei langdauernder Anwendung", "Calciphylaxie (schmerzhafte Hautgeschwüre durch Gefässverkalkung), vor allem bei Nierenkrankheit"]
+    "sehrHaeufig": [
+      "Blutungen unterschiedlicher Schwere – meist leicht (Zahnfleisch- und Nasenbluten, Blutergüsse, Blut im Urin), seltener schwer (Magen-Darm-Blutung, Hirnblutung)"
+    ],
+    "gelegentlich": [
+      "Übelkeit, Appetitlosigkeit, Erbrechen, Durchfall",
+      "Vorübergehender Haarausfall",
+      "Hautausschlag, Juckreiz, Nesselsucht"
+    ],
+    "selten": [
+      "Cumarin-Nekrose (Absterben von Hautarealen), meist in den ersten Behandlungstagen und bei Protein-C-Mangel"
+    ],
+    "sehrSelten": [
+      "Purple-toe-Syndrom (schmerzhafte violette Verfärbung der Zehen)",
+      "Gefässentzündung (Vaskulitis)"
+    ],
+    "unbekannt": [
+      "Leberentzündung (Hepatitis) bis hin zu schweren Leberschäden",
+      "Osteoporose bei langdauernder Anwendung",
+      "Calciphylaxie (schmerzhafte Hautgeschwüre durch Gefässverkalkung), vor allem bei Nierenkrankheit"
+    ]
   },
   "schwangerschaft": "Kontraindiziert: Phenprocoumon kann das Kind schädigen (Cumarin-Embryopathie, Blutungen). Frauen im gebärfähigen Alter müssen sicher verhüten; bei Kinderwunsch oder Schwangerschaft umgehend ärztlich auf Heparin umstellen.",
   "stillzeit": "Geht in die Muttermilch über; Stillen nur nach ärztlicher Abwägung – das Kind erhält dann vorsorglich Vitamin K und wird auf Blutungszeichen überwacht.",

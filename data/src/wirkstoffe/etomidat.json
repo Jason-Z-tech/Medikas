@@ -1,0 +1,139 @@
+{
+  "id": "etomidat",
+  "name": "Etomidat",
+  "synonyme": [
+    "Etomidate"
+  ],
+  "atc": [
+    "N01AX07"
+  ],
+  "klasse": "Intravenöses Hypnotikum (Imidazol-Derivat)",
+  "kurz": "Rasch wirkendes Schlafmittel zur Narkoseeinleitung, das Herz und Kreislauf wenig belastet; wirkt nicht schmerzstillend.",
+  "gruppen": [
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Etomidat-Lipuro"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Emulsion zur Injektion"
+  ],
+  "indikationen": [
+    {
+      "text": "Einleitung einer Allgemeinanästhesie (Vollnarkose)",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Führt innerhalb von etwa einer Minute zum Einschlafen; die Wirkung hält nur wenige Minuten an. Etomidat verstärkt die Wirkung des hemmenden Botenstoffs GABA am GABA-A-Rezeptor. Herz und Kreislauf werden im Vergleich zu anderen Narkosemitteln wenig beeinträchtigt. Etomidat wirkt nicht schmerzstillend und hemmt vorübergehend die Cortisolbildung in der Nebennierenrinde (Enzym 11-Beta-Hydroxylase).",
+  "kontraindikationen": [
+    {
+      "text": "Erdnuss- oder Sojaallergie (die Emulsion enthält Sojaöl)",
+      "ids": [
+        "erdnuss-sojaallergie"
+      ]
+    },
+    {
+      "text": "Neugeborene und Säuglinge bis 6 Monate, ausser bei zwingender Notwendigkeit im Spital",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nebenniereninsuffizienz oder schwere Infektion (Sepsis): Etomidat hemmt die Cortisolbildung; nicht für Dauerinfusion oder längere Sedierung",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Unwillkürliche Muskelzuckungen (Myoklonien): Vorbehandlung mit einem Opioid oder Benzodiazepin",
+      "ids": []
+    },
+    {
+      "text": "Leberzirrhose und ältere Menschen: verlängerte Wirkung, niedrigere Dosis",
+      "ids": [
+        "leberzirrhose",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Keine Schmerzausschaltung: bei schmerzhaften Eingriffen mit einem Schmerzmittel kombinieren",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide, Benzodiazepine, Neuroleptika, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:antipsychotika",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte und verlängerte Schlafwirkung, Atemdämpfung – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Narkosemittel (z. B. Propofol, Narkosegase)",
+      "ref": [
+        "propofol",
+        "isofluran",
+        "sevofluran",
+        "desfluran"
+      ],
+      "effekt": "Additive Wirkung auf Bewusstsein, Atmung und Kreislauf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Stärkerer Blutdruckabfall möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Myoklonien (unwillkürliche Muskelzuckungen) und andere Bewegungsstörungen"
+    ],
+    "haeufig": [
+      "Venenschmerzen bei der Injektion",
+      "Übelkeit, Erbrechen",
+      "Blutdruckabfall",
+      "Kurzer Atemstillstand (Apnoe), Hyperventilation",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Schluckauf, Husten",
+      "Bradykardie, Herzrhythmusstörungen",
+      "Laryngospasmus (Stimmritzenkrampf)",
+      "Muskelsteifigkeit",
+      "Venenentzündung"
+    ],
+    "unbekannt": [
+      "Vorübergehend verminderte Cortisolbildung (Nebennierenrindeninsuffizienz)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Krampfanfälle",
+      "Herzstillstand"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit; Etomidat gelangt zum Ungeborenen und kann beim Neugeborenen vorübergehend die Cortisolbildung senken.",
+  "stillzeit": "Etomidat geht in die Muttermilch über; nach der Gabe 24 Stunden lang nicht stillen.",
+  "hinweise": [
+    "Wird nur durch Anästhesiefachpersonen mit Überwachung und Beatmungsmöglichkeit verabreicht.",
+    "Bekannte Erdnuss- oder Sojaallergie vor der Narkose angeben.",
+    "Nach der Narkose mindestens 24 Stunden kein Fahrzeug lenken, keine Maschinen bedienen und keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

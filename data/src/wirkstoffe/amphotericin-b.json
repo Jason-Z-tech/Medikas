@@ -1,44 +1,194 @@
 {
   "id": "amphotericin-b",
   "name": "Amphotericin B",
-  "synonyme": ["Amphotericin", "Liposomales Amphotericin B", "L-AmB", "Amphotericinum B"],
-  "atc": ["J02AA01", "A07AA07", "A01AB04"],
+  "synonyme": [
+    "Amphotericin",
+    "Liposomales Amphotericin B",
+    "L-AmB",
+    "Amphotericinum B"
+  ],
+  "atc": [
+    "J02AA01",
+    "A07AA07",
+    "A01AB04"
+  ],
   "klasse": "Polyen-Antimykotikum (Pilzmittel); als Infusion in liposomaler Form",
   "kurz": "Stark wirksames Pilzmittel: als Infusion im Spital gegen lebensbedrohliche Pilzinfektionen, zum Einnehmen gegen Soor in Mund und Darm.",
-  "gruppen": ["nephrotoxisch", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["AmBisome", "Ampho-Moronal"],
-  "abgabe": ["A", "B"],
-  "darreichung": ["Pulver zur Herstellung einer Infusionslösung (liposomal)", "Suspension zum Einnehmen", "Lutschtabletten"],
+  "gruppen": [
+    "nephrotoxisch",
+    "hypokaliaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "AmBisome",
+    "Ampho-Moronal"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung (liposomal)",
+    "Suspension zum Einnehmen",
+    "Lutschtabletten"
+  ],
   "indikationen": [
-    { "text": "Schwere systemische Pilzinfektionen (z. B. invasive Candidose, Aspergillose, Kryptokokkose inkl. Hirnhautentzündung bei HIV, Mukormykose) – Infusion", "ids": ["pilzinfektion"] },
-    { "text": "Behandlung bei Verdacht auf Pilzinfektion bei Fieber und schwerem Mangel an weissen Blutkörperchen (Neutropenie) – Infusion", "ids": ["pilzinfektion", "neutropenie"] },
-    { "text": "Viszerale Leishmaniose (parasitäre Infektion innerer Organe) – Infusion", "ids": [] },
-    { "text": "Hefepilzinfektionen (Soor) von Mund und Magen-Darm-Trakt sowie deren Vorbeugung – zum Einnehmen", "ids": ["mundinfektion", "pilzinfektion"] }
+    {
+      "text": "Schwere systemische Pilzinfektionen (z. B. invasive Candidose, Aspergillose, Kryptokokkose inkl. Hirnhautentzündung bei HIV, Mukormykose) – Infusion",
+      "ids": [
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Behandlung bei Verdacht auf Pilzinfektion bei Fieber und schwerem Mangel an weissen Blutkörperchen (Neutropenie) – Infusion",
+      "ids": [
+        "pilzinfektion",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Viszerale Leishmaniose (parasitäre Infektion innerer Organe) – Infusion",
+      "ids": [
+        "wurmbefall"
+      ]
+    },
+    {
+      "text": "Hefepilzinfektionen (Soor) von Mund und Magen-Darm-Trakt sowie deren Vorbeugung – zum Einnehmen",
+      "ids": [
+        "mundinfektion",
+        "pilzinfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Pilze ab, indem es Löcher in ihre Zellmembran reisst. Amphotericin B bindet an Ergosterol der Pilzmembran und bildet Poren, durch die Ionen und Zellbestandteile austreten; es wirkt so gegen ein breites Spektrum von Hefen und Schimmelpilzen sowie gegen Leishmanien. Eine schwächere Bindung an das Cholesterin menschlicher Zellen erklärt Nierenschäden und Infusionsreaktionen; die Verpackung in Liposomen (AmBisome) vermindert diese Giftigkeit deutlich. Zum Einnehmen wird Amphotericin B praktisch nicht aufgenommen und wirkt nur örtlich in Mund und Darm.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: Nierenwerte während der Infusionstherapie regelmässig kontrollieren", "ids": ["niereninsuffizienz"] },
-    { "text": "Kalium- und Magnesiummangel: Elektrolyte überwachen und ersetzen", "ids": ["hypokaliaemie", "magnesiummangel"] },
-    { "text": "Infusionsreaktionen (Fieber, Schüttelfrost, Rücken- oder Brustschmerzen, Atemnot) und Anaphylaxie, besonders bei der ersten Infusion", "ids": ["anaphylaxie"] },
-    { "text": "Herzrhythmusstörungen oder Herzglykosid-Therapie: Kaliummangel erhöht das Risiko für Rhythmusstörungen", "ids": ["herzrhythmusstoerung"] },
-    { "text": "Diabetes: die Infusionslösung enthält Zucker (Saccharose)", "ids": ["diabetes"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: Nierenwerte während der Infusionstherapie regelmässig kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kalium- und Magnesiummangel: Elektrolyte überwachen und ersetzen",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen (Fieber, Schüttelfrost, Rücken- oder Brustschmerzen, Atemnot) und Anaphylaxie, besonders bei der ersten Infusion",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen oder Herzglykosid-Therapie: Kaliummangel erhöht das Risiko für Rhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes: die Infusionslösung enthält Zucker (Saccharose)",
+      "ids": [
+        "diabetes"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere nierenschädigende Mittel (z. B. Ciclosporin, Tacrolimus, Aminoglykoside, Pentamidin, Foscarnet, Cisplatin, Vancomycin)", "ref": ["gruppe:nephrotoxisch", "gruppe:immunsuppressiva-calcineurin", "gruppe:aminoglykoside", "pentamidin", "foscarnet"], "effekt": "Additive Nierenschädigung – möglichst vermeiden, sonst Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Herzglykoside (Digoxin, Digitoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Ein durch Amphotericin B ausgelöster Kaliummangel verstärkt die Giftigkeit von Herzglykosiden (Rhythmusstörungen) – Kalium überwachen.", "schwere": "schwer" },
-    { "text": "Leukozyten-Transfusionen", "ref": [], "effekt": "Schwere Lungenreaktionen beschrieben – zeitlich möglichst weit auseinander verabreichen.", "schwere": "schwer" },
-    { "text": "Glukokortikoide, Diuretika und andere kaliumsenkende Mittel", "ref": ["gruppe:glukokortikoide-systemisch", "gruppe:schleifendiuretika", "gruppe:thiaziddiuretika", "gruppe:hypokaliaemie-ausloesend"], "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.", "schwere": "mittel" },
-    { "text": "Flucytosin", "ref": ["flucytosin"], "effekt": "Sinnvolle Kombination, aber Flucytosin wird bei verminderter Nierenfunktion schlechter ausgeschieden – Giftigkeit (Knochenmark) steigt; Spiegel und Blutbild kontrollieren.", "schwere": "mittel" },
-    { "text": "Zytostatika (Chemotherapie)", "ref": ["gruppe:zytostatika"], "effekt": "Erhöhtes Risiko für Nierenschäden, Bronchospasmus und Blutdruckabfall – nur mit Vorsicht kombinieren.", "schwere": "mittel" },
-    { "text": "Muskelrelaxanzien zur Narkose", "ref": [], "effekt": "Ein Kaliummangel kann die muskelentspannende Wirkung verstärken – Kalium überwachen.", "schwere": "mittel" }
+    {
+      "text": "Andere nierenschädigende Mittel (z. B. Ciclosporin, Tacrolimus, Aminoglykoside, Pentamidin, Foscarnet, Cisplatin, Vancomycin)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:aminoglykoside",
+        "pentamidin",
+        "foscarnet"
+      ],
+      "effekt": "Additive Nierenschädigung – möglichst vermeiden, sonst Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Herzglykoside (Digoxin, Digitoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein durch Amphotericin B ausgelöster Kaliummangel verstärkt die Giftigkeit von Herzglykosiden (Rhythmusstörungen) – Kalium überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Leukozyten-Transfusionen",
+      "ref": [],
+      "effekt": "Schwere Lungenreaktionen beschrieben – zeitlich möglichst weit auseinander verabreichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Glukokortikoide, Diuretika und andere kaliumsenkende Mittel",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika",
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Flucytosin",
+      "ref": [
+        "flucytosin"
+      ],
+      "effekt": "Sinnvolle Kombination, aber Flucytosin wird bei verminderter Nierenfunktion schlechter ausgeschieden – Giftigkeit (Knochenmark) steigt; Spiegel und Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zytostatika (Chemotherapie)",
+      "ref": [
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden, Bronchospasmus und Blutdruckabfall – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien zur Narkose",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Ein Kaliummangel kann die muskelentspannende Wirkung verstärken – Kalium überwachen.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hypokaliämie (Kaliummangel)", "Übelkeit, Erbrechen", "Fieber, Schüttelfrost (Infusionsreaktion)"],
-    "haeufig": ["Hyponatriämie, Hypokalzämie, Hypomagnesiämie (Salzmangel im Blut), erhöhter Blutzucker", "Kopfschmerzen", "Herzrasen, Blutdruckabfall, Hitzegefühl (Flush)", "Atemnot", "Durchfall, Bauchschmerzen", "Erhöhte Leber- und Nierenwerte (Kreatinin, Harnstoff)", "Hautausschlag", "Rücken- und Brustschmerzen"],
-    "gelegentlich": ["Thrombozytopenie (Mangel an Blutplättchen)", "Anaphylaktoide Reaktionen", "Krampfanfälle", "Bronchospasmus (Verkrampfung der Atemwege)"],
-    "unbekannt": ["Anaphylaxie, Angioödem", "Herzrhythmusstörungen bis Herzstillstand", "Akutes Nierenversagen", "Rhabdomyolyse (Muskelzerfall)", "Anämie (Blutarmut)", "Bei Einnahme (Suspension, Lutschtabletten): Übelkeit, Durchfall, Reizung der Mundschleimhaut, allergische Hautreaktionen"]
+    "sehrHaeufig": [
+      "Hypokaliämie (Kaliummangel)",
+      "Übelkeit, Erbrechen",
+      "Fieber, Schüttelfrost (Infusionsreaktion)"
+    ],
+    "haeufig": [
+      "Hyponatriämie, Hypokalzämie, Hypomagnesiämie (Salzmangel im Blut), erhöhter Blutzucker",
+      "Kopfschmerzen",
+      "Herzrasen, Blutdruckabfall, Hitzegefühl (Flush)",
+      "Atemnot",
+      "Durchfall, Bauchschmerzen",
+      "Erhöhte Leber- und Nierenwerte (Kreatinin, Harnstoff)",
+      "Hautausschlag",
+      "Rücken- und Brustschmerzen"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Anaphylaktoide Reaktionen",
+      "Krampfanfälle",
+      "Bronchospasmus (Verkrampfung der Atemwege)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie, Angioödem",
+      "Herzrhythmusstörungen bis Herzstillstand",
+      "Akutes Nierenversagen",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Anämie (Blutarmut)",
+      "Bei Einnahme (Suspension, Lutschtabletten): Übelkeit, Durchfall, Reizung der Mundschleimhaut, allergische Hautreaktionen"
+    ]
   },
   "schwangerschaft": "Die Infusion nur bei zwingender Notwendigkeit, wenn der Nutzen das mögliche Risiko überwiegt. Präparate zum Einnehmen werden kaum aufgenommen; Anwendung nach ärztlicher Abwägung.",
   "stillzeit": "Ob Amphotericin B nach Infusion in die Muttermilch übergeht, ist nicht bekannt; über Abstillen oder Therapieverzicht ärztlich entscheiden.",

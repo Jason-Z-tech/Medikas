@@ -1,44 +1,188 @@
 {
   "id": "desmopressin",
   "name": "Desmopressin",
-  "synonyme": ["DDAVP", "Desmopressinacetat", "Desmopressin acetate", "1-Desamino-8-D-Arginin-Vasopressin"],
-  "atc": ["H01BA02"],
+  "synonyme": [
+    "DDAVP",
+    "Desmopressinacetat",
+    "Desmopressin acetate",
+    "1-Desamino-8-D-Arginin-Vasopressin"
+  ],
+  "atc": [
+    "H01BA02"
+  ],
   "klasse": "Vasopressin-Analogon (Antidiuretikum, Hämostatikum)",
   "kurz": "Hormon, das die Urinmenge vermindert: bei Diabetes insipidus, Bettnässen und nächtlichem Wasserlösen; als Spritze auch zur Blutstillung.",
-  "gruppen": ["hyponatriaemie-ausloesend"],
-  "handelsnamen": ["Minirin", "Nocdurna", "Octostim"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten", "Schmelztabletten (Lyophilisat)", "Nasenspray", "Injektionslösung"],
+  "gruppen": [
+    "hyponatriaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Minirin",
+    "Nocdurna",
+    "Octostim"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Schmelztabletten (Lyophilisat)",
+    "Nasenspray",
+    "Injektionslösung"
+  ],
   "indikationen": [
-    { "text": "Zentraler Diabetes insipidus (Mangel am Hormon Vasopressin mit grossen Urinmengen)", "ids": ["diabetes-insipidus"] },
-    { "text": "Primäres nächtliches Bettnässen (Enuresis nocturna) bei Kindern ab etwa 5–6 Jahren mit normaler Fähigkeit, den Urin zu konzentrieren", "ids": ["diabetes-insipidus"] },
-    { "text": "Nächtliches Wasserlösen (Nykturie) infolge nächtlicher Überproduktion von Urin bei Erwachsenen", "ids": ["diabetes-insipidus"] },
-    { "text": "Blutstillung bzw. Blutungsvorbeugung (Injektion, Nasenspray Octostim) bei leichter Hämophilie A, Von-Willebrand-Krankheit Typ 1 und verlängerter Blutungszeit, z. B. bei Urämie oder Leberzirrhose", "ids": ["blutgerinnungsstoerung"] },
-    { "text": "Test der Konzentrationsfähigkeit der Nieren (Diagnostik)", "ids": [] }
+    {
+      "text": "Zentraler Diabetes insipidus (Mangel am Hormon Vasopressin mit grossen Urinmengen)",
+      "ids": [
+        "diabetes-insipidus"
+      ]
+    },
+    {
+      "text": "Primäres nächtliches Bettnässen (Enuresis nocturna) bei Kindern ab etwa 5–6 Jahren mit normaler Fähigkeit, den Urin zu konzentrieren",
+      "ids": [
+        "diabetes-insipidus"
+      ]
+    },
+    {
+      "text": "Nächtliches Wasserlösen (Nykturie) infolge nächtlicher Überproduktion von Urin bei Erwachsenen",
+      "ids": [
+        "diabetes-insipidus"
+      ]
+    },
+    {
+      "text": "Blutstillung bzw. Blutungsvorbeugung (Injektion, Nasenspray Octostim) bei leichter Hämophilie A, Von-Willebrand-Krankheit Typ 1 und verlängerter Blutungszeit, z. B. bei Urämie oder Leberzirrhose",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Test der Konzentrationsfähigkeit der Nieren (Diagnostik)",
+      "ids": []
+    }
   ],
   "wirkmechanismus": "Bewirkt, dass die Nieren mehr Wasser zurückhalten und weniger, dafür konzentrierteren Urin bilden. Desmopressin ist ein synthetisch abgewandeltes Vasopressin (antidiuretisches Hormon) und aktiviert gezielt die V2-Rezeptoren in den Sammelrohren der Niere; dadurch werden Wasserkanäle (Aquaporine) eingebaut und Wasser zurückgewonnen. Im Gegensatz zu Vasopressin wirkt es kaum gefässverengend und deutlich länger. In höherer Dosis setzt es zudem Gerinnungsfaktor VIII und von-Willebrand-Faktor aus den Gefässwänden frei und verbessert so die Blutgerinnung.",
   "kontraindikationen": [
-    { "text": "Gewohnheitsmässig oder psychisch bedingte übermässige Trinkmenge (Polydipsie)", "ids": [] },
-    { "text": "Bekannte oder vermutete Herzinsuffizienz und andere Erkrankungen, die eine Behandlung mit Diuretika erfordern", "ids": ["herzinsuffizienz", "oedeme"] },
-    { "text": "Mittelschwere bis schwere Niereninsuffizienz (Kreatinin-Clearance unter 50 ml/min)", "ids": ["niereninsuffizienz"] },
-    { "text": "Bekannte Hyponatriämie (Natriummangel im Blut) oder Syndrom der inadäquaten ADH-Sekretion (SIADH)", "ids": ["hyponatriaemie"] },
-    { "text": "Instabile Angina pectoris (Anwendung zur Blutstillung)", "ids": ["angina-pectoris"] },
-    { "text": "Von-Willebrand-Krankheit Typ 2B (Anwendung zur Blutstillung): Gefahr eines Blutplättchenabfalls", "ids": ["blutgerinnungsstoerung", "thrombozytopenie"] }
+    {
+      "text": "Gewohnheitsmässig oder psychisch bedingte übermässige Trinkmenge (Polydipsie)",
+      "ids": []
+    },
+    {
+      "text": "Bekannte oder vermutete Herzinsuffizienz und andere Erkrankungen, die eine Behandlung mit Diuretika erfordern",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Niereninsuffizienz (Kreatinin-Clearance unter 50 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bekannte Hyponatriämie (Natriummangel im Blut) oder Syndrom der inadäquaten ADH-Sekretion (SIADH)",
+      "ids": [
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris (Anwendung zur Blutstillung)",
+      "ids": [
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Von-Willebrand-Krankheit Typ 2B (Anwendung zur Blutstillung): Gefahr eines Blutplättchenabfalls",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "thrombozytopenie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Kinder, ältere Menschen und Personen mit tiefem Natrium-Ausgangswert: höheres Risiko für Hyponatriämie – Natrium kontrollieren (bei Nykturie ab 65 Jahren vor Beginn und in den ersten Behandlungswochen)", "ids": ["kinder", "aeltere-patienten", "hyponatriaemie"] },
-    { "text": "Akute Erkrankungen mit Störung des Flüssigkeits- oder Salzhaushalts (Fieber, Erbrechen, Durchfall, Infekte): Behandlung unterbrechen", "ids": ["dehydratation", "durchfall", "uebelkeit"] },
-    { "text": "Zystische Fibrose, Herz-Kreislauf-Erkrankungen oder erhöhter Hirndruck: Wasserretention kann gefährlich sein", "ids": ["zystische-fibrose", "koronare-herzkrankheit"] },
-    { "text": "Bluthochdruck und koronare Herzkrankheit bei hoher Dosis zur Blutstillung", "ids": ["hypertonie", "koronare-herzkrankheit"] },
-    { "text": "Vor der Behandlung von Bettnässen oder Nykturie eine schwere Blasenfunktionsstörung oder Abflussbehinderung ausschliessen", "ids": ["harnverhalt", "prostatahyperplasie"] }
+    {
+      "text": "Kinder, ältere Menschen und Personen mit tiefem Natrium-Ausgangswert: höheres Risiko für Hyponatriämie – Natrium kontrollieren (bei Nykturie ab 65 Jahren vor Beginn und in den ersten Behandlungswochen)",
+      "ids": [
+        "kinder",
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Akute Erkrankungen mit Störung des Flüssigkeits- oder Salzhaushalts (Fieber, Erbrechen, Durchfall, Infekte): Behandlung unterbrechen",
+      "ids": [
+        "dehydratation",
+        "durchfall",
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Zystische Fibrose, Herz-Kreislauf-Erkrankungen oder erhöhter Hirndruck: Wasserretention kann gefährlich sein",
+      "ids": [
+        "zystische-fibrose",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Bluthochdruck und koronare Herzkrankheit bei hoher Dosis zur Blutstillung",
+      "ids": [
+        "hypertonie",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Vor der Behandlung von Bettnässen oder Nykturie eine schwere Blasenfunktionsstörung oder Abflussbehinderung ausschliessen",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Mittel, die eine vermehrte ADH-Wirkung (SIADH) auslösen können: trizyklische Antidepressiva, SSRI, Chlorpromazin, Carbamazepin", "ref": ["gruppe:trizyklische-antidepressiva", "gruppe:ssri", "carbamazepin"], "effekt": "Verstärkte Wasserretention mit erhöhtem Risiko für Hyponatriämie – Natrium engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Schleifendiuretika und Glukokortikoide (systemisch oder inhaliert)", "ref": ["gruppe:schleifendiuretika", "gruppe:glukokortikoide-systemisch", "gruppe:glukokortikoide-inhalativ"], "effekt": "Erhöhtes Risiko für Hyponatriämie – bei der Behandlung der Nykturie vermeiden, sonst Natrium engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Indometacin)", "ref": ["gruppe:nsar"], "effekt": "Können Wasserretention und Hyponatriämie verstärken.", "schwere": "mittel" },
-    { "text": "Loperamid", "ref": ["loperamid"], "effekt": "Kann die Desmopressin-Spiegel etwa verdreifachen – erhöhtes Risiko für Hyponatriämie.", "schwere": "mittel" },
-    { "text": "Andere Mittel, die das Natrium senken (z. B. SNRI, Oxcarbazepin, Thiaziddiuretika)", "ref": ["gruppe:hyponatriaemie-ausloesend"], "effekt": "Additives Risiko für Hyponatriämie – Natrium kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "Mittel, die eine vermehrte ADH-Wirkung (SIADH) auslösen können: trizyklische Antidepressiva, SSRI, Chlorpromazin, Carbamazepin",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:ssri",
+        "carbamazepin"
+      ],
+      "effekt": "Verstärkte Wasserretention mit erhöhtem Risiko für Hyponatriämie – Natrium engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Schleifendiuretika und Glukokortikoide (systemisch oder inhaliert)",
+      "ref": [
+        "gruppe:schleifendiuretika",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:glukokortikoide-inhalativ"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyponatriämie – bei der Behandlung der Nykturie vermeiden, sonst Natrium engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, Indometacin)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Können Wasserretention und Hyponatriämie verstärken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Loperamid",
+      "ref": [
+        "loperamid"
+      ],
+      "effekt": "Kann die Desmopressin-Spiegel etwa verdreifachen – erhöhtes Risiko für Hyponatriämie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Mittel, die das Natrium senken (z. B. SNRI, Oxcarbazepin, Thiaziddiuretika)",
+      "ref": [
+        "gruppe:hyponatriaemie-ausloesend"
+      ],
+      "effekt": "Additives Risiko für Hyponatriämie – Natrium kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [
@@ -57,7 +201,9 @@
       "Gewichtszunahme",
       "Stimmungsschwankungen, Aggressivität (bei Kindern)"
     ],
-    "selten": ["Verwirrtheit"],
+    "selten": [
+      "Verwirrtheit"
+    ],
     "unbekannt": [
       "Schwere Hyponatriämie mit Krampfanfällen, Hirnödem und Bewusstlosigkeit (Wasservergiftung)",
       "Anaphylaktische Reaktionen",

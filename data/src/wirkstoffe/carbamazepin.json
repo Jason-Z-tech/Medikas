@@ -161,19 +161,44 @@
       "grund": "Gefahr schwerer Reaktionen (Blutdruckkrise, Krampfanfälle) wegen struktureller Verwandtschaft mit trizyklischen Antidepressiva."
     },
     {
-      "text": "Voriconazol",
+      "text": "Voriconazol und Isavuconazol (Pilzmittel)",
       "ref": [
-        "voriconazol"
+        "voriconazol",
+        "isavuconazol"
       ],
-      "grund": "Starke Enzyminduktion senkt die Voriconazol-Spiegel so weit, dass die Pilzbehandlung versagt."
+      "grund": "Starke Enzyminduktion senkt die Spiegel der Pilzmittel so weit, dass die Behandlung versagt."
     },
     {
-      "text": "Rilpivirin und Doravirin (HIV-Mittel)",
+      "text": "HIV-Mittel: Rilpivirin, Doravirin, Cabotegravir, Lenacapavir sowie mit Cobicistat geboosterte Mittel (z. B. Darunavir/Cobicistat, Elvitegravir/Cobicistat)",
       "ref": [
         "rilpivirin",
-        "doravirin"
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "dolutegravir-rilpivirin",
+        "doravirin",
+        "doravirin-lamivudin-tenofovirdisoproxil",
+        "cabotegravir",
+        "lenacapavir",
+        "cobicistat",
+        "darunavir-cobicistat",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid"
       ],
       "grund": "Deutlich gesenkte Spiegel der HIV-Mittel – Gefahr von Therapieversagen und Resistenzen."
+    },
+    {
+      "text": "Nirmatrelvir/Ritonavir (COVID-19-Mittel)",
+      "ref": [
+        "nirmatrelvir-ritonavir"
+      ],
+      "grund": "Enzyminduktion senkt die Nirmatrelvir-Spiegel – Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Direkt wirkende Hepatitis-C-Mittel (z. B. Sofosbuvir/Velpatasvir, Glecaprevir/Pibrentasvir)",
+      "ref": [
+        "gruppe:hcv-daa"
+      ],
+      "grund": "Induktion von CYP-Enzymen und P-Glykoprotein senkt die Spiegel – Gefahr des Therapieversagens."
     },
     {
       "text": "Lurasidon",
@@ -181,6 +206,13 @@
         "lurasidon"
       ],
       "grund": "Starke CYP3A4-Induktion senkt die Lurasidon-Spiegel drastisch – Wirkverlust."
+    },
+    {
+      "text": "Nimodipin (zum Einnehmen)",
+      "ref": [
+        "nimodipin"
+      ],
+      "grund": "Starke Enzyminduktion senkt die Nimodipin-Spiegel drastisch – Wirkverlust."
     }
   ],
   "interaktionen": [
@@ -220,9 +252,10 @@
       "schwere": "schwer"
     },
     {
-      "text": "HIV-Proteasehemmer und viele weitere CYP3A4-abhängige Mittel (z. B. Statine, Calciumantagonisten, Kortison)",
+      "text": "HIV-Proteasehemmer, Krebsmittel (Proteinkinase-Hemmer) und viele weitere CYP3A4-abhängige Mittel (z. B. Statine, Calciumantagonisten, Kortison)",
       "ref": [
         "gruppe:hiv-proteasehemmer",
+        "gruppe:proteinkinase-hemmer",
         "gruppe:cyp3a4-substrate-empfindlich"
       ],
       "effekt": "Wirkverlust dieser Mittel durch beschleunigten Abbau – Dosis anpassen oder Alternativen wählen.",

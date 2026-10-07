@@ -1,41 +1,172 @@
 {
   "id": "tenofovirdisoproxil",
   "name": "Tenofovirdisoproxil",
-  "synonyme": ["TDF", "Tenofovir disoproxil", "Tenofovirdisoproxilfumarat"],
-  "atc": ["J05AF07"],
+  "synonyme": [
+    "TDF",
+    "Tenofovir disoproxil",
+    "Tenofovirdisoproxilfumarat"
+  ],
+  "atc": [
+    "J05AF07"
+  ],
   "klasse": "Nukleotidischer Reverse-Transkriptase-Hemmer (NtRTI); Hepatitis-B-Mittel",
   "kurz": "Virushemmendes Mittel gegen HIV (in Kombination) und chronische Hepatitis B; kann Nieren und Knochen belasten.",
-  "gruppen": ["nephrotoxisch"],
-  "handelsnamen": ["Viread", "Truvada (Kombi)", "Eviplera (Kombi)", "Delstrigo (Kombi)"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "nephrotoxisch"
+  ],
+  "handelsnamen": [
+    "Viread",
+    "Truvada (Kombi)",
+    "Eviplera (Kombi)",
+    "Delstrigo (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen, in Kombination mit anderen antiretroviralen Mitteln", "ids": ["hiv"] },
-    { "text": "Chronische Hepatitis B bei Erwachsenen (auch bei Lamivudin-Resistenz und dekompensierter Lebererkrankung) und Jugendlichen ab 12 Jahren", "ids": ["hepatitis-b"] }
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen, in Kombination mit anderen antiretroviralen Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Chronische Hepatitis B bei Erwachsenen (auch bei Lamivudin-Resistenz und dekompensierter Lebererkrankung) und Jugendlichen ab 12 Jahren",
+      "ids": [
+        "hepatitis-b"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung von HIV und Hepatitis-B-Viren. Tenofovirdisoproxil ist eine Vorstufe (Prodrug), die nach der Aufnahme zu Tenofovir gespalten und in den Zellen zu Tenofovir-Diphosphat aktiviert wird. Dieses Nukleotid-Analogon des Adenosins wird von der Reversen Transkriptase von HIV bzw. der Polymerase des Hepatitis-B-Virus in die Virus-DNA eingebaut und führt zum Kettenabbruch. Tenofovir wird über die Nieren ausgeschieden und reichert sich in den Zellen der Nierenkanälchen an, was die mögliche Nierenschädigung erklärt.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: Dosisintervall verlängern; vor und während der Behandlung Nierenfunktion und Phosphat kontrollieren", "ids": ["niereninsuffizienz"] },
-    { "text": "Knochenerkrankungen oder erhöhtes Frakturrisiko (Abnahme der Knochendichte, selten Knochenerweichung)", "ids": ["osteoporose"] },
-    { "text": "Hepatitis-B-Infektion: Absetzen kann schwere Hepatitisschübe auslösen", "ids": ["hepatitis-b"] },
-    { "text": "Fortgeschrittene Lebererkrankung (dekompensierte Zirrhose)", "ids": ["leberzirrhose"] },
-    { "text": "Behandlung der Hepatitis B: vorher HIV-Test, da bei unerkannter HIV-Infektion Resistenzen entstehen", "ids": ["hiv"] },
-    { "text": "Gleichzeitige oder kürzliche Einnahme nierenschädigender Mittel", "ids": [] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisintervall verlängern; vor und während der Behandlung Nierenfunktion und Phosphat kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Knochenerkrankungen oder erhöhtes Frakturrisiko (Abnahme der Knochendichte, selten Knochenerweichung)",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Infektion: Absetzen kann schwere Hepatitisschübe auslösen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene Lebererkrankung (dekompensierte Zirrhose)",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Behandlung der Hepatitis B: vorher HIV-Test, da bei unerkannter HIV-Infektion Resistenzen entstehen",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Gleichzeitige oder kürzliche Einnahme nierenschädigender Mittel",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Foscarnet, Ganciclovir, Pentamidin, Vancomycin, Cidofovir)", "ref": ["gruppe:nephrotoxisch", "foscarnet", "ganciclovir", "pentamidin"], "effekt": "Erhöhtes Risiko für Nierenschäden – möglichst vermeiden, sonst Nierenfunktion wöchentlich kontrollieren.", "schwere": "schwer" },
-    { "text": "Hoch dosierte oder mehrere NSAR gleichzeitig (z. B. Diclofenac, Ibuprofen)", "ref": ["gruppe:nsar"], "effekt": "Fälle von akutem Nierenversagen, vor allem bei Risikofaktoren – Nierenfunktion kontrollieren, möglichst andere Schmerzmittel.", "schwere": "mittel" },
-    { "text": "Mit Ritonavir oder Cobicistat geboosterte HIV-Mittel (z. B. Darunavir, Atazanavir, Lopinavir)", "ref": ["ritonavir", "cobicistat", "darunavir", "atazanavir", "lopinavir-ritonavir"], "effekt": "Tenofovir-Spiegel steigen – Nierenfunktion engmaschiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Hepatitis-C-Mittel mit Sofosbuvir und Ledipasvir oder Velpatasvir", "ref": ["ledipasvir-sofosbuvir", "sofosbuvir-velpatasvir", "sofosbuvir-velpatasvir-voxilaprevir"], "effekt": "Tenofovir-Spiegel steigen, besonders zusammen mit geboosterten HIV-Mitteln – Nierenfunktion überwachen.", "schwere": "mittel" },
-    { "text": "Andere tenofovirhaltige Präparate (Tenofoviralafenamid)", "ref": ["tenofoviralafenamid"], "effekt": "Doppelbehandlung vermeiden.", "schwere": "mittel" }
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Foscarnet, Ganciclovir, Pentamidin, Vancomycin, Cidofovir)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "foscarnet",
+        "ganciclovir",
+        "pentamidin"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden – möglichst vermeiden, sonst Nierenfunktion wöchentlich kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hoch dosierte oder mehrere NSAR gleichzeitig (z. B. Diclofenac, Ibuprofen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Fälle von akutem Nierenversagen, vor allem bei Risikofaktoren – Nierenfunktion kontrollieren, möglichst andere Schmerzmittel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mit Ritonavir oder Cobicistat geboosterte HIV-Mittel (z. B. Darunavir, Atazanavir, Lopinavir)",
+      "ref": [
+        "ritonavir",
+        "cobicistat",
+        "darunavir",
+        "atazanavir",
+        "lopinavir-ritonavir",
+        "darunavir-cobicistat"
+      ],
+      "effekt": "Tenofovir-Spiegel steigen – Nierenfunktion engmaschiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hepatitis-C-Mittel mit Sofosbuvir und Ledipasvir oder Velpatasvir",
+      "ref": [
+        "ledipasvir-sofosbuvir",
+        "sofosbuvir-velpatasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "effekt": "Tenofovir-Spiegel steigen, besonders zusammen mit geboosterten HIV-Mitteln – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere tenofovirhaltige Präparate (Tenofoviralafenamid und Kombinationspräparate mit Tenofovir)",
+      "ref": [
+        "tenofoviralafenamid",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "bictegravir-emtricitabin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "effekt": "Doppelbehandlung vermeiden.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hypophosphatämie (zu wenig Phosphat im Blut)", "Schwindel", "Durchfall, Übelkeit, Erbrechen", "Hautausschlag", "Asthenie (Schwäche)"],
-    "haeufig": ["Kopfschmerzen", "Bauchschmerzen, Blähbauch, Blähungen", "Erhöhte Leberwerte", "Müdigkeit"],
-    "gelegentlich": ["Proximale Tubulopathie der Niere (inkl. Fanconi-Syndrom), Kreatininanstieg", "Hypokaliämie (Kaliummangel)", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Rhabdomyolyse (Muskelzerfall), Muskelschwäche"],
-    "selten": ["Akutes Nierenversagen, Nierenentzündung, nephrogener Diabetes insipidus", "Osteomalazie (Knochenerweichung) mit Knochenschmerzen und Brüchen", "Laktatazidose (Übersäuerung des Blutes)", "Fettleber, Hepatitis", "Angioödem (Schwellung von Haut und Schleimhäuten)"]
+    "sehrHaeufig": [
+      "Hypophosphatämie (zu wenig Phosphat im Blut)",
+      "Schwindel",
+      "Durchfall, Übelkeit, Erbrechen",
+      "Hautausschlag",
+      "Asthenie (Schwäche)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bauchschmerzen, Blähbauch, Blähungen",
+      "Erhöhte Leberwerte",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Proximale Tubulopathie der Niere (inkl. Fanconi-Syndrom), Kreatininanstieg",
+      "Hypokaliämie (Kaliummangel)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Rhabdomyolyse (Muskelzerfall), Muskelschwäche"
+    ],
+    "selten": [
+      "Akutes Nierenversagen, Nierenentzündung, nephrogener Diabetes insipidus",
+      "Osteomalazie (Knochenerweichung) mit Knochenschmerzen und Brüchen",
+      "Laktatazidose (Übersäuerung des Blutes)",
+      "Fettleber, Hepatitis",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)"
+    ]
   },
   "schwangerschaft": "Kann bei Bedarf in der Schwangerschaft angewendet werden; umfangreiche Daten zeigen kein erhöhtes Fehlbildungsrisiko.",
   "stillzeit": "Tenofovir geht in die Muttermilch über; gemäss Fachinformation während der Stillzeit nicht anwenden. HIV-positive Mütter sollen grundsätzlich nicht stillen.",

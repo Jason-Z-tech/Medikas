@@ -1,53 +1,253 @@
 {
   "id": "atorvastatin",
   "name": "Atorvastatin",
-  "synonyme": ["Atorvastatin-Calcium", "Atorvastatinum"],
-  "atc": ["C10AA05"],
+  "synonyme": [
+    "Atorvastatin-Calcium",
+    "Atorvastatinum"
+  ],
+  "atc": [
+    "C10AA05"
+  ],
   "klasse": "HMG-CoA-Reduktase-Hemmer (Statin)",
   "kurz": "Stark wirksamer Cholesterinsenker aus der Gruppe der Statine; beugt Herzinfarkt und Schlaganfall vor.",
-  "gruppen": ["statine", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Sortis", "Atorvastatin-Mepha", "Atorvastatin Sandoz", "Atozet (Kombi)", "Caduet (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "statine",
+    "cyp3a4-substrate-empfindlich",
+    "myotoxisch"
+  ],
+  "handelsnamen": [
+    "Sortis",
+    "Atorvastatin-Mepha",
+    "Atorvastatin Sandoz",
+    "Atozet (Kombi)",
+    "Caduet (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Erhöhtes Cholesterin (primäre Hypercholesterinämie inkl. heterozygoter familiärer Form, gemischte Hyperlipidämie), ergänzend zur Diät", "ids": ["hypercholesterinaemie"] },
-    { "text": "Homozygote familiäre Hypercholesterinämie, ergänzend zu anderen lipidsenkenden Massnahmen", "ids": ["hypercholesterinaemie"] },
-    { "text": "Vorbeugung von Herzinfarkt und Schlaganfall bei hohem Herz-Kreislauf-Risiko, zusätzlich zur Behandlung anderer Risikofaktoren", "ids": ["herzinfarkt", "schlaganfall", "koronare-herzkrankheit"] }
+    {
+      "text": "Erhöhtes Cholesterin (primäre Hypercholesterinämie inkl. heterozygoter familiärer Form, gemischte Hyperlipidämie), ergänzend zur Diät",
+      "ids": [
+        "hypercholesterinaemie",
+        "familiaere-hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Homozygote familiäre Hypercholesterinämie, ergänzend zu anderen lipidsenkenden Massnahmen",
+      "ids": [
+        "hypercholesterinaemie",
+        "familiaere-hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Herzinfarkt und Schlaganfall bei hohem Herz-Kreislauf-Risiko, zusätzlich zur Behandlung anderer Risikofaktoren",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt das Cholesterin, indem es dessen Herstellung in der Leber bremst. Atorvastatin hemmt selektiv und kompetitiv die HMG-CoA-Reduktase, das Schlüsselenzym der Cholesterinsynthese. Die Leberzellen bilden mehr LDL-Rezeptoren und holen vermehrt LDL-Cholesterin aus dem Blut; zusätzlich sinken die Triglyceride. Atorvastatin wird über CYP3A4 zu ebenfalls wirksamen Metaboliten abgebaut und über den Transporter OATP1B1 in die Leber aufgenommen – Hemmer dieser Wege erhöhen die Spiegel und das Risiko für Muskelschäden.",
   "kontraindikationen": [
-    { "text": "Aktive Lebererkrankung oder ungeklärte, anhaltend erhöhte Leberwerte (über das Dreifache der Norm)", "ids": ["leberinsuffizienz"] },
-    { "text": "Schwangerschaft", "ids": ["schwangerschaft"] },
-    { "text": "Stillzeit", "ids": ["stillzeit"] },
-    { "text": "Frauen im gebärfähigen Alter ohne zuverlässige Verhütung", "ids": ["frauen-gebaerfaehig"] }
+    {
+      "text": "Aktive Lebererkrankung oder ungeklärte, anhaltend erhöhte Leberwerte (über das Dreifache der Norm)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Muskelschäden unter einem Statin oder Fibrat in der Vorgeschichte, eigene oder familiäre erbliche Muskelerkrankung", "ids": ["muskelerkrankung"] },
-    { "text": "Eingeschränkte Nierenfunktion", "ids": ["niereninsuffizienz"] },
-    { "text": "Schilddrüsenunterfunktion", "ids": ["hypothyreose"] },
-    { "text": "Alter über 70 Jahre (höheres Myopathierisiko)", "ids": ["aeltere-patienten"] },
-    { "text": "Hoher Alkoholkonsum oder Lebererkrankung in der Vorgeschichte: Leberwerte kontrollieren", "ids": ["alkoholkonsum", "leberinsuffizienz"] },
-    { "text": "Früherer hämorrhagischer Schlaganfall oder lakunärer Hirninfarkt: in einer Studie mit hoher Dosis mehr Hirnblutungen", "ids": ["hirnblutung", "schlaganfall"] },
-    { "text": "Risikofaktoren für Diabetes: Blutzucker kontrollieren", "ids": ["diabetes"] },
-    { "text": "Myasthenia gravis: Statine können sie auslösen oder verschlimmern", "ids": ["myasthenia-gravis"] }
+    {
+      "text": "Muskelschäden unter einem Statin oder Fibrat in der Vorgeschichte, eigene oder familiäre erbliche Muskelerkrankung",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Alter über 70 Jahre (höheres Myopathierisiko)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Hoher Alkoholkonsum oder Lebererkrankung in der Vorgeschichte: Leberwerte kontrollieren",
+      "ids": [
+        "alkoholkonsum",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Früherer hämorrhagischer Schlaganfall oder lakunärer Hirninfarkt: in einer Studie mit hoher Dosis mehr Hirnblutungen",
+      "ids": [
+        "hirnblutung",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für Diabetes: Blutzucker kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: Statine können sie auslösen oder verschlimmern",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Glecaprevir/Pibrentasvir (Hepatitis-C-Mittel)", "ref": ["glecaprevir-pibrentasvir"], "grund": "Hemmt die Leber-Transporter OATP1B1/1B3 – Atorvastatin-Spiegel steigen stark mit hohem Risiko für Myopathie und Rhabdomyolyse." }
+    {
+      "text": "Glecaprevir/Pibrentasvir (Hepatitis-C-Mittel)",
+      "ref": [
+        "glecaprevir-pibrentasvir"
+      ],
+      "grund": "Hemmt die Leber-Transporter OATP1B1/1B3 – Atorvastatin-Spiegel steigen stark mit hohem Risiko für Myopathie und Rhabdomyolyse."
+    }
   ],
   "interaktionen": [
-    { "text": "Ciclosporin; Tipranavir mit Ritonavir", "ref": ["ciclosporin"], "effekt": "Atorvastatin-Spiegel steigen um ein Vielfaches – Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Posaconazol, Voriconazol) und HIV-Proteasehemmer mit Ritonavir oder Cobicistat", "ref": ["gruppe:starke-cyp3a4-hemmer", "gruppe:hiv-proteasehemmer", "cobicistat"], "effekt": "Deutlich höhere Atorvastatin-Spiegel – wenn möglich vermeiden, sonst tiefe Höchstdosis (oft 20 mg) und Überwachung auf Muskelschäden.", "schwere": "schwer" },
-    { "text": "Letermovir", "ref": ["letermovir"], "effekt": "Atorvastatin-Spiegel steigt – höchstens 20 mg pro Tag; zusammen mit Letermovir und Ciclosporin nicht anwenden.", "schwere": "schwer" },
-    { "text": "Fusidinsäure (zum Einnehmen oder als Infusion)", "ref": ["fusidinsaeure"], "effekt": "Schwere, teils tödliche Rhabdomyolysen – Atorvastatin während der Fusidinsäure-Behandlung pausieren.", "schwere": "schwer" },
-    { "text": "Fibrate, besonders Gemfibrozil", "ref": ["gruppe:fibrate"], "effekt": "Erhöhtes Risiko für Myopathie und Rhabdomyolyse – Gemfibrozil möglichst meiden, mit anderen Fibraten nur mit Überwachung.", "schwere": "schwer" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Diltiazem, Verapamil, Fluconazol) und Amiodaron", "ref": ["gruppe:maessige-cyp3a4-hemmer", "amiodaron"], "effekt": "Atorvastatin-Spiegel steigen – tiefere Höchstdosis erwägen, auf Muskelbeschwerden achten.", "schwere": "mittel" },
-    { "text": "Colchicin", "ref": ["colchicin"], "effekt": "Myopathie und Rhabdomyolyse möglich – auf Muskelbeschwerden achten.", "schwere": "mittel" },
-    { "text": "Daptomycin", "ref": ["daptomycin"], "effekt": "Erhöhtes Risiko für Muskelschäden – Statin während der Daptomycin-Behandlung pausieren erwägen.", "schwere": "mittel" },
-    { "text": "Grapefruitsaft in grossen Mengen (über 1,2 Liter pro Tag)", "ref": [], "effekt": "Hemmt CYP3A4 und erhöht die Atorvastatin-Spiegel – grosse Mengen meiden.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Efavirenz, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Atorvastatin-Spiegel sinkt, Wirkung schwächer; Rifampicin gleichzeitig mit Atorvastatin einnehmen, da zeitversetzte Einnahme die Spiegel stark senkt.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxinspiegel steigt leicht – Spiegel überwachen.", "schwere": "leicht" },
-    { "text": "Hormonale Verhütungsmittel", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Spiegel von Norethisteron und Ethinylestradiol steigen leicht; bei der Wahl der Pille berücksichtigen.", "schwere": "leicht" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Sehr selten INR-Veränderungen – INR zu Beginn und bei Dosisänderung kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Ciclosporin; Tipranavir mit Ritonavir",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Atorvastatin-Spiegel steigen um ein Vielfaches – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Posaconazol, Voriconazol) und HIV-Proteasehemmer mit Ritonavir oder Cobicistat",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "cobicistat"
+      ],
+      "effekt": "Deutlich höhere Atorvastatin-Spiegel – wenn möglich vermeiden, sonst tiefe Höchstdosis (oft 20 mg) und Überwachung auf Muskelschäden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Letermovir",
+      "ref": [
+        "letermovir"
+      ],
+      "effekt": "Atorvastatin-Spiegel steigt – höchstens 20 mg pro Tag; zusammen mit Letermovir und Ciclosporin nicht anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fusidinsäure (zum Einnehmen oder als Infusion)",
+      "ref": [
+        "fusidinsaeure"
+      ],
+      "effekt": "Schwere, teils tödliche Rhabdomyolysen – Atorvastatin während der Fusidinsäure-Behandlung pausieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fibrate, besonders Gemfibrozil",
+      "ref": [
+        "gruppe:fibrate"
+      ],
+      "effekt": "Erhöhtes Risiko für Myopathie und Rhabdomyolyse – Gemfibrozil möglichst meiden, mit anderen Fibraten nur mit Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Diltiazem, Verapamil, Fluconazol) und Amiodaron",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer",
+        "amiodaron"
+      ],
+      "effekt": "Atorvastatin-Spiegel steigen – tiefere Höchstdosis erwägen, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "effekt": "Myopathie und Rhabdomyolyse möglich – auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Daptomycin",
+      "ref": [
+        "daptomycin"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden – Statin während der Daptomycin-Behandlung pausieren erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft in grossen Mengen (über 1,2 Liter pro Tag)",
+      "ref": [],
+      "effekt": "Hemmt CYP3A4 und erhöht die Atorvastatin-Spiegel – grosse Mengen meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Efavirenz, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Atorvastatin-Spiegel sinkt, Wirkung schwächer; Rifampicin gleichzeitig mit Atorvastatin einnehmen, da zeitversetzte Einnahme die Spiegel stark senkt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxinspiegel steigt leicht – Spiegel überwachen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Spiegel von Norethisteron und Ethinylestradiol steigen leicht; bei der Wahl der Pille berücksichtigen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Sehr selten INR-Veränderungen – INR zu Beginn und bei Dosisänderung kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [

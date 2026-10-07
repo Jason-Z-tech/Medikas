@@ -45,6 +45,12 @@
   "wirkmechanismus": "Hemmt die Teilung von Krebszellen, indem es den Aufbau des Zellteilungsapparats stört. Vinorelbin ist ein halbsynthetisches Vinca-Alkaloid, das an Tubulin bindet und die Polymerisation der Mikrotubuli hemmt. Dadurch kann sich die Mitosespindel nicht ausbilden; die Zellen werden in der Metaphase (G2/M-Phase) blockiert und sterben ab. Die Wirkung auf die Mikrotubuli der Nervenzellen erklärt die Nervenschäden.",
   "kontraindikationen": [
     {
+      "text": "Überempfindlichkeit gegen andere Vinca-Alkaloide (z. B. Vincristin, Vinblastin)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
       "text": "Neutrophile Granulozyten unter 1500/mm³ oder schwere Infektion (aktuell oder in den letzten 2 Wochen)",
       "ids": [
         "neutropenie",
@@ -64,10 +70,17 @@
       ]
     },
     {
-      "text": "Kapseln: schwere Leberinsuffizienz sowie Erkrankungen oder grössere Operationen an Magen oder Dünndarm, welche die Aufnahme beeinträchtigen",
+      "text": "Kapseln: Erkrankungen oder grössere Operationen an Magen oder Dünndarm, welche die Aufnahme beeinträchtigen; Langzeit-Sauerstofftherapie; schwere Leberinsuffizienz",
       "ids": [
-        "schwere-leberinsuffizienz",
-        "malabsorption"
+        "malabsorption",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter ohne wirksame Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "schwangerschaft"
       ]
     }
   ],
@@ -234,7 +247,8 @@
     ],
     "unbekannt": [
       "Febrile Neutropenie, septischer Schock",
-      "Hyponatriämie (Natriummangel) durch SIADH"
+      "Hyponatriämie (Natriummangel) durch SIADH",
+      "Anaphylaxie, anaphylaktischer Schock (schwere allergische Reaktionen)"
     ]
   },
   "schwangerschaft": "Im Tierversuch fruchtschädigend; in der Schwangerschaft nur bei zwingender Indikation. Frauen und Männer müssen während und noch mehrere Monate nach der Behandlung sicher verhüten.",

@@ -1,32 +1,86 @@
 {
   "id": "nystatin",
   "name": "Nystatin",
-  "synonyme": ["Nystatinum", "Fungicidin"],
-  "atc": ["A07AA02", "D01AA01"],
+  "synonyme": [
+    "Nystatinum",
+    "Fungicidin"
+  ],
+  "atc": [
+    "A07AA02",
+    "D01AA01"
+  ],
   "klasse": "Polyen-Antimykotikum (örtlich wirksames Pilzmittel)",
   "kurz": "Pilzmittel gegen Hefepilze (Candida) in Mund, Darm und auf der Haut; wird nicht ins Blut aufgenommen und wirkt nur örtlich.",
   "gruppen": [],
-  "handelsnamen": ["Mycostatin", "Multilind (Kombi)"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Suspension zum Einnehmen", "Paste (Kombination mit Zinkoxid)"],
+  "handelsnamen": [
+    "Mycostatin",
+    "Multilind (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Suspension zum Einnehmen",
+    "Paste (Kombination mit Zinkoxid)"
+  ],
   "indikationen": [
-    { "text": "Hefepilzinfektionen (Candida, Soor) der Mundhöhle und des Magen-Darm-Trakts", "ids": ["mundinfektion", "pilzinfektion"] },
-    { "text": "Vorbeugung von Candida-Infektionen im Mund und Darm bei erhöhtem Risiko (z. B. geschwächte Abwehr, Chemotherapie)", "ids": ["pilzinfektion", "immunsuppression"] },
-    { "text": "Candida-Infektionen der Haut, z. B. in Hautfalten oder im Windelbereich (Paste mit Zinkoxid)", "ids": ["hautpilz"] }
+    {
+      "text": "Hefepilzinfektionen (Candida, Soor) der Mundhöhle und des Magen-Darm-Trakts",
+      "ids": [
+        "mundinfektion",
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Candida-Infektionen im Mund und Darm bei erhöhtem Risiko (z. B. geschwächte Abwehr, Chemotherapie)",
+      "ids": [
+        "pilzinfektion",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Candida-Infektionen der Haut, z. B. in Hautfalten oder im Windelbereich (Paste mit Zinkoxid)",
+      "ids": [
+        "hautpilz"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Hefepilze ab, indem es ihre Zellhülle durchlöchert. Nystatin bindet an Ergosterol, einen Baustein der Pilzzellmembran, und bildet Poren, durch die lebenswichtige Zellbestandteile austreten; je nach Konzentration wirkt es pilzhemmend oder pilzabtötend, vor allem auf Candida-Arten. Aus dem Magen-Darm-Trakt und über die intakte Haut wird Nystatin praktisch nicht aufgenommen; es wirkt deshalb nur dort, wo es aufgetragen oder geschluckt wird, und eignet sich nicht zur Behandlung von Pilzinfektionen innerer Organe.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Nicht zur Behandlung von Pilzinfektionen im Blut oder in inneren Organen geeignet (wird nicht aufgenommen)", "ids": ["pilzinfektion"] },
-    { "text": "Diabetes und hereditäre Fructoseintoleranz: die Suspension enthält Zucker (Saccharose)", "ids": ["diabetes", "fructoseintoleranz"] },
-    { "text": "Zahnprothesen bei Mundsoor herausnehmen und mitbehandeln, sonst Rückfallgefahr", "ids": [] },
-    { "text": "Keine Besserung nach etwa 2 Wochen: ärztlich abklären lassen (andere Ursache oder unempfindlicher Erreger möglich)", "ids": [] }
+    {
+      "text": "Nicht zur Behandlung von Pilzinfektionen im Blut oder in inneren Organen geeignet (wird nicht aufgenommen)",
+      "ids": []
+    },
+    {
+      "text": "Diabetes und hereditäre Fructoseintoleranz: die Suspension enthält Zucker (Saccharose)",
+      "ids": [
+        "diabetes",
+        "fructoseintoleranz"
+      ]
+    },
+    {
+      "text": "Zahnprothesen bei Mundsoor herausnehmen und mitbehandeln, sonst Rückfallgefahr",
+      "ids": []
+    },
+    {
+      "text": "Keine Besserung nach etwa 2 Wochen: ärztlich abklären lassen (andere Ursache oder unempfindlicher Erreger möglich)",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [],
   "nebenwirkungen": {
-    "sehrSelten": ["Stevens-Johnson-Syndrom (schwere Hautreaktion)"],
-    "unbekannt": ["Übelkeit, Erbrechen, Durchfall (v. a. bei hohen Dosen)", "Reizung der Mundschleimhaut", "Überempfindlichkeitsreaktionen wie Hautausschlag oder Nesselsucht", "Hautreizung oder Kontaktekzem bei Anwendung auf der Haut"]
+    "sehrSelten": [
+      "Stevens-Johnson-Syndrom (schwere Hautreaktion)"
+    ],
+    "unbekannt": [
+      "Übelkeit, Erbrechen, Durchfall (v. a. bei hohen Dosen)",
+      "Reizung der Mundschleimhaut",
+      "Überempfindlichkeitsreaktionen wie Hautausschlag oder Nesselsucht",
+      "Hautreizung oder Kontaktekzem bei Anwendung auf der Haut"
+    ]
   },
   "schwangerschaft": "Wird praktisch nicht aufgenommen; die Anwendung ist nach Rücksprache mit Ärztin oder Arzt möglich.",
   "stillzeit": "Wird praktisch nicht aufgenommen; Anwendung in der Stillzeit möglich.",

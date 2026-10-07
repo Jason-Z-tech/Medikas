@@ -1,50 +1,210 @@
 {
   "id": "epoetin-alfa",
   "name": "Epoetin alfa",
-  "synonyme": ["Erythropoetin", "EPO", "rekombinantes humanes Erythropoetin", "rHuEPO"],
-  "atc": ["B03XA01"],
+  "synonyme": [
+    "Erythropoetin",
+    "EPO",
+    "rekombinantes humanes Erythropoetin",
+    "rHuEPO"
+  ],
+  "atc": [
+    "B03XA01"
+  ],
   "klasse": "Erythropoese-stimulierendes Agens (gentechnisch hergestelltes Erythropoetin)",
   "kurz": "Gentechnisch hergestelltes Hormon (EPO), das die Bildung roter Blutkörperchen anregt – v. a. bei Blutarmut wegen Nierenkrankheit oder Chemotherapie.",
-  "gruppen": [],
-  "handelsnamen": ["Eprex", "Binocrit"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung in Fertigspritzen (Spritze unter die Haut oder in die Vene)"],
+  "gruppen": [
+    "thromboserisiko-erhoehend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Eprex",
+    "Binocrit"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung in Fertigspritzen (Spritze unter die Haut oder in die Vene)"
+  ],
   "indikationen": [
-    { "text": "Blutarmut bei chronischer Nierenkrankheit (Erwachsene und Kinder unter Dialyse, Erwachsene auch vor Dialysebeginn)", "ids": ["renale-anaemie", "niereninsuffizienz", "anaemie"] },
-    { "text": "Blutarmut bei Erwachsenen mit soliden Tumoren, Lymphomen oder multiplem Myelom unter Chemotherapie, um Bluttransfusionen zu vermindern", "ids": ["anaemie", "krebs", "lymphom", "multiples-myelom"] },
-    { "text": "Steigerung der Eigenblutspende vor grossen geplanten Operationen", "ids": ["operation", "anaemie"] },
-    { "text": "Verminderung von Fremdbluttransfusionen bei geplanten grossen orthopädischen Operationen (z. B. Hüft- oder Kniegelenkersatz) bei mässiger Blutarmut", "ids": ["operation", "anaemie"] }
+    {
+      "text": "Blutarmut bei chronischer Nierenkrankheit (Erwachsene und Kinder unter Dialyse, Erwachsene auch vor Dialysebeginn)",
+      "ids": [
+        "renale-anaemie",
+        "niereninsuffizienz",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Blutarmut bei Erwachsenen mit soliden Tumoren, Lymphomen oder multiplem Myelom unter Chemotherapie, um Bluttransfusionen zu vermindern",
+      "ids": [
+        "anaemie",
+        "krebs",
+        "lymphom",
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Steigerung der Eigenblutspende vor grossen geplanten Operationen",
+      "ids": [
+        "operation",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Verminderung von Fremdbluttransfusionen bei geplanten grossen orthopädischen Operationen (z. B. Hüft- oder Kniegelenkersatz) bei mässiger Blutarmut",
+      "ids": [
+        "operation",
+        "anaemie"
+      ]
+    }
   ],
   "wirkmechanismus": "Regt das Knochenmark an, mehr rote Blutkörperchen zu bilden. Epoetin alfa hat dieselbe Aminosäuresequenz wie das körpereigene Hormon Erythropoetin, das normalerweise vor allem in den Nieren gebildet wird. Es bindet an Erythropoetin-Rezeptoren auf Vorläuferzellen der roten Blutkörperchen im Knochenmark und fördert deren Vermehrung und Ausreifung. Nach einigen Tagen steigen die jungen roten Blutkörperchen (Retikulozyten), nach Wochen das Hämoglobin; dafür muss genügend Eisen vorhanden sein.",
   "kontraindikationen": [
-    { "text": "Erythroblastopenie (Pure Red Cell Aplasia, völliger Ausfall der Bildung roter Blutkörperchen) nach früherer Behandlung mit einem Erythropoetin", "ids": ["knochenmarkschaedigung"] },
-    { "text": "Nicht kontrollierter Bluthochdruck", "ids": ["hypertonie"] },
-    { "text": "Bei Eigenblutspende: Herzinfarkt oder Schlaganfall im Monat vor der Behandlung, instabile Angina pectoris oder erhöhtes Thromboserisiko", "ids": ["herzinfarkt", "schlaganfall", "angina-pectoris", "thromboembolie-vorgeschichte"] },
-    { "text": "Bei orthopädischen Operationen: schwere Erkrankungen der Herzkranzgefässe, der Hals- oder Beinarterien oder der Hirngefässe, inkl. kürzlich erlittenem Herzinfarkt oder Schlaganfall", "ids": ["koronare-herzkrankheit", "pavk", "schlaganfall", "herzinfarkt"] },
-    { "text": "Patientinnen und Patienten, die keine ausreichende Thromboseprophylaxe erhalten können (operative Indikationen)", "ids": ["thromboseprophylaxe"] }
+    {
+      "text": "Erythroblastopenie (Pure Red Cell Aplasia, völliger Ausfall der Bildung roter Blutkörperchen) nach früherer Behandlung mit einem Erythropoetin",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Nicht kontrollierter Bluthochdruck",
+      "ids": [
+        "hypertensive-krise"
+      ]
+    },
+    {
+      "text": "Bei Eigenblutspende: Herzinfarkt oder Schlaganfall im Monat vor der Behandlung, instabile Angina pectoris oder erhöhtes Thromboserisiko",
+      "ids": []
+    },
+    {
+      "text": "Bei orthopädischen Operationen: schwere Erkrankungen der Herzkranzgefässe, der Hals- oder Beinarterien oder der Hirngefässe, inkl. kürzlich erlittenem Herzinfarkt oder Schlaganfall",
+      "ids": []
+    },
+    {
+      "text": "Patientinnen und Patienten, die keine ausreichende Thromboseprophylaxe erhalten können (operative Indikationen)",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Bluthochdruck: kann ansteigen bis zur hypertensiven Krise mit Krampfanfällen – Blutdruck regelmässig kontrollieren", "ids": ["hypertonie"] },
-    { "text": "Thrombosen und Gefässverschlüsse (auch Shunt-Thrombosen bei Dialyse), Herzinfarkt und Schlaganfall – Hämoglobin nicht über 12 g/dl anheben", "ids": ["thrombose", "thromboembolie-vorgeschichte", "schlaganfall", "herzinfarkt"] },
-    { "text": "Epilepsie oder frühere Krampfanfälle", "ids": ["epilepsie"] },
-    { "text": "Krebserkrankungen: mögliches Fortschreiten des Tumors und verkürzte Überlebenszeit bei zu hohen Hämoglobin-Zielwerten; Transfusion als Alternative abwägen", "ids": ["krebs"] },
-    { "text": "Eisenmangel und andere Ursachen der Blutarmut (Folsäure-, B12-Mangel, Entzündung) vor und während der Behandlung ausgleichen, sonst ungenügende Wirkung", "ids": ["eisenmangel", "vitamin-b12-mangel"] },
-    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) wurden unter Erythropoetinen beschrieben", "ids": ["schwere-hautreaktion"] },
-    { "text": "Chronische Leberkrankheit und Hyperkaliämie bei Nierenkranken: Kalium und Leberwerte überwachen", "ids": ["leberinsuffizienz", "hyperkaliaemie"] }
+    {
+      "text": "Bluthochdruck: kann ansteigen bis zur hypertensiven Krise mit Krampfanfällen – Blutdruck regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Thrombosen und Gefässverschlüsse (auch Shunt-Thrombosen bei Dialyse), Herzinfarkt und Schlaganfall – Hämoglobin nicht über 12 g/dl anheben",
+      "ids": [
+        "thrombose",
+        "thromboembolie-vorgeschichte",
+        "schlaganfall",
+        "herzinfarkt",
+        "koronare-herzkrankheit",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Epilepsie oder frühere Krampfanfälle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen: mögliches Fortschreiten des Tumors und verkürzte Überlebenszeit bei zu hohen Hämoglobin-Zielwerten; Transfusion als Alternative abwägen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Eisenmangel und andere Ursachen der Blutarmut (Folsäure-, B12-Mangel, Entzündung) vor und während der Behandlung ausgleichen, sonst ungenügende Wirkung",
+      "ids": [
+        "eisenmangel",
+        "vitamin-b12-mangel"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) wurden unter Erythropoetinen beschrieben",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Chronische Leberkrankheit und Hyperkaliämie bei Nierenkranken: Kalium und Leberwerte überwachen",
+      "ids": [
+        "leberinsuffizienz",
+        "hyperkaliaemie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Ciclosporin wird an rote Blutkörperchen gebunden; steigt das Hämoglobin, kann sich der Spiegel verändern – Ciclosporin-Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Heparin während der Hämodialyse", "ref": ["heparin", "gruppe:heparine"], "effekt": "Mit steigendem Hämatokrit kann eine höhere Heparindosis nötig sein, um Gerinnsel im Dialysesystem zu verhindern.", "schwere": "mittel" },
-    { "text": "Thalidomid, Lenalidomid, Pomalidomid (Myelomtherapie)", "ref": ["thalidomid", "lenalidomid", "pomalidomid"], "effekt": "Zusätzlich erhöhtes Risiko für Thrombosen und Embolien – nur mit Thromboseprophylaxe und sorgfältiger Abwägung.", "schwere": "mittel" },
-    { "text": "Blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Der durch Epoetin verursachte Blutdruckanstieg kann eine Anpassung der Blutdrucktherapie erfordern.", "schwere": "leicht" }
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin wird an rote Blutkörperchen gebunden; steigt das Hämoglobin, kann sich der Spiegel verändern – Ciclosporin-Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Heparin während der Hämodialyse",
+      "ref": [
+        "heparin",
+        "gruppe:heparine"
+      ],
+      "effekt": "Mit steigendem Hämatokrit kann eine höhere Heparindosis nötig sein, um Gerinnsel im Dialysesystem zu verhindern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thalidomid, Lenalidomid, Pomalidomid (Myelomtherapie)",
+      "ref": [
+        "thalidomid",
+        "lenalidomid",
+        "pomalidomid"
+      ],
+      "effekt": "Zusätzlich erhöhtes Risiko für Thrombosen und Embolien – nur mit Thromboseprophylaxe und sorgfältiger Abwägung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Der durch Epoetin verursachte Blutdruckanstieg kann eine Anpassung der Blutdrucktherapie erfordern.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Fieber", "Übelkeit"],
-    "haeufig": ["Bluthochdruck", "Venöse und arterielle Thrombosen (z. B. Shunt-Thrombose bei Dialyse)", "Kopfschmerzen", "Husten", "Erbrechen, Durchfall", "Gelenk-, Knochen- und Muskelschmerzen", "Grippeähnliche Beschwerden, Schüttelfrost", "Hautausschlag, Reaktionen an der Injektionsstelle, Wassereinlagerungen"],
-    "gelegentlich": ["Krampfanfälle", "Hyperkaliämie (erhöhtes Kalium)", "Nesselsucht", "Überempfindlichkeitsreaktionen"],
-    "selten": ["Erythroblastopenie (PRCA) durch Antikörper gegen Erythropoetin, v. a. nach Spritzen unter die Haut bei Nierenkranken"],
-    "unbekannt": ["Hypertensive Krise mit Hirnfunktionsstörung (Enzephalopathie)", "Herzinfarkt, Schlaganfall, Lungenembolie", "Anaphylaxie, Angioödem (Schwellung von Gesicht und Rachen)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"]
+    "sehrHaeufig": [
+      "Fieber",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Bluthochdruck",
+      "Venöse und arterielle Thrombosen (z. B. Shunt-Thrombose bei Dialyse)",
+      "Kopfschmerzen",
+      "Husten",
+      "Erbrechen, Durchfall",
+      "Gelenk-, Knochen- und Muskelschmerzen",
+      "Grippeähnliche Beschwerden, Schüttelfrost",
+      "Hautausschlag, Reaktionen an der Injektionsstelle, Wassereinlagerungen"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Nesselsucht",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "Erythroblastopenie (PRCA) durch Antikörper gegen Erythropoetin, v. a. nach Spritzen unter die Haut bei Nierenkranken"
+    ],
+    "unbekannt": [
+      "Hypertensive Krise mit Hirnfunktionsstörung (Enzephalopathie)",
+      "Herzinfarkt, Schlaganfall, Lungenembolie",
+      "Anaphylaxie, Angioödem (Schwellung von Gesicht und Rachen)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"
+    ]
   },
   "schwangerschaft": "Nur nach strenger ärztlicher Nutzen-Risiko-Abwägung; die Erfahrungen sind begrenzt. Bei schwangeren Frauen nicht zur Eigenblutspende vor Operationen empfohlen.",
   "stillzeit": "Nicht bekannt, ob Epoetin in die Muttermilch übergeht; Anwendung nur nach Abwägung.",

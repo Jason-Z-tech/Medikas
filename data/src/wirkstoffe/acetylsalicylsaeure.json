@@ -1,60 +1,290 @@
 {
   "id": "acetylsalicylsaeure",
   "name": "Acetylsalicylsäure",
-  "synonyme": ["ASS", "Acetylsalicylic acid", "Acidum acetylsalicylicum", "Lysin-Acetylsalicylat"],
-  "atc": ["N02BA01", "B01AC06"],
+  "synonyme": [
+    "ASS",
+    "Acetylsalicylic acid",
+    "Acidum acetylsalicylicum",
+    "Lysin-Acetylsalicylat"
+  ],
+  "atc": [
+    "N02BA01",
+    "B01AC06"
+  ],
   "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Salicylat); Thrombozytenaggregationshemmer",
   "kurz": "Schmerz- und Fiebermittel; niedrig dosiert hemmt es die Blutplättchen und beugt Herzinfarkt und Schlaganfall vor.",
-  "gruppen": ["nsar", "thrombozytenaggregationshemmer", "blutungsrisiko-erhoehend", "ulkusrisiko-erhoehend"],
-  "handelsnamen": ["Aspirin", "Aspirin Cardio", "Aspégic", "Alcacyl", "Tiatral", "Aspirin C (Kombi)", "Aspirin Complex (Kombi)"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Tabletten", "Brausetabletten", "Magensaftresistente Tabletten", "Granulat (Beutel)", "Injektionslösung"],
+  "gruppen": [
+    "nsar",
+    "thrombozytenaggregationshemmer",
+    "blutungsrisiko-erhoehend",
+    "ulkusrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Aspirin",
+    "Aspirin Cardio",
+    "Aspégic",
+    "Alcacyl",
+    "Tiatral",
+    "Aspirin C (Kombi)",
+    "Aspirin Complex (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Brausetabletten",
+    "Magensaftresistente Tabletten",
+    "Granulat (Beutel)",
+    "Injektionslösung"
+  ],
   "indikationen": [
-    { "text": "Leichte bis mässig starke Schmerzen, z. B. Kopf-, Zahn- und Regelschmerzen", "ids": ["schmerzen", "kopfschmerzen", "regelbeschwerden"] },
-    { "text": "Fieber", "ids": ["fieber"] },
-    { "text": "Vorbeugung von Herzinfarkt und Schlaganfall bei koronarer Herzkrankheit, nach Herzinfarkt, Schlaganfall oder TIA (niedrig dosiert)", "ids": ["herzinfarkt", "koronare-herzkrankheit", "schlaganfall"] },
-    { "text": "Instabile Angina pectoris und nach Gefässeingriffen (Bypass, Stent) zur Hemmung der Blutplättchen", "ids": ["angina-pectoris", "koronare-herzkrankheit"] }
+    {
+      "text": "Leichte bis mässig starke Schmerzen, z. B. Kopf-, Zahn- und Regelschmerzen",
+      "ids": [
+        "schmerzen",
+        "kopfschmerzen",
+        "regelbeschwerden"
+      ]
+    },
+    {
+      "text": "Fieber",
+      "ids": [
+        "fieber"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Herzinfarkt und Schlaganfall bei koronarer Herzkrankheit, nach Herzinfarkt, Schlaganfall oder TIA (niedrig dosiert)",
+      "ids": [
+        "herzinfarkt",
+        "koronare-herzkrankheit",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris und nach Gefässeingriffen (Bypass, Stent) zur Hemmung der Blutplättchen",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Bildung von Botenstoffen, die Schmerz, Fieber und Entzündung auslösen. Acetylsalicylsäure acetyliert die Cyclooxygenasen COX-1 und COX-2 irreversibel und blockiert so die Prostaglandinsynthese. In niedriger Dosis (75–100 mg pro Tag) steht die Hemmung der Thromboxan-A2-Bildung in den Blutplättchen im Vordergrund: Weil Thrombozyten keinen Zellkern haben und das Enzym nicht nachbilden können, hält die Hemmung ihre ganze Lebensdauer von 7–10 Tagen an.",
   "kontraindikationen": [
-    { "text": "Aktive Magen- oder Zwölffingerdarmgeschwüre, Magen-Darm-Blutungen", "ids": ["magen-darm-ulkus", "aktive-blutung"] },
-    { "text": "Erhöhte Blutungsneigung (hämorrhagische Diathese)", "ids": ["blutgerinnungsstoerung"] },
-    { "text": "Asthma oder andere Überempfindlichkeitsreaktionen nach Salicylaten oder anderen NSAR (Analgetika-Asthma)", "ids": ["analgetika-asthma"] },
-    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] },
-    { "text": "Schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere, nicht eingestellte Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
-    { "text": "Letztes Schwangerschaftsdrittel bei Dosen über 100 mg pro Tag", "ids": ["schwangerschaft"] }
+    {
+      "text": "Aktive Magen- oder Zwölffingerdarmgeschwüre, Magen-Darm-Blutungen",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutungsneigung (hämorrhagische Diathese)",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Asthma oder andere Überempfindlichkeitsreaktionen nach Salicylaten oder anderen NSAR (Analgetika-Asthma)",
+      "ids": [
+        "analgetika-asthma"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere, nicht eingestellte Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel bei Dosen über 100 mg pro Tag",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Asthma, chronische Atemwegserkrankungen, Heuschnupfen oder Nasenpolypen (Risiko für Asthmaanfälle)", "ids": ["asthma", "heuschnupfen"] },
-    { "text": "Magen-Darm-Geschwüre oder -Blutungen in der Vorgeschichte", "ids": ["magen-darm-ulkus"] },
-    { "text": "Eingeschränkte Nieren- oder Leberfunktion", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Gicht: schon niedrige Dosen vermindern die Harnsäureausscheidung", "ids": ["gicht"] },
-    { "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)", "ids": ["g6pd-mangel"] },
-    { "text": "Geplante Operationen und Zahnbehandlungen (verlängerte Blutungszeit)", "ids": ["operation"] },
-    { "text": "Kinder und Jugendliche mit fieberhaften Virusinfekten (Gefahr des seltenen, lebensbedrohlichen Reye-Syndroms)", "ids": ["kinder"] }
+    {
+      "text": "Asthma, chronische Atemwegserkrankungen, Heuschnupfen oder Nasenpolypen (Risiko für Asthmaanfälle)",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre oder -Blutungen in der Vorgeschichte",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gicht: schon niedrige Dosen vermindern die Harnsäureausscheidung",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Geplante Operationen und Zahnbehandlungen (verlängerte Blutungszeit)",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche mit fieberhaften Virusinfekten (Gefahr des seltenen, lebensbedrohlichen Reye-Syndroms)",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Methotrexat in Dosen ab 15 mg pro Woche", "ref": ["methotrexat"], "grund": "Acetylsalicylsäure vermindert die Ausscheidung von Methotrexat über die Niere – Gefahr schwerer Knochenmark- und Nierenschäden." }
+    {
+      "text": "Methotrexat in Dosen ab 15 mg pro Woche",
+      "ref": [
+        "methotrexat"
+      ],
+      "grund": "Acetylsalicylsäure vermindert die Ausscheidung von Methotrexat über die Niere – Gefahr schwerer Knochenmark- und Nierenschäden."
+    }
   ],
   "interaktionen": [
-    { "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Heparine)", "ref": ["gruppe:antikoagulanzien"], "effekt": "Deutlich erhöhtes Blutungsrisiko – nur auf ärztliche Anordnung kombinieren.", "schwere": "schwer" },
-    { "text": "Andere NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Magen-Darm-Geschwüre und Blutungen. Ibuprofen kann zudem die herzschützende Plättchenhemmung niedrig dosierter ASS abschwächen.", "schwere": "schwer" },
-    { "text": "Methotrexat in niedriger Dosis (unter 15 mg pro Woche)", "ref": ["methotrexat"], "effekt": "Erhöhte Methotrexat-Toxizität – Blutbild und Nierenfunktion kontrollieren.", "schwere": "schwer" },
-    { "text": "Andere Plättchenhemmer (z. B. Clopidogrel, Prasugrel, Ticagrelor)", "ref": ["gruppe:p2y12-hemmer"], "effekt": "Erhöhtes Blutungsrisiko; nach Stent oder Herzinfarkt wird die Kombination gezielt und befristet eingesetzt.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen.", "schwere": "mittel" },
-    { "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika (bei schmerzlindernden Dosen)", "ref": ["gruppe:raas-hemmer", "gruppe:diuretika"], "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Risiko für akutes Nierenversagen.", "schwere": "mittel" },
-    { "text": "Metamizol", "ref": ["metamizol"], "effekt": "Kann die Plättchenhemmung niedrig dosierter ASS abschwächen – ASS mindestens 30 Minuten vor Metamizol einnehmen.", "schwere": "mittel" },
-    { "text": "Valproinsäure", "ref": ["valproinsaeure"], "effekt": "ASS verdrängt Valproinsäure aus der Eiweissbindung – mehr Nebenwirkungen möglich.", "schwere": "mittel" },
-    { "text": "Blutzuckersenker (Sulfonylharnstoffe, Insulin) bei hohen ASS-Dosen", "ref": ["gruppe:sulfonylharnstoffe", "gruppe:insuline"], "effekt": "Verstärkte Blutzuckersenkung möglich.", "schwere": "leicht" }
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Heparine)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – nur auf ärztliche Anordnung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und Blutungen. Ibuprofen kann zudem die herzschützende Plättchenhemmung niedrig dosierter ASS abschwächen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat in niedriger Dosis (unter 15 mg pro Woche)",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöhte Methotrexat-Toxizität – Blutbild und Nierenfunktion kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Plättchenhemmer (z. B. Clopidogrel, Prasugrel, Ticagrelor)",
+      "ref": [
+        "gruppe:p2y12-hemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; nach Stent oder Herzinfarkt wird die Kombination gezielt und befristet eingesetzt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika (bei schmerzlindernden Dosen)",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Risiko für akutes Nierenversagen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metamizol",
+      "ref": [
+        "metamizol"
+      ],
+      "effekt": "Kann die Plättchenhemmung niedrig dosierter ASS abschwächen – ASS mindestens 30 Minuten vor Metamizol einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "ASS verdrängt Valproinsäure aus der Eiweissbindung – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenker (Sulfonylharnstoffe, Insulin) bei hohen ASS-Dosen",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:insuline"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Magen-Darm-Beschwerden wie Sodbrennen, Übelkeit, Bauchschmerzen", "Dyspepsie (Verdauungsbeschwerden)", "Geringe Blutverluste aus dem Magen-Darm-Trakt (Mikroblutungen)"],
-    "gelegentlich": ["Überempfindlichkeitsreaktionen der Haut (Ausschlag, Juckreiz, Nesselsucht)", "Magen-Darm-Blutungen", "Nasenbluten, Zahnfleischbluten"],
-    "selten": ["Magen-Darm-Geschwüre, Durchbruch (Perforation)", "Bronchospasmus (Verkrampfung der Atemwege) bei Analgetika-Asthma", "Schwere Blutungen, z. B. Hirnblutung", "Anaphylaxie (schwere allergische Reaktion)", "Schwere Hautreaktionen"],
-    "sehrSelten": ["Erhöhte Leberwerte", "Nierenfunktionsstörungen", "Hypoglykämie (Unterzuckerung)", "Reye-Syndrom bei Kindern"],
-    "unbekannt": ["Schwindel und Ohrensausen (Tinnitus) als Zeichen einer Überdosierung", "Eisenmangelanämie durch verborgene Blutungen", "Hämolyse (Blutzerfall) bei G6PD-Mangel"]
+    "haeufig": [
+      "Magen-Darm-Beschwerden wie Sodbrennen, Übelkeit, Bauchschmerzen",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Geringe Blutverluste aus dem Magen-Darm-Trakt (Mikroblutungen)"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen der Haut (Ausschlag, Juckreiz, Nesselsucht)",
+      "Magen-Darm-Blutungen",
+      "Nasenbluten, Zahnfleischbluten"
+    ],
+    "selten": [
+      "Magen-Darm-Geschwüre, Durchbruch (Perforation)",
+      "Bronchospasmus (Verkrampfung der Atemwege) bei Analgetika-Asthma",
+      "Schwere Blutungen, z. B. Hirnblutung",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen"
+    ],
+    "sehrSelten": [
+      "Erhöhte Leberwerte",
+      "Nierenfunktionsstörungen",
+      "Hypoglykämie (Unterzuckerung)",
+      "Reye-Syndrom bei Kindern"
+    ],
+    "unbekannt": [
+      "Schwindel und Ohrensausen (Tinnitus) als Zeichen einer Überdosierung",
+      "Eisenmangelanämie durch verborgene Blutungen",
+      "Hämolyse (Blutzerfall) bei G6PD-Mangel"
+    ]
   },
   "schwangerschaft": "Im 1. und 2. Drittel nur nach ärztlicher Abwägung und so kurz und niedrig dosiert wie möglich. Im letzten Drittel in Dosen über 100 mg pro Tag kontraindiziert; niedrig dosierte ASS (z. B. zur Vorbeugung einer Präeklampsie) nur auf ärztliche Verordnung.",
   "stillzeit": "Gelegentliche Einnahme niedriger Dosen ist vertretbar. Bei regelmässiger Einnahme höherer Dosen soll abgestillt werden.",

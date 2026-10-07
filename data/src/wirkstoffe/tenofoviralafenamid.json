@@ -1,39 +1,160 @@
 {
   "id": "tenofoviralafenamid",
   "name": "Tenofoviralafenamid",
-  "synonyme": ["TAF", "Tenofovir alafenamide", "Tenofoviralafenamidfumarat"],
-  "atc": ["J05AF13"],
+  "synonyme": [
+    "TAF",
+    "Tenofovir alafenamide",
+    "Tenofoviralafenamidfumarat"
+  ],
+  "atc": [
+    "J05AF13"
+  ],
   "klasse": "Nukleotidischer Reverse-Transkriptase-Hemmer (Prodrug von Tenofovir); Hepatitis-B-Mittel",
   "kurz": "Virushemmendes Mittel gegen chronische Hepatitis B; neuere, für Nieren und Knochen schonendere Form von Tenofovir, auch in HIV-Kombinationen.",
   "gruppen": [],
-  "handelsnamen": ["Vemlidy", "Descovy (Kombi)", "Biktarvy (Kombi)", "Genvoya (Kombi)", "Odefsey (Kombi)", "Symtuza (Kombi)"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten"],
+  "handelsnamen": [
+    "Vemlidy",
+    "Descovy (Kombi)",
+    "Biktarvy (Kombi)",
+    "Genvoya (Kombi)",
+    "Odefsey (Kombi)",
+    "Symtuza (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Chronische Hepatitis B bei Erwachsenen und Jugendlichen ab 12 Jahren (mindestens 35 kg)", "ids": ["hepatitis-b"] },
-    { "text": "Als Bestandteil fixer HIV-Kombinationen (z. B. Descovy, Biktarvy): Behandlung der HIV-1-Infektion", "ids": ["hiv"] }
+    {
+      "text": "Chronische Hepatitis B bei Erwachsenen und Jugendlichen ab 12 Jahren (mindestens 35 kg)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Als Bestandteil fixer HIV-Kombinationen (z. B. Descovy, Biktarvy): Behandlung der HIV-1-Infektion",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung des Hepatitis-B-Virus und von HIV. Tenofoviralafenamid ist eine im Blut stabile Vorstufe von Tenofovir, die vor allem in Leberzellen und Lymphozyten aufgenommen und dort (durch Carboxylesterase 1 bzw. Cathepsin A) zu Tenofovir gespalten wird. Tenofovir wird zum aktiven Tenofovir-Diphosphat phosphoryliert, das in die Virus-DNA eingebaut wird und die Kettenverlängerung abbricht. Weil eine kleine Dosis genügt, ist der Tenofovir-Spiegel im Blut rund 90 % tiefer als mit Tenofovirdisoproxil – Nieren und Knochen werden weniger belastet.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Hepatitis B: Absetzen kann schwere Hepatitisschübe auslösen – Leberwerte nach dem Absetzen über Monate kontrollieren", "ids": ["hepatitis-b"] },
-    { "text": "HIV-Koinfektion: Vemlidy allein ist keine HIV-Therapie (Resistenzgefahr) – vor Beginn HIV-Test", "ids": ["hiv"] },
-    { "text": "Sehr schwere Niereninsuffizienz ohne Dialyse: nicht empfohlen; Nierenfunktion regelmässig kontrollieren", "ids": ["niereninsuffizienz"] },
-    { "text": "Dekompensierte Leberzirrhose: begrenzte Erfahrungen", "ids": ["leberzirrhose"] },
-    { "text": "Seltene erbliche Galactose-Intoleranz oder Laktasemangel (Tabletten enthalten Lactose)", "ids": ["laktoseintoleranz"] }
+    {
+      "text": "Hepatitis B: Absetzen kann schwere Hepatitisschübe auslösen – Leberwerte nach dem Absetzen über Monate kontrollieren",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "HIV-Koinfektion: Vemlidy allein ist keine HIV-Therapie (Resistenzgefahr) – vor Beginn HIV-Test",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Sehr schwere Niereninsuffizienz ohne Dialyse: nicht empfohlen; Nierenfunktion regelmässig kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Dekompensierte Leberzirrhose: begrenzte Erfahrungen",
+      "ids": [
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Seltene erbliche Galactose-Intoleranz oder Laktasemangel (Tabletten enthalten Lactose)",
+      "ids": [
+        "laktoseintoleranz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Starke Induktoren von P-Glykoprotein: Rifampicin, Rifabutin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut", "ref": ["gruppe:p-gp-induktoren", "rifampicin", "rifabutin", "carbamazepin", "oxcarbazepin", "phenytoin", "phenobarbital", "johanniskraut"], "effekt": "Tenofoviralafenamid-Spiegel sinken – Wirkverlust und Resistenzgefahr; Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Andere Mittel mit Tenofovir oder Adefovir (z. B. Tenofovirdisoproxil)", "ref": ["tenofovirdisoproxil", "emtricitabin-tenofovirdisoproxil"], "effekt": "Nicht gleichzeitig anwenden (Doppelbehandlung).", "schwere": "mittel" },
-    { "text": "Mit Ritonavir oder Cobicistat geboosterte HIV-Mittel", "ref": ["ritonavir", "cobicistat"], "effekt": "Tenofoviralafenamid-Spiegel steigen – Kombination nur nach Rücksprache mit der HIV- bzw. Hepatitis-Fachperson (bei HIV werden passende Fixkombinationen eingesetzt).", "schwere": "mittel" },
-    { "text": "Nierenschädigende Mittel", "ref": ["gruppe:nephrotoxisch"], "effekt": "Nierenfunktion kontrollieren (geringeres Risiko als mit Tenofovirdisoproxil).", "schwere": "leicht" }
+    {
+      "text": "Starke Induktoren von P-Glykoprotein: Rifampicin, Rifabutin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut",
+      "ref": [
+        "gruppe:p-gp-induktoren",
+        "rifampicin",
+        "rifabutin",
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenytoin",
+        "phenobarbital",
+        "johanniskraut"
+      ],
+      "effekt": "Tenofoviralafenamid-Spiegel sinken – Wirkverlust und Resistenzgefahr; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke P-Glykoprotein-Hemmer (z. B. Itraconazol, Ketoconazol)",
+      "ref": [
+        "itraconazol",
+        "ketoconazol"
+      ],
+      "effekt": "Tenofoviralafenamid-Spiegel steigen – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Mittel mit Tenofovir (Tenofovirdisoproxil, tenofovirhaltige HIV-Kombinationen) oder Adefovir",
+      "ref": [
+        "tenofovirdisoproxil",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "bictegravir-emtricitabin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "effekt": "Nicht gleichzeitig anwenden (Doppelbehandlung).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mit Ritonavir oder Cobicistat geboosterte HIV-Mittel",
+      "ref": [
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Tenofoviralafenamid-Spiegel steigen – Kombination nur nach Rücksprache mit der HIV- bzw. Hepatitis-Fachperson (bei HIV werden passende Fixkombinationen eingesetzt).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nierenschädigende Mittel",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Nierenfunktion kontrollieren (geringeres Risiko als mit Tenofovirdisoproxil).",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen"],
-    "haeufig": ["Schwindel", "Übelkeit, Erbrechen, Durchfall", "Bauchschmerzen, Blähbauch, Blähungen", "Erhöhte Leberwerte (ALT)", "Hautausschlag, Juckreiz", "Gelenkschmerzen", "Müdigkeit"],
-    "gelegentlich": ["Angioödem (Schwellung von Haut und Schleimhäuten)", "Nesselsucht"],
-    "unbekannt": ["Schwere Hepatitisschübe nach dem Absetzen"]
+    "sehrHaeufig": [
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Schwindel",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Bauchschmerzen, Blähbauch, Blähungen",
+      "Erhöhte Leberwerte (ALT)",
+      "Hautausschlag, Juckreiz",
+      "Gelenkschmerzen",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Nesselsucht"
+    ],
+    "unbekannt": [
+      "Schwere Hepatitisschübe nach dem Absetzen"
+    ]
   },
   "schwangerschaft": "Kann bei Bedarf in der Schwangerschaft in Betracht gezogen werden; die bisherigen Daten zeigen kein erhöhtes Fehlbildungsrisiko.",
   "stillzeit": "Gemäss Fachinformation nicht stillen, da Tenofovir in die Muttermilch übergeht und ein Risiko für das Kind nicht ausgeschlossen ist. HIV-positive Mütter sollen grundsätzlich nicht stillen.",

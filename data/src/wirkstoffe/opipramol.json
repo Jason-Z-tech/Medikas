@@ -1,0 +1,222 @@
+{
+  "id": "opipramol",
+  "name": "Opipramol",
+  "synonyme": [
+    "Opipramol dihydrochloride",
+    "Opipramoldihydrochlorid"
+  ],
+  "atc": [
+    "N06AA05"
+  ],
+  "klasse": "Trizyklisches Anxiolytikum (Dibenzazepin-Derivat, Sigma-Rezeptor-Agonist)",
+  "kurz": "Trizyklisches, beruhigendes und angstlösendes Mittel bei Angststörung und körperlichen Beschwerden ohne organische Ursache.",
+  "gruppen": [
+    "trizyklische-antidepressiva",
+    "anticholinerg",
+    "zns-daempfend",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Insidon"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dragées"
+  ],
+  "indikationen": [
+    {
+      "text": "Generalisierte Angststörung",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Somatoforme Störungen (körperliche Beschwerden ohne ausreichende organische Ursache)",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Wirkt angstlösend, beruhigend und leicht stimmungsaufhellend. Anders als klassische trizyklische Antidepressiva hemmt Opipramol die Wiederaufnahme von Serotonin und Noradrenalin kaum; es bindet vor allem an Sigma-Rezeptoren im Gehirn. Zusätzlich blockiert es Histamin-H1-Rezeptoren (dämpfend) sowie in geringerem Mass Dopamin-D2-, Serotonin-5-HT2-, Muskarin- und Alpha-1-Rezeptoren. Abbau in der Leber unter Beteiligung von CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Akuter Harnverhalt; Prostatavergrösserung mit Restharnbildung",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Akute Verwirrtheitszustände (Delir)",
+      "ids": [
+        "delir"
+      ]
+    },
+    {
+      "text": "Unbehandeltes Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Darmlähmung (paralytischer Ileus)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Höhergradige AV-Blockierungen oder ausgeprägte Reizleitungsstörungen des Herzens",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen und Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erniedrigte Krampfschwelle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorgeschädigtes Knochenmark oder Blutbildveränderungen (Blutbild kontrollieren)",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung ohne Restharn",
+      "ids": [
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: Blutdruckabfall, Verwirrtheit und Sturzgefahr",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: keine ausreichenden Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (mindestens 14 Tage vor Beginn absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr schwerer Reaktionen mit Blutdruckkrisen, Fieber und Krampfanfällen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel (Schlaf-, Beruhigungs- und Schmerzmittel, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der Dämpfung – Vorsicht, keinen Alkohol trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Opipramol-Spiegel steigt – vermehrte Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antipsychotika (z. B. Haloperidol, Risperidon)",
+      "ref": [
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Höhere Opipramol-Spiegel und verstärkte Nebenwirkungen möglich; Krampfschwelle kann sinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Barbiturate, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:barbiturate"
+      ],
+      "effekt": "Opipramol-Spiegel kann sinken, Wirkung abgeschwächt.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Müdigkeit, besonders zu Behandlungsbeginn",
+      "Mundtrockenheit",
+      "Verstopfte Nase",
+      "Blutdruckabfall und Schwindel beim Aufstehen (orthostatische Dysregulation)"
+    ],
+    "gelegentlich": [
+      "Benommenheit",
+      "Zittern (Tremor)",
+      "Verschwommenes Sehen (Akkommodationsstörungen)",
+      "Blasenentleerungsstörungen",
+      "Obstipation (Verstopfung)",
+      "Gewichtszunahme",
+      "Herzrasen, Herzklopfen",
+      "Hautausschlag, Juckreiz"
+    ],
+    "selten": [
+      "Unruhe, Erregungszustände",
+      "Kopfschmerzen, Missempfindungen (Parästhesien)",
+      "Harnverhalt",
+      "Wassereinlagerungen (Ödeme)",
+      "Verwirrtheit, Delir (v. a. bei älteren Menschen)",
+      "Krampfanfälle",
+      "Störungen der Erregungsleitung im Herzen",
+      "Leukopenie (Mangel an weissen Blutkörperchen)"
+    ],
+    "sehrSelten": [
+      "Agranulozytose (starker Mangel an weissen Blutkörperchen)",
+      "Schwere Leberfunktionsstörungen, Gelbsucht",
+      "Glaukomanfall",
+      "Haarausfall"
+    ]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht anwenden; danach nur nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Geht in die Muttermilch über – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kann besonders zu Beginn müde machen: Vorsicht beim Autofahren, keinen Alkohol trinken.",
+    "Nicht abrupt absetzen, sondern schrittweise nach ärztlicher Anweisung.",
+    "Bei Fieber, Halsschmerzen oder Entzündungen im Mund ärztlich das Blutbild kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

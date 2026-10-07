@@ -1,60 +1,325 @@
 {
   "id": "nirmatrelvir-ritonavir",
   "name": "Nirmatrelvir + Ritonavir",
-  "synonyme": ["Nirmatrelvir/Ritonavir", "PF-07321332"],
-  "kombinationAus": ["ritonavir"],
-  "atc": ["J05AE30"],
+  "synonyme": [
+    "Nirmatrelvir/Ritonavir",
+    "PF-07321332"
+  ],
+  "kombinationAus": [
+    "ritonavir"
+  ],
+  "atc": [
+    "J05AE30"
+  ],
   "klasse": "Virostatikum: SARS-CoV-2-Proteasehemmer (Nirmatrelvir) mit pharmakokinetischem Wirkverstärker (Ritonavir)",
   "kurz": "Covid-19-Medikament für Erwachsene mit hohem Risiko für einen schweren Verlauf; hat sehr viele Wechselwirkungen mit anderen Medikamenten.",
-  "gruppen": ["starke-cyp3a4-hemmer", "p-gp-hemmer", "cyp3a4-substrate-empfindlich", "enzyminduktoren-hormone"],
-  "handelsnamen": ["Paxlovid"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten (Kombipackung)"],
+  "gruppen": [
+    "starke-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "enzyminduktoren-hormone"
+  ],
+  "handelsnamen": [
+    "Paxlovid"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten (Kombipackung)"
+  ],
   "indikationen": [
-    { "text": "Behandlung von Covid-19 bei Erwachsenen, die keinen zusätzlichen Sauerstoff benötigen und ein erhöhtes Risiko für einen schweren Verlauf haben; Beginn innerhalb von 5 Tagen nach Symptombeginn", "ids": ["covid-19"] }
+    {
+      "text": "Behandlung von Covid-19 bei Erwachsenen, die keinen zusätzlichen Sauerstoff benötigen und ein erhöhtes Risiko für einen schweren Verlauf haben; Beginn innerhalb von 5 Tagen nach Symptombeginn",
+      "ids": [
+        "covid-19"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung des Coronavirus SARS-CoV-2. Nirmatrelvir blockiert die Hauptprotease des Virus (Mpro, 3CL-Protease), die die viralen Polyproteine in funktionsfähige Einzelproteine zerschneidet; ohne diesen Schritt kann sich das Virus nicht vermehren. Ritonavir wirkt nicht gegen SARS-CoV-2, hemmt aber stark das Abbauenzym CYP3A4 und erhöht so die Nirmatrelvir-Spiegel. Diese CYP3A-Hemmung ist die Ursache der vielen Wechselwirkungen und hält nach Behandlungsende noch einige Tage an.",
   "kontraindikationen": [
-    { "text": "Schwere Leberinsuffizienz (Child-Pugh C)", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: Dosis muss angepasst werden (Nirmatrelvir wird über die Nieren ausgeschieden)", "ids": ["niereninsuffizienz"] },
-    { "text": "Lebererkrankungen: Ritonavir kann Leberwerte erhöhen, Hepatitis und Gelbsucht sind beschrieben", "ids": ["leberinsuffizienz"] },
-    { "text": "Unbehandelte oder ungenügend kontrollierte HIV-Infektion: Gefahr von HIV-Resistenzen gegen Proteasehemmer", "ids": ["hiv"] },
-    { "text": "Viele Dauermedikamente, z. B. nach Organtransplantation, bei Herzrhythmusstörungen oder Blutverdünnung: vor Beginn Medikationscheck durch Ärztin, Arzt oder Apotheke", "ids": ["transplantation", "herzrhythmusstoerung", "thromboseprophylaxe"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis muss angepasst werden (Nirmatrelvir wird über die Nieren ausgeschieden)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: Ritonavir kann Leberwerte erhöhen, Hepatitis und Gelbsucht sind beschrieben",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Unbehandelte oder ungenügend kontrollierte HIV-Infektion: Gefahr von HIV-Resistenzen gegen Proteasehemmer",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Viele Dauermedikamente, z. B. nach Organtransplantation, bei Herzrhythmusstörungen oder Blutverdünnung: vor Beginn Medikationscheck durch Ärztin, Arzt oder Apotheke",
+      "ids": [
+        "transplantation",
+        "herzrhythmusstoerung",
+        "antikoagulation"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Antiarrhythmika: Amiodaron, Dronedaron, Flecainid, Propafenon, Chinidin", "ref": ["amiodaron", "dronedaron", "flecainid", "propafenon"], "grund": "Ritonavir hemmt ihren Abbau über CYP3A4 – stark erhöhte Spiegel mit Gefahr lebensbedrohlicher Herzrhythmusstörungen." },
-    { "text": "Ranolazin, Ivabradin, Eplerenon, Finerenon", "ref": ["ranolazin", "ivabradin", "eplerenon", "finerenon"], "grund": "Stark erhöhte Spiegel – Gefahr von Herzrhythmusstörungen, starker Pulsverlangsamung bzw. gefährlicher Hyperkaliämie." },
-    { "text": "Simvastatin, Lovastatin, Lomitapid", "ref": ["simvastatin"], "grund": "Stark erhöhte Spiegel – Gefahr von Muskelzerfall (Rhabdomyolyse) bzw. Leberschäden." },
-    { "text": "Colchicin", "ref": ["colchicin"], "grund": "Erhöhte Colchicin-Spiegel – lebensbedrohliche Vergiftung möglich, besonders bei Nieren- oder Leberschwäche." },
-    { "text": "Ergotalkaloide (Ergotamin, Dihydroergotamin, Methylergometrin)", "ref": ["gruppe:ergotalkaloide"], "grund": "Erhöhte Spiegel – Gefahr von Gefässverkrampfungen mit schweren Durchblutungsstörungen (Ergotismus)." },
-    { "text": "Antipsychotika Lurasidon, Pimozid, Quetiapin, Clozapin", "ref": ["lurasidon", "quetiapin", "clozapin"], "grund": "Stark erhöhte Spiegel – Gefahr schwerer Nebenwirkungen wie Herzrhythmusstörungen oder starker Sedierung." },
-    { "text": "Beruhigungs- und Schlafmittel: Midazolam zum Einnehmen, Triazolam, Diazepam, Clorazepat, Flurazepam", "ref": ["midazolam", "triazolam", "diazepam", "clorazepat", "flurazepam"], "grund": "Stark verlängerte und verstärkte Sedierung bis zur Atemdepression." },
-    { "text": "Alfuzosin", "ref": ["alfuzosin"], "grund": "Erhöhte Spiegel – Gefahr eines starken Blutdruckabfalls." },
-    { "text": "PDE-5-Hemmer Avanafil und Vardenafil sowie Sildenafil zur Behandlung von Lungenhochdruck", "ref": ["avanafil", "vardenafil", "sildenafil"], "grund": "Stark erhöhte Spiegel – Blutdruckabfall, Ohnmacht, Sehstörungen." },
-    { "text": "Weitere stark CYP3A4-abhängige Mittel: Pethidin, Piroxicam, Naloxegol, Eletriptan, Tolvaptan, Neratinib, Venetoclax (zu Behandlungsbeginn), Fusidinsäure (systemisch)", "ref": ["pethidin", "piroxicam", "naloxegol", "eletriptan", "tolvaptan", "neratinib", "venetoclax", "fusidinsaeure"], "grund": "Stark erhöhte Spiegel mit Gefahr schwerer Nebenwirkungen wie Krampfanfällen, Herzrhythmusstörungen oder Tumorlyse." },
-    { "text": "Starke Enzyminduktoren: Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Primidon, Johanniskraut, Apalutamid, Enzalutamid, Mitotan, Lumacaftor/Ivacaftor", "ref": ["rifampicin", "carbamazepin", "phenytoin", "phenobarbital", "primidon", "johanniskraut", "apalutamid", "enzalutamid", "mitotan", "lumacaftor-ivacaftor"], "grund": "Sie senken die Nirmatrelvir- und Ritonavir-Spiegel stark und anhaltend (auch noch nach dem Absetzen) – Wirkverlust und Resistenzgefahr." }
+    {
+      "text": "Antiarrhythmika: Amiodaron, Dronedaron, Flecainid, Propafenon, Chinidin",
+      "ref": [
+        "amiodaron",
+        "dronedaron",
+        "flecainid",
+        "propafenon"
+      ],
+      "grund": "Ritonavir hemmt ihren Abbau über CYP3A4 – stark erhöhte Spiegel mit Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    },
+    {
+      "text": "Ranolazin, Ivabradin, Eplerenon, Finerenon",
+      "ref": [
+        "ranolazin",
+        "ivabradin",
+        "eplerenon",
+        "finerenon"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr von Herzrhythmusstörungen, starker Pulsverlangsamung bzw. gefährlicher Hyperkaliämie."
+    },
+    {
+      "text": "Simvastatin, Lovastatin, Lomitapid",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr von Muskelzerfall (Rhabdomyolyse) bzw. Leberschäden."
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "grund": "Erhöhte Colchicin-Spiegel – lebensbedrohliche Vergiftung möglich, besonders bei Nieren- oder Leberschwäche."
+    },
+    {
+      "text": "Ergotalkaloide (Ergotamin, Dihydroergotamin, Methylergometrin)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr von Gefässverkrampfungen mit schweren Durchblutungsstörungen (Ergotismus)."
+    },
+    {
+      "text": "Antipsychotika Lurasidon, Pimozid, Quetiapin, Clozapin",
+      "ref": [
+        "lurasidon",
+        "quetiapin",
+        "clozapin"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr schwerer Nebenwirkungen wie Herzrhythmusstörungen oder starker Sedierung."
+    },
+    {
+      "text": "Beruhigungs- und Schlafmittel: Midazolam zum Einnehmen, Triazolam, Diazepam, Clorazepat, Flurazepam",
+      "ref": [
+        "midazolam",
+        "triazolam",
+        "diazepam",
+        "clorazepat",
+        "flurazepam"
+      ],
+      "grund": "Stark verlängerte und verstärkte Sedierung bis zur Atemdepression."
+    },
+    {
+      "text": "Alfuzosin",
+      "ref": [
+        "alfuzosin"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr eines starken Blutdruckabfalls."
+    },
+    {
+      "text": "PDE-5-Hemmer Avanafil und Vardenafil sowie Sildenafil zur Behandlung von Lungenhochdruck",
+      "ref": [
+        "avanafil",
+        "vardenafil",
+        "sildenafil"
+      ],
+      "grund": "Stark erhöhte Spiegel – Blutdruckabfall, Ohnmacht, Sehstörungen."
+    },
+    {
+      "text": "Weitere stark CYP3A4-abhängige Mittel: Pethidin, Piroxicam, Naloxegol, Eletriptan, Tolvaptan, Neratinib, Venetoclax (zu Behandlungsbeginn), Fusidinsäure (systemisch)",
+      "ref": [
+        "pethidin",
+        "piroxicam",
+        "naloxegol",
+        "eletriptan",
+        "tolvaptan",
+        "neratinib",
+        "venetoclax",
+        "fusidinsaeure"
+      ],
+      "grund": "Stark erhöhte Spiegel mit Gefahr schwerer Nebenwirkungen wie Krampfanfällen, Herzrhythmusstörungen oder Tumorlyse."
+    },
+    {
+      "text": "Starke Enzyminduktoren: Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Primidon, Johanniskraut, Apalutamid, Enzalutamid, Mitotan, Lumacaftor/Ivacaftor",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "primidon",
+        "johanniskraut",
+        "apalutamid",
+        "enzalutamid",
+        "mitotan",
+        "lumacaftor-ivacaftor"
+      ],
+      "grund": "Sie senken die Nirmatrelvir- und Ritonavir-Spiegel stark und anhaltend (auch noch nach dem Absetzen) – Wirkverlust und Resistenzgefahr."
+    }
   ],
   "interaktionen": [
-    { "text": "Calcineurin- und mTOR-Hemmer (Tacrolimus, Ciclosporin, Everolimus, Sirolimus)", "ref": ["gruppe:immunsuppressiva-calcineurin", "gruppe:mtor-hemmer"], "effekt": "Spiegel steigen massiv – nur mit engmaschiger Spiegelkontrolle durch das Transplantationszentrum oder Alternative wählen.", "schwere": "schwer" },
-    { "text": "Weitere empfindliche CYP3A4-Substrate (z. B. Ticagrelor, Kinasehemmer gegen Krebs)", "ref": ["gruppe:cyp3a4-substrate-empfindlich", "ticagrelor", "gruppe:proteinkinase-hemmer"], "effekt": "Spiegel steigen stark – jede Dauermedikation vorher prüfen lassen; pausieren, Dosis reduzieren oder ein anderes Covid-Medikament wählen.", "schwere": "schwer" },
-    { "text": "Direkte orale Antikoagulanzien (Rivaroxaban, Apixaban, Dabigatran, Edoxaban)", "ref": ["gruppe:doak"], "effekt": "Spiegel steigen – erhöhtes Blutungsrisiko; Rivaroxaban meiden, bei den übrigen Vorgehen ärztlich festlegen.", "schwere": "schwer" },
-    { "text": "Opioide (Fentanyl, Oxycodon, Methadon)", "ref": ["fentanyl", "oxycodon", "methadon"], "effekt": "Fentanyl- und Oxycodon-Spiegel steigen (Gefahr einer Atemdepression), Methadon-Spiegel kann sinken – engmaschig überwachen, Dosis anpassen.", "schwere": "schwer" },
-    { "text": "Andere Benzodiazepine (z. B. Clonazepam, Alprazolam)", "ref": ["clonazepam", "alprazolam", "gruppe:benzodiazepine"], "effekt": "Verstärkte und verlängerte Sedierung – Dosis reduzieren oder pausieren.", "schwere": "schwer" },
-    { "text": "Salmeterol", "ref": ["salmeterol", "salmeterol-fluticason"], "effekt": "Erhöhte Salmeterol-Spiegel – Gefahr von Herzrhythmusstörungen (QT-Verlängerung); Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Gerinnungswert (INR) kann sich verändern – INR engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Atorvastatin, Rosuvastatin", "ref": ["atorvastatin", "rosuvastatin"], "effekt": "Statin-Spiegel steigen – während der Behandlung pausieren oder Dosis reduzieren.", "schwere": "mittel" },
-    { "text": "Calciumantagonisten (z. B. Amlodipin, Nifedipin, Felodipin, Diltiazem, Verapamil)", "ref": ["gruppe:dhp-calciumantagonisten", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Verstärkte Blutdrucksenkung – Blutdruck überwachen, Dosis ggf. reduzieren.", "schwere": "mittel" },
-    { "text": "Hormonale Verhütungsmittel mit Ethinylestradiol", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Verhütungsschutz kann vermindert sein – während der Behandlung und bis zum Ende des folgenden Zyklus zusätzlich ein Kondom verwenden.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Ritonavir hemmt P-Glykoprotein – Digoxin-Spiegel steigen; Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "PDE-5-Hemmer bei Erektionsstörungen (Sildenafil, Tadalafil)", "ref": ["sildenafil", "tadalafil"], "effekt": "Spiegel steigen – nur reduzierte Dosis mit längerem Abstand.", "schwere": "mittel" },
-    { "text": "Inhalative und nasale Glukokortikoide (Fluticason, Budesonid)", "ref": ["gruppe:glukokortikoide-inhalativ", "fluticason", "budesonid"], "effekt": "Kortison-Spiegel steigen; bei 5-tägiger Behandlung meist ohne Bedeutung, bei längerer Kombination Gefahr eines Cushing-Syndroms.", "schwere": "leicht" }
+    {
+      "text": "Calcineurin- und mTOR-Hemmer (Tacrolimus, Ciclosporin, Everolimus, Sirolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen massiv – nur mit engmaschiger Spiegelkontrolle durch das Transplantationszentrum oder Alternative wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Weitere empfindliche CYP3A4-Substrate (z. B. Ticagrelor, Kinasehemmer gegen Krebs)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "ticagrelor",
+        "gruppe:proteinkinase-hemmer"
+      ],
+      "effekt": "Spiegel steigen stark – jede Dauermedikation vorher prüfen lassen; pausieren, Dosis reduzieren oder ein anderes Covid-Medikament wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (Rivaroxaban, Apixaban, Dabigatran, Edoxaban)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Spiegel steigen – erhöhtes Blutungsrisiko; Rivaroxaban meiden, bei den übrigen Vorgehen ärztlich festlegen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide (Fentanyl, Oxycodon, Methadon)",
+      "ref": [
+        "fentanyl",
+        "oxycodon",
+        "methadon"
+      ],
+      "effekt": "Fentanyl- und Oxycodon-Spiegel steigen (Gefahr einer Atemdepression), Methadon-Spiegel kann sinken – engmaschig überwachen, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Benzodiazepine (z. B. Clonazepam, Alprazolam)",
+      "ref": [
+        "clonazepam",
+        "alprazolam",
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Verstärkte und verlängerte Sedierung – Dosis reduzieren oder pausieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Salmeterol",
+      "ref": [
+        "salmeterol",
+        "salmeterol-fluticason"
+      ],
+      "effekt": "Erhöhte Salmeterol-Spiegel – Gefahr von Herzrhythmusstörungen (QT-Verlängerung); Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungswert (INR) kann sich verändern – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Atorvastatin, Rosuvastatin",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Statin-Spiegel steigen – während der Behandlung pausieren oder Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten (z. B. Amlodipin, Nifedipin, Felodipin, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – Blutdruck überwachen, Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel mit Ethinylestradiol",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz kann vermindert sein – während der Behandlung und bis zum Ende des folgenden Zyklus zusätzlich ein Kondom verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Ritonavir hemmt P-Glykoprotein – Digoxin-Spiegel steigen; Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer bei Erektionsstörungen (Sildenafil, Tadalafil)",
+      "ref": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "effekt": "Spiegel steigen – nur reduzierte Dosis mit längerem Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Inhalative und nasale Glukokortikoide (Fluticason, Budesonid)",
+      "ref": [
+        "gruppe:glukokortikoide-inhalativ",
+        "fluticason",
+        "budesonid"
+      ],
+      "effekt": "Kortison-Spiegel steigen; bei 5-tägiger Behandlung meist ohne Bedeutung, bei längerer Kombination Gefahr eines Cushing-Syndroms.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Geschmacksstörung (Dysgeusie)", "Durchfall", "Kopfschmerzen", "Übelkeit, Erbrechen"],
-    "gelegentlich": ["Bauchschmerzen", "Bluthochdruck", "Muskelschmerzen", "Hautausschlag, Juckreiz", "Überempfindlichkeitsreaktionen"],
-    "selten": ["Anaphylaxie (schwere allergische Reaktion)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)", "Unwohlsein"]
+    "haeufig": [
+      "Geschmacksstörung (Dysgeusie)",
+      "Durchfall",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen"
+    ],
+    "gelegentlich": [
+      "Bauchschmerzen",
+      "Bluthochdruck",
+      "Muskelschmerzen",
+      "Hautausschlag, Juckreiz",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Unwohlsein"
+    ]
   },
   "schwangerschaft": "Nicht empfohlen, ausser der klinische Zustand erfordert die Behandlung. Frauen im gebärfähigen Alter sollen während der Behandlung wirksam verhüten (hormonale Verhütung ist abgeschwächt).",
   "stillzeit": "Während der Behandlung und bis 48 Stunden nach der letzten Dosis nicht stillen.",

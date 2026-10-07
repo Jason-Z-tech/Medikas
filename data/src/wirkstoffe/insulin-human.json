@@ -1,51 +1,240 @@
 {
   "id": "insulin-human",
   "name": "Insulin human",
-  "synonyme": ["Humaninsulin", "Normalinsulin", "Altinsulin", "NPH-Insulin", "Isophan-Insulin", "Mischinsulin", "Human insulin", "Insulin regular"],
-  "atc": ["A10AB01", "A10AC01", "A10AD01"],
+  "synonyme": [
+    "Humaninsulin",
+    "Normalinsulin",
+    "Altinsulin",
+    "NPH-Insulin",
+    "Isophan-Insulin",
+    "Mischinsulin",
+    "Human insulin",
+    "Insulin regular"
+  ],
+  "atc": [
+    "A10AB01",
+    "A10AC01",
+    "A10AD01"
+  ],
   "klasse": "Humaninsulin: kurz wirksames Normalinsulin, intermediär wirksames NPH-Insulin und Mischinsulin",
   "kurz": "Dem körpereigenen Insulin gleiches Hormon gegen Diabetes; als rasch wirkendes Normalinsulin, länger wirkendes NPH-Insulin oder Mischinsulin.",
-  "gruppen": ["insuline", "hypoglykaemie-ausloesend", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Actrapid", "Insulatard", "Mixtard 30", "Huminsulin Normal", "Huminsulin Basal", "Huminsulin Profil III"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung (Normalinsulin)", "Injektionssuspension (NPH- und Mischinsulin)", "Fertigpen", "Patrone", "Durchstechflasche"],
+  "gruppen": [
+    "insuline",
+    "hypoglykaemie-ausloesend",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Actrapid",
+    "Insulatard",
+    "Mixtard 30",
+    "Huminsulin Normal",
+    "Huminsulin Basal",
+    "Huminsulin Profil III"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (Normalinsulin)",
+    "Injektionssuspension (NPH- und Mischinsulin)",
+    "Fertigpen",
+    "Patrone",
+    "Durchstechflasche"
+  ],
   "indikationen": [
-    { "text": "Diabetes mellitus, der eine Behandlung mit Insulin erfordert (Typ-1- und Typ-2-Diabetes), bei Erwachsenen und Kindern", "ids": ["diabetes", "diabetes-typ-1", "diabetes-typ-2", "gestationsdiabetes"] }
+    {
+      "text": "Diabetes mellitus, der eine Behandlung mit Insulin erfordert (Typ-1- und Typ-2-Diabetes), bei Erwachsenen und Kindern",
+      "ids": [
+        "diabetes",
+        "diabetes-typ-1",
+        "diabetes-typ-2",
+        "gestationsdiabetes"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den Blutzucker, indem es wie das körpereigene Hormon die Aufnahme von Zucker aus dem Blut in Muskel- und Fettzellen fördert. Humaninsulin wird gentechnisch hergestellt und ist mit menschlichem Insulin identisch; es bindet an den Insulinrezeptor, steigert Glukoseaufnahme und -speicherung und hemmt die Zuckerneubildung in der Leber sowie den Fettabbau. Normalinsulin (Altinsulin) wirkt nach etwa 30 Minuten, am stärksten nach 1,5–3,5 Stunden und rund 8 Stunden lang; es wird deshalb etwa 30 Minuten vor dem Essen gespritzt und kann im Spital auch intravenös gegeben werden. NPH-Insulin ist an Protamin gebunden und wirkt verzögert bis etwa 24 Stunden; Mischinsuline enthalten beide Anteile.",
   "kontraindikationen": [
-    { "text": "Bestehende Unterzuckerung (Hypoglykämie)", "ids": ["hypoglykaemie"] }
+    {
+      "text": "Bestehende Unterzuckerung (Hypoglykämie)",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Unterzuckerung durch ausgelassene Mahlzeiten, ungewohnte körperliche Anstrengung, Alkohol oder zu hohe Dosis; Warnzeichen können bei langer Diabetesdauer, Nervenschäden oder unter Betablockern abgeschwächt sein", "ids": ["hypoglykaemie", "alkoholkonsum"] },
-    { "text": "Zu niedrige Dosis oder Unterbrechung der Behandlung, besonders bei Typ-1-Diabetes: Gefahr von Überzuckerung und diabetischer Ketoazidose", "ids": ["ketoazidose", "diabetes-typ-1"] },
-    { "text": "Eingeschränkte Nieren- oder Leberfunktion: Insulinbedarf oft vermindert, häufigere Blutzuckerkontrollen", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Infekte, Fieber und andere Begleiterkrankungen erhöhen meist den Insulinbedarf", "ids": ["aktive-infektion", "fieber"] },
-    { "text": "Kombination mit Pioglitazon, besonders bei Herzkrankheiten: Fälle von Herzinsuffizienz", "ids": ["herzinsuffizienz"] },
-    { "text": "Wechsel von Insulinart, Marke oder Konzentration nur unter ärztlicher Kontrolle (Dosisanpassung, Verwechslungsgefahr)", "ids": [] },
-    { "text": "Rasche Verbesserung einer lange schlechten Blutzuckereinstellung: vorübergehende Verschlechterung einer diabetischen Netzhauterkrankung oder schmerzhafte Nervenbeschwerden möglich", "ids": [] },
-    { "text": "Intravenöse Gabe: Insulin verschiebt Kalium in die Zellen – Kalium kontrollieren, besonders bei bestehendem Kaliummangel", "ids": ["hypokaliaemie"] },
-    { "text": "Ältere Menschen: erhöhte Gefahr unbemerkter Unterzuckerungen", "ids": ["aeltere-patienten"] }
+    {
+      "text": "Unterzuckerung durch ausgelassene Mahlzeiten, ungewohnte körperliche Anstrengung, Alkohol oder zu hohe Dosis; Warnzeichen können bei langer Diabetesdauer, Nervenschäden oder unter Betablockern abgeschwächt sein",
+      "ids": [
+        "hypoglykaemie",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Zu niedrige Dosis oder Unterbrechung der Behandlung, besonders bei Typ-1-Diabetes: Gefahr von Überzuckerung und diabetischer Ketoazidose",
+      "ids": [
+        "ketoazidose",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion: Insulinbedarf oft vermindert, häufigere Blutzuckerkontrollen",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Infekte, Fieber und andere Begleiterkrankungen erhöhen meist den Insulinbedarf",
+      "ids": [
+        "aktive-infektion",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Kombination mit Pioglitazon, besonders bei Herzkrankheiten: Fälle von Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Wechsel von Insulinart, Marke oder Konzentration nur unter ärztlicher Kontrolle (Dosisanpassung, Verwechslungsgefahr)",
+      "ids": []
+    },
+    {
+      "text": "Rasche Verbesserung einer lange schlechten Blutzuckereinstellung: vorübergehende Verschlechterung einer diabetischen Netzhauterkrankung oder schmerzhafte Nervenbeschwerden möglich",
+      "ids": []
+    },
+    {
+      "text": "Intravenöse Gabe: Insulin verschiebt Kalium in die Zellen – Kalium kontrollieren, besonders bei bestehendem Kaliummangel",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhte Gefahr unbemerkter Unterzuckerungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, DPP-4- und SGLT-2-Hemmer)", "ref": ["gruppe:sulfonylharnstoffe", "metformin", "gruppe:glp1-agonisten", "gruppe:dpp4-hemmer", "gruppe:sglt2-hemmer"], "effekt": "Verstärkte Blutzuckersenkung mit Unterzuckerungsgefahr – Insulindosis bei Beginn oder Änderung der Kombination anpassen, Blutzucker häufiger messen.", "schwere": "mittel" },
-    { "text": "Betablocker (z. B. Metoprolol, Bisoprolol, Propranolol)", "ref": ["gruppe:betablocker"], "effekt": "Können Warnzeichen einer Unterzuckerung wie Zittern und Herzklopfen verschleiern und die Erholung verzögern – Blutzucker häufiger messen.", "schwere": "mittel" },
-    { "text": "Alkohol", "ref": [], "effekt": "Kann eine Unterzuckerung auslösen, verstärken und verlängern, besonders auf nüchternen Magen und in der Nacht – nur mässig und zum Essen trinken.", "schwere": "mittel" },
-    { "text": "Pioglitazon", "ref": ["pioglitazon"], "effekt": "In Kombination mit Insulin Wassereinlagerungen und Fälle von Herzinsuffizienz – auf Gewichtszunahme, Ödeme und Atemnot achten.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhen den Blutzucker – der Insulinbedarf steigt während der Behandlung und sinkt nach dem Absetzen wieder.", "schwere": "mittel" },
-    { "text": "Octreotid und Lanreotid", "ref": ["octreotid", "lanreotid"], "effekt": "Können den Insulinbedarf senken oder erhöhen – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin, Moxifloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Starke Blutzuckerschwankungen bis zu schwerer Unterzuckerung möglich – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "ACE-Hemmer, MAO-Hemmer, Salicylate in hoher Dosis, Sulfonamid-Antibiotika, anabole Steroide", "ref": ["gruppe:ace-hemmer", "gruppe:mao-hemmer", "acetylsalicylsaeure", "sulfamethoxazol-trimethoprim"], "effekt": "Können die blutzuckersenkende Wirkung verstärken – der Insulinbedarf kann sinken.", "schwere": "leicht" },
-    { "text": "Thiazid-Diuretika, Schilddrüsenhormone, Östrogene und hormonale Verhütungsmittel, Wachstumshormon (Somatropin), Danazol, Sympathomimetika (z. B. Salbutamol, Adrenalin)", "ref": ["gruppe:thiaziddiuretika", "gruppe:schilddruesenhormone", "gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva", "somatropin", "gruppe:sympathomimetika", "gruppe:beta2-sympathomimetika"], "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.", "schwere": "leicht" },
-    { "text": "Atypische Antipsychotika (z. B. Olanzapin, Clozapin) und HIV-Proteasehemmer", "ref": ["olanzapin", "clozapin", "gruppe:hiv-proteasehemmer"], "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.", "schwere": "leicht" }
+    {
+      "text": "Andere Blutzuckersenker (z. B. Sulfonylharnstoffe, Metformin, GLP-1-Agonisten, DPP-4- und SGLT-2-Hemmer)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "metformin",
+        "gruppe:glp1-agonisten",
+        "gruppe:dpp4-hemmer",
+        "gruppe:sglt2-hemmer"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung mit Unterzuckerungsgefahr – Insulindosis bei Beginn oder Änderung der Kombination anpassen, Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker (z. B. Metoprolol, Bisoprolol, Propranolol)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Können Warnzeichen einer Unterzuckerung wie Zittern und Herzklopfen verschleiern und die Erholung verzögern – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Kann eine Unterzuckerung auslösen, verstärken und verlängern, besonders auf nüchternen Magen und in der Nacht – nur mässig und zum Essen trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "In Kombination mit Insulin Wassereinlagerungen und Fälle von Herzinsuffizienz – auf Gewichtszunahme, Ödeme und Atemnot achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhen den Blutzucker – der Insulinbedarf steigt während der Behandlung und sinkt nach dem Absetzen wieder.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Octreotid und Lanreotid",
+      "ref": [
+        "octreotid",
+        "lanreotid"
+      ],
+      "effekt": "Können den Insulinbedarf senken oder erhöhen – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin, Moxifloxacin)",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Starke Blutzuckerschwankungen bis zu schwerer Unterzuckerung möglich – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer, MAO-Hemmer, Salicylate in hoher Dosis, Sulfonamid-Antibiotika, anabole Steroide",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:mao-hemmer",
+        "acetylsalicylsaeure",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Können die blutzuckersenkende Wirkung verstärken – der Insulinbedarf kann sinken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Thiazid-Diuretika, Schilddrüsenhormone, Östrogene und hormonale Verhütungsmittel, Wachstumshormon (Somatropin), Danazol, Sympathomimetika (z. B. Salbutamol, Adrenalin)",
+      "ref": [
+        "gruppe:thiaziddiuretika",
+        "gruppe:schilddruesenhormone",
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva",
+        "somatropin",
+        "gruppe:sympathomimetika",
+        "gruppe:beta2-sympathomimetika"
+      ],
+      "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Atypische Antipsychotika (z. B. Olanzapin, Clozapin) und HIV-Proteasehemmer",
+      "ref": [
+        "olanzapin",
+        "clozapin",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Können den Blutzucker erhöhen – der Insulinbedarf kann steigen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Hypoglykämie (Unterzuckerung) mit Zittern, Schwitzen, Herzklopfen, Heisshunger oder Verwirrtheit; schwer bis zur Bewusstlosigkeit"],
-    "gelegentlich": ["Allergische Hautreaktionen (Nesselsucht, Ausschlag)", "Reaktionen an der Injektionsstelle (Rötung, Schwellung, Juckreiz)", "Lipodystrophie (Verdickung oder Schwund des Unterhautfettgewebes an der Spritzstelle)", "Ödeme (Wassereinlagerungen), vor allem zu Behandlungsbeginn", "Diabetische Retinopathie (vorübergehende Verschlechterung der Netzhauterkrankung bei rascher Blutzuckersenkung)"],
-    "selten": ["Periphere Neuropathie (akute, schmerzhafte Nervenbeschwerden bei rascher Blutzuckersenkung)"],
-    "sehrSelten": ["Anaphylaxie (schwere allergische Reaktion)", "Refraktionsanomalien (vorübergehende Sehstörungen zu Behandlungsbeginn)"],
-    "unbekannt": ["Kutane Amyloidose (knotige Ablagerungen unter der Haut an häufig benutzten Spritzstellen, mit verschlechterter Insulinaufnahme)"]
+    "sehrHaeufig": [
+      "Hypoglykämie (Unterzuckerung) mit Zittern, Schwitzen, Herzklopfen, Heisshunger oder Verwirrtheit; schwer bis zur Bewusstlosigkeit"
+    ],
+    "gelegentlich": [
+      "Allergische Hautreaktionen (Nesselsucht, Ausschlag)",
+      "Reaktionen an der Injektionsstelle (Rötung, Schwellung, Juckreiz)",
+      "Lipodystrophie (Verdickung oder Schwund des Unterhautfettgewebes an der Spritzstelle)",
+      "Ödeme (Wassereinlagerungen), vor allem zu Behandlungsbeginn",
+      "Diabetische Retinopathie (vorübergehende Verschlechterung der Netzhauterkrankung bei rascher Blutzuckersenkung)"
+    ],
+    "selten": [
+      "Periphere Neuropathie (akute, schmerzhafte Nervenbeschwerden bei rascher Blutzuckersenkung)"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Refraktionsanomalien (vorübergehende Sehstörungen zu Behandlungsbeginn)"
+    ],
+    "unbekannt": [
+      "Kutane Amyloidose (knotige Ablagerungen unter der Haut an häufig benutzten Spritzstellen, mit verschlechterter Insulinaufnahme)"
+    ]
   },
   "schwangerschaft": "Erlaubt: Insulin ist das Mittel der Wahl bei Diabetes in der Schwangerschaft. Der Insulinbedarf sinkt meist im ersten Drittel, steigt im zweiten und dritten und fällt nach der Geburt rasch ab – engmaschige Blutzuckerkontrollen nötig.",
   "stillzeit": "Erlaubt; für das gestillte Kind besteht kein Risiko. Die Insulindosis und die Ernährung müssen eventuell angepasst werden.",

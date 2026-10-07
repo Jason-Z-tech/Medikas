@@ -1,41 +1,153 @@
 {
   "id": "ulipristal",
   "name": "Ulipristal",
-  "synonyme": ["Ulipristalacetat", "UPA", "Pille danach", "Notfallpille"],
-  "atc": ["G03AD02", "G03XB02"],
+  "synonyme": [
+    "Ulipristalacetat",
+    "UPA",
+    "Pille danach",
+    "Notfallpille"
+  ],
+  "atc": [
+    "G03AD02",
+    "G03XB02"
+  ],
   "klasse": "Selektiver Progesteronrezeptor-Modulator (SPRM); Notfallkontrazeptivum",
   "kurz": "«Pille danach»: verhindert bis 5 Tage nach ungeschütztem Geschlechtsverkehr eine Schwangerschaft, indem sie den Eisprung verschiebt.",
-  "gruppen": ["hormonale-kontrazeptiva"],
-  "handelsnamen": ["ellaOne"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "hormonale-kontrazeptiva"
+  ],
+  "handelsnamen": [
+    "ellaOne"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Notfallverhütung innerhalb von 120 Stunden (5 Tagen) nach ungeschütztem Geschlechtsverkehr oder Versagen einer Verhütungsmethode", "ids": ["verhuetung"] }
+    {
+      "text": "Notfallverhütung innerhalb von 120 Stunden (5 Tagen) nach ungeschütztem Geschlechtsverkehr oder Versagen einer Verhütungsmethode",
+      "ids": [
+        "verhuetung"
+      ]
+    }
   ],
   "wirkmechanismus": "Verhindert oder verzögert den Eisprung, sodass keine Befruchtung stattfinden kann. Ulipristalacetat bindet mit hoher Affinität an den Progesteronrezeptor und blockiert ihn teilweise. Es kann den Eisprung auch dann noch hinausschieben, wenn der Anstieg des Hormons LH bereits begonnen hat, und wirkt deshalb länger als Levonorgestrel. Eine bereits eingenistete Schwangerschaft wird in dieser Dosis nicht beendet.",
   "kontraindikationen": [
-    { "text": "Bestehende Schwangerschaft (die Tablette wirkt dann nicht)", "ids": ["schwangerschaft"] }
+    {
+      "text": "Bestehende Schwangerschaft (die Tablette wirkt dann nicht)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Schwere Leberfunktionsstörung: nicht empfohlen", "ids": ["leberinsuffizienz"] },
-    { "text": "Schweres Asthma, das mit Kortisontabletten behandelt wird: nicht empfohlen (Ulipristal hemmt auch Glukokortikoid-Rezeptoren)", "ids": ["asthma"] },
-    { "text": "Höheres Körpergewicht: Wirksamkeit möglicherweise vermindert (Daten begrenzt)", "ids": ["adipositas"] },
-    { "text": "Eileiterschwangerschaft wird nicht verhindert – bei Unterbauchschmerzen oder ausbleibender Regel ärztlich abklären", "ids": ["schwangerschaft"] },
-    { "text": "Laktoseintoleranz (enthält Lactose)", "ids": ["laktoseintoleranz"] }
+    {
+      "text": "Schwere Leberfunktionsstörung: nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schweres Asthma, das mit Kortisontabletten behandelt wird: nicht empfohlen (Ulipristal hemmt auch Glukokortikoid-Rezeptoren)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Höheres Körpergewicht: Wirksamkeit möglicherweise vermindert (Daten begrenzt)",
+      "ids": [
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Eileiterschwangerschaft wird nicht verhindert – bei Unterbauchschmerzen oder ausbleibender Regel ärztlich abklären",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Laktoseintoleranz (enthält Lactose)",
+      "ids": [
+        "laktoseintoleranz"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Efavirenz, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "gruppe:enzyminduktoren-hormone"], "effekt": "Ulipristal wird stark beschleunigt abgebaut und wirkt unsicher. Bei Einnahme solcher Mittel in den letzten 4 Wochen nicht empfohlen – Kupferspirale als Notfallverhütung bevorzugen.", "schwere": "schwer" },
-    { "text": "Gestagenhaltige Arzneimittel und hormonale Verhütung, einschliesslich Levonorgestrel-Notfallpille", "ref": ["gruppe:gestagene", "levonorgestrel"], "effekt": "Gegenseitige Wirkungsabschwächung. Nicht gleichzeitig mit Levonorgestrel einnehmen; hormonale Verhütung frühestens 5 Tage nach Ulipristal beginnen oder fortsetzen und bis zur nächsten Regel ein Kondom verwenden.", "schwere": "schwer" },
-    { "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker, Antazida)", "ref": ["gruppe:magensaeure-reduzierend"], "effekt": "Ein höherer Magen-pH vermindert die Aufnahme von Ulipristal; die klinische Bedeutung ist unklar.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Höhere Ulipristal-Spiegel; bei einmaliger Einnahme meist ohne klinische Bedeutung.", "schwere": "leicht" },
-    { "text": "Empfindliche P-Glykoprotein-Substrate (z. B. Dabigatran, Digoxin)", "ref": ["gruppe:p-gp-substrate-eng"], "effekt": "Ulipristal hemmt im Darm möglicherweise P-Glykoprotein – vorübergehend höhere Spiegel sind nicht ausgeschlossen.", "schwere": "leicht" }
+    {
+      "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Efavirenz, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:enzyminduktoren-hormone"
+      ],
+      "effekt": "Ulipristal wird stark beschleunigt abgebaut und wirkt unsicher. Bei Einnahme solcher Mittel in den letzten 4 Wochen nicht empfohlen – Kupferspirale als Notfallverhütung bevorzugen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gestagenhaltige Arzneimittel und hormonale Verhütung, einschliesslich Levonorgestrel-Notfallpille",
+      "ref": [
+        "gruppe:gestagene",
+        "levonorgestrel"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung. Nicht gleichzeitig mit Levonorgestrel einnehmen; hormonale Verhütung frühestens 5 Tage nach Ulipristal beginnen oder fortsetzen und bis zur nächsten Regel ein Kondom verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker, Antazida)",
+      "ref": [
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Ein höherer Magen-pH vermindert die Aufnahme von Ulipristal; die klinische Bedeutung ist unklar.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Ulipristal-Spiegel; bei einmaliger Einnahme meist ohne klinische Bedeutung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Empfindliche P-Glykoprotein-Substrate (z. B. Dabigatran, Digoxin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Ulipristal hemmt im Darm möglicherweise P-Glykoprotein – vorübergehend höhere Spiegel sind nicht ausgeschlossen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen, Schwindel", "Übelkeit, Bauchschmerzen, Erbrechen", "Stimmungsschwankungen", "Regelblutung früher oder später als erwartet, schmerzhafte Regelblutung, Beckenschmerzen", "Brustspannen", "Muskel- und Rückenschmerzen", "Müdigkeit"],
-    "gelegentlich": ["Angst, Schlaflosigkeit, Libidoveränderungen", "Schläfrigkeit, Migräne", "Sehstörungen", "Hitzewallungen", "Durchfall, Mundtrockenheit, Verdauungsbeschwerden, Blähungen", "Akne, Juckreiz, Hautveränderungen", "Zwischen- oder verstärkte Blutungen, Scheidenausfluss", "Schüttelfrost, Fieber, Unwohlsein"],
-    "selten": ["Zittern, Konzentrationsstörungen, Geschmacksstörungen", "Ohnmacht (Synkope)", "Nesselsucht", "Juckreiz und Schmerzen im Genitalbereich"],
-    "unbekannt": ["Überempfindlichkeitsreaktionen mit Hautausschlag, Nesselsucht oder Angioödem"]
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Übelkeit, Bauchschmerzen, Erbrechen",
+      "Stimmungsschwankungen",
+      "Regelblutung früher oder später als erwartet, schmerzhafte Regelblutung, Beckenschmerzen",
+      "Brustspannen",
+      "Muskel- und Rückenschmerzen",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Angst, Schlaflosigkeit, Libidoveränderungen",
+      "Schläfrigkeit, Migräne",
+      "Sehstörungen",
+      "Hitzewallungen",
+      "Durchfall, Mundtrockenheit, Verdauungsbeschwerden, Blähungen",
+      "Akne, Juckreiz, Hautveränderungen",
+      "Zwischen- oder verstärkte Blutungen, Scheidenausfluss",
+      "Schüttelfrost, Fieber, Unwohlsein"
+    ],
+    "selten": [
+      "Zittern, Konzentrationsstörungen, Geschmacksstörungen",
+      "Ohnmacht (Synkope)",
+      "Nesselsucht",
+      "Juckreiz und Schmerzen im Genitalbereich"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen mit Hautausschlag, Nesselsucht oder Angioödem"
+    ]
   },
   "schwangerschaft": "Nicht bei bestehender Schwangerschaft anwenden (keine Wirkung). Nach versehentlicher Einnahme in der Frühschwangerschaft zeigen die bisherigen Daten kein erhöhtes Fehlbildungsrisiko.",
   "stillzeit": "Nach der Einnahme 1 Woche nicht stillen; die Milch in dieser Zeit abpumpen und verwerfen.",

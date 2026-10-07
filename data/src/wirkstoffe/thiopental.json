@@ -1,0 +1,172 @@
+{
+  "id": "thiopental",
+  "name": "Thiopental",
+  "synonyme": [
+    "Thiopental-Natrium",
+    "Thiopentone"
+  ],
+  "atc": [
+    "N01AF03"
+  ],
+  "klasse": "Barbiturat (intravenöses Kurznarkotikum)",
+  "kurz": "Sehr rasch wirkendes Narkosemittel zum Einschlafen vor einer Operation; auch bei schweren Krampfanfällen und erhöhtem Hirndruck.",
+  "gruppen": [
+    "barbiturate",
+    "zns-daempfend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Thiopental Inresa"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Einleitung einer Allgemeinanästhesie und kurze Narkosen",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Behandlung von Krampfanfällen, die auf andere Mittel nicht ansprechen",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Senkung eines erhöhten Hirndrucks bei beatmeten Patientinnen und Patienten",
+      "ids": [
+        "hirnoedem"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Führt innerhalb von Sekunden zu tiefem Schlaf. Thiopental verstärkt die hemmende Wirkung des Botenstoffs GABA am GABA-A-Rezeptor, indem es die Öffnungsdauer der Chloridkanäle verlängert; in hoher Dosis öffnet es diese auch direkt. Wegen der hohen Fettlöslichkeit erreicht es das Gehirn sehr schnell; die kurze Wirkung beruht auf der Umverteilung in Muskel- und Fettgewebe. Weil der Abbau in der Leber langsam ist, kann es sich bei wiederholter Gabe anreichern. Es senkt Hirnstoffwechsel und Hirndruck.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Porphyrie (auch Veranlagung oder Vorgeschichte)",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Status asthmaticus (schwerer, anhaltender Asthmaanfall)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Barbiturate (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Flüssigkeitsmangel oder Schock: ausgeprägter Blutdruckabfall",
+      "ids": [
+        "herzinsuffizienz",
+        "hypotonie",
+        "schock"
+      ]
+    },
+    {
+      "text": "Asthma und chronische Atemwegserkrankungen: Bronchospasmus und Laryngospasmus möglich",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion: verlängerte Wirkung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen: niedrigere Dosis",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis, Nebenniereninsuffizienz, ausgeprägte Schilddrüsenunterfunktion",
+      "ids": [
+        "myasthenia-gravis",
+        "nebenniereninsuffizienz",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Versehentliche Injektion in eine Arterie oder neben die Vene: schwere Gefäss- und Gewebeschäden (stark alkalische Lösung)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide, Benzodiazepine, Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung von Bewusstsein, Atmung und Kreislauf – Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Narkosemittel (z. B. Propofol, Narkosegase)",
+      "ref": [
+        "propofol",
+        "isofluran",
+        "sevofluran",
+        "desfluran"
+      ],
+      "effekt": "Additive Wirkung auf Bewusstsein, Atmung und Kreislauf – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Saure Injektionslösungen, z. B. Muskelrelaxanzien (Suxamethonium, Rocuronium)",
+      "ref": [
+        "suxamethonium",
+        "rocuronium",
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Ausfällung in Spritze oder Infusionsleitung – nicht mischen, Leitung dazwischen spülen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Atemdepression bis Atemstillstand",
+      "Blutdruckabfall, Herzrhythmusstörungen, Herzdämpfung",
+      "Husten, Niesen, Laryngospasmus (Stimmritzenkrampf), Bronchospasmus",
+      "Allergische Reaktionen bis Anaphylaxie",
+      "Schwere Gewebeschäden bei Injektion neben die Vene; Gefässverschluss bis Gangrän bei Injektion in eine Arterie",
+      "Schläfrigkeit, Verwirrtheit und verzögertes Erwachen (Nachschlaf)",
+      "Übelkeit, Erbrechen, Kopfschmerzen",
+      "Kältezittern in der Aufwachphase"
+    ]
+  },
+  "schwangerschaft": "Thiopental gelangt rasch zum Ungeborenen; Anwendung nur bei klarer Notwendigkeit, z. B. zur Narkoseeinleitung beim Kaiserschnitt.",
+  "stillzeit": "Thiopental geht in die Muttermilch über; nach der Gabe für eine gewisse Zeit nicht stillen – die Dauer legt die Ärztin oder der Arzt fest.",
+  "hinweise": [
+    "Wird nur im Spital durch Anästhesiefachpersonen mit Beatmungsmöglichkeit verabreicht.",
+    "Bekannte Porphyrie oder eine Unverträglichkeit von Barbituraten vor der Narkose angeben.",
+    "Nach der Narkose mindestens 24 Stunden kein Fahrzeug lenken, keine Maschinen bedienen und keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

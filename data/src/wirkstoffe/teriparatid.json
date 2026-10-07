@@ -1,44 +1,151 @@
 {
   "id": "teriparatid",
   "name": "Teriparatid",
-  "synonyme": ["Teriparatide", "rhPTH(1-34)", "Parathormon-Fragment 1-34"],
-  "atc": ["H05AA02"],
+  "synonyme": [
+    "Teriparatide",
+    "rhPTH(1-34)",
+    "Parathormon-Fragment 1-34"
+  ],
+  "atc": [
+    "H05AA02"
+  ],
   "klasse": "Parathormon-Analogon (knochenaufbauendes Osteoporosemittel)",
   "kurz": "Täglich gespritztes Osteoporosemittel, das neuen Knochen aufbaut; bei hohem Knochenbruchrisiko, insgesamt höchstens 24 Monate.",
-  "gruppen": [],
-  "handelsnamen": ["Forsteo"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung im Fertigpen (zur Injektion unter die Haut)"],
+  "gruppen": [
+    "hyperkalzaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Forsteo"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen (zur Injektion unter die Haut)"
+  ],
   "indikationen": [
-    { "text": "Osteoporose bei Frauen nach den Wechseljahren und bei Männern mit erhöhtem Knochenbruchrisiko", "ids": ["osteoporose"] },
-    { "text": "Osteoporose durch eine langdauernde systemische Kortisonbehandlung (Glukokortikoide) bei Frauen und Männern mit erhöhtem Knochenbruchrisiko", "ids": ["osteoporose"] }
+    {
+      "text": "Osteoporose bei Frauen nach den Wechseljahren und bei Männern mit erhöhtem Knochenbruchrisiko",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Osteoporose durch eine langdauernde systemische Kortisonbehandlung (Glukokortikoide) bei Frauen und Männern mit erhöhtem Knochenbruchrisiko",
+      "ids": [
+        "osteoporose"
+      ]
+    }
   ],
   "wirkmechanismus": "Regt die knochenbildenden Zellen an und baut so neue Knochensubstanz auf – im Gegensatz zu den meisten Osteoporosemitteln, die nur den Knochenabbau bremsen. Teriparatid ist das gentechnisch hergestellte aktive Teilstück (Aminosäuren 1–34) des körpereigenen Parathormons und bindet an den PTH-1-Rezeptor. Einmal täglich gegeben, stimuliert es überwiegend die Osteoblasten (osteoanaboler Effekt), während ein dauerhaft erhöhtes Parathormon den Knochen abbauen würde. Knochendichte und -struktur nehmen vor allem an der Wirbelsäule zu, das Risiko für Wirbel- und andere Brüche sinkt. Zudem steigert es vorübergehend die Calciumaufnahme im Darm und die Calcium-Rückresorption in der Niere.",
   "kontraindikationen": [
-    { "text": "Schwangerschaft und Stillzeit", "ids": ["schwangerschaft", "stillzeit"] },
-    { "text": "Bestehende Hyperkalzämie (erhöhtes Calcium im Blut)", "ids": ["hyperkalzaemie"] },
-    { "text": "Schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
-    { "text": "Andere Stoffwechselerkrankungen des Knochens als die Osteoporose, z. B. Hyperparathyreoidismus (Nebenschilddrüsen-Überfunktion) oder Morbus Paget", "ids": ["hyperparathyreoidismus", "morbus-paget"] },
-    { "text": "Ungeklärt erhöhte alkalische Phosphatase (Laborwert)", "ids": [] },
-    { "text": "Frühere Strahlentherapie des Skeletts (von aussen oder durch eingebrachte Strahlenquellen)", "ids": [] },
-    { "text": "Bösartige Knochentumoren oder Knochenmetastasen", "ids": ["knochenmetastasen", "krebs"] },
-    { "text": "Kinder, Jugendliche und junge Erwachsene mit noch offenen Wachstumsfugen", "ids": ["kinder"] }
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Bestehende Hyperkalzämie (erhöhtes Calcium im Blut)",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Andere Stoffwechselerkrankungen des Knochens als die Osteoporose, z. B. Hyperparathyreoidismus (Nebenschilddrüsen-Überfunktion) oder Morbus Paget",
+      "ids": [
+        "hyperparathyreoidismus",
+        "morbus-paget"
+      ]
+    },
+    {
+      "text": "Ungeklärt erhöhte alkalische Phosphatase (Laborwert)",
+      "ids": []
+    },
+    {
+      "text": "Frühere Strahlentherapie des Skeletts (von aussen oder durch eingebrachte Strahlenquellen)",
+      "ids": []
+    },
+    {
+      "text": "Bösartige Knochentumoren oder Knochenmetastasen",
+      "ids": [
+        "knochenmetastasen",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Kinder, Jugendliche und junge Erwachsene mit noch offenen Wachstumsfugen",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Vorübergehender Calciumanstieg nach jeder Injektion: Blutentnahme für Calcium-Kontrollen frühestens 16 Stunden nach der letzten Spritze", "ids": ["hyperkalzaemie"] },
-    { "text": "Aktive oder kürzlich aufgetretene Nierensteine (Urolithiasis)", "ids": ["nierensteine"] },
-    { "text": "Mittelschwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
-    { "text": "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie) nach den ersten Injektionen", "ids": ["hypotonie"] },
-    { "text": "Frauen im gebärfähigen Alter: während der Behandlung wirksam verhüten", "ids": ["frauen-gebaerfaehig"] },
-    { "text": "Gesamtbehandlungsdauer im ganzen Leben höchstens 24 Monate (in Tierversuchen gehäuft Osteosarkome)", "ids": [] }
+    {
+      "text": "Vorübergehender Calciumanstieg nach jeder Injektion: Blutentnahme für Calcium-Kontrollen frühestens 16 Stunden nach der letzten Spritze",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Aktive oder kürzlich aufgetretene Nierensteine (Urolithiasis)",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Mittelschwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie) nach den ersten Injektionen",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: während der Behandlung wirksam verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Gesamtbehandlungsdauer im ganzen Leben höchstens 24 Monate (in Tierversuchen gehäuft Osteosarkome)",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Herzglykoside (Digoxin, Digitoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Der vorübergehende Calciumanstieg kann eine Digitalis-Vergiftung begünstigen – mit Vorsicht kombinieren, auf Herzrhythmusstörungen, Übelkeit und Sehstörungen achten.", "schwere": "mittel" },
-    { "text": "Schleifendiuretika (z. B. Furosemid)", "ref": ["gruppe:schleifendiuretika"], "effekt": "Leicht stärkerer Calciumanstieg möglich, vor allem bei eingeschränkter Nierenfunktion – Calcium kontrollieren.", "schwere": "leicht" }
+    {
+      "text": "Herzglykoside (Digoxin, Digitoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Der vorübergehende Calciumanstieg kann eine Digitalis-Vergiftung begünstigen – mit Vorsicht kombinieren, auf Herzrhythmusstörungen, Übelkeit und Sehstörungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schleifendiuretika (z. B. Furosemid)",
+      "ref": [
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Leicht stärkerer Calciumanstieg möglich, vor allem bei eingeschränkter Nierenfunktion – Calcium kontrollieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Gliederschmerzen"],
+    "sehrHaeufig": [
+      "Gliederschmerzen"
+    ],
     "haeufig": [
       "Übelkeit, Erbrechen, Sodbrennen",
       "Kopfschmerzen, Schwindel, Drehschwindel",
@@ -63,7 +170,9 @@
       "Nierenfunktionsstörung",
       "Wassereinlagerungen (Ödeme)"
     ],
-    "unbekannt": ["Osteosarkom (Knochenkrebs): in Tierversuchen gehäuft, beim Menschen nur sehr vereinzelt berichtet"]
+    "unbekannt": [
+      "Osteosarkom (Knochenkrebs): in Tierversuchen gehäuft, beim Menschen nur sehr vereinzelt berichtet"
+    ]
   },
   "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter müssen während der Behandlung wirksam verhüten; bei einer Schwangerschaft wird Teriparatid abgesetzt.",
   "stillzeit": "Kontraindiziert (nicht bekannt, ob Teriparatid in die Muttermilch übergeht).",

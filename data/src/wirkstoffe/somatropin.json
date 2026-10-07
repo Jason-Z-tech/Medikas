@@ -1,52 +1,225 @@
 {
   "id": "somatropin",
   "name": "Somatropin",
-  "synonyme": ["Wachstumshormon", "Humanes Wachstumshormon", "hGH", "STH", "Somatotropin", "Human growth hormone"],
-  "atc": ["H01AC01"],
+  "synonyme": [
+    "Wachstumshormon",
+    "Humanes Wachstumshormon",
+    "hGH",
+    "STH",
+    "Somatotropin",
+    "Human growth hormone"
+  ],
+  "atc": [
+    "H01AC01"
+  ],
   "klasse": "Wachstumshormon (rekombinantes humanes Somatropin)",
   "kurz": "Gentechnisch hergestelltes Wachstumshormon zum Spritzen bei Kleinwuchs bestimmter Ursachen und bei Wachstumshormonmangel von Erwachsenen.",
-  "gruppen": [],
-  "handelsnamen": ["Genotropin", "Norditropin", "Omnitrope", "Saizen", "Zomacton", "Humatrope"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung (Fertigpen, Patrone)", "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"],
+  "gruppen": [
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Genotropin",
+    "Norditropin",
+    "Omnitrope",
+    "Saizen",
+    "Zomacton"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (Fertigpen, Patrone)",
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+  ],
   "indikationen": [
-    { "text": "Wachstumsstörung bei Kindern durch ungenügende Ausschüttung von Wachstumshormon", "ids": ["wachstumsstoerung"] },
-    { "text": "Kleinwuchs bei Mädchen mit Turner-Syndrom", "ids": ["wachstumsstoerung"] },
-    { "text": "Wachstumsstörung bei Kindern mit chronischer Niereninsuffizienz", "ids": ["wachstumsstoerung", "niereninsuffizienz"] },
-    { "text": "Kleinwuchs bei Kindern, die zu klein für ihr Gestationsalter geboren wurden (SGA) und bis zum Alter von 4 Jahren kein Aufholwachstum zeigen", "ids": ["wachstumsstoerung"] },
-    { "text": "Prader-Willi-Syndrom zur Verbesserung von Wachstum und Körperzusammensetzung (je nach Präparat)", "ids": ["wachstumsstoerung"] },
-    { "text": "Kleinwuchs bei Noonan-Syndrom oder SHOX-Mangel (je nach Präparat)", "ids": ["wachstumsstoerung"] },
-    { "text": "Ausgeprägter Wachstumshormonmangel bei Erwachsenen (Ersatztherapie)", "ids": ["wachstumsstoerung"] }
+    {
+      "text": "Wachstumsstörung bei Kindern durch ungenügende Ausschüttung von Wachstumshormon",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Kleinwuchs bei Mädchen mit Turner-Syndrom",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Wachstumsstörung bei Kindern mit chronischer Niereninsuffizienz",
+      "ids": [
+        "wachstumsstoerung",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kleinwuchs bei Kindern, die zu klein für ihr Gestationsalter geboren wurden (SGA) und bis zum Alter von 4 Jahren kein Aufholwachstum zeigen",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Prader-Willi-Syndrom zur Verbesserung von Wachstum und Körperzusammensetzung (je nach Präparat)",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Kleinwuchs bei Noonan-Syndrom (je nach Präparat)",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Ausgeprägter Wachstumshormonmangel bei Erwachsenen (Ersatztherapie)",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt das körpereigene Wachstumshormon der Hirnanhangdrüse und fördert bei Kindern das Längenwachstum der Knochen. Somatropin ist gentechnisch hergestellt und mit dem menschlichen Hormon identisch. Es bindet an Wachstumshormon-Rezeptoren und regt vor allem in der Leber die Bildung von IGF-1 (insulinähnlicher Wachstumsfaktor 1) an, das an den Wachstumsfugen das Knochenwachstum stimuliert. Zudem fördert es den Eiweissaufbau und den Fettabbau und wirkt dem Insulin entgegen, sodass der Blutzucker steigen kann. Bei Erwachsenen mit Mangel verbessert es Körperzusammensetzung, Knochendichte und Blutfette.",
   "kontraindikationen": [
-    { "text": "Aktive Tumorerkrankung; eine Krebsbehandlung muss vor Beginn abgeschlossen und ein Hirntumor inaktiv sein", "ids": ["krebs", "hirntumor"] },
-    { "text": "Akute kritische Erkrankung nach grossen Herz- oder Bauchoperationen, nach Mehrfachverletzungen oder bei akutem Atemversagen", "ids": ["operation"] },
-    { "text": "Kinder mit bereits geschlossenen Wachstumsfugen (zur Förderung des Wachstums)", "ids": ["kinder"] },
-    { "text": "Prader-Willi-Syndrom mit schwerem Übergewicht oder schweren Atemproblemen (z. B. Schlafapnoe)", "ids": ["adipositas", "schlafapnoe"] }
+    {
+      "text": "Aktive Tumorerkrankung; eine Krebsbehandlung muss vor Beginn abgeschlossen und ein Hirntumor inaktiv sein",
+      "ids": [
+        "krebs",
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Akute kritische Erkrankung nach grossen Herz- oder Bauchoperationen, nach Mehrfachverletzungen oder bei akutem Atemversagen",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Kinder mit bereits geschlossenen Wachstumsfugen (zur Förderung des Wachstums)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Prader-Willi-Syndrom mit schwerem Übergewicht oder schweren Atemproblemen (z. B. Schlafapnoe)",
+      "ids": [
+        "adipositas",
+        "schlafapnoe"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Diabetes oder gestörte Glukosetoleranz: Somatropin vermindert die Insulinempfindlichkeit – Blutzucker kontrollieren, Diabetesbehandlung anpassen; Vorsicht bei diabetischer Netzhauterkrankung", "ids": ["diabetes"] },
-    { "text": "Eine Schilddrüsenunterfunktion kann auftreten oder sich verstärken – Schilddrüsenwerte kontrollieren", "ids": ["hypothyreose"] },
-    { "text": "Hypophyseninsuffizienz: eine verborgene Nebenniereninsuffizienz kann sichtbar werden – Glukokortikoid-Ersatz eventuell anpassen", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Starke oder wiederkehrende Kopfschmerzen, Sehstörungen, Übelkeit oder Erbrechen: an erhöhten Hirndruck denken und den Augenhintergrund untersuchen lassen", "ids": ["kopfschmerzen"] },
-    { "text": "Kinder: Hinken, Hüft- oder Knieschmerzen (Abrutschen der Hüftkopf-Wachstumsfuge) und ein Fortschreiten einer Skoliose beachten", "ids": ["kinder"] },
-    { "text": "Frühere Krebserkrankung, v. a. nach Krebs im Kindesalter: erhöhtes Risiko für Zweittumoren – regelmässige Kontrollen", "ids": ["krebs"] },
-    { "text": "Prader-Willi-Syndrom: Körpergewicht kontrollieren und vor sowie während der Behandlung auf Verengung der oberen Atemwege, Schlafapnoe und Atemwegsinfekte achten", "ids": ["schlafapnoe", "adipositas"] },
-    { "text": "Anhaltende starke Bauchschmerzen, v. a. bei Kindern: an eine Pankreatitis denken", "ids": ["pankreatitis"] }
+    {
+      "text": "Diabetes oder gestörte Glukosetoleranz: Somatropin vermindert die Insulinempfindlichkeit – Blutzucker kontrollieren, Diabetesbehandlung anpassen; Vorsicht bei diabetischer Netzhauterkrankung",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Eine Schilddrüsenunterfunktion kann auftreten oder sich verstärken – Schilddrüsenwerte kontrollieren",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Hypophyseninsuffizienz: eine verborgene Nebenniereninsuffizienz kann sichtbar werden – Glukokortikoid-Ersatz eventuell anpassen",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Starke oder wiederkehrende Kopfschmerzen, Sehstörungen, Übelkeit oder Erbrechen: an erhöhten Hirndruck denken und den Augenhintergrund untersuchen lassen",
+      "ids": [
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Kinder: Hinken, Hüft- oder Knieschmerzen (Abrutschen der Hüftkopf-Wachstumsfuge) und ein Fortschreiten einer Skoliose beachten",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Frühere Krebserkrankung, v. a. nach Krebs im Kindesalter: erhöhtes Risiko für Zweittumoren – regelmässige Kontrollen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Prader-Willi-Syndrom: Körpergewicht kontrollieren und vor sowie während der Behandlung auf Verengung der oberen Atemwege, Schlafapnoe und Atemwegsinfekte achten",
+      "ids": [
+        "schlafapnoe",
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Anhaltende starke Bauchschmerzen, v. a. bei Kindern: an eine Pankreatitis denken",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Glukokortikoide (z. B. Hydrocortison, Prednison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Höhere Glukokortikoid-Dosen hemmen das Wachstum; Somatropin kann zudem den Cortisolspiegel senken und eine Nebenniereninsuffizienz sichtbar machen – Glukokortikoid-Dosis überwachen und anpassen.", "schwere": "mittel" },
-    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Somatropin schwächt die Insulinwirkung ab – Blutzucker kontrollieren, Dosis der Diabetesmittel anpassen.", "schwere": "mittel" },
-    { "text": "Östrogene zum Einnehmen (z. B. Hormonersatz, Pille)", "ref": ["gruppe:oestrogene", "gruppe:hormonale-kontrazeptiva"], "effekt": "Die Wirkung von Somatropin wird abgeschwächt – eventuell ist eine höhere Dosis nötig.", "schwere": "mittel" },
-    { "text": "Schilddrüsenhormone", "ref": ["gruppe:schilddruesenhormone"], "effekt": "Somatropin fördert die Umwandlung von T4 in T3; eine Schilddrüsenunterfunktion kann sichtbar werden – Werte kontrollieren.", "schwere": "leicht" },
-    { "text": "Über CYP-Enzyme (v. a. CYP3A4) abgebaute Mittel, z. B. Sexualhormone, Ciclosporin, Antiepileptika", "ref": ["ciclosporin", "carbamazepin", "phenytoin"], "effekt": "Somatropin kann deren Abbau beschleunigen und die Wirkung abschwächen; die klinische Bedeutung ist unklar.", "schwere": "leicht" }
+    {
+      "text": "Glukokortikoide (z. B. Hydrocortison, Prednison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Höhere Glukokortikoid-Dosen hemmen das Wachstum; Somatropin kann zudem den Cortisolspiegel senken und eine Nebenniereninsuffizienz sichtbar machen – Glukokortikoid-Dosis überwachen und anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Somatropin schwächt die Insulinwirkung ab – Blutzucker kontrollieren, Dosis der Diabetesmittel anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogene zum Einnehmen (z. B. Hormonersatz, Pille)",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Die Wirkung von Somatropin wird abgeschwächt – eventuell ist eine höhere Dosis nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Somatropin fördert die Umwandlung von T4 in T3; eine Schilddrüsenunterfunktion kann sichtbar werden – Werte kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Über CYP-Enzyme (v. a. CYP3A4) abgebaute Mittel, z. B. Sexualhormone, Ciclosporin, Antiepileptika",
+      "ref": [
+        "ciclosporin",
+        "carbamazepin",
+        "phenytoin"
+      ],
+      "effekt": "Somatropin kann deren Abbau beschleunigen und die Wirkung abschwächen; die klinische Bedeutung ist unklar.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Gelenkschmerzen (v. a. bei Erwachsenen)", "Periphere Ödeme (Wassereinlagerungen, v. a. bei Erwachsenen zu Therapiebeginn)"],
-    "haeufig": ["Reaktionen an der Einstichstelle (Schmerz, Rötung, Schwellung)", "Kopfschmerzen", "Parästhesien (Kribbeln, Taubheitsgefühl)", "Muskelschmerzen, Muskel- und Gelenksteifigkeit"],
-    "gelegentlich": ["Karpaltunnelsyndrom", "Hautausschlag, Juckreiz, Nesselsucht", "Gynäkomastie (Brustvergrösserung)"],
+    "sehrHaeufig": [
+      "Gelenkschmerzen (v. a. bei Erwachsenen)",
+      "Periphere Ödeme (Wassereinlagerungen, v. a. bei Erwachsenen zu Therapiebeginn)"
+    ],
+    "haeufig": [
+      "Reaktionen an der Einstichstelle (Schmerz, Rötung, Schwellung)",
+      "Kopfschmerzen",
+      "Parästhesien (Kribbeln, Taubheitsgefühl)",
+      "Muskelschmerzen, Muskel- und Gelenksteifigkeit"
+    ],
+    "gelegentlich": [
+      "Karpaltunnelsyndrom",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Gynäkomastie (Brustvergrösserung)"
+    ],
     "unbekannt": [
       "Erhöhter Hirndruck (benigne intrakranielle Hypertension) mit Kopfschmerzen, Sehstörungen und Erbrechen",
       "Epiphysiolysis capitis femoris (Abrutschen der Hüftkopf-Wachstumsfuge) bei Kindern",

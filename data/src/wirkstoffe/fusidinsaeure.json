@@ -1,43 +1,155 @@
 {
   "id": "fusidinsaeure",
   "name": "Fusidinsäure",
-  "synonyme": ["Natriumfusidat", "Fusidic acid", "Acidum fusidicum", "Fusidat"],
+  "synonyme": [
+    "Natriumfusidat",
+    "Fusidic acid",
+    "Acidum fusidicum",
+    "Fusidat"
+  ],
   "kombinationAus": [],
-  "atc": ["D06AX01", "J01XC01", "S01AA13"],
+  "atc": [
+    "D06AX01",
+    "J01XC01",
+    "S01AA13"
+  ],
   "klasse": "Steroid-Antibiotikum (Fusidan), vor allem gegen Staphylokokken",
   "kurz": "Antibiotikum gegen Staphylokokken: vor allem als Creme oder Salbe bei Hautinfektionen, als Augentropfen und selten als Tablette.",
   "gruppen": [],
-  "handelsnamen": ["Fucidin", "Fucithalmic", "Fucicort (Kombi)", "Fucidin-H (Kombi)"],
-  "abgabe": ["A", "B"],
-  "darreichung": ["Creme", "Salbe", "Augentropfen (zähflüssig)", "Filmtabletten"],
+  "handelsnamen": [
+    "Fucidin",
+    "Fucithalmic",
+    "Fucicort (Kombi)"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Creme",
+    "Salbe",
+    "Augentropfen (zähflüssig)",
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Bakterielle Hautinfektionen durch Staphylokokken oder andere empfindliche Keime, z. B. Impetigo (Borkenflechte), Follikulitis, Furunkel, infizierte Wunden (Creme, Salbe)", "ids": ["hautinfektion"] },
-    { "text": "Bakterielle Bindehautentzündung (Augentropfen)", "ids": ["augeninfektion"] },
-    { "text": "Schwere Infektionen durch Staphylokokken, z. B. von Knochen, Gelenken, Haut und Weichteilen (Tabletten, meist zusammen mit einem anderen Antibiotikum)", "ids": ["bakterielle-infektion"] },
-    { "text": "Kombination mit Kortison (Fucicort, Fucidin-H): entzündliche Hauterkrankungen wie Ekzeme mit bakterieller Infektion", "ids": ["neurodermitis", "hautinfektion"] }
+    {
+      "text": "Bakterielle Hautinfektionen durch Staphylokokken oder andere empfindliche Keime, z. B. Impetigo (Borkenflechte), Follikulitis, Furunkel, infizierte Wunden (Creme, Salbe)",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Bakterielle Bindehautentzündung (Augentropfen)",
+      "ids": [
+        "augeninfektion"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen durch Staphylokokken, z. B. von Knochen, Gelenken, Haut und Weichteilen (Tabletten, meist zusammen mit einem anderen Antibiotikum)",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Kombination mit Kortison (Fucicort): entzündliche Hauterkrankungen wie Ekzeme mit bakterieller Infektion",
+      "ids": [
+        "neurodermitis",
+        "hautinfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt das Wachstum von Bakterien, indem es ihre Eiweissherstellung blockiert. Fusidinsäure hat eine steroidähnliche Struktur, wirkt aber nicht wie Kortison: Sie hält den Elongationsfaktor G (EF-G) am bakteriellen Ribosom fest und verhindert so, dass die Eiweisskette verlängert wird. Sie wirkt vor allem gegen Staphylokokken, auch gegen viele Methicillin-resistente Stämme, und dringt gut in Haut und Gewebe ein. Weil sich rasch Resistenzen bilden, soll die Behandlung kurz sein.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Nicht länger als nötig und nicht wiederholt anwenden: Gefahr resistenter Bakterien", "ids": ["hautinfektion"] },
-    { "text": "Eingeschränkte Leberfunktion oder Gallenabflussstörung (Tabletten): Fusidinsäure wird über Leber und Galle ausgeschieden – Leberwerte kontrollieren", "ids": ["leberinsuffizienz", "gallensteine"] },
-    { "text": "Neugeborene mit Gelbsucht und Frühgeborene (innerliche Anwendung): Fusidinsäure kann Bilirubin aus der Eiweissbindung verdrängen", "ids": ["kinder"] },
-    { "text": "Creme und Salbe nicht in die Augen bringen (Reizung der Bindehaut)", "ids": [] }
+    {
+      "text": "Nicht länger als nötig und nicht wiederholt anwenden: Gefahr resistenter Bakterien",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion oder Gallenabflussstörung (Tabletten): Fusidinsäure wird über Leber und Galle ausgeschieden – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Neugeborene mit Gelbsucht und Frühgeborene (innerliche Anwendung): Fusidinsäure kann Bilirubin aus der Eiweissbindung verdrängen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Creme und Salbe nicht in die Augen bringen (Reizung der Bindehaut)",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Statine (z. B. Simvastatin, Atorvastatin, Rosuvastatin) – bei Fusidinsäure-Tabletten", "ref": ["gruppe:statine"], "grund": "Die Kombination kann einen schweren, teils tödlichen Muskelzerfall (Rhabdomyolyse) auslösen; das Statin muss während der Behandlung und bis 7 Tage nach der letzten Dosis pausiert werden." }
+    {
+      "text": "Statine (z. B. Simvastatin, Atorvastatin, Rosuvastatin) – bei Fusidinsäure-Tabletten",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "grund": "Die Kombination kann einen schweren, teils tödlichen Muskelzerfall (Rhabdomyolyse) auslösen; das Statin muss während der Behandlung und bis 7 Tage nach der letzten Dosis pausiert werden."
+    }
   ],
   "interaktionen": [
-    { "text": "HIV-Proteasehemmer (z. B. Ritonavir) – bei Tabletten", "ref": ["gruppe:hiv-proteasehemmer", "ritonavir"], "effekt": "Spiegel beider Mittel steigen, Gefahr von Leberschäden – Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol) – bei Tabletten", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung mit Blutungsgefahr – INR eng kontrollieren, Dosis anpassen.", "schwere": "schwer" },
-    { "text": "Ciclosporin – bei Tabletten", "ref": ["ciclosporin"], "effekt": "Ciclosporin-Spiegel können steigen – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Empfindlich über CYP3A4 abgebaute Mittel – bei Tabletten", "ref": ["gruppe:cyp3a4-substrate-empfindlich"], "effekt": "Fusidinsäure hemmt vermutlich CYP3A4; Spiegel dieser Mittel können steigen – Vorsicht, wo nötig Spiegel kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "HIV-Proteasehemmer (z. B. Ritonavir) – bei Tabletten",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "ritonavir"
+      ],
+      "effekt": "Spiegel beider Mittel steigen, Gefahr von Leberschäden – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol) – bei Tabletten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung mit Blutungsgefahr – INR eng kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin – bei Tabletten",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindlich über CYP3A4 abgebaute Mittel – bei Tabletten",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Fusidinsäure hemmt vermutlich CYP3A4; Spiegel dieser Mittel können steigen – Vorsicht, wo nötig Spiegel kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Durchfall, Bauchschmerzen, Verdauungsbeschwerden (Tabletten)", "Brennen, Juckreiz oder Schmerzen am Auge, kurzzeitig verschwommenes Sehen (Augentropfen)"],
-    "gelegentlich": ["Brennen, Reizung oder Schmerzen an der Auftragsstelle (Creme, Salbe)", "Kontaktekzem, Ausschlag, Juckreiz, Rötung", "Kopfschmerzen, Schwindel, Müdigkeit (Tabletten)", "Lidschwellung, vermehrter Tränenfluss (Augentropfen)"],
-    "selten": ["Angioödem (Schwellung von Haut und Schleimhäuten), Nesselsucht, Blasenbildung", "Bindehautentzündung (Creme oder Salbe im Augenbereich)"],
-    "unbekannt": ["Gelbsucht und Leberfunktionsstörungen (Tabletten)", "Blutbildveränderungen bis Agranulozytose oder Panzytopenie (Tabletten, vor allem bei längerer Einnahme)", "Rhabdomyolyse (Muskelzerfall), vor allem zusammen mit Statinen", "Schwere allergische Reaktionen (Anaphylaxie)"]
+    "haeufig": [
+      "Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Durchfall, Bauchschmerzen, Verdauungsbeschwerden (Tabletten)",
+      "Brennen, Juckreiz oder Schmerzen am Auge, kurzzeitig verschwommenes Sehen (Augentropfen)"
+    ],
+    "gelegentlich": [
+      "Brennen, Reizung oder Schmerzen an der Auftragsstelle (Creme, Salbe)",
+      "Kontaktekzem, Ausschlag, Juckreiz, Rötung",
+      "Kopfschmerzen, Schwindel, Müdigkeit (Tabletten)",
+      "Lidschwellung, vermehrter Tränenfluss (Augentropfen)"
+    ],
+    "selten": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten), Nesselsucht, Blasenbildung",
+      "Bindehautentzündung (Creme oder Salbe im Augenbereich)"
+    ],
+    "unbekannt": [
+      "Gelbsucht und Leberfunktionsstörungen (Tabletten)",
+      "Blutbildveränderungen bis Agranulozytose oder Panzytopenie (Tabletten, vor allem bei längerer Einnahme)",
+      "Rhabdomyolyse (Muskelzerfall), vor allem zusammen mit Statinen",
+      "Schwere allergische Reaktionen (Anaphylaxie)"
+    ]
   },
   "schwangerschaft": "Creme, Salbe und Augentropfen können angewendet werden, da kaum Wirkstoff in den Körper gelangt. Tabletten nur nach strenger ärztlicher Abwägung, besonders gegen Ende der Schwangerschaft (theoretisches Gelbsucht-Risiko beim Neugeborenen).",
   "stillzeit": "Äusserliche Anwendung und Augentropfen möglich, aber nicht auf die Brust auftragen. Tabletten: Fusidinsäure geht in die Muttermilch über – nur nach ärztlicher Abwägung.",
@@ -45,7 +157,7 @@
     "Wer ein Statin (Cholesterinsenker) einnimmt, muss dies vor einer Behandlung mit Fusidinsäure-Tabletten unbedingt angeben.",
     "Creme und Salbe nach dem Auftragen von den Händen waschen und nicht länger als ärztlich verordnet anwenden.",
     "Augentropfen: während einer Bindehautentzündung keine Kontaktlinsen tragen; nach dem Eintropfen erst Auto fahren, wenn die Sicht klar ist.",
-    "Fucicort und Fucidin-H enthalten zusätzlich Kortison: nicht ohne ärztliche Anweisung im Gesicht oder grossflächig anwenden."
+    "Fucicort enthält zusätzlich das stark wirksame Kortison Betamethason: nicht ohne ärztliche Anweisung im Gesicht oder grossflächig anwenden."
   ],
   "stand": "2026-10"
 }

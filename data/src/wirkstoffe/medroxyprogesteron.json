@@ -1,49 +1,213 @@
 {
   "id": "medroxyprogesteron",
   "name": "Medroxyprogesteron",
-  "synonyme": ["Medroxyprogesteronacetat", "MPA", "DMPA", "Dreimonatsspritze"],
-  "atc": ["G03AC06", "G03DA02", "L02AB02"],
+  "synonyme": [
+    "Medroxyprogesteronacetat",
+    "MPA",
+    "DMPA",
+    "Dreimonatsspritze"
+  ],
+  "atc": [
+    "G03AC06",
+    "G03DA02",
+    "L02AB02"
+  ],
   "klasse": "Gestagen (Progesteron-Derivat)",
   "kurz": "Gelbkörperhormon-Abkömmling: als Dreimonatsspritze zur Verhütung und als Tablette, z. B. zum Schutz der Gebärmutter bei Hormonersatz.",
-  "gruppen": ["gestagene", "hormonale-kontrazeptiva"],
-  "handelsnamen": ["Depo-Provera", "Prodafem"],
-  "abgabe": ["B"],
-  "darreichung": ["Depot-Injektionssuspension (Dreimonatsspritze)", "Tabletten"],
+  "gruppen": [
+    "gestagene",
+    "hormonale-kontrazeptiva"
+  ],
+  "handelsnamen": [
+    "Depo-Provera",
+    "Prodafem"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Depot-Injektionssuspension (Dreimonatsspritze)",
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Langzeitverhütung mit der Dreimonatsspritze (Depo-Provera)", "ids": ["verhuetung"] },
-    { "text": "In Kombination mit einem Östrogen bei der Hormonersatztherapie in den Wechseljahren zum Schutz der Gebärmutterschleimhaut (Tabletten)", "ids": ["wechseljahre"] },
-    { "text": "Ausbleibende Regelblutung (sekundäre Amenorrhö) und hormonell bedingte unregelmässige Gebärmutterblutungen (Tabletten)", "ids": ["regelbeschwerden"] }
+    {
+      "text": "Langzeitverhütung mit der Dreimonatsspritze (Depo-Provera)",
+      "ids": [
+        "verhuetung"
+      ]
+    },
+    {
+      "text": "In Kombination mit einem Östrogen bei der Hormonersatztherapie in den Wechseljahren zum Schutz der Gebärmutterschleimhaut (Tabletten)",
+      "ids": [
+        "wechseljahre"
+      ]
+    },
+    {
+      "text": "Ausbleibende Regelblutung (sekundäre Amenorrhö) und hormonell bedingte unregelmässige Gebärmutterblutungen (Tabletten)",
+      "ids": [
+        "zyklusstoerungen"
+      ]
+    }
   ],
   "wirkmechanismus": "Wirkt wie das körpereigene Gelbkörperhormon Progesteron. In der hohen Dosis der Dreimonatsspritze hemmt Medroxyprogesteronacetat über die Hirnanhangdrüse die Ausschüttung von FSH und LH und unterdrückt so den Eisprung; zusätzlich verdickt sich der Schleim am Gebärmutterhals und die Gebärmutterschleimhaut bleibt dünn. In Tablettenform wandelt es die durch Östrogen aufgebaute Gebärmutterschleimhaut in die Sekretionsphase um und schützt sie so vor einer Überwucherung (Hyperplasie). Es hat zudem eine schwache glukokortikoidartige Wirkung.",
   "kontraindikationen": [
-    { "text": "Bestehende oder vermutete Schwangerschaft", "ids": ["schwangerschaft"] },
-    { "text": "Nicht abgeklärte Blutungen aus Scheide oder Gebärmutter", "ids": [] },
-    { "text": "Bekannter oder vermuteter Brustkrebs oder bösartiger Tumor der Geschlechtsorgane", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
-    { "text": "Schwere Leberfunktionsstörung oder aktive Lebererkrankung", "ids": ["leberinsuffizienz"] },
-    { "text": "Bestehende Thrombose oder Embolie, Schlaganfall", "ids": ["thrombose", "lungenembolie", "schlaganfall"] }
+    {
+      "text": "Bestehende oder vermutete Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Nicht abgeklärte Blutungen aus Scheide oder Gebärmutter",
+      "ids": []
+    },
+    {
+      "text": "Bekannter oder vermuteter Brustkrebs oder bösartiger Tumor der Geschlechtsorgane",
+      "ids": [
+        "brustkrebs",
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung oder aktive Lebererkrankung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bestehende Thrombose oder Embolie, Schlaganfall",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "schlaganfall"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Abnahme der Knochendichte bei längerer Anwendung der Dreimonatsspritze, besonders bei Jugendlichen; Anwendung über 2 Jahre nur nach Nutzen-Risiko-Abwägung", "ids": ["osteoporose", "kinder"] },
-    { "text": "Thrombosen oder Embolien in der Vorgeschichte, weitere Thrombose-Risikofaktoren", "ids": ["thromboembolie-vorgeschichte"] },
-    { "text": "Depression in der Vorgeschichte", "ids": ["depression"] },
-    { "text": "Diabetes: die Glukosetoleranz kann sich verschlechtern", "ids": ["diabetes"] },
-    { "text": "Erkrankungen, die durch Wassereinlagerungen verschlechtert werden können: Migräne, Epilepsie, Asthma, Herz- oder Nierenfunktionsstörung", "ids": ["migraene", "epilepsie", "asthma", "herzinsuffizienz", "niereninsuffizienz"] },
-    { "text": "Neigung zu Gewichtszunahme", "ids": ["adipositas"] },
-    { "text": "Kinderwunsch in naher Zukunft: nach der Dreimonatsspritze kehrt die Fruchtbarkeit verzögert zurück", "ids": ["unfruchtbarkeit"] }
+    {
+      "text": "Abnahme der Knochendichte bei längerer Anwendung der Dreimonatsspritze, besonders bei Jugendlichen; Anwendung über 2 Jahre nur nach Nutzen-Risiko-Abwägung",
+      "ids": [
+        "osteoporose",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte, weitere Thrombose-Risikofaktoren",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Depression in der Vorgeschichte",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Diabetes: die Glukosetoleranz kann sich verschlechtern",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Erkrankungen, die durch Wassereinlagerungen verschlechtert werden können: Migräne, Epilepsie, Asthma, Herz- oder Nierenfunktionsstörung",
+      "ids": [
+        "migraene",
+        "epilepsie",
+        "asthma",
+        "herzinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neigung zu Gewichtszunahme",
+      "ids": [
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Kinderwunsch in naher Zukunft: nach der Dreimonatsspritze kehrt die Fruchtbarkeit verzögert zurück",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "gruppe:enzyminduktoren-hormone"], "effekt": "Bei Tabletten kann die Wirkung abgeschwächt sein. Die Wirksamkeit der Dreimonatsspritze wird nach heutigem Wissen nicht relevant vermindert, da die Ausscheidung vor allem von der Leberdurchblutung abhängt.", "schwere": "mittel" },
-    { "text": "Ulipristal (ellaOne)", "ref": ["ulipristal"], "effekt": "Gestagene können die Wirkung der «Pille danach» mit Ulipristal abschwächen – nach Ulipristal hormonale Verhütung frühestens nach 5 Tagen beginnen.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Veränderungen der Gerinnungshemmung wurden selten berichtet – INR nach Beginn kontrollieren.", "schwere": "leicht" },
-    { "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Gestagene können die Glukosetoleranz verschlechtern – Blutzucker kontrollieren, Dosis ggf. anpassen.", "schwere": "leicht" }
+    {
+      "text": "Enzyminduzierende Mittel (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:enzyminduktoren-hormone"
+      ],
+      "effekt": "Bei Tabletten kann die Wirkung abgeschwächt sein. Die Wirksamkeit der Dreimonatsspritze wird nach heutigem Wissen nicht relevant vermindert, da die Ausscheidung vor allem von der Leberdurchblutung abhängt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ulipristal (ellaOne)",
+      "ref": [
+        "ulipristal"
+      ],
+      "effekt": "Gestagene können die Wirkung der «Pille danach» mit Ulipristal abschwächen – nach Ulipristal hormonale Verhütung frühestens nach 5 Tagen beginnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Veränderungen der Gerinnungshemmung wurden selten berichtet – INR nach Beginn kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Gestagene können die Glukosetoleranz verschlechtern – Blutzucker kontrollieren, Dosis ggf. anpassen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Gewichtszunahme oder -abnahme", "Kopfschmerzen", "Nervosität", "Bauchschmerzen, Bauchbeschwerden", "Unregelmässige Blutungen, Schmierblutungen oder Ausbleiben der Regel (Dreimonatsspritze)"],
-    "haeufig": ["Depression, verminderte Libido", "Schwindel", "Übelkeit, Blähbauch", "Haarausfall, Akne, Hautausschlag", "Rückenschmerzen", "Brustschmerzen, Brustspannen", "Scheidenausfluss, Scheidenentzündung", "Wassereinlagerungen (Ödeme), Schwäche"],
-    "gelegentlich": ["Überempfindlichkeitsreaktionen", "Schlaflosigkeit, Schläfrigkeit", "Krampfanfälle", "Hitzewallungen", "Vermehrte Behaarung (Hirsutismus), Juckreiz", "Absonderung aus der Brust (Galaktorrhö), Beckenschmerzen", "Gelenkschmerzen, Muskelkrämpfe", "Veränderte Leberwerte"],
-    "selten": ["Venöse Thromboembolie (Thrombose, Lungenembolie)", "Anaphylaxie (schwere allergische Reaktion)", "Osteoporose mit Knochenbrüchen", "Gelbsucht", "Bleibende Hauteinziehung oder Abszess an der Einstichstelle"],
-    "unbekannt": ["Verminderte Knochendichte bei längerer Anwendung", "Lange anhaltendes Ausbleiben des Eisprungs nach dem Absetzen"]
+    "sehrHaeufig": [
+      "Gewichtszunahme oder -abnahme",
+      "Kopfschmerzen",
+      "Nervosität",
+      "Bauchschmerzen, Bauchbeschwerden",
+      "Unregelmässige Blutungen, Schmierblutungen oder Ausbleiben der Regel (Dreimonatsspritze)"
+    ],
+    "haeufig": [
+      "Depression, verminderte Libido",
+      "Schwindel",
+      "Übelkeit, Blähbauch",
+      "Haarausfall, Akne, Hautausschlag",
+      "Rückenschmerzen",
+      "Brustschmerzen, Brustspannen",
+      "Scheidenausfluss, Scheidenentzündung",
+      "Wassereinlagerungen (Ödeme), Schwäche"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Schlaflosigkeit, Schläfrigkeit",
+      "Krampfanfälle",
+      "Hitzewallungen",
+      "Vermehrte Behaarung (Hirsutismus), Juckreiz",
+      "Absonderung aus der Brust (Galaktorrhö), Beckenschmerzen",
+      "Gelenkschmerzen, Muskelkrämpfe",
+      "Veränderte Leberwerte"
+    ],
+    "selten": [
+      "Venöse Thromboembolie (Thrombose, Lungenembolie)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Osteoporose mit Knochenbrüchen",
+      "Gelbsucht",
+      "Bleibende Hauteinziehung oder Abszess an der Einstichstelle"
+    ],
+    "unbekannt": [
+      "Verminderte Knochendichte bei längerer Anwendung",
+      "Lange anhaltendes Ausbleiben des Eisprungs nach dem Absetzen"
+    ]
   },
   "schwangerschaft": "Kontraindiziert. Vor jeder Spritze bzw. Behandlung eine Schwangerschaft ausschliessen.",
   "stillzeit": "Die Dreimonatsspritze kann frühestens 6 Wochen nach der Geburt auch in der Stillzeit angewendet werden; geringe Mengen gehen in die Muttermilch über, ohne bekannte Schäden für das Kind.",

@@ -1,35 +1,120 @@
 {
   "id": "glucagon",
   "name": "Glucagon",
-  "synonyme": ["Glukagon", "Glucagon hydrochloride", "Glucagonum"],
-  "atc": ["H04AA01"],
+  "synonyme": [
+    "Glukagon",
+    "Glucagon hydrochloride",
+    "Glucagonum"
+  ],
+  "atc": [
+    "H04AA01"
+  ],
   "klasse": "Pankreashormon; Antihypoglykämikum (Notfallmittel bei schwerer Unterzuckerung)",
   "kurz": "Notfallmittel bei schwerer Unterzuckerung als Spritze oder Nasenpulver, wenn die betroffene Person keinen Zucker mehr schlucken kann.",
   "gruppen": [],
-  "handelsnamen": ["GlucaGen HypoKit", "Baqsimi"],
-  "abgabe": ["B"],
-  "darreichung": ["Pulver und Lösungsmittel zur Herstellung einer Injektionslösung (Fertigspritze)", "Nasenpulver im Einzeldosisbehältnis"],
+  "handelsnamen": [
+    "GlucaGen HypoKit",
+    "Baqsimi"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung (Fertigspritze)",
+    "Nasenpulver im Einzeldosisbehältnis"
+  ],
   "indikationen": [
-    { "text": "Schwere Unterzuckerung (Hypoglykämie) bei Menschen mit Diabetes, vor allem unter Insulin, wenn keine Zuckerzufuhr über den Mund möglich ist (Nasenpulver ab 4 Jahren)", "ids": ["hypoglykaemie", "diabetes"] },
-    { "text": "Nur Injektion, durch Fachpersonen: vorübergehende Ruhigstellung von Magen und Darm bei Röntgen- und anderen bildgebenden Untersuchungen", "ids": ["kontrastmittel"] }
+    {
+      "text": "Schwere Unterzuckerung (Hypoglykämie) bei Menschen mit Diabetes, vor allem unter Insulin, wenn keine Zuckerzufuhr über den Mund möglich ist (Nasenpulver ab 4 Jahren)",
+      "ids": [
+        "hypoglykaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Nur Injektion, durch Fachpersonen: vorübergehende Ruhigstellung von Magen und Darm bei Röntgen- und anderen bildgebenden Untersuchungen",
+      "ids": [
+        "kontrastmittel"
+      ]
+    }
   ],
   "wirkmechanismus": "Hebt den Blutzucker rasch an, indem es die Leber veranlasst, gespeicherten Zucker freizusetzen. Glucagon bindet an Glucagon-Rezeptoren der Leberzellen und steigert über cAMP den Abbau von Glykogen (Glykogenolyse) sowie die Neubildung von Glukose (Glukoneogenese). Die Wirkung setzt nach etwa 10 Minuten ein; sie bleibt weitgehend aus, wenn die Glykogenspeicher der Leber leer sind, z. B. nach langem Fasten oder bei alkoholbedingter Unterzuckerung. Zusätzlich entspannt Glucagon die glatte Muskulatur des Magen-Darm-Trakts, was bei Untersuchungen genutzt wird.",
   "kontraindikationen": [
-    { "text": "Phäochromozytom (Tumor des Nebennierenmarks, der Stresshormone bildet): Gefahr eines starken Blutdruckanstiegs", "ids": [] }
+    {
+      "text": "Phäochromozytom (Tumor des Nebennierenmarks, der Stresshormone bildet): Gefahr eines starken Blutdruckanstiegs",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Insulinom (insulinbildender Tumor): nach anfänglichem Anstieg kann der Blutzucker stark abfallen", "ids": ["hypoglykaemie"] },
-    { "text": "Glukagonom (glucagonbildender Tumor)", "ids": [] },
-    { "text": "Leere Glykogenspeicher, z. B. nach längerem Fasten, bei Nebenniereninsuffizienz, chronischer Unterzuckerung oder alkoholbedingter Unterzuckerung: Glucagon wirkt dann kaum – Glukose muss intravenös gegeben werden", "ids": ["nebenniereninsuffizienz", "alkoholkonsum", "mangelernaehrung"] },
-    { "text": "Herzkrankheiten (vor allem bei diagnostischer Anwendung): Glucagon kann Puls und Blutdruck vorübergehend erhöhen", "ids": ["koronare-herzkrankheit", "herzrhythmusstoerung", "hypertonie"] },
-    { "text": "Diabetes bei diagnostischer Anwendung: nach dem Blutzuckeranstieg kann eine Unterzuckerung folgen", "ids": ["diabetes"] }
+    {
+      "text": "Insulinom (insulinbildender Tumor): nach anfänglichem Anstieg kann der Blutzucker stark abfallen",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Glukagonom (glucagonbildender Tumor)",
+      "ids": []
+    },
+    {
+      "text": "Leere Glykogenspeicher, z. B. nach längerem Fasten, bei Nebenniereninsuffizienz, chronischer Unterzuckerung oder alkoholbedingter Unterzuckerung: Glucagon wirkt dann kaum – Glukose muss intravenös gegeben werden",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "alkoholkonsum",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten (vor allem bei diagnostischer Anwendung): Glucagon kann Puls und Blutdruck vorübergehend erhöhen",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Diabetes bei diagnostischer Anwendung: nach dem Blutzuckeranstieg kann eine Unterzuckerung folgen",
+      "ids": [
+        "diabetes"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Stärkerer vorübergehender Anstieg von Puls und Blutdruck möglich.", "schwere": "mittel" },
-    { "text": "Indometacin", "ref": ["indometacin"], "effekt": "Glucagon kann seine blutzuckersteigernde Wirkung verlieren oder sogar eine Unterzuckerung auslösen – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Die gerinnungshemmende Wirkung kann verstärkt werden (für Warfarin beschrieben) – nach wiederholter Gabe INR kontrollieren.", "schwere": "leicht" },
-    { "text": "Insulin", "ref": ["gruppe:insuline"], "effekt": "Insulin ist der Gegenspieler von Glucagon; nach einer insulinbedingten Unterzuckerung kann der Blutzucker wieder absinken – nach dem Aufwachen Kohlenhydrate essen.", "schwere": "leicht" }
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Stärkerer vorübergehender Anstieg von Puls und Blutdruck möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Indometacin",
+      "ref": [
+        "indometacin"
+      ],
+      "effekt": "Glucagon kann seine blutzuckersteigernde Wirkung verlieren oder sogar eine Unterzuckerung auslösen – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die gerinnungshemmende Wirkung kann verstärkt werden (für Warfarin beschrieben) – nach wiederholter Gabe INR kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Insulin",
+      "ref": [
+        "gruppe:insuline"
+      ],
+      "effekt": "Insulin ist der Gegenspieler von Glucagon; nach einer insulinbedingten Unterzuckerung kann der Blutzucker wieder absinken – nach dem Aufwachen Kohlenhydrate essen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [
@@ -38,10 +123,21 @@
       "Nasenpulver: tränende Augen",
       "Nasenpulver: Kopfschmerzen"
     ],
-    "haeufig": ["Nasenpulver: Geschmacksstörungen", "Nasenpulver: gerötete oder juckende Augen", "Nasenpulver: Juckreiz der Haut"],
-    "selten": ["Bauchschmerzen (Injektion)"],
-    "sehrSelten": ["Überempfindlichkeitsreaktionen bis zur Anaphylaxie (schwere allergische Reaktion)"],
-    "unbekannt": ["Vorübergehender Anstieg von Puls und Blutdruck", "Unterzuckerung nach diagnostischer Anwendung (nach dem anfänglichen Blutzuckeranstieg)"]
+    "haeufig": [
+      "Nasenpulver: Geschmacksstörungen",
+      "Nasenpulver: gerötete oder juckende Augen",
+      "Nasenpulver: Juckreiz der Haut"
+    ],
+    "selten": [
+      "Bauchschmerzen (Injektion)"
+    ],
+    "sehrSelten": [
+      "Überempfindlichkeitsreaktionen bis zur Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Vorübergehender Anstieg von Puls und Blutdruck",
+      "Unterzuckerung nach diagnostischer Anwendung (nach dem anfänglichen Blutzuckeranstieg)"
+    ]
   },
   "schwangerschaft": "Erlaubt: Glucagon passiert die Plazenta nicht; eine schwere Unterzuckerung soll auch in der Schwangerschaft behandelt werden.",
   "stillzeit": "Erlaubt: Glucagon wird aus dem Blut rasch abgebaut und im Verdauungstrakt des Säuglings zerstört.",

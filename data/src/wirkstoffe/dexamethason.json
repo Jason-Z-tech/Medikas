@@ -1,61 +1,320 @@
 {
   "id": "dexamethason",
   "name": "Dexamethason",
-  "synonyme": ["Dexamethasone", "Dexamethason-Natriumphosphat", "Dexamethasondihydrogenphosphat"],
-  "atc": ["H02AB02", "S01BA01"],
+  "synonyme": [
+    "Dexamethasone",
+    "Dexamethason-Natriumphosphat",
+    "Dexamethasondihydrogenphosphat"
+  ],
+  "atc": [
+    "H02AB02",
+    "S01BA01"
+  ],
   "klasse": "Glukokortikoid (stark und lang wirksam)",
   "kurz": "Stark wirksames Kortison gegen Entzündungen, Allergien, Hirnschwellung und Übelkeit bei Chemotherapie; auch als Augentropfen und Augenimplantat.",
-  "gruppen": ["glukokortikoide-systemisch", "immunsuppressiv", "ulkusrisiko-erhoehend", "hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Fortecortin", "Mephameson", "Maxidex", "Dexafree", "Spersadex", "Ozurdex", "Tobradex (Kombi)", "Maxitrol (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten", "Injektionslösung", "Augentropfen", "Intravitreales Implantat (Augenimplantat)"],
+  "gruppen": [
+    "glukokortikoide-systemisch",
+    "immunsuppressiv",
+    "ulkusrisiko-erhoehend",
+    "hypokaliaemie-ausloesend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Fortecortin",
+    "Mephameson",
+    "Maxidex",
+    "Dexafree",
+    "Spersadex",
+    "Ozurdex",
+    "Tobradex (Kombi)",
+    "Maxitrol (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Injektionslösung",
+    "Augentropfen",
+    "Intravitreales Implantat (Augenimplantat)"
+  ],
   "indikationen": [
-    { "text": "Hirnödem (Hirnschwellung), z. B. bei Hirntumoren, nach Hirnoperationen oder bei Hirnabszess", "ids": ["hirntumor"] },
-    { "text": "Schwerer akuter Asthmaanfall und schwere allergische Reaktionen (bei Anaphylaxie nach Adrenalin)", "ids": ["asthma", "anaphylaxie", "allergie"] },
-    { "text": "Entzündliche und rheumatische Erkrankungen, z. B. aktive rheumatoide Arthritis, Lupus erythematodes, Vaskulitis, schwere entzündliche Hauterkrankungen", "ids": ["rheumatoide-arthritis", "lupus", "vaskulitis", "neurodermitis"] },
-    { "text": "Vorbeugung und Behandlung von Übelkeit und Erbrechen bei Chemotherapie (zusammen mit anderen Antiemetika)", "ids": ["uebelkeit"] },
-    { "text": "Begleitende bzw. palliative Behandlung bei Krebserkrankungen, z. B. multiples Myelom", "ids": ["krebs", "multiples-myelom"] },
-    { "text": "Augentropfen: nicht infektiöse Entzündungen des vorderen Augenabschnitts, z. B. nach Augenoperationen oder bei Iritis", "ids": ["augeninfektion", "katarakt"] },
-    { "text": "Augenimplantat: Makulaödem nach Netzhautvenenverschluss oder bei Diabetes sowie nicht infektiöse Entzündung des hinteren Augenabschnitts (Uveitis)", "ids": ["makuladegeneration"] }
+    {
+      "text": "Hirnödem (Hirnschwellung), z. B. bei Hirntumoren, nach Hirnoperationen oder bei Hirnabszess",
+      "ids": [
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Schwerer akuter Asthmaanfall und schwere allergische Reaktionen (bei Anaphylaxie nach Adrenalin)",
+      "ids": [
+        "asthma",
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Entzündliche und rheumatische Erkrankungen, z. B. aktive rheumatoide Arthritis, Lupus erythematodes, Vaskulitis, schwere entzündliche Hauterkrankungen",
+      "ids": [
+        "rheumatoide-arthritis",
+        "lupus",
+        "vaskulitis",
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Vorbeugung und Behandlung von Übelkeit und Erbrechen bei Chemotherapie (zusammen mit anderen Antiemetika)",
+      "ids": [
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Begleitende bzw. palliative Behandlung bei Krebserkrankungen, z. B. multiples Myelom",
+      "ids": [
+        "krebs",
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Augentropfen: nicht infektiöse Entzündungen des vorderen Augenabschnitts, z. B. nach Augenoperationen oder bei Iritis",
+      "ids": [
+        "augeninfektion",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Augenimplantat: Makulaödem nach Netzhautvenenverschluss oder bei Diabetes sowie nicht infektiöse Entzündung des hinteren Augenabschnitts (Uveitis)",
+      "ids": [
+        "makuladegeneration"
+      ]
+    }
   ],
   "wirkmechanismus": "Dämpft Entzündungen, allergische Reaktionen und die Abwehrreaktionen des Immunsystems sehr stark. Dexamethason ist ein synthetisches Glukokortikoid, das an den Glukokortikoid-Rezeptor im Zellinneren bindet und die Ablesung zahlreicher Gene verändert: Entzündungsbotenstoffe wie Zytokine und Prostaglandine werden vermindert gebildet, Abwehrzellen gehemmt und durchlässige Gefässe abgedichtet. Es wirkt etwa 25- bis 30-mal stärker entzündungshemmend als körpereigenes Cortisol, hat praktisch keine salzzurückhaltende (mineralokortikoide) Wirkung und wirkt lange. Darum eignet es sich besonders bei Hirnödem und zur Vorbeugung von Übelkeit bei Chemotherapie.",
   "kontraindikationen": [
-    { "text": "Systemische Pilzinfektionen und nicht behandelte systemische Infektionen (ausser bei lebensbedrohlichen Zuständen)", "ids": ["pilzinfektion", "aktive-infektion"] },
-    { "text": "Impfung mit Lebendimpfstoffen während einer Behandlung mit immunsuppressiven Dosen", "ids": ["lebendimpfung-geplant"] },
-    { "text": "Augentropfen: unbehandelte bakterielle, virale (z. B. Herpes-simplex-Keratitis, Windpocken) oder Pilzinfektionen des Auges, Tuberkulose des Auges, Hornhautverletzungen und -geschwüre", "ids": ["augeninfektion", "herpes"] },
-    { "text": "Augenimplantat: aktive oder vermutete Infektion im oder um das Auge, fortgeschrittenes, medikamentös nicht ausreichend kontrolliertes Glaukom", "ids": ["augeninfektion", "glaukom"] }
+    {
+      "text": "Systemische Pilzinfektionen und nicht behandelte systemische Infektionen (ausser bei lebensbedrohlichen Zuständen)",
+      "ids": [
+        "pilzinfektion",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Impfung mit Lebendimpfstoffen während einer Behandlung mit immunsuppressiven Dosen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Augentropfen: unbehandelte bakterielle, virale (z. B. Herpes-simplex-Keratitis, Windpocken) oder Pilzinfektionen des Auges, Tuberkulose des Auges, Hornhautverletzungen und -geschwüre",
+      "ids": [
+        "augeninfektion",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Augenimplantat: aktive oder vermutete Infektion im oder um das Auge, fortgeschrittenes, medikamentös nicht ausreichend kontrolliertes Glaukom",
+      "ids": [
+        "augeninfektion",
+        "glaukom"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Infektionen (Tuberkulose, Hepatitis B, Herpes, Windpocken, Masern, Wurmbefall) können aufflammen oder schwerer verlaufen; Infektzeichen können verschleiert werden", "ids": ["aktive-infektion", "tuberkulose", "hepatitis-b", "herpes", "masern-mumps-roeteln"] },
-    { "text": "Magen-Darm-Geschwüre oder entzündliche Darmerkrankungen mit Gefahr eines Durchbruchs (z. B. Divertikulitis)", "ids": ["magen-darm-ulkus", "divertikulitis"] },
-    { "text": "Diabetes mellitus: der Blutzucker steigt – Kontrollen und Anpassung der Diabetesbehandlung", "ids": ["diabetes"] },
-    { "text": "Bluthochdruck, Herzinsuffizienz, kurz zurückliegender Herzinfarkt", "ids": ["hypertonie", "herzinsuffizienz", "herzinfarkt"] },
-    { "text": "Osteoporose: bei längerer Einnahme Knochenschutz besprechen", "ids": ["osteoporose"] },
-    { "text": "Psychische Erkrankungen in der Vorgeschichte (Depression, Psychose)", "ids": ["depression", "schizophrenie", "bipolare-stoerung"] },
-    { "text": "Glaukom und Katarakt; bei Augentropfen über mehr als 2 Wochen den Augeninnendruck kontrollieren", "ids": ["glaukom", "katarakt"] },
-    { "text": "Myasthenia gravis: anfängliche Verschlechterung möglich", "ids": ["myasthenia-gravis"] },
-    { "text": "Lymphome und Leukämien: Gefahr eines Tumorlyse-Syndroms zu Behandlungsbeginn", "ids": ["lymphom", "leukaemie"] },
-    { "text": "Kinder: Wachstumshemmung bei längerer Behandlung", "ids": ["kinder"] }
+    {
+      "text": "Infektionen (Tuberkulose, Hepatitis B, Herpes, Windpocken, Masern, Wurmbefall) können aufflammen oder schwerer verlaufen; Infektzeichen können verschleiert werden",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "hepatitis-b",
+        "herpes",
+        "masern-mumps-roeteln"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre oder entzündliche Darmerkrankungen mit Gefahr eines Durchbruchs (z. B. Divertikulitis)",
+      "ids": [
+        "magen-darm-ulkus",
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: der Blutzucker steigt – Kontrollen und Anpassung der Diabetesbehandlung",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Herzinsuffizienz, kurz zurückliegender Herzinfarkt",
+      "ids": [
+        "hypertonie",
+        "herzinsuffizienz",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Osteoporose: bei längerer Einnahme Knochenschutz besprechen; bei Kindern Wachstumshemmung möglich",
+      "ids": [
+        "osteoporose",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Psychische Erkrankungen in der Vorgeschichte (Depression, Psychose)",
+      "ids": [
+        "depression",
+        "schizophrenie",
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Glaukom und Katarakt; bei Augentropfen über mehr als 2 Wochen den Augeninnendruck kontrollieren",
+      "ids": [
+        "glaukom",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: anfängliche Verschlechterung möglich",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Lymphome und Leukämien: Gefahr eines Tumorlyse-Syndroms zu Behandlungsbeginn",
+      "ids": [
+        "lymphom",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Bekanntes oder vermutetes Phäochromozytom: Gefahr einer lebensbedrohlichen Blutdruckkrise",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Lebendimpfstoffe", "ref": ["gruppe:lebendimpfstoffe"], "effekt": "Unter immunsuppressiven Dosen Gefahr einer Infektion durch den Impfstoff und ungenügender Impfschutz – nicht impfen.", "schwere": "schwer" },
-    { "text": "Rilpivirin (HIV-Medikament)", "ref": ["rilpivirin"], "effekt": "Mehrfache Dexamethason-Gaben senken den Rilpivirin-Spiegel deutlich (Enzyminduktion) – Wirkverlust und Resistenzgefahr; ausser bei Einzeldosis nicht kombinieren.", "schwere": "schwer" },
-    { "text": "NSAR und Acetylsalicylsäure", "ref": ["gruppe:nsar", "acetylsalicylsaeure"], "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen – eventuell Magenschutz.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Itraconazol, Ketoconazol, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Erhöhte Dexamethason-Spiegel mit mehr Kortison-Nebenwirkungen bis zum Cushing-Syndrom – Nutzen und Risiko abwägen.", "schwere": "mittel" },
-    { "text": "Aprepitant und Fosaprepitant (Antiemetika)", "ref": ["aprepitant", "fosaprepitant"], "effekt": "Erhöhen den Dexamethason-Spiegel etwa auf das Doppelte – in Antiemetika-Schemata wird die Dexamethason-Dosis reduziert.", "schwere": "mittel" },
-    { "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Beschleunigter Abbau von Dexamethason – Wirkung kann abgeschwächt sein, eventuell Dosis erhöhen.", "schwere": "mittel" },
-    { "text": "Blutzuckersenker (Insulin, orale Antidiabetika)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker kontrollieren, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Die gerinnungshemmende Wirkung kann verändert sein – INR engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Kaliumsenkende Mittel (z. B. Diuretika, Abführmittel) und Herzglykoside", "ref": ["gruppe:hypokaliaemie-ausloesend", "gruppe:herzglykoside"], "effekt": "Verstärkter Kaliumverlust; bei Herzglykosiden erhöhtes Risiko für Herzrhythmusstörungen – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)", "ref": ["gruppe:fluorchinolone"], "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, v. a. bei älteren Menschen.", "schwere": "mittel" },
-    { "text": "Praziquantel", "ref": ["praziquantel"], "effekt": "Dexamethason senkt den Praziquantel-Spiegel – Wirkung gegen Würmer kann abgeschwächt sein.", "schwere": "mittel" },
-    { "text": "Thalidomid, Lenalidomid, Pomalidomid", "ref": ["thalidomid", "lenalidomid", "pomalidomid"], "effekt": "Erhöhtes Risiko für Thrombosen und Embolien – Thromboseprophylaxe nach ärztlicher Anweisung.", "schwere": "mittel" },
-    { "text": "Blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Die Blutdrucksenkung kann durch Salz- und Wasserretention abgeschwächt werden.", "schwere": "leicht" }
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Unter immunsuppressiven Dosen Gefahr einer Infektion durch den Impfstoff und ungenügender Impfschutz – nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rilpivirin (HIV-Medikament)",
+      "ref": [
+        "rilpivirin"
+      ],
+      "effekt": "Mehrfache Dexamethason-Gaben senken den Rilpivirin-Spiegel deutlich (Enzyminduktion) – Wirkverlust und Resistenzgefahr; ausser bei Einzeldosis nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR und Acetylsalicylsäure",
+      "ref": [
+        "gruppe:nsar",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen – eventuell Magenschutz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Itraconazol, Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhte Dexamethason-Spiegel mit mehr Kortison-Nebenwirkungen bis zum Cushing-Syndrom – Nutzen und Risiko abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aprepitant und Fosaprepitant (Antiemetika)",
+      "ref": [
+        "aprepitant",
+        "fosaprepitant"
+      ],
+      "effekt": "Erhöhen den Dexamethason-Spiegel etwa auf das Doppelte – in Antiemetika-Schemata wird die Dexamethason-Dosis reduziert.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Abbau von Dexamethason – Wirkung kann abgeschwächt sein, eventuell Dosis erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenker (Insulin, orale Antidiabetika)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die gerinnungshemmende Wirkung kann verändert sein – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Diuretika, Abführmittel) und Herzglykoside",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkter Kaliumverlust; bei Herzglykosiden erhöhtes Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorchinolone (z. B. Ciprofloxacin, Levofloxacin)",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Erhöhtes Risiko für Sehnenentzündungen und Sehnenrisse, v. a. bei älteren Menschen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Praziquantel",
+      "ref": [
+        "praziquantel"
+      ],
+      "effekt": "Dexamethason senkt den Praziquantel-Spiegel – Wirkung gegen Würmer kann abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thalidomid, Lenalidomid, Pomalidomid",
+      "ref": [
+        "thalidomid",
+        "lenalidomid",
+        "pomalidomid"
+      ],
+      "effekt": "Erhöhtes Risiko für Thrombosen und Embolien – Thromboseprophylaxe nach ärztlicher Anweisung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Die Blutdrucksenkung kann durch Salz- und Wasserretention abgeschwächt werden.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Erhöhter Augeninnendruck und Bindehautblutung (Augenimplantat)"],
-    "haeufig": ["Katarakt (grauer Star), Augenschmerzen, Glaskörpertrübungen (Augenimplantat)", "Augenbeschwerden wie Brennen und Stechen (Augentropfen)"],
+    "sehrHaeufig": [
+      "Erhöhter Augeninnendruck und Bindehautblutung (Augenimplantat)"
+    ],
+    "haeufig": [
+      "Katarakt (grauer Star), Augenschmerzen, Glaskörpertrübungen (Augenimplantat)",
+      "Augenbeschwerden wie Brennen und Stechen (Augentropfen)"
+    ],
     "unbekannt": [
       "Erhöhte Infektanfälligkeit und Verschleierung von Infektionen",
       "Erhöhter Blutzucker bis zum Steroiddiabetes",
@@ -65,7 +324,8 @@
       "Psychische Störungen (Schlaflosigkeit, Euphorie, Unruhe, Depression, Psychose)",
       "Bluthochdruck, Wassereinlagerungen, Kaliummangel",
       "Nebennierenrindeninsuffizienz nach dem Absetzen, Wachstumshemmung bei Kindern",
-      "Dünne Haut, Akne, verzögerte Wundheilung; grauer und grüner Star bei längerer Anwendung"
+      "Dünne Haut, Akne, verzögerte Wundheilung; grauer und grüner Star bei längerer Anwendung, verschwommenes Sehen (z. B. Chorioretinopathie)",
+      "Überempfindlichkeitsreaktionen bis zur Anaphylaxie (v. a. bei Injektion)"
     ]
   },
   "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Dexamethason gelangt über die Plazenta zum Kind; bei längerer Behandlung sind Wachstumsverzögerung und eine Unterfunktion der Nebennieren beim Neugeborenen möglich.",

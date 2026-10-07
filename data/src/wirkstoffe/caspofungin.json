@@ -1,38 +1,146 @@
 {
   "id": "caspofungin",
   "name": "Caspofungin",
-  "synonyme": ["Caspofunginacetat", "Caspofungin acetate"],
-  "atc": ["J02AX04"],
+  "synonyme": [
+    "Caspofunginacetat",
+    "Caspofungin acetate"
+  ],
+  "atc": [
+    "J02AX04"
+  ],
   "klasse": "Echinocandin-Antimykotikum",
   "kurz": "Pilzmittel als Infusion im Spital gegen schwere Candida- und Aspergillus-Infektionen, auch bei Fieber unter Chemotherapie.",
   "gruppen": [],
-  "handelsnamen": ["Cancidas", "Caspofungin Labatec"],
-  "abgabe": ["A"],
-  "darreichung": ["Pulver zur Herstellung einer Infusionslösung"],
+  "handelsnamen": [
+    "Cancidas",
+    "Caspofungin Labatec"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
   "indikationen": [
-    { "text": "Invasive Candidose (z. B. Candidämie) bei Erwachsenen und Kindern", "ids": ["pilzinfektion"] },
-    { "text": "Invasive Aspergillose, wenn Amphotericin B oder Itraconazol unwirksam sind oder nicht vertragen werden", "ids": ["pilzinfektion"] },
-    { "text": "Empirische Behandlung bei Verdacht auf Pilzinfektion bei Fieber und Neutropenie", "ids": ["pilzinfektion", "neutropenie", "fieber"] }
+    {
+      "text": "Invasive Candidose (z. B. Candidämie) bei Erwachsenen und Kindern",
+      "ids": [
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Invasive Aspergillose, wenn Amphotericin B oder Itraconazol unwirksam sind oder nicht vertragen werden",
+      "ids": [
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Empirische Behandlung bei Verdacht auf Pilzinfektion bei Fieber und Neutropenie",
+      "ids": [
+        "pilzinfektion",
+        "neutropenie",
+        "fieber"
+      ]
+    }
   ],
   "wirkmechanismus": "Schädigt die Zellwand von Pilzen, sodass diese platzen oder nicht mehr wachsen können. Caspofungin hemmt nicht-kompetitiv das Enzym β-(1,3)-D-Glucan-Synthase, das einen wesentlichen Baustein der Pilzzellwand herstellt; menschliche Zellen besitzen dieses Enzym nicht. Gegen Candida wirkt es abtötend, gegen Aspergillus hemmt es das Wachstum der Pilzfäden. Caspofungin wird nicht über Cytochrom-P450 abgebaut und hat daher wenige Wechselwirkungen.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Mittelschwere Leberinsuffizienz: Dosis reduzieren; schwere Leberinsuffizienz: kaum Erfahrungen", "ids": ["leberinsuffizienz"] },
-    { "text": "Gleichzeitige Behandlung mit Ciclosporin: vorübergehender Anstieg der Leberwerte", "ids": ["transplantation"] },
-    { "text": "Anaphylaxie und histaminvermittelte Reaktionen (Ausschlag, Gesichtsschwellung, Juckreiz, Wärmegefühl, Bronchospasmus) möglich", "ids": ["anaphylaxie"] },
-    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) in der Vorgeschichte", "ids": ["schwere-hautreaktion"] }
+    {
+      "text": "Mittelschwere Leberinsuffizienz: Dosis reduzieren; schwere Leberinsuffizienz: kaum Erfahrungen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Behandlung mit Ciclosporin: vorübergehender Anstieg der Leberwerte",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Anaphylaxie und histaminvermittelte Reaktionen (Ausschlag, Gesichtsschwellung, Juckreiz, Wärmegefühl, Bronchospasmus) möglich",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) in der Vorgeschichte",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Caspofungin-Spiegel steigen um etwa ein Drittel, vorübergehender Anstieg der Leberwerte – nur bei klarem Nutzen kombinieren, Leberwerte überwachen.", "schwere": "mittel" },
-    { "text": "Tacrolimus", "ref": ["tacrolimus"], "effekt": "Tacrolimus-Spiegel sinken um etwa ein Viertel – Talspiegel kontrollieren, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Rifampicin", "ref": ["rifampicin"], "effekt": "Senkt die Caspofungin-Spiegel – Tagesdosis auf 70 mg erhöhen (Kinder entsprechend).", "schwere": "mittel" },
-    { "text": "Andere Induktoren der Arzneimittelausscheidung (Efavirenz, Nevirapin, Phenytoin, Dexamethason, Carbamazepin)", "ref": ["efavirenz", "nevirapin", "phenytoin", "dexamethason", "carbamazepin"], "effekt": "Können die Caspofungin-Spiegel senken – höhere Tagesdosis (70 mg) erwägen.", "schwere": "mittel" }
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Caspofungin-Spiegel steigen um etwa ein Drittel, vorübergehender Anstieg der Leberwerte – nur bei klarem Nutzen kombinieren, Leberwerte überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tacrolimus",
+      "ref": [
+        "tacrolimus"
+      ],
+      "effekt": "Tacrolimus-Spiegel sinken um etwa ein Viertel – Talspiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Senkt die Caspofungin-Spiegel – höhere Erhaltungsdosis nötig (gemäss Fachinformation).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Induktoren der Arzneimittelausscheidung (Efavirenz, Nevirapin, Phenytoin, Dexamethason, Carbamazepin)",
+      "ref": [
+        "efavirenz",
+        "nevirapin",
+        "phenytoin",
+        "dexamethason",
+        "carbamazepin"
+      ],
+      "effekt": "Können die Caspofungin-Spiegel senken – höhere Tagesdosis (70 mg) erwägen.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Abfall von Hämoglobin, Hämatokrit und weissen Blutkörperchen", "Hypokaliämie (Kaliummangel)", "Kopfschmerzen", "Venenentzündung an der Infusionsstelle (Phlebitis)", "Atemnot", "Übelkeit, Durchfall, Erbrechen", "Erhöhte Leberwerte (ALT, AST, alkalische Phosphatase, Bilirubin)", "Ausschlag, Juckreiz, Hautrötung, Schwitzen, Gelenkschmerzen, Fieber, Schüttelfrost"],
-    "gelegentlich": ["Anämie, Thrombozytopenie, Gerinnungsstörungen", "Flüssigkeitsüberladung, Hypomagnesiämie, Hyperglykämie, Appetitlosigkeit", "Angst, Schlaflosigkeit, Verwirrtheit", "Schwindel, Geschmacksstörungen, Kribbeln, Zittern", "Herzrhythmusstörungen (z. B. Vorhofflimmern), Herzklopfen, Herzinsuffizienz", "Blutdruckabfall oder -anstieg, Hitzewallungen", "Bronchospasmus, Husten", "Bauchschmerzen, Verstopfung, Verdauungsbeschwerden", "Cholestase, Gelbsucht, Leberfunktionsstörung", "Nesselsucht, Erythema multiforme", "Muskelschmerzen, Nierenfunktionsstörung bis akutes Nierenversagen"],
-    "unbekannt": ["Anaphylaxie (schwere allergische Reaktion)", "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse", "Akutes Atemnotsyndrom (ARDS)", "Hyperkalzämie", "Periphere Ödeme"]
+    "haeufig": [
+      "Abfall von Hämoglobin, Hämatokrit und weissen Blutkörperchen",
+      "Hypokaliämie (Kaliummangel)",
+      "Kopfschmerzen",
+      "Venenentzündung an der Infusionsstelle (Phlebitis)",
+      "Atemnot",
+      "Übelkeit, Durchfall, Erbrechen",
+      "Erhöhte Leberwerte (ALT, AST, alkalische Phosphatase, Bilirubin)",
+      "Ausschlag, Juckreiz, Hautrötung, Schwitzen, Gelenkschmerzen, Fieber, Schüttelfrost"
+    ],
+    "gelegentlich": [
+      "Anämie, Thrombozytopenie, Gerinnungsstörungen",
+      "Flüssigkeitsüberladung, Hypomagnesiämie, Hyperglykämie, Appetitlosigkeit",
+      "Angst, Schlaflosigkeit, Verwirrtheit",
+      "Schwindel, Geschmacksstörungen, Kribbeln, Zittern",
+      "Herzrhythmusstörungen (z. B. Vorhofflimmern), Herzklopfen, Herzinsuffizienz",
+      "Blutdruckabfall oder -anstieg, Hitzewallungen",
+      "Bronchospasmus, Husten",
+      "Bauchschmerzen, Verstopfung, Verdauungsbeschwerden",
+      "Cholestase, Gelbsucht, Leberfunktionsstörung",
+      "Nesselsucht, Erythema multiforme",
+      "Muskelschmerzen, Nierenfunktionsstörung bis akutes Nierenversagen"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Akutes Atemnotsyndrom (ARDS)",
+      "Hyperkalzämie",
+      "Periphere Ödeme"
+    ]
   },
   "schwangerschaft": "Keine ausreichenden Erfahrungen; nur bei eindeutiger Notwendigkeit anwenden.",
   "stillzeit": "Während der Behandlung nicht stillen.",

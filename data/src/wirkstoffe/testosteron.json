@@ -1,47 +1,201 @@
 {
   "id": "testosteron",
   "name": "Testosteron",
-  "synonyme": ["Testosteronundecanoat", "Testosteronenantat", "Testosterone", "Männliches Geschlechtshormon"],
-  "atc": ["G03BA03"],
+  "synonyme": [
+    "Testosteronundecanoat",
+    "Testosteronenantat",
+    "Testosterone",
+    "Männliches Geschlechtshormon"
+  ],
+  "atc": [
+    "G03BA03"
+  ],
   "klasse": "Androgen (männliches Sexualhormon)",
   "kurz": "Männliches Geschlechtshormon als Depotspritze oder Gel; ersetzt fehlendes Testosteron bei nachgewiesenem Testosteronmangel.",
-  "gruppen": ["androgene", "teratogen"],
-  "handelsnamen": ["Nebido", "Testoviron Depot", "Testogel"],
-  "abgabe": ["B"],
-  "darreichung": ["Depot-Injektionslösung (ölig, intramuskulär)", "Gel zum Auftragen auf die Haut"],
+  "gruppen": [
+    "androgene",
+    "teratogen",
+    "thromboserisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Nebido",
+    "Testoviron Depot",
+    "Testogel"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Depot-Injektionslösung (ölig, intramuskulär)",
+    "Gel zum Auftragen auf die Haut"
+  ],
   "indikationen": [
-    { "text": "Testosteronersatz bei männlichem Hypogonadismus, wenn der Testosteronmangel durch Beschwerden und Laborwerte bestätigt ist", "ids": ["hypogonadismus"] }
+    {
+      "text": "Testosteronersatz bei männlichem Hypogonadismus, wenn der Testosteronmangel durch Beschwerden und Laborwerte bestätigt ist",
+      "ids": [
+        "hypogonadismus"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt das körpereigene männliche Geschlechtshormon, wenn die Hoden zu wenig davon bilden. Testosteron bindet an Androgenrezeptoren, teils direkt, teils nach Umwandlung durch die 5-Alpha-Reduktase in das stärker wirksame Dihydrotestosteron; ein Teil wird durch Aromatase in Estradiol umgewandelt. Es fördert männliche Geschlechtsmerkmale, Libido und Potenz, Muskelmasse, Knochendichte und die Bildung roter Blutkörperchen. Als Ester (Undecanoat, Enantat) in öliger Lösung wird es aus dem Muskel langsam freigesetzt; das Gel wird über die Haut aufgenommen.",
   "kontraindikationen": [
-    { "text": "Androgenabhängiges Prostatakarzinom oder Brustkrebs beim Mann (bekannt oder vermutet)", "ids": ["prostatakrebs", "brustkrebs"] },
-    { "text": "Bestehende oder frühere Lebertumoren", "ids": ["leberkrebs"] },
-    { "text": "Schwangerschaft und Stillzeit: die Präparate sind nicht für Frauen bestimmt", "ids": ["schwangerschaft", "stillzeit"] }
+    {
+      "text": "Androgenabhängiges Prostatakarzinom oder Brustkrebs beim Mann (bekannt oder vermutet)",
+      "ids": [
+        "prostatakrebs",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Bestehende oder frühere Lebertumoren",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit: die Präparate sind nicht für Frauen bestimmt",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Herz-, Nieren- oder Leberinsuffizienz (Wassereinlagerungen, Herzschwäche kann sich verschlechtern)", "ids": ["herzinsuffizienz", "niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Erhöhter Hämatokrit (Polyzythämie) oder Thromboseneigung: Blutbild regelmässig kontrollieren", "ids": ["thromboembolie-vorgeschichte", "myeloproliferative-erkrankung"] },
-    { "text": "Gutartige Prostatavergrösserung mit Wasserlösen-Beschwerden; PSA und Prostata regelmässig kontrollieren", "ids": ["prostatahyperplasie"] },
-    { "text": "Schlafapnoe (kann sich verschlechtern)", "ids": ["schlafapnoe"] },
-    { "text": "Bluthochdruck, Epilepsie, Migräne", "ids": ["hypertonie", "epilepsie", "migraene"] },
-    { "text": "Knochenmetastasen (Gefahr erhöhter Calciumwerte)", "ids": ["knochenmetastasen", "hyperkalzaemie"] },
-    { "text": "Diabetes: der Insulinbedarf kann sinken", "ids": ["diabetes"] },
-    { "text": "Blutgerinnungsstörung oder Gerinnungshemmer: Vorsicht bei Spritzen in den Muskel", "ids": ["blutgerinnungsstoerung"] },
-    { "text": "Kinder und Jugendliche: vorzeitiger Schluss der Wachstumsfugen und Vermännlichung möglich", "ids": ["kinder"] },
-    { "text": "Missbrauch zur Leistungssteigerung mit Abhängigkeitsrisiko und schweren Nebenwirkungen", "ids": ["abhaengigkeit"] }
+    {
+      "text": "Herz-, Nieren- oder Leberinsuffizienz (Wassereinlagerungen, Herzschwäche kann sich verschlechtern)",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhter Hämatokrit (Polyzythämie) oder Thromboseneigung: Blutbild regelmässig kontrollieren",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Gutartige Prostatavergrösserung mit Wasserlösen-Beschwerden; PSA und Prostata regelmässig kontrollieren",
+      "ids": [
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Schlafapnoe (kann sich verschlechtern)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Epilepsie, Migräne",
+      "ids": [
+        "hypertonie",
+        "epilepsie",
+        "migraene"
+      ]
+    },
+    {
+      "text": "Knochenmetastasen (Gefahr erhöhter Calciumwerte)",
+      "ids": [
+        "knochenmetastasen",
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Diabetes: der Insulinbedarf kann sinken",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Blutgerinnungsstörung oder Gerinnungshemmer: Vorsicht bei Spritzen in den Muskel",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: vorzeitiger Schluss der Wachstumsfugen und Vermännlichung möglich",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Missbrauch zur Leistungssteigerung mit Abhängigkeitsrisiko und schweren Nebenwirkungen",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Androgene verstärken die Gerinnungshemmung – INR engmaschig kontrollieren, Dosis ggf. anpassen.", "schwere": "schwer" },
-    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Testosteron verbessert die Insulinempfindlichkeit – Blutzucker kontrollieren, Dosis der Antidiabetika ggf. senken.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide und ACTH", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Verstärkte Neigung zu Wassereinlagerungen (Ödemen) – Vorsicht bei Herz-, Nieren- oder Lebererkrankung.", "schwere": "mittel" },
-    { "text": "Andere Gerinnungshemmer (DOAK, Heparine, Plättchenhemmer) bei Depotspritzen", "ref": ["gruppe:doak", "gruppe:heparine", "gruppe:thrombozytenaggregationshemmer"], "effekt": "Grössere Blutergüsse an der Einstichstelle der intramuskulären Spritze möglich.", "schwere": "leicht" }
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Androgene verstärken die Gerinnungshemmung – INR engmaschig kontrollieren, Dosis ggf. anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Testosteron verbessert die Insulinempfindlichkeit – Blutzucker kontrollieren, Dosis der Antidiabetika ggf. senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide und ACTH",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verstärkte Neigung zu Wassereinlagerungen (Ödemen) – Vorsicht bei Herz-, Nieren- oder Lebererkrankung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Gerinnungshemmer (DOAK, Heparine, Plättchenhemmer) bei Depotspritzen",
+      "ref": [
+        "gruppe:doak",
+        "gruppe:heparine",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Grössere Blutergüsse an der Einstichstelle der intramuskulären Spritze möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Erhöhter Hämatokrit und Hämoglobin (zu viele rote Blutkörperchen, Polyzythämie)", "Akne", "Gewichtszunahme", "Hitzewallungen", "Anstieg des PSA-Werts, Prostataveränderungen", "Reaktionen an der Einstich- oder Auftragsstelle (Schmerzen, Bluterguss, Hautrötung)"],
-    "gelegentlich": ["Bluthochdruck", "Kopfschmerzen, Schwindel", "Stimmungsschwankungen, Depression, Aggressivität, Schlaflosigkeit", "Veränderte Libido", "Brustvergrösserung (Gynäkomastie), Brustspannen, Hodenschmerzen", "Erhöhte Leberwerte, veränderte Blutfette", "Wassereinlagerungen (Ödeme)", "Haarausfall, Juckreiz, fettige Haut, vermehrtes Schwitzen"],
-    "selten": ["Ölmikroembolie der Lunge während oder kurz nach der Depotspritze (Husten, Atemnot, Unwohlsein, Schwindel)", "Schwere allergische Reaktionen nach der Injektion"],
-    "unbekannt": ["Venöse Thromboembolie (Thrombose, Lungenembolie)", "Verminderte Spermienbildung, Verkleinerung der Hoden (vor allem bei hoher Dosis)", "Lebertumoren bei langdauernder hoch dosierter Anwendung", "Verschlechterung einer Schlafapnoe", "Häufige oder schmerzhaft anhaltende Erektionen (Priapismus)"]
+    "haeufig": [
+      "Erhöhter Hämatokrit und Hämoglobin (zu viele rote Blutkörperchen, Polyzythämie)",
+      "Akne",
+      "Gewichtszunahme",
+      "Hitzewallungen",
+      "Anstieg des PSA-Werts, Prostataveränderungen",
+      "Reaktionen an der Einstich- oder Auftragsstelle (Schmerzen, Bluterguss, Hautrötung)"
+    ],
+    "gelegentlich": [
+      "Bluthochdruck",
+      "Kopfschmerzen, Schwindel",
+      "Stimmungsschwankungen, Depression, Aggressivität, Schlaflosigkeit",
+      "Veränderte Libido",
+      "Brustvergrösserung (Gynäkomastie), Brustspannen, Hodenschmerzen",
+      "Erhöhte Leberwerte, veränderte Blutfette",
+      "Wassereinlagerungen (Ödeme)",
+      "Haarausfall, Juckreiz, fettige Haut, vermehrtes Schwitzen"
+    ],
+    "selten": [
+      "Ölmikroembolie der Lunge während oder kurz nach der Depotspritze (Husten, Atemnot, Unwohlsein, Schwindel)",
+      "Schwere allergische Reaktionen nach der Injektion"
+    ],
+    "unbekannt": [
+      "Venöse Thromboembolie (Thrombose, Lungenembolie)",
+      "Verminderte Spermienbildung, Verkleinerung der Hoden (vor allem bei hoher Dosis)",
+      "Lebertumoren bei langdauernder hoch dosierter Anwendung",
+      "Verschlechterung einer Schlafapnoe",
+      "Häufige oder schmerzhaft anhaltende Erektionen (Priapismus)"
+    ]
   },
   "schwangerschaft": "Kontraindiziert: Testosteron kann beim ungeborenen Mädchen eine Vermännlichung verursachen. Schwangere dürfen nicht mit Testosteron-Gel in Hautkontakt kommen.",
   "stillzeit": "Kontraindiziert; Testosteronpräparate sind nicht für Frauen bestimmt.",

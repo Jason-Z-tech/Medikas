@@ -1,25 +1,79 @@
 {
   "id": "evolocumab",
   "name": "Evolocumab",
-  "synonyme": ["AMG 145"],
-  "atc": ["C10AX13"],
+  "synonyme": [
+    "AMG 145"
+  ],
+  "atc": [
+    "C10AX13"
+  ],
   "klasse": "PCSK9-Hemmer (humaner monoklonaler Antikörper), Lipidsenker",
   "kurz": "Cholesterinsenker zum Spritzen (Antikörper gegen PCSK9); senkt LDL stark, wenn Statine nicht genügen oder nicht vertragen werden.",
   "gruppen": [],
-  "handelsnamen": ["Repatha"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung im Fertigpen"],
+  "handelsnamen": [
+    "Repatha"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen"
+  ],
   "indikationen": [
-    { "text": "Primäre Hypercholesterinämie (familiär oder nicht familiär) und gemischte Dyslipidämie: zusammen mit einem Statin, wenn das LDL-Ziel nicht erreicht wird, oder allein bzw. mit anderen Lipidsenkern bei Statin-Unverträglichkeit", "ids": ["hypercholesterinaemie"] },
-    { "text": "Homozygote familiäre Hypercholesterinämie, zusammen mit anderen lipidsenkenden Behandlungen", "ids": ["hypercholesterinaemie"] },
-    { "text": "Bekannte arteriosklerotische Herz-Kreislauf-Erkrankung (z. B. nach Herzinfarkt oder Schlaganfall, Schaufensterkrankheit): Senkung des Risikos für weitere Herz-Kreislauf-Ereignisse", "ids": ["herzinfarkt", "schlaganfall", "koronare-herzkrankheit", "pavk"] }
+    {
+      "text": "Primäre Hypercholesterinämie (familiär oder nicht familiär) und gemischte Dyslipidämie: zusammen mit einem Statin, wenn das LDL-Ziel nicht erreicht wird, oder allein bzw. mit anderen Lipidsenkern bei Statin-Unverträglichkeit",
+      "ids": [
+        "hypercholesterinaemie",
+        "familiaere-hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Homozygote familiäre Hypercholesterinämie, zusammen mit anderen lipidsenkenden Behandlungen",
+      "ids": [
+        "hypercholesterinaemie",
+        "familiaere-hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Bekannte arteriosklerotische Herz-Kreislauf-Erkrankung (z. B. nach Herzinfarkt oder Schlaganfall, Schaufensterkrankheit): Senkung des Risikos für weitere Herz-Kreislauf-Ereignisse",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "koronare-herzkrankheit",
+        "pavk",
+        "kardiovaskulaeres-risiko",
+        "arteriosklerose"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt das LDL-Cholesterin stark, indem es dafür sorgt, dass die Leber mehr «Cholesterin-Fänger» behält. Evolocumab ist ein humaner monoklonaler IgG2-Antikörper, der das im Blut zirkulierende Protein PCSK9 (Proproteinkonvertase Subtilisin/Kexin Typ 9) bindet. PCSK9 bewirkt normalerweise, dass LDL-Rezeptoren in der Leberzelle abgebaut werden; ist es blockiert, kehren mehr Rezeptoren an die Zelloberfläche zurück und entfernen LDL-Cholesterin aus dem Blut. Das LDL-Cholesterin sinkt dadurch um mehr als die Hälfte. Als Eiweiss wird Evolocumab wie körpereigene Antikörper abgebaut, nicht über Leberenzyme.",
   "vorsicht": [
-    { "text": "Schwere Nieren- oder Leberinsuffizienz: wenig Erfahrung", "ids": ["niereninsuffizienz", "leberinsuffizienz"] },
-    { "text": "Allergische Reaktionen inkl. Angioödem: bei schwerer Reaktion absetzen", "ids": ["allergie", "angiooedem"] },
-    { "text": "Latexallergie: die Nadelschutzkappe kann Naturkautschuk (Latex) enthalten", "ids": ["latexallergie"] },
-    { "text": "Schwangerschaft: keine ausreichenden Erfahrungen", "ids": ["schwangerschaft"] }
+    {
+      "text": "Schwere Nieren- oder Leberinsuffizienz: wenig Erfahrung",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Allergische Reaktionen inkl. Angioödem: bei schwerer Reaktion absetzen",
+      "ids": [
+        "allergie",
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Latexallergie: die Nadelschutzkappe kann Naturkautschuk (Latex) enthalten",
+      "ids": [
+        "latexallergie"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: keine ausreichenden Erfahrungen",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "interaktionen": [],
   "nebenwirkungen": {
@@ -34,7 +88,9 @@
       "Nesselsucht (Urtikaria)",
       "Grippeähnliche Beschwerden"
     ],
-    "selten": ["Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen)"]
+    "selten": [
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen)"
+    ]
   },
   "schwangerschaft": "Nicht anwenden, ausser der Zustand der Frau erfordert eine Behandlung – keine ausreichenden Erfahrungen; Antikörper gelangen vor allem im letzten Drittel zum Ungeborenen.",
   "stillzeit": "Ein Risiko für den gestillten Säugling ist nicht auszuschliessen – ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",

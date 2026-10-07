@@ -1,38 +1,121 @@
 {
   "id": "adapalen",
   "name": "Adapalen",
-  "synonyme": ["Adapalene", "Adapalenum"],
-  "atc": ["D10AD03"],
+  "synonyme": [
+    "Adapalene",
+    "Adapalenum"
+  ],
+  "atc": [
+    "D10AD03"
+  ],
   "klasse": "Topisches Retinoid (Aknemittel)",
   "kurz": "Retinoid-Gel oder -Creme gegen Akne; löst Mitesser, beugt neuen Pickeln vor und wirkt entzündungshemmend.",
   "gruppen": [],
-  "handelsnamen": ["Differin", "Epiduo (Kombi)", "Epiduo Forte (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Gel", "Creme"],
+  "handelsnamen": [
+    "Differin",
+    "Epiduo (Kombi)",
+    "Epiduo Forte (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Gel",
+    "Creme"
+  ],
   "indikationen": [
-    { "text": "Akne vulgaris mit Mitessern (Komedonen), Papeln und Pusteln im Gesicht, an Brust oder Rücken", "ids": ["akne"] },
-    { "text": "In fixer Kombination mit Benzoylperoxid (Epiduo) bei Akne mit Mitessern und entzündlichen Pickeln", "ids": ["akne"] }
+    {
+      "text": "Akne vulgaris mit Mitessern (Komedonen), Papeln und Pusteln im Gesicht, an Brust oder Rücken",
+      "ids": [
+        "akne"
+      ]
+    },
+    {
+      "text": "In fixer Kombination mit Benzoylperoxid (Epiduo) bei Akne mit Mitessern und entzündlichen Pickeln",
+      "ids": [
+        "akne"
+      ]
+    }
   ],
   "wirkmechanismus": "Normalisiert die Verhornung in den Haarfollikeln, sodass sich weniger Mitesser bilden und bestehende sich lösen. Adapalen ist ein Retinoid der dritten Generation (Naphthoesäure-Abkömmling), das gezielt an die Retinsäure-Rezeptoren RAR-beta und RAR-gamma der Haut bindet und die Ausreifung der Follikelzellen reguliert. Zusätzlich hemmt es Entzündungsvorgänge in der Haut. Die Aufnahme in den Körper ist sehr gering.",
   "kontraindikationen": [
-    { "text": "Schwangerschaft und geplante Schwangerschaft", "ids": ["schwangerschaft"] }
+    {
+      "text": "Schwangerschaft und geplante Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Nicht auf verletzte, sonnenverbrannte oder ekzematöse Haut auftragen", "ids": ["sonnenbrand", "neurodermitis"] },
-    { "text": "Kontakt mit Augen, Lippen, Mundwinkeln und Nasenschleimhaut vermeiden", "ids": [] },
-    { "text": "Starke Sonnen- oder UV-Bestrahlung meiden (vermehrte Hautreizung)", "ids": ["sonnenbrand"] },
-    { "text": "Frauen im gebärfähigen Alter: während der Behandlung nicht schwanger werden", "ids": ["frauen-gebaerfaehig"] },
-    { "text": "Kinder: nur ab dem zugelassenen Alter (Differin ab 12 Jahren, Epiduo ab 9 Jahren)", "ids": ["kinder"] }
+    {
+      "text": "Nicht auf verletzte, sonnenverbrannte oder ekzematöse Haut auftragen",
+      "ids": [
+        "sonnenbrand",
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Kontakt mit Augen, Lippen, Mundwinkeln und Nasenschleimhaut vermeiden",
+      "ids": []
+    },
+    {
+      "text": "Starke Sonnen- oder UV-Bestrahlung meiden (vermehrte Hautreizung)",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: während der Behandlung nicht schwanger werden",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Kinder: nur ab dem zugelassenen Alter (Differin und Epiduo Forte ab 12 Jahren, Epiduo ab 9 Jahren)",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Retinoide zum Auftragen (z. B. Tretinoin) oder zum Einnehmen (Isotretinoin)", "ref": ["tretinoin", "isotretinoin"], "effekt": "Verstärkte Hautreizung und Austrocknung – nicht ohne ärztliche Anweisung gleichzeitig anwenden.", "schwere": "mittel" },
-    { "text": "Reizende oder schälende Hautmittel (z. B. Salicylsäure, Schwefel, Resorcin, alkoholhaltige Gesichtswasser, Peelings)", "ref": ["salicylsaeure"], "effekt": "Zusätzliche Hautreizung – nur vorsichtig kombinieren.", "schwere": "leicht" }
+    {
+      "text": "Andere Retinoide zum Auftragen (z. B. Tretinoin) oder zum Einnehmen (Isotretinoin)",
+      "ref": [
+        "tretinoin",
+        "isotretinoin"
+      ],
+      "effekt": "Verstärkte Hautreizung und Austrocknung – nicht ohne ärztliche Anweisung gleichzeitig anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Reizende oder schälende Hautmittel (z. B. Salicylsäure, Schwefel, Resorcin, alkoholhaltige Gesichtswasser, Peelings)",
+      "ref": [
+        "salicylsaeure"
+      ],
+      "effekt": "Zusätzliche Hautreizung – nur vorsichtig kombinieren.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Trockene Haut", "Hautreizung, Rötung (Erythem)", "Brennen oder Stechen der Haut", "Schuppung (Hautabschälung)"],
-    "gelegentlich": ["Juckreiz", "Kontaktdermatitis", "Sonnenbrand", "Vorübergehende Verschlechterung der Akne"],
-    "unbekannt": ["Allergische Kontaktdermatitis, Schwellung von Gesicht oder Augenlidern, Angioödem", "Hellere oder dunklere Hautverfärbung", "Schmerzen der Haut", "Verbrennungen an der Auftragsstelle"]
+    "haeufig": [
+      "Trockene Haut",
+      "Hautreizung, Rötung (Erythem)",
+      "Brennen oder Stechen der Haut",
+      "Schuppung (Hautabschälung)"
+    ],
+    "gelegentlich": [
+      "Juckreiz",
+      "Kontaktdermatitis",
+      "Sonnenbrand",
+      "Vorübergehende Verschlechterung der Akne"
+    ],
+    "unbekannt": [
+      "Allergische Kontaktdermatitis, Schwellung von Gesicht oder Augenlidern, Angioödem",
+      "Hellere oder dunklere Hautverfärbung",
+      "Schmerzen der Haut",
+      "Verbrennungen an der Auftragsstelle"
+    ]
   },
   "schwangerschaft": "Kontraindiziert. Auch wenn nur wenig Wirkstoff in den Körper gelangt, gelten Retinoide als potenziell fruchtschädigend; bei Eintritt einer Schwangerschaft die Behandlung beenden.",
   "stillzeit": "Nach Abwägung möglich, da kaum Wirkstoff ins Blut gelangt; nicht auf die Brust auftragen.",

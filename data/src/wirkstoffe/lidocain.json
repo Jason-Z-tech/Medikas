@@ -1,51 +1,229 @@
 {
   "id": "lidocain",
   "name": "Lidocain",
-  "synonyme": ["Lidocaine", "Lignocain", "Lignocaine", "Lidocainhydrochlorid"],
-  "atc": ["N01BB02", "C01BB01", "D04AB01", "R02AD02", "S01HA07"],
+  "synonyme": [
+    "Lidocaine",
+    "Lignocain",
+    "Lignocaine",
+    "Lidocainhydrochlorid"
+  ],
+  "atc": [
+    "N01BB02",
+    "C01BB01",
+    "D04AB01",
+    "R02AD02",
+    "S01HA07"
+  ],
   "klasse": "Lokalanästhetikum vom Amid-Typ; Antiarrhythmikum Klasse IB",
   "kurz": "Örtliches Betäubungsmittel für Spritzen, Gel, Spray, Pflaster und Lutschtabletten; als Infusion auch gegen Kammerrhythmusstörungen.",
-  "gruppen": ["lokalanaesthetika", "antiarrhythmika-klasse-i", "cyp1a2-substrate"],
-  "handelsnamen": ["Xylocain", "Rapidocain", "Lidocain Streuli", "Versatis", "Emla (Kombi)", "Lemocin (Kombi)"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Injektionslösung", "Gel", "Spray", "Salbe", "Wirkstoffhaltiges Pflaster", "Lutschtabletten"],
+  "gruppen": [
+    "lokalanaesthetika",
+    "antiarrhythmika-klasse-i",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Xylocain",
+    "Rapidocain",
+    "Lidocain Streuli",
+    "Versatis",
+    "Emla (Kombi)",
+    "Lemocin (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Gel",
+    "Spray",
+    "Salbe",
+    "Wirkstoffhaltiges Pflaster",
+    "Lutschtabletten"
+  ],
   "indikationen": [
-    { "text": "Örtliche Betäubung (Infiltrations-, Leitungs- und Regionalanästhesie) bei Operationen, Zahnbehandlungen und anderen Eingriffen", "ids": ["anaesthesie", "operation"] },
-    { "text": "Oberflächenbetäubung von Haut und Schleimhäuten, z. B. vor Untersuchungen, beim Legen von Kathetern oder Sonden", "ids": ["anaesthesie"] },
-    { "text": "Schmerzen im Mund- und Rachenraum (Lutschtabletten und Mundgel, meist in Kombination)", "ids": ["mundinfektion", "schmerzen"] },
-    { "text": "Nervenschmerzen nach Gürtelrose (postherpetische Neuralgie) – Pflaster", "ids": ["nervenschmerzen", "herpes"] },
-    { "text": "Akute ventrikuläre Herzrhythmusstörungen (intravenös, im Spital)", "ids": ["herzrhythmusstoerung"] }
+    {
+      "text": "Örtliche Betäubung (Infiltrations-, Leitungs- und Regionalanästhesie) bei Operationen, Zahnbehandlungen und anderen Eingriffen",
+      "ids": [
+        "anaesthesie",
+        "operation"
+      ]
+    },
+    {
+      "text": "Oberflächenbetäubung von Haut und Schleimhäuten, z. B. vor Untersuchungen, beim Legen von Kathetern oder Sonden",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Schmerzen im Mund- und Rachenraum (Lutschtabletten und Mundgel, meist in Kombination)",
+      "ids": [
+        "mundinfektion",
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Nervenschmerzen nach Gürtelrose (postherpetische Neuralgie) – Pflaster",
+      "ids": [
+        "nervenschmerzen",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Akute ventrikuläre Herzrhythmusstörungen (intravenös, im Spital)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
   ],
   "wirkmechanismus": "Betäubt die Nerven an der Stelle, an der es angewendet wird, sodass Schmerzreize nicht mehr weitergeleitet werden. Lidocain blockiert spannungsabhängige Natriumkanäle der Nervenmembran von innen und verhindert so die Entstehung und Weiterleitung von Aktionspotenzialen; die Wirkung tritt rasch ein und hält etwa 1–2 Stunden an. Am Herzen wirkt es als Klasse-IB-Antiarrhythmikum: Es bindet bevorzugt an Natriumkanäle von geschädigten, häufig erregten Kammerzellen und unterdrückt dort Rhythmusstörungen. Lidocain wird in der Leber vor allem über CYP1A2 und CYP3A4 abgebaut.",
   "kontraindikationen": [
-    { "text": "Überempfindlichkeit gegen Lokalanästhetika vom Amid-Typ (Kreuzallergie z. B. mit Bupivacain, Mepivacain oder Prilocain)", "ids": ["allergie"] },
-    { "text": "Bei Injektion in höherer Dosis oder intravenös: AV-Block 2. oder 3. Grades und schwere Reizleitungsstörungen ohne Herzschrittmacher", "ids": ["av-block"] },
-    { "text": "Bei intravenöser Anwendung: kardiogener Schock und schwere, dekompensierte Herzinsuffizienz", "ids": ["schock", "herzinsuffizienz"] },
-    { "text": "Rückenmarknahe Anästhesie (Spinal-, Epiduralanästhesie) bei unbehandeltem Volumenmangel oder Gerinnungsstörungen", "ids": ["dehydratation", "blutgerinnungsstoerung"] }
+    {
+      "text": "Überempfindlichkeit gegen Lokalanästhetika vom Amid-Typ (Kreuzallergie z. B. mit Bupivacain, Mepivacain oder Prilocain)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Bei Injektion in höherer Dosis oder intravenös: AV-Block 2. oder 3. Grades und schwere Reizleitungsstörungen ohne Herzschrittmacher",
+      "ids": []
+    },
+    {
+      "text": "Bei intravenöser Anwendung: kardiogener Schock und schwere, dekompensierte Herzinsuffizienz",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Rückenmarknahe Anästhesie (Spinal-, Epiduralanästhesie) bei unbehandeltem Volumenmangel oder Gerinnungsstörungen",
+      "ids": [
+        "dehydratation",
+        "blutgerinnungsstoerung"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Leberfunktion (verlangsamter Abbau, Gefahr der Anreicherung)", "ids": ["leberinsuffizienz"] },
-    { "text": "Herzinsuffizienz, Bradykardie und Reizleitungsstörungen", "ids": ["herzinsuffizienz", "bradykardie", "av-block"] },
-    { "text": "Epilepsie (bei zu hohen Blutspiegeln Krampfanfälle möglich)", "ids": ["epilepsie"] },
-    { "text": "Schwere Niereninsuffizienz (Anreicherung von Abbauprodukten bei Dauerinfusion)", "ids": ["niereninsuffizienz"] },
-    { "text": "Ältere oder geschwächte Menschen: Dosis reduzieren", "ids": ["aeltere-patienten"] },
-    { "text": "Akute Porphyrie", "ids": ["porphyrie"] },
-    { "text": "Kinder sowie Anwendung auf grossen, verletzten oder entzündeten Haut- und Schleimhautflächen (erhöhte Aufnahme ins Blut)", "ids": ["kinder"] },
-    { "text": "Myasthenia gravis", "ids": ["myasthenia-gravis"] }
+    {
+      "text": "Eingeschränkte Leberfunktion (verlangsamter Abbau, Gefahr der Anreicherung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz, Bradykardie und Reizleitungsstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Epilepsie (bei zu hohen Blutspiegeln Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Anreicherung von Abbauprodukten bei Dauerinfusion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen: Dosis reduzieren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Kinder sowie Anwendung auf grossen, verletzten oder entzündeten Haut- und Schleimhautflächen (erhöhte Aufnahme ins Blut)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Antiarrhythmika (z. B. Amiodaron, Flecainid, Propafenon)", "ref": ["gruppe:antiarrhythmika-klasse-iii", "gruppe:antiarrhythmika-klasse-i", "amiodaron"], "effekt": "Verstärkte Wirkung auf das Herz (Leitungsstörungen, Pulsverlangsamung) – nur unter EKG-Überwachung kombinieren.", "schwere": "schwer" },
-    { "text": "Andere Lokalanästhetika oder ihnen ähnliche Mittel", "ref": ["gruppe:lokalanaesthetika"], "effekt": "Die Giftwirkungen auf Herz und Nervensystem addieren sich – Gesamtdosis beachten.", "schwere": "mittel" },
-    { "text": "CYP1A2-Hemmer (v. a. Fluvoxamin) und CYP3A4-Hemmer (z. B. Itraconazol, Erythromycin)", "ref": ["gruppe:cyp1a2-hemmer", "fluvoxamin", "gruppe:starke-cyp3a4-hemmer", "erythromycin"], "effekt": "Abbau von Lidocain verlangsamt, Spiegel steigt – vor allem bei Infusion oder wiederholter Gabe Dosis reduzieren.", "schwere": "mittel" },
-    { "text": "Betablocker (z. B. Propranolol, Metoprolol)", "ref": ["gruppe:betablocker"], "effekt": "Verminderte Leberdurchblutung, dadurch höherer Lidocainspiegel; zusätzlich verstärkte Wirkung auf das Herz.", "schwere": "mittel" },
-    { "text": "Cimetidin", "ref": [], "effekt": "Höherer Lidocainspiegel bei intravenöser Gabe – Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Enzyminduzierende Antiepileptika (Phenytoin, Carbamazepin, Phenobarbital)", "ref": ["phenytoin", "carbamazepin", "phenobarbital"], "effekt": "Rascherer Abbau von Lidocain; intravenöses Phenytoin kann die dämpfende Wirkung auf das Herz verstärken.", "schwere": "leicht" }
+    {
+      "text": "Andere Antiarrhythmika (z. B. Amiodaron, Flecainid, Propafenon)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:antiarrhythmika-klasse-i",
+        "amiodaron"
+      ],
+      "effekt": "Verstärkte Wirkung auf das Herz (Leitungsstörungen, Pulsverlangsamung) – nur unter EKG-Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Lokalanästhetika oder ihnen ähnliche Mittel",
+      "ref": [
+        "gruppe:lokalanaesthetika"
+      ],
+      "effekt": "Die Giftwirkungen auf Herz und Nervensystem addieren sich – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Hemmer (v. a. Fluvoxamin) und CYP3A4-Hemmer (z. B. Itraconazol, Erythromycin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer",
+        "fluvoxamin",
+        "gruppe:starke-cyp3a4-hemmer",
+        "erythromycin"
+      ],
+      "effekt": "Abbau von Lidocain verlangsamt, Spiegel steigt – vor allem bei Infusion oder wiederholter Gabe Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker (z. B. Propranolol, Metoprolol)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verminderte Leberdurchblutung, dadurch höherer Lidocainspiegel; zusätzlich verstärkte Wirkung auf das Herz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cimetidin",
+      "ref": [],
+      "effekt": "Höherer Lidocainspiegel bei intravenöser Gabe – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduzierende Antiepileptika (Phenytoin, Carbamazepin, Phenobarbital)",
+      "ref": [
+        "phenytoin",
+        "carbamazepin",
+        "phenobarbital"
+      ],
+      "effekt": "Rascherer Abbau von Lidocain; intravenöses Phenytoin kann die dämpfende Wirkung auf das Herz verstärken.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Blutdruckabfall (Hypotonie) und Übelkeit (bei Regionalanästhesie)", "Reaktionen an der Klebestelle (Rötung, Juckreiz, Brennen) beim Pflaster"],
-    "haeufig": ["Kribbeln (Parästhesien), Schwindel", "Bradykardie (verlangsamter Herzschlag)", "Blutdruckanstieg", "Erbrechen"],
-    "gelegentlich": ["Zeichen einer Überdosierung am Nervensystem: Taubheit von Lippen und Zunge, Ohrensausen, Sehstörungen, Zittern, Benommenheit, Krampfanfälle"],
+    "sehrHaeufig": [
+      "Blutdruckabfall (Hypotonie) und Übelkeit (bei Regionalanästhesie)",
+      "Reaktionen an der Klebestelle (Rötung, Juckreiz, Brennen) beim Pflaster"
+    ],
+    "haeufig": [
+      "Kribbeln (Parästhesien), Schwindel",
+      "Bradykardie (verlangsamter Herzschlag)",
+      "Blutdruckanstieg",
+      "Erbrechen"
+    ],
+    "gelegentlich": [
+      "Zeichen einer Überdosierung am Nervensystem: Taubheit von Lippen und Zunge, Ohrensausen, Sehstörungen, Zittern, Benommenheit, Krampfanfälle"
+    ],
     "selten": [
       "Allergische Reaktionen bis zum anaphylaktischen Schock",
       "Herzrhythmusstörungen und Herzstillstand",
@@ -53,7 +231,10 @@
       "Nervenschädigung, Arachnoiditis (Entzündung der Rückenmarkshaut) nach rückenmarknaher Anästhesie",
       "Doppelbilder"
     ],
-    "unbekannt": ["Methämoglobinämie (verminderter Sauerstofftransport im Blut), v. a. bei Säuglingen und grossflächiger Anwendung", "Örtliche Reizung, Brennen oder Schwellung an der Anwendungsstelle"]
+    "unbekannt": [
+      "Methämoglobinämie (verminderter Sauerstofftransport im Blut), v. a. bei Säuglingen und grossflächiger Anwendung",
+      "Örtliche Reizung, Brennen oder Schwellung an der Anwendungsstelle"
+    ]
   },
   "schwangerschaft": "Wird seit langem in der Schwangerschaft verwendet und gilt in üblicher Dosierung als vertretbar. Bei Leitungsanästhesie in Gebärmutterhalsnähe (Parazervikalblock) kann beim Kind der Herzschlag langsamer werden.",
   "stillzeit": "Geht nur in sehr geringen Mengen in die Muttermilch über; Stillen ist erlaubt.",

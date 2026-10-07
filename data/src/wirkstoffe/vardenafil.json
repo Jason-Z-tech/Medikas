@@ -1,56 +1,246 @@
 {
   "id": "vardenafil",
   "name": "Vardenafil",
-  "synonyme": ["Vardenafilhydrochlorid", "Vardenafil hydrochloride"],
-  "atc": ["G04BE09"],
+  "synonyme": [
+    "Vardenafilhydrochlorid",
+    "Vardenafil hydrochloride"
+  ],
+  "atc": [
+    "G04BE09"
+  ],
   "klasse": "Phosphodiesterase-5-Hemmer (PDE-5-Hemmer)",
   "kurz": "Mittel gegen Erektionsstörungen aus der Gruppe der PDE-5-Hemmer; wirkt nur bei sexueller Erregung.",
-  "gruppen": ["pde5-hemmer", "blutdrucksenkend", "cyp3a4-substrate-empfindlich", "qt-verlaengernd"],
-  "handelsnamen": ["Levitra"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten", "Schmelztabletten"],
+  "gruppen": [
+    "pde5-hemmer",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Levitra"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Schmelztabletten"
+  ],
   "indikationen": [
-    { "text": "Erektile Dysfunktion (Erektionsstörung) bei erwachsenen Männern; für die Wirkung ist eine sexuelle Stimulation nötig", "ids": ["erektile-dysfunktion"] }
+    {
+      "text": "Erektile Dysfunktion (Erektionsstörung) bei erwachsenen Männern; für die Wirkung ist eine sexuelle Stimulation nötig",
+      "ids": [
+        "erektile-dysfunktion"
+      ]
+    }
   ],
   "wirkmechanismus": "Verbessert bei sexueller Erregung die Durchblutung des Penis und erleichtert so eine Erektion. Bei sexueller Stimulation wird in den Schwellkörpern Stickstoffmonoxid (NO) freigesetzt, das über den Botenstoff cGMP die glatte Muskulatur entspannt. Vardenafil hemmt selektiv die Phosphodiesterase 5 (PDE-5), die cGMP abbaut; dadurch bleibt cGMP länger erhalten, die Gefässe der Schwellkörper erweitern sich und es strömt mehr Blut ein. Ohne sexuelle Stimulation löst Vardenafil keine Erektion aus. Weil PDE-5 auch in Blutgefässen vorkommt, sinkt der Blutdruck leicht.",
   "kontraindikationen": [
-    { "text": "Männer, denen von sexueller Aktivität abgeraten wird, z. B. bei schweren Herz-Kreislauf-Erkrankungen wie instabiler Angina pectoris oder schwerer Herzinsuffizienz (NYHA III–IV)", "ids": ["angina-pectoris", "herzinsuffizienz"] },
-    { "text": "Herzinfarkt oder Schlaganfall in den letzten 6 Monaten", "ids": ["herzinfarkt", "schlaganfall"] },
-    { "text": "Tiefer Blutdruck (unter 90/50 mmHg)", "ids": ["hypotonie"] },
-    { "text": "Schwere Leberfunktionsstörung (Child-Pugh C)", "ids": ["leberinsuffizienz"] },
-    { "text": "Dialysepflichtige Niereninsuffizienz (terminales Nierenversagen)", "ids": ["niereninsuffizienz"] },
-    { "text": "Sehverlust auf einem Auge durch eine nicht-arteriitische anteriore ischämische Optikusneuropathie (NAION, Durchblutungsstörung des Sehnervs)", "ids": [] },
-    { "text": "Bekannte erbliche degenerative Netzhauterkrankungen wie Retinitis pigmentosa", "ids": [] }
+    {
+      "text": "Männer, denen von sexueller Aktivität abgeraten wird, z. B. bei schweren Herz-Kreislauf-Erkrankungen wie instabiler Angina pectoris oder schwerer Herzinsuffizienz (NYHA III–IV)",
+      "ids": [
+        "angina-pectoris",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinfarkt oder Schlaganfall in den letzten 6 Monaten",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck (unter 90/50 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Dialysepflichtige Niereninsuffizienz (terminales Nierenversagen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Sehverlust auf einem Auge durch eine nicht-arteriitische anteriore ischämische Optikusneuropathie (NAION, Durchblutungsstörung des Sehnervs)",
+      "ids": []
+    },
+    {
+      "text": "Bekannte erbliche degenerative Netzhauterkrankungen wie Retinitis pigmentosa",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Herz-Kreislauf-Erkrankungen: sexuelle Aktivität belastet das Herz; Vorsicht bei Abflussbehinderung aus der linken Herzkammer (z. B. Aortenstenose)", "ids": ["koronare-herzkrankheit", "herzklappenerkrankung"] },
-    { "text": "Angeborene QT-Verlängerung oder Einnahme von Antiarrhythmika der Klasse IA oder III (Vardenafil verlängert die QT-Zeit leicht)", "ids": ["qt-verlaengerung"] },
-    { "text": "Anatomische Penisverformung (z. B. Peyronie-Krankheit) oder Erkrankungen, die eine Dauererektion (Priapismus) begünstigen, z. B. Sichelzellanämie, multiples Myelom, Leukämie", "ids": ["sichelzellanaemie", "multiples-myelom", "leukaemie"] },
-    { "text": "Blutungsstörungen oder aktive Magen-Darm-Geschwüre (keine Sicherheitsdaten)", "ids": ["blutgerinnungsstoerung", "magen-darm-ulkus"] },
-    { "text": "Leichte bis mittelschwere Leberfunktionsstörung: höhere Spiegel, niedrigere Anfangsdosis", "ids": ["leberinsuffizienz"] },
-    { "text": "Männer ab 65 Jahren: höhere Spiegel, niedrigere Anfangsdosis", "ids": ["aeltere-patienten"] },
-    { "text": "Plötzliche Sehstörung oder plötzlicher Hörverlust: Einnahme beenden und sofort ärztlich abklären", "ids": ["hoerstoerung"] }
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: sexuelle Aktivität belastet das Herz; Vorsicht bei Abflussbehinderung aus der linken Herzkammer (z. B. Aortenstenose)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Angeborene QT-Verlängerung oder Einnahme von Antiarrhythmika der Klasse IA oder III (Vardenafil verlängert die QT-Zeit leicht)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Anatomische Penisverformung (z. B. Peyronie-Krankheit) oder Erkrankungen, die eine Dauererektion (Priapismus) begünstigen, z. B. Sichelzellanämie, multiples Myelom, Leukämie",
+      "ids": [
+        "sichelzellanaemie",
+        "multiples-myelom",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Blutungsstörungen oder aktive Magen-Darm-Geschwüre (keine Sicherheitsdaten)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leberfunktionsstörung: höhere Spiegel, niedrigere Anfangsdosis",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Männer ab 65 Jahren: höhere Spiegel, niedrigere Anfangsdosis",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Plötzliche Sehstörung oder plötzlicher Hörverlust: Einnahme beenden und sofort ärztlich abklären",
+      "ids": [
+        "hoerstoerung"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Nitrate und NO-Donatoren in jeder Form (z. B. Nitroglycerin, Isosorbiddinitrat, Isosorbidmononitrat, Molsidomin, Amylnitrit)", "ref": ["gruppe:nitrate"], "grund": "Beide verstärken die NO-cGMP-vermittelte Gefässerweiterung – Gefahr eines schweren, lebensbedrohlichen Blutdruckabfalls." },
-    { "text": "Riociguat (Stimulator der löslichen Guanylatzyklase)", "ref": ["riociguat"], "grund": "Additive cGMP-Erhöhung mit Gefahr eines symptomatischen Blutdruckabfalls." },
-    { "text": "HIV-Proteasehemmer wie Ritonavir und Indinavir", "ref": ["ritonavir", "gruppe:hiv-proteasehemmer"], "grund": "Sehr starke CYP3A4-Hemmung – der Vardenafil-Spiegel steigt um ein Vielfaches (mit Ritonavir bis etwa 49-fach), mit Gefahr von Blutdruckabfall und schweren Nebenwirkungen." },
-    { "text": "Ketoconazol oder Itraconazol (zum Einnehmen) bei Männern über 75 Jahre", "ref": ["ketoconazol", "itraconazol"], "grund": "Starke CYP3A4-Hemmung erhöht die Vardenafil-Spiegel stark (mit Ketoconazol etwa 10-fach)." }
+    {
+      "text": "Nitrate und NO-Donatoren in jeder Form (z. B. Nitroglycerin, Isosorbiddinitrat, Isosorbidmononitrat, Molsidomin, Amylnitrit)",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "grund": "Beide verstärken die NO-cGMP-vermittelte Gefässerweiterung – Gefahr eines schweren, lebensbedrohlichen Blutdruckabfalls."
+    },
+    {
+      "text": "Riociguat (Stimulator der löslichen Guanylatzyklase)",
+      "ref": [
+        "riociguat"
+      ],
+      "grund": "Additive cGMP-Erhöhung mit Gefahr eines symptomatischen Blutdruckabfalls."
+    },
+    {
+      "text": "HIV-Proteasehemmer wie Ritonavir und Indinavir",
+      "ref": [
+        "ritonavir",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "grund": "Sehr starke CYP3A4-Hemmung – der Vardenafil-Spiegel steigt um ein Vielfaches (mit Ritonavir bis etwa 49-fach), mit Gefahr von Blutdruckabfall und schweren Nebenwirkungen."
+    },
+    {
+      "text": "Ketoconazol oder Itraconazol (zum Einnehmen) bei Männern über 75 Jahre",
+      "ref": [
+        "ketoconazol",
+        "itraconazol"
+      ],
+      "grund": "Starke CYP3A4-Hemmung erhöht die Vardenafil-Spiegel stark (mit Ketoconazol etwa 10-fach)."
+    }
   ],
   "interaktionen": [
-    { "text": "Alpha-Blocker (z. B. Tamsulosin, Alfuzosin, Doxazosin, Silodosin)", "ref": ["gruppe:alpha1-blocker"], "effekt": "Additive Blutdrucksenkung mit Schwindel oder Ohnmacht – nur bei stabil eingestellter Alpha-Blocker-Therapie beginnen und mit der niedrigsten Vardenafil-Dosis starten.", "schwere": "schwer" },
-    { "text": "Andere PDE-5-Hemmer (Sildenafil, Tadalafil, Avanafil)", "ref": ["gruppe:pde5-hemmer"], "effekt": "Nicht kombinieren: verstärkte Blutdrucksenkung und Nebenwirkungen, keine Sicherheitsdaten.", "schwere": "schwer" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin) bei Männern bis 75 Jahre", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Stark erhöhte Vardenafil-Spiegel – nur in reduzierter Höchstdosis (5 mg) nach ärztlicher Anweisung.", "schwere": "schwer" },
-    { "text": "Vericiguat", "ref": ["vericiguat"], "effekt": "Additive Blutdrucksenkung über den cGMP-Signalweg – Kombination nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Antiarrhythmika der Klasse IA (z. B. Chinidin) oder III (z. B. Amiodaron, Sotalol)", "ref": ["gruppe:antiarrhythmika-klasse-iii", "amiodaron", "sotalol"], "effekt": "Additive QT-Verlängerung mit Gefahr von Herzrhythmusstörungen – Kombination vermeiden.", "schwere": "schwer" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin)", "ref": ["gruppe:maessige-cyp3a4-hemmer"], "effekt": "Erhöhte Vardenafil-Spiegel (mit Erythromycin etwa 4-fach) – Dosis begrenzen (höchstens 5 mg).", "schwere": "mittel" },
-    { "text": "Andere QT-verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Additive QT-Verlängerung möglich – Vorsicht, besonders bei weiteren Risikofaktoren.", "schwere": "mittel" },
-    { "text": "Grapefruitsaft", "ref": [], "effekt": "Kann die Vardenafil-Spiegel erhöhen – während der Behandlung meiden.", "schwere": "mittel" },
-    { "text": "Andere blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Leicht verstärkte Blutdrucksenkung möglich.", "schwere": "leicht" }
+    {
+      "text": "Alpha-Blocker (z. B. Tamsulosin, Alfuzosin, Doxazosin, Silodosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Additive Blutdrucksenkung mit Schwindel oder Ohnmacht – nur bei stabil eingestellter Alpha-Blocker-Therapie beginnen und mit der niedrigsten Vardenafil-Dosis starten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere PDE-5-Hemmer (Sildenafil, Tadalafil, Avanafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Nicht kombinieren: verstärkte Blutdrucksenkung und Nebenwirkungen, keine Sicherheitsdaten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin) bei Männern bis 75 Jahre",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Stark erhöhte Vardenafil-Spiegel – nur in reduzierter Höchstdosis (5 mg) nach ärztlicher Anweisung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vericiguat",
+      "ref": [
+        "vericiguat"
+      ],
+      "effekt": "Additive Blutdrucksenkung über den cGMP-Signalweg – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika der Klasse IA (z. B. Chinidin) oder III (z. B. Amiodaron, Sotalol)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "amiodaron",
+        "sotalol"
+      ],
+      "effekt": "Additive QT-Verlängerung mit Gefahr von Herzrhythmusstörungen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhte Vardenafil-Spiegel (mit Erythromycin etwa 4-fach) – Dosis begrenzen (höchstens 5 mg).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung möglich – Vorsicht, besonders bei weiteren Risikofaktoren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Kann die Vardenafil-Spiegel erhöhen – während der Behandlung meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Leicht verstärkte Blutdrucksenkung möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen"],
-    "haeufig": ["Gesichtsrötung (Flush)", "Verstopfte Nase", "Schwindel", "Dyspepsie (Verdauungsbeschwerden)"],
+    "sehrHaeufig": [
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Gesichtsrötung (Flush)",
+      "Verstopfte Nase",
+      "Schwindel",
+      "Dyspepsie (Verdauungsbeschwerden)"
+    ],
     "gelegentlich": [
       "Sehstörungen, verändertes Farbsehen, Augenrötung, Augenschmerzen",
       "Herzklopfen, beschleunigter Puls",

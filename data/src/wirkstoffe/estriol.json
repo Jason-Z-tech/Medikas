@@ -1,45 +1,185 @@
 {
   "id": "estriol",
   "name": "Estriol",
-  "synonyme": ["Oestriol", "Östriol", "Estriolum", "E3"],
-  "atc": ["G03CA04"],
+  "synonyme": [
+    "Oestriol",
+    "Östriol",
+    "Estriolum",
+    "E3"
+  ],
+  "atc": [
+    "G03CA04"
+  ],
   "klasse": "Natürliches Östrogen (kurz wirksam), vaginale Anwendung",
   "kurz": "Weibliches Hormon (Östrogen) als Vaginalcreme oder Zäpfchen gegen Scheidentrockenheit und Beschwerden durch Hormonmangel nach den Wechseljahren.",
-  "gruppen": ["oestrogene"],
-  "handelsnamen": ["Ovestin", "Gynoflor (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Vaginalcreme", "Vaginalzäpfchen (Ovula)", "Vaginaltabletten (Kombination mit Milchsäurebakterien)"],
+  "gruppen": [
+    "oestrogene"
+  ],
+  "handelsnamen": [
+    "Ovestin",
+    "Gynoflor (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Vaginalcreme",
+    "Vaginalzäpfchen (Ovula)",
+    "Vaginaltabletten (Kombination mit Milchsäurebakterien)"
+  ],
   "indikationen": [
-    { "text": "Rückbildung (Atrophie) der Scheidenschleimhaut und der unteren Harnwege durch Östrogenmangel nach den Wechseljahren, z. B. Scheidentrockenheit, Brennen, Schmerzen beim Geschlechtsverkehr, wiederkehrende Reizungen", "ids": ["wechseljahre"] },
-    { "text": "Vor- und Nachbehandlung bei Scheidenoperationen nach den Wechseljahren (Ovestin)", "ids": ["operation", "wechseljahre"] },
-    { "text": "Hilfe bei der Beurteilung eines unklaren Krebsabstrichs (Zervixabstrich) bei atropher Schleimhaut (Ovestin)", "ids": [] },
-    { "text": "Wiederaufbau der natürlichen Scheidenflora nach Behandlung mit Antibiotika oder Antimykotika und bei leichter Scheidenatrophie (Gynoflor, Kombination mit Lactobacillus acidophilus)", "ids": ["vaginalinfektion", "wechseljahre"] }
+    {
+      "text": "Rückbildung (Atrophie) der Scheidenschleimhaut und der unteren Harnwege durch Östrogenmangel nach den Wechseljahren, z. B. Scheidentrockenheit, Brennen, Schmerzen beim Geschlechtsverkehr, wiederkehrende Reizungen",
+      "ids": [
+        "scheidentrockenheit",
+        "wechseljahre"
+      ]
+    },
+    {
+      "text": "Vor- und Nachbehandlung bei Scheidenoperationen nach den Wechseljahren (Ovestin)",
+      "ids": [
+        "operation",
+        "scheidentrockenheit"
+      ]
+    },
+    {
+      "text": "Hilfe bei der Beurteilung eines unklaren Krebsabstrichs (Zervixabstrich) bei atropher Schleimhaut (Ovestin)",
+      "ids": []
+    },
+    {
+      "text": "Wiederaufbau der natürlichen Scheidenflora nach Behandlung mit Antibiotika oder Antimykotika und bei leichter Scheidenatrophie (Gynoflor, Kombination mit Lactobacillus acidophilus)",
+      "ids": [
+        "vaginalinfektion",
+        "scheidentrockenheit"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt lokal das in den Wechseljahren fehlende Östrogen und baut so die dünn gewordene Scheidenhaut wieder auf. Estriol ist ein kurz wirksames natürliches Östrogen, das an die Östrogenrezeptoren der Scheiden- und Harnröhrenschleimhaut bindet. Es fördert die Vermehrung und Reifung der Epithelzellen, normalisiert den sauren pH-Wert und begünstigt die Ansiedlung von Milchsäurebakterien, was die Widerstandskraft gegen Infektionen erhöht. Wegen der kurzen Bindung am Rezeptor und der geringen Aufnahme ins Blut wird die Gebärmutterschleimhaut bei vaginaler Anwendung kaum stimuliert.",
   "kontraindikationen": [
-    { "text": "Bestehender, früherer oder vermuteter Brustkrebs", "ids": ["brustkrebs"] },
-    { "text": "Östrogenabhängige bösartige Tumoren, z. B. Gebärmutterschleimhautkrebs (bekannt oder vermutet)", "ids": ["gynaekologischer-krebs", "krebs"] },
-    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] },
-    { "text": "Unbehandelte Verdickung der Gebärmutterschleimhaut (Endometriumhyperplasie)", "ids": [] },
-    { "text": "Bestehende oder frühere venöse Thromboembolie (Beinvenenthrombose, Lungenembolie) sowie bekannte erbliche Gerinnungsneigung (z. B. Protein-C-, Protein-S- oder Antithrombin-Mangel)", "ids": ["thrombose", "lungenembolie", "thromboembolie-vorgeschichte"] },
-    { "text": "Bestehende oder kürzlich aufgetretene arterielle Thromboembolie, z. B. Angina pectoris oder Herzinfarkt", "ids": ["herzinfarkt", "angina-pectoris"] },
-    { "text": "Akute Lebererkrankung oder frühere Lebererkrankung, solange sich die Leberwerte nicht normalisiert haben", "ids": ["leberinsuffizienz"] },
-    { "text": "Porphyrie", "ids": ["porphyrie"] }
+    {
+      "text": "Bestehender, früherer oder vermuteter Brustkrebs",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Östrogenabhängige bösartige Tumoren, z. B. Gebärmutterschleimhautkrebs (bekannt oder vermutet)",
+      "ids": [
+        "gynaekologischer-krebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Nicht abgeklärte Blutungen aus der Scheide",
+      "ids": []
+    },
+    {
+      "text": "Unbehandelte Verdickung der Gebärmutterschleimhaut (Endometriumhyperplasie)",
+      "ids": []
+    },
+    {
+      "text": "Bestehende oder frühere venöse Thromboembolie (Beinvenenthrombose, Lungenembolie) sowie bekannte erbliche Gerinnungsneigung (z. B. Protein-C-, Protein-S- oder Antithrombin-Mangel)",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Bestehende oder kürzlich aufgetretene arterielle Thromboembolie, z. B. Angina pectoris oder Herzinfarkt",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Akute Lebererkrankung oder frühere Lebererkrankung, solange sich die Leberwerte nicht normalisiert haben",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Erkrankungen, die sich unter Östrogenen verschlechtern können: Endometriose, Gebärmuttermyome", "ids": ["endometriose"] },
-    { "text": "Risikofaktoren für Thrombosen (z. B. Übergewicht, längere Bettlägerigkeit, frühere Thrombose in der Familie)", "ids": ["thromboembolie-vorgeschichte", "adipositas"] },
-    { "text": "Bluthochdruck, Diabetes mellitus, Gallensteine", "ids": ["hypertonie", "diabetes", "gallensteine"] },
-    { "text": "Migräne oder starke Kopfschmerzen", "ids": ["migraene", "kopfschmerzen"] },
-    { "text": "Epilepsie, Asthma, systemischer Lupus erythematodes, Otosklerose (Schwerhörigkeit durch Verknöcherung im Mittelohr)", "ids": ["epilepsie", "asthma", "lupus", "hoerstoerung"] },
-    { "text": "Lebererkrankungen in der Vorgeschichte (z. B. Leberadenom)", "ids": ["leberinsuffizienz"] },
-    { "text": "Bei Hormonersatz bekannte Klassenrisiken (Brust- und Gebärmutterschleimhautkrebs, Thrombose, Schlaganfall) gelten grundsätzlich auch hier; Behandlung so kurz wie nötig und Nutzen regelmässig überprüfen", "ids": ["brustkrebs", "schlaganfall"] }
+    {
+      "text": "Erkrankungen, die sich unter Östrogenen verschlechtern können: Endometriose, Gebärmuttermyome",
+      "ids": [
+        "endometriose"
+      ]
+    },
+    {
+      "text": "Risikofaktoren für Thrombosen (z. B. Übergewicht, längere Bettlägerigkeit, frühere Thrombose in der Familie)",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Diabetes mellitus, Gallensteine",
+      "ids": [
+        "hypertonie",
+        "diabetes",
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Migräne oder starke Kopfschmerzen",
+      "ids": [
+        "migraene",
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Epilepsie, Asthma, systemischer Lupus erythematodes, Otosklerose (Schwerhörigkeit durch Verknöcherung im Mittelohr)",
+      "ids": [
+        "epilepsie",
+        "asthma",
+        "lupus",
+        "hoerstoerung"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen in der Vorgeschichte (z. B. Leberadenom)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bei Hormonersatz bekannte Klassenrisiken (Brust- und Gebärmutterschleimhautkrebs, Thrombose, Schlaganfall) gelten grundsätzlich auch hier; Behandlung so kurz wie nötig und Nutzen regelmässig überprüfen",
+      "ids": [
+        "brustkrebs",
+        "schlaganfall"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren", "johanniskraut"], "effekt": "Können den Abbau von Östrogenen beschleunigen; bei vaginaler Anwendung ist die Bedeutung gering, eine schwächere Wirkung ist aber möglich.", "schwere": "leicht" },
-    { "text": "Andere gleichzeitig in der Scheide angewendete Mittel (z. B. Vaginalzäpfchen gegen Pilze)", "ref": [], "effekt": "Gegenseitige Beeinflussung der Wirkung möglich – zeitlich getrennt anwenden.", "schwere": "leicht" },
-    { "text": "Antibiotika und Antimykotika (nur Gynoflor mit Milchsäurebakterien)", "ref": [], "effekt": "Können die enthaltenen Milchsäurebakterien abtöten und die Wirkung abschwächen.", "schwere": "leicht" }
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Können den Abbau von Östrogenen beschleunigen; bei vaginaler Anwendung ist die Bedeutung gering, eine schwächere Wirkung ist aber möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere gleichzeitig in der Scheide angewendete Mittel (z. B. Vaginalzäpfchen gegen Pilze)",
+      "ref": [],
+      "effekt": "Gegenseitige Beeinflussung der Wirkung möglich – zeitlich getrennt anwenden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Antibiotika und Antimykotika (nur Gynoflor mit Milchsäurebakterien)",
+      "ref": [],
+      "effekt": "Können die enthaltenen Milchsäurebakterien abtöten und die Wirkung abschwächen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "unbekannt": [

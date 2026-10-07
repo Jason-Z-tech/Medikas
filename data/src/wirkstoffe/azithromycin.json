@@ -1,53 +1,233 @@
 {
   "id": "azithromycin",
   "name": "Azithromycin",
-  "synonyme": ["Azithromycinum", "Azithromycin-Dihydrat"],
+  "synonyme": [
+    "Azithromycinum",
+    "Azithromycin-Dihydrat"
+  ],
   "kombinationAus": [],
-  "atc": ["J01FA10", "S01AA26"],
+  "atc": [
+    "J01FA10",
+    "S01AA26"
+  ],
   "klasse": "Makrolid-Antibiotikum (Azalid)",
   "kurz": "Makrolid-Antibiotikum gegen Atemwegs-, Haut- und Chlamydien-Infektionen; wegen langer Wirkdauer genügen oft 3 bis 5 Tage oder eine Einzeldosis.",
-  "gruppen": ["makrolide", "qt-verlaengernd", "p-gp-hemmer"],
-  "handelsnamen": ["Zithromax", "Azithromycin Mepha", "Azithromycin Sandoz", "Azyter"],
-  "abgabe": ["A", "B"],
-  "darreichung": ["Filmtabletten", "Pulver für Suspension zum Einnehmen", "Pulver zur Herstellung einer Infusionslösung", "Augentropfen (Einzeldosen)"],
+  "gruppen": [
+    "makrolide",
+    "qt-verlaengernd",
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Zithromax",
+    "Azithromycin Mepha",
+    "Azithromycin Sandoz",
+    "Azyter"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Pulver für Suspension zum Einnehmen",
+    "Pulver zur Herstellung einer Infusionslösung",
+    "Augentropfen (Einzeldosen)"
+  ],
   "indikationen": [
-    { "text": "Infektionen der oberen Atemwege, z. B. Mandel-, Rachen- und Nebenhöhlenentzündung", "ids": ["atemwegsinfekt", "sinusitis"] },
-    { "text": "Infektionen der unteren Atemwege, z. B. Bronchitis und leichte bis mittelschwere ambulant erworbene Lungenentzündung", "ids": ["bronchitis", "lungenentzuendung"] },
-    { "text": "Akute Mittelohrentzündung", "ids": ["ohrenentzuendung"] },
-    { "text": "Haut- und Weichteilinfektionen", "ids": ["hautinfektion"] },
-    { "text": "Unkomplizierte Genitalinfektionen durch Chlamydien (Harnröhren- und Gebärmutterhalsentzündung)", "ids": ["geschlechtskrankheit"] },
-    { "text": "Bakterielle Bindehautentzündung, auch durch Chlamydien (Trachom) – Augentropfen", "ids": ["augeninfektion"] }
+    {
+      "text": "Infektionen der oberen Atemwege, z. B. Mandel-, Rachen- und Nebenhöhlenentzündung",
+      "ids": [
+        "atemwegsinfekt",
+        "sinusitis"
+      ]
+    },
+    {
+      "text": "Infektionen der unteren Atemwege, z. B. Bronchitis und leichte bis mittelschwere ambulant erworbene Lungenentzündung",
+      "ids": [
+        "bronchitis",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Akute Mittelohrentzündung",
+      "ids": [
+        "ohrenentzuendung"
+      ]
+    },
+    {
+      "text": "Haut- und Weichteilinfektionen",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Unkomplizierte Genitalinfektionen durch Chlamydien (Harnröhren- und Gebärmutterhalsentzündung)",
+      "ids": [
+        "geschlechtskrankheit"
+      ]
+    },
+    {
+      "text": "Bakterielle Bindehautentzündung, auch durch Chlamydien (Trachom) – Augentropfen",
+      "ids": [
+        "augeninfektion"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt das Wachstum von Bakterien, indem es ihre Eiweissherstellung stoppt. Azithromycin bindet an die 50S-Untereinheit der bakteriellen Ribosomen und blockiert die Verlängerung der Eiweisskette. Es reichert sich stark im Gewebe und in Abwehrzellen an und wird sehr langsam ausgeschieden (Halbwertszeit rund 2–3 Tage), daher die kurze Behandlungsdauer. Anders als Clarithromycin und Erythromycin hemmt es CYP3A4 kaum.",
   "kontraindikationen": [
-    { "text": "Allergie gegen Azithromycin, Erythromycin oder andere Makrolid- bzw. Ketolid-Antibiotika (Kreuzallergie)", "ids": [] }
+    {
+      "text": "Allergie gegen Azithromycin, Erythromycin oder andere Makrolid- bzw. Ketolid-Antibiotika (Kreuzallergie)",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "QT-Verlängerung, Herzrhythmusstörungen, langsamer Puls, Herzschwäche sowie Hypokaliämie oder Magnesiummangel: Gefahr von Torsade de pointes", "ids": ["qt-verlaengerung", "herzrhythmusstoerung", "bradykardie", "herzinsuffizienz", "hypokaliaemie", "magnesiummangel"] },
-    { "text": "Schwere Lebererkrankung: nicht empfohlen; bei Zeichen einer Leberentzündung absetzen", "ids": ["leberinsuffizienz"] },
-    { "text": "Stark eingeschränkte Nierenfunktion (GFR unter 10 ml/min)", "ids": ["niereninsuffizienz"] },
-    { "text": "Myasthenia gravis (Verschlechterung oder Auslösung möglich)", "ids": ["myasthenia-gravis"] },
-    { "text": "Neugeborene und Säuglinge: Risiko einer Magenpförtnerverengung (Pylorusstenose)", "ids": ["kinder"] },
-    { "text": "Ältere Menschen: häufiger Herzrhythmusstörungen", "ids": ["aeltere-patienten"] },
-    { "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)", "ids": ["clostridioides"] }
+    {
+      "text": "QT-Verlängerung, Herzrhythmusstörungen, langsamer Puls, Herzschwäche sowie Hypokaliämie oder Magnesiummangel: Gefahr von Torsade de pointes",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "herzinsuffizienz",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Schwere Lebererkrankung: nicht empfohlen; bei Zeichen einer Leberentzündung absetzen",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Stark eingeschränkte Nierenfunktion (GFR unter 10 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Verschlechterung oder Auslösung möglich)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Neugeborene und Säuglinge: Risiko einer Magenpförtnerverengung (Pylorusstenose)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: häufiger Herzrhythmusstörungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere QT-verlängernde Arzneimittel (z. B. Antiarrhythmika wie Amiodaron und Sotalol, Antipsychotika, Citalopram, Hydroxychloroquin, Fluorchinolone)", "ref": ["gruppe:qt-verlaengernd", "gruppe:antiarrhythmika-klasse-iii"], "effekt": "Zusätzliche QT-Verlängerung, Gefahr von Torsade de pointes – möglichst vermeiden, sonst EKG-Kontrolle.", "schwere": "schwer" },
-    { "text": "Ergotamin und Dihydroergotamin", "ref": ["gruppe:ergotalkaloide"], "effekt": "Theoretisches Risiko eines Ergotismus (Gefässkrämpfe) – gleichzeitige Anwendung wird nicht empfohlen.", "schwere": "schwer" },
-    { "text": "Digoxin und Colchicin", "ref": ["digoxin", "colchicin"], "effekt": "Spiegel können über P-Glykoprotein-Hemmung steigen – Spiegel bzw. Vergiftungszeichen überwachen.", "schwere": "mittel" },
-    { "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung möglich – INR häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Der Ciclosporin-Spiegel kann steigen – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Statine", "ref": ["gruppe:statine"], "effekt": "Einzelfälle von Muskelzerfall (Rhabdomyolyse) berichtet – auf Muskelschmerzen achten.", "schwere": "leicht" },
-    { "text": "Antazida mit Aluminium oder Magnesium", "ref": ["gruppe:antazida"], "effekt": "Spitzenspiegel von Azithromycin sinken – nicht gleichzeitig einnehmen.", "schwere": "leicht" }
+    {
+      "text": "Andere QT-verlängernde Arzneimittel (z. B. Antiarrhythmika wie Amiodaron und Sotalol, Antipsychotika, Citalopram, Hydroxychloroquin, Fluorchinolone)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung, Gefahr von Torsade de pointes – möglichst vermeiden, sonst EKG-Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ergotamin und Dihydroergotamin",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Theoretisches Risiko eines Ergotismus (Gefässkrämpfe) – gleichzeitige Anwendung wird nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin und Colchicin",
+      "ref": [
+        "digoxin",
+        "colchicin"
+      ],
+      "effekt": "Spiegel können über P-Glykoprotein-Hemmung steigen – Spiegel bzw. Vergiftungszeichen überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Antikoagulanzien vom Vitamin-K-Antagonisten-Typ",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung möglich – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Der Ciclosporin-Spiegel kann steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Einzelfälle von Muskelzerfall (Rhabdomyolyse) berichtet – auf Muskelschmerzen achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Antazida mit Aluminium oder Magnesium",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Spitzenspiegel von Azithromycin sinken – nicht gleichzeitig einnehmen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Durchfall", "Bei Augentropfen: Brennen, Stechen oder Reizung am Auge"],
-    "haeufig": ["Übelkeit, Erbrechen, Bauchschmerzen", "Kopfschmerzen", "Veränderte Laborwerte (weniger Lymphozyten, mehr Eosinophile, tieferes Bikarbonat)"],
-    "gelegentlich": ["Pilzinfektionen (Candidose), Scheideninfektion", "Schwindel, Schläfrigkeit, Geschmacksstörungen, Kribbeln", "Hörstörungen, Drehschwindel", "Herzklopfen", "Hepatitis (Leberentzündung), erhöhte Leberwerte", "Hautausschlag, Juckreiz, Nesselsucht", "Angioödem, Überempfindlichkeitsreaktionen", "Leukopenie, Neutropenie (weniger weisse Blutkörperchen)"],
-    "selten": ["Unruhe (Agitiertheit)", "Cholestatische Gelbsucht", "Lichtempfindlichkeit der Haut", "DRESS und akute generalisierte exanthematische Pustulose (schwere Hautreaktionen)"],
+    "sehrHaeufig": [
+      "Durchfall",
+      "Bei Augentropfen: Brennen, Stechen oder Reizung am Auge"
+    ],
+    "haeufig": [
+      "Übelkeit, Erbrechen, Bauchschmerzen",
+      "Kopfschmerzen",
+      "Veränderte Laborwerte (weniger Lymphozyten, mehr Eosinophile, tieferes Bikarbonat)"
+    ],
+    "gelegentlich": [
+      "Pilzinfektionen (Candidose), Scheideninfektion",
+      "Schwindel, Schläfrigkeit, Geschmacksstörungen, Kribbeln",
+      "Hörstörungen, Drehschwindel",
+      "Herzklopfen",
+      "Hepatitis (Leberentzündung), erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Angioödem, Überempfindlichkeitsreaktionen",
+      "Leukopenie, Neutropenie (weniger weisse Blutkörperchen)"
+    ],
+    "selten": [
+      "Unruhe (Agitiertheit)",
+      "Cholestatische Gelbsucht",
+      "Lichtempfindlichkeit der Haut",
+      "DRESS und akute generalisierte exanthematische Pustulose (schwere Hautreaktionen)"
+    ],
     "sehrSelten": [],
-    "unbekannt": ["QT-Verlängerung, Torsade de pointes und andere Herzrhythmusstörungen", "Leberversagen, fulminante Hepatitis", "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse", "Anaphylaxie (schwere allergische Reaktion)", "Hörverlust bis Taubheit, Tinnitus", "Pseudomembranöse Kolitis, Pankreatitis", "Thrombozytopenie, hämolytische Anämie", "Krampfanfälle, Verschlechterung einer Myasthenia gravis, akutes Nierenversagen"]
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes und andere Herzrhythmusstörungen",
+      "Leberversagen, fulminante Hepatitis",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Hörverlust bis Taubheit, Tinnitus",
+      "Pseudomembranöse Kolitis, Pankreatitis",
+      "Thrombozytopenie, hämolytische Anämie",
+      "Krampfanfälle, Verschlechterung einer Myasthenia gravis, akutes Nierenversagen"
+    ]
   },
   "schwangerschaft": "Grosse Beobachtungsstudien zeigen kein erhöhtes Fehlbildungsrisiko, die Daten sind aber nicht abschliessend. Nur bei klarer Notwendigkeit nach ärztlicher Abwägung; Augentropfen sind vertretbar.",
   "stillzeit": "Geht in die Muttermilch über; beim Säugling sind Durchfall und Pilzbefall möglich. Nach ärztlicher Abwägung anwendbar, Kind beobachten.",

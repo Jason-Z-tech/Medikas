@@ -52,7 +52,7 @@
   "wirkmechanismus": "Bewirkt eine kräftige, anhaltende Zusammenziehung der Gebärmutter und stillt dadurch Blutungen. Methylergometrin ist ein halbsynthetisches Mutterkornalkaloid, das an Serotonin-, Alpha-adrenerge und Dopamin-Rezeptoren der glatten Muskulatur wirkt. Es erhöht Grundtonus, Stärke und Häufigkeit der Uteruskontraktionen. Daneben verengt es Blutgefässe, was den Blutdruck steigern kann. Der Abbau erfolgt über CYP3A4 in der Leber.",
   "kontraindikationen": [
     {
-      "text": "Schwangerschaft sowie Eröffnungs- und Austreibungsphase der Geburt vor der Entwicklung des Kindes; nicht zur Wehenauslösung",
+      "text": "Schwangerschaft; Eröffnungs- und Austreibungsphase vor der Geburt des Kindes (bei Mehrlingen vor der Geburt des letzten Kindes); nicht zur Wehenauslösung",
       "ids": [
         "schwangerschaft"
       ]
@@ -112,17 +112,17 @@
       ]
     }
   ],
-  "kontraMedikamente": [
+  "kontraMedikamente": [],
+  "interaktionen": [
     {
-      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Erythromycin, HIV-Proteasehemmer, Azol-Antimykotika)",
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Ritonavir und andere HIV-Proteasehemmer, Itraconazol, Ketoconazol, Voriconazol)",
       "ref": [
         "gruppe:starke-cyp3a4-hemmer",
         "gruppe:hiv-proteasehemmer"
       ],
-      "grund": "Hemmung des Abbaus führt zu stark erhöhten Spiegeln – Gefahr von Ergotismus mit Gefässverengung und Durchblutungsstörungen."
-    }
-  ],
-  "interaktionen": [
+      "effekt": "Stark erhöhte Spiegel – Gefahr von Ergotismus mit Gefässkrämpfen und Durchblutungsstörungen (Herz, Gehirn, Gliedmassen); Kombination vermeiden.",
+      "schwere": "schwer"
+    },
     {
       "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Diltiazem, Verapamil, Grapefruit)",
       "ref": [

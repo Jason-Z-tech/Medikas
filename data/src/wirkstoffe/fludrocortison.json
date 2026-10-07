@@ -1,35 +1,138 @@
 {
   "id": "fludrocortison",
   "name": "Fludrocortison",
-  "synonyme": ["Fludrocortisonacetat", "Fludrocortisone", "9-alpha-Fluorhydrocortison"],
-  "atc": ["H02AA02"],
+  "synonyme": [
+    "Fludrocortisonacetat",
+    "Fludrocortisone",
+    "9-alpha-Fluorhydrocortison"
+  ],
+  "atc": [
+    "H02AA02"
+  ],
   "klasse": "Mineralokortikoid (synthetisch)",
   "kurz": "Ersetzt das Nebennierenhormon Aldosteron und hält Salz und Wasser im Körper zurück – bei Morbus Addison und Salzverlustsyndrom.",
-  "gruppen": ["hypokaliaemie-ausloesend"],
-  "handelsnamen": ["Florinef"],
-  "abgabe": ["B"],
-  "darreichung": ["Tabletten"],
+  "gruppen": [
+    "hypokaliaemie-ausloesend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Florinef"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Ersatz des fehlenden Mineralokortikoids bei primärer Nebennierenrindeninsuffizienz (Morbus Addison), zusammen mit einem Glukokortikoid", "ids": ["nebenniereninsuffizienz"] },
-    { "text": "Salzverlust-Form des adrenogenitalen Syndroms (angeborene Nebennierenrinden-Hyperplasie)", "ids": ["nebenniereninsuffizienz"] }
+    {
+      "text": "Ersatz des fehlenden Mineralokortikoids bei primärer Nebennierenrindeninsuffizienz (Morbus Addison), zusammen mit einem Glukokortikoid",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Salzverlust-Form des adrenogenitalen Syndroms (angeborene Nebennierenrinden-Hyperplasie)",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt das Hormon Aldosteron, das bei Nebenniereninsuffizienz fehlt, und sorgt dafür, dass die Niere Salz und Wasser zurückhält. Fludrocortison bindet an Mineralokortikoid-Rezeptoren im Endabschnitt der Nierenkanälchen und steigert dort die Rückgewinnung von Natrium sowie die Ausscheidung von Kalium und Wasserstoffionen. Dadurch normalisieren sich Blutvolumen, Blutdruck und Salzhaushalt. Die mineralokortikoide Wirkung ist sehr stark; die glukokortikoide (entzündungshemmende) Wirkung spielt in den üblichen niedrigen Dosen keine Rolle.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Bluthochdruck, Herzinsuffizienz oder Ödeme: Salz- und Wasserretention kann diese verschlechtern – Blutdruck und Gewicht kontrollieren", "ids": ["hypertonie", "herzinsuffizienz", "oedeme"] },
-    { "text": "Kaliummangel: Kalium regelmässig kontrollieren", "ids": ["hypokaliaemie"] },
-    { "text": "Eingeschränkte Nierenfunktion oder Leberzirrhose (Neigung zu Wasser- und Salzretention)", "ids": ["niereninsuffizienz", "leberzirrhose"] },
-    { "text": "Akute Infektionen, Operationen oder Unfälle: der Glukokortikoid-Bedarf steigt, Gefahr einer Addison-Krise – Stressdosis ärztlich festlegen", "ids": ["aktive-infektion", "operation", "nebenniereninsuffizienz"] },
-    { "text": "Bei höheren Dosen sind glukokortikoidtypische Risiken zu beachten (z. B. Osteoporose, Diabetes, Magen-Darm-Geschwüre, Infektionen)", "ids": ["osteoporose", "diabetes", "magen-darm-ulkus"] }
+    {
+      "text": "Bluthochdruck, Herzinsuffizienz oder Ödeme: Salz- und Wasserretention kann diese verschlechtern – Blutdruck und Gewicht kontrollieren",
+      "ids": [
+        "hypertonie",
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Kaliummangel: Kalium regelmässig kontrollieren",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion oder Leberzirrhose (Neigung zu Wasser- und Salzretention)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Akute Infektionen, Operationen oder Unfälle: der Glukokortikoid-Bedarf steigt, Gefahr einer Addison-Krise – Stressdosis ärztlich festlegen",
+      "ids": [
+        "aktive-infektion",
+        "operation",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bei höheren Dosen sind glukokortikoidtypische Risiken zu beachten (z. B. Osteoporose, Diabetes, Magen-Darm-Geschwüre, Infektionen)",
+      "ids": [
+        "osteoporose",
+        "diabetes",
+        "magen-darm-ulkus"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Abführmittel, Amphotericin B)", "ref": ["gruppe:schleifendiuretika", "gruppe:thiaziddiuretika", "gruppe:laxanzien", "amphotericin-b"], "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Herzglykoside (z. B. Digoxin)", "ref": ["gruppe:herzglykoside"], "effekt": "Ein Kaliummangel erhöht die Gefahr von Herzrhythmusstörungen durch Digitalis – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Enzyminduktoren (z. B. Rifampicin, Phenytoin, Carbamazepin, Phenobarbital)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Beschleunigter Abbau von Fludrocortison – die Wirkung kann nachlassen, eventuell Dosis erhöhen.", "schwere": "mittel" },
-    { "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Die gerinnungshemmende Wirkung kann verändert sein – INR kontrollieren.", "schwere": "mittel" },
-    { "text": "Blutdrucksenkende Mittel", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Abschwächung der Blutdrucksenkung durch Salz- und Wasserretention.", "schwere": "leicht" },
-    { "text": "Blutzuckersenker (Insulin, Sulfonylharnstoffe)", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe"], "effekt": "Der Blutzucker kann steigen – Kontrolle, eventuell Dosisanpassung.", "schwere": "leicht" }
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Abführmittel, Amphotericin B)",
+      "ref": [
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika",
+        "gruppe:laxanzien",
+        "amphotericin-b"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein Kaliummangel erhöht die Gefahr von Herzrhythmusstörungen durch Digitalis – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Phenytoin, Carbamazepin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Abbau von Fludrocortison – die Wirkung kann nachlassen, eventuell Dosis erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cumarin-Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die gerinnungshemmende Wirkung kann verändert sein – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Abschwächung der Blutdrucksenkung durch Salz- und Wasserretention.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutzuckersenker (Insulin, Sulfonylharnstoffe)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Der Blutzucker kann steigen – Kontrolle, eventuell Dosisanpassung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "unbekannt": [

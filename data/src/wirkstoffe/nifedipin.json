@@ -1,53 +1,232 @@
 {
   "id": "nifedipin",
   "name": "Nifedipin",
-  "synonyme": ["Nifedipine"],
-  "atc": ["C08CA05"],
+  "synonyme": [
+    "Nifedipine"
+  ],
+  "atc": [
+    "C08CA05"
+  ],
   "klasse": "Calciumantagonist vom Dihydropyridin-Typ",
   "kurz": "Blutdrucksenker aus der Gruppe der Calciumantagonisten; weitet die Gefässe, auch gegen Angina pectoris (Retardtabletten).",
-  "gruppen": ["dhp-calciumantagonisten", "blutdrucksenkend", "cyp3a4-substrate-empfindlich"],
-  "handelsnamen": ["Adalat CR"],
-  "abgabe": ["B"],
-  "darreichung": ["Retardtabletten (Tabletten mit verzögerter Wirkstofffreisetzung)"],
+  "gruppen": [
+    "dhp-calciumantagonisten",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Adalat CR"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten (Tabletten mit verzögerter Wirkstofffreisetzung)"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] },
-    { "text": "Chronisch stabile Angina pectoris, allein oder zusammen mit einem Betablocker", "ids": ["angina-pectoris", "koronare-herzkrankheit"] }
+    {
+      "text": "Bluthochdruck (Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Chronisch stabile Angina pectoris, allein oder zusammen mit einem Betablocker",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den Blutdruck, indem es die Gefässmuskulatur entspannt und die Arterien weitet. Nifedipin blockiert L-Typ-Calciumkanäle in der glatten Muskulatur der peripheren Arterien und der Herzkranzgefässe; der Gefässwiderstand sinkt, die Herzkranzgefässe werden erweitert und Gefässkrämpfe verhindert. Die Retardtablette gibt den Wirkstoff über 24 Stunden gleichmässig frei und mildert so die bei rasch freigesetztem Nifedipin typische reflektorische Pulsbeschleunigung. Nifedipin wird in Darm und Leber über CYP3A4 abgebaut.",
   "kontraindikationen": [
-    { "text": "Kardiogener Schock", "ids": ["schock"] },
-    { "text": "Hochgradige Aortenstenose", "ids": ["herzklappenerkrankung"] },
-    { "text": "Instabile Angina pectoris und akuter Herzinfarkt (in den ersten 4 Wochen)", "ids": ["angina-pectoris", "herzinfarkt"] },
-    { "text": "Kock-Pouch (Darmreservoir nach Entfernung des Dickdarms) und schwere Verengungen im Magen-Darm-Trakt – die unverdauliche Tablettenhülle kann steckenbleiben", "ids": ["darmverschluss"] },
-    { "text": "Überempfindlichkeit gegen andere Dihydropyridine (z. B. Amlodipin, Lercanidipin)", "ids": [] }
+    {
+      "text": "Kardiogener Schock",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Hochgradige Aortenstenose",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris und akuter Herzinfarkt (in den ersten 4 Wochen)",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Kock-Pouch (Darmreservoir nach Entfernung des Dickdarms) und schwere Verengungen im Magen-Darm-Trakt – die unverdauliche Tablettenhülle kann steckenbleiben",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Dihydropyridine (z. B. Amlodipin, Lercanidipin)",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Sehr tiefer Blutdruck (systolisch unter 90 mmHg)", "ids": ["hypotonie"] },
-    { "text": "Herzschwäche", "ids": ["herzinsuffizienz"] },
-    { "text": "Eingeschränkte Leberfunktion: Abbau verlangsamt, engmaschig überwachen", "ids": ["leberinsuffizienz"] },
-    { "text": "Zu Behandlungsbeginn können Angina-pectoris-Anfälle selten häufiger oder stärker werden", "ids": ["angina-pectoris", "koronare-herzkrankheit"] },
-    { "text": "Dialysepatienten mit schwerem Bluthochdruck und Flüssigkeitsmangel (starker Blutdruckabfall möglich)", "ids": ["niereninsuffizienz", "dehydratation"] },
-    { "text": "Magen-Darm-Erkrankungen mit Neigung zu Verengungen (z. B. Morbus Crohn)", "ids": ["morbus-crohn"] }
+    {
+      "text": "Sehr tiefer Blutdruck (systolisch unter 90 mmHg)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Herzschwäche",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: Abbau verlangsamt, engmaschig überwachen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Zu Behandlungsbeginn können Angina-pectoris-Anfälle selten häufiger oder stärker werden",
+      "ids": [
+        "angina-pectoris",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Dialysepatienten mit schwerem Bluthochdruck und Flüssigkeitsmangel (starker Blutdruckabfall möglich)",
+      "ids": [
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Erkrankungen mit Neigung zu Verengungen (z. B. Morbus Crohn)",
+      "ids": [
+        "morbus-crohn"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Rifampicin", "ref": ["rifampicin"], "grund": "Rifampicin beschleunigt den Abbau von Nifedipin über CYP3A4 so stark, dass keine wirksamen Spiegel erreicht werden." }
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "grund": "Rifampicin beschleunigt den Abbau von Nifedipin über CYP3A4 so stark, dass keine wirksamen Spiegel erreicht werden."
+    }
   ],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Nifedipin-Spiegel steigen deutlich – starker Blutdruckabfall und Ödeme möglich; Blutdruck überwachen, ggf. Dosis reduzieren.", "schwere": "schwer" },
-    { "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Nifedipin-Spiegel sinken stark, die Wirkung kann ausbleiben – Kombination meiden oder Blutdruck engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem) sowie Fluoxetin und Valproinsäure", "ref": ["gruppe:maessige-cyp3a4-hemmer", "fluoxetin", "valproinsaeure"], "effekt": "Höhere Nifedipin-Spiegel – Blutdruck kontrollieren.", "schwere": "mittel" },
-    { "text": "Grapefruit und Grapefruitsaft", "ref": [], "effekt": "Hemmt den Abbau von Nifedipin – stärkere Blutdrucksenkung; die Wirkung hält mindestens 3 Tage an. Während der Behandlung meiden.", "schwere": "mittel" },
-    { "text": "Betablocker", "ref": ["gruppe:betablocker"], "effekt": "Verstärkte Blutdrucksenkung; in Einzelfällen Verschlechterung einer Herzschwäche – überwachen.", "schwere": "mittel" },
-    { "text": "Tacrolimus", "ref": ["tacrolimus"], "effekt": "Tacrolimus-Spiegel können steigen – Spiegel kontrollieren, ggf. Dosis senken.", "schwere": "mittel" },
-    { "text": "Magnesiumsulfat intravenös (in der Schwangerschaft)", "ref": ["magnesiumsulfat"], "effekt": "Übermässiger Blutdruckabfall möglich – nur unter Überwachung kombinieren.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel können steigen – auf Überdosierungszeichen achten, ggf. Spiegel kontrollieren.", "schwere": "leicht" },
-    { "text": "Alpha-1-Blocker, Nitrate und andere Blutdrucksenker", "ref": ["gruppe:alpha1-blocker", "gruppe:nitrate"], "effekt": "Verstärkte Blutdrucksenkung.", "schwere": "leicht" }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Nifedipin-Spiegel steigen deutlich – starker Blutdruckabfall und Ödeme möglich; Blutdruck überwachen, ggf. Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Nifedipin-Spiegel sinken stark, die Wirkung kann ausbleiben – Kombination meiden oder Blutdruck engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem) sowie Fluoxetin und Valproinsäure",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer",
+        "fluoxetin",
+        "valproinsaeure"
+      ],
+      "effekt": "Höhere Nifedipin-Spiegel – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmt den Abbau von Nifedipin – stärkere Blutdrucksenkung; die Wirkung hält mindestens 3 Tage an. Während der Behandlung meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung; in Einzelfällen Verschlechterung einer Herzschwäche – überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tacrolimus",
+      "ref": [
+        "tacrolimus"
+      ],
+      "effekt": "Tacrolimus-Spiegel können steigen – Spiegel kontrollieren, ggf. Dosis senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Magnesiumsulfat intravenös (in der Schwangerschaft)",
+      "ref": [
+        "magnesiumsulfat"
+      ],
+      "effekt": "Übermässiger Blutdruckabfall möglich – nur unter Überwachung kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel können steigen – auf Überdosierungszeichen achten, ggf. Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Alpha-1-Blocker, Nitrate und andere Blutdrucksenker",
+      "ref": [
+        "gruppe:alpha1-blocker",
+        "gruppe:nitrate"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen", "Ödeme (Wassereinlagerungen, vor allem an den Beinen)", "Flush (Gesichtsrötung mit Wärmegefühl)", "Verstopfung", "Unwohlsein"],
-    "gelegentlich": ["Herzklopfen, beschleunigter Puls", "Hypotonie (tiefer Blutdruck), Synkope (Ohnmacht)", "Schwindel, Benommenheit, Migräne, Zittern, Schlafstörungen, Angstreaktionen", "Übelkeit, Bauchschmerzen, Verdauungsstörungen, Blähungen, Mundtrockenheit", "Allergische Reaktionen, allergisches Ödem bzw. Angioödem", "Erhöhte Leberwerte", "Muskelkrämpfe, Gelenkschwellung", "Vermehrtes Wasserlassen, Erektionsstörungen, Sehstörungen, Nasenbluten"],
-    "selten": ["Juckreiz, Nesselsucht, Hautausschlag", "Kribbeln oder Missempfindungen (Parästhesien)", "Zahnfleischwucherung (Gingivahyperplasie)"],
-    "unbekannt": ["Agranulozytose, Leukopenie (Mangel an weissen Blutkörperchen)", "Anaphylaxie (schwere allergische Reaktion)", "Brustschmerzen (Angina pectoris)", "Darmverschluss, Bezoar (Tablettenklumpen im Verdauungstrakt), Schluckbeschwerden, Erbrechen", "Gelbsucht (Ikterus)", "Toxische epidermale Nekrolyse, Lichtempfindlichkeit", "Hyperglykämie (erhöhter Blutzucker)", "Atemnot, Lungenödem"]
+    "haeufig": [
+      "Kopfschmerzen",
+      "Ödeme (Wassereinlagerungen, vor allem an den Beinen)",
+      "Flush (Gesichtsrötung mit Wärmegefühl)",
+      "Verstopfung",
+      "Unwohlsein"
+    ],
+    "gelegentlich": [
+      "Herzklopfen, beschleunigter Puls",
+      "Hypotonie (tiefer Blutdruck), Synkope (Ohnmacht)",
+      "Schwindel, Benommenheit, Migräne, Zittern, Schlafstörungen, Angstreaktionen",
+      "Übelkeit, Bauchschmerzen, Verdauungsstörungen, Blähungen, Mundtrockenheit",
+      "Allergische Reaktionen, allergisches Ödem bzw. Angioödem",
+      "Erhöhte Leberwerte",
+      "Muskelkrämpfe, Gelenkschwellung",
+      "Vermehrtes Wasserlassen, Erektionsstörungen, Sehstörungen, Nasenbluten"
+    ],
+    "selten": [
+      "Juckreiz, Nesselsucht, Hautausschlag",
+      "Kribbeln oder Missempfindungen (Parästhesien)",
+      "Zahnfleischwucherung (Gingivahyperplasie)"
+    ],
+    "unbekannt": [
+      "Agranulozytose, Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Brustschmerzen (Angina pectoris)",
+      "Darmverschluss, Bezoar (Tablettenklumpen im Verdauungstrakt), Schluckbeschwerden, Erbrechen",
+      "Gelbsucht (Ikterus)",
+      "Toxische epidermale Nekrolyse, Lichtempfindlichkeit",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Atemnot, Lungenödem"
+    ]
   },
   "schwangerschaft": "Nur nach strenger ärztlicher Nutzen-Risiko-Abwägung; im Tierversuch fruchtschädigend. Zusammen mit Magnesiumsulfat i. v. droht ein übermässiger Blutdruckabfall.",
   "stillzeit": "Nifedipin geht in die Muttermilch über; während der Behandlung wird vom Stillen abgeraten.",

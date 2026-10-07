@@ -52,6 +52,12 @@
       ]
     },
     {
+      "text": "Periphere arterielle Verschlusskrankheit (Schaufensterkrankheit)",
+      "ids": [
+        "pavk"
+      ]
+    },
+    {
       "text": "Schlaganfall oder vorübergehende Hirndurchblutungsstörung (TIA) in der Vorgeschichte",
       "ids": [
         "schlaganfall"
@@ -77,12 +83,6 @@
         "kardiovaskulaeres-risiko",
         "rauchen",
         "diabetes"
-      ]
-    },
-    {
-      "text": "Periphere Durchblutungsstörungen (Schaufensterkrankheit)",
-      "ids": [
-        "pavk"
       ]
     },
     {
@@ -136,9 +136,10 @@
   ],
   "interaktionen": [
     {
-      "text": "MAO-A-Hemmer (Moclobemid)",
+      "text": "MAO-A-Hemmer (z. B. Moclobemid)",
       "ref": [
-        "moclobemid"
+        "moclobemid",
+        "gruppe:mao-hemmer"
       ],
       "effekt": "Spiegel des wirksamen Metaboliten steigt – höchstens 7,5 mg Zolmitriptan in 24 Stunden.",
       "schwere": "schwer"

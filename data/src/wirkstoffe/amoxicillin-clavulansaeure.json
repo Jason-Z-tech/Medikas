@@ -1,53 +1,225 @@
 {
   "id": "amoxicillin-clavulansaeure",
   "name": "Amoxicillin + Clavulansäure",
-  "synonyme": ["Co-Amoxicillin", "Co-Amoxiclav", "Amoxicillin/Clavulanic acid", "Amoxiclav"],
-  "kombinationAus": ["amoxicillin"],
-  "atc": ["J01CR02"],
+  "synonyme": [
+    "Co-Amoxicillin",
+    "Co-Amoxiclav",
+    "Amoxicillin/Clavulanic acid",
+    "Amoxiclav"
+  ],
+  "kombinationAus": [
+    "amoxicillin"
+  ],
+  "atc": [
+    "J01CR02"
+  ],
   "klasse": "Aminopenicillin mit Beta-Laktamase-Hemmer (Beta-Laktam-Antibiotikum)",
   "kurz": "Breit wirksames Penicillin-Antibiotikum mit Schutzstoff gegen bakterielle Abwehrenzyme, z. B. bei Nebenhöhlen-, Atemwegs-, Haut- und Bissinfektionen.",
-  "gruppen": ["penicilline", "hepatotoxisch"],
-  "handelsnamen": ["Augmentin", "Co-Amoxi-Mepha", "Co-Amoxicillin Sandoz"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten", "Dispergierbare Tabletten", "Pulver für Suspension zum Einnehmen (Sirup)", "Pulver zur Herstellung einer Injektions- oder Infusionslösung"],
+  "gruppen": [
+    "penicilline",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Augmentin",
+    "Co-Amoxi-Mepha",
+    "Co-Amoxicillin Sandoz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Dispergierbare Tabletten",
+    "Pulver für Suspension zum Einnehmen (Sirup)",
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
   "indikationen": [
-    { "text": "Akute bakterielle Nasennebenhöhlenentzündung und akute Mittelohrentzündung", "ids": ["sinusitis", "ohrenentzuendung"] },
-    { "text": "Akute Verschlimmerung einer chronischen Bronchitis und ambulant erworbene Lungenentzündung", "ids": ["bronchitis", "copd", "lungenentzuendung"] },
-    { "text": "Blasenentzündung und Nierenbeckenentzündung", "ids": ["harnwegsinfekt"] },
-    { "text": "Haut- und Weichteilinfektionen, insbesondere Zellulitis (Phlegmone), Tierbisse und schwere Zahnabszesse mit sich ausbreitender Entzündung", "ids": ["hautinfektion", "mundinfektion"] },
-    { "text": "Knochen- und Gelenkinfektionen, insbesondere Osteomyelitis", "ids": ["bakterielle-infektion"] },
-    { "text": "Als Infusion: Infektionen im Bauchraum, schwere Infektionen und Vorbeugung von Infektionen bei Operationen", "ids": ["bakterielle-infektion", "operation"] }
+    {
+      "text": "Akute bakterielle Nasennebenhöhlenentzündung und akute Mittelohrentzündung",
+      "ids": [
+        "sinusitis",
+        "ohrenentzuendung"
+      ]
+    },
+    {
+      "text": "Akute Verschlimmerung einer chronischen Bronchitis und ambulant erworbene Lungenentzündung",
+      "ids": [
+        "bronchitis",
+        "copd",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Blasenentzündung und Nierenbeckenentzündung",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Haut- und Weichteilinfektionen, insbesondere Zellulitis (Phlegmone), Tierbisse und schwere Zahnabszesse mit sich ausbreitender Entzündung",
+      "ids": [
+        "hautinfektion",
+        "mundinfektion"
+      ]
+    },
+    {
+      "text": "Knochen- und Gelenkinfektionen, insbesondere Osteomyelitis",
+      "ids": [
+        "osteomyelitis"
+      ]
+    },
+    {
+      "text": "Als Infusion: Infektionen im Bauchraum, schwere Infektionen und Vorbeugung von Infektionen bei Operationen",
+      "ids": [
+        "bakterielle-infektion",
+        "operation"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Bakterien ab und schützt das Antibiotikum vor bakteriellen Abwehrenzymen. Amoxicillin hemmt die Penicillin-bindenden Proteine und damit den Aufbau der bakteriellen Zellwand (bakterizide Wirkung). Clavulansäure hat selbst kaum antibakterielle Wirkung, blockiert aber irreversibel viele Beta-Laktamasen, mit denen Bakterien Amoxicillin sonst zerstören würden. Dadurch wirkt die Kombination zusätzlich gegen Beta-Laktamase-bildende Staphylokokken (nicht MRSA), Haemophilus influenzae, Moraxella catarrhalis, viele E.-coli-Stämme und Anaerobier.",
   "kontraindikationen": [
-    { "text": "Penicillinallergie", "ids": ["penicillinallergie"] },
-    { "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf ein anderes Beta-Laktam-Antibiotikum (Cephalosporin, Carbapenem, Monobactam) in der Vorgeschichte", "ids": ["penicillinallergie", "anaphylaxie"] },
-    { "text": "Frühere Gelbsucht oder Leberfunktionsstörung durch Amoxicillin + Clavulansäure", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Penicillinallergie",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Schwere allergische Sofortreaktion (z. B. Anaphylaxie) auf ein anderes Beta-Laktam-Antibiotikum (Cephalosporin, Carbapenem, Monobactam) in der Vorgeschichte",
+      "ids": [
+        "penicillinallergie",
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Frühere Gelbsucht oder Leberfunktionsstörung durch Amoxicillin + Clavulansäure",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Lebererkrankungen: Leberwerte kontrollieren; Leberentzündung mit Gallestau tritt häufiger bei Männern, älteren Menschen und bei Behandlung über 14 Tage auf, teils erst nach Behandlungsende", "ids": ["leberinsuffizienz", "aeltere-patienten"] },
-    { "text": "Verdacht auf Pfeiffersches Drüsenfieber (infektiöse Mononukleose): häufig masernähnlicher Hautausschlag – nicht anwenden", "ids": [] },
-    { "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei hohen Dosen Kristalle im Urin möglich", "ids": ["niereninsuffizienz"] },
-    { "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte", "ids": ["epilepsie"] },
-    { "text": "Allergie gegen Cephalosporine oder andere Arzneimittel in der Vorgeschichte", "ids": ["allergie"] },
-    { "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken", "ids": ["clostridioides"] },
-    { "text": "Phenylketonurie: Sirup und dispergierbare Tabletten können Aspartam (Phenylalanin-Quelle) enthalten", "ids": ["seltene-stoffwechselkrankheit"] }
+    {
+      "text": "Lebererkrankungen: Leberwerte kontrollieren; Leberentzündung mit Gallestau tritt häufiger bei Männern, älteren Menschen und bei Behandlung über 14 Tage auf, teils erst nach Behandlungsende",
+      "ids": [
+        "leberinsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Verdacht auf Pfeiffersches Drüsenfieber (infektiöse Mononukleose): häufig masernähnlicher Hautausschlag – nicht anwenden",
+      "ids": [
+        "pfeiffersches-druesenfieber"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei hohen Dosen Kristalle im Urin möglich",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Allergie gegen Cephalosporine oder andere Arzneimittel in der Vorgeschichte",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwerer, anhaltender Durchfall: an eine Clostridioides-difficile-Infektion denken",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Phenylketonurie: Sirup und dispergierbare Tabletten können Aspartam (Phenylalanin-Quelle) enthalten",
+      "ids": [
+        "phenylketonurie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Methotrexat", "ref": ["methotrexat"], "effekt": "Penicilline vermindern die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Blutbild und Nierenfunktion engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Der INR kann ansteigen (Blutungsgefahr) – INR während und kurz nach der Behandlung kontrollieren.", "schwere": "mittel" },
-    { "text": "Mycophenolat (Mycophenolat-Mofetil, Mycophenolsäure)", "ref": ["mycophenolat-mofetil", "mycophenolsaeure"], "effekt": "Die Talspiegel der wirksamen Mycophenolsäure können um etwa die Hälfte sinken – Wirkung klinisch überwachen.", "schwere": "mittel" },
-    { "text": "Typhus-Lebendimpfstoff zum Schlucken", "ref": ["typhus-impfstoff"], "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).", "schwere": "mittel" },
-    { "text": "Allopurinol", "ref": ["allopurinol"], "effekt": "Häufiger allergische Hautausschläge.", "schwere": "leicht" },
-    { "text": "Probenecid", "ref": [], "effekt": "Verringert die Ausscheidung von Amoxicillin (nicht von Clavulansäure) – Kombination nicht empfohlen.", "schwere": "leicht" },
-    { "text": "Hormonale Verhütungsmittel («Pille»)", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.", "schwere": "leicht" }
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Penicilline vermindern die Ausscheidung von Methotrexat – Gefahr schwerer Methotrexat-Nebenwirkungen; Blutbild und Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Der INR kann ansteigen (Blutungsgefahr) – INR während und kurz nach der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mycophenolat (Mycophenolat-Mofetil, Mycophenolsäure)",
+      "ref": [
+        "mycophenolat-mofetil",
+        "mycophenolsaeure"
+      ],
+      "effekt": "Die Talspiegel der wirksamen Mycophenolsäure können um etwa die Hälfte sinken – Wirkung klinisch überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Typhus-Lebendimpfstoff zum Schlucken",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Das Antibiotikum kann den Impfstoff unwirksam machen – zeitlichen Abstand einhalten (Fachinformation des Impfstoffs beachten).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Häufiger allergische Hautausschläge.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Verringert die Ausscheidung von Amoxicillin (nicht von Clavulansäure) – Kombination nicht empfohlen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel («Pille»)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Bei Erbrechen oder Durchfall kann die Verhütungssicherheit vermindert sein – im Zweifel zusätzlich verhüten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Durchfall (bei Erwachsenen)"],
-    "haeufig": ["Übelkeit (vor allem bei hohen Dosen)", "Erbrechen", "Pilzinfektionen von Haut und Schleimhäuten (z. B. Mund- oder Scheidenpilz)"],
-    "gelegentlich": ["Schwindel, Kopfschmerzen", "Verdauungsbeschwerden", "Anstieg der Leberwerte (AST/ALT)", "Hautausschlag, Juckreiz, Nesselsucht"],
-    "selten": ["Vorübergehende Leukopenie, Neutropenie oder Thrombozytopenie", "Erythema multiforme (Hautausschlag mit kokardenförmigen Flecken)"],
+    "sehrHaeufig": [
+      "Durchfall (bei Erwachsenen)"
+    ],
+    "haeufig": [
+      "Übelkeit (vor allem bei hohen Dosen)",
+      "Erbrechen",
+      "Pilzinfektionen von Haut und Schleimhäuten (z. B. Mund- oder Scheidenpilz)"
+    ],
+    "gelegentlich": [
+      "Schwindel, Kopfschmerzen",
+      "Verdauungsbeschwerden",
+      "Anstieg der Leberwerte (AST/ALT)",
+      "Hautausschlag, Juckreiz, Nesselsucht"
+    ],
+    "selten": [
+      "Vorübergehende Leukopenie, Neutropenie oder Thrombozytopenie",
+      "Erythema multiforme (Hautausschlag mit kokardenförmigen Flecken)"
+    ],
     "unbekannt": [
       "Leberentzündung und Gelbsucht durch Gallestau (kann schwer sein, auch noch Wochen nach Behandlungsende)",
       "Anaphylaxie, Angioödem, serumkrankheitsähnliche Reaktion, allergische Gefässentzündung",

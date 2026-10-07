@@ -2,48 +2,220 @@
   "id": "valsartan",
   "name": "Valsartan",
   "synonyme": [],
-  "atc": ["C09CA03"],
+  "atc": [
+    "C09CA03"
+  ],
   "klasse": "Angiotensin-II-Rezeptorblocker (Sartan)",
   "kurz": "Blutdrucksenker aus der Gruppe der Sartane; auch bei Herzschwäche und nach Herzinfarkt.",
-  "gruppen": ["sartane", "raas-hemmer", "blutdrucksenkend", "hyperkaliaemie-ausloesend", "lithium-spiegel-erhoehend", "teratogen"],
-  "handelsnamen": ["Diovan", "Co-Diovan (Kombi)", "Exforge (Kombi)", "Exforge HCT (Kombi)", "Entresto (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "sartane",
+    "raas-hemmer",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Diovan",
+    "Co-Diovan (Kombi)",
+    "Exforge (Kombi)",
+    "Exforge HCT (Kombi)",
+    "Entresto (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Bluthochdruck (Hypertonie)", "ids": ["hypertonie"] },
-    { "text": "Nach Herzinfarkt bei kreislaufstabilen Patienten mit Herzschwäche oder eingeschränkter Pumpfunktion der linken Herzkammer", "ids": ["herzinfarkt", "herzinsuffizienz"] },
-    { "text": "Symptomatische Herzschwäche, vor allem wenn ACE-Hemmer nicht vertragen werden", "ids": ["herzinsuffizienz"] }
+    {
+      "text": "Bluthochdruck (Hypertonie)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Nach Herzinfarkt bei kreislaufstabilen Patienten mit Herzschwäche oder eingeschränkter Pumpfunktion der linken Herzkammer",
+      "ids": [
+        "herzinfarkt",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Symptomatische Herzschwäche, vor allem wenn ACE-Hemmer nicht vertragen werden",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt den Blutdruck, indem es die Wirkung des gefässverengenden Hormons Angiotensin II an seinem Rezeptor blockiert. Valsartan ist ein direkt wirksamer, selektiver Antagonist am AT1-Rezeptor: Die Gefässe weiten sich, die Aldosteronausschüttung sinkt, und die Niere scheidet mehr Salz und Wasser aus, was Herz und Gefässe entlastet. Valsartan wird kaum verstoffwechselt und überwiegend über die Galle ausgeschieden; da der Bradykinin-Abbau nicht beeinflusst wird, tritt Reizhusten selten auf.",
   "kontraindikationen": [
-    { "text": "Schwangerschaft (besonders schädlich im 2. und 3. Drittel)", "ids": ["schwangerschaft"] },
-    { "text": "Schwere Leberfunktionsstörung, biliäre Zirrhose und Cholestase (Gallestau)", "ids": ["leberinsuffizienz", "leberzirrhose", "gallensteine"] }
+    {
+      "text": "Schwangerschaft (besonders schädlich im 2. und 3. Drittel)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung, biliäre Zirrhose und Cholestase (Gallestau)",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberzirrhose",
+        "cholestase"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Angioödem in der Vorgeschichte (auch unter ACE-Hemmern)", "ids": ["angiooedem"] },
-    { "text": "Eingeschränkte Nierenfunktion (bei schwerer Einschränkung keine Erfahrung), Nierenarterienstenose, nach Nierentransplantation", "ids": ["niereninsuffizienz", "transplantation"] },
-    { "text": "Flüssigkeits- oder Salzmangel (Entwässerungsmittel, Durchfall, Erbrechen): starker Blutdruckabfall zu Beginn möglich", "ids": ["dehydratation", "hypotonie"] },
-    { "text": "Leichte bis mässige Leberfunktionsstörung ohne Gallestau: vorsichtig dosieren", "ids": ["leberinsuffizienz"] },
-    { "text": "Herzschwäche oder nach Herzinfarkt: Blutdruck und Nierenfunktion zu Beginn überwachen", "ids": ["herzinsuffizienz", "herzinfarkt"] },
-    { "text": "Aorten- oder Mitralklappenstenose, hypertrophe Kardiomyopathie", "ids": ["herzklappenerkrankung", "kardiomyopathie"] },
-    { "text": "Risiko für Hyperkaliämie (Diabetes, Nierenschwäche, kaliumsparende Mittel)", "ids": ["hyperkaliaemie", "diabetes"] }
+    {
+      "text": "Angioödem in der Vorgeschichte (auch unter ACE-Hemmern)",
+      "ids": [
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (bei schwerer Einschränkung keine Erfahrung), Nierenarterienstenose, nach Nierentransplantation",
+      "ids": [
+        "niereninsuffizienz",
+        "transplantation",
+        "nierenarterienstenose"
+      ]
+    },
+    {
+      "text": "Flüssigkeits- oder Salzmangel (Entwässerungsmittel, Durchfall, Erbrechen): starker Blutdruckabfall zu Beginn möglich",
+      "ids": [
+        "dehydratation",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Leberfunktionsstörung ohne Gallestau: vorsichtig dosieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzschwäche oder nach Herzinfarkt: Blutdruck und Nierenfunktion zu Beginn überwachen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Aorten- oder Mitralklappenstenose, hypertrophe Kardiomyopathie",
+      "ids": [
+        "herzklappenerkrankung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Risiko für Hyperkaliämie (Diabetes, Nierenschwäche, kaliumsparende Mittel)",
+      "ids": [
+        "hyperkaliaemie",
+        "diabetes"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)", "ref": ["aliskiren"], "grund": "Doppelte Hemmung des Renin-Angiotensin-Systems – erhöhtes Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen." }
+    {
+      "text": "Aliskiren bei Diabetes mellitus oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)",
+      "ref": [
+        "aliskiren"
+      ],
+      "grund": "Doppelte Hemmung des Renin-Angiotensin-Systems – erhöhtes Risiko für Hyperkaliämie, Blutdruckabfall und Nierenversagen."
+    }
   ],
   "interaktionen": [
-    { "text": "Kaliumsparende Diuretika, Spironolacton/Eplerenon, Kaliumpräparate und kaliumhaltige Salzersatzmittel, Trimethoprim (Cotrimoxazol), Heparin", "ref": ["gruppe:kaliumsparende-diuretika", "gruppe:mineralokortikoid-antagonisten", "gruppe:kaliumpraeparate", "sulfamethoxazol-trimethoprim", "heparin"], "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.", "schwere": "schwer" },
-    { "text": "ACE-Hemmer und Aliskiren (doppelte RAAS-Hemmung)", "ref": ["gruppe:ace-hemmer", "aliskiren"], "effekt": "Mehr Hyperkaliämie, Blutdruckabfall und Nierenversagen – nicht empfohlen; bei diabetischer Nierenerkrankung Sartan und ACE-Hemmer nicht kombinieren.", "schwere": "schwer" },
-    { "text": "Sacubitril/Valsartan (Entresto)", "ref": ["sacubitril-valsartan"], "effekt": "Enthält bereits Valsartan – nicht zusätzlich einnehmen (Überdosierung).", "schwere": "schwer" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Lithium-Spiegel steigen (Vergiftungsgefahr) – Kombination meiden oder Spiegel engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "NSAR einschliesslich COX-2-Hemmer", "ref": ["gruppe:nsar", "gruppe:cox2-hemmer"], "effekt": "Abgeschwächte Blutdrucksenkung; Risiko für akutes Nierenversagen und Hyperkaliämie, besonders bei älteren oder ausgetrockneten Menschen – ausreichend trinken, Nierenwerte kontrollieren.", "schwere": "mittel" },
-    { "text": "Diuretika", "ref": ["gruppe:diuretika"], "effekt": "Starker Blutdruckabfall zu Behandlungsbeginn möglich, besonders bei Salz- oder Flüssigkeitsmangel.", "schwere": "mittel" },
-    { "text": "Rifampicin, Ciclosporin, Ritonavir (Hemmer von Transportproteinen)", "ref": ["rifampicin", "ciclosporin", "ritonavir"], "effekt": "Können die Valsartan-Spiegel erhöhen – auf Blutdruckabfall achten.", "schwere": "leicht" }
+    {
+      "text": "Kaliumsparende Diuretika, Spironolacton/Eplerenon, Kaliumpräparate und kaliumhaltige Salzersatzmittel, Trimethoprim (Cotrimoxazol), Heparin",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten",
+        "gruppe:kaliumpraeparate",
+        "sulfamethoxazol-trimethoprim",
+        "gruppe:heparine"
+      ],
+      "effekt": "Gefahr einer gefährlichen Hyperkaliämie – Kalium regelmässig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "ACE-Hemmer und Aliskiren (doppelte RAAS-Hemmung)",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "aliskiren"
+      ],
+      "effekt": "Mehr Hyperkaliämie, Blutdruckabfall und Nierenversagen – nicht empfohlen; bei diabetischer Nierenerkrankung Sartan und ACE-Hemmer nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sacubitril/Valsartan (Entresto)",
+      "ref": [
+        "sacubitril-valsartan"
+      ],
+      "effekt": "Enthält bereits Valsartan – nicht zusätzlich einnehmen (Überdosierung).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigen (Vergiftungsgefahr) – Kombination meiden oder Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR einschliesslich COX-2-Hemmer",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; Risiko für akutes Nierenversagen und Hyperkaliämie, besonders bei älteren oder ausgetrockneten Menschen – ausreichend trinken, Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Starker Blutdruckabfall zu Behandlungsbeginn möglich, besonders bei Salz- oder Flüssigkeitsmangel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin, Ciclosporin, Ritonavir (Hemmer von Transportproteinen)",
+      "ref": [
+        "rifampicin",
+        "ciclosporin",
+        "ritonavir"
+      ],
+      "effekt": "Können die Valsartan-Spiegel erhöhen – auf Blutdruckabfall achten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Schwindel, auch beim Aufstehen (vor allem bei Herzschwäche oder nach Herzinfarkt)", "Hypotonie (tiefer Blutdruck), auch beim Aufstehen (vor allem bei Herzschwäche oder nach Herzinfarkt)", "Nierenfunktionsstörung (vor allem bei Herzschwäche oder nach Herzinfarkt)"],
-    "gelegentlich": ["Drehschwindel (Vertigo)", "Husten", "Bauchschmerzen, Übelkeit, Durchfall", "Müdigkeit, Schwäche", "Kopfschmerzen, Synkope (Ohnmacht)", "Hyperkaliämie (erhöhtes Kalium), Kreatininanstieg, akutes Nierenversagen", "Verschlechterung einer Herzschwäche", "Angioödem (Schwellung von Gesicht, Lippen, Zunge, Rachen)"],
-    "unbekannt": ["Neutropenie, Thrombozytopenie, Abfall des Hämoglobins", "Überempfindlichkeitsreaktionen einschliesslich Serumkrankheit", "Hyponatriämie (Natriummangel)", "Vaskulitis (Gefässentzündung)", "Erhöhte Leberwerte", "Hautausschlag, Juckreiz, bullöse Dermatitis (Blasenbildung)", "Muskelschmerzen"]
+    "haeufig": [
+      "Schwindel, auch beim Aufstehen (vor allem bei Herzschwäche oder nach Herzinfarkt)",
+      "Hypotonie (tiefer Blutdruck), auch beim Aufstehen (vor allem bei Herzschwäche oder nach Herzinfarkt)",
+      "Nierenfunktionsstörung (vor allem bei Herzschwäche oder nach Herzinfarkt)"
+    ],
+    "gelegentlich": [
+      "Drehschwindel (Vertigo)",
+      "Husten",
+      "Bauchschmerzen, Übelkeit, Durchfall",
+      "Müdigkeit, Schwäche",
+      "Kopfschmerzen, Synkope (Ohnmacht)",
+      "Hyperkaliämie (erhöhtes Kalium), Kreatininanstieg, akutes Nierenversagen",
+      "Verschlechterung einer Herzschwäche",
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge, Rachen)"
+    ],
+    "unbekannt": [
+      "Neutropenie, Thrombozytopenie, Abfall des Hämoglobins",
+      "Überempfindlichkeitsreaktionen einschliesslich Serumkrankheit",
+      "Hyponatriämie (Natriummangel)",
+      "Vaskulitis (Gefässentzündung)",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz, bullöse Dermatitis (Blasenbildung)",
+      "Muskelschmerzen"
+    ]
   },
   "schwangerschaft": "Kontraindiziert; besonders im 2. und 3. Drittel fruchtschädigend (Nierenschäden, Fruchtwassermangel, verzögerte Schädelverknöcherung). Bei Kinderwunsch oder festgestellter Schwangerschaft sofort ärztlich auf ein anderes Mittel umstellen.",
   "stillzeit": "Nicht empfohlen, da Daten zum Übergang in die Muttermilch fehlen; besser untersuchte Alternativen wählen.",

@@ -1,49 +1,201 @@
 {
   "id": "vollelektrolytloesung-ringer-lactat-acetat",
   "name": "Vollelektrolytlösung (Ringer-Lactat/-Acetat)",
-  "synonyme": ["Ringer-Lactat", "Ringer-Laktat", "Hartmann-Lösung", "Ringer-Acetat", "Balancierte Elektrolytlösung", "Balancierte kristalloide Lösung", "Lactated Ringer's"],
+  "synonyme": [
+    "Ringer-Lactat",
+    "Ringer-Laktat",
+    "Hartmann-Lösung",
+    "Ringer-Acetat",
+    "Balancierte Elektrolytlösung",
+    "Balancierte kristalloide Lösung",
+    "Lactated Ringer's"
+  ],
   "kombinationAus": [],
-  "atc": ["B05BB01"],
+  "atc": [
+    "B05BB01"
+  ],
   "klasse": "Balancierte kristalloide Infusionslösung (Vollelektrolytlösung)",
   "kurz": "Infusionslösung mit Salzen in ähnlicher Zusammensetzung wie das Blutplasma, um Flüssigkeitsverluste zu ersetzen.",
   "gruppen": [],
-  "handelsnamen": ["Ringerfundin", "Ringer-Lactat Fresenius", "Plasma-Lyte"],
-  "abgabe": ["B"],
-  "darreichung": ["Infusionslösung (Beutel, Flaschen)"],
+  "handelsnamen": [
+    "Ringerfundin",
+    "Ringer-Lactat Fresenius",
+    "Plasma-Lyte"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung (Beutel, Flaschen)"
+  ],
   "indikationen": [
-    { "text": "Ersatz von Flüssigkeit und Elektrolyten bei isotoner Dehydratation (Flüssigkeitsmangel), z. B. vor, während und nach Operationen, bei Verbrennungen, Erbrechen oder Durchfall", "ids": ["dehydratation", "operation"] },
-    { "text": "Kurzfristiger Volumenersatz bei Blut- oder Flüssigkeitsverlust und Schock", "ids": ["schock"] },
-    { "text": "Trägerlösung für verträgliche Arzneimittel; Ausgleich einer leichten metabolischen Azidose (Übersäuerung)" }
+    {
+      "text": "Ersatz von Flüssigkeit und Elektrolyten bei isotoner Dehydratation (Flüssigkeitsmangel), z. B. vor, während und nach Operationen, bei Verbrennungen, Erbrechen oder Durchfall",
+      "ids": [
+        "dehydratation",
+        "operation"
+      ]
+    },
+    {
+      "text": "Kurzfristiger Volumenersatz bei Blut- oder Flüssigkeitsverlust und Schock",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Trägerlösung für verträgliche Arzneimittel; Ausgleich einer leichten metabolischen Azidose (Übersäuerung)"
+    }
   ],
   "wirkmechanismus": "Ersetzt Wasser und Salze im Raum ausserhalb der Zellen. Die Lösung enthält Natrium, Kalium, Calcium, Chlorid (je nach Präparat auch Magnesium) in plasmaähnlicher Konzentration sowie Lactat, Acetat oder Malat. Diese organischen Anionen werden in Leber und Muskeln zu Bicarbonat umgewandelt und puffern Säuren; dadurch tritt im Gegensatz zu reiner Kochsalzlösung kaum eine hyperchlorämische Übersäuerung auf. Die Lösung verteilt sich im ganzen Extrazellulärraum, nur ein Teil bleibt in den Blutgefässen.",
   "kontraindikationen": [
-    { "text": "Überwässerung (Hyperhydratation), schwere Herzschwäche, Lungenödem", "ids": ["oedeme", "herzinsuffizienz"] },
-    { "text": "Hyperkaliämie (zu hohes Kalium); bei calciumhaltigen Lösungen auch Hyperkalzämie (zu hohes Calcium)", "ids": ["hyperkaliaemie", "hyperkalzaemie"] },
-    { "text": "Metabolische Alkalose (zu wenig Säure im Blut)" },
-    { "text": "Lactathaltige Lösungen: erhöhte Milchsäure (Laktatazidose) oder schwere Leberinsuffizienz mit gestörter Lactatverwertung", "ids": ["leberinsuffizienz"] },
-    { "text": "Calciumhaltige Lösungen (z. B. Ringer-Lactat, Ringerfundin): Neugeborene (bis 28 Tage), die Ceftriaxon erhalten", "ids": ["kinder"] }
+    {
+      "text": "Überwässerung (Hyperhydratation), schwere Herzschwäche, Lungenödem",
+      "ids": [
+        "oedeme",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz mit stark verminderter oder fehlender Harnausscheidung (Oligurie, Anurie)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hyperkaliämie (zu hohes Kalium); bei calciumhaltigen Lösungen auch Hyperkalzämie (zu hohes Calcium)",
+      "ids": [
+        "hyperkaliaemie",
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Metabolische Alkalose (zu wenig Säure im Blut)"
+    },
+    {
+      "text": "Lactathaltige Lösungen: erhöhte Milchsäure (Laktatazidose) oder schwere Leberinsuffizienz mit gestörter Lactatverwertung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Calciumhaltige Lösungen (z. B. Ringer-Lactat, Ringerfundin): Neugeborene (bis 28 Tage), die Ceftriaxon erhalten",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Herzschwäche, Niereninsuffizienz, Ödeme und Bluthochdruck (Gefahr der Überwässerung; Kalium kann sich anreichern)", "ids": ["herzinsuffizienz", "niereninsuffizienz", "oedeme", "hypertonie"] },
-    { "text": "Erkrankungen mit Neigung zu hohem Kalium, z. B. Nebenniereninsuffizienz", "ids": ["hyperkaliaemie", "nebenniereninsuffizienz"] },
-    { "text": "Hirnödem und Schädel-Hirn-Verletzung: Ringer-Lactat ist leicht hypoton und kann eine Hirnschwellung verstärken", "ids": [] },
-    { "text": "Gefahr einer Hyponatriämie bei grossen Mengen, v. a. bei Kindern, älteren Menschen und erhöhter ADH-Ausschüttung", "ids": ["hyponatriaemie", "kinder", "aeltere-patienten"] },
-    { "text": "Digitalis-Therapie (Calcium verstärkt die Digitaliswirkung)", "ids": ["herzrhythmusstoerung"] },
-    { "text": "Diabetes: Lactat kann in der Leber zu Glucose umgebaut werden – Blutzucker kontrollieren", "ids": ["diabetes"] }
+    {
+      "text": "Herzschwäche, Niereninsuffizienz, Ödeme und Bluthochdruck (Gefahr der Überwässerung; Kalium kann sich anreichern)",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz",
+        "oedeme",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Erkrankungen mit Neigung zu hohem Kalium, z. B. Nebenniereninsuffizienz",
+      "ids": [
+        "hyperkaliaemie",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hirnödem und Schädel-Hirn-Verletzung: Ringer-Lactat ist leicht hypoton und kann eine Hirnschwellung verstärken",
+      "ids": [
+        "hirnoedem",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Gefahr einer Hyponatriämie bei grossen Mengen, v. a. bei Kindern, älteren Menschen und erhöhter ADH-Ausschüttung",
+      "ids": [
+        "hyponatriaemie",
+        "kinder",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Digitalis-Therapie (Calcium verstärkt die Digitaliswirkung)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes: Lactat kann in der Leber zu Glucose umgebaut werden – Blutzucker kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Ceftriaxon bei Neugeborenen (bis 28 Tage), auch über getrennte Infusionsleitungen – gilt für calciumhaltige Lösungen wie Ringer-Lactat und Ringerfundin", "ref": ["ceftriaxon"], "grund": "Ceftriaxon bildet mit Calcium unlösliche Kristalle, die sich in Lunge und Nieren ablagern können – Todesfälle bei Neugeborenen beschrieben." }
+    {
+      "text": "Ceftriaxon bei Neugeborenen (bis 28 Tage), auch über getrennte Infusionsleitungen – gilt für calciumhaltige Lösungen wie Ringer-Lactat und Ringerfundin",
+      "ref": [
+        "ceftriaxon"
+      ],
+      "grund": "Ceftriaxon bildet mit Calcium unlösliche Kristalle, die sich in Lunge und Nieren ablagern können – Todesfälle bei Neugeborenen beschrieben."
+    }
   ],
   "interaktionen": [
-    { "text": "Ceftriaxon (ab dem 29. Lebenstag und bei Erwachsenen)", "ref": ["ceftriaxon"], "effekt": "Nicht gleichzeitig über dieselbe Leitung geben (Ausfällung von Ceftriaxon-Calcium); Leitung zwischen den Gaben gründlich spülen.", "schwere": "mittel" },
-    { "text": "Herzglykoside (Digoxin) – bei calciumhaltigen Lösungen", "ref": ["gruppe:herzglykoside"], "effekt": "Calcium verstärkt die Wirkung von Digitalis – Herzrhythmusstörungen möglich; EKG und Elektrolyte überwachen.", "schwere": "mittel" },
-    { "text": "Kaliumsteigernde Mittel (z. B. kaliumsparende Diuretika, ACE-Hemmer, Sartane, Ciclosporin, Tacrolimus)", "ref": ["gruppe:hyperkaliaemie-ausloesend"], "effekt": "Zusätzliche Kaliumzufuhr, v. a. bei eingeschränkter Nierenfunktion – Kalium kontrollieren.", "schwere": "leicht" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Natrium beschleunigt die Lithiumausscheidung – Lithiumspiegel kann sinken.", "schwere": "leicht" },
-    { "text": "Thiaziddiuretika und Vitamin D", "ref": ["gruppe:thiaziddiuretika", "colecalciferol-vitamin-d3"], "effekt": "Erhöhtes Risiko eines zu hohen Calciums bei grossen Infusionsmengen.", "schwere": "leicht" },
-    { "text": "Systemische Glukokortikoide", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Verstärkte Natrium- und Wasserrückhaltung, Ödeme möglich.", "schwere": "leicht" }
+    {
+      "text": "Ceftriaxon (ab dem 29. Lebenstag und bei Erwachsenen)",
+      "ref": [
+        "ceftriaxon"
+      ],
+      "effekt": "Nicht gleichzeitig über dieselbe Leitung geben (Ausfällung von Ceftriaxon-Calcium); Leitung zwischen den Gaben gründlich spülen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin) – bei calciumhaltigen Lösungen",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Calcium verstärkt die Wirkung von Digitalis – Herzrhythmusstörungen möglich; EKG und Elektrolyte überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsteigernde Mittel (z. B. kaliumsparende Diuretika, ACE-Hemmer, Sartane, Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Zusätzliche Kaliumzufuhr, v. a. bei eingeschränkter Nierenfunktion – Kalium kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Natrium beschleunigt die Lithiumausscheidung – Lithiumspiegel kann sinken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Thiaziddiuretika und Vitamin D",
+      "ref": [
+        "gruppe:thiaziddiuretika",
+        "colecalciferol-vitamin-d3"
+      ],
+      "effekt": "Erhöhtes Risiko eines zu hohen Calciums bei grossen Infusionsmengen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verstärkte Natrium- und Wasserrückhaltung, Ödeme möglich.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "unbekannt": ["Überwässerung, Ödeme, Lungenödem, Verschlechterung einer Herzschwäche", "Elektrolytstörungen (z. B. Hyperkaliämie, Hyponatriämie)", "Metabolische Alkalose bei grossen Mengen", "Reaktionen an der Infusionsstelle (Schmerzen, Venenreizung, Venenentzündung)", "Überempfindlichkeitsreaktionen (Nesselsucht, Juckreiz), selten Anaphylaxie", "Fieber"]
+    "unbekannt": [
+      "Überwässerung, Ödeme, Lungenödem, Verschlechterung einer Herzschwäche",
+      "Elektrolytstörungen (z. B. Hyperkaliämie, Hyponatriämie)",
+      "Metabolische Alkalose bei grossen Mengen",
+      "Reaktionen an der Infusionsstelle (Schmerzen, Venenreizung, Venenentzündung)",
+      "Überempfindlichkeitsreaktionen (Nesselsucht, Juckreiz), selten Anaphylaxie",
+      "Fieber"
+    ]
   },
   "schwangerschaft": "Kann angewendet werden; Vorsicht bei Präeklampsie und bei gleichzeitiger Gabe von Oxytocin (Gefahr der Hyponatriämie).",
   "stillzeit": "Kann angewendet werden.",

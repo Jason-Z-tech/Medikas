@@ -76,13 +76,22 @@
     {
       "text": "Schlaflähmung, Halluzinationen beim Einschlafen oder Aufwachen, kataplexieähnliche Symptome und komplexe Schlafverhaltensweisen (z. B. Schlafwandeln) möglich",
       "ids": []
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht zugelassen (keine Daten)",
+      "ids": [
+        "kinder"
+      ]
     }
   ],
   "kontraMedikamente": [
     {
-      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir, Cobicistat)",
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir, Cobicistat, Nirmatrelvir/Ritonavir)",
       "ref": [
-        "gruppe:starke-cyp3a4-hemmer"
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat",
+        "nirmatrelvir-ritonavir"
       ],
       "grund": "Hemmen den Abbau von Daridorexant, der Spiegel steigt um ein Vielfaches – Gefahr starker und verlängerter Sedierung."
     }

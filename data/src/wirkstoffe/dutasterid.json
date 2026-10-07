@@ -1,42 +1,137 @@
 {
   "id": "dutasterid",
   "name": "Dutasterid",
-  "synonyme": ["Dutasteride"],
-  "atc": ["G04CB02"],
+  "synonyme": [
+    "Dutasteride"
+  ],
+  "atc": [
+    "G04CB02"
+  ],
   "klasse": "5-Alpha-Reduktase-Hemmer (Typ 1 und Typ 2)",
   "kurz": "Verkleinert eine gutartig vergrösserte Prostata, indem es die Bildung des männlichen Hormons DHT hemmt; lindert Beschwerden beim Wasserlösen.",
-  "gruppen": ["5-alpha-reduktase-hemmer", "teratogen"],
-  "handelsnamen": ["Avodart", "Duodart (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Weichkapseln"],
+  "gruppen": [
+    "5-alpha-reduktase-hemmer",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Avodart",
+    "Duodart (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Weichkapseln"
+  ],
   "indikationen": [
-    { "text": "Mässige bis schwere Beschwerden bei gutartiger Prostatavergrösserung, allein oder zusammen mit einem Alpha-Blocker (z. B. Tamsulosin)", "ids": ["prostatahyperplasie"] },
-    { "text": "Senkung des Risikos für akuten Harnverhalt und Prostataoperationen bei mässigen bis schweren Beschwerden", "ids": ["harnverhalt", "prostatahyperplasie"] }
+    {
+      "text": "Mässige bis schwere Beschwerden bei gutartiger Prostatavergrösserung, allein oder zusammen mit einem Alpha-Blocker (z. B. Tamsulosin)",
+      "ids": [
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Senkung des Risikos für akuten Harnverhalt und Prostataoperationen bei mässigen bis schweren Beschwerden",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    }
   ],
   "wirkmechanismus": "Lässt eine vergrösserte Prostata schrumpfen, indem es die Bildung des stark wirksamen Androgens Dihydrotestosteron (DHT) unterdrückt. Dutasterid hemmt beide Formen des Enzyms 5-Alpha-Reduktase (Typ 1 und Typ 2), die Testosteron in DHT umwandeln; der DHT-Spiegel im Blut sinkt um über 90 %. Das Prostatavolumen nimmt über Monate ab, die Beschwerden bessern sich meist nach 3–6 Monaten. Wegen der sehr langen Halbwertszeit von etwa 5 Wochen bleibt der Wirkstoff nach dem Absetzen noch monatelang im Körper.",
   "kontraindikationen": [
-    { "text": "Frauen (Gefahr von Fehlbildungen der Geschlechtsorgane eines männlichen Fötus)", "ids": ["schwangerschaft", "frauen-gebaerfaehig"] },
-    { "text": "Kinder und Jugendliche", "ids": ["kinder"] },
-    { "text": "Schwere Leberinsuffizienz", "ids": ["leberinsuffizienz"] }
+    {
+      "text": "Frauen (Gefahr von Fehlbildungen der Geschlechtsorgane eines männlichen Fötus)",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Der PSA-Wert sinkt nach 6 Monaten etwa um die Hälfte und muss entsprechend bewertet werden; Prostatakrebs vor Beginn ausschliessen; in Studien wurde etwas häufiger ein hochgradiger Prostatakrebs festgestellt", "ids": ["prostatakrebs"] },
-    { "text": "Herzinsuffizienz: in Studien unter der Kombination mit Alpha-Blockern (v. a. Tamsulosin) häufiger aufgetreten", "ids": ["herzinsuffizienz"] },
-    { "text": "Leichte bis mittelschwere Leberfunktionsstörung (Abbau über die Leber)", "ids": ["leberinsuffizienz"] },
-    { "text": "Veränderungen der Brust (Knoten, Ausfluss) melden: Brustkrebs beim Mann wurde berichtet", "ids": ["brustkrebs"] },
-    { "text": "Depressive Verstimmung wurde berichtet", "ids": ["depression"] }
+    {
+      "text": "Der PSA-Wert sinkt nach 6 Monaten etwa um die Hälfte und muss entsprechend bewertet werden; Prostatakrebs vor Beginn ausschliessen; in Studien wurde etwas häufiger ein hochgradiger Prostatakrebs festgestellt",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz: in Studien unter der Kombination mit Alpha-Blockern (v. a. Tamsulosin) häufiger aufgetreten",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leberfunktionsstörung (Abbau über die Leber)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Veränderungen der Brust (Knoten, Ausfluss) melden: Brustkrebs beim Mann wurde berichtet",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Depressive Verstimmung wurde berichtet",
+      "ids": [
+        "depression"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Ketoconazol, Itraconazol) bei Langzeitbehandlung", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Dutasterid-Spiegel können deutlich steigen – bei vermehrten Nebenwirkungen ärztlich das Einnahmeintervall verlängern lassen.", "schwere": "mittel" },
-    { "text": "Verapamil und Diltiazem", "ref": ["gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Etwas langsamere Ausscheidung von Dutasterid (Spiegel um rund ein Drittel höher); klinisch meist unbedeutend.", "schwere": "leicht" },
-    { "text": "Alpha-1-Blocker (z. B. Tamsulosin)", "ref": ["gruppe:alpha1-blocker"], "effekt": "Bewährte Kombination; in Studien trat darunter jedoch häufiger eine Herzinsuffizienz auf – ärztliche Kontrolle.", "schwere": "leicht" }
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Ketoconazol, Itraconazol) bei Langzeitbehandlung",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Dutasterid-Spiegel können deutlich steigen – bei vermehrten Nebenwirkungen ärztlich das Einnahmeintervall verlängern lassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Verapamil und Diltiazem",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Etwas langsamere Ausscheidung von Dutasterid (Spiegel um rund ein Drittel höher); klinisch meist unbedeutend.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Alpha-1-Blocker (z. B. Tamsulosin)",
+      "ref": [
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Bewährte Kombination; in Studien trat darunter jedoch häufiger eine Herzinsuffizienz auf – ärztliche Kontrolle.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Erektionsstörung (Impotenz)", "Verminderte Libido (Lust auf Sex)", "Ejakulationsstörungen, z. B. vermindertes Spermavolumen", "Brustbeschwerden (Spannungsgefühl, Vergrösserung)", "Schwindel (in Kombination mit Tamsulosin)"],
-    "gelegentlich": ["Haarausfall (v. a. Körperbehaarung) oder vermehrter Haarwuchs"],
+    "haeufig": [
+      "Erektionsstörung (Impotenz)",
+      "Verminderte Libido (Lust auf Sex)",
+      "Ejakulationsstörungen, z. B. vermindertes Spermavolumen",
+      "Brustbeschwerden (Spannungsgefühl, Vergrösserung)",
+      "Schwindel (in Kombination mit Tamsulosin)"
+    ],
+    "gelegentlich": [
+      "Haarausfall (v. a. Körperbehaarung) oder vermehrter Haarwuchs",
+      "Herzinsuffizienz (v. a. in Kombination mit Tamsulosin)"
+    ],
     "unbekannt": [
-      "Herzinsuffizienz (in Studien, v. a. in Kombination mit Alpha-Blockern)",
       "Überempfindlichkeitsreaktionen mit Ausschlag, Juckreiz, Nesselsucht, Angioödem",
       "Depressive Verstimmung",
       "Hodenschmerzen und Hodenschwellung",

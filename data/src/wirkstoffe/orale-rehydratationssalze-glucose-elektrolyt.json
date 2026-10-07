@@ -1,35 +1,106 @@
 {
   "id": "orale-rehydratationssalze-glucose-elektrolyt",
   "name": "Orale Rehydratationssalze (Glucose-Elektrolyt)",
-  "synonyme": ["ORS", "Orale Rehydratationslösung", "Rehydratationssalze", "Elektrolyt-Glucose-Mischung", "Oral rehydration salts", "Elektrolytlösung"],
-  "atc": ["A07CA"],
+  "synonyme": [
+    "ORS",
+    "Orale Rehydratationslösung",
+    "Rehydratationssalze",
+    "Elektrolyt-Glucose-Mischung",
+    "Oral rehydration salts",
+    "Elektrolytlösung"
+  ],
+  "atc": [
+    "A07CA"
+  ],
   "klasse": "Orale Rehydratationslösung (Glucose, Natriumchlorid, Kaliumchlorid, Citrat)",
   "kurz": "Trinklösung aus Zucker und Salzen, die bei Durchfall und Erbrechen verlorene Flüssigkeit und Salze ersetzt – wichtig besonders für Kinder.",
   "gruppen": [],
-  "handelsnamen": ["Normolytoral"],
-  "abgabe": ["D"],
-  "darreichung": ["Pulver zur Herstellung einer Lösung zum Einnehmen (Beutel)"],
+  "handelsnamen": [
+    "Normolytoral"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Lösung zum Einnehmen (Beutel)"
+  ],
   "indikationen": [
-    { "text": "Ersatz von Wasser und Salzen bei akutem Durchfall (auch mit Erbrechen) bei Säuglingen, Kindern und Erwachsenen", "ids": ["durchfall"] },
-    { "text": "Vorbeugung und Behandlung eines leichten bis mittelschweren Flüssigkeitsmangels (Dehydratation)", "ids": ["dehydratation"] }
+    {
+      "text": "Ersatz von Wasser und Salzen bei akutem Durchfall (auch mit Erbrechen) bei Säuglingen, Kindern und Erwachsenen",
+      "ids": [
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Vorbeugung und Behandlung eines leichten bis mittelschweren Flüssigkeitsmangels (Dehydratation)",
+      "ids": [
+        "dehydratation"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt die beim Durchfall verlorene Flüssigkeit und die Salze und beugt so dem Austrocknen vor. Glucose und Natrium werden im Dünndarm gemeinsam über einen Transporter (SGLT1) aufgenommen, und Wasser folgt passiv nach; dieser Transportweg funktioniert auch bei infektiösem Durchfall weiter. Kalium ersetzt Kaliumverluste, Citrat gleicht eine durch den Durchfall entstandene Übersäuerung (metabolische Azidose) aus. Die Lösung verkürzt den Durchfall nicht, verhindert aber gefährlichen Flüssigkeitsmangel.",
   "kontraindikationen": [
-    { "text": "Schwerer Flüssigkeitsmangel mit Kreislaufschock oder Bewusstseinsstörung (Infusion im Spital nötig)", "ids": ["schock"] },
-    { "text": "Anhaltendes, unstillbares Erbrechen", "ids": [] },
-    { "text": "Darmverschluss (Ileus)", "ids": ["darmverschluss"] },
-    { "text": "Stark eingeschränkte Nierenfunktion mit fehlender oder sehr geringer Urinausscheidung", "ids": ["niereninsuffizienz"] },
-    { "text": "Angeborene Glucose-Galactose-Malabsorption", "ids": ["seltene-stoffwechselkrankheit"] }
+    {
+      "text": "Schwerer Flüssigkeitsmangel mit Kreislaufschock oder Bewusstseinsstörung (Infusion im Spital nötig)",
+      "ids": [
+        "schock",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Anhaltendes, unstillbares Erbrechen",
+      "ids": []
+    },
+    {
+      "text": "Darmverschluss (Ileus)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Stark eingeschränkte Nierenfunktion mit fehlender oder sehr geringer Urinausscheidung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Angeborene Glucose-Galactose-Malabsorption",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Säuglinge, Kleinkinder und ältere Menschen: bei hohem Fieber, Blut im Stuhl, Teilnahmslosigkeit oder fehlender Besserung nach 1–2 Tagen ärztlich abklären", "ids": ["kinder", "aeltere-patienten"] },
-    { "text": "Diabetes: die Lösung enthält Glucose – Blutzucker kontrollieren", "ids": ["diabetes"] },
-    { "text": "Herzschwäche oder Nierenerkrankung: Natrium- und Kaliumzufuhr beachten", "ids": ["herzinsuffizienz", "niereninsuffizienz", "hyperkaliaemie"] }
+    {
+      "text": "Säuglinge, Kleinkinder und ältere Menschen: bei hohem Fieber, Blut im Stuhl, Teilnahmslosigkeit oder fehlender Besserung nach 1–2 Tagen ärztlich abklären",
+      "ids": [
+        "kinder",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Diabetes: die Lösung enthält Glucose – Blutzucker kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Herzschwäche oder Nierenerkrankung: Natrium- und Kaliumzufuhr beachten",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz",
+        "hyperkaliaemie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [],
   "nebenwirkungen": {
-    "unbekannt": ["Erbrechen, besonders bei zu raschem Trinken", "Hypernatriämie (zu viel Natrium) bei falscher, zu konzentrierter Zubereitung", "Hyperkaliämie (zu viel Kalium) bei eingeschränkter Nierenfunktion"]
+    "unbekannt": [
+      "Erbrechen, besonders bei zu raschem Trinken",
+      "Hypernatriämie (zu viel Natrium) bei falscher, zu konzentrierter Zubereitung",
+      "Hyperkaliämie (zu viel Kalium) bei eingeschränkter Nierenfunktion"
+    ]
   },
   "schwangerschaft": "Anwendung in der Schwangerschaft möglich.",
   "stillzeit": "Anwendung in der Stillzeit möglich; gestillte Säuglinge mit Durchfall weiter stillen.",

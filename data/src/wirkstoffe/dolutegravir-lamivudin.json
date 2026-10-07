@@ -1,46 +1,216 @@
 {
   "id": "dolutegravir-lamivudin",
   "name": "Dolutegravir + Lamivudin",
-  "synonyme": ["DTG/3TC", "Dolutegravir/Lamivudin"],
-  "kombinationAus": ["dolutegravir", "lamivudin"],
-  "atc": ["J05AR25"],
+  "synonyme": [
+    "DTG/3TC",
+    "Dolutegravir/Lamivudin"
+  ],
+  "kombinationAus": [
+    "dolutegravir",
+    "lamivudin"
+  ],
+  "atc": [
+    "J05AR25"
+  ],
   "klasse": "HIV-Kombination: Integrasehemmer (Dolutegravir) und NRTI (Lamivudin) als Zweifachtherapie",
   "kurz": "HIV-Medikament mit zwei Wirkstoffen in einer Tablette; vollständige Zweifachtherapie einmal täglich.",
-  "gruppen": ["integrasehemmer"],
-  "handelsnamen": ["Dovato"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "integrasehemmer"
+  ],
+  "handelsnamen": [
+    "Dovato"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen ab 12 Jahren (mindestens 40 kg) ohne bekannte oder vermutete Resistenz gegen Integrasehemmer oder Lamivudin", "ids": ["hiv"] }
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen ab 12 Jahren (mindestens 40 kg) ohne bekannte oder vermutete Resistenz gegen Integrasehemmer oder Lamivudin",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung von HIV an zwei Stellen. Dolutegravir blockiert die Integrase und verhindert den Einbau der Virus-DNA in das Erbgut der Wirtszelle (Strangtransfer). Lamivudin, ein Cytidin-Analogon, wird in den Zellen zum Triphosphat aktiviert, von der Reversen Transkriptase in die Virus-DNA eingebaut und führt zum Kettenabbruch. Dank der hohen Resistenzbarriere von Dolutegravir genügen bei geeigneten Personen zwei Wirkstoffe.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Hepatitis-B-Koinfektion: Dovato allein ist keine ausreichende Hepatitis-B-Therapie; Absetzen kann einen schweren Hepatitisschub auslösen", "ids": ["hepatitis-b"] },
-    { "text": "Eingeschränkte Nierenfunktion: bei stark verminderter Funktion Einzelpräparate nötig (Lamivudin-Dosis nicht anpassbar)", "ids": ["niereninsuffizienz"] },
-    { "text": "Schwere Leberinsuffizienz (keine Daten)", "ids": ["leberinsuffizienz"] },
-    { "text": "Überempfindlichkeitsreaktionen mit Hautausschlag, Fieber oder Leberbeteiligung: sofort absetzen", "ids": ["allergie"] },
-    { "text": "Depression oder Suizidgedanken in der Vorgeschichte", "ids": ["depression", "suizidgedanken"] },
-    { "text": "Immunrekonstitutionssyndrom und Gewichtszunahme unter der Therapie", "ids": ["hiv"] }
+    {
+      "text": "Hepatitis-B-Koinfektion: Dovato allein ist keine ausreichende Hepatitis-B-Therapie; Absetzen kann einen schweren Hepatitisschub auslösen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: bei stark verminderter Funktion Einzelpräparate nötig (Lamivudin-Dosis nicht anpassbar)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (keine Daten)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen mit Hautausschlag, Fieber oder Leberbeteiligung: sofort absetzen",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom und Gewichtszunahme unter der Therapie",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Fampridin (Mittel bei Multipler Sklerose)", "ref": ["fampridin"], "grund": "Dolutegravir hemmt den Nierentransporter OCT2, über den Fampridin ausgeschieden wird – erhöhte Fampridin-Spiegel mit Gefahr von Krampfanfällen." }
+    {
+      "text": "Fampridin (Mittel bei Multipler Sklerose)",
+      "ref": [
+        "fampridin"
+      ],
+      "grund": "Dolutegravir hemmt den Nierentransporter OCT2, über den Fampridin ausgeschieden wird – erhöhte Fampridin-Spiegel mit Gefahr von Krampfanfällen."
+    }
   ],
   "interaktionen": [
-    { "text": "Enzyminduktoren: Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut", "ref": ["rifampicin", "carbamazepin", "oxcarbazepin", "phenytoin", "phenobarbital", "johanniskraut", "gruppe:cyp3a4-induktoren"], "effekt": "Dolutegravir-Spiegel sinken – zusätzlich eine Dolutegravir-Tablette 50 mg rund 12 Stunden nach Dovato oder, wo möglich, Alternative wählen.", "schwere": "schwer" },
-    { "text": "Mehrwertige Kationen: Antazida, Magnesium-, Aluminium-, Calcium-, Eisen- und Zinkpräparate, Multivitamine, Sucralfat", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida", "gruppe:eisenpraeparate", "sucralfat"], "effekt": "Komplexbildung vermindert die Aufnahme von Dolutegravir – Dovato 2 Stunden vor oder 6 Stunden nach diesen Präparaten einnehmen; Calcium- oder Eisenpräparate mit einer Mahlzeit gleichzeitig möglich.", "schwere": "mittel" },
-    { "text": "Metformin", "ref": ["metformin"], "effekt": "Dolutegravir erhöht den Metformin-Spiegel deutlich – Metformin-Dosis ggf. anpassen, Nierenfunktion kontrollieren.", "schwere": "mittel" },
-    { "text": "Efavirenz, Nevirapin, Etravirin, Tipranavir/Ritonavir", "ref": ["efavirenz", "nevirapin", "etravirin"], "effekt": "Dolutegravir-Spiegel sinken – zusätzliche Dolutegravir-Dosis nötig.", "schwere": "mittel" },
-    { "text": "Hoch dosiertes Cotrimoxazol (Sulfamethoxazol + Trimethoprim)", "ref": ["sulfamethoxazol-trimethoprim"], "effekt": "Lamivudin-Spiegel steigen – hohe Dosen (z. B. zur Behandlung einer Pneumocystis-Pneumonie) meiden.", "schwere": "mittel" },
-    { "text": "Emtricitabin und emtricitabinhaltige Präparate", "ref": ["emtricitabin", "emtricitabin-tenofovirdisoproxil", "emtricitabin-tenofoviralafenamid", "bictegravir-emtricitabin-tenofoviralafenamid"], "effekt": "Gleicher Wirkmechanismus wie Lamivudin – nicht kombinieren.", "schwere": "mittel" },
-    { "text": "Cladribin", "ref": ["cladribin"], "effekt": "Lamivudin hemmt die Aktivierung von Cladribin – Wirkverlust möglich; Kombination nicht empfohlen.", "schwere": "mittel" },
-    { "text": "Sorbitolhaltige Arzneimittel (z. B. Säfte) bei Dauergebrauch", "ref": [], "effekt": "Sorbitol vermindert die Aufnahme von Lamivudin – möglichst meiden, sonst Viruslast häufiger kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "Enzyminduktoren: Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenytoin",
+        "phenobarbital",
+        "johanniskraut",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Dolutegravir-Spiegel sinken – zusätzlich eine Dolutegravir-Tablette 50 mg rund 12 Stunden nach Dovato oder, wo möglich, Alternative wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mehrwertige Kationen: Antazida, Magnesium-, Aluminium-, Calcium-, Eisen- und Zinkpräparate, Multivitamine, Sucralfat",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate",
+        "sucralfat"
+      ],
+      "effekt": "Komplexbildung vermindert die Aufnahme von Dolutegravir – Dovato 2 Stunden vor oder 6 Stunden nach diesen Präparaten einnehmen; Calcium- oder Eisenpräparate mit einer Mahlzeit gleichzeitig möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Dolutegravir erhöht den Metformin-Spiegel deutlich – Metformin-Dosis ggf. anpassen, Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Efavirenz, Nevirapin, Etravirin, Tipranavir/Ritonavir",
+      "ref": [
+        "efavirenz",
+        "nevirapin",
+        "etravirin"
+      ],
+      "effekt": "Dolutegravir-Spiegel sinken – zusätzliche Dolutegravir-Dosis nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hoch dosiertes Cotrimoxazol (Sulfamethoxazol + Trimethoprim)",
+      "ref": [
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Lamivudin-Spiegel steigen – hohe Dosen (z. B. zur Behandlung einer Pneumocystis-Pneumonie) meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Emtricitabin und emtricitabinhaltige Präparate",
+      "ref": [
+        "emtricitabin",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "bictegravir-emtricitabin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid"
+      ],
+      "effekt": "Gleicher Wirkmechanismus wie Lamivudin – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cladribin",
+      "ref": [
+        "cladribin"
+      ],
+      "effekt": "Lamivudin hemmt die Aktivierung von Cladribin – Wirkverlust möglich; Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sorbitolhaltige Arzneimittel (z. B. Säfte) bei Dauergebrauch",
+      "ref": [],
+      "effekt": "Sorbitol vermindert die Aufnahme von Lamivudin – möglichst meiden, sonst Viruslast häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Präparate mit Dolutegravir oder Lamivudin",
+      "ref": [
+        "dolutegravir",
+        "lamivudin",
+        "abacavir-lamivudin-dolutegravir",
+        "abacavir-lamivudin",
+        "dolutegravir-rilpivirin",
+        "zidovudin-lamivudin",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "effekt": "Doppelte Einnahme vermeiden.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen, Schwindel, Schläfrigkeit", "Übelkeit, Durchfall, Erbrechen, Blähungen, Bauchschmerzen", "Schlaflosigkeit, abnorme Träume", "Depression, Angst", "Hautausschlag, Juckreiz, Haarausfall", "Gelenk- und Muskelbeschwerden", "Müdigkeit", "Erhöhte Leberwerte und Kreatinkinase (CK), Gewichtszunahme"],
-    "gelegentlich": ["Überempfindlichkeitsreaktionen", "Hepatitis (Leberentzündung)", "Suizidgedanken oder Suizidversuch, Panikattacken (vor allem bei psychischer Vorerkrankung)", "Neutropenie, Anämie, Thrombozytopenie", "Immunrekonstitutionssyndrom"],
-    "selten": ["Akutes Leberversagen", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Rhabdomyolyse (Muskelzerfall)", "Angioödem (Schwellung von Haut und Schleimhäuten)", "Laktatazidose (Übersäuerung des Blutes)", "Suizid (bei psychischer Vorerkrankung)"],
-    "sehrSelten": ["Periphere Neuropathie (Kribbeln, Taubheitsgefühl)", "Erythroblastopenie (Aplasie der roten Blutzellen)"]
+    "haeufig": [
+      "Kopfschmerzen, Schwindel, Schläfrigkeit",
+      "Übelkeit, Durchfall, Erbrechen, Blähungen, Bauchschmerzen",
+      "Schlaflosigkeit, abnorme Träume",
+      "Depression, Angst",
+      "Hautausschlag, Juckreiz, Haarausfall",
+      "Gelenk- und Muskelbeschwerden",
+      "Müdigkeit",
+      "Erhöhte Leberwerte und Kreatinkinase (CK), Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Hepatitis (Leberentzündung)",
+      "Suizidgedanken oder Suizidversuch, Panikattacken (vor allem bei psychischer Vorerkrankung)",
+      "Neutropenie, Anämie, Thrombozytopenie",
+      "Immunrekonstitutionssyndrom"
+    ],
+    "selten": [
+      "Akutes Leberversagen",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Suizid (bei psychischer Vorerkrankung)"
+    ],
+    "sehrSelten": [
+      "Periphere Neuropathie (Kribbeln, Taubheitsgefühl)",
+      "Erythroblastopenie (Aplasie der roten Blutzellen)",
+      "Laktatazidose (Übersäuerung des Blutes)"
+    ]
   },
   "schwangerschaft": "Kann bei klinischer Notwendigkeit angewendet werden. Ein früher vermutetes erhöhtes Risiko für Neuralrohrdefekte durch Dolutegravir zum Zeitpunkt der Empfängnis hat sich in grösseren Untersuchungen nicht klar bestätigt – Schwangerschaft mit der HIV-Fachperson planen.",
   "stillzeit": "HIV-positive Mütter sollen grundsätzlich nicht stillen (Übertragungsrisiko); ein Stillwunsch ist mit der HIV-Fachperson zu besprechen.",

@@ -1,46 +1,183 @@
 {
   "id": "dydrogesteron",
   "name": "Dydrogesteron",
-  "synonyme": ["Dydrogesterone", "Dydrogesteronum", "Retroprogesteron"],
-  "atc": ["G03DB01"],
+  "synonyme": [
+    "Dydrogesterone",
+    "Dydrogesteronum",
+    "Retroprogesteron"
+  ],
+  "atc": [
+    "G03DB01"
+  ],
   "klasse": "Gestagen (Retroprogesteron-Derivat)",
   "kurz": "Künstliches Gelbkörperhormon zum Einnehmen bei Zyklusstörungen und Progesteronmangel sowie zum Schutz der Gebärmutter bei Hormonersatz.",
-  "gruppen": ["gestagene"],
-  "handelsnamen": ["Duphaston", "Femoston (Kombi)"],
-  "abgabe": ["B"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "gestagene"
+  ],
+  "handelsnamen": [
+    "Duphaston",
+    "Femoston (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Beschwerden durch Progesteronmangel: Regelschmerzen, unregelmässige oder ausbleibende Regelblutungen (sekundäre Amenorrhö), Zwischenblutungen, prämenstruelles Syndrom", "ids": ["regelbeschwerden"] },
-    { "text": "Endometriose", "ids": ["endometriose"] },
-    { "text": "Je nach Präparat: drohende oder wiederholte Fehlgeburt sowie Unfruchtbarkeit bei nachgewiesener Gelbkörperschwäche; Lutealphasenunterstützung bei künstlicher Befruchtung", "ids": ["unfruchtbarkeit", "schwangerschaft"] },
-    { "text": "Hormonersatztherapie in den Wechseljahren zusammen mit einem Östrogen (z. B. Femoston), zum Schutz der Gebärmutterschleimhaut", "ids": ["wechseljahre"] }
+    {
+      "text": "Beschwerden durch Progesteronmangel: Regelschmerzen, unregelmässige oder ausbleibende Regelblutungen (sekundäre Amenorrhö), Zwischenblutungen, prämenstruelles Syndrom",
+      "ids": [
+        "regelbeschwerden",
+        "zyklusstoerungen"
+      ]
+    },
+    {
+      "text": "Endometriose",
+      "ids": [
+        "endometriose"
+      ]
+    },
+    {
+      "text": "Je nach Präparat: drohende oder wiederholte Fehlgeburt sowie Unfruchtbarkeit bei nachgewiesener Gelbkörperschwäche; Lutealphasenunterstützung bei künstlicher Befruchtung",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    },
+    {
+      "text": "Hormonersatztherapie in den Wechseljahren zusammen mit einem Östrogen (z. B. Femoston), zum Schutz der Gebärmutterschleimhaut",
+      "ids": [
+        "wechseljahre"
+      ]
+    }
   ],
   "wirkmechanismus": "Wirkt wie das körpereigene Gelbkörperhormon und bringt die Gebärmutterschleimhaut in die zweite Zyklusphase. Dydrogesteron ist ein oral wirksames Retroprogesteron, das sehr selektiv an Progesteronrezeptoren bindet und die durch Östrogen aufgebaute Schleimhaut in eine sekretorische Schleimhaut umwandelt. Es hat keine östrogene, androgene oder kortisonartige Wirkung und hemmt in üblicher Dosis den Eisprung nicht. Sein Hauptabbauprodukt (20-alpha-Dihydrodydrogesteron) ist ebenfalls gestagen wirksam.",
   "kontraindikationen": [
-    { "text": "Bekannte oder vermutete gestagenabhängige Tumoren, z. B. Meningeom (gutartiger Hirnhauttumor)", "ids": ["hirntumor"] },
-    { "text": "Nicht abgeklärte Blutungen aus der Scheide", "ids": [] },
-    { "text": "In Kombination mit einem Östrogen (Hormonersatz): bestehender, früherer oder vermuteter Brustkrebs oder andere östrogenabhängige Tumoren", "ids": ["brustkrebs", "gynaekologischer-krebs"] },
-    { "text": "In Kombination mit einem Östrogen: bestehende oder frühere Thrombose oder Lungenembolie, bekannte Thromboseneigung (Thrombophilie)", "ids": ["thrombose", "lungenembolie", "thromboembolie-vorgeschichte"] },
-    { "text": "In Kombination mit einem Östrogen: bestehende oder kürzlich aufgetretene arterielle Thromboembolie (Herzinfarkt, Angina pectoris, Schlaganfall)", "ids": ["herzinfarkt", "angina-pectoris", "schlaganfall"] },
-    { "text": "In Kombination mit einem Östrogen: akute oder frühere Lebererkrankung, solange die Leberwerte nicht normal sind; Porphyrie", "ids": ["leberinsuffizienz", "porphyrie"] }
+    {
+      "text": "Bekannte oder vermutete gestagenabhängige Tumoren, z. B. Meningeom (gutartiger Hirnhauttumor)",
+      "ids": [
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Nicht abgeklärte Blutungen aus der Scheide",
+      "ids": []
+    },
+    {
+      "text": "In Kombination mit einem Östrogen (Hormonersatz): bestehender, früherer oder vermuteter Brustkrebs oder andere östrogenabhängige Tumoren",
+      "ids": [
+        "brustkrebs",
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "In Kombination mit einem Östrogen: bestehende oder frühere Thrombose oder Lungenembolie, bekannte Thromboseneigung (Thrombophilie)",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "In Kombination mit einem Östrogen: bestehende oder kürzlich aufgetretene arterielle Thromboembolie (Herzinfarkt, Angina pectoris, Schlaganfall)",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "In Kombination mit einem Östrogen: akute oder frühere Lebererkrankung, solange die Leberwerte nicht normal sind; Porphyrie",
+      "ids": [
+        "leberinsuffizienz",
+        "porphyrie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Ungewöhnliche Blutungen: vor Behandlungsbeginn Ursache abklären; Durchbruchblutungen unter Therapie untersuchen lassen", "ids": [] },
-    { "text": "Depression in der Vorgeschichte – Stimmung beobachten", "ids": ["depression"] },
-    { "text": "Leberfunktionsstörungen durch akute oder chronische Lebererkrankung", "ids": ["leberinsuffizienz"] },
-    { "text": "Porphyrie (falls nicht ohnehin kontraindiziert)", "ids": ["porphyrie"] },
-    { "text": "Bei Hormonersatz zusammen mit Östrogen: Klassenrisiken für Brustkrebs, Eierstockkrebs, Thrombose, Schlaganfall und koronare Herzkrankheit beachten", "ids": ["brustkrebs", "thromboembolie-vorgeschichte", "schlaganfall", "koronare-herzkrankheit"] }
+    {
+      "text": "Ungewöhnliche Blutungen: vor Behandlungsbeginn Ursache abklären; Durchbruchblutungen unter Therapie untersuchen lassen",
+      "ids": []
+    },
+    {
+      "text": "Depression in der Vorgeschichte – Stimmung beobachten",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Leberfunktionsstörungen durch akute oder chronische Lebererkrankung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Porphyrie: ärztliche Überwachung (zusammen mit einem Östrogen kontraindiziert)",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Bei Hormonersatz zusammen mit Östrogen: Klassenrisiken für Brustkrebs, Eierstockkrebs, Thrombose, Schlaganfall und koronare Herzkrankheit beachten",
+      "ids": [
+        "brustkrebs",
+        "thromboembolie-vorgeschichte",
+        "schlaganfall",
+        "koronare-herzkrankheit"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin, Rifabutin, Nevirapin, Efavirenz)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Beschleunigter Abbau von Dydrogesteron – Wirkung abgeschwächt, Blutungsmuster kann sich verändern.", "schwere": "mittel" },
-    { "text": "Johanniskraut", "ref": ["johanniskraut"], "effekt": "Kann den Abbau von Gestagenen beschleunigen und die Wirkung abschwächen.", "schwere": "mittel" },
-    { "text": "Ritonavir (HIV-Mittel)", "ref": ["ritonavir"], "effekt": "Wirkt zusammen mit Steroidhormonen enzyminduzierend – Gestagenwirkung kann abnehmen.", "schwere": "mittel" }
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin, Rifabutin, Nevirapin, Efavirenz)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Abbau von Dydrogesteron – Wirkung abgeschwächt, Blutungsmuster kann sich verändern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "effekt": "Kann den Abbau von Gestagenen beschleunigen und die Wirkung abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ritonavir (HIV-Mittel)",
+      "ref": [
+        "ritonavir"
+      ],
+      "effekt": "Wirkt zusammen mit Steroidhormonen enzyminduzierend – Gestagenwirkung kann abnehmen.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen, Migräne", "Übelkeit", "Menstruationsstörungen (Zwischenblutungen, starke, schmerzhafte oder ausbleibende Blutungen)", "Brustschmerzen oder Brustspannen"],
-    "gelegentlich": ["Depressive Verstimmung", "Schwindel", "Erbrechen", "Leberfunktionsstörungen, teils mit Gelbsucht, Schwäche und Bauchschmerzen", "Allergische Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht)", "Gewichtszunahme"],
-    "selten": ["Hämolytische Anämie (Blutarmut durch Zerfall roter Blutkörperchen)", "Überempfindlichkeitsreaktionen", "Schläfrigkeit", "Angioödem (Schwellung von Gesicht und Rachen)", "Wassereinlagerungen (Ödeme)", "Brustschwellung", "Grössenzunahme gestagenabhängiger Tumoren (z. B. Meningeom)"]
+    "haeufig": [
+      "Kopfschmerzen, Migräne",
+      "Übelkeit",
+      "Menstruationsstörungen (Zwischenblutungen, starke, schmerzhafte oder ausbleibende Blutungen)",
+      "Brustschmerzen oder Brustspannen"
+    ],
+    "gelegentlich": [
+      "Depressive Verstimmung",
+      "Schwindel",
+      "Erbrechen",
+      "Leberfunktionsstörungen, teils mit Gelbsucht, Schwäche und Bauchschmerzen",
+      "Allergische Hautreaktionen (Ausschlag, Juckreiz, Nesselsucht)",
+      "Gewichtszunahme"
+    ],
+    "selten": [
+      "Hämolytische Anämie (Blutarmut durch Zerfall roter Blutkörperchen)",
+      "Überempfindlichkeitsreaktionen",
+      "Schläfrigkeit",
+      "Angioödem (Schwellung von Gesicht und Rachen)",
+      "Wassereinlagerungen (Ödeme)",
+      "Brustschwellung",
+      "Grössenzunahme gestagenabhängiger Tumoren (z. B. Meningeom)"
+    ]
   },
   "schwangerschaft": "Je nach Präparat bei drohender Fehlgeburt infolge nachgewiesenen Progesteronmangels zugelassen und nur auf ärztliche Verordnung anzuwenden; ein schädigender Einfluss auf das Kind ist nicht belegt. Kombinationen mit Östrogen (Femoston) sind in der Schwangerschaft nicht angezeigt.",
   "stillzeit": "Nicht anwenden – es ist nicht bekannt, ob Dydrogesteron in die Muttermilch übergeht.",

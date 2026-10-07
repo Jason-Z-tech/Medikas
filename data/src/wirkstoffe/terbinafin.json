@@ -1,51 +1,226 @@
 {
   "id": "terbinafin",
   "name": "Terbinafin",
-  "synonyme": ["Terbinafine", "Terbinafinhydrochlorid", "Terbinafinum"],
+  "synonyme": [
+    "Terbinafine",
+    "Terbinafinhydrochlorid",
+    "Terbinafinum"
+  ],
   "kombinationAus": [],
-  "atc": ["D01AE15", "D01BA02"],
+  "atc": [
+    "D01AE15",
+    "D01BA02"
+  ],
   "klasse": "Allylamin-Antimykotikum (Pilzmittel)",
   "kurz": "Pilzmittel gegen Fuss- und Hautpilz (Creme, Gel, Lösung) sowie als Tablette gegen Nagelpilz und ausgedehnten Hautpilz.",
-  "gruppen": ["starke-cyp2d6-hemmer", "hepatotoxisch", "photosensibilisierend"],
-  "handelsnamen": ["Lamisil", "Lamisil Once", "Lamisil Dermgel"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Tabletten", "Creme", "Gel", "Lösung zur Anwendung auf der Haut (Einmalanwendung)"],
+  "gruppen": [
+    "starke-cyp2d6-hemmer",
+    "hepatotoxisch",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Lamisil",
+    "Lamisil Once",
+    "Lamisil Dermgel"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Creme",
+    "Gel",
+    "Lösung zur Anwendung auf der Haut (Einmalanwendung)"
+  ],
   "indikationen": [
-    { "text": "Nagelpilz (Onychomykose) durch Dermatophyten (Tabletten)", "ids": ["hautpilz"] },
-    { "text": "Ausgedehnte oder hartnäckige Pilzinfektionen der Haut durch Dermatophyten (Körper, Leiste, Füsse), wenn eine äusserliche Behandlung nicht genügt (Tabletten)", "ids": ["hautpilz"] },
-    { "text": "Fusspilz und Pilzinfektionen der Haut am Körper und in der Leistengegend (Creme, Gel, Lösung)", "ids": ["hautpilz"] },
-    { "text": "Hefepilzinfektionen der Haut (Candida) und Kleienpilzflechte (Pityriasis versicolor) – nur äusserlich, die Tabletten wirken hier nicht", "ids": ["hautpilz"] }
+    {
+      "text": "Nagelpilz (Onychomykose) durch Dermatophyten (Tabletten)",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Ausgedehnte oder hartnäckige Pilzinfektionen der Haut durch Dermatophyten (Körper, Leiste, Füsse), wenn eine äusserliche Behandlung nicht genügt (Tabletten)",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Fusspilz und Pilzinfektionen der Haut am Körper und in der Leistengegend (Creme, Gel, Lösung)",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Hefepilzinfektionen der Haut (Candida) und Kleienpilzflechte (Pityriasis versicolor) – nur äusserlich, die Tabletten wirken hier nicht",
+      "ids": [
+        "hautpilz"
+      ]
+    }
   ],
   "wirkmechanismus": "Tötet Pilze ab, indem es den Aufbau ihrer Zellmembran stört. Terbinafin hemmt gezielt das pilzeigene Enzym Squalen-Epoxidase: Dadurch fehlt der Membranbaustein Ergosterol, und gleichzeitig reichert sich Squalen in giftigen Mengen in der Pilzzelle an. Gegen Dermatophyten (Fadenpilze) wirkt es abtötend (fungizid), gegen Hefen teils nur wachstumshemmend. Nach Einnahme reichert sich Terbinafin in Haut, Haaren und Nägeln an und bleibt dort über Wochen wirksam.",
   "kontraindikationen": [
-    { "text": "Chronische oder aktive Lebererkrankung (Tabletten)", "ids": ["leberinsuffizienz", "leberzirrhose"] }
+    {
+      "text": "Chronische oder aktive Lebererkrankung (Tabletten)",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Leberschäden (Tabletten): Leberwerte vor Beginn bestimmen; bei anhaltender Übelkeit, Appetitlosigkeit, Müdigkeit, Gelbsucht, dunklem Urin oder hellem Stuhl sofort absetzen und Arzt aufsuchen", "ids": ["leberinsuffizienz"] },
-    { "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 50 ml/min): Tabletten nicht ausreichend untersucht und nicht empfohlen", "ids": ["niereninsuffizienz"] },
-    { "text": "Psoriasis oder Lupus erythematodes: können unter den Tabletten ausgelöst oder verschlimmert werden", "ids": ["psoriasis", "lupus"] },
-    { "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS): bei sich ausbreitendem Hautausschlag Tabletten sofort absetzen", "ids": ["schwere-hautreaktion"] },
-    { "text": "Blutbildveränderungen: bei Fieber, Halsschmerzen oder ungewöhnlichen Infekten unter Tabletten Blutbild kontrollieren", "ids": ["neutropenie"] },
-    { "text": "Depression: Geschmacksstörungen durch die Tabletten können zu Appetit- und Gewichtsverlust sowie depressiver Verstimmung führen", "ids": ["depression"] },
-    { "text": "Kinder: begrenzte Erfahrung; Anwendung je nach Präparat erst ab einem bestimmten Alter, Packungsbeilage beachten", "ids": ["kinder"] }
+    {
+      "text": "Leberschäden (Tabletten): Leberwerte vor Beginn bestimmen; bei anhaltender Übelkeit, Appetitlosigkeit, Müdigkeit, Gelbsucht, dunklem Urin oder hellem Stuhl sofort absetzen und Arzt aufsuchen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 50 ml/min): Tabletten nicht ausreichend untersucht und nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Psoriasis oder Lupus erythematodes: können unter den Tabletten ausgelöst oder verschlimmert werden",
+      "ids": [
+        "psoriasis",
+        "lupus"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS): bei sich ausbreitendem Hautausschlag Tabletten sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen: bei Fieber, Halsschmerzen oder ungewöhnlichen Infekten unter Tabletten Blutbild kontrollieren",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Depression: Geschmacksstörungen durch die Tabletten können zu Appetit- und Gewichtsverlust sowie depressiver Verstimmung führen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Kinder: begrenzte Erfahrung; Anwendung je nach Präparat erst ab einem bestimmten Alter, Packungsbeilage beachten",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Über CYP2D6 abgebaute Mittel mit geringer therapeutischer Breite (z. B. trizyklische Antidepressiva, Flecainid, Propafenon, Metoprolol) – bei Tabletten", "ref": ["gruppe:cyp2d6-substrate", "gruppe:trizyklische-antidepressiva", "flecainid", "propafenon"], "effekt": "Terbinafin hemmt CYP2D6 stark und noch Wochen nach dem Absetzen: Spiegel dieser Mittel steigen deutlich – Dosis überprüfen, auf Nebenwirkungen achten.", "schwere": "schwer" },
-    { "text": "Rifampicin und andere Enzyminduktoren – bei Tabletten", "ref": ["rifampicin", "gruppe:cyp3a4-induktoren"], "effekt": "Terbinafin wird viel schneller abgebaut (mit Rifampicin etwa doppelt so schnell) – Wirkung kann ungenügend sein.", "schwere": "mittel" },
-    { "text": "Fluconazol, Ketoconazol, Amiodaron und andere Hemmer von CYP2C9 und CYP3A4 – bei Tabletten", "ref": ["fluconazol", "gruppe:cyp2c9-hemmer", "gruppe:starke-cyp3a4-hemmer"], "effekt": "Terbinafin-Spiegel steigen (mit Fluconazol um etwa 50–70 %) – mehr Nebenwirkungen möglich.", "schwere": "mittel" },
-    { "text": "Ciclosporin – bei Tabletten", "ref": ["ciclosporin"], "effekt": "Ciclosporin wird etwas schneller abgebaut, der Spiegel kann sinken – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol) – bei Tabletten", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Sehr selten veränderte Gerinnungswerte – INR zu Beginn und nach Ende der Behandlung kontrollieren.", "schwere": "mittel" },
-    { "text": "Hormonale Verhütungsmittel – bei Tabletten", "ref": ["gruppe:hormonale-kontrazeptiva"], "effekt": "Vereinzelt Zyklusstörungen und Zwischenblutungen; die Verhütungssicherheit ist nach heutigem Wissen nicht vermindert.", "schwere": "leicht" },
-    { "text": "Coffein – bei Tabletten", "ref": ["coffein"], "effekt": "Coffein wird etwas langsamer abgebaut – bei Herzklopfen oder Unruhe weniger Kaffee trinken.", "schwere": "leicht" }
+    {
+      "text": "Über CYP2D6 abgebaute Mittel mit geringer therapeutischer Breite (z. B. trizyklische Antidepressiva, Flecainid, Propafenon, Metoprolol) – bei Tabletten",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "gruppe:trizyklische-antidepressiva",
+        "flecainid",
+        "propafenon"
+      ],
+      "effekt": "Terbinafin hemmt CYP2D6 stark und noch Wochen nach dem Absetzen: Spiegel dieser Mittel steigen deutlich – Dosis überprüfen, auf Nebenwirkungen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin und andere Enzyminduktoren – bei Tabletten",
+      "ref": [
+        "rifampicin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Terbinafin wird viel schneller abgebaut (mit Rifampicin etwa doppelt so schnell) – Wirkung kann ungenügend sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluconazol, Ketoconazol, Amiodaron und andere Hemmer von CYP2C9 und CYP3A4 – bei Tabletten",
+      "ref": [
+        "fluconazol",
+        "gruppe:cyp2c9-hemmer",
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Terbinafin-Spiegel steigen (mit Fluconazol um etwa 50–70 %) – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin – bei Tabletten",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin wird etwas schneller abgebaut, der Spiegel kann sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol) – bei Tabletten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Sehr selten veränderte Gerinnungswerte – INR zu Beginn und nach Ende der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel – bei Tabletten",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Vereinzelt Zyklusstörungen und Zwischenblutungen; die Verhütungssicherheit ist nach heutigem Wissen nicht vermindert.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Coffein – bei Tabletten",
+      "ref": [
+        "coffein"
+      ],
+      "effekt": "Coffein wird etwas langsamer abgebaut – bei Herzklopfen oder Unruhe weniger Kaffee trinken.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen (Tabletten)", "Magen-Darm-Beschwerden wie Völlegefühl, Appetitlosigkeit, Dyspepsie (Verdauungsbeschwerden), Übelkeit, leichte Bauchschmerzen, Durchfall (Tabletten)", "Hautausschlag, Nesselsucht (Tabletten)", "Gelenk- und Muskelschmerzen (Tabletten)"],
-    "haeufig": ["Geschmacksstörung oder Geschmacksverlust, teils lang anhaltend (Tabletten)", "Schwindel, Müdigkeit (Tabletten)", "Sehstörungen (Tabletten)", "Depressive Verstimmung (Tabletten)", "Hautschuppung und Juckreiz an der Auftragsstelle (Creme, Gel)"],
-    "gelegentlich": ["Kribbeln oder Taubheitsgefühl (Parästhesien)", "Ohrgeräusche (Tinnitus)", "Lichtempfindlichkeit der Haut (Photosensibilität)", "Angst, Fieber, Gewichtsabnahme", "Rötung, Brennen oder Reizung an der Auftragsstelle (Creme, Gel)"],
-    "selten": ["Leberschäden: Hepatitis, Gallestau, Gelbsucht, erhöhte Leberwerte, Leberversagen (Einzelfälle mit Lebertransplantation oder tödlichem Verlauf)", "Augenreizung, trockene Haut, Kontaktekzem (äusserliche Anwendung)"],
-    "sehrSelten": ["Agranulozytose, Neutropenie, Thrombozytopenie, Panzytopenie (schwere Blutbildstörungen)", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, akute generalisierte exanthematische Pustulose)", "Auslösung oder Verschlechterung einer Psoriasis", "Lupus erythematodes (Haut oder ganzer Körper)", "Anaphylaktoide Reaktionen, Angioödem (Schwellung von Haut und Schleimhäuten)", "Haarausfall"],
-    "unbekannt": ["DRESS (schwere Arzneimittelreaktion mit Fieber, Ausschlag und Organbeteiligung)", "Pankreatitis (Bauchspeicheldrüsenentzündung)", "Geruchsverlust, Hörminderung", "Vaskulitis (Gefässentzündung)", "Rhabdomyolyse (Muskelzerfall)", "Serumkrankheit-ähnliche Reaktion, grippeähnliche Beschwerden"]
+    "sehrHaeufig": [
+      "Kopfschmerzen (Tabletten)",
+      "Magen-Darm-Beschwerden wie Völlegefühl, Appetitlosigkeit, Dyspepsie (Verdauungsbeschwerden), Übelkeit, leichte Bauchschmerzen, Durchfall (Tabletten)",
+      "Hautausschlag, Nesselsucht (Tabletten)",
+      "Gelenk- und Muskelschmerzen (Tabletten)"
+    ],
+    "haeufig": [
+      "Geschmacksstörung oder Geschmacksverlust, teils lang anhaltend (Tabletten)",
+      "Schwindel, Müdigkeit (Tabletten)",
+      "Sehstörungen (Tabletten)",
+      "Depressive Verstimmung (Tabletten)",
+      "Hautschuppung und Juckreiz an der Auftragsstelle (Creme, Gel)"
+    ],
+    "gelegentlich": [
+      "Kribbeln oder Taubheitsgefühl (Parästhesien)",
+      "Ohrgeräusche (Tinnitus)",
+      "Lichtempfindlichkeit der Haut (Photosensibilität)",
+      "Angst, Fieber, Gewichtsabnahme",
+      "Rötung, Brennen oder Reizung an der Auftragsstelle (Creme, Gel)"
+    ],
+    "selten": [
+      "Leberschäden: Hepatitis, Gallestau, Gelbsucht, erhöhte Leberwerte, Leberversagen (Einzelfälle mit Lebertransplantation oder tödlichem Verlauf)",
+      "Augenreizung, trockene Haut, Kontaktekzem (äusserliche Anwendung)"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, Neutropenie, Thrombozytopenie (schwere Blutbildstörungen)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, akute generalisierte exanthematische Pustulose)",
+      "Auslösung oder Verschlechterung einer Psoriasis",
+      "Lupus erythematodes (Haut oder ganzer Körper)",
+      "Anaphylaktoide Reaktionen, Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Haarausfall"
+    ],
+    "unbekannt": [
+      "Panzytopenie, Anämie (Blutbildstörungen)",
+      "DRESS (schwere Arzneimittelreaktion mit Fieber, Ausschlag und Organbeteiligung)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Geruchsverlust, Hörminderung",
+      "Vaskulitis (Gefässentzündung)",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Serumkrankheit-ähnliche Reaktion, grippeähnliche Beschwerden"
+    ]
   },
   "schwangerschaft": "Tabletten: nicht anwenden, ausser wenn eindeutig notwendig (ungenügende Erfahrung). Creme, Gel und Lösung nur nach ärztlicher Abwägung; die Aufnahme über die Haut ist gering.",
   "stillzeit": "Terbinafin geht in die Muttermilch über: während der Einnahme von Tabletten nicht stillen. Äusserliche Mittel nicht auf die Brust auftragen; der Säugling soll nicht mit behandelter Haut in Kontakt kommen.",

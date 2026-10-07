@@ -1,36 +1,120 @@
 {
   "id": "vitamin-b-komplex",
   "name": "Vitamin-B-Komplex",
-  "synonyme": ["B-Vitamine", "Vitamin-B-Kombination", "Vitamin B1 + B6 + B12", "Neurotrope B-Vitamine"],
-  "kombinationAus": ["thiamin-vitamin-b1", "pyridoxin-vitamin-b6", "cyanocobalamin"],
-  "atc": ["A11EA", "A11DB"],
+  "synonyme": [
+    "B-Vitamine",
+    "Vitamin-B-Kombination",
+    "Vitamin B1 + B6 + B12",
+    "Neurotrope B-Vitamine"
+  ],
+  "kombinationAus": [
+    "thiamin-vitamin-b1",
+    "pyridoxin-vitamin-b6",
+    "cyanocobalamin"
+  ],
+  "atc": [
+    "A11EA",
+    "A11DB"
+  ],
   "klasse": "Vitamin-B-Kombination (Vitamin-B-Komplex bzw. Vitamin B1 + B6 + B12)",
   "kurz": "Kombination mehrerer B-Vitamine bei Vitamin-B-Mangel und erhöhtem Bedarf; hoch dosiert (B1, B6, B12) bei Nervenbeschwerden durch Mangel.",
   "gruppen": [],
-  "handelsnamen": ["Becozym forte", "Benexol B12"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Dragées", "Filmtabletten", "Injektionslösung"],
+  "handelsnamen": [
+    "Becozym forte",
+    "Benexol B12"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Dragées",
+    "Filmtabletten",
+    "Injektionslösung"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung und Behandlung von Vitamin-B-Mangel bei einseitiger Ernährung, Alkoholkrankheit, Erholungsphase nach Krankheit oder erhöhtem Bedarf", "ids": ["mangelernaehrung", "alkoholabhaengigkeit"] },
-    { "text": "Hoch dosierte B1-B6-B12-Präparate: Nervenentzündungen, Nervenschmerzen und Polyneuropathien bei Mangel an diesen Vitaminen", "ids": ["nervenschmerzen", "vitamin-b12-mangel"] }
+    {
+      "text": "Vorbeugung und Behandlung von Vitamin-B-Mangel bei einseitiger Ernährung, Alkoholkrankheit, Erholungsphase nach Krankheit oder erhöhtem Bedarf",
+      "ids": [
+        "mangelernaehrung",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Hoch dosierte B1-B6-B12-Präparate: Nervenentzündungen, Nervenschmerzen und Polyneuropathien bei Mangel an diesen Vitaminen",
+      "ids": [
+        "nervenschmerzen",
+        "vitamin-b12-mangel"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt B-Vitamine, die als Hilfsstoffe von Enzymen für Energiestoffwechsel, Nerven und Blutbildung nötig sind. Thiamin (B1) wirkt als Thiaminpyrophosphat im Kohlenhydratstoffwechsel, Pyridoxin (B6) als Pyridoxalphosphat im Aminosäure- und Botenstoffwechsel der Nerven, Cyanocobalamin (B12) bei der DNA-Bildung, der Blutbildung und dem Aufbau der Nervenscheiden (Myelin). Breite Komplex-Präparate enthalten zusätzlich Riboflavin (B2), Nicotinamid, Pantothensäure und teils Biotin. Ein Nutzen bei Nervenbeschwerden ist vor allem bei tatsächlichem Mangel zu erwarten.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Langdauernde Einnahme hoher Vitamin-B6-Dosen kann selbst Nervenschäden (Kribbeln, Taubheitsgefühl, Gangunsicherheit) verursachen – bei solchen Beschwerden absetzen", "ids": ["nervenschmerzen"] },
-    { "text": "Injektion: selten schwere allergische Reaktionen", "ids": ["anaphylaxie", "allergie"] },
-    { "text": "Ungeklärte Blutarmut: vor der Behandlung Ursache abklären (Vitamin-B12- oder Folsäuremangel), da B-Vitamine Befunde verschleiern können", "ids": ["anaemie", "vitamin-b12-mangel"] },
-    { "text": "Biotinhaltige Präparate können Laborwerte verfälschen (z. B. Schilddrüsenwerte, Troponin)", "ids": [] }
+    {
+      "text": "Langdauernde Einnahme hoher Vitamin-B6-Dosen kann selbst Nervenschäden (Kribbeln, Taubheitsgefühl, Gangunsicherheit) verursachen – bei solchen Beschwerden absetzen",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Injektion: selten schwere allergische Reaktionen",
+      "ids": [
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Ungeklärte Blutarmut: vor der Behandlung Ursache abklären (Vitamin-B12- oder Folsäuremangel), da B-Vitamine Befunde verschleiern können",
+      "ids": [
+        "anaemie",
+        "vitamin-b12-mangel"
+      ]
+    },
+    {
+      "text": "Biotinhaltige Präparate können Laborwerte verfälschen (z. B. Schilddrüsenwerte, Troponin)",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Phenytoin und Phenobarbital (bei hohen Vitamin-B6-Dosen)", "ref": ["phenytoin", "phenobarbital"], "effekt": "Hoch dosiertes Vitamin B6 kann die Spiegel dieser Antiepileptika senken – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Fluorouracil und Capecitabin", "ref": ["gruppe:fluoropyrimidine"], "effekt": "Können die Aktivierung von Thiamin (B1) hemmen.", "schwere": "leicht" },
-    { "text": "Isoniazid und Penicillamin", "ref": ["isoniazid", "penicillamin"], "effekt": "Wirken als Vitamin-B6-Gegenspieler und erhöhen den B6-Bedarf – eine B6-Ergänzung ist oft erwünscht.", "schwere": "leicht" }
+    {
+      "text": "Phenytoin und Phenobarbital (bei hohen Vitamin-B6-Dosen)",
+      "ref": [
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Hoch dosiertes Vitamin B6 kann die Spiegel dieser Antiepileptika senken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluorouracil und Capecitabin",
+      "ref": [
+        "gruppe:fluoropyrimidine"
+      ],
+      "effekt": "Können die Aktivierung von Thiamin (B1) hemmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Isoniazid und Penicillamin",
+      "ref": [
+        "isoniazid",
+        "penicillamin"
+      ],
+      "effekt": "Wirken als Vitamin-B6-Gegenspieler und erhöhen den B6-Bedarf – eine B6-Ergänzung ist oft erwünscht.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrSelten": ["Überempfindlichkeitsreaktionen (Hautausschlag, Juckreiz, Nesselsucht) bis zum anaphylaktischen Schock, vor allem nach Injektion"],
-    "unbekannt": ["Magen-Darm-Beschwerden (Übelkeit, Bauchschmerzen, Durchfall)", "Harmlose intensive Gelbfärbung des Urins (Vitamin B2)", "Akneartige Hautveränderungen (Vitamin B12)", "Periphere Nervenschäden (sensorische Neuropathie) bei langdauernder Einnahme hoher Vitamin-B6-Dosen"]
+    "sehrSelten": [
+      "Überempfindlichkeitsreaktionen (Hautausschlag, Juckreiz, Nesselsucht) bis zum anaphylaktischen Schock, vor allem nach Injektion"
+    ],
+    "unbekannt": [
+      "Magen-Darm-Beschwerden (Übelkeit, Bauchschmerzen, Durchfall)",
+      "Harmlose intensive Gelbfärbung des Urins (Vitamin B2)",
+      "Akneartige Hautveränderungen (Vitamin B12)",
+      "Periphere Nervenschäden (sensorische Neuropathie) bei langdauernder Einnahme hoher Vitamin-B6-Dosen"
+    ]
   },
   "schwangerschaft": "In Dosen zur Bedarfsdeckung erlaubt; hoch dosierte Präparate (vor allem mit viel Vitamin B6) nur nach ärztlicher Abwägung.",
   "stillzeit": "In üblichen Dosen erlaubt; sehr hohe Vitamin-B6-Dosen können die Milchbildung hemmen.",

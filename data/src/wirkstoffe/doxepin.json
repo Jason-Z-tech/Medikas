@@ -1,0 +1,278 @@
+{
+  "id": "doxepin",
+  "name": "Doxepin",
+  "synonyme": [
+    "Doxepine",
+    "Doxepinhydrochlorid"
+  ],
+  "atc": [
+    "N06AA12"
+  ],
+  "klasse": "Trizyklisches Antidepressivum (stark dämpfend)",
+  "kurz": "Dämpfendes Antidepressivum aus der Gruppe der Trizyklika; bei Depressionen mit Angst, Unruhe und Schlafstörungen.",
+  "gruppen": [
+    "trizyklische-antidepressiva",
+    "serotonerg",
+    "anticholinerg",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "cyp2d6-substrate",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Sinquan"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Depressionen, besonders mit Angst, Unruhe und Schlafstörungen",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Angstzustände",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt stimmungsaufhellend, angstlösend und stark beruhigend. Doxepin hemmt die Wiederaufnahme von Noradrenalin und Serotonin in die Nervenendigungen; sein Abbaustoff Desmethyldoxepin wirkt ebenfalls antidepressiv. Sehr ausgeprägt ist die Blockade von Histamin-H1-Rezeptoren (starke Müdigkeit), daneben werden Muskarin- und Alpha-1-Rezeptoren blockiert. Der Abbau erfolgt in der Leber vor allem über CYP2C19 und CYP2D6.",
+  "kontraindikationen": [
+    {
+      "text": "Unbehandeltes Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Akuter Harnverhalt; Prostatavergrösserung mit Restharnbildung",
+      "ids": [
+        "harnverhalt",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Darmlähmung (paralytischer Ileus)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Akute Verwirrtheitszustände (Delir)",
+      "ids": [
+        "delir"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Kinder unter 12 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten, Herzrhythmus- und Reizleitungsstörungen, QT-Verlängerung",
+      "ids": [
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erniedrigte Krampfschwelle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders zu Therapiebeginn und bei jungen Erwachsenen unter 25 Jahren",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Bipolare Störung (Umschlagen in eine Manie möglich) oder Schizophrenie",
+      "ids": [
+        "bipolare-stoerung",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung ohne Restharn",
+      "ids": [
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: starke Müdigkeit, Verwirrtheit, Blutdruckabfall und Sturzgefahr",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen in der Vorgeschichte",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer – auch innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr eines lebensbedrohlichen Serotoninsyndroms und von Blutdruckkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere serotonerge Mittel (z. B. SSRI, SNRI, Triptane, Tramadol, Lithium, Linezolid)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:triptane",
+        "tramadol",
+        "lithium",
+        "linezolid"
+      ],
+      "effekt": "Serotoninsyndrom möglich (Unruhe, Fieber, Muskelzucken, Durchfall) – nur mit Vorsicht und Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel und Antiarrhythmika der Klasse I",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Erhöhte Gefahr gefährlicher Herzrhythmusstörungen – möglichst vermeiden, EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sympathomimetika, z. B. Adrenalin oder Noradrenalin (auch in Lokalanästhetika)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Starker Blutdruckanstieg und Herzrhythmusstörungen möglich.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel (Schlaf- und Beruhigungsmittel, Opioide, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:opioide"
+      ],
+      "effekt": "Deutlich verstärkte Dämpfung und Reaktionsverlangsamung – keinen Alkohol trinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Doxepin-Spiegel steigt – vermehrte Nebenwirkungen; Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19-Hemmer (z. B. Fluvoxamin, Fluconazol)",
+      "ref": [
+        "gruppe:cyp2c19-hemmer"
+      ],
+      "effekt": "Doxepin-Spiegel kann steigen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit; Gefahr eines Darmverschlusses.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin und andere zentral wirkende Blutdrucksenker",
+      "ref": [
+        "gruppe:zentrale-alpha2-agonisten"
+      ],
+      "effekt": "Blutdrucksenkende Wirkung abgeschwächt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Doxepin-Spiegel sinkt, Wirkung kann abgeschwächt sein.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit, Benommenheit",
+      "Mundtrockenheit",
+      "Obstipation (Verstopfung)",
+      "Verschwommenes Sehen (Akkommodationsstörungen)",
+      "Schwindel, Blutdruckabfall beim Aufstehen",
+      "Vermehrtes Schwitzen",
+      "Zittern (Tremor)",
+      "Gewichtszunahme"
+    ],
+    "haeufig": [
+      "Verstopfte Nase",
+      "Unruhe, Schlafstörungen, Kopfschmerzen",
+      "Herzrasen, Herzrhythmusstörungen",
+      "Blasenentleerungsstörungen",
+      "Libido- und Potenzstörungen",
+      "Durst",
+      "Hautausschlag, Juckreiz"
+    ],
+    "unbekannt": [
+      "Krampfanfälle",
+      "Verwirrtheit, Delir (v. a. bei älteren Menschen)",
+      "QT-Verlängerung",
+      "Harnverhalt, Darmlähmung (paralytischer Ileus)",
+      "Blutbildveränderungen bis Agranulozytose",
+      "Erhöhte Leberwerte, Gelbsucht",
+      "Hyponatriämie (Natriummangel)",
+      "Suizidgedanken und suizidales Verhalten"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung, besonders im 1. Drittel zurückhaltend. Bei Einnahme bis zur Geburt sind beim Neugeborenen Anpassungs- und Entzugsstörungen möglich.",
+  "stillzeit": "Kontraindiziert: Doxepin geht in die Muttermilch über, beim gestillten Säugling wurden Atemdämpfung und starke Schläfrigkeit beobachtet.",
+  "hinweise": [
+    "Wegen der dämpfenden Wirkung wird ein Grossteil der Tagesdosis meist abends eingenommen; Fahrtüchtigkeit eingeschränkt, keinen Alkohol trinken.",
+    "Die stimmungsaufhellende Wirkung setzt erst nach 2–4 Wochen ein; die beruhigende Wirkung schon früher.",
+    "Nicht abrupt absetzen, sondern schrittweise nach ärztlicher Anweisung.",
+    "Eine Überdosis ist lebensgefährlich – für Kinder unzugänglich aufbewahren."
+  ],
+  "stand": "2026-10"
+}

@@ -1,52 +1,253 @@
 {
   "id": "abacavir-lamivudin-dolutegravir",
   "name": "Abacavir + Lamivudin + Dolutegravir",
-  "synonyme": ["ABC/3TC/DTG", "Abacavir/Lamivudin/Dolutegravir"],
-  "kombinationAus": ["abacavir", "lamivudin", "dolutegravir"],
-  "atc": ["J05AR13"],
+  "synonyme": [
+    "ABC/3TC/DTG",
+    "Abacavir/Lamivudin/Dolutegravir"
+  ],
+  "kombinationAus": [
+    "abacavir",
+    "lamivudin",
+    "dolutegravir"
+  ],
+  "atc": [
+    "J05AR13"
+  ],
   "klasse": "HIV-Kombination: Integrasehemmer (Dolutegravir) und zwei NRTI (Abacavir, Lamivudin)",
   "kurz": "HIV-Medikament mit drei Wirkstoffen in einer Tablette (vollständige Therapie); vor Beginn ist ein HLA-B*5701-Test nötig.",
-  "gruppen": ["integrasehemmer"],
-  "handelsnamen": ["Triumeq"],
-  "abgabe": ["A"],
-  "darreichung": ["Filmtabletten"],
+  "gruppen": [
+    "integrasehemmer"
+  ],
+  "handelsnamen": [
+    "Triumeq"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "HIV-1-Infektion bei Erwachsenen, Jugendlichen und Kindern ab einem Mindestgewicht, als vollständige Therapie in einer Tablette", "ids": ["hiv"] }
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen, Jugendlichen und Kindern ab einem Mindestgewicht, als vollständige Therapie in einer Tablette",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Vermehrung von HIV an zwei Stellen. Dolutegravir blockiert die Integrase und verhindert den Einbau der Virus-DNA in das Erbgut der Wirtszelle (Strangtransfer). Abacavir (ein Guanosin-Analogon, aktiv als Carbovir-Triphosphat) und Lamivudin (ein Cytidin-Analogon) werden in den Zellen phosphoryliert, von der Reversen Transkriptase in die Virus-DNA eingebaut und führen zum Kettenabbruch. Die Kombination mehrerer Wirkprinzipien beugt Resistenzen vor.",
   "kontraindikationen": [
-    { "text": "Trägerinnen und Träger des Erbmerkmals HLA-B*5701 (sehr hohes Risiko einer Überempfindlichkeitsreaktion auf Abacavir)", "ids": [] },
-    { "text": "Frühere Überempfindlichkeitsreaktion auf Abacavir – nie wieder ein abacavirhaltiges Mittel einnehmen (lebensbedrohliche Reaktion möglich)", "ids": [] }
+    {
+      "text": "Trägerinnen und Träger des Erbmerkmals HLA-B*5701 (sehr hohes Risiko einer Überempfindlichkeitsreaktion auf Abacavir)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Frühere Überempfindlichkeitsreaktion auf Abacavir – nie wieder ein abacavirhaltiges Mittel einnehmen (lebensbedrohliche Reaktion möglich)",
+      "ids": []
+    }
   ],
   "vorsicht": [
-    { "text": "Erhöhtes Herz-Kreislauf-Risiko (z. B. Rauchen, Bluthochdruck, Diabetes, erhöhte Blutfette): Abacavir wurde in Studien mit einem erhöhten Herzinfarktrisiko in Verbindung gebracht", "ids": ["koronare-herzkrankheit", "herzinfarkt"] },
-    { "text": "Mittelschwere bis schwere Leberinsuffizienz: Fixkombination nicht empfohlen", "ids": ["leberinsuffizienz"] },
-    { "text": "Eingeschränkte Nierenfunktion: je nach Schweregrad Einzelpräparate nötig (Lamivudin-Dosis in der Fixkombination nicht anpassbar)", "ids": ["niereninsuffizienz"] },
-    { "text": "Hepatitis-B-Koinfektion: Lamivudin allein reicht nicht; Absetzen kann einen Hepatitisschub auslösen", "ids": ["hepatitis-b"] },
-    { "text": "Depression oder Suizidgedanken in der Vorgeschichte", "ids": ["depression", "suizidgedanken"] },
-    { "text": "Immunrekonstitutionssyndrom, Gewichtszunahme und Anstieg der Blutfette unter der Therapie", "ids": ["hiv"] }
+    {
+      "text": "Erhöhtes Herz-Kreislauf-Risiko (z. B. Rauchen, Bluthochdruck, Diabetes, erhöhte Blutfette): Abacavir wurde in Studien mit einem erhöhten Herzinfarktrisiko in Verbindung gebracht",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "koronare-herzkrankheit",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz: Fixkombination nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: je nach Schweregrad Einzelpräparate nötig (Lamivudin-Dosis in der Fixkombination nicht anpassbar)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Koinfektion: Lamivudin allein reicht nicht; Absetzen kann einen Hepatitisschub auslösen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom, Gewichtszunahme und Anstieg der Blutfette unter der Therapie",
+      "ids": [
+        "hiv"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Fampridin (Mittel bei Multipler Sklerose)", "ref": ["fampridin"], "grund": "Dolutegravir hemmt den Nierentransporter OCT2, über den Fampridin ausgeschieden wird – erhöhte Fampridin-Spiegel mit Gefahr von Krampfanfällen." }
+    {
+      "text": "Fampridin (Mittel bei Multipler Sklerose)",
+      "ref": [
+        "fampridin"
+      ],
+      "grund": "Dolutegravir hemmt den Nierentransporter OCT2, über den Fampridin ausgeschieden wird – erhöhte Fampridin-Spiegel mit Gefahr von Krampfanfällen."
+    }
   ],
   "interaktionen": [
-    { "text": "Enzyminduktoren: Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut", "ref": ["rifampicin", "carbamazepin", "oxcarbazepin", "phenytoin", "phenobarbital", "johanniskraut", "gruppe:cyp3a4-induktoren"], "effekt": "Dolutegravir-Spiegel sinken – zusätzlich eine Dolutegravir-Tablette 50 mg rund 12 Stunden nach Triumeq oder, wo möglich, Alternative wählen.", "schwere": "schwer" },
-    { "text": "Mehrwertige Kationen: Antazida, Magnesium-, Aluminium-, Calcium-, Eisen- und Zinkpräparate, Multivitamine, Sucralfat", "ref": ["gruppe:mehrwertige-kationen", "gruppe:antazida", "gruppe:eisenpraeparate", "sucralfat"], "effekt": "Komplexbildung vermindert die Aufnahme von Dolutegravir – Triumeq 2 Stunden vor oder 6 Stunden nach diesen Präparaten einnehmen; Calcium- oder Eisenpräparate mit einer Mahlzeit gleichzeitig möglich.", "schwere": "mittel" },
-    { "text": "Metformin", "ref": ["metformin"], "effekt": "Dolutegravir erhöht den Metformin-Spiegel deutlich – Metformin-Dosis ggf. anpassen, Nierenfunktion kontrollieren.", "schwere": "mittel" },
-    { "text": "Efavirenz, Nevirapin, Etravirin, Tipranavir/Ritonavir", "ref": ["efavirenz", "nevirapin", "etravirin"], "effekt": "Dolutegravir-Spiegel sinken – zusätzliche Dolutegravir-Dosis nötig; Etravirin nur mit einem geboosterten Proteasehemmer.", "schwere": "mittel" },
-    { "text": "Hoch dosiertes Cotrimoxazol (Sulfamethoxazol + Trimethoprim)", "ref": ["sulfamethoxazol-trimethoprim"], "effekt": "Lamivudin-Spiegel steigen – hohe Dosen (z. B. zur Behandlung einer Pneumocystis-Pneumonie) meiden.", "schwere": "mittel" },
-    { "text": "Emtricitabin und emtricitabinhaltige Präparate", "ref": ["emtricitabin", "emtricitabin-tenofovirdisoproxil", "emtricitabin-tenofoviralafenamid", "bictegravir-emtricitabin-tenofoviralafenamid"], "effekt": "Gleicher Wirkmechanismus wie Lamivudin – nicht kombinieren.", "schwere": "mittel" },
-    { "text": "Cladribin", "ref": ["cladribin"], "effekt": "Lamivudin hemmt die Aktivierung von Cladribin – Wirkverlust möglich; Kombination nicht empfohlen.", "schwere": "mittel" },
-    { "text": "Riociguat", "ref": ["riociguat"], "effekt": "Abacavir hemmt den Abbau von Riociguat (CYP1A1) – Riociguat-Spiegel steigen, Dosis ggf. reduzieren.", "schwere": "mittel" },
-    { "text": "Sorbitolhaltige Arzneimittel (z. B. Säfte) bei Dauergebrauch", "ref": [], "effekt": "Sorbitol vermindert die Aufnahme von Lamivudin – möglichst meiden, sonst Viruslast häufiger kontrollieren.", "schwere": "mittel" },
-    { "text": "Methadon", "ref": ["methadon"], "effekt": "Abacavir kann den Methadon-Abbau leicht beschleunigen – auf Entzugssymptome achten.", "schwere": "leicht" }
+    {
+      "text": "Enzyminduktoren: Rifampicin, Carbamazepin, Oxcarbazepin, Phenytoin, Phenobarbital, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenytoin",
+        "phenobarbital",
+        "johanniskraut",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Dolutegravir-Spiegel sinken – zusätzlich eine Dolutegravir-Tablette 50 mg rund 12 Stunden nach Triumeq oder, wo möglich, Alternative wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mehrwertige Kationen: Antazida, Magnesium-, Aluminium-, Calcium-, Eisen- und Zinkpräparate, Multivitamine, Sucralfat",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate",
+        "sucralfat"
+      ],
+      "effekt": "Komplexbildung vermindert die Aufnahme von Dolutegravir – Triumeq 2 Stunden vor oder 6 Stunden nach diesen Präparaten einnehmen; Calcium- oder Eisenpräparate mit einer Mahlzeit gleichzeitig möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Dolutegravir erhöht den Metformin-Spiegel deutlich – Metformin-Dosis ggf. anpassen, Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Efavirenz, Nevirapin, Etravirin, Tipranavir/Ritonavir",
+      "ref": [
+        "efavirenz",
+        "nevirapin",
+        "etravirin"
+      ],
+      "effekt": "Dolutegravir-Spiegel sinken – zusätzliche Dolutegravir-Dosis nötig; Etravirin nur mit einem geboosterten Proteasehemmer.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hoch dosiertes Cotrimoxazol (Sulfamethoxazol + Trimethoprim)",
+      "ref": [
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Lamivudin-Spiegel steigen – hohe Dosen (z. B. zur Behandlung einer Pneumocystis-Pneumonie) meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Emtricitabin und emtricitabinhaltige Präparate",
+      "ref": [
+        "emtricitabin",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "bictegravir-emtricitabin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid"
+      ],
+      "effekt": "Gleicher Wirkmechanismus wie Lamivudin – nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cladribin",
+      "ref": [
+        "cladribin"
+      ],
+      "effekt": "Lamivudin hemmt die Aktivierung von Cladribin – Wirkverlust möglich; Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Riociguat",
+      "ref": [
+        "riociguat"
+      ],
+      "effekt": "Abacavir hemmt den Abbau von Riociguat (CYP1A1) – Riociguat-Spiegel steigen, Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sorbitolhaltige Arzneimittel (z. B. Säfte) bei Dauergebrauch",
+      "ref": [],
+      "effekt": "Sorbitol vermindert die Aufnahme von Lamivudin – möglichst meiden, sonst Viruslast häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Abacavir kann den Methadon-Abbau leicht beschleunigen – auf Entzugssymptome achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Präparate mit Abacavir, Lamivudin oder Dolutegravir",
+      "ref": [
+        "abacavir",
+        "lamivudin",
+        "dolutegravir",
+        "abacavir-lamivudin",
+        "dolutegravir-lamivudin",
+        "dolutegravir-rilpivirin",
+        "zidovudin-lamivudin",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "effekt": "Doppelte Einnahme vermeiden.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen", "Übelkeit", "Durchfall"],
-    "haeufig": ["Überempfindlichkeitsreaktion auf Abacavir (Fieber, Ausschlag, Übelkeit, Bauchschmerzen, Atembeschwerden, Müdigkeit) – lebensbedrohlich möglich", "Schlaflosigkeit, abnorme Träume, Albträume, Depression, Angst", "Schwindel, Schläfrigkeit, Lethargie", "Erbrechen, Blähungen, Bauchschmerzen, Sodbrennen", "Hautausschlag, Juckreiz, Haarausfall", "Gelenk- und Muskelbeschwerden", "Müdigkeit, Schwäche, Fieber, Appetitlosigkeit", "Erhöhte Leberwerte und Kreatinkinase (CK), Gewichtszunahme"],
-    "gelegentlich": ["Hepatitis (Leberentzündung)", "Suizidgedanken oder Suizidversuch, Panikattacken (vor allem bei psychischer Vorerkrankung)", "Neutropenie, Anämie, Thrombozytopenie", "Erhöhte Triglyceride, erhöhter Blutzucker", "Immunrekonstitutionssyndrom"],
-    "selten": ["Pankreatitis (Bauchspeicheldrüsenentzündung)", "Akutes Leberversagen", "Rhabdomyolyse (Muskelzerfall)", "Angioödem (Schwellung von Haut und Schleimhäuten)", "Laktatazidose (Übersäuerung des Blutes)", "Suizid (bei psychischer Vorerkrankung)"],
-    "sehrSelten": ["Periphere Neuropathie (Kribbeln, Taubheitsgefühl)", "Erythroblastopenie (Aplasie der roten Blutzellen)", "Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse"]
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Übelkeit",
+      "Durchfall"
+    ],
+    "haeufig": [
+      "Überempfindlichkeitsreaktion auf Abacavir (Fieber, Ausschlag, Übelkeit, Bauchschmerzen, Atembeschwerden, Müdigkeit) – lebensbedrohlich möglich",
+      "Schlaflosigkeit, abnorme Träume, Albträume, Depression, Angst",
+      "Schwindel, Schläfrigkeit, Lethargie",
+      "Erbrechen, Blähungen, Bauchschmerzen, Sodbrennen",
+      "Hautausschlag, Juckreiz, Haarausfall",
+      "Gelenk- und Muskelbeschwerden",
+      "Müdigkeit, Schwäche, Fieber, Appetitlosigkeit",
+      "Erhöhte Leberwerte und Kreatinkinase (CK), Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Hepatitis (Leberentzündung)",
+      "Suizidgedanken oder Suizidversuch, Panikattacken (vor allem bei psychischer Vorerkrankung)",
+      "Neutropenie, Anämie, Thrombozytopenie",
+      "Erhöhte Triglyceride, erhöhter Blutzucker",
+      "Immunrekonstitutionssyndrom"
+    ],
+    "selten": [
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Akutes Leberversagen",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Suizid (bei psychischer Vorerkrankung)"
+    ],
+    "sehrSelten": [
+      "Periphere Neuropathie (Kribbeln, Taubheitsgefühl)",
+      "Erythroblastopenie (Aplasie der roten Blutzellen)",
+      "Erythema multiforme, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Laktatazidose (Übersäuerung des Blutes)"
+    ]
   },
   "schwangerschaft": "Kann bei klinischer Notwendigkeit angewendet werden. Ein früher vermutetes erhöhtes Risiko für Neuralrohrdefekte durch Dolutegravir zum Zeitpunkt der Empfängnis hat sich in grösseren Untersuchungen nicht klar bestätigt – Schwangerschaft mit der HIV-Fachperson planen.",
   "stillzeit": "HIV-positive Mütter sollen grundsätzlich nicht stillen (Übertragungsrisiko); ein Stillwunsch ist mit der HIV-Fachperson zu besprechen.",

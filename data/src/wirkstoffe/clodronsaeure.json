@@ -1,0 +1,170 @@
+{
+  "id": "clodronsaeure",
+  "name": "Clodronsäure",
+  "synonyme": [
+    "Clodronat",
+    "Dinatriumclodronat",
+    "Clodronic acid"
+  ],
+  "atc": [
+    "M05BA02"
+  ],
+  "klasse": "Bisphosphonat (ohne Stickstoff)",
+  "kurz": "Knochenschützendes Mittel bei Krebs mit Knochenbefall: senkt erhöhtes Blutcalcium und beugt Knochenschmerzen und -brüchen vor.",
+  "gruppen": [
+    "bisphosphonate",
+    "nephrotoxisch"
+  ],
+  "handelsnamen": [
+    "Bonefos"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Filmtabletten",
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhöhter Calciumspiegel im Blut bei Krebserkrankungen (Tumorhyperkalzämie)",
+      "ids": [
+        "hyperkalzaemie",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Knochenauflösende (osteolytische) Metastasen und multiples Myelom: Verminderung von Knochenschmerzen und Knochenbrüchen",
+      "ids": [
+        "knochenmetastasen",
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt den Knochenabbau durch die knochenabbauenden Zellen (Osteoklasten). Clodronsäure lagert sich an das Knochenmineral (Hydroxylapatit) an und wird von den Osteoklasten aufgenommen. In der Zelle entsteht daraus ein nicht spaltbares ATP-Analogon, das den Energiestoffwechsel stört und den Zelltod (Apoptose) der Osteoklasten auslöst. Dadurch sinken Knochenabbau und Calciumfreisetzung ins Blut.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung, Infusion langsam geben, Nierenwerte kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel: vor und während der Behandlung genügend Flüssigkeit, besonders bei Tumorhyperkalzämie",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Kiefernekrose (Absterben von Kieferknochen): vor Beginn Zahnstatus prüfen, gute Mundhygiene, invasive Zahneingriffe möglichst vermeiden",
+      "ids": [
+        "kiefernekrose",
+        "karies"
+      ]
+    },
+    {
+      "text": "Ungewöhnliche (atypische) Oberschenkelbrüche bei Langzeitanwendung; neue Hüft-, Oberschenkel- oder Leistenschmerzen abklären",
+      "ids": [
+        "knochenbruch"
+      ]
+    },
+    {
+      "text": "Analgetika-Asthma: Verschlechterung der Atmung beschrieben",
+      "ids": [
+        "analgetika-asthma"
+      ]
+    },
+    {
+      "text": "Calciummangel vor Beginn ausgleichen",
+      "ids": [
+        "hypokalzaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Andere Bisphosphonate",
+      "ref": [
+        "gruppe:bisphosphonate"
+      ],
+      "grund": "Zwei Bisphosphonate gleichzeitig verstärken die Wirkung auf Calcium- und Knochenstoffwechsel ohne Zusatznutzen und erhöhen das Nebenwirkungsrisiko."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "NSAR, insbesondere Diclofenac",
+      "ref": [
+        "gruppe:nsar",
+        "diclofenac"
+      ],
+      "effekt": "Nierenfunktionsstörungen beschrieben – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aminoglykoside",
+      "ref": [
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Erhöhtes Risiko für einen starken Calciumabfall (Hypokalzämie).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nierenschädigende Mittel",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden, besonders bei Infusion – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Estramustin",
+      "ref": [],
+      "effekt": "Clodronsäure kann den Estramustin-Spiegel deutlich erhöhen – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calcium, Eisen, Magnesium, Antazida und andere mehrwertige Kationen; Milch und Nahrung",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Hemmen die Aufnahme von Clodronsäure aus dem Darm stark – zeitlich getrennt einnehmen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Durchfall",
+      "Übelkeit, Erbrechen",
+      "Hypokalzämie (tiefes Calcium) ohne Beschwerden",
+      "Leichter Anstieg der Leberwerte (Transaminasen)"
+    ],
+    "selten": [
+      "Hypokalzämie mit Beschwerden (Kribbeln, Muskelkrämpfe)",
+      "Erhöhtes Parathormon und erhöhte alkalische Phosphatase im Blut",
+      "Überempfindlichkeitsreaktionen der Haut",
+      "Verschlechterung der Atmung bei Analgetika-Asthma",
+      "Atypische Oberschenkelbrüche"
+    ],
+    "sehrSelten": [
+      "Osteonekrose (Absterben von Knochen) des äusseren Gehörgangs"
+    ],
+    "unbekannt": [
+      "Kiefernekrose (Absterben von Kieferknochen)",
+      "Nierenfunktionsstörung bis Nierenversagen, vor allem nach rascher Infusion",
+      "Augenentzündungen (z. B. Uveitis)",
+      "Starke Knochen-, Gelenk- oder Muskelschmerzen"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden: keine ausreichenden Daten, Bisphosphonate können die Skelettentwicklung des Ungeborenen beeinträchtigen.",
+  "stillzeit": "Nicht anwenden; es ist nicht bekannt, ob Clodronsäure in die Muttermilch übergeht.",
+  "hinweise": [
+    "Kapseln und Tabletten nüchtern mit einem Glas Leitungswasser einnehmen; danach mindestens 1 Stunde nichts essen, nur Wasser trinken und keine anderen Medikamente einnehmen – besonders keine Milch und kein Calcium.",
+    "Gute Zahnpflege und regelmässige Zahnkontrollen; vor Zahneingriffen die Behandlung angeben.",
+    "Genügend trinken; Nierenwerte und Calcium im Blut werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

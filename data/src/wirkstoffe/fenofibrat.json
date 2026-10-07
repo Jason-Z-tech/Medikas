@@ -1,43 +1,186 @@
 {
   "id": "fenofibrat",
   "name": "Fenofibrat",
-  "synonyme": ["Fenofibrate", "Fenofibratum"],
-  "atc": ["C10AB05"],
+  "synonyme": [
+    "Fenofibrate",
+    "Fenofibratum"
+  ],
+  "atc": [
+    "C10AB05"
+  ],
   "klasse": "Fibrat (PPAR-alpha-Agonist), Lipidsenker",
   "kurz": "Blutfettsenker aus der Gruppe der Fibrate; senkt vor allem stark erhöhte Triglyceride und erhöht das HDL-Cholesterin.",
-  "gruppen": ["fibrate", "cyp2c9-hemmer", "photosensibilisierend"],
-  "handelsnamen": ["Lipanthyl"],
-  "abgabe": ["B"],
-  "darreichung": ["Kapseln", "Filmtabletten"],
+  "gruppen": [
+    "fibrate",
+    "cyp2c9-hemmer",
+    "photosensibilisierend",
+    "myotoxisch"
+  ],
+  "handelsnamen": [
+    "Lipanthyl"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Filmtabletten"
+  ],
   "indikationen": [
-    { "text": "Schwere Hypertriglyzeridämie (stark erhöhte Triglyceride) mit oder ohne tiefes HDL-Cholesterin, ergänzend zur Diät", "ids": ["hypertriglyzeridaemie"] },
-    { "text": "Gemischte Hyperlipidämie, wenn ein Statin kontraindiziert ist oder nicht vertragen wird", "ids": ["hypercholesterinaemie", "hypertriglyzeridaemie"] },
-    { "text": "Gemischte Hyperlipidämie bei hohem Herz-Kreislauf-Risiko zusätzlich zu einem Statin, wenn Triglyceride und HDL-Cholesterin ungenügend eingestellt sind", "ids": ["hypertriglyzeridaemie", "hypercholesterinaemie"] }
+    {
+      "text": "Schwere Hypertriglyzeridämie (stark erhöhte Triglyceride) mit oder ohne tiefes HDL-Cholesterin, ergänzend zur Diät",
+      "ids": [
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Gemischte Hyperlipidämie, wenn ein Statin kontraindiziert ist oder nicht vertragen wird",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Gemischte Hyperlipidämie bei hohem Herz-Kreislauf-Risiko zusätzlich zu einem Statin, wenn Triglyceride und HDL-Cholesterin ungenügend eingestellt sind",
+      "ids": [
+        "hypertriglyzeridaemie",
+        "hypercholesterinaemie"
+      ]
+    }
   ],
   "wirkmechanismus": "Senkt vor allem die Triglyceride (Neutralfette) und erhöht das «gute» HDL-Cholesterin. Fenofibrat ist ein Prodrug, das im Körper rasch zur aktiven Fenofibrinsäure umgewandelt wird. Diese aktiviert den Kernrezeptor PPAR-alpha: Die Lipoproteinlipase wird aktiviert und die Bildung von Apolipoprotein C-III gehemmt, sodass triglyceridreiche Lipoproteine (VLDL) schneller abgebaut werden; gleichzeitig steigt die Bildung der HDL-Bausteine Apolipoprotein A-I und A-II. Auch LDL-Cholesterin und Harnsäure sinken mässig.",
   "kontraindikationen": [
-    { "text": "Leberinsuffizienz, inkl. biliäre Zirrhose und ungeklärte, anhaltend abweichende Leberwerte", "ids": ["leberinsuffizienz", "leberzirrhose"] },
-    { "text": "Bekannte Gallenblasenerkrankung", "ids": ["gallensteine"] },
-    { "text": "Schwere chronische Nierenerkrankung (eGFR unter 30 ml/min)", "ids": ["niereninsuffizienz"] },
-    { "text": "Akute oder chronische Pankreatitis – ausser einer akuten Pankreatitis durch stark erhöhte Triglyceride", "ids": ["pankreatitis"] },
-    { "text": "Bekannte Photoallergie oder phototoxische Reaktion unter Fibraten oder Ketoprofen", "ids": ["sonnenbrand"] },
-    { "text": "Erdnuss- oder Sojaallergie (bei Präparaten mit Sojalecithin)", "ids": ["allergie"] }
+    {
+      "text": "Leberinsuffizienz, inkl. biliäre Zirrhose und ungeklärte, anhaltend abweichende Leberwerte",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Bekannte Gallenblasenerkrankung",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Schwere chronische Nierenerkrankung (eGFR unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute oder chronische Pankreatitis – ausser einer akuten Pankreatitis durch stark erhöhte Triglyceride",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Bekannte Photoallergie oder phototoxische Reaktion unter Fibraten oder Ketoprofen",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Erdnuss- oder Sojaallergie (bei Präparaten mit Sojalecithin)",
+      "ids": [
+        "erdnuss-sojaallergie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Risikofaktoren für Muskelschäden: eingeschränkte Nierenfunktion, Schilddrüsenunterfunktion, Alter über 70 Jahre, Alkoholmissbrauch, erbliche Muskelerkrankung, frühere Muskelschäden unter Statin oder Fibrat", "ids": ["muskelerkrankung", "hypothyreose", "aeltere-patienten", "alkoholkonsum"] },
-    { "text": "Eingeschränkte Nierenfunktion: Kreatinin steigt oft leicht an – Nierenwerte kontrollieren, Dosis anpassen", "ids": ["niereninsuffizienz"] },
-    { "text": "Erhöhte Leberwerte möglich – in den ersten 12 Monaten etwa alle 3 Monate kontrollieren", "ids": ["leberinsuffizienz"] },
-    { "text": "Gallensteine: Fenofibrat kann die Gallensteinbildung fördern", "ids": ["gallensteine"] },
-    { "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen", "ids": ["kinder"] }
+    {
+      "text": "Risikofaktoren für Muskelschäden: eingeschränkte Nierenfunktion, Schilddrüsenunterfunktion, Alter über 70 Jahre, Alkoholmissbrauch, erbliche Muskelerkrankung, frühere Muskelschäden unter Statin oder Fibrat",
+      "ids": [
+        "muskelerkrankung",
+        "hypothyreose",
+        "aeltere-patienten",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Kreatinin steigt oft leicht an – Nierenwerte kontrollieren, Dosis anpassen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhte Leberwerte möglich – in den ersten 12 Monaten etwa alle 3 Monate kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gallensteine: Fenofibrat kann die Gallensteinbildung fördern",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "interaktionen": [
-    { "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung mit Blutungsgefahr – zu Beginn die Dosis des Blutverdünners um etwa ein Drittel senken und INR engmaschig kontrollieren.", "schwere": "schwer" },
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Schwere, meist reversible Verschlechterung der Nierenfunktion beschrieben – Nierenwerte engmaschig kontrollieren, bei deutlicher Verschlechterung Fenofibrat absetzen.", "schwere": "schwer" },
-    { "text": "Statine", "ref": ["gruppe:statine"], "effekt": "Erhöhtes Risiko für Muskelschäden bis Rhabdomyolyse – nur ohne Muskelerkrankung in der Vorgeschichte und mit Überwachung kombinieren.", "schwere": "mittel" },
-    { "text": "CYP2C9-Substrate mit enger therapeutischer Breite (z. B. Phenytoin, Sulfonylharnstoffe)", "ref": ["gruppe:cyp2c9-substrate-eng"], "effekt": "Fenofibrinsäure hemmt CYP2C9 – Spiegel dieser Mittel können steigen; Patientinnen und Patienten sorgfältig überwachen.", "schwere": "mittel" },
-    { "text": "Ezetimib", "ref": ["ezetimib"], "effekt": "Möglicherweise erhöhtes Gallensteinrisiko – bei Verdacht auf Gallensteine abklären und absetzen.", "schwere": "mittel" },
-    { "text": "Glitazone (z. B. Pioglitazon)", "ref": ["pioglitazon"], "effekt": "In Einzelfällen paradoxe, reversible Senkung des HDL-Cholesterins – HDL kontrollieren.", "schwere": "leicht" },
-    { "text": "Gallensäurebinder (z. B. Colestyramin, Colesevelam)", "ref": ["colestyramin", "colesevelam"], "effekt": "Können die Aufnahme von Fenofibrat vermindern – Fenofibrat 1 Stunde vor oder 4–6 Stunden nach dem Gallensäurebinder einnehmen.", "schwere": "leicht" }
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung mit Blutungsgefahr – zu Beginn die Dosis des Blutverdünners um etwa ein Drittel senken und INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Schwere, meist reversible Verschlechterung der Nierenfunktion beschrieben – Nierenwerte engmaschig kontrollieren, bei deutlicher Verschlechterung Fenofibrat absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Statine",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden bis Rhabdomyolyse – nur ohne Muskelerkrankung in der Vorgeschichte und mit Überwachung kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C9-Substrate mit enger therapeutischer Breite (z. B. Phenytoin, Sulfonylharnstoffe)",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Fenofibrinsäure hemmt CYP2C9 – Spiegel dieser Mittel können steigen; Patientinnen und Patienten sorgfältig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ezetimib",
+      "ref": [
+        "ezetimib"
+      ],
+      "effekt": "Möglicherweise erhöhtes Gallensteinrisiko – bei Verdacht auf Gallensteine abklären und absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Glitazone (z. B. Pioglitazon)",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "In Einzelfällen paradoxe, reversible Senkung des HDL-Cholesterins – HDL kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Gallensäurebinder (z. B. Colestyramin, Colesevelam)",
+      "ref": [
+        "colestyramin",
+        "colesevelam"
+      ],
+      "effekt": "Können die Aufnahme von Fenofibrat vermindern – Fenofibrat 1 Stunde vor oder 4–6 Stunden nach dem Gallensäurebinder einnehmen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "haeufig": [

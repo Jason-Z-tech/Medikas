@@ -1,45 +1,181 @@
 {
   "id": "mirabegron",
   "name": "Mirabegron",
-  "synonyme": ["YM178"],
-  "atc": ["G04BD12"],
+  "synonyme": [
+    "YM178"
+  ],
+  "atc": [
+    "G04BD12"
+  ],
   "klasse": "Beta-3-Adrenozeptor-Agonist (Blasenmittel)",
   "kurz": "Blasenmittel gegen überaktive Blase, das den Blasenmuskel über Beta-3-Rezeptoren entspannt; ohne typische anticholinerge Nebenwirkungen.",
-  "gruppen": [],
-  "handelsnamen": ["Betmiga"],
-  "abgabe": ["B"],
-  "darreichung": ["Retardtabletten"],
+  "gruppen": [
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Betmiga"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
   "indikationen": [
-    { "text": "Symptomatische Behandlung von starkem Harndrang, häufigem Wasserlassen und Dranginkontinenz bei überaktiver Blase bei Erwachsenen", "ids": ["reizblase"] }
+    {
+      "text": "Symptomatische Behandlung von starkem Harndrang, häufigem Wasserlassen und Dranginkontinenz bei überaktiver Blase bei Erwachsenen",
+      "ids": [
+        "reizblase"
+      ]
+    }
   ],
   "wirkmechanismus": "Entspannt den Blasenmuskel während der Füllungsphase, sodass die Blase mehr Urin speichern kann und der Harndrang seltener auftritt. Mirabegron ist ein selektiver Agonist am Beta-3-Adrenozeptor, der im Blasenmuskel (Detrusor) die glatte Muskulatur über einen Anstieg von cAMP relaxiert. Die Entleerung der Blase beim Wasserlassen wird dabei nicht beeinträchtigt. Da keine Muskarinrezeptoren blockiert werden, fehlen Mundtrockenheit und Verstopfung weitgehend.",
   "kontraindikationen": [
-    { "text": "Schwerer, nicht eingestellter Bluthochdruck (systolisch ≥ 180 mmHg und/oder diastolisch ≥ 110 mmHg)", "ids": ["hypertonie"] }
+    {
+      "text": "Schwerer, nicht eingestellter Bluthochdruck (systolisch ≥ 180 mmHg und/oder diastolisch ≥ 110 mmHg)",
+      "ids": [
+        "hypertonie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Bluthochdruck: Blutdruck vor Beginn und regelmässig während der Behandlung messen; bei Hypertonie Grad 2 (≥ 160/100 mmHg) liegen kaum Daten vor", "ids": ["hypertonie"] },
-    { "text": "Schwere Niereninsuffizienz: höchstens 25 mg; bei terminaler Niereninsuffizienz oder Dialyse nicht empfohlen", "ids": ["niereninsuffizienz"] },
-    { "text": "Mässige Leberinsuffizienz: höchstens 25 mg; bei schwerer Leberinsuffizienz nicht empfohlen", "ids": ["leberinsuffizienz"] },
-    { "text": "QT-Verlängerung in der Vorgeschichte oder gleichzeitige QT-verlängernde Mittel (in Studien nicht untersucht)", "ids": ["qt-verlaengerung"] },
-    { "text": "Abflussbehinderung der Blase (z. B. vergrösserte Prostata) oder gleichzeitige Einnahme anticholinerger Blasenmittel: Harnverhalt beobachtet", "ids": ["prostatahyperplasie", "harnverhalt"] },
-    { "text": "Kinder und Jugendliche: Sicherheit für diese Indikation nicht belegt", "ids": ["kinder"] }
+    {
+      "text": "Bluthochdruck: Blutdruck vor Beginn und regelmässig während der Behandlung messen; bei Hypertonie Grad 2 (≥ 160/100 mmHg) liegen kaum Daten vor",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz: höchstens 25 mg; bei terminaler Niereninsuffizienz oder Dialyse nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Mässige Leberinsuffizienz: höchstens 25 mg; bei schwerer Leberinsuffizienz nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung in der Vorgeschichte oder gleichzeitige QT-verlängernde Mittel (in Studien nicht untersucht)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Abflussbehinderung der Blase (z. B. vergrösserte Prostata) oder gleichzeitige Einnahme anticholinerger Blasenmittel: Harnverhalt beobachtet",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Sicherheit für diese Indikation nicht belegt",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, trizyklische Antidepressiva, Metoprolol)", "ref": ["gruppe:cyp2d6-substrate", "flecainid", "propafenon", "gruppe:trizyklische-antidepressiva"], "effekt": "Mirabegron hemmt CYP2D6 mässig – Spiegel dieser Mittel steigen; vorsichtig dosieren und überwachen.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel steigt (P-gp-Hemmung) – mit der niedrigsten Digoxin-Dosis beginnen und Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Clarithromycin)", "ref": ["gruppe:starke-cyp3a4-hemmer"], "effekt": "Mirabegron-Spiegel steigt deutlich; bei eingeschränkter Nieren- oder Leberfunktion Dosis auf 25 mg senken bzw. Kombination meiden.", "schwere": "mittel" },
-    { "text": "Anticholinerge Blasenmittel (z. B. Solifenacin, Tolterodin, Oxybutynin)", "ref": ["solifenacin", "tolterodin", "oxybutynin", "fesoterodin", "trospium"], "effekt": "Vereinzelt Harnverhalt, besonders bei Abflussbehinderung der Blase.", "schwere": "mittel" },
-    { "text": "Empfindliche P-gp-Substrate (z. B. Dabigatran)", "ref": ["dabigatran", "gruppe:p-gp-substrate-eng"], "effekt": "Mögliche Spiegelerhöhung durch P-gp-Hemmung – Vorsicht.", "schwere": "leicht" },
-    { "text": "QT-verlängernde Mittel", "ref": ["gruppe:qt-verlaengernd"], "effekt": "Zusammenspiel nicht untersucht – Vorsicht bei Risikopatienten.", "schwere": "leicht" },
-    { "text": "CYP3A4- und P-gp-Induktoren (z. B. Rifampicin, Carbamazepin)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Mirabegron-Spiegel sinkt etwas; keine Dosisanpassung nötig.", "schwere": "leicht" }
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, trizyklische Antidepressiva, Metoprolol)",
+      "ref": [
+        "gruppe:cyp2d6-substrate",
+        "flecainid",
+        "propafenon",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Mirabegron hemmt CYP2D6 mässig – Spiegel dieser Mittel steigen; vorsichtig dosieren und überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigt (P-gp-Hemmung) – mit der niedrigsten Digoxin-Dosis beginnen und Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Mirabegron-Spiegel steigt deutlich; bei eingeschränkter Nieren- oder Leberfunktion Dosis auf 25 mg senken bzw. Kombination meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerge Blasenmittel (z. B. Solifenacin, Tolterodin, Oxybutynin)",
+      "ref": [
+        "solifenacin",
+        "tolterodin",
+        "oxybutynin",
+        "fesoterodin",
+        "trospium"
+      ],
+      "effekt": "Vereinzelt Harnverhalt, besonders bei Abflussbehinderung der Blase.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-gp-Substrate (z. B. Dabigatran)",
+      "ref": [
+        "dabigatran",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Mögliche Spiegelerhöhung durch P-gp-Hemmung – Vorsicht.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusammenspiel nicht untersucht – Vorsicht bei Risikopatienten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP3A4- und P-gp-Induktoren (z. B. Rifampicin, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Mirabegron-Spiegel sinkt etwas; keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Harnwegsinfektion", "Herzrasen (Tachykardie)", "Übelkeit", "Verstopfung", "Durchfall", "Kopfschmerzen", "Schwindel"],
-    "gelegentlich": ["Scheideninfektion, Blasenentzündung", "Herzklopfen, Vorhofflimmern", "Verdauungsbeschwerden, Gastritis", "Nesselsucht, Hautausschlag, Juckreiz", "Gelenkschwellung", "Juckreiz im Genitalbereich", "Blutdruckanstieg", "Anstieg der Leberwerte (GGT, AST, ALT)"],
-    "selten": ["Schwellung von Augenlidern oder Lippen, Angioödem", "Leukozytoklastische Vaskulitis (Entzündung kleiner Hautgefässe), Purpura", "Harnverhalt"],
-    "sehrSelten": ["Hypertensive Krise (gefährlich hoher Blutdruck)"],
-    "unbekannt": ["Schlaflosigkeit", "Verwirrtheit"]
+    "haeufig": [
+      "Harnwegsinfektion",
+      "Herzrasen (Tachykardie)",
+      "Übelkeit",
+      "Verstopfung",
+      "Durchfall",
+      "Kopfschmerzen",
+      "Schwindel"
+    ],
+    "gelegentlich": [
+      "Scheideninfektion, Blasenentzündung",
+      "Herzklopfen, Vorhofflimmern",
+      "Verdauungsbeschwerden, Gastritis",
+      "Nesselsucht, Hautausschlag, Juckreiz",
+      "Gelenkschwellung",
+      "Juckreiz im Genitalbereich",
+      "Blutdruckanstieg",
+      "Anstieg der Leberwerte (GGT, AST, ALT)"
+    ],
+    "selten": [
+      "Schwellung von Augenlidern oder Lippen, Angioödem",
+      "Leukozytoklastische Vaskulitis (Entzündung kleiner Hautgefässe), Purpura",
+      "Harnverhalt"
+    ],
+    "sehrSelten": [
+      "Hypertensive Krise (gefährlich hoher Blutdruck)"
+    ],
+    "unbekannt": [
+      "Schlaflosigkeit",
+      "Verwirrtheit"
+    ]
   },
   "schwangerschaft": "Nicht empfohlen. Frauen im gebärfähigen Alter sollen während der Behandlung verhüten.",
   "stillzeit": "Nicht anwenden – im Tierversuch ging Mirabegron in die Milch über.",

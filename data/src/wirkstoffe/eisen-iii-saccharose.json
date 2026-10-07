@@ -1,39 +1,143 @@
 {
   "id": "eisen-iii-saccharose",
   "name": "Eisen(III)-Saccharose",
-  "synonyme": ["Eisensaccharose", "Eisen-Saccharose-Komplex", "Iron sucrose", "Eisen(III)-hydroxid-Saccharose-Komplex", "Eiseninfusion"],
-  "atc": ["B03AC"],
+  "synonyme": [
+    "Eisensaccharose",
+    "Eisen-Saccharose-Komplex",
+    "Iron sucrose",
+    "Eisen(III)-hydroxid-Saccharose-Komplex"
+  ],
+  "atc": [
+    "B03AC"
+  ],
   "klasse": "Eisenpräparat (intravenös, dreiwertiges Eisen)",
   "kurz": "Eisen zur Infusion oder langsamen Injektion in die Vene, wenn Eisentabletten nicht wirken oder nicht vertragen werden; wird in mehreren Einzelgaben verabreicht.",
-  "gruppen": ["eisenpraeparate"],
-  "handelsnamen": ["Venofer"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektions- und Infusionslösung (Ampullen)"],
+  "gruppen": [
+    "eisenpraeparate"
+  ],
+  "handelsnamen": [
+    "Venofer"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektions- und Infusionslösung (Ampullen)"
+  ],
   "indikationen": [
-    { "text": "Eisenmangel, wenn Eisen zum Einnehmen nicht wirkt, nicht vertragen wird oder eine rasche Eisenzufuhr nötig ist (Diagnose durch Laborwerte gesichert), z. B. bei Dialysepatienten oder entzündlichen Darmerkrankungen", "ids": ["eisenmangel", "anaemie", "renale-anaemie", "morbus-crohn", "colitis-ulcerosa"] }
+    {
+      "text": "Eisenmangel, wenn Eisen zum Einnehmen nicht wirkt, nicht vertragen wird oder eine rasche Eisenzufuhr nötig ist (Diagnose durch Laborwerte gesichert), z. B. bei Dialysepatienten oder entzündlichen Darmerkrankungen",
+      "ids": [
+        "eisenmangel",
+        "anaemie",
+        "renale-anaemie",
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    }
   ],
   "wirkmechanismus": "Füllt die Eisenspeicher direkt über die Vene auf, unter Umgehung des Darms. Eisensaccharose besteht aus einem Eisen(III)-hydroxid-Kern, der von Saccharose (Zucker) umhüllt ist. Der Komplex wird von Fresszellen (Makrophagen) in Leber, Milz und Knochenmark aufgenommen; das Eisen wird an Transferrin gebunden, ins Hämoglobin eingebaut oder als Ferritin gespeichert. Weil der Komplex weniger stabil ist als neuere Präparate, werden kleinere Einzeldosen in mehreren Sitzungen gegeben.",
   "kontraindikationen": [
-    { "text": "Schwere Überempfindlichkeitsreaktion auf ein anderes Eisenpräparat zur Injektion oder Infusion", "ids": ["anaphylaxie"] },
-    { "text": "Blutarmut, die nicht durch Eisenmangel verursacht ist", "ids": ["anaemie"] },
-    { "text": "Eisenüberladung oder Eisenverwertungsstörungen", "ids": ["sichelzellanaemie"] }
+    {
+      "text": "Schwere Überempfindlichkeitsreaktion auf ein anderes Eisenpräparat zur Injektion oder Infusion",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Blutarmut, die nicht durch Eisenmangel verursacht ist",
+      "ids": []
+    },
+    {
+      "text": "Eisenüberladung oder Eisenverwertungsstörungen",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Schwere allergische (anaphylaktische) Reaktionen möglich, auch nach früher gut vertragenen Gaben: nur mit Notfallausrüstung geben, mindestens 30 Minuten überwachen", "ids": ["anaphylaxie"] },
-    { "text": "Erhöhtes Allergierisiko bei bekannten Allergien, schwerem Asthma, Ekzem und Immun- oder Entzündungskrankheiten (z. B. Lupus, rheumatoide Arthritis)", "ids": ["allergie", "asthma", "neurodermitis", "lupus", "rheumatoide-arthritis"] },
-    { "text": "Leberfunktionsstörungen: nur nach sorgfältiger Abwägung, Eisenstatus überwachen", "ids": ["leberinsuffizienz"] },
-    { "text": "Akute oder chronische Infektionen: bei bakterieller Blutinfektion Behandlung unterbrechen", "ids": ["aktive-infektion", "bakterielle-infektion"] },
-    { "text": "Zu rasche Gabe kann einen Blutdruckabfall auslösen; Paravasat (Austritt neben die Vene) kann Schmerzen und braune Hautverfärbung verursachen", "ids": ["hypotonie"] }
+    {
+      "text": "Schwere allergische (anaphylaktische) Reaktionen möglich, auch nach früher gut vertragenen Gaben: nur mit Notfallausrüstung geben, mindestens 30 Minuten überwachen",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Allergierisiko bei bekannten Allergien, schwerem Asthma, Ekzem und Immun- oder Entzündungskrankheiten (z. B. Lupus, rheumatoide Arthritis)",
+      "ids": [
+        "allergie",
+        "asthma",
+        "neurodermitis",
+        "lupus",
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Leberfunktionsstörungen: nur nach sorgfältiger Abwägung, Eisenstatus überwachen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute oder chronische Infektionen: bei bakterieller Blutinfektion Behandlung unterbrechen",
+      "ids": [
+        "aktive-infektion",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Zu rasche Gabe kann einen Blutdruckabfall auslösen; Paravasat (Austritt neben die Vene) kann Schmerzen und braune Hautverfärbung verursachen",
+      "ids": [
+        "hypotonie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Eisen zum Einnehmen (Tabletten, Tropfen, Sirup)", "ref": ["eisen-ii-sulfat", "eisen-iii-hydroxid-polymaltose-komplex", "eisen-ii-gluconat"], "effekt": "Die Aufnahme von oralem Eisen ist vermindert – eine orale Eisentherapie frühestens 5 Tage nach der letzten Injektion beginnen.", "schwere": "leicht" }
+    {
+      "text": "Eisen zum Einnehmen (Tabletten, Tropfen, Sirup)",
+      "ref": [
+        "eisen-ii-sulfat",
+        "eisen-iii-hydroxid-polymaltose-komplex",
+        "eisen-ii-gluconat"
+      ],
+      "effekt": "Die Aufnahme von oralem Eisen ist vermindert – eine orale Eisentherapie frühestens 5 Tage nach der letzten Injektion beginnen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Geschmacksstörung (Dysgeusie)", "Blutdruckabfall oder Blutdruckanstieg", "Übelkeit", "Reaktionen an der Injektions- oder Infusionsstelle (Schmerzen, Brennen, Verfärbung)"],
-    "gelegentlich": ["Überempfindlichkeitsreaktionen", "Kopfschmerzen, Schwindel, Kribbeln (Parästhesien)", "Flush (Hitzegefühl), Venenentzündung", "Atemnot", "Erbrechen, Bauchschmerzen, Durchfall, Verstopfung", "Juckreiz, Hautausschlag", "Muskelkrämpfe, Muskel- und Gelenkschmerzen", "Schüttelfrost, Müdigkeit, Wassereinlagerungen", "Erhöhte Leberwerte, erhöhtes Ferritin"],
-    "selten": ["Kurze Bewusstlosigkeit (Synkope), Schläfrigkeit", "Herzklopfen", "Brustschmerzen", "Verfärbung des Urins", "Fieber, vermehrtes Schwitzen"],
-    "unbekannt": ["Anaphylaktische Reaktionen (allergischer Schock), Angioödem", "Kreislaufkollaps", "Bronchospasmus (Verkrampfung der Atemwege)", "Verwirrtheit, Bewusstseinsstörung", "Kounis-Syndrom (allergisch ausgelöster Herzinfarkt)", "Langsamer oder schneller Herzschlag"]
+    "haeufig": [
+      "Geschmacksstörung (Dysgeusie)",
+      "Blutdruckabfall oder Blutdruckanstieg",
+      "Übelkeit",
+      "Reaktionen an der Injektions- oder Infusionsstelle (Schmerzen, Brennen, Verfärbung)"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Kopfschmerzen, Schwindel, Kribbeln (Parästhesien)",
+      "Flush (Hitzegefühl), Venenentzündung",
+      "Atemnot",
+      "Erbrechen, Bauchschmerzen, Durchfall, Verstopfung",
+      "Juckreiz, Hautausschlag",
+      "Muskelkrämpfe, Muskel- und Gelenkschmerzen",
+      "Schüttelfrost, Müdigkeit, Wassereinlagerungen",
+      "Erhöhte Leberwerte, erhöhtes Ferritin"
+    ],
+    "selten": [
+      "Kurze Bewusstlosigkeit (Synkope), Schläfrigkeit",
+      "Herzklopfen",
+      "Brustschmerzen",
+      "Verfärbung des Urins",
+      "Fieber, vermehrtes Schwitzen"
+    ],
+    "unbekannt": [
+      "Anaphylaktische Reaktionen (allergischer Schock), Angioödem",
+      "Kreislaufkollaps",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Verwirrtheit, Bewusstseinsstörung",
+      "Kounis-Syndrom (allergisch ausgelöster Herzinfarkt)",
+      "Langsamer oder schneller Herzschlag"
+    ]
   },
   "schwangerschaft": "Im 1. Drittel nicht anwenden. Im 2. und 3. Drittel nur, wenn der Nutzen das Risiko klar überwiegt; eine allergische Reaktion der Mutter kann das Ungeborene gefährden.",
   "stillzeit": "Unverändertes Eisensaccharose geht kaum in die Muttermilch über; die Anwendung ist nach ärztlicher Abwägung möglich.",

@@ -1,56 +1,253 @@
 {
   "id": "dalteparin",
   "name": "Dalteparin",
-  "synonyme": ["Dalteparin-Natrium", "Dalteparin sodium", "Niedermolekulares Heparin", "NMH"],
-  "atc": ["B01AB04"],
+  "synonyme": [
+    "Dalteparin-Natrium",
+    "Dalteparin sodium",
+    "Niedermolekulares Heparin",
+    "NMH"
+  ],
+  "atc": [
+    "B01AB04"
+  ],
   "klasse": "Niedermolekulares Heparin (Antikoagulans)",
   "kurz": "Gerinnungshemmende Spritze (niedermolekulares Heparin) zur Vorbeugung und Behandlung von Thrombosen und Lungenembolien.",
-  "gruppen": ["antikoagulanzien", "heparine", "blutungsrisiko-erhoehend", "hyperkaliaemie-ausloesend"],
-  "handelsnamen": ["Fragmin"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung in Fertigspritzen", "Injektionslösung in Ampullen"],
+  "gruppen": [
+    "antikoagulanzien",
+    "heparine",
+    "blutungsrisiko-erhoehend",
+    "hyperkaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Fragmin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung in Fertigspritzen",
+    "Injektionslösung in Ampullen"
+  ],
   "indikationen": [
-    { "text": "Vorbeugung von Thrombosen und Embolien bei Operationen, z. B. allgemeinchirurgischen und orthopädischen Eingriffen", "ids": ["thromboseprophylaxe", "operation"] },
-    { "text": "Thrombosevorbeugung bei Patientinnen und Patienten mit akuter internistischer Erkrankung und eingeschränkter Beweglichkeit", "ids": ["thromboseprophylaxe"] },
-    { "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie", "ids": ["thrombose", "lungenembolie"] },
-    { "text": "Verlängerte Behandlung und Rückfallvorbeugung venöser Thromboembolien bei Krebserkrankungen", "ids": ["thrombose", "lungenembolie", "krebs"] },
-    { "text": "Instabile Angina pectoris und Herzinfarkt ohne ST-Hebung (zusammen mit Acetylsalicylsäure)", "ids": ["angina-pectoris", "herzinfarkt"] },
-    { "text": "Gerinnungshemmung im Blutkreislauf ausserhalb des Körpers bei Hämodialyse und Hämofiltration", "ids": ["niereninsuffizienz"] }
+    {
+      "text": "Vorbeugung von Thrombosen und Embolien bei Operationen, z. B. allgemeinchirurgischen und orthopädischen Eingriffen",
+      "ids": [
+        "thromboseprophylaxe",
+        "operation"
+      ]
+    },
+    {
+      "text": "Thrombosevorbeugung bei Patientinnen und Patienten mit akuter internistischer Erkrankung und eingeschränkter Beweglichkeit",
+      "ids": [
+        "thromboseprophylaxe"
+      ]
+    },
+    {
+      "text": "Behandlung der tiefen Venenthrombose und der Lungenembolie",
+      "ids": [
+        "thrombose",
+        "lungenembolie"
+      ]
+    },
+    {
+      "text": "Verlängerte Behandlung und Rückfallvorbeugung venöser Thromboembolien bei Krebserkrankungen",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris und Herzinfarkt ohne ST-Hebung (zusammen mit Acetylsalicylsäure)",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Gerinnungshemmung im Blutkreislauf ausserhalb des Körpers bei Hämodialyse und Hämofiltration",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Blutgerinnung und verhindert so, dass sich Blutgerinnsel bilden oder vergrössern. Dalteparin ist ein aus Heparin gewonnenes niedermolekulares Heparin: Es verstärkt die Wirkung des körpereigenen Hemmstoffs Antithrombin, der vor allem den Gerinnungsfaktor Xa und in geringerem Mass Thrombin (Faktor IIa) blockiert. Im Vergleich zu unfraktioniertem Heparin wirkt es gleichmässiger und länger, sodass ein bis zwei Spritzen unter die Haut pro Tag genügen. Die Wirkung lässt sich über die Anti-Xa-Aktivität messen; die Ausscheidung erfolgt überwiegend über die Nieren.",
   "kontraindikationen": [
-    { "text": "Immunologisch bedingte heparininduzierte Thrombozytopenie (HIT Typ II) aktuell oder in der Vorgeschichte; Überempfindlichkeit gegen andere Heparine", "ids": ["thrombozytopenie"] },
-    { "text": "Akute Blutungen, z. B. akute Magen- oder Zwölffingerdarmgeschwüre oder Hirnblutung", "ids": ["aktive-blutung", "magen-darm-ulkus", "hirnblutung"] },
-    { "text": "Schwere Störungen der Blutgerinnung", "ids": ["blutgerinnungsstoerung"] },
-    { "text": "Septische (bakterielle) Endokarditis", "ids": ["bakterielle-infektion"] },
-    { "text": "Kürzliche Verletzungen oder Operationen an Gehirn, Rückenmark, Augen oder Ohren", "ids": ["operation"] },
-    { "text": "Spinal- oder Periduralanästhesie während einer Behandlung mit therapeutischen (hohen) Dosen", "ids": ["anaesthesie"] }
+    {
+      "text": "Immunologisch bedingte heparininduzierte Thrombozytopenie (HIT Typ II) aktuell oder in der Vorgeschichte; Überempfindlichkeit gegen andere Heparine",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Akute Blutungen, z. B. akute Magen- oder Zwölffingerdarmgeschwüre oder Hirnblutung",
+      "ids": [
+        "aktive-blutung",
+        "magen-darm-ulkus",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Schwere Störungen der Blutgerinnung",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Septische (bakterielle) Endokarditis",
+      "ids": [
+        "endokarditis"
+      ]
+    },
+    {
+      "text": "Kürzliche Verletzungen oder Operationen an Gehirn, Rückenmark, Augen oder Ohren",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Spinal- oder Periduralanästhesie während einer Behandlung mit therapeutischen (hohen) Dosen",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Eingeschränkte Nierenfunktion: Anreicherung möglich, Anti-Xa-Kontrollen und Dosisanpassung", "ids": ["niereninsuffizienz"] },
-    { "text": "Eingeschränkte Leberfunktion", "ids": ["leberinsuffizienz"] },
-    { "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion: Gefahr eines spinalen oder epiduralen Blutergusses mit möglicher Lähmung – Zeitabstände strikt einhalten", "ids": ["anaesthesie"] },
-    { "text": "Verminderte Blutplättchen oder Plättchenfunktionsstörung, Magen-Darm-Geschwüre in der Vorgeschichte", "ids": ["thrombozytopenie", "magen-darm-ulkus"] },
-    { "text": "Schwerer, nicht eingestellter Bluthochdruck sowie diabetisch oder durch Bluthochdruck bedingte Netzhautschäden", "ids": ["hypertonie", "diabetes"] },
-    { "text": "Risiko für erhöhtes Kalium (Diabetes, Nierenschwäche, kaliumerhöhende Arzneimittel): Kalium kontrollieren", "ids": ["hyperkaliaemie"] },
-    { "text": "Künstliche Herzklappen: Wirksamkeit nicht ausreichend belegt", "ids": ["herzklappenerkrankung"] },
-    { "text": "Ältere Menschen sowie sehr tiefes oder sehr hohes Körpergewicht", "ids": ["aeltere-patienten"] }
+    {
+      "text": "Eingeschränkte Nierenfunktion: Anreicherung möglich, Anti-Xa-Kontrollen und Dosisanpassung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Rückenmarksnahe Anästhesie oder Lumbalpunktion: Gefahr eines spinalen oder epiduralen Blutergusses mit möglicher Lähmung – Zeitabstände strikt einhalten",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Verminderte Blutplättchen oder Plättchenfunktionsstörung, Magen-Darm-Geschwüre in der Vorgeschichte",
+      "ids": [
+        "thrombozytopenie",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Schwerer, nicht eingestellter Bluthochdruck sowie diabetisch oder durch Bluthochdruck bedingte Netzhautschäden",
+      "ids": [
+        "hypertonie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Risiko für erhöhtes Kalium (Diabetes, Nierenschwäche, kaliumerhöhende Arzneimittel): Kalium kontrollieren",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Künstliche Herzklappen: Wirksamkeit nicht ausreichend belegt",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen sowie sehr tiefes oder sehr hohes Körpergewicht",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Gerinnungshemmer (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Fondaparinux)", "ref": ["gruppe:vitamin-k-antagonisten", "gruppe:doak", "fondaparinux"], "effekt": "Stark erhöhtes Blutungsrisiko – nur bei geplanter Umstellung oder überlappend nach ärztlichem Plan.", "schwere": "schwer" },
-    { "text": "Thrombolytika (z. B. Alteplase, Tenecteplase)", "ref": ["alteplase", "tenecteplase"], "effekt": "Erhöhtes Risiko schwerer Blutungen – nur unter Spitalüberwachung.", "schwere": "schwer" },
-    { "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)", "ref": ["gruppe:thrombozytenaggregationshemmer"], "effekt": "Erhöhtes Blutungsrisiko; beim akuten Koronarsyndrom gezielt kombiniert – auf Blutungszeichen achten.", "schwere": "mittel" },
-    { "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)", "ref": ["gruppe:nsar"], "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden, sonst Magenschutz und Kontrolle.", "schwere": "mittel" },
-    { "text": "SSRI und SNRI (Antidepressiva)", "ref": ["gruppe:ssri", "gruppe:snri"], "effekt": "Erhöhtes Blutungsrisiko.", "schwere": "mittel" },
-    { "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)", "ref": ["gruppe:hyperkaliaemie-ausloesend"], "effekt": "Heparine hemmen die Aldosteronbildung und können das Kalium zusätzlich erhöhen – Kalium kontrollieren.", "schwere": "mittel" },
-    { "text": "Systemische Glukokortikoide (Kortison)", "ref": ["gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.", "schwere": "leicht" }
+    {
+      "text": "Andere Gerinnungshemmer (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Fondaparinux)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak",
+        "fondaparinux"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – nur bei geplanter Umstellung oder überlappend nach ärztlichem Plan.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombolytika (z. B. Alteplase, Tenecteplase)",
+      "ref": [
+        "alteplase",
+        "tenecteplase"
+      ],
+      "effekt": "Erhöhtes Risiko schwerer Blutungen – nur unter Spitalüberwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, Ticagrelor)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; beim akuten Koronarsyndrom gezielt kombiniert – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR (z. B. Ibuprofen, Diclofenac, Naproxen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Mehr Blutungen, besonders im Magen-Darm-Trakt – möglichst meiden, sonst Magenschutz und Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und SNRI (Antidepressiva)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumerhöhende Mittel (ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Heparine hemmen die Aldosteronbildung und können das Kalium zusätzlich erhöhen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Blutungen", "Bluterguss (Hämatom) und Schmerzen an der Einstichstelle", "Leichte, meist vorübergehende Abnahme der Blutplättchen (Thrombozytopenie Typ I)", "Vorübergehender Anstieg der Leberwerte (Transaminasen)"],
-    "gelegentlich": ["Überempfindlichkeitsreaktionen"],
-    "selten": ["Hautnekrosen (absterbende Haut) an der Einstichstelle", "Vorübergehender Haarausfall"],
-    "unbekannt": ["Heparininduzierte Thrombozytopenie Typ II (HIT; immunbedingt, mit oder ohne Thrombosen)", "Anaphylaktische Reaktionen", "Hirnblutungen und Blutungen im hinteren Bauchraum (retroperitoneal), teils tödlich", "Spinale oder epidurale Hämatome nach rückenmarksnaher Anästhesie mit möglicher Lähmung", "Hautausschlag"]
+    "haeufig": [
+      "Blutungen",
+      "Bluterguss (Hämatom) und Schmerzen an der Einstichstelle",
+      "Leichte, meist vorübergehende Abnahme der Blutplättchen (Thrombozytopenie Typ I)",
+      "Vorübergehender Anstieg der Leberwerte (Transaminasen)"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "Hautnekrosen (absterbende Haut) an der Einstichstelle",
+      "Vorübergehender Haarausfall"
+    ],
+    "unbekannt": [
+      "Heparininduzierte Thrombozytopenie Typ II (HIT; immunbedingt, mit oder ohne Thrombosen)",
+      "Anaphylaktische Reaktionen",
+      "Hirnblutungen und Blutungen im hinteren Bauchraum (retroperitoneal), teils tödlich",
+      "Spinale oder epidurale Hämatome nach rückenmarksnaher Anästhesie mit möglicher Lähmung",
+      "Hautausschlag"
+    ]
   },
   "schwangerschaft": "Dalteparin passiert die Plazenta nicht; bisherige Erfahrungen zeigen kein erhöhtes Fehlbildungsrisiko. Anwendung nach ärztlicher Abwägung möglich; eine rückenmarksnahe Anästhesie bei der Geburt muss zeitlich abgestimmt werden.",
   "stillzeit": "Geht in geringen Mengen in die Muttermilch über und wird vom Säugling über den Darm kaum aufgenommen; Anwendung nach ärztlicher Abwägung möglich.",

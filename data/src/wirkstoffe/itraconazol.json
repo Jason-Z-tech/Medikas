@@ -1,66 +1,361 @@
 {
   "id": "itraconazol",
   "name": "Itraconazol",
-  "synonyme": ["Itraconazole", "Itraconazolum"],
-  "atc": ["J02AC02"],
+  "synonyme": [
+    "Itraconazole",
+    "Itraconazolum"
+  ],
+  "atc": [
+    "J02AC02"
+  ],
   "klasse": "Triazol-Antimykotikum",
   "kurz": "Pilzmittel zum Einnehmen gegen Nagel-, Haut- und Schleimhautpilz sowie innere Pilzinfektionen; starker CYP3A4-Hemmer mit vielen Wechselwirkungen.",
-  "gruppen": ["azol-antimykotika", "starke-cyp3a4-hemmer", "p-gp-hemmer", "hepatotoxisch"],
-  "handelsnamen": ["Sporanox"],
-  "abgabe": ["A"],
-  "darreichung": ["Kapseln", "Lösung zum Einnehmen"],
+  "gruppen": [
+    "azol-antimykotika",
+    "starke-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Sporanox"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Lösung zum Einnehmen"
+  ],
   "indikationen": [
-    { "text": "Nagelpilz (Onychomykose) durch Dermatophyten und/oder Hefen", "ids": ["hautpilz"] },
-    { "text": "Pilzinfektionen der Haut (Tinea corporis, cruris, pedis, manuum) und Pityriasis versicolor", "ids": ["hautpilz"] },
-    { "text": "Scheidenpilz (vulvovaginale Candidose) sowie Candida-Infektionen in Mund, Rachen und Speiseröhre", "ids": ["vaginalinfektion", "mundinfektion", "pilzinfektion"] },
-    { "text": "Systemische Pilzinfektionen wie Aspergillose, Candidose, Kryptokokkose, Histoplasmose, Sporotrichose und Blastomykose; Vorbeugung bei geschwächter Abwehr (Lösung)", "ids": ["pilzinfektion", "immunsuppression"] }
+    {
+      "text": "Nagelpilz (Onychomykose) durch Dermatophyten und/oder Hefen",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Pilzinfektionen der Haut (Tinea corporis, cruris, pedis, manuum) und Pityriasis versicolor",
+      "ids": [
+        "hautpilz"
+      ]
+    },
+    {
+      "text": "Scheidenpilz (vulvovaginale Candidose) sowie Candida-Infektionen in Mund, Rachen und Speiseröhre",
+      "ids": [
+        "vaginalinfektion",
+        "mundinfektion",
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Systemische Pilzinfektionen wie Aspergillose, Candidose, Kryptokokkose, Histoplasmose, Sporotrichose und Blastomykose; Vorbeugung bei geschwächter Abwehr (Lösung)",
+      "ids": [
+        "pilzinfektion",
+        "immunsuppression"
+      ]
+    }
   ],
   "wirkmechanismus": "Hemmt die Bildung eines wichtigen Bausteins der Pilzzellwand und stoppt so das Pilzwachstum. Itraconazol blockiert die pilzeigene Lanosterol-14α-Demethylase (ein Cytochrom-P450-Enzym), sodass kein Ergosterol mehr für die Zellmembran entsteht. Es reichert sich in Haut, Nägeln und Fettgewebe an und wirkt dort noch Wochen nach Therapieende. Itraconazol und sein Hauptmetabolit hemmen zudem stark das menschliche CYP3A4 und P-Glykoprotein – daher sind viele Medikamente gleichzeitig verboten.",
   "kontraindikationen": [
-    { "text": "Herzschwäche (Herzinsuffizienz) oder Zeichen einer eingeschränkten Herzkammerfunktion, auch in der Vorgeschichte – bei nicht lebensbedrohlichen Infektionen wie Nagelpilz", "ids": ["herzinsuffizienz"] },
-    { "text": "Schwangerschaft (ausser bei lebensbedrohlichen Pilzinfektionen)", "ids": ["schwangerschaft"] },
-    { "text": "Überempfindlichkeit gegen andere Azol-Antimykotika (Kreuzallergie)", "ids": ["allergie"] }
+    {
+      "text": "Herzschwäche (Herzinsuffizienz) oder Zeichen einer eingeschränkten Herzkammerfunktion, auch in der Vorgeschichte – bei nicht lebensbedrohlichen Infektionen wie Nagelpilz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft (ausser bei lebensbedrohlichen Pilzinfektionen)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Herzerkrankungen, Risikofaktoren für Herzschwäche (KHK, Herzklappenfehler, COPD, Nierenversagen, Ödeme): negativ inotrope Wirkung – auf Atemnot, Gewichtszunahme und Beinödeme achten", "ids": ["koronare-herzkrankheit", "herzklappenerkrankung", "copd", "oedeme"] },
-    { "text": "Lebererkrankungen oder erhöhte Leberwerte: seltene schwere Leberschäden bis Leberversagen – Leberwerte kontrollieren", "ids": ["leberinsuffizienz"] },
-    { "text": "Eingeschränkte Nierenfunktion: Aufnahme und Spiegel schwanken; Lösung bei schwerer Niereninsuffizienz mit Vorsicht", "ids": ["niereninsuffizienz"] },
-    { "text": "Neuropathie: bei Kribbeln oder Taubheit Behandlung abbrechen", "ids": ["nervenschmerzen"] },
-    { "text": "Vorübergehender oder bleibender Hörverlust beschrieben, meist bei gleichzeitiger Einnahme kontraindizierter Mittel", "ids": ["hoerstoerung"] },
-    { "text": "Verminderte Magensäure (z. B. Säurehemmer, Achlorhydrie): schlechtere Aufnahme der Kapseln", "ids": [] },
-    { "text": "Frauen im gebärfähigen Alter: wirksame Verhütung bis zur ersten Menstruation nach Behandlungsende", "ids": ["frauen-gebaerfaehig"] }
+    {
+      "text": "Herzerkrankungen, Risikofaktoren für Herzschwäche (KHK, Herzklappenfehler, COPD, Nierenversagen, Ödeme): negativ inotrope Wirkung – auf Atemnot, Gewichtszunahme und Beinödeme achten",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzklappenerkrankung",
+        "copd",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen oder erhöhte Leberwerte: seltene schwere Leberschäden bis Leberversagen – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Aufnahme und Spiegel schwanken; Lösung bei schwerer Niereninsuffizienz mit Vorsicht",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neuropathie: bei Kribbeln oder Taubheit Behandlung abbrechen",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Vorübergehender oder bleibender Hörverlust beschrieben, meist bei gleichzeitiger Einnahme kontraindizierter Mittel",
+      "ids": [
+        "hoerstoerung"
+      ]
+    },
+    {
+      "text": "Verminderte Magensäure (z. B. Säurehemmer, Achlorhydrie): schlechtere Aufnahme der Kapseln",
+      "ids": []
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: wirksame Verhütung bis zur ersten Menstruation nach Behandlungsende",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Azol-Antimykotika: mögliche Kreuzallergie",
+      "ids": [
+        "allergie"
+      ]
+    }
   ],
   "kontraMedikamente": [
-    { "text": "Simvastatin und Lovastatin", "ref": ["simvastatin"], "grund": "Stark erhöhte Statinspiegel durch CYP3A4-Hemmung – Gefahr von Muskelzerfall (Rhabdomyolyse)." },
-    { "text": "Midazolam zum Einnehmen und Triazolam", "ref": ["midazolam", "triazolam"], "grund": "Stark erhöhte Spiegel – anhaltende Sedierung und Atemdepression." },
-    { "text": "Ergotalkaloide (Ergotamin, Dihydroergotamin, Methylergometrin)", "ref": ["methylergometrin"], "grund": "Erhöhte Spiegel – Gefahr schwerer Gefässverengungen (Ergotismus) mit Durchblutungsstörungen." },
-    { "text": "QT-verlängernde CYP3A4-Substrate: Methadon, Disopyramid, Dofetilid, Dronedaron, Chinidin, Pimozid, Sertindol, Cisaprid, Domperidon, Halofantrin, Astemizol, Mizolastin, Terfenadin", "ref": ["methadon", "dronedaron", "sertindol", "domperidon"], "grund": "Erhöhte Spiegel – Gefahr von QT-Verlängerung und lebensbedrohlichen Herzrhythmusstörungen (Torsade de pointes)." },
-    { "text": "Herz-Kreislauf-Mittel: Ivabradin, Ranolazin, Eplerenon, Felodipin, Lercanidipin, Nisoldipin, Ticagrelor, Aliskiren, Dabigatran", "ref": ["ivabradin", "ranolazin", "eplerenon", "felodipin", "lercanidipin", "ticagrelor", "aliskiren", "dabigatran"], "grund": "Stark erhöhte Spiegel durch CYP3A4- bzw. P-gp-Hemmung – Gefahr von Bradykardie, Hyperkaliämie, Blutdruckabfall, Ödemen oder Blutungen." },
-    { "text": "Lurasidon und Quetiapin", "ref": ["lurasidon", "quetiapin"], "grund": "Stark erhöhte Spiegel – Gefahr schwerer Nebenwirkungen (Sedierung, QT-Verlängerung, Bewegungsstörungen)." },
-    { "text": "Naloxegol", "ref": ["naloxegol"], "grund": "Stark erhöhte Spiegel – Gefahr eines Opioid-Entzugssyndroms." },
-    { "text": "Irinotecan sowie Venetoclax zu Beginn und während der Dosissteigerung bei CLL", "ref": ["irinotecan", "venetoclax"], "grund": "Erhöhte Spiegel – schwere Toxizität bzw. Tumorlyse-Syndrom." },
-    { "text": "Avanafil; Vardenafil bei Männern über 75 Jahren", "ref": ["avanafil", "vardenafil"], "grund": "Stark erhöhte Spiegel – Gefahr starker Blutdruckabfälle." },
-    { "text": "Bei eingeschränkter Nieren- oder Leberfunktion: Colchicin, Fesoterodin, Solifenacin; zudem Darifenacin und Lomitapid", "ref": ["colchicin", "fesoterodin", "solifenacin", "darifenacin"], "grund": "Erhöhte Spiegel – Gefahr schwerer, teils lebensbedrohlicher Nebenwirkungen (z. B. Colchicin-Vergiftung, Leberschäden)." }
+    {
+      "text": "Simvastatin und Lovastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Stark erhöhte Statinspiegel durch CYP3A4-Hemmung – Gefahr von Muskelzerfall (Rhabdomyolyse)."
+    },
+    {
+      "text": "Midazolam zum Einnehmen und Triazolam",
+      "ref": [
+        "midazolam",
+        "triazolam"
+      ],
+      "grund": "Stark erhöhte Spiegel – anhaltende Sedierung und Atemdepression."
+    },
+    {
+      "text": "Ergotalkaloide (Ergotamin, Dihydroergotamin, Methylergometrin)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr schwerer Gefässverengungen (Ergotismus) mit Durchblutungsstörungen."
+    },
+    {
+      "text": "QT-verlängernde CYP3A4-Substrate: Methadon, Disopyramid, Dofetilid, Dronedaron, Chinidin, Pimozid, Sertindol, Cisaprid, Domperidon, Halofantrin, Astemizol, Mizolastin, Terfenadin",
+      "ref": [
+        "methadon",
+        "dronedaron",
+        "sertindol",
+        "domperidon"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr von QT-Verlängerung und lebensbedrohlichen Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Herz-Kreislauf-Mittel: Ivabradin, Ranolazin, Eplerenon, Felodipin, Lercanidipin, Nisoldipin, Ticagrelor, Aliskiren, Dabigatran",
+      "ref": [
+        "ivabradin",
+        "ranolazin",
+        "eplerenon",
+        "felodipin",
+        "lercanidipin",
+        "ticagrelor",
+        "aliskiren",
+        "dabigatran"
+      ],
+      "grund": "Stark erhöhte Spiegel durch CYP3A4- bzw. P-gp-Hemmung – Gefahr von Bradykardie, Hyperkaliämie, Blutdruckabfall, Ödemen oder Blutungen."
+    },
+    {
+      "text": "Lurasidon und Quetiapin",
+      "ref": [
+        "lurasidon",
+        "quetiapin"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr schwerer Nebenwirkungen (Sedierung, QT-Verlängerung, Bewegungsstörungen)."
+    },
+    {
+      "text": "Naloxegol",
+      "ref": [
+        "naloxegol"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr eines Opioid-Entzugssyndroms."
+    },
+    {
+      "text": "Irinotecan sowie Venetoclax zu Beginn und während der Dosissteigerung bei CLL",
+      "ref": [
+        "irinotecan",
+        "venetoclax"
+      ],
+      "grund": "Erhöhte Spiegel – schwere Toxizität bzw. Tumorlyse-Syndrom."
+    },
+    {
+      "text": "Avanafil; Vardenafil bei Männern über 75 Jahren",
+      "ref": [
+        "avanafil",
+        "vardenafil"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr starker Blutdruckabfälle."
+    },
+    {
+      "text": "Bei eingeschränkter Nieren- oder Leberfunktion: Colchicin, Fesoterodin, Solifenacin; zudem Darifenacin und Lomitapid",
+      "ref": [
+        "colchicin",
+        "fesoterodin",
+        "solifenacin",
+        "darifenacin"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr schwerer, teils lebensbedrohlicher Nebenwirkungen (z. B. Colchicin-Vergiftung, Leberschäden)."
+    },
+    {
+      "text": "Eletriptan und Dapoxetin",
+      "ref": [
+        "eletriptan",
+        "dapoxetin"
+      ],
+      "grund": "Stark erhöhte Spiegel durch CYP3A4-Hemmung – Gefahr von Gefässverengung bzw. Kreislaufkollaps und Herzrhythmusstörungen."
+    }
   ],
   "interaktionen": [
-    { "text": "CYP3A4-Induktoren (Rifampicin, Rifabutin, Carbamazepin, Phenytoin, Phenobarbital, Efavirenz, Johanniskraut)", "ref": ["gruppe:cyp3a4-induktoren"], "effekt": "Itraconazol-Spiegel fallen so stark, dass die Wirkung verloren gehen kann – nicht kombinieren (bis 2 Wochen nach Absetzen des Induktors).", "schwere": "schwer" },
-    { "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus", "ref": ["gruppe:immunsuppressiva-calcineurin", "gruppe:mtor-hemmer"], "effekt": "Deutlich erhöhte Spiegel – Talspiegel engmaschig kontrollieren, Dosis reduzieren.", "schwere": "schwer" },
-    { "text": "Weitere empfindliche CYP3A4-Substrate (z. B. Atorvastatin, Fentanyl, Oxycodon, Buprenorphin, Alprazolam, Colchicin bei normaler Organfunktion)", "ref": ["gruppe:cyp3a4-substrate-empfindlich"], "effekt": "Erhöhte Spiegel und verstärkte Nebenwirkungen – Dosis reduzieren oder Alternative wählen, eng überwachen.", "schwere": "schwer" },
-    { "text": "Rivaroxaban, Apixaban, Edoxaban", "ref": ["rivaroxaban", "apixaban", "edoxaban"], "effekt": "Erhöhte Spiegel, Blutungsgefahr – Kombination mit Rivaroxaban und Apixaban nicht empfohlen, Edoxaban-Dosis reduzieren.", "schwere": "schwer" },
-    { "text": "Krebsmedikamente: Proteinkinase-Hemmer, Vinca-Alkaloide, Docetaxel, Paclitaxel u. a.", "ref": ["gruppe:proteinkinase-hemmer", "vincristin", "vinblastin", "docetaxel"], "effekt": "Erhöhte Spiegel und Toxizität (z. B. Nervenschäden, Myelosuppression) – meiden oder Dosis gemäss Fachinformation anpassen.", "schwere": "schwer" },
-    { "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Clarithromycin)", "ref": ["ritonavir", "cobicistat", "clarithromycin"], "effekt": "Itraconazol-Spiegel steigen – auf Nebenwirkungen achten, Spiegel ggf. bestimmen.", "schwere": "mittel" },
-    { "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker, Antazida)", "ref": ["gruppe:magensaeure-reduzierend"], "effekt": "Schlechtere Aufnahme der Kapseln – Kapseln mit einem sauren Getränk (z. B. Cola) einnehmen, Antazida mindestens 1 Stunde vorher oder 2 Stunden nachher.", "schwere": "mittel" },
-    { "text": "Digoxin", "ref": ["digoxin"], "effekt": "Digoxin-Spiegel steigen (P-gp-Hemmung) – Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Calciumantagonisten (z. B. Amlodipin, Nifedipin, Verapamil, Diltiazem)", "ref": ["gruppe:dhp-calciumantagonisten", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Erhöhte Spiegel (Ödeme, Blutdruckabfall) und zusätzliche Schwächung der Herzkraft – Vorsicht, Dosis anpassen.", "schwere": "mittel" },
-    { "text": "Kortison zum Inhalieren oder Einnehmen (Budesonid, Fluticason, Dexamethason, Methylprednisolon)", "ref": ["gruppe:glukokortikoide-inhalativ", "gruppe:glukokortikoide-systemisch"], "effekt": "Erhöhte Kortisonspiegel – Cushing-Syndrom und Nebennierenunterdrückung möglich; bei längerer Kombination überwachen.", "schwere": "mittel" },
-    { "text": "PDE-5-Hemmer (Sildenafil, Tadalafil)", "ref": ["sildenafil", "tadalafil"], "effekt": "Erhöhte Spiegel – niedrigere Dosis, Blutdruckabfall möglich.", "schwere": "mittel" },
-    { "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)", "ref": ["gruppe:vitamin-k-antagonisten"], "effekt": "Verstärkte Gerinnungshemmung möglich – INR kontrollieren.", "schwere": "mittel" }
+    {
+      "text": "CYP3A4-Induktoren (Rifampicin, Rifabutin, Carbamazepin, Phenytoin, Phenobarbital, Efavirenz, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Itraconazol-Spiegel fallen so stark, dass die Wirkung verloren gehen kann – nicht kombinieren (bis 2 Wochen nach Absetzen des Induktors).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Deutlich erhöhte Spiegel – Talspiegel engmaschig kontrollieren, Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Weitere empfindliche CYP3A4-Substrate (z. B. Atorvastatin, Fentanyl, Oxycodon, Buprenorphin, Alprazolam, Colchicin bei normaler Organfunktion)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Erhöhte Spiegel und verstärkte Nebenwirkungen – Dosis reduzieren oder Alternative wählen, eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rivaroxaban, Apixaban, Edoxaban",
+      "ref": [
+        "rivaroxaban",
+        "apixaban",
+        "edoxaban"
+      ],
+      "effekt": "Erhöhte Spiegel, Blutungsgefahr – Kombination mit Rivaroxaban und Apixaban nicht empfohlen, Edoxaban-Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Krebsmedikamente: Proteinkinase-Hemmer, Vinca-Alkaloide, Docetaxel, Paclitaxel u. a.",
+      "ref": [
+        "gruppe:proteinkinase-hemmer",
+        "vincristin",
+        "vinblastin",
+        "docetaxel"
+      ],
+      "effekt": "Erhöhte Spiegel und Toxizität (z. B. Nervenschäden, Myelosuppression) – meiden oder Dosis gemäss Fachinformation anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Clarithromycin)",
+      "ref": [
+        "ritonavir",
+        "cobicistat",
+        "clarithromycin"
+      ],
+      "effekt": "Itraconazol-Spiegel steigen – auf Nebenwirkungen achten, Spiegel ggf. bestimmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker, Antazida)",
+      "ref": [
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Schlechtere Aufnahme der Kapseln – Kapseln mit einem sauren Getränk (z. B. Cola) einnehmen, Antazida mindestens 1 Stunde vorher oder 2 Stunden nachher.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigen (P-gp-Hemmung) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten (z. B. Amlodipin, Nifedipin, Verapamil, Diltiazem)",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Erhöhte Spiegel (Ödeme, Blutdruckabfall) und zusätzliche Schwächung der Herzkraft – Vorsicht, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kortison zum Inhalieren oder Einnehmen (Budesonid, Fluticason, Dexamethason, Methylprednisolon)",
+      "ref": [
+        "gruppe:glukokortikoide-inhalativ",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhte Kortisonspiegel – Cushing-Syndrom und Nebennierenunterdrückung möglich; bei längerer Kombination überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil)",
+      "ref": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "effekt": "Erhöhte Spiegel – niedrigere Dosis, Blutdruckabfall möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung möglich – INR kontrollieren.",
+      "schwere": "mittel"
+    }
   ],
   "nebenwirkungen": {
-    "haeufig": ["Kopfschmerzen", "Bauchschmerzen, Übelkeit"],
-    "gelegentlich": ["Infektionen der oberen Atemwege, Schnupfen, Nebenhöhlenentzündung", "Überempfindlichkeitsreaktionen", "Durchfall, Erbrechen, Verstopfung, Verdauungsbeschwerden, Blähungen, Geschmacksstörung", "Abnorme Leberwerte, erhöhtes Bilirubin", "Hautausschlag, Juckreiz, Nesselsucht", "Menstruationsstörungen"],
-    "selten": ["Leukopenie (Mangel an weissen Blutkörperchen)", "Anaphylaxie, Angioödem, Serumkrankheit", "Kribbeln, Taubheitsgefühl, periphere Neuropathie", "Sehstörungen (verschwommenes Sehen, Doppelbilder), Tinnitus, Hörverlust", "Herzinsuffizienz (Herzschwäche) mit Atemnot und Ödemen", "Pankreatitis", "Schwere Leberschäden bis akutes Leberversagen", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP), Haarausfall, Lichtempfindlichkeit"],
-    "unbekannt": ["Hypokaliämie (Kaliummangel), erhöhte Triglyceride", "Ödeme", "Erektionsstörung", "Häufiges Wasserlassen"]
+    "haeufig": [
+      "Kopfschmerzen",
+      "Bauchschmerzen, Übelkeit"
+    ],
+    "gelegentlich": [
+      "Infektionen der oberen Atemwege, Schnupfen, Nebenhöhlenentzündung",
+      "Überempfindlichkeitsreaktionen",
+      "Durchfall, Erbrechen, Verstopfung, Verdauungsbeschwerden, Blähungen, Geschmacksstörung",
+      "Abnorme Leberwerte, erhöhtes Bilirubin",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Menstruationsstörungen"
+    ],
+    "selten": [
+      "Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Anaphylaxie, Angioödem, Serumkrankheit",
+      "Kribbeln, Taubheitsgefühl, periphere Neuropathie",
+      "Sehstörungen (verschwommenes Sehen, Doppelbilder), Tinnitus, Hörverlust",
+      "Herzinsuffizienz (Herzschwäche) mit Atemnot und Ödemen",
+      "Pankreatitis",
+      "Schwere Leberschäden bis akutes Leberversagen",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, AGEP), Haarausfall, Lichtempfindlichkeit"
+    ],
+    "unbekannt": [
+      "Hypokaliämie (Kaliummangel), erhöhte Triglyceride",
+      "Ödeme",
+      "Erektionsstörung",
+      "Häufiges Wasserlassen"
+    ]
   },
   "schwangerschaft": "Kontraindiziert, ausser bei lebensbedrohlichen Pilzinfektionen. Frauen im gebärfähigen Alter verhüten bis zur ersten Menstruation nach Behandlungsende.",
   "stillzeit": "Geht in kleinen Mengen in die Muttermilch über. Nur nach strenger Nutzen-Risiko-Abwägung; im Zweifel nicht stillen.",

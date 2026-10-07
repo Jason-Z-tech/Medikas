@@ -1,36 +1,105 @@
 {
   "id": "pankreatin",
   "name": "Pankreatin",
-  "synonyme": ["Pancreatin", "Pankreasenzyme", "Pankrelipase", "Pancrelipase", "Verdauungsenzyme", "Lipase"],
-  "atc": ["A09AA02"],
+  "synonyme": [
+    "Pancreatin",
+    "Pankreasenzyme",
+    "Pankrelipase",
+    "Pancrelipase",
+    "Verdauungsenzyme",
+    "Lipase"
+  ],
+  "atc": [
+    "A09AA02"
+  ],
   "klasse": "Verdauungsenzyme (Pankreasenzym-Ersatz aus Schweinepankreas)",
   "kurz": "Ersetzt fehlende Verdauungsenzyme der Bauchspeicheldrüse, damit Fett, Eiweiss und Kohlenhydrate aus der Nahrung verdaut werden.",
   "gruppen": [],
-  "handelsnamen": ["Creon"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Kapseln mit magensaftresistenten Mikropellets"],
+  "handelsnamen": [
+    "Creon"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Kapseln mit magensaftresistenten Mikropellets"
+  ],
   "indikationen": [
-    { "text": "Exokrine Pankreasinsuffizienz (ungenügende Bildung von Verdauungsenzymen), z. B. bei zystischer Fibrose, chronischer Bauchspeicheldrüsenentzündung, nach Operationen an Bauchspeicheldrüse oder Magen oder bei Bauchspeicheldrüsenkrebs", "ids": ["pankreasinsuffizienz", "zystische-fibrose", "pankreatitis"] }
+    {
+      "text": "Exokrine Pankreasinsuffizienz (ungenügende Bildung von Verdauungsenzymen), z. B. bei zystischer Fibrose, chronischer Bauchspeicheldrüsenentzündung, nach Operationen an Bauchspeicheldrüse oder Magen oder bei Bauchspeicheldrüsenkrebs",
+      "ids": [
+        "pankreasinsuffizienz",
+        "zystische-fibrose",
+        "pankreatitis"
+      ]
+    }
   ],
   "wirkmechanismus": "Ersetzt die Verdauungsenzyme, die eine geschwächte Bauchspeicheldrüse nicht mehr ausreichend bildet. Pankreatin wird aus der Bauchspeicheldrüse von Schweinen gewonnen und enthält Lipase (spaltet Fett), Amylase (spaltet Stärke) und Proteasen (spalten Eiweiss). Magensaftresistent überzogene Mikropellets schützen die Enzyme vor der Magensäure, mischen sich mit dem Speisebrei und geben die Enzyme erst im Zwölffingerdarm frei. Dadurch bessern sich Fettstühle, Blähungen und Gewichtsverlust, und fettlösliche Vitamine werden besser aufgenommen; die Enzyme wirken nur im Darm und werden nicht ins Blut aufgenommen.",
   "kontraindikationen": [
-    { "text": "Allergie gegen Schweineprotein (Schweinefleisch-Eiweiss)", "ids": ["allergie"] }
+    {
+      "text": "Allergie gegen Schweineprotein (Schweinefleisch-Eiweiss)",
+      "ids": [
+        "nahrungsmittelallergie"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Zystische Fibrose mit sehr hohen Dosen: Gefahr einer fibrosierenden Kolonopathie (Verengungen im Dickdarm); ungewöhnliche Bauchbeschwerden ärztlich abklären", "ids": ["zystische-fibrose", "kinder"] },
-    { "text": "Darmverschluss-ähnliche Beschwerden (bei zystischer Fibrose möglich): ärztlich abklären", "ids": ["darmverschluss"] },
-    { "text": "Akute Bauchspeicheldrüsenentzündung oder akuter Schub einer chronischen Entzündung: nur nach ärztlicher Anweisung", "ids": [] }
+    {
+      "text": "Zystische Fibrose mit sehr hohen Dosen: Gefahr einer fibrosierenden Kolonopathie (Verengungen im Dickdarm); ungewöhnliche Bauchbeschwerden ärztlich abklären",
+      "ids": [
+        "zystische-fibrose",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Darmverschluss-ähnliche Beschwerden (bei zystischer Fibrose möglich): ärztlich abklären",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Akute Bauchspeicheldrüsenentzündung oder akuter Schub einer chronischen Entzündung: nur nach ärztlicher Anweisung",
+      "ids": []
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Acarbose (Alpha-Glucosidase-Hemmer)", "ref": ["acarbose"], "effekt": "Die Amylase im Pankreatin kann die blutzuckersenkende Wirkung von Acarbose abschwächen – Blutzucker kontrollieren.", "schwere": "mittel" },
-    { "text": "Folsäure", "ref": ["folsaeure"], "effekt": "Folsäure kann schlechter aufgenommen werden – bei Langzeitbehandlung Folsäurestatus beachten.", "schwere": "leicht" }
+    {
+      "text": "Acarbose (Alpha-Glucosidase-Hemmer)",
+      "ref": [
+        "acarbose"
+      ],
+      "effekt": "Die Amylase im Pankreatin kann die blutzuckersenkende Wirkung von Acarbose abschwächen – Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Folsäure",
+      "ref": [
+        "folsaeure"
+      ],
+      "effekt": "Folsäure kann schlechter aufgenommen werden – bei Langzeitbehandlung Folsäurestatus beachten.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Bauchschmerzen"],
-    "haeufig": ["Übelkeit, Erbrechen", "Verstopfung (Obstipation)", "Blähbauch", "Durchfall"],
-    "gelegentlich": ["Hautausschlag"],
-    "unbekannt": ["Fibrosierende Kolonopathie (Verengungen am Übergang Dünn-/Dickdarm und im Dickdarm), v. a. bei hohen Dosen und zystischer Fibrose", "Überempfindlichkeitsreaktionen bis Anaphylaxie", "Juckreiz, Nesselsucht"]
+    "sehrHaeufig": [
+      "Bauchschmerzen"
+    ],
+    "haeufig": [
+      "Übelkeit, Erbrechen",
+      "Verstopfung (Obstipation)",
+      "Blähbauch",
+      "Durchfall"
+    ],
+    "gelegentlich": [
+      "Hautausschlag"
+    ],
+    "unbekannt": [
+      "Fibrosierende Kolonopathie (Verengungen am Übergang Dünn-/Dickdarm und im Dickdarm), v. a. bei hohen Dosen und zystischer Fibrose",
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie",
+      "Juckreiz, Nesselsucht"
+    ]
   },
   "schwangerschaft": "Die Enzyme werden nicht aufgenommen; bei Bedarf kann Pankreatin in der Schwangerschaft angewendet werden, um eine ausreichende Ernährung sicherzustellen.",
   "stillzeit": "Anwendung in der Stillzeit möglich.",

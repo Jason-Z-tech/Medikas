@@ -1,44 +1,175 @@
 {
   "id": "minoxidil",
   "name": "Minoxidil",
-  "synonyme": ["Minoxidilum"],
-  "atc": ["C02DC01", "D11AX01"],
+  "synonyme": [
+    "Minoxidilum"
+  ],
+  "atc": [
+    "C02DC01",
+    "D11AX01"
+  ],
   "klasse": "Kaliumkanalöffner; direkter Vasodilatator (Tabletten) und Haarwuchsmittel (Lösung, Schaum)",
   "kurz": "Auf der Kopfhaut gegen erblich bedingten Haarausfall; als Tablette ein sehr starker Blutdrucksenker für schwere, schwer behandelbare Fälle.",
-  "gruppen": ["blutdrucksenkend"],
-  "handelsnamen": ["Regaine", "Alopexy", "Loniten"],
-  "abgabe": ["B", "D"],
-  "darreichung": ["Lösung zur Anwendung auf der Kopfhaut", "Schaum zur Anwendung auf der Kopfhaut", "Tabletten"],
+  "gruppen": [
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Regaine",
+    "Alopexy",
+    "Loniten"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Lösung zur Anwendung auf der Kopfhaut",
+    "Schaum zur Anwendung auf der Kopfhaut",
+    "Tabletten"
+  ],
   "indikationen": [
-    { "text": "Erblich bedingter Haarausfall (androgenetische Alopezie) bei Männern und Frauen (Lösung, Schaum)", "ids": ["haarausfall"] },
-    { "text": "Schwerer Bluthochdruck, der auf andere Blutdrucksenker nicht ausreichend anspricht – nur zusammen mit einem Betablocker und einem Diuretikum (Tabletten)", "ids": ["hypertonie"] }
+    {
+      "text": "Erblich bedingter Haarausfall (androgenetische Alopezie) bei Männern und Frauen (Lösung, Schaum)",
+      "ids": [
+        "haarausfall"
+      ]
+    },
+    {
+      "text": "Schwerer Bluthochdruck, der auf andere Blutdrucksenker nicht ausreichend anspricht – nur zusammen mit einem Betablocker und einem Diuretikum (Tabletten)",
+      "ids": [
+        "hypertonie"
+      ]
+    }
   ],
   "wirkmechanismus": "Erweitert die kleinen Arterien und senkt so den Blutdruck; auf der Kopfhaut regt es das Haarwachstum an. Minoxidil wird zu Minoxidilsulfat umgewandelt, das ATP-abhängige Kaliumkanäle der glatten Gefässmuskulatur öffnet und diese erschlaffen lässt. Die starke Gefässerweiterung führt reflektorisch zu schnellerem Puls sowie zu Salz- und Wassereinlagerung, weshalb die Tabletten immer mit einem Betablocker und einem Diuretikum kombiniert werden. Auf der Kopfhaut verlängert Minoxidil die Wachstumsphase der Haarfollikel und vergrössert verkleinerte Follikel; der genaue Mechanismus ist nicht vollständig geklärt.",
   "kontraindikationen": [
-    { "text": "Tabletten: Phäochromozytom (hormonbildender Tumor des Nebennierenmarks)", "ids": [] },
-    { "text": "Lösung und Schaum: Kinder und Jugendliche unter 18 Jahren", "ids": ["kinder"] }
+    {
+      "text": "Tabletten: Phäochromozytom (hormonbildender Tumor des Nebennierenmarks)",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Lösung und Schaum: Kinder und Jugendliche unter 18 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Lösung und Schaum: Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Herz-Kreislauf-Erkrankungen (koronare Herzkrankheit, Herzrhythmusstörungen, Herzschwäche): vor der Anwendung auf der Kopfhaut ärztlich abklären", "ids": ["koronare-herzkrankheit", "herzrhythmusstoerung", "herzinsuffizienz"] },
-    { "text": "Tabletten: Angina pectoris oder kürzlich erlittener Herzinfarkt (der schnellere Puls kann Beschwerden auslösen)", "ids": ["angina-pectoris", "herzinfarkt"] },
-    { "text": "Tabletten: Herzbeutelerguss (Perikarderguss) möglich, besonders bei Nierenkrankheit und Dialyse", "ids": ["niereninsuffizienz"] },
-    { "text": "Tabletten: Herzschwäche und Neigung zu Wassereinlagerungen (Salz- und Wasserretention)", "ids": ["herzinsuffizienz", "oedeme"] },
-    { "text": "Entzündete, verletzte oder sonnenverbrannte Kopfhaut, Psoriasis der Kopfhaut: mehr Wirkstoff gelangt ins Blut", "ids": ["psoriasis", "sonnenbrand"] },
-    { "text": "Plötzlicher, fleckförmiger oder ungeklärter Haarausfall (z. B. nach einer Geburt, durch Medikamente oder Krankheit): Lösung und Schaum sind dafür nicht geeignet – ärztlich abklären", "ids": ["haarausfall"] },
-    { "text": "Lösung und Schaum: bei Personen über 65 Jahren nicht empfohlen", "ids": ["aeltere-patienten"] },
-    { "text": "Niedriger Blutdruck", "ids": ["hypotonie"] }
+    {
+      "text": "Herz-Kreislauf-Erkrankungen (koronare Herzkrankheit, Herzrhythmusstörungen, Herzschwäche): vor der Anwendung auf der Kopfhaut ärztlich abklären",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Tabletten: Angina pectoris oder kürzlich erlittener Herzinfarkt (der schnellere Puls kann Beschwerden auslösen)",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Tabletten: Herzbeutelerguss (Perikarderguss) möglich, besonders bei Nierenkrankheit und Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Tabletten: Herzschwäche und Neigung zu Wassereinlagerungen (Salz- und Wasserretention)",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Entzündete, verletzte oder sonnenverbrannte Kopfhaut, Psoriasis der Kopfhaut: mehr Wirkstoff gelangt ins Blut",
+      "ids": [
+        "psoriasis",
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Plötzlicher, fleckförmiger oder ungeklärter Haarausfall (z. B. nach einer Geburt, durch Medikamente oder Krankheit): Lösung und Schaum sind dafür nicht geeignet – ärztlich abklären",
+      "ids": [
+        "haarausfall"
+      ]
+    },
+    {
+      "text": "Lösung und Schaum: bei Personen über 65 Jahren nicht empfohlen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Niedriger Blutdruck",
+      "ids": [
+        "hypotonie"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Andere Blutdrucksenker, besonders Guanethidin und andere gefässerweiternde Mittel (Tabletten)", "ref": ["gruppe:blutdrucksenkend"], "effekt": "Verstärkter Blutdruckabfall bis zum Kollaps beim Aufstehen möglich – Blutdruck engmaschig kontrollieren; Guanethidin vor Beginn absetzen.", "schwere": "mittel" },
-    { "text": "Andere Mittel auf der Kopfhaut, z. B. Tretinoin, Dithranol, Kortisoncremes oder Vaseline (Lösung, Schaum)", "ref": ["tretinoin", "gruppe:glukokortikoide-topisch"], "effekt": "Können die Aufnahme von Minoxidil durch die Haut erhöhen – nicht gleichzeitig auf die Kopfhaut auftragen.", "schwere": "leicht" }
+    {
+      "text": "Andere Blutdrucksenker, besonders Guanethidin und andere gefässerweiternde Mittel (Tabletten)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall bis zum Kollaps beim Aufstehen möglich – Blutdruck engmaschig kontrollieren; Guanethidin vor Beginn absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Mittel auf der Kopfhaut, z. B. Tretinoin, Dithranol, Kortisoncremes oder Vaseline (Lösung, Schaum)",
+      "ref": [
+        "tretinoin",
+        "gruppe:glukokortikoide-topisch"
+      ],
+      "effekt": "Können die Aufnahme von Minoxidil durch die Haut erhöhen – nicht gleichzeitig auf die Kopfhaut auftragen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrHaeufig": ["Kopfschmerzen (Lösung, Schaum)", "Hypertrichose (vermehrter Haarwuchs an Gesicht und Körper) unter Tabletten", "EKG-Veränderungen (T-Wellen) unter Tabletten"],
-    "haeufig": ["Juckreiz, Rötung und Schuppung der Kopfhaut", "Hautausschlag, Kontaktdermatitis, akneartige Hautentzündung", "Unerwünschter Haarwuchs ausserhalb der Kopfhaut, z. B. im Gesicht bei Frauen (Lösung, Schaum)", "Salz- und Wassereinlagerung mit Ödemen und Gewichtszunahme (Tabletten)", "Perikarderguss (Herzbeutelerguss), selten bis zur lebensbedrohlichen Herzbeuteltamponade (Tabletten)"],
-    "gelegentlich": ["Schwindel", "Übelkeit"],
-    "selten": ["Herzklopfen, Herzrasen, Brustschmerzen (Lösung, Schaum)", "Thrombozytopenie und Leukopenie (Mangel an Blutplättchen und weissen Blutkörperchen) unter Tabletten", "Schwere Hautreaktionen (Stevens-Johnson-Syndrom) unter Tabletten"],
-    "unbekannt": ["Vorübergehend verstärkter Haarausfall zu Beginn der Behandlung", "Veränderungen von Haarfarbe oder Haarstruktur", "Blutdruckabfall", "Augenreizung", "Allergische Reaktionen bis zum Angioödem", "Atemnot, geschwollene Hände oder Füsse (Lösung, Schaum – Anwendung beenden)", "Reflextachykardie (Herzrasen) unter Tabletten ohne Betablocker", "Brustspannen (Tabletten)"]
+    "sehrHaeufig": [
+      "Kopfschmerzen (Lösung, Schaum)",
+      "Hypertrichose (vermehrter Haarwuchs an Gesicht und Körper) unter Tabletten",
+      "EKG-Veränderungen (T-Wellen) unter Tabletten"
+    ],
+    "haeufig": [
+      "Juckreiz, Rötung und Schuppung der Kopfhaut",
+      "Hautausschlag, Kontaktdermatitis, akneartige Hautentzündung",
+      "Unerwünschter Haarwuchs ausserhalb der Kopfhaut, z. B. im Gesicht bei Frauen (Lösung, Schaum)",
+      "Salz- und Wassereinlagerung mit Ödemen und Gewichtszunahme (Tabletten)",
+      "Perikarderguss (Herzbeutelerguss), selten bis zur lebensbedrohlichen Herzbeuteltamponade (Tabletten)"
+    ],
+    "gelegentlich": [
+      "Schwindel",
+      "Übelkeit"
+    ],
+    "selten": [
+      "Herzklopfen, Herzrasen, Brustschmerzen (Lösung, Schaum)",
+      "Thrombozytopenie und Leukopenie (Mangel an Blutplättchen und weissen Blutkörperchen) unter Tabletten",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom) unter Tabletten"
+    ],
+    "unbekannt": [
+      "Vorübergehend verstärkter Haarausfall zu Beginn der Behandlung",
+      "Veränderungen von Haarfarbe oder Haarstruktur",
+      "Blutdruckabfall",
+      "Augenreizung",
+      "Allergische Reaktionen bis zum Angioödem",
+      "Atemnot, geschwollene Hände oder Füsse (Lösung, Schaum – Anwendung beenden)",
+      "Reflextachykardie (Herzrasen) unter Tabletten ohne Betablocker",
+      "Brustspannen (Tabletten)"
+    ]
   },
   "schwangerschaft": "Lösung und Schaum: in der Schwangerschaft nicht anwenden. Tabletten nur bei zwingender Notwendigkeit; bei Neugeborenen wurde vermehrter Haarwuchs beobachtet.",
   "stillzeit": "Minoxidil geht in die Muttermilch über; während der Stillzeit nicht anwenden.",

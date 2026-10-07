@@ -1,45 +1,172 @@
 {
   "id": "natriumphosphat",
   "name": "Natriumphosphat",
-  "synonyme": ["Natriumdihydrogenphosphat", "Dinatriumhydrogenphosphat", "Phosphat-Klistier", "Sodium phosphate"],
-  "atc": ["A06AG01"],
+  "synonyme": [
+    "Natriumdihydrogenphosphat",
+    "Dinatriumhydrogenphosphat",
+    "Phosphat-Klistier",
+    "Sodium phosphate"
+  ],
+  "atc": [
+    "A06AG01"
+  ],
   "klasse": "Osmotisch wirkendes Abführmittel zur rektalen Anwendung (Klistier)",
   "kurz": "Einlauf (Klistier) mit Phosphatsalzen, der innert Minuten den Enddarm entleert – bei Verstopfung und vor Untersuchungen oder Operationen.",
-  "gruppen": ["laxanzien"],
-  "handelsnamen": ["Freka-Clyss", "Practo-Clyss"],
-  "abgabe": ["D"],
-  "darreichung": ["Rektallösung (Klistier, Einlauf)"],
+  "gruppen": [
+    "laxanzien"
+  ],
+  "handelsnamen": [
+    "Freka-Clyss",
+    "Practo-Clyss"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Rektallösung (Klistier, Einlauf)"
+  ],
   "indikationen": [
-    { "text": "Verstopfung (Obstipation), wenn eine rasche Entleerung des Enddarms nötig ist", "ids": ["verstopfung"] },
-    { "text": "Darmentleerung vor Operationen, Geburt, Röntgen- oder endoskopischen Untersuchungen des Enddarms (z. B. Rektoskopie)", "ids": ["darmvorbereitung"] }
+    {
+      "text": "Verstopfung (Obstipation), wenn eine rasche Entleerung des Enddarms nötig ist",
+      "ids": [
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Darmentleerung vor Operationen, Geburt, Röntgen- oder endoskopischen Untersuchungen des Enddarms (z. B. Rektoskopie)",
+      "ids": [
+        "darmvorbereitung"
+      ]
+    }
   ],
   "wirkmechanismus": "Löst rasch den Stuhlgang aus, indem die Lösung Wasser in den Enddarm zieht. Die stark konzentrierte (hypertone) Phosphatlösung bindet osmotisch Wasser im Rektum und Sigmoid, weicht den Stuhl auf und dehnt die Darmwand; der Dehnungsreiz löst den Entleerungsreflex meist innerhalb von 2 bis 15 Minuten aus. Ein kleiner Teil des Natriums und Phosphats wird über die Darmschleimhaut aufgenommen – bei längerem Verbleiben im Darm, eingeschränkter Nierenfunktion oder bei Kleinkindern kann dies zu gefährlichen Elektrolytstörungen führen.",
   "kontraindikationen": [
-    { "text": "Darmverschluss (Ileus) oder Verdacht darauf, Darmdurchbruch, Verengung des Enddarms oder Afters", "ids": ["darmverschluss"] },
-    { "text": "Angeborenes oder erworbenes Megakolon (z. B. Morbus Hirschsprung)", "ids": [] },
-    { "text": "Akute entzündliche Darmerkrankungen (z. B. Schub einer Colitis ulcerosa oder eines Morbus Crohn), unklare akute Bauchschmerzen, unklare Blutungen aus dem Enddarm", "ids": ["colitis-ulcerosa", "morbus-crohn"] },
-    { "text": "Flüssigkeitsmangel (Dehydratation)", "ids": ["dehydratation"] },
-    { "text": "Dekompensierte Herzschwäche (Herzinsuffizienz)", "ids": ["herzinsuffizienz"] },
-    { "text": "Mittelschwere bis schwere Niereninsuffizienz", "ids": ["niereninsuffizienz"] },
-    { "text": "Kleinkinder (je nach Präparat unter 2 bzw. 3 Jahren)", "ids": ["kinder"] }
+    {
+      "text": "Darmverschluss (Ileus) oder Verdacht darauf, Darmdurchbruch, Verengung des Enddarms oder Afters",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Angeborenes oder erworbenes Megakolon (z. B. Morbus Hirschsprung)",
+      "ids": []
+    },
+    {
+      "text": "Akute entzündliche Darmerkrankungen (z. B. Schub einer Colitis ulcerosa oder eines Morbus Crohn), unklare akute Bauchschmerzen, unklare Blutungen aus dem Enddarm",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel (Dehydratation)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Dekompensierte Herzschwäche (Herzinsuffizienz)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kleinkinder (je nach Präparat unter 2 bzw. 3 Jahren)",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "vorsicht": [
-    { "text": "Leicht eingeschränkte Nierenfunktion und ältere Menschen: Gefahr von Phosphat- und Natriumüberschuss", "ids": ["niereninsuffizienz", "aeltere-patienten"] },
-    { "text": "Bestehende Elektrolytstörungen (z. B. Calcium- oder Kaliummangel, erhöhtes Phosphat)", "ids": ["hypokalzaemie", "hypokaliaemie", "hyperphosphataemie"] },
-    { "text": "Herzerkrankungen, besonders Herzrhythmusstörungen", "ids": ["herzrhythmusstoerung"] },
-    { "text": "Hämorrhoiden, Analfissuren oder entzündete Afterschleimhaut (Reizung, Verletzungsgefahr beim Einführen)", "ids": ["haemorrhoiden"] },
-    { "text": "Kinder: nur Packungsgrössen und Mengen verwenden, die für das Alter vorgesehen sind", "ids": ["kinder"] }
+    {
+      "text": "Leicht eingeschränkte Nierenfunktion und ältere Menschen: Gefahr von Phosphat- und Natriumüberschuss",
+      "ids": [
+        "niereninsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Bestehende Elektrolytstörungen (z. B. Calcium- oder Kaliummangel, erhöhtes Phosphat)",
+      "ids": [
+        "hypokalzaemie",
+        "hypokaliaemie",
+        "hyperphosphataemie"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen, besonders Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Hämorrhoiden, Analfissuren oder entzündete Afterschleimhaut (Reizung, Verletzungsgefahr beim Einführen)",
+      "ids": [
+        "haemorrhoiden"
+      ]
+    },
+    {
+      "text": "Kinder: nur Packungsgrössen und Mengen verwenden, die für das Alter vorgesehen sind",
+      "ids": [
+        "kinder"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Diuretika", "ref": ["gruppe:diuretika"], "effekt": "Erhöhte Gefahr von Flüssigkeitsmangel und Elektrolytstörungen – nur kurzfristig anwenden, auf Trinkmenge achten.", "schwere": "mittel" },
-    { "text": "Lithium", "ref": ["lithium"], "effekt": "Verschiebungen von Natrium und Flüssigkeit können den Lithiumspiegel verändern – bei wiederholter Anwendung Spiegel kontrollieren.", "schwere": "mittel" },
-    { "text": "Mittel, die die Nierenfunktion beeinträchtigen (z. B. ACE-Hemmer, Sartane, NSAR)", "ref": ["gruppe:raas-hemmer", "gruppe:nsar"], "effekt": "Phosphat wird schlechter ausgeschieden – erhöhtes Risiko für Elektrolytstörungen.", "schwere": "mittel" },
-    { "text": "Calciumantagonisten und andere Mittel, die Elektrolyte beeinflussen", "ref": ["gruppe:dhp-calciumantagonisten", "gruppe:nicht-dhp-calciumantagonisten"], "effekt": "Vorsicht wegen möglicher Calcium- und Phosphatverschiebungen.", "schwere": "leicht" }
+    {
+      "text": "Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Erhöhte Gefahr von Flüssigkeitsmangel und Elektrolytstörungen – nur kurzfristig anwenden, auf Trinkmenge achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Verschiebungen von Natrium und Flüssigkeit können den Lithiumspiegel verändern – bei wiederholter Anwendung Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die die Nierenfunktion beeinträchtigen (z. B. ACE-Hemmer, Sartane, NSAR)",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Phosphat wird schlechter ausgeschieden – erhöhtes Risiko für Elektrolytstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten und andere Mittel, die Elektrolyte beeinflussen",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Vorsicht wegen möglicher Calcium- und Phosphatverschiebungen.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
-    "sehrSelten": ["Hyperphosphatämie (zu viel Phosphat), Hypokalzämie (Calciummangel), Hypernatriämie, Hypokaliämie", "Dehydratation (Austrocknung) und metabolische Azidose (Übersäuerung)", "Überempfindlichkeitsreaktionen"],
-    "unbekannt": ["Brennen, Reizung oder Schmerzen am After", "Bauchkrämpfe, Blähbauch, Übelkeit", "Verletzung der Enddarmschleimhaut bei unsachgemässem Einführen", "Krampfanfälle oder Herzrhythmusstörungen bei schweren Elektrolytstörungen (z. B. nach Überdosierung oder wenn das Klistier nicht ausgeschieden wird)"]
+    "sehrSelten": [
+      "Hyperphosphatämie (zu viel Phosphat), Hypokalzämie (Calciummangel), Hypernatriämie, Hypokaliämie",
+      "Dehydratation (Austrocknung) und metabolische Azidose (Übersäuerung)",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "unbekannt": [
+      "Brennen, Reizung oder Schmerzen am After",
+      "Bauchkrämpfe, Blähbauch, Übelkeit",
+      "Verletzung der Enddarmschleimhaut bei unsachgemässem Einführen",
+      "Krampfanfälle oder Herzrhythmusstörungen bei schweren Elektrolytstörungen (z. B. nach Überdosierung oder wenn das Klistier nicht ausgeschieden wird)"
+    ]
   },
   "schwangerschaft": "Kurzfristige Anwendung nach Rücksprache möglich; wird auch zur Darmentleerung vor der Geburt eingesetzt.",
   "stillzeit": "Natrium und Phosphat können in die Muttermilch übergehen; nur nach Rücksprache anwenden – vorsichtshalber kann die Milch während 24 Stunden abgepumpt und verworfen werden.",

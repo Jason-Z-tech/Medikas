@@ -1,39 +1,156 @@
 {
   "id": "octreotid",
   "name": "Octreotid",
-  "synonyme": ["Octreotidacetat", "Octreotide"],
-  "atc": ["H01CB02"],
+  "synonyme": [
+    "Octreotidacetat",
+    "Octreotide"
+  ],
+  "atc": [
+    "H01CB02"
+  ],
   "klasse": "Somatostatin-Analogon",
   "kurz": "Abgewandeltes Hormon Somatostatin; hemmt die Ausschüttung von Wachstumshormon und Darmhormonen – bei Akromegalie und neuroendokrinen Tumoren.",
-  "gruppen": ["bradykardisierend", "hypoglykaemie-ausloesend"],
-  "handelsnamen": ["Sandostatin", "Sandostatin LAR"],
-  "abgabe": ["B"],
-  "darreichung": ["Injektionslösung (unter die Haut oder in die Vene)", "Pulver und Lösungsmittel für eine Depot-Injektionssuspension (in den Muskel)"],
+  "gruppen": [
+    "bradykardisierend",
+    "hypoglykaemie-ausloesend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Sandostatin",
+    "Sandostatin LAR"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (unter die Haut oder in die Vene)",
+    "Pulver und Lösungsmittel für eine Depot-Injektionssuspension (in den Muskel)"
+  ],
   "indikationen": [
-    { "text": "Akromegalie (Überproduktion von Wachstumshormon), wenn Operation oder Bestrahlung nicht ausreichen oder nicht möglich sind", "ids": ["wachstumsstoerung"] },
-    { "text": "Beschwerden bei hormonbildenden neuroendokrinen Tumoren des Magen-Darm-Trakts und der Bauchspeicheldrüse, z. B. Karzinoid mit Flush und Durchfall, VIPom, Glukagonom", "ids": ["bauchspeicheldruesenkrebs", "durchfall"] },
-    { "text": "Fortgeschrittene neuroendokrine Tumoren des Mitteldarms oder unbekannten Ursprungs zur Hemmung des Tumorwachstums (Depotform)", "ids": ["bauchspeicheldruesenkrebs", "krebs"] },
-    { "text": "Vorbeugung von Komplikationen nach Operationen an der Bauchspeicheldrüse (Injektionslösung)", "ids": ["operation"] }
+    {
+      "text": "Akromegalie (Überproduktion von Wachstumshormon), wenn Operation oder Bestrahlung nicht ausreichen oder nicht möglich sind",
+      "ids": [
+        "wachstumsstoerung"
+      ]
+    },
+    {
+      "text": "Beschwerden bei hormonbildenden neuroendokrinen Tumoren des Magen-Darm-Trakts und der Bauchspeicheldrüse, z. B. Karzinoid mit Flush und Durchfall, VIPom, Glukagonom",
+      "ids": [
+        "bauchspeicheldruesenkrebs",
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene neuroendokrine Tumoren des Mitteldarms oder unbekannten Ursprungs zur Hemmung des Tumorwachstums (Depotform)",
+      "ids": [
+        "bauchspeicheldruesenkrebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Komplikationen nach Operationen an der Bauchspeicheldrüse (Injektionslösung)",
+      "ids": [
+        "operation"
+      ]
+    }
   ],
   "wirkmechanismus": "Bremst die Ausschüttung verschiedener Hormone, vor allem von Wachstumshormon und von Hormonen des Magen-Darm-Trakts. Octreotid ist ein synthetisches, länger wirksames Abbild des körpereigenen Somatostatins und bindet vor allem an die Somatostatin-Rezeptoren SSTR2 und SSTR5. Dadurch werden Wachstumshormon und IGF-1 sowie Insulin, Glukagon, Serotonin, VIP und Gastrin vermindert freigesetzt; bei Akromegalie und hormonbildenden Tumoren lassen so Beschwerden wie Flush und Durchfall nach. Zudem kann es das Wachstum neuroendokriner Tumoren bremsen. Die Depotform gibt den Wirkstoff über etwa 4 Wochen ab.",
   "kontraindikationen": [],
   "vorsicht": [
-    { "text": "Gallensteine treten unter Langzeitbehandlung häufig auf – Ultraschallkontrollen vor Beginn und etwa alle 6–12 Monate", "ids": ["gallensteine"] },
-    { "text": "Diabetes mellitus: Blutzucker kann steigen oder sinken – Insulin bzw. Antidiabetika anpassen; bei Insulinom Gefahr einer verstärkten Unterzuckerung", "ids": ["diabetes", "hypoglykaemie"] },
-    { "text": "Langsamer Puls, Herzrhythmus- oder Reizleitungsstörungen", "ids": ["bradykardie", "herzrhythmusstoerung"] },
-    { "text": "Schilddrüsenfunktion bei Langzeitbehandlung kontrollieren (Unterfunktion möglich)", "ids": ["hypothyreose"] },
-    { "text": "Vitamin-B12-Spiegel bei Langzeitbehandlung kontrollieren (verminderte Aufnahme)", "ids": ["vitamin-b12-mangel"] },
-    { "text": "Hypophysentumoren können trotz Behandlung wachsen – Gesichtsfeld überwachen", "ids": [] },
-    { "text": "Leberzirrhose oder schwere Niereninsuffizienz: Dosisanpassung der Depotform", "ids": ["leberzirrhose", "niereninsuffizienz"] },
-    { "text": "Bauchspeicheldrüsenentzündung möglich, v. a. im Zusammenhang mit Gallensteinen", "ids": ["pankreatitis"] }
+    {
+      "text": "Gallensteine treten unter Langzeitbehandlung häufig auf – Ultraschallkontrollen vor Beginn und etwa alle 6–12 Monate",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus: Blutzucker kann steigen oder sinken – Insulin bzw. Antidiabetika anpassen; bei Insulinom Gefahr einer verstärkten Unterzuckerung",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Langsamer Puls, Herzrhythmus- oder Reizleitungsstörungen",
+      "ids": [
+        "bradykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schilddrüsenfunktion bei Langzeitbehandlung kontrollieren (Unterfunktion möglich)",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Vitamin-B12-Spiegel bei Langzeitbehandlung kontrollieren (verminderte Aufnahme)",
+      "ids": [
+        "vitamin-b12-mangel"
+      ]
+    },
+    {
+      "text": "Hypophysentumoren können trotz Behandlung wachsen – Gesichtsfeld überwachen",
+      "ids": []
+    },
+    {
+      "text": "Leberzirrhose oder schwere Niereninsuffizienz: Dosisanpassung der Depotform",
+      "ids": [
+        "leberzirrhose",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bauchspeicheldrüsenentzündung möglich, v. a. im Zusammenhang mit Gallensteinen",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
   ],
   "kontraMedikamente": [],
   "interaktionen": [
-    { "text": "Ciclosporin", "ref": ["ciclosporin"], "effekt": "Octreotid vermindert die Aufnahme von Ciclosporin aus dem Darm – Ciclosporin-Spiegel kontrollieren und Dosis anpassen (Abstossungsgefahr).", "schwere": "schwer" },
-    { "text": "Insulin und andere Blutzuckersenker", "ref": ["gruppe:insuline", "gruppe:sulfonylharnstoffe", "metformin"], "effekt": "Blutzuckerschwankungen; der Bedarf an Insulin bzw. Antidiabetika kann sich ändern – Blutzucker engmaschig kontrollieren.", "schwere": "mittel" },
-    { "text": "Betablocker, Verapamil, Diltiazem und andere herzschlagverlangsamende Mittel", "ref": ["gruppe:bradykardisierend"], "effekt": "Verstärkte Pulsverlangsamung möglich – Puls kontrollieren, Dosis eventuell anpassen.", "schwere": "mittel" },
-    { "text": "Bromocriptin", "ref": ["bromocriptin"], "effekt": "Erhöhte Bioverfügbarkeit von Bromocriptin.", "schwere": "leicht" },
-    { "text": "Über CYP3A4 abgebaute Mittel mit enger therapeutischer Breite", "ref": ["gruppe:cyp3a4-substrate-empfindlich"], "effekt": "Durch die Senkung des Wachstumshormons kann der Abbau verlangsamt werden – Vorsicht.", "schwere": "leicht" }
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Octreotid vermindert die Aufnahme von Ciclosporin aus dem Darm – Ciclosporin-Spiegel kontrollieren und Dosis anpassen (Abstossungsgefahr).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Insulin und andere Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "metformin"
+      ],
+      "effekt": "Blutzuckerschwankungen; der Bedarf an Insulin bzw. Antidiabetika kann sich ändern – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker, Verapamil, Diltiazem und andere herzschlagverlangsamende Mittel",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung möglich – Puls kontrollieren, Dosis eventuell anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bromocriptin",
+      "ref": [
+        "bromocriptin"
+      ],
+      "effekt": "Erhöhte Bioverfügbarkeit von Bromocriptin.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Über CYP3A4 abgebaute Mittel mit enger therapeutischer Breite",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Durch die Senkung des Wachstumshormons kann der Abbau verlangsamt werden – Vorsicht.",
+      "schwere": "leicht"
+    }
   ],
   "nebenwirkungen": {
     "sehrHaeufig": [
@@ -53,7 +170,10 @@
       "Haarausfall, Juckreiz, Hautausschlag",
       "Atemnot"
     ],
-    "gelegentlich": ["Dehydratation (Flüssigkeitsmangel)", "Beschleunigter Puls (Tachykardie)"],
+    "gelegentlich": [
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Beschleunigter Puls (Tachykardie)"
+    ],
     "unbekannt": [
       "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
       "Akute Hepatitis, Gallenstau, Gelbsucht",
