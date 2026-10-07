@@ -1,0 +1,190 @@
+{
+  "id": "coffein",
+  "name": "Coffein",
+  "synonyme": [
+    "Koffein",
+    "Caffeine",
+    "Coffeincitrat",
+    "1,3,7-Trimethylxanthin"
+  ],
+  "atc": [
+    "N06BC01"
+  ],
+  "klasse": "Psychostimulans (Methylxanthin); Wirkverstärker in Schmerzmitteln; Atemstimulans bei Frühgeborenen",
+  "kurz": "Anregender Wirkstoff aus Kaffee; in Schmerzmitteln zur Wirkverstärkung und im Spital als Atemanreger bei Frühgeborenen.",
+  "gruppen": [
+    "methylxanthine",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Peyona",
+    "Panadol Extra (Kombi)",
+    "Saridon (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Tabletten und Filmtabletten (in Kombination)",
+    "Infusionslösung und Lösung zum Einnehmen (Coffeincitrat)"
+  ],
+  "indikationen": [
+    {
+      "text": "Als Bestandteil von Kombinationspräparaten zur Verstärkung der Schmerzlinderung bei leichten bis mässigen Schmerzen wie Kopf-, Zahn- oder Regelschmerzen",
+      "ids": [
+        "schmerzen",
+        "kopfschmerzen",
+        "regelbeschwerden"
+      ]
+    },
+    {
+      "text": "Primäre Apnoe (Atemaussetzer) bei Frühgeborenen (Coffeincitrat, im Spital)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Macht wach und steigert die Konzentration, indem es die ermüdende Wirkung des körpereigenen Botenstoffs Adenosin blockiert. Coffein ist ein nicht-selektiver Antagonist an Adenosin-A1- und -A2A-Rezeptoren im Gehirn; in hohen Konzentrationen hemmt es zusätzlich Phosphodiesterasen. In Schmerzmittel-Kombinationen verstärkt es die schmerzlindernde Wirkung. Bei Frühgeborenen regt es das Atemzentrum an und erhöht dessen Empfindlichkeit für Kohlendioxid. Der Abbau erfolgt hauptsächlich über das Leberenzym CYP1A2.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Herzrhythmusstörungen, besonders schneller Puls (Tachykardie), und andere Herzerkrankungen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "tachykardie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Angst- und Schlafstörungen",
+      "ids": [
+        "angststoerung",
+        "schlafstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion oder Leberzirrhose (Coffein wird langsamer abgebaut)",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Epilepsie (hohe Dosen können Krampfanfälle begünstigen)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Frühgeborene mit Krampfanfällen oder Herzerkrankungen: enge Überwachung im Spital",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP1A2-Hemmer (z. B. Fluvoxamin, Ciprofloxacin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Coffein wird deutlich langsamer abgebaut – Herzrasen, Unruhe und Schlaflosigkeit möglich; Coffeinzufuhr reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin und andere Methylxanthine",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Wirkungen und Nebenwirkungen; Theophyllin wird langsamer abgebaut.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Coffein steigert die Lithium-Ausscheidung; plötzlicher Verzicht auf Coffein kann den Lithiumspiegel erhöhen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clozapin",
+      "ref": [
+        "clozapin"
+      ],
+      "effekt": "Coffein hemmt den Abbau von Clozapin – höhere Clozapinspiegel möglich; Coffeinkonsum möglichst konstant halten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sympathomimetika und MAO-Hemmer",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkter Puls- und Blutdruckanstieg, Herzrasen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel und Disulfiram",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "disulfiram"
+      ],
+      "effekt": "Langsamerer Coffeinabbau, verstärkte Coffeinwirkung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Schlaf- und Beruhigungsmittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Coffein schwächt die beruhigende Wirkung ab.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Phenytoin, Barbiturate) sowie Rauchen",
+      "ref": [
+        "phenytoin",
+        "gruppe:barbiturate"
+      ],
+      "effekt": "Beschleunigter Coffeinabbau, schwächere Wirkung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Unruhe, Nervosität, Schlaflosigkeit",
+      "Herzklopfen, Tachykardie (schneller Puls), Herzrhythmusstörungen",
+      "Magenbeschwerden, Übelkeit, Erbrechen",
+      "Zittern (Tremor), Reizbarkeit",
+      "Kopfschmerzen, auch als Entzugskopfschmerz nach plötzlichem Verzicht",
+      "Vermehrtes Wasserlassen",
+      "Bei Frühgeborenen: Unruhe, Fütterungsprobleme, Blutzuckerschwankungen",
+      "Krampfanfälle bei Überdosierung"
+    ]
+  },
+  "schwangerschaft": "Coffein gelangt zum Ungeborenen; grössere Mengen (inkl. Kaffee, Tee, Cola) meiden. Coffeinhaltige Schmerzmittel nur nach Rücksprache mit Ärztin, Arzt oder Apotheke.",
+  "stillzeit": "Geht in die Muttermilch über und kann beim Säugling Unruhe und Schlafstörungen verursachen; grössere Mengen meiden, coffeinhaltige Arzneimittel nur nach Rücksprache.",
+  "hinweise": [
+    "Coffein aus Kaffee, Tee, Cola und Energydrinks mitberücksichtigen.",
+    "Bei Schlafstörungen nicht am späten Nachmittag oder Abend einnehmen.",
+    "Schmerzmittel-Kombinationen nicht regelmässig über längere Zeit ohne ärztlichen Rat einnehmen: Gefahr von Kopfschmerzen durch Medikamentenübergebrauch."
+  ],
+  "stand": "2026-10"
+}

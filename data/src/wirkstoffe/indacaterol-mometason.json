@@ -1,0 +1,188 @@
+{
+  "id": "indacaterol-mometason",
+  "name": "Indacaterol + Mometason",
+  "synonyme": [
+    "Indacaterolacetat/Mometasonfuroat"
+  ],
+  "kombinationAus": [
+    "indacaterol",
+    "mometason"
+  ],
+  "atc": [
+    "R03AK14"
+  ],
+  "klasse": "Inhalative Fixkombination aus lang wirksamem Beta-2-Sympathomimetikum (LABA) und Glukokortikoid (ICS)",
+  "kurz": "Asthma-Dauertherapie aus Bronchienerweiterer und inhalativem Kortison in einer Kapsel; wird einmal täglich inhaliert.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "glukokortikoide-inhalativ",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Atectura Breezhaler"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln mit Pulver zur Inhalation (Breezhaler)"
+  ],
+  "indikationen": [
+    {
+      "text": "Regelmässige Dauerbehandlung von Asthma bei Erwachsenen und Jugendlichen ab 12 Jahren, wenn inhalatives Kortison zusammen mit einem Bedarfsspray nicht ausreicht",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert zwei Wirkprinzipien: Indacaterol erweitert die Atemwege, Mometason hemmt die Entzündung der Bronchialschleimhaut. Indacaterol ist ein lang wirksamer Beta-2-Agonist, der über einen Anstieg von cAMP die Bronchialmuskulatur während 24 Stunden entspannt. Mometasonfuroat ist ein stark wirksames Glukokortikoid, das über den Glukokortikoidrezeptor die Bildung entzündungsfördernder Botenstoffe vermindert und so Asthmaanfällen vorbeugt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung akuter Asthmaanfälle; häufigerer Bedarf an Notfallspray ist ein Zeichen der Verschlechterung und muss ärztlich abgeklärt werden",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Nicht abrupt absetzen (Gefahr einer Asthma-Verschlechterung)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, verlängerte QT-Zeit, Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Krampfleiden (Epilepsie) und Schilddrüsenüberfunktion",
+      "ids": [
+        "epilepsie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann steigen) und Kaliummangel",
+      "ids": [
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Lungentuberkulose sowie unbehandelte Pilz-, Virus- oder bakterielle Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Lange, hoch dosierte Anwendung: systemische Kortisonwirkungen wie Nebennierenunterfunktion, Wachstumsverzögerung bei Jugendlichen oder Abnahme der Knochendichte möglich",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "kinder",
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Verschwommenes Sehen oder andere Sehstörungen ärztlich abklären lassen (grauer oder grüner Star, Chorioretinopathie)",
+      "ids": [
+        "sehstoerung",
+        "katarakt",
+        "glaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Schwächen die bronchienerweiternde Wirkung ab und können bei Asthma Bronchospasmen auslösen – nur wenn zwingend nötig und dann bevorzugt herzselektive Betablocker.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Cobicistat)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Höhere Spiegel von Mometason und Indacaterol; Risiko systemischer Kortisonwirkungen – Kombination nur nach Abwägung und unter Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin, systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "formoterol",
+        "salmeterol",
+        "olodaterol",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Mehr Nebenwirkungen wie Herzrasen und Zittern; nicht mit einem weiteren lang wirksamen Beta-2-Sympathomimetikum kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Verschlechterung des Asthmas (Exazerbation)"
+    ],
+    "haeufig": [
+      "Nasopharyngitis (Erkältungssymptome), Infekte der oberen Atemwege",
+      "Candidose (Pilzbefall) in Mund und Rachen",
+      "Kopfschmerzen",
+      "Heiserkeit (Dysphonie), Rachenschmerzen",
+      "Überempfindlichkeitsreaktionen",
+      "Schmerzen des Bewegungsapparats"
+    ],
+    "gelegentlich": [
+      "Tachykardie (schneller Puls)",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Muskelkrämpfe",
+      "Juckreiz, Hautausschlag"
+    ],
+    "unbekannt": [
+      "Verschwommenes Sehen, grauer Star (Katarakt)",
+      "Paradoxer Bronchospasmus"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; nur anwenden, wenn der Nutzen für die Mutter das Risiko für das Kind überwiegt. Ein gut kontrolliertes Asthma ist auch in der Schwangerschaft wichtig.",
+  "stillzeit": "Nicht bekannt, ob die Wirkstoffe in die Muttermilch übergehen; Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit inhalieren, auch ohne Beschwerden; die Kapseln nicht schlucken.",
+    "Nach dem Inhalieren den Mund mit Wasser ausspülen (Vorbeugung gegen Pilzbefall und Heiserkeit).",
+    "Für akute Atemnot immer ein rasch wirksames Bedarfsspray mitführen."
+  ],
+  "stand": "2026-10"
+}

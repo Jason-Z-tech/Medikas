@@ -2,7 +2,7 @@
 // Aufruf: node scripts/build-data.mjs
 // Bricht ab, wenn die Prüfung (validate.mjs) Fehler findet.
 
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { MED_ROOT, NW_STUFEN, ladeVokabular, vokabularSets, pruefeVokabular, pruefeMonografie, monografieDateien } from './daten.mjs';
 
@@ -31,6 +31,10 @@ if (fehler.length) {
 // Priorität aus dem Verzeichnis (1 = sehr häufig verwendet) – die Suche bevorzugt bekannte Wirkstoffe leicht.
 const prio = new Map(vok.substanzen.map((s) => [s.id, s.prioritaet]));
 for (const w of wirkstoffe) if (prio.has(w.id)) w.prio = prio.get(w.id);
+// Prüfvermerk: Monografien mit zusätzlicher unabhängiger Zweitprüfung (data/src/geprueft.json)
+const geprueftDatei = path.join(MED_ROOT, 'data', 'src', 'geprueft.json');
+const geprueft = new Set(existsSync(geprueftDatei) ? JSON.parse(readFileSync(geprueftDatei, 'utf8')).ids : []);
+for (const w of wirkstoffe) if (geprueft.has(w.id)) w.zweitpruefung = true;
 const mitMono = new Set(wirkstoffe.map((w) => w.id));
 // Wirkstoffe aus dem Verzeichnis ohne eigene Monografie erscheinen als Kurzeintrag in der Suche.
 const kurzeintraege = vok.substanzen
@@ -76,5 +80,5 @@ for (const [t, inhalt] of teile) {
   detailKb += text.length / 1024;
 }
 const kb = Math.round(readFileSync(ziel).length / 1024);
-console.log(`data/medikamente.js geschrieben: ${wirkstoffe.length} Monografien, ${kurzeintraege.length} Kurzeinträge, ` +
+console.log(`data/medikamente.js geschrieben: ${wirkstoffe.length} Monografien (${wirkstoffe.filter((w) => w.zweitpruefung).length} mit Zweitprüfung), ${kurzeintraege.length} Kurzeinträge, ` +
   `${daten.krankheiten.length} Krankheiten, ${daten.gruppen.length} Gruppen (${kb} KB, Details ${Math.round(detailKb)} KB in ${teile.size} Teilen).`);

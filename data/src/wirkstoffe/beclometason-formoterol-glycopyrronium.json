@@ -1,0 +1,229 @@
+{
+  "id": "beclometason-formoterol-glycopyrronium",
+  "name": "Beclometason + Formoterol + Glycopyrronium",
+  "synonyme": [
+    "Beclometasondipropionat/Formoterolfumarat/Glycopyrroniumbromid"
+  ],
+  "kombinationAus": [
+    "beclometason",
+    "formoterol",
+    "glycopyrronium"
+  ],
+  "atc": [
+    "R03AL09"
+  ],
+  "klasse": "Inhalative Dreifachkombination aus Glukokortikoid (ICS), lang wirksamem Beta-2-Sympathomimetikum (LABA) und lang wirksamem Muskarinantagonisten (LAMA)",
+  "kurz": "Dreifach-Inhalationsspray aus Kortison und zwei Bronchienerweiterern zur Dauerbehandlung der COPD, wenn Zweierkombinationen nicht genügen.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "muskarinantagonisten-inhalativ",
+    "glukokortikoide-inhalativ",
+    "anticholinerg",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Trimbow"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol"
+  ],
+  "indikationen": [
+    {
+      "text": "Dauerbehandlung bei Erwachsenen mit mittelschwerer bis schwerer COPD, die mit einer Zweierkombination (inhalatives Kortison plus LABA oder LABA plus LAMA) nicht ausreichend eingestellt sind",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert Entzündungshemmung mit zweifacher Bronchienerweiterung. Beclometasondipropionat ist ein Prodrug, das in der Lunge zum aktiven Beclometason-17-monopropionat umgewandelt wird und über den Glukokortikoidrezeptor entzündungshemmend wirkt. Formoterol stimuliert Beta-2-Rezeptoren und entspannt rasch die Bronchialmuskulatur; Glycopyrronium blockiert Muskarinrezeptoren (M3) und verhindert die durch Acetylcholin vermittelte Verengung. Die extrafeinen Partikel erreichen auch die kleinen Atemwege.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot; tritt direkt nach dem Inhalieren Atemnot auf (paradoxer Bronchospasmus), sofort absetzen und ärztlich melden",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: Herzrhythmusstörungen, AV-Block 3. Grades, Herzmuskelverdickung, schwere Herzinsuffizienz oder koronare Herzkrankheit, verlängerte QT-Zeit, schwerer Bluthochdruck, Aneurysma",
+      "ids": [
+        "herzrhythmusstoerung",
+        "av-block",
+        "kardiomyopathie",
+        "herzinsuffizienz",
+        "koronare-herzkrankheit",
+        "qt-verlaengerung",
+        "hypertonie",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Lungenentzündung: bei COPD unter inhalativem Kortison häufiger – auf Fieber, verfärbten Auswurf und zunehmende Atemnot achten",
+      "ids": [
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom, Prostatavergrösserung oder Harnverhalt",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Glycopyrronium wird über die Niere ausgeschieden)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes, Schilddrüsenüberfunktion, Phäochromozytom und Kaliummangel",
+      "ids": [
+        "diabetes",
+        "hyperthyreose",
+        "phaeochromozytom",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Lungentuberkulose sowie Pilz- oder Virusinfektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Verschwommenes Sehen oder andere Sehstörungen ärztlich abklären lassen (grauer oder grüner Star)",
+      "ids": [
+        "sehstoerung",
+        "katarakt",
+        "glaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Schwächen die Wirkung von Formoterol ab oder heben sie auf – nur wenn zwingend nötig und dann bevorzugt herzselektive Betablocker.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Anticholinergika, z. B. weitere inhalative Muskarinantagonisten (Tiotropium, Ipratropium)",
+      "ref": [
+        "gruppe:muskarinantagonisten-inhalativ",
+        "gruppe:anticholinerg",
+        "tiotropium",
+        "ipratropium"
+      ],
+      "effekt": "Zusätzliche anticholinerge Nebenwirkungen (Mundtrockenheit, Harnverhalt, Augeninnendruck) – gleichzeitige Anwendung wird nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin, systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "salmeterol",
+        "indacaterol",
+        "olodaterol",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Mehr Nebenwirkungen wie Herzrasen und Zittern; nicht mit einem weiteren lang wirksamen Beta-2-Sympathomimetikum kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A-Hemmer (z. B. Ritonavir, Cobicistat)",
+      "ref": [
+        "ritonavir",
+        "cobicistat",
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Systemische Kortisonwirkungen können nicht ausgeschlossen werden – Vorsicht und ärztliche Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Disulfiram und Metronidazol",
+      "ref": [
+        "disulfiram",
+        "metronidazol",
+        "gruppe:disulfiramartig"
+      ],
+      "effekt": "Das Spray enthält eine kleine Menge Alkohol; bei empfindlichen Personen ist eine Unverträglichkeitsreaktion theoretisch möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Lungenentzündung (Pneumonie) bei COPD",
+      "Candidose (Pilzbefall) in Mund und Rachen",
+      "Rachenentzündung (Pharyngitis), Nasopharyngitis",
+      "Harnwegsinfekt",
+      "Kopfschmerzen",
+      "Heiserkeit (Dysphonie)"
+    ],
+    "gelegentlich": [
+      "Hypokaliämie (Kaliummangel), Hyperglykämie (erhöhter Blutzucker)",
+      "Vorhofflimmern, Tachykardie, Herzklopfen",
+      "QT-Verlängerung im EKG",
+      "Zittern, Schwindel, Unruhe",
+      "Husten, Rachenreizung",
+      "Mundtrockenheit",
+      "Muskelkrämpfe",
+      "Harnverhalt, Schmerzen beim Wasserlassen"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen, auch Angioödem (Schwellung von Gesicht, Lippen, Rachen)",
+      "Paradoxer Bronchospasmus",
+      "Angina pectoris",
+      "Schlaflosigkeit"
+    ],
+    "sehrSelten": [
+      "Nebennierenrindensuppression (Nebennierenunterfunktion)",
+      "Glaukom (grüner Star)",
+      "Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "unbekannt": [
+      "Verschwommenes Sehen",
+      "Psychomotorische Unruhe, Angst, Depression, Aggressivität, Verhaltensänderungen"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; nur anwenden, wenn der erwartete Nutzen das mögliche Risiko für das Kind überwiegt. Formoterol kann die Wehen hemmen.",
+  "stillzeit": "Nicht bekannt, ob alle Wirkstoffe in die Muttermilch übergehen; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Morgens und abends regelmässig inhalieren; eine Inhalierhilfe (Spacer) kann die Anwendung erleichtern.",
+    "Nach dem Inhalieren den Mund ausspülen oder die Zähne putzen (Vorbeugung gegen Pilzbefall und Heiserkeit).",
+    "Nicht für akute Atemnot – dafür ein rasch wirksames Bedarfsspray verwenden.",
+    "Nicht eigenmächtig absetzen; Fieber, verfärbter Auswurf und zunehmende Atemnot können auf eine Lungenentzündung hinweisen – ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

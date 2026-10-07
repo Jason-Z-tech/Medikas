@@ -38,6 +38,7 @@ dass GitHub die Dateien unverändert ausliefert.
 | `data/src/substanzen.json` | Verzeichnis aller Wirkstoffe mit ATC-Code und Schweizer Handelsnamen |
 | `data/src/krankheiten.json` | Krankheiten, Zustände und Situationen mit Synonymen |
 | `data/src/gruppen.json` | Wirkstoffgruppen für den Wechselwirkungs-Check |
+| `data/src/geprueft.json` | Wirkstoffe, deren Monografie eine zusätzliche unabhängige Zweitprüfung hatte |
 | `data/medikamente.js` | gebündelte Daten für die Webseite (erzeugt) |
 | `data/praeparate.js` | optionale Swissmedic-Präparateliste (erzeugt, siehe unten) |
 

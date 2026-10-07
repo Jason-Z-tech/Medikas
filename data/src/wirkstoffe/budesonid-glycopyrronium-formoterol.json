@@ -1,0 +1,217 @@
+{
+  "id": "budesonid-glycopyrronium-formoterol",
+  "name": "Budesonid + Glycopyrronium + Formoterol",
+  "synonyme": [
+    "Budesonid/Glycopyrroniumbromid/Formoterolfumarat"
+  ],
+  "kombinationAus": [
+    "budesonid",
+    "glycopyrronium",
+    "formoterol"
+  ],
+  "atc": [
+    "R03AL11"
+  ],
+  "klasse": "Inhalative Dreifachkombination aus Glukokortikoid (ICS), lang wirksamem Muskarinantagonisten (LAMA) und lang wirksamem Beta-2-Sympathomimetikum (LABA)",
+  "kurz": "Dreifach-Inhalationsspray mit Budesonid und zwei Bronchienerweiterern zur Dauerbehandlung der COPD, wenn Zweierkombinationen nicht genügen.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "muskarinantagonisten-inhalativ",
+    "glukokortikoide-inhalativ",
+    "anticholinerg",
+    "hypokaliaemie-ausloesend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Trixeo Aerosphere"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol"
+  ],
+  "indikationen": [
+    {
+      "text": "Dauerbehandlung bei Erwachsenen mit mittelschwerer bis schwerer COPD, die mit einer Zweierkombination (inhalatives Kortison plus LABA oder LABA plus LAMA) nicht ausreichend eingestellt sind",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert Entzündungshemmung mit zweifacher Bronchienerweiterung. Budesonid ist ein Glukokortikoid, das in der Bronchialschleimhaut die Bildung entzündungsfördernder Botenstoffe hemmt. Glycopyrronium blockiert Muskarinrezeptoren (M3) der Bronchialmuskulatur, Formoterol stimuliert Beta-2-Rezeptoren und erhöht cAMP; beides entspannt die Atemwege. Budesonid wird in der Leber über CYP3A4 abgebaut, weshalb starke CYP3A4-Hemmer seine Spiegel deutlich erhöhen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot; tritt direkt nach dem Inhalieren Atemnot auf (paradoxer Bronchospasmus), sofort absetzen und ärztlich melden",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: instabile Herzkrankheit, Herzrhythmusstörungen, Herzmuskelverdickung, schwere Herzinsuffizienz, verlängerte QT-Zeit, schwerer Bluthochdruck, Aneurysma",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "kardiomyopathie",
+        "herzinsuffizienz",
+        "qt-verlaengerung",
+        "hypertonie",
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Lungenentzündung: bei COPD unter inhalativem Kortison häufiger – auf Fieber, verfärbten Auswurf und zunehmende Atemnot achten",
+      "ids": [
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom, Prostatavergrösserung oder Harnverhalt",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Glycopyrronium) und schwere Leberinsuffizienz (Budesonid, Formoterol)",
+      "ids": [
+        "niereninsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes, Schilddrüsenüberfunktion, Phäochromozytom und Kaliummangel",
+      "ids": [
+        "diabetes",
+        "hyperthyreose",
+        "phaeochromozytom",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Lungentuberkulose sowie Pilz- oder Virusinfektionen der Atemwege",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Verschwommenes Sehen oder andere Sehstörungen ärztlich abklären lassen (grauer oder grüner Star)",
+      "ids": [
+        "sehstoerung",
+        "katarakt",
+        "glaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Schwächen die Wirkung von Formoterol ab oder heben sie auf – nur wenn zwingend nötig und dann bevorzugt herzselektive Betablocker.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir, Cobicistat)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "itraconazol",
+        "ketoconazol",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Budesonid-Spiegel steigen stark; Gefahr systemischer Kortisonwirkungen (Cushing-Syndrom, Nebennierenunterfunktion) – Kombination vermeiden oder eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Anticholinergika, z. B. weitere inhalative Muskarinantagonisten (Tiotropium, Ipratropium)",
+      "ref": [
+        "gruppe:muskarinantagonisten-inhalativ",
+        "gruppe:anticholinerg",
+        "tiotropium",
+        "ipratropium"
+      ],
+      "effekt": "Zusätzliche anticholinerge Nebenwirkungen (Mundtrockenheit, Harnverhalt, Augeninnendruck) – gleichzeitige Anwendung wird nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin, systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "salmeterol",
+        "indacaterol",
+        "olodaterol",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Mehr Nebenwirkungen wie Herzrasen und Zittern; nicht mit einem weiteren lang wirksamen Beta-2-Sympathomimetikum kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Candidose (Pilzbefall) in Mund und Rachen",
+      "Lungenentzündung (Pneumonie)",
+      "Harnwegsinfekt",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Angst, Schlaflosigkeit",
+      "Kopfschmerzen",
+      "Herzklopfen (Palpitationen)",
+      "Heiserkeit (Dysphonie), Husten, Übelkeit, Muskelkrämpfe"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Depression, Unruhe, Nervosität",
+      "Zittern (Tremor), Schwindel",
+      "Angina pectoris, Tachykardie, Herzrhythmusstörungen (Vorhofflimmern, Extrasystolen)",
+      "Rachenreizung, Bronchospasmus",
+      "Mundtrockenheit",
+      "Blaue Flecken (Blutergüsse)",
+      "Harnverhalt"
+    ],
+    "sehrSelten": [
+      "Zeichen systemischer Kortisonwirkung, z. B. Nebennierenunterfunktion",
+      "Verhaltensauffälligkeiten"
+    ],
+    "unbekannt": [
+      "Angioödem (Schwellung von Gesicht, Lippen, Rachen)",
+      "Verschwommenes Sehen, grauer Star (Katarakt), grüner Star (Glaukom)"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; nur anwenden, wenn der erwartete Nutzen das mögliche Risiko für das Kind überwiegt. Formoterol kann die Wehen hemmen.",
+  "stillzeit": "Budesonid geht in geringen Mengen in die Muttermilch über, für Glycopyrronium und Formoterol fehlen Daten; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Morgens und abends regelmässig inhalieren; vor dem ersten Gebrauch und nach längerer Pause den Inhalator nach Anleitung vorbereiten.",
+    "Nach dem Inhalieren den Mund mit Wasser ausspülen und das Wasser ausspucken (Vorbeugung gegen Pilzbefall).",
+    "Nicht für akute Atemnot – dafür ein rasch wirksames Bedarfsspray verwenden.",
+    "Nicht eigenmächtig absetzen; Fieber, verfärbter Auswurf und zunehmende Atemnot können auf eine Lungenentzündung hinweisen – ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

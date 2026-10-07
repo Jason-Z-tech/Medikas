@@ -1,0 +1,208 @@
+{
+  "id": "indacaterol-glycopyrronium-mometason",
+  "name": "Indacaterol + Glycopyrronium + Mometason",
+  "synonyme": [
+    "Indacaterolacetat/Glycopyrroniumbromid/Mometasonfuroat"
+  ],
+  "kombinationAus": [
+    "indacaterol",
+    "glycopyrronium",
+    "mometason"
+  ],
+  "atc": [
+    "R03AL12"
+  ],
+  "klasse": "Inhalative Dreifachkombination aus lang wirksamem Beta-2-Sympathomimetikum (LABA), lang wirksamem Muskarinantagonisten (LAMA) und Glukokortikoid (ICS)",
+  "kurz": "Dreifach-Inhalationspulver für schweres Asthma: Kortison und zwei Bronchienerweiterer in einer Kapsel, einmal täglich inhaliert.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "muskarinantagonisten-inhalativ",
+    "glukokortikoide-inhalativ",
+    "anticholinerg",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Enerzair Breezhaler"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln mit Pulver zur Inhalation (Breezhaler)"
+  ],
+  "indikationen": [
+    {
+      "text": "Dauerbehandlung von Asthma bei Erwachsenen, das mit einer Kombination aus lang wirksamem Beta-2-Sympathomimetikum und inhalativem Kortison nicht ausreichend kontrolliert ist und im Vorjahr zu mindestens einem Asthmaanfall (Exazerbation) geführt hat",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Kombiniert Entzündungshemmung mit zweifacher Bronchienerweiterung über 24 Stunden. Indacaterol stimuliert Beta-2-Rezeptoren und entspannt über cAMP die Bronchialmuskulatur; Glycopyrronium blockiert Muskarinrezeptoren (M3) und verhindert die verengende Wirkung von Acetylcholin. Mometasonfuroat hemmt als Glukokortikoid die Entzündung der Bronchialschleimhaut und beugt so Asthmaanfällen vor.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nicht zur Behandlung akuter Asthmaanfälle und nicht abrupt absetzen; häufigerer Bedarf an Notfallspray ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, verlängerte QT-Zeit, Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom, Prostatavergrösserung oder Harnverhalt",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Glycopyrronium wird über die Niere ausgeschieden)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Krampfleiden (Epilepsie) und Schilddrüsenüberfunktion",
+      "ids": [
+        "epilepsie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann steigen) und Kaliummangel",
+      "ids": [
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Lungentuberkulose sowie unbehandelte Pilz-, Virus- oder bakterielle Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Lange Anwendung: systemische Kortisonwirkungen (z. B. Nebennierenunterfunktion) möglich; Sehstörungen ärztlich abklären lassen (grauer oder grüner Star)",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "sehstoerung",
+        "katarakt",
+        "glaukom"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Schwächen die bronchienerweiternde Wirkung ab und können bei Asthma Bronchospasmen auslösen – nur wenn zwingend nötig und dann bevorzugt herzselektive Betablocker.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Anticholinergika, z. B. weitere inhalative Muskarinantagonisten (Tiotropium, Ipratropium)",
+      "ref": [
+        "gruppe:muskarinantagonisten-inhalativ",
+        "gruppe:anticholinerg",
+        "tiotropium",
+        "ipratropium"
+      ],
+      "effekt": "Zusätzliche anticholinerge Nebenwirkungen (Mundtrockenheit, Harnverhalt, Augeninnendruck) – gleichzeitige Anwendung wird nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- und P-Glykoprotein-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir, Verapamil)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Höhere Spiegel von Mometason und Indacaterol; Risiko systemischer Kortisonwirkungen – nur nach Abwägung und unter Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin, systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "formoterol",
+        "salmeterol",
+        "olodaterol",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Mehr Nebenwirkungen wie Herzrasen und Zittern; nicht mit einem weiteren lang wirksamen Beta-2-Sympathomimetikum kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Verschlechterung des Asthmas (Exazerbation)"
+    ],
+    "haeufig": [
+      "Nasopharyngitis (Erkältungssymptome), Infekte der oberen Atemwege",
+      "Candidose (Pilzbefall) in Mund und Rachen",
+      "Harnwegsinfekt",
+      "Überempfindlichkeitsreaktionen",
+      "Kopfschmerzen",
+      "Tachykardie (schneller Puls)",
+      "Heiserkeit (Dysphonie), Husten, Rachenschmerzen",
+      "Muskelkrämpfe, Schmerzen des Bewegungsapparats"
+    ],
+    "gelegentlich": [
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Katarakt (grauer Star)",
+      "Mundtrockenheit",
+      "Juckreiz, Hautausschlag",
+      "Harnverhalt, Schmerzen beim Wasserlassen"
+    ],
+    "unbekannt": [
+      "Paradoxer Bronchospasmus",
+      "Verschwommenes Sehen"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; nur anwenden, wenn der Nutzen für die Mutter das Risiko für das Kind überwiegt. Beta-2-Sympathomimetika können die Wehen hemmen.",
+  "stillzeit": "Nicht bekannt, ob die Wirkstoffe in die Muttermilch übergehen; Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit inhalieren, auch ohne Beschwerden; die Kapseln nicht schlucken.",
+    "Nach dem Inhalieren den Mund mit Wasser ausspülen (Vorbeugung gegen Pilzbefall und Heiserkeit).",
+    "Für akute Atemnot immer ein rasch wirksames Bedarfsspray mitführen.",
+    "Augenschmerzen, verschwommenes Sehen oder Probleme beim Wasserlassen umgehend ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

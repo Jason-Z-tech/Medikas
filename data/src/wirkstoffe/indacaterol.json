@@ -1,0 +1,173 @@
+{
+  "id": "indacaterol",
+  "name": "Indacaterol",
+  "synonyme": [
+    "Indacaterolmaleat",
+    "Indacaterolacetat"
+  ],
+  "atc": [
+    "R03AC18"
+  ],
+  "klasse": "Lang wirksames Beta-2-Sympathomimetikum (LABA, 24-Stunden-Wirkung)",
+  "kurz": "Lang wirksames, bronchienerweiterndes Mittel zur täglichen Dauerbehandlung der COPD; wird einmal täglich inhaliert.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Onbrez Breezhaler",
+    "Ultibro Breezhaler (Kombi)",
+    "Atectura Breezhaler (Kombi)",
+    "Enerzair Breezhaler (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln mit Pulver zur Inhalation (Breezhaler)"
+  ],
+  "indikationen": [
+    {
+      "text": "Bronchienerweiternde Dauerbehandlung zur Linderung der Beschwerden bei Erwachsenen mit chronisch obstruktiver Lungenerkrankung (COPD)",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Atemwege über 24 Stunden, indem es die Bronchialmuskulatur entspannt. Indacaterol ist ein Agonist am Beta-2-Adrenozeptor mit hoher intrinsischer Aktivität; die Aktivierung der Adenylatcyclase erhöht cAMP und führt zur Relaxation der glatten Muskulatur. Die Wirkung setzt innert etwa 5 Minuten ein und hält 24 Stunden an, deshalb genügt eine Inhalation pro Tag.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Asthma: nicht zur Asthmabehandlung bestimmt; lang wirksame Beta-2-Sympathomimetika ohne inhalatives Kortison erhöhen das Risiko schwerer Asthmaanfälle",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot; tritt direkt nach dem Inhalieren Atemnot auf (paradoxer Bronchospasmus), sofort absetzen und ärztlich melden",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen wie koronare Herzkrankheit, frischer Herzinfarkt, Herzrhythmusstörungen oder Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit (angeboren oder durch Medikamente)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Krampfleiden (Epilepsie) und Schilddrüsenüberfunktion",
+      "ids": [
+        "epilepsie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes: der Blutzucker kann ansteigen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kaliummangel",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Schwächen die bronchienerweiternde Wirkung ab oder heben sie auf – nur wenn zwingend nötig und dann bevorzugt herzselektive Betablocker.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin, systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "formoterol",
+        "salmeterol",
+        "olodaterol",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Mehr Nebenwirkungen wie Herzrasen und Zittern; nicht mit einem weiteren lang wirksamen Beta-2-Sympathomimetikum kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- und P-Glykoprotein-Hemmer (z. B. Ketoconazol, Ritonavir, Verapamil, Erythromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Indacaterol-Spiegel steigen bis etwa auf das Doppelte; klinisch nicht bedeutsam.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Nasopharyngitis (Erkältungssymptome), Infekte der oberen Atemwege, Sinusitis",
+      "Husten, Rachenschmerzen, laufende Nase",
+      "Kopfschmerzen, Schwindel",
+      "Muskelkrämpfe",
+      "Brustschmerzen",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Vorhofflimmern, Tachykardie (schneller Puls)",
+      "Paradoxer Bronchospasmus",
+      "Juckreiz, Hautausschlag",
+      "Kribbeln (Parästhesien)",
+      "Muskelschmerzen"
+    ],
+    "unbekannt": [
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Ischämische Herzkrankheit (Durchblutungsstörung des Herzens)",
+      "Herzklopfen (Palpitationen)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen; nur anwenden, wenn der Nutzen das Risiko klar überwiegt. Beta-2-Sympathomimetika können die Wehen hemmen.",
+  "stillzeit": "Nicht bekannt, ob Indacaterol in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit mit dem Breezhaler inhalieren; die Kapseln sind nur zum Inhalieren und dürfen nicht geschluckt werden.",
+    "Nicht für akute Atemnot – dafür ein rasch wirksames Bedarfsspray bereithalten.",
+    "Kurzer Hustenreiz unmittelbar nach dem Inhalieren ist häufig und meist harmlos."
+  ],
+  "stand": "2026-10"
+}

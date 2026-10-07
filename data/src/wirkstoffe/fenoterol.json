@@ -1,0 +1,197 @@
+{
+  "id": "fenoterol",
+  "name": "Fenoterol",
+  "synonyme": [
+    "Fenoterolhydrobromid",
+    "Fenoterol hydrobromide"
+  ],
+  "atc": [
+    "R03AC04"
+  ],
+  "klasse": "Kurz wirksames Beta-2-Sympathomimetikum (SABA)",
+  "kurz": "Rasch wirksames, bronchienerweiterndes Spray bei Asthma und COPD; lindert akute Atemnot und beugt Anstrengungsasthma vor.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Berotec",
+    "Berodual (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dosieraerosol"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung akuter Asthmaanfälle und Vorbeugung von Anstrengungsasthma",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Asthma bronchiale und andere Lungenerkrankungen mit umkehrbar verengten Atemwegen, z. B. chronisch obstruktive Bronchitis (COPD) mit oder ohne Lungenemphysem",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Atemwege, indem es die verkrampfte Bronchialmuskulatur entspannt. Fenoterol stimuliert Beta-2-Adrenozeptoren der glatten Muskulatur; der Anstieg von zyklischem AMP (cAMP) führt zur Erschlaffung der Bronchien. Die Wirkung setzt nach dem Inhalieren innert weniger Minuten ein und hält etwa 3–5 Stunden an. In höherer Dosis werden auch Beta-1-Rezeptoren am Herzen stimuliert.",
+  "kontraindikationen": [
+    {
+      "text": "Hypertrophe obstruktive Kardiomyopathie (verdickter Herzmuskel mit Ausflussbehinderung)",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Tachykarde Herzrhythmusstörungen (Tachyarrhythmie)",
+      "ids": [
+        "tachykardie",
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Frischer Herzinfarkt, schwere Herz- oder Gefässerkrankungen, Bluthochdruck",
+      "ids": [
+        "herzinfarkt",
+        "koronare-herzkrankheit",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Brustschmerzen oder andere Zeichen einer Durchblutungsstörung des Herzens unter der Behandlung sofort ärztlich abklären",
+      "ids": [
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Ungenügend eingestellter Diabetes",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion und Phäochromozytom",
+      "ids": [
+        "hyperthyreose",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Kaliummangel, besonders bei schwerem Asthma und zusammen mit Theophyllin, Kortison oder Diuretika",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Zunehmender Bedarf ist ein Zeichen für eine Verschlechterung; Asthma braucht in der Regel zusätzlich eine entzündungshemmende Basistherapie",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Heben die bronchienerweiternde Wirkung auf und können bei Asthma schwere Bronchospasmen auslösen – möglichst meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Theophyllin und andere Xanthine",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Wirkung, aber auch mehr Nebenwirkungen am Herzen und verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – bei schwerem Asthma Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein tiefes Kalium erhöht unter Digoxin das Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Sympathomimetika und systemisch wirkende Anticholinergika",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Wirkung und mehr Nebenwirkungen wie Herzrasen und Zittern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Halothan, Isofluran, Sevofluran)",
+      "ref": [
+        "isofluran",
+        "sevofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen während der Narkose – Anwendung vor Operationen angeben.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Zittern (Tremor)",
+      "Husten"
+    ],
+    "gelegentlich": [
+      "Herzrhythmusstörungen",
+      "Paradoxer Bronchospasmus (Verkrampfung der Atemwege direkt nach dem Inhalieren)"
+    ],
+    "selten": [
+      "Hypokaliämie (Kaliummangel)",
+      "Unruhe, Nervosität, Kopfschmerzen, Schwindel",
+      "Herzrasen (Tachykardie), Herzklopfen (Palpitationen)",
+      "Myokardischämie (Durchblutungsstörung des Herzmuskels)",
+      "Übelkeit, Erbrechen, Rachenreizung",
+      "Muskelkrämpfe, Muskelschmerzen, Muskelschwäche",
+      "Vermehrtes Schwitzen, Juckreiz",
+      "Überempfindlichkeitsreaktionen"
+    ]
+  },
+  "schwangerschaft": "Bisher keine Hinweise auf schädliche Wirkungen; vor allem im ersten Drittel nur nach ärztlicher Abwägung. Fenoterol kann die Wehentätigkeit hemmen.",
+  "stillzeit": "Fenoterol geht in die Muttermilch über; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Bei Atemnot nach Bedarf inhalieren. Braucht man das Spray häufiger als sonst oder wirkt es schlechter, rasch ärztlich abklären lassen; bei plötzlich stark zunehmender Atemnot sofort ärztliche Hilfe holen.",
+    "Die verordnete Höchstdosis nicht überschreiten – Überdosierung belastet das Herz.",
+    "Ersetzt bei Asthma nicht die entzündungshemmende Basisbehandlung mit inhalativem Kortison.",
+    "Steht auf der Dopingliste: Leistungssportlerinnen und -sportler brauchen eine medizinische Ausnahmebewilligung."
+  ],
+  "stand": "2026-10"
+}

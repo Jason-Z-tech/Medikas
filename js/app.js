@@ -7,6 +7,9 @@
   const P = window.MEDI_PRAEPARATE || { liste: [] };
   const S = window.MediSuche;
   const main = document.getElementById('inhalt');
+  // In einem Rahmen (z. B. eingebettete Vorschau) gibt es keinen Druckdialog
+  let imRahmen = false;
+  try { imRahmen = window.self !== window.top; } catch (e) { imRahmen = true; }
 
   /* ---------- Nachschlagetabellen ---------- */
   const WS = new Map(M.wirkstoffe.map((w) => [w.id, w]));
@@ -631,7 +634,9 @@
     const gruppenLinks = (w.gruppen || []).filter((g) => GR.has(g)).map((g) => linkGr(g)).join(', ');
     add('quelle', 'Quelle und Stand',
       (gruppenLinks ? `<p>Gruppen für den Wechselwirkungs-Check: ${gruppenLinks}.</p>` : '') +
-      `<p>Datenstand: ${esc(w.stand)}.</p>${fachinfoHinweis()}`);
+      `<p>Datenstand: ${esc(w.stand)}. ${w.zweitpruefung
+        ? 'Redaktionell zusammengefasst und von einer zweiten, unabhängigen Prüfung gegen die Fachinformation gegengelesen.'
+        : 'Redaktionell zusammengefasst und automatisch auf Format und Verweise geprüft; eine unabhängige Zweitprüfung steht noch aus.'}</p>${fachinfoHinweis()}`);
 
     main.innerHTML = seite([`<a href="#/a-z">Wirkstoffe</a>`, esc(w.name)],
       `<div class="mono-kopf"><h1 tabindex="-1">${esc(w.name)}</h1>` +
@@ -869,7 +874,7 @@
       `</div>` +
       abschnitt('ergebnis', 'Ergebnis', ergebnis +
         (ohneDaten.length ? `<p class="hinweis">Für ${ohneDaten.map((id) => esc(KURZ.get(id).name)).join(', ')} liegen keine Wechselwirkungsdaten vor.</p>` : '') +
-        (profilLeer() ? '' : `<div class="knopfreihe no-print"><button class="knopf knopf--leise" type="button" id="check-drucken">${ICON.druck}Drucken / als PDF</button><button class="knopf knopf--leise" type="button" id="check-leeren">Alle Angaben löschen</button></div>`)) +
+        (profilLeer() ? '' : `<div class="knopfreihe no-print">${imRahmen ? '' : `<button class="knopf knopf--leise" type="button" id="check-drucken">${ICON.druck}Drucken / als PDF</button>`}<button class="knopf knopf--leise" type="button" id="check-leeren">Alle Angaben löschen</button></div>`)) +
       `<div class="karte">${fachinfoHinweis()}</div>`);
     suchfeld($('#check-krankheit'), {
       id: 'check-kr', typen: ['krankheit'], label: 'Erkrankung oder Situation hinzufügen', placeholder: 'Erkrankung hinzufügen …',
@@ -889,7 +894,17 @@
     const leeren = $('#check-leeren');
     if (leeren) {
       leeren.addEventListener('click', () => {
-        if (!window.confirm('Alle Erkrankungen und Medikamente aus dem Check löschen?')) return;
+        // Zweistufig auf der Seite bestätigen (Browser-Dialoge sind in eingebetteten Ansichten gesperrt)
+        if (leeren.dataset.bestaetigen !== 'ja') {
+          leeren.dataset.bestaetigen = 'ja';
+          leeren.textContent = 'Wirklich alle löschen? Zum Bestätigen nochmals klicken';
+          setTimeout(() => {
+            if (!leeren.isConnected) return;
+            leeren.dataset.bestaetigen = '';
+            leeren.textContent = 'Alle Angaben löschen';
+          }, 6000);
+          return;
+        }
         profil = { krankheiten: [], medikamente: [] };
         speichereProfil();
         render(true, '#check-kr');
@@ -908,7 +923,7 @@
       `<div class="karte"><h2>Häufigkeit von Nebenwirkungen</h2><div class="tabelle-scroll"><table class="tabelle"><tbody>${NW.map(([, l, d]) => `<tr><th scope="row">${l}</th><td>${d}</td></tr>`).join('')}</tbody></table></div><p class="quelle">Diese Einteilung entspricht der Konvention in den Schweizer Fachinformationen (MedDRA).</p></div>` +
       `<div class="karte"><h2>Abgabekategorien in der Schweiz</h2><div class="tabelle-scroll"><table class="tabelle"><tbody>${['A', 'B', 'D', 'E'].map((a) => `<tr><th scope="row">${abgabeBadge(a)}</th><td>${esc(ABGABE[a][1])}</td></tr>`).join('')}</tbody></table></div><p class="quelle">Die frühere Kategorie C wurde 2019 aufgehoben; die Präparate wurden den Kategorien B oder D zugeteilt.</p></div>` +
       `<div class="karte"><h2>Wie funktioniert der Check?</h2><p>Jeder Wirkstoff gehört zu Gruppen – z. B. Ibuprofen zu den NSAR, Clarithromycin zu den starken CYP3A4-Hemmern, Citalopram zu den QT-verlängernden und serotonergen Mitteln. Gegenanzeigen und Wechselwirkungen verweisen auf Krankheiten, einzelne Wirkstoffe oder solche Gruppen. Der Check gleicht Ihre Angaben in beide Richtungen ab. Er findet nur, was in den Daten steht – fehlende Warnungen bedeuten nicht, dass eine Kombination sicher ist.</p></div>` +
-      `<div class="karte"><h2>Quellen</h2><ul class="punkte"><li>Swissmedic: Fach- und Patienteninformationen (<a href="https://www.swissmedicinfo.ch/" rel="noopener">swissmedicinfo.ch</a>) und Listen der zugelassenen Humanarzneimittel (<a href="https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html" rel="noopener">swissmedic.ch</a>).</li><li>Wirkstoff-Monografien: redaktionell zusammengefasst nach pharmakologischem Standardwissen und Fachinformationen, mehrstufig gegengeprüft. Stand siehe jeweilige Seite.</li><li>Häufigkeitsangaben: MedDRA-Konvention der Fachinformationen.</li></ul></div>` +
+      `<div class="karte"><h2>Quellen</h2><ul class="punkte"><li>Swissmedic: Fach- und Patienteninformationen (<a href="https://www.swissmedicinfo.ch/" rel="noopener">swissmedicinfo.ch</a>) und Listen der zugelassenen Humanarzneimittel (<a href="https://www.swissmedic.ch/swissmedic/de/home/services/listen_neu.html" rel="noopener">swissmedic.ch</a>).</li><li>Wirkstoff-Monografien: redaktionell zusammengefasst nach pharmakologischem Standardwissen und Fachinformationen und automatisch auf Format, Verweise und Schreibweise geprüft. ${zahl(M.wirkstoffe.filter((w) => w.zweitpruefung).length)} häufig verwendete Wirkstoffe wurden zusätzlich von einer zweiten, unabhängigen Prüfung gegengelesen – das steht jeweils unten auf der Wirkstoffseite. Stand siehe jeweilige Seite.</li><li>Häufigkeitsangaben: MedDRA-Konvention der Fachinformationen.</li></ul></div>` +
       `<div class="karte"><h2>Datenschutz</h2><p>Kein Tracking, keine Cookies, keine Werbung, keine externen Schriften oder Skripte. Ihr Check-Profil bleibt nur im Browser: standardmässig bis zum Schliessen des Tabs (sessionStorage), auf Wunsch dauerhaft auf diesem Gerät (localStorage). Es wird nie übertragen und lässt sich im Check jederzeit löschen. Das Farbschema wird lokal gespeichert.</p></div>`);
     return { titel: 'Über die Daten' };
   }

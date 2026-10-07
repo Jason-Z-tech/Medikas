@@ -1,0 +1,264 @@
+{
+  "id": "theophyllin",
+  "name": "Theophyllin",
+  "synonyme": [
+    "Theophylline",
+    "Theophyllinum"
+  ],
+  "atc": [
+    "R03DA04"
+  ],
+  "klasse": "Methylxanthin (Bronchodilatator)",
+  "kurz": "Bronchienerweiterndes Mittel in Retardform bei Asthma und COPD; wirkt nur in einem engen Dosisbereich, daher Blutspiegelkontrollen.",
+  "gruppen": [
+    "methylxanthine",
+    "cyp1a2-substrate",
+    "krampfschwellensenkend",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Unifyl"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung und Vorbeugung von Atemnot bei Asthma bronchiale",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Chronisch obstruktive Lungenerkrankung (COPD) mit verengten Atemwegen, z. B. chronische Bronchitis und Lungenemphysem",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Bronchien und regt die Atmung an. Theophyllin hemmt unselektiv Phosphodiesterasen, wodurch cAMP in der Bronchialmuskulatur ansteigt, und blockiert Adenosinrezeptoren. Folge sind eine Entspannung der Bronchialmuskulatur, eine Anregung des Atemzentrums, eine bessere Kraft der Atemmuskulatur und leicht entzündungshemmende Effekte. Wirkung und Nebenwirkungen hängen eng vom Blutspiegel ab; abgebaut wird Theophyllin in der Leber vor allem über CYP1A2.",
+  "kontraindikationen": [
+    {
+      "text": "Frischer Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Akute tachykarde Herzrhythmusstörungen",
+      "ids": [
+        "tachykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Xanthinderivate (z. B. Aminophyllin)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Epilepsie und andere Krampfleiden",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten: instabile Angina pectoris, Herzrhythmusstörungen, hypertrophe obstruktive Kardiomyopathie, schwerer Bluthochdruck",
+      "ids": [
+        "angina-pectoris",
+        "herzrhythmusstoerung",
+        "kardiomyopathie",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre, Refluxkrankheit",
+      "ids": [
+        "magen-darm-ulkus",
+        "sodbrennen"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion und Herzinsuffizienz: Theophyllin wird langsamer abgebaut, die Spiegel steigen",
+      "ids": [
+        "leberinsuffizienz",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Fieber und Virusinfekte (z. B. Grippe) können den Abbau verlangsamen",
+      "ids": [
+        "fieber",
+        "influenza"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Rauchen beschleunigt den Abbau; nach einem Rauchstopp können die Spiegel deutlich steigen",
+      "ids": [
+        "rauchen",
+        "rauchstopp"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Fluvoxamin und andere starke CYP1A2-Hemmer",
+      "ref": [
+        "fluvoxamin",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Theophyllin-Spiegel steigen stark (Vergiftungsgefahr) – Kombination meiden oder Dosis deutlich senken und Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciprofloxacin und andere Chinolon-Antibiotika",
+      "ref": [
+        "ciprofloxacin",
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Theophyllin-Spiegel steigen (vor allem mit Ciprofloxacin), zudem erhöhtes Risiko für Krampfanfälle – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nicht selektive Betablocker (z. B. Propranolol) und andere Betablocker",
+      "ref": [
+        "propranolol",
+        "gruppe:betablocker"
+      ],
+      "effekt": "Gefahr von Bronchospasmen und gegenseitige Wirkungsabschwächung; Propranolol hemmt zudem den Theophyllin-Abbau.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Makrolid-Antibiotika (Erythromycin, Clarithromycin)",
+      "ref": [
+        "erythromycin",
+        "clarithromycin"
+      ],
+      "effekt": "Theophyllin-Spiegel steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Weitere Mittel, die den Theophyllin-Abbau hemmen: Cimetidin, Allopurinol (hohe Dosen), Propafenon, Pentoxifyllin, Interferon alfa",
+      "ref": [
+        "allopurinol",
+        "propafenon",
+        "pentoxifyllin",
+        "peginterferon-alfa-2a"
+      ],
+      "effekt": "Erhöhte Theophyllin-Spiegel – auf Übelkeit, Herzrasen und Unruhe achten, Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut) und Ritonavir",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "johanniskraut",
+        "ritonavir"
+      ],
+      "effekt": "Beschleunigter Abbau, die Wirkung lässt nach – Spiegel kontrollieren; beim Absetzen des Induktors steigen die Spiegel wieder (Vergiftungsgefahr).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Beta-2-Sympathomimetika, systemische Glukokortikoide und Diuretika",
+      "ref": [
+        "gruppe:beta2-sympathomimetika",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust; zusammen mit Beta-2-Sympathomimetika auch mehr Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium wird schneller ausgeschieden, seine Wirkung kann nachlassen – Lithium-Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Adenosin",
+      "ref": [
+        "adenosin"
+      ],
+      "effekt": "Theophyllin schwächt die Wirkung von Adenosin ab (z. B. bei Herzuntersuchungen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ketamin und halogenierte Narkosegase (z. B. Halothan)",
+      "ref": [
+        "ketamin"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle bzw. Herzrhythmusstörungen – Einnahme vor Operationen angeben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel (östrogenhaltig)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Theophyllin wird langsamer abgebaut – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Coffein und andere Methylxanthine (Kaffee, Schwarztee, Cola, Energydrinks)",
+      "ref": [
+        "coffein",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Verstärkte Nebenwirkungen wie Unruhe und Herzrasen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Benzodiazepine",
+      "ref": [
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Theophyllin kann die beruhigende Wirkung abschwächen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall",
+      "Sodbrennen (Reflux)",
+      "Kopfschmerzen, Unruhe, Schlaflosigkeit, Zittern",
+      "Herzrasen (Tachykardie), Herzklopfen, Herzrhythmusstörungen",
+      "Krampfanfälle, vor allem bei zu hohen Blutspiegeln",
+      "Hypokaliämie (Kaliummangel), erhöhter Blutzucker, erhöhte Harnsäure",
+      "Vermehrtes Wasserlassen",
+      "Überempfindlichkeitsreaktionen (Hautausschlag, Juckreiz)"
+    ]
+  },
+  "schwangerschaft": "Theophyllin geht auf das Kind über; Anwendung nur nach strenger ärztlicher Abwägung und mit Spiegelkontrollen. Kurz vor der Geburt angewendet kann es beim Neugeborenen Herzrasen und Unruhe auslösen.",
+  "stillzeit": "Geht in die Muttermilch über und kann beim Säugling Unruhe und Schlafstörungen auslösen; nur nach ärztlicher Abwägung, den Säugling beobachten.",
+  "hinweise": [
+    "Retardtabletten unzerkaut mit Flüssigkeit einnehmen, regelmässig zur gleichen Zeit.",
+    "Blutspiegel regelmässig kontrollieren lassen; Übelkeit, Erbrechen, Herzrasen oder Unruhe können erste Zeichen einer Überdosierung sein.",
+    "Rauchstopp, Fieber oder neue Medikamente (besonders Antibiotika) der Ärztin oder dem Arzt melden – die Dosis muss eventuell angepasst werden.",
+    "Grosse Mengen Kaffee, Schwarztee, Cola und Energydrinks meiden."
+  ],
+  "stand": "2026-10"
+}

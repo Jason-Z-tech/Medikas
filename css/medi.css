@@ -172,7 +172,7 @@ button { font: inherit; color: inherit; }
 .skip-link:focus { top: 12px; }
 
 /* ---------- Kopf ---------- */
-.kopf { position: sticky; top: 0; z-index: 40; background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
+.kopf { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 40; background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
 .kopf__inner { display: grid; grid-template-columns: auto 1fr auto; gap: 10px 20px; align-items: center; padding-block: 10px; }
 .marke { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-family: var(--font-head); font-weight: 800; font-size: 1.15rem; letter-spacing: -0.01em; white-space: nowrap; }
 .marke__kreuz { width: 34px; height: 34px; flex: none; border-radius: 9px; background: var(--accent); display: grid; place-items: center; }

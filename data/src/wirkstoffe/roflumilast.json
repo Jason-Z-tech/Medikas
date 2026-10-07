@@ -1,0 +1,183 @@
+{
+  "id": "roflumilast",
+  "name": "Roflumilast",
+  "synonyme": [],
+  "atc": [
+    "R03DX07"
+  ],
+  "klasse": "Selektiver Phosphodiesterase-4-Hemmer (PDE-4-Hemmer, entzündungshemmend)",
+  "kurz": "Entzündungshemmende Tablette bei schwerer COPD mit chronischem Husten und Auswurf; beugt Verschlechterungen (Exazerbationen) vor.",
+  "gruppen": [
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Daxas"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Dauertherapie der schweren COPD mit chronischer Bronchitis (Husten und Auswurf) und häufigen Exazerbationen in der Vorgeschichte, zusätzlich zu einer bronchienerweiternden Behandlung",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Entzündung in der Lunge, erweitert die Bronchien aber nicht direkt. Roflumilast und sein ebenfalls wirksamer Hauptmetabolit Roflumilast-N-Oxid hemmen selektiv die Phosphodiesterase 4 (PDE4), das wichtigste cAMP-abbauende Enzym in Entzündungszellen. Der Anstieg von cAMP dämpft die Aktivität von Neutrophilen, Makrophagen und anderen Entzündungszellen und vermindert so die Häufigkeit von COPD-Exazerbationen. Der Abbau erfolgt über CYP3A4 und CYP1A2.",
+  "kontraindikationen": [
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz (Child-Pugh B oder C)",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Untergewicht und Gewichtsverlust: Gewicht regelmässig kontrollieren; bei unerklärtem, deutlichem Gewichtsverlust absetzen",
+      "ids": [
+        "untergewicht"
+      ]
+    },
+    {
+      "text": "Depression, Suizidgedanken oder suizidales Verhalten in der Vorgeschichte: Anwendung nicht empfohlen; Schlafstörungen, Angst und Stimmungsveränderungen melden",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Schwere Immunerkrankungen (z. B. HIV-Infektion, Multiple Sklerose, Lupus), schwere akute Infektionen, Tuberkulose oder Virushepatitis: Anwendung nicht empfohlen",
+      "ids": [
+        "hiv",
+        "multiple-sklerose",
+        "lupus",
+        "aktive-infektion",
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen (ausser Basalzellkarzinom der Haut): Anwendung nicht empfohlen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz (NYHA III–IV): nicht untersucht, Anwendung nicht empfohlen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichte Leberinsuffizienz (Child-Pugh A): nur mit Vorsicht",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot",
+      "ids": [
+        "atemnot"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Für die Dauerbehandlung zusammen mit Theophyllin liegen keine Daten vor – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Die Wirkung von Roflumilast wird deutlich vermindert – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Immunsuppressiva (z. B. Methotrexat, Azathioprin, TNF-alpha-Hemmer) und langfristige Kortisontabletten",
+      "ref": [
+        "methotrexat",
+        "azathioprin",
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Keine Erfahrungen – Kombination nicht empfohlen; kurzzeitig eingesetztes Kortison ist möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2- und CYP3A4-Hemmer (z. B. Fluvoxamin, Erythromycin, Ketoconazol, Cimetidin)",
+      "ref": [
+        "fluvoxamin",
+        "gruppe:cyp1a2-hemmer",
+        "gruppe:starke-cyp3a4-hemmer",
+        "erythromycin",
+        "ketoconazol"
+      ],
+      "effekt": "Höhere Gesamtwirkung von Roflumilast; mehr Nebenwirkungen wie Durchfall, Übelkeit und Kopfschmerzen möglich – Verträglichkeit überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel mit Gestoden und Ethinylestradiol",
+      "ref": [
+        "ethinylestradiol-gestoden",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Höhere Roflumilast-Wirkung; mehr Nebenwirkungen möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Gewichtsabnahme, verminderter Appetit",
+      "Schlaflosigkeit",
+      "Kopfschmerzen",
+      "Durchfall",
+      "Übelkeit",
+      "Bauchschmerzen"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Angst",
+      "Zittern (Tremor), Schwindel",
+      "Herzklopfen (Palpitationen)",
+      "Erbrechen, Gastritis, Reflux, Verdauungsbeschwerden",
+      "Hautausschlag",
+      "Muskelkrämpfe, Muskelschwäche, Muskel- und Rückenschmerzen",
+      "Müdigkeit, Schwäche, Unwohlsein"
+    ],
+    "selten": [
+      "Suizidgedanken und suizidales Verhalten",
+      "Depression, Nervosität, Panikattacken",
+      "Angioödem, Nesselsucht",
+      "Gynäkomastie (Brustvergrösserung beim Mann)",
+      "Infekte der Atemwege (ohne Lungenentzündung)",
+      "Blut im Stuhl, Verstopfung",
+      "Erhöhte Leberwerte",
+      "Geschmacksstörung"
+    ]
+  },
+  "schwangerschaft": "Anwendung nicht empfohlen. Frauen im gebärfähigen Alter sollen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Roflumilast geht im Tierversuch in die Milch über; in der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit mit Wasser einnehmen, unabhängig von den Mahlzeiten.",
+    "Durchfall, Übelkeit, Kopfschmerzen und Gewichtsabnahme treten vor allem in den ersten Wochen auf; das Gewicht regelmässig kontrollieren.",
+    "Bei Stimmungsveränderungen, anhaltender Schlaflosigkeit oder Suizidgedanken sofort ärztliche Hilfe suchen.",
+    "Wirkt nicht bei akuter Atemnot und ersetzt die inhalativen Bronchienerweiterer nicht."
+  ],
+  "stand": "2026-10"
+}

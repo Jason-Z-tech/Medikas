@@ -1,0 +1,164 @@
+{
+  "id": "olodaterol",
+  "name": "Olodaterol",
+  "synonyme": [
+    "Olodaterolhydrochlorid",
+    "Olodaterol hydrochloride"
+  ],
+  "atc": [
+    "R03AC19"
+  ],
+  "klasse": "Lang wirksames Beta-2-Sympathomimetikum (LABA, 24-Stunden-Wirkung)",
+  "kurz": "Lang wirksames, bronchienerweiterndes Mittel zur Dauerbehandlung der COPD; wird einmal täglich mit dem Respimat-Inhalator angewendet.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Striverdi Respimat",
+    "Spiolto Respimat (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Lösung zur Inhalation (Respimat-Inhalator)"
+  ],
+  "indikationen": [
+    {
+      "text": "Bronchienerweiternde Dauerbehandlung zur Linderung der Beschwerden bei Erwachsenen mit chronisch obstruktiver Lungenerkrankung (COPD)",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Atemwege über 24 Stunden, indem es die Bronchialmuskulatur entspannt. Olodaterol bindet mit hoher Affinität und Selektivität an Beta-2-Adrenozeptoren und wirkt dort als nahezu voller Agonist; der Anstieg von cAMP führt zur Relaxation der glatten Muskulatur. Die lange Wirkdauer beruht auf der langsamen Ablösung vom Rezeptor, deshalb genügt eine Anwendung pro Tag.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Asthma: nicht zur Asthmabehandlung bestimmt; lang wirksame Beta-2-Sympathomimetika ohne inhalatives Kortison erhöhen das Risiko schwerer Asthmaanfälle",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Nicht zur Behandlung akuter Atemnot; tritt direkt nach dem Inhalieren Atemnot auf (paradoxer Bronchospasmus), sofort absetzen und ärztlich melden",
+      "ids": [
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Schwere Herz-Kreislauf-Erkrankungen wie koronare Herzkrankheit, Herzrhythmusstörungen, Herzmuskelverdickung oder Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "kardiomyopathie",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit (angeboren oder durch Medikamente)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Krampfleiden (Epilepsie) und Schilddrüsenüberfunktion",
+      "ids": [
+        "epilepsie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes und Kaliummangel",
+      "ids": [
+        "diabetes",
+        "hypokaliaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Schwächen die bronchienerweiternde Wirkung ab oder heben sie auf – nur wenn zwingend nötig und dann bevorzugt herzselektive Betablocker.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel, MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf, erhöhtes Risiko für Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin, systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere lang wirksame Beta-2-Sympathomimetika und Sympathomimetika",
+      "ref": [
+        "formoterol",
+        "salmeterol",
+        "indacaterol",
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Mehr Nebenwirkungen wie Herzrasen und Zittern; nicht mit einem weiteren lang wirksamen Beta-2-Sympathomimetikum kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ketoconazol und andere starke CYP- und P-Glykoprotein-Hemmer",
+      "ref": [
+        "ketoconazol",
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Olodaterol-Spiegel steigen um etwa 70 %; klinisch nicht bedeutsam.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Nasopharyngitis (Erkältungssymptome)",
+      "Schwindel"
+    ],
+    "selten": [
+      "Bluthochdruck",
+      "Hautausschlag",
+      "Gelenkschmerzen (Arthralgie)"
+    ],
+    "unbekannt": [
+      "Herzrasen (Tachykardie), Herzklopfen, Herzrhythmusstörungen",
+      "Myokardischämie (Durchblutungsstörung des Herzmuskels), Angina pectoris",
+      "Zittern, Kopfschmerzen, Nervosität, Schlaflosigkeit",
+      "Mundtrockenheit, Übelkeit",
+      "Muskelkrämpfe",
+      "Hypokaliämie (Kaliummangel), Hyperglykämie (erhöhter Blutzucker)",
+      "Paradoxer Bronchospasmus"
+    ]
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen; vorsichtshalber nur anwenden, wenn der Nutzen das Risiko klar überwiegt. Beta-2-Sympathomimetika können die Wehen hemmen.",
+  "stillzeit": "Nicht bekannt, ob Olodaterol beim Menschen in die Muttermilch übergeht; Anwendung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Tageszeit inhalieren; vor dem ersten Gebrauch die Patrone einsetzen und den Respimat nach Anleitung vorbereiten.",
+    "Nicht für akute Atemnot – dafür ein rasch wirksames Bedarfsspray bereithalten.",
+    "Inhalationstechnik regelmässig in der Apotheke oder Praxis überprüfen lassen."
+  ],
+  "stand": "2026-10"
+}

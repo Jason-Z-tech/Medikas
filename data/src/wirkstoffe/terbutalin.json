@@ -1,0 +1,177 @@
+{
+  "id": "terbutalin",
+  "name": "Terbutalin",
+  "synonyme": [
+    "Terbutaline",
+    "Terbutalinsulfat"
+  ],
+  "atc": [
+    "R03AC03",
+    "R03CC03"
+  ],
+  "klasse": "Kurz wirksames Beta-2-Sympathomimetikum (SABA)",
+  "kurz": "Rasch wirksames, bronchienerweiterndes Mittel bei Asthma und COPD; wird bei Atemnot inhaliert.",
+  "gruppen": [
+    "beta2-sympathomimetika",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Bricanyl"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Inhalation (Turbuhaler)",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Asthma bronchiale: Linderung und Vorbeugung von Atemnot durch verengte Bronchien (Bronchospasmus)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Chronisch obstruktive Lungenerkrankung (COPD), chronische Bronchitis und Lungenemphysem mit verengten Atemwegen",
+      "ids": [
+        "copd"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Atemwege, indem es die verkrampfte Bronchialmuskulatur entspannt. Terbutalin stimuliert selektiv Beta-2-Adrenozeptoren der glatten Muskulatur; über einen Anstieg von zyklischem AMP (cAMP) erschlafft die Muskulatur. Nach dem Inhalieren setzt die Wirkung innert weniger Minuten ein und hält etwa 4–6 Stunden an. Zusätzlich wird die Reinigung der Bronchien durch die Flimmerhärchen gefördert.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten wie koronare Herzkrankheit, Herzrhythmusstörungen, schwere Herzinsuffizienz oder Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "herzinsuffizienz",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion (Hyperthyreose)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes: der Blutzucker kann ansteigen, besonders bei Injektion – zu Beginn häufiger kontrollieren",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kaliummangel; bei schwerem Asthma und zusammen mit Theophyllin, Kortison oder Diuretika kann das Kalium stark sinken",
+      "ids": [
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Zunehmender Bedarf oder nachlassende Wirkung sind Zeichen einer Verschlechterung – rasch ärztlich abklären",
+      "ids": [
+        "asthma",
+        "atemnot"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker, auch als Augentropfen (z. B. Propranolol, Timolol)",
+      "ref": [
+        "gruppe:betablocker",
+        "propranolol",
+        "timolol"
+      ],
+      "effekt": "Heben die bronchienerweiternde Wirkung auf und können bei Asthma schwere Bronchospasmen auslösen – möglichst meiden; falls nötig nur herzselektive Betablocker unter Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Theophyllin und andere Xanthine",
+      "ref": [
+        "theophyllin",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Mehr Nebenwirkungen am Herzen und verstärkter Kaliumverlust – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide und kaliumausschwemmende Diuretika",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:schleifendiuretika",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Verstärkter Kaliumverlust – bei schwerem Asthma Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein tiefes Kalium erhöht unter Digoxin das Risiko für Herzrhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Sympathomimetika (z. B. Pseudoephedrin, Ephedrin)",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Nebenwirkungen wie Herzrasen und Zittern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Halothan, Isofluran, Sevofluran)",
+      "ref": [
+        "isofluran",
+        "sevofluran",
+        "desfluran"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen während der Narkose – Einnahme vor Operationen angeben.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Zittern (Tremor)",
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Herzrasen (Tachykardie), Herzklopfen (Palpitationen)",
+      "Muskelkrämpfe",
+      "Hypokaliämie (Kaliummangel)"
+    ],
+    "unbekannt": [
+      "Herzrhythmusstörungen (z. B. Vorhofflimmern, Extrasystolen)",
+      "Myokardischämie (Durchblutungsstörung des Herzmuskels)",
+      "Paradoxer Bronchospasmus (Verkrampfung der Atemwege direkt nach dem Inhalieren)",
+      "Überempfindlichkeitsreaktionen mit Hautausschlag, Nesselsucht oder Angioödem",
+      "Schlafstörungen, Unruhe, Erregtheit",
+      "Übelkeit",
+      "Blutdruckabfall, Kollaps"
+    ]
+  },
+  "schwangerschaft": "Keine Hinweise auf fruchtschädigende Wirkungen; im ersten Drittel nur nach ärztlicher Abwägung. Bei Anwendung kurz vor der Geburt kann das Neugeborene vorübergehend einen tiefen Blutzucker und einen schnellen Puls haben.",
+  "stillzeit": "Terbutalin geht in die Muttermilch über; in üblichen Dosen sind Auswirkungen auf den Säugling unwahrscheinlich – Anwendung nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Bei Atemnot nach Bedarf inhalieren. Braucht man das Mittel häufiger als sonst oder wirkt es schlechter, rasch ärztlich abklären lassen.",
+    "Ersetzt bei Asthma nicht die entzündungshemmende Basisbehandlung mit inhalativem Kortison.",
+    "Inhalationstechnik regelmässig in der Apotheke oder Praxis überprüfen lassen.",
+    "Steht auf der Dopingliste: Leistungssportlerinnen und -sportler brauchen eine medizinische Ausnahmebewilligung."
+  ],
+  "stand": "2026-10"
+}
