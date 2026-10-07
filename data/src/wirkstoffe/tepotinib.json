@@ -14,7 +14,8 @@
     "proteinkinase-hemmer",
     "p-gp-hemmer",
     "hepatotoxisch",
-    "teratogen"
+    "teratogen",
+    "qt-verlaengernd"
   ],
   "handelsnamen": [
     "Tepmetko"
@@ -89,11 +90,12 @@
       "schwere": "mittel"
     },
     {
-      "text": "Starke P-Glykoprotein-Hemmer (z. B. Itraconazol, Ciclosporin)",
+      "text": "Kombinierte starke CYP3A4- und P-Glykoprotein-Hemmer (z. B. Itraconazol)",
       "ref": [
-        "gruppe:p-gp-hemmer"
+        "gruppe:p-gp-hemmer",
+        "gruppe:starke-cyp3a4-hemmer"
       ],
-      "effekt": "Tepotinib-Spiegel kann steigen – möglichst vermeiden.",
+      "effekt": "Tepotinib-Spiegel kann steigen (mit Itraconazol nur etwa +20 %) – auf Nebenwirkungen achten.",
       "schwere": "mittel"
     },
     {
@@ -103,6 +105,22 @@
       ],
       "effekt": "Ob Tepotinib die Verhütungswirkung abschwächt, ist nicht bekannt – zusätzlich eine Barrieremethode verwenden.",
       "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung möglich – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Tepotinib hemmt Transporter der Nierenausscheidung – Metformin-Spiegel steigt leicht (etwa +30 %); auf Nebenwirkungen achten.",
+      "schwere": "leicht"
     }
   ],
   "nebenwirkungen": {
@@ -117,7 +135,8 @@
     "haeufig": [
       "Interstitielle Lungenerkrankung, Pneumonitis",
       "Erbrechen, Bauchschmerzen, Verstopfung",
-      "Pleuraerguss (Wasser im Brustfellraum)"
+      "Pleuraerguss (Wasser im Brustfellraum)",
+      "QT-Verlängerung im EKG"
     ],
     "gelegentlich": [],
     "selten": [],

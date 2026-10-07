@@ -12,7 +12,8 @@
   "kurz": "Malariamittel zur Vorbeugung auf Reisen und zur Behandlung; kann psychische und neurologische Nebenwirkungen verursachen.",
   "gruppen": [
     "qt-verlaengernd",
-    "krampfschwellensenkend"
+    "krampfschwellensenkend",
+    "bradykardisierend"
   ],
   "handelsnamen": [
     "Mephaquin"
@@ -116,17 +117,16 @@
       "text": "Halofantrin (auch bis 15 Wochen nach der letzten Mefloquin-Dosis)",
       "ref": [],
       "grund": "Starke QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
-    }
-  ],
-  "interaktionen": [
+    },
     {
-      "text": "Ketoconazol",
+      "text": "Ketoconazol (auch bis 15 Wochen nach der letzten Mefloquin-Dosis)",
       "ref": [
         "ketoconazol"
       ],
-      "effekt": "Erhöht den Mefloquin-Spiegel und verlängert die QT-Zeit – nicht gleichzeitig und bis 15 Wochen nach Mefloquin anwenden.",
-      "schwere": "schwer"
-    },
+      "grund": "Ketoconazol erhöht den Mefloquin-Spiegel und verlängert zusätzlich die QT-Zeit – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
     {
       "text": "Andere QT-verlängernde Mittel (z. B. Antiarrhythmika, Antipsychotika, Makrolide, trizyklische Antidepressiva)",
       "ref": [

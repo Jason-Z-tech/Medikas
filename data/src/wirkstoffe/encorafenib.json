@@ -14,7 +14,9 @@
     "cyp3a4-substrate-empfindlich",
     "enzyminduktoren-hormone",
     "qt-verlaengernd",
-    "teratogen"
+    "teratogen",
+    "cyp3a4-induktoren",
+    "blutungsrisiko-erhoehend"
   ],
   "handelsnamen": [
     "Braftovi"
@@ -132,16 +134,16 @@
       "ref": [
         "gruppe:hormonale-kontrazeptiva"
       ],
-      "effekt": "Wirkung kann abnehmen – zusätzlich oder stattdessen nichthormonal verhüten.",
-      "schwere": "mittel"
+      "effekt": "Encorafenib beschleunigt den Hormonabbau (CYP3A4-Induktion) – Verhütung kann versagen; zuverlässige nichthormonale Methode verwenden.",
+      "schwere": "schwer"
     },
     {
-      "text": "Empfindliche CYP3A4-Substrate",
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Tacrolimus, Ciclosporin)",
       "ref": [
         "gruppe:cyp3a4-substrate-empfindlich"
       ],
-      "effekt": "Encorafenib kann deren Abbau beschleunigen – Wirkung kann abnehmen.",
-      "schwere": "mittel"
+      "effekt": "Encorafenib induziert CYP3A4 (Midazolam-Spiegel um etwa 80 % gesenkt) – Wirkung kann deutlich abnehmen; möglichst vermeiden oder Spiegel kontrollieren.",
+      "schwere": "schwer"
     },
     {
       "text": "Andere QT-verlängernde Mittel",

@@ -54,6 +54,12 @@
       "ids": [
         "stillzeit"
       ]
+    },
+    {
+      "text": "Nur Akeega: schwere Leberfunktionsstörung (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
     }
   ],
   "vorsicht": [
@@ -105,7 +111,15 @@
       ]
     }
   ],
-  "kontraMedikamente": [],
+  "kontraMedikamente": [
+    {
+      "text": "Nur Akeega: Radium-223 (Kombination mit Prednison/Prednisolon)",
+      "ref": [
+        "radium-223ra-dichlorid"
+      ],
+      "grund": "In Studien mit Abirateron plus Radium-223 mehr Knochenbrüche und Todesfälle."
+    }
+  ],
   "interaktionen": [
     {
       "text": "Andere knochenmarkhemmende Mittel und Zytostatika",
@@ -123,6 +137,23 @@
         "gruppe:thrombozytenaggregationshemmer"
       ],
       "effekt": "Bei tiefen Blutplättchen erhöhtes Blutungsrisiko – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nur Akeega: starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Senken den Abirateron-Spiegel, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nur Akeega: CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Abirateron hemmt CYP2D6 – Spiegel dieser Mittel steigen; Dosis prüfen.",
       "schwere": "mittel"
     },
     {

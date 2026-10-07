@@ -62,16 +62,16 @@
       "ref": [
         "gruppe:starke-cyp3a4-hemmer"
       ],
-      "effekt": "Imlunestrant-Spiegel kann steigen – Kombination meiden oder Dosis anpassen.",
-      "schwere": "mittel"
+      "effekt": "Imlunestrant-Spiegel steigt – Kombination meiden; falls unumgänglich, Dosis reduzieren.",
+      "schwere": "schwer"
     },
     {
-      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "text": "Starke und mässige CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
       "ref": [
         "gruppe:cyp3a4-induktoren"
       ],
       "effekt": "Imlunestrant-Spiegel kann sinken, Wirkung vermindert – Kombination meiden.",
-      "schwere": "mittel"
+      "schwere": "schwer"
     },
     {
       "text": "Johanniskraut",
@@ -79,6 +79,14 @@
         "johanniskraut"
       ],
       "effekt": "Wirkung kann durch Enzyminduktion abgeschwächt werden – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche P-gp-Substrate (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Imlunestrant kann P-gp hemmen – Spiegel dieser Mittel können steigen; überwachen, Dosis ggf. anpassen.",
       "schwere": "mittel"
     },
     {
@@ -93,15 +101,16 @@
   "nebenwirkungen": {
     "sehrHaeufig": [
       "Müdigkeit",
-      "Durchfall, Übelkeit",
-      "Muskel- und Gelenkschmerzen"
+      "Durchfall, Übelkeit, Verstopfung, Bauchschmerzen",
+      "Muskel-, Knochen- und Gelenkschmerzen, Rückenschmerzen"
     ],
     "haeufig": [],
     "gelegentlich": [],
     "selten": [],
     "sehrSelten": [],
     "unbekannt": [
-      "Veränderte Laborwerte (Leberwerte, Blutfette, Blutbild)"
+      "Blutbildveränderungen (Anämie, verminderte Neutrophile und Blutplättchen)",
+      "Erhöhte Leberwerte und Blutfette, erniedrigtes Calcium (Laborwerte)"
     ]
   },
   "schwangerschaft": "Nicht anwenden (kann das ungeborene Kind schädigen). Frauen im gebärfähigen Alter müssen während und noch einige Zeit nach der Behandlung zuverlässig verhüten.",

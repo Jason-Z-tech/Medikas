@@ -30,10 +30,9 @@
   "wirkmechanismus": "Hemmt das Wachstum von Bakterien, indem es ihre Eiweissherstellung blockiert. Chloramphenicol bindet an die 50S-Untereinheit der bakteriellen Ribosomen und hemmt die Peptidyltransferase; es wirkt bakteriostatisch gegen viele grampositive und gramnegative Keime. In der Kombination mit Dexamethason wirkt das Kortison zusätzlich entzündungshemmend.",
   "kontraindikationen": [
     {
-      "text": "Schwere Blutbildungsstörungen oder Knochenmarkschädigung",
+      "text": "Blutbildungsstörungen (z. B. aplastische Anämie) oder Knochenmarkschädigung in der eigenen oder familiären Vorgeschichte",
       "ids": [
-        "knochenmarkschaedigung",
-        "anaemie"
+        "knochenmarkschaedigung"
       ]
     },
     {
@@ -46,8 +45,7 @@
       "text": "Bei Kombination mit Dexamethason: frische Herpes-simplex-Hornhautentzündung, Tuberkulose oder Pilzinfektionen des Auges, Glaukom",
       "ids": [
         "herpes",
-        "glaukom",
-        "augeninfektion"
+        "glaukom"
       ]
     }
   ],
@@ -66,7 +64,7 @@
       ]
     },
     {
-      "text": "Blutbildungsstörungen in der Familie oder gleichzeitige Behandlung mit knochenmarkschädigenden Mitteln",
+      "text": "Gleichzeitige Behandlung mit knochenmarkschädigenden Mitteln",
       "ids": [
         "knochenmarkschaedigung"
       ]
@@ -80,6 +78,14 @@
   ],
   "kontraMedikamente": [],
   "interaktionen": [
+    {
+      "text": "Knochenmarkschädigende Mittel (z. B. Zytostatika, Methotrexat, Azathioprin)",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Risiko für Blutbildungsstörungen kann zunehmen – gleichzeitige Anwendung vermeiden bzw. nur nach ärztlicher Abwägung.",
+      "schwere": "mittel"
+    },
     {
       "text": "Andere Augentropfen oder -salben",
       "ref": [],

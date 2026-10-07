@@ -68,11 +68,21 @@
       ]
     },
     {
-      "text": "Wegen des Adrenalins: anfallsartiges Herzrasen oder schnelles Vorhofflimmern, Engwinkelglaukom",
+      "text": "Wegen des Adrenalins: anfallsartiges Herzrasen oder schnelles Vorhofflimmern, Engwinkelglaukom, Schilddrüsenüberfunktion, Phäochromozytom (hormonbildender Tumor), schwerer Bluthochdruck",
       "ids": [
         "tachykardie",
         "vorhofflimmern",
-        "engwinkelglaukom"
+        "engwinkelglaukom",
+        "hyperthyreose",
+        "phaeochromozytom",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Wegen des Adrenalins: Herzinfarkt in den letzten 3–6 Monaten oder Bypass-Operation am Herzen in den letzten 3 Monaten",
+      "ids": [
+        "herzinfarkt",
+        "koronarstent"
       ]
     },
     {
@@ -92,11 +102,9 @@
       ]
     },
     {
-      "text": "Schilddrüsenüberfunktion, Diabetes, Phäochromozytom (Adrenalinwirkung)",
+      "text": "Diabetes (Adrenalin kann den Blutzucker erhöhen)",
       "ids": [
-        "hyperthyreose",
-        "diabetes",
-        "phaeochromozytom"
+        "diabetes"
       ]
     },
     {
@@ -126,31 +134,50 @@
       ]
     }
   ],
-  "kontraMedikamente": [],
-  "interaktionen": [
+  "kontraMedikamente": [
     {
-      "text": "Nicht-selektive Betablocker (z. B. Propranolol)",
+      "text": "Nicht-kardioselektive Betablocker (z. B. Propranolol, Pindolol, Sotalol)",
       "ref": [
-        "propranolol"
+        "propranolol",
+        "pindolol",
+        "sotalol"
       ],
-      "effekt": "Durch das Adrenalin Gefahr eines starken Blutdruckanstiegs mit Pulsverlangsamung – möglichst adrenalinarme Lösung und niedrige Dosis.",
-      "schwere": "schwer"
+      "grund": "Durch das Adrenalin Gefahr einer Blutdruckentgleisung (hypertensive Krise) oder einer schweren Bradykardie."
     },
     {
-      "text": "Trizyklische Antidepressiva und MAO-Hemmer",
+      "text": "Trizyklische Antidepressiva und MAO-Hemmer (MAO-Hemmer bis 14 Tage nach dem Absetzen)",
       "ref": [
         "gruppe:trizyklische-antidepressiva",
         "gruppe:mao-hemmer"
       ],
-      "effekt": "Verstärkte Adrenalinwirkung: Blutdruckanstieg und Herzrhythmusstörungen möglich – Dosis begrenzen.",
-      "schwere": "mittel"
-    },
+      "grund": "Sie verstärken die Herz-Kreislauf-Wirkung des Adrenalins – Gefahr von Blutdruckkrisen und Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
     {
       "text": "Andere Lokalanästhetika",
       "ref": [
         "gruppe:lokalanaesthetika"
       ],
       "effekt": "Additive Giftwirkung auf Herz und Nervensystem – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Halogenierte Narkosegase (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Das Adrenalin kann Herzrhythmusstörungen auslösen – Dosis begrenzen, Herz überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Sympathomimetika",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Wirkung auf Blutdruck und Herz durch das Adrenalin.",
       "schwere": "mittel"
     },
     {

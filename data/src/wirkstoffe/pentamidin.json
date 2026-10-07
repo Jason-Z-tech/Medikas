@@ -18,7 +18,8 @@
     "hypoglykaemie-ausloesend",
     "hyperglykaemie-ausloesend",
     "hyperkaliaemie-ausloesend",
-    "blutdrucksenkend"
+    "blutdrucksenkend",
+    "hypomagnesiaemie-ausloesend"
   ],
   "handelsnamen": [
     "Pentacarinat"
@@ -105,9 +106,10 @@
       ]
     },
     {
-      "text": "Störungen von Calcium- und Kaliumhaushalt",
+      "text": "Störungen von Calcium-, Magnesium- und Kaliumhaushalt",
       "ids": [
         "hypokalzaemie",
+        "magnesiummangel",
         "hyperkaliaemie"
       ]
     },
@@ -129,14 +131,21 @@
       "schwere": "schwer"
     },
     {
-      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Foscarnet, Ciclosporin)",
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Ciclosporin)",
       "ref": [
         "gruppe:nephrotoxisch",
         "gruppe:aminoglykoside",
-        "amphotericin-b",
-        "foscarnet"
+        "amphotericin-b"
       ],
       "effekt": "Additive Nierenschädigung – Nierenfunktion und Elektrolyte engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Foscarnet (Infusion)",
+      "ref": [
+        "foscarnet"
+      ],
+      "effekt": "Gefahr einer schweren, lebensbedrohlichen Hypokalzämie (Calciummangel) und zusätzlicher Nierenschädigung – möglichst vermeiden, sonst Calcium, Magnesium und Nierenwerte eng überwachen.",
       "schwere": "schwer"
     },
     {
@@ -198,6 +207,7 @@
       "Torsade de pointes (lebensbedrohliche Herzrhythmusstörung)",
       "Bauchspeicheldrüsenentzündung (Pankreatitis)",
       "Überzuckerung bis Diabetes mellitus",
+      "Hypomagnesiämie (Magnesiummangel)",
       "Hyperkaliämie (erhöhtes Kalium)",
       "Anaphylaxie",
       "Stevens-Johnson-Syndrom"

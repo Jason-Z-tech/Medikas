@@ -128,17 +128,24 @@
       ]
     }
   ],
-  "kontraMedikamente": [],
-  "interaktionen": [
+  "kontraMedikamente": [
     {
-      "text": "Goldverbindungen, Antimalariamittel (z. B. Hydroxychloroquin), Zytostatika und Immunsuppressiva",
+      "text": "Goldverbindungen, Chloroquin oder Hydroxychloroquin, Immunsuppressiva und Zytostatika",
       "ref": [
         "hydroxychloroquin",
         "gruppe:zytostatika",
-        "gruppe:immunsuppressiv",
+        "gruppe:immunsuppressiv"
+      ],
+      "grund": "Gleichgerichtete Schädigung von Knochenmark und Niere – erhöhtes Risiko schwerer Blutbild- und Nierenschäden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Clozapin, Azathioprin)",
+      "ref": [
         "gruppe:myelosuppressiv"
       ],
-      "effekt": "Verstärkte Blutbild- und Nierenschäden – nicht kombinieren.",
+      "effekt": "Verstärkte Blutbildschäden (z. B. Agranulozytose) – möglichst meiden, sonst Blutbild engmaschig kontrollieren.",
       "schwere": "schwer"
     },
     {
