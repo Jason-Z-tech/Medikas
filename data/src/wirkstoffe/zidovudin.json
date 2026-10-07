@@ -1,0 +1,216 @@
+{
+  "id": "zidovudin",
+  "name": "Zidovudin",
+  "synonyme": [
+    "AZT",
+    "ZDV",
+    "Azidothymidin",
+    "Zidovudine"
+  ],
+  "atc": [
+    "J05AF01"
+  ],
+  "klasse": "Nukleosidischer Reverse-Transkriptase-Hemmer (NRTI)",
+  "kurz": "HIV-Medikament für die Kombinationstherapie; wird vor allem eingesetzt, um die HIV-Übertragung von der Mutter auf das Kind zu verhindern.",
+  "gruppen": [
+    "myelosuppressiv",
+    "myotoxisch",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Retrovir",
+    "Combivir (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Lösung zum Einnehmen",
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen und Kindern, in Kombination mit anderen antiretroviralen Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Verhinderung der HIV-Übertragung von der Mutter auf das Kind (Behandlung der Schwangeren und des Neugeborenen)",
+      "ids": [
+        "hiv",
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des HI-Virus. Zidovudin ist ein Abkömmling des Erbgutbausteins Thymidin und wird in den Körperzellen zu Zidovudin-Triphosphat umgewandelt. Dieses hemmt die virale Reverse Transkriptase und führt nach Einbau in die virale DNA zum Kettenabbruch. In geringerem Mass hemmt es auch menschliche Polymerasen (u. a. in den Mitochondrien), was Blutbildschäden und Muskelbeschwerden erklärt.",
+  "kontraindikationen": [
+    {
+      "text": "Stark erniedrigte Neutrophile (unter 0,75 × 10⁹/l) oder stark erniedrigtes Hämoglobin (unter 7,5 g/dl)",
+      "ids": [
+        "neutropenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Neugeborene mit behandlungsbedürftiger Gelbsucht (ausser Phototherapie) oder Transaminasen über dem 5-Fachen der Norm",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildschäden (Anämie, Neutropenie), vor allem bei fortgeschrittener HIV-Erkrankung – Blutbild regelmässig kontrollieren",
+      "ids": [
+        "anaemie",
+        "neutropenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen, Lebervergrösserung oder Risikofaktoren für Laktatazidose (z. B. Übergewicht)",
+      "ids": [
+        "leberinsuffizienz",
+        "fettleber",
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Leberinsuffizienz: Dosis anpassen",
+      "ids": [
+        "niereninsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Muskelerkrankung (Myopathie) unter Langzeittherapie",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Chronische Hepatitis C mit Ribavirin-Behandlung: verstärkte Anämie",
+      "ids": [
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Fettgewebsverlust (Lipoatrophie) an Gesicht, Armen und Beinen bei Langzeittherapie",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Ganciclovir, Valganciclovir",
+      "ref": [
+        "ganciclovir",
+        "valganciclovir"
+      ],
+      "effekt": "Additive Knochenmarkhemmung – schwere Anämie und Neutropenie; möglichst vermeiden, sonst Blutbild engmaschig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Zytostatika, Flucytosin, Pentamidin, Dapson, Sulfamethoxazol/Trimethoprim, Interferon)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "flucytosin",
+        "pentamidin",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Verstärkte Blutbildschäden – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ribavirin und Stavudin",
+      "ref": [],
+      "effekt": "Ribavirin verstärkt die Anämie und hemmt die Aktivierung von Zidovudin; Stavudin wirkt entgegengesetzt – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Valproinsäure, Fluconazol, Atovaquon, Methadon",
+      "ref": [
+        "valproinsaeure",
+        "fluconazol",
+        "atovaquon",
+        "methadon"
+      ],
+      "effekt": "Zidovudin-Spiegel steigt – auf Blutbildschäden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Zidovudin-Spiegel steigt – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Zidovudin-Spiegel sinkt – Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel kann steigen oder sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clarithromycin",
+      "ref": [
+        "clarithromycin"
+      ],
+      "effekt": "Verminderte Aufnahme von Zidovudin – Einnahme um mindestens 2 Stunden trennen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Anämie, Neutropenie, Leukopenie",
+      "Erhöhte Laktatwerte im Blut (Hyperlaktatämie)",
+      "Schwindel",
+      "Erbrechen, Bauchschmerzen, Durchfall",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Muskelschmerzen (Myalgie)",
+      "Unwohlsein"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie, Panzytopenie",
+      "Myopathie (Muskelerkrankung)",
+      "Atemnot",
+      "Ausschlag, Juckreiz",
+      "Fieber, Schwäche, Blähungen"
+    ],
+    "selten": [
+      "Erythroblastopenie (Ausfall der roten Blutbildung)",
+      "Laktatazidose (Übersäuerung des Blutes)",
+      "Lebervergrösserung mit Verfettung",
+      "Pankreatitis",
+      "Kardiomyopathie (Herzmuskelerkrankung)",
+      "Krampfanfälle, Depression, Angst",
+      "Pigmentierung von Nägeln, Haut und Mundschleimhaut"
+    ],
+    "sehrSelten": [
+      "Aplastische Anämie"
+    ]
+  },
+  "schwangerschaft": "Kann angewendet werden; Zidovudin wird gezielt zur Verhinderung der HIV-Übertragung auf das Kind eingesetzt (Behandlung der Schwangeren und des Neugeborenen).",
+  "stillzeit": "Menschen mit HIV wird generell vom Stillen abgeraten; allenfalls nach eingehender Beratung durch die HIV-Fachperson.",
+  "hinweise": [
+    "Das Blutbild wird regelmässig kontrolliert, bei fortgeschrittener HIV-Erkrankung in den ersten Monaten etwa alle zwei Wochen.",
+    "Nicht zusammen mit anderen zidovudinhaltigen Präparaten (z. B. Combivir) einnehmen.",
+    "Bei ungewöhnlicher Müdigkeit, Atemnot, Muskel- oder Bauchschmerzen ärztlich abklären (Laktatazidose)."
+  ],
+  "stand": "2026-10"
+}

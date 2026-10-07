@@ -1,0 +1,165 @@
+{
+  "id": "sofosbuvir",
+  "name": "Sofosbuvir",
+  "synonyme": [
+    "SOF",
+    "GS-7977"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J05AP08"
+  ],
+  "klasse": "Direkt wirkendes Hepatitis-C-Virostatikum (NS5B-Polymerase-Hemmer, Nukleotid-Analogon)",
+  "kurz": "Mittel gegen chronische Hepatitis C; hemmt die Vermehrung des Virus und wird immer mit anderen Hepatitis-C-Mitteln kombiniert.",
+  "gruppen": [
+    "hcv-daa"
+  ],
+  "handelsnamen": [
+    "Sovaldi"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische Hepatitis C bei Erwachsenen sowie Kindern und Jugendlichen gemäss Fachinformation, immer in Kombination mit anderen Mitteln (z. B. Ribavirin)",
+      "ids": [
+        "hepatitis-c"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des Hepatitis-C-Virus in der Leber. Sofosbuvir ist ein Prodrug: In den Leberzellen entsteht daraus das aktive Uridin-Analogon-Triphosphat (GS-461203). Dieses wird von der viralen RNA-Polymerase NS5B in die neue Virus-RNA eingebaut und führt zum Kettenabbruch. Es wirkt gegen alle Genotypen und hat eine hohe Resistenzbarriere.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft sowie Frauen und Partnerinnen von behandelten Männern ohne sichere Verhütung, wenn Sofosbuvir mit Ribavirin kombiniert wird (Ribavirin ist fruchtschädigend)",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Gleichzeitige Einnahme von Amiodaron oder bestehende Herzrhythmusstörungen: schwere Bradykardie und Herzblock möglich",
+      "ids": [
+        "bradykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Koinfektion: Reaktivierung der Hepatitis B möglich – vor Therapiebeginn testen und überwachen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Diabetes: die Blutzuckereinstellung kann sich unter der Therapie verbessern – Unterzuckerungsgefahr, Blutzucker eng kontrollieren",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Schwere Nierenfunktionsstörung oder Dialyse (begrenzte Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Dekompensierte Leberzirrhose und nach Lebertransplantation (Behandlung in spezialisierten Zentren)",
+      "ids": [
+        "leberzirrhose",
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke P-Glykoprotein-Induktoren: Rifampicin, Rifabutin, Carbamazepin, Phenobarbital, Phenytoin, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "rifabutin",
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "johanniskraut",
+        "gruppe:p-gp-induktoren"
+      ],
+      "grund": "Sie senken den Sofosbuvir-Spiegel stark – die Hepatitis-C-Therapie kann versagen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Amiodaron",
+      "ref": [
+        "amiodaron"
+      ],
+      "effekt": "Schwere, teils tödliche Bradykardie und Herzblock – nur wenn keine Alternative besteht und mit Herzüberwachung (anfangs stationär); das Risiko ist mit zusätzlichen Betablockern erhöht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässig starke P-gp-Induktoren (Oxcarbazepin, Modafinil) sowie Tipranavir/Ritonavir",
+      "ref": [
+        "oxcarbazepin",
+        "modafinil"
+      ],
+      "effekt": "Senken den Sofosbuvir-Spiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Mit der Besserung der Leberfunktion kann die Gerinnung schwanken – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe u. a.)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:hypoglykaemie-ausloesend"
+      ],
+      "effekt": "Unterzuckerungsgefahr durch verbesserte Blutzuckerkontrolle – Blutzucker überwachen, Dosis ggf. senken.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit, Reizbarkeit",
+      "Kopfschmerzen",
+      "Übelkeit",
+      "Schlaflosigkeit",
+      "Abfall des Hämoglobins und Bilirubinanstieg (v. a. durch das gleichzeitig gegebene Ribavirin)"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Verminderter Appetit",
+      "Depression, Konzentrationsstörungen",
+      "Atemnot, Husten",
+      "Bauchbeschwerden, Verstopfung, Verdauungsbeschwerden",
+      "Haarausfall, trockene Haut, Juckreiz",
+      "Gelenk-, Rücken- und Muskelschmerzen, Muskelkrämpfe",
+      "Fieber, Schwäche, verschwommenes Sehen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Schwere Bradykardie und Herzblock bei gleichzeitiger Amiodaron-Einnahme",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; Anwendung nicht empfohlen. In Kombination mit Ribavirin kontraindiziert – sichere Verhütung während und nach der Therapie gemäss Ribavirin-Fachinformation.",
+  "stillzeit": "Nicht bekannt, ob Sofosbuvir beim Menschen in die Muttermilch übergeht; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich mit oder ohne Mahlzeit einnehmen; die verordnete Therapiedauer genau einhalten.",
+    "Alle Medikamente angeben, insbesondere Amiodaron und andere Herzmittel – bei langsamem Puls, Schwindel, Ohnmacht oder Atemnot sofort ärztliche Hilfe holen.",
+    "Bei Diabetes oder Einnahme von Gerinnungshemmern (Phenprocoumon) sind während der Therapie häufigere Kontrollen nötig."
+  ],
+  "stand": "2026-10"
+}

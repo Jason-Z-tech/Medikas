@@ -1,0 +1,197 @@
+{
+  "id": "ganciclovir",
+  "name": "Ganciclovir",
+  "synonyme": [
+    "DHPG",
+    "Ganciclovir-Natrium",
+    "Ganciclovir sodium"
+  ],
+  "atc": [
+    "J05AB06",
+    "S01AD09"
+  ],
+  "klasse": "Virostatikum (Nukleosid-Analogon, Guanosin-Analogon)",
+  "kurz": "Mittel gegen Zytomegalie-Viren (CMV) als Infusion bei geschwächter Abwehr; als Augengel gegen Herpes-Infektionen der Hornhaut.",
+  "gruppen": [
+    "myelosuppressiv",
+    "teratogen",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Cymevene",
+    "Virgan"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung",
+    "Augengel"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung von Zytomegalie-Virus-Erkrankungen (CMV, z. B. CMV-Retinitis) bei geschwächtem Immunsystem (Infusion)",
+      "ids": [
+        "cmv-infektion",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Vorbeugung von CMV-Erkrankungen bei medikamentös bedingter Immunsuppression, z. B. nach Organ- oder Stammzelltransplantation oder Chemotherapie (Infusion)",
+      "ids": [
+        "cmv-infektion",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Akute Herpes-simplex-Entzündung der Hornhaut (Herpes-Keratitis) (Augengel)",
+      "ids": [
+        "herpes",
+        "augeninfektion"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Herpesviren wie dem Zytomegalievirus. Ganciclovir ist ein Abkömmling des Erbgutbausteins Guanosin; in infizierten Zellen wird es zuerst durch ein virales Enzym (beim CMV die Proteinkinase UL97, bei Herpes-simplex die Thymidinkinase) und dann durch zelluläre Enzyme zu Ganciclovir-Triphosphat aktiviert. Dieses hemmt die virale DNA-Polymerase und führt nach Einbau zum Abbruch der viralen DNA-Kette. Weil es auch menschliche Zellen schädigen kann, wirkt es knochenmarkhemmend und im Tierversuch erbgut- und fruchtschädigend.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Valganciclovir (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Stillzeit (Infusion)",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen: bei sehr tiefen Neutrophilen (unter 500/µl), Thrombozyten (unter 25'000/µl) oder Hämoglobin (unter 8 g/dl) nicht beginnen; Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis nach Kreatinin-Clearance anpassen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: wirksame Verhütung nötig (fruchtschädigend, erbgutschädigend, mögliche Beeinträchtigung der Fruchtbarkeit)",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Krampfanfälle in der Vorgeschichte oder gleichzeitige Gabe von Imipenem/Cilastatin",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufig verminderte Nierenfunktion)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Augengel: Kontaktlinsen während der Behandlung nicht tragen",
+      "ids": [
+        "kontaktlinsen"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Zidovudin",
+      "ref": [
+        "zidovudin",
+        "zidovudin-lamivudin"
+      ],
+      "effekt": "Beide hemmen das Knochenmark – schwere Neutropenie und Anämie möglich; Kombination möglichst vermeiden, sonst Blutbild engmaschig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Imipenem/Cilastatin",
+      "ref": [
+        "imipenem-cilastatin",
+        "imipenem-cilastatin-relebactam"
+      ],
+      "effekt": "Krampfanfälle beschrieben – nur kombinieren, wenn der Nutzen klar überwiegt.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Mycophenolat, Zytostatika, Flucytosin, Pentamidin, Sulfamethoxazol/Trimethoprim)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "mycophenolat-mofetil",
+        "flucytosin",
+        "pentamidin",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Verstärkte Blutbildschädigung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Amphotericin B, Ciclosporin, Tenofovir)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "amphotericin-b"
+      ],
+      "effekt": "Verminderte Ausscheidung von Ganciclovir und mehr Nierenschäden – Nierenfunktion und Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Ganciclovir-Spiegel steigt – Dosis allenfalls reduzieren, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Anämie (Blutarmut)",
+      "Durchfall",
+      "Atemnot (Dyspnoe)"
+    ],
+    "haeufig": [
+      "Thrombozytopenie, Leukopenie, Panzytopenie",
+      "Infektionen (z. B. Sepsis, Candida-Infektionen)",
+      "Kopfschmerzen, Schlaflosigkeit, Schwindel, Kribbeln, Krampfanfälle; Depression, Angst, Verwirrtheit",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Appetitlosigkeit",
+      "Erhöhte Leberwerte, Nierenfunktionsstörung",
+      "Fieber, Müdigkeit, Juckreiz, nächtliches Schwitzen",
+      "Makulaödem, Netzhautablösung, Glaskörpertrübungen",
+      "Augengel: Brennen, Stechen, Augenreizung, verschwommenes Sehen"
+    ],
+    "gelegentlich": [
+      "Knochenmarkversagen",
+      "Anaphylaktische Reaktion",
+      "Halluzinationen, psychotische Störungen, Unruhe",
+      "Herzrhythmusstörungen",
+      "Haarausfall, Nesselsucht",
+      "Nierenversagen",
+      "Männliche Unfruchtbarkeit"
+    ],
+    "selten": [
+      "Aplastische Anämie, Agranulozytose"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; nur bei zwingender Notwendigkeit anwenden. Frauen müssen während und mindestens 30 Tage nach der Behandlung, Männer während und mindestens 90 Tage danach (Kondom) verhüten.",
+  "stillzeit": "Infusion: kontraindiziert, abstillen. Augengel: nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Das Blutbild wird regelmässig kontrolliert, zu Beginn häufig.",
+    "Zuverlässig verhüten: Frauen bis 30 Tage, Männer bis 90 Tage nach Behandlungsende.",
+    "Augengel: Kontaktlinsen während der Behandlung nicht tragen; nach dem Eintropfen kann die Sicht kurz verschwommen sein (Fahrtüchtigkeit)."
+  ],
+  "stand": "2026-10"
+}

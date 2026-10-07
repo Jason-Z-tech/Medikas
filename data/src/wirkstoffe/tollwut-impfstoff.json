@@ -1,0 +1,154 @@
+{
+  "id": "tollwut-impfstoff",
+  "name": "Tollwut-Impfstoff",
+  "synonyme": [
+    "Rabies-Impfstoff",
+    "Tollwutimpfstoff (PCEC)",
+    "Rabies vaccine"
+  ],
+  "atc": [
+    "J07BG01"
+  ],
+  "klasse": "Virusimpfstoff (inaktiviert)",
+  "kurz": "Totimpfstoff gegen Tollwut: vorbeugend bei erhöhtem Risiko und als Notfallimpfung nach Biss oder Kratzer eines verdächtigen Tiers.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Rabipur"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugende Impfung (präexpositionell) bei erhöhtem Risiko, z. B. Tierärztinnen und Tierärzte, Laborpersonal, Fledermausschützer, Reisende in Gebiete mit Tollwut",
+      "ids": [
+        "reiseimpfung",
+        "impfung"
+      ]
+    },
+    {
+      "text": "Impfung nach möglichem Kontakt mit Tollwut (postexpositionell), bei Ungeimpften zusammen mit Tollwut-Immunglobulin",
+      "ids": [
+        "impfung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt das Immunsystem an, Abwehrstoffe gegen das Tollwutvirus zu bilden. Der Impfstoff enthält abgetötete Tollwutviren (Stamm Flury LEP), die auf Hühnerfibroblasten-Zellkulturen gezüchtet werden. Er führt zur Bildung neutralisierender Antikörper, die das Virus abfangen, bevor es über die Nerven das Gehirn erreicht. Nach einem Kontakt ist eine rasche, vollständige Impfserie lebensrettend, da Tollwut nach Ausbruch fast immer tödlich verläuft.",
+  "kontraindikationen": [
+    {
+      "text": "Nur bei vorbeugender Impfung: schwere allergische Reaktion auf Bestandteile wie Hühnereiweiss, Gelatine (Polygelin) oder Antibiotika-Spuren. Nach einem möglichen Tollwutkontakt gibt es keine Gegenanzeige.",
+      "ids": [
+        "latexallergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Akute fieberhafte Erkrankung: vorbeugende Impfung verschieben (nicht aber die Impfung nach einem Kontakt)",
+      "ids": [
+        "fieber"
+      ]
+    },
+    {
+      "text": "Allergie gegen Hühnereiweiss oder Gelatine: nach Kontakt trotzdem impfen, aber unter Überwachung und Notfallbereitschaft",
+      "ids": [
+        "latexallergie",
+        "nahrungsmittelallergie"
+      ]
+    },
+    {
+      "text": "Immunschwäche oder immunsuppressive Behandlung: Antikörperkontrolle nach der Impfserie, gegebenenfalls zusätzliche Dosen",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie oder Blutgerinnungsstörung (Injektion in den Muskel)",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Neigung zu Ohnmacht bei Spritzen",
+      "ids": [
+        "synkope"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Tollwut-Immunglobulin",
+      "ref": [
+        "tollwut-immunglobulin"
+      ],
+      "effekt": "Wird bei Ungeimpften nach Kontakt gleichzeitig gegeben, aber nie in derselben Spritze oder an derselben Stelle; zu viel Immunglobulin kann die Impfwirkung abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Immunsuppressiva, Zytostatika und hoch dosierte Glukokortikoide",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Schwächere Antikörperbildung – Impfantwort mit Antikörperbestimmung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Impfstoffe (z. B. Japanische-Enzephalitis-Impfstoff)",
+      "ref": [
+        "japanische-enzephalitis-impfstoff"
+      ],
+      "effekt": "Gleichzeitige Gabe an verschiedenen Körperstellen möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutverdünner (Antikoagulanzien)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Blutergüsse an der Einstichstelle möglich – nach der Injektion fest drücken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Reaktionen an der Einstichstelle (Schmerzen, Verhärtung, Schwellung)",
+      "Kopfschmerzen",
+      "Unwohlsein, Müdigkeit, Schwäche"
+    ],
+    "haeufig": [
+      "Fieber",
+      "Schwindel",
+      "Lymphknotenschwellung",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Hautausschlag, Nesselsucht",
+      "Muskel- und Gelenkschmerzen",
+      "Appetitlosigkeit"
+    ],
+    "selten": [
+      "Allergische Reaktionen",
+      "Kribbeln (Parästhesien)",
+      "Schüttelfrost",
+      "Schwitzen"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Angioödem (Schwellung von Gesicht oder Rachen)",
+      "Enzephalitis (Hirnentzündung) und Guillain-Barré-Syndrom (Nervenlähmung)",
+      "Ohnmacht (Synkope)"
+    ]
+  },
+  "schwangerschaft": "Nach einem möglichen Tollwutkontakt immer impfen, da Tollwut tödlich ist. Vorbeugend nur bei deutlich erhöhtem Risiko nach ärztlicher Abwägung; schädliche Wirkungen sind nicht bekannt.",
+  "stillzeit": "Anwendung möglich; ein Risiko für den gestillten Säugling ist nicht bekannt.",
+  "hinweise": [
+    "Nach Biss, Kratzer oder Lecken an verletzter Haut durch ein verdächtiges Tier (im Ausland v. a. Hunde, Katzen, Affen; überall Fledermäuse) die Wunde sofort 15 Minuten mit Seife und Wasser waschen und umgehend ärztliche Hilfe holen – auch Vorgeimpfte brauchen Auffrischdosen.",
+    "Das vorgegebene Impfschema genau einhalten und keine Dosis auslassen.",
+    "Injektion in den Oberarm (bei Kleinkindern in den Oberschenkel), nicht ins Gesäss, da die Wirkung dort schwächer ist."
+  ],
+  "stand": "2026-10"
+}

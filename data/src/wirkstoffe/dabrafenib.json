@@ -1,0 +1,211 @@
+{
+  "id": "dabrafenib",
+  "name": "Dabrafenib",
+  "synonyme": [
+    "GSK2118436"
+  ],
+  "atc": [
+    "L01EC02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BRAF-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel, meist zusammen mit Trametinib, bei Melanom, Lungenkrebs und kindlichen Hirntumoren mit BRAF-V600-Mutation.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tafinlar"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln",
+    "Tabletten zur Herstellung einer Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht operierbares oder metastasiertes Melanom mit BRAF-V600-Mutation bei Erwachsenen, allein oder in Kombination mit Trametinib",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Ergänzende (adjuvante) Behandlung nach vollständiger Entfernung eines Melanoms im Stadium III mit BRAF-V600-Mutation, in Kombination mit Trametinib",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs mit BRAF-V600-Mutation, in Kombination mit Trametinib",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Kinder ab 1 Jahr: niedriggradiges Gliom mit BRAF-V600E-Mutation, das eine medikamentöse Behandlung braucht, oder hochgradiges Gliom nach mindestens einer Vorbehandlung, in Kombination mit Trametinib",
+      "ids": [
+        "hirntumor",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt ein krankhaft dauerhaft eingeschaltetes Wachstumssignal in Tumorzellen mit BRAF-Mutation. Dabrafenib blockiert die mutierte BRAF-Kinase (V600E, V600K, V600D) und damit den MAPK-Signalweg (RAF-MEK-ERK). Zusammen mit dem MEK-Hemmer Trametinib wird der Signalweg an zwei Stellen gehemmt; das verstärkt die Wirkung, verzögert Resistenzen und vermindert neue Hauttumoren, die durch eine paradoxe Aktivierung des Signalwegs in gesunden Zellen entstehen können.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Fieber (vor allem mit Trametinib häufig): ab 38 °C Behandlung unterbrechen und ärztlich melden",
+      "ids": [
+        "fieber"
+      ]
+    },
+    {
+      "text": "Neue Tumoren (Plattenepithelkarzinome der Haut, neue Melanome, andere Tumoren) – regelmässige Hautkontrollen",
+      "ids": [
+        "hautkrebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Blutungen, vor allem in Kombination mit Trametinib und bei Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen (Abnahme der Pumpfunktion mit Trametinib)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Augenentzündung (Uveitis) – Sehstörungen sofort melden",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Nierenversagen und Nierenentzündung möglich)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann steigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Dabrafenib beschleunigt deren Abbau – Verhütung kann versagen; zuverlässige nichthormonale Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Ciclosporin, Tacrolimus, viele HIV-Mittel)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Dabrafenib induziert CYP3A4 – Spiegel und Wirkung sinken deutlich; möglichst vermeiden oder Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Dabrafenib-Spiegel sinkt – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Wirkung kann abnehmen (CYP2C9-Induktion) – INR engmaschig kontrollieren, besonders bei Beginn und Ende der Behandlung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer und CYP2C8-Hemmer (z. B. Clarithromycin, Itraconazol, Gemfibrozil)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:cyp2c8-hemmer"
+      ],
+      "effekt": "Dabrafenib-Spiegel steigt – möglichst vermeiden oder auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko in Kombination mit Trametinib – Vorsicht.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Fieber, Schüttelfrost, Müdigkeit (vor allem mit Trametinib)",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen, Durchfall, Appetitlosigkeit",
+      "Hautpapillome, Hyperkeratose (Hautverhornung), Hautausschlag, trockene Haut, Haarausfall, Hand-Fuss-Syndrom",
+      "Gelenk- und Muskelschmerzen",
+      "Husten",
+      "Bluthochdruck und Blutungen (mit Trametinib)"
+    ],
+    "haeufig": [
+      "Plattenepithelkarzinom der Haut, Basalzellkarzinom",
+      "Lichtempfindlichkeit (Photosensibilität)",
+      "Erhöhter Blutzucker, tiefes Phosphat oder Natrium im Blut",
+      "Verminderte Herzpumpfunktion (mit Trametinib)",
+      "Neutropenie (mit Trametinib)",
+      "Erhöhte Leberwerte",
+      "Pannikulitis (Entzündung des Unterhautfettgewebes)"
+    ],
+    "gelegentlich": [
+      "Neues Melanom",
+      "Uveitis (Entzündung im Auge)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Nierenversagen, Nierenentzündung (Nephritis)",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "unbekannt": [
+      "Hämophagozytische Lymphohistiozytose (HLH; lebensbedrohliche Überaktivierung des Immunsystems)",
+      "Schwere Hautreaktionen (z. B. DRESS, Stevens-Johnson-Syndrom) mit Trametinib",
+      "Sarkoidose"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen zuverlässig nichthormonal verhüten – bei Dabrafenib allein bis 2 Wochen, mit Trametinib bis 16 Wochen nach Behandlungsende.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kapseln zweimal täglich im Abstand von etwa 12 Stunden nüchtern einnehmen: mindestens 1 Stunde vor oder 2 Stunden nach einer Mahlzeit.",
+    "Bei Fieber ab 38 °C die Behandlung unterbrechen und sofort ärztlich melden.",
+    "Haut regelmässig kontrollieren lassen, neue Hautveränderungen melden und Sonnenschutz verwenden.",
+    "Sehstörungen, Blutungen oder Atemnot rasch ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

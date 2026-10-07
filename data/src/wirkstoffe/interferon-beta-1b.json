@@ -1,0 +1,212 @@
+{
+  "id": "interferon-beta-1b",
+  "name": "Interferon beta-1b",
+  "synonyme": [
+    "IFN-beta-1b",
+    "Interferon beta 1b"
+  ],
+  "atc": [
+    "L03AB08"
+  ],
+  "klasse": "Interferon (Typ-I-Interferon, Immunmodulator bei Multipler Sklerose)",
+  "kurz": "Immunmodulierendes Mittel zur Injektion bei schubförmiger Multipler Sklerose; senkt die Zahl der Schübe.",
+  "gruppen": [
+    "myelosuppressiv",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Betaferon"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung (subkutan)"
+  ],
+  "indikationen": [
+    {
+      "text": "Erstes demyelinisierendes Ereignis mit aktiver Entzündung und hohem Risiko für eine Multiple Sklerose (klinisch isoliertes Syndrom)",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Schubförmig-remittierende Multiple Sklerose mit mindestens zwei Schüben in den letzten zwei Jahren",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Sekundär progrediente Multiple Sklerose mit aktiver Erkrankung (Schübe)",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die fehlgeleitete Entzündung, mit der das Immunsystem bei Multipler Sklerose die Nervenhüllen angreift. Interferon beta-1b bindet an den Typ-I-Interferonrezeptor und verändert die Aktivität zahlreicher Gene: Entzündungsfördernde Botenstoffe wie Interferon gamma und TNF-alpha nehmen ab, entzündungshemmende wie Interleukin-10 zu. Zudem vermindert es die Einwanderung aktivierter T-Zellen durch die Blut-Hirn-Schranke. Der genaue Wirkmechanismus bei MS ist nicht vollständig geklärt.",
+  "kontraindikationen": [
+    {
+      "text": "Bestehende schwere Depression und/oder Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Dekompensierte Lebererkrankung",
+      "ids": [
+        "leberzirrhose",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen natürliches oder rekombinantes Interferon beta oder gegen Humanalbumin",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte – auf Stimmungsveränderungen achten",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Krampfanfälle in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Lebererkrankung, Alkoholmissbrauch oder andere leberschädigende Mittel: Leberwerte überwachen (selten schwere Leberschäden, Autoimmunhepatitis)",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten wie Herzschwäche, koronare Herzkrankheit oder Rhythmusstörungen (Verschlechterung bei Therapiebeginn möglich)",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Knochenmarkschwäche: Blutbild regelmässig kontrollieren",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Schilddrüsenfunktionsstörungen",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Nierenerkrankung: nephrotisches Syndrom möglich; auf Zeichen einer thrombotischen Mikroangiopathie achten (Blutzerfall, Plättchenmangel, Nierenversagen, Bluthochdruck)",
+      "ids": [
+        "niereninsuffizienz",
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Monoklonale Gammopathie (Risiko eines Kapillarlecksyndroms)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Arzneimittel mit enger therapeutischer Breite, die stark über Cytochrom P450 abgebaut werden (z. B. Antiepileptika)",
+      "ref": [
+        "gruppe:antiepileptika"
+      ],
+      "effekt": "Interferone können den Abbau in der Leber hemmen – Spiegel und Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Knochenmarkhemmende Mittel, einschliesslich Zytostatika",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Mittel und Alkohol",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immunmodulatoren (ausser Kortison bei Schüben)",
+      "ref": [
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Kombination nicht untersucht – nur nach ärztlicher Abwägung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Grippeähnliche Beschwerden: Fieber, Schüttelfrost, Muskel- und Gelenkschmerzen, Unwohlsein, Schwitzen",
+      "Reaktionen an der Injektionsstelle (Rötung, Schwellung, Schmerz)",
+      "Kopfschmerzen, Schlaflosigkeit",
+      "Verminderte weisse Blutkörperchen (Leuko-, Lympho- und Neutropenie)",
+      "Erhöhte Leberwerte (ALT)",
+      "Bauchschmerzen",
+      "Hautausschlag",
+      "Erhöhte Muskelspannung, Harndrang"
+    ],
+    "haeufig": [
+      "Nekrose (Gewebeuntergang) an der Injektionsstelle",
+      "Anämie (Blutarmut), Lymphknotenschwellung",
+      "Schilddrüsenunterfunktion",
+      "Depression, Angst, Verwirrtheit",
+      "Herzrasen (Tachykardie), Bluthochdruck",
+      "Atemnot",
+      "Haarausfall, Juckreiz, Nesselsucht",
+      "Menstruationsstörungen, Erektionsstörungen"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Krampfanfälle",
+      "Suizidversuch, Stimmungsschwankungen",
+      "Hepatitis, erhöhtes Bilirubin",
+      "Erhöhte Triglyceride"
+    ],
+    "selten": [
+      "Anaphylaktische Reaktionen",
+      "Thrombotische Mikroangiopathie (Gerinnsel in kleinen Gefässen mit Blutzerfall)",
+      "Schwere Leberschädigung bis Leberversagen",
+      "Kardiomyopathie (Herzmuskelerkrankung)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Nephrotisches Syndrom",
+      "Schilddrüsenüberfunktion"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Pulmonale arterielle Hypertonie (Lungenhochdruck)",
+      "Medikamentös ausgelöster Lupus erythematodes",
+      "Kapillarlecksyndrom bei monoklonaler Gammopathie"
+    ]
+  },
+  "schwangerschaft": "Kann nach ärztlicher Abwägung angewendet werden, wenn es klinisch nötig ist; umfangreiche Daten zeigen kein erhöhtes Risiko für schwere Fehlbildungen.",
+  "stillzeit": "Nur sehr geringe Mengen gehen in die Muttermilch über; Stillen ist nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Injektionsstelle bei jeder Gabe wechseln; offene Hautstellen oder dunkle, harte Stellen sofort ärztlich zeigen.",
+    "Grippeähnliche Beschwerden nehmen meist in den ersten Monaten ab; langsame Dosissteigerung und ein ärztlich empfohlenes Fiebermittel helfen.",
+    "Regelmässige Kontrollen von Blutbild, Leber- und Schilddrüsenwerten.",
+    "Bei Niedergeschlagenheit oder Suizidgedanken sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

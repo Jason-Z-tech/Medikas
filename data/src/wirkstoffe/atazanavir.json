@@ -1,0 +1,307 @@
+{
+  "id": "atazanavir",
+  "name": "Atazanavir",
+  "synonyme": [
+    "ATV",
+    "Atazanavirsulfat",
+    "Atazanavir sulfate"
+  ],
+  "atc": [
+    "J05AE08"
+  ],
+  "klasse": "HIV-Proteasehemmer",
+  "kurz": "HIV-Medikament aus der Gruppe der Proteasehemmer, das zusammen mit Ritonavir oder Cobicistat und weiteren HIV-Mitteln eingenommen wird.",
+  "gruppen": [
+    "hiv-proteasehemmer",
+    "starke-cyp3a4-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "oatp1b-hemmer",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Reyataz"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen und Kindern, in Kombination mit niedrig dosiertem Ritonavir (oder Cobicistat) und anderen antiretroviralen Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des HI-Virus. Atazanavir ist ein Azapeptid, das die HIV-1-Protease blockiert; das Virus kann dann seine Vorläufer-Eiweisse (Gag-Pol) nicht mehr spalten, und es entstehen unreife, nicht ansteckende Viruspartikel. Atazanavir hemmt zudem das Leberenzym UGT1A1, das Bilirubin verarbeitet – daher die häufige, meist harmlose Gelbfärbung von Haut und Augen.",
+  "kontraindikationen": [
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte Leberfunktionsstörung, chronische Hepatitis B oder C: Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Reizleitungsstörungen des Herzens (PR-Verlängerung, AV-Block) oder Einnahme von Mitteln, die die Reizleitung verlangsamen",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Nierensteine oder Gallensteine in der Vorgeschichte (Atazanavir kann Steine bilden)",
+      "ids": [
+        "nierensteine",
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Chronische Nierenerkrankung, Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hämophilie: vermehrte Blutungen möglich",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes, erhöhte Blutfette",
+      "ids": [
+        "diabetes",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS) – bei schwerem Ausschlag sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin",
+        "rifampicin-isoniazid",
+        "rifampicin-isoniazid-pyrazinamid"
+      ],
+      "grund": "Starke Enzyminduktion senkt den Atazanavir-Spiegel um etwa 90 % – Wirkverlust und Resistenzentwicklung."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Enzyminduktion senkt den Atazanavir-Spiegel – Wirkverlust und Resistenzentwicklung."
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite: Alfuzosin, Chinidin, Pimozid, Quetiapin, Lurasidon, Ergotalkaloide, Midazolam zum Einnehmen, Triazolam",
+      "ref": [
+        "alfuzosin",
+        "quetiapin",
+        "lurasidon",
+        "gruppe:ergotalkaloide",
+        "midazolam",
+        "triazolam"
+      ],
+      "grund": "Gehemmter Abbau – Gefahr lebensbedrohlicher Nebenwirkungen (Herzrhythmusstörungen, starke Sedation, Gefässkrämpfe)."
+    },
+    {
+      "text": "Simvastatin, Lovastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Stark erhöhte Statin-Spiegel – Gefahr von Muskelzerfall (Rhabdomyolyse)."
+    },
+    {
+      "text": "Sildenafil zur Behandlung der pulmonalen Hypertonie",
+      "ref": [
+        "sildenafil"
+      ],
+      "grund": "Stark erhöhte Sildenafil-Spiegel – Gefahr von Blutdruckabfall und Sehstörungen."
+    },
+    {
+      "text": "Hepatitis-C-Mittel Glecaprevir/Pibrentasvir sowie Elbasvir/Grazoprevir",
+      "ref": [
+        "glecaprevir-pibrentasvir"
+      ],
+      "grund": "Stark erhöhte Spiegel der Hepatitis-C-Mittel – Gefahr von Leberwerterhöhungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol)",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Atazanavir wird bei wenig Magensäure kaum aufgenommen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Efavirenz, Nevirapin, Etravirin",
+      "ref": [
+        "efavirenz",
+        "nevirapin",
+        "etravirin"
+      ],
+      "effekt": "Atazanavir-Spiegel sinkt – Nevirapin und Etravirin nicht empfohlen, Efavirenz nur mit angepasster Dosierung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fluticason, Budesonid (inhalativ oder nasal)",
+      "ref": [
+        "fluticason",
+        "budesonid"
+      ],
+      "effekt": "Mit Ritonavir stark erhöhte Kortisonspiegel – Cushing-Syndrom möglich; Alternativen wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "sirolimus"
+      ],
+      "effekt": "Spiegel steigen – Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien (Rivaroxaban, Apixaban, Vitamin-K-Antagonisten)",
+      "ref": [
+        "gruppe:doak",
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Veränderte Gerinnungshemmung, unter DOAK erhöhtes Blutungsrisiko – Rivaroxaban meiden, INR kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "H2-Blocker (z. B. Famotidin)",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Verminderte Aufnahme – nur mit zeitlichem Abstand, begrenzter Dosis und Atazanavir immer geboostert.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida und gepufferte Arzneimittel",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme – Atazanavir 2 Stunden vor oder 1 Stunde nach Antazida einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tenofovirdisoproxil",
+      "ref": [
+        "tenofovirdisoproxil"
+      ],
+      "effekt": "Atazanavir-Spiegel sinkt, Tenofovir-Spiegel steigt – Atazanavir nur geboostert, Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten, Betablocker und Digoxin",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:betablocker",
+        "digoxin"
+      ],
+      "effekt": "Verstärkte Verlangsamung der Reizleitung (PR-Verlängerung) und erhöhte Spiegel – EKG kontrollieren, Dosis reduzieren (z. B. Diltiazem).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Atorvastatin, Rosuvastatin",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Spiegel steigen – niedrigste Dosis wählen, auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Mit Ritonavir sinkt der Ethinylestradiol-Spiegel, ohne Booster steigt er – Präparat sorgfältig wählen, allenfalls zusätzlich verhüten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clarithromycin",
+      "ref": [
+        "clarithromycin"
+      ],
+      "effekt": "Spiegel beider Mittel steigen, QT-Verlängerung möglich – Dosis anpassen oder Alternative wählen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Buprenorphin",
+      "ref": [
+        "buprenorphin"
+      ],
+      "effekt": "Buprenorphin-Spiegel steigt – auf Sedation achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Irinotecan",
+      "ref": [
+        "irinotecan"
+      ],
+      "effekt": "Hemmung von UGT1A1 verstärkt die Toxizität von Irinotecan – engmaschig überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhtes Bilirubin im Blut (meist harmlos)"
+    ],
+    "haeufig": [
+      "Gelbfärbung von Haut und Augen (Ikterus)",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen, Verdauungsbeschwerden",
+      "Hautausschlag",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Depression, Schlaflosigkeit, Angst, Schwindel, periphere Neuropathie",
+      "Pankreatitis, Hepatitis",
+      "Nierensteine, Blut oder Eiweiss im Urin, interstitielle Nephritis, chronische Nierenerkrankung",
+      "Erythema multiforme, Haarausfall, Juckreiz, Nesselsucht",
+      "Synkope (Ohnmacht), Bluthochdruck",
+      "Gynäkomastie (Brustvergrösserung beim Mann)"
+    ],
+    "selten": [
+      "Gallensteine, Gallenblasenentzündung",
+      "DRESS (schwere Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)"
+    ],
+    "unbekannt": [
+      "Herzrhythmusstörungen (AV-Block, QT-Verlängerung, Torsade de pointes)"
+    ]
+  },
+  "schwangerschaft": "Mit Ritonavir kann es bei klinischer Notwendigkeit angewendet werden; die vorhandenen Daten zeigen kein erhöhtes Fehlbildungsrisiko. Beim Neugeborenen auf Gelbsucht achten.",
+  "stillzeit": "Menschen mit HIV wird generell vom Stillen abgeraten; allenfalls nach eingehender Beratung durch die HIV-Fachperson.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen; Kapseln ganz schlucken.",
+    "Säureblocker (z. B. Omeprazol, Pantoprazol) und Antazida nur nach Rücksprache – sie können die Wirkung aufheben.",
+    "Gelbe Augen oder Haut sind meist harmlos, sollen aber ärztlich beurteilt werden.",
+    "Viel trinken; bei Flankenschmerzen oder Blut im Urin (Nierensteine) ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

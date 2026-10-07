@@ -1,0 +1,162 @@
+{
+  "id": "doravirin",
+  "name": "Doravirin",
+  "synonyme": [
+    "DOR",
+    "Doravirine",
+    "MK-1439"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J05AG06"
+  ],
+  "klasse": "Nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI)",
+  "kurz": "HIV-Mittel aus der Gruppe der NNRTI; wird einmal täglich zusammen mit anderen HIV-Medikamenten eingenommen.",
+  "gruppen": [
+    "nnrti"
+  ],
+  "handelsnamen": [
+    "Pifeltro"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion in Kombination mit anderen HIV-Mitteln, sofern keine Resistenz gegen NNRTI bekannt ist (Altersgrenze gemäss Fachinformation)",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des HI-Virus, indem es ein Schlüsselenzym des Virus blockiert. Doravirin bindet nicht-kompetitiv an die Reverse Transkriptase von HIV-1 und verhindert so das Umschreiben der viralen RNA in DNA. Es wird über CYP3A4 abgebaut, hemmt oder induziert dieses Enzym selbst aber nicht in relevantem Ausmass. Gegen HIV-2 wirkt es nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bekannte oder vermutete Resistenz gegen NNRTI (Gefahr des Wirkverlusts)",
+      "ids": []
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C): keine Erfahrungen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Depression oder andere psychische Erkrankungen (Stimmungsveränderungen, gelegentlich Suizidgedanken)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn Entzündungsreaktionen auf bisher unbemerkte Infektionen möglich",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Nach Absetzen eines starken Enzyminduktors (z. B. Rifampicin) hält dessen Wirkung bis zu 4 Wochen an – Doravirin erst danach beginnen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A-Induktoren: Carbamazepin, Oxcarbazepin, Phenobarbital, Phenytoin, Rifampicin, Rifapentin, Mitotan, Enzalutamid, Lumacaftor",
+      "ref": [
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "mitotan",
+        "enzalutamid",
+        "lumacaftor-ivacaftor",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken den Doravirin-Spiegel stark – Gefahr von Wirkverlust und Resistenzentwicklung."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Induziert CYP3A4 und senkt den Doravirin-Spiegel – Wirkverlust und Resistenzgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Rifabutin",
+      "ref": [
+        "rifabutin"
+      ],
+      "effekt": "Senkt den Doravirin-Spiegel – Doravirin während der Kombination nach ärztlicher Anweisung zweimal täglich einnehmen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässig starke Enzyminduktoren (z. B. Bosentan, Modafinil, Dabrafenib)",
+      "ref": [
+        "bosentan",
+        "modafinil",
+        "dabrafenib"
+      ],
+      "effekt": "Doravirin-Spiegel sinkt – Kombination möglichst vermeiden bzw. nur nach ärztlicher Prüfung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Umstellung von Efavirenz auf Doravirin",
+      "ref": [
+        "efavirenz"
+      ],
+      "effekt": "Nach dem Wechsel ist der Doravirin-Spiegel einige Wochen lang tiefer (Nachwirkung der Enzyminduktion) – keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Doravirin-Spiegel steigt (bis etwa auf das Dreifache) – keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel, Schläfrigkeit",
+      "Abnorme Träume, Schlaflosigkeit",
+      "Übelkeit, Durchfall, Bauchschmerzen, Blähungen, Erbrechen",
+      "Hautausschlag",
+      "Müdigkeit",
+      "Anstieg des Leberwerts ALT"
+    ],
+    "gelegentlich": [
+      "Albträume, Depression, Angst, Reizbarkeit, Verwirrtheit",
+      "Suizidgedanken",
+      "Konzentrations- und Gedächtnisstörungen, Kribbeln",
+      "Bluthochdruck",
+      "Verstopfung, Verdauungsbeschwerden",
+      "Juckreiz, Muskel- und Gelenkschmerzen",
+      "Erhöhte Lipase und Amylase (Bauchspeicheldrüsenenzyme), tiefes Phosphat im Blut"
+    ],
+    "selten": [
+      "Aggression, Halluzinationen",
+      "Akute Nierenschädigung, Nierensteine",
+      "Allergische Hautentzündung",
+      "Atemnot"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; vorsichtshalber soll die Anwendung in der Schwangerschaft vermieden werden. Die Behandlung ist mit einem HIV-Zentrum zu planen.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Einmal täglich, unabhängig von den Mahlzeiten einnehmen.",
+    "Johanniskraut ist verboten; vor neuen Medikamenten (z. B. Antiepileptika, Tuberkulosemittel) Wechselwirkungen prüfen lassen.",
+    "Regelmässig und ohne Unterbruch einnehmen – vergessene Dosen begünstigen Resistenzen."
+  ],
+  "stand": "2026-10"
+}

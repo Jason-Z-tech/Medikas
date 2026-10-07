@@ -1,0 +1,268 @@
+{
+  "id": "rifampicin-isoniazid",
+  "name": "Rifampicin + Isoniazid",
+  "synonyme": [
+    "Rifampicin/Isoniazid",
+    "Rifampicin and isoniazid"
+  ],
+  "kombinationAus": [
+    "rifampicin",
+    "isoniazid"
+  ],
+  "atc": [
+    "J04AM02"
+  ],
+  "klasse": "Tuberkulostatika-Fixkombination (Rifamycin + Isonicotinsäurehydrazid)",
+  "kurz": "Kombination zweier Tuberkulosemittel in einer Tablette, vor allem für die Fortsetzungsphase der Tuberkulosebehandlung.",
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "p-gp-induktoren",
+    "enzyminduktoren-hormone",
+    "hepatotoxisch",
+    "neuropathie-ausloesend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Rifinah"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Überzogene Tabletten (Dragées)"
+  ],
+  "indikationen": [
+    {
+      "text": "Tuberkulose, vor allem in der Fortsetzungsphase nach der Anfangsbehandlung mit drei oder vier Tuberkulosemitteln",
+      "ids": [
+        "tuberkulose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Zwei Antibiotika, die Tuberkulosebakterien auf unterschiedliche Weise abtöten. Rifampicin hemmt die bakterielle DNA-abhängige RNA-Polymerase und damit die Bildung bakterieller Eiweisse. Isoniazid ist eine Vorstufe, die vom bakteriellen Enzym KatG aktiviert wird und dann die Synthese der Mykolsäuren blockiert – wesentlicher Bausteine der Zellwand von Mykobakterien. Die Kombination wirkt bakterizid und verhindert, dass sich resistente Erreger durchsetzen. Rifampicin ist zudem ein sehr starker Induktor von Leberenzymen (u. a. CYP3A4) und P-Glykoprotein.",
+  "kontraindikationen": [
+    {
+      "text": "Gelbsucht (Ikterus) und akute Lebererkrankungen jeglicher Ursache",
+      "ids": [
+        "cholestase",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frühere arzneimittelbedingte Leberentzündung, insbesondere durch Isoniazid",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Rifamycine (z. B. Rifabutin)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Chronische Lebererkrankung, regelmässiger Alkoholkonsum, ältere oder mangelernährte Menschen: höheres Risiko für Leberschäden – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum",
+        "aeltere-patienten",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Risiko für Nervenschäden (Diabetes, Alkohol, Mangelernährung, HIV, Schwangerschaft): vorbeugend Vitamin B6 (Pyridoxin)",
+      "ids": [
+        "diabetes",
+        "hiv",
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Psychische Erkrankungen (Psychosen möglich)",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Genetisch langsamer Isoniazid-Abbau (langsame Acetylierer): höhere Spiegel, mehr Nebenwirkungen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Unregelmässige Einnahme oder Wiederbeginn nach einer Pause: Gefahr schwerer immunologischer Reaktionen (grippeähnliches Syndrom, Thrombozytopenie, Nierenversagen)",
+      "ids": [
+        "thrombozytopenie",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "HIV-Proteasehemmer, insbesondere Saquinavir/Ritonavir",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "ritonavir"
+      ],
+      "grund": "Rifampicin senkt die Spiegel der Proteasehemmer stark (Wirkverlust, Resistenz); mit Saquinavir/Ritonavir traten zudem schwere Leberschäden auf."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Ring, Implantat)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz nicht mehr sicher – nicht-hormonal verhüten, bis 4 Wochen nach Behandlungsende.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien (Vitamin-K-Antagonisten, DOAK)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Wirkung deutlich abgeschwächt – DOAK meiden, unter Phenprocoumon oder Acenocoumarol INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azol-Antimykotika (Voriconazol und Isavuconazol laut deren Fachinformation kontraindiziert; auch Itraconazol, Posaconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika",
+        "voriconazol",
+        "isavuconazol"
+      ],
+      "effekt": "Spiegel der Pilzmittel sinkt stark – Wirkverlust; Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere HIV-Medikamente (z. B. Rilpivirin, Doravirin, Bictegravir, Dolutegravir)",
+      "ref": [
+        "gruppe:nnrti",
+        "gruppe:integrasehemmer"
+      ],
+      "effekt": "Spiegel sinken stark; viele Kombinationen sind kontraindiziert, andere erfordern Dosisanpassungen – nur nach Rücksprache mit der HIV-Fachperson.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel sinkt stark – Abstossungsgefahr; Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiepileptika (Phenytoin, Carbamazepin)",
+      "ref": [
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Isoniazid hemmt, Rifampicin beschleunigt deren Abbau – Spiegel unvorhersehbar; Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Wirkung deutlich abgeschwächt – Dosis meist erhöhen; Vorsicht bei Nebenniereninsuffizienz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide, insbesondere Methadon",
+      "ref": [
+        "methadon",
+        "gruppe:opioide"
+      ],
+      "effekt": "Wirkung abgeschwächt, Entzugssymptome möglich – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Statine, Calciumantagonisten, Midazolam)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Wirkung stark abgeschwächt – Alternativen erwägen oder Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und andere P-Glykoprotein-Substrate",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel sinkt – Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Blutzuckersenkung abgeschwächt – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levothyroxin",
+      "ref": [
+        "levothyroxin"
+      ],
+      "effekt": "Bedarf kann steigen – TSH kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paracetamol und andere leberschädigende Mittel",
+      "ref": [
+        "paracetamol",
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Paracetamol nur zurückhaltend, Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme – Rifinah mindestens 1 Stunde vor Antazida einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Übelkeit, Erbrechen, Appetitlosigkeit, Bauchbeschwerden",
+      "Erhöhte Leberwerte, Hepatitis bis Leberversagen, Gelbsucht",
+      "Periphere Neuropathie (Kribbeln, Taubheit), Optikusneuritis, Krampfanfälle, Psychosen",
+      "Thrombozytopenie, Leukopenie, Agranulozytose, hämolytische Anämie",
+      "Grippeähnliches Syndrom, Atemnot, Schock, akutes Nierenversagen (vor allem bei unregelmässiger Einnahme)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS), Anaphylaxie",
+      "Lupus-ähnliches Syndrom, Clostridioides-difficile-Kolitis",
+      "Rot-orange Verfärbung von Urin, Schweiss, Speichel und Tränen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; eine Tuberkulose muss auch in der Schwangerschaft behandelt werden. Rifampicin in den letzten Wochen kann bei Mutter und Neugeborenem Blutungen begünstigen (Vitamin K), zusätzlich wird Vitamin B6 empfohlen.",
+  "stillzeit": "Beide Wirkstoffe gehen in die Muttermilch über; Stillen nach ärztlicher Abwägung möglich, Kind beobachten.",
+  "hinweise": [
+    "Auf nüchternen Magen einnehmen (mindestens 30 Minuten vor oder 2 Stunden nach einer Mahlzeit), regelmässig und ohne Unterbruch.",
+    "Urin, Schweiss und Tränen färben sich rot-orange; weiche Kontaktlinsen können dauerhaft verfärbt werden.",
+    "Hormonale Verhütung wirkt nicht zuverlässig – nicht-hormonal verhüten.",
+    "Auf Alkohol verzichten; bei Gelbsucht, dunklem Urin, starker Müdigkeit oder Übelkeit sofort ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

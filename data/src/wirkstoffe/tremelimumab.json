@@ -1,0 +1,167 @@
+{
+  "id": "tremelimumab",
+  "name": "Tremelimumab",
+  "synonyme": [
+    "Tremelimumab-actl",
+    "Ticilimumab",
+    "CP-675,206"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01FX20"
+  ],
+  "klasse": "Immun-Checkpoint-Hemmer (Anti-CTLA-4-Antikörper)",
+  "kurz": "Krebsimmuntherapie gegen Leberkrebs und Lungenkrebs; löst eine Bremse des Immunsystems. Nur zusammen mit Durvalumab.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Imjudo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittenes oder nicht operierbares hepatozelluläres Karzinom (Leberzellkrebs) als Erstbehandlung, als Einzeldosis zusammen mit Durvalumab",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter nicht-kleinzelliger Lungenkrebs ohne EGFR-Mutation oder ALK-Veränderung als Erstbehandlung, zusammen mit Durvalumab und platinhaltiger Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine natürliche Bremse des Immunsystems, damit es Krebszellen besser bekämpfen kann. Tremelimumab ist ein vollhumaner IgG2-Antikörper gegen CTLA-4, einen hemmenden Rezeptor auf T-Zellen. Durch die Blockade der Bindung an CD80 und CD86 werden T-Zellen stärker aktiviert und vermehren sich. Zusammen mit dem PD-L1-Hemmer Durvalumab ergänzen sich die Wirkungen; die Aktivierung kann sich aber auch gegen gesunde Organe richten (immunvermittelte Nebenwirkungen).",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Vorbestehende Autoimmunerkrankung (Gefahr eines Schubs; in Studien ausgeschlossen)",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Organtransplantation in der Vorgeschichte (Gefahr einer Abstossung)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Pneumonitis (Husten, Atemnot)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Hepatitis, besonders bei Leberkrebs: Leberwerte vor jeder Gabe kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Kolitis (Durchfall, Bauchschmerzen, Blut im Stuhl)",
+      "ids": [
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Hormonstörungen: Schilddrüsenstörungen, Nebennierenschwäche, Hypophysenentzündung, Typ-1-Diabetes",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Nierenentzündung, Herzmuskelentzündung oder Muskelentzündung",
+      "ids": [
+        "niereninsuffizienz",
+        "muskelerkrankung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Können die Wirksamkeit beeinträchtigen – vor Beginn möglichst vermeiden; zur Behandlung immunvermittelter Nebenwirkungen nach Beginn jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immunsuppressiva vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit beeinträchtigen – vor Beginn möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Durvalumab und andere Checkpoint-Inhibitoren",
+      "ref": [
+        "durvalumab",
+        "gruppe:checkpoint-inhibitoren"
+      ],
+      "effekt": "Die vorgesehene Kombination mit Durvalumab verstärkt immunvermittelte Nebenwirkungen – engmaschige Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Zusätzliche Belastung der Leber, v. a. bei Leberkrebs – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Durchfall, Übelkeit, Bauchschmerzen",
+      "Hautausschlag, Juckreiz",
+      "Erhöhte Leberwerte",
+      "Husten",
+      "Fieber, Müdigkeit, Appetitlosigkeit",
+      "Ödeme (Wassereinlagerungen)"
+    ],
+    "haeufig": [
+      "Pneumonitis (immunvermittelte Lungenentzündung)",
+      "Kolitis (Darmentzündung), Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Hepatitis (immunvermittelte Leberentzündung)",
+      "Hyperthyreose (Schilddrüsenüberfunktion), Thyreoiditis",
+      "Nebennierenschwäche, Hypophysitis (Entzündung der Hirnanhangdrüse)",
+      "Infusionsbedingte Reaktionen",
+      "Lungenentzündung und Infekte der oberen Atemwege"
+    ],
+    "gelegentlich": [
+      "Myokarditis (Herzmuskelentzündung)",
+      "Myositis (Muskelentzündung)",
+      "Nephritis (Nierenentzündung)",
+      "Typ-1-Diabetes",
+      "Myasthenia gravis (Muskelschwäche)",
+      "Immunthrombozytopenie"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Die Blockade von CTLA-4 kann die Verträglichkeit der Schwangerschaft stören (Fehlgeburt); in der Schwangerschaft nicht empfohlen. Frauen im gebärfähigen Alter verhüten während und mindestens 3 Monate nach der letzten Dosis.",
+  "stillzeit": "Während und mindestens 3 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Neue oder zunehmende Beschwerden wie Durchfall, Husten, Atemnot, Gelbsucht, starke Müdigkeit, Kopfschmerzen oder Hautausschlag sofort melden – auch noch Monate nach Therapieende.",
+    "Schilddrüsen-, Leber- und Nierenwerte sowie der Blutzucker werden regelmässig kontrolliert.",
+    "Patientenkarte immer mitführen und bei jeder ärztlichen Behandlung vorzeigen."
+  ],
+  "stand": "2026-10"
+}

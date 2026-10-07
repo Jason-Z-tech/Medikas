@@ -1,0 +1,196 @@
+{
+  "id": "netupitant-palonosetron",
+  "name": "Netupitant + Palonosetron",
+  "synonyme": [
+    "NEPA",
+    "Netupitant/Palonosetron"
+  ],
+  "kombinationAus": [
+    "palonosetron"
+  ],
+  "atc": [
+    "A04AA55"
+  ],
+  "klasse": "Antiemetikum (Kombination aus NK1-Rezeptor-Antagonist und 5-HT3-Rezeptor-Antagonist)",
+  "kurz": "Kombination zweier Mittel gegen Übelkeit und Erbrechen; wird einmal vor einer stark oder mässig brechreizauslösenden Chemotherapie eingenommen.",
+  "gruppen": [
+    "antiemetika-5ht3",
+    "maessige-cyp3a4-hemmer",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Akynzeo"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von akuter und verzögerter Übelkeit und Erbrechen bei stark brechreizauslösender Chemotherapie mit Cisplatin und bei mässig brechreizauslösender Chemotherapie (Erwachsene)",
+      "ids": [
+        "uebelkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert Übelkeit und Erbrechen über zwei Wege gleichzeitig. Netupitant blockiert im Gehirn die NK1-Rezeptoren für den Botenstoff Substanz P, die vor allem für das verzögerte Erbrechen in den Tagen nach der Chemotherapie verantwortlich sind. Palonosetron blockiert 5-HT3-Rezeptoren im Darm und im Brechzentrum und wirkt vor allem gegen das akute Erbrechen. Beide Wirkstoffe werden sehr langsam ausgeschieden, deshalb genügt eine einzige Kapsel pro Chemotherapiezyklus. Netupitant hemmt zudem das Abbauenzym CYP3A4 mässig.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verstopfung oder Zeichen eines Darmverschlusses: Palonosetron verlangsamt die Darmpassage",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, Herzrhythmusstörungen oder Störungen von Kalium und Magnesium",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (kaum Erfahrungen)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz und Dialyse: Anwendung vermeiden",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: vorher Schwangerschaft ausschliessen und bis einen Monat danach zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere 5-HT3-Antagonisten (z. B. Ondansetron, Granisetron): Kreuzallergie möglich",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Dexamethason",
+      "ref": [
+        "dexamethason"
+      ],
+      "effekt": "Netupitant erhöht den Dexamethason-Spiegel deutlich – die Dexamethason-Dosis wird zusammen mit Netupitant um rund die Hälfte reduziert.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Netupitant-Spiegel sinkt stark – der Schutz vor Erbrechen kann ausbleiben; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Apomorphin",
+      "ref": [
+        "apomorphin"
+      ],
+      "effekt": "Mit 5-HT3-Antagonisten (Ondansetron) wurden starker Blutdruckabfall und Bewusstlosigkeit beschrieben; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Zytostatika, die über CYP3A4 abgebaut werden (z. B. Docetaxel, Paclitaxel, Etoposid, Irinotecan, Cyclophosphamid, Vinorelbin)",
+      "ref": [
+        "docetaxel",
+        "paclitaxel",
+        "etoposid",
+        "irinotecan",
+        "cyclophosphamid",
+        "vinorelbin"
+      ],
+      "effekt": "Höhere Spiegel und mehr Nebenwirkungen der Chemotherapie möglich – mit Vorsicht anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate und solche mit enger therapeutischer Breite (z. B. Midazolam, Ciclosporin, Tacrolimus, Everolimus, Fentanyl)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer",
+        "midazolam"
+      ],
+      "effekt": "Netupitant hemmt deren Abbau über mehrere Tage – verstärkte Wirkung möglich; Vorsicht, gegebenenfalls Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Netupitant-Spiegel steigt deutlich – mit Vorsicht anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive Wirkung auf die QT-Zeit möglich – Vorsicht bei Herzkranken und Elektrolytstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Einzelfälle eines Serotonin-Syndroms unter 5-HT3-Antagonisten – auf Unruhe, Fieber, Muskelzucken achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Obstipation (Verstopfung)",
+      "Müdigkeit (Fatigue)"
+    ],
+    "gelegentlich": [
+      "Appetitlosigkeit",
+      "Schlaflosigkeit",
+      "Schwindel",
+      "Schluckauf",
+      "Verdauungsbeschwerden, Bauchschmerzen, Blähungen",
+      "Haarausfall, Nesselsucht",
+      "Erhöhte Leberwerte",
+      "EKG-Veränderungen wie AV-Block 1. Grades und QT-Verlängerung"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie",
+      "Serotonin-Syndrom (vor allem zusammen mit serotonergen Mitteln)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Bei Frauen im gebärfähigen Alter wird vor der Einnahme eine Schwangerschaft ausgeschlossen; bis einen Monat danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis einen Monat nach der Einnahme nicht stillen.",
+  "hinweise": [
+    "Wird einmalig vor Beginn der Chemotherapie eingenommen, unabhängig von den Mahlzeiten.",
+    "Alle anderen Medikamente, auch pflanzliche wie Johanniskraut, dem Behandlungsteam angeben: Netupitant beeinflusst deren Abbau noch mehrere Tage."
+  ],
+  "stand": "2026-10"
+}

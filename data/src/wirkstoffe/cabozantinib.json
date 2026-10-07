@@ -1,0 +1,224 @@
+{
+  "id": "cabozantinib",
+  "name": "Cabozantinib",
+  "synonyme": [
+    "Cabozantinib-S-malat",
+    "XL184"
+  ],
+  "atc": [
+    "L01EX07"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Multikinase-Hemmer: MET, VEGFR, AXL, RET u. a.)",
+  "kurz": "Krebsmittel gegen fortgeschrittenen Nierenkrebs, Leberzellkrebs und bestimmte Formen von Schilddrüsenkrebs.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "thromboserisiko-erhoehend",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Cabometyx",
+    "Cometriq"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom: als Erstbehandlung (bei mittlerem oder ungünstigem Risiko oder in Kombination mit Nivolumab) und nach einer gegen VEGF gerichteten Vortherapie (Cabometyx)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Hepatozelluläres Karzinom (Leberzellkrebs) nach Vorbehandlung mit Sorafenib (Cabometyx)",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittenes oder metastasiertes differenziertes Schilddrüsenkarzinom, das nicht auf Radiojod anspricht und unter oder nach einer Vortherapie fortgeschritten ist (Cabometyx)",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Fortschreitendes, nicht operierbares oder metastasiertes medulläres Schilddrüsenkarzinom (Cometriq-Kapseln)",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Krebszellen und die Bildung neuer Blutgefässe im Tumor. Cabozantinib blockiert mehrere Rezeptor-Tyrosinkinasen, vor allem MET, VEGFR-2, AXL und RET, daneben ROS1, KIT, FLT3 und TIE-2. Die gleichzeitige Hemmung von MET und AXL wirkt Resistenzmechanismen entgegen, die bei einer reinen VEGF-Hemmung auftreten können.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Risiko für Magen-Darm-Durchbrüche und Fisteln, z. B. bei entzündlichen Darmerkrankungen, Divertikulitis oder Tumorbefall des Magen-Darm-Trakts",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Blutungen oder hohes Blutungsrisiko (z. B. Bluthusten, Tumorblutung)",
+      "ids": [
+        "aktive-blutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Thrombosen, Embolien, Herzinfarkt oder Schlaganfall in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "herzinfarkt",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: vor Beginn einstellen und regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, Herzrhythmusstörungen oder Elektrolytstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Geplante Operationen und Zahneingriffe: Wundheilungsstörungen und Kiefernekrose möglich",
+      "ids": [
+        "operation",
+        "kiefernekrose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (bei schwerer Einschränkung nicht empfohlen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion und Eiweiss im Urin – regelmässige Kontrollen",
+      "ids": [
+        "hypothyreose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Cabozantinib-Spiegel sinkt stark (mit Rifampicin etwa 77 % weniger) – längerfristige Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Cabozantinib-Spiegel steigt – möglichst vermeiden, sonst Dosis nach ärztlicher Anweisung reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran, Colchicin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Cabozantinib kann P-Glykoprotein hemmen – Spiegel dieser Mittel können steigen; Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Zuverlässigkeit unter Cabozantinib nicht gesichert – zusätzlich eine Barrieremethode (Kondom) verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten und andere Antikoagulanzien",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; INR überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung möglich – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MRP2-Hemmer (z. B. Ciclosporin)",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Cabozantinib-Spiegel kann steigen – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung, Bauchschmerzen",
+      "Stomatitis (Entzündung der Mundschleimhaut), Geschmacksstörungen, Appetitverlust, Gewichtsabnahme",
+      "Hand-Fuss-Syndrom, Hautausschlag",
+      "Bluthochdruck",
+      "Müdigkeit, Ödeme, Muskelkrämpfe, Gelenkschmerzen, Heiserkeit",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Blutarmut, Mangel an Blutplättchen und weissen Blutkörperchen",
+      "Tiefes Magnesium, Kalium, Calcium und Phosphat; erhöhte Leberwerte"
+    ],
+    "haeufig": [
+      "Venöse Thrombosen, Lungenembolie",
+      "Blutungen",
+      "Flüssigkeitsmangel",
+      "Periphere Neuropathie (Kribbeln, Taubheit), Tinnitus (Ohrgeräusche)",
+      "Eiweiss im Urin (Proteinurie)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Haarausfall, trockene Haut, Juckreiz, Aufhellung der Haare",
+      "Abszesse"
+    ],
+    "gelegentlich": [
+      "Magen-Darm-Durchbruch (Perforation), Fisteln",
+      "Kiefernekrose (Absterben von Kieferknochen)",
+      "Krampfanfälle",
+      "Cholestatische Hepatitis (Leberentzündung mit Gallenstau)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "QT-Verlängerung",
+      "Arterielle Thromboembolien (z. B. Herzinfarkt, Schlaganfall)",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Aneurysmen und Gefässwandeinrisse (Dissektionen)",
+      "Hautvaskulitis (Entzündung kleiner Hautgefässe)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Zustand erfordert es zwingend – kann das ungeborene Kind schädigen. Frauen und Partnerinnen behandelter Männer müssen während der Behandlung und mindestens 4 Monate danach zuverlässig verhüten (hormonale Verhütung zusätzlich mit Barrieremethode).",
+  "stillzeit": "Während der Behandlung und mindestens 4 Monate danach nicht stillen.",
+  "hinweise": [
+    "Nüchtern einnehmen: mindestens 2 Stunden nach und 1 Stunde vor dem Essen, mit einem Glas Wasser, nicht zerkleinern.",
+    "Cabometyx-Tabletten und Cometriq-Kapseln sind nicht gegeneinander austauschbar (unterschiedliche Aufnahme).",
+    "Keine Grapefruit, kein Johanniskraut.",
+    "Vor Operationen und Zahnbehandlungen nach ärztlicher Anweisung pausieren (Wundheilung, Kiefernekrose); Blutdruck regelmässig messen."
+  ],
+  "stand": "2026-10"
+}

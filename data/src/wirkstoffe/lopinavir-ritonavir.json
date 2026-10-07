@@ -1,0 +1,373 @@
+{
+  "id": "lopinavir-ritonavir",
+  "name": "Lopinavir + Ritonavir",
+  "synonyme": [
+    "LPV/r",
+    "Lopinavir/Ritonavir"
+  ],
+  "kombinationAus": [
+    "ritonavir"
+  ],
+  "atc": [
+    "J05AR10"
+  ],
+  "klasse": "HIV-Proteasehemmer mit Ritonavir als pharmakokinetischem Verstärker (Booster)",
+  "kurz": "HIV-Mittel aus der Gruppe der Proteasehemmer; Ritonavir verstärkt die Wirkung. Hat sehr viele Wechselwirkungen.",
+  "gruppen": [
+    "hiv-proteasehemmer",
+    "starke-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "oatp1b-hemmer",
+    "enzyminduktoren-hormone",
+    "qt-verlaengernd",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Kaletra"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Lösung zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen, Jugendlichen und Kindern (Altersgrenze je nach Darreichungsform) in Kombination mit weiteren HIV-Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass das HI-Virus reife, ansteckende Viruspartikel bilden kann. Lopinavir hemmt die HIV-Protease, die die Vorläufer-Eiweisse des Virus (Gag-Pol-Polyprotein) zerschneidet; es entstehen nur unreife, nicht infektiöse Viren. Ritonavir in niedriger Dosis hemmt stark das Abbauenzym CYP3A4 und erhöht so die Lopinavir-Spiegel. Dadurch beeinflusst die Kombination den Abbau sehr vieler anderer Arzneimittel; gleichzeitig induziert sie andere Abbauwege (z. B. Glucuronidierung, CYP1A2, CYP2C9, CYP2C19).",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen sowie chronische Hepatitis B oder C (Leberwerte überwachen)",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Pankreatitis-Risiko, v. a. bei stark erhöhten Triglyceriden",
+      "ids": [
+        "pankreatitis",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen und Reizleitungsstörungen (PR- und QT-Verlängerung, AV-Block) oder Einnahme von Mitteln, die das EKG beeinflussen",
+      "ids": [
+        "av-block",
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Diabetes und erhöhte Blutfette (Verschlechterung möglich)",
+      "ids": [
+        "diabetes",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Hämophilie (vermehrte Blutungen)",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Lösung zum Einnehmen enthält Alkohol und Propylenglykol: nicht bei Früh- und Neugeborenen in den ersten 14 Lebenstagen; Vorsicht bei Alkoholabhängigkeit und Lebererkrankungen",
+      "ids": [
+        "kinder",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn Entzündungsreaktionen auf bisher unbemerkte Infektionen möglich",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Alfuzosin",
+      "ref": [
+        "alfuzosin"
+      ],
+      "grund": "Alfuzosin-Spiegel steigt stark – Gefahr eines schweren Blutdruckabfalls."
+    },
+    {
+      "text": "Amiodaron, Dronedaron und Ranolazin",
+      "ref": [
+        "amiodaron",
+        "dronedaron",
+        "ranolazin"
+      ],
+      "grund": "Spiegel steigen stark – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    },
+    {
+      "text": "Fusidinsäure (bei Hautinfektionen)",
+      "ref": [
+        "fusidinsaeure"
+      ],
+      "grund": "Fusidinsäure-Spiegel steigt – erhöhtes Risiko schwerer Nebenwirkungen."
+    },
+    {
+      "text": "Neratinib sowie Venetoclax zu Beginn und während der Dosissteigerung",
+      "ref": [
+        "neratinib",
+        "venetoclax"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr schwerer Toxizität bzw. eines Tumorlyse-Syndroms."
+    },
+    {
+      "text": "Colchicin bei eingeschränkter Nieren- oder Leberfunktion",
+      "ref": [
+        "colchicin"
+      ],
+      "grund": "Colchicin-Spiegel steigt stark – lebensbedrohliche Vergiftung möglich."
+    },
+    {
+      "text": "Lurasidon, Pimozid und Quetiapin",
+      "ref": [
+        "lurasidon",
+        "quetiapin"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr von Herzrhythmusstörungen, starker Sedierung und Koma."
+    },
+    {
+      "text": "Mutterkornalkaloide (z. B. Ergotamin, Dihydroergotamin, Methylergometrin) und Cisaprid",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "methylergometrin"
+      ],
+      "grund": "Gefahr eines akuten Ergotismus mit Gefässverengung und Durchblutungsstörungen bzw. von Herzrhythmusstörungen."
+    },
+    {
+      "text": "Simvastatin, Lovastatin und Lomitapid",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Massiver Spiegelanstieg – Gefahr von Muskelzerfall (Rhabdomyolyse) bzw. Leberschäden."
+    },
+    {
+      "text": "Avanafil, Vardenafil sowie Sildenafil zur Behandlung der pulmonalen Hypertonie",
+      "ref": [
+        "avanafil",
+        "vardenafil",
+        "sildenafil"
+      ],
+      "grund": "Stark erhöhte Spiegel – Blutdruckabfall, Sehstörungen, Dauererektion (Priapismus)."
+    },
+    {
+      "text": "Midazolam zum Einnehmen und Triazolam",
+      "ref": [
+        "midazolam",
+        "triazolam"
+      ],
+      "grund": "Stark verlängerte und verstärkte Sedierung mit Gefahr einer Atemdepression."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Senkt die Lopinavir-Spiegel – Wirkverlust und Resistenzgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Rifampicin und andere starke Enzyminduktoren (Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Lopinavir-Spiegel sinken stark – Rifampicin nicht empfohlen; bei Antiepileptika Dosisanpassung gemäss Fachinformation und Spiegelkontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Inhalative oder nasale Kortikosteroide (Fluticason, Budesonid)",
+      "ref": [
+        "fluticason",
+        "fluticasonfuroat",
+        "budesonid",
+        "salmeterol-fluticason",
+        "gruppe:glukokortikoide-inhalativ"
+      ],
+      "effekt": "Kortison-Spiegel steigen – Cushing-Syndrom und Nebennierenunterdrückung möglich; Alternative wie Beclometason erwägen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Salmeterol",
+      "ref": [
+        "salmeterol",
+        "salmeterol-fluticason"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (Rivaroxaban, Apixaban, Edoxaban, Dabigatran)",
+      "ref": [
+        "gruppe:doak",
+        "dabigatran"
+      ],
+      "effekt": "Spiegel steigen – erhöhte Blutungsgefahr; Rivaroxaban nicht empfohlen, übrige nur nach Fachinformation und mit Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel mit Ethinylestradiol",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ethinylestradiol-Spiegel sinkt – Verhütung unsicher; zusätzliche oder andere Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen stark – engmaschige Spiegelkontrollen und Dosisanpassung nötig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide (Fentanyl, Oxycodon) und Methadon",
+      "ref": [
+        "fentanyl",
+        "oxycodon",
+        "methadon"
+      ],
+      "effekt": "Fentanyl- und Oxycodon-Spiegel steigen (Gefahr der Atemdepression); Methadon-Spiegel sinkt (Entzugssymptome) – engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Proteinkinase-Hemmer und andere Krebsmittel (z. B. Dasatinib, Nilotinib, Vincristin, Vinblastin)",
+      "ref": [
+        "gruppe:proteinkinase-hemmer",
+        "vincristin",
+        "vinblastin"
+      ],
+      "effekt": "Spiegel vieler Krebsmittel steigen – Kombination vermeiden oder Dosis gemäss Fachinformation reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hepatitis-C-Mittel Glecaprevir/Pibrentasvir und Sofosbuvir/Velpatasvir/Voxilaprevir",
+      "ref": [
+        "glecaprevir-pibrentasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "effekt": "Spiegel der Hepatitis-C-Mittel steigen stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Atorvastatin und Rosuvastatin",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Spiegel steigen – niedrigste Dosis verwenden, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer bei Erektionsstörungen (Sildenafil, Tadalafil)",
+      "ref": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "effekt": "Spiegel steigen – nur in reduzierter Dosis und mit grösseren Abständen anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigt (P-gp-Hemmung) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lamotrigin und Valproinsäure",
+      "ref": [
+        "lamotrigin",
+        "valproinsaeure"
+      ],
+      "effekt": "Spiegel sinken (Induktion der Glucuronidierung) – Spiegel und Anfallskontrolle überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die Gerinnungshemmung kann sich verändern – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT- oder PR-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive Verlängerung von PR- und QT-Zeit – Vorsicht, EKG-Kontrollen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall",
+      "Übelkeit",
+      "Infektionen der oberen Atemwege"
+    ],
+    "haeufig": [
+      "Erbrechen, Bauchschmerzen, Blähungen, Verdauungsbeschwerden, Reflux",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Erhöhte Blutfette (Triglyceride, Cholesterin), Blutzuckerstörungen bis Diabetes",
+      "Hepatitis, erhöhte Leberwerte",
+      "Kopfschmerzen, Schwindel, Schlaflosigkeit, Angst, periphere Neuropathie",
+      "Hautausschlag, Juckreiz, Nachtschweiss",
+      "Anämie, Neutropenie, Leukopenie",
+      "Überempfindlichkeitsreaktionen einschliesslich Nesselsucht und Angioödem"
+    ],
+    "gelegentlich": [
+      "AV-Block, Herzinfarkt",
+      "Schlaganfall, Krampfanfälle",
+      "Tiefe Venenthrombose",
+      "Magen-Darm-Blutungen",
+      "Fettleber, Gallenwegsentzündung, erhöhtes Bilirubin",
+      "Rhabdomyolyse, Osteonekrose",
+      "Immunrekonstitutionssyndrom"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom, Erythema multiforme"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes"
+    ]
+  },
+  "schwangerschaft": "Kann in der Schwangerschaft eingesetzt werden, wenn es klinisch notwendig ist (umfangreiche Erfahrungen); die Lösung zum Einnehmen wegen Alkohol und Propylenglykol nicht verwenden.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Tabletten unzerkaut mit oder ohne Mahlzeit schlucken; die Lösung zum Einnehmen mit einer Mahlzeit einnehmen.",
+    "Sehr viele Wechselwirkungen: vor jedem neuen Medikament – auch Asthmasprays, Potenzmitteln und pflanzlichen Mitteln – Ärztin, Arzt oder Apotheke informieren.",
+    "Blutfette, Blutzucker und Leberwerte werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,188 @@
+{
+  "id": "gelbfieber-impfstoff",
+  "name": "Gelbfieber-Impfstoff",
+  "synonyme": [
+    "Gelbfieber-Lebendimpfstoff",
+    "17D-Impfstoff",
+    "Yellow fever vaccine (live)"
+  ],
+  "atc": [
+    "J07BL01"
+  ],
+  "klasse": "Viraler Lebendimpfstoff (abgeschwächter Stamm 17D-204)",
+  "kurz": "Lebendimpfung gegen Gelbfieber für Reisen in Gebiete Afrikas und Südamerikas; nur in anerkannten Gelbfieber-Impfzentren.",
+  "gruppen": [
+    "lebendimpfstoffe"
+  ],
+  "handelsnamen": [
+    "Stamaril"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension"
+  ],
+  "indikationen": [
+    {
+      "text": "Aktive Impfung gegen Gelbfieber ab 9 Monaten (in besonderen Situationen ab 6 Monaten) für Reisen in Endemiegebiete, bei Einreisevorschriften und für Laborpersonal",
+      "ids": [
+        "reiseimpfung",
+        "impfung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt das Immunsystem an, einen lang anhaltenden Schutz gegen das Gelbfiebervirus aufzubauen. Der Impfstoff enthält lebende, abgeschwächte Gelbfieberviren (Stamm 17D-204), die in Hühnerembryonen gezüchtet werden. Nach einer einzigen Dosis bilden über 90 % der Geimpften innerhalb von etwa 10 Tagen schützende neutralisierende Antikörper.",
+  "kontraindikationen": [
+    {
+      "text": "Hühnereiweissallergie",
+      "ids": [
+        "latexallergie",
+        "nahrungsmittelallergie"
+      ]
+    },
+    {
+      "text": "Säuglinge unter 6 Monaten (Gefahr einer Hirnentzündung)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene Immunschwäche, z. B. symptomatische HIV-Infektion oder HIV mit tiefen CD4-Werten, Leukämie, Lymphome, andere Krebserkrankungen, nach Organ- oder Stammzelltransplantation",
+      "ids": [
+        "immunsuppression",
+        "hiv",
+        "leukaemie",
+        "lymphom",
+        "krebs",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Erkrankung der Thymusdrüse (z. B. Thymom, Myasthenia gravis) oder Entfernung der Thymusdrüse in der Vorgeschichte",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Reaktion nach einer früheren Gelbfieberimpfung",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Personen ab 60 Jahren: erhöhtes Risiko schwerer, teils tödlicher Impfreaktionen – nur bei echtem Ansteckungsrisiko impfen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Säuglinge von 6 bis 9 Monaten: nur bei hohem Ansteckungsrisiko (z. B. Epidemie)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "HIV-Infektion ohne schwere Immunschwäche: nur nach fachärztlicher Abwägung",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Akute fieberhafte Erkrankung: Impfung verschieben",
+      "ids": [
+        "fieber"
+      ]
+    },
+    {
+      "text": "Blutgerinnungsstörung oder Thrombozytopenie: Injektion unter die Haut statt in den Muskel",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "thrombozytopenie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Immunsuppressive oder immunmodulierende Behandlung, z. B. systemische Glukokortikoide in hoher Dosis, Zytostatika, Biologika oder Strahlentherapie",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika",
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "grund": "Bei geschwächter Abwehr kann sich das Impfvirus ungehindert vermehren – Gefahr einer schweren, möglicherweise tödlichen Impfvirus-Erkrankung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Masern-Mumps-Röteln(-Varizellen)-Impfstoff",
+      "ref": [
+        "masern-mumps-roeteln-impfstoff",
+        "masern-mumps-roeteln-varizellen-impfstoff"
+      ],
+      "effekt": "Bei gleichzeitiger Gabe an Kleinkinder schwächere Immunantwort – möglichst 4 Wochen Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Lebendimpfstoffe (z. B. Dengue- oder Varizellen-Impfstoff)",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Am gleichen Tag oder mit mindestens 4 Wochen Abstand impfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Reiseimpfstoffe (Hepatitis A, Typhus, Tollwut)",
+      "ref": [
+        "hepatitis-a-impfstoff",
+        "typhus-impfstoff",
+        "tollwut-impfstoff"
+      ],
+      "effekt": "Gleichzeitige Gabe an verschiedenen Körperstellen möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutverdünner (Antikoagulanzien)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Blutergüsse möglich – Injektion unter die Haut bevorzugen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Schmerzen an der Einstichstelle",
+      "Schwäche (Asthenie)",
+      "Muskelschmerzen",
+      "Bei Kleinkindern: Reizbarkeit, Weinen, Appetitlosigkeit, Schläfrigkeit"
+    ],
+    "haeufig": [
+      "Fieber",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Gelenkschmerzen",
+      "Rötung, Schwellung oder Bluterguss an der Einstichstelle"
+    ],
+    "gelegentlich": [
+      "Schwindel",
+      "Bauchschmerzen"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion), Angioödem",
+      "Neurotrope Erkrankung (YEL-AND): Hirn- oder Hirnhautentzündung, Guillain-Barré-Syndrom – sehr selten, häufiger ab 60 Jahren",
+      "Viszerotrope Erkrankung (YEL-AVD): gelbfieberähnliche Erkrankung mit Organversagen, oft tödlich – sehr selten, häufiger ab 60 Jahren",
+      "Lymphknotenschwellung",
+      "Hautausschlag, Nesselsucht"
+    ]
+  },
+  "schwangerschaft": "Grundsätzlich nicht impfen; nur wenn eine Reise in ein Gebiet mit hohem Ansteckungsrisiko unvermeidbar ist, nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Nicht impfen: Übertragung des Impfvirus auf gestillte Säuglinge mit Hirnentzündung wurde beschrieben. Nur bei unvermeidbarem hohem Risiko nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Impfung nur in anerkannten Gelbfieber-Impfzentren; Eintrag im internationalen Impfzertifikat, gültig ab dem 10. Tag nach der Impfung.",
+    "Eine Dosis schützt meist lebenslang; in bestimmten Situationen (z. B. Impfung vor dem 2. Geburtstag, in der Schwangerschaft oder bei HIV) wird eine Auffrischung empfohlen.",
+    "Bei hohem Fieber, Gelbsucht, starken Kopfschmerzen, Verwirrtheit oder Lähmungen in den Wochen nach der Impfung sofort ärztliche Hilfe holen.",
+    "Mückenschutz bleibt wichtig, da in denselben Gebieten weitere von Mücken übertragene Krankheiten vorkommen."
+  ],
+  "stand": "2026-10"
+}

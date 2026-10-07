@@ -1,0 +1,229 @@
+{
+  "id": "flurbiprofen",
+  "name": "Flurbiprofen",
+  "synonyme": [
+    "Flurbiprofenum"
+  ],
+  "atc": [
+    "R02AX01",
+    "M01AE09",
+    "S01BC04"
+  ],
+  "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Propionsäure-Derivat) zur Anwendung im Rachen",
+  "kurz": "Lutschtabletten gegen starke Halsschmerzen; enthalten ein entzündungshemmendes Schmerzmittel (NSAR).",
+  "gruppen": [
+    "nsar"
+  ],
+  "handelsnamen": [
+    "Strepfen"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Lutschtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitige Linderung von Halsschmerzen bei Rachenentzündung (Pharyngitis) bei Erwachsenen und Jugendlichen ab 12 Jahren",
+      "ids": [
+        "mundinfektion",
+        "erkaeltung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Halsschmerzen und Schwellung direkt im Rachen. Flurbiprofen hemmt die Cyclooxygenasen und damit die Bildung von Prostaglandinen, die Entzündung und Schmerz vermitteln. Die Wirkung setzt nach etwa 30 Minuten ein und hält einige Stunden an. Ein Teil des Wirkstoffs wird verschluckt und gelangt ins Blut.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma, Nesselsucht, Schnupfen oder Angioödem nach Einnahme von Acetylsalicylsäure oder anderen NSAR (Analgetika-Asthma)",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive oder wiederholte Magen-Darm-Geschwüre oder -Blutungen; Magen-Darm-Blutung oder -Durchbruch nach früherer NSAR-Einnahme",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Schwere Herz-, Leber- oder Niereninsuffizienz",
+      "ids": [
+        "herzinsuffizienz",
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Kinder unter 12 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Asthma oder allergische Erkrankungen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte, entzündliche Darmerkrankungen",
+      "ids": [
+        "magen-darm-ulkus",
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Bluthochdruck oder Herzerkrankungen",
+      "ids": [
+        "hypertonie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Nieren- oder Leberfunktionsstörung",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes und Mischkollagenosen (Risiko einer aseptischen Meningitis)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Halsschmerzen mit hohem Fieber, Eiter oder Dauer über 3 Tage: ärztlich abklären (bakterielle Infektion)",
+      "ids": [
+        "fieber",
+        "bakterielle-infektion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere NSAR, auch Acetylsalicylsäure in schmerzlindernder Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Mehr Nebenwirkungen, v. a. im Magen-Darm-Trakt – nicht gleichzeitig anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – nur nach ärztlicher Rücksprache.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Verminderte Ausscheidung von Methotrexat – nicht innerhalb von 24 Stunden vor oder nach Methotrexat anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel können steigen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI und Plättchenhemmer",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Nierenbelastung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Fluorchinolone",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Schwindel, Kopfschmerzen",
+      "Reizung, Wärmegefühl oder Brennen im Mund und Rachen",
+      "Kribbeln im Mund",
+      "Übelkeit, Durchfall",
+      "Mundgeschwüre (Aphthen), Mundschmerzen"
+    ],
+    "gelegentlich": [
+      "Schläfrigkeit, Schlaflosigkeit",
+      "Verschlechterung eines Asthmas, Bronchospasmus, Atemnot",
+      "Bläschen im Mund- und Rachenraum, Taubheitsgefühl im Rachen",
+      "Bauchschmerzen, Blähungen, Verstopfung, Dyspepsie, Mundtrockenheit, Erbrechen",
+      "Geschmacksstörungen",
+      "Hautausschlag, Juckreiz",
+      "Fieber"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Anämie, Thrombozytopenie",
+      "Ödeme, Bluthochdruck, Herzinsuffizienz",
+      "Hepatitis",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Angioödem"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach ärztlicher Rücksprache; im letzten Drittel kontraindiziert.",
+  "stillzeit": "Geht nur in sehr geringen Mengen in die Muttermilch über; die Anwendung in der Stillzeit wird dennoch nicht empfohlen.",
+  "hinweise": [
+    "Lutschtablette langsam im Mund zergehen lassen und dabei im Mund bewegen; höchstens 5 Lutschtabletten in 24 Stunden und höchstens 3 Tage anwenden.",
+    "Bei Halsschmerzen mit hohem Fieber, Eiter, Atemnot oder Schluckbeschwerden ärztlich abklären lassen.",
+    "Nicht gleichzeitig mit anderen NSAR-Schmerzmitteln (z. B. Ibuprofen, Diclofenac) anwenden."
+  ],
+  "stand": "2026-10"
+}

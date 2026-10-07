@@ -1,0 +1,257 @@
+{
+  "id": "siponimod",
+  "name": "Siponimod",
+  "synonyme": [
+    "BAF312"
+  ],
+  "atc": [
+    "L04AE03"
+  ],
+  "klasse": "Immunmodulator; Sphingosin-1-Phosphat-(S1P-)Rezeptor-Modulator",
+  "kurz": "Tablette gegen sekundär progrediente Multiple Sklerose mit Krankheitsaktivität; hält Abwehrzellen in den Lymphknoten zurück.",
+  "gruppen": [
+    "s1p-modulatoren",
+    "immunsuppressiv",
+    "bradykardisierend",
+    "qt-verlaengernd",
+    "blutdrucksteigernd",
+    "teratogen",
+    "cyp2c9-substrate-eng",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Mayzent"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Sekundär progrediente Multiple Sklerose mit Krankheitsaktivität (Schübe oder entzündliche Aktivität im MRI) bei Erwachsenen",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hält bestimmte weisse Blutkörperchen in den Lymphknoten zurück und vermindert so Entzündungen in Gehirn und Rückenmark. Siponimod bindet selektiv an die Sphingosin-1-Phosphat-Rezeptoren S1P1 und S1P5. Über S1P1 werden die Rezeptoren auf Lymphozyten internalisiert, so dass diese die Lymphknoten nicht mehr verlassen können. Da es ins Gehirn gelangt, wirkt es möglicherweise zusätzlich über S1P-Rezeptoren auf Stützzellen des Nervensystems. Abgebaut wird es hauptsächlich über CYP2C9, weshalb der Erbgut-Typ dieses Enzyms über Eignung und Dosis entscheidet.",
+  "kontraindikationen": [
+    {
+      "text": "Immundefizienz",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "PML oder Kryptokokken-Meningitis in der Vorgeschichte",
+      "ids": []
+    },
+    {
+      "text": "Aktive Krebserkrankungen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinfarkt, instabile Angina pectoris, Schlaganfall/TIA, dekompensierte Herzinsuffizienz mit Spitalaufenthalt oder Herzinsuffizienz NYHA III/IV in den letzten 6 Monaten",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris",
+        "schlaganfall",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "AV-Block 2. Grades Typ Mobitz II, AV-Block 3. Grades, sinuatrialer Block oder Sick-Sinus-Syndrom ohne Herzschrittmacher",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom"
+      ]
+    },
+    {
+      "text": "Homozygote CYP2C9*3-Träger (Genotyp CYP2C9*3/*3, sehr langsamer Abbau)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Schwangerschaft sowie Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "CYP2C9-Genotyp vor Beginn bestimmen; bei *1/*3 und *2/*3 tiefere Erhaltungsdosis",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Behandlungsbeginn: Pulsverlangsamung und AV-Block möglich; einschleichende Dosierung, bei Herzkrankheiten EKG und Überwachung nach der ersten Dosis",
+      "ids": [
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Infektionen inkl. Herpes zoster, Kryptokokken und PML; Varizellen-Immunität vor Beginn prüfen",
+      "ids": [
+        "infektanfaelligkeit",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Makulaödem: Augenuntersuchung vor Beginn bei Diabetes, Uveitis oder Netzhauterkrankung und bei Sehstörungen",
+      "ids": [
+        "makuladegeneration",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Hautkrebs: regelmässige Hautkontrollen und Sonnenschutz",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Leberwerte vor Beginn und regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutdruck regelmässig kontrollieren (Anstieg möglich)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Nach dem Absetzen schwere Verschlechterung der MS möglich",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Fluconazol und andere Mittel, die CYP2C9 und CYP3A4 gleichzeitig hemmen",
+      "ref": [
+        "fluconazol",
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Siponimod-Spiegel verdoppeln sich – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige und starke CYP3A4-Hemmer bei langsameren CYP2C9-Genotypen (*1/*3, *2/*3)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Siponimod-Spiegel steigen deutlich – bei diesen Genotypen nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Siponimod-Spiegel sinken deutlich (Rifampicin um etwa 57 %) – Wirkverlust; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika der Klasse Ia oder III und andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Gefahr schwerer Rhythmusstörungen bei Pulsverlangsamung – nicht gleichzeitig beginnen, nur nach kardiologischer Beurteilung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Verapamil, Diltiazem, Ivabradin, Digoxin",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "ivabradin",
+        "digoxin"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung zu Beginn – nur nach kardiologischer Beurteilung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva, Zytostatika und andere immunmodulierende Mittel",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika",
+        "natalizumab",
+        "alemtuzumab",
+        "mitoxantron"
+      ],
+      "effekt": "Verstärkte Immunsuppression – nicht kombinieren; beim Wechsel Auswaschzeiten beachten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Während und bis 4 Wochen nach der Behandlung meiden – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Zusätzliche Pulsverlangsamung zu Beginn – Vorsicht; Beginn nur bei ausreichendem Ruhepuls.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Bluthochdruck",
+      "Erhöhte Leberwerte"
+    ],
+    "haeufig": [
+      "Gürtelrose (Herpes zoster)",
+      "Basalzellkarzinom (heller Hautkrebs), Muttermale",
+      "Lymphopenie (Mangel an Lymphozyten)",
+      "Schwindel, Zittern (Tremor)",
+      "Krampfanfälle",
+      "Makulaödem (Schwellung der Netzhautmitte)",
+      "Pulsverlangsamung (Bradykardie) und AV-Block",
+      "Übelkeit, Durchfall, periphere Ödeme"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "PML (progressive multifokale Leukenzephalopathie)",
+      "Kryptokokken-Meningitis",
+      "Melanom und andere Hautkrebsarten",
+      "PRES (posteriores reversibles Enzephalopathie-Syndrom)",
+      "Schwere Verschlechterung der MS nach dem Absetzen"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter müssen während und mindestens 10 Tage nach dem Absetzen zuverlässig verhüten.",
+  "stillzeit": "Nicht stillen während der Behandlung.",
+  "hinweise": [
+    "Vor Beginn wird der CYP2C9-Genotyp bestimmt; er entscheidet über Eignung und Erhaltungsdosis.",
+    "Einschleichende Dosierung über 5 Tage; nach einem Unterbruch von 4 oder mehr Tagen erneut einschleichen.",
+    "Augen, Haut, Blutdruck und Leberwerte regelmässig kontrollieren lassen; nicht eigenmächtig absetzen."
+  ],
+  "stand": "2026-10"
+}

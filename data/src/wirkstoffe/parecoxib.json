@@ -1,0 +1,289 @@
+{
+  "id": "parecoxib",
+  "name": "Parecoxib",
+  "synonyme": [
+    "Parecoxib-Natrium",
+    "Parecoxib sodium"
+  ],
+  "atc": [
+    "M01AH04"
+  ],
+  "klasse": "Selektiver COX-2-Hemmer (Coxib) zur Injektion; Prodrug von Valdecoxib",
+  "kurz": "Entzündungshemmendes Schmerzmittel aus der Gruppe der Coxibe; als Spritze kurzfristig gegen Schmerzen nach Operationen.",
+  "gruppen": [
+    "cox2-hemmer",
+    "nsar",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "lithium-spiegel-erhoehend"
+  ],
+  "handelsnamen": [
+    "Dynastat"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitbehandlung von Schmerzen nach Operationen bei Erwachsenen",
+      "ids": [
+        "schmerzen",
+        "operation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündung nach Operationen. Parecoxib wird in der Leber rasch zu Valdecoxib umgewandelt, das selektiv die Cyclooxygenase-2 (COX-2) hemmt und so die Bildung entzündungs- und schmerzvermittelnder Prostaglandine vermindert. Die für Magenschleimhaut und Blutplättchen wichtige COX-1 wird in therapeutischer Dosis kaum gehemmt; die Blutgerinnung wird daher nicht beeinträchtigt. Valdecoxib wird über CYP3A4 und CYP2C9 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere allergische Arzneimittelreaktionen, besonders schwere Hautreaktionen, in der Vorgeschichte; Überempfindlichkeit gegen Sulfonamide",
+      "ids": [
+        "schwere-hautreaktion",
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Asthma, Nesselsucht, Schnupfen, Nasenpolypen oder Angioödem nach Acetylsalicylsäure oder anderen NSAR",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive Magen-Darm-Geschwüre oder -Blutungen",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz (NYHA II–IV)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gesicherte koronare Herzkrankheit, periphere arterielle Verschlusskrankheit oder zerebrovaskuläre Erkrankung (z. B. Schlaganfall)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "pavk",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Schmerzbehandlung nach koronarer Bypass-Operation",
+      "ids": [
+        "koronarstent"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Risikofaktoren (Bluthochdruck, erhöhte Blutfette, Diabetes, Rauchen)",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "hypertonie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion, Flüssigkeitsmangel",
+      "ids": [
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Mittelschwere Leberinsuffizienz (Dosis reduzieren)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit tiefem Körpergewicht (Dosis reduzieren)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre oder -Blutungen in der Vorgeschichte",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Anaphylaxie und schwere Hautreaktionen – beim ersten Anzeichen absetzen",
+      "ids": [
+        "anaphylaxie",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Kann Fieber und andere Zeichen einer Infektion verschleiern",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Langsame CYP2C9-Metabolisierer (genetisch bedingt höhere Spiegel)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko und mögliche INR-Erhöhung – INR besonders in den ersten Tagen kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Niedrig dosierte Acetylsalicylsäure und andere NSAR",
+      "ref": [
+        "acetylsalicylsaeure",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre; Coxibe ersetzen ASS nicht für den Herzschutz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Risiko für akutes Nierenversagen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Mögliche Erhöhung der Methotrexat-Toxizität – überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluconazol und andere CYP2C9-Hemmer",
+      "ref": [
+        "fluconazol",
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Valdecoxib-Spiegel steigen – Parecoxib-Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate mit enger therapeutischer Breite (z. B. Flecainid, Propafenon, Metoprolol)",
+      "ref": [
+        "flecainid",
+        "propafenon",
+        "metoprolol",
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Valdecoxib hemmt CYP2D6 mässig – Spiegel dieser Mittel können steigen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol)",
+      "ref": [
+        "ketoconazol",
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Mässig höhere Valdecoxib-Spiegel.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Mögliche Abschwächung der Wirkung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Anämie nach der Operation, Hypokaliämie (Kaliummangel)",
+      "Unruhe, Schlaflosigkeit",
+      "Bluthochdruck oder Blutdruckabfall",
+      "Bauchschmerzen, Erbrechen, Verstopfung, Dyspepsie, Blähungen",
+      "Juckreiz, vermehrtes Schwitzen",
+      "Verminderte Harnmenge, Kreatininanstieg, periphere Ödeme",
+      "Atemschwäche, Rachenentzündung",
+      "Rückenschmerzen, entzündete Zahnalveole nach Zahnextraktion"
+    ],
+    "gelegentlich": [
+      "Herzinfarkt, Bradykardie (langsamer Puls)",
+      "Zerebrovaskuläre Ereignisse, Lungenembolie",
+      "Magen-Darm-Geschwüre",
+      "Thrombozytopenie",
+      "Wundinfektion, Blutergüsse",
+      "Hautausschlag, Nesselsucht",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Anaphylaktoide Reaktionen",
+      "Akutes Nierenversagen",
+      "Bauchspeicheldrüsenentzündung (Pankreatitis)"
+    ],
+    "unbekannt": [
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)",
+      "Herzinsuffizienz, Kreislaufkollaps",
+      "Atemnot"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nicht empfohlen; im letzten Drittel kontraindiziert.",
+  "stillzeit": "In der Stillzeit kontraindiziert.",
+  "hinweise": [
+    "Wird von medizinischen Fachpersonen gespritzt (in die Vene oder den Muskel); nur kurzfristig, in der Regel höchstens 3 Tage.",
+    "Ersetzt niedrig dosierte Acetylsalicylsäure zum Herzschutz nicht.",
+    "Hautausschlag, Schleimhautveränderungen oder Atemnot sofort melden."
+  ],
+  "stand": "2026-10"
+}

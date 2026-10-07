@@ -1,0 +1,164 @@
+{
+  "id": "tioguanin",
+  "name": "Tioguanin",
+  "synonyme": [
+    "Thioguanin",
+    "6-Thioguanin",
+    "6-TG",
+    "Tioguanine"
+  ],
+  "atc": [
+    "L01BB03"
+  ],
+  "klasse": "Antimetabolit (Purinanalogon, Thiopurin); Zytostatikum",
+  "kurz": "Krebsmittel in Tablettenform aus der Gruppe der Thiopurine zur Behandlung akuter Leukämien, v. a. der akuten myeloischen Leukämie.",
+  "gruppen": [
+    "zytostatika",
+    "thiopurine",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Lanvis"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute Leukämien, vor allem akute myeloische Leukämie (AML) und akute lymphatische Leukämie (ALL), in Kombination mit anderen Krebsmitteln",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung rasch wachsender Zellen, insbesondere von Leukämiezellen. Tioguanin ist eine Vorstufe (Prodrug), die in der Zelle durch das Enzym HGPRT direkt zu Thioguanin-Nukleotiden umgewandelt wird. Diese werden als falsche Bausteine in DNA und RNA eingebaut und hemmen die Neubildung von Purinen, was zum Zelltod führt. Anders als Mercaptopurin wird Tioguanin kaum über die Xanthinoxidase abgebaut, sondern vor allem durch die Thiopurin-Methyltransferase (TPMT).",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Angeborener Mangel an den Enzymen TPMT oder NUDT15: stark erhöhtes Risiko einer schweren Knochenmarkhemmung (Dosis anpassen)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Langzeit- oder Dauertherapie (z. B. als Erhaltungstherapie) wird wegen des hohen Risikos schwerer Leberschäden (Verschluss kleiner Lebervenen, Pfortaderhochdruck) nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Infektionen (Gefahr schwerer Verläufe durch die Abwehrschwäche)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Lesch-Nyhan-Syndrom (angeborener HGPRT-Mangel): Tioguanin wirkt dann kaum",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung während der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Busulfan (Langzeitkombination, z. B. bei chronischer myeloischer Leukämie)",
+      "ref": [
+        "busulfan"
+      ],
+      "effekt": "Leberveränderungen mit Pfortaderhochdruck und Krampfadern der Speiseröhre beschrieben – Kombination nur unter enger Kontrolle.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Aminosalicylate (Mesalazin, Sulfasalazin)",
+      "ref": [
+        "mesalazin",
+        "sulfasalazin"
+      ],
+      "effekt": "Hemmen das Abbauenzym TPMT – stärkere Knochenmarkhemmung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Anders als bei Mercaptopurin ist in der Regel keine Dosisreduktion von Tioguanin nötig, da es kaum über die Xanthinoxidase abgebaut wird.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung (Mangel an weissen und roten Blutkörperchen und an Blutplättchen)",
+      "Venookklusive Lebererkrankung (Verschluss kleiner Lebervenen) bei Dauertherapie"
+    ],
+    "haeufig": [
+      "Mundschleimhautentzündung",
+      "Magen-Darm-Beschwerden wie Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Erhöhte Leberwerte"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Nekrotisierende Kolitis (schwere Darmentzündung mit Gewebeuntergang), Darmdurchbruch",
+      "Zentrilobuläre Lebernekrose (Absterben von Lebergewebe)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Pfortaderhochdruck, Milzvergrösserung, Krampfadern der Speiseröhre",
+      "Noduläre regenerative Hyperplasie der Leber (knotiger Leberumbau)",
+      "Hyperurikämie (erhöhte Harnsäure)",
+      "Infektionen"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit anwenden, da Tioguanin das Ungeborene schädigen kann. Frauen und Männer müssen während der Behandlung und einige Monate danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Blutbild in der Regel wöchentlich und Leberwerte regelmässig kontrollieren; Gelbsucht, Zunahme des Bauchumfangs, Fieber oder Blutungen sofort melden.",
+    "Nicht für eine Dauerbehandlung geeignet (Gefahr schwerer Leberschäden).",
+    "Keine Lebendimpfungen ohne Rücksprache mit der Ärztin oder dem Arzt."
+  ],
+  "stand": "2026-10"
+}

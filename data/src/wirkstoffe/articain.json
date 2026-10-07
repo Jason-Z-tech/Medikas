@@ -1,0 +1,212 @@
+{
+  "id": "articain",
+  "name": "Articain",
+  "synonyme": [
+    "Articaine",
+    "Carticain",
+    "Articainhydrochlorid"
+  ],
+  "atc": [
+    "N01BB08",
+    "N01BB58"
+  ],
+  "klasse": "Lokalanästhetikum vom Amid-Typ (Zahnmedizin), meist kombiniert mit Adrenalin",
+  "kurz": "Mittel zur örtlichen Betäubung beim Zahnarzt; meist mit Adrenalin kombiniert, damit die Wirkung länger anhält.",
+  "gruppen": [
+    "lokalanaesthetika"
+  ],
+  "handelsnamen": [
+    "Ubistesin",
+    "Septanest"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung in Zylinderampullen (mit Adrenalin)"
+  ],
+  "indikationen": [
+    {
+      "text": "Örtliche Betäubung (Infiltrations- und Leitungsanästhesie) bei Zahnbehandlungen und Eingriffen im Mund- und Kieferbereich",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Betäubt vorübergehend die Nerven im Kieferbereich, sodass die Behandlung schmerzfrei ist. Articain blockiert spannungsabhängige Natriumkanäle der Nervenmembran und verhindert so die Erregungsleitung; es dringt gut ins Gewebe und in den Knochen ein. Da es neben der Amid-Bindung eine Estergruppe trägt, wird es zum grössten Teil schon im Blut durch Esterasen zu unwirksamer Articainsäure abgebaut (Halbwertszeit etwa 20–40 Minuten). Das beigefügte Adrenalin verengt die Blutgefässe, verlängert so die Wirkung und vermindert Blutungen.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Lokalanästhetika vom Amid-Typ – Kreuzallergie",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Reizleitungsstörungen am Herzen (AV-Block II. oder III. Grades ohne Herzschrittmacher), ausgeprägte Bradykardie",
+      "ids": [
+        "av-block",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Akute dekompensierte Herzinsuffizienz, schwere Hypotonie",
+      "ids": [
+        "herzinsuffizienz",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Medikamentös schlecht eingestellte Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Kinder unter 4 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Wegen des Adrenalins: anfallsartiges Herzrasen oder schnelles Vorhofflimmern, Engwinkelglaukom",
+      "ids": [
+        "tachykardie",
+        "vorhofflimmern",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Asthma mit Überempfindlichkeit gegen Sulfite (Schutzstoff für das Adrenalin)",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Koronare Herzkrankheit, Herzinsuffizienz, Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinsuffizienz",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion, Diabetes, Phäochromozytom (Adrenalinwirkung)",
+      "ids": [
+        "hyperthyreose",
+        "diabetes",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Blutgerinnungsstörungen oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nicht-selektive Betablocker (z. B. Propranolol)",
+      "ref": [
+        "propranolol"
+      ],
+      "effekt": "Durch das Adrenalin Gefahr eines starken Blutdruckanstiegs mit Pulsverlangsamung – möglichst adrenalinarme Lösung und niedrige Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und MAO-Hemmer",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkte Adrenalinwirkung: Blutdruckanstieg und Herzrhythmusstörungen möglich – Dosis begrenzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Lokalanästhetika",
+      "ref": [
+        "gruppe:lokalanaesthetika"
+      ],
+      "effekt": "Additive Giftwirkung auf Herz und Nervensystem – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Mehr Blutungen an der Einstichstelle möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Beruhigungsmittel, Opioide und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Additive Dämpfung des Nervensystems – Dosis des Lokalanästhetikums eher niedrig wählen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Missempfindungen im Mundbereich (Kribbeln, Taubheit, Nervenschmerzen)",
+      "Zahnfleischentzündung",
+      "Bradykardie oder Tachykardie (langsamer oder schneller Puls)"
+    ],
+    "gelegentlich": [
+      "Übelkeit, Erbrechen, Durchfall",
+      "Blutdruckanstieg",
+      "Ausschlag, Juckreiz",
+      "Schmerzen an der Einstichstelle",
+      "Brennen und Entzündungen der Mundschleimhaut oder Zunge"
+    ],
+    "selten": [
+      "Allergische Reaktionen, Angioödem (Schwellung von Gesicht oder Rachen)",
+      "Lähmung des Gesichtsnervs, Doppeltsehen, Horner-Syndrom (hängendes Lid, enge Pupille)",
+      "Gewebeschäden oder Geschwüre an der Einstichstelle",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Nervosität, Angst, Schläfrigkeit"
+    ],
+    "sehrSelten": [
+      "Anhaltende Gefühlsstörungen oder Geschmacksverlust nach Nervenschädigung"
+    ],
+    "unbekannt": [
+      "Krampfanfälle, Herzrhythmusstörungen oder Herzstillstand bei Überdosierung oder Injektion in ein Blutgefäss",
+      "Methämoglobinämie (verminderter Sauerstofftransport)"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; bisher keine Hinweise auf Fehlbildungen. Bevorzugt Lösungen mit wenig Adrenalin und möglichst niedrige Dosis verwenden.",
+  "stillzeit": "Articain wird rasch abgebaut, in der Muttermilch finden sich höchstens Spuren; nach einer Zahnbehandlung kann weiter gestillt werden.",
+  "hinweise": [
+    "Erst essen, wenn die Betäubung abgeklungen ist – Gefahr von Biss- und Verbrennungsverletzungen an Lippen, Wange und Zunge, besonders bei Kindern.",
+    "Bluthochdruck, Herzerkrankungen, Allergien (auch auf Sulfite) und eingenommene Medikamente vor der Behandlung angeben.",
+    "Die Fahrtüchtigkeit kann nach dem Eingriff kurzzeitig beeinträchtigt sein."
+  ],
+  "stand": "2026-10"
+}

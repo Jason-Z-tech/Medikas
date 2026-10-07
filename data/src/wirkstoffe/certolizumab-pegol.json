@@ -1,0 +1,200 @@
+{
+  "id": "certolizumab-pegol",
+  "name": "Certolizumab Pegol",
+  "synonyme": [
+    "Certolizumab",
+    "CDP870"
+  ],
+  "atc": [
+    "L04AB05"
+  ],
+  "klasse": "TNF-alpha-Hemmer (pegyliertes Antikörperfragment)",
+  "kurz": "Biologikum zur Spritze gegen entzündliches Rheuma, Morbus Bechterew, Psoriasis und Morbus Crohn; blockiert den Entzündungsbotenstoff TNF-alpha.",
+  "gruppen": [
+    "tnf-alpha-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Cimzia"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung in Fertigspritze oder Fertigpen (subkutan)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis bei Erwachsenen, mit Methotrexat oder allein",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Aktive Psoriasis-Arthritis bei Erwachsenen",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Axiale Spondyloarthritis (Morbus Bechterew und nicht-röntgenologische Form)",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Plaque-Psoriasis bei Erwachsenen, die für eine systemische Therapie infrage kommen",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Mittelschwerer bis schwerer aktiver Morbus Crohn bei Erwachsenen mit ungenügendem Ansprechen auf eine konventionelle Therapie",
+      "ids": [
+        "morbus-crohn"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt den Entzündungsbotenstoff TNF-alpha, der bei vielen Autoimmunerkrankungen die Entzündung antreibt. Certolizumab Pegol ist ein humanisiertes Antikörperfragment (Fab'), das an Polyethylenglykol gekoppelt ist und deshalb lange im Körper verbleibt. Es bindet lösliches und membranständiges TNF-alpha und neutralisiert es. Da ihm der Fc-Teil fehlt, gelangt es kaum über die Plazenta zum Kind.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive Tuberkulose oder andere schwere Infektionen wie Sepsis oder opportunistische Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Herzinsuffizienz (NYHA III/IV)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Latente Tuberkulose (vor Beginn testen und ggf. behandeln) und Hepatitis-B-Trägerstatus (Gefahr der Reaktivierung)",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Wiederkehrende oder chronische Infektionen, ältere Menschen",
+      "ids": [
+        "infektanfaelligkeit",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Leichte Herzinsuffizienz (NYHA I/II): Verschlechterung möglich",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bösartige Erkrankungen, besonders Lymphome und Hautkrebs, auch in der Vorgeschichte (regelmässige Hautkontrollen)",
+      "ids": [
+        "krebs",
+        "lymphom",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Demyelinisierende Erkrankungen wie Multiple Sklerose",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (selten Panzytopenie)",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Lupus-ähnliche Beschwerden: Behandlung abbrechen",
+      "ids": [
+        "lupus"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Anakinra und Abatacept",
+      "ref": [
+        "anakinra",
+        "abatacept"
+      ],
+      "effekt": "Mehr schwere Infektionen ohne zusätzlichen Nutzen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere TNF-alpha-Hemmer und biologische Immunmodulatoren",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer"
+      ],
+      "effekt": "Nicht kombinieren – erhöhtes Infektionsrisiko.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat, Kortison und NSAR",
+      "ref": [
+        "methotrexat",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:nsar"
+      ],
+      "effekt": "Keine relevante Beeinflussung der Spiegel; übliche Kombination.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Bakterielle Infektionen (inkl. Abszess), Virusinfektionen (Herpes, Grippe, Papillomaviren)",
+      "Eosinophilie, Leukopenie (inkl. Neutropenie und Lymphopenie)",
+      "Kopfschmerzen (inkl. Migräne), Empfindungsstörungen",
+      "Bluthochdruck",
+      "Übelkeit",
+      "Leberentzündung, erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz",
+      "Fieber, Schmerzen, Schwäche, Reaktionen an der Injektionsstelle"
+    ],
+    "gelegentlich": [
+      "Sepsis, Tuberkulose, Pilzinfektionen und andere opportunistische Infektionen",
+      "Lymphome und andere bösartige Erkrankungen, Hautkrebs (ausser Melanom)",
+      "Anämie (Blutarmut), Thrombozytopenie (Mangel an Blutplättchen)",
+      "Herzinsuffizienz, Herzrhythmusstörungen",
+      "Lupus-ähnliche Reaktionen, Gefässentzündung (Vaskulitis)",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Demyelinisierende Erkrankungen (z. B. Multiple Sklerose, Guillain-Barré-Syndrom)",
+      "Panzytopenie",
+      "Hepatitis-B-Reaktivierung",
+      "Merkelzellkarzinom",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)"
+    ]
+  },
+  "schwangerschaft": "Kann nach ärztlicher Abwägung während der Schwangerschaft angewendet werden, da kaum Wirkstoff über die Plazenta zum Kind gelangt.",
+  "stillzeit": "Geht nur in sehr geringer Menge in die Muttermilch über; Stillen ist möglich.",
+  "hinweise": [
+    "Vor Beginn Tuberkulose- und Hepatitis-B-Test; Impfungen möglichst vorher auffrischen.",
+    "Fieber, anhaltender Husten, Gewichtsverlust oder andere Infektzeichen sofort ärztlich melden.",
+    "Im Kühlschrank lagern; vor der Injektion auf Raumtemperatur bringen.",
+    "Kann gewisse Gerinnungstests (aPTT) falsch verlängert erscheinen lassen – Labor informieren."
+  ],
+  "stand": "2026-10"
+}

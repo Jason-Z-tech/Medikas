@@ -1,0 +1,195 @@
+{
+  "id": "ipilimumab",
+  "name": "Ipilimumab",
+  "synonyme": [
+    "MDX-010"
+  ],
+  "atc": [
+    "L01FX04"
+  ],
+  "klasse": "Immun-Checkpoint-Hemmer (monoklonaler Antikörper gegen CTLA-4)",
+  "kurz": "Immuntherapie als Infusion bei Melanom und – meist zusammen mit Nivolumab – bei weiteren fortgeschrittenen Krebsarten.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Yervoy"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittenes (nicht operables oder metastasiertes) Melanom, allein oder zusammen mit Nivolumab",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom mit mittlerem oder ungünstigem Risiko, Erstbehandlung zusammen mit Nivolumab",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter nicht-kleinzelliger Lungenkrebs ohne EGFR- oder ALK-Veränderung, Erstbehandlung zusammen mit Nivolumab und zwei Zyklen platinhaltiger Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Nicht operables malignes Pleuramesotheliom (Brustfellkrebs), Erstbehandlung zusammen mit Nivolumab",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Darmkrebs mit Mismatch-Reparatur-Defizienz oder hoher Mikrosatelliteninstabilität (dMMR/MSI-H), zusammen mit Nivolumab",
+      "ids": [
+        "darmkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, damit Abwehrzellen Krebszellen angreifen. Ipilimumab ist ein humaner IgG1-Antikörper gegen CTLA-4, einen hemmenden Rezeptor auf T-Zellen. Die Blockade verstärkt die Aktivierung und Vermehrung von T-Zellen in der frühen Phase der Immunantwort, auch von tumorgerichteten T-Zellen; zudem kann die Zahl regulatorischer T-Zellen im Tumor sinken. Mit dem PD-1-Hemmer Nivolumab ergänzt sich die Wirkung, die Nebenwirkungen nehmen aber deutlich zu.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Immunvermittelte Darmentzündung (Kolitis) mit Durchfall, Blutungen bis zum Darmdurchbruch",
+      "ids": [
+        "durchfall",
+        "colitis-ulcerosa",
+        "morbus-crohn"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Leberentzündung – Leberwerte vor jeder Gabe kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hormondrüsen-Störungen, besonders Entzündung der Hirnanhangsdrüse (Hypophysitis), Schilddrüse und Nebenniere",
+      "ids": [
+        "hypophyseninsuffizienz",
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Bestehende Autoimmunerkrankung – Verschlechterung möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "lupus",
+        "rheumatoide-arthritis",
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Nerven-, Augen-, Nieren- und Herzmuskelentzündungen (z. B. Guillain-Barré-Syndrom, Uveitis, Myokarditis)",
+      "ids": [
+        "niereninsuffizienz",
+        "kardiomyopathie",
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Organtransplantation (Abstossungsgefahr)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vemurafenib",
+      "ref": [
+        "vemurafenib"
+      ],
+      "effekt": "In Kombination starker Anstieg der Leberwerte – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden. Zur Behandlung immunvermittelter Nebenwirkungen sind sie jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Magen-Darm-Blutungen sind eine mögliche Nebenwirkung – unter Blutverdünnern engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nivolumab und andere Immun-Checkpoint-Hemmer",
+      "ref": [
+        "nivolumab",
+        "gruppe:checkpoint-inhibitoren"
+      ],
+      "effekt": "Kombination wird gezielt eingesetzt; immunvermittelte Nebenwirkungen werden deutlich häufiger und schwerer – engmaschige Kontrollen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall",
+      "Hautausschlag, Juckreiz",
+      "Müdigkeit",
+      "Übelkeit, Erbrechen, Bauchschmerzen",
+      "Appetitlosigkeit"
+    ],
+    "haeufig": [
+      "Kolitis (Dickdarmentzündung)",
+      "Hypophysitis (Entzündung der Hirnanhangsdrüse), Hypothyreose",
+      "Erhöhte Leberwerte, Leberfunktionsstörung",
+      "Magen-Darm-Blutungen",
+      "Periphere Neuropathie, Kopfschmerzen, Schwindel",
+      "Fieber, Schüttelfrost, Ödeme",
+      "Vitiligo (weisse Hautflecken), Haarausfall",
+      "Gelenk- und Muskelschmerzen, Dehydratation, Hypokaliämie"
+    ],
+    "gelegentlich": [
+      "Darmdurchbruch (Perforation), Bauchfellentzündung",
+      "Hepatitis (Leberentzündung)",
+      "Nebenniereninsuffizienz, Hyperthyreose",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Nierenversagen, Glomerulonephritis",
+      "Guillain-Barré-Syndrom, Myasthenia gravis, Meningitis",
+      "Uveitis (Augenentzündung)",
+      "Sepsis"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS",
+      "Myokarditis (Herzmuskelentzündung)",
+      "Abstossung transplantierter Organe"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen, ausser der Nutzen überwiegt: Die CTLA-4-Blockade kann Fehl- und Frühgeburten fördern, und IgG1 geht über die Plazenta. Während der Behandlung zuverlässig verhüten; in Kombination mit Nivolumab bis 5 Monate nach der letzten Dosis.",
+  "stillzeit": "Während der Behandlung nicht stillen (ärztliche Abwägung).",
+  "hinweise": [
+    "Durchfall, Blut im Stuhl, Bauchschmerzen, Gelbsucht, starke Kopfschmerzen, Sehstörungen oder starke Müdigkeit sofort melden – auch Monate nach Therapieende.",
+    "Den Patientenausweis immer bei sich tragen und allen Ärztinnen und Ärzten zeigen.",
+    "Leber- und Schilddrüsenwerte sowie Hormone der Hirnanhangsdrüse werden regelmässig kontrolliert.",
+    "Kortison nicht eigenmächtig beginnen oder absetzen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,166 @@
+{
+  "id": "maraviroc",
+  "name": "Maraviroc",
+  "synonyme": [
+    "MVC"
+  ],
+  "atc": [
+    "J05AX09"
+  ],
+  "klasse": "Antiretrovirales Mittel; CCR5-Korezeptor-Antagonist (Entry-Inhibitor)",
+  "kurz": "HIV-Mittel, das das Eindringen des Virus über den CCR5-Rezeptor in Abwehrzellen blockiert; wirkt nur bei CCR5-tropem HI-Virus.",
+  "gruppen": [
+    "cyp3a4-substrate-empfindlich",
+    "hepatotoxisch",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Celsentri"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei vorbehandelten Patientinnen und Patienten, in Kombination mit anderen HIV-Mitteln – nur wenn ausschliesslich CCR5-trope Viren nachgewiesen sind (Tropismus-Test)",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass das HI-Virus in bestimmte Abwehrzellen eindringen kann. Maraviroc bindet selektiv an den menschlichen Chemokin-Rezeptor CCR5 auf der Oberfläche von CD4-Zellen. Dadurch kann das Virus-Hüllprotein gp120 nicht mehr an diesen Korezeptor andocken, und CCR5-trope HIV-1-Viren können nicht mit der Zelle verschmelzen. Gegen Viren, die den Korezeptor CXCR4 benutzen (CXCR4-trope oder dual/gemischt-trope Viren), wirkt Maraviroc nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Erdnuss oder Soja (die Filmtabletten enthalten Sojalecithin)",
+      "ids": [
+        "erdnuss-sojaallergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen, chronische Hepatitis B oder C: Leberschäden mit allergischen Zeichen wurden berichtet – Leberwerte überwachen",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion, besonders zusammen mit starken CYP3A4-Hemmern (Dosisanpassung, Risiko für Blutdruckabfall beim Aufstehen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neigung zu tiefem Blutdruck oder Einnahme blutdrucksenkender Mittel (Schwindel beim Aufstehen, orthostatische Hypotonie)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder erhöhtes Herz-Kreislauf-Risiko (Herzinfarkte und Durchblutungsstörungen des Herzens unter Behandlung beobachtet)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutions-Syndrom: zu Therapiebeginn können Entzündungsreaktionen auf bisher unbemerkte Infektionen auftreten",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer, z. B. geboostete HIV-Proteasehemmer, Cobicistat, Clarithromycin, Itraconazol",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "cobicistat",
+        "ritonavir"
+      ],
+      "effekt": "Maraviroc-Spiegel steigt stark an – Dosis muss ärztlich reduziert werden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren, z. B. Rifampicin, Carbamazepin, Phenytoin, Efavirenz, Etravirin",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "efavirenz",
+        "etravirin"
+      ],
+      "effekt": "Maraviroc-Spiegel sinkt – Gefahr von Wirkungsverlust und Resistenz; ohne gleichzeitigen starken Hemmer ist eine höhere Dosis nötig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "effekt": "Deutlich tiefere Maraviroc-Spiegel mit Gefahr von Therapieversagen und Resistenz – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Blutdruckabfall beim Aufstehen und Schwindel – Vorsicht, besonders bei eingeschränkter Nierenfunktion.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer, z. B. Fluconazol",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Maraviroc-Spiegel kann ansteigen – mit Vorsicht anwenden, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Appetitlosigkeit",
+      "Depression, Schlaflosigkeit",
+      "Schwindel, Kribbeln (Parästhesien), Geschmacksstörungen, Schläfrigkeit",
+      "Magen-Darm-Beschwerden (Übelkeit, Bauchschmerzen, Blähungen, Verstopfung, Verdauungsbeschwerden)",
+      "Hautausschlag",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Schwäche (Asthenie)"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle",
+      "Herzinfarkt, Durchblutungsstörung des Herzmuskels (Myokardischämie)",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Muskelentzündung (Myositis), erhöhte CK im Blut",
+      "Nierenversagen, Eiweiss im Urin",
+      "Erhöhtes Bilirubin"
+    ],
+    "selten": [
+      "Angina pectoris (Brustenge)",
+      "Panzytopenie, Granulozytopenie (starke Verminderung von Blutzellen)",
+      "Toxische Hepatitis, Leberversagen",
+      "Stevens-Johnson-Syndrom (schwere Hautreaktion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Toxische epidermale Nekrolyse und andere schwere Überempfindlichkeitsreaktionen"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen beim Menschen sind begrenzt; Anwendung nur, wenn der Nutzen das mögliche Risiko überwiegt. Die HIV-Therapie in der Schwangerschaft legt eine spezialisierte Fachperson fest.",
+  "stillzeit": "Ob Maraviroc in die Muttermilch übergeht, ist nicht bekannt. Frauen mit HIV wird in der Regel vom Stillen abgeraten; das Vorgehen mit der behandelnden Fachperson besprechen.",
+  "hinweise": [
+    "Vor Beginn muss ein Tropismus-Test zeigen, dass nur CCR5-trope Viren vorliegen.",
+    "Kann Schwindel verursachen – Vorsicht beim Autofahren und beim raschen Aufstehen.",
+    "Bei Gelbsucht, dunklem Urin, Ausschlag oder Fieber sofort ärztliche Hilfe suchen (mögliche Leberschädigung).",
+    "Vor der Einnahme neuer Medikamente, auch pflanzlicher wie Johanniskraut, ärztlich oder in der Apotheke nachfragen."
+  ],
+  "stand": "2026-10"
+}

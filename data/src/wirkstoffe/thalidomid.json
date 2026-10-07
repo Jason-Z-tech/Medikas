@@ -1,0 +1,226 @@
+{
+  "id": "thalidomid",
+  "name": "Thalidomid",
+  "synonyme": [
+    "Thalidomide",
+    "Thalidomidum"
+  ],
+  "atc": [
+    "L04AX02"
+  ],
+  "klasse": "Immunmodulator (IMiD, Cereblon-Modulator)",
+  "kurz": "Immunmodulierendes Krebsmedikament gegen das multiple Myelom; stark fruchtschädigend, nur mit strengem Schwangerschaftsverhütungsprogramm.",
+  "gruppen": [
+    "teratogen",
+    "myelosuppressiv",
+    "thromboserisiko-erhoehend",
+    "neuropathie-ausloesend",
+    "zns-daempfend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Thalidomide Celgene"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Erstbehandlung des multiplen Myeloms bei Erwachsenen, für die eine Hochdosis-Chemotherapie nicht infrage kommt (in Kombination mit Melphalan und Prednison)",
+      "ids": [
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Myelomzellen und beeinflusst das Immunsystem. Thalidomid bindet an das Protein Cereblon, einen Teil eines Ubiquitin-Ligase-Komplexes, und führt so zum Abbau der Transkriptionsfaktoren Ikaros und Aiolos. Daraus ergeben sich eine direkte wachstumshemmende Wirkung auf Myelomzellen, eine Immunmodulation (u. a. Hemmung von TNF-alpha) und eine Hemmung der Gefässneubildung (Angiogenese). Die Bindung an Cereblon erklärt auch die schwere fruchtschädigende Wirkung.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter, ausser wenn alle Bedingungen des Schwangerschaftsverhütungsprogramms eingehalten werden",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Männer, die die vorgeschriebenen Verhütungsmassnahmen (Kondom) nicht einhalten können",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Venöse und arterielle Thromboembolien (Thrombose, Lungenembolie, Herzinfarkt, Schlaganfall), v. a. in den ersten 5 Monaten – Thromboseprophylaxe empfohlen",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Periphere Neuropathie (Nervenschäden mit Kribbeln, Taubheit, Schmerzen), auch vorbestehend – bei Symptomen Dosis anpassen oder absetzen",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Bradykardie, Synkopen und Herzrhythmusstörungen",
+      "ids": [
+        "bradykardie",
+        "synkope",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Neutropenie und Thrombozytopenie – regelmässige Blutbildkontrollen",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS) – sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Infektion (Reaktivierung möglich) und andere Infektionen",
+      "ids": [
+        "hepatitis-b",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hohe Tumorlast (Tumorlyse-Syndrom) und Risiko zweiter Krebserkrankungen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Schläfrigkeit und Schwindel: Fahrtüchtigkeit eingeschränkt",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Kombinierte hormonale Verhütungsmittel und andere Mittel mit Thromboserisiko (z. B. Östrogene, Tamoxifen)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:thromboserisiko-erhoehend"
+      ],
+      "effekt": "Zusätzlich erhöhtes Risiko für Thrombosen und Embolien – kombinierte Pille nicht empfohlen, andere sichere Verhütungsmethode wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Erythropoese-stimulierende Mittel (z. B. Epoetin, Darbepoetin)",
+      "ref": [
+        "epoetin-alfa",
+        "epoetin-beta",
+        "darbepoetin-alfa"
+      ],
+      "effekt": "Erhöhtes Thromboserisiko – nur mit Vorsicht und Thromboseprophylaxe kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol (z. B. Opioide, Benzodiazepine, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:antihistaminika-sedierend"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit und Benommenheit – Vorsicht, Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschlag-verlangsamende Mittel (z. B. Betablocker, Digoxin, Verapamil)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:betablocker",
+        "digoxin"
+      ],
+      "effekt": "Verstärkte Bradykardie, Synkopen möglich – Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nervenschädigende Mittel (z. B. Bortezomib, Vincristin)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend",
+        "bortezomib",
+        "vincristin"
+      ],
+      "effekt": "Höheres Risiko für periphere Neuropathie – Symptome engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dexamethason und andere systemische Glukokortikoide",
+      "ref": [
+        "dexamethason",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "In Kombination erhöhtes Thromboserisiko – Thromboseprophylaxe beachten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Leukopenie, Anämie und Thrombozytopenie (Blutbildveränderungen)",
+      "Periphere Neuropathie (Kribbeln, Taubheit, Schmerzen in Händen und Füssen)",
+      "Zittern (Tremor), Schwindel, Missempfindungen",
+      "Schläfrigkeit",
+      "Obstipation (Verstopfung)",
+      "Periphere Ödeme (Wassereinlagerungen in den Beinen)"
+    ],
+    "haeufig": [
+      "Lungenentzündung",
+      "Tiefe Venenthrombose und Lungenembolie",
+      "Herzschwäche und Bradykardie (langsamer Puls)",
+      "Depression, Verwirrtheit",
+      "Atemnot, interstitielle Lungenerkrankung",
+      "Erbrechen, Mundtrockenheit",
+      "Hautausschlag, trockene Haut",
+      "Akute myeloische Leukämie (zweite Krebserkrankung)"
+    ],
+    "gelegentlich": [
+      "Vorhofflimmern, AV-Block (Reizleitungsstörung)",
+      "Magen-Darm-Durchbruch (Perforation)",
+      "Myelodysplastisches Syndrom"
+    ],
+    "unbekannt": [
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Tumorlyse-Syndrom",
+      "Herzinfarkt und Schlaganfall",
+      "Reaktivierung einer Hepatitis B",
+      "Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)",
+      "Schilddrüsenunterfunktion",
+      "Hörstörungen",
+      "Allergische Reaktionen, Angioödem"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert: Thalidomid verursacht schwerste Fehlbildungen (z. B. der Gliedmassen) und Fehlgeburten. Frauen im gebärfähigen Alter müssen von 4 Wochen vor bis 4 Wochen nach der Behandlung zuverlässig verhüten und regelmässig Schwangerschaftstests machen.",
+  "stillzeit": "Während der Behandlung darf nicht gestillt werden.",
+  "hinweise": [
+    "Strenges Schwangerschaftsverhütungsprogramm: Frauen verhüten von 4 Wochen vor bis 4 Wochen nach der Therapie; Männer verwenden während und bis 7 Tage nach der Therapie Kondome (auch nach Vasektomie).",
+    "Während und bis 7 Tage nach der Behandlung kein Blut und keinen Samen spenden. Kapseln nicht öffnen, nicht weitergeben und unverbrauchte Kapseln in der Apotheke zurückgeben.",
+    "Wegen Schläfrigkeit am besten abends einnehmen; Fahrtüchtigkeit kann eingeschränkt sein, Alkohol meiden.",
+    "Bei Kribbeln oder Taubheit in Händen oder Füssen, Atemnot, Brustschmerzen oder geschwollenen Beinen sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

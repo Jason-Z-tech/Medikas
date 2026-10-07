@@ -1,0 +1,141 @@
+{
+  "id": "mirikizumab",
+  "name": "Mirikizumab",
+  "synonyme": [
+    "LY3074828"
+  ],
+  "atc": [
+    "L04AC24"
+  ],
+  "klasse": "Immunsuppressivum; monoklonaler Antikörper gegen Interleukin-23 (p19-Untereinheit)",
+  "kurz": "Biologikum gegen mittelschwere bis schwere Colitis ulcerosa (chronische Dickdarmentzündung); hemmt den Botenstoff Interleukin-23.",
+  "gruppen": [
+    "interleukin-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Omvoh"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung",
+    "Injektionslösung im Fertigpen (unter die Haut)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive Colitis ulcerosa bei Erwachsenen, wenn konventionelle Therapie oder ein Biologikum ungenügend wirkt, nicht mehr wirkt oder nicht vertragen wird",
+      "ids": [
+        "colitis-ulcerosa"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beruhigt die Entzündung der Darmschleimhaut, indem es einen zentralen Entzündungsbotenstoff ausschaltet. Mirikizumab ist ein humanisierter monoklonaler IgG4-Antikörper, der an die p19-Untereinheit von Interleukin-23 bindet und so dessen Bindung an den IL-23-Rezeptor verhindert. Dadurch werden die IL-23-abhängige Aktivierung von Th17-Zellen und die Freisetzung weiterer Entzündungsbotenstoffe gehemmt. Die Behandlung beginnt mit Infusionen und wird mit Spritzen unter die Haut fortgesetzt.",
+  "kontraindikationen": [
+    {
+      "text": "Klinisch relevante aktive Infektionen (z. B. aktive Tuberkulose)",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Chronische oder wiederkehrende Infektionen: sorgfältig abwägen; bei schwerer Infektion pausieren",
+      "ids": [
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Tuberkulose: vor Beginn auf latente Tuberkulose untersuchen und ggf. behandeln",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Leber: Anstieg der Leberwerte und arzneimittelbedingte Leberschädigung möglich – Leberwerte vor Beginn und in den ersten Behandlungsmonaten kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen, auch während der Infusion, möglich",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Keine Lebendimpfstoffe während der Behandlung; Impfungen möglichst vor Beginn vervollständigen",
+      "ids": [
+        "impfung",
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Biologika und JAK-Hemmer (z. B. TNF-alpha-Hemmer, Vedolizumab, Tofacitinib)",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:jak-hemmer"
+      ],
+      "effekt": "Kombination nicht untersucht; mehr Infektionen möglich – nur nach ärztlicher Abwägung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thiopurine, Methotrexat und Glukokortikoide",
+      "ref": [
+        "gruppe:thiopurine",
+        "methotrexat",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Kein Einfluss auf die Mirikizumab-Spiegel; Kombination möglich, das Infektionsrisiko kann zunehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [],
+      "effekt": "Totimpfstoffe können verabreicht werden; Impfungen möglichst vor Beginn vervollständigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Infektionen der oberen Atemwege",
+      "Kopfschmerzen",
+      "Hautausschlag",
+      "Gelenkschmerzen",
+      "Reaktionen an der Einstichstelle"
+    ],
+    "gelegentlich": [
+      "Gürtelrose (Herpes zoster)",
+      "Überempfindlichkeitsreaktionen während der Infusion",
+      "Erhöhte Leberwerte (ALT, AST)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Arzneimittelbedingte Leberschädigung"
+    ]
+  },
+  "schwangerschaft": "Vorsichtshalber vermeiden. Frauen im gebärfähigen Alter sollen während und mindestens 10 Wochen nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Nicht bekannt, ob Mirikizumab in die Muttermilch übergeht; über Stillen oder Behandlung entscheidet die Ärztin oder der Arzt.",
+  "hinweise": [
+    "Einleitung mit drei Infusionen im Abstand von 4 Wochen, danach alle 4 Wochen Injektion unter die Haut.",
+    "Bei Gelbfärbung von Haut oder Augen, dunklem Urin oder Oberbauchschmerzen ärztlich abklären (Leber).",
+    "Vor Beginn Tuberkulose-Test; keine Lebendimpfungen während der Behandlung."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "chlorambucil",
+  "name": "Chlorambucil",
+  "synonyme": [
+    "Chlorambucilum",
+    "CLB"
+  ],
+  "atc": [
+    "L01AA02"
+  ],
+  "klasse": "Zytostatikum; Alkylans (Stickstofflost-Derivat)",
+  "kurz": "Krebsmittel in Tablettenform, das das Erbgut von Tumorzellen schädigt; bei chronischer lymphatischer Leukämie und Lymphomen.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Leukeran"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische lymphatische Leukämie (CLL)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Maligne Lymphome: Hodgkin-Lymphom und Non-Hodgkin-Lymphome",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Makroglobulinämie Waldenström",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Krebszellen, indem es ihr Erbgut schädigt. Chlorambucil ist ein aromatisches Stickstofflost-Derivat und wirkt als bifunktionelles Alkylans: Es verknüpft die beiden DNA-Stränge miteinander (Quervernetzung) und verhindert so das Ablesen und Verdoppeln der DNA, was zum Zelltod führt. Auch der Hauptmetabolit Phenylessigsäure-Lost ist wirksam. Besonders empfindlich sind sich rasch teilende Zellen wie Lymphozyten und Knochenmarkzellen.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkschädigung oder kürzlich erfolgte Strahlen- oder Chemotherapie (verstärkte Blutbildveränderungen)",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Krampfanfälle in der Vorgeschichte, Kinder mit nephrotischem Syndrom und hohe Einzeldosen: erhöhtes Krampfrisiko",
+      "ids": [
+        "epilepsie",
+        "nephrotisches-syndrom",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisanpassung erwägen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: erhöhtes Risiko für Zweitkrebs, v. a. akute Leukämie",
+      "ids": [
+        "leukaemie",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse): sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung: während der Behandlung nicht impfen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Kinderwunsch: Unfruchtbarkeit möglich (fehlende Spermienbildung, Ausbleiben der Menstruation)",
+      "ids": [
+        "unfruchtbarkeit",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe (z. B. Gelbfieber, Masern-Mumps-Röteln, Varizellen)",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren, generalisierten Impfvirus-Infektion – während der Behandlung nicht anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Knochenmark-hemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild engmaschig kontrollieren, Dosen anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mittel, die die Krampfschwelle senken (z. B. Bupropion, Tramadol, Clozapin)",
+      "ref": [
+        "gruppe:krampfschwellensenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immunsuppressiva (z. B. Ciclosporin, Glukokortikoide in hoher Dosis)",
+      "ref": [
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Verstärkte Abwehrschwäche mit erhöhtem Infektionsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Totimpfstoffe (z. B. Grippe- oder Pneumokokken-Impfstoff)",
+      "ref": [
+        "influenza-impfstoff-inaktiviert",
+        "pneumokokken-konjugatimpfstoff"
+      ],
+      "effekt": "Schwächere Impfantwort; Impfungen möglichst vor Therapiebeginn planen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung: Leukopenie, Neutropenie (Mangel an weissen Blutkörperchen), Thrombozytopenie (Mangel an Blutplättchen), Panzytopenie"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Mundgeschwüre",
+      "Krampfanfälle bei Kindern mit nephrotischem Syndrom",
+      "Akute Leukämie und Myelodysplasie als Zweiterkrankung (v. a. nach Langzeitbehandlung)"
+    ],
+    "gelegentlich": [
+      "Hautausschlag"
+    ],
+    "selten": [
+      "Allergische Reaktionen (Nesselsucht, Angioödem)",
+      "Krampfanfälle bei Kindern und Erwachsenen",
+      "Leberschäden, Gelbsucht",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Arzneimittelfieber"
+    ],
+    "sehrSelten": [
+      "Bleibende Knochenmarkschädigung",
+      "Interstitielle Lungenfibrose und Lungenentzündung",
+      "Bewegungsstörungen (Zittern, Muskelzuckungen) und periphere Neuropathie (Nervenschäden)",
+      "Nicht-infektiöse Blasenentzündung"
+    ],
+    "unbekannt": [
+      "Unfruchtbarkeit (fehlende Spermienbildung, Ausbleiben der Menstruation)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden: Chlorambucil kann das ungeborene Kind schädigen. Frauen und Männer müssen während der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Tabletten ganz schlucken, nicht teilen oder zerkleinern; im Kühlschrank (2–8 °C) lagern.",
+    "Regelmässige Blutbildkontrollen sind nötig; bei Fieber, Halsschmerzen, Blutungen oder blauen Flecken sofort ärztliche Hilfe holen.",
+    "Keine Lebendimpfungen während der Behandlung.",
+    "Vor Behandlungsbeginn Möglichkeiten zum Fruchtbarkeitserhalt besprechen."
+  ],
+  "stand": "2026-10"
+}

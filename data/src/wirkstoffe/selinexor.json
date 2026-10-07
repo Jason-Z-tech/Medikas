@@ -1,0 +1,169 @@
+{
+  "id": "selinexor",
+  "name": "Selinexor",
+  "synonyme": [
+    "KPT-330"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01XX66"
+  ],
+  "klasse": "Selektiver Hemmer des nukleären Exports (XPO1-/Exportin-1-Hemmer)",
+  "kurz": "Tabletten gegen das multiple Myelom (Knochenmarkkrebs), kombiniert mit Dexamethason und teils Bortezomib.",
+  "gruppen": [
+    "myelosuppressiv",
+    "hyponatriaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Nexpovio"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiples Myelom nach mindestens einer Vortherapie, in Kombination mit Bortezomib und Dexamethason",
+      "ids": [
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Multiples Myelom nach mindestens vier Vortherapien mit Resistenz gegen Proteasom-Hemmer, Immunmodulatoren und Anti-CD38-Antikörper, in Kombination mit Dexamethason",
+      "ids": [
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hält tumorhemmende Eiweisse im Zellkern fest, sodass Myelomzellen absterben. Selinexor blockiert reversibel das Transportprotein Exportin 1 (XPO1), das Tumorsuppressor-Proteine wie p53 und andere wachstumsregulierende Eiweisse aus dem Zellkern ausschleust. Die Anreicherung dieser Proteine im Kern und die verminderte Bildung von Onkoproteinen (z. B. c-Myc, Cyclin D1) führen zu Zellzyklusstopp und Apoptose der Krebszellen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Thrombozytopenie mit Blutungsgefahr und Neutropenie; Blutbild regelmässig kontrollieren",
+      "ids": [
+        "thrombozytopenie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Hyponatriämie (Natriummangel); Natrium regelmässig kontrollieren",
+      "ids": [
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Übelkeit, Erbrechen, Durchfall, Appetit- und Gewichtsverlust: vorbeugend Mittel gegen Übelkeit, Flüssigkeitsmangel vermeiden",
+      "ids": [
+        "uebelkeit",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Neurologische Nebenwirkungen (Schwindel, Ohnmacht, Verwirrtheit, Bewusstseinsstörung)",
+      "ids": [
+        "schwindel",
+        "delir",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Infektionen, auch schwer (Lungenentzündung, Sepsis)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Grauer Star (Katarakt) kann neu auftreten oder fortschreiten",
+      "ids": [
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Tumorlyse-Syndrom bei hoher Tumorlast: ausreichend Flüssigkeit, Laborkontrollen",
+      "ids": []
+    },
+    {
+      "text": "Frauen und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkter Mangel an Blutplättchen und weissen Blutkörperchen – Blutbild eng kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Plättchenhemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko bei Thrombozytopenie – Nutzen und Risiko abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Natriumsenkende Mittel (z. B. Diuretika, SSRI, Carbamazepin)",
+      "ref": [
+        "gruppe:hyponatriaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Natriummangel – Natrium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die Schwindel oder Verwirrtheit verursachen, und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Benommenheit, Sturzgefahr – nur nach ärztlicher Rücksprache kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen), Neutropenie, Anämie",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung",
+      "Appetitlosigkeit, Gewichtsverlust",
+      "Müdigkeit, Schwäche, Fieber",
+      "Hyponatriämie (Natriummangel)",
+      "Schwindel, Geschmacksstörungen, Schlaflosigkeit",
+      "Infektionen der Atemwege, Lungenentzündung",
+      "Grauer Star (Katarakt), verschwommenes Sehen"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie, Blutungen",
+      "Sepsis (Blutvergiftung)",
+      "Flüssigkeitsmangel (Dehydratation), Kaliummangel, erhöhter Blutzucker",
+      "Verwirrtheit, Ohnmacht (Synkope)",
+      "Niedriger Blutdruck",
+      "Akutes Nierenversagen",
+      "Stürze"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Tumorlyse-Syndrom",
+      "Enzephalopathie (Hirnfunktionsstörung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen und Männer müssen während und mindestens 1 Woche nach der letzten Dosis zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 1 Woche nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Vorbeugend die verordneten Mittel gegen Übelkeit einnehmen; ausreichend trinken und essen.",
+    "Tabletten ganz schlucken, nicht zerkleinern oder kauen.",
+    "Bei Schwindel oder Verwirrtheit kein Fahrzeug lenken und keine Maschinen bedienen.",
+    "Regelmässige Kontrolle von Blutbild, Natrium und Körpergewicht; bei Sehverschlechterung Augenkontrolle."
+  ],
+  "stand": "2026-10"
+}

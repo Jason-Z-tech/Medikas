@@ -1,0 +1,196 @@
+{
+  "id": "ritlecitinib",
+  "name": "Ritlecitinib",
+  "synonyme": [
+    "PF-06651600"
+  ],
+  "atc": [
+    "L04AF08"
+  ],
+  "klasse": "Immunsuppressivum; Kinasehemmer (JAK3 und TEC-Kinasen)",
+  "kurz": "Kapsel gegen schweren kreisrunden Haarausfall (Alopecia areata) ab 12 Jahren; hemmt die Enzyme JAK3 und TEC-Kinasen.",
+  "gruppen": [
+    "jak-hemmer",
+    "immunsuppressiv",
+    "maessige-cyp3a4-hemmer",
+    "cyp1a2-hemmer",
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Litfulo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Schwere Alopecia areata (kreisrunder Haarausfall) bei Erwachsenen und Jugendlichen ab 12 Jahren",
+      "ids": [
+        "haarausfall"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Immunzellen, die bei Alopecia areata die Haarwurzeln angreifen. Ritlecitinib hemmt irreversibel die Januskinase 3 (JAK3) sowie Kinasen der TEC-Familie, indem es fest an einen Cysteinrest bindet, den JAK1, JAK2 und TYK2 nicht besitzen. Dadurch werden die Signalwege von Zytokinen wie Interleukin-15 sowie die Aktivität zytotoxischer T- und NK-Zellen gedämpft, die den Haarfollikel schädigen.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive schwere Infektionen, einschliesslich Tuberkulose",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Personen ab 65 Jahren, aktuelle oder frühere Langzeitraucher und Personen mit Herz-Kreislauf- oder Krebsrisikofaktoren: nur, wenn keine geeignete Alternative besteht (Risiken der JAK-Hemmer)",
+      "ids": [
+        "aeltere-patienten",
+        "rauchen",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Lungenembolien in der Vorgeschichte oder Risikofaktoren dafür",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Infektionen inkl. Gürtelrose: vor Beginn auf Tuberkulose und Hepatitis B/C untersuchen",
+      "ids": [
+        "infektanfaelligkeit",
+        "herpes",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Blutbild: nicht beginnen bei tiefen Lymphozyten oder Blutplättchen; nach 4 Wochen und danach regelmässig kontrollieren",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen, inkl. heller Hautkrebs: regelmässige Hautkontrollen",
+      "ids": [
+        "krebs",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Leberwerte und CK (Muskelenzym) kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Keine Lebendimpfstoffe während der Behandlung; Impfungen möglichst vor Beginn vervollständigen",
+      "ids": [
+        "impfung",
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Senken die Ritlecitinib-Spiegel – Wirkverlust; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Biologika, andere JAK-Hemmer und starke Immunsuppressiva (z. B. Azathioprin, Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer",
+        "gruppe:jak-hemmer",
+        "azathioprin",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Additive Immunsuppression mit erhöhtem Infektionsrisiko – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während oder kurz vor der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Simvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Ritlecitinib hemmt CYP3A4 mässig – Spiegel dieser Mittel steigen; Vorsicht, Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Substrate (z. B. Theophyllin, Tizanidin, Clozapin)",
+      "ref": [
+        "gruppe:cyp1a2-substrate"
+      ],
+      "effekt": "Ritlecitinib hemmt CYP1A2 – Spiegel dieser Mittel steigen; Vorsicht, Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Durchfall",
+      "Akne",
+      "Infektionen der oberen Atemwege",
+      "Nesselsucht, Hautausschlag",
+      "Haarbalgentzündung (Follikulitis)",
+      "Schwindel",
+      "Gürtelrose (Herpes zoster)",
+      "Erhöhte CK (Muskelenzym)"
+    ],
+    "gelegentlich": [
+      "Verminderung von Blutplättchen und Lymphozyten",
+      "Erhöhte Leberwerte (ALT, AST)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Thrombosen und Lungenembolie",
+      "Bösartige Erkrankungen, inkl. heller Hautkrebs",
+      "Schwere und opportunistische Infektionen"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter müssen während und bis 1 Monat nach der letzten Dosis zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Einmal täglich unabhängig von den Mahlzeiten einnehmen; Kapseln ganz schlucken.",
+    "Blutbild nach 4 Wochen und danach regelmässig; Leberwerte und Haut kontrollieren lassen.",
+    "Bei plötzlicher Atemnot, Brustschmerzen oder einem geschwollenen, schmerzhaften Bein sofort ärztliche Hilfe holen.",
+    "Keine Lebendimpfungen; Impfungen möglichst vor Beginn nachholen."
+  ],
+  "stand": "2026-10"
+}

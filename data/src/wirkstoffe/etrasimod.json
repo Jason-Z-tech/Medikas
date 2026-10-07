@@ -1,0 +1,228 @@
+{
+  "id": "etrasimod",
+  "name": "Etrasimod",
+  "synonyme": [
+    "APD334"
+  ],
+  "atc": [
+    "L04AE05"
+  ],
+  "klasse": "Immunmodulator; Sphingosin-1-Phosphat-(S1P-)Rezeptor-Modulator",
+  "kurz": "Tablette gegen mittelschwere bis schwere Colitis ulcerosa; hält Abwehrzellen in den Lymphknoten zurück (S1P-Modulator).",
+  "gruppen": [
+    "s1p-modulatoren",
+    "immunsuppressiv",
+    "bradykardisierend",
+    "blutdrucksteigernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Velsipity"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive Colitis ulcerosa, wenn konventionelle Therapie oder ein Biologikum ungenügend wirkt, nicht mehr wirkt oder nicht vertragen wird",
+      "ids": [
+        "colitis-ulcerosa"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass bestimmte Abwehrzellen aus den Lymphknoten in die entzündete Darmschleimhaut wandern. Etrasimod bindet an die Sphingosin-1-Phosphat-Rezeptoren S1P1, S1P4 und S1P5 und bewirkt die Internalisierung von S1P1 auf Lymphozyten. Die Lymphozytenzahl im Blut sinkt dadurch etwa um die Hälfte und erholt sich nach dem Absetzen innerhalb weniger Wochen.",
+  "kontraindikationen": [
+    {
+      "text": "Immundefizienz",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Herzinfarkt, instabile Angina pectoris, Schlaganfall/TIA, dekompensierte Herzinsuffizienz mit Spitalaufenthalt oder Herzinsuffizienz NYHA III/IV in den letzten 6 Monaten",
+      "ids": [
+        "herzinfarkt",
+        "angina-pectoris",
+        "schlaganfall",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "AV-Block 2. Grades Typ Mobitz II, AV-Block 3. Grades, sinuatrialer Block oder Sick-Sinus-Syndrom ohne Herzschrittmacher",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom"
+      ]
+    },
+    {
+      "text": "Schwere aktive Infektionen und aktive chronische Infektionen (z. B. Hepatitis, Tuberkulose)",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Aktive Krebserkrankungen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft sowie Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Behandlungsbeginn: Pulsverlangsamung und AV-Block möglich; EKG vor Beginn, bei Herzkrankheiten Überwachung nach der ersten Dosis",
+      "ids": [
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Infektionen inkl. Herpes zoster und PML; Lymphozytenzahl und Varizellen-Immunität vor Beginn prüfen",
+      "ids": [
+        "infektanfaelligkeit",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Makulaödem: Augenuntersuchung bei Diabetes, Uveitis, Netzhauterkrankung oder Sehstörungen",
+      "ids": [
+        "makuladegeneration",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Leberwerte vor Beginn und regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hautkrebs: regelmässige Hautkontrollen und Sonnenschutz",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Blutdruck regelmässig kontrollieren (Anstieg möglich)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere Atemwegserkrankungen (Abnahme der Lungenfunktion möglich)",
+      "ids": [
+        "copd",
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Mittel, die mehrere Abbauenzyme (CYP2C8, CYP2C9, CYP3A4) mässig bis stark hemmen, z. B. Fluconazol",
+      "ref": [
+        "fluconazol"
+      ],
+      "effekt": "Etrasimod-Spiegel steigen deutlich – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin)",
+      "ref": [
+        "rifampicin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Etrasimod-Spiegel sinken deutlich – Wirkverlust; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiarrhythmika der Klasse Ia oder III und andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Nicht untersucht; Risiko für Rhythmusstörungen bei Pulsverlangsamung – nur nach kardiologischer Beurteilung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva und andere immunmodulierende Mittel (z. B. Biologika, JAK-Hemmer)",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:jak-hemmer",
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Verstärkte Immunsuppression – nicht kombinieren; beim Wechsel Auswaschzeiten beachten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Während und einige Wochen nach der Behandlung meiden – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker, Verapamil, Diltiazem und andere pulsverlangsamende Mittel",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "ivabradin",
+        "digoxin"
+      ],
+      "effekt": "Zusätzliche Pulsverlangsamung zu Beginn – Vorsicht, bei Betablockern nur bei stabiler Dosis beginnen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Harnwegsinfekte und Infektionen der unteren Atemwege",
+      "Lymphopenie (Mangel an Lymphozyten)",
+      "Kopfschmerzen, Schwindel",
+      "Sehstörungen",
+      "Pulsverlangsamung (Bradykardie)",
+      "Bluthochdruck",
+      "Erhöhtes Cholesterin",
+      "Erhöhte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Makulaödem (Schwellung der Netzhautmitte)",
+      "AV-Block 1. oder 2. Grades"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Gürtelrose und andere schwere Infektionen",
+      "PML (progressive multifokale Leukenzephalopathie)",
+      "Hautkrebs",
+      "PRES (posteriores reversibles Enzephalopathie-Syndrom)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter müssen während und mindestens 14 Tage nach dem Absetzen zuverlässig verhüten.",
+  "stillzeit": "Nicht stillen während der Behandlung.",
+  "hinweise": [
+    "Einmal täglich ohne einschleichende Dosierung; vor Beginn EKG, bei Herzkrankheiten Überwachung nach der ersten Dosis.",
+    "Blutbild, Leberwerte und Blutdruck regelmässig kontrollieren; bei Sehstörungen Augenuntersuchung.",
+    "Bei Fieber oder Infektzeichen ärztlich abklären lassen; keine Lebendimpfungen."
+  ],
+  "stand": "2026-10"
+}

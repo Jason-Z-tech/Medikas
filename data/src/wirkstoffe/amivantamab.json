@@ -1,0 +1,159 @@
+{
+  "id": "amivantamab",
+  "name": "Amivantamab",
+  "synonyme": [
+    "Amivantamab-vmjw",
+    "JNJ-61186372"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01FX18"
+  ],
+  "klasse": "Bispezifischer Antikörper (EGFR x MET)",
+  "kurz": "Krebsmittel gegen nicht-kleinzelligen Lungenkrebs mit bestimmten EGFR-Mutationen; blockiert zwei Wachstumssignale der Tumorzellen.",
+  "gruppen": [
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Rybrevant"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs (NSCLC) mit EGFR-Exon-19-Deletion oder Exon-21-L858R-Mutation als Erstbehandlung, in Kombination mit Lazertinib",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener NSCLC mit EGFR-Exon-19-Deletion oder L858R-Mutation nach Versagen eines EGFR-Tyrosinkinasehemmers, in Kombination mit Carboplatin und Pemetrexed",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener NSCLC mit aktivierender EGFR-Exon-20-Insertion: als Erstbehandlung mit Carboplatin und Pemetrexed oder allein nach platinhaltiger Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert zwei Wachstumssignale, auf die bestimmte Lungentumoren angewiesen sind. Amivantamab ist ein vollhumaner bispezifischer IgG1-Antikörper, der gleichzeitig an den EGF-Rezeptor (EGFR) und den MET-Rezeptor bindet. Er verhindert die Bindung der Wachstumsfaktoren, fördert den Abbau beider Rezeptoren und markiert die Tumorzellen für Immunzellen (ADCC, Trogozytose). Dadurch wirkt er auch bei EGFR-Veränderungen, gegen die Tyrosinkinasehemmer wenig ausrichten.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Infusionsbedingte Reaktionen, sehr häufig bei der ersten Gabe (deshalb auf zwei Tage verteilt): Prämedikation mit Antihistaminikum, Fiebermittel und Kortison",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung bzw. Pneumonitis; Vorgeschichte einer interstitiellen Lungenerkrankung",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Venöse Thromboembolien, v. a. in Kombination mit Lazertinib: in den ersten 4 Monaten vorbeugende Antikoagulation",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Haut- und Nagelreaktionen (akneartiger Ausschlag, Nagelbettentzündung): vorbeugende Hautpflege und Sonnenschutz",
+      "ids": [
+        "hautausschlag",
+        "akne"
+      ]
+    },
+    {
+      "text": "Augenbeschwerden (Hornhautentzündung, trockenes Auge, verschwommenes Sehen)",
+      "ids": [
+        "sehstoerung",
+        "trockenes-auge"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lazertinib (Kombinationspartner)",
+      "ref": [
+        "lazertinib"
+      ],
+      "effekt": "Venöse Thromboembolien sehr häufig – in den ersten 4 Monaten vorbeugend ein DOAK oder niedermolekulares Heparin; zudem mehr Haut-, Nagel- und Schleimhautreaktionen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thrombosefördernde Mittel (z. B. östrogenhaltige Verhütungsmittel, Tamoxifen)",
+      "ref": [
+        "gruppe:thromboserisiko-erhoehend"
+      ],
+      "effekt": "Zusätzliches Thromboserisiko, v. a. in Kombination mit Lazertinib – Nutzen und Risiko abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carboplatin und Pemetrexed (Kombinationspartner)",
+      "ref": [
+        "carboplatin",
+        "pemetrexed"
+      ],
+      "effekt": "Häufiger Neutropenie, Thrombozytopenie und Infektionen als unter Chemotherapie allein – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lichtempfindlich machende Mittel (z. B. Doxycyclin, Amiodaron)",
+      "ref": [
+        "gruppe:photosensibilisierend"
+      ],
+      "effekt": "Sonnenlicht kann Hautreaktionen verschlimmern – konsequenter Sonnenschutz während und 2 Monate nach der Behandlung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infusionsbedingte Reaktionen (v. a. bei der ersten Gabe)",
+      "Akneartiger Hautausschlag, trockene Haut, Juckreiz",
+      "Paronychie (Nagelbettentzündung)",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Hypoalbuminämie (Eiweissmangel im Blut), Ödeme (Wassereinlagerungen)",
+      "Übelkeit, Verstopfung, Appetitlosigkeit",
+      "Müdigkeit, Muskelschmerzen",
+      "Venöse Thromboembolien (in Kombination mit Lazertinib)"
+    ],
+    "haeufig": [
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Augenbeschwerden (trockenes Auge, Hornhautentzündung, verschwommenes Sehen, abnormes Wimpernwachstum)",
+      "Hypokaliämie, Hypomagnesiämie (Kalium-, Magnesiummangel)",
+      "Bauchschmerzen, Durchfall",
+      "Erhöhte Leberwerte"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kann aufgrund des Wirkmechanismus das Ungeborene schädigen; in der Schwangerschaft nicht anwenden. Frauen im gebärfähigen Alter verhüten während und 3 Monate nach der Behandlung.",
+  "stillzeit": "Während und 3 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Haut vorbeugend pflegen (alkoholfreie Feuchtigkeitscreme), Sonne meiden und Sonnenschutz verwenden – während und 2 Monate nach der Behandlung.",
+    "Neuer oder zunehmender Husten, Atemnot oder Fieber sofort melden (Lungenentzündung durch das Medikament).",
+    "Beinschwellung, Brustschmerzen oder plötzliche Atemnot sofort abklären lassen (Thrombose, Lungenembolie).",
+    "Die erste Dosis wird wegen häufiger Infusionsreaktionen auf zwei Tage verteilt."
+  ],
+  "stand": "2026-10"
+}

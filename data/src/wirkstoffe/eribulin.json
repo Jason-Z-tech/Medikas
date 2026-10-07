@@ -1,0 +1,181 @@
+{
+  "id": "eribulin",
+  "name": "Eribulin",
+  "synonyme": [
+    "Eribulin mesilate",
+    "Eribulinmesilat",
+    "E7389"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01XX41"
+  ],
+  "klasse": "Mikrotubuli-Hemmer (Halichondrin-B-Analogon); Zytostatikum",
+  "kurz": "Chemotherapie-Infusion bei fortgeschrittenem Brustkrebs nach Vorbehandlung und bei inoperablem Liposarkom.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Halaven"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter Brustkrebs, der nach Chemotherapie fortschreitet (Vorbehandlung u. a. mit Anthrazyklin und Taxan)",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Inoperables Liposarkom (Weichteilkrebs) nach Vorbehandlung mit einem Anthrazyklin",
+      "ids": [
+        "sarkom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass sich Krebszellen teilen. Eribulin ist ein synthetischer Abkömmling von Halichondrin B, einem Naturstoff aus Meeresschwämmen. Es hemmt das Wachstum der Mikrotubuli (Bestandteile des Zellskeletts) und bindet Tubulin in nicht funktionsfähigen Aggregaten. Dadurch wird der Spindelapparat gestört, die Zellen bleiben in der Teilung stecken (G2/M-Block) und sterben ab.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung, vor allem Neutropenie mit Infektionsgefahr; vor jeder Gabe Blutbild (nicht bei zu tiefen Neutrophilen- oder Thrombozytenwerten)",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Periphere Neuropathie (Nervenschädigung), auch vorbestehend: auf Taubheit und Kribbeln achten",
+      "ids": []
+    },
+    {
+      "text": "QT-Verlängerung: EKG bei Herzinsuffizienz, langsamem Puls, Elektrolytstörungen oder QT-verlängernden Mitteln; bei angeborenem Long-QT-Syndrom meiden",
+      "ids": [
+        "qt-verlaengerung",
+        "herzinsuffizienz",
+        "bradykardie",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen und Männer: zuverlässige Verhütung während und einige Monate nach der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "QT-verlängernde Mittel (z. B. Antiarrhythmika Klasse IA und III)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – EKG überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel verstärkt das QT-Risiko – Elektrolyte kontrollieren und ausgleichen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild eng kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Vincristin, Oxaliplatin, Bortezomib)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Verstärkte periphere Neuropathie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Eribulin hemmt CYP3A4 schwach – bei diesen Mitteln vorsichtshalber auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen), Leukopenie, Anämie",
+      "Periphere Neuropathie (Kribbeln, Taubheit in Händen und Füssen)",
+      "Haarausfall",
+      "Müdigkeit, Schwäche, Fieber",
+      "Übelkeit, Verstopfung, Durchfall, Erbrechen",
+      "Appetitlosigkeit, Gewichtsverlust",
+      "Gelenk-, Muskel- und Rückenschmerzen",
+      "Atemnot, Husten, Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie (Fieber bei Neutropenie), Thrombozytopenie",
+      "Infektionen (Harnwege, Lungenentzündung, Mundsoor)",
+      "Kalium- und Magnesiummangel",
+      "Mundschleimhautentzündung, Geschmacksstörungen",
+      "Schwindel, Schlaflosigkeit, Depression",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Hand-Fuss-Syndrom",
+      "Lungenembolie, Herzrasen"
+    ],
+    "gelegentlich": [
+      "Sepsis (Blutvergiftung)",
+      "Interstitielle Lungenerkrankung",
+      "Tiefe Venenthrombose",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Nierenversagen, Eiweiss oder Blut im Urin"
+    ],
+    "selten": [
+      "Disseminierte intravasale Gerinnung (lebensbedrohliche Gerinnungsstörung)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "QT-Verlängerung im EKG"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn eindeutig erforderlich (im Tierversuch fruchtschädigend). Frauen und Männer müssen während und noch einige Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Vor jeder Gabe wird das Blutbild kontrolliert; Fieber über 38 °C oder Infektzeichen sofort melden.",
+    "Kribbeln oder Taubheit in Händen und Füssen melden (Dosisanpassung möglich).",
+    "Haarausfall ist häufig und meist vorübergehend."
+  ],
+  "stand": "2026-10"
+}

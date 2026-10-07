@@ -1,0 +1,172 @@
+{
+  "id": "ceftazidim-avibactam",
+  "name": "Ceftazidim + Avibactam",
+  "synonyme": [
+    "Ceftazidim/Avibactam",
+    "Ceftazidime-avibactam"
+  ],
+  "kombinationAus": [
+    "ceftazidim"
+  ],
+  "atc": [
+    "J01DD52"
+  ],
+  "klasse": "Cephalosporin der 3. Generation mit Betalaktamase-Hemmer",
+  "kurz": "Reserve-Antibiotikum als Infusion im Spital gegen schwere Infektionen durch resistente gramnegative Bakterien.",
+  "gruppen": [
+    "cephalosporine"
+  ],
+  "handelsnamen": [
+    "Zavicefta"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver für ein Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Komplizierte Infektionen im Bauchraum (zusammen mit Metronidazol)",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Komplizierte Harnwegsinfektionen einschliesslich Nierenbeckenentzündung",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Im Spital erworbene Lungenentzündung, auch unter Beatmung",
+      "ids": [
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Infektionen durch aerobe gramnegative Bakterien bei begrenzten Behandlungsmöglichkeiten (z. B. carbapenemresistente Keime)",
+      "ids": [
+        "resistente-keime",
+        "bakterielle-infektion"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, auch solche, die gegen viele andere Antibiotika resistent sind. Ceftazidim hemmt als Cephalosporin die Penicillin-bindenden Proteine und damit den Aufbau der bakteriellen Zellwand. Avibactam hat keine eigene antibakterielle Wirkung, sondern blockiert Betalaktamasen, mit denen Bakterien Ceftazidim zerstören (ESBL, AmpC sowie KPC- und OXA-48-Carbapenemasen). Gegen Metallo-Betalaktamasen (z. B. NDM, VIM) wirkt die Kombination nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Cephalosporine",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Überempfindlichkeitsreaktion (z. B. Anaphylaxie, schwere Hautreaktion) auf andere Betalaktam-Antibiotika (Penicilline, Carbapeneme, Monobactame)",
+      "ids": [
+        "penicillinallergie",
+        "anaphylaxie",
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei zu hohen Spiegeln neurologische Störungen bis Krampfanfälle möglich",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichtere Allergie auf Penicilline oder andere Betalaktame in der Vorgeschichte",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Schwerer Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Natriumarme Diät (Natriumgehalt der Infusion beachten)",
+      "ids": [
+        "natriumarme-diaet"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, starke Diuretika wie Furosemid)",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:schleifendiuretika",
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Hohe Cephalosporin-Dosen zusammen mit diesen Mitteln können die Niere schädigen – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Chloramphenicol",
+      "ref": [
+        "chloramphenicol"
+      ],
+      "effekt": "Hebt im Laborversuch die Wirkung von Ceftazidim auf – Kombination vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Hemmt die Ausscheidung von Avibactam – gleichzeitige Gabe nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Antibiotika können die blutverdünnende Wirkung verstärken – INR kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Positiver direkter Coombs-Test (Laborbefund)"
+    ],
+    "haeufig": [
+      "Pilzinfektionen (Mund, Scheide)",
+      "Durchfall, Bauchschmerzen, Übelkeit, Erbrechen",
+      "Kopfschmerzen, Schwindel",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Eosinophilie, Thrombozytose oder Thrombozytopenie",
+      "Venenentzündung oder Thrombose an der Infusionsstelle",
+      "Fieber"
+    ],
+    "gelegentlich": [
+      "Clostridioides-difficile-Kolitis (schwere Darmentzündung)",
+      "Leukopenie, Neutropenie",
+      "Kribbeln (Parästhesien), Geschmacksstörungen",
+      "Erhöhtes Kreatinin, akute Nierenschädigung"
+    ],
+    "selten": [],
+    "sehrSelten": [
+      "Interstitielle Nephritis (Nierenentzündung)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie, Angioödem",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS",
+      "Agranulozytose, hämolytische Anämie",
+      "Gelbsucht"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; Tierversuche ohne Hinweis auf Schädigung. Nur anwenden, wenn der Nutzen das mögliche Risiko klar überwiegt.",
+  "stillzeit": "Ceftazidim geht in geringen Mengen in die Muttermilch über, für Avibactam ist es unbekannt. Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Wird im Spital als Infusion über 2 Stunden gegeben; die Dosis richtet sich nach der Nierenfunktion.",
+    "Starken oder blutigen Durchfall sofort melden, auch Wochen nach der Behandlung.",
+    "Kann den Coombs-Test positiv machen; vor Bluttransfusionen die Behandlung angeben."
+  ],
+  "stand": "2026-10"
+}

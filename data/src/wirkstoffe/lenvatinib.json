@@ -1,0 +1,213 @@
+{
+  "id": "lenvatinib",
+  "name": "Lenvatinib",
+  "synonyme": [
+    "Lenvatinibmesilat",
+    "E7080"
+  ],
+  "atc": [
+    "L01EX08"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Multikinase-Hemmer: VEGFR, FGFR, PDGFR-α, KIT, RET)",
+  "kurz": "Krebsmittel (Kapsel) gegen Schilddrüsen- und Leberzellkrebs sowie – kombiniert – gegen Nieren- und Gebärmutterschleimhautkrebs.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "qt-verlaengernd",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Lenvima"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortschreitendes, lokal fortgeschrittenes oder metastasiertes differenziertes Schilddrüsenkarzinom, das nicht auf Radiojod anspricht",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes oder nicht operierbares hepatozelluläres Karzinom (Leberzellkrebs) ohne vorherige systemische Therapie",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom: in Kombination mit Pembrolizumab als Erstbehandlung oder mit Everolimus nach einer gegen VEGF gerichteten Vortherapie",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes oder wiederkehrendes Endometriumkarzinom (Gebärmutterschleimhautkrebs) in Kombination mit Pembrolizumab nach einer platinhaltigen Vortherapie",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Bildung neuer Blutgefässe im Tumor und Wachstumssignale der Krebszellen. Lenvatinib blockiert die Rezeptor-Tyrosinkinasen VEGFR-1 bis -3, FGFR-1 bis -4, PDGFR-α sowie KIT und RET. Durch die zusätzliche FGFR-Hemmung unterscheidet es sich von anderen VEGF-Hemmern. Bei Nieren- und Gebärmutterschleimhautkrebs wird es mit dem Immuntherapeutikum Pembrolizumab bzw. mit Everolimus kombiniert.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Bluthochdruck: muss vor Beginn gut eingestellt sein; Blutdruck nach der ersten Woche und danach regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Eiweiss im Urin, eingeschränkte Nierenfunktion; Flüssigkeitsverlust durch Durchfall oder Erbrechen kann zu Nierenversagen führen",
+      "ids": [
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: Leberversagen und hepatische Enzephalopathie möglich, besonders bei Leberzellkrebs",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz oder verlängerte QT-Zeit",
+      "ids": [
+        "herzinsuffizienz",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Blutungen, besonders bei Tumoren nahe grosser Blutgefässe (z. B. Halsschlagader)",
+      "ids": [
+        "aktive-blutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Herzinfarkt oder Schlaganfall in den letzten 6 Monaten (Risiko arterieller Gefässverschlüsse)",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Geplante Operationen und Zahneingriffe: Wundheilungsstörungen und Kiefernekrose möglich",
+      "ids": [
+        "operation",
+        "kiefernekrose"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion und Calciummangel – regelmässige Kontrollen",
+      "ids": [
+        "hypothyreose",
+        "hypokalzaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die Kalium oder Magnesium senken (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytstörungen erhöhen das Risiko für QT-Verlängerung – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – Vorsicht, Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bisphosphonate und Denosumab",
+      "ref": [
+        "gruppe:bisphosphonate",
+        "denosumab"
+      ],
+      "effekt": "Höheres Risiko für Kiefernekrose – vorher zahnärztliche Kontrolle, invasive Zahneingriffe möglichst meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ob Lenvatinib die Verhütungswirkung abschwächt, ist nicht bekannt – zusätzlich eine Barrieremethode verwenden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bluthochdruck",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung",
+      "Appetitverlust, Gewichtsabnahme, Müdigkeit, Schwäche",
+      "Stomatitis, Mundtrockenheit, Geschmacksstörungen, Heiserkeit",
+      "Eiweiss im Urin (Proteinurie)",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Hand-Fuss-Syndrom, Hautausschlag, Haarausfall",
+      "Blutungen (z. B. Nasenbluten), Mangel an Blutplättchen, Kopfschmerzen, Gelenk- und Muskelschmerzen"
+    ],
+    "haeufig": [
+      "Herzinsuffizienz, Herzinfarkt, Abnahme der Herzpumpfunktion",
+      "QT-Verlängerung im EKG",
+      "Schlaganfall, Lungenembolie",
+      "Leberversagen, hepatische Enzephalopathie (v. a. bei Leberzellkrebs)",
+      "Nierenversagen, Flüssigkeitsmangel",
+      "Tiefes Calcium, Kalium und Magnesium",
+      "Analfisteln"
+    ],
+    "gelegentlich": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Transitorische ischämische Attacke (TIA)",
+      "Kiefernekrose (Absterben von Kieferknochen)",
+      "Nephrotisches Syndrom",
+      "Wundheilungsstörungen",
+      "Milzinfarkt"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Magen-Darm-Durchbruch (Perforation) und Fisteln",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Aneurysmen und Gefässwandeinrisse (Dissektionen)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit – kann das ungeborene Kind schädigen. Frauen müssen während der Behandlung und bis 1 Monat danach hochwirksam verhüten; bei hormonaler Verhütung zusätzlich eine Barrieremethode.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit mit oder ohne Mahlzeit; Kapseln unzerkaut schlucken oder in wenig Wasser bzw. Apfelsaft auflösen.",
+    "Blutdruck regelmässig messen; Urin (Eiweiss), Leber- und Schilddrüsenwerte werden regelmässig kontrolliert.",
+    "Durchfall früh behandeln und genug trinken, um Nierenschäden durch Flüssigkeitsverlust zu vermeiden.",
+    "Vor Operationen und Zahnbehandlungen nach ärztlicher Anweisung pausieren."
+  ],
+  "stand": "2026-10"
+}

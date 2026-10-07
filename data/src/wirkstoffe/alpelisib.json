@@ -1,0 +1,178 @@
+{
+  "id": "alpelisib",
+  "name": "Alpelisib",
+  "synonyme": [
+    "Alpelisibum",
+    "BYL719"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EM03"
+  ],
+  "klasse": "Proteinkinase-Hemmer (PI3K-alpha-Hemmer); Krebsmittel",
+  "kurz": "Krebsmittel zum Einnehmen gegen fortgeschrittenen hormonempfindlichen Brustkrebs mit PIK3CA-Mutation, zusammen mit Fulvestrant.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "hyperglykaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Piqray"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter hormonrezeptor-positiver, HER2-negativer Brustkrebs mit PIK3CA-Mutation nach Fortschreiten unter einer Hormontherapie, bei Frauen nach den Wechseljahren und bei Männern, zusammen mit Fulvestrant",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum von Brustkrebszellen, deren PI3K-Signalweg durch eine Mutation dauerhaft aktiv ist. Alpelisib hemmt selektiv die Alpha-Form der Phosphatidylinositol-3-Kinase (PI3Kα), deren Gen PIK3CA in etwa 40 % der hormonempfindlichen Brustkrebse mutiert ist. Die Hemmung verstärkt zudem die Wirkung der antihormonellen Therapie mit Fulvestrant. Weil PI3Kα auch die Insulinwirkung vermittelt, steigt der Blutzucker häufig an.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Diabetes oder Prädiabetes: Blutzucker steigt sehr häufig an, teils stark (Ketoazidose möglich); Blutzucker und HbA1c vor und während der Therapie kontrollieren",
+      "ids": [
+        "diabetes",
+        "diabetes-typ-2",
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Diabetes Typ 1 oder unkontrollierter Typ-2-Diabetes (nicht untersucht)",
+      "ids": [
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen in der Vorgeschichte (Stevens-Johnson-Syndrom, DRESS)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (Pneumonitis möglich)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Durchfall: kann schwer verlaufen und zu Flüssigkeitsmangel und Nierenversagen führen",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Behandlung mit Bisphosphonaten oder Denosumab (Kiefernekrose möglich)",
+      "ids": [
+        "kiefernekrose"
+      ]
+    },
+    {
+      "text": "Schwere allergische Reaktionen (Anaphylaxie, Angioödem)",
+      "ids": [
+        "anaphylaxie",
+        "angiooedem"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "BCRP-Hemmer (z. B. Eltrombopag, Lapatinib, Pantoprazol)",
+      "ref": [
+        "eltrombopag",
+        "lapatinib",
+        "pantoprazol"
+      ],
+      "effekt": "Alpelisib-Spiegel kann steigen – Kombination möglichst vermeiden, sonst auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bisphosphonate und Denosumab",
+      "ref": [
+        "gruppe:bisphosphonate",
+        "denosumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Kiefernekrose – vor Beginn zahnärztlich kontrollieren, auf Mundhygiene achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere blutzuckersteigernde Mittel (z. B. systemische Glukokortikoide)",
+      "ref": [
+        "gruppe:hyperglykaemie-ausloesend",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Blutzucker steigt zusätzlich – engmaschig messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C9-Substrate mit enger therapeutischer Breite (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Alpelisib kann deren Abbau beschleunigen – Wirkung bzw. INR kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Alpelisib-Spiegel kann sinken – Kombination möglichst vermeiden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Durchfall, Übelkeit, Erbrechen, Stomatitis",
+      "Appetitlosigkeit, Gewichtsabnahme, Geschmacksstörungen",
+      "Hautausschlag, Juckreiz, Haarausfall",
+      "Müdigkeit, Kopfschmerzen",
+      "Anämie, Lymphopenie (Mangel an Lymphozyten)",
+      "Erhöhte Kreatinin-, Lipase- und GGT-Werte",
+      "Hypokalzämie (Calciummangel)"
+    ],
+    "haeufig": [
+      "Harnwegsinfekte",
+      "Dehydratation (Flüssigkeitsmangel), Hypokaliämie",
+      "Pneumonitis (Lungenentzündung ohne Infektion)",
+      "Kiefernekrose (bei Bisphosphonat- oder Denosumab-Behandlung)",
+      "Akutes Nierenversagen",
+      "Überempfindlichkeitsreaktionen",
+      "Trockene Haut und Augen, verschwommenes Sehen",
+      "Bluthochdruck, Ödeme"
+    ],
+    "gelegentlich": [
+      "Diabetische Ketoazidose",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Stevens-Johnson-Syndrom, Erythema multiforme"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "DRESS (schwere Arzneimittelreaktion mit Ausschlag und Organbeteiligung)",
+      "Hyperglykämisches hyperosmolares Syndrom",
+      "Angioödem, Anaphylaxie",
+      "Kolitis (Darmentzündung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen und Männer mit Partnerin im gebärfähigen Alter müssen während und bis 1 Woche nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 1 Woche nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich unmittelbar nach einer Mahlzeit, immer zur gleichen Zeit einnehmen; Tabletten ganz schlucken.",
+    "Blutzucker regelmässig kontrollieren; starker Durst, häufiges Wasserlösen oder Verwirrtheit sofort melden.",
+    "Hautausschlag, Blasen, Atemnot oder anhaltender Durchfall umgehend ärztlich melden.",
+    "Vor Beginn zahnärztliche Kontrolle, besonders bei Behandlung mit Knochenschutzmitteln."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,218 @@
+{
+  "id": "trabectedin",
+  "name": "Trabectedin",
+  "synonyme": [
+    "Ecteinascidin 743",
+    "ET-743"
+  ],
+  "atc": [
+    "L01CX01"
+  ],
+  "klasse": "Zytostatikum (marines Alkaloid aus einer Seescheide, DNA-Binder)",
+  "kurz": "Krebsmittel aus einem Meeresorganismus als Infusion bei fortgeschrittenen Weichteilsarkomen und rückfälligem Eierstockkrebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "hepatotoxisch",
+    "myotoxisch",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Yondelis"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittene Weichteilsarkome nach Versagen von Anthrazyklinen und Ifosfamid oder wenn diese nicht geeignet sind",
+      "ids": [
+        "sarkom"
+      ]
+    },
+    {
+      "text": "Rückfall eines platinempfindlichen Eierstockkrebses, in Kombination mit pegyliertem liposomalem Doxorubicin",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stört die Erbsubstanz und die Genregulation von Krebszellen. Trabectedin bindet in der kleinen Furche der DNA und verbiegt die Doppelhelix. Dadurch werden Transkriptionsfaktoren und DNA-Reparaturmechanismen beeinträchtigt, was den Zellzyklus stört und zum Zelltod führt. Zusätzlich beeinflusst es Zellen der Tumorumgebung, etwa tumorassoziierte Makrophagen.",
+  "kontraindikationen": [
+    {
+      "text": "Gleichzeitige schwere oder nicht beherrschte Infektion",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Gelbfieberimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberfunktion: Behandlung nur bei ausreichenden Leberwerten, nicht bei erhöhtem Bilirubin; Leberwerte vor jeder Gabe kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (bei Kreatinin-Clearance unter 30 ml/min, in Kombination unter 60 ml/min nicht anwenden)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Knochenmarkhemmung: Blutbild vor jeder Gabe",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Muskelzerfall (Rhabdomyolyse): Kreatinkinase kontrollieren",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen und Vorbehandlung mit Anthrazyklinen (Abnahme der Herzleistung möglich)",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Kapillarlecksyndrom (Flüssigkeitsaustritt aus den Gefässen)",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Austritt neben die Vene (Paravasat): schwere Gewebeschäden – Gabe über einen zentralen Venenkatheter",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfstoff",
+      "ref": [
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Durch die Abwehrschwäche kann sich das abgeschwächte Impfvirus ungehindert vermehren – Gefahr einer lebensbedrohlichen Impfinfektion."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir, Aprepitant)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "aprepitant"
+      ],
+      "effekt": "Erhöhte Trabectedin-Spiegel – Kombination meiden; falls nötig engmaschig auf Nebenwirkungen überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Verminderte Spiegel und Wirkung – Kombination meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Die Aufnahme von Phenytoin kann vermindert sein – Gefahr von Krampfanfällen; Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Arzneimittel und Alkohol",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden – meiden bzw. Leberwerte engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine und andere muskelschädigende Mittel",
+      "ref": [
+        "gruppe:statine",
+        "gruppe:myotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelzerfall (Rhabdomyolyse) – Kreatinkinase kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Hemmer (z. B. Ciclosporin, Verapamil)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Verteilung und Ausscheidung von Trabectedin können verändert werden – Vorsicht.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Thrombozytopenie, Anämie, Leukopenie",
+      "Erhöhte Leberwerte (Transaminasen, alkalische Phosphatase) und Bilirubin",
+      "Übelkeit, Erbrechen, Verstopfung, Durchfall, Bauchschmerzen, Mundschleimhautentzündung",
+      "Appetitlosigkeit",
+      "Kopfschmerzen",
+      "Müdigkeit, Schwäche, Fieber, Ödeme"
+    ],
+    "haeufig": [
+      "Infektionen, febrile Neutropenie",
+      "Flüssigkeitsmangel, Hypokaliämie (Kaliummangel)",
+      "Periphere Neuropathie, Geschmacksstörungen, Schwindel",
+      "Tiefer Blutdruck, Hitzegefühl",
+      "Atemnot, Husten",
+      "Muskel-, Gelenk- und Rückenschmerzen, erhöhte Kreatinkinase (Muskelenzym)",
+      "Reaktionen an der Infusionsstelle",
+      "Schlaflosigkeit, Gewichtsabnahme"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Leberversagen",
+      "Kapillarlecksyndrom",
+      "Verminderte Pumpfunktion des Herzens, Herzinsuffizienz",
+      "Sepsis, septischer Schock",
+      "Gewebeuntergang bei Paravasat"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden; Trabectedin kann das Ungeborene schwer schädigen. Frauen und Männer müssen während der Behandlung und mehrere Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert; auch nach Behandlungsende einige Monate nicht stillen.",
+  "hinweise": [
+    "Vor jeder Infusion wird Dexamethason gegeben (Leberschutz, gegen Übelkeit).",
+    "Leberwerte, Kreatinkinase und Blutbild werden regelmässig kontrolliert; Muskelschmerzen, dunkler Urin oder Gelbfärbung der Haut sofort melden.",
+    "Alkohol meiden.",
+    "Die Gabe erfolgt in der Regel über einen zentralen Venenkatheter."
+  ],
+  "stand": "2026-10"
+}

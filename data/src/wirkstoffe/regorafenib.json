@@ -1,0 +1,211 @@
+{
+  "id": "regorafenib",
+  "name": "Regorafenib",
+  "synonyme": [
+    "BAY 73-4506"
+  ],
+  "atc": [
+    "L01EX05"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Multikinase-Hemmer: VEGFR, TIE-2, KIT, RET, RAF u. a.)",
+  "kurz": "Krebsmittel (Tablette) gegen fortgeschrittenen Darmkrebs, GIST und Leberzellkrebs nach anderen Vorbehandlungen.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "hepatotoxisch",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Stivarga"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter Darmkrebs (kolorektales Karzinom) nach Vorbehandlung mit den verfügbaren Standardtherapien oder wenn diese nicht geeignet sind",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Nicht operierbarer oder metastasierter gastrointestinaler Stromatumor (GIST) nach Versagen oder Unverträglichkeit von Imatinib und Sunitinib",
+      "ids": [
+        "sarkom"
+      ]
+    },
+    {
+      "text": "Hepatozelluläres Karzinom (Leberzellkrebs) nach Vorbehandlung mit Sorafenib",
+      "ids": [
+        "leberkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Tumoren und ihre Blutversorgung. Regorafenib blockiert zahlreiche Kinasen: Rezeptoren der Gefässneubildung (VEGFR-1 bis -3, TIE-2), krebsfördernde Kinasen (KIT, RET, RAF-1, BRAF) und Kinasen der Tumorumgebung (PDGFR, FGFR). Seine aktiven Metaboliten M-2 und M-5 tragen wesentlich zur Wirkung bei.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen: schwere, teils tödliche Leberschäden möglich – Leberwerte vor Beginn und in den ersten 2 Monaten mindestens alle 2 Wochen kontrollieren; bei schwerer Leberinsuffizienz nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Morbus Meulengracht (Gilbert-Syndrom): leichter Bilirubinanstieg möglich",
+      "ids": [
+        "morbus-meulengracht"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit: Herzischämie und Herzinfarkt möglich",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: vor Beginn einstellen und regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Geplante Operationen: Wundheilungsstörungen – vor grösseren Eingriffen nach ärztlicher Anweisung pausieren",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Aneurysma (Gefässaussackung) in der Vorgeschichte",
+      "ids": [
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Hand-Fuss-Hautreaktion, vor allem in den ersten Behandlungswochen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ketoconazol) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Veränderte Spiegel von Regorafenib und seinen aktiven Metaboliten – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Regorafenib-Spiegel sinkt – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Irinotecan",
+      "ref": [
+        "irinotecan"
+      ],
+      "effekt": "Regorafenib hemmt UGT1A1: höhere Spiegel von Irinotecan und seinem Wirkmetaboliten SN-38 – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "BCRP-Substrate (z. B. Rosuvastatin, Atorvastatin, Fluvastatin, Methotrexat)",
+      "ref": [
+        "rosuvastatin",
+        "atorvastatin",
+        "fluvastatin",
+        "methotrexat"
+      ],
+      "effekt": "Regorafenib hemmt den Transporter BCRP: deutlich höhere Spiegel (Rosuvastatin etwa 3,8-fach) – auf Nebenwirkungen (z. B. Muskelschmerzen) achten, Dosis allenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien, besonders Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; unter Vitamin-K-Antagonisten INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (z. B. Colestyramin, Colesevelam)",
+      "ref": [
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Können die Wirkstoffmenge vermindern (Unterbrechung des enterohepatischen Kreislaufs).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Antibiotika mit Wirkung auf die Darmflora (z. B. orales Neomycin)",
+      "ref": [],
+      "effekt": "Können die Spiegel der aktiven Metaboliten vermindern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Blutarmut, Mangel an Blutplättchen",
+      "Appetitverlust, Gewichtsabnahme, Müdigkeit, Schwäche, Fieber",
+      "Kopfschmerzen, Schmerzen",
+      "Blutungen, Bluthochdruck",
+      "Durchfall, Stomatitis (Entzündung der Mundschleimhaut), Heiserkeit",
+      "Hand-Fuss-Hautreaktion, Hautausschlag",
+      "Erhöhtes Bilirubin"
+    ],
+    "haeufig": [
+      "Mangel an weissen Blutkörperchen",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Elektrolytstörungen (tiefes Kalium, Phosphat, Calcium, Natrium, Magnesium), Flüssigkeitsmangel",
+      "Zittern, periphere Neuropathie (Kribbeln, Taubheit)",
+      "Geschmacksstörungen, Mundtrockenheit, Sodbrennen",
+      "Erhöhte Leberwerte",
+      "Haarausfall, trockene Haut",
+      "Eiweiss im Urin (Proteinurie)"
+    ],
+    "gelegentlich": [
+      "Schwere Leberschäden",
+      "Herzinfarkt, Durchblutungsstörungen des Herzmuskels",
+      "Hypertensive Krise (Blutdruckentgleisung)",
+      "Magen-Darm-Durchbruch (Perforation), Fisteln",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Erythema multiforme, Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Keratoakanthom, Plattenepithelkarzinom der Haut"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Aneurysmen und Gefässwandeinrisse (Dissektionen)"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nur bei zwingender Notwendigkeit. Frauen und Männer müssen während der Behandlung und bis 8 Wochen danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Täglich zur gleichen Zeit nach einer leichten, fettarmen Mahlzeit einnehmen; meist 3 Wochen Einnahme und 1 Woche Pause.",
+    "Keine Grapefruit, kein Johanniskraut.",
+    "Leberwerte und Blutdruck werden regelmässig kontrolliert; Gelbsucht, dunklen Urin oder Blutungen sofort melden.",
+    "Hände und Füsse pflegen (Feuchtigkeitscreme, bequeme Schuhe); Hautreaktionen früh melden."
+  ],
+  "stand": "2026-10"
+}

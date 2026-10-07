@@ -1,0 +1,182 @@
+{
+  "id": "entrectinib",
+  "name": "Entrectinib",
+  "synonyme": [
+    "RXDX-101"
+  ],
+  "atc": [
+    "L01EX14"
+  ],
+  "klasse": "Proteinkinase-Hemmer (TRK-, ROS1- und ALK-Hemmer)",
+  "kurz": "Krebsmittel (Kapsel) gegen solide Tumoren mit NTRK-Genfusion und gegen ROS1-positiven Lungenkrebs.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "qt-verlaengernd",
+    "kardiotoxisch",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Rozlytrek"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Solide Tumoren mit NTRK-Genfusion, lokal fortgeschritten oder metastasiert oder wenn eine Operation zu schweren Folgeschäden führen würde, ohne vorherige Behandlung mit einem TRK-Hemmer und ohne zufriedenstellende Alternativen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "ROS1-positiver fortgeschrittener nicht-kleinzelliger Lungenkrebs (NSCLC) ohne vorherige Behandlung mit einem ROS1-Hemmer",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert Wachstumssignale, die durch bestimmte Genfusionen im Tumor dauerhaft eingeschaltet sind. Entrectinib hemmt die Tyrosinkinasen TRKA, TRKB, TRKC, ROS1 und ALK, die bei NTRK- bzw. ROS1-Genfusionen das Tumorwachstum antreiben; ihre Hemmung führt zum Zelltod. Entrectinib gelangt gut ins Gehirn und wirkt auch bei Hirnmetastasen; der Hauptmetabolit M5 ist ebenfalls aktiv.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Herzinsuffizienz: Auftreten oder Verschlechterung möglich – auf Atemnot und Ödeme achten",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Risikofaktoren dafür",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Nervensystem: Gedächtnis-, Konzentrations- und Stimmungsstörungen, Schwindel, Schlafstörungen – Vorsicht beim Autofahren",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Knochenbrüche, auch ohne grössere Verletzung",
+      "ids": [
+        "osteoporose",
+        "knochenbruch"
+      ]
+    },
+    {
+      "text": "Hyperurikämie (erhöhte Harnsäure), Gicht – Harnsäure kontrollieren",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: Leberwerte vor Beginn und regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Sehstörungen",
+      "ids": [
+        "sehstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir, Fluconazol, Diltiazem) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Entrectinib-Spiegel steigt stark (mit Itraconazol etwa 6-fach) – vermeiden; wenn unvermeidbar, Dosis nach ärztlicher Anweisung reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Efavirenz) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Entrectinib-Spiegel sinkt stark – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungswirkung möglicherweise vermindert – zusätzlich eine Barrieremethode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Entrectinib hemmt CYP3A4 schwach – Spiegel dieser Mittel können steigen; Vorsicht.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Entrectinib hemmt P-Glykoprotein schwach – Spiegel können leicht steigen; Vorsicht.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Geschmacksstörungen, Schwindel, Kribbeln oder Missempfindungen",
+      "Gedächtnis- und Konzentrationsstörungen (kognitive Störungen)",
+      "Verstopfung, Durchfall, Übelkeit, Erbrechen",
+      "Müdigkeit, Ödeme, Fieber",
+      "Gewichtszunahme",
+      "Muskel- und Gelenkschmerzen",
+      "Blutarmut, erhöhte Leberwerte, erhöhtes Kreatinin",
+      "Husten, Atemnot, verschwommenes Sehen"
+    ],
+    "haeufig": [
+      "Herzinsuffizienz",
+      "QT-Verlängerung im EKG, Ohnmacht (Synkope)",
+      "Knochenbrüche",
+      "Stimmungsstörungen (Angst, Depression)",
+      "Lungenentzündung, Pleuraerguss",
+      "Hyperurikämie (erhöhte Harnsäure), Flüssigkeitsmangel",
+      "Lichtempfindlichkeit der Haut",
+      "Harnverhalt, Schluckbeschwerden"
+    ],
+    "gelegentlich": [
+      "Tumorlyse-Syndrom"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nur bei zwingender Notwendigkeit. Frauen müssen während der Behandlung und bis 5 Wochen danach, Männer mit Partnerin im gebärfähigen Alter bis 3 Monate danach zuverlässig verhüten; bei hormonaler Verhütung zusätzlich eine Barrieremethode.",
+  "stillzeit": "Während der Behandlung und bis 7 Tage nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich mit oder ohne Mahlzeit; Kapseln unzerkaut schlucken; keine Grapefruit, kein Johanniskraut.",
+    "Schwindel, Gedächtnisstörungen oder Ohnmacht können die Fahrtüchtigkeit beeinträchtigen.",
+    "Atemnot, Schwellungen oder rasche Gewichtszunahme melden (Herzinsuffizienz).",
+    "Sonnenschutz verwenden."
+  ],
+  "stand": "2026-10"
+}

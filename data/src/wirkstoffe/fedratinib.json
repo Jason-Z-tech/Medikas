@@ -1,0 +1,196 @@
+{
+  "id": "fedratinib",
+  "name": "Fedratinib",
+  "synonyme": [
+    "Fedratinibum",
+    "Fedratinib dihydrochloride",
+    "SAR302503"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EJ02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (JAK2-Hemmer); Krebsmittel",
+  "kurz": "JAK2-Hemmer zum Einnehmen gegen vergrösserte Milz und Beschwerden bei Myelofibrose, einer Knochenmarkkrankheit.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "jak-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "maessige-cyp3a4-hemmer",
+    "cyp2c19-hemmer",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Inrebic"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Vergrösserte Milz oder krankheitsbedingte Beschwerden bei primärer Myelofibrose oder Myelofibrose nach Polycythaemia vera bzw. essenzieller Thrombozythämie, ohne Vorbehandlung mit einem JAK-Hemmer oder nach Ruxolitinib",
+      "ids": [
+        "myeloproliferative-erkrankung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verkleinert die Milz und lindert Beschwerden wie Müdigkeit, Nachtschweiss und Juckreiz bei Myelofibrose. Fedratinib hemmt bevorzugt die Januskinase JAK2 (sowohl die normale als auch die mutierte Form JAK2V617F) sowie FLT3. Dadurch wird die übermässige Signalübertragung über den JAK-STAT-Weg gebremst, die bei Myelofibrose zur unkontrollierten Blutzellbildung und Entzündung führt.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Vitamin-B1-Mangel (Thiaminmangel): Gefahr einer Wernicke-Enzephalopathie; Thiamin vor und während der Behandlung kontrollieren und ersetzen",
+      "ids": [
+        "mangelernaehrung",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Blutarmut, Mangel an Blutplättchen oder weissen Blutkörperchen (Blutbild regelmässig kontrollieren)",
+      "ids": [
+        "anaemie",
+        "thrombozytopenie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Übelkeit, Erbrechen und Durchfall (vorbeugend behandeln)",
+      "ids": [
+        "uebelkeit",
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen; Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion (Dosisreduktion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Risikofaktoren, Raucher, Thrombosen in der Vorgeschichte (bei JAK-Hemmern mehr Herzinfarkte, Schlaganfälle und Thrombosen beobachtet)",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "rauchen",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Infektionen, auch Hepatitis B in der Vorgeschichte",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Erhöhte Amylase- und Lipasewerte, Pankreatitis",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Fedratinib-Spiegel steigt stark – Dosis reduzieren oder anderes Mittel wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gleichzeitige CYP3A4- und CYP2C19-Hemmer (z. B. Fluconazol, Fluvoxamin)",
+      "ref": [
+        "fluconazol",
+        "fluvoxamin"
+      ],
+      "effekt": "Fedratinib-Spiegel steigt stark – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Fedratinib-Spiegel sinkt, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Simvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Fedratinib hemmt CYP3A4 – Spiegel dieser Mittel steigen; Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19-Substrate (z. B. Omeprazol, Citalopram)",
+      "ref": [
+        "gruppe:cyp2c19-substrate"
+      ],
+      "effekt": "Fedratinib hemmt CYP2C19 – Spiegel dieser Mittel steigen; auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate (z. B. Metoprolol, Dextromethorphan)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Fedratinib hemmt CYP2D6 mässig – Spiegel dieser Mittel steigen; Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung",
+      "Anämie (Blutarmut), Thrombozytopenie (Mangel an Blutplättchen), Neutropenie",
+      "Harnwegsinfekte",
+      "Müdigkeit, Kopfschmerzen, Schwindel",
+      "Muskelkrämpfe",
+      "Erhöhte Leberwerte, erhöhte Lipase und Amylase",
+      "Erhöhte Nierenwerte (Kreatinin)"
+    ],
+    "haeufig": [
+      "Wernicke-Enzephalopathie (Hirnschädigung durch Vitamin-B1-Mangel)",
+      "Bluthochdruck",
+      "Blutungen",
+      "Knochen- und Gliederschmerzen",
+      "Gewichtszunahme",
+      "Dysurie (Schmerzen beim Wasserlösen)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Herzinsuffizienz",
+      "Thrombosen und Lungenembolie"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen müssen während und bis mindestens 1 Monat nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 1 Monat nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Vor jeder Einnahme gegen Übelkeit vorbeugen wie verordnet; Einnahme mit einer fettreichen Mahlzeit kann Übelkeit und Erbrechen vermindern.",
+    "Verwirrtheit, Gangunsicherheit, Gedächtnis- oder Sehstörungen sofort ärztlich melden (Verdacht auf Wernicke-Enzephalopathie).",
+    "Regelmässige Kontrollen: Thiamin (Vitamin B1), Blutbild, Leber-, Nieren-, Amylase- und Lipasewerte."
+  ],
+  "stand": "2026-10"
+}

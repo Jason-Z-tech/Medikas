@@ -1,0 +1,188 @@
+{
+  "id": "topotecan",
+  "name": "Topotecan",
+  "synonyme": [
+    "Topotecanhydrochlorid"
+  ],
+  "atc": [
+    "L01CE01"
+  ],
+  "klasse": "Topoisomerase-I-Hemmer (Camptothecin-Derivat); Zytostatikum",
+  "kurz": "Krebsmittel (Topoisomerase-I-Hemmer) als Infusion bei Eierstockkrebs, kleinzelligem Lungenkrebs und Gebärmutterhalskrebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Hycamtin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver bzw. Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter Eierstockkrebs nach Versagen einer Erst- oder Folgetherapie",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Rückfall eines kleinzelligen Lungenkrebses, wenn eine erneute Behandlung mit der Ersttherapie nicht geeignet ist",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Gebärmutterhalskrebs, der nach einer Bestrahlung wiederkehrt oder weit fortgeschritten ist, in Kombination mit Cisplatin",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Krebszellen ihre Erbsubstanz korrekt verdoppeln. Topotecan hemmt das Enzym Topoisomerase I, das bei der DNA-Verdopplung vorübergehende Einzelstrangbrüche setzt und wieder verschliesst. Topotecan stabilisiert den Komplex aus Enzym und gespaltener DNA; trifft die Replikationsgabel darauf, entstehen Doppelstrangbrüche, die zum Zelltod führen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Knochenmarkhemmung vor Beginn der ersten Behandlung (neutrophile Granulozyten unter 1'500/mm³ und/oder Blutplättchen unter 100'000/mm³)",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung: Blutbild vor jeder Gabe; Infektionen und Blutungen möglich",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Neutropenische Kolitis (Darmentzündung): bei Fieber, Bauchschmerzen und Durchfall sofort abklären",
+      "ids": [
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung, v. a. bei Lungenfibrose, Lungenkrebs, Bestrahlung des Brustkorbs oder lungenschädigenden Medikamenten",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosisanpassung; bei schwerer Einschränkung nicht empfohlen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cisplatin und andere Platinverbindungen",
+      "ref": [
+        "cisplatin",
+        "gruppe:platinderivate"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung; das Ausmass hängt vom zeitlichen Ablauf der Gaben ab.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Wachstumsfaktoren für weisse Blutkörperchen (z. B. Filgrastim)",
+      "ref": [
+        "filgrastim",
+        "pegfilgrastim",
+        "lipegfilgrastim"
+      ],
+      "effekt": "Erst 24 Stunden nach der letzten Topotecan-Gabe beginnen, sonst kann die Neutropenie länger dauern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lungenschädigende Arzneimittel (z. B. Bleomycin)",
+      "ref": [
+        "bleomycin"
+      ],
+      "effekt": "Erhöhtes Risiko für eine interstitielle Lungenerkrankung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Neutropenie, febrile Neutropenie, Thrombozytopenie, Anämie, Leukopenie",
+      "Appetitlosigkeit",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung, Bauchschmerzen",
+      "Mundschleimhautentzündung",
+      "Haarausfall",
+      "Fieber, Müdigkeit, Schwäche"
+    ],
+    "haeufig": [
+      "Sepsis",
+      "Panzytopenie (Mangel an allen Blutzellen)",
+      "Überempfindlichkeitsreaktionen inkl. Hautausschlag",
+      "Erhöhtes Bilirubin",
+      "Juckreiz",
+      "Unwohlsein"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Anaphylaxie, Angioödem, Nesselsucht",
+      "Interstitielle Lungenerkrankung"
+    ],
+    "sehrSelten": [
+      "Austritt neben die Vene (Paravasat) mit Gewebereaktion"
+    ],
+    "unbekannt": [
+      "Neutropenische Kolitis",
+      "Magen-Darm-Durchbruch (Perforation)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; im Tierversuch fruchtschädigend. Frauen und Männer müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Blutbild vor jeder Gabe; Fieber, Infektzeichen oder Blutungen sofort melden.",
+    "Neu auftretender Husten, Fieber oder Atemnot ärztlich abklären lassen.",
+    "Müdigkeit und Schwäche können die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

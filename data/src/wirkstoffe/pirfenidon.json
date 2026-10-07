@@ -1,0 +1,200 @@
+{
+  "id": "pirfenidon",
+  "name": "Pirfenidon",
+  "synonyme": [
+    "Pirfenidone"
+  ],
+  "atc": [
+    "L04AX05"
+  ],
+  "klasse": "Antifibrotikum (Pyridon-Derivat)",
+  "kurz": "Mittel gegen idiopathische Lungenfibrose; bremst die fortschreitende Vernarbung des Lungengewebes.",
+  "gruppen": [
+    "cyp1a2-substrate",
+    "photosensibilisierend",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Esbriet"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Idiopathische Lungenfibrose (IPF) bei Erwachsenen",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Fortschreiten der Vernarbung des Lungengewebes. Der genaue Wirkmechanismus ist nicht vollständig geklärt: Pirfenidon wirkt antifibrotisch und entzündungshemmend, vermindert die Bildung von Wachstumsfaktoren wie TGF-beta sowie die Vermehrung von Fibroblasten und die Kollagenbildung. Es verlangsamt den Rückgang der Lungenfunktion (forcierte Vitalkapazität), heilt die Fibrose aber nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Angioödem unter Pirfenidon in der Vorgeschichte",
+      "ids": [
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz oder terminale Lebererkrankung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min) oder Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhte Leberwerte und arzneimittelbedingte Leberschäden – Leberwerte vor Beginn, in den ersten 6 Monaten monatlich, danach alle 3 Monate kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit und Hautausschlag – direkte Sonne und Solarium meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Rauchen: senkt die Pirfenidon-Spiegel etwa um die Hälfte",
+      "ids": [
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Schwindel und Müdigkeit: Fahrtüchtigkeit kann eingeschränkt sein",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Appetitlosigkeit und Gewichtsverlust",
+      "ids": [
+        "untergewicht"
+      ]
+    },
+    {
+      "text": "Angioödem und Anaphylaxie – bei Schwellungen im Gesicht oder Atemnot sofort absetzen",
+      "ids": [
+        "angiooedem",
+        "anaphylaxie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Fluvoxamin",
+      "ref": [
+        "fluvoxamin"
+      ],
+      "grund": "Fluvoxamin hemmt CYP1A2 und weitere Abbauenzyme stark – die Pirfenidon-Spiegel steigen etwa auf das Vierfache, mit entsprechend mehr Nebenwirkungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Ciprofloxacin",
+      "ref": [
+        "ciprofloxacin"
+      ],
+      "effekt": "Hemmt CYP1A2 – Pirfenidon-Spiegel steigen deutlich; bei hohen Ciprofloxacin-Dosen Pirfenidon-Dosis reduzieren und Nebenwirkungen überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Amiodaron, Propafenon und andere CYP1A2-Hemmer",
+      "ref": [
+        "amiodaron",
+        "propafenon",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Höhere Pirfenidon-Spiegel – Kombination möglichst vermeiden, sonst eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin und andere starke Enzyminduktoren",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Pirfenidon-Spiegel sinken stark (ca. um die Hälfte), Wirkverlust möglich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lichtempfindlich machende Mittel (z. B. Tetracycline, Fluorchinolone, Amiodaron)",
+      "ref": [
+        "gruppe:photosensibilisierend"
+      ],
+      "effekt": "Mehr Photosensibilitätsreaktionen und Hautausschläge – möglichst meiden, konsequenter Sonnenschutz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Omeprazol",
+      "ref": [
+        "omeprazol"
+      ],
+      "effekt": "Mässiger CYP1A2-Induktor – theoretisch etwas tiefere Pirfenidon-Spiegel.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Durchfall, Dyspepsie (Verdauungsbeschwerden), Sodbrennen (Reflux)",
+      "Appetitlosigkeit und Gewichtsverlust",
+      "Hautausschlag",
+      "Müdigkeit",
+      "Kopfschmerzen, Schwindel",
+      "Schlaflosigkeit"
+    ],
+    "haeufig": [
+      "Lichtempfindlichkeitsreaktionen der Haut, Sonnenbrand",
+      "Juckreiz, Hautrötung, trockene Haut",
+      "Erhöhte Leberwerte (ALT, AST, GGT)",
+      "Erbrechen, Verstopfung, Bauchschmerzen, Blähungen",
+      "Geschmacksstörungen, Schläfrigkeit",
+      "Muskel- und Gelenkschmerzen",
+      "Infektionen der oberen Atemwege, Harnwegsinfekte",
+      "Hitzewallungen"
+    ],
+    "gelegentlich": [
+      "Arzneimittelbedingte Leberschädigung, Bilirubinanstieg mit erhöhten Leberwerten",
+      "Agranulozytose (starker Mangel an weissen Blutkörperchen)",
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge)",
+      "Hyponatriämie (Natriummangel)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)"
+    ]
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen; zur Vorsicht während der Schwangerschaft nicht anwenden.",
+  "stillzeit": "Geht im Tierversuch in die Milch über. Es muss entschieden werden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen – das vermindert Übelkeit und Schwindel.",
+    "Sonne und Solarium meiden; Sonnenschutz mit hohem UVA- und UVB-Schutz und schützende Kleidung tragen.",
+    "Leberwerte regelmässig kontrollieren lassen. Nicht rauchen, da Rauchen die Wirkung abschwächt.",
+    "Grapefruitsaft meiden (erhöht die Pirfenidon-Spiegel)."
+  ],
+  "stand": "2026-10"
+}

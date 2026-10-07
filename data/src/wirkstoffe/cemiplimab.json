@@ -1,0 +1,171 @@
+{
+  "id": "cemiplimab",
+  "name": "Cemiplimab",
+  "synonyme": [
+    "REGN2810"
+  ],
+  "atc": [
+    "L01FF06"
+  ],
+  "klasse": "Immun-Checkpoint-Hemmer (monoklonaler Antikörper gegen PD-1)",
+  "kurz": "Immuntherapie als Infusion bei fortgeschrittenem Plattenepithel- und Basalzellkarzinom der Haut sowie bei Lungenkrebs.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Libtayo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasiertes oder lokal fortgeschrittenes kutanes Plattenepithelkarzinom (heller Hautkrebs), wenn Operation oder Bestrahlung nicht infrage kommen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittenes oder metastasiertes Basalzellkarzinom nach Behandlung mit einem Hedgehog-Hemmer",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs ohne EGFR-, ALK- oder ROS1-Veränderung mit PD-L1-Expression: Erstbehandlung allein oder zusammen mit platinhaltiger Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, damit Abwehrzellen Krebszellen wieder bekämpfen. Cemiplimab ist ein humaner IgG4-Antikörper, der an den Rezeptor PD-1 auf T-Zellen bindet und dessen Aktivierung durch die Liganden PD-L1 und PD-L2 blockiert. Tumoren nutzen diese Liganden, um T-Zellen abzuschalten; die Blockade stellt die Immunantwort gegen den Tumor wieder her.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bestehende Autoimmunerkrankung – Verschlechterung möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "lupus",
+        "rheumatoide-arthritis",
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Lungenentzündung (Pneumonitis)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Darm-, Leber- und Nierenentzündung – Leber- und Nierenwerte regelmässig kontrollieren",
+      "ids": [
+        "durchfall",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hormondrüsen-Störungen (Schilddrüse, Nebenniere, Hirnanhangsdrüse) und Typ-1-Diabetes",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "hypophyseninsuffizienz",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Herzmuskel-, Muskel- und Nervenentzündungen (Myokarditis, Myositis, Neuropathie)",
+      "ids": [
+        "kardiomyopathie",
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Organtransplantation oder frühere allogene Stammzelltransplantation (Abstossung, Graft-versus-Host-Reaktion)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden. Zur Behandlung immunvermittelter Nebenwirkungen sind sie jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immun-Checkpoint-Hemmer",
+      "ref": [
+        "gruppe:checkpoint-inhibitoren"
+      ],
+      "effekt": "Mehr und schwerere immunvermittelte Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Platinhaltige Chemotherapie (Kombinationspartner beim Lungenkrebs)",
+      "ref": [
+        "gruppe:platinderivate"
+      ],
+      "effekt": "Keine pharmakokinetische Wechselwirkung; Blutarmut, Übelkeit und Haarausfall stammen meist von der Chemotherapie – Blutbild kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit",
+      "Muskel- und Gelenkschmerzen",
+      "Hautausschlag, Juckreiz",
+      "Durchfall, Übelkeit",
+      "Anämie (Blutarmut)",
+      "Appetitlosigkeit"
+    ],
+    "haeufig": [
+      "Hypothyreose, Hyperthyreose (Schilddrüsenunter- und -überfunktion)",
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "Kolitis (Dickdarmentzündung)",
+      "Hepatitis, erhöhte Leberwerte",
+      "Infusionsreaktionen",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Husten, Atemnot"
+    ],
+    "gelegentlich": [
+      "Nebenniereninsuffizienz, Hypophysitis, Thyreoiditis",
+      "Typ-1-Diabetes",
+      "Nephritis (Nierenentzündung)",
+      "Myokarditis (Herzmuskelentzündung)",
+      "Periphere Neuropathie, Arthritis"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Myasthenia gravis, Meningitis, Enzephalitis",
+      "Abstossung transplantierter Organe"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen: IgG-Antikörper gehen über die Plazenta, und die PD-1-Blockade kann die Toleranz gegenüber dem Ungeborenen stören. Frauen im gebärfähigen Alter verhüten während der Behandlung und mindestens 4 Monate danach.",
+  "stillzeit": "Während der Behandlung und mindestens 4 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Neue Beschwerden wie Durchfall, Husten, Atemnot, Gelbsucht, starke Müdigkeit, Kopfschmerzen oder Hautausschlag sofort melden – auch Monate nach Therapieende.",
+    "Den Patientenausweis immer bei sich tragen und allen Ärztinnen und Ärzten zeigen.",
+    "Leber-, Nieren- und Schilddrüsenwerte sowie Blutzucker werden regelmässig kontrolliert.",
+    "Kortison nicht eigenmächtig beginnen oder absetzen."
+  ],
+  "stand": "2026-10"
+}

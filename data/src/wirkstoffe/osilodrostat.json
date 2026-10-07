@@ -1,0 +1,151 @@
+{
+  "id": "osilodrostat",
+  "name": "Osilodrostat",
+  "synonyme": [
+    "Osilodrostatphosphat",
+    "LCI699"
+  ],
+  "atc": [
+    "H02CA02"
+  ],
+  "klasse": "Hemmer der Kortisolbildung (11-beta-Hydroxylase-Hemmer)",
+  "kurz": "Tablette, die die übermässige Kortisolbildung in der Nebennierenrinde bremst; beim Cushing-Syndrom.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "cyp1a2-hemmer",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Isturisa"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Endogenes Cushing-Syndrom (übermässige körpereigene Kortisolbildung) bei Erwachsenen",
+      "ids": [
+        "cushing-syndrom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den krankhaft erhöhten Kortisolspiegel, indem es dessen Herstellung in der Nebennierenrinde bremst. Osilodrostat hemmt das Enzym 11-beta-Hydroxylase (CYP11B1), das den letzten Schritt der Kortisolbildung katalysiert, und in geringerem Mass die Aldosteronsynthase (CYP11B2). Weil sich dadurch Hormonvorstufen anstauen, können das Kalium sinken sowie Blutdruck und männliche Hormone ansteigen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Kortisolmangel (Nebenniereninsuffizienz) bei zu starker Wirkung, besonders bei Stress, Infekten oder Operationen: Warnzeichen sind Müdigkeit, Übelkeit, Erbrechen, Schwindel und tiefer Blutdruck",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung: EKG vor Beginn und während der Behandlung; Vorsicht bei Herzrhythmusstörungen, langsamem Puls oder Herzkrankheit",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Kalium- und Magnesiummangel vor Behandlungsbeginn ausgleichen und regelmässig kontrollieren",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: tiefere Anfangsdosis und engere Kontrollen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Morbus Cushing: Wachstum des Hypophysentumors möglich – regelmässige Bildgebung",
+      "ids": [
+        "cushing-syndrom"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, Ödeme sowie bei Frauen vermehrte Behaarung oder Akne durch angestaute Hormonvorstufen",
+      "ids": [
+        "hypertonie",
+        "hirsutismus"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Methadon, Makrolide, Fluorchinolone, Antipsychotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko gefährlicher Herzrhythmusstörungen – nur mit Vorsicht und EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Ausgeprägterer Kaliummangel und damit höheres Risiko für QT-Verlängerung – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Substrate mit enger therapeutischer Breite (z. B. Theophyllin, Tizanidin)",
+      "ref": [
+        "gruppe:cyp1a2-substrate",
+        "theophyllin",
+        "tizanidin"
+      ],
+      "effekt": "Osilodrostat hemmt CYP1A2 mässig – deren Spiegel kann steigen; Vorsicht, Dosis allenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Substrate von CYP2C19, CYP3A4 oder CYP2D6 mit enger therapeutischer Breite",
+      "ref": [
+        "gruppe:cyp2c19-substrate",
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Schwache Hemmung des Abbaus – Spiegel kann leicht ansteigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Nebenniereninsuffizienz (Kortisolmangel)",
+      "Übelkeit, Erbrechen",
+      "Durchfall, Bauchschmerzen",
+      "Müdigkeit",
+      "Ödeme (Wassereinlagerungen)",
+      "Kopfschmerzen, Schwindel",
+      "Gelenkschmerzen",
+      "Appetitlosigkeit"
+    ],
+    "haeufig": [
+      "QT-Verlängerung im EKG",
+      "Herzrasen (Tachykardie)",
+      "Ohnmacht (Synkope)",
+      "Akne und vermehrte Behaarung (Hirsutismus)",
+      "Hautausschlag",
+      "Erhöhte Leberwerte",
+      "Muskelschmerzen"
+    ],
+    "unbekannt": [
+      "Kaliummangel (Hypokaliämie)",
+      "Bluthochdruck"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen; Tierversuche zeigen schädliche Wirkungen. Frauen im gebärfähigen Alter sollen während und mindestens eine Woche nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens eine Woche danach nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich mit oder ohne Essen einnehmen; die Dosis wird anhand der Kortisolwerte schrittweise angepasst.",
+    "Bei Müdigkeit, Übelkeit, Erbrechen, Schwindel oder Schwäche sofort ärztlich melden (möglicher Kortisolmangel).",
+    "Regelmässige Kontrollen von Kortisol, Kalium, Magnesium, Leberwerten und EKG."
+  ],
+  "stand": "2026-10"
+}

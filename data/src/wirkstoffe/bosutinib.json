@@ -1,0 +1,193 @@
+{
+  "id": "bosutinib",
+  "name": "Bosutinib",
+  "synonyme": [
+    "SKI-606"
+  ],
+  "atc": [
+    "L01EA04"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BCR-ABL- und SRC-Tyrosinkinasehemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel (Tyrosinkinasehemmer) zum Einnehmen bei chronischer myeloischer Leukämie (CML).",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "myelosuppressiv",
+    "hepatotoxisch",
+    "nephrotoxisch",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Bosulif"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte Philadelphia-Chromosom-positive chronische myeloische Leukämie (Ph+ CML) in der chronischen Phase bei Erwachsenen",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Ph+ CML in chronischer, akzelerierter oder Blastenphase nach Vorbehandlung mit mindestens einem Tyrosinkinasehemmer, wenn Imatinib, Nilotinib und Dasatinib nicht geeignet sind",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das krankhafte Enzym, das die Leukämiezellen bei CML wachsen lässt. Bosutinib hemmt die BCR-ABL-Tyrosinkinase sowie Kinasen der SRC-Familie; KIT und PDGF-Rezeptoren werden dagegen kaum gehemmt. Es wirkt gegen viele Imatinib-resistente BCR-ABL-Mutationen, nicht aber gegen T315I und V299L.",
+  "kontraindikationen": [
+    {
+      "text": "Eingeschränkte Leberfunktion (Leberinsuffizienz)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschädigung: Leberwerte in den ersten 3 Monaten monatlich kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Durchfall und Erbrechen (sehr häufig; Gefahr von Flüssigkeitsmangel)",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (die Nierenfunktion kann unter Behandlung abnehmen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, Herzerkrankungen, Kalium- oder Magnesiummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "herzinsuffizienz",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Knochenmarkhemmung: regelmässige Blutbildkontrollen",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Flüssigkeitseinlagerungen (Pleura- oder Herzbeutelerguss)",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte (Lipase kontrollieren)",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Infektion (Reaktivierung möglich – vor Beginn testen)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir, Diltiazem, Fluconazol) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Bosutinib-Spiegel steigt stark (mit Ketoconazol etwa 9-fach) – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Bosutinib-Spiegel sinkt sehr stark – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Protonenpumpenhemmer",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Geringere Aufnahme von Bosutinib – statt PPI eher kurz wirksame Antazida oder H2-Blocker mit zeitlichem Abstand verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte QT-Verlängerung möglich – Vorsicht, EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Bosutinib kann deren Spiegel erhöhen – Vorsicht, Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall (sehr oft, meist in den ersten Wochen)",
+      "Übelkeit, Erbrechen, Bauchschmerzen",
+      "Hautausschlag",
+      "Mangel an Blutplättchen, weissen und roten Blutkörperchen",
+      "Erhöhte Leberwerte und Lipase",
+      "Müdigkeit, Fieber, Kopfschmerzen",
+      "Atemwegsinfekte, Husten",
+      "Gelenkschmerzen, Wassereinlagerungen, Appetitlosigkeit"
+    ],
+    "haeufig": [
+      "Pleura- und Herzbeutelerguss (Wasser im Brustfell bzw. Herzbeutel)",
+      "QT-Verlängerung im EKG",
+      "Akute Nierenschädigung, Abnahme der Nierenfunktion",
+      "Leberschädigung (Hepatotoxizität)",
+      "Lungenentzündung",
+      "Juckreiz, Nesselsucht, Akne",
+      "Flüssigkeitsmangel (Dehydratation)"
+    ],
+    "gelegentlich": [
+      "Arzneimittelbedingte Leberschädigung mit Gelbsucht",
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Lungenödem"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen während und mindestens 1 Monat nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich mit einer Mahlzeit einnehmen; keine Grapefruit, kein Grapefruitsaft und kein Johanniskraut.",
+    "Durchfall früh mit Durchfallmitteln und ausreichend Flüssigkeit behandeln; starken oder anhaltenden Durchfall ärztlich melden.",
+    "Leberwerte in den ersten 3 Monaten monatlich sowie Blutbild und Nierenfunktion regelmässig kontrollieren."
+  ],
+  "stand": "2026-10"
+}

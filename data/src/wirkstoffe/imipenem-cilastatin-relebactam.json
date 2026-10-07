@@ -1,0 +1,170 @@
+{
+  "id": "imipenem-cilastatin-relebactam",
+  "name": "Imipenem + Cilastatin + Relebactam",
+  "synonyme": [
+    "Imipenem/Cilastatin/Relebactam",
+    "Imipenem-cilastatin-relebactam"
+  ],
+  "kombinationAus": [
+    "imipenem-cilastatin"
+  ],
+  "atc": [
+    "J01DH56"
+  ],
+  "klasse": "Carbapenem mit Dehydropeptidase-Hemmer und Betalaktamase-Hemmer",
+  "kurz": "Reserve-Antibiotikum als Infusion im Spital gegen schwere Infektionen durch resistente gramnegative Bakterien.",
+  "gruppen": [
+    "carbapeneme",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Recarbrio"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Im Spital erworbene Lungenentzündung, auch unter Beatmung, einschliesslich damit verbundener Blutvergiftung",
+      "ids": [
+        "lungenentzuendung",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Infektionen durch aerobe gramnegative Bakterien bei begrenzten Behandlungsmöglichkeiten",
+      "ids": [
+        "resistente-keime",
+        "bakterielle-infektion"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, auch viele Keime, die gegen andere Antibiotika resistent sind. Imipenem ist ein Carbapenem und hemmt die Penicillin-bindenden Proteine und damit den Aufbau der Zellwand. Cilastatin wirkt nicht gegen Bakterien, sondern hemmt das Nierenenzym Dehydropeptidase-I und verhindert so den Abbau von Imipenem in der Niere. Relebactam blockiert Betalaktamasen der Klassen A (z. B. KPC) und C (AmpC), mit denen Bakterien Imipenem zerstören; gegen Metallo-Betalaktamasen und OXA-48 wirkt es nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Carbapeneme",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Überempfindlichkeitsreaktion (z. B. Anaphylaxie, schwere Hautreaktion) auf andere Betalaktam-Antibiotika (Penicilline, Cephalosporine, Monobactame)",
+      "ids": [
+        "penicillinallergie",
+        "anaphylaxie",
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Epilepsie oder andere Erkrankungen des Nervensystems: erhöhtes Risiko für Krampfanfälle, Verwirrtheit und Muskelzuckungen",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung, sonst erhöhtes Krampfrisiko",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichtere Allergie auf andere Betalaktame in der Vorgeschichte",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwerer Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Der Valproinsäure-Spiegel fällt innerhalb weniger Tage stark ab – Gefahr von Krampfanfällen. Kombination nicht empfohlen; anderes Antibiotikum oder zusätzliches Antiepileptikum erwägen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ganciclovir und Valganciclovir",
+      "ref": [
+        "ganciclovir",
+        "valganciclovir"
+      ],
+      "effekt": "Generalisierte Krampfanfälle beschrieben – nur kombinieren, wenn der Nutzen das Risiko klar überwiegt.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Erhöht Spiegel und Halbwertszeit von Imipenem – Kombination nicht empfohlen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Durchfall, Übelkeit, Erbrechen",
+      "Erhöhte Leberwerte",
+      "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)",
+      "Venenentzündung (Thrombophlebitis) an der Infusionsstelle",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle, Muskelzuckungen",
+      "Verwirrtheit, Halluzinationen",
+      "Schwindel, Schläfrigkeit",
+      "Thrombozytopenie, Neutropenie, Leukopenie",
+      "Blutdruckabfall",
+      "Juckreiz, Nesselsucht",
+      "Fieber",
+      "Positiver Coombs-Test, erhöhte Bilirubin- und Kreatininwerte"
+    ],
+    "selten": [
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Agranulozytose",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Leberentzündung",
+      "Akutes Nierenversagen",
+      "Geschmacksstörungen, Zahnverfärbung"
+    ],
+    "sehrSelten": [
+      "Leberversagen",
+      "Hämolytische Anämie"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen beim Menschen; im Tierversuch (Affen) Fehlgeburten unter Imipenem/Cilastatin. Nur anwenden, wenn der Nutzen das mögliche Risiko für das Kind überwiegt.",
+  "stillzeit": "Imipenem und Cilastatin gehen in geringen Mengen in die Muttermilch über, für Relebactam ist es unbekannt. Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Wird im Spital als Infusion über 30 Minuten gegeben; die Dosis richtet sich nach der Nierenfunktion.",
+    "Eine Behandlung mit Valproinsäure unbedingt dem Behandlungsteam mitteilen.",
+    "Muskelzuckungen, Verwirrtheit, Krampfanfälle oder starken Durchfall sofort melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,230 @@
+{
+  "id": "idarubicin",
+  "name": "Idarubicin",
+  "synonyme": [
+    "4-Demethoxydaunorubicin",
+    "Idarubicinhydrochlorid",
+    "Idarubicine"
+  ],
+  "atc": [
+    "L01DB06"
+  ],
+  "klasse": "Zytotoxisches Antibiotikum (Anthrazyklin, Topoisomerase-II-Hemmer); Zytostatikum",
+  "kurz": "Krebsmittel aus der Gruppe der Anthrazykline als Injektion, v. a. bei akuter myeloischer und rückfälliger akuter lymphatischer Leukämie.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Zavedos"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung bzw. Pulver zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute myeloische Leukämie (AML) bei Erwachsenen und Kindern, zur Remissionseinleitung in Kombination mit anderen Krebsmitteln",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Rückfall einer akuten lymphatischen Leukämie (ALL) als Zweitlinientherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt die Erbsubstanz von Krebszellen und hemmt deren Teilung. Idarubicin ist ein fettlöslicher Abkömmling von Daunorubicin, der sich zwischen die DNA-Basenpaare einlagert und die Topoisomerase II hemmt, sodass DNA-Strangbrüche entstehen. Sein Hauptabbauprodukt Idarubicinol ist ebenfalls wirksam und hat eine lange Halbwertszeit.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Anthrazykline oder Anthracendione (Kreuzallergie)",
+      "ids": []
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz (Herzmuskelschwäche), kürzlich durchgemachter Herzinfarkt, schwere Herzrhythmusstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Anhaltende Knochenmarkhemmung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Vorbehandlung mit der maximalen Gesamtdosis von Idarubicin oder anderen Anthrazyklinen bzw. Anthracendionen",
+      "ids": []
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzschädigung abhängig von der Gesamtdosis (lebenslange Höchstdosis beachten): Herzfunktion vor und während der Behandlung prüfen",
+      "ids": [
+        "kardiomyopathie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frühere Bestrahlung des Brustkorbs oder Behandlung mit anderen herzschädigenden Mitteln (höheres Herzrisiko)",
+      "ids": []
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Austritt neben die Vene (Paravasat): schwere Gewebeschäden",
+      "ids": []
+    },
+    {
+      "text": "Tumorlysesyndrom und Anstieg der Harnsäure zu Beginn der Behandlung",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen und Blutungen durch die Knochenmarkhemmung",
+      "ids": [
+        "aktive-infektion",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere herzschädigende Mittel (z. B. andere Anthrazykline, Trastuzumab)",
+      "ref": [
+        "gruppe:kardiotoxisch",
+        "trastuzumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzinsuffizienz – Herzfunktion engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Erhöht die Spiegel von Idarubicin und Idarubicinol deutlich – verstärkte Knochenmarkhemmung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Unter Chemotherapie schwankt der INR stärker – häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leber- oder nierenschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch",
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Verlangsamter Abbau bzw. verminderte Ausscheidung von Idarubicin – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Anämie, schwere Leukopenie und Neutropenie, Thrombozytopenie",
+      "Appetitlosigkeit",
+      "Übelkeit, Erbrechen, Mundschleimhautentzündung, Durchfall, Bauchschmerzen",
+      "Haarausfall",
+      "Rotfärbung des Urins (1–2 Tage nach der Gabe)",
+      "Fieber, Kopfschmerzen, Schüttelfrost"
+    ],
+    "haeufig": [
+      "Herzinsuffizienz, Kardiomyopathie, Abnahme der Pumpfunktion",
+      "Langsamer oder schneller Herzschlag, Herzrhythmusstörungen",
+      "Blutungen, Venenentzündung",
+      "Magen-Darm-Blutungen",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Hautausschlag, Juckreiz, Überempfindlichkeit bestrahlter Haut"
+    ],
+    "gelegentlich": [
+      "Sepsis",
+      "Sekundäre Leukämien (AML, myelodysplastisches Syndrom)",
+      "Herzinfarkt, EKG-Veränderungen",
+      "Schock",
+      "Speiseröhrenentzündung, Kolitis bis neutropenische Enterokolitis mit Darmdurchbruch",
+      "Hyperurikämie (erhöhte Harnsäure), Flüssigkeitsmangel",
+      "Dunkelfärbung von Haut und Nägeln, Nesselsucht"
+    ],
+    "selten": [
+      "Hirnblutung"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie",
+      "Herzbeutel- oder Herzmuskelentzündung, AV-Block",
+      "Thromboembolien",
+      "Magengeschwüre",
+      "Akrales Erythem (Rötung an Händen und Füssen)"
+    ],
+    "unbekannt": [
+      "Tumorlysesyndrom",
+      "Schwere Gewebeschäden bei Paravasat"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden; Idarubicin kann das Ungeborene schädigen. Frauen und Männer müssen während der Behandlung und mehrere Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Der Urin kann sich 1–2 Tage nach der Gabe rötlich färben – das ist harmlos.",
+    "Frühere Behandlungen mit Anthrazyklinen oder Bestrahlung angeben: die lebenslange Gesamtdosis ist wegen des Herzrisikos begrenzt.",
+    "Schmerzen oder Brennen an der Injektionsstelle sofort melden.",
+    "Blutbild und Herzfunktion werden regelmässig kontrolliert; Fieber, Blutungen, Atemnot oder Herzklopfen melden."
+  ],
+  "stand": "2026-10"
+}

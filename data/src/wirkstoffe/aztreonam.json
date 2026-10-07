@@ -1,0 +1,140 @@
+{
+  "id": "aztreonam",
+  "name": "Aztreonam",
+  "synonyme": [
+    "Aztreonamum"
+  ],
+  "atc": [
+    "J01DF01"
+  ],
+  "klasse": "Monobactam-Antibiotikum (Betalaktam)",
+  "kurz": "Antibiotikum gegen gramnegative Bakterien; als Infusion bei schweren Infektionen oder inhaliert bei zystischer Fibrose.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Azactam",
+    "Cayston"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung",
+    "Pulver und Lösungsmittel zur Herstellung einer Lösung für einen Vernebler"
+  ],
+  "indikationen": [
+    {
+      "text": "Schwere Infektionen durch gramnegative Bakterien, z. B. der Harnwege, der unteren Atemwege, des Bauchraums und der Haut sowie Blutvergiftung (Infusion)",
+      "ids": [
+        "bakterielle-infektion",
+        "harnwegsinfekt",
+        "lungenentzuendung",
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Chronische Lungeninfektion mit Pseudomonas aeruginosa bei zystischer Fibrose ab 6 Jahren (Inhalation)",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet gramnegative Bakterien ab, indem es den Aufbau ihrer Zellwand stört. Aztreonam ist ein Betalaktam mit nur einem Ring (Monobactam) und bindet vor allem an das Penicillin-bindende Protein 3 gramnegativer Bakterien. Es wirkt gegen Enterobakterien und Pseudomonas aeruginosa, aber nicht gegen grampositive Bakterien und Anaerobier. Es wird von Metallo-Betalaktamasen nicht abgebaut, wohl aber von ESBL und AmpC-Enzymen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Allergie gegen Betalaktam-Antibiotika: Kreuzallergie selten, aber möglich – besonders bei Allergie gegen Ceftazidim (ähnliche Seitenkette)",
+      "ids": [
+        "penicillinallergie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion (Infusion: Dosisanpassung)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Inhalation: Verkrampfung der Atemwege möglich – vorher ein bronchienerweiterndes Mittel anwenden; Vorsicht bei Bluthusten",
+      "ids": [
+        "asthma",
+        "zystische-fibrose"
+      ]
+    },
+    {
+      "text": "Schwerer Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verlängerte Gerinnungszeit möglich – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aminoglykoside",
+      "ref": [
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Bei gemeinsamer Gabe Nierenfunktion und Gehör überwachen (Toxizität des Aminoglykosids).",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Betalaktamase-auslösende Antibiotika (z. B. Imipenem, Cefoxitin)",
+      "ref": [
+        "imipenem-cilastatin"
+      ],
+      "effekt": "Können Resistenzenzyme der Bakterien anregen und die Wirkung von Aztreonam abschwächen – nicht kombinieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Probenecid und Furosemid",
+      "ref": [
+        "furosemid"
+      ],
+      "effekt": "Leicht erhöhte Aztreonam-Spiegel, ohne klinische Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Husten, Atemgeräusche (Giemen), verstopfte Nase, Halsschmerzen (Inhalation)",
+      "Atemnot und Fieber (Inhalation)"
+    ],
+    "haeufig": [
+      "Bronchospasmus (Verkrampfung der Atemwege) und Engegefühl in der Brust (Inhalation)",
+      "Bluthusten (Inhalation)",
+      "Gelenkschmerzen (Inhalation)",
+      "Hautausschlag",
+      "Durchfall, Übelkeit, Erbrechen (Infusion)",
+      "Venenentzündung und Beschwerden an der Einstichstelle (Infusion)"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Leberentzündung, Gelbsucht",
+      "Blutbildveränderungen (Thrombozytopenie, Neutropenie, Eosinophilie)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Toxische epidermale Nekrolyse, Erythema multiforme (schwere Hautreaktionen)",
+      "Geschmacksstörungen, Mundgeschwüre"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Infusion: Aztreonam erreicht das Ungeborene; begrenzte Erfahrungen – nur anwenden, wenn unbedingt erforderlich. Bei Inhalation gelangt nur sehr wenig ins Blut; Anwendung nach ärztlicher Abwägung.",
+  "stillzeit": "Geht nur in sehr geringen Mengen in die Muttermilch über und wird vom Säugling kaum aufgenommen; Anwendung nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Inhalation: vor jeder Anwendung ein kurz wirksames bronchienerweiterndes Mittel inhalieren und nur den dafür vorgesehenen Vernebler verwenden.",
+    "Inhalation: wird in Zyklen von 28 Tagen Behandlung und 28 Tagen Pause angewendet.",
+    "Bluthusten, zunehmende Atemnot oder Hautausschlag ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

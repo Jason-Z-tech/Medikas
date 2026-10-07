@@ -1,0 +1,221 @@
+{
+  "id": "selpercatinib",
+  "name": "Selpercatinib",
+  "synonyme": [
+    "LOXO-292"
+  ],
+  "atc": [
+    "L01EX22"
+  ],
+  "klasse": "Proteinkinase-Hemmer (selektiver RET-Hemmer)",
+  "kurz": "Krebsmittel gegen fortgeschrittenen Lungen- und Schilddrüsenkrebs mit einer RET-Genveränderung.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "cyp2c8-hemmer",
+    "qt-verlaengernd",
+    "hepatotoxisch",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Retsevmo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs (NSCLC) mit RET-Fusion",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Schilddrüsenkarzinom mit RET-Fusion, das eine systemische Therapie benötigt und nicht auf Radiojod anspricht",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes medulläres Schilddrüsenkarzinom mit RET-Mutation (ab 12 Jahren)",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert ein Wachstumssignal, das durch eine RET-Genveränderung im Tumor dauerhaft eingeschaltet ist. Selpercatinib ist ein hochselektiver Hemmer der Rezeptor-Tyrosinkinase RET, auch ihrer Fusions- und Mutationsformen (z. B. M918T und V804-Resistenzmutationen). Andere Kinasen wie VEGFR werden kaum gehemmt. Selpercatinib gelangt ins Gehirn und wirkt auch bei Hirnmetastasen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Leber: erhöhte Leberwerte häufig, teils schwer – Kontrollen vor Beginn, in den ersten 3 Monaten alle 2 Wochen, danach monatlich",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: vor Beginn einstellen und regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Elektrolytstörungen – EKG und Elektrolyte kontrollieren",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Blutungen",
+      "ids": [
+        "aktive-blutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen (Fieber, Ausschlag, Gelenk- und Muskelschmerzen), meist nach einigen Wochen",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Geplante Operationen: Wundheilungsstörungen – vorher nach ärztlicher Anweisung pausieren",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Jugendliche: Lösung der Wachstumsfuge am Oberschenkelkopf (Epiphysenlösung) möglich",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion – Schilddrüsenwerte kontrollieren",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und zeugungsfähige Männer: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Selpercatinib-Spiegel steigt (mit Itraconazol etwa 2,3-fach) – vermeiden; wenn unvermeidbar, Dosis nach ärztlicher Anweisung reduzieren und QT-Zeit überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Selpercatinib-Spiegel sinkt stark – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2C8-Substrate (z. B. Repaglinid)",
+      "ref": [
+        "repaglinid"
+      ],
+      "effekt": "Selpercatinib hemmt CYP2C8: Repaglinid-Spiegel steigt deutlich, Unterzuckerungsgefahr – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Protonenpumpenhemmer",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Weniger Aufnahme von Selpercatinib im nüchternen Zustand – bei gleichzeitiger Einnahme Selpercatinib mit einer Mahlzeit einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "H2-Blocker",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Weniger Aufnahme – Selpercatinib 2 Stunden vor oder 10 Stunden nach dem H2-Blocker einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Weniger Aufnahme – Selpercatinib 2 Stunden vor oder 2 Stunden nach dem Antazidum einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Selpercatinib hemmt CYP3A4 mässig (Midazolam etwa +54 %) – Vorsicht, Spiegel bzw. Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Dabigatran, Digoxin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel können steigen – Vorsicht.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Mundtrockenheit",
+      "Durchfall, Verstopfung, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Bluthochdruck",
+      "Müdigkeit, Ödeme, Kopfschmerzen, Schwindel",
+      "Hautausschlag",
+      "Erhöhte Leberwerte (ALT, AST)",
+      "QT-Verlängerung im EKG",
+      "Blutungen, Mangel an Blutplättchen"
+    ],
+    "haeufig": [
+      "Überempfindlichkeitsreaktionen (Fieber, Ausschlag, Gelenk- und Muskelschmerzen)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Schwere Leberschäden",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Chylöse Ergüsse (milchige Flüssigkeit in Brust- oder Bauchraum)",
+      "Tumorlyse-Syndrom",
+      "Epiphysenlösung bei Jugendlichen"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nicht anwenden, ausser bei zwingender Notwendigkeit. Frauen und Männer müssen während der Behandlung und mindestens 1 Woche danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 1 Woche danach nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich (etwa alle 12 Stunden) unzerkaut einnehmen; säurehemmende Mittel nur nach Anweisung (PPI: Selpercatinib mit einer Mahlzeit; H2-Blocker und Antazida mit zeitlichem Abstand).",
+    "Keine Grapefruit, kein Johanniskraut.",
+    "Leberwerte, Blutdruck und EKG werden regelmässig kontrolliert.",
+    "Jugendliche: Hüft- oder Knieschmerzen und Hinken sofort melden (Epiphysenlösung)."
+  ],
+  "stand": "2026-10"
+}

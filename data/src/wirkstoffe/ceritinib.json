@@ -1,0 +1,179 @@
+{
+  "id": "ceritinib",
+  "name": "Ceritinib",
+  "synonyme": [
+    "LDK378"
+  ],
+  "atc": [
+    "L01ED02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (ALK-Hemmer der 2. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei fortgeschrittenem Lungenkrebs mit ALK-Veränderung.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "starke-cyp3a4-hemmer",
+    "cyp2c9-hemmer",
+    "qt-verlaengernd",
+    "bradykardisierend",
+    "hepatotoxisch",
+    "hyperglykaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Zykadia"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs bei Erwachsenen als Erstbehandlung",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs nach Vorbehandlung mit Crizotinib",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das veränderte Wachstumssignal-Enzym ALK in Lungenkrebszellen. Ceritinib ist ein ALK-Hemmer der zweiten Generation, der ALK deutlich stärker hemmt als Crizotinib und auch gegen viele Crizotinib-Resistenzmutationen wirkt; zusätzlich hemmt es den IGF-1-Rezeptor. Die Hemmung der ALK-Fusionsproteine unterbricht Signalwege für Wachstum und Überleben der Tumorzellen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Leberschädigung: Leberwerte vor Beginn und regelmässig kontrollieren; schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung, Pneumonitis (Lungenentzündung ohne Erreger)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, Herzrhythmusstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (Bradykardie)",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Durchfall, Übelkeit und Erbrechen (Flüssigkeitsmangel)",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann steigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte (Lipase und Amylase kontrollieren)",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Ceritinib-Spiegel steigt etwa 3-fach – vermeiden; falls unumgänglich, Dosis um etwa ein Drittel reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Ceritinib-Spiegel sinkt stark – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Midazolam, Alfentanil, Fentanyl, Ciclosporin, Tacrolimus, Sirolimus, Ergotalkaloide)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Ceritinib hemmt CYP3A4 stark – deren Spiegel steigen deutlich; vermeiden oder Dosis senken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2C9-Substrate mit enger therapeutischer Breite (z. B. Phenprocoumon, Acenocoumarol, Phenytoin)",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Ceritinib hemmt CYP2C9 – deren Spiegel steigen; vermeiden oder INR bzw. Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte QT-Verlängerung – Vorsicht, EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschlag-verlangsamende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Ausgeprägte Bradykardie möglich – Puls kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Müdigkeit, Appetitlosigkeit, Gewichtsverlust",
+      "Verstopfung, Speiseröhrenbeschwerden (Sodbrennen, Schluckbeschwerden)",
+      "Hautausschlag",
+      "Erhöhte Leberwerte",
+      "Erhöhtes Kreatinin",
+      "Blutarmut (Anämie)"
+    ],
+    "haeufig": [
+      "Erhöhter Blutzucker, tiefes Phosphat im Blut",
+      "Langsamer Puls (Bradykardie), QT-Verlängerung im EKG",
+      "Herzbeutelerguss, Herzbeutelentzündung (Perikarditis)",
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Sehstörungen",
+      "Nierenfunktionsstörung",
+      "Erhöhte Lipase und Amylase"
+    ],
+    "gelegentlich": [
+      "Leberschädigung (Hepatotoxizität)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig. Frauen im gebärfähigen Alter müssen während und bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit mit einer Mahlzeit einnehmen; keine Grapefruit und kein Johanniskraut.",
+    "Durchfall, Übelkeit oder Erbrechen früh behandeln und ärztlich melden.",
+    "Leberwerte, Blutzucker, Puls und EKG regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

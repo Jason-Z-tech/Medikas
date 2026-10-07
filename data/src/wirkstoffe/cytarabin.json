@@ -1,0 +1,226 @@
+{
+  "id": "cytarabin",
+  "name": "Cytarabin",
+  "synonyme": [
+    "Cytosin-Arabinosid",
+    "Ara-C",
+    "Cytarabine"
+  ],
+  "atc": [
+    "L01BC01"
+  ],
+  "klasse": "Antimetabolit (Pyrimidinanalogon); Zytostatikum",
+  "kurz": "Krebsmittel (Pyrimidinanalogon) als Injektion oder Infusion, v. a. gegen akute Leukämien und bestimmte Lymphome.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Cytosar",
+    "Cytarabin Pfizer",
+    "Vyxeos (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektions- und Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute myeloische Leukämie (AML) und andere akute Leukämien bei Erwachsenen und Kindern, zur Remissionseinleitung und Erhaltung",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Hochdosistherapie bei rückfälligen oder schwer behandelbaren Leukämien und Non-Hodgkin-Lymphomen",
+      "ids": [
+        "leukaemie",
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Leukämiebefall der Hirnhäute (Gabe in den Liquorraum, intrathekal)",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung sich rasch teilender Zellen, besonders von Leukämiezellen. Cytarabin wird in der Zelle zu Cytarabin-Triphosphat (Ara-CTP) aktiviert, das die DNA-Polymerase hemmt und als falscher Baustein in die DNA eingebaut wird. Dadurch bricht die DNA-Synthese ab; betroffen sind vor allem Zellen in der Synthesephase (S-Phase) des Zellzyklus.",
+  "kontraindikationen": [
+    {
+      "text": "Nicht durch die Krebserkrankung bedingter Mangel an Blutzellen (z. B. Knochenmarkaplasie), ausser wenn der Nutzen das Risiko überwiegt",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Degenerative oder toxische Hirnerkrankungen (Enzephalopathien), v. a. nach Methotrexat-Therapie oder Bestrahlung",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Hochdosistherapie: schwere Nebenwirkungen an Kleinhirn und Nervensystem, Lunge (Lungenödem, akutes Atemnotsyndrom), Augen und Darm",
+      "ids": []
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (mehr Nebenwirkungen auf das Nervensystem; Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Cytarabin-Syndrom: 6–12 Stunden nach der Gabe Fieber, Muskel- und Knochenschmerzen, Hautausschlag, Bindehautentzündung",
+      "ids": [
+        "fieber"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom und Anstieg der Harnsäure zu Beginn der Behandlung",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Pankreatitis (Bauchspeicheldrüsenentzündung), besonders nach Vorbehandlung mit Asparaginase",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Infektanfälligkeit durch Knochenmarkhemmung",
+      "ids": [
+        "aktive-infektion",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Gabe in den Liquorraum: nur konservierungsmittelfreie Lösungen verwenden",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Cyclophosphamid hoch dosiert (z. B. vor Stammzelltransplantation)",
+      "ref": [
+        "cyclophosphamid"
+      ],
+      "effekt": "Schwere, teils tödliche Herzmuskelschäden beschrieben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat (in den Liquorraum oder hoch dosiert)",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöhtes Risiko für Schäden am Nervensystem (Leukoenzephalopathie).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fludarabin",
+      "ref": [
+        "fludarabin"
+      ],
+      "effekt": "Erhöht die Bildung der wirksamen Form von Cytarabin in Leukämiezellen – stärkere Wirkung und Toxizität (bei manchen Schemata gezielt genutzt).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Asparaginase (Crisantaspase, Pegaspargase)",
+      "ref": [
+        "crisantaspase",
+        "pegaspargase"
+      ],
+      "effekt": "Akute Pankreatitis beschrieben, v. a. wenn Cytarabin nach Asparaginase gegeben wird.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin (Tabletten)",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Die Aufnahme von Digoxin kann unter Chemotherapie vermindert sein – Digoxin-Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Flucytosin",
+      "ref": [
+        "flucytosin"
+      ],
+      "effekt": "Die Wirkung von Flucytosin gegen Pilze kann abgeschwächt werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gentamicin",
+      "ref": [
+        "gentamicin"
+      ],
+      "effekt": "Im Labor abgeschwächte Wirkung gegen Klebsiellen – bei Infektionen die Therapie überprüfen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung (Mangel an weissen und roten Blutkörperchen und an Blutplättchen)",
+      "Infektionen bis zur Sepsis, Lungenentzündung",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Entzündungen und Geschwüre in Mund und Afterbereich",
+      "Leberfunktionsstörungen (erhöhte Leberwerte)",
+      "Haarausfall, Hautausschlag",
+      "Fieber",
+      "Bei Hochdosistherapie: Kleinhirnstörungen, Augenentzündungen, Lungenödem"
+    ],
+    "haeufig": [],
+    "gelegentlich": [
+      "Gelbsucht",
+      "Perikarditis (Herzbeutelentzündung)",
+      "Entzündung und Geschwüre der Speiseröhre",
+      "Nervenentzündung, Schwindel, Kopfschmerzen",
+      "Hand-Fuss-Syndrom, Hautgeschwüre, Juckreiz, Nesselsucht",
+      "Muskel- und Gelenkschmerzen",
+      "Nierenfunktionsstörung, Harnverhalt",
+      "Atemnot, Halsschmerzen"
+    ],
+    "selten": [],
+    "sehrSelten": [
+      "Herzrhythmusstörungen"
+    ],
+    "unbekannt": [
+      "Cytarabin-Syndrom (Fieber, Muskel- und Knochenschmerzen, Ausschlag, Bindehautentzündung)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Darmnekrose, Darmdurchbruch",
+      "Herzmuskelschädigung bei Hochdosistherapie"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit, besonders im ersten Schwangerschaftsdrittel meiden, da Cytarabin fruchtschädigend wirken kann. Frauen und Männer müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Bei Hochdosistherapie werden zur Vorbeugung von Augenentzündungen kortisonhaltige Augentropfen gegeben.",
+    "Fieber, Halsschmerzen oder Blutungszeichen sofort melden; Blutbild wird regelmässig kontrolliert.",
+    "Keine Lebendimpfungen während der Behandlung."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,197 @@
+{
+  "id": "tolcapon",
+  "name": "Tolcapon",
+  "synonyme": [
+    "Tolcapone"
+  ],
+  "atc": [
+    "N04BX01"
+  ],
+  "klasse": "Parkinsonmittel (COMT-Hemmer)",
+  "kurz": "Zusatzmittel zu Levodopa bei Parkinson mit Wirkschwankungen; wegen Leberrisiko nur, wenn andere COMT-Hemmer versagen, und mit Leberkontrollen.",
+  "gruppen": [
+    "hepatotoxisch",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Tasmar"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Zusatzbehandlung zu Levodopa/Benserazid oder Levodopa/Carbidopa bei Parkinson-Krankheit mit Wirkschwankungen, wenn andere COMT-Hemmer nicht wirken oder nicht vertragen werden",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlängert und verstärkt die Wirkung von Levodopa. Tolcapon hemmt reversibel das Enzym Catechol-O-Methyltransferase (COMT), das Levodopa im Körper und im Gehirn abbaut. Dadurch gelangt mehr Levodopa ins Gehirn und bleibt länger wirksam, was Off-Phasen verkürzt. Allein eingenommen wirkt Tolcapon nicht gegen Parkinson.",
+  "kontraindikationen": [
+    {
+      "text": "Lebererkrankung oder erhöhte Leberwerte",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Dyskinesien (Überbewegungen)",
+      "ids": [
+        "dystonie"
+      ]
+    },
+    {
+      "text": "Malignes neuroleptisches Syndrom, nicht unfallbedingter Muskelzerfall (Rhabdomyolyse) oder Hyperthermie in der Vorgeschichte",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschäden bis zum Leberversagen: Leberwerte vor Beginn, im ersten Jahr alle 2 Wochen, in den folgenden 6 Monaten alle 4 Wochen, danach alle 8 Wochen kontrollieren; ohne deutliche Besserung nach 3 Wochen absetzen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Dyskinesien und Halluzinationen – Levodopa-Dosis meist reduzieren",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Durchfall, der auch verzögert und schwer auftreten kann",
+      "ids": [
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Malignes neuroleptisches Syndrom bei abruptem Absetzen",
+      "ids": []
+    },
+    {
+      "text": "Impulskontrollstörungen und plötzliches Einschlafen",
+      "ids": [
+        "abhaengigkeit",
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nicht-selektive MAO-Hemmer (z. B. Tranylcypromin) sowie die Kombination eines MAO-A- mit einem MAO-B-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gleichzeitige Hemmung beider Abbauwege der Katecholamine – Gefahr gefährlicher Blutdruckkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Levodopa-Präparate",
+      "ref": [
+        "levodopa-benserazid",
+        "levodopa-carbidopa"
+      ],
+      "effekt": "Verstärkte Levodopa-Wirkung – Levodopa-Dosis meist reduzieren, sonst Überbewegungen und Übelkeit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über COMT abgebaute Mittel (z. B. Adrenalin, Noradrenalin, Dobutamin, Apomorphin, Methyldopa)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "dobutamin",
+        "apomorphin",
+        "methyldopa"
+      ],
+      "effekt": "Deren Wirkung kann verstärkt sein – Vorsicht, Kreislauf überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Selektive MAO-B-Hemmer (z. B. Selegilin)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Kombination möglich; Selegilin nicht über 10 mg pro Tag.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antidepressiva wie Desipramin, Maprotilin oder Venlafaxin",
+      "ref": [
+        "maprotilin",
+        "venlafaxin",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Vermehrte Nebenwirkungen möglich – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Begrenzte Erfahrung – Gerinnungswerte (INR) kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Dyskinesien (Überbewegungen), Dystonie",
+      "Übelkeit, Appetitlosigkeit, Durchfall",
+      "Schlafstörungen, übermässiges Träumen",
+      "Schläfrigkeit, Schwindel",
+      "Verwirrtheit, Halluzinationen",
+      "Beschwerden beim Aufstehen (orthostatische Hypotonie)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Brustschmerzen",
+      "Erbrechen, Verstopfung, Bauchschmerzen, Mundtrockenheit",
+      "Vermehrtes Schwitzen",
+      "Gelbfärbung des Urins (harmlos)",
+      "Grippeähnliche Beschwerden, Infekte der oberen Atemwege",
+      "Ohnmacht (Synkope), Stürze"
+    ],
+    "gelegentlich": [
+      "Leberschädigung, in seltenen Fällen mit tödlichem Leberversagen"
+    ],
+    "selten": [
+      "Malignes neuroleptisches Syndrom (bei Absetzen oder Dosisreduktion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Impulskontrollstörungen (z. B. Spielsucht, Kaufsucht)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Tolcapon ging im Tierversuch in die Milch über; nicht stillen.",
+  "hinweise": [
+    "Leberwerte nach festem Schema kontrollieren; bei Übelkeit, Müdigkeit, Appetitlosigkeit, Gelbsucht, dunklem Urin oder Juckreiz sofort ärztlich abklären.",
+    "Die Gelbfärbung des Urins ist harmlos.",
+    "Nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

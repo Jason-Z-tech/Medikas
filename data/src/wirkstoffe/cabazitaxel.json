@@ -1,0 +1,205 @@
+{
+  "id": "cabazitaxel",
+  "name": "Cabazitaxel",
+  "synonyme": [
+    "XRP6258"
+  ],
+  "atc": [
+    "L01CD04"
+  ],
+  "klasse": "Taxan (Mitosehemmer); Zytostatikum",
+  "kurz": "Krebsmittel (Taxan) als Infusion bei fortgeschrittenem Prostatakrebs, der auf Hormonentzug und Docetaxel nicht mehr anspricht.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Jevtana"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter kastrationsresistenter Prostatakrebs nach Vorbehandlung mit Docetaxel, in Kombination mit Prednison oder Prednisolon",
+      "ids": [
+        "prostatakrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Zellteilung von Krebszellen. Cabazitaxel bindet an Tubulin und stabilisiert die Mikrotubuli, sodass sich der Spindelapparat nicht mehr abbauen kann und die Zellteilung blockiert wird. Weil es von der Efflux-Pumpe P-Glykoprotein nur schlecht aus der Zelle befördert wird, wirkt es auch bei Tumoren, die gegen Docetaxel resistent geworden sind.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Taxane oder Polysorbat 80",
+      "ids": []
+    },
+    {
+      "text": "Neutrophile Granulozyten unter oder gleich 1'500/mm³",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Bilirubin mindestens dreifach über der Norm)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Gelbfieberimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Neutropenie mit Infektionsgefahr: Blutbild wöchentlich im ersten Zyklus; bei Risikopatienten vorbeugend Wachstumsfaktoren (G-CSF)",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen, v. a. bei den ersten Infusionen: Vorbehandlung mit Antihistaminikum, Kortikosteroid und H2-Blocker",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Durchfall und Flüssigkeitsmangel; Magen-Darm-Blutungen und -Durchbrüche",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Nierenversagen, v. a. bei Sepsis, Flüssigkeitsmangel oder Harnwegsverlegung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leberinsuffizienz (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, v. a. Vorhofflimmern",
+      "ids": [
+        "herzrhythmusstoerung",
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Ältere Menschen ab 65 Jahren (häufiger Neutropenie)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung: bei neuer Atemnot oder Husten abklären",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfstoff",
+      "ref": [
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Durch die Abwehrschwäche kann sich das abgeschwächte Impfvirus ungehindert vermehren – Gefahr einer lebensbedrohlichen Impfinfektion."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhte Cabazitaxel-Spiegel – Kombination meiden; falls unumgänglich, Dosis um 25 % reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Verminderte Spiegel und Wirkung – Kombination meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine und andere Substrate des Transporters OATP1B1 (z. B. Valsartan)",
+      "ref": [
+        "gruppe:statine",
+        "valsartan"
+      ],
+      "effekt": "Cabazitaxel kann OATP1B1 während der Infusion hemmen – vorübergehend höhere Spiegel dieser Mittel möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Anämie, Leukopenie, Thrombozytopenie",
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung, Bauchschmerzen",
+      "Appetitlosigkeit, Geschmacksstörungen",
+      "Müdigkeit, Schwäche",
+      "Atemnot, Husten",
+      "Rücken- und Gelenkschmerzen"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie, Harnwegs- und andere Infektionen, Sepsis",
+      "Periphere Neuropathie (Kribbeln, Taubheitsgefühl), Schwindel, Kopfschmerzen",
+      "Blut im Urin, akutes Nierenversagen",
+      "Vorhofflimmern, Herzrasen",
+      "Tiefer oder hoher Blutdruck, tiefe Venenthrombose",
+      "Haarausfall, trockene Haut",
+      "Mundschleimhautentzündung, Hämorrhoiden, Sodbrennen",
+      "Fieber, Ödeme, Flüssigkeitsmangel, Hypokaliämie (Kaliummangel)"
+    ],
+    "gelegentlich": [
+      "Kolitis, neutropenische Enterokolitis (schwere Darmentzündung)",
+      "Magen-Darm-Blutungen und -Durchbruch, Darmverschluss"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Strahlenerinnerungsreaktion (z. B. Blasenentzündung nach früherer Bestrahlung)"
+    ]
+  },
+  "schwangerschaft": "Nicht für Frauen bestimmt. Männer müssen während der Behandlung und mehrere Monate danach Kondome verwenden und sollten sich vor Beginn über eine Spermienkonservierung beraten lassen.",
+  "stillzeit": "Nicht für Frauen bestimmt.",
+  "hinweise": [
+    "Vor jeder Infusion erfolgt eine Vorbehandlung (Antihistaminikum, Kortikosteroid, H2-Blocker) gegen Überempfindlichkeitsreaktionen.",
+    "Prednison oder Prednisolon täglich wie verordnet einnehmen.",
+    "Fieber, anhaltenden Durchfall oder Blut im Urin sofort melden; ausreichend trinken.",
+    "Die Infusionslösung enthält Alkohol (Ethanol): Fahrtüchtigkeit kann beeinträchtigt sein."
+  ],
+  "stand": "2026-10"
+}

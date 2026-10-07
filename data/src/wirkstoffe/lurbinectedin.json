@@ -1,0 +1,150 @@
+{
+  "id": "lurbinectedin",
+  "name": "Lurbinectedin",
+  "synonyme": [
+    "PM01183"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01XX69"
+  ],
+  "klasse": "Alkylierendes Zytostatikum (Transkriptionshemmer)",
+  "kurz": "Chemotherapie-Infusion bei kleinzelligem Lungenkrebs, der während oder nach platinhaltiger Chemotherapie fortschreitet.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "hepatotoxisch",
+    "myotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Zepzelca"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasiertes kleinzelliges Lungenkarzinom mit Fortschreiten während oder nach platinhaltiger Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Ablesen der Erbinformation in Krebszellen und lässt diese absterben. Lurbinectedin bindet an Guanin-Reste in der kleinen Furche der DNA und bildet Addukte, die die DNA-Helix verbiegen. Dadurch wird die aktive Transkription durch die RNA-Polymerase II blockiert, es entstehen DNA-Doppelstrangbrüche und die Zellen gehen in den programmierten Zelltod. Zusätzlich hemmt es die Transkription in tumorfördernden Makrophagen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung (Neutropenie, Thrombozytopenie) mit Infektionen bis zur Sepsis; Blutbild vor jeder Gabe",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Leberschädigung und eingeschränkte Leberfunktion; Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Nierenfunktionsstörung (kaum Erfahrungen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Rhabdomyolyse (Muskelzerfall): bei Muskelschmerzen oder -schwäche CK kontrollieren",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Austritt der Infusion ins Gewebe (Extravasation) kann Gewebeschäden verursachen",
+      "ids": []
+    },
+    {
+      "text": "Frauen und Männer: zuverlässige Verhütung während und nach der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir), Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Lurbinectedin-Spiegel steigt stark, mehr schwere Nebenwirkungen – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Lurbinectedin-Spiegel steigt – Kombination vermeiden oder eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Lurbinectedin-Spiegel sinkt, Wirkung vermindert – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild eng kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Thrombozytopenie, Anämie",
+      "Müdigkeit, Schwäche",
+      "Übelkeit, Erbrechen, Verstopfung, Durchfall",
+      "Appetitlosigkeit",
+      "Erhöhte Leberwerte und erhöhtes Kreatinin",
+      "Atemnot, Husten",
+      "Muskel- und Knochenschmerzen",
+      "Fieber"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie (Fieber bei Neutropenie)",
+      "Lungenentzündung und andere Infektionen",
+      "Periphere Neuropathie (Nervenschädigung)",
+      "Kopfschmerzen",
+      "Bauchschmerzen, Mundschleimhautentzündung"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Sepsis (Blutvergiftung)",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Gewebeschädigung bei Extravasation"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen sollen bis 6 Monate, Männer bis 4 Monate nach der letzten Dosis zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 2 Wochen nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Vor jeder Gabe werden Blutbild und Leberwerte kontrolliert; Fieber oder Infektzeichen sofort melden.",
+    "Vor der Infusion werden Mittel gegen Übelkeit gegeben.",
+    "Grapefruit und Johanniskraut meiden; neue Medikamente nur nach Rücksprache."
+  ],
+  "stand": "2026-10"
+}

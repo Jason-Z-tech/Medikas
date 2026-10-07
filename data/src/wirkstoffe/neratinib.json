@@ -1,0 +1,181 @@
+{
+  "id": "neratinib",
+  "name": "Neratinib",
+  "synonyme": [
+    "Neratinibum",
+    "Neratinib maleate",
+    "HKI-272"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EH02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (irreversibler pan-HER-Tyrosinkinasehemmer); Krebsmittel",
+  "kurz": "Krebsmittel zum Einnehmen, das nach abgeschlossener Trastuzumab-Therapie bei frühem HER2-positivem Brustkrebs Rückfällen vorbeugt.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Nerlynx"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Verlängerte ergänzende (adjuvante) Behandlung bei frühem hormonrezeptor-positivem, HER2-positivem Brustkrebs, wenn die Trastuzumab-Therapie vor weniger als einem Jahr abgeschlossen wurde",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert Wachstumssignale in Brustkrebszellen mit zu vielen HER2-Rezeptoren. Neratinib bindet irreversibel an die Tyrosinkinasen von EGFR (HER1), HER2 und HER4 und hemmt so deren Aktivierung. Dadurch werden die nachgeschalteten Signalwege (MAPK, AKT) unterbrochen und die Zellteilung gebremst.",
+  "kontraindikationen": [
+    {
+      "text": "Schwer eingeschränkte Leberfunktion (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Durchfall: tritt bei fast allen Behandelten auf, oft in den ersten Wochen; vorbeugende Behandlung nötig",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen; Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Verschlechterung bei Flüssigkeitsmangel möglich)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Herzfunktion (bei HER2-gerichteten Therapien Abnahme der Auswurffraktion bekannt)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter (zuverlässige Verhütung nötig)",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-/P-Glykoprotein-Induktoren (Carbamazepin, Phenytoin, Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "carbamazepin",
+        "phenytoin",
+        "rifampicin",
+        "johanniskraut"
+      ],
+      "grund": "Sie beschleunigen den Abbau von Neratinib stark, sodass die Wirkung verloren geht."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-/P-gp-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Neratinib-Spiegel steigt stark, mehr Durchfall und Leberschäden – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol)",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Neratinib wird deutlich schlechter aufgenommen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Neratinib-Spiegel steigt – nur mit Vorsicht, auf Durchfall und Leberwerte achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "H2-Blocker (z. B. Famotidin)",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Schlechtere Aufnahme – Neratinib mindestens 2 Stunden vor oder 10 Stunden nach dem H2-Blocker einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Schlechtere Aufnahme – mindestens 3 Stunden Abstand zum Antazidum einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin, Dabigatran und andere empfindliche P-Glykoprotein-Substrate",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin",
+        "dabigatran"
+      ],
+      "effekt": "Neratinib hemmt P-Glykoprotein – Spiegel dieser Mittel steigen; Vorsicht, Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall (oft schwer)",
+      "Übelkeit, Erbrechen, Bauchschmerzen",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Müdigkeit",
+      "Hautausschlag",
+      "Appetitlosigkeit",
+      "Muskelkrämpfe"
+    ],
+    "haeufig": [
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Dyspepsie (Verdauungsbeschwerden), Blähbauch, Mundtrockenheit",
+      "Nagelveränderungen, trockene Haut",
+      "Erhöhte Leberwerte",
+      "Gewichtsabnahme, Geschmacksstörungen, Nasenbluten",
+      "Erhöhte Nierenwerte (Kreatinin)"
+    ],
+    "gelegentlich": [
+      "Nierenversagen",
+      "Erhöhtes Bilirubin"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 1 Monat, Männer bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 1 Monat nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich mit einer Mahlzeit einnehmen, möglichst morgens.",
+    "In den ersten 2 Monaten vorbeugend Loperamid wie verordnet einnehmen; ausreichend trinken und schweren Durchfall sofort melden.",
+    "Grapefruit und Granatapfel meiden.",
+    "Leberwerte regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,191 @@
+{
+  "id": "procarbazin",
+  "name": "Procarbazin",
+  "synonyme": [
+    "Procarbazine",
+    "Procarbazinhydrochlorid",
+    "Ibenzmethyzin"
+  ],
+  "atc": [
+    "L01XB01"
+  ],
+  "klasse": "Alkylierendes Zytostatikum (Methylhydrazin-Derivat); schwacher MAO-Hemmer",
+  "kurz": "Chemotherapie in Kapselform, kombiniert mit weiteren Krebsmitteln gegen das Hodgkin-Lymphom; verträgt sich nicht mit Alkohol.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "mao-hemmer",
+    "disulfiramartig",
+    "zns-daempfend",
+    "teratogen",
+    "neuropathie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Natulan"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Hodgkin-Lymphom (Morbus Hodgkin) als Teil einer Kombinations-Chemotherapie",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt das Erbgut von Krebszellen und hemmt so ihre Teilung. Procarbazin ist ein Prodrug: Es wird in der Leber über Cytochrom-P450-Enzyme zu reaktiven Azo- und Azoxy-Metaboliten umgewandelt, die die DNA methylieren und die DNA-, RNA- und Eiweisssynthese hemmen. Zusätzlich hemmt Procarbazin schwach die Monoaminoxidase (MAO), was Wechselwirkungen mit tyraminreichen Nahrungsmitteln und Sympathomimetika erklärt.",
+  "kontraindikationen": [
+    {
+      "text": "Bereits bestehende schwere Knochenmarkschwäche (ausgeprägter Mangel an weissen Blutkörperchen oder Blutplättchen)",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leicht bis mässig eingeschränkte Leber- oder Nierenfunktion: stärkere Toxizität möglich",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Alkoholkonsum: Unverträglichkeitsreaktion wie bei Disulfiram (Gesichtsrötung, Herzklopfen, Übelkeit)",
+      "ids": [
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Bluthochdruck und Herzkrankheiten: Blutdruckkrisen durch MAO-Hemmung möglich (tyraminreiche Nahrungsmittel, Erkältungsmittel)",
+      "ids": [
+        "hypertonie",
+        "hypertensive-krise"
+      ]
+    },
+    {
+      "text": "Infektionen und geplante Impfungen: geschwächte Abwehr",
+      "ids": [
+        "aktive-infektion",
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Fruchtbarkeit: häufig bleibende Unfruchtbarkeit; vor Beginn über Samen- bzw. Eizellkonservierung beraten lassen",
+      "ids": [
+        "maennliche-unfruchtbarkeit",
+        "unfruchtbarkeit"
+      ]
+    },
+    {
+      "text": "Frauen und Männer im fortpflanzungsfähigen Alter: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Spätfolgen: erhöhtes Risiko für Zweitkrebs, z. B. akute Leukämie",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Sympathomimetika (z. B. Pseudoephedrin, Phenylephrin, Ephedrin in Erkältungsmitteln) und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Wegen der MAO-Hemmung Gefahr einer Blutdruckkrise – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkte MAO-Hemmung mit Gefahr von Blutdruckkrisen – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Unter Chemotherapie Gefahr einer Infektion durch den Impfstoff – nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Bestrahlung",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (z. B. Opioide, Benzodiazepine, sedierende Antihistaminika, Antipsychotika)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit – Vorsicht, besonders beim Autofahren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduzierende Antiepileptika (z. B. Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Mehr aktive Metaboliten und häufiger Überempfindlichkeitsreaktionen möglich – Verträglichkeit überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Appetitlosigkeit, Übelkeit und Erbrechen (v. a. zu Beginn)",
+      "Leukopenie und Thrombozytopenie (Mangel an weissen Blutkörperchen und Blutplättchen)"
+    ],
+    "unbekannt": [
+      "Anämie (Blutarmut)",
+      "Müdigkeit, Schläfrigkeit, Depression, Verwirrtheit",
+      "Periphere Neuropathie (Kribbeln, Taubheit)",
+      "Allergische Hautreaktionen",
+      "Interstitielle Pneumonitis (allergische Entzündung des Lungengewebes)",
+      "Leberfunktionsstörungen",
+      "Unfruchtbarkeit (fehlende Samenzellen, Ausbleiben der Regel)",
+      "Zweitkrebs, z. B. akute Leukämie"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert – Procarbazin ist fruchtschädigend. Frauen und Männer müssen während und nach der Behandlung zuverlässig verhüten (Dauer nach ärztlicher Vorgabe).",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Während der Behandlung keinen Alkohol trinken (Unverträglichkeitsreaktion).",
+    "Tyraminreiche Lebensmittel meiden (z. B. lange gereifter Käse, Rotwein, Rohwurst, Hefeextrakt, Sojasauce) – Gefahr einer Blutdruckkrise.",
+    "Keine rezeptfreien Erkältungs- oder Schnupfenmittel ohne Rücksprache mit Ärztin, Arzt oder Apotheke.",
+    "Blutbild regelmässig kontrollieren; Fieber oder Blutungszeichen sofort melden."
+  ],
+  "stand": "2026-10"
+}

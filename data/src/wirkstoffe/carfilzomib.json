@@ -1,0 +1,192 @@
+{
+  "id": "carfilzomib",
+  "name": "Carfilzomib",
+  "synonyme": [
+    "PR-171"
+  ],
+  "atc": [
+    "L01XG02"
+  ],
+  "klasse": "Proteasom-Hemmer (irreversibel, Epoxyketon)",
+  "kurz": "Infusion gegen das multiple Myelom (Krebs der Plasmazellen im Knochenmark), kombiniert mit Dexamethason und weiteren Myelommitteln.",
+  "gruppen": [
+    "myelosuppressiv",
+    "kardiotoxisch",
+    "nephrotoxisch",
+    "blutdrucksteigernd",
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Kyprolis"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiples Myelom bei Erwachsenen nach mindestens einer Vortherapie – in Kombination mit Lenalidomid und Dexamethason, mit Dexamethason allein oder mit Daratumumab und Dexamethason",
+      "ids": [
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert in Myelomzellen das Proteasom, die «Abfallentsorgung» der Zelle, sodass sich fehlerhafte Eiweisse anhäufen und die Krebszelle abstirbt. Carfilzomib bindet selektiv und irreversibel an die chymotrypsinartige Untereinheit (β5) des 20S-Proteasoms und des Immunoproteasoms. Die anhaltende Hemmung führt zu Zellzyklus-Stillstand und programmiertem Zelltod (Apoptose); Myelomzellen sind dafür wegen ihrer hohen Eiweissproduktion besonders empfindlich.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzerkrankungen (Herzschwäche, Herzinfarkt in der Vorgeschichte, Herzrhythmusstörungen): neue oder verschlechterte Herzschwäche möglich",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: Blutdruck vor und während der Behandlung kontrollieren, hypertensive Krisen möglich",
+      "ids": [
+        "hypertonie",
+        "hypertensive-krise"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: akutes Nierenversagen möglich; Nierenwerte überwachen, ausreichend Flüssigkeit",
+      "ids": [
+        "niereninsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen: Atemnot, Lungenhochdruck und akutes Lungenversagen möglich",
+      "ids": [
+        "atemnot",
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte: erhöhtes Thromboserisiko, besonders mit Lenalidomid und Dexamethason – Prophylaxe",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie und Blutungsneigung",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Hepatitis B in der Vorgeschichte: Reaktivierung möglich",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: wirksame Verhütung erforderlich",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Östrogenhaltige Verhütungsmittel und Hormonersatz",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Zusätzlich erhöhtes Thromboserisiko, besonders in Kombination mit Lenalidomid und Dexamethason – auf eine wirksame nicht-hormonale Verhütung wechseln.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere herzschädigende Mittel (z. B. Anthrazykline)",
+      "ref": [
+        "gruppe:kardiotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Herzschwäche – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. NSAR, Aminoglykoside)",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Höheres Risiko für akutes Nierenversagen – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Bei tiefen Blutplättchen erhöhtes Blutungsrisiko – Blutbild kontrollieren, Dosis ärztlich anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Thrombozytopenie, Neutropenie, Anämie (Blutbildveränderungen)",
+      "Atemwegsinfekte, Lungenentzündung",
+      "Bluthochdruck",
+      "Atemnot (Dyspnoe), Husten",
+      "Durchfall, Übelkeit, Erbrechen",
+      "Müdigkeit, Fieber",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Erhöhtes Kreatinin (Nierenwert)"
+    ],
+    "haeufig": [
+      "Herzinsuffizienz (Herzschwäche), Vorhofflimmern",
+      "Akutes Nierenversagen",
+      "Tiefe Venenthrombose, Lungenembolie",
+      "Sepsis (Blutvergiftung)",
+      "Infusionsreaktionen"
+    ],
+    "gelegentlich": [
+      "Herzinfarkt",
+      "Akutes Lungenversagen (ARDS), Lungenhochdruck",
+      "Tumorlyse-Syndrom (Stoffwechselentgleisung durch zerfallende Tumorzellen)",
+      "Leberversagen",
+      "Hirnblutung",
+      "Magen-Darm-Perforation"
+    ],
+    "selten": [
+      "Thrombotische Mikroangiopathie (z. B. TTP, hämolytisch-urämisches Syndrom)",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES: Kopfschmerzen, Sehstörungen, Krampfanfälle)"
+    ],
+    "unbekannt": [
+      "Progressive multifokale Leukenzephalopathie (PML, seltene Hirninfektion)",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden; im Tierversuch fruchtschädigend. Frauen verhüten während und bis 1 Monat, Männer bis 3 Monate nach der Behandlung. In Kombination mit Lenalidomid gilt zusätzlich dessen Schwangerschaftsverhütungsprogramm.",
+  "stillzeit": "Kontraindiziert; während der Behandlung und mindestens 2 Tage danach nicht stillen.",
+  "hinweise": [
+    "Ausreichend trinken; vor den Infusionen wird oft zusätzlich Flüssigkeit gegeben (Schutz der Nieren).",
+    "Blutdruck, Blutbild, Nierenwerte und Elektrolyte werden regelmässig kontrolliert.",
+    "Atemnot, Brustschmerzen, geschwollene Beine, starke Kopfschmerzen oder Sehstörungen sofort melden.",
+    "Thromboseprophylaxe nach ärztlicher Vorgabe, besonders in Kombination mit Lenalidomid."
+  ],
+  "stand": "2026-10"
+}

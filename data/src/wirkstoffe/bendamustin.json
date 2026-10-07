@@ -1,0 +1,257 @@
+{
+  "id": "bendamustin",
+  "name": "Bendamustin",
+  "synonyme": [
+    "Bendamustinum",
+    "Bendamustine"
+  ],
+  "atc": [
+    "L01AA09"
+  ],
+  "klasse": "Zytostatikum; Alkylans (Stickstofflost-Derivat mit Benzimidazolring)",
+  "kurz": "Krebsmittel als Infusion bei chronischer lymphatischer Leukämie und langsam wachsenden Lymphomen, oft zusammen mit Rituximab.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Ribomustin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung eines Konzentrats für eine Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische lymphatische Leukämie (CLL)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Indolente (langsam wachsende) Non-Hodgkin-Lymphome und Mantelzell-Lymphom, allein oder zusammen mit Rituximab",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Krebszellen, indem es ihr Erbgut schädigt. Bendamustin verbindet eine Stickstofflost-Gruppe mit einem Benzimidazolring und wirkt als bifunktionelles Alkylans: Es vernetzt DNA-Stränge und löst den Zelltod aus, teilweise auch bei Resistenz gegen andere Alkylanzien. Es wird überwiegend durch Hydrolyse abgebaut; über CYP1A2 entstehen geringe Mengen aktiver Metaboliten.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Bilirubin über 3 mg/dl)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gelbsucht",
+      "ids": [
+        "cholestase"
+      ]
+    },
+    {
+      "text": "Schwere Knochenmarkhemmung und schwere Blutbildveränderungen (Leukozyten unter 3000/µl, Thrombozyten unter 75'000/µl)",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Grössere Operation innerhalb der letzten 30 Tage",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Infektionen, insbesondere bei Leukopenie",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infektionen inkl. opportunistischer Infektionen (z. B. Pneumocystis-Pneumonie, Gürtelrose, CMV) und Reaktivierung einer Hepatitis B: vorher auf Hepatitis B testen",
+      "ids": [
+        "hepatitis-b",
+        "herpes",
+        "cmv-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS), v. a. in Kombination mit Allopurinol oder Rituximab",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom: ausreichend trinken, Harnsäure und Kalium kontrollieren",
+      "ids": []
+    },
+    {
+      "text": "Herzerkrankungen: Kalium überwachen; Herzrhythmusstörungen und Herzinfarkt beschrieben",
+      "ids": [
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen bis Anaphylaxie",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Zweitkrebs (u. a. heller Hautkrebs, Myelodysplasie, akute myeloische Leukämie): Haut regelmässig kontrollieren",
+      "ids": [
+        "hautkrebs",
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Neue neurologische Beschwerden: an progressive multifokale Leukoenzephalopathie (PML, seltene Hirninfektion) denken",
+      "ids": []
+    },
+    {
+      "text": "Austritt der Infusion neben die Vene (Paravasat) vermeiden",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfung",
+      "ref": [
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Unter der durch Bendamustin geschwächten Abwehr kann das Impfvirus eine schwere, möglicherweise tödliche Erkrankung auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während der Behandlung nicht anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Knochenmark-hemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP1A2-Hemmer (z. B. Fluvoxamin, Ciprofloxacin, Aciclovir)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer",
+        "aciclovir"
+      ],
+      "effekt": "Höhere Bendamustin-Spiegel, weniger aktive Abbauprodukte – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Allopurinol",
+      "ref": [
+        "allopurinol"
+      ],
+      "effekt": "Erhöhtes Risiko schwerer Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) – Haut genau beobachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Übermässige Immunsuppression mit Risiko für Lymphwucherungen (Lymphoproliferation).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Induktoren (z. B. Omeprazol, Rauchen)",
+      "ref": [
+        "omeprazol"
+      ],
+      "effekt": "Tiefere Bendamustin-Spiegel möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [
+        "influenza-impfstoff-inaktiviert",
+        "pneumokokken-konjugatimpfstoff"
+      ],
+      "effekt": "Schwächere Impfantwort.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Leukopenie, Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen), Hämoglobin-Abfall",
+      "Übelkeit, Erbrechen",
+      "Schleimhautentzündung",
+      "Müdigkeit, Fieber",
+      "Anstieg von Kreatinin und Harnstoff"
+    ],
+    "haeufig": [
+      "Neutropenie, Anämie, Blutungen",
+      "Allergische Reaktionen und Infusionsreaktionen",
+      "Tumorlysesyndrom",
+      "Herzrhythmusstörungen, Herzklopfen, Angina pectoris",
+      "Durchfall, Verstopfung, Mundentzündung",
+      "Haarausfall, Hautveränderungen",
+      "Hypokaliämie (Kaliummangel), erhöhte Leberwerte",
+      "Schlaflosigkeit, Schwindel"
+    ],
+    "gelegentlich": [
+      "Perikarderguss, Vorhofflimmern",
+      "Myelodysplastisches Syndrom, akute myeloische Leukämie"
+    ],
+    "selten": [
+      "Sepsis (Blutvergiftung)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schläfrigkeit, Stimmverlust",
+      "Kreislaufversagen",
+      "Hautrötung, Juckreiz, Ausschlag"
+    ],
+    "sehrSelten": [
+      "Hämolyse (Blutzerfall)",
+      "Herzinfarkt, Herzschwäche",
+      "Lungenfibrose, atypische Lungenentzündung",
+      "Periphere Neuropathie (Nervenschäden)",
+      "Magen-Darm-Blutung",
+      "Multiorganversagen"
+    ],
+    "unbekannt": [
+      "Leberversagen, Hepatitis-B-Reaktivierung",
+      "Nierenversagen",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS (schwere Hautreaktionen)",
+      "Progressive multifokale Leukoenzephalopathie (PML)",
+      "Pneumonitis"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit: Bendamustin kann das ungeborene Kind schädigen. Frauen müssen während der Behandlung sicher verhüten; Männer sollen bis 6 Monate danach kein Kind zeugen.",
+  "stillzeit": "Kontraindiziert – nicht stillen.",
+  "hinweise": [
+    "Vor jedem Zyklus Blutbildkontrolle; bei Fieber, Infektzeichen oder Hautausschlag sofort ärztliche Hilfe holen.",
+    "Keine Lebendimpfungen, insbesondere keine Gelbfieberimpfung.",
+    "Müdigkeit und Schwindel möglich – Vorsicht beim Autofahren.",
+    "Haut regelmässig kontrollieren lassen und vor Sonne schützen (heller Hautkrebs)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,280 @@
+{
+  "id": "lornoxicam",
+  "name": "Lornoxicam",
+  "synonyme": [
+    "Chlortenoxicam",
+    "Lornoxicamum"
+  ],
+  "atc": [
+    "M01AC05"
+  ],
+  "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Oxicam)",
+  "kurz": "Entzündungshemmendes Schmerzmittel (NSAR) mit kurzer Wirkdauer bei akuten Schmerzen sowie bei Arthrose und rheumatoider Arthritis.",
+  "gruppen": [
+    "nsar",
+    "blutungsrisiko-erhoehend",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend"
+  ],
+  "handelsnamen": [
+    "Xefo"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurzzeitbehandlung leichter bis mässig starker akuter Schmerzen",
+      "ids": [
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Schmerzen und Entzündung bei Arthrose und rheumatoider Arthritis",
+      "ids": [
+        "arthrose",
+        "rheumatoide-arthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündungen, indem es die Bildung von Prostaglandinen hemmt. Lornoxicam hemmt die Cyclooxygenasen COX-1 und COX-2 kräftig. Anders als andere Oxicame hat es eine kurze Halbwertszeit von 3–5 Stunden. Es wird über das Leberenzym CYP2C9 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma, Nesselsucht oder Schnupfen nach Einnahme von Acetylsalicylsäure oder anderen NSAR (Analgetika-Asthma)",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive oder wiederholte Magen-Darm-Geschwüre, Magen-Darm-Blutungen oder -Durchbrüche, auch nach früherer NSAR-Behandlung",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie, Blutgerinnungsstörungen, Hirnblutungen oder andere aktive Blutungen",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder Risikofaktoren (erhöhtes Risiko für Herzinfarkt und Schlaganfall), Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Erkrankungen in der Vorgeschichte (z. B. Colitis ulcerosa, Morbus Crohn), ältere Menschen",
+      "ids": [
+        "colitis-ulcerosa",
+        "morbus-crohn",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Nieren- oder Leberfunktionsstörung, Flüssigkeitsmangel",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes und Mischkollagenosen (Risiko einer aseptischen Meningitis)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Heparine)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko; Lornoxicam kann zudem die Wirkung von Phenprocoumon verstärken – INR eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NSAR, auch Acetylsalicylsäure in schmerzlindernder Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und Blutungen ohne Wirkungsgewinn – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Verminderte Ausscheidung von Methotrexat – Gefahr schwerer Knochenmark- und Nierenschäden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigen – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "SSRI, SNRI und Plättchenhemmer",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe, Betablocker und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:betablocker",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Risiko für akutes Nierenversagen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Verminderte Ausscheidung von Digoxin – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C9-Hemmer (z. B. Fluconazol, Amiodaron)",
+      "ref": [
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Höhere Lornoxicam-Spiegel und mehr Nebenwirkungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Fluorchinolone",
+      "ref": [
+        "gruppe:fluorchinolone"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Dyspepsie (Verdauungsbeschwerden), Durchfall"
+    ],
+    "gelegentlich": [
+      "Appetitlosigkeit, Gewichtsveränderungen",
+      "Schlaflosigkeit, Depression",
+      "Ohrensausen (Tinnitus), Drehschwindel",
+      "Herzklopfen, Herzrasen, Ödeme, Herzinsuffizienz",
+      "Verstopfung, Blähungen, Mundtrockenheit, Gastritis, Magen- oder Zwölffingerdarmgeschwür",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Juckreiz, Schwitzen, Nesselsucht, Haarausfall",
+      "Gelenkschmerzen"
+    ],
+    "selten": [
+      "Anämie, Thrombozytopenie, Leukopenie, verlängerte Blutungszeit",
+      "Überempfindlichkeitsreaktionen, Bronchospasmus (Verkrampfung der Atemwege)",
+      "Verwirrtheit, Schläfrigkeit, Kribbeln, Geschmacksstörungen",
+      "Bluthochdruck, Blutungen",
+      "Magen-Darm-Blutung (Teerstuhl, Bluterbrechen), Durchbruch eines Geschwürs",
+      "Erhöhte Harnstoff- und Kreatininwerte"
+    ],
+    "sehrSelten": [
+      "Leberschädigung",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"
+    ],
+    "unbekannt": [
+      "Erhöhtes Risiko für Herzinfarkt und Schlaganfall"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach strenger ärztlicher Abwägung; ab der 20. Woche können NSAR die Nierenfunktion des Ungeborenen beeinträchtigen. Im letzten Drittel kontraindiziert.",
+  "stillzeit": "Keine ausreichenden Daten; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Mit ausreichend Flüssigkeit vor oder mit einer Mahlzeit einnehmen; so kurz und so niedrig dosiert wie möglich.",
+    "Nicht mit anderen NSAR kombinieren.",
+    "Schwindel und Schläfrigkeit können die Fahrtüchtigkeit beeinträchtigen.",
+    "Bei Langzeitbehandlung Blutbild, Leber- und Nierenwerte kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

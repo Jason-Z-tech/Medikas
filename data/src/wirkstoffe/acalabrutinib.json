@@ -1,0 +1,177 @@
+{
+  "id": "acalabrutinib",
+  "name": "Acalabrutinib",
+  "synonyme": [
+    "Acalabrutinibum",
+    "Acalabrutinib maleate",
+    "ACP-196"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EL02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BTK-Hemmer, kovalent); Krebsmittel",
+  "kurz": "Krebsmittel (BTK-Hemmer) zum Einnehmen gegen chronische lymphatische Leukämie und Mantelzell-Lymphom.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "blutungsrisiko-erhoehend",
+    "myelosuppressiv",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Calquence"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische lymphatische Leukämie (CLL), unbehandelt oder nach Vorbehandlung, allein oder in Kombination (z. B. mit Obinutuzumab)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Mantelzell-Lymphom",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum und Überleben bösartiger B-Lymphozyten. Acalabrutinib bindet kovalent und sehr selektiv an die Bruton-Tyrosinkinase (BTK), ein Schlüsselenzym des B-Zell-Rezeptor-Signalwegs. Ohne dieses Signal teilen sich die Krebszellen weniger, wandern schlechter in Lymphknoten und Knochenmark ein und sterben vermehrt ab. Der Hauptmetabolit ACP-5862 ist ebenfalls wirksam.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Blutungsneigung, Behandlung mit Blutverdünnern oder Plättchenhemmern; vor Operationen 3–7 Tage pausieren",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation",
+        "operation"
+      ]
+    },
+    {
+      "text": "Infektionen, auch Hepatitis B in der Vorgeschichte (Reaktivierung möglich) und opportunistische Infektionen",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, v. a. Vorhofflimmern, besonders bei Herzkrankheit oder Bluthochdruck",
+      "ids": [
+        "vorhofflimmern",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Mangel an Blutzellen (Neutropenie, Thrombozytopenie, Anämie); Blutbild kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Zweittumoren, v. a. weisser Hautkrebs: Sonnenschutz, Haut kontrollieren",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Leberfunktion (Anwendung nicht empfohlen)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Acalabrutinib-Spiegel steigt stark – Kombination vermeiden oder Acalabrutinib vorübergehend pausieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Acalabrutinib-Spiegel sinkt stark, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Acalabrutinib-Spiegel steigt – Dosis auf einmal täglich reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutverdünner und Plättchenhemmer (z. B. Phenprocoumon, DOAK, Acetylsalicylsäure, Clopidogrel)",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – enge Überwachung, Notwendigkeit prüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat und andere BCRP-Substrate",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Acalabrutinib kann im Darm den Transporter BCRP hemmen – Methotrexat mindestens 6 Stunden zeitversetzt einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege, Nasennebenhöhlenentzündung",
+      "Kopfschmerzen, Schwindel",
+      "Durchfall, Übelkeit, Verstopfung, Erbrechen, Bauchschmerzen",
+      "Blutergüsse und Blutungen",
+      "Muskel-, Knochen- und Gelenkschmerzen",
+      "Müdigkeit, Hautausschlag",
+      "Neutropenie, Anämie, Thrombozytopenie (Mangel an Blutzellen)"
+    ],
+    "haeufig": [
+      "Lungenentzündung, Harnwegsinfekte, Herpesinfektionen",
+      "Vorhofflimmern oder -flattern",
+      "Magen-Darm-Blutungen",
+      "Weisser Hautkrebs (nicht-melanozytärer Hautkrebs) und andere Zweittumoren"
+    ],
+    "gelegentlich": [
+      "Hirnblutung",
+      "Reaktivierung einer Hepatitis B",
+      "Tumorlysesyndrom (Stoffwechselentgleisung durch zerfallende Krebszellen)",
+      "Lymphozytose (vorübergehender Anstieg der Lymphozyten)"
+    ],
+    "selten": [
+      "Progressive multifokale Leukoenzephalopathie (PML, schwere Hirninfektion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Ventrikuläre Herzrhythmusstörungen"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch Geburtskomplikationen und Schäden beim Nachwuchs). Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 2 Tage nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich im Abstand von etwa 12 Stunden einnehmen, mit oder ohne Essen; Tabletten ganz schlucken.",
+    "Vor Operationen und Zahneingriffen die Behandlung angeben (Pause von 3–7 Tagen nach ärztlicher Anweisung).",
+    "Herzklopfen, Blutungen, Fieber oder Infektzeichen sofort ärztlich melden.",
+    "Konsequenter Sonnenschutz; regelmässige Blutbildkontrollen."
+  ],
+  "stand": "2026-10"
+}

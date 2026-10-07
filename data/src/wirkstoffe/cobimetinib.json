@@ -1,0 +1,168 @@
+{
+  "id": "cobimetinib",
+  "name": "Cobimetinib",
+  "synonyme": [
+    "Cobimetinibum",
+    "GDC-0973"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EE02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (MEK1/2-Hemmer); Krebsmittel",
+  "kurz": "Krebsmittel (MEK-Hemmer) zum Einnehmen, zusammen mit Vemurafenib gegen fortgeschrittenen schwarzen Hautkrebs mit BRAF-V600-Mutation.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "kardiotoxisch",
+    "blutungsrisiko-erhoehend",
+    "photosensibilisierend",
+    "myotoxisch",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Cotellic"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht operables oder metastasiertes Melanom mit BRAF-V600-Mutation, zusammen mit Vemurafenib",
+      "ids": [
+        "hautkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum von Melanomzellen, deren Wachstumssignal durch eine BRAF-Mutation dauerhaft eingeschaltet ist. Cobimetinib hemmt reversibel und selektiv die Kinasen MEK1 und MEK2 im MAPK-Signalweg und verhindert so die Aktivierung von ERK. Zusammen mit dem BRAF-Hemmer Vemurafenib wird der Signalweg an zwei Stellen blockiert, was die Wirkung verstärkt und Resistenzen verzögert.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Herzschwäche oder eingeschränkte Pumpfunktion (Abnahme der Auswurffraktion möglich, Kontrollen vor und während der Therapie)",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung, Hirnmetastasen oder Behandlung mit Blutverdünnern (schwere Blutungen möglich)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Augenerkrankungen: seröse Netzhautablösung (Retinopathie) möglich",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion; Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Muskelerkrankungen (CK-Anstieg und Rhabdomyolyse möglich)",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Starke Sonnenexposition (Lichtempfindlichkeit, v. a. mit Vemurafenib)",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter (zuverlässige Verhütung nötig)",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Cobimetinib-Spiegel steigt stark (mehrfach) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Cobimetinib-Spiegel sinkt deutlich, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Cobimetinib-Spiegel steigt – nur mit Vorsicht und engmaschiger Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutverdünner und Plättchenhemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – enge Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Hemmer (z. B. Ciclosporin, Verapamil)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Höhere Cobimetinib-Spiegel möglich – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen",
+      "Hautausschlag, akneartige Hautentzündung, Hyperkeratose (Hornhautverdickung)",
+      "Lichtempfindlichkeit (Photosensibilität)",
+      "Seröse Retinopathie (Flüssigkeit unter der Netzhaut), verschwommenes Sehen",
+      "Fieber, Schüttelfrost",
+      "Bluthochdruck, Blutungen",
+      "Anämie (Blutarmut)",
+      "Erhöhte CK-, Leber- und Nierenwerte"
+    ],
+    "haeufig": [
+      "Abnahme der Herzleistung (verminderte Auswurffraktion)",
+      "Pneumonitis (Lungenentzündung ohne Infektion)",
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Hyponatriämie, Hypophosphatämie, Hyperglykämie (erhöhter Blutzucker)",
+      "Plattenepithelkarzinom und Basaliom der Haut, Keratoakanthom"
+    ],
+    "gelegentlich": [
+      "Rhabdomyolyse (Muskelzerfall)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 2 Wochen nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einnahme im Zyklus: 21 Tage täglich, danach 7 Tage Pause; mit oder ohne Essen.",
+    "Konsequenter Sonnenschutz (Kleidung, Sonnencreme mit hohem UV-A- und UV-B-Schutz).",
+    "Grapefruit und Grapefruitsaft meiden.",
+    "Regelmässige Kontrollen: Herzfunktion, Augen, Haut, Leberwerte und CK."
+  ],
+  "stand": "2026-10"
+}

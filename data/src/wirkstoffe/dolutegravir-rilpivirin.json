@@ -1,0 +1,240 @@
+{
+  "id": "dolutegravir-rilpivirin",
+  "name": "Dolutegravir + Rilpivirin",
+  "synonyme": [
+    "DTG/RPV",
+    "Dolutegravir/Rilpivirine"
+  ],
+  "kombinationAus": [
+    "dolutegravir",
+    "rilpivirin"
+  ],
+  "atc": [
+    "J05AR21"
+  ],
+  "klasse": "HIV-Zweierkombination (Integrasehemmer + NNRTI)",
+  "kurz": "HIV-Tablette mit nur zwei Wirkstoffen für Personen, deren Virus bereits gut unterdrückt ist; einmal täglich zu einer Mahlzeit.",
+  "gruppen": [
+    "integrasehemmer",
+    "nnrti",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Juluca"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen mit stabil unterdrückter Viruslast (unter 50 Kopien/ml seit mindestens 6 Monaten), ohne früheres Therapieversagen und ohne Resistenz gegen NNRTI oder Integrasehemmer",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Zwei Wirkstoffe blockieren das HI-Virus an verschiedenen Stellen. Dolutegravir hemmt die Integrase und verhindert den Einbau des Virus-Erbguts in die Wirtszelle. Rilpivirin (NNRTI) bindet direkt an die Reverse Transkriptase und blockiert das Umschreiben der Virus-RNA in DNA. Dolutegravir hemmt zudem die Nieren-Transporter OCT2 und MATE1; dadurch steigt das Kreatinin leicht an, ohne dass die Nierenfunktion abnimmt, und die Ausscheidung von Metformin wird vermindert.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Überempfindlichkeitsreaktionen auf Dolutegravir (Ausschlag mit Fieber, Organbeteiligung, Leberwertanstieg) – sofort absetzen",
+      "ids": [
+        "allergie",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Koinfektion: die Kombination wirkt nicht gegen Hepatitis B; beim Absetzen einer Hepatitis-B-wirksamen Therapie droht ein Hepatitis-Schub",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Einnahme von Mitteln mit Risiko für Torsade de pointes",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (keine Erfahrung) sowie chronische Hepatitis C",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz oder Dialyse (begrenzte Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Dofetilid und Fampridin",
+      "ref": [
+        "fampridin"
+      ],
+      "grund": "Dolutegravir hemmt deren Ausscheidung über die Niere (OCT2) – Gefahr lebensbedrohlicher Herzrhythmusstörungen bzw. von Krampfanfällen."
+    },
+    {
+      "text": "Carbamazepin, Oxcarbazepin, Phenobarbital, Phenytoin, Rifampicin, Rifapentin",
+      "ref": [
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken die Spiegel von Rilpivirin und Dolutegravir stark – Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Protonenpumpenhemmer (z. B. Omeprazol, Esomeprazol, Pantoprazol, Lansoprazol, Rabeprazol)",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "omeprazol",
+        "esomeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "rabeprazol"
+      ],
+      "grund": "Rilpivirin braucht Magensäure zur Aufnahme – stark verminderte Spiegel, Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Systemisches Dexamethason (ausser als Einzeldosis)",
+      "ref": [
+        "dexamethason"
+      ],
+      "grund": "Induziert CYP3A und senkt den Rilpivirin-Spiegel – Wirkverlust."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Senkt die Spiegel von Rilpivirin und Dolutegravir – Wirkverlust und Resistenzgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Efavirenz, Etravirin, Nevirapin und andere Enzyminduktoren",
+      "ref": [
+        "efavirenz",
+        "etravirin",
+        "nevirapin",
+        "gruppe:nnrti"
+      ],
+      "effekt": "Senken die Spiegel von Dolutegravir und Rilpivirin – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mehrwertige Kationen: Antazida, Calcium-, Magnesium- und Eisenpräparate",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida"
+      ],
+      "effekt": "Dolutegravir wird im Darm gebunden – die Tablette mindestens 4 Stunden vor oder 6 Stunden nach Antazida einnehmen; Calcium- oder Eisenpräparate entweder zusammen mit der Tablette zu einer Mahlzeit oder mit demselben Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "H2-Blocker (z. B. Famotidin)",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Verminderte Aufnahme von Rilpivirin – H2-Blocker nur 4 Stunden nach oder 12 Stunden vor der Tablette einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Dolutegravir erhöht den Metformin-Spiegel – Dosis anpassen, Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifabutin",
+      "ref": [
+        "rifabutin"
+      ],
+      "effekt": "Senkt den Rilpivirin-Spiegel – zusätzliche Rilpivirin-Tablette gemäss Fachinformation während der Kombination.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clarithromycin und Erythromycin",
+      "ref": [
+        "clarithromycin",
+        "erythromycin"
+      ],
+      "effekt": "Rilpivirin-Spiegel steigt (QT-Risiko) – Azithromycin bevorzugen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung möglich – Vorsicht, ggf. EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Azol-Antimykotika (z. B. Ketoconazol, Itraconazol, Fluconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Rilpivirin-Spiegel steigt – klinisch überwachen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Methadon-Spiegel kann leicht sinken – auf Entzugszeichen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Durchfall, Übelkeit, Bauchschmerzen, Blähungen, Erbrechen",
+      "Depression, Angst, Schlaflosigkeit, abnorme Träume",
+      "Hautausschlag, Juckreiz",
+      "Müdigkeit",
+      "Gewichtszunahme",
+      "Erhöhte Leberwerte, Kreatinkinase, Blutfette und Pankreas-Enzyme"
+    ],
+    "gelegentlich": [
+      "Suizidgedanken, Suizidversuch (v. a. bei psychischer Vorerkrankung)",
+      "Überempfindlichkeitsreaktionen",
+      "Hepatitis",
+      "Gelenk- und Muskelschmerzen",
+      "Immunrekonstitutionssyndrom"
+    ],
+    "selten": [
+      "Akutes Leberversagen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung anwenden; die Rilpivirin-Spiegel sind in der Schwangerschaft tiefer (Viruslast eng kontrollieren). Die Behandlung soll mit einem HIV-Zentrum geplant werden.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Einmal täglich zu einer Mahlzeit einnehmen.",
+    "Keine Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol); Antazida, H2-Blocker und Mineralstoffpräparate nur mit dem vorgeschriebenen Zeitabstand.",
+    "Bei Hautausschlag mit Fieber, Blasen, Schleimhautbeteiligung oder Unwohlsein sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

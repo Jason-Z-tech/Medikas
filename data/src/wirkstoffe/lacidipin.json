@@ -1,0 +1,161 @@
+{
+  "id": "lacidipin",
+  "name": "Lacidipin",
+  "synonyme": [
+    "Lacidipine",
+    "Lacidipinum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C08CA09"
+  ],
+  "klasse": "Calciumantagonist vom Dihydropyridin-Typ",
+  "kurz": "Lang wirksamer Blutdrucksenker aus der Gruppe der Calciumantagonisten.",
+  "gruppen": [
+    "dhp-calciumantagonisten",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Motens"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Bluthochdruck, allein oder in Kombination mit anderen Blutdrucksenkern",
+      "ids": [
+        "hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Blutgefässe erweitert. Lacidipin blockiert L-Typ-Calciumkanäle in der glatten Muskulatur der Arterien und senkt so den Gefässwiderstand. Wegen seiner hohen Fettlöslichkeit reichert es sich in den Zellmembranen an und wirkt trotz kurzer Halbwertszeit über 24 Stunden. Die Wirkung setzt langsam ein, sodass eine reflektorische Pulsbeschleunigung meist gering bleibt.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Aortenstenose (Verengung der Aortenklappe)",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Instabile Angina pectoris oder Herzinfarkt innerhalb des letzten Monats",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene QT-Verlängerung",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Störungen der Erregungsbildung und -leitung im Herzen (z. B. Sinusknotensyndrom)",
+      "ids": [
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Herzleistung",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: verstärkte Wirkung möglich",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Ritonavir, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Lacidipin-Spiegel steigen – stärkerer Blutdruckabfall möglich; Blutdruck überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Lacidipin-Spiegel sinken – die Blutdrucksenkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel (z. B. Antiarrhythmika der Klassen I und III, trizyklische Antidepressiva, gewisse Antipsychotika und Antibiotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Mögliche additive QT-Verlängerung – nur mit Vorsicht kombinieren, bei Risikopatienten EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker (z. B. Betablocker, Diuretika, ACE-Hemmer)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – meist erwünscht, Blutdruck kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Können die blutdrucksenkende Wirkung abschwächen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Herzklopfen, Herzrasen",
+      "Flush (Hautrötung mit Wärmegefühl)",
+      "Knöchelödeme (Schwellungen)",
+      "Übelkeit, Bauchbeschwerden",
+      "Polyurie (vermehrtes Wasserlassen)",
+      "Hautausschlag mit Rötung und Juckreiz",
+      "Asthenie (Schwächegefühl)"
+    ],
+    "gelegentlich": [
+      "Verstärkung einer bestehenden Angina pectoris",
+      "Synkope (Ohnmacht)",
+      "Hypotonie (tiefer Blutdruck)",
+      "Gingivahyperplasie (Zahnfleischwucherung)"
+    ],
+    "selten": [
+      "Angioödem (Schwellung von Gesicht, Lippen oder Rachen)",
+      "Nesselsucht",
+      "Muskelkrämpfe"
+    ],
+    "sehrSelten": [
+      "Tremor (Zittern)"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen; nur anwenden, wenn eindeutig erforderlich. Lacidipin kann die Gebärmuttermuskulatur entspannen und so die Wehen beeinflussen.",
+  "stillzeit": "Nicht empfohlen, da Lacidipin im Tierversuch in die Milch übergeht.",
+  "hinweise": [
+    "Einmal täglich möglichst zur gleichen Tageszeit, am besten morgens, einnehmen; kein Grapefruitsaft.",
+    "Zu Beginn können Schwindel und Kopfschmerzen auftreten – Vorsicht beim Autofahren.",
+    "Auf gute Mundhygiene achten, da Zahnfleischwucherungen möglich sind."
+  ],
+  "stand": "2026-10"
+}

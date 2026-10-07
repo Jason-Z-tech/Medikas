@@ -1,0 +1,170 @@
+{
+  "id": "sarilumab",
+  "name": "Sarilumab",
+  "synonyme": [
+    "SAR153191",
+    "REGN88"
+  ],
+  "atc": [
+    "L04AC14"
+  ],
+  "klasse": "Immunsuppressivum; monoklonaler Antikörper gegen den Interleukin-6-Rezeptor",
+  "kurz": "Biologikum-Spritze gegen rheumatoide Arthritis; blockiert den Rezeptor des Entzündungsbotenstoffs Interleukin-6.",
+  "gruppen": [
+    "interleukin-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Kevzara"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen oder in der Fertigspritze (unter die Haut)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis bei Erwachsenen, wenn Basistherapeutika (DMARD) ungenügend wirken oder nicht vertragen werden; allein oder zusammen mit Methotrexat",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die Gelenkentzündung, indem es das Signal des Botenstoffs Interleukin-6 unterbricht. Sarilumab ist ein humaner monoklonaler IgG1-Antikörper, der an lösliche und membrangebundene Interleukin-6-Rezeptoren bindet und so die IL-6-vermittelte Signalübertragung hemmt. Dadurch sinken Entzündungswerte wie CRP, und Gelenkschwellung, Schmerzen und Gelenkzerstörung werden vermindert.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive, schwere Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infektionen inkl. Tuberkulose: vor Beginn auf Tuberkulose untersuchen, bei schwerer Infektion pausieren; Fieber und CRP können trotz Infektion niedrig bleiben",
+      "ids": [
+        "infektanfaelligkeit",
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Neutropenie und Thrombozytopenie: nicht beginnen bei Neutrophilen unter 2 × 10⁹/l oder Blutplättchen unter 150 × 10⁹/l; Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Erhöhte Leberwerte: nicht beginnen bei ALT/AST über dem 1,5-Fachen der Norm; bei Leberinsuffizienz nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Divertikulitis oder Magen-Darm-Geschwüre in der Vorgeschichte: Gefahr eines Darmdurchbruchs",
+      "ids": [
+        "divertikulitis",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette: Lipide einige Wochen nach Beginn kontrollieren",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen (Einfluss auf das Krebsrisiko nicht geklärt)",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Keine Lebendimpfstoffe während der Behandlung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Biologika (z. B. TNF-alpha-Hemmer) und JAK-Hemmer",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:jak-hemmer"
+      ],
+      "effekt": "Nicht untersucht; deutlich höheres Infektionsrisiko möglich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Simvastatin, Atorvastatin) sowie Ciclosporin und Theophyllin",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "ciclosporin",
+        "theophyllin"
+      ],
+      "effekt": "Mit der IL-6-Hemmung normalisiert sich der Leberabbau – Spiegel können sinken (Simvastatin um etwa 45 %). Bei Beginn und Ende der Behandlung Wirkung bzw. Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Warfarin)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Wirkung kann abnehmen – INR bei Beginn und Ende der Behandlung engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Schnellerer Abbau über CYP3A4 möglich – Verhütungsschutz könnte vermindert sein.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen)"
+    ],
+    "haeufig": [
+      "Infektionen der oberen Atemwege, Nasen-Rachen-Entzündung",
+      "Harnwegsinfekte",
+      "Lippenherpes (Herpes labialis)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Erhöhtes Cholesterin und erhöhte Triglyceride",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Rötung und Juckreiz an der Einstichstelle"
+    ],
+    "gelegentlich": [
+      "Lungenentzündung",
+      "Zellulitis (bakterielle Hautinfektion)",
+      "Divertikulitis"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Magen-Darm-Perforation (meist als Komplikation einer Divertikulitis)",
+      "Tuberkulose und opportunistische Infektionen"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn klar erforderlich. Frauen im gebärfähigen Alter sollen während und bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Nicht bekannt, ob Sarilumab in die Muttermilch übergeht; über Stillen oder Behandlung entscheidet die Ärztin oder der Arzt.",
+  "hinweise": [
+    "Blutbild, Leberwerte und Blutfette werden vor Beginn und regelmässig während der Behandlung kontrolliert.",
+    "Fieber und CRP können trotz Infektion niedrig bleiben – bei Krankheitsgefühl früh ärztlich abklären.",
+    "Bei plötzlichen starken Bauchschmerzen, besonders mit Fieber, sofort ärztliche Hilfe holen (Darmdurchbruch)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,267 @@
+{
+  "id": "tenoxicam",
+  "name": "Tenoxicam",
+  "synonyme": [
+    "Tenoxicamum"
+  ],
+  "atc": [
+    "M01AC02"
+  ],
+  "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Oxicam)",
+  "kurz": "Lang wirksames entzündungshemmendes Schmerzmittel (NSAR) bei rheumatischen Erkrankungen und Weichteilrheuma; einmal täglich.",
+  "gruppen": [
+    "nsar",
+    "blutungsrisiko-erhoehend",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend"
+  ],
+  "handelsnamen": [
+    "Tilcotil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Entzündliche und degenerative rheumatische Erkrankungen wie rheumatoide Arthritis, Arthrose und Morbus Bechterew",
+      "ids": [
+        "rheumatoide-arthritis",
+        "arthrose",
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Weichteilrheuma und akute Erkrankungen des Bewegungsapparats wie Sehnen- und Schleimbeutelentzündungen, Zerrungen und Verstauchungen",
+      "ids": [
+        "sportverletzung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündungen, indem es die Bildung von Prostaglandinen hemmt. Tenoxicam hemmt die Cyclooxygenasen COX-1 und COX-2. Mit einer Halbwertszeit von etwa 70 Stunden wirkt es sehr lange; eine Einnahme pro Tag genügt, und der Wirkstoff bleibt nach dem Absetzen noch mehrere Tage im Körper.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma, Nesselsucht oder Schnupfen nach Einnahme von Acetylsalicylsäure oder anderen NSAR (Analgetika-Asthma)",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive Magen- oder Zwölffingerdarmgeschwüre, Magen-Darm-Blutungen",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schmerzbehandlung nach koronarer Bypass-Operation",
+      "ids": [
+        "koronarstent"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder Risikofaktoren (erhöhtes Risiko für Herzinfarkt und Schlaganfall), Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre oder -Blutungen in der Vorgeschichte, ältere Menschen (lange Halbwertszeit)",
+      "ids": [
+        "magen-darm-ulkus",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Nieren- oder Leberfunktionsstörung, Flüssigkeitsmangel",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Blutgerinnungsstörungen",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes und Mischkollagenosen (Risiko einer aseptischen Meningitis)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Heparine)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – möglichst meiden, sonst eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NSAR, auch Acetylsalicylsäure in schmerzlindernder Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer",
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und Blutungen ohne Wirkungsgewinn – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Verminderte Ausscheidung von Methotrexat – Gefahr schwerer Knochenmark- und Nierenschäden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigen – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "SSRI, SNRI und Plättchenhemmer",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Risiko für akutes Nierenversagen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsparende Diuretika und Mineralokortikoid-Antagonisten",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten"
+      ],
+      "effekt": "Hyperkaliämie möglich – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Magen-Darm-Beschwerden wie Magendruck, Bauchschmerzen, Übelkeit, Dyspepsie (Verdauungsbeschwerden)",
+      "Kopfschmerzen, Schwindel"
+    ],
+    "gelegentlich": [
+      "Magen-Darm-Geschwüre und -Blutungen",
+      "Verstopfung, Durchfall, Mundschleimhautentzündung",
+      "Hautausschlag, Juckreiz",
+      "Ödeme (Wassereinlagerungen)",
+      "Schlafstörungen, Schläfrigkeit",
+      "Herzklopfen",
+      "Erhöhte Leberwerte"
+    ],
+    "unbekannt": [
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Lichtempfindlichkeitsreaktionen",
+      "Agranulozytose, Thrombozytopenie, Anämie",
+      "Anaphylaxie, Bronchospasmus",
+      "Sehstörungen",
+      "Nierenfunktionsstörungen",
+      "Herzinsuffizienz, erhöhtes Risiko für Herzinfarkt und Schlaganfall"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach strenger ärztlicher Abwägung; ab der 20. Woche können NSAR die Nierenfunktion des Ungeborenen beeinträchtigen. Im letzten Drittel kontraindiziert.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Einmal täglich mit einer Mahlzeit und reichlich Flüssigkeit einnehmen.",
+    "Wegen der sehr langen Wirkdauer keine zusätzlichen NSAR einnehmen; Nebenwirkungen klingen nach dem Absetzen nur langsam ab.",
+    "Schwindel kann die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden.",
+    "Bei schwarzem Stuhl, Bluterbrechen oder starken Magenschmerzen sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

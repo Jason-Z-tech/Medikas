@@ -1,0 +1,206 @@
+{
+  "id": "ledipasvir-sofosbuvir",
+  "name": "Ledipasvir + Sofosbuvir",
+  "synonyme": [
+    "LDV/SOF",
+    "Ledipasvir/Sofosbuvir",
+    "Ledipasvir and sofosbuvir"
+  ],
+  "kombinationAus": [
+    "sofosbuvir"
+  ],
+  "atc": [
+    "J05AP51"
+  ],
+  "klasse": "Direkt wirkendes Hepatitis-C-Virostatikum (Kombination NS5A-Hemmer + NS5B-Polymerase-Hemmer)",
+  "kurz": "Tablette mit zwei Wirkstoffen gegen chronische Hepatitis C; führt nach 8–12 Wochen Therapie meist zur Heilung.",
+  "gruppen": [
+    "hcv-daa",
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Harvoni"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische Hepatitis C (bestimmte Genotypen, v. a. Genotyp 1 und 4) bei Erwachsenen sowie Kindern und Jugendlichen gemäss Fachinformation",
+      "ids": [
+        "hepatitis-c"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des Hepatitis-C-Virus an zwei Stellen. Ledipasvir blockiert das virale Protein NS5A, das für die Vervielfältigung des Virus-Erbguts und den Zusammenbau neuer Viren nötig ist. Sofosbuvir wird in der Leber zu einem Nukleotid-Analogon aktiviert, das die virale RNA-Polymerase NS5B hemmt und zum Kettenabbruch führt. Ledipasvir hemmt zudem die Transporter P-Glykoprotein und BCRP im Darm und erhöht so die Aufnahme mancher anderer Arzneimittel.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Gleichzeitige Einnahme von Amiodaron oder bestehende Herzrhythmusstörungen: schwere Bradykardie und Herzblock möglich",
+      "ids": [
+        "bradykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Koinfektion: Reaktivierung der Hepatitis B möglich – vor Therapiebeginn testen und überwachen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Diabetes: die Blutzuckereinstellung kann sich verbessern – Unterzuckerungsgefahr",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "HIV-Therapie mit Tenofovirdisoproxil zusammen mit Ritonavir oder Cobicistat: erhöhte Tenofovir-Spiegel, Nierenfunktion überwachen",
+      "ids": [
+        "hiv",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Nierenfunktionsstörung oder Dialyse (begrenzte Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Dekompensierte Leberzirrhose und nach Lebertransplantation (Behandlung in spezialisierten Zentren)",
+      "ids": [
+        "leberzirrhose",
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke P-Glykoprotein-Induktoren: Rifampicin, Rifabutin, Carbamazepin, Phenobarbital, Phenytoin, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "rifabutin",
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "johanniskraut",
+        "gruppe:p-gp-induktoren"
+      ],
+      "grund": "Sie senken die Spiegel von Ledipasvir und Sofosbuvir stark – die Hepatitis-C-Therapie kann versagen."
+    },
+    {
+      "text": "Rosuvastatin",
+      "ref": [
+        "rosuvastatin"
+      ],
+      "grund": "Ledipasvir erhöht den Rosuvastatin-Spiegel stark – Gefahr von Muskelschäden bis zur Rhabdomyolyse."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Amiodaron",
+      "ref": [
+        "amiodaron"
+      ],
+      "effekt": "Schwere, teils tödliche Bradykardie und Herzblock – nur wenn keine Alternative besteht und mit Herzüberwachung (anfangs stationär).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässig starke P-gp-Induktoren (Oxcarbazepin, Modafinil)",
+      "ref": [
+        "oxcarbazepin",
+        "modafinil"
+      ],
+      "effekt": "Senken die Wirkstoffspiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Säurehemmende Mittel (Antazida, H2-Blocker, Protonenpumpenhemmer)",
+      "ref": [
+        "gruppe:antazida",
+        "gruppe:h2-blocker",
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Ledipasvir wird bei weniger Magensäure schlechter aufgenommen – Antazida 4 Stunden Abstand; H2-Blocker höchstens entsprechend Famotidin 40 mg; Protonenpumpenhemmer höchstens entsprechend Omeprazol 20 mg und gleichzeitig nüchtern einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und Dabigatran",
+      "ref": [
+        "digoxin",
+        "dabigatran"
+      ],
+      "effekt": "Spiegel steigen (P-gp-Hemmung durch Ledipasvir) – Digoxin-Spiegel kontrollieren, auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tenofovirdisoproxil-haltige HIV-Therapien",
+      "ref": [
+        "tenofovirdisoproxil",
+        "emtricitabin-tenofovirdisoproxil",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "effekt": "Tenofovir-Spiegel steigt, besonders zusammen mit Ritonavir oder Cobicistat – Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Statine (z. B. Atorvastatin, Simvastatin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Statin-Spiegel kann steigen – niedrige Dosis, auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Mit der Besserung der Leberfunktion kann die Gerinnung schwanken – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe u. a.)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:hypoglykaemie-ausloesend"
+      ],
+      "effekt": "Unterzuckerungsgefahr durch verbesserte Blutzuckerkontrolle – Blutzucker überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Hautausschlag"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Stevens-Johnson-Syndrom",
+      "Schwere Bradykardie bei gleichzeitiger Amiodaron-Einnahme",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; vorsichtshalber in der Schwangerschaft nicht anwenden. In Kombination mit Ribavirin kontraindiziert.",
+  "stillzeit": "Nicht stillen; der Übergang in die Muttermilch ist beim Menschen nicht bekannt, im Tierversuch wurden die Wirkstoffe in der Milch nachgewiesen.",
+  "hinweise": [
+    "Einmal täglich mit oder ohne Mahlzeit einnehmen; die verordnete Therapiedauer genau einhalten.",
+    "Säurebinder und Magenschutzmittel nur nach Rücksprache und mit dem empfohlenen Zeitabstand einnehmen.",
+    "Bei langsamem Puls, Schwindel oder Ohnmacht (v. a. unter Amiodaron) sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

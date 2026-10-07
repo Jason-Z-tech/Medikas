@@ -1,0 +1,175 @@
+{
+  "id": "pirtobrutinib",
+  "name": "Pirtobrutinib",
+  "synonyme": [
+    "Pirtobrutinibum",
+    "LOXO-305"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EL05"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BTK-Hemmer, nicht-kovalent); Krebsmittel",
+  "kurz": "Krebsmittel (nicht-kovalenter BTK-Hemmer) zum Einnehmen gegen Mantelzell-Lymphom und CLL nach Vorbehandlung mit einem anderen BTK-Hemmer.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp2c8-hemmer",
+    "p-gp-hemmer",
+    "blutungsrisiko-erhoehend",
+    "myelosuppressiv",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Jaypirca"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Rückfälliges oder therapieresistentes Mantelzell-Lymphom nach Vorbehandlung mit einem BTK-Hemmer",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Rückfällige oder therapieresistente chronische lymphatische Leukämie (CLL) nach Vorbehandlung mit einem BTK-Hemmer",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum und Überleben bösartiger B-Lymphozyten, auch wenn andere BTK-Hemmer nicht mehr wirken. Pirtobrutinib hemmt die Bruton-Tyrosinkinase (BTK) reversibel, also ohne feste (kovalente) Bindung. Es wirkt daher auch bei Mutationen an der Bindungsstelle C481, die gegen Ibrutinib, Acalabrutinib oder Zanubrutinib resistent machen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Blutungsneigung, Behandlung mit Blutverdünnern oder Plättchenhemmern; vor Operationen 3–7 Tage pausieren",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation",
+        "operation"
+      ]
+    },
+    {
+      "text": "Infektionen, auch Hepatitis B in der Vorgeschichte und opportunistische Infektionen",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, v. a. Vorhofflimmern, besonders bei Herzkrankheit oder Bluthochdruck",
+      "ids": [
+        "vorhofflimmern",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Mangel an Blutzellen (Neutropenie, Thrombozytopenie, Anämie); Blutbild kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Zweittumoren, v. a. weisser Hautkrebs: Sonnenschutz, Haut kontrollieren",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Nierenfunktion (Dosisreduktion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Pirtobrutinib-Spiegel steigt – Kombination vermeiden oder Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Pirtobrutinib-Spiegel sinkt deutlich, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutverdünner und Plättchenhemmer (z. B. Phenprocoumon, DOAK, Acetylsalicylsäure, Clopidogrel)",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – enge Überwachung, Notwendigkeit prüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP2C8-, P-Glykoprotein- und BCRP-Substrate (z. B. Repaglinid, Digoxin, Rosuvastatin)",
+      "ref": [
+        "repaglinid",
+        "digoxin",
+        "rosuvastatin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Pirtobrutinib hemmt diese Abbauwege – Spiegel dieser Mittel steigen; Dosis anpassen, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Spiegel können sich verändern – bei Mitteln mit enger therapeutischer Breite Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Anämie, Thrombozytopenie (Mangel an Blutzellen)",
+      "Infektionen (Lungenentzündung, obere Atemwege, Harnwege)",
+      "Müdigkeit",
+      "Durchfall, Übelkeit, Bauchschmerzen",
+      "Blutergüsse und Blutungen",
+      "Muskel- und Gelenkschmerzen",
+      "Husten, Kopfschmerzen",
+      "Hautausschlag, periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "haeufig": [
+      "Vorhofflimmern oder -flattern",
+      "Bluthochdruck",
+      "Nasenbluten, Blut im Urin",
+      "Weisser Hautkrebs (nicht-melanozytärer Hautkrebs) und andere Zweittumoren"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hirnblutung",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 1 Woche nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 1 Woche nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit einnehmen, mit oder ohne Essen; Tabletten ganz schlucken.",
+    "Vor Operationen und Zahneingriffen die Behandlung angeben.",
+    "Herzklopfen, Blutungen, Fieber oder Infektzeichen sofort ärztlich melden.",
+    "Konsequenter Sonnenschutz; regelmässige Blutbildkontrollen."
+  ],
+  "stand": "2026-10"
+}

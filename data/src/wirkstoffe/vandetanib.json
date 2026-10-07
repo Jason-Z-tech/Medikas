@@ -1,0 +1,244 @@
+{
+  "id": "vandetanib",
+  "name": "Vandetanib",
+  "synonyme": [
+    "ZD6474"
+  ],
+  "atc": [
+    "L01EX04"
+  ],
+  "klasse": "Proteinkinase-Hemmer (RET-, VEGFR- und EGFR-Hemmer)",
+  "kurz": "Krebsmittel (Tablette) gegen fortgeschrittenen medullären Schilddrüsenkrebs.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "qt-verlaengernd",
+    "photosensibilisierend",
+    "blutdrucksteigernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Caprelsa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Aggressives, symptomatisches medulläres Schilddrüsenkarzinom, das nicht operiert werden kann oder Metastasen gebildet hat; in der Regel bei nachgewiesener RET-Mutation",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt Wachstumssignale von Schilddrüsenkrebszellen und die Bildung neuer Blutgefässe im Tumor. Vandetanib blockiert die Tyrosinkinasen RET, VEGFR-2 und den EGF-Rezeptor. Beim medullären Schilddrüsenkarzinom treibt häufig eine aktivierende RET-Mutation das Tumorwachstum an. Wegen der sehr langen Halbwertszeit (etwa 19 Tage) klingen Wirkungen und Nebenwirkungen nach dem Absetzen nur langsam ab.",
+  "kontraindikationen": [
+    {
+      "text": "Angeborenes Long-QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "QTc-Zeit über 480 Millisekunden",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzrhythmusstörungen, Bradykardie, Herzinsuffizienz oder kürzlicher Herzinfarkt: erhöhtes Risiko für Torsade de pointes und plötzlichen Herztod – EKG vor Beginn und regelmässig",
+      "ids": [
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kalium-, Magnesium- oder Calciummangel: vor Beginn ausgleichen und regelmässig kontrollieren",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel",
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: höhere Spiegel – Dosisanpassung, bei schwerer Einschränkung nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Hautreaktionen und Lichtempfindlichkeit: konsequenter Sonnenschutz",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Durchfall: kann Elektrolytstörungen und damit Herzrhythmusstörungen begünstigen",
+      "ids": [
+        "durchfall"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Arsentrioxid",
+      "ref": [
+        "arsentrioxid"
+      ],
+      "grund": "Beide verlängern die QT-Zeit – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Erythromycin intravenös",
+      "ref": [
+        "erythromycin"
+      ],
+      "grund": "Zusätzliche QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Moxifloxacin",
+      "ref": [
+        "moxifloxacin"
+      ],
+      "grund": "Zusätzliche QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Antiarrhythmika der Klasse III (z. B. Amiodaron, Sotalol, Dronedaron)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "grund": "Zusätzliche QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Antiarrhythmika der Klasse IA (z. B. Chinidin, Disopyramid)",
+      "ref": [],
+      "grund": "Zusätzliche QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Toremifen, Mizolastin, Cisaprid",
+      "ref": [],
+      "grund": "Zusätzliche QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Haloperidol, Ondansetron, Methadon, Citalopram)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – möglichst vermeiden, sonst engmaschige EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Vandetanib-Spiegel sinkt, die Wirkung kann nachlassen – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Vandetanib hemmt P-Glykoprotein: Digoxin-Spiegel steigt, zudem verstärkte Pulsverlangsamung – Digoxin-Spiegel und EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Vandetanib hemmt den Transporter OCT2: Metformin-Spiegel steigt deutlich – engmaschige Kontrolle, Dosis allenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die Kalium oder Magnesium senken (z. B. Schleifen- und Thiaziddiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytmangel erhöht das Risiko für Herzrhythmusstörungen – Kalium und Magnesium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR schwankt bei Krebspatienten stärker – INR häufiger kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Bauchschmerzen, Verdauungsbeschwerden",
+      "Hautausschlag, Akne, trockene Haut, Juckreiz, Nagelveränderungen",
+      "Lichtempfindlichkeit der Haut (Photosensibilisierung)",
+      "QT-Verlängerung im EKG",
+      "Bluthochdruck",
+      "Kopfschmerzen, Müdigkeit, Schwäche, Schlaflosigkeit, Depression",
+      "Hypokalzämie (Calciummangel), Appetitverlust",
+      "Infektionen der Atem- und Harnwege"
+    ],
+    "haeufig": [
+      "Hypokaliämie, Hyponatriämie, Flüssigkeitsmangel",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Hornhauttrübung, verschwommenes Sehen, trockene Augen",
+      "Hypertensive Krise, Durchblutungsstörungen des Gehirns",
+      "Nasenbluten, Bluthusten, Pneumonitis (Lungenentzündung ohne Erreger)",
+      "Mundtrockenheit, Stomatitis, Magen-Darm-Blutungen",
+      "Nierensteine, Nierenversagen, Eiweiss im Urin",
+      "Erhöhte Leberwerte, Gewichtsabnahme"
+    ],
+    "gelegentlich": [
+      "Herzinsuffizienz, Kammerrhythmusstörungen, Herzstillstand",
+      "Krampfanfälle, Hirnödem",
+      "Pankreatitis, Darmdurchbruch, Darmverschluss",
+      "Atemversagen, Aspirationspneumonie",
+      "Blasenbildende Hautentzündung",
+      "Wundheilungsstörungen, Katarakt (grauer Star)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Torsade de pointes und plötzlicher Herztod",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Aneurysmen und Gefässwandeinrisse (Dissektionen)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Zustand erfordert es zwingend – kann das ungeborene Kind schädigen. Frauen müssen während der Behandlung und mindestens 4 Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "EKG und Blutwerte (Kalium, Calcium, Magnesium, TSH) werden vor Beginn und regelmässig kontrolliert; Herzklopfen, Ohnmacht oder starken Schwindel sofort melden.",
+    "Wegen der sehr langen Halbwertszeit wirken Vandetanib und seine Nebenwirkungen nach dem Absetzen noch wochenlang nach.",
+    "Konsequenter Sonnenschutz (Kleidung, Sonnencreme) während und noch einige Zeit nach der Behandlung.",
+    "Vor jedem neuen Medikament, auch rezeptfreien, wegen der QT-Verlängerung Rücksprache halten."
+  ],
+  "stand": "2026-10"
+}

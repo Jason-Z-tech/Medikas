@@ -1,0 +1,141 @@
+{
+  "id": "rotavirus-impfstoff",
+  "name": "Rotavirus-Impfstoff",
+  "synonyme": [
+    "Rotavirus-Schluckimpfung",
+    "Rotavirus vaccine (live, oral)"
+  ],
+  "atc": [
+    "J07BH01",
+    "J07BH02"
+  ],
+  "klasse": "Oraler viraler Lebendimpfstoff (abgeschwächt)",
+  "kurz": "Schluckimpfung für Säuglinge, die vor schwerem Brechdurchfall durch Rotaviren schützt.",
+  "gruppen": [
+    "lebendimpfstoffe"
+  ],
+  "handelsnamen": [
+    "Rotarix"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Suspension zum Einnehmen (Applikator)"
+  ],
+  "indikationen": [
+    {
+      "text": "Aktive Impfung von Säuglingen ab 6 Wochen gegen Magen-Darm-Infektionen (Gastroenteritis) durch Rotaviren; die Impfserie muss bis zur 24. Lebenswoche abgeschlossen sein",
+      "ids": [
+        "durchfall",
+        "impfung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schützt Säuglinge vor schwerem Brechdurchfall, indem das Immunsystem den Erreger schon im Darm erkennen lernt. Der Impfstoff enthält lebende, abgeschwächte menschliche Rotaviren (Stamm RIX4414), die geschluckt werden und sich im Darm vermehren. Dies löst eine Antikörperbildung in der Darmschleimhaut und im Blut aus, die vor allem gegen schwere Verläufe schützt. Das Impfvirus wird einige Tage mit dem Stuhl ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Invagination (Darmeinstülpung) in der Vorgeschichte",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Angeborene, nicht korrigierte Fehlbildung des Magen-Darm-Trakts, die zu einer Invagination führen kann (z. B. Meckel-Divertikel)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Schwerer kombinierter Immundefekt (SCID)",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Akuter Durchfall, Erbrechen oder akute fieberhafte Erkrankung: Impfung verschieben",
+      "ids": [
+        "durchfall",
+        "uebelkeit",
+        "fieber"
+      ]
+    },
+    {
+      "text": "Andere bekannte oder vermutete Immunschwäche (z. B. HIV-Infektion) oder immunsuppressive Behandlung: nur nach ärztlicher Abwägung",
+      "ids": [
+        "immunsuppression",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Immungeschwächte Personen im Haushalt: Impfvirus wird mit dem Stuhl ausgeschieden – nach dem Wickeln gründlich Hände waschen",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Seltene erbliche Fructose-Intoleranz, Glucose-Galactose-Malabsorption oder Saccharase-Isomaltase-Mangel (enthält Saccharose)",
+      "ids": [
+        "fructoseintoleranz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Säuglinge, deren Mutter in der Schwangerschaft Biologika wie TNF-alpha-Hemmer erhalten hat",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Das Kind kann in den ersten Lebensmonaten immungeschwächt sein – Lebendimpfung nur nach fachärztlicher Abklärung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva und hoch dosierte Glukokortikoide beim Säugling",
+      "ref": [
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion und schwächere Schutzwirkung – nur nach ärztlicher Abwägung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Säuglingsimpfungen (z. B. 6-fach-, Pneumokokken- und Meningokokken-Impfstoffe)",
+      "ref": [
+        "hexavalenter-impfstoff-dtpa-ipv-hib-hbv",
+        "pneumokokken-konjugatimpfstoff",
+        "meningokokken-b-impfstoff"
+      ],
+      "effekt": "Gleichzeitige Gabe möglich, ohne Einfluss auf die Schutzwirkung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Durchfall",
+      "Reizbarkeit"
+    ],
+    "gelegentlich": [
+      "Bauchschmerzen",
+      "Blähungen",
+      "Hautentzündung (Dermatitis)"
+    ],
+    "sehrSelten": [
+      "Invagination (Darmeinstülpung), vor allem in der ersten Woche nach der ersten Dosis"
+    ],
+    "unbekannt": [
+      "Blut im Stuhl (Hämatochezie)",
+      "Schwere Durchfallerkrankung mit dem Impfvirus bei Säuglingen mit SCID"
+    ]
+  },
+  "schwangerschaft": "Nicht zutreffend – der Impfstoff ist nur für Säuglinge bestimmt.",
+  "stillzeit": "Das geimpfte Kind darf vor und nach der Impfung normal gestillt werden; der Impfschutz wird dadurch nicht vermindert.",
+  "hinweise": [
+    "Wird geschluckt, niemals gespritzt. Spuckt das Kind den Grossteil der Dosis aus, kann beim gleichen Termin einmal nachgegeben werden.",
+    "Erste Dosis ab 6 Wochen; die Impfserie (2 Dosen) bis spätestens zur 24. Lebenswoche abschliessen.",
+    "Bei starken Bauchschmerzen, anhaltendem Erbrechen, Blut im Stuhl oder aufgeblähtem Bauch – v. a. in der ersten Woche nach der Impfung – sofort ärztliche Hilfe holen.",
+    "Nach dem Wickeln gründlich Hände waschen (Impfvirus im Stuhl)."
+  ],
+  "stand": "2026-10"
+}

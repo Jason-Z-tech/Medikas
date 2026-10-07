@@ -1,0 +1,142 @@
+{
+  "id": "flucytosin",
+  "name": "Flucytosin",
+  "synonyme": [
+    "5-Fluorocytosin",
+    "5-FC",
+    "Flucytosine"
+  ],
+  "atc": [
+    "J02AX01"
+  ],
+  "klasse": "Pyrimidin-Antimykotikum (Fluoropyrimidin)",
+  "kurz": "Pilzmittel als Infusion gegen schwere Hefepilzinfektionen (z. B. Kryptokokken-Hirnhautentzündung), meist zusammen mit Amphotericin B.",
+  "gruppen": [
+    "fluoropyrimidine",
+    "myelosuppressiv",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Ancotil"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Schwere systemische Hefepilzinfektionen durch empfindliche Erreger, z. B. Kryptokokkose (inkl. Kryptokokken-Meningitis), systemische Candidose und Candida-Endokarditis – in Kombination mit anderen Pilzmitteln, meist Amphotericin B",
+      "ids": [
+        "pilzinfektion",
+        "endokarditis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt gegen Hefepilze, indem es in deren Erbgut- und Eiweissbildung eingreift. Flucytosin wird von Pilzzellen über eine Cytosin-Permease aufgenommen und durch das pilzeigene Enzym Cytosin-Desaminase in 5-Fluorouracil umgewandelt. Dieses wird in die RNA eingebaut und hemmt als 5-Fluordesoxyuridinmonophosphat die Thymidylat-Synthase und damit die DNA-Synthese. Menschliche Zellen besitzen kaum Cytosin-Desaminase; Darmbakterien können jedoch 5-Fluorouracil bilden, was zur Toxizität beitragen kann. Wegen rascher Resistenzentwicklung wird Flucytosin nicht allein eingesetzt.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannter vollständiger Mangel an Dihydropyrimidin-Dehydrogenase (DPD-Mangel)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Gefahr der Anreicherung – Dosis anpassen, Blutspiegel bestimmen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Knochenmarkschädigung oder Blutkrankheiten, gleichzeitige Strahlen- oder Chemotherapie",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Teilweiser DPD-Mangel: erhöhtes Risiko schwerer Nebenwirkungen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Salzarme Ernährung oder Herzinsuffizienz: Natriumgehalt der Infusionslösung beachten",
+      "ids": [
+        "natriumarme-diaet",
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Brivudin (Virostatikum gegen Gürtelrose)",
+      "ref": [
+        "brivudin"
+      ],
+      "grund": "Brivudin hemmt dauerhaft das Enzym DPD, das den Flucytosin-Metaboliten 5-Fluorouracil abbaut – Gefahr lebensbedrohlicher Vergiftung; mindestens 4 Wochen Abstand einhalten."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Zytostatika, Zidovudin, Ganciclovir)",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildschädigung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cytarabin",
+      "ref": [
+        "cytarabin"
+      ],
+      "effekt": "Kann die Wirkung von Flucytosin gegen Pilze aufheben – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Amphotericin B",
+      "ref": [
+        "amphotericin-b"
+      ],
+      "effekt": "Gewollte Kombination mit verstärkter Pilzwirkung; Amphotericin B kann aber die Nierenfunktion verschlechtern und so den Flucytosin-Spiegel erhöhen – Spiegel und Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nierenschädigende Mittel",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Verminderte Ausscheidung von Flucytosin – höhere Spiegel und mehr Nebenwirkungen; Spiegel kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Übelkeit, Erbrechen, Durchfall",
+      "Hautausschlag, Juckreiz",
+      "Blutbildveränderungen (Leukopenie, Thrombozytopenie, Anämie)",
+      "Agranulozytose, aplastische Anämie (schwere Knochenmarkschädigung)",
+      "Erhöhte Leberwerte, Hepatitis, Lebernekrose",
+      "Verwirrtheit, Halluzinationen, Krampfanfälle, Kopfschmerzen, Schwindel",
+      "Herzmuskelschädigung (Kardiotoxizität)",
+      "Schwere Hautreaktionen (Einzelfälle)"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; nur bei lebensbedrohlicher Infektion und nach strenger ärztlicher Abwägung anwenden.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Blutbild, Nieren- und Leberwerte werden regelmässig kontrolliert; meist wird auch der Flucytosin-Blutspiegel gemessen.",
+    "Angeben, wenn in den letzten 4 Wochen Brivudin (z. B. gegen Gürtelrose) eingenommen wurde."
+  ],
+  "stand": "2026-10"
+}

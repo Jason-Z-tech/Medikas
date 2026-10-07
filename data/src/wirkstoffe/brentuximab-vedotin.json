@@ -1,0 +1,195 @@
+{
+  "id": "brentuximab-vedotin",
+  "name": "Brentuximab Vedotin",
+  "synonyme": [
+    "SGN-35"
+  ],
+  "atc": [
+    "L01FX05"
+  ],
+  "klasse": "Antikörper-Wirkstoff-Konjugat (Anti-CD30-Antikörper mit dem Mikrotubuli-Hemmer MMAE)",
+  "kurz": "Antikörper mit angehängtem Zellgift bei CD30-positiven Lymphomen, vor allem Hodgkin-Lymphom und anaplastisch grosszelligem Lymphom.",
+  "gruppen": [
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "neuropathie-ausloesend",
+    "hepatotoxisch",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Adcetris"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver für ein Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "CD30-positives Hodgkin-Lymphom: unbehandelt im fortgeschrittenen Stadium zusammen mit Chemotherapie; nach autologer Stammzelltransplantation bei erhöhtem Rückfallrisiko; bei Rückfall oder Therapieresistenz",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Systemisches anaplastisches grosszelliges Lymphom (sALCL): unbehandelt zusammen mit Cyclophosphamid, Doxorubicin und Prednison sowie bei Rückfall oder Therapieresistenz",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "CD30-positives kutanes T-Zell-Lymphom nach mindestens einer systemischen Vorbehandlung",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bringt ein Zellgift gezielt in Lymphomzellen mit dem Oberflächenmerkmal CD30. Der chimäre IgG1-Antikörper ist über einen durch Enzyme spaltbaren Linker an Monomethylauristatin E (MMAE) gekoppelt. Nach Bindung an CD30 wird das Konjugat in die Zelle aufgenommen; dort wird MMAE freigesetzt, zerstört das Mikrotubuli-Netzwerk, stoppt die Zellteilung und löst den Zelltod aus.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Periphere Neuropathie (sensorisch und motorisch) – Kribbeln, Taubheit oder Schwäche melden; Dosis anpassen",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Progressive multifokale Leukenzephalopathie (PML) – neue neurologische, kognitive oder Verhaltenssymptome sofort abklären",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen, Neutropenie und febrile Neutropenie",
+      "ids": [
+        "neutropenie",
+        "infektanfaelligkeit",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Akute Pankreatitis, auch tödlich",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Lungentoxizität (Pneumonitis, interstitielle Lungenerkrankung)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion: höhere MMAE-Spiegel und mehr Nebenwirkungen",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hyperglykämie, besonders bei Übergewicht oder Diabetes",
+      "ids": [
+        "diabetes",
+        "adipositas"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Bleomycin",
+      "ref": [
+        "bleomycin"
+      ],
+      "grund": "Die Kombination führt gehäuft zu schweren, teils tödlichen Lungenschäden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4- und P-Glykoprotein-Hemmer (z. B. Ketoconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Der MMAE-Spiegel steigt, mehr Neutropenie – engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Der MMAE-Spiegel sinkt – Wirkung kann abgeschwächt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Vincristin)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend",
+        "vincristin"
+      ],
+      "effekt": "Verstärkte periphere Neuropathie – Beschwerden früh melden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Chemotherapie)",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Neutropenie und Infektionsrisiko – Blutbild kontrollieren, ggf. vorbeugend Wachstumsfaktoren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen, auch der oberen Atemwege",
+      "Periphere sensorische Neuropathie (Kribbeln, Taubheit)",
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung, Bauchschmerzen",
+      "Müdigkeit, Fieber",
+      "Gelenk- und Muskelschmerzen",
+      "Husten, Atemnot",
+      "Juckreiz, Haarausfall, Gewichtsabnahme"
+    ],
+    "haeufig": [
+      "Periphere motorische Neuropathie (Muskelschwäche)",
+      "Anämie, Thrombozytopenie, febrile Neutropenie",
+      "Gürtelrose, Lungenentzündung, Mundsoor",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Erhöhte Leberwerte",
+      "Schwindel",
+      "Infusionsreaktionen",
+      "Hautausschlag, Rückenschmerzen, Schüttelfrost"
+    ],
+    "gelegentlich": [
+      "Tumorlysesyndrom",
+      "Akute Pankreatitis",
+      "Stevens-Johnson-Syndrom",
+      "Septischer Schock, Pneumocystis-Pneumonie"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)",
+      "Toxische epidermale Nekrolyse",
+      "Schwere Magen-Darm-Komplikationen (Darmverschluss, Perforation, Blutung)",
+      "Gewebeschäden bei Austritt der Infusion (Extravasation)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt klar: Das Zellgift MMAE schädigt im Tierversuch das Ungeborene. Frauen und Männer mit Partnerin verhüten während der Behandlung und 6 Monate danach.",
+  "stillzeit": "Während der Behandlung nicht stillen (ärztliche Abwägung).",
+  "hinweise": [
+    "Kribbeln, Taubheitsgefühl, brennende Schmerzen oder Schwäche in Händen und Füssen früh melden – die Dosis kann angepasst werden.",
+    "Starke Bauchschmerzen, neue Verwirrtheit, Seh- oder Sprachstörungen, Atemnot oder Hautblasen sofort melden.",
+    "Blutbild und Blutzucker werden vor jeder Gabe kontrolliert.",
+    "Andere Medikamente, z. B. Antimykotika oder Antibiotika, mit dem Behandlungsteam abstimmen."
+  ],
+  "stand": "2026-10"
+}

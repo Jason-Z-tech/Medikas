@@ -1,0 +1,164 @@
+{
+  "id": "avapritinib",
+  "name": "Avapritinib",
+  "synonyme": [
+    "BLU-285"
+  ],
+  "atc": [
+    "L01EX18"
+  ],
+  "klasse": "Proteinkinase-Hemmer (KIT- und PDGFRA-Hemmer)",
+  "kurz": "Krebsmittel (Tablette) gegen gastrointestinale Stromatumoren mit PDGFRA-D842V-Mutation und gegen fortgeschrittene systemische Mastozytose.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "blutungsrisiko-erhoehend",
+    "qt-verlaengernd",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Ayvakyt"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht operierbarer oder metastasierter gastrointestinaler Stromatumor (GIST) mit PDGFRA-D842V-Mutation",
+      "ids": [
+        "sarkom"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene systemische Mastozytose (aggressive systemische Mastozytose, systemische Mastozytose mit assoziierter hämatologischer Neoplasie, Mastzellleukämie) nach mindestens einer systemischen Therapie",
+      "ids": [
+        "myeloproliferative-erkrankung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert ein dauerhaft eingeschaltetes Wachstumssignal in Tumor- bzw. Mastzellen. Avapritinib hemmt gezielt die Tyrosinkinasen KIT und PDGFRA, insbesondere deren aktivierte Mutanten KIT D816V (typisch für systemische Mastozytose) und PDGFRA D842V (bei GIST, unempfindlich gegen Imatinib). Dadurch werden Zellteilung und Überleben der veränderten Zellen gehemmt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Hirnblutungen: besonders bei tiefen Blutplättchen (unter 50'000/µl), Hirnaneurysma oder Hirnblutung in der Vorgeschichte und unter Blutverdünnern – Blutplättchen regelmässig kontrollieren",
+      "ids": [
+        "hirnblutung",
+        "thrombozytopenie",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Kognitive Störungen (Gedächtnisstörungen, Verwirrtheit) – Vorsicht beim Autofahren",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit: Sonne meiden bzw. konsequenter Sonnenschutz",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Flüssigkeitseinlagerungen (Ödeme, Pleuraerguss, Aszites)",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: Dosisanpassung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und zeugungsfähige Männer: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Fluconazol, Diltiazem) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Avapritinib-Spiegel steigt stark (mit Itraconazol etwa 4-fach) – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Efavirenz) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Avapritinib-Spiegel sinkt sehr stark (mit Rifampicin etwa 90 % weniger) – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Hirnblutungen – nur nach sorgfältiger ärztlicher Abwägung und mit enger Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kognitive Störungen (Gedächtnis- und Konzentrationsstörungen, Verwirrtheit)",
+      "Ödeme (Schwellungen um die Augen, im Gesicht, an den Beinen)",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen, Verdauungsbeschwerden",
+      "Müdigkeit, Appetitverlust",
+      "Blutarmut",
+      "Schwindel, Geschmacksstörungen",
+      "Vermehrter Tränenfluss",
+      "Veränderung der Haarfarbe, Hautausschlag, erhöhtes Bilirubin"
+    ],
+    "haeufig": [
+      "Hirnblutung (intrakranielle Blutung)",
+      "Magen-Darm-Blutungen, Blutungen am Auge (Bindehaut)",
+      "QT-Verlängerung im EKG",
+      "Pleuraerguss, Aszites (Bauchwasser)",
+      "Lichtempfindlichkeit der Haut, Hand-Fuss-Syndrom, Haarausfall",
+      "Mangel an Blutplättchen und weissen Blutkörperchen",
+      "Depression, Angst, Schlafstörungen",
+      "Tiefes Kalium und Phosphat"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nicht anwenden, ausser bei zwingender Notwendigkeit. Frauen müssen während der Behandlung und 6 Wochen danach, Männer mit Partnerin im gebärfähigen Alter 2 Wochen danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und 2 Wochen nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich nüchtern einnehmen: mindestens 1 Stunde vor oder 2 Stunden nach einer Mahlzeit.",
+    "Plötzliche starke Kopfschmerzen, Sehstörungen, Verwirrtheit oder Lähmungen sofort melden (Hirnblutung).",
+    "Sonne meiden und Sonnenschutz verwenden.",
+    "Keine Grapefruit, kein Johanniskraut; Blutverdünner nur nach ärztlicher Abwägung."
+  ],
+  "stand": "2026-10"
+}

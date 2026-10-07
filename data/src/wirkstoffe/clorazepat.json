@@ -1,0 +1,188 @@
+{
+  "id": "clorazepat",
+  "name": "Clorazepat",
+  "synonyme": [
+    "Clorazepate",
+    "Dikaliumclorazepat"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N05BA05"
+  ],
+  "klasse": "Benzodiazepin (Anxiolytikum, lang wirksam)",
+  "kurz": "Beruhigungsmittel aus der Gruppe der Benzodiazepine gegen Angst-, Spannungs- und Unruhezustände; lang wirksam.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Tranxilium"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Angst-, Spannungs- und Unruhezustände",
+      "ids": [
+        "angststoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt angstlösend, beruhigend, muskelentspannend und krampfhemmend. Clorazepat ist eine Vorstufe (Prodrug): Schon im Magen wird es zu Nordazepam (Desmethyldiazepam) umgewandelt, dem eigentlichen Wirkstoff. Nordazepam verstärkt an GABA-A-Rezeptoren die hemmende Wirkung des Botenstoffs GABA. Wegen seiner sehr langen Halbwertszeit (bis zu mehreren Tagen) reichert es sich bei regelmässiger Einnahme an.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis (krankhafte Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Atemschwäche (respiratorische Insuffizienz) und Schlafapnoe-Syndrom",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln, Schmerzmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Alkohol-, Medikamenten- oder Drogenabhängigkeit in der Vorgeschichte (Abhängigkeitsrisiko)",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Sturzgefahr, Verwirrtheit; tiefere Dosis)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken (nicht als alleinige Behandlung)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Chronische Atemwegserkrankungen wie COPD",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder leichte bis mässige Leberinsuffizienz",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Fahrtüchtigkeit beeinträchtigt, auch noch am Folgetag",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Tramadol, Methadon)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Starke Sedierung, Atemdämpfung bis Atemstillstand und Koma möglich – nur wenn keine Alternative besteht, mit tiefster Dosis und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Gegenseitige Wirkungsverstärkung bis zur Atemdämpfung – keinen Alkohol trinken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (z. B. Schlafmittel, Antipsychotika, sedierende Antihistaminika, Pregabalin)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:z-substanzen",
+        "gruppe:antihistaminika-sedierend",
+        "gruppe:gabapentinoide"
+      ],
+      "effekt": "Verstärkte Müdigkeit, Benommenheit und Atemdämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clozapin",
+      "ref": [
+        "clozapin"
+      ],
+      "effekt": "Einzelfälle von Kreislaufkollaps und Atemstillstand – Vorsicht, besonders zu Beginn.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die den Abbau hemmen (z. B. Cimetidin, Omeprazol, Fluvoxamin, Disulfiram, starke CYP3A4-Hemmer)",
+      "ref": [
+        "gruppe:cyp2c19-hemmer",
+        "gruppe:starke-cyp3a4-hemmer",
+        "disulfiram"
+      ],
+      "effekt": "Längere und stärkere Wirkung von Nordazepam – Dosis allenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien",
+      "ref": [
+        "gruppe:muskelrelaxanzien-zentral",
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Verstärkte Muskelerschlaffung, Sturzgefahr.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Müdigkeit, Schläfrigkeit, Benommenheit (auch am nächsten Tag)",
+      "Schwindel, Gangunsicherheit (Ataxie)",
+      "Verlangsamte Reaktionen, Konzentrationsstörungen",
+      "Muskelschwäche"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anterograde Amnesie (Gedächtnislücken)",
+      "Paradoxe Reaktionen (Unruhe, Aggressivität, Halluzinationen), v. a. bei älteren Menschen",
+      "Atemdämpfung",
+      "Abhängigkeit; Entzugssymptome und Rebound-Angst beim Absetzen",
+      "Stürze und Knochenbrüche bei älteren Menschen",
+      "Hervortreten einer bestehenden Depression",
+      "Hautreaktionen und andere Überempfindlichkeitsreaktionen"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme gegen Ende der Schwangerschaft oder in hohen Dosen können beim Neugeborenen Atemprobleme, Muskelschwäche, Unterkühlung (Floppy-Infant-Syndrom) und Entzugssymptome auftreten.",
+  "stillzeit": "Geht in die Muttermilch über und kann sich beim Säugling anreichern; nicht stillen.",
+  "hinweise": [
+    "Kann abhängig machen: so kurz wie möglich anwenden und nach längerer Einnahme nicht abrupt absetzen, sondern ausschleichen.",
+    "Keinen Alkohol trinken; Fahrtüchtigkeit ist beeinträchtigt, auch noch am Folgetag.",
+    "Ältere Menschen: erhöhte Sturzgefahr, besonders nachts."
+  ],
+  "stand": "2026-10"
+}

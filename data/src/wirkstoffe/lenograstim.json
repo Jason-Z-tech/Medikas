@@ -1,0 +1,175 @@
+{
+  "id": "lenograstim",
+  "name": "Lenograstim",
+  "synonyme": [
+    "rHuG-CSF",
+    "Glykosylierter G-CSF"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L03AA10"
+  ],
+  "klasse": "Granulozyten-Kolonie-stimulierender Faktor (G-CSF, glykosyliert)",
+  "kurz": "Spritze, die die Bildung weisser Blutkörperchen anregt – nach Chemotherapie und zur Gewinnung von Blutstammzellen.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Granocyte"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Verkürzung schwerer Neutropenien und Senkung damit verbundener Komplikationen nach zytotoxischer Chemotherapie bei bösartigen Erkrankungen",
+      "ids": [
+        "neutropenie",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Verkürzung der Neutropeniedauer nach myeloablativer Therapie mit anschliessender Knochenmarktransplantation bei nicht-myeloischen Tumoren",
+      "ids": [
+        "neutropenie",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Mobilisierung von Blutstammzellen ins periphere Blut (bei Patienten und gesunden Spendern)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt das Knochenmark an, mehr neutrophile Granulozyten (weisse Blutkörperchen zur Infektabwehr) zu bilden. Lenograstim ist ein gentechnisch in Säugetierzellen hergestellter, glykosylierter humaner G-CSF, der an G-CSF-Rezeptoren der Vorläuferzellen bindet. Er fördert deren Vermehrung, Ausreifung und Freisetzung ins Blut und verbessert die Funktion der Neutrophilen. Ausserdem schwemmt er Blutstammzellen aus dem Knochenmark ins Blut aus, wo sie für eine Transplantation gesammelt werden können.",
+  "kontraindikationen": [
+    {
+      "text": "Myeloische bösartige Bluterkrankungen ausser neu aufgetretener (de novo) akuter myeloischer Leukämie",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "De-novo-AML bei Patienten unter 55 Jahren oder mit günstiger Zytogenetik",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Sichelzellkrankheit (Gefahr von Sichelzellkrisen)",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "Milzvergrösserung, selten Milzriss: Schmerzen im linken Oberbauch oder in der Schulterspitze sofort melden",
+      "ids": []
+    },
+    {
+      "text": "Lungenkomplikationen (Lungeninfiltrate, akutes Lungenversagen), besonders bei vorbestehenden Lungenerkrankungen",
+      "ids": [
+        "atemnot",
+        "lungenentzuendung"
+      ]
+    },
+    {
+      "text": "Kapillarlecksyndrom (Flüssigkeitsaustritt aus Gefässen mit Blutdruckabfall und Ödemen)",
+      "ids": [
+        "oedeme",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Gesunde Stammzellspender: Kontrolle von Blutbild und Milz; Langzeitsicherheit nicht vollständig geklärt",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gleichzeitige zytotoxische Chemotherapie bzw. Steigerung der Chemotherapie-Dosis über etablierte Schemata hinaus",
+      "ref": [
+        "gruppe:zytostatika"
+      ],
+      "grund": "Sich rasch teilende Vorläuferzellen werden durch gleichzeitige Chemotherapie stärker geschädigt; die Gesamttoxizität der Chemotherapie wird nicht vermindert."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Fluorouracil und andere Fluoropyrimidine",
+      "ref": [
+        "gruppe:fluoropyrimidine"
+      ],
+      "effekt": "Die Neutropenie kann verstärkt werden – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere G-CSF (Filgrastim, Pegfilgrastim, Lipegfilgrastim)",
+      "ref": [
+        "filgrastim",
+        "pegfilgrastim",
+        "lipegfilgrastim"
+      ],
+      "effekt": "Gleiches Wirkprinzip – nicht gleichzeitig anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Kann die Freisetzung von Neutrophilen zusätzlich steigern – Blutbild kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Plerixafor",
+      "ref": [
+        "plerixafor"
+      ],
+      "effekt": "Wird gezielt kombiniert, um mehr Stammzellen zu mobilisieren; starker Anstieg der weissen Blutkörperchen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochen-, Rücken- und Muskelschmerzen",
+      "Kopfschmerzen, Schwäche",
+      "Reaktionen an der Einstichstelle",
+      "Leukozytose (Anstieg der weissen Blutkörperchen), Thrombozytopenie",
+      "Erhöhte LDH (Laborwert)"
+    ],
+    "haeufig": [
+      "Milzvergrösserung",
+      "Bauchschmerzen",
+      "Erhöhte Leberwerte und alkalische Phosphatase"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Milzriss",
+      "Lungenkomplikationen (Lungenödem, interstitielle Pneumonie, Lungeninfiltrate, Lungenfibrose)",
+      "Anaphylaxie",
+      "Hautreaktionen wie Sweet-Syndrom, Erythema nodosum, Pyoderma gangraenosum",
+      "Toxische epidermale Nekrolyse (Lyell-Syndrom)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Kapillarlecksyndrom",
+      "Glomerulonephritis (Nierenentzündung)",
+      "Aortitis (Entzündung der Hauptschlagader)",
+      "Sichelzellkrisen bei Sichelzellkrankheit"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger Nutzen-Risiko-Abwägung (keine ausreichenden Erfahrungen).",
+  "stillzeit": "Während der Behandlung nicht stillen (Übergang in die Muttermilch nicht bekannt).",
+  "hinweise": [
+    "Nicht im Zeitraum von 24 Stunden vor bis 24 Stunden nach einer Chemotherapie spritzen.",
+    "Schmerzen im linken Oberbauch oder in der Schulterspitze, Atemnot oder Husten mit Fieber sofort melden.",
+    "Knochenschmerzen sind häufig und lassen sich meist mit einfachen Schmerzmitteln wie Paracetamol lindern.",
+    "Das Blutbild wird regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

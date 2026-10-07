@@ -1,0 +1,224 @@
+{
+  "id": "etravirin",
+  "name": "Etravirin",
+  "synonyme": [
+    "ETR",
+    "Etravirine",
+    "TMC125"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J05AG04"
+  ],
+  "klasse": "Nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI) der zweiten Generation",
+  "kurz": "HIV-Mittel aus der Gruppe der NNRTI; wird bei bereits vorbehandelten Personen zusammen mit einem geboosterten Proteasehemmer eingesetzt.",
+  "gruppen": [
+    "nnrti",
+    "cyp2c9-hemmer",
+    "cyp2c19-hemmer"
+  ],
+  "handelsnamen": [
+    "Intelence"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei bereits antiretroviral vorbehandelten Erwachsenen und Kindern (Altersgrenze gemäss Fachinformation), in Kombination mit einem geboosterten Proteasehemmer und weiteren HIV-Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des HI-Virus, indem es ein Schlüsselenzym des Virus blockiert. Etravirin bindet direkt an die Reverse Transkriptase von HIV-1 in der Nähe des aktiven Zentrums und verhindert so, dass die virale RNA in DNA umgeschrieben wird. Dank seiner flexiblen Molekülstruktur bleibt es gegen viele Viren wirksam, die gegen ältere NNRTI wie Efavirenz oder Nevirapin resistent sind. Gegen HIV-2 wirkt es nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS) – bei schwerem Ausschlag oder Ausschlag mit Fieber, Blasen, Schleimhaut- oder Leberbeteiligung sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C): nicht empfohlen; Vorsicht bei Hepatitis-B- oder -C-Koinfektion",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn können Entzündungsreaktionen auf bisher unbemerkte Infektionen oder Autoimmunerkrankungen auftreten",
+      "ids": [
+        "immunsuppression",
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (begrenzte Erfahrung)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Osteonekrose (Absterben von Knochengewebe) bei fortgeschrittener HIV-Erkrankung oder langer Kombinationstherapie möglich – bei Gelenkschmerzen ärztlich abklären",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke Enzyminduktoren (Rifampicin, Carbamazepin, Phenytoin, Phenobarbital) und Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "johanniskraut",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Etravirin-Spiegel sinkt stark – Wirkverlust und Resistenzgefahr; nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NNRTI (Efavirenz, Nevirapin, Rilpivirin)",
+      "ref": [
+        "gruppe:nnrti"
+      ],
+      "effekt": "Kein Zusatznutzen, ungünstige gegenseitige Spiegelveränderungen – Kombination wird nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Proteasehemmer ohne Booster sowie Tipranavir/Ritonavir",
+      "ref": [
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Ungünstige Spiegelveränderungen – Etravirin nur mit den in der Fachinformation genannten geboosterten Proteasehemmern (z. B. Darunavir/Ritonavir) kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dolutegravir",
+      "ref": [
+        "dolutegravir"
+      ],
+      "effekt": "Etravirin senkt den Dolutegravir-Spiegel deutlich – nur zusammen mit Atazanavir/Ritonavir, Darunavir/Ritonavir oder Lopinavir/Ritonavir anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clopidogrel",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Die Umwandlung von Clopidogrel in seine Wirkform kann gehemmt werden (CYP2C19) – Kombination vorsichtshalber vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung kann zunehmen (CYP2C9-Hemmung) – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron, Flecainid, Propafenon, Lidocain systemisch)",
+      "ref": [
+        "amiodaron",
+        "flecainid",
+        "propafenon",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Spiegel der Antiarrhythmika können sinken – Vorsicht, wenn möglich Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Azol-Antimykotika (Fluconazol, Voriconazol, Itraconazol, Posaconazol, Ketoconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Etravirin-Spiegel steigt; Itraconazol- und Ketoconazol-Spiegel können sinken – Wirkung und Verträglichkeit überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clarithromycin",
+      "ref": [
+        "clarithromycin"
+      ],
+      "effekt": "Clarithromycin-Spiegel sinkt, Etravirin-Spiegel steigt – bei Infektionen mit Mycobacterium avium Azithromycin bevorzugen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "sirolimus"
+      ],
+      "effekt": "Spiegel der Immunsuppressiva können sich verändern – Blutspiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine (Atorvastatin, Simvastatin, Fluvastatin, Rosuvastatin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Atorvastatin- und Simvastatin-Spiegel sinken, Fluvastatin- und Rosuvastatin-Spiegel können steigen – Dosis nach Wirkung und Verträglichkeit anpassen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Wirkung kann abgeschwächt sein – Dosis nach Wirkung anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautausschlag (meist leicht bis mässig, in den ersten Behandlungswochen)"
+    ],
+    "haeufig": [
+      "Übelkeit, Durchfall, Erbrechen, Bauchschmerzen, Reflux",
+      "Kopfschmerzen, periphere Neuropathie (Kribbeln, Taubheitsgefühl)",
+      "Schlafstörungen, Angst",
+      "Erhöhte Blutfette und Blutzucker, Diabetes mellitus",
+      "Anämie (Blutarmut), Thrombozytopenie (Mangel an Blutplättchen)",
+      "Bluthochdruck, Herzinfarkt",
+      "Nierenversagen",
+      "Müdigkeit, Nachtschweiss"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen, Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Immunrekonstitutionssyndrom",
+      "Krampfanfälle, Verwirrtheit, Ohnmacht",
+      "Vorhofflimmern, Angina pectoris",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Hepatitis, Fettleber",
+      "Gynäkomastie (Brustvergrösserung beim Mann)"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom",
+      "Hämorrhagischer Schlaganfall (Hirnblutung)"
+    ],
+    "sehrSelten": [
+      "Toxische epidermale Nekrolyse",
+      "Erythema multiforme"
+    ],
+    "unbekannt": [
+      "Schwere Überempfindlichkeitsreaktion mit Organbeteiligung (DRESS)"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; Anwendung nur nach ärztlicher Abwägung, wenn der Nutzen das mögliche Risiko überwiegt. Die HIV-Therapie in der Schwangerschaft soll von einem HIV-Zentrum begleitet werden.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Nach einer Mahlzeit einnehmen – nüchtern wird deutlich weniger Wirkstoff aufgenommen. Wer Tabletten nicht schlucken kann, darf sie in einem Glas Wasser auflösen.",
+    "Bei Hautausschlag mit Fieber, Blasen, Schleimhautbeteiligung oder starkem Unwohlsein sofort ärztliche Hilfe holen.",
+    "Regelmässig und ohne Unterbruch einnehmen; vor jedem neuen Medikament – auch Johanniskraut und anderen pflanzlichen Mitteln – Wechselwirkungen prüfen lassen."
+  ],
+  "stand": "2026-10"
+}

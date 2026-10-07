@@ -1,0 +1,213 @@
+{
+  "id": "clobazam",
+  "name": "Clobazam",
+  "synonyme": [],
+  "kombinationAus": [],
+  "atc": [
+    "N05BA09"
+  ],
+  "klasse": "Benzodiazepin (1,5-Benzodiazepin; Anxiolytikum, Antiepileptikum)",
+  "kurz": "Beruhigungsmittel aus der Gruppe der Benzodiazepine gegen Angst- und Spannungszustände; auch als Zusatzmittel bei Epilepsie.",
+  "gruppen": [
+    "benzodiazepine",
+    "zns-daempfend",
+    "antiepileptika",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Urbanyl"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Angst-, Spannungs- und Erregungszustände",
+      "ids": [
+        "angststoerung"
+      ]
+    },
+    {
+      "text": "Zusatzbehandlung bei Epilepsie, wenn andere Antiepileptika nicht ausreichen",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt angstlösend und krampfhemmend. Clobazam ist ein 1,5-Benzodiazepin, das an GABA-A-Rezeptoren die hemmende Wirkung des Botenstoffs GABA verstärkt. Sein aktiver Hauptmetabolit N-Desmethylclobazam (Norclobazam) hat eine lange Halbwertszeit und trägt wesentlich zur Wirkung bei, besonders bei Epilepsie. Gebildet wird er über CYP3A4, abgebaut über CYP2C19.",
+  "kontraindikationen": [
+    {
+      "text": "Myasthenia gravis (krankhafte Muskelschwäche)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Atemschwäche (respiratorische Insuffizienz) und Schlafapnoe-Syndrom",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Alkohol-, Medikamenten- oder Drogenabhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit",
+        "alkoholabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Ältere Menschen (Sturzgefahr, Verwirrtheit; tiefere Dosis)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken (wie bei anderen Antiepileptika auf Stimmungsveränderungen achten)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Chronische Atemwegserkrankungen wie COPD",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder leichte bis mässige Leberinsuffizienz",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom): bei Ausschlag mit Blasen sofort ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Fahrtüchtigkeit beeinträchtigt",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Opioide (z. B. Morphin, Oxycodon, Tramadol, Methadon)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Starke Sedierung, Atemdämpfung bis Atemstillstand und Koma möglich – nur wenn keine Alternative besteht, mit tiefster Dosis und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Gegenseitige Wirkungsverstärkung bis zur Atemdämpfung – keinen Alkohol trinken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere zentral dämpfende Mittel (z. B. Schlafmittel, Antipsychotika, sedierende Antihistaminika, Pregabalin)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:z-substanzen",
+        "gruppe:antihistaminika-sedierend",
+        "gruppe:gabapentinoide"
+      ],
+      "effekt": "Verstärkte Müdigkeit, Benommenheit und Atemdämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Stiripentol",
+      "ref": [
+        "stiripentol"
+      ],
+      "effekt": "Spiegel von Clobazam und besonders N-Desmethylclobazam steigen stark – Clobazam-Dosis meist senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19-Hemmer (z. B. Fluconazol, Fluvoxamin, Omeprazol)",
+      "ref": [
+        "gruppe:cyp2c19-hemmer"
+      ],
+      "effekt": "Spiegel von N-Desmethylclobazam steigen – auf verstärkte Müdigkeit achten, Dosis allenfalls senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Antiepileptika (z. B. Valproinsäure, Phenytoin, Carbamazepin)",
+      "ref": [
+        "valproinsaeure",
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Gegenseitige Veränderung der Spiegel möglich – Spiegel und Wirkung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Über CYP2D6 abgebaute Mittel (z. B. Dextromethorphan)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Clobazam hemmt CYP2D6 schwach – bei Mitteln mit enger therapeutischer Breite Dosis allenfalls anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit, Müdigkeit"
+    ],
+    "haeufig": [
+      "Schwindel, Kopfschmerzen, Zittern",
+      "Gangunsicherheit (Ataxie), verwaschene Sprache",
+      "Reizbarkeit, Aggressivität, Unruhe, depressive Verstimmung",
+      "Konzentrationsstörungen",
+      "Mundtrockenheit, Verstopfung, Übelkeit",
+      "Appetitverlust"
+    ],
+    "gelegentlich": [
+      "Gedächtnisstörungen (Amnesie)",
+      "Hautausschlag",
+      "Doppelbilder, Augenzittern (Nystagmus)",
+      "Verminderte Libido"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Atemdämpfung",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Paradoxe Reaktionen, Halluzinationen",
+      "Abhängigkeit; Entzugssymptome und Rebound-Angst beim Absetzen",
+      "Stürze bei älteren Menschen",
+      "Nachlassende Wirkung bei Epilepsie (Toleranz)"
+    ]
+  },
+  "schwangerschaft": "Im ersten Drittel nur bei zwingendem Grund. Bei Einnahme in der Spätschwangerschaft können beim Neugeborenen Atemprobleme, Muskelschwäche, Unterkühlung und Entzugssymptome auftreten.",
+  "stillzeit": "Geht in die Muttermilch über; in der Stillzeit kontraindiziert – nicht stillen.",
+  "hinweise": [
+    "Kann abhängig machen: nicht abrupt absetzen, sondern ärztlich ausschleichen – bei Epilepsie drohen sonst Anfälle.",
+    "Keinen Alkohol trinken; Fahrtüchtigkeit ist beeinträchtigt.",
+    "Ältere Menschen: erhöhte Sturzgefahr."
+  ],
+  "stand": "2026-10"
+}

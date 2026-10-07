@@ -1,0 +1,240 @@
+{
+  "id": "droperidol",
+  "name": "Droperidol",
+  "synonyme": [],
+  "kombinationAus": [],
+  "atc": [
+    "N05AD08",
+    "N01AX01"
+  ],
+  "klasse": "Neuroleptikum (Butyrophenon); Antiemetikum",
+  "kurz": "Mittel gegen Übelkeit und Erbrechen nach Operationen; wird im Spital in niedriger Dosis als Spritze gegeben.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "zns-daempfend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Droperidol Sintetica"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung und Behandlung von Übelkeit und Erbrechen nach Operationen bei Erwachsenen und Kindern ab 2 Jahren",
+      "ids": [
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Übelkeit und Erbrechen durch Morphin bei patientengesteuerter Schmerztherapie (PCA) nach Operationen",
+      "ids": [
+        "uebelkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert Übelkeit und Erbrechen, indem es Signale an das Brechzentrum im Gehirn blockiert. Droperidol ist ein Butyrophenon-Neuroleptikum und blockiert Dopamin-D2-Rezeptoren in der Chemorezeptor-Triggerzone (Area postrema). In den niedrigen Dosen gegen Übelkeit ist die beruhigende Wirkung gering; eine schwache Blockade von Alpha-1-Rezeptoren kann den Blutdruck senken. Wie andere Butyrophenone verlängert es die QT-Zeit.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannte oder vermutete Verlängerung der QT-Zeit, auch angeboren oder in der Familie",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Kalium- oder Magnesiummangel",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (unter 55 Schläge pro Minute)",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Koma oder Bewusstseinsstörung",
+      "ids": [
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Schwere Depression",
+      "ids": [
+        "depression"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzinsuffizienz, Herzrhythmusstörungen oder andere Herzkrankheiten",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Weitere Risikofaktoren für Rhythmusstörungen: Alter über 65 Jahre, Alkoholmissbrauch",
+      "ids": [
+        "aeltere-patienten",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Erbrechen, Durchfall oder Flüssigkeitsmangel (Elektrolytverschiebungen)",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck oder Volumenmangel",
+      "ids": [
+        "hypotonie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Mittel, die die QT-Zeit verlängern (z. B. Amiodaron, Sotalol, Haloperidol, Makrolide, Fluorchinolone, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "grund": "Additive Verlängerung der QT-Zeit – Gefahr lebensbedrohlicher Rhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Mittel, die den Puls verlangsamen (z. B. Betablocker, Verapamil, Diltiazem, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "grund": "Ein langsamer Puls erhöht unter Droperidol das Risiko gefährlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Kalium- oder magnesiumsenkende Mittel (z. B. Diuretika, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytmangel erhöht das Risiko für Rhythmusstörungen – Kalium und Magnesium vorher ausgleichen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide, Benzodiazepine, Narkose- und Schlafmittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:benzodiazepine",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Sedierung und Atemdämpfung; intravenöse Opioide und Benzodiazepine erhöhen zusätzlich das QT-Risiko – Dosis anpassen und überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hemmer von CYP3A4 und CYP1A2 (z. B. Ketoconazol, Makrolide, Ciprofloxacin, Fluvoxamin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Langsamerer Abbau von Droperidol – höhere Spiegel und mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol",
+      "ref": [],
+      "effekt": "Verstärkte Sedierung – mindestens 24 Stunden nach der Gabe keinen Alkohol trinken.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schläfrigkeit"
+    ],
+    "gelegentlich": [
+      "Angst, innere Unruhe, Akathisie (Sitzunruhe)",
+      "Dystonie (Muskelverkrampfungen), Blickkrämpfe",
+      "Tachykardie (Herzrasen), Schwindel",
+      "Hypotonie (Blutdruckabfall)"
+    ],
+    "selten": [
+      "Verwirrtheit, Erregung",
+      "Extrapyramidale Störungen, Zittern, Krampfanfälle",
+      "Ventrikuläre Herzrhythmusstörungen",
+      "Anaphylaxie (schwere allergische Reaktion), Angioödem",
+      "Hautausschlag",
+      "Malignes neuroleptisches Syndrom (Fieber, Muskelsteifigkeit, Bewusstseinsstörung)"
+    ],
+    "sehrSelten": [
+      "Blutbildveränderungen",
+      "Dysphorie (gedrückte, gereizte Stimmung)",
+      "QT-Verlängerung, Torsade de pointes, Herzstillstand",
+      "Plötzlicher Tod",
+      "Koma"
+    ],
+    "unbekannt": [
+      "Halluzinationen",
+      "Inadäquate ADH-Sekretion mit Natriummangel",
+      "Bronchospasmus, Laryngospasmus (Verkrampfung der Atemwege)",
+      "Synkope (Ohnmacht)"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur anwenden, wenn klar notwendig. Nach Gabe gegen Ende der Schwangerschaft das Neugeborene auf Bewegungsstörungen und Unruhe überwachen.",
+  "stillzeit": "Geht in die Muttermilch über; eine einmalige Gabe ist vertretbar, wiederholte Gaben in der Stillzeit werden nicht empfohlen.",
+  "hinweise": [
+    "Wird nur im Spital verabreicht; bei Risikofaktoren werden Herzrhythmus und Sauerstoffsättigung überwacht.",
+    "Nach der Gabe mindestens 24 Stunden nicht Auto fahren, keine Maschinen bedienen und keinen Alkohol trinken."
+  ],
+  "stand": "2026-10"
+}

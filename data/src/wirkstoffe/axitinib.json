@@ -1,0 +1,194 @@
+{
+  "id": "axitinib",
+  "name": "Axitinib",
+  "synonyme": [
+    "Axitinibum",
+    "AG-013736"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EK01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (VEGFR-Tyrosinkinasehemmer); Krebsmittel",
+  "kurz": "Krebsmittel zum Einnehmen gegen fortgeschrittenen Nierenkrebs; hemmt die Blutgefässbildung im Tumor, allein oder mit einem Immuntherapeutikum.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "thromboserisiko-erhoehend",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Inlyta"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Erstbehandlung des fortgeschrittenen Nierenzellkarzinoms, zusammen mit Pembrolizumab oder Avelumab",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom nach Versagen einer Vorbehandlung mit Sunitinib oder einem Zytokin",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hungert den Tumor aus, indem es die Bildung neuer Blutgefässe hemmt. Axitinib blockiert hochwirksam und selektiv die Tyrosinkinasen der VEGF-Rezeptoren 1, 2 und 3. Dadurch werden Gefässneubildung (Angiogenese), Tumorwachstum und Metastasierung gebremst.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bluthochdruck: steigt häufig an, auch hypertensive Krisen; vor Beginn einstellen und regelmässig messen",
+      "ids": [
+        "hypertonie",
+        "hypertensive-krise"
+      ]
+    },
+    {
+      "text": "Herzinfarkt, Schlaganfall, Thrombose oder Embolie in den letzten 12 Monaten",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Herzschwäche (kann auftreten oder sich verschlechtern)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutungsneigung, unbehandelte Hirnmetastasen oder aktive Magen-Darm-Blutung",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Erkrankungen mit Gefahr eines Durchbruchs (Perforation) oder einer Fistel",
+      "ids": [
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Geplante Operationen (gestörte Wundheilung; mindestens 24 Stunden vorher pausieren)",
+      "ids": [
+        "operation",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Aneurysma oder Gefässdissektion in der Vorgeschichte",
+      "ids": [
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Schilddrüsenerkrankungen (Unterfunktion häufig; Werte kontrollieren)",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisreduktion bei mässiger Einschränkung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Axitinib-Spiegel steigt deutlich – Kombination vermeiden oder Dosis halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Axitinib-Spiegel sinkt stark, Wirkverlust – Kombination vermeiden oder Dosis erhöhen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutverdünner und Plättchenhemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – enge Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Axitinib-Spiegel kann steigen – Vorsicht, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksteigernde Mittel (z. B. Pseudoephedrin, Venlafaxin)",
+      "ref": [
+        "gruppe:blutdrucksteigernd"
+      ],
+      "effekt": "Bluthochdruck kann sich verstärken – Blutdruck engmaschig messen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bluthochdruck",
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung, Bauchschmerzen, Stomatitis",
+      "Müdigkeit, Schwäche, Appetit- und Gewichtsabnahme",
+      "Dysphonie (Heiserkeit)",
+      "Hand-Fuss-Syndrom, Hautausschlag, trockene Haut",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Blutungen",
+      "Proteinurie (Eiweiss im Urin), Kopfschmerzen, Gelenkschmerzen, Atemnot, Husten"
+    ],
+    "haeufig": [
+      "Venöse Thromboembolien (Thrombose, Lungenembolie)",
+      "Arterielle Embolien (z. B. Herzinfarkt, Schlaganfall)",
+      "Hypertensive Krise",
+      "Herzinsuffizienz",
+      "Anämie, Thrombozytopenie",
+      "Dehydratation (Flüssigkeitsmangel)",
+      "Magen-Darm-Perforation (Durchbruch) oder Fistel",
+      "Erhöhte Leber-, Lipase- und Amylasewerte; Nierenversagen"
+    ],
+    "gelegentlich": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES, Hirnschwellung mit Kopfschmerzen, Sehstörungen, Krampfanfällen)",
+      "Neutropenie (Mangel an weissen Blutkörperchen)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Aneurysmen und Arteriendissektionen (Gefässeinrisse)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis mindestens 1 Woche nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich im Abstand von etwa 12 Stunden einnehmen, mit oder ohne Essen; Grapefruit meiden.",
+    "Blutdruck regelmässig zu Hause messen; starke Kopfschmerzen, Sehstörungen oder Verwirrtheit sofort melden.",
+    "Vor Operationen und Zahneingriffen die Behandlung angeben (Wundheilung).",
+    "Regelmässige Kontrollen: Blutdruck, Urin auf Eiweiss, Schilddrüsen- und Leberwerte."
+  ],
+  "stand": "2026-10"
+}

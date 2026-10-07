@@ -1,0 +1,310 @@
+{
+  "id": "dexibuprofen",
+  "name": "Dexibuprofen",
+  "synonyme": [
+    "S(+)-Ibuprofen",
+    "Dexibuprofenum"
+  ],
+  "atc": [
+    "M01AE14"
+  ],
+  "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Propionsäure-Derivat; wirksames Enantiomer von Ibuprofen)",
+  "kurz": "Entzündungshemmendes Schmerzmittel (NSAR, wirksamer Teil von Ibuprofen) bei Arthrose, Regelschmerzen und leichten bis mässigen Schmerzen.",
+  "gruppen": [
+    "nsar",
+    "blutungsrisiko-erhoehend",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend"
+  ],
+  "handelsnamen": [
+    "Seractil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schmerzen und Entzündung bei Arthrose",
+      "ids": [
+        "arthrose"
+      ]
+    },
+    {
+      "text": "Regelschmerzen (primäre Dysmenorrhö)",
+      "ids": [
+        "regelbeschwerden"
+      ]
+    },
+    {
+      "text": "Leichte bis mässig starke Schmerzen, z. B. des Bewegungsapparats oder Zahnschmerzen",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündungen, indem es die Bildung von Prostaglandinen hemmt. Dexibuprofen ist die rechtsdrehende Form (S-Enantiomer) von Ibuprofen, die praktisch allein für die Hemmung der Cyclooxygenasen COX-1 und COX-2 verantwortlich ist. Daher entspricht eine Dosis Dexibuprofen etwa der doppelten Menge des üblichen Ibuprofens (Racemat).",
+  "kontraindikationen": [
+    {
+      "text": "Asthma, Nesselsucht oder Schnupfen nach Einnahme von Acetylsalicylsäure oder anderen NSAR (Analgetika-Asthma)",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive oder frühere Magen-Darm-Geschwüre oder -Blutungen, Magen-Darm-Blutung oder -Durchbruch nach NSAR",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Aktive Blutungen, Hirnblutung oder Blutgerinnungsstörungen",
+      "ids": [
+        "aktive-blutung",
+        "hirnblutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schmerzbehandlung nach koronarer Bypass-Operation",
+      "ids": [
+        "koronarstent"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder Risikofaktoren (erhöhtes Risiko für Herzinfarkt und Schlaganfall bei hohen Dosen), Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (höheres Risiko für Magen-Darm-Blutungen)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Nieren- oder Leberfunktionsstörung, Flüssigkeitsmangel",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes und Mischkollagenosen (Risiko einer aseptischen Meningitis)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Frauen mit Kinderwunsch (vorübergehend verminderte Fruchtbarkeit möglich)",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Apixaban, Heparine)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Deutlich erhöhtes Blutungsrisiko – möglichst meiden, sonst eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NSAR, einschliesslich Ibuprofen und Acetylsalicylsäure in schmerzlindernder Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer",
+        "ibuprofen"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und Blutungen ohne Wirkungsgewinn – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Verminderte Ausscheidung von Methotrexat – Gefahr schwerer Knochenmark- und Nierenschäden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigen – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Niedrig dosierte Acetylsalicylsäure (Herzschutz)",
+      "ref": [
+        "acetylsalicylsaeure"
+      ],
+      "effekt": "Kann wie Ibuprofen die plättchenhemmende Wirkung abschwächen und erhöht das Risiko für Magen-Darm-Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "SSRI, SNRI und andere Plättchenhemmer",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:p2y12-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Risiko für akutes Nierenversagen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsparende Diuretika und Mineralokortikoid-Antagonisten",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten"
+      ],
+      "effekt": "Hyperkaliämie möglich – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel können steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C9-Hemmer (z. B. Fluconazol)",
+      "ref": [
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Höhere Dexibuprofen-Spiegel – Dosis gegebenenfalls reduzieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich – Blutzucker kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Dyspepsie (Verdauungsbeschwerden), Bauchschmerzen, Übelkeit, Erbrechen, Durchfall, Blähungen",
+      "Müdigkeit, Schläfrigkeit, Kopfschmerzen, Schwindel",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Magen-Darm-Geschwüre und -Blutungen, Gastritis, Mundschleimhautentzündung",
+      "Schlaflosigkeit, Angst, Unruhe",
+      "Sehstörungen, Ohrensausen (Tinnitus)",
+      "Nesselsucht, Juckreiz, Hautblutungen (Purpura)",
+      "Schnupfen, Bronchospasmus (Verkrampfung der Atemwege)",
+      "Angioödem"
+    ],
+    "selten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Psychotische Reaktionen, Depression, Reizbarkeit",
+      "Hepatitis, Gelbsucht",
+      "Hörstörungen"
+    ],
+    "sehrSelten": [
+      "Agranulozytose, aplastische Anämie, Thrombozytopenie",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme)",
+      "Akutes Nierenversagen",
+      "Aseptische Meningitis (nicht-bakterielle Hirnhautentzündung)"
+    ],
+    "unbekannt": [
+      "Ödeme, Bluthochdruck, Herzinsuffizienz",
+      "Erhöhtes Risiko für Herzinfarkt und Schlaganfall bei hohen Dosen"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach strenger ärztlicher Abwägung; ab der 20. Woche können NSAR die Nierenfunktion des Ungeborenen beeinträchtigen. Im letzten Drittel kontraindiziert.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; kurzfristige Anwendung nur nach ärztlicher Abwägung, bei längerer Anwendung abstillen.",
+  "hinweise": [
+    "Dexibuprofen wirkt etwa doppelt so stark wie die gleiche Menge Ibuprofen – nicht zusammen mit Ibuprofen einnehmen; Höchstdosis 1200 mg pro Tag.",
+    "Mit einer Mahlzeit und reichlich Flüssigkeit einnehmen; so kurz und so niedrig dosiert wie möglich.",
+    "Schwindel und Müdigkeit können die Fahrtüchtigkeit beeinträchtigen; Alkohol meiden.",
+    "Bei schwarzem Stuhl, Bluterbrechen oder starken Magenschmerzen sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

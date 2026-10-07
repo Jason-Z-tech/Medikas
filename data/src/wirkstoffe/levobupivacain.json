@@ -1,0 +1,201 @@
+{
+  "id": "levobupivacain",
+  "name": "Levobupivacain",
+  "synonyme": [
+    "Levobupivacaine",
+    "S-Bupivacain",
+    "Levobupivacainhydrochlorid"
+  ],
+  "atc": [
+    "N01BB10"
+  ],
+  "klasse": "Lokalanästhetikum vom Amid-Typ (lang wirksam)",
+  "kurz": "Lang wirkendes Mittel zur örtlichen Betäubung für Operationen, Geburtshilfe und Schmerzbehandlung nach Operationen.",
+  "gruppen": [
+    "lokalanaesthetika"
+  ],
+  "handelsnamen": [
+    "Chirocaine"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Betäubung bei Operationen: Epidural- und Spinalanästhesie (auch beim Kaiserschnitt), periphere Nervenblockaden, Infiltrationsanästhesie, Blockaden am Auge",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Schmerzbehandlung nach Operationen und Schmerzlinderung unter der Geburt (Epiduralanalgesie)",
+      "ids": [
+        "schmerzen",
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Kinder: Schmerzlinderung durch Nervenblockade in der Leistengegend",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Betäubt die Nerven im behandelten Gebiet über viele Stunden, sodass keine Schmerzen weitergeleitet werden. Levobupivacain ist die linksdrehende Form (S-Enantiomer) von Bupivacain und blockiert spannungsabhängige Natriumkanäle der Nervenmembran. Bei vergleichbarer Wirkung ist es in Tierversuchen weniger herz- und nervenschädigend als das Gemisch Bupivacain. Der Abbau erfolgt in der Leber, vor allem über CYP3A4 und CYP1A2.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Lokalanästhetika vom Amid-Typ – Kreuzallergie",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwerer Blutdruckabfall, z. B. bei kardiogenem oder hypovolämischem Schock",
+      "ids": [
+        "hypotonie",
+        "schock"
+      ]
+    },
+    {
+      "text": "Intravenöse Regionalanästhesie (Bier-Block)",
+      "ids": []
+    },
+    {
+      "text": "Parazervikalblockade in der Geburtshilfe (Gefahr eines verlangsamten Herzschlags beim Kind)",
+      "ids": [
+        "geburtshilfe"
+      ]
+    },
+    {
+      "text": "Rückenmarksnahe Anwendung: schwere Blutgerinnungsstörungen oder Infektion an der Einstichstelle",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "hautinfektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzerkrankungen, besonders Herzrhythmus- und Reizleitungsstörungen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (langsamerer Abbau)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Flüssigkeitsmangel oder tiefer Blutdruck (verstärkter Blutdruckabfall bei rückenmarksnaher Betäubung)",
+      "ids": [
+        "dehydratation",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Neurologische Erkrankungen (z. B. Multiple Sklerose) und Epilepsie",
+      "ids": [
+        "multiple-sklerose",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Behandlung mit Blutverdünnern (rückenmarksnahe Betäubung nur mit genügend Zeitabstand)",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere Lokalanästhetika und strukturverwandte Antiarrhythmika der Klasse I (z. B. Mexiletin)",
+      "ref": [
+        "gruppe:lokalanaesthetika",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Additive Giftwirkung auf Herz und Nervensystem – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika der Klasse III (z. B. Amiodaron)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Additive Wirkungen auf das Herz möglich – EKG-Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Levobupivacain kann langsamer abgebaut werden – Vorsicht bei hohen Dosen oder Dauerinfusion.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Hemmer (z. B. Fluvoxamin) und Methylxanthine",
+      "ref": [
+        "gruppe:cyp1a2-hemmer",
+        "gruppe:methylxanthine"
+      ],
+      "effekt": "Abbau kann verlangsamt sein – Vorsicht bei Dauerinfusion.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Antikoagulanzien",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Bei rückenmarksnaher Betäubung Gefahr von Blutergüssen im Wirbelkanal mit Lähmungen – Zeitabstände einhalten.",
+      "schwere": "schwer"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypotonie (Blutdruckabfall)",
+      "Übelkeit",
+      "Anämie (Blutarmut)"
+    ],
+    "haeufig": [
+      "Schwindel",
+      "Kopfschmerzen",
+      "Erbrechen",
+      "Rückenschmerzen",
+      "Fieber",
+      "Beeinträchtigung des Kindes unter der Geburt (fetaler Distress)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Allergische Reaktionen bis Anaphylaxie",
+      "Zeichen einer Überdosierung: Taubheit um den Mund, Ohrensausen, Sehstörungen, Krampfanfälle",
+      "Bradykardie (langsamer Puls), Herzrhythmusstörungen, Herzstillstand",
+      "Nervenschäden, Lähmungen, Cauda-equina-Syndrom nach rückenmarksnaher Gabe",
+      "Horner-Syndrom (hängendes Lid, enge Pupille)",
+      "Atemdepression bei hoher Ausbreitung der Betäubung"
+    ]
+  },
+  "schwangerschaft": "Für die Epiduralanalgesie unter der Geburt und den Kaiserschnitt zugelassen; in der Frühschwangerschaft nur, wenn klar notwendig. Parazervikalblockade kontraindiziert.",
+  "stillzeit": "Es gelangen nur sehr geringe Mengen in die Muttermilch; Stillen nach einer Betäubung ist möglich.",
+  "hinweise": [
+    "Wird nur von Fachpersonen mit Notfallausrüstung angewendet; Kreislauf und Bewusstsein werden überwacht.",
+    "Gefühl und Kraft können im betäubten Körperteil mehrere Stunden fehlen – nicht ohne Hilfe aufstehen und nicht Auto fahren.",
+    "Blutverdünner vor einer rückenmarksnahen Betäubung unbedingt angeben."
+  ],
+  "stand": "2026-10"
+}

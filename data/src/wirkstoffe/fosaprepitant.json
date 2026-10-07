@@ -1,0 +1,192 @@
+{
+  "id": "fosaprepitant",
+  "name": "Fosaprepitant",
+  "synonyme": [
+    "Fosaprepitant-Dimeglumin",
+    "Fosaprepitant dimeglumine"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "A04AD12"
+  ],
+  "klasse": "Antiemetikum (NK1-Rezeptor-Antagonist; Prodrug von Aprepitant)",
+  "kurz": "Infusion gegen Übelkeit und Erbrechen bei Chemotherapie; wird im Körper zum Wirkstoff Aprepitant umgewandelt.",
+  "gruppen": [
+    "enzyminduktoren-hormone"
+  ],
+  "handelsnamen": [
+    "Ivemend"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von akuter und verzögerter Übelkeit und Erbrechen bei stark oder mässig brechreizauslösender Chemotherapie, zusammen mit anderen Mitteln gegen Erbrechen",
+      "ids": [
+        "uebelkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert vor allem das verzögerte Erbrechen in den Tagen nach einer Chemotherapie. Fosaprepitant ist eine Vorstufe (Prodrug), die nach der Infusion rasch zum Wirkstoff Aprepitant umgewandelt wird. Aprepitant blockiert im Gehirn die NK1-Rezeptoren für den Botenstoff Substanz P, der den Brechreflex auslöst, und ergänzt so die Wirkung von 5-HT3-Antagonisten und Dexamethason. Aprepitant hemmt vorübergehend das Abbauenzym CYP3A4 und regt die Enzyme CYP2C9 und CYP3A4 danach leicht an.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Mässige bis schwere Leberfunktionsstörung (wenig Erfahrungen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hormonelle Verhütung: Schutz während und bis rund einen Monat nach der Gabe vermindert",
+      "ids": [
+        "verhuetung",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Behandlung mit Vitamin-K-Antagonisten: INR in den folgenden zwei Wochen kontrollieren",
+      "ids": [
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen bis Anaphylaxie während oder kurz nach der Infusion",
+      "ids": [
+        "anaphylaxie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Pimozid (sowie die in der Schweiz nicht mehr erhältlichen Terfenadin, Astemizol und Cisaprid)",
+      "ref": [],
+      "grund": "Aprepitant hemmt deren Abbau über CYP3A4 – stark erhöhte Spiegel können lebensbedrohliche Herzrhythmusstörungen (QT-Verlängerung) auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Dexamethason und Methylprednisolon",
+      "ref": [
+        "dexamethason",
+        "methylprednisolon"
+      ],
+      "effekt": "Aprepitant erhöht deren Spiegel – die Kortison-Dosis wird angepasst (Dexamethason zum Einnehmen etwa halbiert).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Aprepitant-Spiegel sinkt stark – die Wirkung gegen Erbrechen kann ausbleiben; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Ring, Implantat)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz kann während und bis rund einen Monat nach der Gabe vermindert sein – zusätzlich nicht-hormonell (z. B. Kondom) verhüten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Der INR kann in den zwei Wochen nach der Gabe sinken (am deutlichsten nach 7–10 Tagen) – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus, Sirolimus, Everolimus, Fentanyl, Alfentanil, Ergotalkaloide)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer",
+        "fentanyl",
+        "alfentanil",
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Spiegel können vorübergehend steigen – mit Vorsicht anwenden, gegebenenfalls Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zytostatika, die über CYP3A4 abgebaut werden (z. B. Docetaxel, Paclitaxel, Etoposid, Irinotecan, Ifosfamid, Imatinib, Vinorelbin, Vincristin)",
+      "ref": [
+        "docetaxel",
+        "paclitaxel",
+        "etoposid",
+        "irinotecan",
+        "ifosfamid",
+        "imatinib",
+        "vinorelbin",
+        "vincristin"
+      ],
+      "effekt": "Höhere Spiegel und mehr Nebenwirkungen der Chemotherapie möglich – mit Vorsicht anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Aprepitant-Spiegel steigt deutlich – mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Midazolam und andere empfindliche CYP3A4-Substrate",
+      "ref": [
+        "midazolam",
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Spiegel am Tag der Gabe leicht erhöht – auf verstärkte Wirkung (z. B. Schläfrigkeit) achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP2C9-Substrate (z. B. Phenytoin)",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Spiegel können in den Tagen danach sinken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Müdigkeit",
+      "Schluckauf",
+      "Obstipation (Verstopfung)",
+      "Dyspepsie (Verdauungsbeschwerden)",
+      "Appetitlosigkeit",
+      "Erhöhte Leberwerte (ALT)"
+    ],
+    "gelegentlich": [
+      "Schwindel, Schläfrigkeit",
+      "Herzklopfen, Hitzewallungen",
+      "Übelkeit, Aufstossen, Bauchschmerzen",
+      "Hautausschlag, Akne",
+      "Anämie (Blutarmut)"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautreaktionen)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie, auch während der Infusion",
+      "Reaktionen an der Infusionsstelle (Rötung, Schmerzen, Verhärtung, Venenentzündung)"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Daten; nur anwenden, wenn eindeutig notwendig. Hormonelle Verhütung kann bis rund einen Monat nach der Gabe unsicher sein.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Alle Medikamente angeben: Aprepitant beeinflusst den Abbau vieler Arzneimittel über mehrere Tage (u. a. Kortison, Blutverdünner, Antibabypille).",
+    "Bei Einnahme von Phenprocoumon oder Acenocoumarol den INR in den zwei Wochen nach der Infusion kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

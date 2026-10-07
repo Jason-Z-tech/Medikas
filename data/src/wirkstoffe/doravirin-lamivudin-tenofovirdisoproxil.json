@@ -1,0 +1,229 @@
+{
+  "id": "doravirin-lamivudin-tenofovirdisoproxil",
+  "name": "Doravirin + Lamivudin + Tenofovirdisoproxil",
+  "synonyme": [
+    "DOR/3TC/TDF",
+    "Doravirine/Lamivudine/Tenofovir disoproxil"
+  ],
+  "kombinationAus": [
+    "doravirin",
+    "lamivudin",
+    "tenofovirdisoproxil"
+  ],
+  "atc": [
+    "J05AR24"
+  ],
+  "klasse": "HIV-Fixkombination (NNRTI + zwei nukleosidische/nukleotidische Reverse-Transkriptase-Hemmer)",
+  "kurz": "HIV-Kombinationstablette mit drei Wirkstoffen als vollständige Therapie, einmal täglich unabhängig von den Mahlzeiten.",
+  "gruppen": [
+    "nnrti",
+    "nephrotoxisch"
+  ],
+  "handelsnamen": [
+    "Delstrigo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion ohne bekannte Resistenz gegen NNRTI, Lamivudin oder Tenofovir (Erwachsene; Jugendliche gemäss Fachinformation)",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Drei Wirkstoffe hemmen die Reverse Transkriptase des HI-Virus auf zwei Arten. Doravirin (NNRTI) bindet direkt an das Enzym und blockiert das Umschreiben der Virus-RNA in DNA. Lamivudin (ein Cytidin-Analogon) und Tenofovir (aus dem Prodrug Tenofovirdisoproxil) werden in den Zellen aktiviert und führen nach Einbau in die Virus-DNA zum Kettenabbruch. Lamivudin und Tenofovir wirken auch gegen Hepatitis B.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Chronische Hepatitis B: nach dem Absetzen schwerer Hepatitis-Schub möglich",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 50 ml/min): Fixkombination nicht empfohlen; Nierenfunktion und Phosphat regelmässig kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Verminderte Knochendichte oder Osteoporose (Tenofovirdisoproxil)",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Depression oder andere psychische Erkrankungen",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung: keine Erfahrung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn Entzündungsreaktionen auf bisher unbemerkte Infektionen möglich",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A-Induktoren: Carbamazepin, Oxcarbazepin, Phenobarbital, Phenytoin, Rifampicin, Rifapentin, Mitotan, Enzalutamid, Lumacaftor",
+      "ref": [
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "mitotan",
+        "enzalutamid",
+        "lumacaftor-ivacaftor",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken den Doravirin-Spiegel stark – Gefahr von Wirkverlust und Resistenzentwicklung."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Induziert CYP3A4 und senkt den Doravirin-Spiegel – Wirkverlust und Resistenzgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Foscarnet, Vancomycin)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "amphotericin-b",
+        "foscarnet",
+        "vancomycin"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden durch Tenofovir – gleichzeitige oder kurz vorangehende Anwendung vermeiden, sonst Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifabutin",
+      "ref": [
+        "rifabutin"
+      ],
+      "effekt": "Senkt den Doravirin-Spiegel – während der Kombination zusätzlich Doravirin gemäss Fachinformation einnehmen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässig starke Enzyminduktoren (z. B. Bosentan, Modafinil, Dabrafenib)",
+      "ref": [
+        "bosentan",
+        "modafinil",
+        "dabrafenib"
+      ],
+      "effekt": "Doravirin-Spiegel sinkt – Kombination möglichst vermeiden bzw. nur nach ärztlicher Prüfung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Emtricitabin-haltige Arzneimittel und andere Präparate mit gleichen Wirkstoffen",
+      "ref": [
+        "emtricitabin",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "tenofoviralafenamid",
+        "doravirin"
+      ],
+      "effekt": "Gleichartige bzw. doppelte Wirkstoffe – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cladribin",
+      "ref": [
+        "cladribin"
+      ],
+      "effekt": "Lamivudin kann die Aktivierung und Wirkung von Cladribin abschwächen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR in hoher Dosis oder mehrere NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Bei Risikopatienten Fälle von akutem Nierenversagen – Alternativen bevorzugen, Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hepatitis-C-Mittel mit Ledipasvir oder Velpatasvir",
+      "ref": [
+        "ledipasvir-sofosbuvir",
+        "sofosbuvir-velpatasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "effekt": "Tenofovir-Spiegel steigt – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sorbitolhaltige Arzneimittel (z. B. Lösungen) bei Dauergebrauch",
+      "ref": [],
+      "effekt": "Senken den Lamivudin-Spiegel – längere gleichzeitige Einnahme möglichst vermeiden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Cobicistat, Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Doravirin-Spiegel steigt – keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel, Schläfrigkeit",
+      "Abnorme Träume, Schlaflosigkeit",
+      "Übelkeit, Durchfall, Bauchschmerzen, Erbrechen, Blähungen",
+      "Husten",
+      "Haarausfall, Hautausschlag",
+      "Müdigkeit, Fieber",
+      "Anstieg des Leberwerts ALT"
+    ],
+    "gelegentlich": [
+      "Neutropenie, Anämie, Thrombozytopenie",
+      "Albträume, Depression, Angst, Verwirrtheit, Suizidgedanken",
+      "Tiefes Phosphat oder Kalium im Blut",
+      "Verstopfung, Verdauungsbeschwerden",
+      "Muskel- und Gelenkschmerzen, Muskelschwäche",
+      "Kreatininanstieg, erhöhte Lipase und Amylase",
+      "Bluthochdruck, Juckreiz"
+    ],
+    "selten": [
+      "Laktatazidose (Übersäuerung des Blutes)",
+      "Akute Nierenschädigung, proximale Tubulopathie (Fanconi-Syndrom), Nierensteine",
+      "Osteomalazie (Knochenerweichung)",
+      "Pankreatitis, Hepatitis, Fettleber",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Aggression, Halluzinationen"
+    ],
+    "sehrSelten": [
+      "Erythroblastopenie (Ausfall der Bildung roter Blutkörperchen)"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen mit Doravirin; vorsichtshalber soll die Anwendung in der Schwangerschaft vermieden werden. Die Behandlung ist mit einem HIV-Zentrum zu planen.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Einmal täglich mit oder ohne Mahlzeit einnehmen.",
+    "Nierenfunktion und Phosphat werden regelmässig kontrolliert; Schmerzmittel wie Ibuprofen oder Diclofenac nicht über längere Zeit ohne Rücksprache einnehmen.",
+    "Bei Hepatitis B nicht eigenmächtig absetzen (Gefahr eines schweren Hepatitis-Schubs); kein Johanniskraut."
+  ],
+  "stand": "2026-10"
+}

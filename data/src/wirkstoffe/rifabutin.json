@@ -1,0 +1,232 @@
+{
+  "id": "rifabutin",
+  "name": "Rifabutin",
+  "synonyme": [
+    "Rifabutine",
+    "Ansamycin"
+  ],
+  "atc": [
+    "J04AB04"
+  ],
+  "klasse": "Rifamycin-Antibiotikum (Tuberkulostatikum)",
+  "kurz": "Antibiotikum gegen Tuberkulose und atypische Mykobakterien; auch zur Vorbeugung von MAC-Infektionen bei fortgeschrittener HIV-Infektion.",
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "cyp3a4-substrate-empfindlich",
+    "myelosuppressiv",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Mycobutin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von Infektionen mit dem Mycobacterium-avium-Komplex (MAC) bei Menschen mit HIV und stark verminderten CD4-Zellen",
+      "ids": [
+        "hiv",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Infektionen durch nicht-tuberkulöse (atypische) Mykobakterien, z. B. MAC, in Kombination mit anderen Antibiotika",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Lungentuberkulose, auch chronische oder resistente Formen, in Kombination mit anderen Tuberkulosemitteln",
+      "ids": [
+        "tuberkulose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Mykobakterien ab, indem es das Ablesen ihrer Erbinformation blockiert. Rifabutin hemmt wie Rifampicin die bakterielle DNA-abhängige RNA-Polymerase und verhindert so die Bildung bakterieller Eiweisse. Es wirkt auch gegen den Mycobacterium-avium-Komplex und gegen manche Rifampicin-resistente Tuberkulosestämme. Rifabutin induziert die Leberenzyme (vor allem CYP3A4), allerdings schwächer als Rifampicin.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Rifamycine (z. B. Rifampicin)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit (ungenügende Erfahrung)",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Kinder (ungenügende Erfahrung)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Vor einer MAC-Vorbeugung aktive Tuberkulose ausschliessen (Resistenzgefahr bei alleiniger Gabe)",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion: Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz: Dosis reduzieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (Neutropenie, Thrombozytopenie): Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Uveitis (Augenentzündung), besonders bei erhöhten Spiegeln durch Clarithromycin, Fluconazol oder HIV-Proteasehemmer",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Durchfall während oder nach der Behandlung (Clostridioides-difficile-Infektion möglich)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Voriconazol und Isavuconazol",
+      "ref": [
+        "voriconazol",
+        "isavuconazol"
+      ],
+      "effekt": "Rifabutin senkt deren Spiegel stark, Voriconazol erhöht zudem den Rifabutin-Spiegel – laut deren Fachinformation kontraindiziert.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Proteasehemmer, geboostert mit Ritonavir oder Cobicistat",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "ritonavir",
+        "cobicistat"
+      ],
+      "effekt": "Rifabutin-Spiegel steigt stark (Uveitis, Neutropenie) – Rifabutin-Dosis deutlich reduzieren, Blutbild und Augen kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clarithromycin, Fluconazol und andere CYP3A4-Hemmer",
+      "ref": [
+        "clarithromycin",
+        "fluconazol",
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Rifabutin-Spiegel steigt – Risiko für Uveitis und Neutropenie; Dosis anpassen, überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz unsicher – nicht-hormonale Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NNRTI (z. B. Efavirenz, Rilpivirin, Doravirin)",
+      "ref": [
+        "gruppe:nnrti"
+      ],
+      "effekt": "Gegenseitige Spiegelveränderungen (Efavirenz senkt Rifabutin; Rifabutin senkt Rilpivirin und Doravirin) – Dosisanpassungen nötig; Kombinationstabletten mit Rilpivirin sind teils kontraindiziert.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Bictegravir (Kombinationstablette)",
+      "ref": [
+        "bictegravir-emtricitabin-tenofoviralafenamid"
+      ],
+      "effekt": "Bictegravir-Spiegel sinkt – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Spiegel sinkt – Abstossungsgefahr; Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Abgeschwächte Gerinnungshemmung – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Statine, Calciumantagonisten)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Deren Spiegel und Wirkung können sinken – Wirkung überwachen, Dosis allenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Atovaquon",
+      "ref": [
+        "atovaquon",
+        "atovaquon-proguanil"
+      ],
+      "effekt": "Spiegel beider Mittel sinken – verminderte Wirkung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Leukopenie, Neutropenie (Mangel an weissen Blutkörperchen), Anämie",
+      "Übelkeit",
+      "Hautausschlag",
+      "Fieber",
+      "Gelenk- und Muskelschmerzen"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Überempfindlichkeitsreaktionen, Bronchospasmus, Eosinophilie",
+      "Erbrechen",
+      "Erhöhte Leberwerte, Gelbsucht"
+    ],
+    "unbekannt": [
+      "Uveitis (Augenentzündung), Hornhautablagerungen",
+      "Agranulozytose, Panzytopenie",
+      "Clostridioides-difficile-Kolitis (schwerer Durchfall)",
+      "Anaphylaktischer Schock",
+      "Hepatitis",
+      "Hautverfärbung"
+    ]
+  },
+  "schwangerschaft": "Laut Fachinformation wegen ungenügender Erfahrung nicht anwenden; bei Tuberkulose in der Schwangerschaft entscheidet eine spezialisierte Ärztin oder ein spezialisierter Arzt.",
+  "stillzeit": "Wegen ungenügender Erfahrung nicht anwenden bzw. abstillen.",
+  "hinweise": [
+    "Urin, Schweiss, Tränen und Haut können sich orange-braun verfärben; weiche Kontaktlinsen können dauerhaft verfärbt werden.",
+    "Hormonale Verhütung ist unsicher – nicht-hormonale Methode verwenden.",
+    "Bei Augenschmerzen, Augenrötung oder Sehstörungen sofort ärztlich abklären lassen (Uveitis).",
+    "Alle Medikamente angeben, insbesondere HIV-Medikamente: Dosisanpassungen sind häufig nötig."
+  ],
+  "stand": "2026-10"
+}

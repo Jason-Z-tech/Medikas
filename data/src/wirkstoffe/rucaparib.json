@@ -1,0 +1,175 @@
+{
+  "id": "rucaparib",
+  "name": "Rucaparib",
+  "synonyme": [
+    "Rucaparibcamsylat",
+    "CO-338"
+  ],
+  "atc": [
+    "L01XK03"
+  ],
+  "klasse": "PARP-Hemmer (Poly-ADP-Ribose-Polymerase-Inhibitor)",
+  "kurz": "Tablette zur Erhaltungstherapie bei Eierstockkrebs nach Ansprechen auf eine platinhaltige Chemotherapie.",
+  "gruppen": [
+    "myelosuppressiv",
+    "photosensibilisierend",
+    "cyp1a2-hemmer",
+    "cyp2c9-hemmer",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Rubraca"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhaltungstherapie bei fortgeschrittenem, hochgradigem Eierstock-, Eileiter- oder primärem Bauchfellkrebs nach Ansprechen auf eine platinhaltige Erstlinien-Chemotherapie",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Erhaltungstherapie bei platinsensiblem, wiederkehrendem hochgradigem Eierstock-, Eileiter- oder primärem Bauchfellkrebs nach Ansprechen auf eine erneute platinhaltige Chemotherapie",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Krebszellen Schäden an ihrem Erbgut reparieren. Rucaparib hemmt die Enzyme PARP-1, PARP-2 und PARP-3, die an der Reparatur von DNA-Einzelstrangbrüchen beteiligt sind, und hält PARP an der DNA fest. Tumorzellen mit Defekten der homologen Rekombination, etwa bei BRCA-Mutationen, können die entstehenden Doppelstrangbrüche nicht beheben und sterben ab.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen (Anämie, Thrombozytopenie, Neutropenie): Blutbild vor Beginn und monatlich",
+      "ids": [
+        "anaemie",
+        "thrombozytopenie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Myelodysplastisches Syndrom oder akute myeloische Leukämie können auftreten",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit: direkte Sonne meiden, Sonnenschutz verwenden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Erhöhte Leberwerte (ALT, AST): regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Übelkeit und Erbrechen: frühzeitig behandeln",
+      "ids": [
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Schwere Nieren- oder Leberfunktionsstörung: keine ausreichenden Daten",
+      "ids": [
+        "niereninsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: wirksame Verhütung erforderlich",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP1A2-Substrate mit enger therapeutischer Breite (z. B. Tizanidin, Theophyllin, Clozapin)",
+      "ref": [
+        "gruppe:cyp1a2-substrate",
+        "tizanidin",
+        "theophyllin"
+      ],
+      "effekt": "Rucaparib hemmt CYP1A2 mässig – Spiegel dieser Mittel steigen; Dosis ggf. anpassen, Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol, Warfarin)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Rucaparib hemmt CYP2C9 – stärkere Blutverdünnung möglich; INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus, Sirolimus, Fentanyl)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Rucaparib hemmt CYP3A4 schwach – Spiegel können steigen; Vorsicht, ggf. Spiegelkontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Leicht erhöhter Digoxin-Spiegel möglich – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen",
+      "Müdigkeit, Schwäche",
+      "Anämie, Thrombozytopenie, Neutropenie",
+      "Erhöhte Leberwerte (ALT, AST)",
+      "Erhöhtes Kreatinin (Nierenwert)",
+      "Geschmacksstörungen",
+      "Appetitlosigkeit",
+      "Durchfall, Verstopfung, Bauchschmerzen"
+    ],
+    "haeufig": [
+      "Lichtempfindlichkeit der Haut",
+      "Hautausschlag, Juckreiz",
+      "Atemnot",
+      "Flüssigkeitsmangel (Dehydratation)"
+    ],
+    "unbekannt": [
+      "Myelodysplastisches Syndrom / akute myeloische Leukämie (Blutkrebs)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden. Schwangerschaftstest vor Beginn; wirksame Verhütung während und bis 6 Monate nach der letzten Dosis.",
+  "stillzeit": "Kontraindiziert; während der Behandlung und bis 2 Wochen nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich im Abstand von etwa 12 Stunden einnehmen, mit oder ohne Essen.",
+    "Direkte Sonne meiden und Sonnenschutz mit hohem Schutzfaktor verwenden.",
+    "Blutbild und Leberwerte regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

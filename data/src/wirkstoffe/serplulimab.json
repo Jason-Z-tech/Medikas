@@ -1,0 +1,159 @@
+{
+  "id": "serplulimab",
+  "name": "Serplulimab",
+  "synonyme": [
+    "HLX10"
+  ],
+  "atc": [
+    "L01FF12"
+  ],
+  "klasse": "Immun-Checkpoint-Hemmer (monoklonaler Antikörper gegen PD-1)",
+  "kurz": "Immuntherapie als Infusion beim kleinzelligen Lungenkrebs im fortgeschrittenen Stadium, zusammen mit Chemotherapie.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Hetronifly"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Kleinzelliger Lungenkrebs im fortgeschrittenen Stadium (extensive disease), Erstbehandlung zusammen mit Carboplatin und Etoposid",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, damit Abwehrzellen Krebszellen wieder bekämpfen. Serplulimab ist ein humanisierter IgG4-Antikörper, der an den Rezeptor PD-1 auf T-Zellen bindet und dessen Aktivierung durch die Liganden PD-L1 und PD-L2 blockiert. Tumoren nutzen diese Liganden, um T-Zellen abzuschalten; die Blockade stellt die Immunantwort gegen den Tumor wieder her.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bestehende Autoimmunerkrankung – Verschlechterung möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "lupus",
+        "rheumatoide-arthritis",
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Lungenentzündung (Pneumonitis)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Darm-, Leber- und Nierenentzündung – Leber- und Nierenwerte regelmässig kontrollieren",
+      "ids": [
+        "durchfall",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hormondrüsen-Störungen (Schilddrüse, Nebenniere, Hirnanhangsdrüse) und Typ-1-Diabetes",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "hypophyseninsuffizienz",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Herzmuskel-, Muskel- und Nervenentzündungen",
+      "ids": [
+        "kardiomyopathie",
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Organtransplantation (Abstossungsgefahr)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden. Zur Behandlung immunvermittelter Nebenwirkungen sind sie jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immun-Checkpoint-Hemmer",
+      "ref": [
+        "gruppe:checkpoint-inhibitoren"
+      ],
+      "effekt": "Mehr und schwerere immunvermittelte Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carboplatin und Etoposid (Kombinationspartner)",
+      "ref": [
+        "carboplatin",
+        "etoposid"
+      ],
+      "effekt": "Keine pharmakokinetische Wechselwirkung; Blutbildveränderungen, Übelkeit und Haarausfall stammen meist von der Chemotherapie – Blutbild kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Leukopenie (Mangel an weissen Blutkörperchen)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Anämie (Blutarmut)",
+      "Haarausfall",
+      "Übelkeit, Erbrechen",
+      "Appetitlosigkeit"
+    ],
+    "haeufig": [
+      "Hypothyreose, Hyperthyreose (Schilddrüsenunter- und -überfunktion)",
+      "Hautausschlag",
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "Erhöhte Leberwerte",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Infusionsreaktionen",
+      "Febrile Neutropenie (Fieber bei Mangel an weissen Blutkörperchen)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Kolitis (Dickdarmentzündung)",
+      "Hepatitis (Leberentzündung)",
+      "Nebenniereninsuffizienz",
+      "Typ-1-Diabetes",
+      "Nephritis (Nierenentzündung)",
+      "Myokarditis (Herzmuskelentzündung)",
+      "Abstossung transplantierter Organe"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen: IgG-Antikörper gehen über die Plazenta, und die PD-1-Blockade kann die Toleranz gegenüber dem Ungeborenen stören; die begleitende Chemotherapie schädigt das Ungeborene. Frauen im gebärfähigen Alter verhüten während der Behandlung und mehrere Monate danach gemäss ärztlicher Anweisung.",
+  "stillzeit": "Während der Behandlung und einige Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Neue Beschwerden wie Durchfall, Husten, Atemnot, Gelbsucht, starke Müdigkeit, Kopfschmerzen oder Hautausschlag sofort melden – auch Monate nach Therapieende.",
+    "Fieber oder Infektzeichen während der Chemotherapie sofort melden.",
+    "Blutbild, Leber-, Nieren- und Schilddrüsenwerte sowie Blutzucker werden regelmässig kontrolliert.",
+    "Den Patientenausweis immer bei sich tragen."
+  ],
+  "stand": "2026-10"
+}

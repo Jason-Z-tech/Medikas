@@ -1,0 +1,198 @@
+{
+  "id": "zanubrutinib",
+  "name": "Zanubrutinib",
+  "synonyme": [
+    "Zanubrutinibum",
+    "BGB-3111"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EL03"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BTK-Hemmer, kovalent); Krebsmittel",
+  "kurz": "Krebsmittel (BTK-Hemmer) zum Einnehmen gegen bestimmte B-Zell-Lymphome und chronische lymphatische Leukämie.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "blutungsrisiko-erhoehend",
+    "myelosuppressiv",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Brukinsa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Morbus Waldenström (lymphoplasmozytisches Lymphom)",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Chronische lymphatische Leukämie (CLL)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Marginalzonen-Lymphom nach Vorbehandlung mit einem Anti-CD20-Antikörper",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Rückfälliges oder therapieresistentes follikuläres Lymphom nach mindestens zwei Vortherapien, zusammen mit Obinutuzumab",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum und Überleben bösartiger B-Lymphozyten. Zanubrutinib bindet kovalent und selektiv an die Bruton-Tyrosinkinase (BTK) und blockiert so den B-Zell-Rezeptor-Signalweg. Die Krebszellen teilen sich weniger, verlieren ihre Überlebenssignale aus Lymphknoten und Knochenmark und sterben vermehrt ab.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Blutungsneigung, Behandlung mit Blutverdünnern oder Plättchenhemmern; vor Operationen 3–7 Tage pausieren",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation",
+        "operation"
+      ]
+    },
+    {
+      "text": "Infektionen, auch Hepatitis B in der Vorgeschichte (Reaktivierung möglich) und opportunistische Infektionen",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, v. a. Vorhofflimmern, besonders bei Herzkrankheit oder Bluthochdruck",
+      "ids": [
+        "vorhofflimmern",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Mangel an Blutzellen (Neutropenie, Thrombozytopenie, Anämie); Blutbild kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Zweittumoren, v. a. weisser Hautkrebs: Sonnenschutz, Haut kontrollieren",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Schwer eingeschränkte Leberfunktion (Dosisreduktion)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Zanubrutinib-Spiegel steigt stark – Dosis deutlich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Zanubrutinib-Spiegel sinkt stark, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Zanubrutinib-Spiegel steigt – Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutverdünner und Plättchenhemmer (z. B. Phenprocoumon, DOAK, Acetylsalicylsäure, Clopidogrel)",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – enge Überwachung, Notwendigkeit prüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4- und CYP2C19-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:cyp2c19-substrate"
+      ],
+      "effekt": "Zanubrutinib induziert diese Enzyme leicht – Spiegel können sinken; Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Digoxin und andere empfindliche P-Glykoprotein-Substrate",
+      "ref": [
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel können leicht steigen – Vorsicht, ggf. Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege, Lungenentzündung, Harnwegsinfekte",
+      "Neutropenie, Thrombozytopenie, Anämie (Mangel an Blutzellen)",
+      "Blutergüsse und Blutungen",
+      "Hautausschlag",
+      "Muskel- und Gelenkschmerzen",
+      "Durchfall, Verstopfung",
+      "Husten, Müdigkeit, Schwindel",
+      "Bluthochdruck"
+    ],
+    "haeufig": [
+      "Vorhofflimmern oder -flattern",
+      "Magen-Darm-Blutungen, Blut im Urin",
+      "Weisser Hautkrebs (nicht-melanozytärer Hautkrebs) und andere Zweittumoren",
+      "Periphere Ödeme (Wassereinlagerungen)"
+    ],
+    "gelegentlich": [
+      "Hirnblutung",
+      "Reaktivierung einer Hepatitis B"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Tumorlysesyndrom",
+      "Ventrikuläre Herzrhythmusstörungen",
+      "Progressive multifokale Leukoenzephalopathie (PML, schwere Hirninfektion)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 1 Woche nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Ein- oder zweimal täglich wie verordnet einnehmen, mit oder ohne Essen; Kapseln bzw. Tabletten ganz schlucken.",
+    "Vor Operationen und Zahneingriffen die Behandlung angeben (Pause von 3–7 Tagen nach ärztlicher Anweisung).",
+    "Herzklopfen, Blutungen, Fieber oder Infektzeichen sofort ärztlich melden.",
+    "Konsequenter Sonnenschutz; regelmässige Blutbildkontrollen."
+  ],
+  "stand": "2026-10"
+}

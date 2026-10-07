@@ -1,0 +1,214 @@
+{
+  "id": "dacarbazin",
+  "name": "Dacarbazin",
+  "synonyme": [
+    "DTIC",
+    "Dacarbazinum",
+    "Imidazolcarboxamid"
+  ],
+  "atc": [
+    "L01AX04"
+  ],
+  "klasse": "Zytostatikum; Alkylans (Triazen)",
+  "kurz": "Krebsmittel als Infusion beim metastasierten Melanom, beim Hodgkin-Lymphom (ABVD-Schema) und bei Weichteilsarkomen.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "hepatotoxisch",
+    "photosensibilisierend",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Dacarbazin medac"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions- bzw. Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasiertes malignes Melanom (schwarzer Hautkrebs)",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Hodgkin-Lymphom, in Kombination (z. B. ABVD-Schema)",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene Weichteilsarkome bei Erwachsenen, in Kombination",
+      "ids": [
+        "sarkom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Krebszellen, indem es ihr Erbgut schädigt. Dacarbazin ist eine Vorstufe (Prodrug), die in der Leber vor allem über CYP1A1 und CYP1A2 zu MTIC umgewandelt wird. Daraus entsteht ein Methyldiazonium-Ion, das die DNA methyliert (v. a. am Guanin) und so die Zellteilung stört.",
+  "kontraindikationen": [
+    {
+      "text": "Leukopenie und/oder Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenerkrankung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschäden durch Verschluss der Lebervenen (teils tödlich): Leberwerte überwachen, bei Bauchschmerzen oder Gelbsucht sofort abklären",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Knochenmarkhemmung: Blutbild vor jeder Gabe",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Austritt neben die Vene (Paravasat): starke Schmerzen und Gewebeschäden",
+      "ids": []
+    },
+    {
+      "text": "Lichtempfindlichkeit der Haut",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Krebserzeugendes Potenzial (Zweitkrebs)",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Unfruchtbarkeit",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfung",
+      "ref": [
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Unter der geschwächten Abwehr Gefahr einer schweren, möglicherweise tödlichen Impfvirus-Erkrankung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Fotemustin",
+      "ref": [
+        "fotemustin"
+      ],
+      "effekt": "Bei gleichzeitiger Gabe von hoch dosiertem Dacarbazin schwere Lungenschäden (akutes Atemnotsyndrom) beschrieben – nicht gleichzeitig geben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während der Behandlung nicht anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Knochenmark-hemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin und Phenobarbital",
+      "ref": [
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Phenytoin-Aufnahme kann vermindert sein (Krampfgefahr); Enzyminduktion kann die Umwandlung von Dacarbazin und damit die Toxizität verändern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Schwankende Gerinnungswerte – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Übermässige Immunsuppression mit Risiko für Lymphwucherungen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Knochenmarkhemmung: Anämie, Leukopenie, Thrombozytopenie",
+      "Appetitlosigkeit, Übelkeit, Erbrechen"
+    ],
+    "gelegentlich": [
+      "Infektionen",
+      "Grippeähnliche Beschwerden (Fieber, Muskelschmerzen, Unwohlsein)",
+      "Haarausfall, Dunkelfärbung der Haut",
+      "Lichtempfindlichkeit der Haut"
+    ],
+    "selten": [
+      "Lebervenenverschluss mit Lebernekrose (teils tödlich), erhöhte Leberwerte",
+      "Panzytopenie, Agranulozytose",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Nierenfunktionsstörungen",
+      "Durchfall",
+      "Kopfschmerzen, Sehstörungen, Verwirrtheit, Krampfanfälle",
+      "Gesichtsrötung und Kribbeln im Gesicht",
+      "Hautrötung, Nesselsucht, Reizung an der Injektionsstelle"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen und Männer müssen während und bis 6 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Infusion vor Licht geschützt; Austreten neben die Vene vermeiden.",
+    "Haut vor Sonne schützen (erhöhte Lichtempfindlichkeit).",
+    "Bei Bauchschmerzen, Gelbfärbung der Haut oder Fieber sofort ärztliche Hilfe holen.",
+    "Gegen Übelkeit werden vorbeugend Mittel gegen Erbrechen gegeben."
+  ],
+  "stand": "2026-10"
+}

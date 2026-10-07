@@ -1,0 +1,207 @@
+{
+  "id": "pethidin",
+  "name": "Pethidin",
+  "synonyme": [
+    "Meperidin",
+    "Pethidine",
+    "Meperidine",
+    "Pethidinhydrochlorid"
+  ],
+  "atc": [
+    "N02AB02"
+  ],
+  "klasse": "Opioid-Analgetikum (Phenylpiperidin-Derivat)",
+  "kurz": "Starkes Schmerzmittel aus der Gruppe der Opioide, als Spritze bei mittelstarken bis starken Schmerzen; nur für kurze Anwendung.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "serotonerg",
+    "krampfschwellensenkend",
+    "anticholinerg"
+  ],
+  "handelsnamen": [
+    "Pethidin Streuli"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelstarke bis starke Schmerzen",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert starke Schmerzen, indem es die Schmerzweiterleitung und -wahrnehmung im Nervensystem dämpft. Pethidin ist ein Agonist am µ-Opioidrezeptor und etwa zehnmal schwächer und kürzer wirksam als Morphin. Zusätzlich hat es anticholinerge und schwach lokalanästhetische Eigenschaften und hemmt die Wiederaufnahme von Serotonin. In der Leber entsteht das langlebige Abbauprodukt Norpethidin, das sich vor allem bei eingeschränkter Nierenfunktion anreichert und Unruhe, Zittern und Krampfanfälle auslösen kann.",
+  "kontraindikationen": [
+    {
+      "text": "Atemdepression oder schwere Atemwegserkrankungen (z. B. schwere COPD, akuter Asthmaanfall)",
+      "ids": [
+        "schlafapnoe",
+        "copd",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlafmitteln oder anderen zentral dämpfenden Stoffen",
+      "ids": [
+        "vergiftung",
+        "alkoholkonsum"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Norpethidin reichert sich an und kann Krampfanfälle auslösen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Epilepsie oder erhöhte Krampfneigung",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Kopfverletzungen und erhöhter Hirndruck",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Kinder (empfindlicher für Atemdepression)",
+      "ids": [
+        "aeltere-patienten",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Sucht in der Vorgeschichte (Missbrauchs- und Abhängigkeitspotenzial)",
+      "ids": [
+        "abhaengigkeit",
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Schilddrüsenunterfunktion, Nebenniereninsuffizienz",
+      "ids": [
+        "hypotonie",
+        "hypothyreose",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Gallenwegserkrankungen, Pankreatitis, Prostatavergrösserung mit Restharn",
+      "ids": [
+        "gallensteine",
+        "pankreatitis",
+        "prostatahyperplasie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch MAO-B-Hemmer wie Selegilin, Rasagilin, Safinamid sowie Linezolid) gleichzeitig oder innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:mao-b-hemmer",
+        "linezolid"
+      ],
+      "grund": "Gefahr schwerer, teils tödlicher Reaktionen mit Serotoninsyndrom (Erregung, Fieber, Muskelstarre) oder Atem- und Kreislaufdepression."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide und andere zentral dämpfende Mittel, Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Stark verstärkte Dämpfung und Atemdepression bis zum Tod – nur wenn unumgänglich, in niedrigster Dosis und mit Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ritonavir und mit Ritonavir verstärkte HIV-Mittel",
+      "ref": [
+        "ritonavir"
+      ],
+      "effekt": "Mehr giftiges Norpethidin (Krampfgefahr) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere serotonerge Mittel (SSRI, SNRI, Trizyklika, Triptane, Tramadol)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:triptane"
+      ],
+      "effekt": "Risiko eines Serotoninsyndroms (Unruhe, Zittern, Fieber, Durchfall) – auf Symptome achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Phenytoin, Carbamazepin, Phenobarbital, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Mehr Abbau zu Norpethidin – kürzere Wirkung, aber höhere Krampfgefahr.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Partialagonisten und gemischte Agonisten-Antagonisten (z. B. Buprenorphin, Nalbuphin)",
+      "ref": [
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Abgeschwächte Schmerzlinderung, bei Gewöhnung Entzugssymptome möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Verstopfung, Harnverhalt, Mundtrockenheit und Verwirrtheit.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Übelkeit, Erbrechen",
+      "Schwindel, Benommenheit, Müdigkeit",
+      "Schwitzen, Mundtrockenheit, Hautrötung",
+      "Obstipation (Verstopfung), Harnverhalt",
+      "Atemdepression (abgeflachte Atmung)",
+      "Blutdruckabfall, Herzrasen",
+      "Unruhe, Zittern, Krampfanfälle (durch Norpethidin)",
+      "Abhängigkeit und Entzugssymptome bei wiederholter Anwendung"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Gabe kurz vor oder während der Geburt kann beim Neugeborenen eine Atemdepression auftreten; längere Anwendung kann beim Neugeborenen Entzugssymptome auslösen.",
+  "stillzeit": "Pethidin und Norpethidin gehen in die Muttermilch über und können sich beim Säugling anreichern (Schläfrigkeit, Trinkschwäche) – wiederholte Gaben in der Stillzeit vermeiden; Vorgehen ärztlich besprechen.",
+  "hinweise": [
+    "Kein Alkohol und keine anderen Beruhigungs- oder Schlafmittel ohne ärztliche Rücksprache (Gefahr einer Atemlähmung).",
+    "Nach der Anwendung nicht Auto fahren und keine Maschinen bedienen.",
+    "Wegen der Anreicherung von Norpethidin nur kurzzeitig und nicht zur Dauerbehandlung einsetzen.",
+    "Untersteht dem Betäubungsmittelgesetz."
+  ],
+  "stand": "2026-10"
+}

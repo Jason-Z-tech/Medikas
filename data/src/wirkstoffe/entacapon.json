@@ -1,0 +1,198 @@
+{
+  "id": "entacapon",
+  "name": "Entacapon",
+  "synonyme": [
+    "Entacapone"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N04BX02"
+  ],
+  "klasse": "COMT-Hemmer (Parkinsonmittel)",
+  "kurz": "Parkinsonmittel, das zusammen mit jeder Levodopa-Dosis eingenommen wird und deren Wirkung verlängert.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Comtan",
+    "Stalevo (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Krankheit: Zusatzbehandlung zu Levodopa (mit Benserazid oder Carbidopa) bei Wirkungsschwankungen gegen Ende des Dosisintervalls («End-of-dose»-Fluktuationen)",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlängert und verstärkt die Wirkung von Levodopa, indem es dessen Abbau im Körper bremst. Entacapon hemmt reversibel und vorwiegend ausserhalb des Gehirns die Catechol-O-Methyltransferase (COMT), die Levodopa zu 3-O-Methyldopa abbaut. Dadurch bleibt der Levodopa-Spiegel im Blut länger erhalten, und mehr Levodopa gelangt ins Gehirn, wo es zu Dopamin umgewandelt wird. Allein eingenommen wirkt Entacapon nicht gegen Parkinson.",
+  "kontraindikationen": [
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Phäochromozytom (hormonbildender Tumor des Nebennierenmarks)",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Malignes neuroleptisches Syndrom oder nicht unfallbedingte Rhabdomyolyse (Muskelzerfall) in der Vorgeschichte",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Zunahme von Überbewegungen (Dyskinesien) zu Beginn – die Levodopa-Dosis muss oft gesenkt werden",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie) durch Levodopa kann verstärkt werden",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schläfrigkeit und plötzliches Einschlafen im Alltag (unter Levodopa)",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Anhaltender Durchfall, Appetitverlust oder rascher Gewichtsverlust: ärztlich abklären (Kolitis, Leberwerte)",
+      "ids": [
+        "durchfall"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen wie Spielsucht, Kaufsucht oder gesteigertes sexuelles Verlangen unter dopaminerger Behandlung",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Abruptes Absetzen oder rasche Dosissenkung (Gefahr eines malignen neuroleptischen Syndroms)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nicht selektive MAO-Hemmer (z. B. Tranylcypromin) sowie die gleichzeitige Gabe eines MAO-A-Hemmers (z. B. Moclobemid) zusammen mit einem MAO-B-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Der Abbau von Katecholaminen (Dopamin, Noradrenalin, Adrenalin) wird gleichzeitig über zwei Wege blockiert – Gefahr gefährlicher Blutdruck- und Herzreaktionen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Levodopa (mit Carbidopa oder Benserazid)",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid"
+      ],
+      "effekt": "Gewollte Wirkungsverstärkung; in den ersten Tagen nehmen Überbewegungen und Übelkeit oft zu – die Levodopa-Dosis muss häufig um 10–30 % gesenkt werden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die über COMT abgebaut werden (z. B. Adrenalin, Noradrenalin, Dopamin, Dobutamin, Apomorphin, Methyldopa)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "dopamin",
+        "dobutamin",
+        "apomorphin",
+        "methyldopa"
+      ],
+      "effekt": "Deren Wirkung kann verstärkt werden (Herzrasen, Blutdruckanstieg, Rhythmusstörungen) – vorsichtig dosieren und überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-B-Hemmer (z. B. Selegilin, Rasagilin)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Kombination zur Parkinsonbehandlung möglich; Selegilin dabei nicht über 10 mg pro Tag.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Noradrenalin-Wiederaufnahmehemmer (z. B. Maprotilin, Venlafaxin)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "maprotilin",
+        "venlafaxin"
+      ],
+      "effekt": "Wenig Erfahrung; Katecholaminwirkungen können verstärkt werden – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die Gerinnungshemmung kann leicht zunehmen (INR steigt) – INR zu Beginn kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Eisenpräparate",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Entacapon bindet Eisen im Darm, beide werden schlechter aufgenommen – mindestens 2–3 Stunden Abstand einhalten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Dyskinesien (unwillkürliche Überbewegungen)",
+      "Übelkeit",
+      "Rotbraune Verfärbung des Urins (harmlos)"
+    ],
+    "haeufig": [
+      "Schlaflosigkeit, Albträume",
+      "Halluzinationen, Verwirrtheit",
+      "Verstärkte Parkinson-Symptome, Dystonie (Muskelverkrampfungen), Schwindel",
+      "Durchfall, Bauchschmerzen, Verstopfung, Erbrechen, Mundtrockenheit",
+      "Angina-pectoris-Beschwerden (Durchblutungsstörung des Herzens)",
+      "Müdigkeit, vermehrtes Schwitzen, Stürze"
+    ],
+    "gelegentlich": [
+      "Herzinfarkt"
+    ],
+    "selten": [
+      "Hautausschlag",
+      "Veränderte Leberwerte"
+    ],
+    "sehrSelten": [
+      "Unruhe (Agitiertheit)",
+      "Appetitlosigkeit, Gewichtsverlust",
+      "Nesselsucht (Urtikaria)"
+    ],
+    "unbekannt": [
+      "Kolitis (Dickdarmentzündung) mit anhaltendem Durchfall",
+      "Hepatitis (Leberentzündung), vorwiegend mit Gallenstau",
+      "Verfärbung von Haut, Haaren, Bart und Nägeln",
+      "Impulskontrollstörungen (z. B. Spielsucht, Kaufsucht)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; während der Schwangerschaft nur anwenden, wenn der Nutzen das mögliche Risiko klar überwiegt.",
+  "stillzeit": "Ging im Tierversuch in die Milch über; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Immer gleichzeitig mit jeder Levodopa-Dosis einnehmen, mit oder ohne Essen.",
+    "Der Urin kann sich rotbraun verfärben – das ist harmlos.",
+    "Nicht abrupt absetzen; beim Absetzen muss die Levodopa-Dosis meist ärztlich angepasst werden.",
+    "Plötzliches Einschlafen ist möglich – in diesem Fall nicht Auto fahren."
+  ],
+  "stand": "2026-10"
+}

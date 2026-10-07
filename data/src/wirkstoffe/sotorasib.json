@@ -1,0 +1,159 @@
+{
+  "id": "sotorasib",
+  "name": "Sotorasib",
+  "synonyme": [
+    "AMG 510"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01XX73"
+  ],
+  "klasse": "KRAS-G12C-Hemmer (zielgerichtete Krebstherapie)",
+  "kurz": "Tabletten gegen fortgeschrittenen nicht-kleinzelligen Lungenkrebs mit der Genveränderung KRAS G12C.",
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "p-gp-hemmer",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Lumykras"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittenes nicht-kleinzelliges Lungenkarzinom mit KRAS-G12C-Mutation nach mindestens einer vorherigen systemischen Therapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt ein verändertes Wachstumssignal-Eiweiss in Tumorzellen. Sotorasib bindet kovalent und irreversibel an das Cystein der mutierten KRAS-G12C-Variante und hält das Protein in seinem inaktiven, GDP-gebundenen Zustand fest. Dadurch wird die nachgeschaltete Signalübertragung (u. a. über den MAPK-Weg) unterbrochen, die Zellteilung gehemmt und der Zelltod der Tumorzellen gefördert. Nicht mutiertes KRAS wird kaum beeinflusst.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Leberschädigung (Hepatotoxizität): Leberwerte vor und während der Behandlung kontrollieren, besonders nach kürzlicher Immuntherapie mit Checkpoint-Inhibitoren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung/Pneumonitis: bei neuem Husten oder Atemnot abklären",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung (kaum Erfahrungen)",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung; hormonale Verhütung kann abgeschwächt sein",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker)",
+      "ref": [
+        "gruppe:magensaeure-reduzierend",
+        "gruppe:protonenpumpenhemmer",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Aufnahme von Sotorasib stark vermindert, Wirkung unsicher – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Sotorasib-Spiegel sinkt – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Tacrolimus, Ciclosporin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Sotorasib induziert CYP3A4 – Spiegel und Wirkung dieser Mittel sinken; meiden oder Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-gp-Substrate (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Sotorasib hemmt P-gp – Spiegel steigen; meiden oder Spiegel bzw. Wirkung eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Aufnahme vermindert – Sotorasib 4 Stunden vor oder 10 Stunden nach dem Antazidum einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz kann vermindert sein – zusätzlich nichthormonale Methode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rosuvastatin und andere BCRP-Substrate",
+      "ref": [
+        "rosuvastatin"
+      ],
+      "effekt": "Spiegel können steigen – auf Muskelbeschwerden achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung",
+      "Erhöhte Leberwerte (ALT, AST)",
+      "Müdigkeit, Fieber",
+      "Gelenk- und Rückenschmerzen",
+      "Husten, Atemnot",
+      "Anämie (Blutarmut)"
+    ],
+    "haeufig": [
+      "Erhöhte alkalische Phosphatase und Bilirubin"
+    ],
+    "gelegentlich": [
+      "Interstitielle Lungenerkrankung/Pneumonitis (nicht infektiöse Lungenentzündung)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Arzneimittelbedingte Leberschädigung (Hepatitis)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen (keine Erfahrungen). Frauen im gebärfähigen Alter sollen zuverlässig verhüten; hormonale Verhütung kann unzureichend wirken.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit einnehmen, mit oder ohne Essen; Tabletten ganz schlucken.",
+    "Säureblocker (PPI, H2-Blocker) meiden; Antazida nur mit zeitlichem Abstand.",
+    "Leberwerte werden regelmässig kontrolliert; neuen Husten oder Atemnot sofort melden."
+  ],
+  "stand": "2026-10"
+}

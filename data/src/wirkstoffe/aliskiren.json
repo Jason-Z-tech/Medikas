@@ -1,0 +1,228 @@
+{
+  "id": "aliskiren",
+  "name": "Aliskiren",
+  "synonyme": [
+    "Aliskirenhemifumarat",
+    "Aliskiren hemifumarate"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C09XA02"
+  ],
+  "klasse": "Direkter Renin-Hemmer",
+  "kurz": "Blutdrucksenker, der das Enzym Renin direkt hemmt und so das Renin-Angiotensin-System bremst.",
+  "gruppen": [
+    "raas-hemmer",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend",
+    "teratogen",
+    "p-gp-substrate-eng"
+  ],
+  "handelsnamen": [
+    "Rasilez"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Essenzielle Hypertonie (Bluthochdruck) bei Erwachsenen",
+      "ids": [
+        "hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es das Renin-Angiotensin-System an seinem Anfang blockiert. Aliskiren hemmt direkt das Enzym Renin, das Angiotensinogen in Angiotensin I umwandelt; dadurch sinken Angiotensin I und II sowie Aldosteron. Die Gefässe erweitern sich und die Salz- und Wasserausscheidung nimmt zu. Aliskiren wird kaum verstoffwechselt, seine Aufnahme hängt aber stark vom Transporter P-Glykoprotein ab.",
+  "kontraindikationen": [
+    {
+      "text": "Angioödem unter Aliskiren in der Vorgeschichte sowie erbliches oder idiopathisches Angioödem",
+      "ids": [
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Zweites und drittes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Kinder unter 2 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzinsuffizienz, frischer Herzinfarkt oder schwere Herzkrankheit: Gefahr von Blutdruckabfall und Nierenfunktionsverschlechterung",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion oder Nierenarterienstenose: Kreatinin und Kalium kontrollieren; bei schwerer Niereninsuffizienz nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz",
+        "nierenarterienstenose"
+      ]
+    },
+    {
+      "text": "Salz- oder Flüssigkeitsmangel (z. B. unter hoch dosierten Diuretika): starker Blutdruckabfall zu Beginn",
+      "ids": [
+        "dehydratation",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Hyperkaliämie-Risiko, besonders bei Diabetes",
+      "ids": [
+        "hyperkaliaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Angioödem in der Vorgeschichte (auch unter ACE-Hemmern oder Sartanen)",
+      "ids": [
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche zwischen 2 und 18 Jahren: nicht empfohlen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ciclosporin, Itraconazol und andere starke P-Glykoprotein-Hemmer (z. B. Chinidin)",
+      "ref": [
+        "ciclosporin",
+        "itraconazol"
+      ],
+      "grund": "Die Hemmung von P-Glykoprotein erhöht die Aliskiren-Spiegel um ein Mehrfaches – Gefahr von Hypotonie, Hyperkaliämie und Nierenschäden."
+    },
+    {
+      "text": "ACE-Hemmer oder Sartane bei Diabetes oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:sartane"
+      ],
+      "grund": "Die doppelte Hemmung des Renin-Angiotensin-Systems erhöht das Risiko für Hypotonie, Hyperkaliämie, Nierenversagen und Schlaganfall."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "ACE-Hemmer und Sartane (auch ohne Diabetes oder Niereninsuffizienz)",
+      "ref": [
+        "gruppe:ace-hemmer",
+        "gruppe:sartane"
+      ],
+      "effekt": "Doppelte RAAS-Hemmung nicht empfohlen – mehr Hypotonie, Hyperkaliämie und Nierenversagen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige P-Glykoprotein-Hemmer (z. B. Verapamil, Ketoconazol, Clarithromycin, Amiodaron)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Aliskiren-Spiegel steigen – Vorsicht, Blutdruck und Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsparende Diuretika, Kaliumpräparate, kaliumhaltige Salzersatzmittel, Heparin und andere kaliumerhöhende Mittel",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten",
+        "gruppe:kaliumpraeparate",
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Gefahr einer Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR inkl. COX-2-Hemmer und ASS in entzündungshemmender Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung und Risiko einer Nierenfunktionsverschlechterung, besonders bei älteren oder ausgetrockneten Personen – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Furosemid und Torasemid",
+      "ref": [
+        "furosemid",
+        "torasemid"
+      ],
+      "effekt": "Aliskiren kann die Spiegel und die harntreibende Wirkung dieser Diuretika vermindern – Wirkung überwachen, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Induktoren (z. B. Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:p-gp-induktoren"
+      ],
+      "effekt": "Aliskiren-Spiegel können sinken – Wirkverlust möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruitsaft und andere Fruchtsäfte (z. B. Apfel- und Orangensaft)",
+      "ref": [],
+      "effekt": "Vermindern die Aufnahme von Aliskiren deutlich – nicht zusammen einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Atorvastatin",
+      "ref": [
+        "atorvastatin"
+      ],
+      "effekt": "Erhöht die Aliskiren-Spiegel um etwa die Hälfte – meist ohne Dosisanpassung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schwindel",
+      "Durchfall",
+      "Arthralgie (Gelenkschmerzen)",
+      "Hyperkaliämie (erhöhtes Kalium)"
+    ],
+    "gelegentlich": [
+      "Hypotonie (tiefer Blutdruck), Herzklopfen",
+      "Husten",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse) und Mundschleimhautreaktionen",
+      "Periphere Ödeme (Schwellungen)",
+      "Akutes Nierenversagen, Nierenfunktionsstörung",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Anaphylaxie und andere Überempfindlichkeitsreaktionen",
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen)",
+      "Anstieg des Kreatinins",
+      "Abfall von Hämoglobin und Hämatokrit"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Übelkeit, Erbrechen",
+      "Leberfunktionsstörungen",
+      "Hyponatriämie (Natriummangel)",
+      "Atemnot, Drehschwindel"
+    ]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen, im 2. und 3. Drittel kontraindiziert (Schädigung des Kindes wie bei anderen RAAS-Hemmern). Bei Kinderwunsch oder Schwangerschaft auf ein anderes Mittel umstellen.",
+  "stillzeit": "Im Tierversuch Übergang in die Milch, beim Menschen unbekannt; nicht empfohlen.",
+  "hinweise": [
+    "Einmal täglich mit einer leichten Mahlzeit, jeden Tag etwa zur gleichen Zeit einnehmen; nicht zusammen mit Grapefruit- oder anderen Fruchtsäften.",
+    "Kalium und Nierenwerte regelmässig kontrollieren; kaliumhaltige Salzersatzmittel meiden.",
+    "Bei anhaltendem, starkem Durchfall die Ärztin oder den Arzt kontaktieren."
+  ],
+  "stand": "2026-10"
+}

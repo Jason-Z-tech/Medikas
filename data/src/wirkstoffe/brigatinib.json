@@ -1,0 +1,201 @@
+{
+  "id": "brigatinib",
+  "name": "Brigatinib",
+  "synonyme": [
+    "AP26113"
+  ],
+  "atc": [
+    "L01ED04"
+  ],
+  "klasse": "Proteinkinase-Hemmer (ALK-Hemmer der 2. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei fortgeschrittenem Lungenkrebs mit ALK-Veränderung.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "enzyminduktoren-hormone",
+    "blutdrucksteigernd",
+    "bradykardisierend",
+    "hyperglykaemie-ausloesend",
+    "photosensibilisierend",
+    "myotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Alunbrig"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs bei Erwachsenen ohne vorherige ALK-Hemmer-Behandlung",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs nach Vorbehandlung mit Crizotinib",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das veränderte Wachstumssignal-Enzym ALK in Lungenkrebszellen. Brigatinib ist ein ALK-Hemmer der zweiten Generation, der auch ROS1 hemmt und gegen viele ALK-Resistenzmutationen wirksam ist. Es gelangt ins Gehirn und wirkt auch gegen Hirnmetastasen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Lungenreaktionen (Pneumonitis) vor allem in der ersten Behandlungswoche – deshalb Beginn mit niedrigerer Dosis",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (Bradykardie)",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Sehstörungen",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Erhöhte CK (Muskelenzym), Muskelschmerzen",
+      "ids": [
+        "muskelerkrankung",
+        "muskelschmerzen"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte (Lipase und Amylase kontrollieren)",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann steigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit – Sonne meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Brigatinib-Spiegel steigt etwa 2-fach – vermeiden; falls unumgänglich, Dosis etwa halbieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Brigatinib-Spiegel sinkt stark (mit Rifampicin um etwa 80 %) – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Brigatinib-Spiegel steigt – vermeiden oder Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Wirkung kann abnehmen – nichthormonale Verhütung verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Brigatinib kann CYP3A4 induzieren – Wirkung dieser Mittel kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Transporter-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran, Colchicin, Methotrexat, Rosuvastatin, Metformin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "colchicin",
+        "methotrexat",
+        "rosuvastatin",
+        "metformin"
+      ],
+      "effekt": "Brigatinib kann deren Spiegel erhöhen – überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschlag-verlangsamende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Ausgeprägte Bradykardie möglich – Puls kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhte Werte von Leberenzymen, CK (Muskelenzym), Lipase und Amylase",
+      "Erhöhter Blutzucker, Elektrolytstörungen",
+      "Blutarmut",
+      "Kopfschmerzen, periphere Neuropathie (Nervenstörungen), Schwindel",
+      "Bluthochdruck",
+      "Husten, Atemnot",
+      "Übelkeit, Durchfall, Erbrechen, Bauchschmerzen, Verstopfung",
+      "Hautausschlag, Juckreiz, Muskel- und Gelenkschmerzen, Müdigkeit, Ödeme"
+    ],
+    "haeufig": [
+      "Pneumonitis (Lungenentzündung ohne Erreger), besonders in der ersten Behandlungswoche",
+      "Langsamer Puls (Bradykardie), QT-Verlängerung im EKG",
+      "Sehstörungen",
+      "Lichtempfindlichkeit (Photosensibilität)",
+      "Schlaflosigkeit, Gedächtnisstörung, Geschmacksstörung"
+    ],
+    "gelegentlich": [
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig. Frauen im gebärfähigen Alter müssen während und mindestens 4 Monate nach der Behandlung zuverlässig nichthormonal verhüten, Männer mit Partnerin im gebärfähigen Alter während und mindestens 3 Monate danach.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich unabhängig von den Mahlzeiten; in der ersten Woche wird eine niedrigere Dosis eingenommen.",
+    "Neue oder zunehmende Atemnot oder Husten – besonders in der ersten Woche – sofort ärztlich melden.",
+    "Blutdruck, Puls, Blutzucker, CK sowie Leber- und Pankreaswerte regelmässig kontrollieren; Sonnenschutz verwenden.",
+    "Keine Grapefruit und kein Johanniskraut."
+  ],
+  "stand": "2026-10"
+}

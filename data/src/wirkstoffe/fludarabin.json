@@ -1,0 +1,200 @@
+{
+  "id": "fludarabin",
+  "name": "Fludarabin",
+  "synonyme": [
+    "Fludarabinphosphat",
+    "Fludarabine",
+    "2-Fluoro-ara-A"
+  ],
+  "atc": [
+    "L01BB05"
+  ],
+  "klasse": "Antimetabolit (Purinanalogon); Zytostatikum",
+  "kurz": "Krebsmittel (Purinanalogon) zur Behandlung der chronischen lymphatischen Leukämie vom B-Zell-Typ; wirkt stark auf Lymphozyten.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "neuropathie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Fludara"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektions- bzw. Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische lymphatische Leukämie vom B-Zell-Typ (B-CLL) bei ausreichender Knochenmarkreserve, als Erst- oder Folgetherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Krebszellen und tötet besonders Lymphozyten ab. Fludarabinphosphat ist eine Vorstufe (Prodrug), die im Blut zu 2-Fluoro-ara-A umgewandelt und in der Zelle zum wirksamen Triphosphat (2-Fluoro-ara-ATP) aktiviert wird. Dieses hemmt Ribonukleotid-Reduktase, DNA-Polymerasen, DNA-Primase und DNA-Ligase und damit die DNA-Synthese; zusätzlich wird die RNA-Synthese gestört. So werden auch ruhende Leukämiezellen in den programmierten Zelltod (Apoptose) getrieben.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Niereninsuffizienz (Kreatinin-Clearance unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Dekompensierte hämolytische Anämie (Blutarmut durch Blutzerfall)",
+      "ids": [
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Autoimmune Blutzerfallsreaktionen (autoimmunhämolytische Anämie), auch nach Therapieende möglich und teils lebensbedrohlich",
+      "ids": [
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Mässig eingeschränkte Nierenfunktion (Dosisreduktion) und ältere Menschen",
+      "ids": [
+        "niereninsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schwere und opportunistische Infektionen, Reaktivierung von Herpes- oder Hepatitis-B-Viren",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Nervensystem: bei hohen Dosen schwere Schäden (Erblindung, Koma) bis zum Tod; auch bei üblicher Dosis auf neurologische Symptome achten",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Grosse Tumorlast (Tumorlysesyndrom möglich)",
+      "ids": []
+    },
+    {
+      "text": "Bluttransfusionen: nur bestrahlte Blutprodukte (Gefahr einer tödlichen transfusionsbedingten Graft-versus-Host-Reaktion)",
+      "ids": []
+    },
+    {
+      "text": "Hautkrebs in der Vorgeschichte (Verschlechterung oder Neuauftreten beschrieben)",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Pentostatin",
+      "ref": [],
+      "effekt": "Kombination mit hohem Risiko tödlicher Lungenschäden – nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während und nach der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende oder immunsuppressive Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung und Infektanfälligkeit – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dipyridamol und andere Hemmer der Adenosin-Aufnahme",
+      "ref": [
+        "dipyridamol"
+      ],
+      "effekt": "Können die Wirksamkeit von Fludarabin abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cytarabin",
+      "ref": [
+        "cytarabin"
+      ],
+      "effekt": "Fludarabin erhöht die Bildung der wirksamen Form von Cytarabin in Leukämiezellen – stärkere Wirkung und Toxizität (bei manchen Schemata gezielt genutzt).",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen, inkl. opportunistischer Infektionen und Lungenentzündung",
+      "Neutropenie, Thrombozytopenie, Anämie (Mangel an Blutzellen)",
+      "Husten",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Fieber, Müdigkeit, Schwäche"
+    ],
+    "haeufig": [
+      "Myelodysplastisches Syndrom und akute myeloische Leukämie (v. a. nach Vorbehandlung mit alkylierenden Mitteln)",
+      "Appetitlosigkeit",
+      "Periphere Neuropathie (Kribbeln, Taubheitsgefühl)",
+      "Sehstörungen",
+      "Mundschleimhautentzündung",
+      "Hautausschlag",
+      "Ödeme (Wassereinlagerungen), Schüttelfrost, Unwohlsein"
+    ],
+    "gelegentlich": [
+      "Autoimmunerkrankungen wie autoimmunhämolytische Anämie, Immunthrombozytopenie, Pemphigus",
+      "Tumorlysesyndrom",
+      "Verwirrtheit",
+      "Lungentoxizität (Lungenfibrose, Pneumonitis, Atemnot)",
+      "Magen-Darm-Blutungen",
+      "Veränderte Leber- und Pankreasenzyme"
+    ],
+    "selten": [
+      "Koma, Krampfanfälle, Unruhe",
+      "Erblindung, Sehnerventzündung",
+      "Herzinsuffizienz, Herzrhythmusstörungen",
+      "Hautkrebs",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Epstein-Barr-Virus-assoziierte lymphoproliferative Erkrankungen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Progressive multifokale Leukoenzephalopathie (PML, schwere Hirninfektion)",
+      "Leukoenzephalopathie (Schädigung der weissen Hirnsubstanz)",
+      "Hämorrhagische Zystitis (blutige Blasenentzündung)",
+      "Hirnblutung, Lungenblutung"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit anwenden, da Fludarabin im Tierversuch fruchtschädigend wirkt. Frauen und Männer müssen während der Behandlung und mindestens 6 Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Blutbild regelmässig kontrollieren; Fieber, Infektzeichen, dunkler Urin oder Gelbfärbung der Haut sofort melden.",
+    "Vor Bluttransfusionen das Behandlungsteam informieren: nur bestrahlte Blutprodukte verwenden.",
+    "Müdigkeit, Schwäche und Sehstörungen können die Fahrtüchtigkeit beeinträchtigen.",
+    "Keine Lebendimpfungen während und nach der Behandlung."
+  ],
+  "stand": "2026-10"
+}

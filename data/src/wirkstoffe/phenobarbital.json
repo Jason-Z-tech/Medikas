@@ -1,0 +1,305 @@
+{
+  "id": "phenobarbital",
+  "name": "Phenobarbital",
+  "synonyme": [
+    "Phenobarbitone",
+    "Phenylethylbarbitursäure",
+    "Phenobarbital-Natrium"
+  ],
+  "atc": [
+    "N03AA02"
+  ],
+  "klasse": "Antiepileptikum (Barbiturat)",
+  "kurz": "Älteres Mittel gegen Epilepsie aus der Gruppe der Barbiturate; wirkt beruhigend und hat sehr viele Wechselwirkungen.",
+  "gruppen": [
+    "barbiturate",
+    "antiepileptika",
+    "zns-daempfend",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "p-gp-induktoren",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Aphenylbarbit"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Epilepsie: generalisierte tonisch-klonische Anfälle (Grand mal), Impulsiv-Petit-mal sowie Grand-mal-Schutz bei kindlichen Absencen",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Status epilepticus (Injektionslösung)",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die Erregbarkeit der Nervenzellen und verhindert so die Ausbreitung von Krampfanfällen. Phenobarbital verstärkt die hemmende Wirkung des Botenstoffs GABA am GABA-A-Rezeptor, indem es die Öffnungsdauer der Chloridkanäle verlängert; in höheren Konzentrationen öffnet es die Kanäle auch direkt und hemmt erregende Glutamat-Wirkungen. Wegen der sehr langen Halbwertszeit (etwa 3–4 Tage) stellt sich ein gleichmässiger Spiegel erst nach 2–3 Wochen ein. Es ist ein starker Induktor zahlreicher Leberenzyme (u. a. CYP3A4, CYP2C9, CYP1A2) und von P-Glykoprotein und beschleunigt den Abbau vieler Arzneimittel.",
+  "kontraindikationen": [
+    {
+      "text": "Akute hepatische Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzmuskelschäden",
+      "ids": [
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Akute Vergiftung mit Alkohol, Schlaf- oder Schmerzmitteln, Anregungsmitteln oder Psychopharmaka",
+      "ids": [
+        "vergiftung",
+        "alkoholkonsum"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Atemwegserkrankungen, Schlafapnoe (Atemdämpfung)",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leber- oder Nierenfunktionsstörung, ältere Menschen",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken (unter Antiepileptika vermehrt beschrieben)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Sucht in der Vorgeschichte; Abhängigkeitspotenzial",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: fruchtschädigend, hormonale Verhütung unzuverlässig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen in der Vorgeschichte",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Kinder: paradoxe Erregung, Verhaltens- und Lernstörungen möglich",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Knochenschwund und Vitamin-D-Mangel",
+      "ids": [
+        "osteoporose",
+        "vitamin-d-mangel"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Voriconazol",
+      "ref": [
+        "voriconazol"
+      ],
+      "grund": "Phenobarbital senkt den Voriconazol-Spiegel durch Enzyminduktion so stark, dass die Pilzbehandlung versagen kann."
+    },
+    {
+      "text": "Rilpivirin (auch in Kombinationspräparaten)",
+      "ref": [
+        "rilpivirin",
+        "dolutegravir-rilpivirin",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil"
+      ],
+      "grund": "Starke Senkung des Rilpivirin-Spiegels – Verlust der HIV-Wirkung und Resistenzentwicklung."
+    },
+    {
+      "text": "Doravirin (auch in Kombinationspräparaten)",
+      "ref": [
+        "doravirin",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "grund": "Starke Senkung des Doravirin-Spiegels – Verlust der HIV-Wirkung und Resistenzentwicklung."
+    },
+    {
+      "text": "Sofosbuvir/Velpatasvir (mit oder ohne Voxilaprevir)",
+      "ref": [
+        "sofosbuvir-velpatasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "grund": "Induktion von P-Glykoprotein und CYP-Enzymen senkt die Spiegel – Hepatitis-C-Behandlung kann versagen."
+    },
+    {
+      "text": "Lurasidon",
+      "ref": [
+        "lurasidon"
+      ],
+      "grund": "Starke CYP3A4-Induktion senkt den Lurasidon-Spiegel – Wirkverlust des Antipsychotikums."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz unsicher – nichthormonal verhüten (z. B. Kupferspirale), auch bis 4 Wochen nach Absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Abgeschwächte Gerinnungshemmung; beim Absetzen von Phenobarbital Blutungsgefahr – INR eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "DOAK (z. B. Rivaroxaban, Apixaban, Edoxaban, Dabigatran)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Deutlich tiefere Spiegel mit Gefahr von Thrombosen und Schlaganfall – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol, Benzodiazepine, Opioide und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Dämpfung bis zur Atemdepression.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate und Calcineurin-Hemmer (z. B. Ciclosporin, Tacrolimus, Statine, Calciumantagonisten, viele Krebsmittel)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Beschleunigter Abbau mit Wirkverlust – Spiegel und Wirkung kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Mittel (Proteasehemmer, NNRTI, Integrasehemmer)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:nnrti",
+        "gruppe:integrasehemmer"
+      ],
+      "effekt": "Wirkverlust und Resistenzgefahr – Kombination meist vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Valproinsäure erhöht den Phenobarbital-Spiegel (Schläfrigkeit), Phenobarbital senkt den Valproat-Spiegel; Ammoniak kann ansteigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Antiepileptika (z. B. Phenytoin, Carbamazepin, Lamotrigin, Ethosuximid)",
+      "ref": [
+        "phenytoin",
+        "carbamazepin",
+        "lamotrigin",
+        "ethosuximid"
+      ],
+      "effekt": "Gegenseitige Beeinflussung der Spiegel – Spiegelkontrollen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Abgeschwächte Kortisonwirkung – Dosis gegebenenfalls erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paracetamol (regelmässig, hohe Dosen)",
+      "ref": [
+        "paracetamol"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Beschleunigter Abbau – Schilddrüsenwerte kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Folsäure",
+      "ref": [
+        "folsaeure"
+      ],
+      "effekt": "Phenobarbital kann einen Folsäuremangel verursachen; hohe Folsäuredosen können den Phenobarbital-Spiegel senken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Müdigkeit, Benommenheit, verlangsamtes Denken",
+      "Gangunsicherheit (Ataxie), Schwindel, Augenzittern",
+      "Paradoxe Erregung und Reizbarkeit (v. a. bei Kindern und älteren Menschen), Depression",
+      "Gedächtnis- und Lernstörungen",
+      "Abhängigkeit; Entzugskrampfanfälle beim abrupten Absetzen",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Megaloblastäre Anämie (Folsäuremangel), Knochenerweichung bei Langzeitbehandlung",
+      "Leberschäden; Atemdepression bei hohen Dosen"
+    ]
+  },
+  "schwangerschaft": "Fruchtschädigend (u. a. Herzfehler, Gaumenspalten) – nur wenn unverzichtbar, in der niedrigsten wirksamen Dosis und mit Folsäure. Beim Neugeborenen sind Entzugssymptome und eine Blutungsneigung (Vitamin-K-Mangel) möglich.",
+  "stillzeit": "Geht in erheblichen Mengen in die Muttermilch über; Stillen nur nach ärztlicher Abwägung, Säugling auf Schläfrigkeit und Trinkschwäche beobachten.",
+  "hinweise": [
+    "Nicht abrupt absetzen – Gefahr von Krampfanfällen und Entzugssymptomen.",
+    "Kein Alkohol; die Fahrtüchtigkeit ist besonders zu Beginn deutlich eingeschränkt.",
+    "Hormonale Verhütung ist unzuverlässig – nichthormonal verhüten.",
+    "Bei jedem neuen Medikament Wechselwirkungen prüfen lassen; Spiegel, Blutbild und Leberwerte werden kontrolliert."
+  ],
+  "stand": "2026-10"
+}

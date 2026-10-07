@@ -1,0 +1,207 @@
+{
+  "id": "tenecteplase",
+  "name": "Tenecteplase",
+  "synonyme": [
+    "TNK-tPA"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "B01AD11"
+  ],
+  "klasse": "Fibrinolytikum (Thrombolytikum; rekombinanter Gewebeplasminogenaktivator)",
+  "kurz": "Gerinnselauflösendes Mittel, das beim akuten Herzinfarkt als einmalige Spritze ein verschlossenes Herzkranzgefäss wieder öffnen soll.",
+  "gruppen": [
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Metalyse"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Auflösung des Gerinnsels (Thrombolyse) bei Erwachsenen mit akutem Herzinfarkt mit anhaltender ST-Hebung oder frischem Linksschenkelblock, innerhalb von 6 Stunden nach Beginn der Beschwerden",
+      "ids": [
+        "herzinfarkt"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst Blutgerinnsel auf, die ein Herzkranzgefäss verschliessen. Tenecteplase ist eine gentechnisch veränderte Form des körpereigenen Gewebeplasminogenaktivators (t-PA): Es bindet an das Fibrin im Gerinnsel und wandelt dort Plasminogen in Plasmin um, das das Fibringerüst abbaut. Durch die Veränderungen ist es stärker fibrinspezifisch, weniger empfindlich gegenüber dem Hemmstoff PAI-1 und wird langsamer abgebaut, sodass eine einzige Injektion genügt.",
+  "kontraindikationen": [
+    {
+      "text": "Erhebliche Blutung aktuell oder in den letzten 6 Monaten; bekannte Blutungsneigung",
+      "ids": [
+        "aktive-blutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Hirnblutung oder Schlaganfall unklarer Ursache in der Vorgeschichte; ischämischer Schlaganfall oder TIA in den letzten 6 Monaten",
+      "ids": [
+        "hirnblutung",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Schädigung des zentralen Nervensystems (Tumor, Aneurysma, Operation an Gehirn oder Rückenmark); Demenz",
+      "ids": [
+        "hirntumor",
+        "aneurysma",
+        "demenz"
+      ]
+    },
+    {
+      "text": "Schwerer, nicht eingestellter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Grössere Operation, Organbiopsie oder schwere Verletzung in den letzten 2 Monaten; kürzliche Kopfverletzung; länger dauernde Herz-Lungen-Wiederbelebung (über 2 Minuten) in den letzten 2 Wochen",
+      "ids": [
+        "operation",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Akute Herzbeutelentzündung oder subakute bakterielle Endokarditis",
+      "ids": [
+        "endokarditis"
+      ]
+    },
+    {
+      "text": "Akute Pankreatitis",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung, Leberzirrhose, Pfortaderhochdruck mit Krampfadern der Speiseröhre, aktive Hepatitis",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Aktive Magen-Darm-Geschwüre",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Arterielles Aneurysma oder bekannte arteriovenöse Gefässmissbildung",
+      "ids": [
+        "aneurysma"
+      ]
+    },
+    {
+      "text": "Tumor mit erhöhtem Blutungsrisiko",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Höheres Alter (über 75 Jahre) und tiefes Körpergewicht (unter 60 kg): erhöhtes Risiko für Hirnblutungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Systolischer Blutdruck über 160 mmHg",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Kürzliche Magen-Darm- oder Harnwegsblutung, kürzliche Injektionen in den Muskel oder Gefässpunktionen",
+      "ids": [
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Erneute Anwendung: Antikörperbildung und Überempfindlichkeitsreaktionen möglich",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Wirksame orale Gerinnungshemmung (z. B. Vitamin-K-Antagonist mit INR über 1,3)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "grund": "Gerinnselauflösung bei bestehender Gerinnungshemmung – stark erhöhtes Risiko schwerer Blutungen einschliesslich Hirnblutung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Heparine",
+      "ref": [
+        "gruppe:heparine"
+      ],
+      "effekt": "Werden gezielt begleitend eingesetzt, erhöhen aber das Blutungsrisiko – Gerinnung eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, Clopidogrel, GP-IIb/IIIa-Hemmer)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer",
+        "eptifibatid",
+        "tirofiban"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; Acetylsalicylsäure und Clopidogrel werden dennoch gezielt begleitend gegeben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Blutungen, vor allem an Einstich- und Injektionsstellen",
+      "Herzrhythmusstörungen nach Wiederöffnung des Gefässes (Reperfusionsarrhythmien)"
+    ],
+    "haeufig": [
+      "Nasenbluten",
+      "Magen-Darm-Blutungen",
+      "Blutungen im Harn- und Geschlechtstrakt",
+      "Blutergüsse (Ekchymosen)"
+    ],
+    "gelegentlich": [
+      "Hirnblutung",
+      "Blutungen hinter dem Bauchfell (retroperitoneal)",
+      "Augenblutung"
+    ],
+    "selten": [
+      "Anaphylaktoide Reaktionen (schwere Überempfindlichkeit)",
+      "Lungenblutung",
+      "Herzbeutelblutung (Hämoperikard)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Embolien, auch Cholesterinembolien",
+      "Übelkeit, Erbrechen",
+      "Blutdruckabfall"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Daten; in der lebensbedrohlichen Situation eines Herzinfarkts nur nach sorgfältiger Abwägung von Nutzen und Blutungsrisiko.",
+  "stillzeit": "Die Muttermilch soll in den ersten 24 Stunden nach der Behandlung verworfen werden.",
+  "hinweise": [
+    "Wird nur durch Notfallpersonal oder im Spital als einmalige Injektion gegeben.",
+    "Nach der Behandlung Blutungszeichen (schwarzer Stuhl, Blut im Urin, plötzliche starke Kopfschmerzen, Lähmungen) sofort melden."
+  ],
+  "stand": "2026-10"
+}

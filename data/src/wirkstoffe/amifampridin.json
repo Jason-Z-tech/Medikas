@@ -1,0 +1,162 @@
+{
+  "id": "amifampridin",
+  "name": "Amifampridin",
+  "synonyme": [
+    "Amifampridine",
+    "3,4-Diaminopyridin",
+    "3,4-DAP"
+  ],
+  "atc": [
+    "N07XX05"
+  ],
+  "klasse": "Kaliumkanalblocker (Aminopyridin)",
+  "kurz": "Mittel gegen die Muskelschwäche beim Lambert-Eaton-Syndrom, einer seltenen Autoimmunerkrankung der Nerv-Muskel-Verbindung.",
+  "gruppen": [
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Firdapse"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische Behandlung des Lambert-Eaton-Myasthenie-Syndroms (LEMS) bei Erwachsenen",
+      "ids": [
+        "neuromuskulaere-erkrankung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert die Signalübertragung vom Nerv auf den Muskel und lindert so die Muskelschwäche. Amifampridin blockiert spannungsabhängige Kaliumkanäle der Nervenendigungen und verlängert dadurch die Depolarisation der präsynaptischen Membran. Es strömt mehr Calcium in die Nervenendigung ein, sodass mehr Acetylcholin freigesetzt wird – beim Lambert-Eaton-Syndrom ist diese Freisetzung durch Antikörper gegen Calciumkanäle vermindert. Abgebaut wird Amifampridin vor allem durch die N-Acetyltransferase 2 (NAT2); bei langsamen Acetylierern sind die Spiegel deutlich höher.",
+  "kontraindikationen": [
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Nicht kontrolliertes Asthma",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Angeborenes QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Erhöhtes Risiko für Krampfanfälle, z. B. bei Hirnerkrankungen oder Einnahme krampfschwellensenkender Mittel",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen und Herzrhythmusstörungen: EKG bei Behandlungsbeginn und danach jährlich",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion (höhere Spiegel, vorsichtige Dosierung)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langsame Acetylierer (genetisch bedingt langsamer Abbau über NAT2): mehr Nebenwirkungen möglich",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Asthma in der Vorgeschichte (Asthmaanfälle und vermehrte Bronchialsekretion möglich)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: während der Behandlung sicher verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Arzneimittel, die die QT-Zeit verlängern",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "grund": "Zusätzliche Belastung der Herzerregung – Gefahr gefährlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol, Antipsychotika, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:krampfschwellensenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle – Kombination nur nach sorgfältiger ärztlicher Abwägung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cholinerg wirkende Mittel, z. B. Pyridostigmin und andere Acetylcholinesterase-Hemmer",
+      "ref": [
+        "pyridostigmin",
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Verstärkte Wirkung und mehr cholinerge Nebenwirkungen (z. B. Durchfall, Speichelfluss) – Dosis überprüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Oxybutynin, Amitriptylin)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Können die Wirkung von Amifampridin abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Muskelrelaxanzien bei Narkosen (z. B. Rocuronium, Atracurium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Wirkung der Muskelrelaxanzien kann verändert bzw. abgeschwächt sein – Narkoseteam über die Behandlung informieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kribbeln oder Taubheit um den Mund und an Händen und Füssen (Parästhesien)"
+    ],
+    "unbekannt": [
+      "Magen-Darm-Beschwerden wie Übelkeit, Oberbauch- und Bauchschmerzen, Durchfall",
+      "Krampfanfälle",
+      "Unwillkürliche Bewegungen (Chorea, Muskelzuckungen)",
+      "Schwindel, Kopfschmerzen, verminderte Berührungsempfindlichkeit",
+      "Schlafstörungen, Angst",
+      "Herzrhythmusstörungen, Herzklopfen",
+      "Kalte Hände und Füsse (Raynaud-Syndrom)",
+      "Asthmaanfälle, vermehrte Bronchialsekretion, Husten"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden. Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Nicht ausreichend untersucht; ob abgestillt oder die Behandlung unterbrochen wird, entscheidet die Ärztin oder der Arzt.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen. Sicherheitsrelevante Höchstdosis: 60 mg pro Tag, höchstens 20 mg pro Einzeldosis.",
+    "Bei einem Krampfanfall die Einnahme beenden und sofort ärztliche Hilfe holen.",
+    "EKG-Kontrollen zu Beginn und danach jährlich."
+  ],
+  "stand": "2026-10"
+}

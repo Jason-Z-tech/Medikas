@@ -1,0 +1,212 @@
+{
+  "id": "pomalidomid",
+  "name": "Pomalidomid",
+  "synonyme": [
+    "Pomalidomide"
+  ],
+  "atc": [
+    "L04AX06"
+  ],
+  "klasse": "Immunmodulator (IMiD, Cereblon-Modulator)",
+  "kurz": "Immunmodulierendes Krebsmedikament gegen das vorbehandelte multiple Myelom; stark fruchtschädigend, strenge Verhütung nötig.",
+  "gruppen": [
+    "teratogen",
+    "myelosuppressiv",
+    "thromboserisiko-erhoehend",
+    "neuropathie-ausloesend",
+    "cyp1a2-substrate"
+  ],
+  "handelsnamen": [
+    "Imnovid"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiples Myelom bei Erwachsenen nach mindestens einer Vortherapie (darunter Lenalidomid), in Kombination mit Dexamethason und gegebenenfalls Bortezomib oder anderen Myelommitteln",
+      "ids": [
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Myelomzellen und aktiviert Abwehrzellen. Pomalidomid bindet an das Protein Cereblon und führt zum Abbau der Transkriptionsfaktoren Ikaros und Aiolos. Es wirkt direkt wachstumshemmend auf Myelomzellen, aktiviert T-Zellen und natürliche Killerzellen und hemmt die Gefässneubildung. Mit Dexamethason ergibt sich eine verstärkte Wirkung gegen die Tumorzellen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter, ausser wenn alle Bedingungen des Schwangerschaftsverhütungsprogramms eingehalten werden",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Männer, die die vorgeschriebenen Verhütungsmassnahmen (Kondom) nicht einhalten können",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Neutropenie, Thrombozytopenie und Anämie – Blutbild in den ersten 8 Wochen wöchentlich, danach monatlich",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Venöse und arterielle Thromboembolien – Thromboseprophylaxe empfohlen",
+      "ids": [
+        "thrombose",
+        "lungenembolie",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen und Reaktivierung einer Hepatitis B – Hepatitis-B-Status vor Beginn prüfen",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz und Vorhofflimmern, v. a. bei Herzkrankheit oder Risikofaktoren",
+      "ids": [
+        "herzinsuffizienz",
+        "vorhofflimmern"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS) – sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Vorbestehende periphere Neuropathie",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Hohe Tumorlast (Tumorlyse-Syndrom) und Risiko zweiter Krebserkrankungen (z. B. Hautkrebs)",
+      "ids": [
+        "krebs",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Müdigkeit, Schwindel und Verwirrtheit: Fahrtüchtigkeit eingeschränkt",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP1A2-Hemmer (z. B. Fluvoxamin)",
+      "ref": [
+        "fluvoxamin",
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Pomalidomid-Spiegel steigen etwa auf das Doppelte – Pomalidomid-Dosis halbieren und Nebenwirkungen überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kombinierte hormonale Verhütungsmittel und andere Mittel mit Thromboserisiko",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:thromboserisiko-erhoehend"
+      ],
+      "effekt": "Zusätzlich erhöhtes Thromboserisiko – kombinierte Pille nicht empfohlen, andere sichere Verhütung wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Erythropoese-stimulierende Mittel (z. B. Epoetin, Darbepoetin)",
+      "ref": [
+        "epoetin-alfa",
+        "epoetin-beta",
+        "darbepoetin-alfa"
+      ],
+      "effekt": "Erhöhtes Thromboserisiko – nur mit Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Zytostatika)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen und mehr Infektionen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nervenschädigende Mittel (z. B. Bortezomib)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend",
+        "bortezomib"
+      ],
+      "effekt": "Höheres Risiko für periphere Neuropathie – Symptome überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Thrombozytopenie, Anämie (Blutbildveränderungen)",
+      "Lungenentzündung und andere Atemwegsinfekte",
+      "Müdigkeit, Fieber, periphere Ödeme",
+      "Atemnot, Husten",
+      "Durchfall, Verstopfung, Übelkeit",
+      "Appetitlosigkeit",
+      "Muskelkrämpfe"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie (Fieber bei Mangel an weissen Blutkörperchen), Sepsis",
+      "Tiefe Venenthrombose, Lungenembolie",
+      "Periphere Neuropathie, Schwindel, Zittern",
+      "Verwirrtheit, Bewusstseinsminderung",
+      "Vorhofflimmern, Herzschwäche",
+      "Nierenversagen, Harnverhalt",
+      "Hautausschlag, Juckreiz",
+      "Herpes zoster (Gürtelrose)"
+    ],
+    "gelegentlich": [
+      "Tumorlyse-Syndrom",
+      "Reaktivierung einer Hepatitis B",
+      "Hirnblutung, Schlaganfall",
+      "Hepatitis, erhöhte Leberwerte",
+      "Weisser Hautkrebs (Basalzell- und Plattenepithelkarzinom)",
+      "Angioödem, Nesselsucht"
+    ],
+    "unbekannt": [
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Leberversagen",
+      "Abstossung transplantierter Organe",
+      "Schilddrüsenunterfunktion"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert: Pomalidomid ist mit Thalidomid verwandt und muss als stark fruchtschädigend gelten. Frauen im gebärfähigen Alter müssen von 4 Wochen vor bis 4 Wochen nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung darf nicht gestillt werden.",
+  "hinweise": [
+    "Strenges Schwangerschaftsverhütungsprogramm: Frauen verhüten von 4 Wochen vor bis 4 Wochen nach der Therapie; Männer verwenden während und bis 7 Tage nach der Therapie Kondome.",
+    "Während und bis 7 Tage nach der Behandlung kein Blut und keinen Samen spenden. Kapseln nicht öffnen oder zerkauen und nicht weitergeben.",
+    "Bei Fieber, Halsschmerzen, Blutungen, Atemnot oder geschwollenen Beinen sofort ärztliche Hilfe holen.",
+    "Regelmässige Blutbildkontrollen sind nötig."
+  ],
+  "stand": "2026-10"
+}

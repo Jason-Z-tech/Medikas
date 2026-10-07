@@ -1,0 +1,227 @@
+{
+  "id": "vincristin",
+  "name": "Vincristin",
+  "synonyme": [
+    "Vincristinsulfat",
+    "Leurocristin",
+    "Vincristine",
+    "VCR"
+  ],
+  "atc": [
+    "L01CA02"
+  ],
+  "klasse": "Vinca-Alkaloid (Mitosehemmer); Zytostatikum",
+  "kurz": "Krebsmittel aus dem Immergrün (Vinca-Alkaloid) als Injektion gegen Leukämien, Lymphome und Tumoren im Kindesalter; hemmt die Zellteilung.",
+  "gruppen": [
+    "zytostatika",
+    "neuropathie-ausloesend",
+    "cyp3a4-substrate-empfindlich",
+    "hyponatriaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Vincristin Teva"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute Leukämien, v. a. akute lymphatische Leukämie (ALL)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Hodgkin-Lymphom und Non-Hodgkin-Lymphome",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Tumoren im Kindesalter wie Nephroblastom (Wilms-Tumor), Neuroblastom, Rhabdomyosarkom und Ewing-Sarkom",
+      "ids": [
+        "sarkom",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Weitere solide Tumoren in Kombination mit anderen Krebsmitteln",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Zellteilung von Krebszellen. Vincristin bindet an Tubulin, den Baustein der Mikrotubuli, und verhindert deren Aufbau. Ohne funktionierenden Spindelapparat bleiben die Zellen in der Metaphase der Mitose stehen und sterben ab. Da Mikrotubuli auch für die Nervenleitung wichtig sind, stehen Nervenschäden im Vordergrund der Nebenwirkungen, während das Knochenmark kaum gehemmt wird.",
+  "kontraindikationen": [
+    {
+      "text": "Gabe in den Rückenmarkskanal (intrathekal) – tödlich; nur intravenös anwenden",
+      "ids": []
+    },
+    {
+      "text": "Demyelinisierende Form des Charcot-Marie-Tooth-Syndroms (erbliche Nervenerkrankung)",
+      "ids": [
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Strahlentherapie, deren Feld die Leber einschliesst",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nervenschäden (dosisbegrenzend): Kribbeln, Muskelschwäche, Gangstörungen, Lähmungen von Hirnnerven; vorbestehende neuromuskuläre Erkrankungen",
+      "ids": [
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Verstopfung bis Darmlähmung (paralytischer Ileus): vorbeugend Abführmittel",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Austritt neben die Vene (Paravasat): schwere Gewebeschäden",
+      "ids": []
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hyponatriämie durch vermehrte ADH-Ausschüttung (SIADH)",
+      "ids": [
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (Atemnot, Bronchospasmus, v. a. zusammen mit Mitomycin)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (stärkere Nebenwirkungen auf das Nervensystem möglich)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer, v. a. Azol-Antimykotika (Itraconazol, Posaconazol, Voriconazol) und HIV-Proteasehemmer",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:azol-antimykotika",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Stark erhöhte Vincristin-Spiegel – schwere Nervenschäden, Krampfanfälle und Darmlähmung; Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mitomycin",
+      "ref": [
+        "mitomycin"
+      ],
+      "effekt": "Akute Atemnot und schwere Bronchospasmen beschrieben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Asparaginase (Crisantaspase, Pegaspargase)",
+      "ref": [
+        "crisantaspase",
+        "pegaspargase"
+      ],
+      "effekt": "Asparaginase vermindert den Abbau von Vincristin in der Leber – Vincristin 12–24 Stunden vor der Asparaginase geben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abgeschwächte Wirkung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel können sinken – Krampfanfälle möglich; Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Platinderivate, Taxane, Isoniazid)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend",
+        "isoniazid"
+      ],
+      "effekt": "Additive Nervenschäden – neurologisch überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nifedipin",
+      "ref": [
+        "nifedipin"
+      ],
+      "effekt": "Kann die Ausscheidung von Vincristin verringern.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Die Digoxin-Spiegel können unter Chemotherapie sinken – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Nervenschäden (Kribbeln, Taubheitsgefühl, Abschwächung der Reflexe, Muskelschwäche)",
+      "Haarausfall",
+      "Verstopfung"
+    ],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Darmlähmung (paralytischer Ileus), Bauchkrämpfe",
+      "Kiefer-, Knochen- und Muskelschmerzen",
+      "Lähmungen von Hirnnerven (z. B. Heiserkeit, hängendes Augenlid, Doppelbilder), Hörverlust",
+      "Harnverhalt, Blutdruckschwankungen",
+      "Krampfanfälle, Sehstörungen bis zur vorübergehenden Erblindung",
+      "SIADH mit Hyponatriämie (Natriummangel)",
+      "Leichte Knochenmarkhemmung",
+      "Akute Atemnot, Bronchospasmus; schwere Gewebeschäden bei Paravasat"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; Vincristin kann das Ungeborene schädigen. Frauen und Männer müssen während der Behandlung und einige Monate danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird ausschliesslich in die Vene gegeben (Gabe in den Rückenmarkskanal ist tödlich); bei Erwachsenen beträgt die Einzeldosis in der Regel höchstens 2 mg.",
+    "Verstopfung vorbeugen: viel trinken, ballaststoffreich essen, vorbeugend Abführmittel nach ärztlicher Anweisung.",
+    "Kribbeln, Taubheit, Gangunsicherheit, Kieferschmerzen oder Bauchkrämpfe dem Behandlungsteam melden."
+  ],
+  "stand": "2026-10"
+}

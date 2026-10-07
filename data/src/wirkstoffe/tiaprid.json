@@ -1,0 +1,196 @@
+{
+  "id": "tiaprid",
+  "name": "Tiaprid",
+  "synonyme": [
+    "Tiapride"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N05AL03"
+  ],
+  "klasse": "Neuroleptikum (Benzamid)",
+  "kurz": "Neuroleptikum gegen unwillkürliche Bewegungen (z. B. Chorea, Spätdyskinesien, Tics) und gegen Unruhe- und Erregungszustände.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Tiapridal"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Bewegungsstörungen wie Chorea Huntington und durch Neuroleptika ausgelöste Spätdyskinesien",
+      "ids": [
+        "chorea-huntington",
+        "dystonie"
+      ]
+    },
+    {
+      "text": "Schwere Tics, z. B. beim Tourette-Syndrom",
+      "ids": [
+        "dystonie"
+      ]
+    },
+    {
+      "text": "Unruhe-, Erregungs- und Aggressionszustände, besonders bei chronischem Alkoholismus oder im höheren Alter",
+      "ids": [
+        "alkoholabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft unwillkürliche Bewegungen und Unruhe, ohne stark zu sedieren. Tiaprid ist ein Benzamid, das selektiv Dopamin-D2- und D3-Rezeptoren blockiert, besonders in überaktiven Bereichen des Striatums und des limbischen Systems. Histamin-, Muskarin- und Alpha-Rezeptoren werden kaum beeinflusst. Es wird überwiegend unverändert über die Niere ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Prolaktinabhängige Tumoren (z. B. Prolaktinom der Hypophyse, Brustkrebs)",
+      "ids": [
+        "hyperprolaktinaemie",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosis senken)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, verlängerte QT-Zeit, langsamer Puls oder Kaliummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "bradykardie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen, besonders mit Demenz (Sturzgefahr, erhöhte Sterblichkeit und Schlaganfallrisiko unter Antipsychotika)",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfschwelle kann sinken)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Levodopa und dopaminerge Parkinsonmittel (z. B. Ropinirol, Pramipexol)",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "grund": "Tiaprid blockiert die Dopaminrezeptoren, an denen diese Mittel wirken – gegenseitige Aufhebung der Wirkung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Methadon, Citalopram, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung mit Gefahr lebensbedrohlicher Rhythmusstörungen – möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Pulsverlangsamende und kaliumsenkende Mittel (z. B. Betablocker, Diuretika, Abführmittel)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Langsamer Puls und Kaliummangel erhöhen das Risiko für Rhythmusstörungen – EKG und Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (z. B. Benzodiazepine, Opioide, Schlafmittel) und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Sedierung – Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metoclopramid und andere Dopamin-Antagonisten",
+      "ref": [
+        "metoclopramid",
+        "gruppe:dopaminantagonisten"
+      ],
+      "effekt": "Mehr extrapyramidale Bewegungsstörungen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schwindel, Kopfschmerzen",
+      "Schläfrigkeit, Schlaflosigkeit, Unruhe, Gleichgültigkeit",
+      "Müdigkeit, Schwäche"
+    ],
+    "gelegentlich": [
+      "Extrapyramidale Störungen (Zittern, Muskelsteifigkeit, vermehrter Speichelfluss), Akathisie (Sitzunruhe)",
+      "Gewichtszunahme",
+      "Milchfluss, Ausbleiben der Regel, Brustschmerzen oder -vergrösserung",
+      "Sexuelle Funktionsstörungen"
+    ],
+    "selten": [
+      "Akute Dystonie (Muskelverkrampfungen, Blickkrämpfe)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Spätdyskinesien (unwillkürliche Bewegungen)",
+      "Malignes neuroleptisches Syndrom (Fieber, Muskelsteifigkeit, Bewusstseinsstörung)",
+      "QT-Verlängerung, Torsade de pointes (lebensgefährliche Herzrhythmusstörung), plötzlicher Herztod",
+      "Krampfanfälle",
+      "Hyponatriämie (Natriummangel)",
+      "Venöse Thromboembolien (Blutgerinnsel)",
+      "Stürze und Lungenentzündung durch Verschlucken, v. a. bei älteren Menschen"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme im letzten Drittel können beim Neugeborenen Bewegungsstörungen und Entzugssymptome auftreten.",
+  "stillzeit": "Stillen wird nicht empfohlen.",
+  "hinweise": [
+    "Kann die Reaktionsfähigkeit beeinträchtigen – Vorsicht beim Autofahren, Alkohol meiden.",
+    "Bei eingeschränkter Nierenfunktion ist eine tiefere Dosis nötig.",
+    "Bei Fieber mit Muskelsteifigkeit und Verwirrtheit sofort ärztliche Hilfe holen (malignes neuroleptisches Syndrom)."
+  ],
+  "stand": "2026-10"
+}

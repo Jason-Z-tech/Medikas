@@ -1,0 +1,232 @@
+{
+  "id": "mefloquin",
+  "name": "Mefloquin",
+  "synonyme": [
+    "Mefloquine",
+    "Mefloquinhydrochlorid"
+  ],
+  "atc": [
+    "P01BC02"
+  ],
+  "klasse": "Antimalariamittel (Chinolinmethanol)",
+  "kurz": "Malariamittel zur Vorbeugung auf Reisen und zur Behandlung; kann psychische und neurologische Nebenwirkungen verursachen.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Mephaquin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung der Malaria bei Reisen in Gebiete mit hohem Risiko, vor allem bei Resistenz gegen andere Mittel",
+      "ids": [
+        "malaria"
+      ]
+    },
+    {
+      "text": "Behandlung der Malaria, insbesondere durch Plasmodium falciparum (auch bei Chloroquinresistenz)",
+      "ids": [
+        "malaria"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet die Malaria-Erreger in den roten Blutkörperchen ab. Mefloquin wirkt gegen die Blutformen aller Plasmodienarten, nicht aber gegen die ruhenden Leberformen von P. vivax und P. ovale. Der genaue Mechanismus ist nicht vollständig geklärt; diskutiert werden eine Störung des Hämoglobinabbaus im Parasiten und eine Hemmung seiner Ribosomen. Mit einer Halbwertszeit von rund 2–3 Wochen bleibt Mefloquin lange im Körper.",
+  "kontraindikationen": [
+    {
+      "text": "Zur Vorbeugung: aktuelle oder frühere Depression, Angststörung, Psychose, Schizophrenie, Suizidversuch oder Suizidgedanken und andere psychische Erkrankungen",
+      "ids": [
+        "depression",
+        "angststoerung",
+        "schizophrenie",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Krampfanfälle (Epilepsie) in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Schwarzwasserfieber (schwerer Blutzerfall bei Malaria) in der Vorgeschichte",
+      "ids": [
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen verwandte Stoffe wie Chinin oder Chinidin",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzrhythmus- oder Reizleitungsstörungen (QT-Verlängerung, AV-Block)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Neuropsychiatrische Beschwerden (Angst, Unruhe, Verwirrtheit, Albträume, Depression) – Vorbeugung sofort abbrechen; Beschwerden können lange anhalten",
+      "ids": [
+        "angststoerung",
+        "depression",
+        "delir"
+      ]
+    },
+    {
+      "text": "Schwindel, Gleichgewichts- und Sehstörungen: Vorsicht beim Autofahren, bei Piloten und bei Arbeiten in der Höhe",
+      "ids": [
+        "autofahren",
+        "schwindel",
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (verlangsamte Ausscheidung)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Säuglinge unter 3 Monaten bzw. unter 5 kg: keine Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Halofantrin (auch bis 15 Wochen nach der letzten Mefloquin-Dosis)",
+      "ref": [],
+      "grund": "Starke QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Ketoconazol",
+      "ref": [
+        "ketoconazol"
+      ],
+      "effekt": "Erhöht den Mefloquin-Spiegel und verlängert die QT-Zeit – nicht gleichzeitig und bis 15 Wochen nach Mefloquin anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Antiarrhythmika, Antipsychotika, Makrolide, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Gefahr von QT-Verlängerung und Herzrhythmusstörungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Chinin, Chloroquin und Hydroxychloroquin",
+      "ref": [
+        "hydroxychloroquin"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle und Herzrhythmusstörungen – Mefloquin frühestens 12 Stunden nach der letzten Chinin-Dosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiepileptika (z. B. Valproinsäure, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:antiepileptika"
+      ],
+      "effekt": "Mefloquin senkt die Krampfschwelle und kann die Antiepileptika-Spiegel senken – Anfallskontrolle gefährdet.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker, Calciumantagonisten vom Verapamil-Typ und Digoxin",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Verstärkte Verlangsamung von Herzschlag und Reizleitung (Bradykardie, AV-Block).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhen den Mefloquin-Spiegel – mehr Nebenwirkungen und QT-Verlängerung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Senkt den Mefloquin-Spiegel – Schutz bzw. Wirkung kann ungenügend sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Typhus-Lebendimpfung",
+      "ref": [
+        "typhus-impfstoff"
+      ],
+      "effekt": "Impfwirkung kann abgeschwächt werden – Impfung mindestens 3 Tage vor der ersten Mefloquin-Dosis abschliessen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orale Antikoagulanzien und Blutzuckersenker",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:insuline"
+      ],
+      "effekt": "Gerinnungs- bzw. Blutzuckerwerte können sich verändern – vor der Abreise kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Abnorme Träume, Albträume",
+      "Schlaflosigkeit"
+    ],
+    "haeufig": [
+      "Angst, Depression",
+      "Schwindel, Drehschwindel (Vertigo)",
+      "Kopfschmerzen",
+      "Sehstörungen",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Juckreiz"
+    ],
+    "unbekannt": [
+      "Psychosen, Halluzinationen, Panikattacken, Verwirrtheit, Suizidgedanken",
+      "Krampfanfälle",
+      "Herzrhythmusstörungen, AV-Block, QT-Verlängerung",
+      "Lang anhaltende Gleichgewichtsstörungen und Ohrensausen (Tinnitus)",
+      "Periphere Neuropathie (Kribbeln, Taubheit)",
+      "Agranulozytose, aplastische Anämie",
+      "Stevens-Johnson-Syndrom",
+      "Leberschäden bis Leberversagen"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung, z. B. wenn eine Reise in ein Hochrisikogebiet unvermeidbar ist; die bisherigen Erfahrungen zeigen kein erhöhtes Fehlbildungsrisiko.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Mit der Vorbeugung rechtzeitig vor der Abreise beginnen (um die Verträglichkeit zu prüfen) und bis 4 Wochen nach der Rückkehr fortsetzen.",
+    "Nach dem Essen mit reichlich Flüssigkeit einnehmen.",
+    "Bei Angst, Unruhe, Verwirrtheit, Niedergeschlagenheit, Albträumen oder Schwindel die Einnahme beenden und ärztlich ein anderes Mittel bestimmen lassen.",
+    "Schwindel und Sehstörungen können die Fahrtüchtigkeit beeinträchtigen, auch noch Wochen nach der letzten Dosis."
+  ],
+  "stand": "2026-10"
+}

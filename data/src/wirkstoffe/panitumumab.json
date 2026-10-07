@@ -1,0 +1,169 @@
+{
+  "id": "panitumumab",
+  "name": "Panitumumab",
+  "synonyme": [
+    "ABX-EGF"
+  ],
+  "atc": [
+    "L01FE02"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen den EGF-Rezeptor (EGFR), vollständig human",
+  "kurz": "Antikörper-Infusion gegen den EGF-Rezeptor bei metastasiertem Darmkrebs ohne RAS-Mutation.",
+  "gruppen": [
+    "hypomagnesiaemie-ausloesend",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Vectibix"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter Darmkrebs ohne RAS-Mutation (RAS-Wildtyp): als Erstbehandlung zusammen mit FOLFOX oder FOLFIRI, als Zweitbehandlung zusammen mit FOLFIRI oder allein nach Versagen der Chemotherapie",
+      "ids": [
+        "darmkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert eine Antenne für Wachstumssignale auf Darmkrebszellen. Panitumumab ist ein vollständig humaner IgG2-Antikörper, der mit hoher Affinität an den epidermalen Wachstumsfaktor-Rezeptor (EGFR) bindet und dessen Aktivierung durch EGF und TGF-alpha verhindert. Dadurch werden Zellwachstum und -überleben gehemmt und der Zelltod gefördert. Bei RAS-Mutation ist der Signalweg unterhalb des Rezeptors dauerhaft eingeschaltet, deshalb wirkt Panitumumab nur bei RAS-Wildtyp-Tumoren.",
+  "kontraindikationen": [
+    {
+      "text": "Interstitielle Lungenerkrankung oder Lungenfibrose",
+      "ids": [
+        "lungenfibrose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Hautreaktionen (Ausschlag, Risse, Infektionen bis zum Gewebeuntergang) – Sonnenschutz und vorbeugende Hautpflege",
+      "ids": [
+        "akne",
+        "hautinfektion",
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen, selten schwer bis tödlich",
+      "ids": [
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Elektrolytstörungen: Magnesium, Calcium und Kalium kontrollieren, auch bis 8 Wochen nach Therapieende",
+      "ids": [
+        "magnesiummangel",
+        "hypokalzaemie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Schwerer Durchfall mit Flüssigkeitsverlust und akutem Nierenversagen",
+      "ids": [
+        "durchfall",
+        "dehydratation",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Keratitis (Hornhautentzündung), besonders bei Kontaktlinsen oder Augenvorerkrankungen",
+      "ids": [
+        "augeninfektion",
+        "kontaktlinsen",
+        "trockenes-auge"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Oxaliplatin-haltige Chemotherapie bei Darmkrebs mit RAS-Mutation oder unbekanntem RAS-Status",
+      "ref": [
+        "oxaliplatin"
+      ],
+      "grund": "Bei RAS-mutierten Tumoren verkürzt die Kombination das Überleben, weil Panitumumab dort nicht wirkt."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Bevacizumab zusammen mit Chemotherapie",
+      "ref": [
+        "bevacizumab"
+      ],
+      "effekt": "Kürzeres Überleben und mehr schwere Nebenwirkungen – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "IFL-Chemotherapie (Bolus-Fluorouracil, Folinsäure, Irinotecan)",
+      "ref": [
+        "fluorouracil",
+        "irinotecan"
+      ],
+      "effekt": "Gehäuft schwerer Durchfall – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mittel, die Magnesium oder Kalium senken (z. B. Diuretika, Protonenpumpenhemmer)",
+      "ref": [
+        "gruppe:hypomagnesiaemie-ausloesend",
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Magnesium- und Kaliummangel – Elektrolyte kontrollieren und ersetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluoropyrimidin-haltige Chemotherapie (FOLFOX, FOLFIRI)",
+      "ref": [
+        "gruppe:fluoropyrimidine"
+      ],
+      "effekt": "Mehr Durchfall, Schleimhautentzündung und Hautreaktionen – Flüssigkeitsverlust früh behandeln.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautreaktionen (akneartiger Ausschlag, Rötung, Juckreiz, Hautrisse, trockene Haut)",
+      "Paronychie (Nagelbettentzündung)",
+      "Hypomagnesiämie, Hypokaliämie (Magnesium- und Kaliummangel)",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Müdigkeit, Fieber, Ödeme",
+      "Konjunktivitis (Bindehautentzündung)",
+      "Atemnot, Husten"
+    ],
+    "haeufig": [
+      "Infusionsreaktionen",
+      "Hypokalzämie (Calciummangel)",
+      "Dehydratation (Flüssigkeitsverlust)",
+      "Lungenembolie, tiefe Venenthrombose",
+      "Haarveränderungen, Haarausfall",
+      "Kopfschmerzen, Schwindel",
+      "Nasenbluten",
+      "Hautgeschwüre und Hautinfektionen"
+    ],
+    "gelegentlich": [
+      "Keratitis (Hornhautentzündung)",
+      "Interstitielle Lungenerkrankung",
+      "Schwere Infusionsreaktionen, Anaphylaxie"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hautnekrose, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt klar: EGFR ist für die Entwicklung des Ungeborenen wichtig. Frauen im gebärfähigen Alter verhüten während der Behandlung und 2 Monate danach.",
+  "stillzeit": "Während der Behandlung und 2 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Sonne meiden, Sonnenschutz und Feuchtigkeitscreme verwenden: Hautreaktionen sind sehr häufig und werden durch Sonne verstärkt.",
+    "Starken Durchfall, Augenschmerzen oder -rötung, Atemnot oder Husten sofort melden.",
+    "Magnesium, Calcium und Kalium werden regelmässig kontrolliert, auch einige Wochen nach Behandlungsende.",
+    "Vor Beginn wird der RAS-Status des Tumors bestimmt."
+  ],
+  "stand": "2026-10"
+}

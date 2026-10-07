@@ -1,0 +1,153 @@
+{
+  "id": "isatuximab",
+  "name": "Isatuximab",
+  "synonyme": [
+    "SAR650984"
+  ],
+  "atc": [
+    "L01FC02"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen CD38",
+  "kurz": "Antikörper-Infusion gegen Myelomzellen beim multiplen Myelom (Knochenmarkkrebs), stets zusammen mit anderen Myelom-Medikamenten.",
+  "gruppen": [
+    "immunsuppressiv",
+    "myelosuppressiv"
+  ],
+  "handelsnamen": [
+    "Sarclisa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiples Myelom nach mindestens zwei Vortherapien (inkl. Lenalidomid und Proteasomhemmer): zusammen mit Pomalidomid und Dexamethason",
+      "ids": [
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Multiples Myelom nach mindestens einer Vortherapie: zusammen mit Carfilzomib und Dexamethason",
+      "ids": [
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Markiert die bösartigen Plasmazellen im Knochenmark, damit das Immunsystem sie angreift. Isatuximab ist ein monoklonaler IgG1-Antikörper gegen ein bestimmtes Epitop des Oberflächenproteins CD38, das auf Myelomzellen in grosser Menge vorkommt. Er tötet die Zellen über antikörperabhängige zelluläre Zytotoxizität, Phagozytose und Komplementaktivierung und löst direkt den programmierten Zelltod aus. Zudem hemmt er die Enzymaktivität von CD38.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Infusionsreaktionen, meist bei der ersten Infusion – Prämedikation und Überwachung",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Neutropenie und Infektionen (z. B. Lungenentzündung)",
+      "ids": [
+        "neutropenie",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Hepatitis B: Gefahr der Reaktivierung – vor Beginn testen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Zweite Krebserkrankungen, vor allem heller Hautkrebs – regelmässige Hautkontrollen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Bluttransfusionen: Isatuximab verfälscht den indirekten Antiglobulintest (Coombs-Test) – Blutgruppe und Antikörpersuchtest vor Beginn bestimmen",
+      "ids": []
+    },
+    {
+      "text": "Herzerkrankungen, besonders in Kombination mit Carfilzomib (Herzschwäche, Rhythmusstörungen)",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Bluttransfusionen (Verträglichkeitstests)",
+      "ref": [],
+      "effekt": "Isatuximab bindet an rote Blutkörperchen und kann den indirekten Coombs-Test positiv machen – Blutbank vor jeder Transfusion informieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Pomalidomid, Carfilzomib, Chemotherapie)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "pomalidomid",
+        "carfilzomib"
+      ],
+      "effekt": "Verstärkte Neutropenie und höheres Infektionsrisiko – Blutbild regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Bei geschwächter Abwehr Gefahr einer Impfinfektion – nur nach ärztlicher Rücksprache impfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Laboruntersuchung: Serum-Eiweisselektrophorese und Immunfixation",
+      "ref": [],
+      "effekt": "Isatuximab ist ein IgG-kappa-Antikörper und kann bei IgG-kappa-Myelom eine fortbestehende Erkrankung vortäuschen – bei der Beurteilung des Ansprechens berücksichtigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Infusionsbedingte Reaktionen (Atemnot, Husten, Schüttelfrost, Übelkeit)",
+      "Lungenentzündung, Infektionen der oberen Atemwege, Bronchitis",
+      "Durchfall",
+      "Übelkeit, Erbrechen",
+      "Atemnot (Dyspnoe)",
+      "Thrombozytopenie und Anämie",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie (Fieber bei Mangel an weissen Blutkörperchen)",
+      "Gürtelrose (Herpes zoster)",
+      "Vorhofflimmern",
+      "Heller Hautkrebs (Plattenepithel- oder Basalzellkarzinom)",
+      "Appetitlosigkeit, Gewichtsabnahme"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaktische Reaktionen",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen; IgG-Antikörper gehen über die Plazenta. Frauen im gebärfähigen Alter verhüten während der Behandlung und mindestens 5 Monate danach. Die Kombinationspartner Pomalidomid und Lenalidomid sind in der Schwangerschaft streng kontraindiziert.",
+  "stillzeit": "Während der Behandlung nicht stillen (ärztliche Abwägung); Kombinationspartner wie Pomalidomid schliessen das Stillen ohnehin aus.",
+  "hinweise": [
+    "Vor Beginn Blutgruppe und Antikörpersuchtest bestimmen lassen und vor jeder Bluttransfusion auf die Behandlung hinweisen.",
+    "Vor jeder Infusion gibt es Medikamente gegen Infusionsreaktionen.",
+    "Fieber oder Infektzeichen sofort melden; regelmässige Blutbildkontrollen.",
+    "Haut regelmässig auf neue Veränderungen kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

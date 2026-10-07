@@ -1,0 +1,184 @@
+{
+  "id": "car-t-zelltherapien",
+  "name": "CAR-T-Zelltherapien",
+  "synonyme": [
+    "CAR-T",
+    "CAR-T-Zellen",
+    "Tisagenlecleucel",
+    "Axicabtagen-Ciloleucel",
+    "Brexucabtagen-Autoleucel",
+    "Lisocabtagen-Maraleucel",
+    "Idecabtagen-Vicleucel",
+    "Ciltacabtagen-Autoleucel"
+  ],
+  "atc": [
+    "L01XL03",
+    "L01XL04",
+    "L01XL05",
+    "L01XL06",
+    "L01XL07",
+    "L01XL08"
+  ],
+  "klasse": "Zell- und Gentherapie (chimäre Antigenrezeptor-T-Zellen, CAR-T)",
+  "kurz": "Gentechnisch veränderte körpereigene Abwehrzellen, die als einmalige Infusion bestimmte Blutkrebsarten gezielt angreifen.",
+  "gruppen": [
+    "myelosuppressiv",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Kymriah",
+    "Yescarta",
+    "Tecartus",
+    "Breyanzi",
+    "Abecma",
+    "Carvykti"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionsdispersion (einmalige Infusion)"
+  ],
+  "indikationen": [
+    {
+      "text": "Rückfällige oder therapieresistente aggressive B-Zell-Lymphome (z. B. diffus grosszelliges B-Zell-Lymphom); je nach Präparat auch follikuläres Lymphom und Mantelzell-Lymphom",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Rückfällige oder therapieresistente akute lymphatische B-Zell-Leukämie (Kymriah bei Kindern und jungen Erwachsenen bis 25 Jahre, Tecartus bei Erwachsenen)",
+      "ids": [
+        "leukaemie",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Multiples Myelom nach mehreren Vortherapien (Abecma, Carvykti)",
+      "ids": [
+        "multiples-myelom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Körpereigene T-Zellen (Abwehrzellen) werden aus dem Blut gewonnen, im Labor so verändert, dass sie Krebszellen erkennen, und als einmalige Infusion zurückgegeben. Die T-Zellen erhalten dabei einen künstlichen, chimären Antigenrezeptor (CAR), der ein Oberflächenmerkmal der Tumorzellen bindet – CD19 bei B-Zell-Lymphomen und B-ALL, BCMA beim multiplen Myelom. Nach der Bindung werden die CAR-T-Zellen aktiviert, vermehren sich im Körper und töten die Zielzellen ab; dabei werden auch gesunde B-Zellen bzw. Plasmazellen zerstört, was zu Antikörpermangel führt.",
+  "kontraindikationen": [
+    {
+      "text": "Gegenanzeigen der vorbereitenden (lymphodepletierenden) Chemotherapie, meist mit Fludarabin und Cyclophosphamid",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Zytokin-Freisetzungssyndrom (Fieber, Blutdruckabfall, Atemnot) und neurologische Nebenwirkungen (ICANS): Behandlung nur in spezialisierten Zentren mit sofort verfügbarem Tocilizumab",
+      "ids": [
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Aktive Infektionen vor Beginn behandeln; Hepatitis B, Hepatitis C und HIV vorher abklären (Reaktivierung möglich)",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b",
+        "hepatitis-c",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Anhaltende Blutbildveränderungen (Neutropenie, Thrombozytopenie) über Wochen bis Monate",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Antikörpermangel und Infektanfälligkeit; ggf. Immunglobulin-Ersatz",
+      "ids": [
+        "infektanfaelligkeit",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen: beim Zytokin-Freisetzungssyndrom Rhythmusstörungen und Herzschwäche möglich",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Zweite Krebserkrankungen, auch von T-Zellen ausgehende Lymphome, wurden beobachtet – lebenslange Nachsorge",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung: nicht in den 6 Wochen vor der Chemotherapie und nicht bis zur Erholung des Immunsystems",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Autofahren und Bedienen von Maschinen: mindestens 8 Wochen nach der Infusion nicht erlaubt",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Infektion durch den Impfstoff – nicht in den 6 Wochen vor der vorbereitenden Chemotherapie, während der Behandlung und bis zur Erholung des Immunsystems impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison) und andere Immunsuppressiva",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Aktivität der CAR-T-Zellen dämpfen – nicht vorbeugend geben, ausser zur gezielten Behandlung von Zytokin-Freisetzungssyndrom oder Neurotoxizität.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte und verlängerte Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Zytokin-Freisetzungssyndrom (Fieber, Blutdruckabfall, Atemnot, Herzrasen)",
+      "Neurologische Nebenwirkungen (ICANS: Verwirrtheit, Sprach- und Schreibstörungen, Zittern, Krampfanfälle)",
+      "Infektionen durch Bakterien, Viren und Pilze",
+      "Neutropenie, Anämie, Thrombozytopenie (teils lang anhaltend)",
+      "Hypogammaglobulinämie (Antikörpermangel)",
+      "Kopfschmerzen",
+      "Müdigkeit",
+      "Übelkeit, Durchfall"
+    ],
+    "haeufig": [
+      "Tumorlyse-Syndrom (Stoffwechselentgleisung durch zerfallende Tumorzellen)"
+    ],
+    "unbekannt": [
+      "Herzrhythmusstörungen und Herzschwäche",
+      "Hämophagozytische Lymphohistiozytose (HLH, überschiessende Immunreaktion)",
+      "Zweite Krebserkrankungen, einschliesslich von T-Zellen ausgehender Tumoren",
+      "Parkinson-ähnliche Bewegungsstörungen und Guillain-Barré-Syndrom (v. a. bei Anti-BCMA-CAR-T-Zellen)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen; es liegen keine Daten vor. Vor Beginn Schwangerschaftstest; wirksame Verhütung nach Vorgabe des Behandlungszentrums.",
+  "stillzeit": "Nur nach ärztlicher Abwägung; ein Risiko für das gestillte Kind kann nicht ausgeschlossen werden.",
+  "hinweise": [
+    "In den ersten 4 Wochen nach der Infusion in der Nähe des Behandlungszentrums bleiben; Fieber, Verwirrtheit, Zittern oder Sprachstörungen sofort melden.",
+    "Mindestens 8 Wochen nach der Infusion kein Fahrzeug lenken und keine Maschinen bedienen.",
+    "Patientenkarte stets mitführen; kein Blut und keine Organe, Gewebe oder Zellen spenden.",
+    "Manche HIV-Tests können nach der Behandlung falsch positiv ausfallen."
+  ],
+  "stand": "2026-10"
+}

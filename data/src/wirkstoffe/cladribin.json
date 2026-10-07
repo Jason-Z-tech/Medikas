@@ -1,0 +1,271 @@
+{
+  "id": "cladribin",
+  "name": "Cladribin",
+  "synonyme": [
+    "2-Chlordesoxyadenosin",
+    "2-CdA",
+    "Cladribine"
+  ],
+  "atc": [
+    "L01BB04",
+    "L04AA40"
+  ],
+  "klasse": "Antimetabolit (Purinanalogon); Zytostatikum (Haarzellenleukämie) bzw. selektives Immunsuppressivum (Multiple Sklerose)",
+  "kurz": "Baut gezielt Lymphozyten ab: als Injektion gegen Haarzellenleukämie, als kurze Tablettentherapie gegen schubförmige Multiple Sklerose.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Litak",
+    "Mavenclad"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Injektionslösung (unter die Haut)"
+  ],
+  "indikationen": [
+    {
+      "text": "Haarzellenleukämie (Injektion)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Schubförmige Multiple Sklerose bei Erwachsenen (Tabletten)",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert gezielt bestimmte weisse Blutkörperchen (Lymphozyten), die bei Haarzellenleukämie entartet sind bzw. bei Multipler Sklerose das Nervensystem angreifen. Cladribin ist eine Vorstufe (Prodrug), die in Zellen mit viel Desoxycytidinkinase und wenig 5'-Nukleotidase – vor allem in B- und T-Lymphozyten – zu Cladribin-Triphosphat aktiviert wird. Dieses stört DNA-Synthese und -Reparatur und löst den programmierten Zelltod (Apoptose) aus, auch in ruhenden Zellen. Bei Multipler Sklerose führen zwei kurze Behandlungsphasen im Abstand eines Jahres zu einer anhaltenden Verminderung der Lymphozyten.",
+  "kontraindikationen": [
+    {
+      "text": "HIV-Infektion (Tabletten)",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Aktive chronische Infektionen wie Tuberkulose oder Hepatitis (Tabletten)",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b",
+        "hepatitis-c",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Geschwächtes Immunsystem, auch durch eine laufende immunsuppressive oder knochenmarkhemmende Behandlung",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Aktive Krebserkrankung (Tabletten)",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz (Injektion)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren (Injektion; Tabletten nicht empfohlen)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lymphozytenzahl: muss vor jedem Behandlungsjahr ausreichend hoch sein; Kontrollen 2 und 6 Monate nach Behandlungsbeginn",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Infektionen, besonders Herpes zoster (Gürtelrose): vor Beginn auf Tuberkulose, Hepatitis B/C und HIV testen; Personen ohne Windpocken-Antikörper vorher impfen",
+      "ids": [
+        "herpes",
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Frühere Krebserkrankung: Nutzen und Risiko sorgfältig abwägen; übliche Krebsvorsorge wahrnehmen",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Lebererkrankung in der Vorgeschichte: Leberwerte vor Beginn kontrollieren (Leberschäden beschrieben)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hohe Dosen (Injektion): Gefahr von Nerven- und Nierenschäden; zu Beginn Tumorlysesyndrom möglich",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluttransfusionen: nur bestrahlte zelluläre Blutprodukte verwenden (Gefahr einer transfusionsbedingten Graft-versus-Host-Reaktion)",
+      "ids": []
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung während und mindestens 6 Monate nach der letzten Dosis",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gleichzeitige immunsuppressive oder knochenmarkhemmende Behandlung (kurzzeitige Kortisonstösse bei MS-Schüben sind erlaubt)",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:myelosuppressiv"
+      ],
+      "grund": "Additive Schwächung von Immunsystem und Knochenmark – Gefahr schwerer Infektionen und Blutbildschäden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion. Behandlung frühestens 4–6 Wochen nach einer Lebendimpfung beginnen; während und nach der Behandlung keine Lebendimpfungen, solange die weissen Blutkörperchen nicht im Normbereich sind.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere MS-Therapien (Interferon beta, Natalizumab, Fingolimod und andere S1P-Modulatoren)",
+      "ref": [
+        "interferon-beta-1a",
+        "interferon-beta-1b",
+        "natalizumab",
+        "fingolimod",
+        "gruppe:s1p-modulatoren"
+      ],
+      "effekt": "Additive Wirkung auf das Immunsystem – Kombination nicht empfohlen; bei Umstellung Wartezeiten und Blutbild beachten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Wirkung möglicherweise vermindert – während der Behandlung und mindestens 4 Wochen nach der letzten Dosis jedes Behandlungsjahres zusätzlich eine Barrieremethode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hemmer von Transportproteinen (z. B. Eltrombopag, Dipyridamol, Nifedipin)",
+      "ref": [
+        "eltrombopag",
+        "dipyridamol",
+        "nifedipin"
+      ],
+      "effekt": "Können die Cladribin-Spiegel bzw. die Aufnahme in die Zellen verändern – an den Behandlungstagen meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Induktoren von Transportproteinen (z. B. Rifampicin, Johanniskraut)",
+      "ref": [
+        "rifampicin",
+        "johanniskraut"
+      ],
+      "effekt": "Wirkung von Cladribin kann abgeschwächt werden – an den Behandlungstagen meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nukleosid-Analoga gegen Viren (z. B. Lamivudin, Zidovudin, Ribavirin)",
+      "ref": [
+        "lamivudin",
+        "zidovudin"
+      ],
+      "effekt": "Können die Aktivierung von Cladribin in der Zelle stören – Kombination vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel mit Wirkung auf das Blutbild (z. B. Carbamazepin)",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Additive Blutbildveränderungen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Arzneimittel zum Einnehmen (Tabletten)",
+      "ref": [],
+      "effekt": "Aufnahme kann sich gegenseitig beeinflussen – an den Behandlungstagen mindestens 3 Stunden Abstand einhalten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Lymphopenie (starke Abnahme der Lymphozyten)",
+      "Neutropenie, Thrombozytopenie, Anämie (Injektion)",
+      "Fieber und Infektionen (Injektion)",
+      "Müdigkeit, Kopfschmerzen, Übelkeit (Injektion)",
+      "Hautausschlag, Reaktionen an der Einstichstelle (Injektion)"
+    ],
+    "haeufig": [
+      "Lippenherpes und Gürtelrose (Herpes zoster)",
+      "Haarausfall (Tabletten)",
+      "Durchfall, Verstopfung, Bauchschmerzen (Injektion)",
+      "Husten, Atemnot (Injektion)",
+      "Schwindel, Schlaflosigkeit (Injektion)",
+      "Muskel- und Gelenkschmerzen (Injektion)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [
+      "Tuberkulose (Tabletten)"
+    ],
+    "unbekannt": [
+      "Progressive multifokale Leukoenzephalopathie (PML, seltene schwere Hirninfektion) und andere opportunistische Infektionen",
+      "Leberschädigung",
+      "Bösartige Neubildungen (Krebs)",
+      "Autoimmunhämolytische Anämie (Blutzerfall)",
+      "Tumorlysesyndrom (Injektion)",
+      "Nerven- und Nierenschäden bei hohen Dosen"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert, da Cladribin das Ungeborene schwer schädigen kann. Frauen und Männer müssen während der Behandlung und mindestens 6 Monate nach der letzten Dosis zuverlässig verhüten; bei hormonaler Verhütung zusätzlich eine Barrieremethode.",
+  "stillzeit": "Kontraindiziert. Bei der Tablettentherapie während der Behandlung und mindestens 1 Woche nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Tabletten mit Wasser unzerkaut schlucken, nur mit trockenen Händen anfassen und danach Hände waschen; an den Behandlungstagen andere Medikamente zum Einnehmen mindestens 3 Stunden zeitversetzt nehmen.",
+    "Blutbild (Lymphozyten) vor jedem Behandlungsjahr sowie 2 und 6 Monate nach Beginn kontrollieren lassen.",
+    "Bei Fieber, Bläschenausschlag (Gürtelrose), Gelbsucht oder neuen neurologischen Beschwerden umgehend ärztlichen Rat einholen.",
+    "Vor Bluttransfusionen das Behandlungsteam informieren (nur bestrahlte Blutprodukte)."
+  ],
+  "stand": "2026-10"
+}

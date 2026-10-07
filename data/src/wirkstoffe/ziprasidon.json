@@ -1,0 +1,226 @@
+{
+  "id": "ziprasidon",
+  "name": "Ziprasidon",
+  "synonyme": [
+    "Ziprasidone"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N05AE04"
+  ],
+  "klasse": "Atypisches Antipsychotikum",
+  "kurz": "Antipsychotikum gegen Schizophrenie und manische Phasen; führt selten zu Gewichtszunahme, kann aber die QT-Zeit verlängern.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "zns-daempfend",
+    "serotonerg"
+  ],
+  "handelsnamen": [
+    "Zeldox"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Schizophrenie bei Erwachsenen",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Manische oder gemischte Episoden mittleren Schweregrads bei bipolarer Störung",
+      "ids": [
+        "bipolare-stoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft psychotische und manische Symptome. Ziprasidon blockiert Dopamin-D2- und noch stärker Serotonin-5-HT2A-Rezeptoren; an 5-HT1A-Rezeptoren wirkt es als Agonist und hemmt zudem mässig die Wiederaufnahme von Serotonin und Noradrenalin. Die geringe Bindung an Histamin- und Muskarinrezeptoren erklärt die eher geringe Gewichtszunahme und wenige anticholinerge Wirkungen.",
+  "kontraindikationen": [
+    {
+      "text": "Bekannte QT-Verlängerung, auch angeborenes langes QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Kürzlich erlittener Herzinfarkt",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Dekompensierte Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, die mit Antiarrhythmika der Klassen IA oder III behandelt werden",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Langsamer Puls, Kalium- oder Magnesiummangel (erhöhtes Risiko für Rhythmusstörungen)",
+      "ids": [
+        "bradykardie",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz (erhöhte Sterblichkeit und Schlaganfallrisiko unter Antipsychotika)",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kontrollieren)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen wie DRESS: bei Ausschlag mit Fieber sofort absetzen und ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Antiarrhythmika der Klassen IA und III, Arsentrioxid, Thioridazin, Pimozid, Sertindol, Moxifloxacin, Mefloquin)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-iii",
+        "arsentrioxid",
+        "sertindol",
+        "moxifloxacin",
+        "mefloquin"
+      ],
+      "grund": "Additive QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Kalium- oder magnesiumsenkende Mittel (z. B. Diuretika, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytmangel erhöht das QT-Risiko – Kalium und Magnesium vor und während der Behandlung kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Carbamazepin und andere CYP3A4-Induktoren",
+      "ref": [
+        "carbamazepin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Ziprasidon-Spiegel sinkt um etwa ein Drittel – die Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI, Triptane, Tramadol)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "In Einzelfällen Serotoninsyndrom (Fieber, Zittern, Unruhe, Verwirrtheit) – auf Warnzeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit – Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Ziprasidon-Spiegel steigt um etwa 35–40 % – meist keine Dosisanpassung nötig, auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Unruhe, Akathisie (Sitzunruhe)",
+      "Extrapyramidale Störungen (Zittern, Muskelsteifigkeit, Dystonie)",
+      "Schläfrigkeit, Sedierung, Schwindel, Kopfschmerzen",
+      "Verschwommenes Sehen",
+      "Übelkeit, Erbrechen, Verstopfung, Verdauungsbeschwerden",
+      "Mundtrockenheit, vermehrter Speichelfluss",
+      "Schwäche, Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Angst, Agitiertheit, Albträume",
+      "Spätdyskinesien (unwillkürliche Bewegungen)",
+      "Herzklopfen, Herzrasen",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Hautausschlag, Nesselsucht"
+    ],
+    "selten": [
+      "QT-Verlängerung im EKG",
+      "Milchfluss (Galaktorrhö)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Torsade de pointes (lebensgefährliche Herzrhythmusstörung)",
+      "Malignes neuroleptisches Syndrom (Fieber, Muskelsteifigkeit, Bewusstseinsstörung)",
+      "Serotoninsyndrom",
+      "Krampfanfälle",
+      "Venöse Thromboembolien (Blutgerinnsel)",
+      "DRESS (schwere Arzneimittelreaktion mit Ausschlag, Fieber und Organbeteiligung)",
+      "Priapismus (schmerzhafte Dauererektion)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme im letzten Drittel können beim Neugeborenen Bewegungsstörungen und Entzugssymptome auftreten.",
+  "stillzeit": "Nicht stillen.",
+  "hinweise": [
+    "Immer zusammen mit einer Mahlzeit einnehmen – nüchtern wird nur etwa die Hälfte aufgenommen.",
+    "Bei Herzklopfen, Schwindel oder Ohnmacht sofort ärztlich abklären lassen; EKG und Elektrolyte nach ärztlicher Anordnung kontrollieren.",
+    "Kann müde machen – Vorsicht beim Autofahren, Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

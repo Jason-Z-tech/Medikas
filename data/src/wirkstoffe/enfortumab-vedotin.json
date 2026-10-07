@@ -1,0 +1,169 @@
+{
+  "id": "enfortumab-vedotin",
+  "name": "Enfortumab Vedotin",
+  "synonyme": [
+    "Enfortumab vedotin",
+    "Enfortumab vedotin-ejfv"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01FX13"
+  ],
+  "klasse": "Antikörper-Wirkstoff-Konjugat (Anti-Nectin-4, mit dem Zellgift MMAE)",
+  "kurz": "Krebsmittel gegen fortgeschrittenen Blasen- und Harnwegskrebs (Urothelkarzinom): ein Antikörper bringt ein Zellgift gezielt in die Tumorzellen.",
+  "gruppen": [
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "hyperglykaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Padcev"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht operierbares oder metastasiertes Urothelkarzinom (Blasen- und Harnwegskrebs) als Erstbehandlung, in Kombination mit Pembrolizumab",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittenes oder metastasiertes Urothelkarzinom nach platinhaltiger Chemotherapie und einem PD-1- oder PD-L1-Hemmer (allein)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bringt ein starkes Zellgift gezielt in Krebszellen. Enfortumab Vedotin besteht aus einem Antikörper gegen Nectin-4, ein Haftprotein, das auf den meisten Urothelkarzinomen reichlich vorkommt, und dem daran gekoppelten Zellgift Monomethylauristatin E (MMAE). Nach der Bindung wird das Konjugat in die Zelle aufgenommen; MMAE wird abgespalten und blockiert die Mikrotubuli (Zellskelett). Die Zelle kann sich nicht mehr teilen und stirbt ab (Apoptose).",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Schwere Hautreaktionen bis Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse, v. a. im ersten Zyklus: Haut und Schleimhäute genau beobachten",
+      "ids": [
+        "schwere-hautreaktion",
+        "hautausschlag"
+      ]
+    },
+    {
+      "text": "Hyperglykämie und diabetische Ketoazidose, auch ohne bekannten Diabetes: Blutzucker vor jeder Gabe kontrollieren",
+      "ids": [
+        "diabetes",
+        "ketoazidose"
+      ]
+    },
+    {
+      "text": "Pneumonitis bzw. interstitielle Lungenerkrankung",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Periphere Neuropathie (Kribbeln, Taubheit, Schwäche); vorbestehende Neuropathie",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Augenbeschwerden, v. a. trockene Augen und Hornhautentzündung",
+      "ids": [
+        "trockenes-auge",
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Paravasat (Austreten der Infusion ins Gewebe) mit Haut- und Gewebeschäden",
+      "ids": []
+    },
+    {
+      "text": "Mässige bis schwere Leberfunktionsstörung (höhere MMAE-Spiegel)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Spiegel des freigesetzten Zellgifts MMAE – mehr Nebenwirkungen möglich; engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Taxane, Vincristin, Oxaliplatin)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Höheres Risiko für eine ausgeprägte periphere Neuropathie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die den Blutzucker erhöhen (z. B. systemisches Kortison)",
+      "ref": [
+        "gruppe:hyperglykaemie-ausloesend"
+      ],
+      "effekt": "Verstärkte Hyperglykämie möglich – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pembrolizumab (Kombinationspartner)",
+      "ref": [
+        "pembrolizumab"
+      ],
+      "effekt": "In der Kombination häufiger Hautreaktionen, Pneumonitis und immunvermittelte Nebenwirkungen – gezielte Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Senken die MMAE-Spiegel; klinische Bedeutung unklar.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Periphere Neuropathie (Kribbeln, Taubheit in Händen und Füssen)",
+      "Hautausschlag, Juckreiz, trockene Haut",
+      "Alopezie (Haarausfall)",
+      "Geschmacksstörungen, Appetitlosigkeit, Gewichtsabnahme",
+      "Durchfall, Übelkeit, Erbrechen",
+      "Trockene Augen",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Müdigkeit, Anämie, erhöhte Leberwerte"
+    ],
+    "haeufig": [
+      "Pneumonitis (Lungenentzündung durch das Medikament)",
+      "Blasenbildende Hautreaktionen, Hand-Fuss-Syndrom",
+      "Muskelschwäche, Gangstörungen",
+      "Augenentzündungen (Hornhaut, Lider, Bindehaut)",
+      "Paravasat-Reaktionen an der Infusionsstelle",
+      "Neutropenie (Mangel an Abwehrzellen)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (lebensbedrohliche Hautablösung)",
+      "Diabetische Ketoazidose (lebensbedrohliche Stoffwechselentgleisung)"
+    ]
+  },
+  "schwangerschaft": "Kann das Ungeborene schädigen (Zellgift MMAE); in der Schwangerschaft nicht anwenden. Frauen und Männer verhüten während und mehrere Monate nach der Behandlung zuverlässig (Dauer gemäss ärztlicher Anweisung).",
+  "stillzeit": "Während der Behandlung und einige Zeit danach nicht stillen.",
+  "hinweise": [
+    "Hautveränderungen, Blasen, wunde Schleimhäute oder Fieber mit Ausschlag sofort melden.",
+    "Starker Durst, häufiges Wasserlassen, Müdigkeit oder Verwirrtheit: Blutzucker prüfen lassen.",
+    "Gegen trockene Augen Tränenersatzmittel verwenden; Sehstörungen melden.",
+    "Kribbeln, Taubheit oder Schwäche in Händen und Füssen melden – die Dosis wird gegebenenfalls angepasst."
+  ],
+  "stand": "2026-10"
+}

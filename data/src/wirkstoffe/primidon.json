@@ -1,0 +1,242 @@
+{
+  "id": "primidon",
+  "name": "Primidon",
+  "synonyme": [
+    "Primidone"
+  ],
+  "atc": [
+    "N03AA03"
+  ],
+  "klasse": "Antiepileptikum (Desoxybarbiturat, wird teilweise zu Phenobarbital umgewandelt)",
+  "kurz": "Mittel gegen Epilepsie und gegen essentielles Zittern (Tremor); wird im Körper teilweise zu Phenobarbital umgewandelt.",
+  "gruppen": [
+    "barbiturate",
+    "antiepileptika",
+    "zns-daempfend",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "p-gp-induktoren",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Mysoline"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Epilepsie: generalisierte tonisch-klonische Anfälle (Grand mal), fokale und psychomotorische Anfälle, myoklonische und akinetische Anfälle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Essentieller Tremor (Zittern)",
+      "ids": [
+        "tremor"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die Erregbarkeit der Nervenzellen und verhindert so Krampfanfälle; zudem vermindert es Zittern. Primidon wirkt selbst krampfhemmend und wird in der Leber zu zwei ebenfalls wirksamen Stoffen abgebaut: Phenobarbital und Phenylethylmalonamid (PEMA). Phenobarbital verstärkt die hemmende Wirkung von GABA am GABA-A-Rezeptor. Wie Phenobarbital induziert Primidon zahlreiche Leberenzyme (u. a. CYP3A4) und beschleunigt so den Abbau vieler Arzneimittel.",
+  "kontraindikationen": [
+    {
+      "text": "Akute intermittierende Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Phenobarbital (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion, ältere Menschen",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Atemwegserkrankungen, Schlafapnoe (Atemdämpfung)",
+      "ids": [
+        "schlafapnoe",
+        "copd"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken (unter Antiepileptika vermehrt beschrieben)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Sucht in der Vorgeschichte; Abhängigkeitspotenzial",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: fruchtschädigend, hormonale Verhütung unzuverlässig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen in der Vorgeschichte",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Kinder: paradoxe Erregung und Verhaltensstörungen möglich",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Knochenschwund, Vitamin-D- und Folsäuremangel",
+      "ids": [
+        "osteoporose",
+        "vitamin-d-mangel",
+        "vitamin-b12-mangel"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz unsicher – nichthormonal verhüten (z. B. Kupferspirale), auch bis 4 Wochen nach Absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Abgeschwächte Gerinnungshemmung; beim Absetzen von Primidon Blutungsgefahr – INR eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "DOAK (z. B. Rivaroxaban, Apixaban, Edoxaban, Dabigatran)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Deutlich tiefere Spiegel mit Gefahr von Thrombosen und Schlaganfall – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Alkohol, Benzodiazepine, Opioide und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Dämpfung bis zur Atemdepression.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Mittel (z. B. Rilpivirin, Doravirin, Proteasehemmer) und Hepatitis-C-Mittel (z. B. Sofosbuvir/Velpatasvir)",
+      "ref": [
+        "gruppe:nnrti",
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:integrasehemmer",
+        "gruppe:hcv-daa"
+      ],
+      "effekt": "Starke Senkung der Spiegel mit Therapieversagen und Resistenzgefahr – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azol-Antimykotika (z. B. Voriconazol, Itraconazol, Posaconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Deutlich tiefere Spiegel des Pilzmittels mit Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate und Calcineurin-Hemmer (z. B. Ciclosporin, Tacrolimus, Statine, Calciumantagonisten)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Beschleunigter Abbau mit Wirkverlust – Spiegel und Wirkung kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin und Carbamazepin",
+      "ref": [
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Mehr Umwandlung von Primidon zu Phenobarbital und gegenseitige Spiegelveränderungen – Spiegelkontrollen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Erhöhte Phenobarbital-Spiegel (Schläfrigkeit), Valproat-Spiegel sinkt – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Abgeschwächte Kortisonwirkung – Dosis gegebenenfalls erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Beschleunigter Abbau – Schilddrüsenwerte kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schläfrigkeit, Teilnahmslosigkeit (v. a. zu Behandlungsbeginn)",
+      "Übelkeit, Erbrechen",
+      "Schwindel, Kopfschmerzen",
+      "Gangunsicherheit (Ataxie), Augenzittern (Nystagmus), Sehstörungen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hautausschlag; schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "Megaloblastäre Anämie (Folsäuremangel) und andere Blutbildveränderungen",
+      "Knochenerweichung (Osteomalazie) bei Langzeitbehandlung",
+      "Verwirrtheit, psychotische Reaktionen, Depression",
+      "Lupus-ähnliche Erkrankung, Dupuytren-Kontraktur (Bindegewebsverhärtung der Hand)",
+      "Abhängigkeit; Entzugskrampfanfälle beim abrupten Absetzen"
+    ]
+  },
+  "schwangerschaft": "Fruchtschädigend (wie Phenobarbital) – nur wenn unverzichtbar, in der niedrigsten wirksamen Dosis und mit Folsäure. Beim Neugeborenen sind Entzugssymptome und eine Blutungsneigung (Vitamin-K-Mangel) möglich.",
+  "stillzeit": "Geht in erheblichen Mengen in die Muttermilch über (Schläfrigkeit beim Säugling) – Stillen nur nach ärztlicher Abwägung, Kind beobachten.",
+  "hinweise": [
+    "Nicht abrupt absetzen – Gefahr von Krampfanfällen und Entzugssymptomen.",
+    "Kein Alkohol; die Fahrtüchtigkeit ist besonders zu Beginn deutlich eingeschränkt.",
+    "Hormonale Verhütung ist unzuverlässig – nichthormonal verhüten.",
+    "Blutbild und Spiegel (Primidon und Phenobarbital) werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,206 @@
+{
+  "id": "treprostinil",
+  "name": "Treprostinil",
+  "synonyme": [
+    "Treprostinil-Natrium",
+    "Treprostinil sodium"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "B01AC21"
+  ],
+  "klasse": "Prostacyclin-Analogon (Mittel bei pulmonal arterieller Hypertonie)",
+  "kurz": "Gefässerweiterndes Mittel als Dauerinfusion unter die Haut oder in die Vene bei Lungenhochdruck (pulmonal arterielle Hypertonie).",
+  "gruppen": [
+    "blutdrucksenkend",
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Remodulin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung (subkutan oder intravenös)"
+  ],
+  "indikationen": [
+    {
+      "text": "Pulmonal arterielle Hypertonie (idiopathisch oder erblich) zur Verbesserung von Belastbarkeit und Beschwerden",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Blutgefässe der Lunge und entlastet so das rechte Herz. Treprostinil ist ein stabiles, lang wirkendes Analogon des körpereigenen Prostacyclins: Es aktiviert Prostacyclin-Rezeptoren der Gefässmuskulatur, steigert dort das cAMP und entspannt die Gefässe des Lungen- und des Körperkreislaufs. Zusätzlich hemmt es die Zusammenlagerung der Blutplättchen und wirkt dem Wuchern der Gefässwandzellen entgegen.",
+  "kontraindikationen": [
+    {
+      "text": "Pulmonale Hypertonie infolge einer Venenverschlusskrankheit der Lunge (pulmonale veno-okklusive Erkrankung)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz durch schwere Funktionsstörung der linken Herzkammer; dekompensierte Herzinsuffizienz ohne engmaschige ärztliche Überwachung",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere koronare Herzkrankheit, instabile Angina pectoris oder Herzinfarkt in den letzten 6 Monaten",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Schwere Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schlaganfall oder TIA in den letzten 3 Monaten",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene Herzklappenfehler mit relevanter Herzmuskelschwäche, die nicht durch die pulmonale Hypertonie bedingt ist",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Aktive Magen-Darm-Geschwüre, Hirnblutung, Verletzungen oder andere Blutungen",
+      "ids": [
+        "magen-darm-ulkus",
+        "hirnblutung",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Niedriger Blutdruck",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Plötzliches Absetzen oder Unterbruch der Infusion (z. B. Pumpen- oder Katheterproblem): Gefahr eines raschen Wiederanstiegs des Lungendrucks",
+      "ids": []
+    },
+    {
+      "text": "Erhöhte Blutungsneigung oder gleichzeitige Gerinnungshemmung",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion: vorsichtige Dosierung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Intravenöse Gabe über zentralen Venenkatheter: Risiko für Katheterinfektionen und Blutvergiftung (Sepsis)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Blutdrucksenkende und gefässerweiternde Mittel (z. B. Diuretika, Nitrate, PDE-5-Hemmer)",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate",
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall – Blutdruck überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Rivaroxaban, Heparine)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – Gerinnung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer und NSAR",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C8-Hemmer (z. B. Gemfibrozil)",
+      "ref": [
+        "gruppe:cyp2c8-hemmer",
+        "gemfibrozil"
+      ],
+      "effekt": "Treprostinil-Spiegel steigt deutlich – auf Nebenwirkungen achten, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C8-Induktoren (z. B. Rifampicin)",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Treprostinil-Spiegel sinkt – Wirkung kann nachlassen; Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schmerzen und Reaktionen an der Infusionsstelle (Rötung, Schwellung, Verhärtung) bei Gabe unter die Haut",
+      "Blutungen oder Blutergüsse an der Infusionsstelle",
+      "Kopfschmerzen",
+      "Gefässerweiterung mit Hautrötung (Flush)",
+      "Durchfall, Übelkeit",
+      "Kieferschmerzen"
+    ],
+    "haeufig": [
+      "Schwindel",
+      "Hypotonie (niedriger Blutdruck)",
+      "Erbrechen",
+      "Juckreiz",
+      "Wassereinlagerungen (Ödeme)",
+      "Muskel-, Gelenk- und Gliederschmerzen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Blutvergiftung (Sepsis) und Katheterinfektionen bei Gabe in die Vene",
+      "Venenentzündung (Thrombophlebitis)",
+      "Hautausschlag",
+      "Zellulitis (Hautentzündung) an der Infusionsstelle",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Knochenschmerzen"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Daten; nur anwenden, wenn der Nutzen für die Mutter das Risiko für das Kind überwiegt. Während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Nicht empfohlen, da unbekannt ist, ob Treprostinil in die Muttermilch übergeht.",
+  "hinweise": [
+    "Die Infusion nie eigenmächtig unterbrechen oder abrupt absetzen – Gefahr einer lebensbedrohlichen Verschlechterung; Ersatzpumpe und Material bereithalten.",
+    "Bei Fieber, Schüttelfrost oder Rötung an der Katheterstelle sofort ärztliche Hilfe holen.",
+    "Schwindel durch Blutdruckabfall möglich – Vorsicht beim Aufstehen und im Strassenverkehr."
+  ],
+  "stand": "2026-10"
+}

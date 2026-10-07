@@ -1,0 +1,172 @@
+{
+  "id": "bempedoinsaeure",
+  "name": "Bempedoinsäure",
+  "synonyme": [
+    "Bempedoic acid",
+    "ETC-1002"
+  ],
+  "atc": [
+    "C10AX15"
+  ],
+  "klasse": "Lipidsenker; ATP-Citrat-Lyase-Hemmer",
+  "kurz": "Cholesterinsenker, der zusätzlich zu einem Statin oder bei Statin-Unverträglichkeit eingesetzt wird; auch als Kombination mit Ezetimib.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Nilemdo",
+    "Nustendi (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhöhtes LDL-Cholesterin (primäre Hypercholesterinämie, auch heterozygot familiär, oder gemischte Dyslipidämie) zusätzlich zu einem Statin, wenn der Zielwert nicht erreicht wird",
+      "ids": [
+        "hypercholesterinaemie",
+        "familiaere-hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Erhöhtes LDL-Cholesterin allein oder mit anderen Lipidsenkern, wenn Statine nicht vertragen werden oder nicht angewendet werden dürfen",
+      "ids": [
+        "hypercholesterinaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt das LDL-Cholesterin, indem es die Cholesterinbildung in der Leber bremst. Bempedoinsäure ist ein Prodrug, das erst in der Leber durch das Enzym ACSVL1 zu Bempedoyl-CoA aktiviert wird. Dieses hemmt die ATP-Citrat-Lyase, ein Enzym der Cholesterinsynthese, das vor der HMG-CoA-Reduktase (dem Angriffspunkt der Statine) liegt. Die Leber bildet daraufhin mehr LDL-Rezeptoren und nimmt mehr LDL aus dem Blut auf. Weil das aktivierende Enzym in der Skelettmuskulatur fehlt, wirkt der Stoff dort kaum.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Gicht oder erhöhte Harnsäure (Bempedoinsäure erhöht die Harnsäure, Gichtanfälle möglich)",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Statin-Therapie: Muskelschmerzen oder Muskelschwäche melden (Myopathie-Risiko)",
+      "ids": [
+        "muskelerkrankung",
+        "muskelschmerzen"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (wenig Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (wenig Erfahrung); Leberwerte können ansteigen",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Blutarmut (das Hämoglobin kann leicht sinken)",
+      "ids": [
+        "anaemie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Simvastatin in Dosen über 40 mg pro Tag",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Bempedoinsäure erhöht die Simvastatin-Spiegel (Hemmung des Transporters OATP1B1) – erhöhtes Risiko für Muskelschäden bis zur Rhabdomyolyse."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Simvastatin bis 40 mg pro Tag",
+      "ref": [
+        "simvastatin"
+      ],
+      "effekt": "Simvastatin-Spiegel steigen etwa auf das Doppelte – höchstens 40 mg Simvastatin, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Pravastatin",
+      "ref": [
+        "pravastatin"
+      ],
+      "effekt": "Pravastatin-Spiegel steigen – höhere Dosen meiden, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Substrate der Transporter OATP1B1/1B3 (z. B. Bosentan, bestimmte Hepatitis-C-Mittel)",
+      "ref": [
+        "bosentan",
+        "glecaprevir-pibrentasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "effekt": "Spiegel dieser Mittel können steigen – mit Vorsicht kombinieren, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Atorvastatin und Rosuvastatin",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Geringe Spiegelerhöhung – auf Muskelbeschwerden achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Erhöht die Spiegel von Bempedoinsäure; klinisch meist ohne Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Hyperurikämie (erhöhte Harnsäure), Gicht",
+      "Schmerzen in Armen oder Beinen",
+      "Erhöhte Leberwerte (AST)"
+    ],
+    "gelegentlich": [
+      "Erniedrigtes Hämoglobin",
+      "Erhöhte Leberwerte (ALT)",
+      "Erhöhte Nierenwerte (Kreatinin, Harnstoff), verminderte Nierenfunktion"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kontraindiziert, da die Hemmung der Cholesterinbildung dem ungeborenen Kind schaden kann; Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert, da ein Übergang in die Muttermilch und ein Risiko für das Kind nicht ausgeschlossen werden können.",
+  "hinweise": [
+    "Kann unabhängig von den Mahlzeiten eingenommen werden.",
+    "Gelenkschmerzen mit Schwellung oder Rötung (Gicht) ärztlich melden; Harnsäure kontrollieren lassen.",
+    "Bei Kombination mit Simvastatin höchstens 40 mg Simvastatin pro Tag.",
+    "Nustendi enthält zusätzlich Ezetimib (Kombinationspräparat)."
+  ],
+  "stand": "2026-10"
+}

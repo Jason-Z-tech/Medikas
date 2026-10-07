@@ -1,0 +1,226 @@
+{
+  "id": "suxamethonium",
+  "name": "Suxamethonium",
+  "synonyme": [
+    "Succinylcholin",
+    "Suxamethoniumchlorid",
+    "Succinylcholine"
+  ],
+  "atc": [
+    "M03AB01"
+  ],
+  "klasse": "Depolarisierendes (peripheres) Muskelrelaxans",
+  "kurz": "Sehr kurz wirkendes Muskelentspannungsmittel für die Narkose, v. a. zum raschen Einführen eines Beatmungsschlauchs.",
+  "gruppen": [
+    "muskelrelaxanzien-peripher",
+    "hyperkaliaemie-ausloesend",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Succinolin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Kurz dauernde Muskelerschlaffung bei Narkosen, z. B. zur raschen Intubation (Einführen eines Beatmungsschlauchs), für kurze Eingriffe und bei Elektrokrampftherapie",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erschlafft die Skelettmuskulatur für wenige Minuten, damit z. B. ein Beatmungsschlauch eingeführt werden kann. Suxamethonium besetzt wie Acetylcholin die nikotinischen Rezeptoren an der motorischen Endplatte und löst eine anhaltende Depolarisation aus, sichtbar als kurze Muskelzuckungen (Faszikulationen); danach ist die Muskelfaser vorübergehend nicht mehr erregbar. Es wird rasch durch die Plasmacholinesterase (Pseudocholinesterase) abgebaut: Die Wirkung tritt innerhalb einer Minute ein und hält etwa 5–10 Minuten an.",
+  "kontraindikationen": [
+    {
+      "text": "Maligne Hyperthermie in der eigenen oder familiären Vorgeschichte",
+      "ids": [
+        "maligne-hyperthermie"
+      ]
+    },
+    {
+      "text": "Hyperkaliämie oder hohes Hyperkaliämie-Risiko nach der Akutphase von schweren Verbrennungen, ausgedehnten Muskelverletzungen, längerer Immobilisation oder Lähmungen (z. B. Querschnittslähmung)",
+      "ids": [
+        "hyperkaliaemie",
+        "verbrennung",
+        "immobilisation"
+      ]
+    },
+    {
+      "text": "Angeborene Muskelerkrankungen wie Muskeldystrophie Duchenne und Myotonien",
+      "ids": [
+        "muskelerkrankung",
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Offene (perforierende) Augenverletzungen",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verminderte Plasmacholinesterase (angeboren oder bei Leberkrankheit, Schwangerschaft, Mangelernährung): stark verlängerte Muskellähmung und Atemstillstand möglich",
+      "ids": [
+        "pharmakogenetik",
+        "leberinsuffizienz",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Bradykardie und Herzrhythmusstörungen, besonders bei Kindern und bei wiederholter Gabe",
+      "ids": [
+        "bradykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Glaukom und erhöhter Hirndruck (Druckanstieg möglich)",
+      "ids": [
+        "glaukom",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Risiko für Hyperkaliämie und Herzstillstand bei unerkannter Muskelerkrankung",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (veränderte Empfindlichkeit)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Bestehende Hyperkaliämie oder Niereninsuffizienz",
+      "ids": [
+        "hyperkaliaemie",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Inhalationsanästhetika (z. B. Desfluran, Sevofluran, Isofluran)",
+      "ref": [
+        "desfluran",
+        "sevofluran",
+        "isofluran"
+      ],
+      "effekt": "Erhöhtes Risiko für maligne Hyperthermie und Herzrhythmusstörungen; verstärkte Muskelrelaxation – engmaschige Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Gefahr schwerer Herzrhythmusstörungen durch Kaliumverschiebung – nur mit Vorsicht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cholinesterasehemmer (z. B. Neostigmin, Pyridostigmin, Donepezil, Rivastigmin)",
+      "ref": [
+        "neostigmin",
+        "pyridostigmin",
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Verlängerte und verstärkte Muskellähmung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mittel, die die Plasmacholinesterase hemmen (z. B. Metoclopramid, Cyclophosphamid und andere Zytostatika, Esmolol)",
+      "ref": [
+        "metoclopramid",
+        "cyclophosphamid",
+        "esmolol"
+      ],
+      "effekt": "Verlängerte Wirkung von Suxamethonium – Atmung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aminoglykoside, Clindamycin und Polymyxine",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "clindamycin"
+      ],
+      "effekt": "Verstärkte und verlängerte Muskelrelaxation.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Magnesiumsulfat",
+      "ref": [
+        "magnesiumsulfat"
+      ],
+      "effekt": "Verstärkte neuromuskuläre Blockade.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Verlängerte Wirkung von Suxamethonium möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lokalanästhetika und Antiarrhythmika (z. B. Lidocain, Procain)",
+      "ref": [
+        "lidocain",
+        "procain"
+      ],
+      "effekt": "Verstärkte bzw. verlängerte Wirkung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nicht depolarisierende Muskelrelaxanzien (z. B. Rocuronium, Atracurium)",
+      "ref": [
+        "rocuronium",
+        "atracurium",
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Vorherige Gabe schwächt die Wirkung von Suxamethonium ab; nachfolgende Gabe kann das Ansprechen verändern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Muskelzuckungen (Faszikulationen) zu Beginn",
+      "Muskelschmerzen nach der Narkose",
+      "Erhöhter Augeninnendruck"
+    ],
+    "haeufig": [
+      "Bradykardie (langsamer Puls) oder Tachykardie (Herzrasen)",
+      "Hautrötung, Hautausschlag",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Myoglobinämie und Myoglobinurie (Muskelfarbstoff in Blut und Urin)",
+      "Erhöhter Druck im Magen"
+    ],
+    "selten": [
+      "Herzrhythmusstörungen bis Herzstillstand",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Verlängerte Atemlähmung (Apnoe)",
+      "Kieferklemme (Trismus)"
+    ],
+    "sehrSelten": [
+      "Maligne Hyperthermie (lebensbedrohliche Überwärmung mit Muskelstarre)",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Rhabdomyolyse (Muskelzerfall)"
+    ]
+  },
+  "schwangerschaft": "Kann nach ärztlicher Abwägung angewendet werden, z. B. beim Kaiserschnitt; nur geringe Mengen passieren die Plazenta. Die Plasmacholinesterase ist in der Schwangerschaft vermindert, die Wirkung kann daher verlängert sein.",
+  "stillzeit": "Wird sehr rasch abgebaut; ein Risiko für den Säugling ist nicht zu erwarten. Stillen nach der Narkose in Absprache mit dem Behandlungsteam.",
+  "hinweise": [
+    "Wird nur von Anästhesie-Fachpersonen mit Beatmungsmöglichkeit angewendet.",
+    "Vor einer Narkose maligne Hyperthermie, Muskelerkrankungen oder ungewöhnlich lange Narkosewirkung in der Familie angeben.",
+    "Muskelkater-artige Schmerzen nach der Narkose sind häufig und klingen nach wenigen Tagen ab."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,216 @@
+{
+  "id": "selegilin",
+  "name": "Selegilin",
+  "synonyme": [
+    "Selegiline",
+    "L-Deprenyl"
+  ],
+  "atc": [
+    "N04BD01"
+  ],
+  "klasse": "Parkinsonmittel (MAO-B-Hemmer, irreversibel)",
+  "kurz": "Parkinsonmittel aus der Gruppe der MAO-B-Hemmer; verlängert die Wirkung von Dopamin, allein im Frühstadium oder zusammen mit Levodopa.",
+  "gruppen": [
+    "mao-b-hemmer",
+    "serotonerg"
+  ],
+  "handelsnamen": [
+    "Jumexal"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Krankheit: allein im Frühstadium oder zusammen mit Levodopa (mit Decarboxylasehemmer), z. B. bei Wirkschwankungen",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlängert die Wirkung des Botenstoffs Dopamin im Gehirn. Selegilin hemmt irreversibel und in üblicher Dosis selektiv die Monoaminoxidase B (MAO-B), die Dopamin abbaut. Dadurch steigt die Dopaminkonzentration in den Basalganglien, und die Wirkung von Levodopa wird verstärkt und verlängert. Zu den Abbauprodukten gehören L-Methamphetamin und L-Amphetamin.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive Magen- oder Zwölffingerdarmgeschwüre",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "In Kombination mit Levodopa: schwerer Bluthochdruck, Schilddrüsenüberfunktion, Phäochromozytom",
+      "ids": [
+        "hypertonie",
+        "hyperthyreose",
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "In Kombination mit Levodopa: Engwinkelglaukom, Prostatavergrösserung mit Restharn",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "In Kombination mit Levodopa: Herzrasen, Herzrhythmusstörungen, schwere Angina pectoris",
+      "ids": [
+        "tachykardie",
+        "herzrhythmusstoerung",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "In Kombination mit Levodopa: Psychosen, fortgeschrittene Demenz",
+      "ids": [
+        "schizophrenie",
+        "demenz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Bluthochdruck, Herzrhythmusstörungen, Angina pectoris",
+      "ids": [
+        "hypertonie",
+        "herzrhythmusstoerung",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre in der Vorgeschichte",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Psychosen in der Vorgeschichte",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Zusammen mit Levodopa verstärkte Levodopa-Nebenwirkungen (Überbewegungen, Halluzinationen, Blutdruckabfall) – Levodopa-Dosis meist reduzieren",
+      "ids": [
+        "parkinson",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Antidepressiva: SSRI, SNRI und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "grund": "Gefahr eines Serotoninsyndroms und schwerer Blutdruckkrisen."
+    },
+    {
+      "text": "Andere MAO-Hemmer, auch Moclobemid und Linezolid",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid",
+        "linezolid"
+      ],
+      "grund": "Wegfall der MAO-B-Selektivität – Gefahr von Blutdruckkrisen und Serotoninsyndrom."
+    },
+    {
+      "text": "Sympathomimetika (z. B. Pseudoephedrin, Ephedrin in Schnupfen- und Grippemitteln)",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "grund": "Gefahr einer hypertensiven Krise (gefährlicher Blutdruckanstieg)."
+    },
+    {
+      "text": "Opioide wie Pethidin",
+      "ref": [
+        "pethidin"
+      ],
+      "grund": "Schwere, teils lebensbedrohliche Reaktionen mit Erregung, Fieber und Kreislaufstörungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Tramadol, Dextromethorphan, Triptane und andere serotonerge Mittel",
+      "ref": [
+        "tramadol",
+        "dextromethorphan",
+        "gruppe:triptane",
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel und Östrogene",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Der Selegilin-Spiegel steigt stark – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Levodopa-Präparate",
+      "ref": [
+        "levodopa-benserazid",
+        "levodopa-carbidopa"
+      ],
+      "effekt": "Verstärkte Levodopa-Wirkung und -Nebenwirkungen – Levodopa-Dosis meist reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tyraminreiche Nahrungsmittel (z. B. lange gereifter Käse) bei höherer Selegilin-Dosis",
+      "ref": [],
+      "effekt": "Bei Dosen über der üblichen Tagesdosis geht die Selektivität verloren – Blutdruckanstieg möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Mundtrockenheit",
+      "Übelkeit",
+      "Schwindel",
+      "Schlafstörungen",
+      "Verstärkung von Levodopa-Nebenwirkungen: Dyskinesien (Überbewegungen), Unruhe, Halluzinationen, Verwirrtheit"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Herzrhythmusstörungen, Herzklopfen, Angina-pectoris-Beschwerden",
+      "Blutdruckabfall beim Aufstehen",
+      "Erhöhte Leberwerte",
+      "Impulskontrollstörungen (z. B. Spielsucht, Kaufsucht)",
+      "Hautreaktionen",
+      "Störungen beim Wasserlösen"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nicht anwenden.",
+  "stillzeit": "Nicht anwenden; Selegilin kann zudem die Milchbildung hemmen.",
+  "hinweise": [
+    "Morgens oder auf Morgen und Mittag verteilt einnehmen, nicht abends (Schlafstörungen).",
+    "Keine Schnupfen-, Grippe- oder Hustenmittel mit Pseudoephedrin, Ephedrin oder Dextromethorphan ohne Rücksprache einnehmen.",
+    "Vor jedem neuen Antidepressivum oder Schmerzmittel die Einnahme von Selegilin angeben."
+  ],
+  "stand": "2026-10"
+}

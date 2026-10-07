@@ -1,0 +1,190 @@
+{
+  "id": "lipidemulsion",
+  "name": "Lipidemulsion",
+  "synonyme": [
+    "Fettemulsion",
+    "Lipid emulsion",
+    "Intravenöse Fettemulsion"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "B05BA02"
+  ],
+  "klasse": "Parenterale Ernährung (Fettemulsion)",
+  "kurz": "Fettemulsion zur künstlichen Ernährung über die Vene; liefert Energie und lebenswichtige Fettsäuren.",
+  "gruppen": [],
+  "handelsnamen": [
+    "SMOFlipid",
+    "Intralipid",
+    "Omegaven",
+    "ClinOleic",
+    "Lipofundin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Emulsion zur Infusion"
+  ],
+  "indikationen": [
+    {
+      "text": "Zufuhr von Energie und essenziellen Fettsäuren als Teil einer parenteralen Ernährung, wenn Ernährung über den Mund oder eine Sonde nicht möglich oder ungenügend ist",
+      "ids": [
+        "mangelernaehrung",
+        "malabsorption"
+      ]
+    },
+    {
+      "text": "Ergänzung mit Omega-3-Fettsäuren aus Fischöl als Teil einer parenteralen Ernährung (Omegaven)",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Liefert dem Körper Energie und lebenswichtige Fettsäuren, wenn er nicht über den Darm ernährt werden kann. Die Emulsion besteht aus feinen Fetttröpfchen aus Soja-, Oliven-, Fisch- oder Kokosöl (mittelkettige Triglyceride), die mit Eilecithin stabilisiert sind und sich im Blut ähnlich wie natürliche Chylomikronen verhalten. Die Lipoproteinlipase spaltet die Triglyceride in freie Fettsäuren, die zur Energiegewinnung und zum Aufbau von Zellmembranen dienen; essenzielle Fettsäuren beugen einem Mangel vor.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Ei-, Soja- oder Erdnusseiweiss oder Fisch (je nach Präparat)",
+      "ids": [
+        "erdnuss-sojaallergie",
+        "nahrungsmittelallergie"
+      ]
+    },
+    {
+      "text": "Schwere Fettstoffwechselstörung mit stark erhöhten Blutfetten",
+      "ids": [
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Gerinnungsstörungen",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz ohne Nierenersatzverfahren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Akuter Schock und instabile Zustände (z. B. akuter Herzinfarkt, Schlaganfall, Embolie, metabolische Azidose, schwere Sepsis)",
+      "ids": [
+        "schock",
+        "herzinfarkt",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Überwässerung, akutes Lungenödem, dekompensierte Herzinsuffizienz",
+      "ids": [
+        "oedeme",
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Triglyceride im Blut regelmässig kontrollieren (Gefahr eines Fettüberladungssyndroms)",
+      "ids": [
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Gestörter Fettstoffwechsel bei Diabetes, Pankreatitis, Leberfunktionsstörung, Schilddrüsenunterfunktion oder Sepsis",
+      "ids": [
+        "diabetes",
+        "pankreatitis",
+        "hypothyreose",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Früh- und Neugeborene: langsam infundieren, Triglyceride und Bilirubin kontrollieren, vor Licht schützen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Katheterinfektionen bei parenteraler Ernährung",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Fischölhaltige Emulsionen bei Blutverdünnung: verlängerte Blutungszeit möglich",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Fischölhaltige Emulsion (Omegaven) mit Antikoagulanzien oder Plättchenhemmern",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Verlängerte Blutungszeit und gehemmte Plättchenfunktion möglich – vorsichtig anwenden, ggf. Dosis des Blutverdünners anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Sojaölhaltige Emulsionen enthalten etwas Vitamin K1 – meist ohne Bedeutung; bei längerer Ernährung INR kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Heparine",
+      "ref": [
+        "gruppe:heparine"
+      ],
+      "effekt": "Heparin setzt vorübergehend Lipoproteinlipase frei – kurzfristig mehr, danach vorübergehend weniger Fettabbau im Blut.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Leichter Anstieg der Körpertemperatur"
+    ],
+    "gelegentlich": [
+      "Schüttelfrost",
+      "Appetitlosigkeit",
+      "Übelkeit, Erbrechen"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen (z. B. Hautausschlag, Nesselsucht, anaphylaktische Reaktion)",
+      "Blutdruckabfall oder -anstieg",
+      "Atemnot (Dyspnoe), Herzrasen",
+      "Kopfschmerzen, Hitze- oder Kältegefühl",
+      "Schmerzen in Nacken, Rücken, Knochen, Brust oder Lendenbereich"
+    ],
+    "sehrSelten": [
+      "Priapismus (schmerzhafte Dauererektion)"
+    ],
+    "unbekannt": [
+      "Fettüberladungssyndrom (Fieber, Fettleber, Leber- und Milzvergrösserung, Blutgerinnungsstörung, Koma)",
+      "Erhöhte Leberwerte und Gallenstau bei langdauernder parenteraler Ernährung"
+    ]
+  },
+  "schwangerschaft": "Bei klarer Notwendigkeit als Teil einer parenteralen Ernährung möglich; Daten sind begrenzt.",
+  "stillzeit": "Bei klarer Notwendigkeit möglich; Daten sind begrenzt.",
+  "hinweise": [
+    "Triglyceride, Blutzucker, Leberwerte und Blutbild werden regelmässig kontrolliert.",
+    "Die vorgegebene Infusionsgeschwindigkeit nicht überschreiten (Gefahr eines Fettüberladungssyndroms).",
+    "Kann Laborwerte (z. B. Bilirubin, Hämoglobin, Sauerstoffsättigung) verfälschen – Blut möglichst erst einige Stunden nach Infusionsende abnehmen.",
+    "Bei Neugeborenen und Kleinkindern Beutel und Infusionsleitung vor Licht schützen."
+  ],
+  "stand": "2026-10"
+}

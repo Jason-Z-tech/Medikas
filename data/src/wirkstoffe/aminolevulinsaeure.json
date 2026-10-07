@@ -1,0 +1,177 @@
+{
+  "id": "aminolevulinsaeure",
+  "name": "Aminolevulinsäure",
+  "synonyme": [
+    "5-Aminolävulinsäure",
+    "5-ALA",
+    "Aminolevulinsäurehydrochlorid",
+    "Aminolevulinic acid",
+    "Delta-Aminolävulinsäure"
+  ],
+  "atc": [
+    "L01XD04"
+  ],
+  "klasse": "Photosensibilisator (photodynamische Therapie der Haut, Fluoreszenzdiagnostik bei Hirntumoren)",
+  "kurz": "Macht Krebszellen lichtempfindlich bzw. sichtbar: als Gel zur Lichttherapie von Hautkrebsvorstufen, als Trinklösung bei Hirntumor-Operationen.",
+  "gruppen": [
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Ameluz",
+    "Gliolan"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Gel",
+    "Pulver zur Herstellung einer Lösung zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Aktinische Keratosen (Krebsvorstufen der Haut durch Sonnenschäden) und Feldkanzerisierung, mit Rotlicht- oder Tageslicht-Therapie (Gel)",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Oberflächliches und/oder knotiges Basalzellkarzinom, wenn eine Operation ungeeignet ist (Gel)",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Sichtbarmachen von Tumorgewebe während der Operation bösartiger Hirntumoren (malignes Gliom, WHO-Grad III–IV) bei Erwachsenen (Lösung zum Einnehmen)",
+      "ids": [
+        "hirntumor"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Macht Krebszellen lichtempfindlich bzw. unter Blaulicht sichtbar. Aminolevulinsäure (5-Aminolävulinsäure) ist eine natürliche Vorstufe des Blutfarbstoffs Häm; von aussen zugeführt, wird sie vor allem in Tumorzellen und Krebsvorstufen zu Protoporphyrin IX umgewandelt, das sich dort anreichert. Bei Belichtung mit Rotlicht oder Tageslicht entstehen reaktive Sauerstoffverbindungen, die die Zellen zerstören (photodynamische Therapie). Unter blauem Licht leuchtet Protoporphyrin IX rot auf und hilft so bei der Operation, Tumorgewebe von gesundem Hirngewebe zu unterscheiden.",
+  "kontraindikationen": [
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen Porphyrine; beim Gel auch Soja- oder Erdnussallergie (enthält Soja-Phosphatidylcholin)",
+      "ids": [
+        "erdnuss-sojaallergie"
+      ]
+    },
+    {
+      "text": "Gel: lichtempfindliche Hauterkrankungen (Photodermatosen, z. B. Lupus erythematodes, polymorphe Lichtdermatose, Xeroderma pigmentosum)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Lösung zum Einnehmen: Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lichtschutz: nach Einnahme der Trinklösung 24 Stunden Augen und Haut vor starkem Licht schützen; nach Gel-Behandlung die behandelte Stelle 48 Stunden vor Sonne schützen",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: Blutdruckabfall während der Narkose möglich (Lösung zum Einnehmen)",
+      "ids": [
+        "hypotonie",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Bestehende neurologische Ausfälle vor der Hirntumoroperation: können sich nach fluoreszenzgestützter Entfernung verstärken",
+      "ids": [
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion: keine Erfahrungen (Lösung zum Einnehmen)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: keine ausreichenden Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "effekt": "Verstärkt die Lichtempfindlichkeit – Gefahr starker phototoxischer Hautreaktionen; nach Einnahme der Trinklösung bis 2 Wochen meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lichtempfindlich machende Antibiotika (Tetracycline, Fluorchinolone, Sulfonamide)",
+      "ref": [
+        "gruppe:tetracycline",
+        "gruppe:fluorchinolone",
+        "gruppe:sulfonamide"
+      ],
+      "effekt": "Verstärkte phototoxische Reaktion – nach Einnahme der Trinklösung bis 2 Wochen meiden; vor einer Gel-Behandlung ärztlich besprechen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Weitere lichtempfindlich machende Mittel (z. B. Thiaziddiuretika, Sulfonylharnstoffe, Phenothiazine, Griseofulvin)",
+      "ref": [
+        "gruppe:photosensibilisierend",
+        "gruppe:thiaziddiuretika",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Phototoxische Reaktionen können sich verstärken – Lichtschutz besonders beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Medikamente (nach Einnahme der Trinklösung)",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Die Trinklösung kann die Leberwerte vorübergehend erhöhen – leberschädigende Mittel in den ersten 24 Stunden nach der Einnahme vermeiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Gel: Rötung, Schmerzen und Brennen an der behandelten Stelle während und nach der Belichtung",
+      "Gel: Juckreiz, Schwellung, Schuppung und Krustenbildung an der behandelten Stelle"
+    ],
+    "haeufig": [
+      "Gel: Bläschen, oberflächliche Hautdefekte (Erosionen) und Absonderung an der behandelten Stelle",
+      "Lösung zum Einnehmen: Übelkeit und Erbrechen",
+      "Lösung zum Einnehmen: vorübergehender Anstieg von Leberwerten und Bilirubin",
+      "Lösung zum Einnehmen: Anämie, Thrombozytopenie",
+      "Lösung zum Einnehmen: neurologische Störungen nach der Operation (z. B. Halbseitenlähmung, Sprachstörung, Krampfanfälle)"
+    ],
+    "gelegentlich": [
+      "Lösung zum Einnehmen: Blutdruckabfall (Hypotonie)",
+      "Lösung zum Einnehmen: sonnenbrandähnliche Hautreaktion bei Lichteinwirkung",
+      "Lösung zum Einnehmen: Hirnödem"
+    ]
+  },
+  "schwangerschaft": "Lösung zum Einnehmen: in der Schwangerschaft kontraindiziert. Gel: keine ausreichenden Erfahrungen – vorsichtshalber nicht anwenden.",
+  "stillzeit": "Nach Einnahme der Trinklösung 24 Stunden, nach Anwendung des Gels 12 Stunden nicht stillen.",
+  "hinweise": [
+    "Nach Einnahme der Trinklösung 24 Stunden lang Augen und Haut vor starkem Licht schützen (direkte Sonne, helle Lampen).",
+    "Nach einer Gel-Behandlung die behandelte Stelle 48 Stunden vor Sonnenlicht schützen.",
+    "Die Lichttherapie erfolgt durch Fachpersonen; Schmerzen während der Belichtung lassen sich durch Kühlen oder Pausen lindern."
+  ],
+  "stand": "2026-10"
+}

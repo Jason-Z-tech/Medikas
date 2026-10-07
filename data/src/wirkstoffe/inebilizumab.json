@@ -1,0 +1,166 @@
+{
+  "id": "inebilizumab",
+  "name": "Inebilizumab",
+  "synonyme": [
+    "MEDI-551"
+  ],
+  "atc": [
+    "L04AG10"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen CD19 (B-Zell-depletierend); Immunsuppressivum",
+  "kurz": "Infusion gegen Neuromyelitis-optica-Spektrum-Erkrankung (NMOSD); baut antikörperbildende B-Zellen ab und beugt Schüben vor.",
+  "gruppen": [
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Uplizna"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Neuromyelitis-optica-Spektrum-Erkrankung (NMOSD) bei Erwachsenen mit Antikörpern gegen Aquaporin-4 (Monotherapie zur Schubvorbeugung)",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert die B-Lymphozyten, die bei NMOSD schädliche Antikörper gegen Aquaporin-4 bilden und so Sehnerv und Rückenmark entzünden. Inebilizumab ist ein humanisierter monoklonaler IgG1-Antikörper gegen das Oberflächenmolekül CD19. Weil CD19 auch auf Plasmablasten und einem Teil der Plasmazellen vorkommt, erfasst er ein breiteres Spektrum von B-Zellen als CD20-Antikörper. Die Zellen werden vor allem über antikörperabhängige zelluläre Zytotoxizität (ADCC) abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere aktive Infektion, einschliesslich aktiver chronischer Infektionen wie Hepatitis B",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Aktive oder unbehandelte latente Tuberkulose",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Progressive multifokale Leukoenzephalopathie (PML) in der Vorgeschichte",
+      "ids": []
+    },
+    {
+      "text": "Stark geschwächtes Immunsystem",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Aktive Krebserkrankung",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infusionsreaktionen: Vorbehandlung mit Kortison, Antihistaminikum und Fiebermittel, danach Überwachung",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Infektionen; vor Beginn auf Hepatitis B und Tuberkulose testen (Reaktivierung möglich)",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b",
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Abnahme der Antikörperspiegel (Hypogammaglobulinämie) bei längerer Behandlung – Immunglobuline kontrollieren",
+      "ids": [
+        "immunsuppression",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Neutropenie, auch verzögert auftretend – Blutbild kontrollieren",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Neue neurologische Symptome: an PML denken",
+      "ids": []
+    },
+    {
+      "text": "Impfungen mindestens 4 Wochen vor Beginn abschliessen",
+      "ids": [
+        "impfung",
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Während der Behandlung und bis zur Erholung der B-Zellen nicht verabreichen (Infektionsgefahr).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere B-Zell-depletierende Antikörper (z. B. Rituximab, Ocrelizumab, Ofatumumab)",
+      "ref": [
+        "rituximab",
+        "ocrelizumab",
+        "ofatumumab"
+      ],
+      "effekt": "Verstärkte und verlängerte Immunsuppression – Kombination vermeiden, beim Wechsel Abstand und Blutbild beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immunsuppressiva, inkl. hoch dosierter Glukokortikoide",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Zusätzlich erhöhtes Infektionsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [],
+      "effekt": "Impfantwort während der B-Zell-Verminderung abgeschwächt; möglichst vor Behandlungsbeginn impfen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Harnwegsinfekte",
+      "Gelenkschmerzen"
+    ],
+    "haeufig": [
+      "Infusionsreaktionen (z. B. Kopfschmerzen, Übelkeit, Schläfrigkeit, Atemnot, Fieber)",
+      "Nasen-Rachen-Entzündung, Infekte der oberen Atemwege",
+      "Kopfschmerzen",
+      "Rückenschmerzen"
+    ],
+    "unbekannt": [
+      "Hypogammaglobulinämie (verminderte Antikörperspiegel)",
+      "Neutropenie (Mangel an weissen Blutkörperchen), auch verzögert",
+      "Hepatitis-B-Reaktivierung",
+      "Progressive multifokale Leukoenzephalopathie (PML)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt klar. Frauen im gebärfähigen Alter sollen während der Behandlung und bis 6 Monate nach der letzten Infusion verhüten; beim Neugeborenen können die B-Zellen vermindert sein.",
+  "stillzeit": "Keine ausreichenden Daten; über Stillen ist ärztlich zu entscheiden.",
+  "hinweise": [
+    "Vor jeder Infusion erfolgt eine Vorbehandlung gegen Infusionsreaktionen; danach mindestens eine Stunde Überwachung.",
+    "Vor Beginn: Tests auf Hepatitis B und Tuberkulose; Impfungen mindestens 4 Wochen vorher abschliessen.",
+    "Fieber oder andere Infektzeichen umgehend ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

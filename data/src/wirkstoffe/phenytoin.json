@@ -1,0 +1,313 @@
+{
+  "id": "phenytoin",
+  "name": "Phenytoin",
+  "synonyme": [
+    "Diphenylhydantoin",
+    "Phenytoin-Natrium"
+  ],
+  "atc": [
+    "N03AB02"
+  ],
+  "klasse": "Antiepileptikum (Hydantoin-Derivat, Natriumkanalblocker)",
+  "kurz": "Mittel gegen Epilepsie als Tablette und beim Status epilepticus als Spritze; enger Dosisbereich und viele Wechselwirkungen.",
+  "gruppen": [
+    "antiepileptika",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "p-gp-induktoren",
+    "cyp2c9-substrate-eng",
+    "cyp2c19-substrate",
+    "teratogen",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Phenhydan"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Epilepsie: fokale Anfälle und generalisierte tonisch-klonische Anfälle (Grand mal)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Status epilepticus und gehäufte Anfälle (Injektionslösung)",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stabilisiert die Nervenzellen und verhindert so, dass sich Krampfaktivität im Gehirn ausbreitet. Phenytoin blockiert spannungsabhängige Natriumkanäle bevorzugt im inaktivierten Zustand, also vor allem bei schnell und wiederholt feuernden Nervenzellen. Es wird über CYP2C9 und CYP2C19 abgebaut; weil dieser Abbau sättigbar ist, steigt der Spiegel bei höheren Dosen überproportional an (enger therapeutischer Bereich, etwa 10–20 mg/l). Zudem induziert Phenytoin stark CYP3A4 und andere Enzyme und beschleunigt so den Abbau vieler Arzneimittel.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Hydantoine",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Vorbestehende schwere Schädigung von Knochenmark oder Blutzellen",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "AV-Block II. oder III. Grades, Sinusknotensyndrom",
+      "ids": [
+        "av-block",
+        "sick-sinus-syndrom"
+      ]
+    },
+    {
+      "text": "In den ersten 3 Monaten nach einem Herzinfarkt oder bei stark eingeschränkter Herzleistung (Auswurfleistung unter 35 %)",
+      "ids": [
+        "herzinfarkt",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Injektion: Sinusbradykardie, SA-Block, Adams-Stokes-Anfälle",
+      "ids": [
+        "bradykardie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leberfunktion, niedriges Bluteiweiss (Albumin), ältere Menschen – Spiegel schwer abschätzbar",
+      "ids": [
+        "leberinsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, tiefer Blutdruck (besonders bei rascher Injektion)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Genetische Besonderheiten: langsamer CYP2C9-Abbau (Vergiftungsgefahr) und HLA-B*1502 bei Menschen asiatischer Herkunft (schwere Hautreaktionen)",
+      "ids": [
+        "pharmakogenetik",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzuckeranstieg möglich)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken (unter Antiepileptika vermehrt beschrieben)",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: fruchtschädigend, hormonale Verhütung unzuverlässig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Knochenschwund und Vitamin-D-Mangel",
+      "ids": [
+        "osteoporose",
+        "vitamin-d-mangel"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Rilpivirin (auch in Kombinationspräparaten)",
+      "ref": [
+        "rilpivirin",
+        "dolutegravir-rilpivirin",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil"
+      ],
+      "grund": "Starke Senkung des Rilpivirin-Spiegels – Verlust der HIV-Wirkung und Resistenzentwicklung."
+    },
+    {
+      "text": "Doravirin (auch in Kombinationspräparaten)",
+      "ref": [
+        "doravirin",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "grund": "Starke Senkung des Doravirin-Spiegels – Verlust der HIV-Wirkung und Resistenzentwicklung."
+    },
+    {
+      "text": "Sofosbuvir/Velpatasvir (mit oder ohne Voxilaprevir)",
+      "ref": [
+        "sofosbuvir-velpatasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "grund": "Induktion von P-Glykoprotein und CYP-Enzymen senkt die Spiegel – Hepatitis-C-Behandlung kann versagen."
+    },
+    {
+      "text": "Lurasidon",
+      "ref": [
+        "lurasidon"
+      ],
+      "grund": "Starke CYP3A4-Induktion senkt den Lurasidon-Spiegel – Wirkverlust des Antipsychotikums."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "CYP2C9- und CYP2C19-Hemmer (z. B. Fluconazol, Amiodaron, Miconazol, Fluvoxamin, Omeprazol in hoher Dosis)",
+      "ref": [
+        "gruppe:cyp2c9-hemmer",
+        "gruppe:cyp2c19-hemmer"
+      ],
+      "effekt": "Phenytoin-Spiegel steigt – Vergiftungszeichen wie Augenzittern und Gangunsicherheit; Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Isoniazid, Cotrimoxazol, Disulfiram, Chloramphenicol",
+      "ref": [
+        "isoniazid",
+        "sulfamethoxazol-trimethoprim",
+        "disulfiram",
+        "chloramphenicol"
+      ],
+      "effekt": "Gehemmter Abbau mit Anstieg des Phenytoin-Spiegels – Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz unsicher – nichthormonal verhüten (z. B. Kupferspirale), auch bis 4 Wochen nach Absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gegenseitige, schwer vorhersehbare Beeinflussung von Gerinnung und Phenytoin-Spiegel – INR und Spiegel eng kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "DOAK (z. B. Rivaroxaban, Apixaban, Edoxaban, Dabigatran)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Deutlich tiefere Spiegel mit Gefahr von Thrombosen und Schlaganfall – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate und Calcineurin-Hemmer (z. B. Ciclosporin, Tacrolimus, Statine, Calciumantagonisten, viele Krebsmittel)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Beschleunigter Abbau mit Wirkverlust – Spiegel und Wirkung kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Mittel (Proteasehemmer, NNRTI, Integrasehemmer)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "gruppe:nnrti",
+        "gruppe:integrasehemmer"
+      ],
+      "effekt": "Wirkverlust und Resistenzgefahr – Kombination meist vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azol-Antimykotika (z. B. Voriconazol, Itraconazol, Posaconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Spiegel des Pilzmittels sinkt stark, gleichzeitig kann der Phenytoin-Spiegel steigen – Kombination möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Verdrängung aus der Eiweissbindung und gegenseitige Spiegelveränderungen – freies Phenytoin messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Antiepileptika (z. B. Carbamazepin, Phenobarbital, Lamotrigin)",
+      "ref": [
+        "carbamazepin",
+        "phenobarbital",
+        "lamotrigin"
+      ],
+      "effekt": "Gegenseitige Beeinflussung der Spiegel – Spiegelkontrollen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Abgeschwächte Kortisonwirkung – Dosis gegebenenfalls erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida und Calciumpräparate",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Phenytoin – zeitlichen Abstand von 2–3 Stunden einhalten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Folsäure",
+      "ref": [
+        "folsaeure"
+      ],
+      "effekt": "Phenytoin kann einen Folsäuremangel verursachen; hohe Folsäuredosen können den Phenytoin-Spiegel senken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Augenzittern (Nystagmus), Doppeltsehen, Gangunsicherheit, verwaschene Sprache (oft Zeichen zu hoher Spiegel)",
+      "Schwindel, Müdigkeit, Verwirrtheit",
+      "Zahnfleischwucherung (Gingivahyperplasie), vermehrte Körperbehaarung, Vergröberung der Gesichtszüge",
+      "Hautausschlag; schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Blutbildveränderungen (z. B. Agranulozytose, Thrombozytopenie, megaloblastäre Anämie)",
+      "Leberentzündung bis Leberversagen",
+      "Knochenerweichung und Knochenschwund bei Langzeitbehandlung",
+      "Injektion: Blutdruckabfall, Herzrhythmusstörungen, Gewebeschäden an der Injektionsstelle (Purple-Glove-Syndrom)"
+    ]
+  },
+  "schwangerschaft": "Fruchtschädigend (fetales Hydantoin-Syndrom mit Fehlbildungen sowie Wachstums- und Entwicklungsstörungen) – nur wenn unverzichtbar, mit Folsäure und Spiegelkontrollen. Beim Neugeborenen ist eine Blutungsneigung möglich (Vitamin-K-Gabe).",
+  "stillzeit": "Geht nur in geringen Mengen in die Muttermilch über; Stillen ist in der Regel möglich, Säugling auf Schläfrigkeit und Trinkschwäche beobachten.",
+  "hinweise": [
+    "Regelmässige Kontrollen von Spiegel, Blutbild und Leberwerten; schon kleine Dosisänderungen können den Spiegel stark verändern.",
+    "Gute Mundhygiene und regelmässige Zahnkontrollen (Zahnfleischwucherung).",
+    "Nicht abrupt absetzen und das Präparat nicht ohne ärztliche Rücksprache wechseln.",
+    "Bei Hautausschlag, Fieber, Halsschmerzen oder Gelbfärbung der Haut sofort ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

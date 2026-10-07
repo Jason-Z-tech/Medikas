@@ -1,0 +1,169 @@
+{
+  "id": "trastuzumab-deruxtecan",
+  "name": "Trastuzumab Deruxtecan",
+  "synonyme": [
+    "T-DXd",
+    "DS-8201"
+  ],
+  "atc": [
+    "L01FD04"
+  ],
+  "klasse": "Antikörper-Wirkstoff-Konjugat (Anti-HER2-Antikörper mit dem Topoisomerase-I-Hemmer Deruxtecan)",
+  "kurz": "Antikörper mit angehängtem Zellgift bei HER2-positivem oder HER2-armem Brustkrebs sowie bei bestimmten Magen- und Lungenkrebsarten.",
+  "gruppen": [
+    "myelosuppressiv",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Enhertu"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver für ein Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "HER2-positiver nicht operabler oder metastasierter Brustkrebs nach mindestens einer Anti-HER2-Vorbehandlung",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "HER2-armer (HER2-low) nicht operabler oder metastasierter Brustkrebs nach Chemotherapie im metastasierten Stadium oder bei frühem Rückfall nach Chemotherapie",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "HER2-positiver fortgeschrittener Magenkrebs oder Krebs am Übergang von Speiseröhre zu Magen nach Trastuzumab-haltiger Vortherapie",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs mit aktivierender HER2-Mutation nach Vortherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bringt ein starkes Zellgift gezielt in Krebszellen mit dem Oberflächenmerkmal HER2. Der Anti-HER2-Antikörper (gleiche Aminosäuresequenz wie Trastuzumab) ist über einen spaltbaren Linker an rund acht Moleküle Deruxtecan gebunden, einen Hemmer der Topoisomerase I. Nach Aufnahme in die Zelle wird das Zellgift freigesetzt, verursacht DNA-Schäden und den Zelltod. Da es durch Zellmembranen dringt, schädigt es auch benachbarte Tumorzellen (Bystander-Effekt) – deshalb wirkt es auch bei Tumoren mit wenig HER2.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Interstitielle Lungenerkrankung / Pneumonitis, auch tödlich – frühere Lungenerkrankung erhöht das Risiko; bei Husten, Atemnot oder Fieber sofort melden",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Neutropenie – Blutbild vor jeder Gabe",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Herzpumpfunktion – Herzultraschall vor und während der Behandlung",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Starke Übelkeit und Erbrechen – vorbeugende Mittel gegen Übelkeit",
+      "ids": [
+        "uebelkeit"
+      ]
+    },
+    {
+      "text": "Mittelschwere Nierenfunktionsstörung (häufiger Lungenentzündung) und mittelschwere bis schwere Leberfunktionsstörung (wenig Daten)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nicht mit Trastuzumab oder Trastuzumab Emtansin austauschen",
+      "ids": []
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer mit Partnerin: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere herzmuskelschädigende Mittel (z. B. Anthrazykline)",
+      "ref": [
+        "gruppe:kardiotoxisch"
+      ],
+      "effekt": "Höheres Risiko einer Herzschwäche – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Bei geschwächter Abwehr Gefahr einer Impfinfektion – nur nach ärztlicher Rücksprache impfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- und OATP1B-Hemmer (z. B. Ritonavir, Itraconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:oatp1b-hemmer"
+      ],
+      "effekt": "Leicht erhöhte Konzentrationen ohne Dosisanpassung – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen",
+      "Müdigkeit",
+      "Haarausfall",
+      "Neutropenie, Anämie, Thrombozytopenie, Leukopenie",
+      "Appetitlosigkeit, Verstopfung, Durchfall",
+      "Erhöhte Leberwerte",
+      "Interstitielle Lungenerkrankung / Pneumonitis",
+      "Husten, Nasenbluten, Hypokaliämie (Kaliummangel)"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie (Fieber bei Mangel an weissen Blutkörperchen)",
+      "Verminderte Herzpumpfunktion (Abfall der Auswurffraktion)",
+      "Infusionsbedingte Reaktionen",
+      "Lungenentzündung (Pneumonie)",
+      "Verschwommenes Sehen",
+      "Trockene Haut, Juckreiz, Ausschlag",
+      "Geschmacksstörung, Schwindel"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden: Schädigung des Ungeborenen zu erwarten (Zellgift, Fruchtwassermangel durch Anti-HER2-Wirkung). Frauen verhüten während der Behandlung und 7 Monate danach, Männer mit Partnerin 4 Monate danach.",
+  "stillzeit": "Während der Behandlung und 7 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Neuen oder stärkeren Husten, Atemnot oder Fieber sofort melden (mögliche Lungenentzündung) – auch zwischen den Infusionen.",
+    "Vor jeder Infusion gibt es Mittel gegen Übelkeit; bei Bedarf auch für zu Hause.",
+    "Blutbild, Herzfunktion und Lunge werden regelmässig kontrolliert.",
+    "Nicht durch Trastuzumab oder Trastuzumab Emtansin ersetzbar."
+  ],
+  "stand": "2026-10"
+}

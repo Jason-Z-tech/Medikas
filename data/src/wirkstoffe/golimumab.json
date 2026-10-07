@@ -1,0 +1,208 @@
+{
+  "id": "golimumab",
+  "name": "Golimumab",
+  "synonyme": [
+    "CNTO 148"
+  ],
+  "atc": [
+    "L04AB06"
+  ],
+  "klasse": "TNF-alpha-Hemmer (humaner monoklonaler Antikörper)",
+  "kurz": "Biologikum zur monatlichen Spritze gegen entzündliches Rheuma, Morbus Bechterew und Colitis ulcerosa; blockiert den Botenstoff TNF-alpha.",
+  "gruppen": [
+    "tnf-alpha-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Simponi"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen oder in Fertigspritze (subkutan)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis bei Erwachsenen, in Kombination mit Methotrexat",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Aktive Psoriasis-Arthritis bei Erwachsenen",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Axiale Spondyloarthritis (Morbus Bechterew und nicht-röntgenologische Form)",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere aktive Colitis ulcerosa bei Erwachsenen mit ungenügendem Ansprechen auf eine konventionelle Therapie",
+      "ids": [
+        "colitis-ulcerosa"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt den Entzündungsbotenstoff TNF-alpha, der bei Rheuma und chronisch-entzündlichen Darmerkrankungen die Entzündung antreibt. Golimumab ist ein vollständig humaner monoklonaler IgG1-Antikörper, der lösliches und membrangebundenes TNF-alpha mit hoher Affinität bindet und so dessen Bindung an die TNF-Rezeptoren verhindert. Dadurch sinken Entzündungsmarker wie CRP und Interleukin-6, und die Gewebeschädigung wird gebremst. Wegen der langen Halbwertszeit genügt eine Injektion pro Monat.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive Tuberkulose oder andere schwere Infektionen wie Sepsis oder opportunistische Infektionen",
+      "ids": [
+        "tuberkulose",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere Herzinsuffizienz (NYHA III/IV)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Latente Tuberkulose (vor Beginn testen und ggf. behandeln) und Hepatitis-B-Trägerstatus (Gefahr der Reaktivierung)",
+      "ids": [
+        "tuberkulose",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Wiederkehrende oder chronische Infektionen, ältere Menschen",
+      "ids": [
+        "infektanfaelligkeit",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Leichte Herzinsuffizienz (NYHA I/II): Verschlechterung möglich",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bösartige Erkrankungen, besonders Lymphome und Hautkrebs; bei Colitis ulcerosa regelmässige Darmspiegelungen wegen Dysplasie- und Darmkrebsrisiko",
+      "ids": [
+        "krebs",
+        "lymphom",
+        "hautkrebs",
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Demyelinisierende Erkrankungen wie Multiple Sklerose",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (Panzytopenie, Leukopenie, Thrombozytopenie)",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Latexallergie: Die Nadelschutzkappe enthält Naturkautschuk (Latex)",
+      "ids": [
+        "latexallergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Anakinra und Abatacept",
+      "ref": [
+        "anakinra",
+        "abatacept"
+      ],
+      "effekt": "Mehr schwere Infektionen ohne zusätzlichen Nutzen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere TNF-alpha-Hemmer und biologische Immunmodulatoren",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer"
+      ],
+      "effekt": "Nicht kombinieren – erhöhtes Infektionsrisiko.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe und therapeutische Infektionserreger (z. B. BCG-Blaseninstillation)",
+      "ref": [
+        "gruppe:lebendimpfstoffe",
+        "bcg-intravesikal"
+      ],
+      "effekt": "Gefahr einer ausgedehnten Infektion – nicht gleichzeitig anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azathioprin und Mercaptopurin",
+      "ref": [
+        "azathioprin",
+        "gruppe:thiopurine"
+      ],
+      "effekt": "Unter der Kombination wurden seltene hepatosplenische T-Zell-Lymphome beobachtet, v. a. bei jungen Männern – Nutzen sorgfältig abwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Senkt die Bildung von Antikörpern gegen Golimumab; bei rheumatoider Arthritis vorgesehene Kombination.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege (Nasen-Rachen-Entzündung, Schnupfen)"
+    ],
+    "haeufig": [
+      "Bakterielle und virale Infektionen (z. B. Lungenentzündung, Grippe, Herpes, Bronchitis, Nebenhöhlenentzündung), oberflächliche Pilzinfektionen",
+      "Anämie (Blutarmut)",
+      "Allergische Reaktionen, Asthma-Beschwerden",
+      "Depression, Schlaflosigkeit",
+      "Schwindel, Kopfschmerzen, Missempfindungen, Bluthochdruck",
+      "Bauchschmerzen, Übelkeit, Verdauungsbeschwerden, Mundentzündung",
+      "Erhöhte Leberwerte, Haarausfall, Hautausschlag, Juckreiz",
+      "Fieber, Schwäche, Reaktionen an der Injektionsstelle"
+    ],
+    "gelegentlich": [
+      "Sepsis und opportunistische Infektionen",
+      "Bösartige Tumoren, Hautkrebs (ausser Melanom)",
+      "Leukopenie, Thrombozytopenie, Panzytopenie",
+      "Schilddrüsenstörungen, erhöhter Blutzucker und Blutfette",
+      "Demyelinisierende Erkrankungen",
+      "Herzinsuffizienz, Herzrhythmusstörungen"
+    ],
+    "selten": [
+      "Tuberkulose, Hepatitis-B-Reaktivierung",
+      "Lymphome, Leukämie, Melanom",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Lupus-ähnliches Syndrom",
+      "Interstitielle Lungenerkrankung"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hepatosplenisches T-Zell-Lymphom",
+      "Merkelzellkarzinom",
+      "Sarkoidose"
+    ]
+  },
+  "schwangerschaft": "Nur wenn eindeutig erforderlich; Frauen im gebärfähigen Alter sollen während und bis 6 Monate nach der letzten Dosis verhüten. Im Mutterleib exponierte Säuglinge bis 6 Monate nach der letzten Dosis in der Schwangerschaft nicht mit Lebendimpfstoffen impfen.",
+  "stillzeit": "Während und bis mindestens 6 Monate nach der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal im Monat am gleichen Kalendertag spritzen.",
+    "Vor Beginn Tuberkulose- und Hepatitis-B-Test; Impfungen möglichst vorher auffrischen.",
+    "Fieber, anhaltender Husten oder andere Infektzeichen sofort ärztlich melden.",
+    "Im Kühlschrank lagern; bei Latexallergie ärztlich melden (Nadelschutzkappe enthält Latex)."
+  ],
+  "stand": "2026-10"
+}

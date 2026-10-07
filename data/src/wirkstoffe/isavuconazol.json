@@ -1,0 +1,227 @@
+{
+  "id": "isavuconazol",
+  "name": "Isavuconazol",
+  "synonyme": [
+    "Isavuconazole",
+    "Isavuconazoniumsulfat",
+    "Isavuconazonium sulfate"
+  ],
+  "atc": [
+    "J02AC05"
+  ],
+  "klasse": "Triazol-Antimykotikum",
+  "kurz": "Pilzmittel aus der Gruppe der Azole gegen schwere, lebensbedrohliche Schimmelpilzinfektionen (Aspergillose, Mukormykose).",
+  "gruppen": [
+    "azol-antimykotika",
+    "maessige-cyp3a4-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Cresemba"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Pulver für ein Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Invasive Aspergillose (schwere Schimmelpilzinfektion, meist der Lunge)",
+      "ids": [
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Mukormykose, wenn Amphotericin B nicht geeignet ist",
+      "ids": [
+        "pilzinfektion"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Pilzen, indem es den Aufbau ihrer Zellmembran stört. Der Wirkstoff wird als Vorstufe (Isavuconazoniumsulfat) verabreicht und im Blut rasch zu Isavuconazol gespalten. Isavuconazol hemmt das pilzeigene Enzym Lanosterol-14α-Demethylase (CYP51), das für die Bildung von Ergosterol nötig ist. Ohne Ergosterol wird die Pilzmembran instabil, und es reichern sich schädliche Sterol-Vorstufen an.",
+  "kontraindikationen": [
+    {
+      "text": "Familiäres Short-QT-Syndrom (angeboren verkürzte QT-Zeit)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leberfunktion; schwere Leberinsuffizienz wurde nicht untersucht – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Azol-Antimykotika (mögliche Kreuzreaktion)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Anwendung anderer Mittel, die die QT-Zeit verkürzen (z. B. Rufinamid)",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Infusionsbedingte Reaktionen (Blutdruckabfall, Atemnot, Schüttelfrost, Schwindel) – Infusion dann abbrechen",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen wie Stevens-Johnson-Syndrom (bei Azol-Antimykotika beschrieben) – bei Ausschlag ärztlich abklären",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ketoconazol",
+      "ref": [
+        "ketoconazol"
+      ],
+      "grund": "Starke CYP3A4-Hemmung erhöht den Isavuconazol-Spiegel um ein Vielfaches – Gefahr ausgeprägter Nebenwirkungen."
+    },
+    {
+      "text": "Ritonavir in hoher Dosis (über 200 mg alle 12 Stunden)",
+      "ref": [
+        "ritonavir"
+      ],
+      "grund": "Starke CYP3A4-Hemmung erhöht den Isavuconazol-Spiegel deutlich."
+    },
+    {
+      "text": "Starke Enzyminduktoren: Rifampicin, Rifabutin, Carbamazepin, Phenytoin, langwirksame Barbiturate (z. B. Phenobarbital), Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "rifabutin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "johanniskraut"
+      ],
+      "grund": "Beschleunigter Abbau über CYP3A4 senkt den Isavuconazol-Spiegel stark – Gefahr des Therapieversagens."
+    },
+    {
+      "text": "Mässig starke Enzyminduktoren: Efavirenz, Etravirin",
+      "ref": [
+        "efavirenz",
+        "etravirin"
+      ],
+      "grund": "Induktion von CYP3A4 senkt den Isavuconazol-Spiegel deutlich – ungenügende Wirkung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "sirolimus"
+      ],
+      "effekt": "Spiegel der Immunsuppressiva steigt (Tacrolimus etwa auf das Doppelte) – Spiegel engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol) und Lopinavir/Ritonavir",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "lopinavir-ritonavir"
+      ],
+      "effekt": "Isavuconazol-Spiegel steigt; mit Lopinavir/Ritonavir sinkt zudem der Lopinavir-Spiegel – auf Nebenwirkungen und die HIV-Wirksamkeit achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mycophenolat",
+      "ref": [
+        "mycophenolat-mofetil",
+        "mycophenolsaeure"
+      ],
+      "effekt": "Spiegel der Mycophenolsäure steigt – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Atorvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Deren Spiegel steigt – auf Nebenwirkungen achten, Dosis allenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und Dabigatran (P-Glykoprotein-Substrate)",
+      "ref": [
+        "digoxin",
+        "dabigatran"
+      ],
+      "effekt": "Spiegel steigt – Digoxin-Spiegel kontrollieren, unter Dabigatran auf Blutungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Metformin-Spiegel steigt (gehemmte Ausscheidung über die Niere) – Dosis allenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bupropion",
+      "ref": [
+        "bupropion"
+      ],
+      "effekt": "Bupropion-Spiegel sinkt (Induktion von CYP2B6) – Wirkung kann nachlassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rufinamid (verkürzt ebenfalls die QT-Zeit)",
+      "ref": [
+        "rufinamid"
+      ],
+      "effekt": "Zusätzliche QT-Verkürzung möglich – Vorsicht.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Kopfschmerzen, Benommenheit (Somnolenz)",
+      "Delirium (Verwirrtheitszustand)",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Erhöhte Leberwerte",
+      "Hypokaliämie (Kaliummangel), verminderter Appetit",
+      "Atemnot, akutes Atemversagen",
+      "Ausschlag, Juckreiz",
+      "Nierenversagen"
+    ],
+    "gelegentlich": [
+      "Blutbildveränderungen (Neutropenie, Thrombozytopenie, Anämie)",
+      "Krampfanfälle, Synkope (Ohnmacht)",
+      "Periphere Neuropathie, Kribbeln",
+      "Herzrhythmusstörungen (Vorhofflimmern, Bradykardie, Tachykardie), QT-Verkürzung",
+      "Hypotonie (tiefer Blutdruck), Kreislaufkollaps",
+      "Hepatitis, Lebervergrösserung",
+      "Depression, Schlaflosigkeit",
+      "Hypoglykämie (Unterzuckerung), Hypomagnesiämie"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Schwere Hautreaktionen (z. B. Stevens-Johnson-Syndrom)"
+    ]
+  },
+  "schwangerschaft": "Im Tierversuch fruchtschädigend; nur bei lebensbedrohlicher Infektion anwenden, wenn der Nutzen das Risiko klar überwiegt. Frauen im gebärfähigen Alter sollen während der Behandlung verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Alle anderen Medikamente und pflanzlichen Mittel (z. B. Johanniskraut) angeben: sehr viele Wechselwirkungen.",
+    "Kapseln ganz schlucken, nicht kauen, zerdrücken oder öffnen; Einnahme unabhängig von den Mahlzeiten.",
+    "Leberwerte werden vor und während der Behandlung kontrolliert."
+  ],
+  "stand": "2026-10"
+}

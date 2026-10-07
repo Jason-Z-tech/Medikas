@@ -1,0 +1,189 @@
+{
+  "id": "ivosidenib",
+  "name": "Ivosidenib",
+  "synonyme": [
+    "AG-120"
+  ],
+  "atc": [
+    "L01XM02"
+  ],
+  "klasse": "IDH1-Hemmer (zielgerichtete Krebstherapie)",
+  "kurz": "Tablette gegen Krebsformen mit IDH1-Mutation: akute myeloische Leukämie (mit Azacitidin) und Gallengangskrebs.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "cyp3a4-substrate-empfindlich",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tibsovo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte akute myeloische Leukämie (AML) mit IDH1-R132-Mutation bei Erwachsenen, die keine intensive Chemotherapie erhalten können – in Kombination mit Azacitidin",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittenes oder metastasiertes Cholangiokarzinom (Gallengangskrebs) mit IDH1-R132-Mutation nach mindestens einer Vortherapie",
+      "ids": [
+        "leberkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt ein verändertes Enzym (mutierte Isocitrat-Dehydrogenase 1, IDH1), das in bestimmten Krebszellen den krebsfördernden Stoff 2-Hydroxyglutarat (2-HG) bildet. 2-HG verändert die Steuerung der Gene (epigenetisch) und blockiert die normale Ausreifung der Zellen. Ivosidenib senkt die 2-HG-Spiegel, ermöglicht so die Ausreifung von Leukämiezellen und hemmt das Tumorwachstum.",
+  "kontraindikationen": [
+    {
+      "text": "Angeborenes Long-QT-Syndrom, plötzlicher Herztod oder polymorphe Kammerrhythmusstörungen in der Familie, QTc-Zeit über 500 ms",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Differenzierungssyndrom bei AML: Fieber, Atemnot, Wassereinlagerungen, Blutdruckabfall oder Nierenversagen – lebensbedrohlich, sofort melden",
+      "ids": [
+        "leukaemie",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung: EKG vor und während der Behandlung, besonders bei Herzschwäche oder Elektrolytstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzinsuffizienz",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Guillain-Barré-Syndrom (Nervenentzündung mit Lähmungen) möglich",
+      "ids": []
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung: keine ausreichenden Daten",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: hormonale Verhütung unsicher, zusätzlich Barrieremethode",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "grund": "Senken den Ivosidenib-Spiegel stark und gefährden die Wirksamkeit."
+    },
+    {
+      "text": "Dabigatran",
+      "ref": [
+        "dabigatran"
+      ],
+      "grund": "Ivosidenib kann den Dabigatran-Spiegel senken – Gefahr von Thrombosen und Schlaganfall."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höherer Ivosidenib-Spiegel mit stärkerer QT-Verlängerung – Dosis reduzieren, EKG engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – möglichst vermeiden, sonst EKG engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ivosidenib kann deren Wirkung abschwächen – zusätzlich eine Barrieremethode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Erythromycin, Diltiazem)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Höherer Ivosidenib-Spiegel – EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Tacrolimus, Everolimus, Midazolam)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Ivosidenib induziert CYP3A4 – deren Wirkung kann abnehmen; Spiegel bzw. Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Azol-Antimykotika (z. B. Itraconazol, Ketoconazol, Posaconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Deren Spiegel kann durch Ivosidenib sinken – Wirkverlust der Pilzbehandlung möglich, Alternative erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten und andere CYP2C9-Substrate mit enger Breite",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Ivosidenib kann CYP2C9 induzieren – Blutverdünnung kann schwächer werden; INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen, Durchfall",
+      "Müdigkeit",
+      "Bauchschmerzen",
+      "Appetitlosigkeit",
+      "QT-Verlängerung im EKG",
+      "Differenzierungssyndrom bei AML (Fieber, Atemnot, Wassereinlagerungen – lebensbedrohlich)"
+    ],
+    "haeufig": [
+      "Erhöhte Leberwerte und Bilirubin",
+      "Leukozytose (Anstieg der weissen Blutkörperchen)"
+    ],
+    "unbekannt": [
+      "Guillain-Barré-Syndrom (Nervenentzündung mit Lähmungen)",
+      "Kammerrhythmusstörungen (Torsade de Pointes)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden – im Tierversuch fruchtschädigend. Wirksame Verhütung während und bis 1 Monat nach der letzten Dosis; hormonale Verhütungsmittel können unwirksam sein, daher zusätzlich eine Barrieremethode.",
+  "stillzeit": "Während der Behandlung und bis 1 Monat nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich einnehmen, nicht zusammen mit einer fettreichen Mahlzeit (erhöht die Aufnahme).",
+    "Grapefruit und Grapefruitsaft meiden.",
+    "EKG und Elektrolyte vor Beginn, in den ersten Wochen wöchentlich und danach monatlich kontrollieren.",
+    "Andere Medikamente, auch pflanzliche wie Johanniskraut, nur nach Rücksprache einnehmen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,198 @@
+{
+  "id": "vinblastin",
+  "name": "Vinblastin",
+  "synonyme": [
+    "Vinblastinsulfat",
+    "Vincaleukoblastin",
+    "Vinblastine",
+    "VLB"
+  ],
+  "atc": [
+    "L01CA01"
+  ],
+  "klasse": "Vinca-Alkaloid (Mitosehemmer); Zytostatikum",
+  "kurz": "Krebsmittel aus dem Immergrün (Vinca-Alkaloid) als Injektion, v. a. bei Lymphomen und Hodenkrebs; hemmt die Zellteilung.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "cyp3a4-substrate-empfindlich",
+    "hyponatriaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Vinblastin Teva"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Hodgkin-Lymphom und Non-Hodgkin-Lymphome",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Hodenkrebs",
+      "ids": [
+        "hodenkrebs"
+      ]
+    },
+    {
+      "text": "Langerhans-Zell-Histiozytose und Kaposi-Sarkom",
+      "ids": [
+        "sarkom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Zellteilung von Krebszellen. Vinblastin bindet an Tubulin, den Baustein der Mikrotubuli, und verhindert deren Aufbau. Ohne funktionierenden Spindelapparat bleiben die Zellen in der Metaphase der Mitose stehen und sterben ab.",
+  "kontraindikationen": [
+    {
+      "text": "Gabe in den Rückenmarkskanal (intrathekal) – tödlich; nur intravenös anwenden",
+      "ids": []
+    },
+    {
+      "text": "Ausgeprägter Mangel an weissen Blutkörperchen, der nicht durch die Krebserkrankung bedingt ist",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Nicht beherrschte bakterielle Infektionen",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Austritt neben die Vene (Paravasat): schwere Gewebeschäden; Infusionsstelle überwachen",
+      "ids": []
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorbestehende Nervenschäden oder neuromuskuläre Erkrankungen",
+      "ids": [
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit und Durchblutungsstörungen (Herzinfarkt, Schlaganfall und Raynaud-Phänomen beschrieben)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (akute Atemnot und Bronchospasmus, v. a. zusammen mit Mitomycin)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Ältere Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Itraconazol, Ketoconazol, Clarithromycin, Erythromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhte Vinblastin-Spiegel – früheres und stärkeres Auftreten von Nervenschäden und Knochenmarkhemmung; Kombination möglichst meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mitomycin",
+      "ref": [
+        "mitomycin"
+      ],
+      "effekt": "Akute Atemnot und schwere Bronchospasmen beschrieben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abgeschwächte Wirkung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel können sinken – Krampfanfälle möglich; Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende oder nervenschädigende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Additive Knochenmark- bzw. Nervenschäden – engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bleomycin und Cisplatin",
+      "ref": [
+        "bleomycin",
+        "cisplatin"
+      ],
+      "effekt": "Bei der Kombination (z. B. bei Hodenkrebs) gehäuft Raynaud-Phänomen und Gefässkomplikationen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Leukopenie (Mangel an weissen Blutkörperchen)"
+    ],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Thrombozytopenie, Anämie",
+      "Haarausfall",
+      "Übelkeit, Erbrechen, Verstopfung bis Darmlähmung (paralytischer Ileus), Mundschleimhautentzündung",
+      "Nervenschäden (Kribbeln, Taubheit, Reflexverlust), Krampfanfälle",
+      "Knochen-, Kiefer- und Tumorschmerzen",
+      "Akute Atemnot, Bronchospasmus",
+      "Bluthochdruck, Herzinfarkt, Schlaganfall, Raynaud-Phänomen",
+      "SIADH (vermehrte ADH-Ausschüttung) mit Hyponatriämie; schwere Gewebeschäden bei Paravasat"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; Vinblastin kann das Ungeborene schädigen. Frauen und Männer müssen während der Behandlung und einige Monate danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird ausschliesslich in die Vene gegeben; Schmerzen oder Brennen an der Infusionsstelle sofort melden.",
+    "Verstopfung vorbeugen: viel trinken, ballaststoffreich essen, nötigenfalls Abführmittel nach ärztlicher Anweisung.",
+    "Blutbild vor jeder Gabe kontrollieren; Fieber oder Infektzeichen sofort melden."
+  ],
+  "stand": "2026-10"
+}

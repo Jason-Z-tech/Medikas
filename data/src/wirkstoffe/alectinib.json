@@ -1,0 +1,159 @@
+{
+  "id": "alectinib",
+  "name": "Alectinib",
+  "synonyme": [
+    "CH5424802"
+  ],
+  "atc": [
+    "L01ED03"
+  ],
+  "klasse": "Proteinkinase-Hemmer (ALK-Hemmer der 2. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei Lungenkrebs mit ALK-Veränderung – bei fortgeschrittener Erkrankung oder nach der Operation.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "bradykardisierend",
+    "hepatotoxisch",
+    "photosensibilisierend",
+    "myotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Alecensa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs bei Erwachsenen, als Erstbehandlung oder nach Vorbehandlung mit Crizotinib",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Ergänzende (adjuvante) Behandlung nach vollständiger operativer Entfernung eines ALK-positiven nicht-kleinzelligen Lungenkrebses mit hohem Rückfallrisiko",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das veränderte Wachstumssignal-Enzym ALK in Lungenkrebszellen. Alectinib ist ein hochselektiver ALK-Hemmer der zweiten Generation, der auch gegen viele Crizotinib-Resistenzmutationen wirkt; sein Hauptabbauprodukt M4 ist ähnlich wirksam. Weil es kaum aktiv aus dem Gehirn hinausgepumpt wird, wirkt es auch gut gegen Hirnmetastasen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Interstitielle Lungenerkrankung, Pneumonitis (Lungenentzündung ohne Erreger)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Leberschädigung: Leberwerte in den ersten 3 Monaten alle 2 Wochen kontrollieren; schwere Leberinsuffizienz",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (Bradykardie), auch durch andere Medikamente",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Muskelschmerzen und erhöhte CK (Muskelenzym) – CK in den ersten Monaten kontrollieren",
+      "ids": [
+        "muskelschmerzen",
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit – Sonne meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Blutzerfall (hämolytische Anämie) möglich",
+      "ids": [
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Herzschlag-verlangsamende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Clonidin, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Ausgeprägte Bradykardie möglich – Puls und Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein- und BCRP-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran, Methotrexat)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "methotrexat"
+      ],
+      "effekt": "Alectinib kann deren Spiegel erhöhen – Wirkung und Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Posaconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Gesamtwirkspiegel steigt nur wenig – keine Dosisanpassung nötig, auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Gesamtwirkspiegel sinkt nur wenig – keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Verstopfung, Übelkeit, Durchfall, Erbrechen",
+      "Wassereinlagerungen (Ödeme), Gewichtszunahme",
+      "Muskelschmerzen, erhöhte CK (Muskelenzym)",
+      "Blutarmut (Anämie)",
+      "Müdigkeit",
+      "Hautausschlag",
+      "Erhöhte Leber- und Bilirubinwerte",
+      "Langsamer Puls (Bradykardie)"
+    ],
+    "haeufig": [
+      "Lichtempfindlichkeit (Photosensibilität)",
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Geschmacksstörung, Sehstörungen",
+      "Stomatitis (Mundschleimhautentzündung)",
+      "Akute Nierenschädigung, erhöhtes Kreatinin"
+    ],
+    "gelegentlich": [
+      "Arzneimittelbedingte Leberschädigung"
+    ],
+    "unbekannt": [
+      "Hämolytische Anämie (Blutzerfall)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig. Frauen im gebärfähigen Alter müssen während und mindestens 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich mit einer Mahlzeit einnehmen; Kapseln ganz schlucken.",
+    "Längere Sonnenexposition meiden und hochwirksamen Sonnenschutz (UVA/UVB) verwenden – auch bis mindestens 7 Tage nach Behandlungsende.",
+    "Leberwerte, CK, Puls und Blutbild regelmässig kontrollieren lassen; unerklärliche Muskelschmerzen melden."
+  ],
+  "stand": "2026-10"
+}

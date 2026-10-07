@@ -1,0 +1,149 @@
+{
+  "id": "nelarabin",
+  "name": "Nelarabin",
+  "synonyme": [
+    "Nelarabine",
+    "506U78"
+  ],
+  "atc": [
+    "L01BB07"
+  ],
+  "klasse": "Antimetabolit (Purinanalogon, Vorstufe von Ara-G); Zytostatikum",
+  "kurz": "Krebsmittel als Infusion gegen bestimmte Leukämien und Lymphome der T-Zellen, wenn andere Behandlungen nicht oder nicht mehr wirken.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "zns-daempfend",
+    "krampfschwellensenkend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Atriance"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute lymphatische T-Zell-Leukämie (T-ALL) und lymphoblastisches T-Zell-Lymphom (T-LBL), die auf mindestens zwei Chemotherapien nicht angesprochen haben oder zurückgekehrt sind",
+      "ids": [
+        "leukaemie",
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet gezielt bösartige T-Lymphozyten ab. Nelarabin ist eine Vorstufe (Prodrug), die durch das Enzym Adenosindesaminase rasch zu Ara-G umgewandelt wird. In der Zelle entsteht daraus das wirksame Ara-GTP, das sich besonders in T-Zellen anreichert, in die DNA eingebaut wird und die DNA-Synthese hemmt. Die Folge ist der programmierte Zelltod (Apoptose).",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Schwere neurologische Nebenwirkungen (Schläfrigkeit, Verwirrtheit, Krampfanfälle, Lähmungen, Nervenschäden ähnlich dem Guillain-Barré-Syndrom), teils nicht rückbildungsfähig: bei Anzeichen ab Schweregrad 2 Behandlung abbrechen",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Frühere oder gleichzeitige Chemotherapie in den Liquorraum oder Bestrahlung von Schädel und Rückenmark (höheres Risiko für Nervenschäden)",
+      "ids": []
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion (engmaschige Überwachung)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom: ausreichende Flüssigkeitszufuhr und Vorbeugung",
+      "ids": []
+    },
+    {
+      "text": "Ältere Menschen ab 65 Jahren (mehr neurologische Nebenwirkungen)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Infektanfälligkeit durch Knochenmarkhemmung",
+      "ids": [
+        "aktive-infektion",
+        "neutropenie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Chemotherapie in den Liquorraum (intrathekal), z. B. Methotrexat oder Cytarabin",
+      "ref": [
+        "methotrexat",
+        "cytarabin"
+      ],
+      "effekt": "Erhöhtes Risiko schwerer neurologischer Nebenwirkungen – engmaschige neurologische Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Pentostatin und andere Hemmer der Adenosindesaminase",
+      "ref": [],
+      "effekt": "Hemmen die Umwandlung von Nelarabin in die Wirkform – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen, febrile Neutropenie",
+      "Neutropenie, Thrombozytopenie, Anämie, Leukopenie",
+      "Schläfrigkeit, Schwindel, Kopfschmerzen",
+      "Periphere Neuropathie mit Kribbeln, Taubheits- und Schwächegefühl",
+      "Atemnot, Husten",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung",
+      "Muskelschmerzen",
+      "Ödeme, Fieber, Müdigkeit, Schwäche"
+    ],
+    "haeufig": [
+      "Krampfanfälle",
+      "Verwirrtheit, Gedächtnisstörungen",
+      "Gleichgewichtsstörungen (Ataxie), Zittern, Geschmacksstörungen",
+      "Verschwommenes Sehen",
+      "Tumorlysesyndrom",
+      "Tiefer Blutdruck, Pleuraerguss (Flüssigkeit im Brustfell)",
+      "Mundschleimhautentzündung, Bauchschmerzen",
+      "Erhöhte Leberwerte, Bilirubin und Kreatinin"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Demyelinisierung und aufsteigende Lähmungen ähnlich dem Guillain-Barré-Syndrom"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Rhabdomyolyse (Muskelzerfall), erhöhte Kreatinkinase"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; im Tierversuch fruchtschädigend. Frauen und Männer müssen während und einige Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Bei Kribbeln, Taubheit oder Schwäche in Armen oder Beinen, Verwirrtheit oder Krampfanfällen sofort das Behandlungsteam informieren.",
+    "Schläfrigkeit und Verwirrtheit beeinträchtigen die Fahrtüchtigkeit: während und nach der Behandlung nicht Auto fahren oder Maschinen bedienen.",
+    "Ausreichend trinken; Blutbild wird regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

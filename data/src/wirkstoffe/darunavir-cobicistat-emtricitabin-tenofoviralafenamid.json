@@ -1,0 +1,395 @@
+{
+  "id": "darunavir-cobicistat-emtricitabin-tenofoviralafenamid",
+  "name": "Darunavir + Cobicistat + Emtricitabin + Tenofoviralafenamid",
+  "synonyme": [
+    "D/C/F/TAF",
+    "Darunavir/Cobicistat/Emtricitabine/Tenofovir alafenamide"
+  ],
+  "kombinationAus": [
+    "darunavir",
+    "cobicistat",
+    "emtricitabin",
+    "tenofoviralafenamid"
+  ],
+  "atc": [
+    "J05AR22"
+  ],
+  "klasse": "HIV-Fixkombination (Proteasehemmer + Booster Cobicistat + zwei nukleosidische/nukleotidische Reverse-Transkriptase-Hemmer)",
+  "kurz": "HIV-Kombinationstablette mit vier Wirkstoffen als vollständige Therapie, einmal täglich zu einer Mahlzeit; hat viele Wechselwirkungen.",
+  "gruppen": [
+    "hiv-proteasehemmer",
+    "starke-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "oatp1b-hemmer",
+    "enzyminduktoren-hormone",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Symtuza"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen ab 12 Jahren (mind. 40 kg)",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vier Wirkstoffe hemmen die Vermehrung des HI-Virus. Darunavir blockiert die HIV-Protease, sodass nur unreife, nicht infektiöse Viren entstehen. Emtricitabin und Tenofovir (aus dem Prodrug Tenofoviralafenamid) hemmen die Reverse Transkriptase durch Kettenabbruch und wirken auch gegen Hepatitis B. Cobicistat wirkt nicht gegen das Virus, sondern hemmt stark das Abbauenzym CYP3A und erhöht so die Darunavir-Spiegel; es hemmt zudem den Nieren-Transporter MATE1 (leichter Kreatininanstieg ohne echte Abnahme der Nierenfunktion).",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Chronische Hepatitis B: nach dem Absetzen schwerer Hepatitis-Schub möglich",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Sulfonamid-Allergie (Darunavir enthält eine Sulfonamid-Gruppe)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS) – bei schwerem Ausschlag oder Ausschlag mit Fieber sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen sowie chronische Hepatitis C (Lebertoxizität möglich, Leberwerte überwachen)",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 30 ml/min): nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hämophilie (vermehrte Blutungen)",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes und erhöhte Blutfette (Verschlechterung möglich)",
+      "ids": [
+        "diabetes",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: zu tiefe Wirkstoffspiegel – nicht beginnen, laufende Therapie umstellen",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke Enzyminduktoren: Carbamazepin, Phenobarbital, Phenytoin, Rifampicin, Johanniskraut",
+      "ref": [
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "johanniskraut",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken die Wirkstoffspiegel stark – Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Lopinavir/Ritonavir",
+      "ref": [
+        "lopinavir-ritonavir"
+      ],
+      "grund": "Der Darunavir-Spiegel sinkt stark – Wirkverlust."
+    },
+    {
+      "text": "Alfuzosin",
+      "ref": [
+        "alfuzosin"
+      ],
+      "grund": "Alfuzosin-Spiegel steigt stark – Gefahr eines schweren Blutdruckabfalls."
+    },
+    {
+      "text": "Amiodaron, Dronedaron, Ivabradin, Chinidin und Ranolazin",
+      "ref": [
+        "amiodaron",
+        "dronedaron",
+        "ivabradin",
+        "ranolazin"
+      ],
+      "grund": "Spiegel steigen stark – Gefahr schwerer Herzrhythmusstörungen."
+    },
+    {
+      "text": "Colchicin bei eingeschränkter Nieren- oder Leberfunktion",
+      "ref": [
+        "colchicin"
+      ],
+      "grund": "Colchicin-Spiegel steigt stark – lebensbedrohliche Vergiftung möglich."
+    },
+    {
+      "text": "Mutterkornalkaloide und Cisaprid",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "methylergometrin"
+      ],
+      "grund": "Gefahr eines akuten Ergotismus mit Gefässverengung bzw. von Herzrhythmusstörungen."
+    },
+    {
+      "text": "Dapoxetin, Domperidon und Naloxegol",
+      "ref": [
+        "dapoxetin",
+        "domperidon",
+        "naloxegol"
+      ],
+      "grund": "Spiegel steigen stark – erhöhtes Risiko schwerer Nebenwirkungen (u. a. Herzrhythmusstörungen, Kreislaufreaktionen, Opioid-Entzugssymptome)."
+    },
+    {
+      "text": "Lurasidon, Pimozid, Quetiapin und Sertindol",
+      "ref": [
+        "lurasidon",
+        "quetiapin",
+        "sertindol"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr von Herzrhythmusstörungen, starker Sedierung und Koma."
+    },
+    {
+      "text": "Triazolam und Midazolam zum Einnehmen",
+      "ref": [
+        "triazolam",
+        "midazolam"
+      ],
+      "grund": "Stark verlängerte und verstärkte Sedierung mit Gefahr einer Atemdepression."
+    },
+    {
+      "text": "Sildenafil zur Behandlung der pulmonalen Hypertonie und Avanafil",
+      "ref": [
+        "sildenafil",
+        "avanafil"
+      ],
+      "grund": "Stark erhöhte Spiegel – Blutdruckabfall, Sehstörungen, Dauererektion (Priapismus)."
+    },
+    {
+      "text": "Simvastatin, Lovastatin und Lomitapid",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Massiver Spiegelanstieg – Gefahr von Muskelzerfall (Rhabdomyolyse) bzw. Leberschäden."
+    },
+    {
+      "text": "Ticagrelor",
+      "ref": [
+        "ticagrelor"
+      ],
+      "grund": "Ticagrelor-Spiegel steigt stark – erhöhte Blutungsgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Östrogenhaltige Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ethinylestradiol-Spiegel sinkt – zusätzliche oder andere, nicht-hormonelle Verhütung verwenden; bei Drospirenon steigt dessen Spiegel (Kalium kontrollieren).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (Rivaroxaban, Apixaban, Edoxaban, Dabigatran)",
+      "ref": [
+        "gruppe:doak",
+        "dabigatran"
+      ],
+      "effekt": "Spiegel steigen – erhöhte Blutungsgefahr; Rivaroxaban nicht empfohlen, übrige nur nach Fachinformation und mit Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Inhalative oder nasale Kortikosteroide (Fluticason, Budesonid)",
+      "ref": [
+        "fluticason",
+        "fluticasonfuroat",
+        "budesonid",
+        "salmeterol-fluticason",
+        "gruppe:glukokortikoide-inhalativ"
+      ],
+      "effekt": "Kortison-Spiegel steigen – Cushing-Syndrom und Nebennierenunterdrückung möglich; Alternative wie Beclometason erwägen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Salmeterol",
+      "ref": [
+        "salmeterol",
+        "salmeterol-fluticason"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen stark – engmaschige Spiegelkontrollen und Dosisanpassung nötig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Proteinkinase-Hemmer und andere Krebsmittel (z. B. Dasatinib, Nilotinib, Vincristin, Vinblastin)",
+      "ref": [
+        "gruppe:proteinkinase-hemmer",
+        "vincristin",
+        "vinblastin"
+      ],
+      "effekt": "Spiegel vieler Krebsmittel steigen – Kombination vermeiden oder Dosis gemäss Fachinformation reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifabutin, Oxcarbazepin und Bosentan",
+      "ref": [
+        "rifabutin",
+        "oxcarbazepin",
+        "bosentan"
+      ],
+      "effekt": "Senken die Spiegel von Darunavir, Cobicistat bzw. Tenofoviralafenamid – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere HIV-Mittel: Ritonavir, Lamivudin oder gleiche Wirkstoffe",
+      "ref": [
+        "ritonavir",
+        "lamivudin",
+        "tenofovirdisoproxil"
+      ],
+      "effekt": "Die Tablette ist eine vollständige Therapie – nicht mit Ritonavir, Lamivudin oder gleichen Wirkstoffen kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Statine (Atorvastatin, Rosuvastatin, Pravastatin)",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin",
+        "pravastatin"
+      ],
+      "effekt": "Spiegel steigen – mit niedrigster Dosis beginnen, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer bei Erektionsstörungen (Sildenafil, Tadalafil, Vardenafil)",
+      "ref": [
+        "sildenafil",
+        "tadalafil",
+        "vardenafil"
+      ],
+      "effekt": "Spiegel steigen – nur in reduzierter Dosis und mit grösseren Abständen anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide (Fentanyl, Oxycodon, Methadon, Buprenorphin)",
+      "ref": [
+        "fentanyl",
+        "oxycodon",
+        "methadon",
+        "buprenorphin"
+      ],
+      "effekt": "Spiegel können sich verändern; Fentanyl und Oxycodon steigen (Atemdepression) – klinisch eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und Antiarrhythmika (z. B. Flecainid, Propafenon)",
+      "ref": [
+        "digoxin",
+        "flecainid",
+        "propafenon"
+      ],
+      "effekt": "Spiegel steigen – Digoxin niedrig beginnen und Spiegel kontrollieren; bei Antiarrhythmika Vorsicht und EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antidepressiva (SSRI, trizyklische Antidepressiva, Trazodon)",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:trizyklische-antidepressiva",
+        "trazodon"
+      ],
+      "effekt": "Spiegel können steigen – niedrig beginnen und vorsichtig steigern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Cobicistat erhöht den Metformin-Spiegel (MATE1-Hemmung) – überwachen, Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die Gerinnungshemmung kann sich verändern – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Durchfall",
+      "Hautausschlag"
+    ],
+    "haeufig": [
+      "Übelkeit, Erbrechen, Bauchschmerzen, Blähungen, Verdauungsbeschwerden",
+      "Abnorme Träume, Schwindel",
+      "Diabetes mellitus, erhöhte Blutfette, Appetitlosigkeit",
+      "Erhöhte Leberwerte",
+      "Juckreiz, Nesselsucht",
+      "Muskelschmerzen, Schwäche, Müdigkeit",
+      "Überempfindlichkeitsreaktionen",
+      "Kreatininanstieg (durch Cobicistat)"
+    ],
+    "gelegentlich": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Hepatitis",
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Immunrekonstitutionssyndrom",
+      "Osteonekrose",
+      "Gynäkomastie"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom",
+      "DRESS (schwere Überempfindlichkeitsreaktion mit Organbeteiligung)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Toxische epidermale Nekrolyse",
+      "Akute generalisierte exanthematische Pustulose (AGEP)",
+      "Kristallnephropathie (Nierenschädigung durch Darunavir-Kristalle)"
+    ]
+  },
+  "schwangerschaft": "Nicht in der Schwangerschaft beginnen: Die Spiegel von Darunavir und Cobicistat sind im 2. und 3. Drittel stark erniedrigt – bei Eintritt einer Schwangerschaft auf eine andere Therapie umstellen.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Einmal täglich zu einer Mahlzeit einnehmen.",
+    "Sehr viele Wechselwirkungen: vor jedem neuen Medikament – auch Asthmasprays, Potenzmitteln, Pille und pflanzlichen Mitteln – Ärztin, Arzt oder Apotheke informieren.",
+    "Bei Hepatitis B nicht eigenmächtig absetzen (Gefahr eines schweren Hepatitis-Schubs); ein leichter Kreatininanstieg zu Beginn ist durch Cobicistat bedingt."
+  ],
+  "stand": "2026-10"
+}

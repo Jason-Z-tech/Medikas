@@ -1,0 +1,194 @@
+{
+  "id": "vinflunin",
+  "name": "Vinflunin",
+  "synonyme": [
+    "Vinflunine",
+    "Vinfluninditartrat"
+  ],
+  "atc": [
+    "L01CA05"
+  ],
+  "klasse": "Vinca-Alkaloid (Mitosehemmer, fluoriert); Zytostatikum",
+  "kurz": "Krebsmittel (Vinca-Alkaloid) als Infusion bei fortgeschrittenem Krebs der Harnwege nach einer platinhaltigen Chemotherapie.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "neuropathie-ausloesend",
+    "cyp3a4-substrate-empfindlich",
+    "qt-verlaengernd",
+    "hyponatriaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Javlor"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittenes oder metastasiertes Urothelkarzinom (Krebs der Harnwege, v. a. der Harnblase) nach Versagen einer platinhaltigen Vorbehandlung",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Zellteilung von Krebszellen. Vinflunin ist ein fluoriertes Vinca-Alkaloid, das an Tubulin bindet und den Aufbau der Mikrotubuli hemmt. Dadurch wird der Spindelapparat gestört, die Zellen bleiben in der Mitose stehen und sterben durch Apoptose ab.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Vinca-Alkaloide (Kreuzallergie)",
+      "ids": []
+    },
+    {
+      "text": "Schwere Infektion, aktuell oder in den letzten 2 Wochen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Zu tiefe Werte der neutrophilen Granulozyten (unter 1'500/mm³ vor der ersten, unter 1'000/mm³ vor weiteren Gaben) oder der Blutplättchen (unter 100'000/mm³)",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verstopfung bis Darmverschluss: vorbeugend Abführmittel und ballaststoffreiche Ernährung",
+      "ids": [
+        "verstopfung",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung und Herzerkrankungen (Durchblutungsstörungen des Herzens beschrieben)",
+      "ids": [
+        "qt-verlaengerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen ab 75 Jahren (Dosisanpassung)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Posteriores reversibles Enzephalopathie-Syndrom (PRES: Kopfschmerzen, Sehstörungen, Krampfanfälle, oft mit hohem Blutdruck)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Hyponatriämie (Natriummangel)",
+      "ids": [
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Ritonavir) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhte Vinflunin-Spiegel und mehr Nebenwirkungen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-verlängernde Arzneimittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Abgeschwächte Wirkung – Kombination meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Verstopfung – konsequent Abführmittel einsetzen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, Leukopenie, Anämie, Thrombozytopenie",
+      "Appetitlosigkeit, Gewichtsabnahme",
+      "Periphere sensorische Neuropathie (Kribbeln, Taubheitsgefühl)",
+      "Verstopfung, Bauchschmerzen, Übelkeit, Erbrechen, Durchfall",
+      "Mundschleimhautentzündung",
+      "Haarausfall",
+      "Muskelschmerzen",
+      "Müdigkeit, Schwäche, Fieber, Reaktionen an der Infusionsstelle"
+    ],
+    "haeufig": [
+      "Infektionen, febrile Neutropenie",
+      "Flüssigkeitsmangel (Dehydratation)",
+      "Kopfschmerzen, Schwindel, Geschmacksstörungen, Schlaflosigkeit",
+      "Darmverschluss (Ileus)",
+      "Herzrasen, Bluthochdruck, Venenthrombose, Venenentzündung",
+      "Atemnot, Husten",
+      "Kiefer-, Knochen-, Gelenk- und Rückenschmerzen",
+      "Hautausschlag, Juckreiz, Nesselsucht"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Myokardischämie (Durchblutungsstörung des Herzens), Herzinfarkt",
+      "QT-Verlängerung",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Hyponatriämie, SIADH (vermehrte ADH-Ausschüttung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; im Tierversuch fruchtschädigend. Frauen und Männer müssen während der Behandlung und mehrere Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Ab dem Tag der Infusion während mehrerer Tage vorbeugend Abführmittel einnehmen, viel trinken und ballaststoffreich essen.",
+    "Grapefruit und Grapefruitsaft meiden.",
+    "Blutbild vor jeder Infusion; Fieber oder starke Bauchschmerzen sofort melden."
+  ],
+  "stand": "2026-10"
+}

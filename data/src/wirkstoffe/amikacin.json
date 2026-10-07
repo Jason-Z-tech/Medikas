@@ -1,0 +1,179 @@
+{
+  "id": "amikacin",
+  "name": "Amikacin",
+  "synonyme": [
+    "Amikacinsulfat",
+    "Amikacin sulfate"
+  ],
+  "atc": [
+    "J01GB06"
+  ],
+  "klasse": "Aminoglykosid-Antibiotikum",
+  "kurz": "Stark wirksames Antibiotikum als Infusion im Spital gegen schwere Infektionen; erfordert Spiegel-, Nieren- und Gehörkontrollen.",
+  "gruppen": [
+    "aminoglykoside",
+    "nephrotoxisch",
+    "ototoxisch"
+  ],
+  "handelsnamen": [
+    "Amikin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Schwere Infektionen durch gramnegative Bakterien (auch Pseudomonas), z. B. Blutvergiftung, im Spital erworbene Lungenentzündung, komplizierte Harnwegs- und Bauchrauminfektionen, Knochen-, Gelenk- und Hautinfektionen – meist zusammen mit einem Betalaktam-Antibiotikum",
+      "ids": [
+        "bakterielle-infektion",
+        "lungenentzuendung",
+        "harnwegsinfekt",
+        "osteomyelitis",
+        "hautinfektion",
+        "resistente-keime"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Bakterien rasch ab, indem es ihre Eiweissherstellung stört. Amikacin bindet an die 30S-Untereinheit der bakteriellen Ribosomen, sodass fehlerhafte Eiweisse entstehen und die Zellmembran geschädigt wird (bakterizid, abhängig von der Konzentration). Seine Struktur schützt es vor vielen aminoglykosid-abbauenden Enzymen, daher wirkt es oft noch, wenn Gentamicin oder Tobramycin versagen. Es wirkt vor allem gegen gramnegative Bakterien einschliesslich Pseudomonas aeruginosa, nicht gegen Anaerobier.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen andere Aminoglykoside (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Gefahr einer Atemlähmung)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosis anpassen, Spiegel und Nierenwerte engmaschig kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Vorbestehende Hör- oder Gleichgewichtsstörungen; eine erbliche Veranlagung (mitochondriale Genvariante m.1555A>G) erhöht das Risiko für Taubheit",
+      "ids": [
+        "hoerstoerung",
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Flüssigkeitsmangel: erhöhtes Risiko für Nieren- und Gehörschäden",
+      "ids": [
+        "aeltere-patienten",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Parkinson, andere neuromuskuläre Erkrankungen und Narkose: Muskelschwäche bis Atemlähmung möglich",
+      "ids": [
+        "parkinson",
+        "neuromuskulaere-erkrankung",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Behandlung über 7–10 Tage hinaus nur mit regelmässigen Hör- und Nierenkontrollen",
+      "ids": []
+    },
+    {
+      "text": "Schwerer Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere nieren- oder gehörschädigende Mittel (z. B. andere Aminoglykoside, Vancomycin, Amphotericin B, Ciclosporin, Cisplatin)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:ototoxisch",
+        "gruppe:glykopeptide",
+        "amphotericin-b",
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:platinderivate"
+      ],
+      "effekt": "Deutlich erhöhtes Risiko für Nieren- und Gehörschäden – möglichst vermeiden, sonst Spiegel, Nierenfunktion und Gehör eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Schleifendiuretika (z. B. Furosemid, Torasemid)",
+      "ref": [
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Verstärkte Gehör- und Nierenschädigung, besonders bei Flüssigkeitsmangel – vermeiden oder eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Muskelrelaxanzien, Narkosemittel und Botulinumtoxin",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher",
+        "botulinumtoxin-typ-a"
+      ],
+      "effekt": "Verstärkte neuromuskuläre Blockade bis zur Atemlähmung – Atmung überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betalaktam-Antibiotika (Penicilline, Cephalosporine) in derselben Infusion",
+      "ref": [
+        "gruppe:penicilline",
+        "gruppe:cephalosporine"
+      ],
+      "effekt": "Gegenseitige Inaktivierung beim Mischen – getrennt verabreichen. Bei schwerer Niereninsuffizienz auch im Körper Wirkverlust möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bisphosphonate",
+      "ref": [
+        "gruppe:bisphosphonate"
+      ],
+      "effekt": "Erhöhtes Risiko für ein tiefes Calcium im Blut.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [
+      "Übelkeit, Erbrechen",
+      "Hautausschlag",
+      "Superinfektionen (z. B. Pilzbefall)"
+    ],
+    "selten": [
+      "Hörminderung, Ohrensausen (Tinnitus), Drehschwindel",
+      "Nierenschädigung (Anstieg des Kreatinins, Eiweiss oder Zellen im Urin, verminderte Harnmenge)",
+      "Kribbeln, Zittern, Muskelzuckungen, Kopfschmerzen",
+      "Hypomagnesiämie (Magnesiummangel)",
+      "Anämie, Eosinophilie",
+      "Blutdruckabfall",
+      "Gelenkschmerzen, Arzneimittelfieber"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Bleibende Taubheit",
+      "Akutes Nierenversagen",
+      "Atemlähmung durch neuromuskuläre Blockade",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Bronchospasmus (Verkrampfung der Atemwege)"
+    ]
+  },
+  "schwangerschaft": "Nur bei lebensbedrohlichen Infektionen ohne Alternative: Aminoglykoside erreichen das Ungeborene und können bleibende Hörschäden verursachen.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über und wird vom Säugling kaum aufgenommen. Anwendung nur nach ärztlicher Abwägung; beim Säugling auf Durchfall oder Pilzbefall achten.",
+  "hinweise": [
+    "Während der Behandlung werden Blutspiegel und Nierenwerte, bei längerer Behandlung auch das Gehör kontrolliert.",
+    "Ohrensausen, Hörminderung, Schwindel oder Gangunsicherheit sofort melden – Hörschäden können bleibend sein.",
+    "Ausreichend trinken, sofern ärztlich nicht anders verordnet."
+  ],
+  "stand": "2026-10"
+}

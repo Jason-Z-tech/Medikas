@@ -1,0 +1,133 @@
+{
+  "id": "vorasidenib",
+  "name": "Vorasidenib",
+  "synonyme": [
+    "AG-881"
+  ],
+  "atc": [
+    "L01XM04"
+  ],
+  "klasse": "IDH1/IDH2-Hemmer (zielgerichtete Krebstherapie, hirngängig)",
+  "kurz": "Tablette gegen langsam wachsende Hirntumoren (Gliome Grad 2) mit IDH-Mutation nach der Operation, um Bestrahlung oder Chemotherapie hinauszuzögern.",
+  "gruppen": [
+    "hepatotoxisch",
+    "cyp1a2-substrate",
+    "enzyminduktoren-hormone",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Voranigo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Astrozytom oder Oligodendrogliom Grad 2 mit IDH1-R132- oder IDH2-R172-Mutation bei Erwachsenen und Jugendlichen ab 12 Jahren nach Operation, wenn keine sofortige Bestrahlung oder Chemotherapie nötig ist",
+      "ids": [
+        "hirntumor"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die veränderten Enzyme IDH1 und IDH2, die in bestimmten Hirntumoren den krebsfördernden Stoff 2-Hydroxyglutarat (2-HG) bilden. Vorasidenib gelangt gut ins Gehirn und senkt dort die 2-HG-Konzentration im Tumorgewebe. Dadurch werden die durch 2-HG verursachten epigenetischen Veränderungen rückgängig gemacht und das Tumorwachstum gebremst.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Leberschäden: Leberwerte vor Beginn, in den ersten 2 Monaten alle 2 Wochen und danach monatlich kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung: keine Daten",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Rauchen senkt den Wirkstoffspiegel",
+      "ids": [
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: hormonale Verhütung unsicher, nicht-hormonale Methode verwenden",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Kinder unter 12 Jahren: keine Daten",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP1A2-Hemmer (z. B. Fluvoxamin, Ciprofloxacin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Erhöhen den Vorasidenib-Spiegel deutlich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Vorasidenib kann deren Wirkung abschwächen – nicht-hormonale Verhütungsmethode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP1A2-Induktoren (z. B. Phenytoin, Rifampicin; auch Tabakrauch)",
+      "ref": [
+        "phenytoin",
+        "rifampicin"
+      ],
+      "effekt": "Senken den Vorasidenib-Spiegel – Wirkverlust möglich, möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit enger therapeutischer Breite",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Vorasidenib kann deren Spiegel senken – Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Leberwerte engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhte Leberwerte (ALT, AST, GGT)",
+      "Müdigkeit",
+      "Kopfschmerzen",
+      "Durchfall, Übelkeit",
+      "Muskel- und Gelenkschmerzen"
+    ],
+    "unbekannt": [
+      "Schwere Leberschädigung (Hepatitis, Leberversagen)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden – im Tierversuch fruchtschädigend. Frauen und Männer verhüten während und bis 3 Monate nach der letzten Dosis; da hormonale Verhütung unwirksam sein kann, eine nicht-hormonale Methode verwenden.",
+  "stillzeit": "Während der Behandlung und bis 2 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich auf nüchternen Magen einnehmen; Tablette ganz schlucken.",
+    "Leberwerte regelmässig kontrollieren lassen; Gelbfärbung von Haut oder Augen, dunklen Urin oder Oberbauchschmerzen sofort melden.",
+    "Rauchen kann die Wirkung vermindern."
+  ],
+  "stand": "2026-10"
+}

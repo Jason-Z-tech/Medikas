@@ -1,0 +1,190 @@
+{
+  "id": "idelalisib",
+  "name": "Idelalisib",
+  "synonyme": [
+    "Idelalisibum",
+    "GS-1101",
+    "CAL-101"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EM01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (PI3K-delta-Hemmer); Krebsmittel",
+  "kurz": "Krebsmittel (PI3K-delta-Hemmer) zum Einnehmen gegen chronische lymphatische Leukämie (mit Rituximab) und follikuläres Lymphom.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "starke-cyp3a4-hemmer",
+    "hepatotoxisch",
+    "immunsuppressiv",
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Zydelig"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische lymphatische Leukämie (CLL) nach mindestens einer Vortherapie oder bei 17p-Deletion/TP53-Mutation ohne andere Behandlungsmöglichkeit, zusammen mit Rituximab",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Follikuläres Lymphom, das auf zwei vorangegangene Therapien nicht anspricht (allein)",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum bösartiger B-Lymphozyten und löst sie aus ihren schützenden Nischen in Lymphknoten und Knochenmark. Idelalisib hemmt selektiv die Delta-Form der Phosphatidylinositol-3-Kinase (PI3Kδ), die in B-Zellen überaktiv ist. Dadurch werden Signale des B-Zell-Rezeptors und von Chemokinen unterbrochen und der Zelltod gefördert.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Infektionen: schwere und tödliche Infektionen, v. a. Pneumocystis-Pneumonie und Zytomegalie; Prophylaxe und Kontrollen nötig",
+      "ids": [
+        "aktive-infektion",
+        "cmv-infektion",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: schwere Leberschäden möglich, Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwerer Durchfall oder Kolitis (Darmentzündung), auch spät im Verlauf",
+      "ids": [
+        "durchfall",
+        "colitis-ulcerosa",
+        "morbus-crohn"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (Pneumonitis, organisierende Pneumonie)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Neutropenie (Blutbild regelmässig kontrollieren)",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Empfindliche CYP3A4-Substrate mit Gefahr schwerer Nebenwirkungen (z. B. Simvastatin, orales Midazolam, Triazolam, Amiodaron, Quetiapin, Ergotalkaloide, Alfuzosin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:ergotalkaloide",
+        "simvastatin",
+        "midazolam",
+        "amiodaron",
+        "quetiapin",
+        "alfuzosin"
+      ],
+      "effekt": "Idelalisib ist ein starker CYP3A4-Hemmer – Spiegel dieser Mittel steigen stark; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Idelalisib-Spiegel sinkt stark, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Infektion durch den Impfstoff – nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden – Leberwerte engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Wirksamkeit unsicher – zusätzlich eine Barrieremethode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Immunsuppressiva wie Ciclosporin, Tacrolimus, Sirolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen stark (CYP3A4-Hemmung) und Infektionsrisiko nimmt zu – Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen (u. a. Lungenentzündung, Pneumocystis-Pneumonie, Zytomegalie)",
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Durchfall, Kolitis (Darmentzündung)",
+      "Erhöhte Leberwerte",
+      "Hautausschlag",
+      "Fieber",
+      "Erhöhte Triglyceride"
+    ],
+    "haeufig": [
+      "Pneumonitis (Lungenentzündung ohne Infektion)",
+      "Lymphozytose (vorübergehender Anstieg der Lymphozyten)"
+    ],
+    "gelegentlich": [
+      "Organisierende Pneumonie"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Darmperforation (Durchbruch)",
+      "DRESS (schwere Arzneimittelreaktion mit Ausschlag und Organbeteiligung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 1 Monat nach der Behandlung zuverlässig verhüten, bei hormonaler Verhütung zusätzlich mit Barrieremethode.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich einnehmen, mit oder ohne Essen; Tabletten ganz schlucken.",
+    "Während der ganzen Behandlung und danach eine Vorbeugung gegen Pneumocystis-Pneumonie einnehmen; Zytomegalie wird regelmässig kontrolliert.",
+    "Durchfall, Atemnot, Husten, Fieber oder Hautausschlag sofort ärztlich melden.",
+    "Regelmässige Kontrollen: Leberwerte und Blutbild."
+  ],
+  "stand": "2026-10"
+}

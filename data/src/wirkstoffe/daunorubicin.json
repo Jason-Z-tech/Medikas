@@ -1,0 +1,210 @@
+{
+  "id": "daunorubicin",
+  "name": "Daunorubicin",
+  "synonyme": [
+    "Daunomycin",
+    "Rubidomycin",
+    "Daunorubicinhydrochlorid",
+    "Daunorubicine"
+  ],
+  "atc": [
+    "L01DB02"
+  ],
+  "klasse": "Zytotoxisches Antibiotikum (Anthrazyklin, Topoisomerase-II-Hemmer); Zytostatikum",
+  "kurz": "Krebsmittel aus der Gruppe der Anthrazykline als Infusion, v. a. zur Einleitung der Behandlung akuter Leukämien.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Daunoblastin",
+    "Vyxeos (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions- bzw. Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute myeloische Leukämie (AML), zur Remissionseinleitung und Konsolidierung in Kombination mit anderen Krebsmitteln",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Akute lymphatische Leukämie (ALL), in Kombination mit anderen Krebsmitteln",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt die Erbsubstanz von Krebszellen und hemmt deren Teilung. Daunorubicin lagert sich zwischen die Basenpaare der DNA ein (Interkalation) und hemmt die Topoisomerase II, wodurch DNA-Strangbrüche entstehen. Zusätzlich bilden sich freie Radikale, die unter anderem für die Herzschädigung verantwortlich gemacht werden.",
+  "kontraindikationen": [
+    {
+      "text": "Anhaltende Knochenmarkhemmung, z. B. durch eine Vorbehandlung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz (Herzmuskelschwäche), kürzlich durchgemachter Herzinfarkt, schwere Herzrhythmusstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Vorbehandlung mit der maximalen Gesamtdosis von Daunorubicin oder anderen Anthrazyklinen bzw. Anthracendionen",
+      "ids": []
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzschädigung abhängig von der Gesamtdosis (lebenslange Höchstdosis beachten): Herzfunktion vor und während der Behandlung prüfen",
+      "ids": [
+        "kardiomyopathie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frühere Bestrahlung des Brustkorbs oder Behandlung mit anderen herzschädigenden Mitteln (höheres Herzrisiko)",
+      "ids": []
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosisreduktion)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Austritt neben die Vene (Paravasat): schwere Gewebeschäden",
+      "ids": []
+    },
+    {
+      "text": "Tumorlysesyndrom und Anstieg der Harnsäure zu Beginn der Behandlung",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Kinder und ältere Menschen (erhöhtes Risiko für Herzschäden, teils erst Jahre später)",
+      "ids": [
+        "kinder",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere herzschädigende Mittel (z. B. andere Anthrazykline, Trastuzumab, hoch dosiertes Cyclophosphamid)",
+      "ref": [
+        "gruppe:kardiotoxisch",
+        "trastuzumab",
+        "cyclophosphamid"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzinsuffizienz – Herzfunktion engmaschig überwachen; zeitlichen Abstand zu Trastuzumab beachten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Leberschädigende Mittel (z. B. Methotrexat)",
+      "ref": [
+        "gruppe:hepatotoxisch",
+        "methotrexat"
+      ],
+      "effekt": "Eine beeinträchtigte Leberfunktion verlangsamt den Abbau von Daunorubicin – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten und andere Mittel mit Wirkung auf die Herzfunktion",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Möglicherweise erhöhtes Risiko für Herzschäden – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung (Mangel an weissen und roten Blutkörperchen und an Blutplättchen)",
+      "Infektionen",
+      "Haarausfall",
+      "Übelkeit, Erbrechen",
+      "Mundschleimhautentzündung, Durchfall",
+      "Rotfärbung des Urins (1–2 Tage nach der Gabe)",
+      "Fieber"
+    ],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Herzmuskelschädigung mit Herzinsuffizienz (dosisabhängig, auch Jahre später)",
+      "Herzrhythmusstörungen, Herzbeutelentzündung",
+      "Sekundäre akute myeloische Leukämie, myelodysplastisches Syndrom",
+      "Schwere Gewebeschäden bei Paravasat, Venenentzündung",
+      "Anaphylaxie und andere Überempfindlichkeitsreaktionen",
+      "Hyperurikämie (erhöhte Harnsäure)",
+      "Bauchschmerzen, Magen-Darm-Geschwüre",
+      "Ausbleiben der Regelblutung, verminderte Spermienzahl"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden; Daunorubicin kann das Ungeborene schädigen. Frauen und Männer müssen während der Behandlung und mehrere Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Der Urin kann sich 1–2 Tage nach der Gabe rötlich färben – das ist harmlos.",
+    "Frühere Behandlungen mit Anthrazyklinen oder Bestrahlung angeben: die lebenslange Gesamtdosis ist wegen des Herzrisikos begrenzt.",
+    "Schmerzen oder Brennen an der Infusionsstelle sofort melden.",
+    "Blutbild und Herzfunktion werden regelmässig kontrolliert; Atemnot, Herzklopfen oder geschwollene Beine melden."
+  ],
+  "stand": "2026-10"
+}

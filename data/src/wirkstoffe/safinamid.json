@@ -1,0 +1,190 @@
+{
+  "id": "safinamid",
+  "name": "Safinamid",
+  "synonyme": [
+    "Safinamide",
+    "Safinamidmesilat"
+  ],
+  "atc": [
+    "N04BD03"
+  ],
+  "klasse": "Parkinsonmittel (MAO-B-Hemmer, reversibel)",
+  "kurz": "Zusatzmittel zu Levodopa bei Parkinson mit Wirkschwankungen; hemmt den Dopamin-Abbau und die Freisetzung von Glutamat.",
+  "gruppen": [
+    "mao-b-hemmer",
+    "serotonerg"
+  ],
+  "handelsnamen": [
+    "Xadago"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Zusatzbehandlung zu Levodopa (allein oder mit anderen Parkinsonmitteln) bei Parkinson-Krankheit im mittleren bis späten Stadium mit Wirkschwankungen",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlängert die Wirkung von Dopamin im Gehirn. Safinamid hemmt hoch selektiv und reversibel die Monoaminoxidase B (MAO-B) und erhöht so die Dopaminkonzentration im Striatum. Zusätzlich blockiert es spannungsabhängige Natriumkanäle und vermindert die Freisetzung des erregenden Botenstoffs Glutamat.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Albinismus, Netzhautdegeneration, Uveitis, erbliche Netzhauterkrankungen oder schwere fortschreitende diabetische Retinopathie",
+      "ids": [
+        "sehstoerung",
+        "makuladegeneration"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Mässige Leberinsuffizienz (Dosis begrenzen; bei Verschlechterung absetzen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Behandlung mit SSRI, SNRI oder trizyklischen Antidepressiva (Serotoninsyndrom; tiefste wirksame Dosis)",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigerte Sexualität)",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Dyskinesien können zunehmen – Levodopa-Dosis ggf. senken",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Plötzliches Einschlafen und Tagesmüdigkeit",
+      "ids": [
+        "autofahren",
+        "narkolepsie"
+      ]
+    },
+    {
+      "text": "Netzhauterkrankungen in der Vorgeschichte – auf Sehveränderungen achten",
+      "ids": [
+        "sehstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Andere MAO-Hemmer (z. B. Selegilin, Rasagilin, Moclobemid, Linezolid)",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:mao-b-hemmer",
+        "linezolid"
+      ],
+      "grund": "Gefahr einer nicht-selektiven MAO-Hemmung mit hypertensiver Krise."
+    },
+    {
+      "text": "Pethidin",
+      "ref": [
+        "pethidin"
+      ],
+      "grund": "Gefahr schwerer Reaktionen bis zum Serotoninsyndrom."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "SSRI, SNRI, trizyklische und tetrazyklische Antidepressiva",
+      "ref": [
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – tiefste wirksame Dosis verwenden; Fluoxetin und Fluvoxamin möglichst meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dextromethorphan",
+      "ref": [
+        "dextromethorphan"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sympathomimetika (z. B. in Schnupfen- und Erkältungsmitteln mit Pseudoephedrin oder Ephedrin)",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Blutdruckanstieg möglich – nur mit Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "BCRP-Substrate (z. B. Rosuvastatin, Pitavastatin, Methotrexat, Ciprofloxacin)",
+      "ref": [
+        "rosuvastatin",
+        "pitavastatin",
+        "methotrexat",
+        "ciprofloxacin"
+      ],
+      "effekt": "Safinamid kann deren Ausscheidung vorübergehend hemmen – Spiegel können steigen; zeitlichen Abstand zur Einnahme beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa-Präparate",
+      "ref": [
+        "levodopa-benserazid",
+        "levodopa-carbidopa"
+      ],
+      "effekt": "Verstärkte Levodopa-Wirkung, mehr Überbewegungen – Levodopa-Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schlaflosigkeit",
+      "Dyskinesien (unwillkürliche Überbewegungen)",
+      "Schläfrigkeit, Schwindel, Kopfschmerzen",
+      "Verschlechterung der Parkinson-Beschwerden",
+      "Katarakt (Grauer Star)",
+      "Blutdruckabfall beim Aufstehen",
+      "Übelkeit",
+      "Stürze"
+    ],
+    "gelegentlich": [
+      "Halluzinationen, Depression, Angst, Verwirrtheit, ungewöhnliche Träume",
+      "Herzklopfen, Bluthochdruck",
+      "Verschwommenes Sehen, Doppelbilder",
+      "Verstopfung, Mundtrockenheit, Verdauungsbeschwerden",
+      "Gewichtsabnahme, Appetitverlust",
+      "Kribbeln, Zittern, Nervenschäden (Neuropathie)"
+    ],
+    "selten": [
+      "Impulskontrollstörungen, Zwangsgedanken",
+      "Plötzliches Einschlafen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden; Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Nicht stillen (im Tierversuch Übertritt in die Milch und Schäden bei Jungtieren).",
+  "hinweise": [
+    "Einmal täglich, unabhängig vom Essen einnehmen.",
+    "Keine Erkältungs- oder Hustenmittel mit Pseudoephedrin oder Dextromethorphan ohne Rücksprache einnehmen.",
+    "Plötzliches Einschlafen möglich – dann nicht Auto fahren; Sehveränderungen melden."
+  ],
+  "stand": "2026-10"
+}

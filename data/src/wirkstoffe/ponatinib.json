@@ -1,0 +1,185 @@
+{
+  "id": "ponatinib",
+  "name": "Ponatinib",
+  "synonyme": [
+    "AP24534"
+  ],
+  "atc": [
+    "L01EA05"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BCR-ABL-Tyrosinkinasehemmer der 3. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel (Tyrosinkinasehemmer) bei CML und Ph+ ALL, wenn andere Mittel versagen oder die T315I-Mutation vorliegt.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "myelosuppressiv",
+    "thromboserisiko-erhoehend",
+    "blutdrucksteigernd",
+    "kardiotoxisch",
+    "hepatotoxisch",
+    "blutungsrisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Iclusig"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische myeloische Leukämie (CML) in chronischer, akzelerierter oder Blastenphase bei Erwachsenen mit Resistenz oder Unverträglichkeit gegenüber Dasatinib oder Nilotinib, wenn Imatinib nicht geeignet ist, oder mit T315I-Mutation",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Philadelphia-Chromosom-positive akute lymphatische Leukämie (Ph+ ALL) bei Erwachsenen mit Resistenz oder Unverträglichkeit gegenüber Dasatinib, wenn Imatinib nicht geeignet ist, oder mit T315I-Mutation",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das krankhafte Enzym, das Leukämiezellen wachsen lässt – auch in seinen resistenten Formen. Ponatinib ist ein BCR-ABL-Hemmer der dritten Generation, der auch die T315I-Mutation hemmt, gegen die ältere Tyrosinkinasehemmer unwirksam sind. Zusätzlich hemmt es weitere Kinasen wie VEGF-, FGF- und PDGF-Rezeptoren, SRC und KIT; dies erklärt Gefäss-Nebenwirkungen wie Bluthochdruck und Gefässverschlüsse.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Herzinfarkt, Schlaganfall oder Durchblutungsstörungen der Beine in der Vorgeschichte und Gefässrisikofaktoren (arterielle Gefässverschlüsse, auch tödlich)",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "pavk",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: muss vor und während der Behandlung gut eingestellt sein",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Herzschwäche oder Herzrhythmusstörungen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Venöse Thrombosen oder Lungenembolie in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte oder Alkoholmissbrauch",
+      "ids": [
+        "pankreatitis",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Leberschädigung möglich)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Behandlung mit Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Infektion (Reaktivierung möglich – vor Beginn testen)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Ponatinib-Spiegel steigt (etwa +80 %) – nur mit Vorsicht; Senkung der Anfangsdosis erwägen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Ponatinib-Spiegel sinkt deutlich – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein- und BCRP-Substrate (z. B. Digoxin, Dabigatran, Methotrexat, Rosuvastatin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "methotrexat",
+        "rosuvastatin"
+      ],
+      "effekt": "Ponatinib kann deren Spiegel erhöhen – auf Nebenwirkungen achten, Spiegel kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bluthochdruck",
+      "Hautausschlag, trockene Haut",
+      "Bauchschmerzen, Verstopfung, Übelkeit",
+      "Kopfschmerzen, Müdigkeit",
+      "Gelenk- und Muskelschmerzen",
+      "Blutarmut, Mangel an Blutplättchen und weissen Blutkörperchen",
+      "Erhöhte Lipase- und Leberwerte",
+      "Infekte der oberen Atemwege"
+    ],
+    "haeufig": [
+      "Arterielle Gefässverschlüsse: Herzinfarkt, Angina pectoris, Schlaganfall, Durchblutungsstörungen der Beine",
+      "Herzschwäche, Vorhofflimmern",
+      "Venöse Thrombosen und Lungenembolie",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Blutungen",
+      "Pleuraerguss (Wasser im Brustfell), Atemnot",
+      "Erhöhter Blutzucker",
+      "Schilddrüsenunterfunktion"
+    ],
+    "gelegentlich": [
+      "Verschluss von Netzhautgefässen (Sehstörungen)",
+      "Leberschädigung (Hepatotoxizität)",
+      "Tumorlyse-Syndrom",
+      "Hypertensive Krise (Blutdruckentgleisung)"
+    ],
+    "unbekannt": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES: Kopfschmerzen, Verwirrtheit, Sehstörungen, Krampfanfälle)",
+      "Reaktivierung einer Hepatitis B",
+      "Schwere Hautreaktionen (z. B. Stevens-Johnson-Syndrom)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Blutdruck, Herz-Kreislauf-Risikofaktoren und Blutfette vor und während der Behandlung kontrollieren und behandeln.",
+    "Brustschmerzen, Lähmungen, Sprach- oder Sehstörungen sowie Schmerzen oder Kälte in den Beinen sofort als Notfall ärztlich abklären lassen.",
+    "Einmal täglich unabhängig von den Mahlzeiten einnehmen; keine Grapefruit und kein Johanniskraut.",
+    "Blutbild, Lipase und Leberwerte regelmässig kontrollieren."
+  ],
+  "stand": "2026-10"
+}

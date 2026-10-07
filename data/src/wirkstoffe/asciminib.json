@@ -1,0 +1,155 @@
+{
+  "id": "asciminib",
+  "name": "Asciminib",
+  "synonyme": [
+    "ABL001"
+  ],
+  "atc": [
+    "L01EA06"
+  ],
+  "klasse": "Proteinkinase-Hemmer (allosterischer BCR-ABL-Hemmer, STAMP-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei chronischer myeloischer Leukämie (CML); hemmt das Krankheitsenzym an einer neuen Bindungsstelle.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "myelosuppressiv",
+    "cyp2c9-hemmer",
+    "blutdrucksteigernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Scemblix"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Philadelphia-Chromosom-positive chronische myeloische Leukämie (Ph+ CML) in der chronischen Phase bei Erwachsenen, die bereits mit mindestens zwei Tyrosinkinasehemmern behandelt wurden",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert das krankhafte Enzym BCR-ABL, das die Leukämiezellen bei CML wachsen lässt, auf eine neue Art. Asciminib bindet nicht wie die bisherigen Tyrosinkinasehemmer an die ATP-Bindungsstelle, sondern an die sogenannte Myristoyl-Tasche von ABL1 (STAMP-Hemmer: «Specifically Targeting the ABL Myristoyl Pocket»). Dadurch wird die Kinase in ihrer inaktiven Form festgehalten; die Wirkung ist sehr selektiv und bleibt auch bei vielen Mutationen in der ATP-Bindungsstelle erhalten.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung: Blutbild in den ersten 3 Monaten alle 2 Wochen, danach monatlich kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte (Lipase und Amylase kontrollieren)",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder -Risikofaktoren (Gefässverschlüsse und Herzschwäche möglich)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinsuffizienz",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Herzrhythmusstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Infektion (Reaktivierung möglich – vor Beginn testen)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP2C9-Substrate mit enger therapeutischer Breite (z. B. Phenprocoumon, Acenocoumarol, Phenytoin)",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Asciminib kann deren Spiegel erhöhen, vor allem in hoher Dosis – INR bzw. Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel können steigen – Vorsicht, Wirkung und Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Fentanyl, Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Asciminib hemmt CYP3A4 schwach bis mässig (stärker in hoher Dosis) – Spiegel können steigen; Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Itraconazol-Lösung zum Einnehmen (mit Cyclodextrin)",
+      "ref": [
+        "itraconazol"
+      ],
+      "effekt": "Verminderte Aufnahme von Asciminib – Wirkung kann abnehmen; möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Asciminib-Spiegel steigt leicht – in hoher Dosis auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infekte der oberen Atemwege",
+      "Mangel an Blutplättchen, weissen und roten Blutkörperchen",
+      "Kopfschmerzen, Müdigkeit",
+      "Bluthochdruck",
+      "Übelkeit, Durchfall, Erbrechen, Bauchschmerzen",
+      "Hautausschlag",
+      "Muskel-, Knochen- und Gelenkschmerzen",
+      "Erhöhte Lipase-, Amylase- und Leberwerte, erhöhte Blutfette"
+    ],
+    "haeufig": [
+      "Fieberhafte Neutropenie",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Pleuraerguss (Wasser im Brustfell), Atemnot",
+      "Juckreiz, Nesselsucht"
+    ],
+    "unbekannt": [
+      "Arterielle Gefässverschlüsse (z. B. Herzinfarkt, Schlaganfall) und Herzschwäche",
+      "QT-Verlängerung im EKG",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen während und mindestens 3 Tage nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 3 Tage danach nicht stillen.",
+  "hinweise": [
+    "Nüchtern einnehmen: frühestens 2 Stunden nach und mindestens 1 Stunde vor dem Essen; Tabletten ganz schlucken.",
+    "Blutbild, Lipase und Amylase sowie Blutdruck regelmässig kontrollieren.",
+    "Starke Bauchschmerzen (Pankreatitis), Brustschmerzen oder Atemnot ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

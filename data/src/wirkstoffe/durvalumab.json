@@ -1,0 +1,190 @@
+{
+  "id": "durvalumab",
+  "name": "Durvalumab",
+  "synonyme": [
+    "MEDI4736"
+  ],
+  "atc": [
+    "L01FF03"
+  ],
+  "klasse": "Immun-Checkpoint-Hemmer (monoklonaler Antikörper gegen PD-L1)",
+  "kurz": "Immuntherapie als Infusion, die die Abwehr gegen Krebszellen aktiviert; bei Lungen-, Gallenwegs- und Leberkrebs.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Imfinzi"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht operabler nicht-kleinzelliger Lungenkrebs im Stadium III ohne Fortschreiten nach kombinierter Radiochemotherapie (Erhaltungstherapie)",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Kleinzelliger Lungenkrebs im fortgeschrittenen Stadium, Erstbehandlung zusammen mit Etoposid und Platin",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Gallenwegskrebs, Erstbehandlung zusammen mit Gemcitabin und Cisplatin",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Leberzellkrebs (hepatozelluläres Karzinom), Erstbehandlung zusammen mit Tremelimumab",
+      "ids": [
+        "leberkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, sodass körpereigene Abwehrzellen Krebszellen wieder erkennen und angreifen. Durvalumab ist ein humaner IgG1-Antikörper, der an den Liganden PD-L1 bindet und dessen Wechselwirkung mit den Rezeptoren PD-1 und CD80 auf T-Zellen blockiert. Viele Tumoren nutzen PD-L1, um T-Zellen abzuschalten; die Blockade reaktiviert die Immunantwort gegen den Tumor. Der Fc-Teil ist so verändert, dass er keine antikörperabhängige Zellzerstörung auslöst.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bestehende Autoimmunerkrankung (z. B. Morbus Crohn, Colitis ulcerosa, Lupus, rheumatoide Arthritis, Multiple Sklerose) – Verschlechterung möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "lupus",
+        "rheumatoide-arthritis",
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Lungenentzündung (Pneumonitis), besonders nach Bestrahlung des Brustkorbs",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Darm-, Leber- und Nierenentzündung – Leber- und Nierenwerte regelmässig kontrollieren",
+      "ids": [
+        "durchfall",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hormondrüsen-Störungen (Schilddrüse, Nebenniere, Hirnanhangsdrüse) und Typ-1-Diabetes",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "hypophyseninsuffizienz",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Herzmuskel-, Muskel- und Nervenentzündungen (Myokarditis, Myositis, Myasthenie)",
+      "ids": [
+        "kardiomyopathie",
+        "muskelerkrankung",
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Organtransplantation (Abstossungsgefahr)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden. Zur Behandlung immunvermittelter Nebenwirkungen nach Beginn sind sie jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immun-Checkpoint-Hemmer (z. B. Tremelimumab)",
+      "ref": [
+        "gruppe:checkpoint-inhibitoren",
+        "tremelimumab"
+      ],
+      "effekt": "Kombination wird gezielt eingesetzt; immunvermittelte Nebenwirkungen werden häufiger und schwerer – engmaschige Kontrollen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kombinierte Chemotherapie (z. B. Platin, Etoposid, Gemcitabin)",
+      "ref": [
+        "gruppe:platinderivate",
+        "etoposid",
+        "gemcitabin"
+      ],
+      "effekt": "Keine pharmakokinetische Wechselwirkung; Blutbildveränderungen und Übelkeit stammen meist von der Chemotherapie – Blutbild kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege",
+      "Husten",
+      "Durchfall",
+      "Bauchschmerzen",
+      "Hautausschlag, Juckreiz",
+      "Fieber",
+      "Hypothyreose (Schilddrüsenunterfunktion)"
+    ],
+    "haeufig": [
+      "Lungenentzündung (Pneumonie), Grippe, Mundsoor",
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "Hyperthyreose (Schilddrüsenüberfunktion)",
+      "Erhöhte Leberwerte",
+      "Dysphonie (Heiserkeit)",
+      "Nächtliches Schwitzen, Muskelschmerzen",
+      "Erhöhtes Kreatinin, Schmerzen beim Wasserlösen",
+      "Periphere Ödeme, Infusionsreaktionen"
+    ],
+    "gelegentlich": [
+      "Kolitis (Dickdarmentzündung)",
+      "Hepatitis (Leberentzündung)",
+      "Nebenniereninsuffizienz",
+      "Typ-1-Diabetes",
+      "Nephritis (Nierenentzündung)",
+      "Thyreoiditis (Schilddrüsenentzündung)",
+      "Interstitielle Lungenerkrankung"
+    ],
+    "selten": [
+      "Hypophysitis (Entzündung der Hirnanhangsdrüse), Diabetes insipidus",
+      "Myokarditis (Herzmuskelentzündung)",
+      "Myositis, Myasthenia gravis"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Guillain-Barré-Syndrom",
+      "Enzephalitis (Hirnentzündung)",
+      "Abstossung transplantierter Organe"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen: Die Blockade von PD-L1 kann die Toleranz gegenüber dem Ungeborenen stören, und IgG-Antikörper gehen über die Plazenta. Frauen im gebärfähigen Alter verhüten während der Behandlung und mindestens 3 Monate danach.",
+  "stillzeit": "Während der Behandlung und mindestens 3 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Neue Beschwerden wie Durchfall, Bauchschmerzen, Husten, Atemnot, Gelbsucht, starke Müdigkeit, Kopfschmerzen oder Hautausschlag sofort melden – auch Monate nach Therapieende.",
+    "Den Patientenausweis immer bei sich tragen und allen Ärztinnen und Ärzten zeigen.",
+    "Schilddrüsen-, Leber- und Nierenwerte sowie Blutzucker werden regelmässig kontrolliert.",
+    "Kortison nicht eigenmächtig beginnen oder absetzen; immunvermittelte Nebenwirkungen werden oft mit Kortison behandelt."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,181 @@
+{
+  "id": "midostaurin",
+  "name": "Midostaurin",
+  "synonyme": [
+    "PKC412"
+  ],
+  "atc": [
+    "L01EX10"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Multikinase-Hemmer: FLT3, KIT u. a.)",
+  "kurz": "Krebsmittel (Kapsel) gegen akute myeloische Leukämie mit FLT3-Mutation und gegen fortgeschrittene systemische Mastozytose.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "qt-verlaengernd",
+    "myelosuppressiv",
+    "kardiotoxisch",
+    "hyperglykaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Rydapt"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Weichkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte akute myeloische Leukämie (AML) mit FLT3-Mutation: zusammen mit Standard-Chemotherapie (Induktion und Konsolidierung), danach als Erhaltungstherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene systemische Mastozytose (aggressive systemische Mastozytose, systemische Mastozytose mit assoziierter hämatologischer Neoplasie, Mastzellleukämie)",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Vermehrung bösartiger Blutzellen, deren Wachstum durch veränderte Enzyme angetrieben wird. Midostaurin hemmt mehrere Tyrosinkinasen, darunter mutiertes und unverändertes FLT3 (ITD- und TKD-Mutationen) sowie KIT einschliesslich der für Mastozytose typischen D816V-Mutation, daneben PDGFR und VEGFR-2. Dadurch werden Signale für Zellteilung und Überleben unterbrochen und der programmierte Zelltod ausgelöst. Auch die beiden Hauptmetaboliten (CGP62221, CGP52421) sind wirksam.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Neutropenie und Infektionen: Blutbild regelmässig kontrollieren; schwere aktive Infektionen vorher behandeln",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz oder andere Herzerkrankungen: Abnahme der Herzpumpfunktion möglich – Herzfunktion überwachen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit: EKG-Kontrollen, besonders zusammen mit anderen QT-verlängernden Mitteln",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen: interstitielle Lungenerkrankung und Pneumonitis, teils tödlich – neue Atemnot oder Husten sofort melden",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (nicht untersucht)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaftstest vor Beginn, zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Enzalutamid)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "enzalutamid"
+      ],
+      "grund": "Beschleunigen den Abbau von Midostaurin stark – die Wirkung gegen die Erkrankung kann verloren gehen."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Beschleunigt den Abbau von Midostaurin über CYP3A4 stark – die Wirkung kann verloren gehen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Posaconazol, Voriconazol, Clarithromycin, Ritonavir) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Midostaurin-Spiegel steigt stark – Alternativen erwägen; sonst engmaschig auf Nebenwirkungen (v. a. Lunge, QT-Zeit) überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG-Kontrollen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ob Midostaurin die Verhütungswirkung abschwächt, ist nicht bekannt – zusätzlich eine Barrieremethode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel mit enger therapeutischer Breite, die über Leberenzyme oder Transporter abgebaut werden (z. B. Tizanidin, Vitamin-K-Antagonisten, Tacrolimus, Digoxin)",
+      "ref": [
+        "tizanidin",
+        "gruppe:vitamin-k-antagonisten",
+        "tacrolimus",
+        "digoxin"
+      ],
+      "effekt": "Midostaurin kann Abbauenzyme und Transporter beeinflussen – Wirkung bzw. Spiegel dieser Mittel überwachen, Dosis allenfalls anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung",
+      "Infektionen (Atemwege, Harnwege, Katheter); Fieber bei Neutropenie (bei AML)",
+      "Blutarmut, Mangel an weissen Blutkörperchen und Blutplättchen",
+      "Kopfschmerzen, Schlaflosigkeit, Schwindel",
+      "Nasenbluten, Atemnot, Pleuraerguss (Wasser im Brustfellraum)",
+      "Hyperglykämie (erhöhter Blutzucker), erhöhte Leber- und Pankreaswerte",
+      "Periphere Ödeme, Müdigkeit, Fieber, Gelenk- und Rückenschmerzen",
+      "Schuppende Hautentzündung, Schwitzen, punktförmige Hautblutungen"
+    ],
+    "haeufig": [
+      "QT-Verlängerung im EKG",
+      "Herzinsuffizienz, Perikarderguss (Herzbeutelerguss)",
+      "Sepsis, Lungenentzündung",
+      "Zittern, Ohnmacht (Synkope)",
+      "Pneumonitis (Lungenentzündung ohne Erreger)",
+      "Magen-Darm-Blutungen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Interstitielle Lungenerkrankung, akutes Atemnotsyndrom (ARDS)",
+      "Abnahme der Herzpumpfunktion (Auswurffraktion)",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nicht anwenden, ausser bei zwingender Notwendigkeit. Frauen müssen während der Behandlung und mindestens 4 Monate danach hochwirksam verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 4 Monate danach nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich mit einer Mahlzeit einnehmen; Kapseln unzerkaut schlucken, nicht öffnen oder zerdrücken.",
+    "Gegen Übelkeit und Erbrechen werden meist vorbeugend Mittel gegeben.",
+    "Blutbild, EKG und Lunge werden überwacht; neuen Husten, Atemnot oder Fieber sofort melden.",
+    "Kein Johanniskraut und keine Grapefruit; andere Medikamente nur nach Rücksprache."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,210 @@
+{
+  "id": "mercaptopurin",
+  "name": "Mercaptopurin",
+  "synonyme": [
+    "6-Mercaptopurin",
+    "6-MP",
+    "Mercaptopurine"
+  ],
+  "atc": [
+    "L01BB02"
+  ],
+  "klasse": "Antimetabolit (Purinanalogon, Thiopurin); Zytostatikum",
+  "kurz": "Krebsmittel in Tablettenform aus der Gruppe der Thiopurine; v. a. zur Langzeit-Erhaltungstherapie bei akuter Leukämie.",
+  "gruppen": [
+    "zytostatika",
+    "thiopurine",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "hepatotoxisch",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Puri-Nethol"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute Leukämien, v. a. akute lymphatische Leukämie (ALL), besonders zur Erhaltungstherapie in Kombination mit anderen Krebsmitteln",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung rasch wachsender Zellen, insbesondere von Leukämiezellen. Mercaptopurin ist eine Vorstufe (Prodrug): In der Zelle wird es durch das Enzym HGPRT zu Thioinosinmonophosphat und weiter zu Thioguanin-Nukleotiden umgewandelt. Diese hemmen die Neubildung von Purin-Bausteinen und werden als falsche Bausteine in DNA und RNA eingebaut, was zum Zelltod führt. Abgebaut wird Mercaptopurin vor allem durch die Enzyme Thiopurin-Methyltransferase (TPMT) und Xanthinoxidase.",
+  "kontraindikationen": [
+    {
+      "text": "Gleichzeitige Impfung mit Gelbfieber-Impfstoff",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Angeborener Mangel an den Enzymen TPMT oder NUDT15: stark erhöhtes Risiko einer schweren Knochenmarkhemmung (Test vor Beginn sinnvoll, Dosis anpassen)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Dosisanpassung; Gefahr von Leberschäden inkl. Verschluss kleiner Lebervenen)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Infektionen, besonders Windpocken oder Gürtelrose, sowie Hepatitis B (Gefahr schwerer Verläufe bzw. einer Reaktivierung)",
+      "ids": [
+        "aktive-infektion",
+        "herpes",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Lesch-Nyhan-Syndrom (angeborener HGPRT-Mangel): Mercaptopurin wirkt dann kaum",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Hautkrebs und Lymphome bei Langzeitbehandlung; Sonnenlicht und UV-Strahlung meiden",
+      "ids": [
+        "hautkrebs",
+        "lymphom",
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung während der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfstoff",
+      "ref": [
+        "gelbfieber-impfstoff"
+      ],
+      "grund": "Unter der immunsuppressiven Wirkung kann sich das abgeschwächte Impfvirus ungehindert vermehren – Gefahr einer lebensbedrohlichen Impfinfektion."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Allopurinol und Febuxostat (Gichtmittel)",
+      "ref": [
+        "allopurinol",
+        "febuxostat",
+        "gruppe:urikostatika"
+      ],
+      "effekt": "Hemmen den Abbau von Mercaptopurin über die Xanthinoxidase – lebensbedrohliche Knochenmarkhemmung möglich. Mit Allopurinol Mercaptopurin-Dosis auf ein Viertel senken; Febuxostat nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. andere Zytostatika, Cotrimoxazol)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe (z. B. Masern-Mumps-Röteln, Windpocken)",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen. Totimpfstoffe wirken möglicherweise schwächer.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ribavirin",
+      "ref": [],
+      "effekt": "Hemmt ein Enzym im Thiopurin-Stoffwechsel – schwere Knochenmarkhemmung beschrieben; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Aminosalicylate (Mesalazin, Sulfasalazin)",
+      "ref": [
+        "mesalazin",
+        "sulfasalazin"
+      ],
+      "effekt": "Hemmen das Abbauenzym TPMT – stärkere Knochenmarkhemmung möglich; Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat, v. a. hoch dosiert",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Erhöht die Mercaptopurin-Spiegel – Dosis gegebenenfalls anpassen, Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Abgeschwächte Blutverdünnung möglich – INR engmaschig kontrollieren, besonders bei Beginn und Ende der Mercaptopurin-Therapie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung mit Leukopenie (Mangel an weissen Blutkörperchen) und Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Appetitlosigkeit",
+      "Übelkeit, Erbrechen",
+      "Leberschädigung mit Gallenstau (erhöhte Leberwerte, Gelbsucht)"
+    ],
+    "gelegentlich": [
+      "Bakterielle und virale Infektionen",
+      "Überempfindlichkeitsreaktionen mit Gelenkschmerzen, Hautausschlag und Fieber",
+      "Leberzellnekrose (Absterben von Lebergewebe)"
+    ],
+    "selten": [
+      "Geschwüre der Mundschleimhaut",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Haarausfall",
+      "Bösartige Neubildungen, z. B. Lymphome, Hautkrebs, sekundäre Leukämie"
+    ],
+    "sehrSelten": [
+      "Darmgeschwüre",
+      "Vorübergehend verminderte Spermienzahl"
+    ],
+    "unbekannt": [
+      "Venookklusive Lebererkrankung (Verschluss kleiner Lebervenen), Pfortaderhochdruck",
+      "Hepatosplenisches T-Zell-Lymphom (seltener, aggressiver Lymphdrüsenkrebs)",
+      "Lichtempfindlichkeit der Haut",
+      "Hypoglykämie (Unterzuckerung), v. a. bei Kindern"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit anwenden, da Mercaptopurin das Ungeborene schädigen kann. Frauen und Männer müssen während der Behandlung und einige Monate danach zuverlässig verhüten.",
+  "stillzeit": "Mercaptopurin geht in die Muttermilch über; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Regelmässige Kontrollen von Blutbild und Leberwerten sind nötig; Fieber, Halsschmerzen, blaue Flecken oder Blutungen sofort melden.",
+    "Täglich zur gleichen Zeit und immer gleich einnehmen (entweder mit oder ohne Essen), möglichst nicht zusammen mit Milch oder Milchprodukten.",
+    "Haut konsequent vor Sonne schützen (Kleidung, Sonnencreme).",
+    "Keine Lebendimpfungen ohne Rücksprache mit der Ärztin oder dem Arzt."
+  ],
+  "stand": "2026-10"
+}

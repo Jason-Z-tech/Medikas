@@ -1,0 +1,173 @@
+{
+  "id": "polatuzumab-vedotin",
+  "name": "Polatuzumab Vedotin",
+  "synonyme": [
+    "Polatuzumab vedotin",
+    "Polatuzumab vedotin-piiq",
+    "RG7596"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01FX14"
+  ],
+  "klasse": "Antikörper-Wirkstoff-Konjugat (Anti-CD79b, mit dem Zellgift MMAE)",
+  "kurz": "Krebsmittel gegen ein aggressives Lymphom (DLBCL): ein Antikörper bringt ein Zellgift gezielt in die Lymphomzellen; Infusion mit Chemotherapie.",
+  "gruppen": [
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "neuropathie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Polivy"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht vorbehandeltes diffus grosszelliges B-Zell-Lymphom (DLBCL) bei Erwachsenen, in Kombination mit Rituximab, Cyclophosphamid, Doxorubicin und Prednison (R-CHP)",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Rezidiviertes oder therapieresistentes DLBCL bei Erwachsenen, die für eine Stammzelltransplantation nicht infrage kommen, in Kombination mit Bendamustin und Rituximab",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bringt ein Zellgift gezielt in bösartige B-Zellen. Polatuzumab Vedotin besteht aus einem Antikörper gegen CD79b, einen Bestandteil des B-Zell-Rezeptors, und dem daran gekoppelten Zellgift Monomethylauristatin E (MMAE). Nach der Bindung wird das Konjugat in die Zelle aufgenommen; dort wird MMAE freigesetzt, hemmt die Mikrotubuli und stoppt die Zellteilung, worauf die Zelle abstirbt (Apoptose).",
+  "kontraindikationen": [
+    {
+      "text": "Aktive schwere Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung (Neutropenie, Thrombozytopenie, Anämie): Blutbild vor jeder Gabe; vorbeugend Wachstumsfaktoren (G-CSF)",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Periphere Neuropathie (Kribbeln, Taubheit, Schwäche); vorbestehende Neuropathie",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen (Sepsis, Lungenentzündung, Herpes, Zytomegalie): vorbeugende Behandlung gegen Pneumocystis und Herpesviren erwägen",
+      "ids": [
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Progressive multifokale Leukenzephalopathie (PML, seltene Hirninfektion): neue neurologische Beschwerden abklären",
+      "ids": []
+    },
+    {
+      "text": "Tumorlysesyndrom bei grosser Tumorlast",
+      "ids": []
+    },
+    {
+      "text": "Leberschädigung, v. a. bei vorbestehender Lebererkrankung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfungen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Während der Behandlung nicht anwenden (Impfinfektion bei geschwächter Abwehr möglich).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Spiegel des freigesetzten Zellgifts MMAE – auf Nebenwirkungen wie Neuropathie und Blutbildveränderungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Vincristin, Taxane)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Höheres Risiko für eine ausgeprägte periphere Neuropathie.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel (Chemotherapie)",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Neutropenie und Thrombozytopenie – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Senken die MMAE-Spiegel; die Wirksamkeit kann abnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, auch mit Fieber (febrile Neutropenie)",
+      "Thrombozytopenie, Anämie",
+      "Infektionen der oberen Atemwege, Lungenentzündung",
+      "Periphere Neuropathie (Kribbeln, Taubheit)",
+      "Durchfall, Übelkeit, Verstopfung, Erbrechen",
+      "Haarausfall (in Kombination mit Chemotherapie)",
+      "Müdigkeit, Fieber, Appetitlosigkeit, Gewichtsabnahme"
+    ],
+    "haeufig": [
+      "Sepsis (Blutvergiftung)",
+      "Herpes- und Zytomegalie-Virusinfektionen",
+      "Pneumonitis (Lungenentzündung durch das Medikament)",
+      "Schwindel",
+      "Erhöhte Leberwerte",
+      "Infusionsbedingte Reaktionen, Schüttelfrost",
+      "Elektrolytstörungen (Kalium oder Calcium zu tief)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Progressive multifokale Leukenzephalopathie (PML)",
+      "Tumorlysesyndrom"
+    ]
+  },
+  "schwangerschaft": "Kann das Ungeborene schädigen; in der Schwangerschaft nicht anwenden, ausser der Nutzen überwiegt klar. Frauen verhüten während und mindestens 9 Monate, Männer mindestens 6 Monate nach der letzten Dosis.",
+  "stillzeit": "Während und mindestens 3 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Fieber über 38 °C, Schüttelfrost oder Husten sofort melden (Infektionsgefahr).",
+    "Kribbeln, Taubheit oder Schwäche in Händen und Füssen melden.",
+    "Neue Verwirrtheit, Sprach-, Seh- oder Gangstörungen umgehend abklären lassen (PML).",
+    "Keine Lebendimpfungen während der Behandlung."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "bimekizumab",
+  "name": "Bimekizumab",
+  "synonyme": [
+    "UCB4940"
+  ],
+  "atc": [
+    "L04AC21"
+  ],
+  "klasse": "Immunsuppressivum; monoklonaler Antikörper gegen Interleukin-17A und -17F",
+  "kurz": "Biologikum-Spritze gegen Schuppenflechte, Psoriasis-Arthritis und Morbus Bechterew; hemmt die Botenstoffe Interleukin-17A und -17F.",
+  "gruppen": [
+    "interleukin-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Bimzelx"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung im Fertigpen oder in der Fertigspritze (unter die Haut)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere Plaque-Psoriasis bei Erwachsenen, wenn eine systemische Therapie angezeigt ist",
+      "ids": [
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Aktive Psoriasis-Arthritis bei Erwachsenen, allein oder mit Methotrexat, wenn Basistherapeutika ungenügend wirken oder nicht vertragen werden",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    },
+    {
+      "text": "Axiale Spondyloarthritis (Morbus Bechterew und nicht-röntgenologische Form) bei ungenügendem Ansprechen auf die Standardtherapie",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt zwei eng verwandte Entzündungsbotenstoffe, die bei Schuppenflechte und entzündlichen Gelenk- und Wirbelsäulenerkrankungen eine zentrale Rolle spielen. Bimekizumab ist ein humanisierter monoklonaler IgG1-Antikörper, der sowohl Interleukin-17A als auch Interleukin-17F (und das Heterodimer IL-17A/F) bindet und deren Wirkung am IL-17-Rezeptor verhindert. Dadurch werden die Entzündung in Haut, Gelenken und Wirbelsäule sowie die übermässige Hautzellvermehrung gebremst.",
+  "kontraindikationen": [
+    {
+      "text": "Klinisch relevante aktive Infektionen (z. B. aktive Tuberkulose)",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Chronische oder wiederkehrende Infektionen: sorgfältig abwägen; bei schwerer Infektion pausieren",
+      "ids": [
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Tuberkulose: vor Beginn auf latente Tuberkulose untersuchen und ggf. behandeln",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Morbus Crohn oder Colitis ulcerosa: Neuauftreten oder Verschlechterung möglich",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Schwere Überempfindlichkeitsreaktionen möglich – dann sofort absetzen",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Keine Lebendimpfstoffe während der Behandlung; Impfungen möglichst vor Beginn vervollständigen",
+      "ids": [
+        "impfung",
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP450-Substrate mit enger therapeutischer Breite (z. B. Phenprocoumon, Warfarin)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Mit dem Abklingen der Entzündung kann sich der Leberabbau normalisieren – zu Beginn INR bzw. Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Biologika und starke Immunsuppressiva (z. B. TNF-alpha-Hemmer, Ciclosporin, JAK-Hemmer)",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:jak-hemmer"
+      ],
+      "effekt": "Kombination nicht untersucht; mehr Infektionen möglich – nur nach ärztlicher Abwägung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [],
+      "effekt": "Totimpfstoffe können verabreicht werden; die Antwort auf eine Grippeimpfung war in einer Studie nicht beeinträchtigt.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege"
+    ],
+    "haeufig": [
+      "Candida-Infektionen in Mund und Rachen (Soor)",
+      "Hautpilzinfektionen (Tinea)",
+      "Ohrentzündungen",
+      "Herpes-simplex-Infektionen",
+      "Magen-Darm-Entzündung (Gastroenteritis)",
+      "Kopfschmerzen",
+      "Ausschlag, Ekzem, Akne, Haarbalgentzündung",
+      "Reaktionen an der Einstichstelle, Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Candida-Infektionen von Haut und Schleimhäuten (inkl. Speiseröhre)",
+      "Bindehautentzündung",
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Entzündliche Darmerkrankung (Morbus Crohn, Colitis ulcerosa)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Vorsichtshalber vermeiden. Frauen im gebärfähigen Alter sollen während und mindestens 17 Wochen nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Nicht bekannt, ob Bimekizumab in die Muttermilch übergeht; über Stillen oder Behandlung entscheidet die Ärztin oder der Arzt.",
+  "hinweise": [
+    "Weisse Beläge, Brennen im Mund oder Schluckbeschwerden können auf Soor hinweisen – ärztlich behandeln lassen.",
+    "Bei neuem blutigem oder schleimigem Durchfall oder Bauchschmerzen ärztlich abklären (entzündliche Darmerkrankung).",
+    "Vor Beginn Tuberkulose-Test; keine Lebendimpfungen während der Behandlung."
+  ],
+  "stand": "2026-10"
+}

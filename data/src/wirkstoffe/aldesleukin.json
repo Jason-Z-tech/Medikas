@@ -1,0 +1,226 @@
+{
+  "id": "aldesleukin",
+  "name": "Aldesleukin",
+  "synonyme": [
+    "Interleukin-2",
+    "IL-2",
+    "rekombinantes Interleukin-2"
+  ],
+  "atc": [
+    "L03AC01"
+  ],
+  "klasse": "Interleukin-2 (Zytokin, Immunstimulans)",
+  "kurz": "Gentechnisch hergestellter Abwehr-Botenstoff gegen fortgeschrittenen Nierenkrebs; nur im Spital, da schwere Nebenwirkungen möglich sind.",
+  "gruppen": [
+    "blutdrucksenkend",
+    "nephrotoxisch",
+    "hepatotoxisch",
+    "myelosuppressiv"
+  ],
+  "handelsnamen": [
+    "Proleukin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter Nierenzellkrebs bei Erwachsenen",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Stimuliert das Immunsystem, damit es Krebszellen angreift. Aldesleukin ist gentechnisch hergestelltes Interleukin-2, ein Botenstoff, der an den IL-2-Rezeptor auf Lymphozyten bindet. Es fördert die Vermehrung und Aktivierung von T-Zellen und natürlichen Killerzellen sowie die Freisetzung weiterer Zytokine wie Interferon gamma und TNF-alpha. Diese Zytokinfreisetzung verursacht auch das typische Kapillarlecksyndrom mit Blutdruckabfall und Flüssigkeitseinlagerung.",
+  "kontraindikationen": [
+    {
+      "text": "Schlechter Allgemeinzustand (ECOG 2 oder höher) oder ECOG 1 mit Metastasen in mehr als einem Organ und weniger als 24 Monaten seit der Diagnose",
+      "ids": []
+    },
+    {
+      "text": "Schwere Herzkrankheit in der Vorgeschichte",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Aktive Infektion, die eine Antibiotikabehandlung erfordert",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Lungenfunktionsstörung (Sauerstoffpartialdruck in Ruhe unter 60 mmHg)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Schwere Funktionsstörung lebenswichtiger Organe; Bilirubin oder Kreatinin ausserhalb des Normbereichs",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hirnmetastasen (ausser erfolgreich behandelte) oder Krampfleiden",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Leukozyten unter 4'000/µl, Thrombozyten unter 100'000/µl oder Hämatokrit unter 30 %",
+      "ids": [
+        "knochenmarkschaedigung",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Organtransplantierte",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Kapillarlecksyndrom mit Blutdruckabfall, Flüssigkeitseinlagerung und Nierenversagen – Überwachung auf einer Intensiv- oder Spezialstation",
+      "ids": [
+        "hypotonie",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Autoimmunerkrankungen (z. B. Schilddrüse, Psoriasis) können ausgelöst oder verschlechtert werden",
+      "ids": [
+        "autoimmunerkrankung",
+        "hypothyreose",
+        "psoriasis"
+      ]
+    },
+    {
+      "text": "Infektionen, besonders an Venenkathetern bis zur Sepsis (vorbeugende Antibiotika erwägen)",
+      "ids": [
+        "aktive-infektion",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Bewusstseinsveränderungen, Verwirrtheit bis Koma: Behandlung bei Schläfrigkeit unterbrechen",
+      "ids": [
+        "delir",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Schwächen die Antitumorwirkung ab – nur bei lebensbedrohlichen Nebenwirkungen einsetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutdrucksenker (z. B. Betablocker, ACE-Hemmer, Diuretika)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall – werden vor Behandlungsbeginn meist pausiert.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nieren-, leber-, herz- oder knochenmarkschädigende Mittel (z. B. Aminoglykoside, Zytostatika)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:hepatotoxisch",
+        "gruppe:kardiotoxisch",
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Organschäden können sich addieren – Organfunktionen engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Psychopharmaka, Schlaf- und Beruhigungsmittel, Opioide",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte zentrale Nebenwirkungen wie Verwirrtheit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Jodhaltige Röntgenkontrastmittel",
+      "ref": [
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Auch Monate nach Aldesleukin sind verzögerte Überempfindlichkeitsreaktionen (Fieber, Ausschlag, Blutdruckabfall) möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Interferon alfa",
+      "ref": [
+        "peginterferon-alfa-2a",
+        "ropeginterferon-alfa-2b"
+      ],
+      "effekt": "In Kombination wurden Herzinfarkt, Herzmuskelentzündung, Muskelzerfall und verstärkte Autoimmunreaktionen beobachtet – nur mit enger Überwachung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Blutdruckabfall (Hypotonie), Kapillarlecksyndrom mit Ödemen und Gewichtszunahme",
+      "Fieber, Schüttelfrost, Müdigkeit, Unwohlsein",
+      "Übelkeit, Erbrechen, Durchfall, Appetitlosigkeit",
+      "Verminderte Urinmenge, Anstieg von Kreatinin und Harnstoff",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Anämie (Blutarmut), Thrombozytopenie (Mangel an Blutplättchen)",
+      "Atemnot, Herzrasen (Tachykardie)",
+      "Hautrötung, Ausschlag, Juckreiz"
+    ],
+    "haeufig": [
+      "Herzrhythmusstörungen (z. B. Vorhofflimmern)",
+      "Verwirrtheit, Angst, Schläfrigkeit, Schwindel",
+      "Infektionen",
+      "Husten, Flüssigkeit in der Lunge",
+      "Schilddrüsenunterfunktion",
+      "Gelenk- und Muskelschmerzen",
+      "Mundentzündung, Bauchschmerzen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Herzinfarkt, Myokarditis (Herzmuskelentzündung), Herzstillstand",
+      "Koma, Krampfanfälle, Psychose",
+      "Ateminsuffizienz mit Beatmungsbedarf",
+      "Akutes Nierenversagen",
+      "Sepsis",
+      "Magen-Darm-Blutung, Darmdurchbruch",
+      "Autoimmunerkrankungen (Schilddrüse, Psoriasis, Kollagenosen)",
+      "Schwere Hautreaktionen"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird nur im Spital unter intensiver Überwachung angewendet.",
+    "Engmaschige Kontrollen von Blutdruck, Gewicht, Urinmenge, Blutwerten sowie Nieren-, Leber- und Lungenfunktion.",
+    "Blutdrucksenkende Mittel nur nach ärztlicher Anweisung weiter einnehmen.",
+    "Bei späteren Untersuchungen mit Kontrastmittel auf die frühere Aldesleukin-Behandlung hinweisen."
+  ],
+  "stand": "2026-10"
+}

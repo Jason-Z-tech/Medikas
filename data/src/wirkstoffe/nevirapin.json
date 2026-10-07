@@ -1,0 +1,233 @@
+{
+  "id": "nevirapin",
+  "name": "Nevirapin",
+  "synonyme": [
+    "NVP",
+    "Nevirapine"
+  ],
+  "atc": [
+    "J05AG01"
+  ],
+  "klasse": "Nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI)",
+  "kurz": "HIV-Medikament für die Kombinationstherapie; in den ersten Monaten besonders auf Hautausschlag und Leberschäden achten.",
+  "gruppen": [
+    "nnrti",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Viramune"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen, Jugendlichen und Kindern, in Kombination mit anderen antiretroviralen Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des HI-Virus. Nevirapin bindet direkt an eine Tasche der Reversen Transkriptase von HIV-1 nahe dem aktiven Zentrum und verändert deren Form, sodass das Enzym die virale RNA nicht mehr in DNA umschreiben kann. Gegen HIV-2 wirkt es nicht. Nevirapin induziert die Leberenzyme CYP3A4 und CYP2B6 und beschleunigt damit auch seinen eigenen Abbau.",
+  "kontraindikationen": [
+    {
+      "text": "Mittelschwere bis schwere Leberinsuffizienz (Child-Pugh B oder C)",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberwerte (ASAT/ALAT) vor Behandlungsbeginn über dem 5-Fachen der Norm, bis sie sich stabilisiert haben",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frühere schwere Hautreaktion, Ausschlag mit Allgemeinsymptomen, Überempfindlichkeitsreaktion oder Hepatitis unter Nevirapin – nie wieder einnehmen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Frauen mit mehr als 250 CD4-Zellen/µl und Männer mit mehr als 400/µl: deutlich höheres Risiko für schwere Leberschäden – Beginn nur, wenn der Nutzen überwiegt",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Chronische Hepatitis B oder C, erhöhte Leberwerte",
+      "ids": [
+        "hepatitis-b",
+        "hepatitis-c",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hautausschlag in den ersten 18 Wochen: bei Fieber, Blasen, Schleimhautbefall, Gelenkschmerzen oder Gelbsucht sofort absetzen",
+      "ids": [
+        "hautausschlag",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Dialyse: zusätzliche Dosis nach der Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Enzyminduktion senkt den Nevirapin-Spiegel – Wirkverlust und Resistenzentwicklung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Hormonspiegel sinken – nicht als einzige Verhütungsmethode verwenden, zusätzlich Kondom.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin",
+        "rifampicin-isoniazid",
+        "rifampicin-isoniazid-pyrazinamid"
+      ],
+      "effekt": "Nevirapin-Spiegel sinkt deutlich – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ketoconazol, Itraconazol",
+      "ref": [
+        "ketoconazol",
+        "itraconazol"
+      ],
+      "effekt": "Spiegel des Pilzmittels sinkt stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NNRTI (Efavirenz, Etravirin, Rilpivirin)",
+      "ref": [
+        "gruppe:nnrti"
+      ],
+      "effekt": "Kein Zusatznutzen, mehr Nebenwirkungen bzw. gegenseitige Spiegelsenkung – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Atazanavir",
+      "ref": [
+        "atazanavir"
+      ],
+      "effekt": "Atazanavir-Spiegel sinkt, Nevirapin-Spiegel steigt (Lebertoxizität) – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lopinavir/Ritonavir und andere geboosterte Proteasehemmer",
+      "ref": [
+        "lopinavir-ritonavir",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Spiegel der Proteasehemmer sinken – Dosis allenfalls erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Methadon-Spiegel sinkt – Entzugssymptome möglich, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluconazol",
+      "ref": [
+        "fluconazol"
+      ],
+      "effekt": "Nevirapin-Spiegel steigt deutlich – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clarithromycin",
+      "ref": [
+        "clarithromycin"
+      ],
+      "effekt": "Clarithromycin-Spiegel sinkt, sein Abbauprodukt steigt – Wirksamkeit überwachen, allenfalls Azithromycin wählen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung verändert – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere CYP3A4-Substrate (z. B. Calciumantagonisten, Immunsuppressiva, Statine)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Spiegel können sinken – Wirkung bzw. Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Prednison zur Vorbeugung von Ausschlag",
+      "ref": [
+        "prednison"
+      ],
+      "effekt": "Verhindert den Ausschlag nicht und erhöht dessen Häufigkeit in den ersten Wochen – nicht dafür einsetzen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautausschlag"
+    ],
+    "haeufig": [
+      "Granulozytopenie (Mangel an weissen Blutkörperchen)",
+      "Überempfindlichkeitsreaktionen",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen, Bauchschmerzen, Durchfall",
+      "Hepatitis, erhöhte Leberwerte",
+      "Müdigkeit, Fieber"
+    ],
+    "gelegentlich": [
+      "Anämie",
+      "Gelbsucht",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Anaphylaxie, Angioödem, Nesselsucht",
+      "Gelenk- und Muskelschmerzen"
+    ],
+    "selten": [
+      "Fulminante Hepatitis, Leberversagen",
+      "DRESS (schwere Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)"
+    ]
+  },
+  "schwangerschaft": "Kann bei klinischer Notwendigkeit angewendet werden; bei Frauen mit mehr als 250 CD4-Zellen/µl erhöhtes Risiko für Leberschäden beachten.",
+  "stillzeit": "Menschen mit HIV wird generell vom Stillen abgeraten; allenfalls nach eingehender Beratung durch die HIV-Fachperson.",
+  "hinweise": [
+    "Die Behandlung beginnt mit einer 14-tägigen Einschleichphase mit niedrigerer Dosis – diese genau einhalten; erhöht wird erst, wenn kein Ausschlag aufgetreten ist.",
+    "In den ersten 18 Wochen werden die Leberwerte engmaschig kontrolliert.",
+    "Bei Ausschlag mit Fieber, Blasen, Befall der Mundschleimhaut, Gelbsucht oder starker Müdigkeit sofort ärztliche Hilfe holen.",
+    "Hormonale Verhütung immer mit Kondom ergänzen."
+  ],
+  "stand": "2026-10"
+}

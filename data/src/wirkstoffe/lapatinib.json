@@ -1,0 +1,205 @@
+{
+  "id": "lapatinib",
+  "name": "Lapatinib",
+  "synonyme": [
+    "Lapatinibum",
+    "Lapatinib ditosylate"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EH01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (HER2/EGFR-Tyrosinkinasehemmer); Krebsmittel",
+  "kurz": "Krebsmittel (Tyrosinkinasehemmer) zum Einnehmen gegen fortgeschrittenen HER2-positiven Brustkrebs, kombiniert mit Capecitabin oder einem Aromatasehemmer.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "cyp2c8-hemmer",
+    "p-gp-hemmer",
+    "qt-verlaengernd",
+    "kardiotoxisch",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tyverb"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener oder metastasierter HER2-positiver Brustkrebs nach Vorbehandlung (u. a. mit Trastuzumab), zusammen mit Capecitabin",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter HER2-positiver, hormonrezeptor-positiver Brustkrebs nach den Wechseljahren, zusammen mit einem Aromatasehemmer, wenn keine Chemotherapie vorgesehen ist",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert Wachstumssignale in Brustkrebszellen mit zu vielen HER2-Rezeptoren. Lapatinib hemmt reversibel die Tyrosinkinasen der Rezeptoren HER2 (ErbB2) und EGFR (ErbB1) im Zellinnern. Dadurch werden die nachgeschalteten Signalwege (MAPK, PI3K/AKT) unterbrochen, die Zellteilung gebremst und der Zelltod gefördert.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Herzschwäche oder eingeschränkte Pumpfunktion (Abnahme der Auswurffraktion möglich, Kontrollen vor und während der Therapie)",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit, Herzrhythmusstörungen, Kalium- oder Magnesiummangel (EKG und Elektrolyte vor und während der Therapie)",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: schwere Leberschäden möglich, Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (interstitielle Lungenerkrankung, Pneumonitis möglich)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Durchfall: kann schwer verlaufen und zu Flüssigkeitsmangel führen",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Schwere Nierenfunktionsstörung (wenig Erfahrung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Genetische Merkmale (HLA-DQA1*02:01, HLA-DRB1*07:01) mit erhöhtem Risiko für Leberschäden",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Lapatinib-Spiegel steigt stark – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Lapatinib-Spiegel sinkt deutlich, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Haloperidol, Citalopram)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – möglichst vermeiden, EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker)",
+      "ref": [
+        "gruppe:magensaeure-reduzierend",
+        "gruppe:protonenpumpenhemmer",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Lapatinib wird schlechter aufgenommen, Wirkung kann abnehmen – Kombination möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und andere empfindliche P-Glykoprotein-Substrate",
+      "ref": [
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Lapatinib hemmt P-Glykoprotein – Digoxin-Spiegel steigt; Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paclitaxel und andere CYP2C8-Substrate",
+      "ref": [
+        "paclitaxel"
+      ],
+      "effekt": "Höhere Paclitaxel-Spiegel, mehr Neutropenie und Durchfall – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Irinotecan",
+      "ref": [
+        "irinotecan"
+      ],
+      "effekt": "Höhere Spiegel des aktiven Metaboliten SN-38 – Vorsicht, Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere herzmuskelschädigende Mittel (z. B. Anthrazykline)",
+      "ref": [
+        "gruppe:kardiotoxisch"
+      ],
+      "effekt": "Höheres Risiko für eine Abnahme der Herzleistung – Herzfunktion kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Dyspepsie (Verdauungsbeschwerden), Stomatitis",
+      "Hautausschlag, trockene Haut, Hand-Fuss-Syndrom (mit Capecitabin)",
+      "Nagelveränderungen, Nagelbettentzündung, Haarausfall",
+      "Appetitlosigkeit, Müdigkeit",
+      "Schlaflosigkeit, Kopfschmerzen",
+      "Schmerzen in Rücken und Gliedern",
+      "Nasenbluten, Hitzewallungen (mit Aromatasehemmer)"
+    ],
+    "haeufig": [
+      "Abnahme der Herzleistung (verminderte Auswurffraktion)",
+      "Erhöhtes Bilirubin, erhöhte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Schwere Leberschäden (Hepatotoxizität)",
+      "Interstitielle Lungenerkrankung, Pneumonitis"
+    ],
+    "selten": [
+      "Schwere Überempfindlichkeitsreaktionen einschliesslich Anaphylaxie"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "QT-Verlängerung und ventrikuläre Herzrhythmusstörungen (Torsade de Pointes)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn unbedingt nötig. Frauen müssen während und mindestens 5 Tage nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und bis 5 Tage nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich mindestens 1 Stunde vor oder 1 Stunde nach einer Mahlzeit einnehmen, immer gleich in Bezug auf das Essen.",
+    "Grapefruit und Grapefruitsaft meiden.",
+    "Bei Durchfall früh mit dem verordneten Mittel (z. B. Loperamid) beginnen, viel trinken und bei Fieber oder schwerem Durchfall sofort ärztlich melden.",
+    "Regelmässige Kontrollen: Herzfunktion, EKG, Elektrolyte und Leberwerte."
+  ],
+  "stand": "2026-10"
+}

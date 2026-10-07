@@ -1,0 +1,255 @@
+{
+  "id": "gemfibrozil",
+  "name": "Gemfibrozil",
+  "synonyme": [
+    "Gemfibrozilum"
+  ],
+  "atc": [
+    "C10AB04"
+  ],
+  "klasse": "Lipidsenker aus der Gruppe der Fibrate (PPAR-alpha-Agonist)",
+  "kurz": "Blutfettsenker aus der Gruppe der Fibrate; senkt vor allem erhöhte Triglyceride und hebt das «gute» HDL-Cholesterin.",
+  "gruppen": [
+    "fibrate",
+    "cyp2c8-hemmer",
+    "oatp1b-hemmer",
+    "cyp2c9-hemmer",
+    "myotoxisch"
+  ],
+  "handelsnamen": [
+    "Gevilon"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhöhte Triglyceride und gemischte Fettstoffwechselstörungen mit tiefem HDL-Cholesterin, wenn Diät und andere Massnahmen nicht genügen",
+      "ids": [
+        "hypertriglyzeridaemie",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Cholesterin, wenn ein Statin nicht geeignet ist oder nicht vertragen wird",
+      "ids": [
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Herz-Kreislauf-Erkrankungen bei Männern mit erhöhten Blutfetten und hohem Risiko, wenn ein Statin nicht geeignet ist",
+      "ids": [
+        "kardiovaskulaeres-risiko"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt vor allem die Triglyceride im Blut und erhöht das HDL-Cholesterin. Gemfibrozil aktiviert den Kernrezeptor PPAR-alpha; dadurch wird die Lipoproteinlipase aktiviert und der Abbau triglyceridreicher Lipoproteine (VLDL) gesteigert. Gleichzeitig bildet die Leber weniger VLDL, und aus dem Fettgewebe werden weniger freie Fettsäuren freigesetzt. Gemfibrozil und sein Glucuronid hemmen zudem stark das Enzym CYP2C8 und den Leber-Aufnahmetransporter OATP1B1, was zahlreiche Wechselwirkungen erklärt.",
+  "kontraindikationen": [
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Erkrankungen der Gallenblase oder Gallenwege, einschliesslich Gallensteine",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Frühere Photoallergie oder phototoxische Reaktion (Lichtüberempfindlichkeit) unter einem Fibrat",
+      "ids": [
+        "sonnenbrand"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Muskelschmerzen, Muskelschwäche oder Muskelerkrankung: Gefahr von Myositis und Rhabdomyolyse (Muskelzerfall), besonders zusammen mit Statinen",
+      "ids": [
+        "muskelerkrankung",
+        "muskelschmerzen"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Niereninsuffizienz (Nierenfunktion kontrollieren, erhöhtes Myopathierisiko)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und Schilddrüsenunterfunktion (erhöhtes Risiko für Muskelschäden)",
+      "ids": [
+        "aeltere-patienten",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Gemfibrozil kann die Bildung von Gallensteinen fördern – Oberbauchbeschwerden abklären lassen",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (Anämie, Mangel an weissen Blutkörperchen) – Blutbild kontrollieren",
+      "ids": [
+        "anaemie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Behandlung mit Vitamin-K-Antagonisten (verstärkte Blutverdünnung)",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Simvastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Gemfibrozil hemmt Abbau und Leberaufnahme von Simvastatin – stark erhöhtes Risiko für Muskelzerfall (Rhabdomyolyse)."
+    },
+    {
+      "text": "Repaglinid",
+      "ref": [
+        "repaglinid"
+      ],
+      "grund": "Hemmung von CYP2C8 und OATP1B1 erhöht die Repaglinid-Spiegel um ein Vielfaches – Gefahr schwerer, lang anhaltender Unterzuckerung."
+    },
+    {
+      "text": "Selexipag",
+      "ref": [
+        "selexipag"
+      ],
+      "grund": "Hemmung von CYP2C8 erhöht die Spiegel des aktiven Selexipag-Metaboliten stark – vermehrt Nebenwirkungen wie Blutdruckabfall, Kopfschmerzen und Durchfall."
+    },
+    {
+      "text": "Dasabuvir (Hepatitis-C-Mittel)",
+      "ref": [],
+      "grund": "Hemmung von CYP2C8 steigert die Dasabuvir-Spiegel stark – Gefahr einer QT-Verlängerung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere Statine (z. B. Atorvastatin, Rosuvastatin, Pravastatin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Deutlich erhöhtes Risiko für Muskelschäden bis zur Rhabdomyolyse – Kombination möglichst vermeiden; Muskelschmerzen oder dunklen Urin sofort ärztlich melden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung mit Blutungsgefahr – Dosis des Antikoagulans meist reduzieren, INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Bexaroten",
+      "ref": [
+        "bexaroten"
+      ],
+      "effekt": "Stark erhöhte Bexaroten-Spiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzalutamid",
+      "ref": [
+        "enzalutamid"
+      ],
+      "effekt": "Hemmung von CYP2C8 erhöht die Spiegel von Enzalutamid und seinem aktiven Metaboliten etwa auf das Doppelte – Kombination vermeiden oder Enzalutamid-Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Pioglitazon",
+      "ref": [
+        "pioglitazon"
+      ],
+      "effekt": "Pioglitazon-Spiegel steigen etwa auf das Dreifache – Dosis anpassen, auf Ödeme und Gewichtszunahme achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paclitaxel",
+      "ref": [
+        "paclitaxel"
+      ],
+      "effekt": "Langsamerer Abbau von Paclitaxel über CYP2C8 – mehr Nebenwirkungen wie Knochenmarkhemmung und Nervenschäden möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (Colestyramin, Colesevelam)",
+      "ref": [
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Verminderte Aufnahme von Gemfibrozil – Gemfibrozil mindestens 2 Stunden vor dem Gallensäurebinder einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ezetimib",
+      "ref": [
+        "ezetimib"
+      ],
+      "effekt": "Möglicherweise erhöhtes Risiko für Gallensteine – Kombination nicht empfohlen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Montelukast",
+      "ref": [
+        "montelukast"
+      ],
+      "effekt": "Montelukast-Spiegel steigen deutlich; meist ohne klinische Folgen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Dyspepsie (Verdauungsbeschwerden)"
+    ],
+    "haeufig": [
+      "Bauchschmerzen, Übelkeit, Erbrechen",
+      "Durchfall, Blähungen, Verstopfung",
+      "Kopfschmerzen, Drehschwindel (Vertigo)",
+      "Hautausschlag, Ekzem",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Vorhofflimmern"
+    ],
+    "selten": [
+      "Gallensteine, Gallenblasenentzündung, cholestatische Gelbsucht",
+      "Hepatitis (Leberentzündung), veränderte Leberwerte",
+      "Blutbildveränderungen (Anämie, Leukopenie, Thrombozytopenie), Knochenmarkhypoplasie",
+      "Myositis und Rhabdomyolyse (Muskelzerfall), Muskel- und Gelenkschmerzen",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Angioödem (Schwellung von Haut und Schleimhäuten), Nesselsucht",
+      "Lichtempfindlichkeit der Haut, Haarausfall",
+      "Erektionsstörung, Kribbeln (Parästhesien), Depression, verschwommenes Sehen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur anwenden, wenn es nach strenger ärztlicher Abwägung eindeutig notwendig ist.",
+  "stillzeit": "Es ist nicht bekannt, ob Gemfibrozil in die Muttermilch übergeht; während der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Etwa 30 Minuten vor dem Frühstück bzw. vor dem Abendessen einnehmen.",
+    "Unerklärliche Muskelschmerzen, Muskelschwäche oder dunklen Urin sofort ärztlich melden.",
+    "Blutbild, Leberwerte und Blutfette vor und während der Behandlung kontrollieren; ohne ausreichende Wirkung nach 3 Monaten absetzen.",
+    "Starker CYP2C8-Hemmer: jedes neue Medikament auf Wechselwirkungen prüfen lassen."
+  ],
+  "stand": "2026-10"
+}

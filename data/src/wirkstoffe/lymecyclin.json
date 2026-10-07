@@ -1,0 +1,189 @@
+{
+  "id": "lymecyclin",
+  "name": "Lymecyclin",
+  "synonyme": [
+    "Lymecycline",
+    "Tetracyclin-L-methylenlysin"
+  ],
+  "atc": [
+    "J01AA04"
+  ],
+  "klasse": "Tetracyclin-Antibiotikum",
+  "kurz": "Antibiotikum aus der Gruppe der Tetracycline, eingesetzt bei entzündlicher Akne.",
+  "gruppen": [
+    "tetracycline",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tetralysal"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere entzündliche Akne (Acne vulgaris)",
+      "ids": [
+        "akne"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Bakterien, auch der an der Akne beteiligten Hautbakterien (Cutibacterium acnes). Lymecyclin ist eine gut wasserlösliche Verbindung von Tetracyclin mit der Aminosäure Lysin. Es bindet an die 30S-Untereinheit der bakteriellen Ribosomen und verhindert die Anlagerung der Transfer-RNA, sodass die Eiweisssynthese stoppt (bakteriostatisch). Bei Akne wirkt es zusätzlich entzündungshemmend.",
+  "kontraindikationen": [
+    {
+      "text": "Kinder unter 8 Jahren (bleibende Zahnverfärbung, Störung des Knochenwachstums)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Allergie gegen andere Tetracycline (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leberfunktion oder gleichzeitige Einnahme leberschädigender Medikamente",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Leicht bis mässig eingeschränkte Nierenfunktion (Anreicherung möglich)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Muskelschwäche kann zunehmen)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes (kann sich verschlechtern)",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit: starke Sonne und Solarium meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Kopfschmerzen mit Sehstörungen können auf einen erhöhten Hirndruck hinweisen – Behandlung abbrechen und ärztlich abklären",
+      "ids": [
+        "sehstoerung",
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Schwerer oder anhaltender Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Systemische Retinoide (z. B. Isotretinoin, Acitretin)",
+      "ref": [
+        "gruppe:retinoide-systemisch"
+      ],
+      "grund": "Beide können den Hirndruck erhöhen – Gefahr eines Pseudotumor cerebri (gutartige Drucksteigerung im Schädel)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mehrwertige Kationen: Antazida, Eisen-, Calcium-, Magnesium- und Zinkpräparate",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Bilden schwer lösliche Komplexe – Lymecyclin wird kaum aufgenommen. Mindestens 2–3 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Penicilline",
+      "ref": [
+        "gruppe:penicilline"
+      ],
+      "effekt": "Tetracycline können die Wirkung von Penicillinen abschwächen – Kombination vermeiden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Abgeschwächte Verhütungswirkung in Einzelfällen nicht auszuschliessen, besonders bei Durchfall oder Erbrechen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Übelkeit",
+      "Bauchschmerzen",
+      "Durchfall",
+      "Kopfschmerzen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Lichtempfindlichkeit (phototoxische Hautreaktionen)",
+      "Überempfindlichkeitsreaktionen bis zur Anaphylaxie, Nesselsucht, Angioödem",
+      "Erhöhter Hirndruck (Pseudotumor cerebri) mit Kopfschmerzen und Sehstörungen",
+      "Speiseröhrenentzündung und -geschwüre, Schluckbeschwerden",
+      "Zahnverfärbung bei Kindern",
+      "Leberschäden, Gelbsucht, erhöhte Leberwerte",
+      "Blutbildveränderungen (Neutropenie, Thrombozytopenie)",
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert: Tetracycline können beim Ungeborenen bleibende Zahnverfärbungen und Störungen des Knochenwachstums verursachen.",
+  "stillzeit": "Kontraindiziert: Lymecyclin geht in die Muttermilch über.",
+  "hinweise": [
+    "Kapseln aufrecht mit einem grossen Glas Wasser schlucken, nicht unmittelbar vor dem Schlafengehen (Gefahr von Speiseröhrengeschwüren).",
+    "Antazida, Eisen-, Calcium-, Magnesium- und Zinkpräparate mit 2–3 Stunden Abstand einnehmen.",
+    "Starke Sonne und Solarium meiden; Sonnenschutz verwenden.",
+    "Die Wirkung bei Akne zeigt sich meist erst nach einigen Wochen."
+  ],
+  "stand": "2026-10"
+}

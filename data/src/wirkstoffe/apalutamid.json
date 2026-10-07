@@ -1,0 +1,212 @@
+{
+  "id": "apalutamid",
+  "name": "Apalutamid",
+  "synonyme": [
+    "ARN-509",
+    "Apalutamide"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L02BB05"
+  ],
+  "klasse": "Androgenrezeptor-Hemmer der 2. Generation",
+  "kurz": "Tabletten gegen Prostatakrebs; blockiert den Androgenrezeptor, zusammen mit einer Hormonentzugstherapie.",
+  "gruppen": [
+    "antiandrogene",
+    "cyp3a4-induktoren",
+    "p-gp-induktoren",
+    "qt-verlaengernd",
+    "krampfschwellensenkend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Erleada"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht metastasiertes kastrationsresistentes Prostatakarzinom mit hohem Metastasierungsrisiko",
+      "ids": [
+        "prostatakrebs"
+      ]
+    },
+    {
+      "text": "Metastasiertes hormonsensitives Prostatakarzinom, in Kombination mit einer Androgenentzugstherapie",
+      "ids": [
+        "prostatakrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert die Wirkung männlicher Hormone auf Prostatakrebszellen. Apalutamid bindet direkt an die Ligandenbindungsstelle des Androgenrezeptors und verhindert dessen Wanderung in den Zellkern, die Bindung an die DNA und das Ablesen androgenabhängiger Gene. Es hat keine eigene stimulierende Wirkung am Rezeptor. Zusammen mit dem Hormonentzug (GnRH-Analogon oder Orchiektomie) wird so das Tumorwachstum gebremst.",
+  "kontraindikationen": [
+    {
+      "text": "Frauen, die schwanger sind oder schwanger werden könnten",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Krampfanfälle in der Vorgeschichte oder erhöhte Krampfbereitschaft",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Stürze und Knochenbrüche: Sturzrisiko abklären, Knochenschutz erwägen",
+      "ids": [
+        "osteoporose",
+        "knochenbruch",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: Durchblutungsstörungen von Herz und Hirn beobachtet; Risikofaktoren behandeln",
+      "ids": [
+        "koronare-herzkrankheit",
+        "schlaganfall",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung (angeboren oder durch Medikamente), Elektrolytstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS): bei Verdacht sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung: bei neuem Husten oder Atemnot abklären",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion: Schilddrüsenwerte kontrollieren",
+      "ids": [
+        "hypothyreose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, viele Krebsmittel, Simvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Apalutamid ist ein starker CYP3A4-Induktor: Spiegel sinken stark, Wirkung geht verloren – meiden oder Alternative wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien und Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:doak",
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Wirkung der Blutverdünner vermindert (Induktion von CYP3A4, CYP2C9 und P-gp) – INR engmaschig kontrollieren bzw. Alternative wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2C19-Substrate (z. B. Omeprazol, Citalopram)",
+      "ref": [
+        "gruppe:cyp2c19-substrate"
+      ],
+      "effekt": "Apalutamid induziert CYP2C19 – Spiegel dieser Mittel sinken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-gp-Substrate (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel können sinken – Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel (z. B. Antiarrhythmika Klasse IA und III, Methadon, Moxifloxacin, Antipsychotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – sorgfältig abwägen, EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Krampfschwellensenkende Mittel (z. B. Bupropion, Tramadol)",
+      "ref": [
+        "gruppe:krampfschwellensenkend"
+      ],
+      "effekt": "Erhöhtes Risiko für Krampfanfälle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levothyroxin",
+      "ref": [
+        "levothyroxin"
+      ],
+      "effekt": "Beschleunigter Abbau – bei Schilddrüsenunterfunktion kann eine höhere Dosis nötig sein; TSH kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2C8-Hemmer (z. B. Gemfibrozil) und starke CYP3A4-Hemmer",
+      "ref": [
+        "gruppe:cyp2c8-hemmer",
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Apalutamid-Spiegel steigt leicht – je nach Verträglichkeit Dosis reduzieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit",
+      "Hautausschlag",
+      "Hitzewallungen",
+      "Bluthochdruck",
+      "Durchfall",
+      "Gelenkschmerzen",
+      "Stürze und Knochenbrüche",
+      "Gewichtsverlust"
+    ],
+    "haeufig": [
+      "Schilddrüsenunterfunktion (Hypothyreose)",
+      "Erhöhte Blutfette (Cholesterin, Triglyceride)",
+      "Geschmacksstörungen",
+      "Durchblutungsstörungen des Herzens (ischämische Herzkrankheit) und des Gehirns",
+      "Juckreiz, Haarausfall",
+      "Muskelkrämpfe"
+    ],
+    "gelegentlich": [
+      "Krampfanfälle",
+      "QT-Verlängerung"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS (schwere Hautreaktionen)",
+      "Interstitielle Lungenerkrankung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert bei Frauen, die schwanger sind oder werden könnten (kann das Kind schädigen). Männer mit Partnerin im gebärfähigen Alter müssen während und bis 3 Monate nach der letzten Dosis ein Kondom und zusätzlich eine weitere wirksame Verhütungsmethode verwenden.",
+  "stillzeit": "Nicht zutreffend – nicht zur Anwendung bei Frauen bestimmt.",
+  "hinweise": [
+    "Die Hormonentzugstherapie (GnRH-Analogon) wird weitergeführt, sofern keine Orchiektomie erfolgt ist.",
+    "Tabletten ganz schlucken, mit oder ohne Essen.",
+    "Alle anderen Medikamente von Ärztin, Arzt oder Apotheke prüfen lassen (starke Enzyminduktion).",
+    "Sturzrisiko beachten; Hautausschlag, Brustschmerzen oder neurologische Ausfälle sofort melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,282 @@
+{
+  "id": "benazepril",
+  "name": "Benazepril",
+  "synonyme": [
+    "Benazeprilhydrochlorid",
+    "Benazeprilum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C09AA07"
+  ],
+  "klasse": "ACE-Hemmer",
+  "kurz": "Blutdrucksenker aus der Gruppe der ACE-Hemmer; auch bei Herzschwäche.",
+  "gruppen": [
+    "ace-hemmer",
+    "raas-hemmer",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Cibacen",
+    "Cibadrex (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz (Herzschwäche), zusätzlich zu Diuretika und/oder Digitalis",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Bildung des gefässverengenden Hormons Angiotensin II hemmt. Benazepril ist ein Prodrug, das in der Leber zum wirksamen Benazeprilat umgewandelt wird; dieses hemmt das Angiotensin-Converting-Enzym (ACE). Dadurch sinken Angiotensin II und Aldosteron, die Gefässe erweitern sich und die Salz- und Wasserausscheidung nimmt zu. Weil ACE auch Bradykinin abbaut, steigt dieses an – das erklärt Reizhusten und Angioödeme.",
+  "kontraindikationen": [
+    {
+      "text": "Angioödem (Schwellung von Gesicht, Zunge oder Rachen) in der Vorgeschichte im Zusammenhang mit einem ACE-Hemmer sowie erbliches oder idiopathisches Angioödem",
+      "ids": [
+        "angiooedem"
+      ]
+    },
+    {
+      "text": "Zweites und drittes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Beidseitige Nierenarterienstenose oder Stenose bei Einzelniere: Gefahr eines Nierenversagens",
+      "ids": [
+        "nierenarterienstenose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion; Dialyse mit High-Flux-Membranen oder LDL-Apherese (Gefahr anaphylaktoider Reaktionen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Salz- oder Flüssigkeitsmangel (z. B. unter Diuretika, bei Erbrechen oder Durchfall) und schwere Herzinsuffizienz: starker Blutdruckabfall zu Beginn",
+      "ids": [
+        "dehydratation",
+        "hypotonie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Aortenklappen- oder Mitralstenose, hypertrophe Kardiomyopathie",
+      "ids": [
+        "herzklappenerkrankung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Hyperkaliämie-Risiko (Niereninsuffizienz, Diabetes, kaliumerhöhende Medikamente)",
+      "ids": [
+        "hyperkaliaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Kollagenosen oder immunsuppressive Behandlung: selten Neutropenie oder Agranulozytose – Blutbild kontrollieren",
+      "ids": [
+        "lupus",
+        "autoimmunerkrankung",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Gelbsucht oder starker Anstieg der Leberwerte: absetzen (seltene cholestatische Hepatitis bis Leberversagen)",
+      "ids": [
+        "leberinsuffizienz",
+        "cholestase"
+      ]
+    },
+    {
+      "text": "Insektengift-Desensibilisierung: lebensbedrohliche anaphylaktoide Reaktionen möglich",
+      "ids": [
+        "insektengiftallergie"
+      ]
+    },
+    {
+      "text": "Operationen und Narkose: verstärkter Blutdruckabfall",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Aliskiren bei Diabetes oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)",
+      "ref": [
+        "aliskiren"
+      ],
+      "grund": "Die doppelte Hemmung des Renin-Angiotensin-Systems erhöht das Risiko für Hypotonie, Hyperkaliämie und Nierenversagen."
+    },
+    {
+      "text": "Sacubitril/Valsartan",
+      "ref": [
+        "sacubitril-valsartan"
+      ],
+      "grund": "Die gleichzeitige Hemmung von ACE und Neprilysin erhöht das Angioödem-Risiko stark; Benazepril frühestens 36 Stunden nach der letzten Dosis Sacubitril/Valsartan beginnen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Kaliumsparende Diuretika, Kaliumpräparate, kaliumhaltige Salzersatzmittel und andere kaliumerhöhende Mittel (z. B. Trimethoprim, Heparin, Ciclosporin)",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten",
+        "gruppe:kaliumpraeparate",
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Gefahr einer schweren Hyperkaliämie – nur mit Vorsicht kombinieren, Kalium kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithiumspiegel steigen bis in den toxischen Bereich – Kombination nicht empfohlen; falls nötig Lithiumspiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sartane (doppelte RAAS-Hemmung)",
+      "ref": [
+        "gruppe:sartane"
+      ],
+      "effekt": "Mehr Hypotonie, Hyperkaliämie und Nierenversagen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "mTOR-Hemmer (z. B. Everolimus, Sirolimus), DPP-4-Hemmer (Gliptine) und Racecadotril",
+      "ref": [
+        "gruppe:mtor-hemmer",
+        "gruppe:dpp4-hemmer",
+        "racecadotril"
+      ],
+      "effekt": "Erhöhtes Risiko für Angioödeme – auf Schwellungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR inkl. COX-2-Hemmer und ASS in entzündungshemmender Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung und Risiko einer Nierenfunktionsverschlechterung, besonders bei älteren oder ausgetrockneten Personen – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Starker Blutdruckabfall zu Behandlungsbeginn möglich – Diuretikum gegebenenfalls vorher reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und orale Blutzuckersenker",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich, vor allem in den ersten Wochen – Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Allopurinol, Zytostatika, Immunsuppressiva, systemische Glukokortikoide",
+      "ref": [
+        "allopurinol",
+        "gruppe:zytostatika",
+        "gruppe:immunsuppressiv",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leukopenie – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker, Nitrate, trizyklische Antidepressiva und Antipsychotika",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, Schwindel beim Aufstehen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Sympathomimetika",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Können die blutdrucksenkende Wirkung abschwächen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Herzklopfen",
+      "Blutdruckabfall beim Aufstehen (orthostatische Beschwerden)",
+      "Flush (Hautrötung mit Wärmegefühl)",
+      "Husten, Beschwerden der oberen Atemwege",
+      "Magen-Darm-Beschwerden (Übelkeit, Bauchschmerzen, Durchfall, Verstopfung)",
+      "Hautausschlag, Juckreiz, Lichtempfindlichkeit",
+      "Häufiges Wasserlassen, Müdigkeit"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Angina pectoris (Brustenge), Herzrhythmusstörungen",
+      "Kribbeln, Schlafstörungen, Nervosität",
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen)",
+      "Pemphigus (blasenbildende Hauterkrankung)",
+      "Gelenk- und Muskelschmerzen",
+      "Anstieg von Kreatinin und Harnstoff",
+      "Hepatitis, Gelbsucht durch Gallenstau"
+    ],
+    "sehrSelten": [
+      "Hämolytische Anämie, Thrombozytopenie",
+      "Neutropenie bis Agranulozytose",
+      "Tinnitus (Ohrensausen), Geschmacksstörungen",
+      "Pankreatitis",
+      "Stevens-Johnson-Syndrom",
+      "Nierenfunktionsstörung bis Nierenversagen",
+      "Herzinfarkt"
+    ],
+    "unbekannt": [
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Intestinales Angioödem (Darmschwellung mit Bauchschmerzen)",
+      "Anaphylaktoide Reaktionen"
+    ]
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen, im 2. und 3. Drittel kontraindiziert (Schädigung der kindlichen Nieren, Fruchtwassermangel, Verknöcherungsstörungen des Schädels). Bei Kinderwunsch oder Schwangerschaft auf ein anderes Mittel umstellen.",
+  "stillzeit": "Geht in sehr geringer Menge in die Muttermilch über. Bei Frühgeborenen und in den ersten Lebenswochen nicht empfohlen; bei älteren Säuglingen nach ärztlicher Abwägung möglich.",
+  "hinweise": [
+    "Bei Schwellungen von Gesicht, Lippen, Zunge oder Rachen oder bei Atemnot sofort den Notfall aufsuchen (Angioödem).",
+    "Trockener Reizhusten ist eine typische Nebenwirkung – ärztlich melden, nicht selbst absetzen.",
+    "Kalium und Nierenwerte regelmässig kontrollieren; kaliumhaltige Salzersatzmittel meiden.",
+    "Zu Beginn sind Schwindel und Benommenheit möglich – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

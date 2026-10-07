@@ -1,0 +1,187 @@
+{
+  "id": "nilotinib",
+  "name": "Nilotinib",
+  "synonyme": [
+    "AMN107"
+  ],
+  "atc": [
+    "L01EA03"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BCR-ABL-Tyrosinkinasehemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel (Tyrosinkinasehemmer) zum Einnehmen bei chronischer myeloischer Leukämie (CML) bei Erwachsenen und Kindern.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "maessige-cyp3a4-hemmer",
+    "qt-verlaengernd",
+    "myelosuppressiv",
+    "hyperglykaemie-ausloesend",
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tasigna"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte Philadelphia-Chromosom-positive chronische myeloische Leukämie (Ph+ CML) in der chronischen Phase bei Erwachsenen und Kindern",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Ph+ CML bei Resistenz oder Unverträglichkeit gegenüber einer Vorbehandlung einschliesslich Imatinib: bei Erwachsenen in der chronischen oder akzelerierten Phase, bei Kindern in der chronischen Phase",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das krankhafte Enzym, das die Leukämiezellen bei CML wachsen lässt. Nilotinib bindet an die inaktive Form der BCR-ABL-Tyrosinkinase und hemmt sie deutlich stärker als Imatinib; es wirkt gegen die meisten Imatinib-resistenten Mutationen, nicht aber gegen T315I. Zusätzlich hemmt es KIT und PDGF-Rezeptoren.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Verlängerte QT-Zeit (auch angeboren) und Herzrhythmusstörungen; Kalium- und Magnesiummangel vor Beginn ausgleichen, EKG-Kontrollen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder -Risikofaktoren (Gefässverschlüsse an Herz, Gehirn und Beinen möglich)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "pavk",
+        "schlaganfall",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Diabetes und erhöhte Blutfette (Blutzucker und Cholesterin können steigen)",
+      "ids": [
+        "diabetes",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte (Lipase kontrollieren)",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Infektion (Reaktivierung möglich – vor Beginn testen)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Knochenmarkhemmung: regelmässige Blutbildkontrollen",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Kinder: Wachstum überwachen (Wachstumsverzögerung beschrieben)",
+      "ids": [
+        "kinder",
+        "wachstumsstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Nilotinib-Spiegel steigt etwa 3-fach – Gefahr von QT-Verlängerung; vermeiden, sonst Behandlung unterbrechen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Haloperidol, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Gefährliche Herzrhythmusstörungen möglich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Nilotinib-Spiegel sinkt stark – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Midazolam, Ciclosporin, Tacrolimus, Simvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Nilotinib hemmt CYP3A4 mässig – deren Spiegel steigen; Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "H2-Blocker und Antazida",
+      "ref": [
+        "gruppe:h2-blocker",
+        "gruppe:antazida"
+      ],
+      "effekt": "Aufnahme von Nilotinib kann sinken – H2-Blocker etwa 10 Stunden vor oder 2 Stunden nach, Antazida 2 Stunden vor oder nach Nilotinib einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen, Müdigkeit",
+      "Übelkeit, Verstopfung, Bauchschmerzen",
+      "Hautausschlag, Juckreiz, Haarausfall",
+      "Muskel- und Gelenkschmerzen",
+      "Mangel an Blutplättchen, weissen und roten Blutkörperchen",
+      "Erhöhte Bilirubin-, Leber- und Lipasewerte im Blut"
+    ],
+    "haeufig": [
+      "QT-Verlängerung im EKG, Herzrhythmusstörungen, Herzklopfen",
+      "Angina pectoris (Brustenge)",
+      "Bluthochdruck, Hitzewallungen",
+      "Erhöhter Blutzucker und erhöhte Blutfette",
+      "Schwindel, Schlafstörungen"
+    ],
+    "gelegentlich": [
+      "Herzinfarkt, Herzschwäche",
+      "Periphere arterielle Verschlusskrankheit (Durchblutungsstörung der Beine)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Plötzlicher Herztod (vor allem bei vorbehandelten Patienten mit Herzrisiken)"
+    ],
+    "unbekannt": [
+      "Durchblutungsstörungen des Gehirns, Schlaganfall",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen während und bis 2 Wochen nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und 2 Wochen danach nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich im Abstand von etwa 12 Stunden nüchtern einnehmen: frühestens 2 Stunden nach und mindestens 1 Stunde vor dem Essen – Nahrung erhöht die Aufnahme und damit das Risiko für Herzrhythmusstörungen.",
+    "Keine Grapefruit, kein Grapefruitsaft und kein Johanniskraut.",
+    "Regelmässige Kontrollen von EKG, Blutbild, Elektrolyten, Leber- und Lipasewerten, Blutzucker und Blutfetten.",
+    "Brustschmerzen, Ohnmacht, Lähmungen oder Schmerzen in den Beinen sofort ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

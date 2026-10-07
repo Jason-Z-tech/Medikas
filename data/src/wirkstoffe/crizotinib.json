@@ -1,0 +1,193 @@
+{
+  "id": "crizotinib",
+  "name": "Crizotinib",
+  "synonyme": [
+    "PF-02341066"
+  ],
+  "atc": [
+    "L01ED01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (ALK-, ROS1- und MET-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei fortgeschrittenem Lungenkrebs mit ALK- oder ROS1-Veränderung.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "maessige-cyp3a4-hemmer",
+    "qt-verlaengernd",
+    "bradykardisierend",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Xalkori"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs bei Erwachsenen, als Erstbehandlung oder nach Vorbehandlung",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener ROS1-positiver nicht-kleinzelliger Lungenkrebs bei Erwachsenen",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt veränderte Wachstumssignal-Enzyme in Lungenkrebszellen. Crizotinib hemmt die Rezeptor-Tyrosinkinasen ALK (einschliesslich Fusionsproteinen wie EML4-ALK), ROS1 und MET (HGF-Rezeptor). Tumoren, deren Wachstum von diesen Kinasen abhängt, werden so gebremst.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschädigung (auch tödlich): Leberwerte in den ersten 2 Monaten alle 2 Wochen, danach monatlich kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung, Pneumonitis (Lungenentzündung ohne Erreger)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit und Herzschwäche",
+      "ids": [
+        "qt-verlaengerung",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Langsamer Puls (Bradykardie), auch durch andere Medikamente",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Sehstörungen – bei schwerem Sehverlust Augenärztin oder Augenarzt; Vorsicht im Strassenverkehr",
+      "ids": [
+        "sehstoerung",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Nierenzysten, Abnahme der Nierenfunktion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Magen-Darm-Durchbrüche",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Neutropenie (Mangel an weissen Blutkörperchen): Blutbild kontrollieren",
+      "ids": [
+        "neutropenie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Crizotinib-Spiegel steigt etwa 3-fach – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Crizotinib-Spiegel sinkt stark – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Alfentanil, Fentanyl, Ciclosporin, Tacrolimus, Sirolimus, Ergotalkaloide)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Crizotinib hemmt CYP3A4 mässig – deren Spiegel steigen (Midazolam etwa 3,7-fach); vermeiden oder eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte QT-Verlängerung – Vorsicht, EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschlag-verlangsamende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Clonidin, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Ausgeprägte Bradykardie möglich – möglichst vermeiden, Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran, Colchicin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "colchicin"
+      ],
+      "effekt": "Spiegel können steigen – Vorsicht, Wirkung überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Sehstörungen (Lichtblitze, verschwommenes Sehen, Doppeltsehen)",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung, Bauchschmerzen",
+      "Wassereinlagerungen (Ödeme), Müdigkeit",
+      "Erhöhte Leberwerte",
+      "Appetitlosigkeit, Geschmacksstörung",
+      "Nervenstörungen (Neuropathie), Schwindel",
+      "Langsamer Puls (Bradykardie)",
+      "Mangel an weissen und roten Blutkörperchen, Hautausschlag"
+    ],
+    "haeufig": [
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "QT-Verlängerung im EKG, Ohnmacht (Synkope)",
+      "Herzschwäche",
+      "Speiseröhrenentzündung, Verdauungsbeschwerden",
+      "Nierenzysten, erhöhtes Kreatinin",
+      "Tiefes Phosphat im Blut",
+      "Verminderter Testosteronspiegel"
+    ],
+    "gelegentlich": [
+      "Leberversagen",
+      "Magen-Darm-Durchbruch (Perforation)",
+      "Akutes Nierenversagen"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig. Frauen und Männer müssen während und mindestens 90 Tage nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich unabhängig von den Mahlzeiten einnehmen; keine Grapefruit und kein Johanniskraut.",
+    "Sehstörungen sind häufig – Vorsicht beim Autofahren und Bedienen von Maschinen.",
+    "Leberwerte, Blutbild, Puls und EKG regelmässig kontrollieren lassen.",
+    "Neue Atemnot, Husten oder Fieber sofort melden."
+  ],
+  "stand": "2026-10"
+}

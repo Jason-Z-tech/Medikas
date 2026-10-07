@@ -1,0 +1,208 @@
+{
+  "id": "carmustin",
+  "name": "Carmustin",
+  "synonyme": [
+    "BCNU",
+    "Carmustinum",
+    "Carmustine"
+  ],
+  "atc": [
+    "L01AD01"
+  ],
+  "klasse": "Zytostatikum; Alkylans (Nitrosoharnstoff)",
+  "kurz": "Krebsmittel als Infusion, das ins Gehirn gelangt; bei Hirntumoren, Multiplem Myelom und Lymphomen.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "BiCNU"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Hirntumoren (z. B. Glioblastom, Astrozytom, Medulloblastom) und Hirnmetastasen",
+      "ids": [
+        "hirntumor"
+      ]
+    },
+    {
+      "text": "Multiples Myelom, in Kombination mit Prednison",
+      "ids": [
+        "multiples-myelom"
+      ]
+    },
+    {
+      "text": "Hodgkin- und Non-Hodgkin-Lymphome, in Kombination mit anderen Zytostatika",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Krebszellen, indem es ihr Erbgut schädigt. Carmustin ist ein fettlöslicher Nitrosoharnstoff, der die Blut-Hirn-Schranke gut überwindet. Seine Abbauprodukte alkylieren DNA und RNA und vernetzen DNA-Stränge; zusätzlich carbamoylieren sie Eiweisse und hemmen so Reparaturenzyme. Die Knochenmarkhemmung tritt verzögert auf, mit einem Tiefpunkt nach 4–6 Wochen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Knochenmarkhemmung (z. B. nach vorangegangener Chemotherapie)",
+      "ids": [
+        "knochenmarkschaedigung",
+        "thrombozytopenie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren (Risiko schwerer, verzögerter Lungenschäden)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lungenschäden (Lungeninfiltrate, Lungenfibrose), dosisabhängig und teils erst Jahre später: höheres Risiko bei Lungenerkrankung, Rauchen oder Bestrahlung – Lungenfunktion vor und während der Therapie prüfen",
+      "ids": [
+        "lungenfibrose",
+        "copd",
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Verzögerte und sich summierende Knochenmarkhemmung: Blutbild mindestens 6 Wochen nach jeder Gabe kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Zweitkrebs (akute Leukämie, Myelodysplasie) bei Langzeitbehandlung",
+      "ids": [
+        "leukaemie",
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Alkoholabhängigkeit, Lebererkrankung oder Epilepsie: das Lösungsmittel enthält Ethanol",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Unfruchtbarkeit",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während der Behandlung nicht anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Knochenmark-hemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cimetidin",
+      "ref": [],
+      "effekt": "Verstärkte und verzögerte Knochenmarkhemmung – Kombination meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Melphalan",
+      "ref": [
+        "melphalan"
+      ],
+      "effekt": "Erhöhtes Risiko für Lungenschäden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Wirkung vermindert (Krampfgefahr) – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Abgeschwächte Digoxin-Wirkung möglich – Spiegel kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Verzögerte Knochenmarkhemmung (Thrombozytopenie, Leukopenie) mit Blutungs- und Infektionsgefahr",
+      "Übelkeit und Erbrechen (meist innert 2 Stunden nach der Infusion)",
+      "Lungenschäden (Lungeninfiltrate, Lungenfibrose), auch Jahre später"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Appetitlosigkeit, Verstopfung, Durchfall, Mundschleimhautentzündung",
+      "Vorübergehend erhöhte Leberwerte",
+      "Haarausfall, Hautrötung (Flush), Hautverfärbung",
+      "Akute Leukämie und Myelodysplasie (Zweiterkrankungen)"
+    ],
+    "unbekannt": [
+      "Blutdruckabfall und Brennen an der Vene bei zu schneller Infusion",
+      "Nierenschäden bis Nierenversagen",
+      "Lebervenenverschlusskrankheit",
+      "Krampfanfälle, Enzephalopathie",
+      "Netzhautschäden (bei hoher Dosis)",
+      "Unfruchtbarkeit"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden: Carmustin kann das ungeborene Kind schädigen. Frauen und Männer müssen während und bis mindestens 6 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Wird im Spital als Infusion über 1–2 Stunden gegeben; zu schnelle Gabe verursacht Hautrötung und Blutdruckabfall.",
+    "Bei Husten oder Atemnot – auch noch Jahre nach der Behandlung – ärztlich abklären lassen; nicht rauchen.",
+    "Blutbild wird bis 6 Wochen nach jeder Gabe kontrolliert; die nächste Gabe frühestens nach 6 Wochen.",
+    "Das Lösungsmittel enthält Alkohol – am Behandlungstag nicht Auto fahren."
+  ],
+  "stand": "2026-10"
+}

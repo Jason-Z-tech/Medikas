@@ -1,0 +1,229 @@
+{
+  "id": "thiotepa",
+  "name": "Thiotepa",
+  "synonyme": [
+    "Thiotepum",
+    "Triethylenthiophosphoramid",
+    "TESPA"
+  ],
+  "atc": [
+    "L01AC01"
+  ],
+  "klasse": "Zytostatikum; Alkylans (Ethylenimin)",
+  "kurz": "Krebsmittel als Infusion, v. a. zur Vorbereitung einer Stammzelltransplantation bei Blutkrebs und für Hochdosis-Chemotherapie solider Tumoren.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "hepatotoxisch",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Tepadina"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung eines Konzentrats für eine Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbehandlung (Konditionierung) vor einer allogenen oder autologen Stammzelltransplantation bei Blutkrebserkrankungen, in Kombination mit anderen Zytostatika, bei Erwachsenen und Kindern",
+      "ids": [
+        "transplantation",
+        "leukaemie",
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Hochdosis-Chemotherapie mit Stammzell-Rückgabe bei soliden Tumoren",
+      "ids": [
+        "krebs",
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Krebs- und blutbildenden Zellen, indem es ihr Erbgut schädigt. Thiotepa ist ein polyfunktionelles Alkylans mit drei Ethylenimin-(Aziridin-)Gruppen, die DNA-Stränge vernetzen. In der Leber wird es durch CYP3A4 und CYP2B6 zum ebenfalls wirksamen TEPA umgewandelt. Es gelangt gut ins Gehirn und hemmt selbst das Enzym CYP2B6.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Gewollte schwere Knochenmarkhemmung: Infektionen und Blutungen",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Lebervenenverschlusskrankheit (VOD/SOS), v. a. bei vorgeschädigter Leber",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herz- und Lungenerkrankungen (Herzschwäche, Rhythmusstörungen, Lungenschäden)",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung",
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Hautveränderungen (Verfärbung, Ausschlag, Abschuppung), da Thiotepa auch über die Haut ausgeschieden wird",
+      "ids": []
+    },
+    {
+      "text": "Nervenschäden und Enzephalopathie bei hohen Dosen",
+      "ids": [
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Zweitkrebs",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Unfruchtbarkeit",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gelbfieber-Impfstoff und andere Lebendimpfstoffe (Viren oder Bakterien)",
+      "ref": [
+        "gelbfieber-impfstoff",
+        "gruppe:lebendimpfstoffe"
+      ],
+      "grund": "Unter der stark geschwächten Abwehr können Impfviren oder -bakterien schwere, möglicherweise tödliche Infektionen auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere Knochenmark-hemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – nur im Rahmen des festgelegten Behandlungsschemas.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Höhere Thiotepa- und tiefere TEPA-Spiegel – veränderte Wirkung und Toxizität; vermeiden oder eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Schnellere Umwandlung zu TEPA – veränderte Wirkung und Toxizität.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2B6-Hemmer (z. B. Clopidogrel)",
+      "ref": [
+        "clopidogrel"
+      ],
+      "effekt": "Höhere Thiotepa-Spiegel möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cyclophosphamid und andere über CYP2B6 aktivierte oder abgebaute Mittel (z. B. Ifosfamid, Bupropion, Efavirenz)",
+      "ref": [
+        "cyclophosphamid",
+        "ifosfamid",
+        "bupropion",
+        "efavirenz"
+      ],
+      "effekt": "Thiotepa hemmt CYP2B6: weniger aktives Cyclophosphamid bzw. höhere Spiegel anderer CYP2B6-Substrate.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Zytostatika können die Phenytoin-Aufnahme vermindern (Krampfgefahr); Phenytoin kann den Thiotepa-Abbau beschleunigen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Übermässige Immunsuppression mit Risiko für Lymphwucherungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [
+        "influenza-impfstoff-inaktiviert",
+        "pneumokokken-konjugatimpfstoff"
+      ],
+      "effekt": "Schwächere Impfantwort.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Knochenmarkhemmung (Neutropenie, Thrombozytopenie, Anämie), Fieber bei Neutropenie",
+      "Graft-versus-Host-Krankheit (nach allogener Transplantation)",
+      "Übelkeit, Erbrechen, Durchfall, Mundschleimhautentzündung",
+      "Appetitlosigkeit",
+      "Hautausschlag, Juckreiz, Haarausfall, Hautverfärbung",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Fieber, Ödeme"
+    ],
+    "haeufig": [
+      "Lebervenenverschlusskrankheit (VOD/SOS)",
+      "Blutige Blasenentzündung (hämorrhagische Zystitis)",
+      "Kopfschmerzen, Schwindel, Verwirrtheit",
+      "Herzrhythmusstörungen",
+      "Lungenentzündung (Pneumonitis)",
+      "Ausbleiben der Menstruation, Unfruchtbarkeit"
+    ],
+    "unbekannt": [
+      "Zweitkrebs",
+      "Enzephalopathie, posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Herzschwäche",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen und Männer müssen während und nach der Behandlung (Dauer gemäss ärztlicher Anweisung) sicher verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Wird nur in spezialisierten Zentren als Infusion gegeben.",
+    "Während und bis 48 Stunden nach der Infusion mindestens zweimal täglich duschen oder baden und Kleidung sowie Bettwäsche wechseln, da Thiotepa über die Haut ausgeschieden wird.",
+    "Blutbild und Leberwerte werden engmaschig kontrolliert; Fieber sofort melden.",
+    "Vor Behandlungsbeginn Möglichkeiten zum Fruchtbarkeitserhalt besprechen."
+  ],
+  "stand": "2026-10"
+}

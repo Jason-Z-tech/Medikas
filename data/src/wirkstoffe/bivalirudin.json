@@ -1,0 +1,187 @@
+{
+  "id": "bivalirudin",
+  "name": "Bivalirudin",
+  "synonyme": [
+    "Bivalirudin-Trifluoracetat",
+    "Hirulog"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "B01AE06"
+  ],
+  "klasse": "Direkter Thrombinhemmer (parenterales Antikoagulans, Hirudin-Analogon)",
+  "kurz": "Blutverdünner als Infusion während einer Kathetererweiterung der Herzkranzgefässe (PCI), z. B. beim akuten Herzinfarkt.",
+  "gruppen": [
+    "antikoagulanzien",
+    "blutungsrisiko-erhoehend"
+  ],
+  "handelsnamen": [
+    "Angiox"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver für ein Konzentrat zur Herstellung einer Injektions- bzw. Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Gerinnungshemmung bei Erwachsenen während einer Kathetererweiterung der Herzkranzgefässe (PCI), auch beim Herzinfarkt mit ST-Hebung (primäre PCI)",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt",
+        "koronarstent"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris oder Herzinfarkt ohne ST-Hebung bei geplanter dringlicher oder früher Intervention, zusammen mit Acetylsalicylsäure und Clopidogrel",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert während eines Eingriffs an den Herzkranzgefässen die Bildung von Blutgerinnseln. Bivalirudin ist ein synthetisches Peptid aus 20 Aminosäuren, das dem Blutegel-Wirkstoff Hirudin nachempfunden ist. Es bindet direkt an das aktive Zentrum und an die Fibrinogen-Bindungsstelle von Thrombin und hemmt so freies und gerinnselgebundenes Thrombin. Da Thrombin Bivalirudin langsam spaltet und es zudem über die Niere ausgeschieden wird, klingt die Wirkung nach Infusionsende rasch ab (Halbwertszeit rund 25 Minuten).",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Hirudine",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Aktive Blutung oder erhöhtes Blutungsrisiko durch Gerinnungsstörungen",
+      "ids": [
+        "aktive-blutung",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Schwerer, nicht eingestellter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Subakute bakterielle Endokarditis",
+      "ids": [
+        "endokarditis"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (GFR unter 30 ml/min) und Dialysepflicht",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutungen, besonders an der Punktionsstelle; höheres Alter",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Akute Stentthrombose: beim Herzinfarkt mit ST-Hebung Infusion nach dem Eingriff weiterführen und Patienten mindestens 24 Stunden im Spital überwachen",
+      "ids": [
+        "koronarstent"
+      ]
+    },
+    {
+      "text": "Mässige Niereninsuffizienz: Dosisanpassung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Strahlenbehandlung im Gefäss (Brachytherapie): Gerinnselbildung beobachtet",
+      "ids": []
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen bis Anaphylaxie",
+      "ids": [
+        "anaphylaxie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Heparine",
+      "ref": [
+        "gruppe:heparine"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko – unfraktioniertes Heparin mindestens 30 Minuten, niedermolekulares Heparin 8 Stunden vorher absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fibrinolytika (z. B. Alteplase, Tenecteplase)",
+      "ref": [
+        "alteplase",
+        "tenecteplase"
+      ],
+      "effekt": "Stark erhöhtes Blutungsrisiko.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Orale Antikoagulanzien (Vitamin-K-Antagonisten, DOAK)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko; Bivalirudin kann zudem den INR verlängern – Gerinnung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer (z. B. Acetylsalicylsäure, P2Y12-Hemmer, GP-IIb/IIIa-Hemmer)",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer",
+        "eptifibatid",
+        "tirofiban"
+      ],
+      "effekt": "Werden gezielt kombiniert, erhöhen aber das Blutungsrisiko.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Leichte Blutungen, vor allem an der Punktionsstelle"
+    ],
+    "gelegentlich": [
+      "Schwere Blutungen (z. B. Magen-Darm- oder Harnwegsblutung)",
+      "Anämie (Blutarmut), Thrombozytopenie",
+      "Blutergüsse (Hämatome)",
+      "Übelkeit, Erbrechen",
+      "Kopfschmerzen",
+      "Hautausschlag"
+    ],
+    "selten": [
+      "Hirnblutung",
+      "Herzbeutelblutung und Herzbeuteltamponade",
+      "Langsamer Puls, Herzrhythmusstörungen",
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stentthrombose (Gerinnsel im Stent), vor allem beim Herzinfarkt mit ST-Hebung"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Daten; nur anwenden, wenn eindeutig notwendig.",
+  "stillzeit": "Unbekannt, ob Bivalirudin in die Muttermilch übergeht; nur mit Vorsicht anwenden.",
+  "hinweise": [
+    "Wird nur im Spital während des Eingriffs gegeben; danach folgt eine Überwachung auf Blutungen und Stentthrombose.",
+    "Nach dem Eingriff Blutungen an der Punktionsstelle, Brustschmerzen oder Atemnot sofort melden."
+  ],
+  "stand": "2026-10"
+}

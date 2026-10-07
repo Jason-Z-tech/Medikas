@@ -1,0 +1,174 @@
+{
+  "id": "abatacept",
+  "name": "Abatacept",
+  "synonyme": [
+    "CTLA4-Ig"
+  ],
+  "atc": [
+    "L04AA24"
+  ],
+  "klasse": "Selektiver T-Zell-Kostimulationsmodulator (Fusionsprotein, Biologikum)",
+  "kurz": "Biologikum gegen rheumatoide Arthritis, Psoriasis-Arthritis und juvenile Arthritis; bremst die Aktivierung von T-Zellen.",
+  "gruppen": [
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Orencia"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung",
+    "Injektionslösung in Fertigspritze oder Fertigpen (subkutan)"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis bei Erwachsenen, in der Regel in Kombination mit Methotrexat",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Polyartikuläre juvenile idiopathische Arthritis bei Kindern und Jugendlichen (subkutan ab 2 Jahren, als Infusion ab 6 Jahren)",
+      "ids": [
+        "rheumatoide-arthritis",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Aktive Psoriasis-Arthritis bei Erwachsenen, allein oder mit Methotrexat",
+      "ids": [
+        "spondyloarthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das überaktive Immunsystem bei entzündlichem Rheuma. Abatacept ist ein Fusionsprotein aus dem äusseren Teil des Moleküls CTLA-4 und einem Fc-Fragment von menschlichem IgG1. Es bindet an CD80 und CD86 auf antigenpräsentierenden Zellen und verhindert so das zweite Aktivierungssignal (Kostimulation über CD28), das T-Zellen zur vollen Aktivierung brauchen. In der Folge sinken Entzündungsbotenstoffe wie TNF-alpha und Interleukin-6 sowie Entzündungsmarker wie das CRP.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere und unkontrollierte Infektionen wie Sepsis oder opportunistische Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infektionen, auch wiederkehrende oder chronische; vor Beginn Tuberkulose und Hepatitis B ausschliessen",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "COPD (mehr Nebenwirkungen an den Atemwegen beobachtet)",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Bösartige Erkrankungen, besonders Hautkrebs (regelmässige Hautkontrollen)",
+      "ids": [
+        "krebs",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (mehr Infektionen)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Lebendimpfungen während und bis 3 Monate nach der Behandlung nicht empfohlen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Diabetes: Die Infusionslösung enthält Maltose – mit gewissen Messgeräten falsch hohe Blutzuckerwerte am Infusionstag",
+      "ids": [
+        "diabetes"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "TNF-alpha-Hemmer",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Mehr schwere Infektionen ohne zusätzlichen Nutzen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere biologische Rheumamittel (z. B. Anakinra, Rituximab)",
+      "ref": [
+        "anakinra",
+        "rituximab"
+      ],
+      "effekt": "Keine ausreichende Erfahrung, erhöhtes Infektionsrisiko – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während und bis 3 Monate nach der Behandlung impfen; Impfantwort kann vermindert sein.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat, NSAR und Kortison",
+      "ref": [
+        "methotrexat",
+        "gruppe:nsar",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Keine relevante Beeinflussung der Spiegel; übliche Kombination.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege (z. B. Nasen-Rachen-Entzündung, Nebenhöhlenentzündung)"
+    ],
+    "haeufig": [
+      "Infektionen der unteren Atemwege (Bronchitis, Lungenentzündung), Harnwegsinfekte, Herpes, Grippe",
+      "Kopfschmerzen, Schwindel",
+      "Bluthochdruck",
+      "Husten",
+      "Bauchschmerzen, Durchfall, Übelkeit, Verdauungsbeschwerden, Mundgeschwüre",
+      "Erhöhte Leberwerte",
+      "Hautausschlag, Haarausfall, Juckreiz",
+      "Müdigkeit, Schwäche, Reaktionen an der Injektionsstelle"
+    ],
+    "gelegentlich": [
+      "Sepsis und andere schwere Infektionen",
+      "Hautkrebs (Basaliom, Spinaliom), Hautpapillome",
+      "Thrombozytopenie, Leukopenie",
+      "Überempfindlichkeitsreaktionen",
+      "Depression, Angst, Schlafstörungen",
+      "Herzrasen, Herzklopfen, langsamer Puls",
+      "Bronchospasmus, Verschlechterung einer COPD",
+      "Gefässentzündung (Vaskulitis), Blutdruckabfall"
+    ],
+    "selten": [
+      "Tuberkulose",
+      "Lymphome, Lungenkrebs"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn eindeutig erforderlich; Frauen im gebärfähigen Alter sollen während und bis 14 Wochen nach der letzten Dosis verhüten.",
+  "stillzeit": "Während und bis 14 Wochen nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Vor Beginn Tuberkulose- und Hepatitis-B-Test; Impfungen möglichst vorher auffrischen.",
+    "Fieber, anhaltender Husten oder andere Infektzeichen ärztlich melden.",
+    "Fertigspritze und Fertigpen im Kühlschrank lagern, vor der Injektion etwa 30 Minuten auf Raumtemperatur bringen.",
+    "Am Tag einer Infusion kann der Blutzucker mit gewissen Messgeräten falsch hoch angezeigt werden (Maltose)."
+  ],
+  "stand": "2026-10"
+}

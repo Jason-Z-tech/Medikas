@@ -1,0 +1,187 @@
+{
+  "id": "crisantaspase",
+  "name": "Crisantaspase",
+  "synonyme": [
+    "Erwinia-Asparaginase",
+    "Asparaginase Erwinia chrysanthemi (rekombinant)",
+    "JZP-458"
+  ],
+  "atc": [
+    "L01XX02"
+  ],
+  "klasse": "Asparaginase (rekombinant, Erwinia-chrysanthemi-Typ); Enzym zur Krebsbehandlung",
+  "kurz": "Enzym-Spritze als Teil der Chemotherapie bei akuter lymphatischer Leukämie, wenn eine Allergie gegen E.-coli-Asparaginase aufgetreten ist.",
+  "gruppen": [
+    "zytostatika",
+    "hepatotoxisch",
+    "thromboserisiko-erhoehend",
+    "blutungsrisiko-erhoehend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Enrylaze"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung (intramuskulär)"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute lymphatische Leukämie (ALL) und lymphoblastisches Lymphom bei Erwachsenen und Kindern ab 1 Monat, als Teil einer Kombinations-Chemotherapie, wenn gegen E.-coli-Asparaginase eine Überempfindlichkeit oder Wirkungslosigkeit (stille Inaktivierung) aufgetreten ist",
+      "ids": [
+        "leukaemie",
+        "lymphom",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Entzieht Leukämiezellen einen Baustein, den sie zum Überleben brauchen. Crisantaspase ist das Enzym Asparaginase, das die Aminosäure Asparagin im Blut zu Asparaginsäure und Ammoniak abbaut. Leukämische Lymphoblasten können Asparagin kaum selbst herstellen; ohne Nachschub stoppt ihre Eiweisssynthese, und sie sterben ab. Weil das Enzym aus einem anderen Bakterium (Erwinia chrysanthemi) stammt, kann es nach einer Allergie gegen E.-coli-Asparaginase meist weiter eingesetzt werden.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte, auch nach früherer Asparaginase-Therapie",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Schwere Thrombose nach früherer Asparaginase-Therapie",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Schwere Blutung nach früherer Asparaginase-Therapie",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Überempfindlichkeitsreaktionen bis zur Anaphylaxie: Gabe nur, wo eine Notfallbehandlung möglich ist",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Pankreatitis: bei starken Bauchschmerzen sofort abklären, bei schwerer Pankreatitis endgültig absetzen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Blutzucker: Glukoseintoleranz, besonders zusammen mit Kortison",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Gerinnung: Thrombosen und Blutungen möglich; Gerinnungswerte (z. B. Fibrinogen, Antithrombin) kontrollieren",
+      "ids": [
+        "thrombose",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Leber: Leberwerte und Bilirubin vor und während der Behandlung kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: orale Verhütungsmittel nicht ausreichend zuverlässig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Orale hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Zuverlässigkeit nicht gesichert – während und bis 3 Monate nach der Behandlung eine wirksame nicht-orale Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Methotrexat und Cytarabin",
+      "ref": [
+        "methotrexat",
+        "cytarabin"
+      ],
+      "effekt": "Die Wirkung hängt vom zeitlichen Abstand ab: Asparaginase vorher oder gleichzeitig kann deren Wirkung abschwächen – Gabe nach Therapieprotokoll.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vincristin",
+      "ref": [
+        "vincristin"
+      ],
+      "effekt": "Bei gleichzeitiger Gabe stärkere Nervenschäden möglich – Vincristin einige Stunden vor der Asparaginase geben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (z. B. Prednison, Dexamethason)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Stärkerer Blutzuckeranstieg und höheres Thromboserisiko – Blutzucker und Gerinnung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Asparaginase verändert die Gerinnungsfaktoren – erhöhtes Blutungs- oder Thromboserisiko, Gerinnung engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen",
+      "Anämie, Thrombozytopenie, Neutropenie (auch mit Fieber)",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Überempfindlichkeitsreaktionen (z. B. Ausschlag, Nesselsucht)",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Bauchschmerzen",
+      "Müdigkeit, Fieber"
+    ],
+    "haeufig": [
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Thrombosen",
+      "Blutungen",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ],
+    "unbekannt": [
+      "Schwere Leberschädigung bis zum Leberversagen"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn unbedingt nötig. Wirksame, nicht-orale Verhütung während und bis 3 Monate nach der letzten Dosis.",
+  "stillzeit": "Während der Behandlung nicht stillen; die Dauer der Stillpause danach ärztlich festlegen.",
+  "hinweise": [
+    "Starke Bauchschmerzen, Gelbfärbung der Haut, Schwellung oder Schmerzen in einem Bein, starker Durst oder häufiges Wasserlassen sofort melden.",
+    "Blutzucker, Leberwerte, Gerinnung und die Asparaginase-Aktivität im Blut werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

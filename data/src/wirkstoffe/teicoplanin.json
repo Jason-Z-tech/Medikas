@@ -1,0 +1,170 @@
+{
+  "id": "teicoplanin",
+  "name": "Teicoplanin",
+  "synonyme": [
+    "Teicoplaninum"
+  ],
+  "atc": [
+    "J01XA02"
+  ],
+  "klasse": "Glykopeptid-Antibiotikum",
+  "kurz": "Antibiotikum als Spritze oder Infusion gegen schwere Infektionen durch grampositive Bakterien, auch MRSA.",
+  "gruppen": [
+    "glykopeptide",
+    "nephrotoxisch",
+    "ototoxisch"
+  ],
+  "handelsnamen": [
+    "Targocid"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver und Lösungsmittel zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Schwere Infektionen durch grampositive Bakterien, auch MRSA: komplizierte Haut- und Weichteilinfektionen, Knochen- und Gelenkinfektionen, Lungenentzündung, komplizierte Harnwegsinfektionen",
+      "ids": [
+        "hautinfektion",
+        "osteomyelitis",
+        "lungenentzuendung",
+        "harnwegsinfekt",
+        "resistente-keime"
+      ]
+    },
+    {
+      "text": "Infektiöse Endokarditis (Herzinnenhautentzündung) und Blutvergiftung",
+      "ids": [
+        "endokarditis",
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Bauchfellentzündung bei Peritonealdialyse",
+      "ids": [
+        "bakterielle-infektion",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Durchfall und Darmentzündung durch Clostridioides difficile (zum Einnehmen)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet grampositive Bakterien ab, indem es den Aufbau ihrer Zellwand blockiert. Teicoplanin bindet an die D-Alanyl-D-Alanin-Enden der Zellwand-Bausteine und verhindert deren Einbau und Quervernetzung. Es wirkt gegen Staphylokokken (einschliesslich MRSA), Streptokokken, Enterokokken und Clostridien, aber nicht gegen gramnegative Bakterien. Wegen seiner sehr langen Halbwertszeit genügt nach einer Aufsättigungsphase eine Gabe pro Tag.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Allergie gegen Vancomycin: Kreuzallergie möglich; ein früheres Red-Man-Syndrom unter Vancomycin ist dagegen kein Hinderungsgrund",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung, Nierenwerte kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hörstörungen; bei längerer Behandlung Gehör, Blutbild sowie Leber- und Nierenwerte kontrollieren",
+      "ids": [
+        "hoerstoerung"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie (Mangel an Blutplättchen), besonders unter höheren Dosen",
+      "ids": [
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (z. B. DRESS, Stevens-Johnson-Syndrom) – bei Ausschlag mit Blasen oder Fieber sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen mit Rötung von Gesicht und Oberkörper (Red-Man-Syndrom) – langsam verabreichen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Aminoglykoside",
+      "ref": [
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Erhöhtes Risiko für Nieren- und Gehörschäden – Nierenfunktion, Spiegel und Gehör überwachen. Nicht in derselben Spritze mischen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schleifendiuretika (z. B. Furosemid)",
+      "ref": [
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Erhöhtes Risiko für Gehör- und Nierenschäden – überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Amphotericin B, Cisplatin und andere nierenschädigende Mittel",
+      "ref": [
+        "amphotericin-b",
+        "gruppe:platinderivate",
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Zusätzliche Nieren- und Gehörschädigung – Nierenfunktion und Gehör überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hautausschlag, Hautrötung, Juckreiz",
+      "Schmerzen an der Einstichstelle",
+      "Fieber"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie, Leukopenie, Eosinophilie",
+      "Überempfindlichkeitsreaktionen",
+      "Schwindel, Kopfschmerzen",
+      "Hörverlust, Ohrensausen, Gleichgewichtsstörungen",
+      "Venenentzündung",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Durchfall, Übelkeit, Erbrechen",
+      "Erhöhte Leber- und Nierenwerte"
+    ],
+    "selten": [
+      "Red-Man-Syndrom (Rötung von Gesicht und Oberkörper während der Infusion)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie bis zum Schock",
+      "DRESS, Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Agranulozytose, Neutropenie",
+      "Akutes Nierenversagen",
+      "Krampfanfälle"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; im Tierversuch Schäden bei hohen Dosen. Gehör- und Nierenschäden beim Ungeborenen nicht ausgeschlossen – nur anwenden, wenn unbedingt erforderlich.",
+  "stillzeit": "Nicht bekannt, ob Teicoplanin in die Muttermilch übergeht. Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Wird als Injektion oder Infusion gegeben, zu Beginn in höherer Dosis (Aufsättigung); teils auch ambulant.",
+    "Ohrensausen, Hörminderung, Hautausschlag mit Fieber oder Blasen sowie Blutungszeichen sofort melden.",
+    "Bei längerer Behandlung werden Blutbild, Leber- und Nierenwerte sowie das Gehör kontrolliert."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,202 @@
+{
+  "id": "encorafenib",
+  "name": "Encorafenib",
+  "synonyme": [
+    "LGX818"
+  ],
+  "atc": [
+    "L01EC03"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BRAF-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei Melanom, Darm- und Lungenkrebs mit BRAF-V600-Mutation, kombiniert mit Binimetinib oder Cetuximab.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "enzyminduktoren-hormone",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Braftovi"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht operierbares oder metastasiertes Melanom mit BRAF-V600-Mutation bei Erwachsenen, in Kombination mit Binimetinib",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Darmkrebs (kolorektales Karzinom) mit BRAF-V600E-Mutation nach vorangegangener medikamentöser Behandlung, in Kombination mit Cetuximab",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs mit BRAF-V600E-Mutation, in Kombination mit Binimetinib",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt ein krankhaft dauerhaft eingeschaltetes Wachstumssignal in Tumorzellen mit BRAF-Mutation. Encorafenib ist ein ATP-kompetitiver Hemmer der mutierten BRAF-V600-Kinase mit sehr langer Bindungsdauer am Zielenzym und blockiert den MAPK-Signalweg (RAF-MEK-ERK). Mit dem MEK-Hemmer Binimetinib wird der Signalweg doppelt gehemmt; bei Darmkrebs verhindert der Antikörper Cetuximab, dass die Tumorzellen die Hemmung über den EGF-Rezeptor umgehen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Verlängerte QT-Zeit, Kalium- oder Magnesiummangel (EKG und Elektrolyte kontrollieren)",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Neue Tumoren der Haut und anderer Organe – regelmässige Hautkontrollen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Blutungen, vor allem bei Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Augenerkrankungen (Flüssigkeit unter der Netzhaut, Uveitis, Netzhautvenenverschluss mit Binimetinib)",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen (Abnahme der Pumpfunktion mit Binimetinib)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluthochdruck (mit Binimetinib)",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Lungenembolie in der Vorgeschichte (mit Binimetinib)",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Posaconazol, Ritonavir) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Encorafenib-Spiegel steigt etwa 3-fach – vermeiden; falls unumgänglich, Dosis reduzieren und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Encorafenib-Spiegel sinkt – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Erythromycin, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Encorafenib-Spiegel steigt etwa 2-fach – Vorsicht, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Wirkung kann abnehmen – zusätzlich oder stattdessen nichthormonal verhüten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Encorafenib kann deren Abbau beschleunigen – Wirkung kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte QT-Verlängerung möglich – EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine und andere OATP-/BCRP-Substrate (z. B. Rosuvastatin, Atorvastatin, Methotrexat)",
+      "ref": [
+        "rosuvastatin",
+        "atorvastatin",
+        "methotrexat"
+      ],
+      "effekt": "Spiegel können steigen – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit, Fieber, Wassereinlagerungen in den Beinen",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung, Bauchschmerzen",
+      "Gelenk- und Muskelschmerzen, erhöhte CK (Muskelenzym)",
+      "Sehstörungen, seröse Retinopathie (Flüssigkeit unter der Netzhaut)",
+      "Hautausschlag, trockene Haut, Juckreiz, Haarausfall, Hyperkeratose (Hautverhornung)",
+      "Kopfschmerzen, Schwindel, periphere Neuropathie (Nervenstörungen)",
+      "Bluthochdruck, Blutungen",
+      "Blutarmut, erhöhte Leberwerte"
+    ],
+    "haeufig": [
+      "Plattenepithelkarzinom der Haut, Basalzellkarzinom, Hautpapillome",
+      "Venöse Thromboembolien (Thrombose, Lungenembolie)",
+      "Verminderte Herzpumpfunktion",
+      "Uveitis (Entzündung im Auge)",
+      "Gesichtsnervenlähmung, Geschmacksstörung",
+      "Lichtempfindlichkeit, Hand-Fuss-Syndrom, Pannikulitis",
+      "Nierenversagen, erhöhtes Kreatinin",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "gelegentlich": [
+      "Neues Melanom",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung), Kolitis (Dickdarmentzündung)"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung im EKG"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig. Frauen im gebärfähigen Alter müssen während und mindestens 1 Monat nach der Behandlung zuverlässig verhüten; hormonale Verhütungsmittel können weniger wirksam sein.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich unabhängig von den Mahlzeiten einnehmen; keine Grapefruit und kein Grapefruitsaft.",
+    "Haut, Augen, EKG, Blutdruck, Herzfunktion und Leberwerte regelmässig kontrollieren lassen.",
+    "Sehstörungen, Blutungen oder neue Hautveränderungen ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

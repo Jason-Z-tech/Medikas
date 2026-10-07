@@ -1,0 +1,203 @@
+{
+  "id": "baricitinib",
+  "name": "Baricitinib",
+  "synonyme": [
+    "LY3009104",
+    "INCB028050"
+  ],
+  "atc": [
+    "L04AF02"
+  ],
+  "klasse": "Immunsuppressivum; Januskinase-(JAK-)Hemmer (JAK1/JAK2)",
+  "kurz": "Tablette gegen rheumatoide Arthritis, schwere Neurodermitis und kreisrunden Haarausfall; hemmt die Januskinasen JAK1 und JAK2.",
+  "gruppen": [
+    "jak-hemmer",
+    "immunsuppressiv",
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Olumiant"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere aktive rheumatoide Arthritis bei Erwachsenen, wenn Basistherapeutika ungenügend wirken oder nicht vertragen werden; allein oder mit Methotrexat",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Mittelschwere bis schwere atopische Dermatitis (Neurodermitis) bei Erwachsenen, die eine systemische Therapie benötigen",
+      "ids": [
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Schwere Alopecia areata (kreisrunder Haarausfall) bei Erwachsenen",
+      "ids": [
+        "haarausfall"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Unterbricht in den Zellen die Signalweiterleitung zahlreicher Entzündungsbotenstoffe. Baricitinib hemmt selektiv und reversibel die Januskinasen JAK1 und JAK2, die die Signale von Zytokin- und Wachstumsfaktor-Rezeptoren (z. B. für Interleukin-6 und Interferone) über STAT-Proteine in den Zellkern weiterleiten. Dadurch werden Gelenkentzündung, Juckreiz und Hautentzündung sowie die gegen die Haarwurzeln gerichtete Immunreaktion gedämpft.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Personen ab 65 Jahren, aktuelle oder frühere Langzeitraucher und Personen mit Herz-Kreislauf- oder Krebsrisikofaktoren: nur, wenn keine geeignete Alternative besteht (unter JAK-Hemmern mehr Herzinfarkte, Schlaganfälle, Krebs und Todesfälle)",
+      "ids": [
+        "aeltere-patienten",
+        "rauchen",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Lungenembolien in der Vorgeschichte oder Risikofaktoren dafür",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Infektionen: nicht beginnen bei aktiver Infektion; vorher auf Tuberkulose und Hepatitis B/C untersuchen; erhöhtes Risiko für Gürtelrose",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "hepatitis-b",
+        "herpes"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei Kreatinin-Clearance unter 30 ml/min nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutbild: nicht beginnen bei tiefen Neutrophilen, Lymphozyten oder tiefem Hämoglobin; regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Divertikulitis: Risiko eines Darmdurchbruchs",
+      "ids": [
+        "divertikulitis"
+      ]
+    },
+    {
+      "text": "Blutfette und Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "hypercholesterinaemie",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen, inkl. heller Hautkrebs: regelmässige Hautkontrollen",
+      "ids": [
+        "krebs",
+        "hautkrebs"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Probenecid (starker OAT3-Hemmer)",
+      "ref": [],
+      "effekt": "Verdoppelt die Baricitinib-Spiegel – Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Biologika, andere JAK-Hemmer und starke Immunsuppressiva (z. B. Azathioprin, Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer",
+        "gruppe:interleukin-hemmer",
+        "gruppe:jak-hemmer",
+        "azathioprin",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Additive Immunsuppression mit erhöhtem Infektionsrisiko – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während oder kurz vor der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ibuprofen, Diclofenac (schwache OAT3-Hemmer)",
+      "ref": [
+        "ibuprofen",
+        "diclofenac"
+      ],
+      "effekt": "Geringer Anstieg der Baricitinib-Spiegel möglich, klinisch nicht relevant.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Keine relevante Beeinflussung der Spiegel; Kombination bei rheumatoider Arthritis vorgesehen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege",
+      "Erhöhtes LDL-Cholesterin"
+    ],
+    "haeufig": [
+      "Gürtelrose (Herpes zoster), Lippenherpes",
+      "Magen-Darm-Infekt, Harnwegsinfekte",
+      "Lungenentzündung",
+      "Thrombozytose (vermehrte Blutplättchen)",
+      "Kopfschmerzen",
+      "Übelkeit, Bauchschmerzen",
+      "Erhöhte Leberwerte (ALT)",
+      "Ausschlag, Akne"
+    ],
+    "gelegentlich": [
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Erhöhte Triglyceride, Gewichtszunahme",
+      "Tiefe Venenthrombose und Lungenembolie",
+      "Divertikulitis",
+      "Gesichtsschwellung, Nesselsucht",
+      "Erhöhte CK (Muskelenzym)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Schwere Herz-Kreislauf-Ereignisse (Herzinfarkt, Schlaganfall)",
+      "Bösartige Erkrankungen (z. B. Lymphome, Lungenkrebs, heller Hautkrebs)",
+      "Magen-Darm-Perforation (Durchbruch)",
+      "Tuberkulose und opportunistische Infektionen"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter müssen während und mindestens 1 Woche nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Nicht anwenden bzw. nicht stillen während der Behandlung.",
+  "hinweise": [
+    "Blutbild, Leberwerte und Blutfette werden vor Beginn und regelmässig kontrolliert.",
+    "Bei plötzlicher Atemnot, Brustschmerzen oder einem geschwollenen, schmerzhaften Bein sofort ärztliche Hilfe holen (Thrombose, Lungenembolie).",
+    "Bei Gürtelrose (schmerzhafter Bläschenausschlag) oder anderen Infektzeichen rasch ärztlich abklären lassen.",
+    "Keine Lebendimpfungen; Impfungen (inkl. Gürtelrose) möglichst vor Beginn nachholen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,226 @@
+{
+  "id": "bezafibrat",
+  "name": "Bezafibrat",
+  "synonyme": [
+    "Bezafibrate",
+    "Bezafibratum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C10AB02"
+  ],
+  "klasse": "Fibrat (PPAR-Agonist)",
+  "kurz": "Blutfettsenker aus der Gruppe der Fibrate, vor allem bei stark erhöhten Triglyceriden.",
+  "gruppen": [
+    "fibrate",
+    "myotoxisch",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Cedur"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schwere Hypertriglyzeridämie (stark erhöhte Triglyceride) mit oder ohne tiefes HDL-Cholesterin",
+      "ids": [
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Gemischte Hyperlipidämie, wenn ein Statin nicht vertragen wird oder kontraindiziert ist",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt vor allem die Triglyceride und erhöht das «gute» HDL-Cholesterin. Bezafibrat aktiviert Kernrezeptoren der PPAR-Familie, vor allem PPAR-alpha, in Leber und Muskulatur. Dadurch wird die Lipoproteinlipase aktiviert und der Abbau triglyceridreicher Lipoproteine (VLDL) beschleunigt, während die Leber weniger VLDL bildet. Zudem steigt die Bildung der HDL-Bausteine Apolipoprotein A-I und A-II, und das LDL-Cholesterin sinkt mässig.",
+  "kontraindikationen": [
+    {
+      "text": "Lebererkrankungen (ausser Fettleber bei erhöhten Triglyceriden)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gallenblasenerkrankungen mit oder ohne Gallensteine",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Nephrotisches Syndrom",
+      "ids": [
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (bei der Retardform ab Kreatinin-Clearance unter 60 ml/min) und Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bekannte phototoxische oder photoallergische Reaktionen auf Fibrate",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Risikofaktoren für Muskelschäden (Rhabdomyolyse): Niereninsuffizienz, Schilddrüsenunterfunktion, schwere Infektion, Alkoholmissbrauch, höheres Alter",
+      "ids": [
+        "muskelerkrankung",
+        "niereninsuffizienz",
+        "hypothyreose",
+        "alkoholkonsum",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Leicht eingeschränkte Nierenfunktion: Dosis anpassen und Kreatinin kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes unter Blutzuckersenkern: Unterzuckerungen möglich",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Gallensteinbildung möglich: Oberbauchbeschwerden abklären",
+      "ids": [
+        "gallensteine"
+      ]
+    },
+    {
+      "text": "Behandlung mit Vitamin-K-Antagonisten: Wirkung deutlich verstärkt",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Statine bei Personen mit erhöhtem Myopathierisiko (z. B. Niereninsuffizienz, schwere Infektion, Trauma, Operation, Hormon- oder Elektrolytstörungen, Alkoholmissbrauch)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "grund": "Die Kombination erhöht das Risiko für Myopathie und Rhabdomyolyse (Muskelzerfall mit Nierenversagen)."
+    },
+    {
+      "text": "MAO-Hemmer mit leberschädigendem Potenzial",
+      "ref": [],
+      "grund": "Gefahr verstärkter Leberschäden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Deutlich verstärkte Gerinnungshemmung mit Blutungsgefahr – Antikoagulans-Dosis zu Beginn reduzieren, INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Statine",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden – nur ohne Risikofaktoren und unter Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin und andere Calcineurin-Hemmer",
+      "ref": [
+        "ciclosporin",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Reversible Verschlechterung der Nierenfunktion möglich – Kreatinin und Ciclosporin-Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sulfonylharnstoffe und Insulin",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:insuline"
+      ],
+      "effekt": "Verstärkte Blutzuckersenkung möglich – Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (z. B. Colestyramin)",
+      "ref": [
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Vermindern die Aufnahme von Bezafibrat – mindestens 2 Stunden Abstand einhalten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Östrogenhaltige Präparate",
+      "ref": [
+        "gruppe:oestrogene"
+      ],
+      "effekt": "Können die Triglyceride erhöhen und die Wirkung abschwächen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Magen-Darm-Beschwerden (z. B. Übelkeit, Bauchschmerzen, Völlegefühl)"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Schwindel, Kopfschmerzen",
+      "Cholestase (Gallenstau)",
+      "Juckreiz, Nesselsucht, Hautausschlag, Haarausfall",
+      "Photosensibilität (Lichtempfindlichkeit)",
+      "Muskelschwäche, Muskelschmerzen, Muskelkrämpfe",
+      "Akutes Nierenversagen, Anstieg von Kreatinin und Kreatinkinase",
+      "Erektionsstörungen"
+    ],
+    "selten": [
+      "Periphere Neuropathie, Kribbeln",
+      "Depression, Schlafstörungen",
+      "Pankreatitis"
+    ],
+    "sehrSelten": [
+      "Panzytopenie, Thrombozytopenie",
+      "Anaphylaxie",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme",
+      "Interstitielle Lungenerkrankung",
+      "Gallensteine"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Kontraindiziert.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Retardtabletten unzerkaut nach einer Mahlzeit mit Flüssigkeit einnehmen.",
+    "Muskelschmerzen, -schwäche oder dunklen Urin sofort melden – besonders wichtig bei Kombination mit einem Statin.",
+    "Nierenwerte vor und während der Behandlung kontrollieren; unter Gerinnungshemmern INR engmaschig kontrollieren.",
+    "Intensive Sonne und Solarium meiden (Lichtempfindlichkeit möglich)."
+  ],
+  "stand": "2026-10"
+}

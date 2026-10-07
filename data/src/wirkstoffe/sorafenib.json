@@ -1,0 +1,215 @@
+{
+  "id": "sorafenib",
+  "name": "Sorafenib",
+  "synonyme": [
+    "Sorafenibtosylat",
+    "BAY 43-9006"
+  ],
+  "atc": [
+    "L01EX02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Multikinase-Hemmer: RAF, VEGFR, PDGFR u. a.)",
+  "kurz": "Krebsmittel (Tablette) gegen Leberzellkrebs, fortgeschrittenen Nierenkrebs und bestimmte Formen von Schilddrüsenkrebs.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "qt-verlaengernd",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Nexavar"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Hepatozelluläres Karzinom (Leberzellkrebs)",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom nach Versagen einer Interferon-alfa- oder Interleukin-2-Therapie oder wenn diese nicht geeignet ist",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Fortschreitendes, lokal fortgeschrittenes oder metastasiertes differenziertes Schilddrüsenkarzinom (papillär, follikulär, Hürthle-Zell), das nicht auf Radiojod anspricht",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Tumorzellen und die Bildung neuer Blutgefässe im Tumor. Sorafenib blockiert die RAF-Kinasen (C-RAF, B-RAF) im MAP-Kinase-Signalweg der Tumorzellen sowie Rezeptor-Tyrosinkinasen der Gefässneubildung (VEGFR-1 bis -3, PDGFR-β) und weitere Kinasen wie KIT, FLT3 und RET. So werden Zellteilung und Angiogenese gleichzeitig gehemmt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Hand-Fuss-Hautreaktion und Hautausschlag, meist in den ersten Behandlungswochen",
+      "ids": []
+    },
+    {
+      "text": "Bluthochdruck: regelmässig kontrollieren und behandeln",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Blutungen",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit: Herzischämie und Herzinfarkt möglich",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Risikofaktoren dafür (Elektrolytstörungen, Herzrhythmusstörungen)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen: arzneimittelbedingte Hepatitis möglich; schwere Leberinsuffizienz nicht untersucht",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Geplante Operationen: Wundheilungsstörungen – Behandlung vor grösseren Eingriffen nach ärztlicher Anweisung unterbrechen",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Schilddrüsenkrebs: Calciummangel und TSH-Anstieg – Calcium und Schilddrüsenwerte kontrollieren",
+      "ids": [
+        "hypokalzaemie",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Aneurysma (Gefässaussackung) in der Vorgeschichte",
+      "ids": [
+        "aneurysma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gelegentlich Blutungen oder INR-Anstieg – INR regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Dexamethason) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Sorafenib-Spiegel kann sinken – möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Irinotecan",
+      "ref": [
+        "irinotecan"
+      ],
+      "effekt": "Sorafenib hemmt den Abbau über UGT1A1: höhere Spiegel von Irinotecan und seinem Wirkmetaboliten SN-38 – Vorsicht, mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Docetaxel",
+      "ref": [
+        "docetaxel"
+      ],
+      "effekt": "Höhere Docetaxel-Spiegel – Vorsicht, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Orales Neomycin (Darmantibiotikum)",
+      "ref": [],
+      "effekt": "Vermindert die Sorafenib-Aufnahme (Störung des enterohepatischen Kreislaufs) – Wirkung kann abnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Verstopfung",
+      "Hand-Fuss-Hautreaktion, Hautausschlag, Juckreiz, Rötung",
+      "Haarausfall, trockene Haut",
+      "Bluthochdruck",
+      "Blutungen (z. B. Magen-Darm, Atemwege, Gehirn)",
+      "Müdigkeit, Schmerzen, Fieber, Appetitverlust, Gewichtsabnahme, Gelenkschmerzen",
+      "Infektionen, Lymphopenie (Mangel an Lymphozyten)",
+      "Hypophosphatämie (tiefes Phosphat), erhöhte Amylase und Lipase"
+    ],
+    "haeufig": [
+      "Herzinsuffizienz, Herzischämie und Herzinfarkt",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Hypokalzämie, Hypokaliämie, Hyponatriämie, Hypoglykämie (Unterzuckerung)",
+      "Depression",
+      "Mangel an weissen Blutkörperchen und Blutplättchen, Blutarmut",
+      "Stomatitis, Schluckbeschwerden, Sodbrennen",
+      "Keratoakanthom und Plattenepithelkarzinom der Haut",
+      "Nierenversagen, Eiweiss im Urin, periphere Neuropathie, Tinnitus (Ohrgeräusche)"
+    ],
+    "gelegentlich": [
+      "Hypertensive Krise (Blutdruckentgleisung)",
+      "Magen-Darm-Durchbruch (Perforation), Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Interstitielle Lungenerkrankung",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Erhöhtes Bilirubin, Gelbsucht, Gallenblasenentzündung",
+      "Schilddrüsenüberfunktion, Flüssigkeitsmangel",
+      "Erythema multiforme, Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [
+      "QT-Verlängerung",
+      "Arzneimittelbedingte Hepatitis (Leberentzündung)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Nephrotisches Syndrom"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie (schwerer allergischer Schock)",
+      "Aneurysmen und Gefässwandeinrisse (Dissektionen)",
+      "Tumorlyse-Syndrom",
+      "Enzephalopathie"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nur bei zwingender Notwendigkeit. Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Ohne Mahlzeit oder mit einer leichten bis mässig fetthaltigen Mahlzeit einnehmen; bei einer fettreichen Mahlzeit mindestens 1 Stunde vorher oder 2 Stunden nachher.",
+    "Blutdruck regelmässig messen; bei Brustschmerzen, Blutungen oder Gelbsucht sofort ärztliche Hilfe holen.",
+    "Hände und Füsse pflegen (Feuchtigkeitscreme, druckentlastende Schuhe) – Hautreaktionen früh melden.",
+    "Vor Operationen die Behandlung nach ärztlicher Anweisung unterbrechen (Wundheilung)."
+  ],
+  "stand": "2026-10"
+}

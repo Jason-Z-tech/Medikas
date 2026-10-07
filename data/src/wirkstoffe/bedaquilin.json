@@ -1,0 +1,152 @@
+{
+  "id": "bedaquilin",
+  "name": "Bedaquilin",
+  "synonyme": [
+    "Bedaquiline",
+    "TMC207",
+    "Bedaquilinfumarat"
+  ],
+  "atc": [
+    "J04AK05"
+  ],
+  "klasse": "Diarylchinolin (Tuberkulostatikum gegen multiresistente Tuberkulose)",
+  "kurz": "Antibiotikum gegen multiresistente Lungentuberkulose, stets in Kombination mit anderen Tuberkulosemitteln.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "cyp3a4-substrate-empfindlich",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Sirturo"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Lungentuberkulose durch Erreger, die mindestens gegen Rifampicin und Isoniazid resistent sind (MDR-TB), als Teil einer geeigneten Kombinationstherapie",
+      "ids": [
+        "tuberkulose",
+        "resistente-keime"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Tuberkulosebakterien ab, indem es ihnen die Energieversorgung entzieht. Bedaquilin hemmt spezifisch die ATP-Synthase der Mykobakterien (Untereinheit c), sodass die Bakterien kein ATP mehr bilden können. Dieser Wirkmechanismus unterscheidet sich von dem aller anderen Tuberkulosemittel, deshalb besteht keine Kreuzresistenz. Bedaquilin hat eine sehr lange Halbwertszeit von mehreren Monaten.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "QT-Verlängerung: EKG vor Beginn und regelmässig während der Behandlung; Vorsicht bei Herzinsuffizienz, Bradykardie, QT-Verlängerung in der Vorgeschichte oder Schilddrüsenunterfunktion",
+      "ids": [
+        "qt-verlaengerung",
+        "herzinsuffizienz",
+        "bradykardie",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Elektrolytstörungen (Kalium, Magnesium, Calcium) vor Beginn ausgleichen",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel",
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Leberfunktionsstörungen: Leberwerte regelmässig kontrollieren; Alkohol und andere leberschädigende Mittel meiden",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz oder Dialyse",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "HIV-Koinfektion: Wechselwirkungen mit antiretroviralen Mitteln beachten",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "In einer Studie wurde unter Bedaquilin eine höhere Sterblichkeit beobachtet (Ursache unklar) – sorgfältige Nutzen-Risiko-Abwägung",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässig starke CYP3A4-Induktoren (z. B. Rifampicin, Rifabutin, Carbamazepin, Phenytoin, Efavirenz, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "rifampicin",
+        "rifabutin",
+        "efavirenz",
+        "johanniskraut"
+      ],
+      "effekt": "Bedaquilin-Spiegel sinkt deutlich – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Ketoconazol, Ritonavir) über mehr als 14 Tage",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Bedaquilin-Spiegel steigt – mehr Nebenwirkungen (QT-Verlängerung); vermeiden, ausser der Nutzen überwiegt, dann EKG engmaschig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Clofazimin, Moxifloxacin, Delamanid, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "moxifloxacin"
+      ],
+      "effekt": "Additive QT-Verlängerung – EKG häufiger kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lopinavir/Ritonavir",
+      "ref": [
+        "lopinavir-ritonavir"
+      ],
+      "effekt": "Bedaquilin-Spiegel steigt – nur nach Nutzen-Risiko-Abwägung, EKG und Leberwerte häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Leberwerte überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Schwindel",
+      "Übelkeit",
+      "Erbrechen",
+      "Gelenkschmerzen (Arthralgie)"
+    ],
+    "haeufig": [
+      "QT-Verlängerung im EKG",
+      "Durchfall",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Muskelschmerzen (Myalgie)"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Erfahrungen; Anwendung vermeiden, ausser der Nutzen überwiegt das Risiko.",
+  "stillzeit": "Bedaquilin reichert sich in der Muttermilch an; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen – dadurch wird etwa doppelt so viel Wirkstoff aufgenommen.",
+    "Regelmässige EKG- und Leberwertkontrollen; Herzklopfen oder Ohnmacht sofort melden.",
+    "Auf Alkohol verzichten."
+  ],
+  "stand": "2026-10"
+}

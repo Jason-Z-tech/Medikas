@@ -1,0 +1,215 @@
+{
+  "id": "letermovir",
+  "name": "Letermovir",
+  "synonyme": [
+    "AIC246"
+  ],
+  "atc": [
+    "J05AX18"
+  ],
+  "klasse": "Virostatikum; CMV-DNA-Terminase-Hemmer",
+  "kurz": "Mittel zur Vorbeugung von Zytomegalievirus-Infektionen (CMV) nach Stammzell- oder Nierentransplantation.",
+  "gruppen": [
+    "maessige-cyp3a4-hemmer",
+    "oatp1b-hemmer",
+    "cyp2c8-hemmer"
+  ],
+  "handelsnamen": [
+    "Prevymis"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von CMV-Reaktivierung und CMV-Erkrankung bei CMV-seropositiven Empfängerinnen und Empfängern einer allogenen Stammzelltransplantation",
+      "ids": [
+        "cmv-infektion",
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Vorbeugung der CMV-Erkrankung bei CMV-seronegativen Empfängerinnen und Empfängern einer Niere von einem CMV-seropositiven Spender",
+      "ids": [
+        "cmv-infektion",
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass sich das Zytomegalievirus in den Zellen vermehren kann. Letermovir hemmt den viralen DNA-Terminase-Komplex (Untereinheiten pUL51, pUL56 und pUL89), der die neu gebildete Virus-DNA in einzelne Genome zerschneidet und in die Viruskapside verpackt. Ohne diesen Schritt entstehen keine infektiösen Viruspartikel. Letermovir wirkt spezifisch gegen CMV, nicht gegen andere Herpesviren, und schädigt das Knochenmark nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Nach Ende der Vorbeugung kann sich CMV noch reaktivieren – Kontrollen weiterführen",
+      "ids": [
+        "cmv-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C) nicht empfohlen; ebenso mässige Leber- zusammen mit mässiger bis schwerer Nierenfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Infusionslösung bei eingeschränkter Nierenfunktion: der Hilfsstoff Hydroxypropylbetadex kann sich anreichern – Nierenwerte kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Behandlung mit Ciclosporin, Tacrolimus oder Sirolimus: Spiegel beim Beginn und beim Absetzen von Letermovir kontrollieren",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Pimozid",
+      "ref": [],
+      "grund": "Letermovir erhöht den Pimozid-Spiegel (CYP3A-Hemmung) – Gefahr von QT-Verlängerung und gefährlichen Herzrhythmusstörungen (Torsade de Pointes)."
+    },
+    {
+      "text": "Ergotalkaloide (z. B. Ergotamin, Dihydroergotamin)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Erhöhte Ergotalkaloid-Spiegel mit Gefahr von Ergotismus (schwere Gefässverengung)."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Johanniskraut senkt den Letermovir-Spiegel deutlich – Verlust der Schutzwirkung gegen CMV."
+    },
+    {
+      "text": "Bei gleichzeitiger Gabe von Ciclosporin: Dabigatran, Atorvastatin, Simvastatin, Rosuvastatin oder Pitavastatin",
+      "ref": [
+        "dabigatran",
+        "atorvastatin",
+        "simvastatin",
+        "rosuvastatin",
+        "pitavastatin"
+      ],
+      "grund": "Letermovir und Ciclosporin zusammen erhöhen deren Spiegel stark (Hemmung von OATP1B und CYP3A) – Blutungsgefahr unter Dabigatran bzw. Muskelschäden bis Rhabdomyolyse unter Statinen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Beide Spiegel steigen: Letermovir-Dosis wird reduziert, Ciclosporin-Spiegel eng kontrollieren – auch beim Absetzen von Letermovir.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Tacrolimus, Sirolimus und Everolimus",
+      "ref": [
+        "tacrolimus",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen – Blutspiegel häufig kontrollieren und Dosis anpassen, auch beim Absetzen von Letermovir.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Voriconazol",
+      "ref": [
+        "voriconazol"
+      ],
+      "effekt": "Voriconazol-Spiegel sinkt (Enzyminduktion von CYP2C9/2C19) – Kombination möglichst vermeiden; falls nötig Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Statine (ohne gleichzeitiges Ciclosporin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Statin-Spiegel steigen – Atorvastatin höchstens 20 mg pro Tag, Simvastatin und Pitavastatin nicht empfohlen; auf Muskelschmerzen achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A-Substrate mit enger therapeutischer Breite, z. B. Alfentanil, Fentanyl, Midazolam, Chinidin",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "alfentanil",
+        "fentanyl",
+        "midazolam"
+      ],
+      "effekt": "Spiegel steigen – Dosis anpassen und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduktoren, z. B. Rifampicin, Carbamazepin, Phenytoin, Efavirenz",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "efavirenz"
+      ],
+      "effekt": "Letermovir-Spiegel sinkt – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Amiodaron",
+      "ref": [
+        "amiodaron"
+      ],
+      "effekt": "Amiodaron-Spiegel kann steigen – Nebenwirkungen und Herzrhythmus überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung kann abnehmen (CYP2C9-Induktion) – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Repaglinid und Glibenclamid",
+      "ref": [
+        "repaglinid",
+        "glibenclamid"
+      ],
+      "effekt": "Spiegel können sich verändern – Blutzucker häufiger kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Übelkeit",
+      "Durchfall",
+      "Erbrechen"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Appetitlosigkeit, Geschmacksstörungen",
+      "Kopfschmerzen, Drehschwindel (Vertigo)",
+      "Bauchschmerzen",
+      "Erhöhte Leberwerte (ALT, AST)",
+      "Muskelkrämpfe",
+      "Erhöhtes Kreatinin im Blut",
+      "Müdigkeit, periphere Ödeme (Wassereinlagerungen in den Beinen)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen; Tierversuche zeigten eine Reproduktionstoxizität. Anwendung in der Schwangerschaft und bei Frauen im gebärfähigen Alter ohne Verhütung nicht empfohlen.",
+  "stillzeit": "Letermovir geht bei Tieren in die Milch über; ein Risiko für das Kind kann nicht ausgeschlossen werden. Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Tabletten mit oder ohne Mahlzeit einnehmen; die Infusion ist für Personen gedacht, die keine Tabletten einnehmen können.",
+    "Beim Beginn oder Absetzen von Letermovir müssen die Spiegel von Ciclosporin, Tacrolimus oder Sirolimus kontrolliert werden.",
+    "Auch nach Ende der Vorbeugung CMV nach Anweisung des Transplantationszentrums kontrollieren lassen.",
+    "Vor der Einnahme weiterer Medikamente, auch pflanzlicher wie Johanniskraut, ärztlich oder in der Apotheke nachfragen."
+  ],
+  "stand": "2026-10"
+}

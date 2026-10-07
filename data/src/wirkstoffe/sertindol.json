@@ -1,0 +1,225 @@
+{
+  "id": "sertindol",
+  "name": "Sertindol",
+  "synonyme": [
+    "Sertindole"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N05AE03"
+  ],
+  "klasse": "Atypisches Antipsychotikum",
+  "kurz": "Antipsychotikum gegen Schizophrenie; wegen des Risikos für Herzrhythmusstörungen nur als Reservemittel und mit EKG-Kontrollen.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Serdolect"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schizophrenie bei Patientinnen und Patienten, die mindestens ein anderes Antipsychotikum nicht vertragen haben (nicht für Notfälle mit rascher Beruhigung)",
+      "ids": [
+        "schizophrenie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Mildert psychotische Symptome wie Wahn und Halluzinationen. Sertindol blockiert Dopamin-D2-, Serotonin-5-HT2A- und Alpha-1-adrenerge Rezeptoren und wirkt bevorzugt auf dopaminerge Nervenzellen des limbischen Systems, weshalb Bewegungsstörungen selten sind. Es macht kaum müde. Zugleich blockiert es Kaliumkanäle des Herzens (hERG) und verlängert dadurch deutlich die QT-Zeit.",
+  "kontraindikationen": [
+    {
+      "text": "Unbehandelter Kalium- oder Magnesiummangel",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Klinisch bedeutsame Herz-Kreislauf-Erkrankungen: Herzinsuffizienz, Herzhypertrophie, Herzrhythmusstörungen, langsamer Puls (unter 50 pro Minute)",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Angeborenes langes QT-Syndrom (auch in der Familie) oder erworbene QT-Verlängerung (QTc über 450 ms bei Männern bzw. 470 ms bei Frauen)",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mässige Leberinsuffizienz (langsamere Dosissteigerung, tiefere Dosis)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Erbrechen, Durchfall oder Diuretika (Gefahr von Elektrolytverschiebungen)",
+      "ids": [
+        "dehydratation",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz (erhöhte Sterblichkeit und Schlaganfallrisiko unter Antipsychotika)",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Diabetes oder Risikofaktoren dafür (Blutzucker kann ansteigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Langsame CYP2D6-Metabolisierer (höhere Spiegel)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Mittel, die die QT-Zeit deutlich verlängern (z. B. Antiarrhythmika der Klassen Ia und III, Thioridazin, Erythromycin, Moxifloxacin, Lithium)",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "gruppe:antiarrhythmika-klasse-iii",
+        "lithium"
+      ],
+      "grund": "Additive QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Erythromycin, HIV-Proteasehemmer) sowie Diltiazem, Verapamil und Cimetidin",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer",
+        "erythromycin",
+        "diltiazem",
+        "verapamil"
+      ],
+      "grund": "Hemmen den Abbau von Sertindol – höhere Spiegel und stärkere QT-Verlängerung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Fluoxetin, Paroxetin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Sertindol-Spiegel steigen auf das 2- bis 3-Fache – nur mit tieferer Erhaltungsdosis und engmaschigen EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kalium- oder magnesiumsenkende Mittel (z. B. Diuretika, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytmangel erhöht das Risiko für Rhythmusstörungen – Kalium und Magnesium regelmässig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Carbamazepin, Phenytoin, Rifampicin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Sertindol-Spiegel sinken auf ein Drittel bis die Hälfte; beim Absetzen des Induktors steigen sie wieder – Dosis und EKG anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel und Alpha-1-Blocker",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:alpha1-blocker"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Zentrale Nebenwirkungen können verstärkt werden – Alkohol meiden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Verstopfte Nase (Rhinitis)",
+      "Verminderte Samenergussmenge",
+      "Schwindel, Kribbeln (Parästhesien)",
+      "Mundtrockenheit",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Gewichtszunahme, Wassereinlagerungen in den Beinen",
+      "Atemnot",
+      "QT-Verlängerung im EKG"
+    ],
+    "gelegentlich": [
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Synkope (Ohnmacht)",
+      "Krampfanfälle",
+      "Spätdyskinesien (unwillkürliche Bewegungen)",
+      "Torsade de pointes (lebensgefährliche Herzrhythmusstörung)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Malignes neuroleptisches Syndrom (Fieber, Muskelsteifigkeit, Bewusstseinsstörung)",
+      "Venöse Thromboembolien (Blutgerinnsel)",
+      "Plötzlicher Herztod"
+    ]
+  },
+  "schwangerschaft": "Wegen fehlender Erfahrungen nicht anwenden. Bei Einnahme im letzten Drittel können beim Neugeborenen Bewegungsstörungen und Entzugssymptome auftreten.",
+  "stillzeit": "Nicht stillen.",
+  "hinweise": [
+    "EKG vor Beginn, während der Dosissteigerung und danach regelmässig (etwa alle 3 Monate); Kalium und Magnesium kontrollieren.",
+    "Bei Herzklopfen, Schwindel oder Ohnmacht sofort ärztlich abklären lassen.",
+    "Die Dosis wird über Wochen langsam gesteigert; nach einer Pause von mehr als einer Woche wieder einschleichend beginnen."
+  ],
+  "stand": "2026-10"
+}

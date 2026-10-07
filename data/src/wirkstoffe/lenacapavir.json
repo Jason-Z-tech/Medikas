@@ -1,0 +1,166 @@
+{
+  "id": "lenacapavir",
+  "name": "Lenacapavir",
+  "synonyme": [
+    "LEN"
+  ],
+  "atc": [
+    "J05AX31"
+  ],
+  "klasse": "Antiretrovirales Mittel; HIV-Kapsid-Inhibitor (lang wirksam)",
+  "kurz": "Lang wirksames HIV-Mittel bei multiresistentem Virus: nach Starttabletten nur alle 6 Monate eine Spritze unter die Haut.",
+  "gruppen": [
+    "maessige-cyp3a4-hemmer",
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Sunlenca"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Injektionslösung (unter die Haut)"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiresistente HIV-1-Infektion bei Erwachsenen, wenn sonst keine wirksame antiretrovirale Kombination möglich ist – zusammen mit anderen HIV-Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Greift die Eiweisshülle (Kapsid) des HI-Virus an, die das Erbgut des Virus umschliesst. Lenacapavir bindet zwischen benachbarte Kapsid-Proteinuntereinheiten (p24) und stört dadurch mehrere Schritte des Vermehrungszyklus: den Transport des Virus-Erbguts in den Zellkern, den Zusammenbau neuer Viren und die korrekte Bildung des Kapsids. Weil der Wirkstoff aus dem Unterhautgewebe sehr langsam freigesetzt wird, reicht nach der Aufsättigung eine Injektion alle 6 Monate.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Lenacapavir bleibt nach der letzten Injektion viele Monate im Körper: bei Abbruch Resistenzgefahr – nur mit einer vollständig wirksamen anderen HIV-Therapie beenden; Wechselwirkungen bleiben so lange möglich",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutions-Syndrom zu Therapiebeginn (Entzündungsreaktionen auf bisher unbemerkte Infektionen)",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Nierenfunktionsstörung: wenig Erfahrungen",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Reaktionen an der Einstichstelle; Knötchen und Verhärtungen können lange bestehen bleiben",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke Induktoren von CYP3A, P-gp und UGT1A1: Rifampicin, Carbamazepin, Phenytoin, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "johanniskraut"
+      ],
+      "grund": "Starker Abfall des Lenacapavir-Spiegels – Wirkungsverlust und Gefahr von Resistenzbildung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP3A-Induktoren, z. B. Efavirenz, Etravirin, Nevirapin, Rifabutin, Bosentan",
+      "ref": [
+        "efavirenz",
+        "etravirin",
+        "nevirapin",
+        "rifabutin",
+        "bosentan"
+      ],
+      "effekt": "Lenacapavir-Spiegel sinkt – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kombinierte starke Hemmer von CYP3A, P-gp und UGT1A1, z. B. Atazanavir mit Cobicistat oder Ritonavir",
+      "ref": [
+        "atazanavir",
+        "cobicistat"
+      ],
+      "effekt": "Lenacapavir-Spiegel steigt deutlich – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A-Substrate, z. B. Midazolam, Triazolam",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Spiegel steigen (Lenacapavir hemmt CYP3A mässig) – Dosis prüfen, auf verstärkte Wirkung achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide, die über CYP3A abgebaut werden (z. B. Dexamethason, Hydrocortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Kortisonwirkung kann verstärkt sein (Cushing-Syndrom, Unterdrückung der Nebennieren) – niedrig dosieren, Alternativen erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer (Sildenafil, Tadalafil, Vardenafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Spiegel steigen – Dosis ärztlich anpassen, auf Blutdruckabfall achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine (z. B. Simvastatin, Atorvastatin, Rosuvastatin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Spiegel können steigen – mit niedriger Dosis beginnen, auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (DOAK)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Spiegel können steigen – erhöhtes Blutungsrisiko; Kombination ärztlich prüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel kann steigen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Reaktionen an der Einstichstelle (Schwellung, Schmerz, Rötung, Knötchen, Verhärtung)"
+    ],
+    "haeufig": [
+      "Übelkeit"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Immunrekonstitutions-Syndrom (Entzündungsreaktionen bei Therapiebeginn)"
+    ]
+  },
+  "schwangerschaft": "Nur wenige Daten beim Menschen. Vorsichtshalber in der Schwangerschaft möglichst vermeiden, ausser der Gesundheitszustand erfordert die Behandlung; die lange Verweildauer im Körper beachten.",
+  "stillzeit": "Frauen mit HIV wird in der Regel vom Stillen abgeraten; das Vorgehen mit der behandelnden Fachperson besprechen.",
+  "hinweise": [
+    "Injektionstermine (alle 6 Monate) genau einhalten – verpasste Termine können zu Resistenzen führen.",
+    "Lenacapavir bleibt nach der letzten Spritze noch viele Monate im Körper: bei jeder neuen Behandlung Ärztin, Arzt oder Apotheke darauf hinweisen.",
+    "Knötchen an der Einstichstelle sind häufig und bilden sich meist langsam zurück."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,194 @@
+{
+  "id": "lurasidon",
+  "name": "Lurasidon",
+  "synonyme": [
+    "Lurasidone"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N05AE05"
+  ],
+  "klasse": "Atypisches Antipsychotikum",
+  "kurz": "Antipsychotikum gegen Schizophrenie; wird einmal täglich mit einer Mahlzeit eingenommen und führt selten zu Gewichtszunahme.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Latuda"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schizophrenie",
+      "ids": [
+        "schizophrenie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Mildert psychotische Symptome wie Wahn, Halluzinationen und Denkstörungen. Lurasidon blockiert Dopamin-D2-, Serotonin-5-HT2A- und 5-HT7-Rezeptoren und wirkt als Partialagonist an Serotonin-5-HT1A-Rezeptoren. Histamin-H1- und Muskarinrezeptoren werden kaum beeinflusst, was die geringe Neigung zu Gewichtszunahme und anticholinergen Nebenwirkungen erklärt. Es wird fast vollständig über CYP3A4 abgebaut.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Ältere Menschen mit Demenz (erhöhte Sterblichkeit und Schlaganfallrisiko unter Antipsychotika)",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion (tiefere Dosis)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit oder Lewy-Körper-Demenz (empfindlicher für Bewegungsstörungen)",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder QT-Verlängerung in der Familie",
+      "ids": [
+        "herzrhythmusstoerung",
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Diabetes oder Übergewicht (Blutzucker, Gewicht und Blutfette kontrollieren)",
+      "ids": [
+        "diabetes",
+        "adipositas"
+      ]
+    },
+    {
+      "text": "Suizidgedanken, besonders bei jungen Menschen und zu Beginn",
+      "ids": [
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir, Posaconazol, Voriconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Hemmen den Abbau von Lurasidon – die Spiegel steigen auf ein Mehrfaches (mit Ketoconazol etwa 9-fach)."
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Beschleunigen den Abbau – die Lurasidon-Spiegel sinken stark (mit Rifampicin auf etwa ein Sechstel), die Wirkung geht verloren."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Lurasidon-Spiegel etwa verdoppelt – tiefere Start- und Höchstdosis.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmt den Abbau von Lurasidon, die Spiegel steigen – Grapefruitsaft meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit – Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Lurasidon selbst verlängert die QT-Zeit kaum; bei Kombination dennoch Vorsicht, besonders bei Herzkrankheiten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Akathisie (Sitzunruhe, Bewegungsdrang)",
+      "Schläfrigkeit"
+    ],
+    "haeufig": [
+      "Gewichtszunahme",
+      "Schlaflosigkeit, Unruhe, Angst",
+      "Parkinsonismus, Dystonie (Muskelverkrampfungen), Dyskinesien, Schwindel",
+      "Übelkeit, Erbrechen, Verdauungsbeschwerden, Bauchschmerzen",
+      "Vermehrter Speichelfluss, Mundtrockenheit",
+      "Muskelsteifigkeit",
+      "Müdigkeit, erhöhte Kreatinkinase (Muskelenzym)"
+    ],
+    "gelegentlich": [
+      "Erhöhter Prolaktinspiegel, erhöhter Blutzucker",
+      "Albträume",
+      "Spätdyskinesien (unwillkürliche Bewegungen)",
+      "Verschwommenes Sehen",
+      "Herzrasen, Blutdruckabfall beim Aufstehen",
+      "Durchfall"
+    ],
+    "selten": [
+      "Malignes neuroleptisches Syndrom (Fieber, Muskelsteifigkeit, Bewusstseinsstörung)",
+      "Suizidales Verhalten",
+      "Angioödem (Schwellung von Gesicht und Rachen)",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Brustvergrösserung, Milchfluss, Ausbleiben der Regel, Erektionsstörung"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom (schwere Hautreaktion)",
+      "Veränderungen des Blutbilds (Leukopenie, Neutropenie)",
+      "Entzugssymptome beim Neugeborenen nach Einnahme in der Schwangerschaft"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur nach strenger ärztlicher Abwägung. Bei Einnahme im letzten Drittel können beim Neugeborenen Bewegungsstörungen und Entzugssymptome auftreten.",
+  "stillzeit": "Nur nach ärztlicher Abwägung; ob Lurasidon beim Menschen in die Muttermilch übergeht, ist nicht ausreichend bekannt.",
+  "hinweise": [
+    "Einmal täglich mit einer Mahlzeit (mindestens etwa 350 kcal) einnehmen – nüchtern wird nur ein Teil aufgenommen.",
+    "Keinen Grapefruitsaft trinken und neue Medikamente (auch Johanniskraut) nur nach Rücksprache einnehmen.",
+    "Kann müde machen – Vorsicht beim Autofahren, Alkohol meiden."
+  ],
+  "stand": "2026-10"
+}

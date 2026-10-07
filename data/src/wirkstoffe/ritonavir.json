@@ -1,0 +1,386 @@
+{
+  "id": "ritonavir",
+  "name": "Ritonavir",
+  "synonyme": [
+    "RTV",
+    "ABT-538"
+  ],
+  "atc": [
+    "J05AE03"
+  ],
+  "klasse": "HIV-Proteasehemmer; pharmakokinetischer Verstärker (CYP3A4-Hemmer)",
+  "kurz": "HIV-Medikament, das heute vor allem in niedriger Dosis die Spiegel anderer HIV-Mittel erhöht («Booster»); sehr viele Wechselwirkungen.",
+  "gruppen": [
+    "hiv-proteasehemmer",
+    "starke-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "oatp1b-hemmer",
+    "enzyminduktoren-hormone",
+    "hepatotoxisch",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Norvir",
+    "Kaletra (Kombi)",
+    "Paxlovid (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion in Kombination mit anderen antiretroviralen Mitteln; heute fast ausschliesslich in niedriger Dosis zur Wirkverstärkung (Boosterung) anderer Proteasehemmer",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das HIV-Enzym Protease und verstärkt vor allem die Wirkung anderer HIV-Medikamente. Ritonavir blockiert die HIV-1-Protease, sodass das Virus seine Vorläufer-Eiweisse nicht spalten kann und unreife, nicht ansteckende Viruspartikel entstehen. Schon in niedriger Dosis hemmt es stark und irreversibel das Abbauenzym CYP3A4 sowie P-Glykoprotein in Darm und Leber; dadurch steigen die Spiegel gleichzeitig gegebener Proteasehemmer. Gleichzeitig induziert Ritonavir andere Enzyme (z. B. CYP1A2, CYP2B6, CYP2C9, CYP2C19 und die Glucuronidierung) und kann so die Spiegel anderer Medikamente senken.",
+  "kontraindikationen": [
+    {
+      "text": "Dekompensierte Lebererkrankung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen, chronische Hepatitis B oder C: erhöhtes Risiko für Leberschäden – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Hämophilie: vermehrte Blutungen möglich",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes oder erhöhter Blutzucker",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette, Pankreatitis in der Vorgeschichte",
+      "ids": [
+        "hypertriglyzeridaemie",
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Reizleitungsstörungen des Herzens (PR-Verlängerung, AV-Block) oder Einnahme von Mitteln, die das PR-Intervall verlängern",
+      "ids": [
+        "av-block",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: Aufflackern von Entzündungen nach Therapiebeginn",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Alfuzosin",
+      "ref": [
+        "alfuzosin"
+      ],
+      "grund": "Stark erhöhte Alfuzosin-Spiegel – Gefahr von schwerem Blutdruckabfall."
+    },
+    {
+      "text": "Antiarrhythmika: Amiodaron, Dronedaron, Flecainid, Propafenon, Chinidin",
+      "ref": [
+        "amiodaron",
+        "dronedaron",
+        "flecainid",
+        "propafenon"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    },
+    {
+      "text": "Ergotalkaloide (z. B. Ergotamin, Dihydroergotamin, Methylergometrin)",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "methylergometrin"
+      ],
+      "grund": "Gehemmter Abbau – Gefahr akuter Ergotvergiftung mit Gefässkrämpfen und Durchblutungsstörungen."
+    },
+    {
+      "text": "Simvastatin, Lovastatin, Lomitapid",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr von Muskelzerfall (Rhabdomyolyse) bzw. Leberschäden."
+    },
+    {
+      "text": "Antipsychotika: Lurasidon, Quetiapin, Clozapin, Pimozid",
+      "ref": [
+        "lurasidon",
+        "quetiapin",
+        "clozapin"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr von Herzrhythmusstörungen, Blutbildschäden oder Koma."
+    },
+    {
+      "text": "Beruhigungs- und Schlafmittel: Midazolam (zum Einnehmen), Triazolam, Diazepam, Clorazepat, Flurazepam",
+      "ref": [
+        "midazolam",
+        "triazolam",
+        "diazepam",
+        "clorazepat",
+        "flurazepam"
+      ],
+      "grund": "Gehemmter Abbau – stark verlängerte und verstärkte Sedation bis Atemdepression."
+    },
+    {
+      "text": "Pethidin, Piroxicam",
+      "ref": [
+        "pethidin",
+        "piroxicam"
+      ],
+      "grund": "Vermehrte Bildung des krampfauslösenden Pethidin-Metaboliten Norpethidin bzw. erhöhte Piroxicam-Spiegel."
+    },
+    {
+      "text": "Ranolazin",
+      "ref": [
+        "ranolazin"
+      ],
+      "grund": "Erhöhte Ranolazin-Spiegel – Gefahr schwerer Nebenwirkungen."
+    },
+    {
+      "text": "PDE-5-Hemmer: Avanafil, Vardenafil sowie Sildenafil zur Behandlung der pulmonalen Hypertonie",
+      "ref": [
+        "avanafil",
+        "vardenafil",
+        "sildenafil"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr von Blutdruckabfall, Sehstörungen und Dauererektion."
+    },
+    {
+      "text": "Colchicin bei eingeschränkter Nieren- oder Leberfunktion",
+      "ref": [
+        "colchicin"
+      ],
+      "grund": "Erhöhte Colchicin-Spiegel – lebensbedrohliche Vergiftung möglich."
+    },
+    {
+      "text": "Neratinib; Venetoclax in der Einleitungsphase bei CLL",
+      "ref": [
+        "neratinib",
+        "venetoclax"
+      ],
+      "grund": "Erhöhte Spiegel – schwere Toxizität bzw. Tumorlyse-Syndrom."
+    },
+    {
+      "text": "Fusidinsäure (systemisch)",
+      "ref": [
+        "fusidinsaeure"
+      ],
+      "grund": "Gegenseitig erhöhte Spiegel – Gefahr von Leberschäden."
+    },
+    {
+      "text": "Voriconazol (bei Ritonavir ab 400 mg zweimal täglich)",
+      "ref": [
+        "voriconazol"
+      ],
+      "grund": "Ritonavir senkt den Voriconazol-Spiegel stark – Wirkverlust."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Enzyminduktion senkt den Ritonavir-Spiegel – Wirkverlust und Resistenzentwicklung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Weitere Mittel, deren Fachinformation starke CYP3A4-Hemmer ausschliesst (z. B. Ticagrelor, Ivabradin, Eplerenon, Lercanidipin, Domperidon)",
+      "ref": [
+        "ticagrelor",
+        "ivabradin",
+        "eplerenon",
+        "lercanidipin",
+        "domperidon"
+      ],
+      "effekt": "Stark erhöhte Spiegel – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin und andere starke Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "rifampicin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Spiegel von Ritonavir und des geboosterten Proteasehemmers sinken stark – Wirkverlust und Resistenz; Rifampicin ist mit geboosterten Proteasehemmern kontraindiziert.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Calcineurin- und mTOR-Hemmer (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen um ein Vielfaches – nur mit engmaschiger Spiegelkontrolle und starker Dosisreduktion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Glukokortikoide, insbesondere Fluticason und Budesonid (inhalativ oder nasal)",
+      "ref": [
+        "gruppe:glukokortikoide-inhalativ",
+        "fluticason",
+        "budesonid",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Kortisonspiegel steigt stark – Cushing-Syndrom und Nebennierensuppression möglich; Alternativen (z. B. Beclometason) wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "DOAK (Rivaroxaban, Apixaban, Dabigatran, Edoxaban)",
+      "ref": [
+        "gruppe:doak"
+      ],
+      "effekt": "Spiegel steigen – erhöhtes Blutungsrisiko; Rivaroxaban nicht empfohlen, andere nur nach Abwägung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Opioide (z. B. Fentanyl, Oxycodon)",
+      "ref": [
+        "fentanyl",
+        "oxycodon"
+      ],
+      "effekt": "Spiegel steigen – Gefahr der Atemdepression; Dosis reduzieren, überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel mit Ethinylestradiol",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ethinylestradiol-Spiegel sinkt – Verhütung unsicher, zusätzlich oder stattdessen nicht-hormonal verhüten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Atorvastatin, Rosuvastatin",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Spiegel steigen – niedrigste Dosis wählen, auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Methadon-Spiegel sinkt – Entzugssymptome möglich, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten und Digoxin",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "digoxin"
+      ],
+      "effekt": "Spiegel steigen – Blutdruck, Puls und Digoxin-Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sildenafil, Tadalafil gegen Erektionsstörungen",
+      "ref": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "effekt": "Stark erhöhte Spiegel – nur in reduzierter Dosis und mit verlängerten Abständen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lamotrigin, Valproinsäure, Bupropion",
+      "ref": [
+        "lamotrigin",
+        "valproinsaeure",
+        "bupropion"
+      ],
+      "effekt": "Spiegel können durch Enzyminduktion sinken – Wirkung und allenfalls Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung verändert – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin, Levothyroxin",
+      "ref": [
+        "theophyllin",
+        "levothyroxin"
+      ],
+      "effekt": "Spiegel bzw. Wirkung können sinken – Theophyllin-Spiegel bzw. TSH kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ketoconazol, Itraconazol, Clarithromycin",
+      "ref": [
+        "ketoconazol",
+        "itraconazol",
+        "clarithromycin"
+      ],
+      "effekt": "Gegenseitige Spiegelerhöhung – Dosis begrenzen, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Geschmacksstörungen, Kribbeln um den Mund und in Händen und Füssen",
+      "Kopfschmerzen, Schwindel, periphere Neuropathie",
+      "Hautausschlag, Juckreiz",
+      "Müdigkeit, Schwäche",
+      "Hitzegefühl (Flush)",
+      "Rachenschmerzen, Husten"
+    ],
+    "haeufig": [
+      "Erhöhte Blutfette (Cholesterin, Triglyceride), Gicht",
+      "Erhöhter Blutzucker, Diabetes",
+      "Hepatitis, erhöhte Leberwerte",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Blutbildveränderungen (Leukopenie, Neutropenie, Thrombozytopenie)",
+      "Schlaflosigkeit, Angst, Verwirrtheit, Krampfanfälle",
+      "Muskelschmerzen, erhöhte CK-Werte",
+      "Ohnmacht, Blutdruckabfall oder -anstieg"
+    ],
+    "gelegentlich": [
+      "Herzinfarkt",
+      "Nierenversagen"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Anaphylaxie"
+    ]
+  },
+  "schwangerschaft": "Kann bei klinischer Notwendigkeit angewendet werden; umfangreiche Daten zeigen kein erhöhtes Fehlbildungsrisiko.",
+  "stillzeit": "Menschen mit HIV wird generell vom Stillen abgeraten; allenfalls nach eingehender Beratung durch die HIV-Fachperson.",
+  "hinweise": [
+    "Mit einer Mahlzeit einnehmen; Tabletten ganz schlucken.",
+    "Vor jeder neuen Behandlung – auch mit rezeptfreien oder pflanzlichen Mitteln wie Johanniskraut – Ärztin, Arzt oder Apotheke informieren: sehr viele Wechselwirkungen.",
+    "Die Nebenwirkungen sind bei der heute üblichen niedrigen Booster-Dosis deutlich seltener als bei der früheren vollen Dosis.",
+    "Blutfette, Blutzucker und Leberwerte werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

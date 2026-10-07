@@ -1,0 +1,143 @@
+{
+  "id": "belatacept",
+  "name": "Belatacept",
+  "synonyme": [
+    "LEA29Y"
+  ],
+  "atc": [
+    "L04AA28"
+  ],
+  "klasse": "Selektiver T-Zell-Kostimulationsblocker (Fusionsprotein, Immunsuppressivum)",
+  "kurz": "Infusion zur Vorbeugung der Abstossung einer transplantierten Niere; blockiert die Aktivierung von T-Zellen ohne die Niere zu schädigen.",
+  "gruppen": [
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Nulojix"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von Abstossungsreaktionen bei Erwachsenen nach Nierentransplantation, in Kombination mit Kortison und Mycophenolsäure (Einleitung mit Basiliximab)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass T-Zellen das transplantierte Organ angreifen. Belatacept ist ein Fusionsprotein aus einem veränderten CTLA-4-Anteil und einem Fc-Fragment von IgG1; es bindet stärker als Abatacept an CD80 und CD86 auf antigenpräsentierenden Zellen. Damit blockiert es das kostimulatorische Signal über CD28, das T-Zellen zur Aktivierung brauchen. Anders als Calcineurin-Hemmer schädigt es die Niere nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Transplantatempfänger ohne nachgewiesene Epstein-Barr-Virus-Infektion (EBV-negativ) oder mit unbekanntem EBV-Status: stark erhöhtes Risiko für Lymphome nach Transplantation, besonders im Gehirn",
+      "ids": [
+        "transplantation",
+        "lymphom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lymphoproliferative Erkrankungen nach Transplantation (PTLD), besonders bei CMV-negativen Empfängern und nach T-Zell-vermindernder Therapie",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Infektionen wie Tuberkulose, CMV, Polyomavirus-Nephropathie und progressive multifokale Leukenzephalopathie (PML)",
+      "ids": [
+        "aktive-infektion",
+        "tuberkulose",
+        "cmv-infektion"
+      ]
+    },
+    {
+      "text": "Bösartige Erkrankungen, besonders Hautkrebs (Sonnenschutz, Hautkontrollen)",
+      "ids": [
+        "hautkrebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Lebertransplantation: nicht anwenden (mehr Transplantatverluste und Todesfälle)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Umstellung von Calcineurin-Hemmern: erhöhtes Risiko für Abstossungsreaktionen",
+      "ids": []
+    },
+    {
+      "text": "Lebendimpfungen nicht empfohlen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion, schwächere Impfantwort – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mycophenolsäure und Mycophenolat-Mofetil",
+      "ref": [
+        "mycophenolsaeure",
+        "mycophenolat-mofetil"
+      ],
+      "effekt": "Unter Belatacept sind die Mycophenolsäure-Spiegel höher als unter Ciclosporin – Dosis bei Bedarf anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immunsuppressiva und T-Zell-vermindernde Antikörper (z. B. Antithymozytenglobulin)",
+      "ref": [
+        "antithymozytenglobulin",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Verstärkte Immunsuppression mit Infektions- und Lymphomrisiko.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Harnwegsinfektionen, Atemwegsinfektionen, CMV-Infektion, Bronchitis",
+      "Anämie (Blutarmut), Leukopenie",
+      "Elektrolytstörungen (Kalium zu tief oder zu hoch, Phosphat zu tief)",
+      "Schlaflosigkeit",
+      "Kopfschmerzen",
+      "Bluthochdruck oder Blutdruckabfall",
+      "Durchfall, Verstopfung, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Periphere Ödeme, Fieber, Eiweiss im Urin, erhöhtes Kreatinin"
+    ],
+    "haeufig": [],
+    "gelegentlich": [
+      "Lymphoproliferative Erkrankung nach Transplantation (PTLD)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Sepsis, Gürtelrose, BK-Virus-Infektion",
+      "Hautkrebs (Plattenepithel- und Basalzellkarzinom)",
+      "Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)",
+      "Thrombozytopenie, Neutropenie",
+      "Erhöhter Blutzucker, Diabetes"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn eindeutig erforderlich; Frauen im gebärfähigen Alter sollen während und bis 8 Wochen nach der letzten Dosis verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird als Infusion in der Transplantationsambulanz gegeben, anfangs häufiger, später alle 4 Wochen – Termine genau einhalten.",
+    "Neue Verwirrtheit, Gedächtnis-, Seh- oder Gangstörungen sofort melden.",
+    "Sonnenschutz und regelmässige Hautkontrollen."
+  ],
+  "stand": "2026-10"
+}

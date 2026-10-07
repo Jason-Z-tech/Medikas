@@ -1,0 +1,209 @@
+{
+  "id": "sirolimus",
+  "name": "Sirolimus",
+  "synonyme": [
+    "Rapamycin"
+  ],
+  "atc": [
+    "L04AH01"
+  ],
+  "klasse": "mTOR-Hemmer; Immunsuppressivum",
+  "kurz": "Immunsuppressivum, das nach einer Nierentransplantation die Abstossung des neuen Organs verhindert.",
+  "gruppen": [
+    "mtor-hemmer",
+    "immunsuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-substrate-eng",
+    "myelosuppressiv",
+    "hypokaliaemie-ausloesend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Rapamune"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Dragées (überzogene Tabletten)"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung der Organabstossung nach Nierentransplantation bei Erwachsenen mit geringem bis mässigem immunologischem Risiko (anfangs mit Ciclosporin und Kortison, danach Erhaltungstherapie mit Kortison)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass sich Abwehrzellen nach einer Transplantation vermehren und das fremde Organ angreifen. Sirolimus bindet in den Zellen an das Protein FKBP12; dieser Komplex hemmt die Kinase mTOR (mammalian target of rapamycin). Dadurch wird die durch Interleukin-2 und andere Wachstumsfaktoren ausgelöste Zellteilung der T- und B-Lymphozyten in der G1-Phase blockiert. Anders als Calcineurin-Hemmer hemmt Sirolimus nicht die Bildung von Interleukin-2 selbst.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Erhöhtes Risiko für Infektionen, Lymphome und Hautkrebs (Immunsuppression)",
+      "ids": [
+        "aktive-infektion",
+        "krebs",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Wundheilungsstörungen und Lymphozelen nach Operationen",
+      "ids": [
+        "wunde",
+        "operation"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette (Cholesterin, Triglyceride) – regelmässig kontrollieren",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Eiweiss im Urin und Nierenfunktionsverschlechterung, besonders bei Kombination mit Ciclosporin",
+      "ids": [
+        "niereninsuffizienz",
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (Dosisanpassung, Spiegelkontrolle)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung (nicht infektiöse Pneumonitis)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Leber- und Lungentransplantation: nicht empfohlen (Gefässverschlüsse bzw. Nahtschwäche an den Bronchien)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Angioödem, besonders zusammen mit ACE-Hemmern",
+      "ids": [
+        "angiooedem"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Voriconazol, Itraconazol, Clarithromycin, HIV-Proteasehemmer)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Sirolimus-Spiegel steigt stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Rifabutin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "rifabutin"
+      ],
+      "effekt": "Sirolimus-Spiegel sinkt stark – Gefahr der Organabstossung; Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Calcineurin-Hemmer (Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Ciclosporin erhöht den Sirolimus-Spiegel (Sirolimus 4 Stunden nach Ciclosporin einnehmen). Langfristige Kombination erhöht das Risiko für Nierenschäden und thrombotische Mikroangiopathie.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Infektionsgefahr und unsicherer Impfschutz – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer und P-gp-Hemmer (z. B. Diltiazem, Verapamil, Erythromycin, Fluconazol)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer",
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Sirolimus-Spiegel steigt – Talspiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Angioödeme (Schwellung von Gesicht, Zunge, Rachen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine und Fibrate",
+      "ref": [
+        "gruppe:statine",
+        "gruppe:fibrate"
+      ],
+      "effekt": "Auf Muskelschmerzen und -schwäche achten (Rhabdomyolyse).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Sirolimus-Spiegel steigt – meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen durch Bakterien, Viren und Pilze, u. a. Lungenentzündung und Harnwegsinfekte",
+      "Thrombozytopenie, Anämie, Leukopenie (Mangel an Blutplättchen, roten bzw. weissen Blutkörperchen)",
+      "Erhöhte Blutfette (Cholesterin, Triglyceride)",
+      "Hypokaliämie (Kaliummangel), Hypophosphatämie, erhöhter Blutzucker",
+      "Ödeme (Wassereinlagerungen), Lymphozele, Wundheilungsstörungen",
+      "Bluthochdruck, Kopfschmerzen",
+      "Durchfall, Verstopfung, Übelkeit, Bauchschmerzen",
+      "Akne, Hautausschlag, Gelenkschmerzen, Eiweiss im Urin"
+    ],
+    "haeufig": [
+      "Mundgeschwüre (Stomatitis)",
+      "Nicht infektiöse Lungenentzündung (Pneumonitis), Pleuraerguss",
+      "Tiefe Venenthrombose, Lungenembolie",
+      "Hämolytisch-urämisches Syndrom (Gerinnsel in kleinen Gefässen)",
+      "Weisser Hautkrebs",
+      "Sepsis, Zytomegalie- und Herpes-zoster-Infektionen",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung), Perikarderguss",
+      "Überempfindlichkeitsreaktionen inkl. Angioödem und Anaphylaxie"
+    ],
+    "gelegentlich": [
+      "Lymphome und andere lymphoproliferative Erkrankungen nach Transplantation",
+      "Melanom",
+      "Nephrotisches Syndrom",
+      "Panzytopenie, thrombotisch-thrombozytopenische Purpura",
+      "Tuberkulose",
+      "Clostridioides-difficile-Darmentzündung"
+    ],
+    "selten": [
+      "Alveolarproteinose (Eiweissablagerungen in den Lungenbläschen)"
+    ],
+    "unbekannt": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Progressive multifokale Leukoenzephalopathie (PML)"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn eindeutig erforderlich. Frauen müssen vor, während und bis 12 Wochen nach Ende der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Nicht stillen.",
+  "hinweise": [
+    "Regelmässige Kontrollen von Talspiegel, Blutfetten, Nierenwerten, Urin-Eiweiss und Blutbild.",
+    "Immer gleich einnehmen – entweder stets mit oder stets ohne Essen; kein Grapefruitsaft. Bei Kombination mit Ciclosporin 4 Stunden Abstand einhalten.",
+    "Haut konsequent vor Sonne schützen und regelmässig kontrollieren lassen (erhöhtes Hautkrebsrisiko).",
+    "Keine Lebendimpfungen; neue Medikamente, auch pflanzliche wie Johanniskraut, immer mit der Transplantationsmedizin absprechen."
+  ],
+  "stand": "2026-10"
+}

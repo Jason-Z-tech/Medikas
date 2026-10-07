@@ -1,0 +1,158 @@
+{
+  "id": "albendazol",
+  "name": "Albendazol",
+  "synonyme": [
+    "Albendazole"
+  ],
+  "atc": [
+    "P02CA03"
+  ],
+  "klasse": "Anthelminthikum (Benzimidazol)",
+  "kurz": "Wurmmittel gegen Darmwürmer sowie gegen Bandwurmzysten in Leber, Lunge oder Gehirn (Echinokokkose, Neurozystizerkose).",
+  "gruppen": [
+    "teratogen",
+    "myelosuppressiv",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Zentel"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Darmwurminfektionen durch Spulwürmer, Madenwürmer, Hakenwürmer, Peitschenwürmer oder Zwergfadenwürmer",
+      "ids": [
+        "wurmbefall"
+      ]
+    },
+    {
+      "text": "Zystische Echinokokkose (Hundebandwurm) und alveoläre Echinokokkose (Fuchsbandwurm)",
+      "ids": [
+        "wurmbefall"
+      ]
+    },
+    {
+      "text": "Neurozystizerkose (Bandwurmfinnen im Gehirn)",
+      "ids": [
+        "wurmbefall"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hungert die Würmer aus, indem es ihre Nährstoffaufnahme blockiert. Albendazol bindet an das Tubulin der Parasitenzellen und verhindert den Aufbau der Mikrotubuli; der Wurm kann keine Glucose mehr aufnehmen, seine Energiereserven erschöpfen sich und er stirbt ab. Im Körper wird Albendazol in der Leber rasch zum wirksamen Albendazolsulfoxid umgewandelt, das auch in Zysten und ins Gehirn gelangt. Fettreiche Mahlzeiten steigern die Aufnahme deutlich.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Benzimidazole (z. B. Mebendazol)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaft vor Beginn ausschliessen, während und bis 1 Monat nach der Behandlung sicher verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion; Leberwerte bei längerer Behandlung regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Knochenmarkschädigung oder Blutbildveränderungen: Blutbild bei längerer Behandlung regelmässig kontrollieren",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Neurozystizerkose: Entzündungsreaktion mit Krampfanfällen und Hirndruck möglich – begleitend Kortison und Antiepileptika",
+      "ids": [
+        "epilepsie",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Befall der Netzhaut (Zystizerken im Auge) vor der Behandlung ausschliessen",
+      "ids": [
+        "sehstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Enzyminduzierende Antiepileptika (z. B. Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Senken den Spiegel des Wirkmetaboliten – Wirkung bei Zysten kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dexamethason",
+      "ref": [
+        "dexamethason"
+      ],
+      "effekt": "Erhöht den Spiegel von Albendazolsulfoxid.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Praziquantel",
+      "ref": [
+        "praziquantel"
+      ],
+      "effekt": "Erhöht den Spiegel von Albendazolsulfoxid.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Cimetidin",
+      "ref": [],
+      "effekt": "Erhöht den Spiegel von Albendazolsulfoxid.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhte Leberwerte (bei Langzeitbehandlung)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Bauchschmerzen, Übelkeit, Erbrechen",
+      "Vorübergehender Haarausfall (bei Langzeitbehandlung)",
+      "Fieber"
+    ],
+    "gelegentlich": [
+      "Leukopenie (Verminderung der weissen Blutkörperchen)",
+      "Überempfindlichkeitsreaktionen wie Ausschlag, Juckreiz, Nesselsucht"
+    ],
+    "selten": [
+      "Hepatitis (Leberentzündung)"
+    ],
+    "sehrSelten": [
+      "Stevens-Johnson-Syndrom, Erythema multiforme",
+      "Agranulozytose, aplastische Anämie, Panzytopenie"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen während und bis 1 Monat nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Bei Zysten (Echinokokkose, Neurozystizerkose) mit einer fettreichen Mahlzeit einnehmen; bei Darmwürmern ist dies nicht nötig.",
+    "Bei längerer Behandlung Blutbild und Leberwerte vor Beginn und alle 2 Wochen kontrollieren.",
+    "Bei Madenwürmern Familienmitglieder mitbehandeln und auf Händehygiene achten."
+  ],
+  "stand": "2026-10"
+}

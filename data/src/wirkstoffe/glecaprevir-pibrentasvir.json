@@ -1,0 +1,255 @@
+{
+  "id": "glecaprevir-pibrentasvir",
+  "name": "Glecaprevir + Pibrentasvir",
+  "synonyme": [
+    "G/P",
+    "GLE/PIB",
+    "Glecaprevir/Pibrentasvir"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J05AP57"
+  ],
+  "klasse": "Direkt wirkendes Hepatitis-C-Virostatikum (NS3/4A-Proteasehemmer + NS5A-Hemmer), pangenotypisch",
+  "kurz": "Tablette gegen chronische Hepatitis C aller Genotypen; führt oft schon nach 8 Wochen Therapie zur Heilung.",
+  "gruppen": [
+    "hcv-daa",
+    "p-gp-hemmer",
+    "oatp1b-hemmer"
+  ],
+  "handelsnamen": [
+    "Maviret"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische Hepatitis C aller Genotypen bei Erwachsenen sowie Kindern und Jugendlichen gemäss Fachinformation, auch bei kompensierter Leberzirrhose und eingeschränkter Nierenfunktion",
+      "ids": [
+        "hepatitis-c"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des Hepatitis-C-Virus an zwei Stellen. Glecaprevir blockiert die virale NS3/4A-Protease, die das Vorläufer-Eiweiss des Virus in funktionsfähige Teile zerschneidet. Pibrentasvir hemmt das Virusprotein NS5A, das für die Vervielfältigung des Virus-Erbguts und den Zusammenbau neuer Viren nötig ist. Beide Wirkstoffe werden kaum über die Niere ausgeschieden; sie hemmen die Transporter P-Glykoprotein, BCRP und OATP1B und erhöhen so die Spiegel mancher anderer Arzneimittel.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Mittelschwere Leberfunktionsstörung (Child-Pugh B) oder frühere Leberdekompensation: nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Koinfektion: Reaktivierung der Hepatitis B möglich – vor Therapiebeginn testen und überwachen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Diabetes: die Blutzuckereinstellung kann sich verbessern – Unterzuckerungsgefahr",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Nach Leber- oder Nierentransplantation: Spiegel von Ciclosporin und Tacrolimus beachten",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Früheres Versagen einer Therapie mit NS5A-Hemmern (eingeschränkte Wirksamkeit)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Atazanavir-haltige Arzneimittel",
+      "ref": [
+        "atazanavir"
+      ],
+      "grund": "Glecaprevir- und Pibrentasvir-Spiegel steigen stark – Gefahr von Leberwert-Anstiegen (ALT)."
+    },
+    {
+      "text": "Atorvastatin und Simvastatin",
+      "ref": [
+        "atorvastatin",
+        "simvastatin"
+      ],
+      "grund": "Statin-Spiegel steigen stark – Gefahr von Muskelschäden bis zur Rhabdomyolyse."
+    },
+    {
+      "text": "Dabigatran",
+      "ref": [
+        "dabigatran"
+      ],
+      "grund": "Der Dabigatran-Spiegel steigt (P-gp-Hemmung) – erhöhte Blutungsgefahr."
+    },
+    {
+      "text": "Ethinylestradiol-haltige Arzneimittel (kombinierte Pille, Vaginalring, Verhütungspflaster)",
+      "ref": [
+        "ethinylestradiol-levonorgestrel",
+        "ethinylestradiol-desogestrel",
+        "ethinylestradiol-drospirenon",
+        "ethinylestradiol-gestoden",
+        "ethinylestradiol-dienogest",
+        "ethinylestradiol-chlormadinon",
+        "ethinylestradiol-etonogestrel",
+        "ethinylestradiol-norelgestromin",
+        "cyproteron-ethinylestradiol"
+      ],
+      "grund": "Gefahr eines deutlichen Anstiegs des Leberwerts ALT."
+    },
+    {
+      "text": "Starke P-gp- und CYP3A-Induktoren: Rifampicin, Carbamazepin, Phenytoin, Phenobarbital, Primidon, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital",
+        "primidon",
+        "johanniskraut",
+        "gruppe:p-gp-induktoren",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken die Wirkstoffspiegel stark – die Hepatitis-C-Therapie kann versagen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere HIV-Proteasehemmer (Darunavir, Lopinavir/Ritonavir)",
+      "ref": [
+        "darunavir",
+        "darunavir-cobicistat",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "lopinavir-ritonavir"
+      ],
+      "effekt": "Glecaprevir-Spiegel steigt stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Efavirenz, Etravirin und Nevirapin",
+      "ref": [
+        "efavirenz",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "etravirin",
+        "nevirapin"
+      ],
+      "effekt": "Senken die Wirkstoffspiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässig starke Induktoren (z. B. Oxcarbazepin, Eslicarbazepin, Lumacaftor)",
+      "ref": [
+        "oxcarbazepin",
+        "eslicarbazepin",
+        "lumacaftor-ivacaftor"
+      ],
+      "effekt": "Senken die Wirkstoffspiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Glecaprevir-Spiegel steigt stark – bei Ciclosporin-Dosen über 100 mg pro Tag nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Statine (Pravastatin, Rosuvastatin, Fluvastatin, Pitavastatin)",
+      "ref": [
+        "pravastatin",
+        "rosuvastatin",
+        "fluvastatin",
+        "pitavastatin"
+      ],
+      "effekt": "Statin-Spiegel steigen – Pravastatin-Dosis halbieren, Rosuvastatin höchstens 5 mg; Fluvastatin und Pitavastatin niedrig dosieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel steigt – Dosis reduzieren (etwa halbieren) und Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tacrolimus",
+      "ref": [
+        "tacrolimus"
+      ],
+      "effekt": "Tacrolimus-Spiegel steigt – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Protonenpumpenhemmer in hoher Dosis",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Glecaprevir-Spiegel sinkt bei hohen Dosen (z. B. Omeprazol über 40 mg) – Wirksamkeit kann vermindert sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Mit der Besserung der Leberfunktion kann die Gerinnung schwanken – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe u. a.)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:hypoglykaemie-ausloesend"
+      ],
+      "effekt": "Unterzuckerungsgefahr durch verbesserte Blutzuckerkontrolle – Blutzucker überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Durchfall",
+      "Übelkeit",
+      "Schwäche (Asthenie)"
+    ],
+    "gelegentlich": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Juckreiz",
+      "Reaktivierung einer Hepatitis B",
+      "Leberdekompensation bis Leberversagen bei fortgeschrittener Zirrhose"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; vorsichtshalber in der Schwangerschaft nicht anwenden.",
+  "stillzeit": "Ein Risiko für das gestillte Kind kann nicht ausgeschlossen werden – Entscheidung nach ärztlicher Abwägung, in der Regel während der Therapie nicht stillen.",
+  "hinweise": [
+    "Die Tagesdosis (bei Erwachsenen 3 Tabletten) einmal täglich gemeinsam zu einer Mahlzeit einnehmen.",
+    "Kombinierte Pille, Vaginalring oder Verhütungspflaster mit Ethinylestradiol sind während der Therapie nicht erlaubt.",
+    "Alle Medikamente angeben – insbesondere Cholesterinsenker, Gerinnungshemmer, Antiepileptika und HIV-Mittel."
+  ],
+  "stand": "2026-10"
+}

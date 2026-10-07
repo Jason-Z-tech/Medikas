@@ -1,0 +1,205 @@
+{
+  "id": "fenfluramin",
+  "name": "Fenfluramin",
+  "synonyme": [
+    "Fenfluramine"
+  ],
+  "atc": [
+    "N03AX26"
+  ],
+  "klasse": "Antiepileptikum (Serotonin-Freisetzer, Amphetamin-Derivat)",
+  "kurz": "Zusatzmittel gegen Anfälle beim Dravet- und Lennox-Gastaut-Syndrom; wegen möglicher Herzklappenschäden regelmässige Herzultraschall-Kontrollen.",
+  "gruppen": [
+    "antiepileptika",
+    "serotonerg",
+    "zns-daempfend",
+    "cyp1a2-substrate",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Fintepla"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Lösung zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Zusatzbehandlung von Anfällen beim Dravet-Syndrom ab 2 Jahren",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Zusatzbehandlung von Anfällen beim Lennox-Gastaut-Syndrom ab 2 Jahren",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verstärkt im Gehirn die Wirkung des Botenstoffs Serotonin und senkt so die Anfallshäufigkeit. Fenfluramin und sein Abbauprodukt Norfenfluramin setzen Serotonin aus Nervenendigungen frei und regen bestimmte Serotonin-Rezeptoren (u. a. 5-HT1D, 5-HT2A, 5-HT2C) an; zusätzlich wirkt Fenfluramin am Sigma-1-Rezeptor. Die Wirkung von Norfenfluramin am 5-HT2B-Rezeptor gilt als Ursache der möglichen Herzklappen- und Lungengefässschäden.",
+  "kontraindikationen": [
+    {
+      "text": "Erkrankung der Aorten- oder Mitralklappe",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Pulmonale arterielle Hypertonie (Lungenhochdruck)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzklappenerkrankung und Lungenhochdruck: Herzultraschall vor Beginn, alle 6 Monate während und einmal 3–6 Monate nach der Behandlung",
+      "ids": [
+        "herzklappenerkrankung",
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Appetitlosigkeit und Gewichtsverlust – Gewicht regelmässig kontrollieren",
+      "ids": [
+        "untergewicht"
+      ]
+    },
+    {
+      "text": "Schläfrigkeit und Müdigkeit",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Glaukom: Fenfluramin kann die Pupillen erweitern und einen akuten Glaukomanfall auslösen",
+      "ids": [
+        "glaukom",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Mässige bis schwere Leber- oder Niereninsuffizienz (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer, auch innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "gruppe:mao-b-hemmer"
+      ],
+      "grund": "Beide steigern die Serotoninwirkung – Gefahr eines lebensbedrohlichen Serotoninsyndroms."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI, trizyklische Antidepressiva, Triptane)",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:triptane"
+      ],
+      "effekt": "Gefahr eines Serotoninsyndroms (Unruhe, Fieber, Muskelzuckungen, Durchfall) – nur mit Vorsicht und enger Überwachung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Stiripentol (mit Clobazam und Valproat)",
+      "ref": [
+        "stiripentol"
+      ],
+      "effekt": "Der Fenfluramin-Spiegel steigt deutlich – tiefere Höchstdosis von Fenfluramin.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP1A2- oder CYP2D6-Hemmer (z. B. Fluvoxamin, Paroxetin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer",
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Der Fenfluramin-Spiegel steigt – Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin)",
+      "ref": [
+        "rifampicin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Der Fenfluramin-Spiegel sinkt – Dosis ggf. erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonin-Antagonisten (z. B. Cyproheptadin)",
+      "ref": [],
+      "effekt": "Können die Wirkung von Fenfluramin abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Cannabidiol",
+      "ref": [
+        "cannabidiol"
+      ],
+      "effekt": "Der Fenfluramin-Spiegel steigt leicht; meist keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Verminderter Appetit, Gewichtsabnahme",
+      "Schläfrigkeit, Lethargie (Antriebslosigkeit), Müdigkeit",
+      "Durchfall",
+      "Fieber",
+      "Infekte der oberen Atemwege, Bronchitis, Ohrenentzündung",
+      "Auffälliger Herzultraschall (geringe Undichtigkeit der Herzklappen, meist ohne Krankheitswert)"
+    ],
+    "haeufig": [
+      "Verhaltensauffälligkeiten, Aggressivität, Unruhe, Schlaflosigkeit, Stimmungsschwankungen",
+      "Gangunsicherheit (Ataxie), verminderte Muskelspannung, Zittern",
+      "Krampfanfälle, Status epilepticus",
+      "Verstopfung, vermehrter Speichelfluss, Erbrechen",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Serotoninsyndrom",
+      "Pulmonale arterielle Hypertonie (Lungenhochdruck)",
+      "Herzklappenerkrankung (bekannt aus der früheren Anwendung als Appetitzügler in höherer Dosis)"
+    ]
+  },
+  "schwangerschaft": "Vorsichtshalber nicht anwenden; nur nach sorgfältiger ärztlicher Abwägung.",
+  "stillzeit": "Nicht bekannt, ob Fenfluramin in die Muttermilch übergeht; Stillen nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Herzultraschall vor Beginn, alle 6 Monate während und 3–6 Monate nach Ende der Behandlung.",
+    "Atemnot, Brustschmerzen, Herzklopfen, Ohnmacht oder Beinschwellungen sofort ärztlich abklären.",
+    "Gewicht regelmässig kontrollieren; die Dosis immer mit der beigelegten Dosierspritze abmessen.",
+    "Nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

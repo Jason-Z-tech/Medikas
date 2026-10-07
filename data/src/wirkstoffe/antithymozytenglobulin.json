@@ -1,0 +1,168 @@
+{
+  "id": "antithymozytenglobulin",
+  "name": "Antithymozytenglobulin",
+  "synonyme": [
+    "ATG",
+    "Kaninchen-ATG",
+    "rATG",
+    "Anti-Human-T-Lymphozyten-Immunglobulin vom Kaninchen"
+  ],
+  "atc": [
+    "L04AA04"
+  ],
+  "klasse": "Polyklonales Immunsuppressivum (Lymphozyten-Immunglobulin vom Kaninchen)",
+  "kurz": "Infusion mit Kaninchen-Antikörpern gegen Abwehrzellen; verhindert oder behandelt Abstossungen nach Organ- und Stammzelltransplantation.",
+  "gruppen": [
+    "immunsuppressiv",
+    "myelosuppressiv"
+  ],
+  "handelsnamen": [
+    "Thymoglobuline",
+    "Grafalon"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung",
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von Abstossungsreaktionen nach Organtransplantation, in Kombination mit anderen Immunsuppressiva",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Behandlung von Abstossungsreaktionen, z. B. kortisonresistenter Abstossung nach Nierentransplantation (Thymoglobuline)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Vorbeugung der Graft-versus-Host-Krankheit bei allogener Stammzelltransplantation",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft das Immunsystem, indem es die T-Lymphozyten stark vermindert, die ein fremdes Organ abstossen würden. Die Präparate enthalten Antikörper (IgG) aus Kaninchen, die gegen menschliche Thymuszellen (Thymoglobuline) bzw. eine menschliche T-Zell-Linie (Grafalon) immunisiert wurden. Die Antikörper binden an zahlreiche Oberflächenmoleküle von T-Zellen und lösen deren Zerstörung durch Komplement und Fresszellen aus. Zudem verändern sie Aktivierung und Wanderung der verbleibenden Lymphozyten.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Kanincheneiweiss",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Akute oder chronische Infektionen, die eine zusätzliche Immunsuppression nicht erlauben",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infusionsreaktionen und Zytokinfreisetzungssyndrom (Fieber, Schüttelfrost, Atemnot, Blutdruckabfall) – Vorbehandlung mit Kortison, Antihistaminikum und Fiebermittel",
+      "ids": [
+        "fieber",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Anaphylaxie, besonders bei wiederholter Behandlung",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Thrombozytopenie oder Leukopenie: Blutbild während der Behandlung täglich kontrollieren, Dosis anpassen",
+      "ids": [
+        "thrombozytopenie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Infektionen (z. B. CMV, Pilze) und Reaktivierung von Viren",
+      "ids": [
+        "aktive-infektion",
+        "cmv-infektion"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Lymphome und andere lymphoproliferative Erkrankungen nach Transplantation",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Lebererkrankung: vorbestehende Gerinnungsstörungen können sich verstärken",
+      "ids": [
+        "leberinsuffizienz",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Lebendimpfungen nicht empfohlen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion und schwächere Impfantwort – nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Immunsuppressiva (z. B. Ciclosporin, Tacrolimus, Mycophenolat, Kortison)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "mycophenolat-mofetil",
+        "mycophenolsaeure",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Übermässige Immunsuppression mit Infektions- und Lymphomrisiko – Dosierungen aufeinander abstimmen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Fieber, Schüttelfrost",
+      "Lymphopenie (Mangel an Lymphozyten), Neutropenie, Thrombozytopenie (Mangel an Blutplättchen)",
+      "Infektionen, auch Reaktivierung von Viren (z. B. CMV)",
+      "Infusionsbedingte Reaktionen und Zytokinfreisetzungssyndrom"
+    ],
+    "haeufig": [
+      "Blutdruckabfall, Atemnot",
+      "Übelkeit, Erbrechen, Durchfall, Schluckbeschwerden",
+      "Muskelschmerzen",
+      "Juckreiz, Hautausschlag"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie (schwerer allergischer Schock)",
+      "Serumkrankheit (Fieber, Ausschlag, Gelenkschmerzen)",
+      "Lymphome und andere bösartige Erkrankungen nach Transplantation",
+      "Erhöhte Leberwerte"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung; keine ausreichenden Erfahrungen.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird nur im Spital als langsame Infusion, meist über eine grosse Vene, mit Vorbehandlung gegen Infusionsreaktionen gegeben.",
+    "Blutbild wird während der Behandlung täglich kontrolliert.",
+    "Fieber, Ausschlag oder Gelenkschmerzen in den Wochen danach melden (Serumkrankheit).",
+    "Keine Lebendimpfungen ohne ärztliche Rücksprache."
+  ],
+  "stand": "2026-10"
+}

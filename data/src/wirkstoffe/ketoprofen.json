@@ -1,0 +1,168 @@
+{
+  "id": "ketoprofen",
+  "name": "Ketoprofen",
+  "synonyme": [
+    "Ketoprofenum"
+  ],
+  "atc": [
+    "M02AA10",
+    "M01AE03"
+  ],
+  "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Propionsäure-Derivat) zur Anwendung auf der Haut",
+  "kurz": "Entzündungshemmendes Schmerzgel (NSAR) bei Prellungen, Verstauchungen und Muskel- oder Gelenkschmerzen; macht die Haut lichtempfindlich.",
+  "gruppen": [
+    "nsar",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Fastum"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Gel"
+  ],
+  "indikationen": [
+    {
+      "text": "Lokale Behandlung von Schmerzen, Entzündungen und Schwellungen bei Prellungen, Verstauchungen, Zerrungen sowie Sehnen- und Muskelschmerzen",
+      "ids": [
+        "sportverletzung",
+        "muskelschmerzen"
+      ]
+    },
+    {
+      "text": "Schmerzhafte Muskel- und Gelenkbeschwerden, z. B. im Rücken- und Nackenbereich",
+      "ids": [
+        "rueckenschmerzen",
+        "nackenschmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Schwellungen am Ort der Anwendung. Ketoprofen dringt durch die Haut in das darunterliegende Gewebe ein und hemmt dort die Cyclooxygenasen und damit die Bildung von Prostaglandinen. Die Blutspiegel bleiben bei Anwendung auf der Haut gering. Unter Lichteinwirkung kann Ketoprofen in der Haut allergische Reaktionen (Photoallergie) auslösen.",
+  "kontraindikationen": [
+    {
+      "text": "Lichtempfindlichkeitsreaktionen (Photoallergie) in der Vorgeschichte",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Allergie gegen Ketoprofen, Tiaprofensäure, Fenofibrat, Acetylsalicylsäure oder andere NSAR (z. B. Asthma, Nesselsucht, Schnupfen)",
+      "ids": [
+        "nsar-allergie",
+        "analgetika-asthma"
+      ]
+    },
+    {
+      "text": "Hautallergie gegen UV-Filter in Sonnenschutzmitteln (z. B. Octocrylen) oder gegen Parfums",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Sonnenlicht oder Solarium während der Behandlung und bis 2 Wochen danach",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Krankhaft veränderte oder verletzte Haut (Ekzem, Akne, Infektion, offene Wunden)",
+      "ids": [
+        "neurodermitis",
+        "akne",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nicht auf Schleimhäute, in die Augen oder unter luftdichte Verbände bringen",
+      "ids": []
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion bei grossflächiger oder langdauernder Anwendung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hautreaktionen, auch nach Sonnenexposition – sofort absetzen",
+      "ids": [
+        "hautausschlag"
+      ]
+    },
+    {
+      "text": "Kinder: Sicherheit und Wirksamkeit nicht belegt",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lichtempfindlich machende Mittel (z. B. Tetracycline, Fluorchinolone, Amiodaron)",
+      "ref": [
+        "gruppe:photosensibilisierend"
+      ],
+      "effekt": "Verstärkte Lichtempfindlichkeit der Haut – Sonne konsequent meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Wechselwirkungen sind wegen geringer Blutspiegel unwahrscheinlich; bei grossflächiger Anwendung INR beachten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere NSAR (eingenommen)",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Bei grossflächiger oder langer Anwendung Zunahme der NSAR-Nebenwirkungen möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "gelegentlich": [
+      "Örtliche Hautreaktionen wie Rötung, Juckreiz, Ekzem, Brennen"
+    ],
+    "selten": [
+      "Photosensibilität (Lichtallergie mit Hautausschlag nach Sonnenexposition)",
+      "Blasige Hautreaktionen",
+      "Nesselsucht"
+    ],
+    "sehrSelten": [
+      "Verschlechterung einer eingeschränkten Nierenfunktion"
+    ],
+    "unbekannt": [
+      "Anaphylaxie, Angioödem und andere Überempfindlichkeitsreaktionen",
+      "Asthmaanfälle bei Analgetika-Asthma"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach ärztlicher Abwägung, kleinflächig und kurz; im letzten Drittel kontraindiziert.",
+  "stillzeit": "In der Stillzeit nicht empfohlen; falls nötig nur kleinflächig und nicht im Brustbereich anwenden.",
+  "hinweise": [
+    "Während der Behandlung und bis 2 Wochen danach Sonne und Solarium meiden; behandelte Stellen mit Kleidung bedecken.",
+    "Nach dem Auftragen die Hände gründlich waschen; nicht unter luftdichten Verbänden anwenden.",
+    "Bei Hautausschlag sofort absetzen.",
+    "Nicht zusammen mit Sonnenschutzmitteln mit Octocrylen anwenden (Kreuzallergie möglich)."
+  ],
+  "stand": "2026-10"
+}

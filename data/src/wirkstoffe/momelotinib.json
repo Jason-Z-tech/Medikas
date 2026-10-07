@@ -1,0 +1,167 @@
+{
+  "id": "momelotinib",
+  "name": "Momelotinib",
+  "synonyme": [
+    "Momelotinibum",
+    "Momelotinib dihydrochloride",
+    "CYT387"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EJ04"
+  ],
+  "klasse": "Proteinkinase-Hemmer (JAK1/JAK2- und ACVR1-Hemmer); Krebsmittel",
+  "kurz": "JAK-Hemmer zum Einnehmen gegen vergrösserte Milz und Beschwerden bei Myelofibrose mit Blutarmut; kann den Bedarf an Bluttransfusionen senken.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "jak-hemmer",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Omjjara"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Vergrösserte Milz oder krankheitsbedingte Beschwerden bei mässiger bis schwerer Blutarmut, bei primärer Myelofibrose oder Myelofibrose nach Polycythaemia vera bzw. essenzieller Thrombozythämie, ohne JAK-Hemmer-Vorbehandlung oder nach Ruxolitinib",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "anaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verkleinert die Milz, lindert Beschwerden der Myelofibrose und kann die Blutarmut bessern. Momelotinib hemmt die Januskinasen JAK1 und JAK2 und bremst so die überaktive JAK-STAT-Signalübertragung. Zusätzlich hemmt es den Activin-Rezeptor ACVR1 (ALK2); dadurch sinkt das Eisen-Regulationshormon Hepcidin, mehr Eisen wird für die Blutbildung verfügbar.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infektionen, auch Hepatitis B in der Vorgeschichte (Reaktivierung möglich); vor Beginn abklären",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Mangel an Blutplättchen oder weissen Blutkörperchen (Blutbild regelmässig kontrollieren)",
+      "ids": [
+        "thrombozytopenie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen; Leberwerte kontrollieren, bei schwerer Leberfunktionsstörung Dosis reduzieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Risikofaktoren, Raucher, Thrombosen in der Vorgeschichte (bei JAK-Hemmern mehr Herzinfarkte, Schlaganfälle und Thrombosen beobachtet)",
+      "ids": [
+        "kardiovaskulaeres-risiko",
+        "rauchen",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Weitere Krebserkrankungen, auch weisser Hautkrebs (Haut regelmässig untersuchen)",
+      "ids": [
+        "hautkrebs",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter (zuverlässige Verhütung nötig)",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "OATP1B-Hemmer (z. B. Ciclosporin, Rifampicin als Einzeldosis)",
+      "ref": [
+        "gruppe:oatp1b-hemmer"
+      ],
+      "effekt": "Momelotinib-Spiegel steigt – Vorsicht, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Momelotinib-Spiegel sinkt, Wirkung kann nachlassen – Kombination möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rosuvastatin und andere BCRP-Substrate (z. B. Sulfasalazin)",
+      "ref": [
+        "rosuvastatin",
+        "sulfasalazin"
+      ],
+      "effekt": "Momelotinib hemmt den Transporter BCRP – Rosuvastatin-Spiegel steigt deutlich; Statin-Dosis begrenzen, auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Stärkerer Abfall von Blutplättchen und weissen Blutkörperchen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Durchfall, Übelkeit",
+      "Müdigkeit, Schwäche"
+    ],
+    "haeufig": [
+      "Infektionen (Harnwege, obere Atemwege, Lungenentzündung)",
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Bauchschmerzen, Erbrechen, Verstopfung",
+      "Schwindel, Kopfschmerzen, periphere Neuropathie (Kribbeln, Taubheit)",
+      "Husten",
+      "Juckreiz",
+      "Erhöhte Leberwerte",
+      "Gelenk- und Gliederschmerzen, Fieber"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Frauen im gebärfähigen Alter müssen während und bis mindestens 1 Woche nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert; während der Behandlung und bis 1 Woche nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich einnehmen, mit oder ohne Essen.",
+    "Fieber, Husten, Brennen beim Wasserlösen oder Gürtelrose-Anzeichen umgehend ärztlich melden.",
+    "Regelmässige Kontrollen: Blutbild und Leberwerte."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "praziquantel",
+  "name": "Praziquantel",
+  "synonyme": [
+    "PZQ"
+  ],
+  "atc": [
+    "P02BA01"
+  ],
+  "klasse": "Anthelminthikum (Pyrazinoisochinolin)",
+  "kurz": "Wurmmittel gegen Saugwürmer wie die Erreger der Bilharziose (Schistosomen) und Leberegel.",
+  "gruppen": [
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Biltricide"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Bilharziose (Schistosomiasis) durch alle Schistosoma-Arten",
+      "ids": [
+        "wurmbefall"
+      ]
+    },
+    {
+      "text": "Leberegel-Infektionen (Clonorchiasis, Opisthorchiasis)",
+      "ids": [
+        "wurmbefall"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lähmt und schädigt die Würmer, sodass sie vom Immunsystem beseitigt werden können. Praziquantel erhöht die Durchlässigkeit der Zellmembranen des Wurms für Calcium; es kommt zu einer krampfartigen Lähmung der Muskulatur und zu Schäden an seiner äusseren Hülle (Tegument). Dadurch werden Oberflächenantigene freigelegt, die das Immunsystem angreifen kann. Praziquantel wird nach der Aufnahme stark in der Leber, vor allem über CYP3A4, abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Zystizerkose des Auges (Bandwurmfinnen im Auge)",
+      "ids": [
+        "wurmbefall"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Neurozystizerkose (Bandwurmfinnen im Gehirn): Behandlung nur im Spital – Entzündungsreaktion mit Krampfanfällen und Hirndruck möglich",
+      "ids": [
+        "epilepsie",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (höhere Spiegel)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Fahrtüchtigkeit am Behandlungstag und am Folgetag eingeschränkt",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin",
+        "rifampicin-isoniazid",
+        "rifampicin-isoniazid-pyrazinamid"
+      ],
+      "grund": "Rifampicin beschleunigt den Abbau von Praziquantel so stark, dass keine wirksamen Spiegel erreicht werden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere starke Enzyminduktoren (z. B. Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Praziquantel-Spiegel sinkt stark – die Behandlung kann versagen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Dexamethason",
+      "ref": [
+        "dexamethason"
+      ],
+      "effekt": "Senkt den Praziquantel-Spiegel.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol) und Cimetidin",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Praziquantel-Spiegel steigt – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Chloroquin",
+      "ref": [],
+      "effekt": "Kann den Praziquantel-Spiegel senken.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Grapefruitsaft",
+      "ref": [],
+      "effekt": "Erhöht den Praziquantel-Spiegel – während der Behandlung meiden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bauchschmerzen, Übelkeit",
+      "Kopfschmerzen",
+      "Schwindel",
+      "Unwohlsein"
+    ],
+    "haeufig": [
+      "Schläfrigkeit, Müdigkeit",
+      "Erbrechen, Appetitlosigkeit, Durchfall",
+      "Nesselsucht (Urtikaria)",
+      "Muskelschmerzen",
+      "Fieber"
+    ],
+    "unbekannt": [
+      "Allergische Reaktionen bis Anaphylaxie",
+      "Krampfanfälle (vor allem bei Neurozystizerkose)",
+      "Herzrhythmusstörungen",
+      "Blutiger Durchfall"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen begrenzt; nur anwenden, wenn der Nutzen das mögliche Risiko überwiegt.",
+  "stillzeit": "Geht in die Muttermilch über: am Behandlungstag und während 72 Stunden danach nicht stillen, Milch abpumpen und verwerfen.",
+  "hinweise": [
+    "Tabletten unzerkaut mit etwas Flüssigkeit während einer Mahlzeit einnehmen (bitterer Geschmack, Brechreiz).",
+    "Am Behandlungstag und am folgenden Tag nicht Auto fahren und keine Maschinen bedienen.",
+    "Kein Grapefruitsaft während der Behandlung."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "trastuzumab-emtansin",
+  "name": "Trastuzumab Emtansin",
+  "synonyme": [
+    "T-DM1",
+    "Ado-Trastuzumab Emtansin"
+  ],
+  "atc": [
+    "L01FD03"
+  ],
+  "klasse": "Antikörper-Wirkstoff-Konjugat (Anti-HER2-Antikörper mit dem Mikrotubuli-Hemmer DM1)",
+  "kurz": "Antikörper mit angehängtem Zellgift gegen HER2-positiven Brustkrebs, nach der Operation oder bei Metastasen.",
+  "gruppen": [
+    "kardiotoxisch",
+    "hepatotoxisch",
+    "neuropathie-ausloesend",
+    "myelosuppressiv",
+    "blutungsrisiko-erhoehend",
+    "cyp3a4-substrate-empfindlich",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Kadcyla"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver für ein Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "HER2-positiver Brustkrebs im Frühstadium mit verbliebenem Tumorgewebe nach vorbehandelnder Therapie mit Taxan und Anti-HER2-Mittel (Behandlung nach der Operation)",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "HER2-positiver metastasierter oder nicht operabler, lokal fortgeschrittener Brustkrebs nach Vorbehandlung mit Trastuzumab und einem Taxan",
+      "ids": [
+        "brustkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bringt ein Zellgift gezielt in HER2-positive Krebszellen. Trastuzumab Emtansin besteht aus dem Anti-HER2-Antikörper Trastuzumab, an den über einen stabilen Linker das Maytansin-Derivat DM1 gebunden ist. Nach Bindung an HER2 wird das Konjugat in die Zelle aufgenommen und abgebaut; das freigesetzte DM1 hemmt die Mikrotubuli und stoppt so die Zellteilung. Zusätzlich blockiert der Antikörperteil wie Trastuzumab die HER2-Signale und vermittelt eine antikörperabhängige zelluläre Zytotoxizität.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Lebertoxizität bis zum Leberversagen, auch noduläre regenerative Hyperplasie – Leberwerte vor jeder Gabe kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzschwäche oder eingeschränkte Pumpfunktion – Herzultraschall vor und während der Behandlung",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung / Pneumonitis",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Blutungen und Thrombozytopenie, besonders unter Blutverdünnern",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Periphere Neuropathie (Nervenschädigung)",
+      "ids": [
+        "nervenschmerzen"
+      ]
+    },
+    {
+      "text": "Nicht mit Trastuzumab verwechseln oder austauschen",
+      "ids": []
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer mit Partnerin: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Mehr DM1 im Blut, mehr Nebenwirkungen – Kombination vermeiden; sonst Behandlung verschieben oder eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, auch schwere Blutungen – engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere herzmuskelschädigende Mittel (z. B. Anthrazykline)",
+      "ref": [
+        "gruppe:kardiotoxisch"
+      ],
+      "effekt": "Höheres Risiko einer Herzschwäche – Herzfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nervenschädigende Mittel (z. B. Taxane)",
+      "ref": [
+        "gruppe:neuropathie-ausloesend"
+      ],
+      "effekt": "Verstärkte periphere Neuropathie möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Verstopfung, Durchfall, Erbrechen",
+      "Müdigkeit, Fieber",
+      "Blutungen, vor allem Nasenbluten",
+      "Thrombozytopenie (Mangel an Blutplättchen), Anämie",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Muskel- und Gelenkschmerzen",
+      "Kopfschmerzen, Schlafstörungen",
+      "Periphere Neuropathie (Kribbeln, Taubheit)"
+    ],
+    "haeufig": [
+      "Linksventrikuläre Dysfunktion (verminderte Pumpleistung des Herzens)",
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Infusionsreaktionen, Überempfindlichkeit",
+      "Bluthochdruck",
+      "Geschmacksstörung, Schwindel",
+      "Verschwommenes Sehen, trockene Augen, Bindehautentzündung",
+      "Juckreiz, Nagelveränderungen"
+    ],
+    "gelegentlich": [
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "Leberversagen, noduläre regenerative Hyperplasie, Pfortaderhochdruck"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden: Schädigung des Ungeborenen (Fruchtwassermangel durch den Trastuzumab-Anteil, Zellgift DM1). Frauen und Männer mit Partnerin verhüten während der Behandlung und 7 Monate danach zuverlässig.",
+  "stillzeit": "Während der Behandlung und 7 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Leberwerte, Blutbild (Blutplättchen) und Herzfunktion werden regelmässig kontrolliert.",
+    "Gelbsucht, dunklen Urin, Blutungen, blaue Flecken, Atemnot oder Husten sofort melden.",
+    "Andere Medikamente, auch Antimykotika oder Antibiotika, mit dem Behandlungsteam abstimmen – manche erhöhen den Spiegel.",
+    "Nicht durch Trastuzumab ersetzbar: Die beiden Mittel sind nicht austauschbar."
+  ],
+  "stand": "2026-10"
+}

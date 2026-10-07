@@ -1,0 +1,133 @@
+{
+  "id": "tovorafenib",
+  "name": "Tovorafenib",
+  "synonyme": [
+    "DAY101",
+    "TAK-580"
+  ],
+  "atc": [
+    "L01EC04"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Typ-II-Pan-RAF-Kinasehemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel für Kinder ab 6 Monaten mit wiederkehrendem niedriggradigem Gliom (Hirntumor) mit BRAF-Veränderung; einmal pro Woche.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "blutungsrisiko-erhoehend",
+    "photosensibilisierend",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Ojemda"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten",
+    "Pulver zur Herstellung einer Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Rezidiviertes oder therapierefraktäres niedriggradiges Gliom (Hirntumor) bei Kindern und Jugendlichen ab 6 Monaten mit BRAF-Fusion bzw. -Rearrangement oder BRAF-V600-Mutation",
+      "ids": [
+        "hirntumor",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt ein Wachstumssignal, das bei vielen kindlichen Hirntumoren durch Veränderungen im BRAF-Gen dauerhaft eingeschaltet ist. Tovorafenib ist ein RAF-Kinasehemmer vom Typ II, der mutiertes BRAF (V600), BRAF-Fusionsproteine sowie normales BRAF und CRAF als Einzel- und Doppelmoleküle (Monomere und Dimere) hemmt. Dadurch wird der MAPK-Signalweg (RAF-MEK-ERK) blockiert. Der Wirkstoff gelangt ins Gehirn.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Blutungen, auch Blutungen im Tumor, oder Blutungsneigung",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Hautreaktionen und Lichtempfindlichkeit",
+      "ids": [
+        "hautausschlag",
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Leberschädigung möglich – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Verlangsamtes Wachstum – Grösse und Gewicht regelmässig kontrollieren",
+      "ids": [
+        "wachstumsstoerung",
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP2C8-Hemmer (z. B. Gemfibrozil, Clopidogrel)",
+      "ref": [
+        "gruppe:cyp2c8-hemmer"
+      ],
+      "effekt": "Tovorafenib wird vor allem über CYP2C8 abgebaut – Spiegel steigt; starke und mässige Hemmer vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin und andere CYP2C8-Induktoren",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Tovorafenib-Spiegel sinkt – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel und empfindliche CYP3A4-Substrate",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Tovorafenib kann deren Abbau beschleunigen – Wirkung kann abnehmen; nichthormonal verhüten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – Vorsicht.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Veränderung der Haarfarbe (Aufhellung)",
+      "Hautausschlag, akneähnliche Hautentzündung, trockene Haut, Juckreiz, Nagelbettentzündung",
+      "Blutungen, vor allem Nasenbluten",
+      "Blutarmut (Anämie)",
+      "Müdigkeit, Kopfschmerzen, Fieber",
+      "Erbrechen, Übelkeit, Verstopfung, Bauchschmerzen",
+      "Erhöhte CK- (Muskelenzym) und Leberwerte",
+      "Verlangsamtes Wachstum, Appetitlosigkeit"
+    ],
+    "unbekannt": [
+      "Lichtempfindlichkeit (Photosensibilität)",
+      "Blutung im Tumor",
+      "Leberschädigung"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Mädchen und Frauen im gebärfähigen Alter müssen während und einige Wochen nach der Behandlung zuverlässig nichthormonal verhüten.",
+  "stillzeit": "Während der Behandlung und einige Wochen danach nicht stillen.",
+  "hinweise": [
+    "Einmal pro Woche am gleichen Wochentag einnehmen, unabhängig von den Mahlzeiten.",
+    "Sonne meiden, schützende Kleidung und Sonnenschutz verwenden.",
+    "Grösse und Gewicht sowie Leberwerte und CK regelmässig kontrollieren.",
+    "Ungewöhnliche Blutungen, starke Kopfschmerzen oder neue neurologische Beschwerden sofort melden."
+  ],
+  "stand": "2026-10"
+}

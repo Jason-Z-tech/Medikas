@@ -1,0 +1,228 @@
+{
+  "id": "pazopanib",
+  "name": "Pazopanib",
+  "synonyme": [
+    "Pazopanibhydrochlorid",
+    "GW786034"
+  ],
+  "atc": [
+    "L01EX03"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Multikinase-Hemmer: VEGFR, PDGFR, KIT)",
+  "kurz": "Krebsmittel (Tablette) gegen fortgeschrittenen Nierenkrebs und bestimmte fortgeschrittene Weichteilsarkome.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "qt-verlaengernd",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "thromboserisiko-erhoehend",
+    "hepatotoxisch",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Votrient"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom als Erstbehandlung oder nach einer Zytokin-Therapie",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Weichteilsarkom (bestimmte Unterformen) nach vorheriger Chemotherapie",
+      "ids": [
+        "sarkom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Bildung neuer Blutgefässe, die einen Tumor mit Nährstoffen versorgen. Pazopanib blockiert mehrere Rezeptor-Tyrosinkinasen: die VEGF-Rezeptoren 1–3, die PDGF-Rezeptoren α und β sowie KIT. Dadurch werden Gefässneubildung (Angiogenese) und Tumorwachstum gebremst.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen: schwere, teils tödliche Leberschäden möglich – Leberwerte vor Beginn und regelmässig kontrollieren; bei schwerer Leberinsuffizienz nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Morbus Meulengracht (Gilbert-Syndrom): Bilirubinanstieg häufig",
+      "ids": [
+        "morbus-meulengracht"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz oder Herzmuskelerkrankung: Abnahme der Herzpumpfunktion möglich",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Herzrhythmusstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: vor Beginn einstellen und regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Herzinfarkt, Schlaganfall oder Thrombosen in der Vorgeschichte (arterielle und venöse Gefässverschlüsse möglich)",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "thromboembolie-vorgeschichte"
+      ]
+    },
+    {
+      "text": "Blutungen in der Vorgeschichte (Bluthusten, Hirn- oder Magen-Darm-Blutungen)",
+      "ids": [
+        "aktive-blutung",
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Geplante Operationen: Wundheilungsstörungen – Behandlung vorher nach ärztlicher Anweisung unterbrechen",
+      "ids": [
+        "operation"
+      ]
+    },
+    {
+      "text": "Schilddrüsenunterfunktion und Eiweiss im Urin – regelmässige Kontrollen",
+      "ids": [
+        "hypothyreose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Pazopanib-Spiegel steigt – vermeiden; wenn unvermeidbar, Dosis nach ärztlicher Anweisung reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Pazopanib-Spiegel sinkt, die Wirkung lässt nach – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Protonenpumpenhemmer und H2-Blocker",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Weniger Aufnahme von Pazopanib (z. B. mit Esomeprazol etwa 40 % weniger) – vermeiden; falls nötig, Pazopanib einmal täglich abends nüchtern gleichzeitig mit dem PPI einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Weniger Aufnahme – Pazopanib mindestens 1 Stunde vor oder 2 Stunden nach dem Antazidum einnehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Simvastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "effekt": "Häufiger erhöhte Leberwerte (ALT) – Leberwerte überwachen, allenfalls Statin absetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – Vorsicht, Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Hemmer (z. B. Lapatinib, Verapamil)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Pazopanib-Spiegel kann steigen – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Bluthochdruck",
+      "Veränderung der Haarfarbe (Aufhellung)",
+      "Appetitverlust, Geschmacksstörungen, Gewichtsabnahme",
+      "Müdigkeit",
+      "Erhöhte Leberwerte (ALT, AST)"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel, Kribbeln (Parästhesien)",
+      "Hand-Fuss-Syndrom, Haarausfall, Hautausschlag, Aufhellung der Haut",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Mangel an Blutplättchen und weissen Blutkörperchen",
+      "Nasenbluten, Bluthusten, Heiserkeit",
+      "Erhöhtes Bilirubin, Eiweiss im Urin (Proteinurie)",
+      "Abnahme der Herzpumpfunktion, Bradykardie (langsamer Puls)",
+      "Venöse Thromboembolien (z. B. Lungenembolie)"
+    ],
+    "gelegentlich": [
+      "Herzinfarkt, Schlaganfall, transitorische ischämische Attacke (TIA)",
+      "QT-Verlängerung",
+      "Hirnblutung, Magen-Darm-Blutung",
+      "Magen-Darm-Durchbruch (Perforation), Fisteln",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Pneumothorax (Luft im Brustfellraum, v. a. bei Lungenmetastasen)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Schwere Leberschäden bis Leberversagen",
+      "Torsade de pointes (lebensbedrohliche Herzrhythmusstörung)",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Thrombotische Mikroangiopathie",
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Aneurysmen und Gefässwandeinrisse (Dissektionen)",
+      "Tumorlyse-Syndrom"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nur bei zwingender Notwendigkeit. Frauen müssen während der Behandlung und mindestens 2 Wochen danach zuverlässig verhüten; Männer sollen in dieser Zeit Kondome verwenden.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Nüchtern einnehmen: mindestens 1 Stunde vor oder 2 Stunden nach einer Mahlzeit; Tabletten nicht zerkleinern (Essen und Zerkleinern erhöhen die Aufnahme stark).",
+    "Keine Grapefruit, kein Johanniskraut; säurehemmende Mittel nur nach Rücksprache.",
+    "Leberwerte werden besonders in den ersten Monaten engmaschig kontrolliert; Gelbsucht, dunklen Urin oder Oberbauchschmerzen sofort melden.",
+    "Blutdruck regelmässig messen."
+  ],
+  "stand": "2026-10"
+}

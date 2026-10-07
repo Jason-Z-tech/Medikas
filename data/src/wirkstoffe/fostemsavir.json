@@ -1,0 +1,151 @@
+{
+  "id": "fostemsavir",
+  "name": "Fostemsavir",
+  "synonyme": [
+    "Temsavir (Wirkform)"
+  ],
+  "atc": [
+    "J05AX29"
+  ],
+  "klasse": "Antiretrovirales Mittel; HIV-Attachment-Inhibitor (gp120-Hemmer)",
+  "kurz": "HIV-Mittel bei stark resistentem Virus: verhindert, dass sich das Virus an die Abwehrzellen anheftet.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "oatp1b-hemmer"
+  ],
+  "handelsnamen": [
+    "Rukobia"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Retardtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Multiresistente HIV-1-Infektion bei Erwachsenen, wenn sonst keine wirksame antiretrovirale Kombination möglich ist – immer zusammen mit anderen HIV-Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hindert das HI-Virus daran, an menschliche Abwehrzellen anzudocken. Fostemsavir ist eine Vorstufe (Prodrug), die im Darm zu Temsavir umgewandelt wird. Temsavir bindet direkt an das Virus-Hüllprotein gp120 nahe der CD4-Bindungsstelle und hält es in einer Form fest, in der es nicht an den CD4-Rezeptor der Zielzellen binden kann. Dadurch werden Anheftung und Eintritt des Virus verhindert, unabhängig davon, welchen Korezeptor das Virus nutzt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "QT-Verlängerung in der Vorgeschichte, relevante Herzerkrankungen oder Einnahme anderer QT-verlängernder Mittel (in hoher Dosis verlängert Fostemsavir die QT-Zeit)",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Hepatitis B oder C: Leberwerte überwachen; Hepatitis-B-Behandlung nicht unterbrechen (Gefahr eines Aufflammens)",
+      "ids": [
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutions-Syndrom zu Therapiebeginn (Entzündungsreaktionen auf bisher unbemerkte Infektionen, auch Autoimmunerkrankungen)",
+      "ids": [
+        "hiv",
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Östrogenhaltige Verhütungsmittel: Ethinylestradiol-Spiegel steigt – Thromboserisiko beachten",
+      "ids": [
+        "verhuetung",
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A-Induktoren: Rifampicin, Carbamazepin, Phenytoin, Mitotan, Enzalutamid, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "mitotan",
+        "enzalutamid",
+        "johanniskraut"
+      ],
+      "grund": "Starker Abfall des Temsavir-Spiegels – Verlust der Wirkung und Gefahr von Resistenzbildung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Verhütungsmittel mit Ethinylestradiol",
+      "ref": [
+        "ethinylestradiol-levonorgestrel",
+        "ethinylestradiol-desogestrel",
+        "ethinylestradiol-drospirenon",
+        "ethinylestradiol-gestoden",
+        "ethinylestradiol-dienogest",
+        "ethinylestradiol-chlormadinon",
+        "ethinylestradiol-etonogestrel",
+        "ethinylestradiol-norelgestromin"
+      ],
+      "effekt": "Ethinylestradiol-Spiegel steigt um etwa 40 % – höchstens 30 µg Ethinylestradiol pro Tag; bei Thromboserisiko besondere Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine (z. B. Rosuvastatin, Atorvastatin, Simvastatin, Pitavastatin, Fluvastatin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Statin-Spiegel steigt (Hemmung von OATP1B1/3 und BCRP) – mit der niedrigsten Dosis beginnen, auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – nur mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer und Booster (z. B. Cobicistat, Ritonavir, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "cobicistat",
+        "ritonavir"
+      ],
+      "effekt": "Temsavir-Spiegel steigt mässig – keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall",
+      "Übelkeit",
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Erbrechen, Bauchschmerzen, Verdauungsbeschwerden, Blähungen",
+      "Schwindel, Schläfrigkeit, Geschmacksstörungen",
+      "Schlafstörungen",
+      "Hautausschlag, Juckreiz",
+      "Muskelschmerzen, erhöhte CK (Muskelenzym)",
+      "Müdigkeit",
+      "Verlängerung der QT-Zeit im EKG",
+      "Erhöhte Leberwerte, erhöhtes Kreatinin"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nur wenige Daten beim Menschen. Anwendung nur, wenn der Nutzen das Risiko überwiegt; die HIV-Therapie in der Schwangerschaft legt eine spezialisierte Fachperson fest.",
+  "stillzeit": "Frauen mit HIV wird in der Regel vom Stillen abgeraten; das Vorgehen mit der behandelnden Fachperson besprechen.",
+  "hinweise": [
+    "Retardtabletten ganz schlucken, nicht teilen, zerkauen oder zerdrücken; Einnahme mit oder ohne Mahlzeit.",
+    "Bei der Pille höchstens 30 µg Ethinylestradiol pro Tag – Verhütung ärztlich besprechen.",
+    "Vor der Einnahme neuer Medikamente, auch pflanzlicher wie Johanniskraut, ärztlich oder in der Apotheke nachfragen."
+  ],
+  "stand": "2026-10"
+}

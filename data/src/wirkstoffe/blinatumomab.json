@@ -1,0 +1,177 @@
+{
+  "id": "blinatumomab",
+  "name": "Blinatumomab",
+  "synonyme": [
+    "MT103",
+    "AMG 103"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01FX07"
+  ],
+  "klasse": "Bispezifischer T-Zell-Engager (BiTE-Antikörperkonstrukt, CD19 x CD3)",
+  "kurz": "Krebsmittel gegen akute lymphatische Leukämie der B-Zellen: verbindet Abwehrzellen mit den Leukämiezellen; Dauerinfusion über Wochen.",
+  "gruppen": [
+    "immunsuppressiv",
+    "myelosuppressiv",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Blincyto"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung (Dauerinfusion)"
+  ],
+  "indikationen": [
+    {
+      "text": "Rezidivierte oder therapieresistente CD19-positive B-Vorläufer-ALL (akute lymphatische Leukämie) bei Erwachsenen sowie bei Kindern und Jugendlichen",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "CD19-positive B-Vorläufer-ALL in kompletter Remission, aber mit nachweisbarer minimaler Resterkrankung (MRD)",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bringt körpereigene Abwehrzellen (T-Zellen) direkt an die Leukämiezellen heran, damit diese zerstört werden. Blinatumomab ist ein bispezifisches Antikörperkonstrukt, das gleichzeitig an CD19 auf gesunden und bösartigen B-Zellen und an CD3 auf T-Zellen bindet. Dadurch wird die T-Zelle aktiviert, setzt Zytokine und zytotoxische Proteine frei und tötet die CD19-positive Zelle. Wegen der sehr kurzen Halbwertszeit wird es als ununterbrochene Infusion über jeweils 4 Wochen gegeben.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit (während und mindestens 48 Stunden nach der Behandlung)",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Neurologische Nebenwirkungen (Verwirrtheit, Sprachstörungen, Zittern, Krampfanfälle, Enzephalopathie), meist in den ersten 2 Wochen",
+      "ids": [
+        "delir",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Epilepsie, Schlaganfall oder andere Erkrankungen des Zentralnervensystems in der Vorgeschichte",
+      "ids": [
+        "epilepsie",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Zytokin-Freisetzungs-Syndrom (Fieber, Blutdruckabfall, Atemnot), v. a. zu Beginn: Prämedikation mit Dexamethason, Behandlungsbeginn im Spital",
+      "ids": []
+    },
+    {
+      "text": "Schwere Infektionen, auch durch Pilze und Viren; aktive Infektionen vor Beginn behandeln",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom (Stoffwechselentgleisung beim raschen Zerfall vieler Leukämiezellen)",
+      "ids": []
+    },
+    {
+      "text": "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfungen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Fahrtüchtigkeit: während der Behandlung kein Fahrzeug lenken und keine Maschinen bedienen",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Mindestens 2 Wochen vor Beginn, während der Behandlung und bis zur Erholung der B-Zellen nicht impfen (Impfinfektion möglich, kein sicherer Impfschutz).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Calcineurin-Hemmer (Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Die zu Beginn freigesetzten Zytokine können CYP-Enzyme vorübergehend hemmen – Spiegel können steigen; Blutspiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Vorübergehend verminderter Abbau möglich – INR in der Anfangsphase engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere über CYP abgebaute Mittel mit enger therapeutischer Breite (z. B. Phenytoin, Theophyllin)",
+      "ref": [
+        "phenytoin",
+        "theophyllin"
+      ],
+      "effekt": "In den ersten Behandlungstagen Wirkung, Nebenwirkungen und gegebenenfalls Spiegel überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen (bakteriell, viral, durch Pilze)",
+      "Neutropenie (auch mit Fieber), Anämie, Thrombozytopenie",
+      "Zytokin-Freisetzungs-Syndrom (Fieber, Schüttelfrost, Blutdruckabfall)",
+      "Infusionsbedingte Reaktionen",
+      "Kopfschmerzen, Tremor (Zittern)",
+      "Übelkeit, Durchfall, Verstopfung",
+      "Hautausschlag",
+      "Ödeme (Wassereinlagerungen), Müdigkeit"
+    ],
+    "haeufig": [
+      "Sepsis (Blutvergiftung), Lungenentzündung",
+      "Enzephalopathie (Hirnfunktionsstörung), Verwirrtheit, Sprachstörungen",
+      "Krampfanfälle",
+      "Tumorlysesyndrom",
+      "Erhöhte Leberwerte und Bilirubin",
+      "Verminderte Immunglobuline (Antikörpermangel)",
+      "Hypertonie (Bluthochdruck)"
+    ],
+    "gelegentlich": [
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Kapillarlecksyndrom (Flüssigkeitsaustritt aus den Gefässen)",
+      "Hämophagozytische Lymphohistiozytose (lebensbedrohliche Überaktivierung des Immunsystems)",
+      "Zytokinsturm"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Leukoenzephalopathie (Veränderungen der weissen Hirnsubstanz)"
+    ]
+  },
+  "schwangerschaft": "Kann beim Ungeborenen die B-Zellen vermindern; nur anwenden, wenn der Nutzen klar überwiegt. Frauen im gebärfähigen Alter verhüten während und mindestens 48 Stunden nach der Behandlung.",
+  "stillzeit": "Kontraindiziert: während und mindestens 48 Stunden nach der Behandlung nicht stillen.",
+  "hinweise": [
+    "Behandlungsbeginn im Spital; die Dauerinfusion läuft danach über eine tragbare Pumpe – Pumpe nicht selbst verstellen, Alarme sofort melden.",
+    "Während der Behandlung kein Auto fahren und keine Maschinen bedienen (Verwirrtheit und Krampfanfälle möglich).",
+    "Fieber, Atemnot, Verwirrtheit, Zittern, Sprach- oder Gleichgewichtsstörungen sofort melden.",
+    "Blutbild und Leberwerte werden regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

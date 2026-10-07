@@ -1,0 +1,205 @@
+{
+  "id": "bleomycin",
+  "name": "Bleomycin",
+  "synonyme": [
+    "Bleomycinsulfat",
+    "Bleomycine"
+  ],
+  "atc": [
+    "L01DC01"
+  ],
+  "klasse": "Zytotoxisches Antibiotikum (Glykopeptid); Zytostatikum",
+  "kurz": "Krebsmittel (zytotoxisches Antibiotikum) als Injektion, v. a. bei Hodenkrebs, Lymphomen und Plattenepithelkarzinomen; kaum knochenmarkhemmend.",
+  "gruppen": [
+    "zytostatika",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Bleomycin Pfizer"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Plattenepithelkarzinome im Kopf-Hals-Bereich, an den äusseren Geschlechtsorganen und am Gebärmutterhals",
+      "ids": [
+        "kopf-hals-krebs",
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Hodgkin-Lymphom und Non-Hodgkin-Lymphome",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Hodenkrebs",
+      "ids": [
+        "hodenkrebs"
+      ]
+    },
+    {
+      "text": "Bösartiger Pleuraerguss (Gabe in den Brustfellraum)",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Zerstört die Erbsubstanz von Krebszellen. Bleomycin ist ein Glykopeptid-Antibiotikum aus Streptomyces verticillus, das an die DNA bindet und zusammen mit Eisen und Sauerstoff freie Radikale bildet, die Einzel- und Doppelstrangbrüche verursachen. Da Haut und Lunge wenig vom abbauenden Enzym Bleomycin-Hydrolase besitzen, treten dort die typischen Nebenwirkungen auf, während das Knochenmark kaum geschädigt wird.",
+  "kontraindikationen": [
+    {
+      "text": "Akute Lungeninfektion oder stark eingeschränkte Lungenfunktion",
+      "ids": [
+        "lungenentzuendung",
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Ataxia teleangiectatica (erbliche Erkrankung mit erhöhter Strahlenempfindlichkeit)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lungenschäden (Pneumonitis, Lungenfibrose): höheres Risiko ab 70 Jahren, bei hoher Gesamtdosis, bei Rauchern, nach Bestrahlung des Brustkorbs und bei eingeschränkter Nierenfunktion; Lungenfunktion kontrollieren",
+      "ids": [
+        "lungenfibrose",
+        "rauchen",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Narkose und Operationen: hohe Sauerstoffkonzentrationen können akute Lungenschäden auslösen – auch noch lange nach der Behandlung",
+      "ids": [
+        "operation",
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosisreduktion)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lymphome: Gefahr einer akuten idiosynkratischen Reaktion (Fieber, Blutdruckabfall, Verwirrtheit, Atemnot) – erste Dosen niedrig und unter Überwachung",
+      "ids": [
+        "lymphom",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Durchblutungsstörungen (Raynaud-Phänomen) und Gefässkomplikationen, v. a. in Kombination mit Vinca-Alkaloiden und Cisplatin",
+      "ids": [
+        "raynaud"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Brentuximab Vedotin",
+      "ref": [
+        "brentuximab-vedotin"
+      ],
+      "grund": "Die Kombination verursacht gehäuft schwere, teils tödliche Lungenschäden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hohe Sauerstoffkonzentrationen (z. B. während einer Narkose)",
+      "ref": [],
+      "effekt": "Akute Lungenschäden bis zum Lungenversagen – Narkoseteam informieren, Sauerstoffanteil möglichst tief halten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cisplatin",
+      "ref": [
+        "cisplatin"
+      ],
+      "effekt": "Vermindert die Ausscheidung von Bleomycin über die Niere – erhöhte Lungentoxizität; Nierenfunktion beachten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Strahlentherapie des Brustkorbs und andere lungenschädigende Behandlungen",
+      "ref": [],
+      "effekt": "Erhöhtes Risiko für Lungenschäden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vinca-Alkaloide (Vinblastin, Vincristin)",
+      "ref": [
+        "vinblastin",
+        "vincristin"
+      ],
+      "effekt": "Raynaud-Phänomen und Gefässverschlüsse beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Phenytoin-Spiegel können sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Die Digoxin-Wirkung kann abgeschwächt sein.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautveränderungen (Rötung, Verdickung, Pigmentierung, Streifen) und Nagelveränderungen",
+      "Mundschleimhautentzündung",
+      "Haarausfall",
+      "Fieber und Schüttelfrost am Tag der Gabe",
+      "Appetitlosigkeit, Gewichtsverlust"
+    ],
+    "haeufig": [
+      "Pneumonitis (Lungenentzündung) und Lungenfibrose, teils tödlich",
+      "Übelkeit, Erbrechen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Akute idiosynkratische Reaktion mit Blutdruckabfall, Verwirrtheit, Fieber und Atemnot (v. a. bei Lymphomen)",
+      "Raynaud-Phänomen, Herzinfarkt, Schlaganfall, thrombotische Mikroangiopathie",
+      "Anaphylaxie und andere Überempfindlichkeitsreaktionen",
+      "Schmerzen an der Einstichstelle oder im Tumor",
+      "Leichte Knochenmarkhemmung"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; Bleomycin kann das Ungeborene schädigen. Frauen und Männer müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Vor jeder Narkose oder Operation – auch Jahre nach der Behandlung – auf die Bleomycin-Therapie hinweisen (Sauerstoff kann die Lunge schädigen).",
+    "Neuer Husten oder Atemnot sofort melden; die Lungenfunktion wird regelmässig kontrolliert.",
+    "Nicht rauchen.",
+    "Fieber kurz nach der Injektion ist häufig und meist vorübergehend."
+  ],
+  "stand": "2026-10"
+}

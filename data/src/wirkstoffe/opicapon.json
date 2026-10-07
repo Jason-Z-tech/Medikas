@@ -1,0 +1,170 @@
+{
+  "id": "opicapon",
+  "name": "Opicapon",
+  "synonyme": [
+    "Opicapone"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N04BX04"
+  ],
+  "klasse": "COMT-Hemmer (Parkinsonmittel)",
+  "kurz": "Parkinsonmittel, das einmal täglich zusätzlich zu Levodopa eingenommen wird und dessen Wirkung verlängert.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Ongentys"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Parkinson-Krankheit: Zusatzbehandlung zu Levodopa mit Decarboxylasehemmer bei Wirkungsschwankungen gegen Ende des Dosisintervalls («End-of-dose»-Fluktuationen), die damit nicht ausreichend stabilisiert sind",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verlängert die Wirkung von Levodopa, indem es dessen Abbau im Körper bremst. Opicapon hemmt ausserhalb des Gehirns die Catechol-O-Methyltransferase (COMT), die Levodopa zu 3-O-Methyldopa abbaut. Dadurch bleibt der Levodopa-Spiegel im Blut höher und gleichmässiger, und mehr Levodopa erreicht das Gehirn. Opicapon bindet sehr fest an das Enzym: Obwohl es selbst nur kurz im Blut bleibt, hält die Hemmung über 24 Stunden an, deshalb genügt eine Einnahme pro Tag.",
+  "kontraindikationen": [
+    {
+      "text": "Phäochromozytom, Paragangliom oder andere katecholaminbildende Tumoren",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Malignes neuroleptisches Syndrom oder nicht unfallbedingte Rhabdomyolyse (Muskelzerfall) in der Vorgeschichte",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Zunahme von Überbewegungen (Dyskinesien) – die Levodopa-Dosis muss oft in den ersten Tagen bis Wochen gesenkt werden",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Halluzinationen und psychotische Symptome (v. a. bei bekannter Psychose)",
+      "ids": [
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen wie Spielsucht, Kaufsucht oder gesteigertes sexuelles Verlangen",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Mässige Leberinsuffizienz (Dosisanpassung möglich); bei schwerer Leberinsuffizienz nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schläfrigkeit und plötzliches Einschlafen (zusammen mit Levodopa)",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "ids": [
+        "hypotonie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (z. B. Moclobemid, Tranylcypromin), ausser MAO-B-Hemmern zur Parkinsonbehandlung",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gleichzeitige Blockade beider Abbauwege für Katecholamine – Gefahr gefährlicher Blutdruck- und Herzreaktionen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Levodopa (mit Carbidopa oder Benserazid)",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid"
+      ],
+      "effekt": "Gewollte Wirkungsverstärkung; Überbewegungen und andere Levodopa-Nebenwirkungen nehmen zu – Levodopa-Dosis ärztlich anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die über COMT abgebaut werden (z. B. Adrenalin, Noradrenalin, Dopamin, Dobutamin, Apomorphin, Methyldopa)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin",
+        "dopamin",
+        "dobutamin",
+        "apomorphin",
+        "methyldopa"
+      ],
+      "effekt": "Deren Wirkung kann verstärkt werden (Herzrasen, Blutdruckanstieg, Rhythmusstörungen) – Patientin oder Patient überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-B-Hemmer zur Parkinsonbehandlung (z. B. Rasagilin, Selegilin, Safinamid)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Kombination möglich, aber Vorsicht wegen verstärkter dopaminerger Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva und Noradrenalin-Wiederaufnahmehemmer (z. B. Maprotilin, Venlafaxin)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "maprotilin",
+        "venlafaxin"
+      ],
+      "effekt": "Wenig Erfahrung; Katecholaminwirkungen können verstärkt werden – mit Vorsicht kombinieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Dyskinesien (unwillkürliche Überbewegungen)"
+    ],
+    "haeufig": [
+      "Abnorme Träume, Halluzinationen, Schlaflosigkeit",
+      "Schwindel, Kopfschmerzen, Schläfrigkeit",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Verstopfung, Mundtrockenheit, Erbrechen",
+      "Muskelkrämpfe",
+      "Erhöhte Kreatinkinase (Muskelenzym) im Blut"
+    ],
+    "gelegentlich": [
+      "Verminderter Appetit, Gewichtsabnahme",
+      "Angst, Depression, Albträume",
+      "Synkope (Ohnmacht)",
+      "Herzklopfen, Blutdruckanstieg",
+      "Atemnot",
+      "Bauchschmerzen, Blähbauch, Verdauungsbeschwerden",
+      "Dunkel verfärbter Urin"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Impulskontrollstörungen (z. B. Spielsucht, Kaufsucht)"
+    ]
+  },
+  "schwangerschaft": "Keine Erfahrungen beim Menschen; während der Schwangerschaft und bei Frauen im gebärfähigen Alter ohne sichere Verhütung nicht empfohlen.",
+  "stillzeit": "Ging im Tierversuch in die Milch über; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich vor dem Schlafengehen einnehmen, mindestens 1 Stunde vor oder nach einer Levodopa-Dosis.",
+    "Zu Beginn nehmen Überbewegungen oft zu – dann die Levodopa-Dosis ärztlich anpassen lassen.",
+    "Schläfrigkeit und plötzliches Einschlafen sind möglich – in diesem Fall nicht Auto fahren."
+  ],
+  "stand": "2026-10"
+}

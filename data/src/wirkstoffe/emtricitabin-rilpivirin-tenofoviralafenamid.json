@@ -1,0 +1,230 @@
+{
+  "id": "emtricitabin-rilpivirin-tenofoviralafenamid",
+  "name": "Emtricitabin + Rilpivirin + Tenofoviralafenamid",
+  "synonyme": [
+    "FTC/RPV/TAF",
+    "Emtricitabine/Rilpivirine/Tenofovir alafenamide"
+  ],
+  "kombinationAus": [
+    "emtricitabin",
+    "rilpivirin",
+    "tenofoviralafenamid"
+  ],
+  "atc": [
+    "J05AR19"
+  ],
+  "klasse": "HIV-Fixkombination (NNRTI + zwei nukleosidische/nukleotidische Reverse-Transkriptase-Hemmer)",
+  "kurz": "HIV-Kombinationstablette mit drei Wirkstoffen als vollständige Therapie, einmal täglich zu einer Mahlzeit.",
+  "gruppen": [
+    "nnrti",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Odefsey"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen und Jugendlichen (ab 12 Jahren und mind. 35 kg) ohne bekannte Resistenz gegen NNRTI, Tenofovir oder Emtricitabin und mit einer Viruslast von höchstens 100'000 Kopien/ml",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Drei Wirkstoffe hemmen die Reverse Transkriptase des HI-Virus auf zwei Arten. Rilpivirin (NNRTI) bindet direkt an das Enzym und blockiert das Umschreiben der Virus-RNA in DNA. Emtricitabin (ein Cytidin-Analogon) und Tenofovir (aus dem Prodrug Tenofoviralafenamid, das vor allem in den Zellen aktiviert wird) führen nach Einbau in die Virus-DNA zum Kettenabbruch. Durch die gezielte Aktivierung in den Zellen sind die Tenofovir-Spiegel im Blut viel tiefer als bei Tenofovirdisoproxil, was Niere und Knochen weniger belastet.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Chronische Hepatitis B: nach dem Absetzen schwerer Hepatitis-Schub möglich",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Schwere Nierenfunktionsstörung ohne Dialyse: nicht empfohlen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Einnahme von Mitteln mit Risiko für Torsade de pointes",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (keine Erfahrung) sowie chronische Hepatitis C",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn Entzündungsreaktionen auf bisher unbemerkte Infektionen möglich",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Carbamazepin, Oxcarbazepin, Phenobarbital, Phenytoin, Rifampicin, Rifabutin, Rifapentin",
+      "ref": [
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "rifabutin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken die Spiegel von Rilpivirin (CYP3A-Induktion) und Tenofoviralafenamid (P-gp-Induktion) stark – Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Protonenpumpenhemmer (z. B. Omeprazol, Esomeprazol, Pantoprazol, Lansoprazol, Rabeprazol)",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "omeprazol",
+        "esomeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "rabeprazol"
+      ],
+      "grund": "Rilpivirin braucht Magensäure zur Aufnahme – stark verminderte Spiegel, Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Systemisches Dexamethason (ausser als Einzeldosis)",
+      "ref": [
+        "dexamethason"
+      ],
+      "grund": "Induziert CYP3A und senkt den Rilpivirin-Spiegel – Wirkverlust."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Senkt die Spiegel von Rilpivirin und Tenofoviralafenamid – Wirkverlust und Resistenzgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere NNRTI (Efavirenz, Etravirin, Nevirapin, Doravirin)",
+      "ref": [
+        "gruppe:nnrti"
+      ],
+      "effekt": "Kein Zusatznutzen, ungünstige Spiegelveränderungen – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lamivudin und Arzneimittel mit gleichen Wirkstoffen",
+      "ref": [
+        "lamivudin",
+        "emtricitabin",
+        "tenofovirdisoproxil",
+        "tenofoviralafenamid"
+      ],
+      "effekt": "Gleichartige bzw. doppelte Wirkstoffe – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "H2-Blocker (z. B. Famotidin)",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Verminderte Aufnahme von Rilpivirin – H2-Blocker nur mindestens 12 Stunden vor oder 4 Stunden nach der Tablette einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Rilpivirin – Antazida nur mindestens 2 Stunden vor oder 4 Stunden nach der Tablette einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clarithromycin und Erythromycin",
+      "ref": [
+        "clarithromycin",
+        "erythromycin"
+      ],
+      "effekt": "Rilpivirin-Spiegel steigt (QT-Risiko) – Azithromycin bevorzugen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung möglich – Vorsicht, ggf. EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Azol-Antimykotika (z. B. Ketoconazol, Itraconazol, Fluconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Rilpivirin-Spiegel steigt, Ketoconazol-Spiegel kann sinken – klinisch überwachen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Methadon-Spiegel kann leicht sinken – auf Entzugszeichen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Schlaflosigkeit",
+      "Übelkeit",
+      "Erhöhtes Cholesterin und LDL (nüchtern)",
+      "Erhöhte Leberwerte und Pankreas-Amylase"
+    ],
+    "haeufig": [
+      "Schwindel, Schläfrigkeit",
+      "Depression, depressive Verstimmung, Schlafstörungen, abnorme Träume",
+      "Bauchschmerzen, Erbrechen, Durchfall, Blähungen, Mundtrockenheit",
+      "Verminderter Appetit, erhöhte Triglyceride",
+      "Erhöhte Lipase, Bilirubinanstieg",
+      "Hautausschlag",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Anämie",
+      "Immunrekonstitutionssyndrom",
+      "Schwere Hautreaktionen mit Allgemeinsymptomen, Angioödem",
+      "Juckreiz, Nesselsucht",
+      "Gelenkschmerzen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Nierenfunktionsstörungen einschliesslich proximaler Tubulopathie (Berichte nach Markteinführung bei Tenofoviralafenamid)"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn der Nutzen das mögliche Risiko rechtfertigt; die Rilpivirin-Spiegel sind in der Schwangerschaft tiefer – Viruslast engmaschig kontrollieren.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Einmal täglich zu einer Mahlzeit einnehmen – ein Proteindrink allein genügt nicht für eine ausreichende Aufnahme.",
+    "Keine Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol); Antazida und H2-Blocker nur mit dem vorgeschriebenen Zeitabstand.",
+    "Bei Hepatitis B nicht eigenmächtig absetzen (Gefahr eines schweren Hepatitis-Schubs)."
+  ],
+  "stand": "2026-10"
+}

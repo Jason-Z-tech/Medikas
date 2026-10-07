@@ -1,0 +1,214 @@
+{
+  "id": "voclosporin",
+  "name": "Voclosporin",
+  "synonyme": [
+    "ISA247"
+  ],
+  "atc": [
+    "L04AD03"
+  ],
+  "klasse": "Immunsuppressivum; Calcineurin-Hemmer",
+  "kurz": "Kapseln gegen Lupusnephritis (Nierenentzündung bei Lupus), zusammen mit Mycophenolat; dämpft das Immunsystem als Calcineurin-Hemmer.",
+  "gruppen": [
+    "immunsuppressiva-calcineurin",
+    "immunsuppressiv",
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "oatp1b-hemmer",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Lupkynis"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Weichkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Aktive Lupusnephritis (Klasse III, IV oder V, auch Mischformen) bei Erwachsenen, in Kombination mit Mycophenolat-Mofetil",
+      "ids": [
+        "lupus",
+        "nephrotisches-syndrom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die Abwehrzellen, die bei Lupus die Nieren angreifen, und stabilisiert zusätzlich die Filterzellen der Niere. Voclosporin ist ein dem Ciclosporin verwandter Calcineurin-Hemmer: Es hemmt das Enzym Calcineurin und damit die Aktivierung von T-Lymphozyten und die Bildung von Interleukin-2. Zudem stabilisiert es das Zellgerüst der Podozyten (Deckzellen der Nierenkörperchen) und vermindert so die Eiweissausscheidung im Urin.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: bei eGFR ≤ 45 ml/min/1,73 m² nur bei klarem Nutzen beginnen; Voclosporin kann die Niere schädigen – Nierenfunktion regelmässig kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: nicht beginnen bei Blutdruck über 165/105 mmHg; Blutdruck regelmässig messen",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Infektionen inkl. opportunistischer Infektionen (z. B. BK-Virus, PML)",
+      "ids": [
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Lymphome und Hautkrebs durch Immunsuppression – Sonnenschutz und Hautkontrollen",
+      "ids": [
+        "lymphom",
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Neurotoxizität: Zittern, selten PRES (Hirnfunktionsstörung mit Kopfschmerzen, Sehstörungen, Krampfanfällen)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Hyperkaliämie (erhöhtes Kalium): Kalium kontrollieren",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung bei Spiegeln über dem Therapiebereich; Vorsicht bei verlängerter QT-Zeit",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: nicht empfohlen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "grund": "Hemmen den Abbau von Voclosporin stark – die Spiegel steigen um ein Vielfaches, mit Gefahr von Nierenschäden, Bluthochdruck und Neurotoxizität."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Diltiazem, Verapamil, Fluconazol, Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Voclosporin-Spiegel steigen – Dosis reduzieren, Nierenfunktion und Blutdruck überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Senken die Voclosporin-Spiegel stark (Rifampicin um fast 90 %) – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Erhöhen die Voclosporin-Spiegel – meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cyclophosphamid und andere Calcineurin-Hemmer",
+      "ref": [
+        "cyclophosphamid",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Kombination nicht untersucht – nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin und andere empfindliche P-gp-Substrate",
+      "ref": [
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Voclosporin hemmt P-Glykoprotein – Digoxin-Spiegel steigen; Spiegel kontrollieren und Dosis ggf. senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine (z. B. Simvastatin, Atorvastatin)",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Statin-Spiegel können über OATP1B-Hemmung steigen – auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die das Kalium erhöhen (z. B. ACE-Hemmer, Sartane, kaliumsparende Diuretika, Kaliumpräparate)",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend",
+        "gruppe:kaliumpraeparate"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyperkaliämie – Kalium regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nierenschädigende Mittel (z. B. NSAR, Aminoglykoside)",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Mehr Nierenschäden möglich – Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Abnahme der Nierenfunktion (glomeruläre Filtrationsrate)",
+      "Bluthochdruck",
+      "Durchfall",
+      "Kopfschmerzen",
+      "Anämie (Blutarmut)",
+      "Husten"
+    ],
+    "haeufig": [
+      "Harnwegs- und Atemwegsinfekte",
+      "Oberbauchschmerzen, Verdauungsbeschwerden",
+      "Haarausfall",
+      "Akutes Nierenversagen",
+      "Zittern (Tremor)",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Appetitlosigkeit",
+      "Gürtelrose (Herpes zoster)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "PRES (posteriores reversibles Enzephalopathie-Syndrom)",
+      "Lymphome und andere bösartige Erkrankungen",
+      "Opportunistische Infektionen (z. B. PML, BK-Virus-Nephropathie)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen (keine ausreichenden Daten). Das gleichzeitig eingenommene Mycophenolat ist in der Schwangerschaft kontraindiziert – zuverlässige Verhütung ist nötig.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich möglichst im Abstand von 12 Stunden auf nüchternen Magen einnehmen; Grapefruit meiden.",
+    "Nierenfunktion (eGFR), Blutdruck und Kalium werden regelmässig kontrolliert.",
+    "Sonnenschutz und regelmässige Hautkontrollen (Hautkrebsrisiko).",
+    "Vor jedem neuen Medikament, auch Antibiotika oder Pilzmitteln, auf die Einnahme hinweisen (viele Wechselwirkungen)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,181 @@
+{
+  "id": "arsentrioxid",
+  "name": "Arsentrioxid",
+  "synonyme": [
+    "Arsenic trioxide",
+    "ATO"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01XX27"
+  ],
+  "klasse": "Antineoplastisches Mittel (Differenzierungsinduktor bei akuter Promyelozytenleukämie)",
+  "kurz": "Infusion gegen eine besondere Leukämieform (akute Promyelozytenleukämie); lässt die Krebszellen ausreifen und absterben.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "hypokaliaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend",
+    "hepatotoxisch",
+    "hyperglykaemie-ausloesend",
+    "neuropathie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Trisenox"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte akute Promyelozytenleukämie (APL) mit niedrigem bis mittlerem Risiko, in Kombination mit Tretinoin (ATRA)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Rückfall oder Therapieversagen einer akuten Promyelozytenleukämie nach Retinoid- und Chemotherapie (Nachweis von t(15;17) bzw. PML-RAR-alpha)",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lässt die Leukämiezellen bei der akuten Promyelozytenleukämie ausreifen und in den programmierten Zelltod (Apoptose) gehen. Arsentrioxid bewirkt den Abbau des krankheitsauslösenden Fusionsproteins PML-RAR-alpha, das bei dieser Leukämie die Ausreifung der Promyelozyten blockiert. Zusätzlich schädigt es die Mitochondrien der Tumorzellen und fördert so die Apoptose. Zusammen mit Tretinoin (ATRA) werden anhaltende Remissionen erreicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Differenzierungssyndrom (Fieber, Atemnot, Gewichtszunahme, Wassereinlagerungen, Lungeninfiltrate) – kann tödlich verlaufen, sofortige Behandlung mit Dexamethason",
+      "ids": [
+        "atemnot",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung und Torsade de pointes: EKG vor und während der Behandlung; Kalium, Magnesium und Calcium im Normbereich halten",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Herzinsuffizienz, Herzrhythmusstörungen oder frühere Anthrazyklin-Behandlung",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion; Lebertoxizität, Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Enzephalopathie (Hirnfunktionsstörung), auch Wernicke-Enzephalopathie bei Vitamin-B1-Mangel",
+      "ids": [
+        "bewusstseinsstoerung",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Frauen und Männer: zuverlässige Verhütung während der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "QT-verlängernde Mittel (z. B. Antiarrhythmika Klasse IA und III, Antipsychotika, Makrolide, Fluorchinolone, Methadon)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes) – wenn möglich absetzen, sonst EKG eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kalium- oder magnesiumsenkende Mittel (z. B. Diuretika, Amphotericin B)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend",
+        "amphotericin-b"
+      ],
+      "effekt": "Elektrolytmangel verstärkt das Risiko für Herzrhythmusstörungen – Elektrolyte eng kontrollieren und ersetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Anthrazykline (frühere Behandlung, z. B. Daunorubicin, Idarubicin)",
+      "ref": [
+        "daunorubicin",
+        "idarubicin",
+        "doxorubicin"
+      ],
+      "effekt": "Erhöhtes Risiko für QT-Verlängerung – EKG überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Verstärkte Leberschädigung möglich – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Differenzierungssyndrom (Fieber, Atemnot, Wassereinlagerungen)",
+      "QT-Verlängerung im EKG, Herzrasen (Tachykardie)",
+      "Kalium- und Magnesiummangel, erhöhter Blutzucker",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Kopfschmerzen, Schwindel, Missempfindungen (Kribbeln)",
+      "Erhöhte Leberwerte",
+      "Fieber, Müdigkeit, Schmerzen, Ödeme (Wassereinlagerungen)",
+      "Juckreiz, Muskelschmerzen"
+    ],
+    "haeufig": [
+      "Febrile Neutropenie, Leukozytose (Anstieg der weissen Blutkörperchen), Thrombozytopenie, Anämie",
+      "Krampfanfälle",
+      "Perikarderguss (Flüssigkeit im Herzbeutel), ventrikuläre Extrasystolen",
+      "Niedriger Blutdruck, Vaskulitis (Gefässentzündung)",
+      "Pleuraerguss, Sauerstoffmangel, Lungenblutung",
+      "Nierenversagen",
+      "Herpes zoster (Gürtelrose)",
+      "Hautausschlag, Gelenk- und Knochenschmerzen, verschwommenes Sehen"
+    ],
+    "gelegentlich": [
+      "Herzinsuffizienz",
+      "Ventrikuläre Tachykardie (gefährliches Herzrasen)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Torsade de pointes (lebensbedrohliche Herzrhythmusstörung)",
+      "Vorhofflimmern",
+      "Enzephalopathie, Wernicke-Enzephalopathie",
+      "Sepsis (Blutvergiftung), Lungenentzündung",
+      "Verwirrtheit"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit (im Tierversuch fruchtschädigend). Frauen und Männer müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert: Arsen geht in die Muttermilch über; vor und während der Behandlung abstillen.",
+  "hinweise": [
+    "Vor jeder Gabe werden EKG sowie Kalium, Magnesium und Calcium kontrolliert.",
+    "Fieber, Atemnot, rasche Gewichtszunahme oder Schwellungen sofort melden (Differenzierungssyndrom).",
+    "Bei Herzklopfen, Ohnmacht oder starkem Schwindel sofort ärztliche Hilfe holen.",
+    "Neue Medikamente nur nach Rücksprache einnehmen – viele verlängern ebenfalls die QT-Zeit."
+  ],
+  "stand": "2026-10"
+}

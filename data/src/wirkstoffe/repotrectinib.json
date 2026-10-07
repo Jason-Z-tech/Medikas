@@ -1,0 +1,173 @@
+{
+  "id": "repotrectinib",
+  "name": "Repotrectinib",
+  "synonyme": [
+    "TPX-0005"
+  ],
+  "atc": [
+    "L01EX28"
+  ],
+  "klasse": "Proteinkinase-Hemmer (ROS1- und TRK-Tyrosinkinasehemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei Lungenkrebs mit ROS1-Veränderung und bei soliden Tumoren mit NTRK-Genfusion.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Augtyro"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs mit ROS1-Veränderung (ROS1-positiv)",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittene solide Tumoren mit NTRK-Genfusion bei Erwachsenen und Jugendlichen ab 12 Jahren, wenn andere Behandlungen keinen ausreichenden Nutzen bieten oder ausgeschöpft sind",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum von Krebszellen, die durch ein verändertes Wachstumssignal-Enzym angetrieben werden. Repotrectinib ist ein kleiner, ringförmiger (makrozyklischer) Hemmer der Tyrosinkinasen ROS1 sowie TRKA, TRKB und TRKC. Bei Tumoren mit ROS1- oder NTRK-Genfusion sind diese Kinasen dauerhaft aktiv; ihre Blockade stoppt die Zellteilung und führt zum Zelltod. Die kompakte Struktur wirkt auch gegen manche Resistenzmutationen und erreicht das Gehirn.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Wirkungen auf das Nervensystem: Schwindel, Gangunsicherheit (Ataxie), Gedächtnis-, Aufmerksamkeits- und Stimmungsstörungen",
+      "ids": [
+        "schwindel",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung / Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Erhöhte Leberwerte – Kontrollen vor und während der Behandlung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Knochenbrüche und Stürze",
+      "ids": [
+        "knochenbruch",
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Muskelschmerzen oder -schwäche mit Anstieg des Muskelenzyms CK",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Erhöhte Harnsäure (Hyperurikämie)",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige, nicht-hormonale Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir, Fluconazol, Diltiazem)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Repotrectinib-Spiegel steigt stark (mit Itraconazol etwa um das Sechsfache) – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Der Repotrectinib-Spiegel sinkt stark – Wirkungsverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Repotrectinib beschleunigt den Abbau über CYP3A4 – die Verhütung kann unsicher werden; zusätzlich nicht-hormonal verhüten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-Glykoprotein-Hemmer (z. B. Verapamil, Amiodaron)",
+      "ref": [
+        "gruppe:p-gp-hemmer"
+      ],
+      "effekt": "Können den Repotrectinib-Spiegel erhöhen – Kombination möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Midazolam, Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Deren Spiegel und Wirkung sinken – Kombination mit Mitteln mit enger therapeutischer Breite vermeiden oder Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Hemmen CYP3A4 und können den Spiegel erhöhen – während der Behandlung meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel",
+      "Dysgeusie (Geschmacksstörung)",
+      "Periphere Neuropathie (Kribbeln, Taubheitsgefühl)",
+      "Ataxie (Gangunsicherheit) und Muskelschwäche",
+      "Kognitive Störungen (Gedächtnis- und Aufmerksamkeitsprobleme)",
+      "Obstipation (Verstopfung), Übelkeit",
+      "Atemnot (Dyspnoe), Müdigkeit",
+      "Anämie (Blutarmut), erhöhte Leber- und Muskelwerte (CK)"
+    ],
+    "haeufig": [
+      "Knochenbrüche",
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hyperurikämie (erhöhte Harnsäure)",
+      "Stürze"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden: Eine Schädigung des ungeborenen Kindes ist zu erwarten. Frauen im gebärfähigen Alter und Männer mit Partnerin verhüten während der Behandlung und nach Therapieende gemäss ärztlicher Anweisung zuverlässig (Frauen nicht-hormonal).",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kapseln unzerkaut mit Wasser schlucken, mit oder ohne Mahlzeit; Grapefruit meiden.",
+    "Schwindel und Gangunsicherheit sind sehr häufig: Vorsicht beim Autofahren, beim Bedienen von Maschinen und wegen Sturzgefahr.",
+    "Neu auftretenden Husten, Atemnot, Knochen- oder Muskelschmerzen umgehend melden.",
+    "Alle anderen Medikamente, auch pflanzliche wie Johanniskraut, mit dem Behandlungsteam abstimmen."
+  ],
+  "stand": "2026-10"
+}

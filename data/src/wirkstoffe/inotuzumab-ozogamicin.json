@@ -1,0 +1,186 @@
+{
+  "id": "inotuzumab-ozogamicin",
+  "name": "Inotuzumab Ozogamicin",
+  "synonyme": [
+    "Inotuzumab",
+    "CMC-544"
+  ],
+  "atc": [
+    "L01FB01"
+  ],
+  "klasse": "Antikörper-Wirkstoff-Konjugat (Anti-CD22-Antikörper mit Calicheamicin)",
+  "kurz": "Antikörper mit angehängtem Zellgift gegen Leukämiezellen bei rückfälliger oder therapieresistenter akuter lymphatischer B-Zell-Leukämie.",
+  "gruppen": [
+    "myelosuppressiv",
+    "hepatotoxisch",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Besponsa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver für ein Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Rückfällige oder therapieresistente CD22-positive akute lymphatische Leukämie der B-Vorläuferzellen (B-ALL) bei Erwachsenen; bei Philadelphia-Chromosom-positiver Form nach Versagen mindestens eines Tyrosinkinasehemmers",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bringt ein starkes Zellgift gezielt in die Leukämiezellen. Der humanisierte Antikörper bindet an das Oberflächenmolekül CD22 auf B-Zellen und wird mitsamt dem angehängten Calicheamicin-Derivat in die Zelle aufgenommen. Dort wird das Calicheamicin freigesetzt, verursacht Doppelstrangbrüche der DNA und löst so den Zelltod aus.",
+  "kontraindikationen": [
+    {
+      "text": "Frühere bestätigte schwere oder noch bestehende Venenverschlusskrankheit der Leber (VOD / sinusoidales Obstruktionssyndrom)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere bestehende Lebererkrankung, z. B. Leberzirrhose, noduläre regenerative Hyperplasie oder aktive Hepatitis",
+      "ids": [
+        "leberzirrhose",
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lebertoxizität mit Venenverschlusskrankheit der Leber (VOD), besonders bei anschliessender Stammzelltransplantation, früherer Transplantation, Lebervorerkrankung oder höherem Alter",
+      "ids": [
+        "leberinsuffizienz",
+        "transplantation",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Erhöhte Sterblichkeit ohne Rückfall nach anschliessender Stammzelltransplantation",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Starke Verminderung der Blutzellen mit Infektionen und Blutungen",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung im EKG, besonders mit anderen QT-verlängernden Mitteln oder bei Elektrolytstörungen",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen – Prämedikation mit Kortison, Fiebermittel und Antihistaminikum",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom bei hoher Tumorlast",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer mit Partnerin: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Konditionierung vor Stammzelltransplantation mit zwei alkylierenden Mitteln (z. B. Thiotepa mit Melphalan oder Busulfan)",
+      "ref": [
+        "thiotepa",
+        "melphalan",
+        "busulfan"
+      ],
+      "effekt": "Deutlich erhöhtes Risiko für eine Venenverschlusskrankheit der Leber – solche Kombinationen möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – EKG und Elektrolyte vor und während der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die Kalium oder Magnesium senken (z. B. Diuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytmangel verstärkt das Risiko einer QT-Verlängerung – Kalium und Magnesium kontrollieren und ausgleichen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Leberwerte engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko bei Mangel an Blutplättchen – Blutbild eng kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Neutropenie und febrile Neutropenie (Fieber bei Mangel an weissen Blutkörperchen)",
+      "Thrombozytopenie (Mangel an Blutplättchen) und Blutungen",
+      "Anämie (Blutarmut)",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Erhöhte Leberwerte und erhöhtes Bilirubin",
+      "Kopfschmerzen",
+      "Fieber, Müdigkeit, Schüttelfrost"
+    ],
+    "haeufig": [
+      "Venenverschlusskrankheit der Leber (VOD / sinusoidales Obstruktionssyndrom)",
+      "QT-Verlängerung im EKG",
+      "Infusionsbedingte Reaktionen",
+      "Tumorlysesyndrom",
+      "Hyperurikämie (erhöhte Harnsäure)",
+      "Aszites (Bauchwassersucht)",
+      "Erhöhte Amylase und Lipase",
+      "Panzytopenie (Mangel an allen Blutzellen)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt das Risiko: Im Tierversuch wurde das Ungeborene geschädigt. Frauen verhüten während der Behandlung und mindestens 8 Monate danach, Männer mit Partnerin mindestens 5 Monate danach.",
+  "stillzeit": "Während der Behandlung und mindestens 2 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Wird im Spital als Infusion gegeben, mit Prämedikation gegen Infusionsreaktionen.",
+    "Rasche Gewichtszunahme, Schmerzen im rechten Oberbauch, Gelbsucht oder Bauchschwellung sofort melden (Hinweis auf Leberschaden).",
+    "Regelmässige Kontrollen von Blutbild, Leberwerten, Elektrolyten und EKG.",
+    "Vor einer geplanten Stammzelltransplantation das Transplantationsteam über die Behandlung informieren."
+  ],
+  "stand": "2026-10"
+}

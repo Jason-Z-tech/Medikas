@@ -1,0 +1,318 @@
+{
+  "id": "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+  "name": "Elvitegravir + Cobicistat + Emtricitabin + Tenofoviralafenamid",
+  "synonyme": [
+    "E/C/F/TAF",
+    "Elvitegravir/Cobicistat/Emtricitabine/Tenofovir alafenamide"
+  ],
+  "kombinationAus": [
+    "cobicistat",
+    "emtricitabin",
+    "tenofoviralafenamid"
+  ],
+  "atc": [
+    "J05AR18"
+  ],
+  "klasse": "HIV-Fixkombination (Integrasehemmer + Booster Cobicistat + zwei nukleosidische/nukleotidische Reverse-Transkriptase-Hemmer)",
+  "kurz": "HIV-Kombinationstablette mit vier Wirkstoffen als vollständige Therapie, einmal täglich zu einer Mahlzeit; hat viele Wechselwirkungen.",
+  "gruppen": [
+    "integrasehemmer",
+    "starke-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "oatp1b-hemmer"
+  ],
+  "handelsnamen": [
+    "Genvoya"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen sowie Kindern und Jugendlichen ab dem in der Fachinformation genannten Alter und Körpergewicht, ohne bekannte Resistenz gegen Integrasehemmer, Emtricitabin oder Tenofovir",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vier Wirkstoffe hemmen die Vermehrung des HI-Virus. Elvitegravir blockiert die Integrase und verhindert den Einbau des Virus-Erbguts in die Wirtszelle. Emtricitabin und Tenofovir (aus dem Prodrug Tenofoviralafenamid, das vor allem in den Zellen aktiviert wird) hemmen die Reverse Transkriptase durch Kettenabbruch. Cobicistat wirkt nicht gegen das Virus, sondern hemmt das Abbauenzym CYP3A und erhöht so die Elvitegravir-Spiegel; dadurch beeinflusst es auch viele andere Arzneimittel.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Chronische Hepatitis B: nach dem Absetzen schwerer Hepatitis-Schub möglich",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Schwere Nierenfunktionsstörung ohne Dialyse: nicht empfohlen; leichter Kreatininanstieg durch Cobicistat ist zu erwarten",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C): nicht empfohlen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: zu tiefe Wirkstoffspiegel – nicht beginnen, laufende Therapie umstellen",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Depression in der Vorgeschichte",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn Entzündungsreaktionen auf bisher unbemerkte Infektionen möglich",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke Enzyminduktoren: Carbamazepin, Phenobarbital, Phenytoin, Rifampicin, Johanniskraut",
+      "ref": [
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "johanniskraut",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken die Wirkstoffspiegel stark – Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Alfuzosin",
+      "ref": [
+        "alfuzosin"
+      ],
+      "grund": "Alfuzosin-Spiegel steigt stark – Gefahr eines schweren Blutdruckabfalls."
+    },
+    {
+      "text": "Amiodaron und Chinidin",
+      "ref": [
+        "amiodaron"
+      ],
+      "grund": "Spiegel steigen – Gefahr schwerer Herzrhythmusstörungen."
+    },
+    {
+      "text": "Mutterkornalkaloide und Cisaprid",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "methylergometrin"
+      ],
+      "grund": "Gefahr eines akuten Ergotismus mit Gefässverengung bzw. von Herzrhythmusstörungen."
+    },
+    {
+      "text": "Simvastatin und Lovastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Massiver Spiegelanstieg – Gefahr von Muskelzerfall (Rhabdomyolyse)."
+    },
+    {
+      "text": "Pimozid und Lurasidon",
+      "ref": [
+        "lurasidon"
+      ],
+      "grund": "Stark erhöhte Spiegel – Gefahr von Herzrhythmusstörungen und schweren Nebenwirkungen."
+    },
+    {
+      "text": "Sildenafil zur Behandlung der pulmonalen Hypertonie",
+      "ref": [
+        "sildenafil"
+      ],
+      "grund": "Stark erhöhte Spiegel – Blutdruckabfall, Sehstörungen, Dauererektion (Priapismus)."
+    },
+    {
+      "text": "Midazolam zum Einnehmen und Triazolam",
+      "ref": [
+        "midazolam",
+        "triazolam"
+      ],
+      "grund": "Stark verlängerte und verstärkte Sedierung mit Gefahr einer Atemdepression."
+    },
+    {
+      "text": "Dabigatran",
+      "ref": [
+        "dabigatran"
+      ],
+      "grund": "Der Dabigatran-Spiegel steigt (P-gp-Hemmung durch Cobicistat) – erhöhte Blutungsgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Rifabutin und Rifapentin",
+      "ref": [
+        "rifabutin"
+      ],
+      "effekt": "Senken die Spiegel von Elvitegravir, Cobicistat und Tenofoviralafenamid – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Oxcarbazepin, Bosentan und systemisches Dexamethason",
+      "ref": [
+        "oxcarbazepin",
+        "bosentan",
+        "dexamethason"
+      ],
+      "effekt": "Können die Wirkstoffspiegel senken – Oxcarbazepin nicht empfohlen, übrige nur mit Vorsicht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Inhalative oder nasale Kortikosteroide (Fluticason, Budesonid)",
+      "ref": [
+        "fluticason",
+        "fluticasonfuroat",
+        "budesonid",
+        "salmeterol-fluticason",
+        "gruppe:glukokortikoide-inhalativ"
+      ],
+      "effekt": "Kortison-Spiegel steigen – Cushing-Syndrom und Nebennierenunterdrückung möglich; Alternative wie Beclometason erwägen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Salmeterol",
+      "ref": [
+        "salmeterol",
+        "salmeterol-fluticason"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rivaroxaban und andere direkte orale Antikoagulanzien",
+      "ref": [
+        "rivaroxaban",
+        "apixaban",
+        "edoxaban",
+        "gruppe:doak"
+      ],
+      "effekt": "Spiegel steigen – erhöhte Blutungsgefahr; Rivaroxaban nicht empfohlen, übrige nur nach Fachinformation.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "effekt": "Colchicin-Spiegel steigt stark – Dosis reduzieren; bei eingeschränkter Nieren- oder Leberfunktion nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere HIV-Mittel: Proteasehemmer, Ritonavir, Lamivudin oder gleiche Wirkstoffe",
+      "ref": [
+        "ritonavir",
+        "gruppe:hiv-proteasehemmer",
+        "lamivudin",
+        "tenofovirdisoproxil"
+      ],
+      "effekt": "Die Tablette ist eine vollständige Therapie – nicht mit Ritonavir oder anderen HIV-Mitteln kombinieren, ausser gemäss Fachinformation.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel steigen – engmaschige Spiegelkontrollen und Dosisanpassung nötig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mehrwertige Kationen: Antazida, Calcium-, Magnesium-, Eisen- und Zinkpräparate",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida"
+      ],
+      "effekt": "Elvitegravir wird im Darm gebunden – mindestens 4 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ethinylestradiol-Spiegel sinkt, Gestagen-Spiegel steigt – nur Präparate mit mindestens 30 µg Ethinylestradiol und Drospirenon oder Norgestimat oder eine andere zuverlässige Methode verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine (Atorvastatin, Rosuvastatin)",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Spiegel steigen – mit niedrigster Dosis beginnen, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer bei Erektionsstörungen (Sildenafil, Tadalafil, Vardenafil)",
+      "ref": [
+        "sildenafil",
+        "tadalafil",
+        "vardenafil"
+      ],
+      "effekt": "Spiegel steigen – nur in reduzierter Dosis und mit grösseren Abständen anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und Antiarrhythmika (z. B. Flecainid, Propafenon)",
+      "ref": [
+        "digoxin",
+        "flecainid",
+        "propafenon"
+      ],
+      "effekt": "Spiegel steigen – Digoxin-Spiegel kontrollieren; bei Antiarrhythmika Vorsicht und EKG.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Cobicistat kann den Metformin-Spiegel erhöhen – überwachen, Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Abnorme Träume",
+      "Durchfall, Erbrechen, Blähungen",
+      "Hautausschlag",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Depression (v. a. bei psychischer Vorerkrankung)",
+      "Anämie",
+      "Verdauungsbeschwerden",
+      "Angioödem, Juckreiz, Nesselsucht"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Nierenfunktionsstörungen einschliesslich proximaler Tubulopathie (Berichte nach Markteinführung bei Tenofoviralafenamid)"
+    ]
+  },
+  "schwangerschaft": "Nicht in der Schwangerschaft beginnen: Die Spiegel von Elvitegravir und Cobicistat sind im 2. und 3. Drittel zu tief – bei Eintritt einer Schwangerschaft auf eine andere Therapie umstellen.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Einmal täglich zu einer Mahlzeit einnehmen.",
+    "Antazida und Mineralstoffpräparate (Calcium, Magnesium, Eisen, Zink) mindestens 4 Stunden versetzt einnehmen.",
+    "Sehr viele Wechselwirkungen – vor jedem neuen Medikament (auch Asthmasprays, Potenzmittel, pflanzliche Mittel) Rücksprache halten; bei Hepatitis B nicht eigenmächtig absetzen."
+  ],
+  "stand": "2026-10"
+}

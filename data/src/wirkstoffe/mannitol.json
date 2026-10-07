@@ -1,0 +1,189 @@
+{
+  "id": "mannitol",
+  "name": "Mannitol",
+  "synonyme": [
+    "Mannit",
+    "D-Mannitol",
+    "Mannitolum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "B05BC01"
+  ],
+  "klasse": "Osmotisches Diuretikum",
+  "kurz": "Infusion, die Wasser aus dem Gewebe zieht und die Urinausscheidung steigert; senkt erhöhten Hirn- und Augeninnendruck.",
+  "gruppen": [
+    "diuretika",
+    "nephrotoxisch"
+  ],
+  "handelsnamen": [
+    "Mannitol Bichsel"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Senkung eines erhöhten Hirndrucks und Behandlung eines Hirnödems",
+      "ids": [
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Senkung eines erhöhten Augeninnendrucks (z. B. akuter Glaukomanfall, vor Augenoperationen), wenn andere Massnahmen nicht genügen",
+      "ids": [
+        "glaukom",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Förderung der Urinausscheidung in der Anfangsphase eines drohenden akuten Nierenversagens (verminderte Urinmenge)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Beschleunigte Ausscheidung bestimmter Giftstoffe über die Niere (forcierte Diurese)",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Zieht Wasser aus den Geweben in die Blutbahn und erhöht die Urinmenge. Mannitol ist ein Zuckeralkohol, der kaum verstoffwechselt wird, die Blutgefässe kaum verlässt und in der Niere frei filtriert, aber nicht zurückgenommen wird. Im Blut erhöht es den osmotischen Druck und entzieht so bei intakter Blut-Hirn-Schranke Gehirn und Auge Flüssigkeit. Im Nierentubulus hält es Wasser zurück und bewirkt eine osmotische Diurese.",
+  "kontraindikationen": [
+    {
+      "text": "Anurie (fehlende Urinproduktion) bzw. etabliertes Nierenversagen ohne Ansprechen auf eine Testdosis",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz, schwere Lungenstauung oder Lungenödem",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Dehydratation (Flüssigkeitsmangel) oder vorbestehend erhöhte Osmolarität des Blutes",
+      "ids": [
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Aktive Hirnblutung (ausser während einer Schädeloperation)",
+      "ids": [
+        "hirnblutung"
+      ]
+    },
+    {
+      "text": "Gestörte Blut-Hirn-Schranke",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion und hohe Dosen: Gefahr eines akuten Nierenversagens – Nierenwerte und Urinmenge überwachen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Störungen des Flüssigkeits- und Elektrolythaushalts (Natrium, Kalium): regelmässig kontrollieren",
+      "ids": [
+        "hyponatriaemie",
+        "hypokaliaemie",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen: die rasche Volumenzunahme im Kreislauf kann eine Herzinsuffizienz oder ein Lungenödem auslösen",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Hirnödem: bei längerer Gabe kann Mannitol ins Hirngewebe übertreten und den Hirndruck wieder steigern (Rebound)",
+      "ids": [
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: erhöhtes Risiko für Nierenschäden und Elektrolytstörungen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nierenschädigende Mittel (z. B. Ciclosporin, Aminoglykoside)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "ciclosporin",
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Erhöhtes Risiko für akutes Nierenversagen – Nierenfunktion eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Mannitol steigert die Lithiumausscheidung und kann die Wirkung abschwächen – Lithiumspiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Verstärkte Entwässerung und Elektrolytverluste – Flüssigkeitsbilanz und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Ein durch Mannitol verursachter Kaliummangel kann die Digitalis-Toxizität erhöhen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Elektrolytverschiebungen können Herzrhythmusstörungen begünstigen – Elektrolyte ausgleichen, bei Risikopatienten EKG.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Störungen des Flüssigkeits- und Elektrolythaushalts (z. B. Hyponatriämie, Hyper- oder Hypokaliämie, Azidose)",
+      "Dehydratation (Austrocknung) oder Überwässerung mit Lungenödem und Herzinsuffizienz",
+      "Akutes Nierenversagen, besonders bei hohen Dosen",
+      "Kopfschmerzen, Schwindel, Krampfanfälle, verschwommenes Sehen",
+      "Übelkeit, Erbrechen, Durst, Mundtrockenheit",
+      "Blutdruckabfall oder -anstieg, Herzrasen, Brustschmerzen",
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie",
+      "Venenentzündung; bei Paravasat Gewebeschäden bis Kompartmentsyndrom"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nur anwenden, wenn eindeutig erforderlich.",
+  "stillzeit": "Nicht bekannt, ob Mannitol in die Muttermilch übergeht; nur nach ärztlicher Abwägung anwenden.",
+  "hinweise": [
+    "Wird nur im Spital unter Kontrolle von Urinmenge, Nierenwerten, Elektrolyten und Flüssigkeitsbilanz verabreicht.",
+    "Konzentrierte Lösungen können bei Kälte auskristallisieren – vor Gebrauch durch Erwärmen auflösen und nur klare Lösung über einen Filter infundieren."
+  ],
+  "stand": "2026-10"
+}

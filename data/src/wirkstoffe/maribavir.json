@@ -1,0 +1,142 @@
+{
+  "id": "maribavir",
+  "name": "Maribavir",
+  "synonyme": [
+    "TAK-620"
+  ],
+  "atc": [
+    "J05AX10"
+  ],
+  "klasse": "Virostatikum; CMV-Kinasehemmer (pUL97-Hemmer)",
+  "kurz": "Mittel gegen das Zytomegalievirus (CMV) nach Transplantation, wenn frühere CMV-Behandlungen nicht wirken.",
+  "gruppen": [
+    "p-gp-hemmer"
+  ],
+  "handelsnamen": [
+    "Livtencity"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "CMV-Infektion oder -Erkrankung bei Erwachsenen nach Stammzell- oder Organtransplantation, die auf eine oder mehrere frühere Behandlungen (z. B. Ganciclovir, Valganciclovir, Foscarnet) nicht anspricht (refraktär, mit oder ohne Resistenz)",
+      "ids": [
+        "cmv-infektion",
+        "transplantation"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des Zytomegalievirus in den Körperzellen. Maribavir blockiert die virale Proteinkinase pUL97 kompetitiv an ihrer ATP-Bindungsstelle. Dadurch werden die Vermehrung der Virus-DNA, ihre Verpackung und das Ausschleusen neuer Viruspartikel aus dem Zellkern gestört. Anders als Ganciclovir muss Maribavir nicht durch pUL97 aktiviert werden und wirkt deshalb auch bei vielen Ganciclovir-resistenten Viren; umgekehrt hemmt es die Aktivierung von Ganciclovir und Valganciclovir.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Virologisches Versagen und Resistenzbildung während oder nach der Behandlung möglich – CMV-Viruslast regelmässig kontrollieren",
+      "ids": [
+        "cmv-infektion"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Behandlung mit Tacrolimus, Ciclosporin, Everolimus oder Sirolimus: deren Blutspiegel können steigen",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C): keine Erfahrungen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ganciclovir und Valganciclovir",
+      "ref": [
+        "ganciclovir",
+        "valganciclovir"
+      ],
+      "grund": "Maribavir hemmt die virale Kinase pUL97, die Ganciclovir für seine Wirkung aktivieren muss – die Wirkung von Ganciclovir und Valganciclovir wird abgeschwächt."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Immunsuppressiva Tacrolimus, Ciclosporin, Everolimus, Sirolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel der Immunsuppressiva steigen – Blutspiegel während und nach der Maribavir-Behandlung eng kontrollieren und Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke Enzyminduktoren: Rifampicin, Rifabutin, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "rifabutin",
+        "johanniskraut"
+      ],
+      "effekt": "Maribavir-Spiegel sinkt stark – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduzierende Antiepileptika: Carbamazepin, Phenobarbital, Phenytoin",
+      "ref": [
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin"
+      ],
+      "effekt": "Maribavir-Spiegel sinkt – die Maribavir-Dosis muss ärztlich erhöht werden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Digoxin und andere empfindliche P-Glykoprotein-Substrate",
+      "ref": [
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel können steigen – Digoxin-Spiegel kontrollieren, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rosuvastatin",
+      "ref": [
+        "rosuvastatin"
+      ],
+      "effekt": "Spiegel kann steigen – auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Geschmacksstörungen (Dysgeusie)",
+      "Übelkeit",
+      "Durchfall",
+      "Erbrechen"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Oberbauchschmerzen",
+      "Appetitlosigkeit",
+      "Gewichtsabnahme",
+      "Müdigkeit",
+      "Erhöhte Blutspiegel von Immunsuppressiva"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen. Anwendung in der Schwangerschaft und bei Frauen im gebärfähigen Alter ohne Verhütung nicht empfohlen.",
+  "stillzeit": "Nicht bekannt, ob Maribavir in die Muttermilch übergeht; ein Risiko für das Kind kann nicht ausgeschlossen werden. Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Geschmacksstörungen sind sehr häufig und meist vorübergehend.",
+    "Während der Behandlung CMV-Viruslast und Spiegel der Immunsuppressiva regelmässig kontrollieren lassen.",
+    "Nicht gleichzeitig mit Ganciclovir oder Valganciclovir anwenden.",
+    "Kann mit oder ohne Mahlzeit eingenommen werden."
+  ],
+  "stand": "2026-10"
+}

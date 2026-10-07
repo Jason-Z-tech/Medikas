@@ -1,0 +1,221 @@
+{
+  "id": "sofosbuvir-velpatasvir",
+  "name": "Sofosbuvir + Velpatasvir",
+  "synonyme": [
+    "SOF/VEL",
+    "Sofosbuvir/Velpatasvir"
+  ],
+  "kombinationAus": [
+    "sofosbuvir"
+  ],
+  "atc": [
+    "J05AP55"
+  ],
+  "klasse": "Direkt wirkendes Hepatitis-C-Virostatikum (Kombination NS5B-Polymerase-Hemmer + NS5A-Hemmer), pangenotypisch",
+  "kurz": "Tablette gegen chronische Hepatitis C aller Genotypen; führt nach 12 Wochen Therapie meist zur Heilung.",
+  "gruppen": [
+    "hcv-daa",
+    "p-gp-hemmer",
+    "oatp1b-hemmer"
+  ],
+  "handelsnamen": [
+    "Epclusa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische Hepatitis C aller Genotypen bei Erwachsenen sowie Kindern und Jugendlichen gemäss Fachinformation, auch bei Leberzirrhose",
+      "ids": [
+        "hepatitis-c",
+        "leberzirrhose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des Hepatitis-C-Virus an zwei Stellen. Sofosbuvir wird in der Leber zu einem Nukleotid-Analogon aktiviert, das die virale RNA-Polymerase NS5B hemmt und zum Kettenabbruch führt. Velpatasvir blockiert das virale Protein NS5A, das für die Vervielfältigung und den Zusammenbau des Virus nötig ist. Die Kombination wirkt gegen alle Genotypen; Velpatasvir hemmt zudem die Transporter P-Glykoprotein, BCRP und OATP1B.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Gleichzeitige Einnahme von Amiodaron oder bestehende Herzrhythmusstörungen: schwere Bradykardie und Herzblock möglich",
+      "ids": [
+        "bradykardie",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Koinfektion: Reaktivierung der Hepatitis B möglich – vor Therapiebeginn testen und überwachen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Diabetes: die Blutzuckereinstellung kann sich verbessern – Unterzuckerungsgefahr",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "HIV-Therapie mit Tenofovirdisoproxil: erhöhte Tenofovir-Spiegel, Nierenfunktion überwachen",
+      "ids": [
+        "hiv",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Dekompensierte Leberzirrhose und nach Lebertransplantation (Behandlung in spezialisierten Zentren, teils mit Ribavirin)",
+      "ids": [
+        "leberzirrhose",
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke P-Glykoprotein- und/oder CYP-Induktoren: Rifampicin, Rifabutin, Carbamazepin, Phenobarbital, Phenytoin, Johanniskraut",
+      "ref": [
+        "rifampicin",
+        "rifabutin",
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "johanniskraut",
+        "gruppe:p-gp-induktoren",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken die Spiegel von Sofosbuvir und Velpatasvir stark – die Hepatitis-C-Therapie kann versagen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Amiodaron",
+      "ref": [
+        "amiodaron"
+      ],
+      "effekt": "Schwere, teils tödliche Bradykardie und Herzblock – nur wenn keine Alternative besteht und mit Herzüberwachung (anfangs stationär).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol, Esomeprazol)",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Velpatasvir wird bei weniger Magensäure schlechter aufgenommen – nicht empfohlen; falls unumgänglich, Epclusa mit einer Mahlzeit 4 Stunden vor höchstens 20 mg Omeprazol (oder Äquivalent) einnehmen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antazida und H2-Blocker",
+      "ref": [
+        "gruppe:antazida",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Verminderte Aufnahme von Velpatasvir – Antazida 4 Stunden Abstand; H2-Blocker höchstens entsprechend Famotidin 40 mg zweimal täglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Efavirenz-haltige HIV-Therapien",
+      "ref": [
+        "efavirenz",
+        "efavirenz-emtricitabin-tenofovirdisoproxil"
+      ],
+      "effekt": "Efavirenz senkt den Velpatasvir-Spiegel deutlich – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässig starke Induktoren (Oxcarbazepin, Modafinil)",
+      "ref": [
+        "oxcarbazepin",
+        "modafinil"
+      ],
+      "effekt": "Senken die Wirkstoffspiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Topotecan",
+      "ref": [
+        "topotecan"
+      ],
+      "effekt": "Velpatasvir hemmt den Transporter BCRP und erhöht den Topotecan-Spiegel – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rosuvastatin und andere Statine",
+      "ref": [
+        "rosuvastatin",
+        "gruppe:statine"
+      ],
+      "effekt": "Statin-Spiegel steigen – Rosuvastatin höchstens 10 mg täglich; bei anderen Statinen (z. B. Atorvastatin) auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und Dabigatran",
+      "ref": [
+        "digoxin",
+        "dabigatran"
+      ],
+      "effekt": "Spiegel steigen (P-gp-Hemmung) – Digoxin-Spiegel kontrollieren, auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tenofovirdisoproxil-haltige HIV-Therapien",
+      "ref": [
+        "tenofovirdisoproxil",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "doravirin-lamivudin-tenofovirdisoproxil"
+      ],
+      "effekt": "Tenofovir-Spiegel steigt – Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Mit der Besserung der Leberfunktion kann die Gerinnung schwanken – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe u. a.)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:hypoglykaemie-ausloesend"
+      ],
+      "effekt": "Unterzuckerungsgefahr durch verbesserte Blutzuckerkontrolle – Blutzucker überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Müdigkeit",
+      "Übelkeit (alle etwa gleich häufig wie unter Placebo)"
+    ],
+    "haeufig": [
+      "Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Angioödem (Schwellung von Haut und Schleimhäuten)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom",
+      "Schwere Bradykardie bei gleichzeitiger Amiodaron-Einnahme",
+      "Reaktivierung einer Hepatitis B"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; vorsichtshalber in der Schwangerschaft nicht anwenden. In Kombination mit Ribavirin kontraindiziert.",
+  "stillzeit": "Nicht stillen; der Übergang in die Muttermilch ist beim Menschen nicht bekannt, im Tierversuch wurden die Wirkstoffe in der Milch nachgewiesen.",
+  "hinweise": [
+    "Einmal täglich mit oder ohne Mahlzeit einnehmen; die Therapie dauert meist 12 Wochen.",
+    "Keine Magensäureblocker vom Typ Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol) ohne ärztliche Rücksprache – sie können die Wirkung stark vermindern.",
+    "Bei langsamem Puls, Schwindel oder Ohnmacht (v. a. unter Amiodaron) sofort ärztliche Hilfe holen."
+  ],
+  "stand": "2026-10"
+}

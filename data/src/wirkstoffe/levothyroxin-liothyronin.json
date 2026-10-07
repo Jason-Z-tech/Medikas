@@ -1,0 +1,207 @@
+{
+  "id": "levothyroxin-liothyronin",
+  "name": "Levothyroxin + Liothyronin",
+  "synonyme": [
+    "T4 + T3",
+    "Levothyroxin-Natrium + Liothyronin-Natrium"
+  ],
+  "kombinationAus": [
+    "levothyroxin",
+    "liothyronin"
+  ],
+  "atc": [
+    "H03AA03"
+  ],
+  "klasse": "Schilddrüsenhormon-Kombination (T4 + T3)",
+  "kurz": "Kombination der Schilddrüsenhormone T4 und T3 zur Behandlung einer Schilddrüsenunterfunktion.",
+  "gruppen": [
+    "schilddruesenhormone"
+  ],
+  "handelsnamen": [
+    "Novothyral"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schilddrüsenunterfunktion (Hypothyreose)",
+      "ids": [
+        "hypothyreose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt fehlende Schilddrüsenhormone und normalisiert so Stoffwechsel, Energiehaushalt und Herz-Kreislauf-Funktion. Die Kombination enthält Levothyroxin (T4), das im Körper laufend in die aktive Form umgewandelt wird, und Liothyronin (T3), die direkt wirksame Form, im Verhältnis von etwa 5 zu 1. T3 bindet an Rezeptoren im Zellkern und steuert die Ablesung zahlreicher Gene. Der T3-Anteil wirkt rascher und kürzer als T4.",
+  "kontraindikationen": [
+    {
+      "text": "Unbehandelte Schilddrüsenüberfunktion (Hyperthyreose)",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Unbehandelte Nebennierenrinden- oder Hypophyseninsuffizienz",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "hypophyseninsuffizienz"
+      ]
+    },
+    {
+      "text": "Akuter Herzinfarkt, akute Herzmuskelentzündung (Myokarditis) oder Entzündung aller Herzwandschichten (Pankarditis)",
+      "ids": [
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: gleichzeitige Behandlung mit Thyreostatika",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Koronare Herzkrankheit, Angina pectoris, Herzschwäche oder Herzrhythmusstörungen mit schnellem Puls: niedrig beginnen und langsam steigern",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen: vorsichtige Dosierung",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Diabetes: Der Blutzucker kann steigen und der Bedarf an Blutzuckersenkern zunehmen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Frauen nach den Wechseljahren: Überdosierung fördert Knochenschwund",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Epilepsie: selten vermehrte Krampfanfälle",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Nicht zur Gewichtsabnahme verwenden: unwirksam bei normaler Schilddrüsenfunktion, in hohen Dosen gefährlich",
+      "ids": [
+        "adipositas"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Orale Antikoagulanzien vom Cumarintyp (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung – INR engmaschig kontrollieren, besonders bei Beginn oder Dosisänderung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe u. a.)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Abgeschwächte Blutzuckersenkung – Blutzucker zu Beginn der Behandlung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (Colestyramin, Colesevelam)",
+      "ref": [
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Binden Schilddrüsenhormone im Darm – mindestens 4–5 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calcium-, Eisen-, Magnesium- oder aluminiumhaltige Mittel (Antazida) sowie Phosphatbinder",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:phosphatbinder"
+      ],
+      "effekt": "Verminderte Aufnahme der Schilddrüsenhormone – zeitlichen Abstand von mindestens 2 Stunden einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Protonenpumpenhemmer (z. B. Pantoprazol, Omeprazol)",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Können die Aufnahme von Levothyroxin vermindern – Schilddrüsenwerte kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Abbau der Schilddrüsenhormone – Schilddrüsenwerte kontrollieren, Dosis allenfalls erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Amiodaron und jodhaltige Kontrastmittel",
+      "ref": [
+        "amiodaron",
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Können eine Über- oder Unterfunktion der Schilddrüse auslösen – Schilddrüsenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogenhaltige Mittel (Pille, Hormonersatztherapie)",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Der Hormonbedarf kann steigen – Schilddrüsenwerte kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Sympathomimetika (z. B. Adrenalin, Pseudoephedrin)",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Bei zu hoher Dosis Zeichen einer Überfunktion: Herzklopfen, Herzrasen, Herzrhythmusstörungen",
+      "Brustschmerzen (Angina pectoris)",
+      "Zittern, innere Unruhe, Schlafstörungen",
+      "Vermehrtes Schwitzen, Wärmeunverträglichkeit, Fieber",
+      "Gewichtsverlust, Durchfall",
+      "Kopfschmerzen, Muskelkrämpfe oder Muskelschwäche",
+      "Menstruationsstörungen",
+      "Allergische Hautreaktionen"
+    ]
+  },
+  "schwangerschaft": "Eine Unterfunktion muss in der Schwangerschaft weiterbehandelt werden; bevorzugt wird Levothyroxin allein. Die Kombination mit Thyreostatika ist kontraindiziert.",
+  "stillzeit": "Erlaubt; es gehen nur geringe Mengen in die Muttermilch über.",
+  "hinweise": [
+    "Morgens nüchtern mit Wasser einnehmen, mindestens eine halbe Stunde vor dem Frühstück.",
+    "Calcium-, Eisen- oder Magnesiumpräparate und Säurebinder mit mindestens 2 Stunden Abstand einnehmen.",
+    "Schilddrüsenwerte regelmässig kontrollieren lassen; Herzklopfen, Zittern oder Schlaflosigkeit melden (mögliche Überdosierung).",
+    "Nicht zur Gewichtsabnahme verwenden."
+  ],
+  "stand": "2026-10"
+}

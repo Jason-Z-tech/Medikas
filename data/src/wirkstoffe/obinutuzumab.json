@@ -1,0 +1,174 @@
+{
+  "id": "obinutuzumab",
+  "name": "Obinutuzumab",
+  "synonyme": [
+    "GA101",
+    "Obinutuzumabum"
+  ],
+  "atc": [
+    "L01FA03"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen CD20 (Typ II, glykomodifiziert)",
+  "kurz": "Antikörper-Infusion gegen B-Zellen bei chronischer lymphatischer Leukämie und follikulärem Lymphom, kombiniert mit anderen Krebsmitteln.",
+  "gruppen": [
+    "immunsuppressiv",
+    "myelosuppressiv"
+  ],
+  "handelsnamen": [
+    "Gazyvaro"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Bisher unbehandelte chronische lymphatische Leukämie (CLL), in Kombination mit anderen CLL-Mitteln (z. B. Chlorambucil)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Follikuläres Lymphom: unbehandelt im fortgeschrittenen Stadium zusammen mit Chemotherapie, danach als Erhaltungstherapie",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Follikuläres Lymphom, das auf Rituximab nicht anspricht oder darunter fortschreitet: zusammen mit Bendamustin, danach als Erhaltungstherapie",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Markiert bestimmte weisse Blutkörperchen (B-Zellen), damit das Immunsystem sie zerstört – auch die bösartigen B-Zellen bei Leukämie und Lymphom. Obinutuzumab ist ein humanisierter monoklonaler IgG1-Antikörper vom Typ II gegen das Oberflächenmolekül CD20. Durch die Veränderung der Zuckerketten am Fc-Teil (Glykomodifikation) ist die antikörperabhängige zelluläre Zytotoxizität und Phagozytose verstärkt; zudem löst er direkt den Zelltod aus. Die komplementvermittelte Zellzerstörung ist geringer als bei Rituximab.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Infusionsreaktionen, vor allem bei der ersten Infusion – Prämedikation; Blutdrucksenker vorher nach ärztlicher Anweisung pausieren",
+      "ids": [
+        "allergie",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Hepatitis B: Gefahr der Reaktivierung – vor Beginn testen; bei aktiver Hepatitis B nicht behandeln",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom bei hoher Tumorlast oder eingeschränkter Nierenfunktion – Flüssigkeit und Harnsäuresenker vorbeugend",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Neutropenie und Thrombozytopenie mit Infektions- und Blutungsrisiko",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Aktive oder wiederkehrende Infektionen; sehr selten progressive multifokale Leukenzephalopathie (PML)",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten: Rhythmusstörungen, Angina pectoris oder Herzschwäche können sich verschlechtern",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung",
+        "angina-pectoris"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion bei fehlenden B-Zellen – nicht während der Behandlung und bis zur Erholung der B-Zellen impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Blutdruckabfall während der Infusion möglich – Blutdrucksenker 12 Stunden vor jeder Infusion und bis eine Stunde danach nach ärztlicher Anweisung pausieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko bei Mangel an Blutplättchen, besonders im ersten Zyklus – Blutbild eng kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende oder immunsuppressive Mittel (z. B. Chemotherapie)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen und höheres Infektionsrisiko – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infusionsbedingte Reaktionen (Fieber, Schüttelfrost, Blutdruckabfall, Übelkeit)",
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Anämie (Blutarmut)",
+      "Infektionen der oberen Atemwege, Lungenentzündung, Nasennebenhöhlenentzündung",
+      "Husten",
+      "Durchfall, Verstopfung",
+      "Fieber"
+    ],
+    "haeufig": [
+      "Tumorlysesyndrom",
+      "Febrile Neutropenie (Fieber bei Mangel an weissen Blutkörperchen)",
+      "Herpes-Infektionen, Gürtelrose",
+      "Harnwegsinfekte",
+      "Vorhofflimmern",
+      "Bluthochdruck",
+      "Hyperurikämie (erhöhte Harnsäure)"
+    ],
+    "gelegentlich": [
+      "Reaktivierung einer Hepatitis B"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Progressive multifokale Leukenzephalopathie (PML, schwere Hirninfektion)",
+      "Magen-Darm-Perforation (Durchbruch)",
+      "Verschlechterung bestehender Herzkrankheiten"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt klar: Der Antikörper geht über die Plazenta und kann beim Neugeborenen die B-Zellen vermindern. Frauen im gebärfähigen Alter verhüten während der Behandlung und 18 Monate danach.",
+  "stillzeit": "Während der Behandlung und 18 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Vor jeder Infusion gibt es Medikamente gegen Infusionsreaktionen (z. B. Kortison, Paracetamol, Antihistaminikum).",
+    "Zu Beginn viel trinken (Vorbeugung eines Tumorlysesyndroms).",
+    "Fieber, Infektzeichen, Blutungen oder neue neurologische Beschwerden (Verwirrtheit, Seh- oder Sprachstörungen) sofort melden.",
+    "Regelmässige Blutbildkontrollen; keine Lebendimpfungen während und nach der Behandlung ohne ärztliche Freigabe."
+  ],
+  "stand": "2026-10"
+}

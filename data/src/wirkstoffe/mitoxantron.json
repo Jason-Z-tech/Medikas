@@ -1,0 +1,176 @@
+{
+  "id": "mitoxantron",
+  "name": "Mitoxantron",
+  "synonyme": [
+    "Mitoxantrone",
+    "Mitoxantronhydrochlorid",
+    "Mitozantron"
+  ],
+  "atc": [
+    "L01DB07"
+  ],
+  "klasse": "Zytotoxisches Antibiotikum (Anthracendion, Topoisomerase-II-Hemmer); Zytostatikum",
+  "kurz": "Krebsmittel (Anthracendion) als Infusion bei Brustkrebs, Lymphomen und akuter myeloischer Leukämie; färbt den Urin vorübergehend blaugrün.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "kardiotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Novantron"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener oder metastasierter Brustkrebs",
+      "ids": [
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Non-Hodgkin-Lymphome",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Akute myeloische Leukämie (AML) bei Erwachsenen",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt die Erbsubstanz von Krebszellen und hemmt deren Teilung. Mitoxantron lagert sich zwischen die DNA-Basenpaare ein und hemmt die Topoisomerase II, wodurch DNA-Strangbrüche entstehen; es wirkt in allen Phasen des Zellzyklus. Zusätzlich hemmt es die Vermehrung von B- und T-Lymphozyten und Makrophagen und wirkt dadurch immunsuppressiv.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzschädigung abhängig von der Gesamtdosis: Herzfunktion vor und während der Behandlung prüfen; höheres Risiko bei Herzerkrankungen, Bestrahlung des Brustkorbs oder Vorbehandlung mit Anthrazyklinen",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Vorbestehende Knochenmarkhemmung",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (verlangsamter Abbau)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Sekundäre akute myeloische Leukämie und myelodysplastisches Syndrom nach der Behandlung",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Nur intravenös: keine Gabe in den Rückenmarkskanal (schwere Nervenschäden, Lähmungen); Austritt neben die Vene vermeiden",
+      "ids": []
+    },
+    {
+      "text": "Infektanfälligkeit",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere herzschädigende Mittel (z. B. Anthrazykline, Trastuzumab)",
+      "ref": [
+        "gruppe:kardiotoxisch",
+        "trastuzumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzinsuffizienz – Herzfunktion engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Topoisomerase-II-Hemmer (z. B. Etoposid, Doxorubicin, Epirubicin)",
+      "ref": [
+        "etoposid",
+        "doxorubicin",
+        "epirubicin"
+      ],
+      "effekt": "Erhöhtes Risiko für sekundäre Leukämien.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen",
+      "Knochenmarkhemmung mit Leukopenie, Neutropenie und Anämie",
+      "Übelkeit, Erbrechen",
+      "Haarausfall"
+    ],
+    "haeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Mundschleimhautentzündung, Durchfall, Verstopfung, Bauchschmerzen, Appetitlosigkeit",
+      "Herzinsuffizienz, Abnahme der Pumpfunktion, Herzrhythmusstörungen",
+      "Müdigkeit, Schwäche, Fieber",
+      "Atemnot",
+      "Ausbleiben der Regelblutung"
+    ],
+    "gelegentlich": [
+      "Sekundäre akute myeloische Leukämie, myelodysplastisches Syndrom"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Blaugrüne Verfärbung des Urins für 1–2 Tage, selten auch von Augenweiss, Haut oder Nägeln",
+      "Leberschädigung",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Gewebeschäden bei Paravasat"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden; Mitoxantron kann das Ungeborene schädigen. Frauen und Männer müssen während der Behandlung und mehrere Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert; Mitoxantron geht in die Muttermilch über.",
+  "hinweise": [
+    "Der Urin kann sich 1–2 Tage blaugrün färben, selten auch Augenweiss oder Nägel – das ist harmlos.",
+    "Herzfunktion und Blutbild werden regelmässig kontrolliert; Atemnot, Herzklopfen oder geschwollene Beine melden.",
+    "Schmerzen oder Brennen an der Infusionsstelle sofort melden."
+  ],
+  "stand": "2026-10"
+}

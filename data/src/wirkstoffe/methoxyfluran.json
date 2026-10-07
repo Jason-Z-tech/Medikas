@@ -1,0 +1,179 @@
+{
+  "id": "methoxyfluran",
+  "name": "Methoxyfluran",
+  "synonyme": [
+    "Methoxyflurane"
+  ],
+  "atc": [
+    "N02BG09"
+  ],
+  "klasse": "Inhalatives Analgetikum (fluoriertes Inhalationsanästhetikum in niedriger Dosis)",
+  "kurz": "Schmerzmittel zum Einatmen über einen kleinen Inhalator für die rasche Linderung von Unfallschmerzen im Notfall.",
+  "gruppen": [
+    "zns-daempfend",
+    "nephrotoxisch",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Penthrox"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Flüssigkeit zur Herstellung eines Dampfs zur Inhalation (mit Inhalator)"
+  ],
+  "indikationen": [
+    {
+      "text": "Notfallbehandlung mässig starker bis starker Schmerzen nach Verletzungen bei ansprechbaren Erwachsenen",
+      "ids": [
+        "schmerzen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen bereits nach wenigen Atemzügen, ohne in der verwendeten niedrigen Dosis eine Narkose auszulösen. Methoxyfluran ist ein fluoriertes Inhalationsanästhetikum, das über die Lunge aufgenommen wird und im zentralen Nervensystem schmerzlindernd wirkt; der genaue Mechanismus ist nicht vollständig geklärt. Beim Abbau in der Leber (über CYP2E1 und CYP2A6) entstehen anorganisches Fluorid und Dichloressigsäure, die in höheren Dosen die Nieren schädigen. Deshalb sind Tages- und Wochendosis streng begrenzt.",
+  "kontraindikationen": [
+    {
+      "text": "Maligne Hyperthermie bei sich oder in der Familie bzw. bekannte genetische Veranlagung",
+      "ids": [
+        "maligne-hyperthermie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen fluorierte Narkosemittel",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Leberschäden nach früherer Anwendung von Methoxyfluran oder anderen halogenierten Narkosemitteln",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Klinisch bedeutsam eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Bewusstseinsstörung jeglicher Ursache (z. B. Kopfverletzung, Drogen, Alkohol)",
+      "ids": [
+        "bewusstseinsstoerung",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Instabiler Kreislauf",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Atemdepression",
+      "ids": [
+        "schlafapnoe"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Vorbestehende Nierenerkrankung oder Einnahme nierenschädigender Mittel",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen oder Risikofaktoren für Leberschäden",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Blutdruckabfall)",
+      "ids": [
+        "aeltere-patienten",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche unter 18 Jahren: nicht zugelassen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside wie Gentamicin, Tetracycline, Amphotericin B, Polymyxine)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "gruppe:tetracycline",
+        "amphotericin-b"
+      ],
+      "effekt": "Additive Nierenschädigung – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Isoniazid und regelmässiger Alkoholkonsum (CYP2E1-Induktion)",
+      "ref": [
+        "isoniazid"
+      ],
+      "effekt": "Schnellerer Abbau zu nierenschädigenden Abbauprodukten – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenobarbital und Rifampicin (CYP2A6-Induktion)",
+      "ref": [
+        "phenobarbital",
+        "rifampicin"
+      ],
+      "effekt": "Schnellerer Abbau zu nierenschädigenden Abbauprodukten – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung und Atemdepression – Atmung und Bewusstsein überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel"
+    ],
+    "haeufig": [
+      "Benommenheit, Schläfrigkeit, Kopfschmerzen",
+      "Euphorie, Angst, Trunkenheitsgefühl",
+      "Geschmacksstörungen",
+      "Übelkeit, Erbrechen",
+      "Husten",
+      "Blutdruckabfall",
+      "Schwitzen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Leberschäden (Hepatitis, Gelbsucht, Leberversagen)",
+      "Nierenschäden bis Nierenversagen",
+      "Bewusstseinsstörungen",
+      "Atemdepression, Sauerstoffmangel",
+      "Doppeltsehen, Kribbeln (Parästhesien)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen; Anwendung nur nach strenger ärztlicher Abwägung. Kann die Wehentätigkeit und das Neugeborene beeinflussen.",
+  "stillzeit": "Ungenügende Daten; nach einer einmaligen Notfallanwendung Vorgehen ärztlich besprechen.",
+  "hinweise": [
+    "Höchstens 6 ml (2 Fläschchen) pro Tag, nicht an aufeinanderfolgenden Tagen und höchstens 15 ml pro Woche (Schutz der Nieren).",
+    "Nur unter Aufsicht von geschultem Personal; die betroffene Person hält den Inhalator selbst.",
+    "Nach der Anwendung nicht Auto fahren, bis die Wirkung vollständig abgeklungen ist."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,222 @@
+{
+  "id": "tetrabenazin",
+  "name": "Tetrabenazin",
+  "synonyme": [
+    "Tetrabenazine",
+    "TBZ"
+  ],
+  "atc": [
+    "N07XX06"
+  ],
+  "klasse": "VMAT2-Hemmer (Monoamin-Speicherentleerer)",
+  "kurz": "Mittel gegen unwillkürliche Überbewegungen (Chorea), vor allem bei Chorea Huntington, und gegen Spätdyskinesien.",
+  "gruppen": [
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Xenazine"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Unwillkürliche Überbewegungen (Chorea) bei Chorea Huntington",
+      "ids": [
+        "chorea-huntington"
+      ]
+    },
+    {
+      "text": "Andere hyperkinetische Bewegungsstörungen bei Erkrankungen des Gehirns sowie mittelschwere bis schwere Spätdyskinesien",
+      "ids": [
+        "dystonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert unwillkürliche Bewegungen, indem es die Menge an Botenstoffen wie Dopamin in den Nervenzellen des Gehirns senkt. Tetrabenazin hemmt reversibel den vesikulären Monoamintransporter 2 (VMAT2), der Dopamin, Serotonin und Noradrenalin in Speicherbläschen der Nervenendigungen pumpt. Die ungeschützten Monoamine werden abgebaut, sodass vor allem die dopaminerge Signalübertragung im Striatum abnimmt. Wirksam sind hauptsächlich die Metaboliten alpha- und beta-Dihydrotetrabenazin, die über CYP2D6 weiter abgebaut werden.",
+  "kontraindikationen": [
+    {
+      "text": "Unbehandelte oder ungenügend behandelte Depression, Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Parkinson-Syndrom bzw. hypokinetisch-rigides Syndrom",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Prolaktinabhängige Tumoren, z. B. der Hypophyse oder der Brust",
+      "ids": [
+        "hyperprolaktinaemie",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Auftreten oder Verschlechterung von Depression und Suizidgedanken während der Behandlung – Stimmung regelmässig überprüfen",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, angeborenes Long-QT-Syndrom oder Kombination mit anderen QT-verlängernden Mitteln",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Malignes neuroleptisches Syndrom (hohes Fieber, Muskelsteife, Bewusstseinsstörung) – sofort absetzen",
+      "ids": []
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen und Benommenheit – Sturzgefahr, besonders bei älteren Menschen",
+      "ids": [
+        "hypotonie",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Langsame CYP2D6-Metabolisierer: höhere Wirkstoffspiegel, Dosis anpassen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Schluckstörungen (Gefahr des Verschluckens)",
+      "ids": [
+        "schluckstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch kurz vorher abgesetzt)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Unberechenbare Wirkung auf die Monoamin-Botenstoffe – Gefahr schwerer Unruhezustände und Blutdruckkrisen."
+    },
+    {
+      "text": "Reserpin",
+      "ref": [],
+      "grund": "Doppelte Entleerung der Monoaminspeicher – Gefahr schwerer Depression und ausgeprägter Parkinson-Symptome."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Spiegel der Wirkmetaboliten steigen deutlich – Tetrabenazin-Dosis reduzieren (meist halbieren).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antipsychotika und andere Dopamin-Antagonisten (z. B. Haloperidol, Metoclopramid)",
+      "ref": [
+        "gruppe:antipsychotika",
+        "gruppe:dopaminantagonisten"
+      ],
+      "effekt": "Mehr Parkinson-Symptome und Bewegungsunruhe, Risiko für malignes neuroleptisches Syndrom und QT-Verlängerung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung – Gefahr von Herzrhythmusstörungen; EKG kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Levodopa",
+      "ref": [
+        "levodopa-benserazid",
+        "levodopa-carbidopa",
+        "levodopa-carbidopa-entacapon"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel (z. B. Benzodiazepine, Opioide)",
+      "ref": [
+        "gruppe:zns-daempfend",
+        "gruppe:benzodiazepine",
+        "gruppe:opioide"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel und Betablocker",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Depression",
+      "Schläfrigkeit (Somnolenz)",
+      "Parkinson-ähnliche Beschwerden (Steifheit, Zittern, Gleichgewichtsstörungen)"
+    ],
+    "haeufig": [
+      "Angst, Unruhe, Verwirrtheit",
+      "Schlaflosigkeit",
+      "Schluckbeschwerden (Dysphagie)",
+      "Übelkeit, Erbrechen",
+      "Durchfall oder Verstopfung"
+    ],
+    "selten": [
+      "Malignes neuroleptisches Syndrom (hohes Fieber, Muskelsteife, Bewusstseinsstörung)"
+    ],
+    "unbekannt": [
+      "Suizidgedanken und suizidales Verhalten",
+      "QT-Verlängerung",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Akathisie (quälende Bewegungsunruhe)"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur nach strenger ärztlicher Abwägung anwenden.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Kann Müdigkeit verursachen – Vorsicht beim Autofahren; Alkohol meiden.",
+    "Niedergeschlagenheit, Suizidgedanken oder hohes Fieber mit Muskelsteife sofort ärztlich melden.",
+    "Die Dosis wird langsam gesteigert; nicht eigenmächtig verändern."
+  ],
+  "stand": "2026-10"
+}

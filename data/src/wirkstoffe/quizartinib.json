@@ -1,0 +1,161 @@
+{
+  "id": "quizartinib",
+  "name": "Quizartinib",
+  "synonyme": [
+    "Quizartinibdihydrochlorid",
+    "AC220"
+  ],
+  "atc": [
+    "L01EX11"
+  ],
+  "klasse": "Proteinkinase-Hemmer (FLT3-Hemmer)",
+  "kurz": "Krebsmittel (Tablette) gegen neu diagnostizierte akute myeloische Leukämie mit FLT3-ITD-Mutation, kombiniert mit Chemotherapie.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "qt-verlaengernd",
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Vanflyta"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte akute myeloische Leukämie (AML) mit FLT3-ITD-Mutation: zusammen mit Standard-Induktions- und Konsolidierungschemotherapie, danach als alleinige Erhaltungstherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Vermehrung von Leukämiezellen, deren Wachstum durch ein dauerhaft aktives Enzym angetrieben wird. Quizartinib ist ein hochwirksamer, selektiver Hemmer der Rezeptor-Tyrosinkinase FLT3; die FLT3-ITD-Mutation (interne Tandem-Duplikation) hält diesen Rezeptor ständig aktiv. Quizartinib und sein aktiver Metabolit AC886 blockieren die FLT3-Signale und lösen so den Zelltod der Leukämiezellen aus.",
+  "kontraindikationen": [
+    {
+      "text": "Angeborenes Long-QT-Syndrom",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "QT-Verlängerung: nicht beginnen, wenn die QTcF-Zeit über 450 ms liegt; EKG vor Beginn und regelmässig, besonders in der Anfangsphase",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Schwere Herzrhythmusstörungen, Herzinsuffizienz, kürzlicher Herzinfarkt oder Bradykardie: erhöhtes Risiko für Kammerrhythmusstörungen und Herzstillstand",
+      "ids": [
+        "herzrhythmusstoerung",
+        "herzinsuffizienz",
+        "herzinfarkt",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Tiefes Kalium oder Magnesium: vor und während der Behandlung ausgleichen",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Infektionen: schwere und tödliche Infektionen möglich",
+      "ids": [
+        "aktive-infektion",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz (wenig untersucht)",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaftstest vor Beginn, zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Posaconazol, Voriconazol, Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Quizartinib-Spiegel steigt etwa auf das Doppelte – Dosis nach ärztlicher Anweisung reduzieren und EKG überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Efavirenz) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Quizartinib-Spiegel sinkt stark – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Ondansetron, Makrolide, Fluorchinolone, Azol-Antimykotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung, Gefahr lebensbedrohlicher Herzrhythmusstörungen – möglichst vermeiden, sonst häufigere EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mittel, die Kalium oder Magnesium senken (z. B. Diuretika, Amphotericin B)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend",
+        "gruppe:hypomagnesiaemie-ausloesend"
+      ],
+      "effekt": "Elektrolytmangel erhöht das Risiko für Herzrhythmusstörungen – Kalium und Magnesium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Mangel an Blutplättchen, Blutarmut, Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Infektionen (Atemwege, Pilzinfektionen, Herpes)",
+      "QT-Verlängerung im EKG",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verdauungsbeschwerden",
+      "Kopfschmerzen, Appetitverlust",
+      "Nasenbluten",
+      "Erhöhte Leberwerte"
+    ],
+    "haeufig": [],
+    "gelegentlich": [
+      "Kammerflimmern und Herzstillstand"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Torsade de pointes und andere Kammerrhythmusstörungen"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nicht anwenden, ausser bei zwingender Notwendigkeit. Frauen müssen während der Behandlung und mindestens 7 Monate danach, Männer mit Partnerin im gebärfähigen Alter mindestens 4 Monate danach zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung und noch einige Zeit danach (gemäss ärztlicher Anweisung) nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit, mit oder ohne Mahlzeit; Tabletten unzerkaut schlucken.",
+    "Regelmässige EKG- und Elektrolytkontrollen; Herzklopfen, Schwindel oder Ohnmacht sofort melden.",
+    "Neue Medikamente – auch rezeptfreie sowie Antibiotika und Pilzmittel – nur nach Rücksprache (QT-Verlängerung, Wechselwirkungen).",
+    "Kein Johanniskraut."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,219 @@
+{
+  "id": "pegaspargase",
+  "name": "Pegaspargase",
+  "synonyme": [
+    "PEG-Asparaginase",
+    "Pegylierte L-Asparaginase"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01XX24"
+  ],
+  "klasse": "Antineoplastisches Enzym (pegylierte L-Asparaginase aus E. coli)",
+  "kurz": "Enzym gegen akute lymphatische Leukämie; entzieht den Leukämiezellen den Eiweissbaustein Asparagin.",
+  "gruppen": [
+    "zytostatika",
+    "hepatotoxisch",
+    "thromboserisiko-erhoehend",
+    "blutungsrisiko-erhoehend",
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Oncaspar"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute lymphatische Leukämie (ALL) bei Kindern und Erwachsenen, als Teil einer Kombinations-Chemotherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Baut die Aminosäure Asparagin im Blut ab, die Leukämiezellen zum Überleben brauchen. Pegaspargase ist das Enzym L-Asparaginase aus E. coli, gekoppelt an Polyethylenglykol (PEG); es spaltet Asparagin in Aspartat und Ammoniak. Leukämische Lymphoblasten können Asparagin kaum selbst herstellen, sie können ohne Nachschub keine Eiweisse mehr bilden und sterben ab. Die PEG-Kopplung verlängert die Wirkdauer und vermindert die Bildung von Antikörpern gegen das Enzym.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Pankreatitis (Bauchspeicheldrüsenentzündung) in der Vorgeschichte, auch nach früherer Asparaginase-Behandlung",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Schwere Thrombose unter früherer Asparaginase-Behandlung",
+      "ids": [
+        "thromboembolie-vorgeschichte",
+        "thrombose"
+      ]
+    },
+    {
+      "text": "Schwere Blutung unter früherer Asparaginase-Behandlung",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Allergische Reaktionen bis zur Anaphylaxie, auch verzögert; nach der Gabe Überwachung, bei schwerer Reaktion absetzen",
+      "ids": [
+        "anaphylaxie",
+        "allergie"
+      ]
+    },
+    {
+      "text": "Pankreatitis: bei starken Bauchschmerzen sofort ärztlich abklären lassen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Leberschädigung; Leberwerte regelmässig kontrollieren, besonders zusammen mit anderen leberschädigenden Mitteln",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gerinnungsstörungen mit Thrombosen (auch Hirnvenenthrombosen) und Blutungen; Gerinnungswerte kontrollieren",
+      "ids": [
+        "thrombose",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Diabetes oder erhöhter Blutzucker (Blutzucker kann ansteigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Erhöhtes Ammoniak und posteriores reversibles Enzephalopathie-Syndrom (PRES) mit Bewusstseinsstörungen oder Krampfanfällen",
+      "ids": [
+        "bewusstseinsstoerung",
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige nichthormonale Verhütung bis mindestens 6 Monate nach der Behandlung (die Pille gilt als nicht ausreichend sicher)",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr schwerer Infektionen – frühestens 3 Monate nach Abschluss der gesamten Leukämiebehandlung impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien und Plättchenhemmer (z. B. Heparine, Phenprocoumon, Acetylsalicylsäure, NSAR)",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko bei bereits gestörter Gerinnung – Gerinnung eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (z. B. Prednison, Dexamethason)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Höheres Risiko für Thrombosen und erhöhten Blutzucker.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Mittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Verstärkte Leberschädigung möglich – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vincristin",
+      "ref": [
+        "vincristin"
+      ],
+      "effekt": "Gleichzeitige oder unmittelbar vorangehende Gabe verstärkt die Nervenschäden durch Vincristin – Vincristin zeitlich vor Pegaspargase geben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methotrexat und Cytarabin",
+      "ref": [
+        "methotrexat",
+        "cytarabin"
+      ],
+      "effekt": "Die Reihenfolge der Gabe kann die Wirkung dieser Zytostatika abschwächen oder verstärken – Ablauf nach Behandlungsprotokoll.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Indirekte Wechselwirkung nicht auszuschliessen, Schutz nicht ausreichend sicher – nichthormonale Verhütung verwenden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Allergische Reaktionen (Nesselsucht, Anaphylaxie)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Erhöhter Blutzucker (Hyperglykämie)",
+      "Übelkeit, Durchfall, Bauchschmerzen, Appetitlosigkeit",
+      "Erhöhte Leberwerte und erhöhtes Bilirubin",
+      "Gerinnungsstörungen (Mangel an Fibrinogen und Antithrombin, verlängerte Gerinnungszeit)"
+    ],
+    "haeufig": [
+      "Thrombosen und Embolien",
+      "Infektionen, Sepsis (Blutvergiftung)",
+      "Febrile Neutropenie (Fieber bei Mangel an weissen Blutkörperchen), Anämie",
+      "Krampfanfälle, periphere Neuropathie (Nervenschädigung), Ohnmacht",
+      "Erbrechen, Mundschleimhautentzündung",
+      "Erhöhte Blutfette, Kaliummangel",
+      "Leberschädigung, Fettleber"
+    ],
+    "gelegentlich": [],
+    "selten": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES: Kopfschmerzen, Krampfanfälle, Sehstörungen)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Leberversagen, Gelbsucht",
+      "Hyperammonämie (erhöhtes Ammoniak) mit Bewusstseinsstörung",
+      "Diabetische Ketoazidose",
+      "Hirnblutung, Schlaganfall",
+      "Nekrotisierende Pankreatitis, Pankreaspseudozyste",
+      "Toxische epidermale Nekrolyse (schwere Hautreaktion)",
+      "Akutes Nierenversagen",
+      "Osteonekrose (Absterben von Knochengewebe)"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit (im Tierversuch schädlich, kaum Erfahrungen). Frauen müssen bis mindestens 6 Monate nach der letzten Dosis zuverlässig nichthormonal verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Die Gabe erfolgt im Spital; nach jeder Gabe wird auf allergische Reaktionen überwacht.",
+    "Bei starken Bauchschmerzen (auch in den Rücken ausstrahlend), Gelbfärbung der Haut, Beinschwellung, starken Kopfschmerzen oder Blutungen sofort ärztliche Hilfe holen.",
+    "Regelmässige Kontrollen von Blutzucker, Leberwerten, Gerinnung und Bauchspeicheldrüsenwerten."
+  ],
+  "stand": "2026-10"
+}

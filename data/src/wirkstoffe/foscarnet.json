@@ -1,0 +1,168 @@
+{
+  "id": "foscarnet",
+  "name": "Foscarnet",
+  "synonyme": [
+    "Foscarnet-Natrium",
+    "Phosphonoameisensäure",
+    "Phosphonoformiat",
+    "Foscarnet sodium"
+  ],
+  "atc": [
+    "J05AD01"
+  ],
+  "klasse": "Virostatikum (Pyrophosphat-Analogon)",
+  "kurz": "Antivirales Mittel als Infusion gegen schwere Zytomegalie- und resistente Herpes-Infektionen bei geschwächtem Immunsystem.",
+  "gruppen": [
+    "nephrotoxisch",
+    "qt-verlaengernd",
+    "hypokaliaemie-ausloesend",
+    "hypomagnesiaemie-ausloesend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Foscavir"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Zytomegalie-Virus-Retinitis (CMV-Netzhautentzündung) bei Menschen mit AIDS",
+      "ids": [
+        "cmv-infektion",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Aciclovir-resistente Herpes-simplex-Infektionen der Haut und Schleimhäute bei geschwächtem Immunsystem",
+      "ids": [
+        "herpes",
+        "immunsuppression"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert die Vermehrung von Herpesviren direkt an deren Kopierenzym. Foscarnet ahmt Pyrophosphat nach und hemmt die virale DNA-Polymerase an der Pyrophosphat-Bindungsstelle. Anders als Aciclovir oder Ganciclovir muss es nicht durch virale Enzyme aktiviert werden und wirkt deshalb auch gegen viele Viren, die gegen diese Mittel resistent sind. Foscarnet bindet zweiwertige Ionen wie Calcium und Magnesium, was die typischen Elektrolytstörungen erklärt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Foscarnet ist nierenschädigend – Dosis nach Kreatinin-Clearance anpassen, vor und während jeder Infusion ausreichend Flüssigkeit geben",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Elektrolytstörungen (Calcium, Magnesium, Kalium, Phosphat): Kribbeln, Krämpfe und Herzrhythmusstörungen möglich – Werte engmaschig kontrollieren",
+      "ids": [
+        "hypokalzaemie",
+        "magnesiummangel",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen, QT-Verlängerung oder Einnahme QT-verlängernder Mittel",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Krampfanfälle in der Vorgeschichte",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Salzarme Ernährung (hoher Natriumgehalt der Infusionslösung)",
+      "ids": [
+        "natriumarme-diaet"
+      ]
+    },
+    {
+      "text": "Reizungen und Geschwüre im Genitalbereich durch die Ausscheidung im Urin – gute Intimhygiene",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Pentamidin (Infusion)",
+      "ref": [
+        "pentamidin"
+      ],
+      "effekt": "Schwere Hypokalzämie und Nierenschäden möglich – Kombination vermeiden oder Calcium und Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Ciclosporin)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "amphotericin-b",
+        "ciclosporin"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenversagen – möglichst vermeiden, Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "QT-verlängernde Mittel (z. B. Antiarrhythmika der Klassen IA und III, Antipsychotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung mit Gefahr von Torsade de pointes – EKG und Elektrolyte überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ritonavir, Saquinavir",
+      "ref": [
+        "ritonavir"
+      ],
+      "effekt": "Nierenfunktionsstörungen beschrieben – Nierenwerte engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Granulozytopenie, Anämie",
+      "Hypokaliämie, Hypomagnesiämie, verminderter Appetit",
+      "Kopfschmerzen, Schwindel, Kribbeln (Parästhesien)",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Ausschlag",
+      "Nierenfunktionsstörung (Kreatininanstieg)",
+      "Fieber, Schüttelfrost, Schwäche"
+    ],
+    "haeufig": [
+      "Hypokalzämie, Hypo- oder Hyperphosphatämie, Hyponatriämie",
+      "Krampfanfälle, Zittern, Muskelzuckungen, Neuropathie",
+      "Unruhe, Angst, Verwirrtheit, Depression, Aggression",
+      "Herzrasen, Herzklopfen, Blutdruckveränderungen, Venenentzündung",
+      "Akutes Nierenversagen, Eiweiss im Urin",
+      "Geschwüre und Beschwerden im Genitalbereich",
+      "Abnorme Leberfunktion, Pankreatitis",
+      "Thrombozytopenie, Leukopenie, Sepsis"
+    ],
+    "gelegentlich": [
+      "Panzytopenie",
+      "Metabolische Azidose",
+      "Nesselsucht, Angioödem"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes, Kammerrhythmusstörungen",
+      "Nephrogener Diabetes insipidus, Kristallnephropathie, renale tubuläre Azidose",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme",
+      "Rhabdomyolyse, Speiseröhrengeschwüre",
+      "Hyperkalzämie"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen beim Menschen fehlen; nur bei klarer Notwendigkeit anwenden.",
+  "stillzeit": "Nicht stillen.",
+  "hinweise": [
+    "Wird im Spital als Infusion gegeben; vorher und dazu wird reichlich Flüssigkeit verabreicht, um die Nieren zu schützen.",
+    "Nierenwerte und Elektrolyte (Calcium, Magnesium, Kalium, Phosphat) werden mehrmals pro Woche kontrolliert.",
+    "Kribbeln um den Mund oder in Händen und Füssen sofort melden (Hinweis auf tiefes Calcium).",
+    "Nach dem Wasserlassen den Genitalbereich gut waschen, um Reizungen und Geschwüren vorzubeugen."
+  ],
+  "stand": "2026-10"
+}

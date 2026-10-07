@@ -1,0 +1,191 @@
+{
+  "id": "nimodipin",
+  "name": "Nimodipin",
+  "synonyme": [
+    "Nimodipine",
+    "Nimodipinum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C08CA06"
+  ],
+  "klasse": "Calciumantagonist vom Dihydropyridin-Typ (bevorzugt an Hirngefässen wirksam)",
+  "kurz": "Gefässerweiterndes Mittel, das nach einer Hirnblutung aus einem Aneurysma Gefässverkrampfungen und Hirnschäden verhindern soll.",
+  "gruppen": [
+    "dhp-calciumantagonisten",
+    "blutdrucksenkend",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Nimotop"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung und Behandlung von Durchblutungsstörungen des Gehirns durch Gefässverkrampfung (Vasospasmus) nach einer Subarachnoidalblutung infolge eines geplatzten Aneurysmas",
+      "ids": [
+        "hirnblutung",
+        "aneurysma",
+        "schlaganfall"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert vor allem die Blutgefässe des Gehirns und verbessert so dessen Durchblutung. Nimodipin blockiert spannungsabhängige L-Typ-Calciumkanäle in der glatten Gefässmuskulatur und verhindert den Calciumeinstrom, der für die Gefässverengung nötig ist. Weil es sehr fettlöslich ist, passiert es die Blut-Hirn-Schranke und wirkt bevorzugt an den Hirnarterien.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Tiefer Blutdruck (systolisch unter 100 mmHg): Gefahr eines weiteren Blutdruckabfalls",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Instabile Angina pectoris oder Herzinfarkt in den letzten 4 Wochen",
+      "ids": [
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Ausgeprägtes Hirnödem oder stark erhöhter Hirndruck",
+      "ids": [
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion, v. a. Leberzirrhose: erhöhte Spiegel – Blutdruck engmaschig überwachen, Dosis anpassen",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion bei Infusionstherapie, besonders zusammen mit nierenschädigenden Mitteln: Nierenfunktion kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Die Infusionslösung enthält Alkohol (Ethanol): Vorsicht bei Alkoholkrankheit, Lebererkrankung und Epilepsie",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "epilepsie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Rifampicin (bei Einnahme von Tabletten)",
+      "ref": [
+        "rifampicin"
+      ],
+      "grund": "Starke Enzyminduktion (CYP3A4) senkt die Nimodipin-Spiegel so stark, dass die Wirkung verloren gehen kann."
+    },
+    {
+      "text": "Phenobarbital, Phenytoin und Carbamazepin (bei Einnahme von Tabletten)",
+      "ref": [
+        "phenobarbital",
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "grund": "Diese Enzyminduktoren vermindern die Bioverfügbarkeit von Nimodipin drastisch – Wirkverlust."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Clarithromycin, Erythromycin, Ketoconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Nimodipin-Spiegel steigen deutlich – Gefahr eines starken Blutdruckabfalls; Blutdruck überwachen, Dosis gegebenenfalls reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere CYP3A4-Induktoren (z. B. Johanniskraut, Efavirenz)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Wirkverlust möglich – Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel (z. B. Betablocker, ACE-Hemmer, Sartane, Diuretika, andere Calciumantagonisten)",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – Blutdruck engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Erhöht die Nimodipin-Spiegel deutlich – Blutdruck überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Fluoxetin",
+      "ref": [
+        "fluoxetin"
+      ],
+      "effekt": "Erhöht die Nimodipin-Spiegel um etwa die Hälfte – Blutdruck überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Cephalosporine, Furosemid) bei Nimodipin-Infusion",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "gruppe:cephalosporine",
+        "furosemid"
+      ],
+      "effekt": "Bei eingeschränkter Nierenfunktion kann sich diese weiter verschlechtern – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zidovudin (intravenös)",
+      "ref": [
+        "zidovudin"
+      ],
+      "effekt": "Im Tierversuch deutlich erhöhte Zidovudin-Spiegel – Vorsicht bei gleichzeitiger Anwendung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [
+      "Hypotonie (Blutdruckabfall)",
+      "Gefässerweiterung mit Flush (Hautrötung, Wärmegefühl)",
+      "Kopfschmerzen",
+      "Tachykardie (Herzrasen)",
+      "Übelkeit",
+      "Allergische Reaktionen, Hautausschlag",
+      "Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "selten": [
+      "Bradykardie (langsamer Puls)",
+      "Ileus (Darmlähmung)",
+      "Vorübergehender Anstieg der Leberwerte",
+      "Reaktionen und Venenentzündung an der Infusionsstelle"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur nach sorgfältiger ärztlicher Nutzen-Risiko-Abwägung anwenden.",
+  "stillzeit": "Nimodipin geht in die Muttermilch über; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Kein Grapefruitsaft während der Behandlung mit Tabletten (erhöht die Nimodipin-Spiegel).",
+    "Der Blutdruck wird regelmässig kontrolliert; bei Schwindel oder Benommenheit kein Fahrzeug lenken.",
+    "Die Infusion wird im Spital über einen zentralen Venenkatheter gegeben, vor direktem Sonnenlicht geschützt; sie enthält Alkohol."
+  ],
+  "stand": "2026-10"
+}

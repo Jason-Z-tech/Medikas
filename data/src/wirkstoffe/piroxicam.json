@@ -1,0 +1,287 @@
+{
+  "id": "piroxicam",
+  "name": "Piroxicam",
+  "synonyme": [
+    "Piroxicamum"
+  ],
+  "atc": [
+    "M01AC01",
+    "M02AA07"
+  ],
+  "klasse": "Nichtsteroidales Antirheumatikum (NSAR, Oxicam)",
+  "kurz": "Lang wirksames entzündungshemmendes Schmerzmittel (NSAR) bei Arthrose, rheumatoider Arthritis und Morbus Bechterew; nicht erste Wahl.",
+  "gruppen": [
+    "nsar",
+    "blutungsrisiko-erhoehend",
+    "ulkusrisiko-erhoehend",
+    "nephrotoxisch",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Felden"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Schmelztabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische Behandlung von Arthrose, rheumatoider Arthritis und Morbus Bechterew (Spondylitis ankylosans), wenn andere NSAR nicht infrage kommen",
+      "ids": [
+        "arthrose",
+        "rheumatoide-arthritis",
+        "spondyloarthritis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und Entzündungen, indem es die Bildung von Prostaglandinen hemmt. Piroxicam hemmt die Cyclooxygenasen COX-1 und COX-2. Wegen seiner langen Halbwertszeit von rund 50 Stunden genügt eine Einnahme pro Tag, Nebenwirkungen klingen aber auch nur langsam ab. Im Vergleich zu anderen NSAR ist das Risiko für Magen-Darm-Komplikationen und schwere Hautreaktionen erhöht.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma, Nesselsucht oder Schnupfen nach Einnahme von Acetylsalicylsäure oder anderen NSAR (Analgetika-Asthma)",
+      "ids": [
+        "analgetika-asthma",
+        "nsar-allergie"
+      ]
+    },
+    {
+      "text": "Aktive oder frühere Magen-Darm-Geschwüre, -Blutungen oder -Durchbrüche; Magen-Darm-Erkrankungen mit Blutungsneigung",
+      "ids": [
+        "magen-darm-ulkus",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+      "ids": [
+        "morbus-crohn",
+        "colitis-ulcerosa"
+      ]
+    },
+    {
+      "text": "Schwere Haut- oder allergische Arzneimittelreaktionen in der Vorgeschichte",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leber- oder Niereninsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schmerzbehandlung nach koronarer Bypass-Operation",
+      "ids": [
+        "koronarstent"
+      ]
+    },
+    {
+      "text": "Letztes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen oder Risikofaktoren (erhöhtes Risiko für Herzinfarkt und Schlaganfall), Bluthochdruck",
+      "ids": [
+        "koronare-herzkrankheit",
+        "kardiovaskulaeres-risiko",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen, besonders über 70 Jahre (höheres Risiko für Magen-Darm-Komplikationen)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Asthma, Heuschnupfen oder Nasenpolypen",
+      "ids": [
+        "asthma",
+        "heuschnupfen"
+      ]
+    },
+    {
+      "text": "Leichte bis mässige Nieren- oder Leberfunktionsstörung, Flüssigkeitsmangel",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Hautreaktionen (z. B. Ausschlag, Blasen, Schleimhautveränderungen) – sofort absetzen",
+      "ids": [
+        "hautausschlag"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit der Haut",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Blutgerinnungsstörungen",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes und Mischkollagenosen (Risiko einer aseptischen Meningitis)",
+      "ids": [
+        "lupus"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Andere NSAR einschliesslich COX-2-Hemmer und Acetylsalicylsäure in schmerzlindernder Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer",
+        "acetylsalicylsaeure"
+      ],
+      "grund": "Stark erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen ohne Wirkungsgewinn."
+    },
+    {
+      "text": "Antikoagulanzien (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "grund": "Piroxicam verstärkt das Blutungsrisiko deutlich – Gefahr schwerer, auch lebensbedrohlicher Blutungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Methotrexat",
+      "ref": [
+        "methotrexat"
+      ],
+      "effekt": "Verminderte Ausscheidung von Methotrexat – Gefahr schwerer Knochenmark- und Nierenschäden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithium-Spiegel steigen – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Niedrig dosierte Acetylsalicylsäure, Plättchenhemmer, SSRI und SNRI",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:p2y12-hemmer",
+        "gruppe:ssri",
+        "gruppe:snri"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Blutungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Mehr Magen-Darm-Geschwüre und -Blutungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin und Tacrolimus",
+      "ref": [
+        "ciclosporin",
+        "tacrolimus"
+      ],
+      "effekt": "Verstärkte Nierenschädigung – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenker aus der RAAS-Gruppe und Diuretika",
+      "ref": [
+        "gruppe:raas-hemmer",
+        "gruppe:diuretika"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung; bei Flüssigkeitsmangel Risiko für akutes Nierenversagen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsparende Diuretika und Mineralokortikoid-Antagonisten",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten"
+      ],
+      "effekt": "Hyperkaliämie möglich – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C9-Hemmer (z. B. Fluconazol, Amiodaron)",
+      "ref": [
+        "gruppe:cyp2c9-hemmer"
+      ],
+      "effekt": "Höhere Piroxicam-Spiegel und mehr Nebenwirkungen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lichtempfindlich machende Mittel",
+      "ref": [
+        "gruppe:photosensibilisierend"
+      ],
+      "effekt": "Verstärkte Lichtempfindlichkeit der Haut – Sonnenschutz.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Schwindel, Kopfschmerzen",
+      "Ohrensausen (Tinnitus), Drehschwindel",
+      "Magen-Darm-Beschwerden: Übelkeit, Bauchschmerzen, Verstopfung, Durchfall, Blähungen, Dyspepsie (Verdauungsbeschwerden)",
+      "Juckreiz, Hautausschlag",
+      "Ödeme (Wassereinlagerungen)"
+    ],
+    "gelegentlich": [
+      "Schläfrigkeit",
+      "Verschwommenes Sehen",
+      "Herzklopfen",
+      "Entzündung der Mundschleimhaut (Stomatitis)"
+    ],
+    "sehrSelten": [
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse)"
+    ],
+    "unbekannt": [
+      "Magen-Darm-Geschwüre, -Blutungen und -Durchbrüche",
+      "Lichtempfindlichkeit (Photosensibilität), DRESS, fixes Arzneimittelexanthem",
+      "Agranulozytose, aplastische Anämie, Thrombozytopenie",
+      "Hepatitis, Gelbsucht",
+      "Nierenfunktionsstörungen bis Nierenversagen",
+      "Anaphylaxie, Bronchospasmus",
+      "Herzinsuffizienz, erhöhtes Risiko für Herzinfarkt und Schlaganfall"
+    ]
+  },
+  "schwangerschaft": "Im 1. und 2. Drittel nur nach strenger ärztlicher Abwägung; ab der 20. Woche können NSAR die Nierenfunktion des Ungeborenen beeinträchtigen. Im letzten Drittel kontraindiziert.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; in der Stillzeit nicht empfohlen.",
+  "hinweise": [
+    "Höchstdosis 20 mg pro Tag; die Behandlung soll nach 14 Tagen ärztlich überprüft werden.",
+    "Mit einer Mahlzeit einnehmen; nicht mit anderen Schmerzmitteln aus der NSAR-Gruppe kombinieren.",
+    "Bei Hautausschlag, Blasen oder Schleimhautveränderungen sofort absetzen und ärztlichen Rat einholen.",
+    "Starke Sonne meiden und Sonnenschutz verwenden."
+  ],
+  "stand": "2026-10"
+}

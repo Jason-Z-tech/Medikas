@@ -1,0 +1,164 @@
+{
+  "id": "gilteritinib",
+  "name": "Gilteritinib",
+  "synonyme": [
+    "Gilteritinibfumarat",
+    "ASP2215"
+  ],
+  "atc": [
+    "L01EX13"
+  ],
+  "klasse": "Proteinkinase-Hemmer (FLT3- und AXL-Hemmer)",
+  "kurz": "Krebsmittel (Tablette) gegen wiederkehrende oder nicht ansprechende akute myeloische Leukämie mit FLT3-Mutation.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Xospata"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Rezidivierte (wiederkehrende) oder refraktäre (auf Behandlung nicht ansprechende) akute myeloische Leukämie (AML) mit FLT3-Mutation bei Erwachsenen",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst die Vermehrung von Leukämiezellen, die durch ein verändertes Enzym angetrieben werden. Gilteritinib hemmt die Rezeptor-Tyrosinkinase FLT3 – sowohl mit ITD- als auch mit TKD-Mutation (z. B. D835) – sowie die Kinase AXL. Dadurch werden Signale für Zellteilung und Überleben blockiert, und die Leukämiezellen sterben ab.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Differenzierungssyndrom (Fieber, Atemnot, rasche Gewichtszunahme, Ödeme, Blutdruckabfall, Nierenversagen): bei Verdacht sofort ärztliche Abklärung und Kortisonbehandlung",
+      "ids": [
+        "atemnot",
+        "fieber"
+      ]
+    },
+    {
+      "text": "QT-Verlängerung: EKG vor Beginn und in den ersten Behandlungsmonaten; Kalium und Magnesium ausgleichen",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Posteriores reversibles Enzephalopathie-Syndrom (Krampfanfälle, Kopfschmerzen, Verwirrtheit, Sehstörungen) – dann absetzen",
+      "ids": [
+        "epilepsie",
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Pankreatitis: Bauchschmerzen abklären lassen",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (nicht untersucht)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaftstest vor Beginn, zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Kombinierte CYP3A4- und P-Glykoprotein-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "gruppe:p-gp-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Gilteritinib-Spiegel sinkt stark – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Posaconazol, Voriconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Gilteritinib-Spiegel steigt etwa auf das Doppelte – Alternativen bevorzugen, sonst engmaschig auf Nebenwirkungen überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antidepressiva mit Wirkung am 5-HT2B- oder Sigma-Rezeptor (z. B. Escitalopram, Fluoxetin, Sertralin)",
+      "ref": [
+        "escitalopram",
+        "fluoxetin",
+        "sertralin"
+      ],
+      "effekt": "Gilteritinib kann deren Wirkung abschwächen – Kombination möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Zusätzliche QT-Verlängerung – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Substrate von P-Glykoprotein, BCRP oder OCT1 (z. B. Digoxin, Dabigatran, Rosuvastatin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "rosuvastatin"
+      ],
+      "effekt": "Gilteritinib hemmt diese Transporter – Spiegel können steigen; Vorsicht.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhte Leberwerte (ALT, AST, alkalische Phosphatase) und erhöhte Kreatinkinase (Muskelenzym)",
+      "Durchfall, Übelkeit, Verstopfung",
+      "Müdigkeit, Schwäche",
+      "Husten, Atemnot",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Schwindel, Blutdruckabfall",
+      "Gelenk-, Muskel- und Gliederschmerzen"
+    ],
+    "haeufig": [
+      "Differenzierungssyndrom (potenziell lebensbedrohlich)",
+      "QT-Verlängerung im EKG",
+      "Herzinsuffizienz, Perikarderguss, Perikarditis (Herzbeutelentzündung)",
+      "Anaphylaktische Reaktion (schwere allergische Reaktion)",
+      "Akutes Nierenversagen",
+      "Bauchschmerzen, Stomatitis (Mundschleimhautentzündung)"
+    ],
+    "gelegentlich": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nicht anwenden. Frauen müssen während der Behandlung und mindestens 6 Monate danach, Männer mit Partnerin im gebärfähigen Alter mindestens 4 Monate danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 2 Monate danach nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit, mit oder ohne Mahlzeit; Tabletten unzerkaut schlucken.",
+    "Fieber, Atemnot, rasche Gewichtszunahme oder Schwellungen sofort melden (Differenzierungssyndrom).",
+    "EKG, Blutwerte und Elektrolyte werden regelmässig kontrolliert.",
+    "Kein Johanniskraut; neue Medikamente nur nach Rücksprache."
+  ],
+  "stand": "2026-10"
+}

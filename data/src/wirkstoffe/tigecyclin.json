@@ -1,0 +1,167 @@
+{
+  "id": "tigecyclin",
+  "name": "Tigecyclin",
+  "synonyme": [
+    "Tigecycline"
+  ],
+  "atc": [
+    "J01AA12"
+  ],
+  "klasse": "Glycylcyclin-Antibiotikum (Abkömmling der Tetracycline)",
+  "kurz": "Reserve-Antibiotikum als Infusion im Spital gegen schwere Haut- und Bauchrauminfektionen, auch durch resistente Keime.",
+  "gruppen": [
+    "tetracycline",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tygacil"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Komplizierte Haut- und Weichteilinfektionen (ausser beim diabetischen Fusssyndrom), wenn andere Antibiotika nicht geeignet sind",
+      "ids": [
+        "hautinfektion",
+        "resistente-keime"
+      ]
+    },
+    {
+      "text": "Komplizierte Infektionen im Bauchraum, wenn andere Antibiotika nicht geeignet sind",
+      "ids": [
+        "bakterielle-infektion",
+        "resistente-keime"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum eines breiten Spektrums von Bakterien, darunter MRSA, vancomycinresistente Enterokokken und viele ESBL-bildende Darmbakterien. Tigecyclin bindet an die 30S-Untereinheit der bakteriellen Ribosomen und verhindert die Anlagerung der Transfer-RNA, sodass die Eiweisssynthese stoppt (bakteriostatisch). Dank seiner Struktur umgeht es die typischen Resistenzmechanismen gegen Tetracycline (Effluxpumpen, ribosomaler Schutz). Gegen Pseudomonas aeruginosa und Proteus wirkt es nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Tetracycline (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "In Studien höhere Gesamtsterblichkeit als unter Vergleichsantibiotika – nur einsetzen, wenn Alternativen ungeeignet sind",
+      "ids": [
+        "resistente-keime"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Dosisanpassung); Leberschäden unter der Behandlung möglich",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bauchspeicheldrüsenentzündung (Pankreatitis) möglich – bei starken Oberbauchschmerzen abklären",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Gerinnungsstörungen: verlängerte Gerinnungszeiten und Fibrinogenmangel möglich – Gerinnungswerte kontrollieren, besonders unter Blutverdünnern",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Kinder unter 8 Jahren (Zahnverfärbung); bei Kindern nur, wenn keine Alternative besteht",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwerer Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR und Gerinnung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calcineurin-Inhibitoren (Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Talspiegel können steigen – Spiegel überwachen, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungswirkung kann vermindert sein – zusätzlich mechanisch verhüten.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "P-Glykoprotein-Hemmer und -Induktoren (z. B. Ketoconazol, Ciclosporin, Rifampicin)",
+      "ref": [
+        "gruppe:p-gp-hemmer",
+        "gruppe:p-gp-induktoren"
+      ],
+      "effekt": "Tigecyclin ist ein P-gp-Substrat; Spiegelveränderungen möglich, klinische Bedeutung unklar.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Erbrechen",
+      "Durchfall"
+    ],
+    "haeufig": [
+      "Bauchschmerzen, Verdauungsbeschwerden, Appetitlosigkeit",
+      "Kopfschmerzen, Schwindel",
+      "Erhöhte Leberwerte und erhöhtes Bilirubin",
+      "Verlängerte Gerinnungszeiten (aPTT, Prothrombinzeit)",
+      "Hypoglykämie (Unterzuckerung)",
+      "Venenentzündung an der Infusionsstelle",
+      "Juckreiz, Hautausschlag",
+      "Infektionen wie Lungenentzündung, Abszesse oder Sepsis"
+    ],
+    "gelegentlich": [
+      "Akute Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Gelbsucht, Leberschädigung",
+      "Thrombozytopenie (Mangel an Blutplättchen)",
+      "Thrombophlebitis (Venenentzündung mit Gerinnsel)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Leberversagen",
+      "Stevens-Johnson-Syndrom",
+      "Hypofibrinogenämie (Mangel am Gerinnungseiweiss Fibrinogen)",
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn unbedingt erforderlich: Tigecyclin kann dem Ungeborenen schaden und wie andere Tetracycline bleibende Zahnverfärbungen verursachen.",
+  "stillzeit": "Nicht bekannt, ob Tigecyclin beim Menschen in die Muttermilch übergeht (im Tierversuch ja). Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Wird im Spital als Infusion über 30–60 Minuten gegeben.",
+    "Starke Oberbauchschmerzen, Gelbsucht oder Blutungszeichen sofort melden.",
+    "Während der Behandlung werden Leber- und Gerinnungswerte kontrolliert."
+  ],
+  "stand": "2026-10"
+}

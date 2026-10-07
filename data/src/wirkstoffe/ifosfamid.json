@@ -1,0 +1,263 @@
+{
+  "id": "ifosfamid",
+  "name": "Ifosfamid",
+  "synonyme": [
+    "Ifosfamidum",
+    "IFO"
+  ],
+  "atc": [
+    "L01AA06"
+  ],
+  "klasse": "Zytostatikum; Alkylans (Oxazaphosphorin, Stickstofflost-Derivat)",
+  "kurz": "Krebsmittel als Infusion, u. a. bei Hodentumoren, Sarkomen und Lymphomen; wird immer mit dem Blasenschutzmittel Mesna gegeben.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "immunsuppressiv",
+    "teratogen",
+    "nephrotoxisch",
+    "kardiotoxisch",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "Holoxan"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Hodentumoren (Keimzelltumoren), v. a. bei Rückfall",
+      "ids": [
+        "hodenkrebs"
+      ]
+    },
+    {
+      "text": "Weichteil- und Knochensarkome (z. B. Ewing-Sarkom, Osteosarkom)",
+      "ids": [
+        "sarkom"
+      ]
+    },
+    {
+      "text": "Hodgkin- und Non-Hodgkin-Lymphome",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Klein- und nicht-kleinzelliger Lungenkrebs",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Krebszellen, indem es deren Erbgut schädigt. Ifosfamid ist eine inaktive Vorstufe (Prodrug), die in der Leber vor allem durch CYP3A4 und CYP2B6 zu 4-Hydroxy-Ifosfamid und weiter zu Ifosforamid-Lost umgewandelt wird, das die DNA-Stränge vernetzt. Dabei entstehen Acrolein, das die Blasenschleimhaut schädigt (Schutz durch Mesna), und Chloracetaldehyd, das für Nerven- und Nierenschäden verantwortlich gemacht wird.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Knochenmarkschädigung",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Akute Infektionen, insbesondere Harnwegsinfekte, und Blasenentzündung",
+      "ids": [
+        "aktive-infektion",
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Behinderung des Harnabflusses",
+      "ids": [
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Enzephalopathie (Verwirrtheit, Schläfrigkeit, Halluzinationen bis Koma): höheres Risiko bei Niereninsuffizienz, tiefem Albumin, Hirnmetastasen oder früherer Cisplatin-Behandlung",
+      "ids": [
+        "bewusstseinsstoerung",
+        "delir"
+      ]
+    },
+    {
+      "text": "Nierenschäden (Schädigung der Nierenkanälchen, Fanconi-Syndrom), v. a. bei Kindern und nach Cisplatin",
+      "ids": [
+        "niereninsuffizienz",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Blutige Blasenentzündung (hämorrhagische Zystitis): immer zusammen mit Mesna und reichlich Flüssigkeit",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen: Herzrhythmusstörungen und Herzschwäche v. a. bei hohen Dosen",
+      "ids": [
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (interstitielle Pneumonitis, Lungenfibrose möglich)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Kinderwunsch: Unfruchtbarkeit möglich",
+      "ids": [
+        "unfruchtbarkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Mehr aktive und giftige Abbauprodukte – Gefahr von Nerven- und Nierenschäden; engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Cisplatin, Aminoglykoside, Aciclovir, Amphotericin B)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "cisplatin",
+        "gruppe:aminoglykoside"
+      ],
+      "effekt": "Verstärkte Nierenschäden und dadurch mehr Nervenschäden – Nierenfunktion engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Knochenmark-hemmende Mittel und Strahlentherapie",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer schweren Impfvirus-Infektion – während der Behandlung nicht anwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Fluconazol) und Aprepitant",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer",
+        "aprepitant"
+      ],
+      "effekt": "Weniger Aktivierung, dadurch möglicherweise schwächere Wirkung; unter Aprepitant wurde vermehrt Enzephalopathie berichtet.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschädigende Mittel (z. B. Anthrazykline wie Doxorubicin) und Bestrahlung der Herzregion",
+      "ref": [
+        "gruppe:kardiotoxisch",
+        "doxorubicin"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzschäden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (z. B. Opioide, Benzodiazepine, sedierende Antihistaminika)",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Können eine Enzephalopathie verstärken oder verschleiern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung mit Blutungsgefahr – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Grapefruitsaft",
+      "ref": [],
+      "effekt": "Können die Aktivierung von Ifosfamid hemmen – während der Behandlung meiden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung: Leukopenie (Mangel an weissen Blutkörperchen), Thrombozytopenie, Anämie",
+      "Übelkeit und Erbrechen",
+      "Haarausfall",
+      "Hämaturie (Blut im Urin)",
+      "Enzephalopathie (Verwirrtheit, Schläfrigkeit, Halluzinationen)"
+    ],
+    "haeufig": [
+      "Hämorrhagische Zystitis (blutige Blasenentzündung)",
+      "Nierenfunktionsstörungen (Schädigung der Nierenkanälchen)",
+      "Infektionen, Fieber bei Neutropenie",
+      "Erhöhte Leberwerte",
+      "Appetitlosigkeit"
+    ],
+    "gelegentlich": [
+      "Herzrhythmusstörungen",
+      "Durchfall, Mundschleimhautentzündung",
+      "Blutdruckabfall",
+      "Periphere Neuropathie (Nervenschäden)"
+    ],
+    "unbekannt": [
+      "Herzschwäche, Herzmuskelschädigung",
+      "Interstitielle Pneumonitis, Lungenödem",
+      "Fanconi-Syndrom, akutes Nierenversagen",
+      "Hyponatriämie (Natriummangel, SIADH)",
+      "Krampfanfälle, Koma",
+      "Zweitkrebs (z. B. akute Leukämie)",
+      "Unfruchtbarkeit",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden: Ifosfamid kann das ungeborene Kind schädigen. Frauen und Männer müssen während und bis mindestens 6 Monate nach der Behandlung sicher verhüten.",
+  "stillzeit": "Kontraindiziert – nicht stillen.",
+  "hinweise": [
+    "Wird nur unter fachärztlicher Aufsicht als Infusion gegeben, immer zusammen mit Mesna zum Schutz der Blase.",
+    "Viel trinken und die Blase häufig entleeren; roten oder blutigen Urin sofort melden.",
+    "Verwirrtheit, starke Müdigkeit oder Halluzinationen sofort melden; nicht Auto fahren.",
+    "Grapefruit meiden; keine Lebendimpfungen."
+  ],
+  "stand": "2026-10"
+}

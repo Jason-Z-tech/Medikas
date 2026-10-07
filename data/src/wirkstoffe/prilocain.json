@@ -1,0 +1,208 @@
+{
+  "id": "prilocain",
+  "name": "Prilocain",
+  "synonyme": [
+    "Prilocaine",
+    "Propitocain",
+    "Prilocainhydrochlorid"
+  ],
+  "atc": [
+    "N01BB04"
+  ],
+  "klasse": "Lokalanästhetikum vom Amid-Typ (mittellang wirksam)",
+  "kurz": "Mittel zur örtlichen Betäubung: als Spritze für die Spinalanästhesie, kombiniert mit Lidocain als Betäubungscreme für die Haut.",
+  "gruppen": [
+    "lokalanaesthetika"
+  ],
+  "handelsnamen": [
+    "Prilocain hyperbar Sintetica",
+    "Emla (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (hyperbar, intrathekal)",
+    "Creme (Kombination mit Lidocain)"
+  ],
+  "indikationen": [
+    {
+      "text": "Spinalanästhesie bei Erwachsenen für kurze chirurgische Eingriffe",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "In Kombination mit Lidocain: Oberflächenbetäubung der Haut (z. B. vor Blutentnahmen, Impfungen oder kleinen Hauteingriffen) und der Genitalschleimhaut",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Betäubt vorübergehend die Nerven im behandelten Gebiet, sodass keine Schmerzen weitergeleitet werden. Prilocain blockiert spannungsabhängige Natriumkanäle der Nervenmembran und verhindert so die Erregungsleitung. Es wird in Leber, Niere und Lunge zu o-Toluidin abgebaut, das den roten Blutfarbstoff zu Methämoglobin oxidieren kann, welches keinen Sauerstoff mehr transportiert. Die hyperbare (schwerere) Spritzenlösung sinkt im Nervenwasser ab und erlaubt eine gezielte Ausbreitung der Spinalanästhesie.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Lokalanästhetika vom Amid-Typ (z. B. Lidocain) – Kreuzallergie",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene Methämoglobinämie",
+      "ids": [
+        "methaemoglobinaemie"
+      ]
+    },
+    {
+      "text": "Schwere Blutarmut (Anämie)",
+      "ids": [
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Schwere Reizleitungsstörungen am Herzen oder dekompensierte Herzinsuffizienz",
+      "ids": [
+        "av-block",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kardiogener oder hypovolämischer Schock",
+      "ids": [
+        "schock"
+      ]
+    },
+    {
+      "text": "Spinalanästhesie: schwere Blutgerinnungsstörungen, akute Erkrankungen des Zentralnervensystems, Infektion an der Einstichstelle",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "hautinfektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (erhöhte Neigung zur Methämoglobinämie)",
+      "ids": [
+        "g6pd-mangel",
+        "methaemoglobinaemie"
+      ]
+    },
+    {
+      "text": "Säuglinge, besonders Frühgeborene und Kinder unter 3 Monaten (Creme: Methämoglobinämie – Menge und Einwirkzeit genau einhalten)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, ältere Menschen, eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "herzrhythmusstoerung",
+        "aeltere-patienten",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle bei zu hohen Blutspiegeln)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Creme: nicht auf offene Wunden, nicht ins Auge und nicht ins Ohr bei verletztem Trommelfell; bei Neurodermitis kürzere Einwirkzeit",
+      "ids": [
+        "wunde",
+        "trommelfellperforation",
+        "neurodermitis"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck oder Flüssigkeitsmangel (verstärkter Blutdruckabfall bei Spinalanästhesie)",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Methämoglobin bildende Arzneimittel (z. B. Sulfonamide, Nitrofurantoin, Nitrate, Phenytoin, Phenobarbital)",
+      "ref": [
+        "gruppe:sulfonamide",
+        "nitrofurantoin",
+        "gruppe:nitrate",
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Erhöhtes Risiko einer Methämoglobinämie (Sauerstoffmangel, bläuliche Haut), besonders bei Säuglingen – Kombination bei Säuglingen vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Lokalanästhetika und strukturverwandte Antiarrhythmika der Klasse I",
+      "ref": [
+        "gruppe:lokalanaesthetika",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Additive Giftwirkung auf Herz und Nervensystem – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika der Klasse III (z. B. Amiodaron)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Additive Wirkungen auf das Herz möglich – Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien (bei Spinalanästhesie)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Gefahr von Blutergüssen im Wirbelkanal – Zeitabstände zur Blutverdünnung einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Stärkerer Blutdruckabfall bei Spinalanästhesie möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hypotonie (Blutdruckabfall) bei Spinalanästhesie",
+      "Übelkeit, Erbrechen",
+      "Creme: Blässe, Rötung oder Schwellung der Haut an der Auftragsstelle"
+    ],
+    "gelegentlich": [
+      "Creme: Brennen, Juckreiz oder Wärmegefühl an der Auftragsstelle"
+    ],
+    "selten": [
+      "Methämoglobinämie (verminderter Sauerstofftransport, bläuliche Haut)",
+      "Allergische Reaktionen bis anaphylaktischer Schock",
+      "Krampfanfälle, Herzrhythmusstörungen oder Herzstillstand bei zu hohen Blutspiegeln",
+      "Nervenschäden nach Spinalanästhesie"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Bradykardie (langsamer Puls)",
+      "Kopfschmerzen nach Spinalanästhesie",
+      "Rückenschmerzen",
+      "Parästhesien (Kribbeln)"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; bisher keine Hinweise auf Fehlbildungen. Für Betäubungen unter der Geburt (z. B. Parazervikalblockade) wird Prilocain nicht empfohlen, weil es beim Kind eine Methämoglobinämie auslösen kann.",
+  "stillzeit": "Geht nur in geringen Mengen in die Muttermilch über; nach üblicher Anwendung kann weiter gestillt werden.",
+  "hinweise": [
+    "Betäubungscreme rechtzeitig vor dem Eingriff unter einem Folienverband auftragen; die nötige Einwirkzeit beträgt meist mindestens 1 Stunde.",
+    "Bei Säuglingen und Kleinkindern Menge, Fläche und Einwirkzeit der Creme genau einhalten (Gefahr der Methämoglobinämie).",
+    "Nach einer Spinalanästhesie erst wieder Auto fahren, wenn die Wirkung vollständig abgeklungen ist."
+  ],
+  "stand": "2026-10"
+}

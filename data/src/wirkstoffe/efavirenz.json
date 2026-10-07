@@ -1,0 +1,315 @@
+{
+  "id": "efavirenz",
+  "name": "Efavirenz",
+  "synonyme": [
+    "EFV",
+    "Efavirenzum"
+  ],
+  "atc": [
+    "J05AG03"
+  ],
+  "klasse": "Nicht-nukleosidischer Reverse-Transkriptase-Hemmer (NNRTI)",
+  "kurz": "HIV-Medikament für die Kombinationstherapie; häufig Schwindel, Schlafstörungen und lebhafte Träume, vor allem in den ersten Wochen.",
+  "gruppen": [
+    "nnrti",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "qt-verlaengernd",
+    "hepatotoxisch",
+    "krampfschwellensenkend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Stocrin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen, Jugendlichen und Kindern ab 3 Monaten, in Kombination mit anderen antiretroviralen Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung des HI-Virus. Efavirenz bindet nicht-kompetitiv an die Reverse Transkriptase von HIV-1 und blockiert so das Umschreiben der viralen RNA in DNA; gegen HIV-2 wirkt es nicht. Efavirenz wird hauptsächlich über CYP2B6 abgebaut – bei genetisch langsamen Verstoffwechslern sind Spiegel und Nebenwirkungen höher. Es induziert CYP3A4 und CYP2B6 und senkt so die Spiegel vieler anderer Medikamente.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Angeborene QT-Verlängerung, plötzlicher Herztod in der Familie oder andere Zustände mit verlängerter QT-Zeit",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Symptomatische Herzrhythmusstörungen, klinisch relevante Bradykardie oder Herzinsuffizienz mit verminderter Auswurfleistung",
+      "ids": [
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Elektrolytstörungen (z. B. Hypokaliämie, Hypomagnesiämie)",
+      "ids": [
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Psychische Erkrankungen, Depression oder Suizidgedanken in der Vorgeschichte: schwere psychiatrische Nebenwirkungen möglich",
+      "ids": [
+        "depression",
+        "suizidgedanken",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Epilepsie: Krampfanfälle möglich, Spiegel von Antiepileptika kontrollieren",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leberfunktionsstörung, chronische Hepatitis B oder C",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaft vor Beginn ausschliessen, zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Genetisch langsamer Abbau über CYP2B6: höhere Spiegel, verzögert auftretende neurologische Störungen bis Enzephalopathie möglich",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Hautausschlag: bei Blasen, Schleimhautbefall oder Fieber absetzen",
+      "ids": [
+        "hautausschlag",
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "QT-verlängernde Mittel, z. B. Antiarrhythmika der Klassen IA und III, Antipsychotika, Antidepressiva, Makrolide, Fluorchinolone, Azol-Antimykotika, Methadon, bestimmte Malariamittel",
+      "ref": [
+        "gruppe:qt-verlaengernd",
+        "methadon"
+      ],
+      "grund": "Additive QT-Verlängerung – Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes)."
+    },
+    {
+      "text": "Midazolam, Triazolam",
+      "ref": [
+        "midazolam",
+        "triazolam"
+      ],
+      "grund": "Konkurrenz um den Abbau über CYP3A4 – Gefahr verlängerter Sedation und Atemdepression."
+    },
+    {
+      "text": "Ergotalkaloide (z. B. Ergotamin, Dihydroergotamin, Methylergometrin)",
+      "ref": [
+        "gruppe:ergotalkaloide",
+        "methylergometrin"
+      ],
+      "grund": "Konkurrenz um den Abbau über CYP3A4 – Gefahr schwerer Gefässverengung (Ergotismus)."
+    },
+    {
+      "text": "Elbasvir/Grazoprevir (Hepatitis-C-Mittel)",
+      "ref": [],
+      "grund": "Efavirenz senkt deren Spiegel stark – Verlust der Hepatitis-C-Wirkung."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Senkt den Efavirenz-Spiegel – Wirkverlust und Resistenzentwicklung."
+    },
+    {
+      "text": "Voriconazol in Standarddosierung",
+      "ref": [
+        "voriconazol"
+      ],
+      "grund": "Efavirenz senkt den Voriconazol-Spiegel stark, Voriconazol erhöht den Efavirenz-Spiegel – nur mit speziell angepassten Dosen beider Mittel."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel (inkl. Implantat und Notfallpille)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva",
+        "levonorgestrel",
+        "etonogestrel"
+      ],
+      "effekt": "Hormonspiegel sinken – Verhütung unsicher, zusätzlich Kondom; für die Notfallverhütung ärztlich oder in der Apotheke beraten lassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Isavuconazol, Itraconazol, Posaconazol",
+      "ref": [
+        "isavuconazol",
+        "itraconazol",
+        "posaconazol"
+      ],
+      "effekt": "Spiegel der Pilzmittel sinkt deutlich (Isavuconazol laut dessen Fachinformation kontraindiziert) – Alternativen wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "HIV-Proteasehemmer und andere HIV-Mittel (z. B. Atazanavir, Lopinavir/Ritonavir, Doravirin, Rilpivirin)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "atazanavir",
+        "lopinavir-ritonavir",
+        "doravirin",
+        "rilpivirin"
+      ],
+      "effekt": "Spiegel sinken – Dosisanpassung oder andere Kombination; andere NNRTI nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel sinken – engmaschig Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Malariamittel (Artemether/Lumefantrin, Atovaquon/Proguanil)",
+      "ref": [
+        "artemether-lumefantrin",
+        "atovaquon-proguanil"
+      ],
+      "effekt": "Spiegel sinken – Wirkverlust; Kombination möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Rifampicin, Rifabutin",
+      "ref": [
+        "rifampicin",
+        "rifabutin"
+      ],
+      "effekt": "Rifampicin senkt Efavirenz, Efavirenz senkt Rifabutin – Dosisanpassung nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine (Atorvastatin, Simvastatin, Pravastatin)",
+      "ref": [
+        "atorvastatin",
+        "simvastatin",
+        "pravastatin"
+      ],
+      "effekt": "Statin-Spiegel sinkt – Cholesterin kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiepileptika (Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Gegenseitige Spiegelsenkung – Spiegel und Anfallskontrolle überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bupropion, Sertralin",
+      "ref": [
+        "bupropion",
+        "sertralin"
+      ],
+      "effekt": "Spiegel sinken – Wirkung überwachen, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungshemmung verändert – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte zentralnervöse Nebenwirkungen (Schwindel, Benommenheit).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumantagonisten (z. B. Diltiazem, Amlodipin)",
+      "ref": [
+        "gruppe:dhp-calciumantagonisten",
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Spiegel sinken – Blutdruck kontrollieren, Dosis anpassen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautausschlag"
+    ],
+    "haeufig": [
+      "Schwindel, Kopfschmerzen, Benommenheit, Konzentrationsstörungen",
+      "Abnorme Träume, Schlaflosigkeit",
+      "Depression, Angst",
+      "Übelkeit, Erbrechen, Durchfall, Bauchschmerzen",
+      "Erhöhte Leberwerte, erhöhte Triglyceride",
+      "Juckreiz",
+      "Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Psychose, Halluzinationen, Manie, Paranoia, Aggression",
+      "Suizidgedanken, Suizidversuch",
+      "Krampfanfälle, Gleichgewichtsstörungen, Gedächtnisstörungen, Verwirrtheit",
+      "Akute Hepatitis, Pankreatitis",
+      "Erythema multiforme, Stevens-Johnson-Syndrom",
+      "Gynäkomastie (Brustvergrösserung beim Mann), erhöhtes Cholesterin",
+      "Verschwommenes Sehen, Tinnitus, Drehschwindel"
+    ],
+    "selten": [
+      "Leberversagen",
+      "Vollendeter Suizid, Wahnvorstellungen",
+      "Photoallergische Hautentzündung"
+    ],
+    "unbekannt": [
+      "QT-Verlängerung",
+      "Verzögert auftretende Enzephalopathie (Gangunsicherheit, Verwirrtheit) bei hohen Spiegeln"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn der Zustand der Patientin dies zwingend erfordert; im Tierversuch Fehlbildungen, beim Menschen Einzelfälle von Neuralrohrdefekten. Vor Beginn Schwangerschaftstest; zuverlässige Verhütung (zusätzlich Barrieremethode) bis 12 Wochen nach Absetzen.",
+  "stillzeit": "Menschen mit HIV wird generell vom Stillen abgeraten; allenfalls nach eingehender Beratung durch die HIV-Fachperson.",
+  "hinweise": [
+    "Auf nüchternen Magen, am besten vor dem Schlafengehen einnehmen – das vermindert Schwindel und andere zentralnervöse Nebenwirkungen.",
+    "Kann Schwindel und Konzentrationsstörungen verursachen: Vorsicht beim Autofahren und Bedienen von Maschinen; Alkohol meiden.",
+    "Bei depressiver Verstimmung, Suizidgedanken oder Verwirrtheit sofort ärztliche Hilfe holen.",
+    "Zur hormonalen Verhütung immer zusätzlich ein Kondom verwenden."
+  ],
+  "stand": "2026-10"
+}

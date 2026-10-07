@@ -1,0 +1,275 @@
+{
+  "id": "emtricitabin-rilpivirin-tenofovirdisoproxil",
+  "name": "Emtricitabin + Rilpivirin + Tenofovirdisoproxil",
+  "synonyme": [
+    "FTC/RPV/TDF",
+    "Emtricitabine/Rilpivirine/Tenofovir disoproxil"
+  ],
+  "kombinationAus": [
+    "emtricitabin",
+    "rilpivirin",
+    "tenofovirdisoproxil"
+  ],
+  "atc": [
+    "J05AR08"
+  ],
+  "klasse": "HIV-Fixkombination (NNRTI + zwei nukleosidische/nukleotidische Reverse-Transkriptase-Hemmer)",
+  "kurz": "HIV-Kombinationstablette mit drei Wirkstoffen als vollständige Therapie, einmal täglich zu einer Mahlzeit.",
+  "gruppen": [
+    "nnrti",
+    "qt-verlaengernd",
+    "nephrotoxisch"
+  ],
+  "handelsnamen": [
+    "Eviplera"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion bei Erwachsenen ohne bekannte Resistenz gegen NNRTI, Tenofovir oder Emtricitabin und mit einer Viruslast von höchstens 100'000 Kopien/ml",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Drei Wirkstoffe hemmen die Reverse Transkriptase des HI-Virus auf zwei Arten. Rilpivirin (NNRTI) bindet direkt an das Enzym und blockiert das Umschreiben der Virus-RNA in DNA. Emtricitabin (ein Cytidin-Analogon) und Tenofovir (aus dem Prodrug Tenofovirdisoproxil) werden in den Zellen aktiviert und führen nach Einbau in die Virus-DNA zum Kettenabbruch. Emtricitabin und Tenofovir wirken auch gegen Hepatitis B; Rilpivirin braucht für die Aufnahme Magensäure und eine Mahlzeit.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 50 ml/min): Fixkombination nicht empfohlen; Nierenfunktion und Phosphat regelmässig kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Verminderte Knochendichte oder Osteoporose (Tenofovirdisoproxil)",
+      "ids": [
+        "osteoporose"
+      ]
+    },
+    {
+      "text": "Chronische Hepatitis B: nach dem Absetzen schwerer Hepatitis-Schub möglich",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Einnahme von Mitteln mit Risiko für Torsade de pointes",
+      "ids": [
+        "qt-verlaengerung"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (keine Erfahrung) sowie chronische Hepatitis C",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn Entzündungsreaktionen auf bisher unbemerkte Infektionen möglich",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Carbamazepin, Oxcarbazepin, Phenobarbital, Phenytoin, Rifampicin, Rifabutin, Rifapentin",
+      "ref": [
+        "carbamazepin",
+        "oxcarbazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "rifabutin",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "grund": "Sie senken den Rilpivirin-Spiegel stark (CYP3A-Induktion) – Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Protonenpumpenhemmer (z. B. Omeprazol, Esomeprazol, Pantoprazol, Lansoprazol, Rabeprazol)",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "omeprazol",
+        "esomeprazol",
+        "pantoprazol",
+        "lansoprazol",
+        "rabeprazol"
+      ],
+      "grund": "Rilpivirin braucht Magensäure zur Aufnahme – stark verminderte Spiegel, Wirkverlust und Resistenzgefahr."
+    },
+    {
+      "text": "Systemisches Dexamethason (ausser als Einzeldosis)",
+      "ref": [
+        "dexamethason"
+      ],
+      "grund": "Induziert CYP3A und senkt den Rilpivirin-Spiegel – Wirkverlust."
+    },
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Senkt den Rilpivirin-Spiegel – Wirkverlust und Resistenzgefahr."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Foscarnet, Vancomycin)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "amphotericin-b",
+        "foscarnet",
+        "vancomycin"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden durch Tenofovir – gleichzeitige oder kurz vorangehende Anwendung vermeiden, sonst Nierenfunktion wöchentlich kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere NNRTI (Efavirenz, Etravirin, Nevirapin, Doravirin)",
+      "ref": [
+        "gruppe:nnrti"
+      ],
+      "effekt": "Kein Zusatznutzen, ungünstige Spiegelveränderungen – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lamivudin und Arzneimittel mit gleichen Wirkstoffen",
+      "ref": [
+        "lamivudin",
+        "emtricitabin",
+        "tenofovirdisoproxil",
+        "tenofoviralafenamid"
+      ],
+      "effekt": "Gleichartige bzw. doppelte Wirkstoffe – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "H2-Blocker (z. B. Famotidin)",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Verminderte Aufnahme von Rilpivirin – H2-Blocker nur mindestens 12 Stunden vor oder 4 Stunden nach der Tablette einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme von Rilpivirin – Antazida nur mindestens 2 Stunden vor oder 4 Stunden nach der Tablette einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clarithromycin und Erythromycin",
+      "ref": [
+        "clarithromycin",
+        "erythromycin"
+      ],
+      "effekt": "Rilpivirin-Spiegel steigt (QT-Risiko) – Azithromycin bevorzugen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung möglich – Vorsicht, ggf. EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR in hoher Dosis oder mehrere NSAR",
+      "ref": [
+        "gruppe:nsar"
+      ],
+      "effekt": "Bei Risikopatienten Fälle von akutem Nierenversagen – Alternativen bevorzugen, Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hepatitis-C-Mittel mit Ledipasvir oder Velpatasvir",
+      "ref": [
+        "ledipasvir-sofosbuvir",
+        "sofosbuvir-velpatasvir",
+        "sofosbuvir-velpatasvir-voxilaprevir"
+      ],
+      "effekt": "Tenofovir-Spiegel steigt – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Azol-Antimykotika (z. B. Ketoconazol, Itraconazol, Fluconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Rilpivirin-Spiegel steigt, Ketoconazol-Spiegel kann sinken – klinisch überwachen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Methadon",
+      "ref": [
+        "methadon"
+      ],
+      "effekt": "Methadon-Spiegel kann leicht sinken – auf Entzugszeichen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen, Schwindel",
+      "Schlaflosigkeit",
+      "Übelkeit, Durchfall, Erbrechen",
+      "Hautausschlag",
+      "Erhöhtes Cholesterin und LDL, Hypophosphatämie (Phosphatmangel)",
+      "Erhöhte Leberwerte und Pankreas-Amylase",
+      "Erhöhte Kreatinkinase (Muskelenzym)",
+      "Schwäche (Asthenie)"
+    ],
+    "haeufig": [
+      "Depression, depressive Verstimmung, Schlafstörungen, abnorme Träume",
+      "Schläfrigkeit",
+      "Bauchschmerzen, Blähungen, Mundtrockenheit, Verdauungsbeschwerden",
+      "Verminderter Appetit, erhöhte Triglyceride und Blutzucker",
+      "Juckreiz, Nesselsucht, Hautverfärbung",
+      "Neutropenie, allergische Reaktionen",
+      "Bilirubinanstieg",
+      "Müdigkeit, Schmerzen"
+    ],
+    "gelegentlich": [
+      "Anämie",
+      "Immunrekonstitutionssyndrom",
+      "Schwere Hautreaktionen mit Allgemeinsymptomen, Angioödem",
+      "Proximale Tubulopathie der Niere einschliesslich Fanconi-Syndrom, Kreatininanstieg, Eiweiss im Urin",
+      "Rhabdomyolyse, Muskelschwäche",
+      "Kaliummangel"
+    ],
+    "selten": [
+      "Laktatazidose (Übersäuerung des Blutes)",
+      "Fettleber, Hepatitis",
+      "Akutes Nierenversagen, akute Tubulusnekrose, nephrogener Diabetes insipidus",
+      "Osteomalazie (Knochenerweichung) mit Knochenschmerzen und Brüchen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nur anwenden, wenn der Nutzen das mögliche Risiko rechtfertigt; die Rilpivirin-Spiegel sind in der Schwangerschaft tiefer – Viruslast engmaschig kontrollieren.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Einmal täglich zu einer Mahlzeit einnehmen – ein Proteindrink allein genügt nicht für eine ausreichende Aufnahme.",
+    "Keine Protonenpumpenhemmer (z. B. Omeprazol, Pantoprazol); Antazida und H2-Blocker nur mit dem vorgeschriebenen Zeitabstand.",
+    "Nierenfunktion und Phosphat werden regelmässig kontrolliert; bei Hepatitis B nicht eigenmächtig absetzen."
+  ],
+  "stand": "2026-10"
+}

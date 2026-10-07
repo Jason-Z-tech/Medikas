@@ -1,0 +1,243 @@
+{
+  "id": "aminosaeuren-glucose-lipide",
+  "name": "Aminosäuren + Glucose + Lipide",
+  "synonyme": [
+    "Dreikammerbeutel",
+    "Totale parenterale Ernährung",
+    "TPN",
+    "All-in-one-Ernährung",
+    "Parenteral nutrition"
+  ],
+  "kombinationAus": [
+    "aminosaeuren",
+    "glucose",
+    "lipidemulsion"
+  ],
+  "atc": [
+    "B05BA10"
+  ],
+  "klasse": "Parenterale Ernährung (Mehrkammerbeutel mit Aminosäuren, Glucose, Fettemulsion und meist Elektrolyten)",
+  "kurz": "Künstliche Ernährung über die Vene, wenn Essen oder Sondennahrung nicht möglich oder nicht ausreichend sind.",
+  "gruppen": [
+    "hyperglykaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "SmofKabiven",
+    "Olimel",
+    "Omegaflex",
+    "Nutriflex Lipid",
+    "Numeta"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Emulsion zur Infusion im Mehrkammerbeutel"
+  ],
+  "indikationen": [
+    {
+      "text": "Parenterale Ernährung (über die Vene), wenn eine Ernährung über den Mund oder eine Sonde nicht möglich, ungenügend oder kontraindiziert ist; je nach Präparat für Erwachsene oder speziell für Früh-, Neugeborene und Kinder (z. B. Numeta)",
+      "ids": [
+        "mangelernaehrung",
+        "malabsorption"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Versorgt den Körper über die Vene mit allen Hauptnährstoffen, wenn der Darm nicht genutzt werden kann. Glucose und Fettemulsion liefern Energie; die Fettemulsion (je nach Präparat aus Soja-, Oliven-, Kokos- und Fischöl) liefert zudem essenzielle Fettsäuren. Die Aminosäuren dienen als Bausteine für den Aufbau und Erhalt von Körpereiweiss. Die meisten Beutel enthalten zusätzlich Elektrolyte; Vitamine und Spurenelemente müssen separat zugesetzt werden.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Ei-, Soja-, Erdnuss- oder (bei fischölhaltigen Präparaten) Fischeiweiss",
+      "ids": [
+        "erdnuss-sojaallergie",
+        "nahrungsmittelallergie",
+        "latexallergie"
+      ]
+    },
+    {
+      "text": "Schwere Hyperlipidämie (stark erhöhte Blutfette) und Hämophagozytose-Syndrom",
+      "ids": [
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz ohne Möglichkeit zur Dialyse oder Hämofiltration",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Blutgerinnungsstörungen",
+      "ids": [
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Angeborene Störungen des Aminosäurestoffwechsels",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    },
+    {
+      "text": "Unkontrollierte Hyperglykämie sowie krankhaft erhöhte Blutwerte eines enthaltenen Elektrolyts",
+      "ids": [
+        "diabetes",
+        "hyperkaliaemie",
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Akuter Schock und instabile Zustände (z. B. frischer Herzinfarkt oder Schlaganfall, schwere Sepsis, metabolische Azidose, akutes Lungenödem, Überwässerung, dekompensierte Herzinsuffizienz)",
+      "ids": [
+        "schock",
+        "herzinfarkt",
+        "schlaganfall",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder unter 2 Jahren bei Präparaten für Erwachsene (für diese Altersgruppe gibt es eigene Präparate)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Stark mangelernährte Personen: langsamer Aufbau wegen Gefahr eines Refeeding-Syndroms (Abfall von Phosphat, Kalium und Magnesium)",
+      "ids": [
+        "mangelernaehrung",
+        "untergewicht"
+      ]
+    },
+    {
+      "text": "Diabetes und Stressstoffwechsel: Blutzucker regelmässig kontrollieren, oft ist Insulin nötig",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Fettstoffwechselstörungen, Pankreatitis oder Sepsis: Triglyceride überwachen (Gefahr eines Fettüberladungssyndroms)",
+      "ids": [
+        "hypertriglyzeridaemie",
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Herz- oder Niereninsuffizienz: Flüssigkeits- und Elektrolythaushalt eng überwachen",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen und lange Behandlungsdauer: Leberwerte kontrollieren (Gallenstau und Leberverfettung möglich)",
+      "ids": [
+        "leberinsuffizienz",
+        "cholestase",
+        "fettleber"
+      ]
+    },
+    {
+      "text": "Infektionsrisiko über den Venenkatheter: streng steriles Vorgehen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ceftriaxon bei Neugeborenen bis 28 Tage (calciumhaltige Präparate wie Numeta), auch über getrennte Infusionsleitungen",
+      "ref": [
+        "ceftriaxon"
+      ],
+      "grund": "Ceftriaxon bildet mit Calcium unlösliche Ablagerungen, die bei Neugeborenen in Lunge und Niere zu tödlichen Komplikationen führten."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Ceftriaxon (ausserhalb der Neugeborenenzeit)",
+      "ref": [
+        "ceftriaxon"
+      ],
+      "effekt": "Nicht gleichzeitig über dieselbe Leitung geben (Ausfällung mit Calcium) – Leitung zwischen den Infusionen gründlich spülen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumerhöhende Mittel (z. B. kaliumsparende Diuretika, ACE-Hemmer, Sartane, Ciclosporin, Tacrolimus) bei kaliumhaltigen Beuteln",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Gefahr einer Hyperkaliämie – Kalium im Blut kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Pflanzenöle enthalten Vitamin K1 und können die Gerinnungshemmung abschwächen – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin",
+      "ref": [
+        "gruppe:insuline"
+      ],
+      "effekt": "Insulin beeinflusst den Fettabbau (Lipase); unter Glucosezufuhr steigt der Insulinbedarf oft – Blutzucker engmaschig messen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Heparin",
+      "ref": [
+        "gruppe:heparine"
+      ],
+      "effekt": "Heparin setzt vorübergehend Lipoproteinlipase frei; die Fettklärung kann kurzzeitig verändert sein – klinisch meist ohne Bedeutung.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Leichter Anstieg der Körpertemperatur",
+      "Thrombophlebitis (Venenentzündung) bei Gabe über eine periphere Vene"
+    ],
+    "gelegentlich": [
+      "Erhöhte Leberwerte",
+      "Appetitlosigkeit, Übelkeit, Erbrechen",
+      "Schüttelfrost, Schwindel, Kopfschmerzen"
+    ],
+    "selten": [
+      "Überempfindlichkeitsreaktionen bis Anaphylaxie (Hautausschlag, Nesselsucht, Flush)",
+      "Tachykardie (Herzrasen), Atemnot",
+      "Blutdruckabfall oder -anstieg",
+      "Schmerzen in Nacken, Rücken, Knochen, Brust oder Lenden",
+      "Blässe, Zyanose (Blaufärbung), Hitze- oder Kältegefühl"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Fettüberladungssyndrom (Fieber, Leber- und Milzvergrösserung, Gerinnungsstörungen, Organversagen)",
+      "Hyperglykämie (erhöhter Blutzucker)",
+      "Refeeding-Syndrom bei stark Mangelernährten",
+      "Lungenembolien durch Ausfällungen (Calciumphosphat)",
+      "Leberfunktionsstörungen und Gallenstau bei längerer Anwendung",
+      "Infektionen und Sepsis über den Katheter"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; bei Bedarf nach ärztlicher Abwägung anwendbar, wenn die Ernährung anders nicht gesichert werden kann.",
+  "stillzeit": "Bei medizinischer Notwendigkeit nach ärztlicher Abwägung anwendbar.",
+  "hinweise": [
+    "Wird im Spital oder bei der Heimernährung durch geschultes Personal angewendet; vor Gebrauch die Kammern durch Öffnen der Trennnähte mischen.",
+    "Regelmässige Laborkontrollen (Blutzucker, Elektrolyte, Triglyceride, Leberwerte) und Flüssigkeitsbilanz.",
+    "Präparate mit hoher Osmolarität nur über einen zentralen Venenkatheter geben; für periphere Venen gibt es eigene Beutel.",
+    "Vitamine und Spurenelemente separat zusetzen; Zusätze nur nach geprüfter Verträglichkeit."
+  ],
+  "stand": "2026-10"
+}

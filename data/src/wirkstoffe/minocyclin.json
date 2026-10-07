@@ -1,0 +1,223 @@
+{
+  "id": "minocyclin",
+  "name": "Minocyclin",
+  "synonyme": [
+    "Minocycline"
+  ],
+  "atc": [
+    "J01AA08"
+  ],
+  "klasse": "Tetracyclin-Antibiotikum",
+  "kurz": "Antibiotikum aus der Gruppe der Tetracycline gegen entzündliche Akne und bakterielle Infektionen.",
+  "gruppen": [
+    "tetracycline",
+    "photosensibilisierend",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Minocin"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Mittelschwere bis schwere entzündliche Akne",
+      "ids": [
+        "akne"
+      ]
+    },
+    {
+      "text": "Infektionen durch empfindliche Bakterien, z. B. der Atemwege, der Haut sowie der Harn- und Geschlechtsorgane",
+      "ids": [
+        "bakterielle-infektion",
+        "atemwegsinfekt",
+        "hautinfektion",
+        "harnwegsinfekt",
+        "geschlechtskrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Bakterien. Minocyclin bindet an die 30S-Untereinheit der bakteriellen Ribosomen und blockiert die Anlagerung der Transfer-RNA, sodass die Bakterien keine Eiweisse mehr bilden können (bakteriostatisch). Es ist stärker fettlöslich als ältere Tetracycline, wird gut aufgenommen und dringt gut in Haut, Talgdrüsen und das Nervensystem ein – daher wirkt es bei Akne, verursacht aber auch häufiger Schwindel.",
+  "kontraindikationen": [
+    {
+      "text": "Kinder unter 8 Jahren (bleibende Zahnverfärbung, Störung des Knochenwachstums)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (Nierenversagen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Allergie gegen andere Tetracycline (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leberfunktion; selten schwere, auch autoimmune Leberentzündung",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes: Minocyclin kann ein Lupus-ähnliches Syndrom auslösen oder verschlimmern",
+      "ids": [
+        "lupus",
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis (Muskelschwäche kann zunehmen)",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwindel und Benommenheit: Vorsicht beim Autofahren und Bedienen von Maschinen",
+      "ids": [
+        "autofahren",
+        "schwindel"
+      ]
+    },
+    {
+      "text": "Schwere Überempfindlichkeitsreaktionen mit Fieber, Ausschlag und Organbeteiligung (DRESS) – sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Kopfschmerzen mit Sehstörungen können auf einen erhöhten Hirndruck hinweisen – sofort ärztlich abklären",
+      "ids": [
+        "sehstoerung",
+        "kopfschmerzen"
+      ]
+    },
+    {
+      "text": "Längere Behandlung: Verfärbungen von Haut, Nägeln, Zähnen und Schleimhäuten möglich; Leberwerte und Blutbild kontrollieren",
+      "ids": []
+    },
+    {
+      "text": "Lichtempfindlichkeit: starke Sonne und Solarium meiden",
+      "ids": [
+        "sonnenbrand"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Systemische Retinoide (z. B. Isotretinoin, Acitretin)",
+      "ref": [
+        "gruppe:retinoide-systemisch"
+      ],
+      "grund": "Beide können den Hirndruck erhöhen – Gefahr eines Pseudotumor cerebri (gutartige Drucksteigerung im Schädel)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mehrwertige Kationen: Antazida, Eisen-, Calcium-, Magnesium- und Zinkpräparate",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida",
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Bilden schwer lösliche Komplexe – Minocyclin wird schlechter aufgenommen. Mindestens 2–3 Stunden Abstand einhalten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ergotalkaloide (Mutterkornalkaloide)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Erhöhtes Risiko für Ergotismus (Durchblutungsstörungen) – Kombination vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Penicilline",
+      "ref": [
+        "gruppe:penicilline"
+      ],
+      "effekt": "Tetracycline können die Wirkung von Penicillinen abschwächen – Kombination vermeiden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Abgeschwächte Verhütungswirkung in Einzelfällen nicht auszuschliessen, besonders bei Durchfall oder Erbrechen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [
+      "Schwindel, Benommenheit, Drehschwindel",
+      "Kopfschmerzen",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Lichtempfindlichkeit, Hautausschlag, Juckreiz",
+      "Verfärbung von Haut, Nägeln und Zähnen (Hyperpigmentierung)",
+      "Leberentzündung, erhöhte Leberwerte",
+      "Lupus-ähnliches Syndrom mit Gelenk- und Muskelschmerzen",
+      "Blutbildveränderungen (Leukopenie, Neutropenie, Thrombozytopenie)"
+    ],
+    "sehrSelten": [
+      "Autoimmune Leberentzündung, Leberversagen",
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautablösung)"
+    ],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "DRESS (schwere Arzneimittelreaktion mit Ausschlag, Fieber und Organbeteiligung)",
+      "Erhöhter Hirndruck (Pseudotumor cerebri)",
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Agranulozytose, hämolytische Anämie"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert: Tetracycline können beim Ungeborenen bleibende Zahnverfärbungen und Störungen des Knochenwachstums verursachen.",
+  "stillzeit": "Kontraindiziert: Minocyclin geht in die Muttermilch über.",
+  "hinweise": [
+    "Mit einem grossen Glas Wasser in aufrechter Haltung einnehmen, nicht direkt vor dem Schlafengehen.",
+    "Antazida, Eisen-, Calcium-, Magnesium- und Zinkpräparate mit 2–3 Stunden Abstand einnehmen.",
+    "Schwindel kann die Fahrtüchtigkeit beeinträchtigen.",
+    "Hautausschlag mit Fieber, Gelbsucht, Gelenkschmerzen oder anhaltende Kopfschmerzen sofort ärztlich melden; bei längerer Behandlung Leberwerte kontrollieren."
+  ],
+  "stand": "2026-10"
+}

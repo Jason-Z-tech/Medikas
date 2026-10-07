@@ -1,0 +1,183 @@
+{
+  "id": "azilsartan",
+  "name": "Azilsartan",
+  "synonyme": [
+    "Azilsartan medoxomil",
+    "Azilsartanmedoxomil-Kalium"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C09CA09"
+  ],
+  "klasse": "Angiotensin-II-Rezeptorblocker (Sartan)",
+  "kurz": "Blutdrucksenker aus der Gruppe der Sartane (Angiotensin-II-Rezeptorblocker).",
+  "gruppen": [
+    "sartane",
+    "raas-hemmer",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend",
+    "lithium-spiegel-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Edarbi"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Essenzielle Hypertonie (Bluthochdruck) bei Erwachsenen",
+      "ids": [
+        "hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Blutdruck, indem es die Wirkung des gefässverengenden Hormons Angiotensin II blockiert. Azilsartanmedoxomil ist ein Prodrug, das im Magen-Darm-Trakt rasch zum wirksamen Azilsartan gespalten wird. Azilsartan blockiert selektiv und sehr fest den Angiotensin-II-Typ-1-Rezeptor (AT1); dadurch erweitern sich die Gefässe und die Aldosteronausschüttung sinkt. Anders als bei ACE-Hemmern wird der Abbau von Bradykinin nicht beeinflusst, weshalb Reizhusten kaum auftritt.",
+  "kontraindikationen": [
+    {
+      "text": "Zweites und drittes Schwangerschaftsdrittel",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwere Herzinsuffizienz, schwere Niereninsuffizienz oder Nierenarterienstenose: Gefahr von Blutdruckabfall und Nierenversagen",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz",
+        "nierenarterienstenose"
+      ]
+    },
+    {
+      "text": "Salz- oder Flüssigkeitsmangel (z. B. hoch dosierte Diuretika, Erbrechen, Durchfall): starker Blutdruckabfall zu Beginn",
+      "ids": [
+        "dehydratation",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Hyperkaliämie-Risiko, besonders bei Niereninsuffizienz und Diabetes",
+      "ids": [
+        "hyperkaliaemie",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Primärer Hyperaldosteronismus: Behandlung nicht empfohlen",
+      "ids": [
+        "hyperaldosteronismus"
+      ]
+    },
+    {
+      "text": "Aorten- oder Mitralklappenstenose, hypertrophe obstruktive Kardiomyopathie",
+      "ids": [
+        "herzklappenerkrankung",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: keine Erfahrungen, nicht empfohlen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Nach Nierentransplantation: keine Erfahrungen",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Aliskiren bei Diabetes oder eingeschränkter Nierenfunktion (GFR unter 60 ml/min)",
+      "ref": [
+        "aliskiren"
+      ],
+      "grund": "Die doppelte Hemmung des Renin-Angiotensin-Systems erhöht das Risiko für Hypotonie, Hyperkaliämie und Nierenversagen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Lithiumspiegel steigen bis in den toxischen Bereich – Kombination nicht empfohlen; falls nötig Lithiumspiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Kaliumsparende Diuretika, Kaliumpräparate, kaliumhaltige Salzersatzmittel, Heparin und andere kaliumerhöhende Mittel",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten",
+        "gruppe:kaliumpraeparate",
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Gefahr einer Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "ACE-Hemmer (doppelte RAAS-Hemmung)",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Mehr Hypotonie, Hyperkaliämie und Nierenversagen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "NSAR inkl. COX-2-Hemmer und ASS in entzündungshemmender Dosis",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Abgeschwächte Blutdrucksenkung und Risiko einer Nierenfunktionsverschlechterung, besonders bei älteren oder ausgetrockneten Personen – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika und andere Blutdrucksenker",
+      "ref": [
+        "gruppe:diuretika",
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung, besonders zu Beginn bei Flüssigkeitsmangel – Blutdruck kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Schwindel",
+      "Durchfall",
+      "Erhöhte Kreatinkinase (CK) im Blut"
+    ],
+    "gelegentlich": [
+      "Hypotonie (tiefer Blutdruck)",
+      "Übelkeit",
+      "Hautausschlag, Juckreiz",
+      "Muskelkrämpfe",
+      "Müdigkeit",
+      "Periphere Ödeme (Schwellungen an Beinen und Füssen)",
+      "Anstieg von Kreatinin und Harnsäure im Blut"
+    ],
+    "selten": [
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge oder Rachen)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Im 1. Drittel nicht empfohlen, im 2. und 3. Drittel kontraindiziert (Schädigung der kindlichen Nieren, Fruchtwassermangel, Verknöcherungsstörungen des Schädels). Bei Kinderwunsch oder Schwangerschaft auf ein anderes Mittel umstellen.",
+  "stillzeit": "Keine Daten; nicht empfohlen – besser untersuchte Alternativen wählen, besonders bei Neu- und Frühgeborenen.",
+  "hinweise": [
+    "Einmal täglich, unabhängig von den Mahlzeiten einnehmen.",
+    "Kalium und Nierenwerte regelmässig kontrollieren; kaliumhaltige Salzersatzmittel meiden.",
+    "Zu Beginn sind Schwindel und Benommenheit möglich – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,204 @@
+{
+  "id": "vemurafenib",
+  "name": "Vemurafenib",
+  "synonyme": [
+    "PLX4032"
+  ],
+  "atc": [
+    "L01EC01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BRAF-Hemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei fortgeschrittenem schwarzem Hautkrebs (Melanom) mit BRAF-V600-Mutation.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "qt-verlaengernd",
+    "photosensibilisierend",
+    "cyp1a2-hemmer",
+    "p-gp-hemmer",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Zelboraf"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Nicht operierbares oder metastasiertes Melanom mit BRAF-V600-Mutation bei Erwachsenen, allein oder in Kombination mit Cobimetinib",
+      "ids": [
+        "hautkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt ein krankhaft dauerhaft eingeschaltetes Wachstumssignal in Melanomzellen. Vemurafenib blockiert die mutierte Serin-Threonin-Kinase BRAF (v. a. V600E) und damit den MAPK-Signalweg (RAF-MEK-ERK); die Tumorzellen hören auf zu wachsen und sterben ab. In Zellen ohne BRAF-Mutation kann es den Signalweg paradoxerweise aktivieren – eine Erklärung für neue Hauttumoren. Die Kombination mit dem MEK-Hemmer Cobimetinib verstärkt die Wirkung und vermindert diese Hautnebenwirkungen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Verlängerte QT-Zeit, Kalium- oder Magnesiummangel (bei QTc über 500 ms nicht beginnen; EKG-Kontrollen)",
+      "ids": [
+        "qt-verlaengerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Neue Hauttumoren (Plattenepithelkarzinome, neue Melanome) und Tumoren im Kopf-Hals-Bereich – regelmässige Haut- und Schleimhautkontrollen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Starke Lichtempfindlichkeit",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion; Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen in der Vorgeschichte (Stevens-Johnson-Syndrom, DRESS)",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Augenentzündung (Uveitis) – Sehstörungen melden",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin kann steigen)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Strahlentherapie vor, während oder nach der Behandlung (verstärkte Strahlenreaktionen)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP1A2-Substrate mit enger therapeutischer Breite (z. B. Tizanidin, Theophyllin, Clozapin)",
+      "ref": [
+        "gruppe:cyp1a2-substrate",
+        "tizanidin",
+        "theophyllin"
+      ],
+      "effekt": "Vemurafenib hemmt CYP1A2 – Spiegel steigen stark (Tizanidin etwa 5-fach); vermeiden oder Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Vemurafenib-Spiegel sinkt (mit Rifampicin etwa um 40 %) – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ipilimumab",
+      "ref": [
+        "ipilimumab"
+      ],
+      "effekt": "Ausgeprägte Leberwerterhöhungen – gleichzeitige Gabe nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte QT-Verlängerung – möglichst vermeiden, EKG kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel steigen (Digoxin etwa +80 %) – Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Wirkung kann zunehmen – INR häufiger kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Vemurafenib-Spiegel kann steigen – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate und hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Vemurafenib induziert CYP3A4 schwach – Wirkung kann abnehmen; zusätzlich nichthormonal verhüten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Gelenkschmerzen, Muskelschmerzen, Müdigkeit",
+      "Hautausschlag, Juckreiz, Lichtempfindlichkeit, Sonnenbrand",
+      "Plattenepithelkarzinom der Haut, Keratoakanthom, Hautpapillome, seborrhoische Keratose",
+      "Haarausfall, trockene Haut, Hyperkeratose (Hautverhornung), Hand-Fuss-Syndrom",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung",
+      "Appetitlosigkeit, Kopfschmerzen, Geschmacksstörung",
+      "Fieber, Wassereinlagerungen in den Beinen"
+    ],
+    "haeufig": [
+      "Basalzellkarzinom (heller Hautkrebs), neues Melanom",
+      "QT-Verlängerung im EKG",
+      "Erhöhte Leberwerte",
+      "Gesichtsnervenlähmung (Fazialisparese)",
+      "Uveitis (Entzündung im Auge)",
+      "Pannikulitis, Erythema nodosum (Entzündung des Unterhautfettgewebes)",
+      "Arthritis, Follikulitis"
+    ],
+    "gelegentlich": [
+      "Plattenepithelkarzinome ausserhalb der Haut (z. B. im Kopf-Hals-Bereich)",
+      "Netzhautvenenverschluss",
+      "Leberschädigung",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "DRESS (schwere Arzneimittelreaktion mit Hautausschlag und Organbeteiligung)"
+    ],
+    "unbekannt": [
+      "Akute Nierenschädigung",
+      "Verstärkte Strahlenschäden (Radiation-Recall)",
+      "Fortschreiten bestehender Tumoren mit RAS-Mutation"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt klar das Risiko. Frauen im gebärfähigen Alter müssen während und mindestens 6 Monate nach der Behandlung zuverlässig verhüten; hormonale Verhütungsmittel können weniger wirksam sein.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich im Abstand von etwa 12 Stunden einnehmen; Tabletten ganz schlucken.",
+    "Sonne meiden, schützende Kleidung und Breitband-Sonnenschutz (UVA/UVB) sowie Lippenschutz verwenden.",
+    "Vor Beginn und regelmässig während der Behandlung Haut, Kopf-Hals-Bereich, EKG und Leberwerte kontrollieren lassen; neue Hautveränderungen melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,208 @@
+{
+  "id": "pitavastatin",
+  "name": "Pitavastatin",
+  "synonyme": [
+    "Pitavastatin-Calcium",
+    "Pitavastatinum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C10AA08"
+  ],
+  "klasse": "HMG-CoA-Reduktase-Hemmer (Statin)",
+  "kurz": "Cholesterinsenker aus der Gruppe der Statine.",
+  "gruppen": [
+    "statine",
+    "myotoxisch"
+  ],
+  "handelsnamen": [
+    "Livazo"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Primäre Hypercholesterinämie (einschliesslich der heterozygoten familiären Form) und kombinierte Dyslipidämie bei Erwachsenen, wenn Ernährung und andere Massnahmen nicht genügen",
+      "ids": [
+        "hypercholesterinaemie",
+        "familiaere-hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt das LDL-Cholesterin, indem es die Cholesterinbildung in der Leber hemmt. Pitavastatin hemmt kompetitiv die HMG-CoA-Reduktase; die Leber bildet dadurch mehr LDL-Rezeptoren und nimmt mehr LDL-Cholesterin aus dem Blut auf. Es wird über den Transporter OATP1B1 in die Leber aufgenommen, kaum über Cytochrom-P450-Enzyme abgebaut und hauptsächlich als Glucuronid ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberinsuffizienz, aktive Lebererkrankung oder ungeklärte, anhaltende Erhöhung der Leberwerte",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Myopathie (Muskelerkrankung)",
+      "ids": [
+        "muskelerkrankung"
+      ]
+    },
+    {
+      "text": "Schwangerschaft, Stillzeit und Frauen im gebärfähigen Alter ohne zuverlässige Verhütung",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit",
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Risikofaktoren für Muskelschäden (Rhabdomyolyse): Niereninsuffizienz, Schilddrüsenunterfunktion, Muskelerkrankung in der eigenen oder familiären Vorgeschichte, Alkoholmissbrauch, Alter über 70 Jahre",
+      "ids": [
+        "niereninsuffizienz",
+        "hypothyreose",
+        "alkoholkonsum",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Lebererkrankung in der Vorgeschichte oder hoher Alkoholkonsum: Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Erhöhtes Diabetesrisiko (erhöhter Blutzucker, Übergewicht, metabolisches Syndrom): Blutzucker überwachen",
+      "ids": [
+        "diabetes",
+        "metabolisches-syndrom"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung: bei Husten und Atemnot abklären, gegebenenfalls absetzen",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: Verschlechterung möglich",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz: nur mit Vorsicht und niedriger Dosis",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "grund": "Ciclosporin hemmt die Aufnahme von Pitavastatin in die Leber (OATP1B1) und erhöht dessen Spiegel um ein Mehrfaches – hohes Risiko für Muskelschäden."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Fusidinsäure (systemisch)",
+      "ref": [
+        "fusidinsaeure"
+      ],
+      "effekt": "Schwere Rhabdomyolyse beschrieben – Statin während der Fusidinsäure-Behandlung und bis 7 Tage danach pausieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Fibrate (insbesondere Gemfibrozil)",
+      "ref": [
+        "gruppe:fibrate",
+        "gemfibrozil"
+      ],
+      "effekt": "Erhöhtes Risiko für Muskelschäden; Gemfibrozil erhöht zudem die Pitavastatin-Spiegel – nur mit Vorsicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Erythromycin",
+      "ref": [
+        "erythromycin"
+      ],
+      "effekt": "Pitavastatin-Spiegel steigen auf fast das Dreifache – Pitavastatin während der Antibiotika-Behandlung pausieren oder Dosis senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "HIV-Proteasehemmer (z. B. Lopinavir/Ritonavir, Atazanavir)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Veränderte Pitavastatin-Spiegel möglich – Vorsicht, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere OATP1B-Hemmer (z. B. Rifampicin)",
+      "ref": [
+        "gruppe:oatp1b-hemmer",
+        "rifampicin"
+      ],
+      "effekt": "Pitavastatin-Spiegel steigen – Vorsicht, auf Muskelbeschwerden achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR bei Beginn und bei Dosisänderung kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Verstopfung, Durchfall",
+      "Dyspepsie (Verdauungsbeschwerden), Übelkeit",
+      "Myalgie (Muskelschmerzen), Arthralgie (Gelenkschmerzen)"
+    ],
+    "gelegentlich": [
+      "Anämie (Blutarmut), Appetitlosigkeit",
+      "Schlaflosigkeit",
+      "Schwindel, Geschmacksstörungen, Schläfrigkeit",
+      "Tinnitus (Ohrensausen)",
+      "Bauchschmerzen, Mundtrockenheit, Erbrechen",
+      "Juckreiz, Hautausschlag",
+      "Muskelkrämpfe, häufiges Wasserlassen",
+      "Müdigkeit, Schwäche, Ödeme"
+    ],
+    "selten": [
+      "Verminderte Sehschärfe",
+      "Akute Pankreatitis",
+      "Gelbsucht durch Gallenstau, Leberfunktionsstörung",
+      "Nesselsucht, Hautrötung",
+      "Myopathie, Rhabdomyolyse (Muskelzerfall)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Immunvermittelte nekrotisierende Myopathie",
+      "Diabetes mellitus",
+      "Interstitielle Lungenerkrankung",
+      "Depression, Schlafstörungen",
+      "Gedächtnisstörungen",
+      "Myasthenia gravis"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert; Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Einmal täglich zu beliebiger Tageszeit, mit oder ohne Mahlzeit einnehmen.",
+    "Ungeklärte Muskelschmerzen, -schwäche oder -krämpfe, besonders mit Fieber oder dunklem Urin, sofort ärztlich melden.",
+    "Leberwerte vor Beginn und bei Bedarf kontrollieren."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,196 @@
+{
+  "id": "chlorprothixen",
+  "name": "Chlorprothixen",
+  "synonyme": [
+    "Chlorprothixene"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N05AF03"
+  ],
+  "klasse": "Antipsychotikum (Thioxanthen, niederpotent)",
+  "kurz": "Stark beruhigendes Neuroleptikum gegen Unruhe- und Erregungszustände bei Psychosen und manischen Zuständen.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "zns-daempfend",
+    "anticholinerg",
+    "qt-verlaengernd",
+    "blutdrucksenkend",
+    "krampfschwellensenkend"
+  ],
+  "handelsnamen": [
+    "Truxal"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Psychosen wie Schizophrenie sowie manische Zustände, besonders mit Unruhe und Erregung",
+      "ids": [
+        "schizophrenie",
+        "bipolare-stoerung"
+      ]
+    },
+    {
+      "text": "Psychomotorische Unruhe- und Erregungszustände",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Beruhigt und dämpft Erregung und psychotische Symptome. Chlorprothixen ist ein niederpotentes Thioxanthen-Neuroleptikum: Es blockiert Dopamin-D1- und D2-Rezeptoren nur mässig, dafür stark Histamin-H1-, Alpha-1-adrenerge, Muskarin- und Serotonin-5-HT2-Rezeptoren. Daraus ergeben sich die ausgeprägte Sedierung, der Blutdruckabfall und anticholinerge Wirkungen, während Bewegungsstörungen seltener sind als bei hochpotenten Neuroleptika.",
+  "kontraindikationen": [
+    {
+      "text": "Kreislaufkollaps, Bewusstseinstrübung jeglicher Ursache (z. B. Vergiftung mit Alkohol, Schlafmitteln oder Opioiden), Koma",
+      "ids": [
+        "schock",
+        "bewusstseinsstoerung",
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzkrankheiten, verlängerte QT-Zeit, langsamer Puls oder Kaliummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom oder Prostatavergrösserung mit Restharn (anticholinerge Wirkung)",
+      "ids": [
+        "engwinkelglaukom",
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Ältere Menschen, besonders mit Demenz (Sturzgefahr, Verwirrtheit, erhöhte Sterblichkeit unter Antipsychotika)",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Epilepsie (Senkung der Krampfschwelle)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann ansteigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Methadon, Makrolide, andere Antipsychotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung mit Gefahr lebensbedrohlicher Rhythmusstörungen – möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (z. B. Benzodiazepine, Opioide, Schlafmittel) und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Sedierung und Atemdämpfung – Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel (z. B. Amitriptylin, Biperiden, Oxybutynin)",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Mehr Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levodopa und Dopaminagonisten",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Wirkungsabschwächung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Erhöhtes Risiko für Neurotoxizität und Bewegungsstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Diuretika, Abführmittel)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko für Rhythmusstörungen – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Starke Müdigkeit, Benommenheit, Schwindel",
+      "Mundtrockenheit, Verstopfung, Sehstörungen, Harnverhalt (anticholinerge Wirkungen)",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen), Herzrasen",
+      "Gewichtszunahme, vermehrtes Schwitzen",
+      "Bewegungsstörungen (Zittern, Muskelsteifigkeit, Sitzunruhe), Spätdyskinesien, Krampfanfälle",
+      "QT-Verlängerung, Torsade de pointes (lebensgefährliche Herzrhythmusstörung)",
+      "Blutbildveränderungen bis Agranulozytose, Gelbsucht",
+      "Malignes neuroleptisches Syndrom (Fieber, Muskelsteifigkeit, Bewusstseinsstörung), venöse Thromboembolien"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme im letzten Drittel können beim Neugeborenen Bewegungsstörungen, Schläfrigkeit und Entzugssymptome auftreten.",
+  "stillzeit": "Geht in die Muttermilch über; nur nach ärztlicher Abwägung stillen und das Kind auf Schläfrigkeit beobachten.",
+  "hinweise": [
+    "Wirkt stark beruhigend: nicht Auto fahren, besonders zu Beginn, und keinen Alkohol trinken.",
+    "Langsam aufstehen – Gefahr von Schwindel und Stürzen durch Blutdruckabfall.",
+    "Bei Fieber mit Muskelsteifigkeit und Verwirrtheit sofort ärztliche Hilfe holen (malignes neuroleptisches Syndrom)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "glofitamab",
+  "name": "Glofitamab",
+  "synonyme": [
+    "Glofitamab-gxbm",
+    "RG6026"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01FX28"
+  ],
+  "klasse": "Bispezifischer Antikörper (CD20 x CD3, T-Zell-Engager)",
+  "kurz": "Krebsmittel gegen ein aggressives B-Zell-Lymphom (DLBCL): leitet Abwehrzellen zu den Lymphomzellen; zeitlich begrenzte Infusionstherapie.",
+  "gruppen": [
+    "immunsuppressiv",
+    "myelosuppressiv"
+  ],
+  "handelsnamen": [
+    "Columvi"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Rezidiviertes oder therapieresistentes diffus grosszelliges B-Zell-Lymphom (DLBCL) bei Erwachsenen nach mindestens zwei systemischen Vortherapien",
+      "ids": [
+        "lymphom"
+      ]
+    },
+    {
+      "text": "Rezidiviertes oder therapieresistentes DLBCL bei Erwachsenen, die für eine autologe Stammzelltransplantation nicht infrage kommen, in Kombination mit Gemcitabin und Oxaliplatin",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbindet körpereigene Abwehrzellen (T-Zellen) mit bösartigen B-Zellen, damit diese zerstört werden. Glofitamab ist ein bispezifischer Antikörper mit zwei Bindungsstellen für CD20 auf B-Zellen und einer für CD3 auf T-Zellen. Die so aktivierten T-Zellen vermehren sich, setzen Zytokine und zytotoxische Proteine frei und töten die CD20-tragenden Zellen. Eine einmalige Vorbehandlung mit Obinutuzumab eine Woche vorher vermindert die B-Zellen im Blut und senkt so das Risiko eines Zytokin-Freisetzungs-Syndroms.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Zytokin-Freisetzungs-Syndrom (Fieber, Blutdruckabfall, Sauerstoffmangel), v. a. nach den ersten Dosen: Vorbehandlung mit Obinutuzumab, Prämedikation, Überwachung im Spital",
+      "ids": []
+    },
+    {
+      "text": "Neurotoxizität inkl. ICANS (Verwirrtheit, Bewusstseinsstörung)",
+      "ids": [
+        "delir",
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen; aktive Infektionen vor Beginn behandeln",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Tumor-Flare (schmerzhafte Lymphknotenschwellung) und Tumorlysesyndrom",
+      "ids": []
+    },
+    {
+      "text": "Neutropenie: Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfungen",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Fahrtüchtigkeit: bei neurologischen Beschwerden nicht fahren",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Während und nach der Behandlung bis zur Erholung der B-Zellen nicht empfohlen (Impfinfektion, kein sicherer Impfschutz).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Calcineurin-Hemmer (Ciclosporin, Tacrolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Freigesetzte Zytokine können CYP-Enzyme vorübergehend hemmen, v. a. nach den ersten Dosen – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Vorübergehend verminderter Abbau möglich – INR zu Beginn engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere über CYP abgebaute Mittel mit enger therapeutischer Breite (z. B. Phenytoin, Theophyllin)",
+      "ref": [
+        "phenytoin",
+        "theophyllin"
+      ],
+      "effekt": "In der Anfangsphase Wirkung und Spiegel überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Zytokin-Freisetzungs-Syndrom",
+      "Neutropenie, Anämie, Thrombozytopenie",
+      "Elektrolytstörungen (Phosphat, Magnesium oder Calcium zu tief)",
+      "Hautausschlag",
+      "Fieber",
+      "Kopfschmerzen",
+      "Durchfall, Verstopfung, Übelkeit"
+    ],
+    "haeufig": [
+      "Infektionen inkl. Lungenentzündung und Sepsis (Blutvergiftung)",
+      "Febrile Neutropenie (Fieber bei Mangel an Abwehrzellen)",
+      "Tumor-Flare (schmerzhafte Lymphknotenschwellung)",
+      "ICANS (immuneffektorzell-assoziiertes Neurotoxizitätssyndrom)",
+      "Erhöhte Leber- und Bilirubinwerte",
+      "Erbrechen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Tumorlysesyndrom"
+    ]
+  },
+  "schwangerschaft": "Kann beim Ungeborenen die B-Zellen vermindern; in der Schwangerschaft nicht empfohlen. Frauen verhüten während und mindestens 2 Monate nach der letzten Dosis.",
+  "stillzeit": "Während und mindestens 2 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Eine Woche vor der ersten Dosis wird einmalig Obinutuzumab gegeben; nach der ersten Glofitamab-Dosis folgt eine Überwachung im Spital.",
+    "Fieber, Schüttelfrost, Atemnot, Schwindel oder Verwirrtheit sofort melden.",
+    "Infektzeichen umgehend ärztlich abklären lassen.",
+    "Patientenkarte immer mitführen."
+  ],
+  "stand": "2026-10"
+}

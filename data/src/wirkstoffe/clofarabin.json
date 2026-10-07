@@ -1,0 +1,199 @@
+{
+  "id": "clofarabin",
+  "name": "Clofarabin",
+  "synonyme": [
+    "Clofarabine"
+  ],
+  "atc": [
+    "L01BB06"
+  ],
+  "klasse": "Antimetabolit (Purinanalogon); Zytostatikum",
+  "kurz": "Krebsmittel (Purinanalogon) als Infusion für Kinder und Jugendliche mit rückfälliger oder therapieresistenter akuter lymphatischer Leukämie.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "hepatotoxisch",
+    "nephrotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Evoltra"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute lymphatische Leukämie (ALL) bei Kindern und Jugendlichen (bei Erstdiagnose höchstens 21 Jahre alt) nach Rückfall oder ohne Ansprechen auf mindestens zwei Vortherapien",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Vermehrung von Leukämiezellen und löst deren Absterben aus. Clofarabin wird in der Zelle durch die Desoxycytidinkinase zum wirksamen Triphosphat aktiviert. Dieses hemmt die Ribonukleotid-Reduktase und DNA-Polymerasen, wird in die DNA eingebaut und stört so DNA-Synthese und -Reparatur. Zusätzlich schädigt es die Mitochondrienmembran und setzt damit den programmierten Zelltod (Apoptose) in Gang.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Systemisches Entzündungsreaktionssyndrom (SIRS) und Kapillarlecksyndrom (Flüssigkeitsaustritt aus den Gefässen): bei Atemnot, Blutdruckabfall oder rascher Gewichtszunahme sofort behandeln",
+      "ids": [
+        "hypotonie",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Tumorlysesyndrom zu Beginn: ausreichende Flüssigkeitszufuhr und Vorbeugung",
+      "ids": []
+    },
+    {
+      "text": "Leichte bis mittelschwere Nieren- oder Leberfunktionsstörung (engmaschige Kontrollen, Dosisanpassung)",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen und Blutdruckprobleme (Kreislauf überwachen)",
+      "ids": [
+        "herzinsuffizienz",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Venookklusive Lebererkrankung (Verschluss kleiner Lebervenen), v. a. nach Stammzelltransplantation",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Infektionen durch die Knochenmarkhemmung",
+      "ids": [
+        "aktive-infektion",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse): bei Hautausschlag mit Blasen sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Enterokolitis (Darmentzündung), inkl. neutropenischer Kolitis",
+      "ids": [
+        "durchfall"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Nierenschädigende oder über die Niere aktiv ausgeschiedene Arzneimittel (z. B. NSAR, Amphotericin B, Methotrexat, Aminoglykoside, Platinverbindungen, Foscarnet, Pentamidin, Ciclosporin, Tacrolimus, Aciclovir, Valganciclovir)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:nsar",
+        "amphotericin-b",
+        "methotrexat",
+        "gruppe:aminoglykoside",
+        "gruppe:platinderivate",
+        "foscarnet",
+        "pentamidin",
+        "gruppe:immunsuppressiva-calcineurin",
+        "aciclovir",
+        "valganciclovir"
+      ],
+      "effekt": "Höhere Clofarabin-Spiegel und Nierenschäden möglich – vor allem während der 5 Behandlungstage meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Leberschädigende Arzneimittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden – möglichst meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende oder herzwirksame Arzneimittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Blutdruck und Herzfunktion während der Behandlung engmaschig überwachen (Gefahr von Blutdruckabfall und Kapillarleck).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Febrile Neutropenie (Fieber bei Mangel an Abwehrzellen)",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Kopfschmerzen, Angst",
+      "Hitzegefühl (Flush)",
+      "Hand-Fuss-Syndrom (schmerzhafte Rötung von Handflächen und Fusssohlen), Juckreiz",
+      "Fieber, Schleimhautentzündung, Müdigkeit"
+    ],
+    "haeufig": [
+      "Infektionen bis zur Sepsis und zum septischen Schock, Pilz- und Herpesinfektionen",
+      "Tumorlysesyndrom",
+      "Systemisches Entzündungsreaktionssyndrom (SIRS), Kapillarlecksyndrom, Multiorganversagen",
+      "Blutdruckabfall, Herzrasen, Perikarderguss (Flüssigkeit im Herzbeutel)",
+      "Erhöhte Leberwerte, Gelbsucht, venookklusive Lebererkrankung",
+      "Akutes Nierenversagen, Blut im Urin",
+      "Schläfrigkeit, Kribbeln, Zittern, Hörverlust",
+      "Magen-Darm-Blutungen, Mundschleimhautentzündung, Bauchschmerzen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Enterokolitis, inkl. neutropenischer und pseudomembranöser Kolitis",
+      "Hyponatriämie (Natriummangel)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; im Tierversuch fruchtschädigend. Frauen im gebärfähigen Alter und sexuell aktive Männer müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert: vor, während und nach der Behandlung nicht stillen.",
+  "hinweise": [
+    "Behandlung im Spital durch erfahrene Fachpersonen; während der Behandlungstage ausreichend Flüssigkeit (Infusionen, Trinken).",
+    "Blutbild, Nieren- und Leberwerte, Blutdruck und Atmung werden engmaschig kontrolliert; Atemnot oder Hautausschlag sofort melden.",
+    "Schwindel, Schläfrigkeit oder Ohnmacht können die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

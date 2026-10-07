@@ -1,0 +1,214 @@
+{
+  "id": "pentamidin",
+  "name": "Pentamidin",
+  "synonyme": [
+    "Pentamidine",
+    "Pentamidinisetionat",
+    "Pentamidine isethionate"
+  ],
+  "atc": [
+    "P01CX01"
+  ],
+  "klasse": "Antiprotozoikum (aromatisches Diamidin)",
+  "kurz": "Reservemittel gegen Pneumocystis-Lungenentzündung, Leishmaniose und Schlafkrankheit; als Infusion, Spritze oder zum Inhalieren.",
+  "gruppen": [
+    "qt-verlaengernd",
+    "nephrotoxisch",
+    "myelosuppressiv",
+    "hypoglykaemie-ausloesend",
+    "hyperglykaemie-ausloesend",
+    "hyperkaliaemie-ausloesend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Pentacarinat"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions-, Infusions- oder Inhalationslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung der Pneumocystis-jirovecii-Pneumonie (PCP)",
+      "ids": [
+        "lungenentzuendung",
+        "pilzinfektion"
+      ]
+    },
+    {
+      "text": "Vorbeugung der PCP durch Inhalation bei stark geschwächtem Immunsystem, z. B. bei HIV-Infektion",
+      "ids": [
+        "lungenentzuendung",
+        "hiv",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Leishmaniose (viszerale und kutane Form)",
+      "ids": [
+        "wurmbefall"
+      ]
+    },
+    {
+      "text": "Frühstadium der Afrikanischen Schlafkrankheit (Trypanosoma brucei gambiense)",
+      "ids": [
+        "wurmbefall"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet bestimmte einzellige Krankheitserreger ab. Pentamidin stört die Bildung von Erbsubstanz und Eiweissen der Erreger, unter anderem durch Bindung an die DNA – besonders an die Mitochondrien-DNA (Kinetoplasten) – und durch Hemmung von Enzymen wie der Topoisomerase. Der genaue Mechanismus ist nicht vollständig geklärt. Bei Inhalation gelangt der Wirkstoff gezielt in die Lunge und nur wenig in den Blutkreislauf.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Schwere, auch lebensbedrohliche Blutdruckabfälle bei Infusion oder Injektion – Gabe im Liegen, Blutdruck überwachen",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Diabetes oder Blutzuckerstörungen: Unterzuckerung und später Diabetes möglich",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, QT-Verlängerung, langsamer Puls",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (Mangel an weissen Blutkörperchen, Blutplättchen oder roten Blutkörperchen)",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Asthma und Rauchen: bei Inhalation Husten und Bronchospasmus möglich",
+      "ids": [
+        "asthma",
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Störungen von Calcium- und Kaliumhaushalt",
+      "ids": [
+        "hypokalzaemie",
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Bauchspeicheldrüsenentzündung (Pankreatitis)",
+      "ids": [
+        "pankreatitis"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Makrolide, Fluorchinolone, Antipsychotika)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Gefahr lebensbedrohlicher Herzrhythmusstörungen (Torsade de pointes) – möglichst vermeiden, EKG überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Amphotericin B, Foscarnet, Ciclosporin)",
+      "ref": [
+        "gruppe:nephrotoxisch",
+        "gruppe:aminoglykoside",
+        "amphotericin-b",
+        "foscarnet"
+      ],
+      "effekt": "Additive Nierenschädigung – Nierenfunktion und Elektrolyte engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Knochenmark-hemmende Mittel (z. B. Zidovudin, Ganciclovir, Zytostatika)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "zidovudin",
+        "ganciclovir"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Pentamidin kann Unterzuckerungen und später Überzuckerungen auslösen – Blutzucker eng kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall während der Infusion.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumerhöhende Mittel (z. B. ACE-Hemmer, Sartane, Spironolacton, Trimethoprim)",
+      "ref": [
+        "gruppe:hyperkaliaemie-ausloesend",
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Erhöhtes Risiko für eine Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Anstieg der Nierenwerte bis akutes Nierenversagen",
+      "Reaktionen an der Injektionsstelle (Schmerz, Verhärtung, Abszess, Gewebeschaden bei Spritze in den Muskel)"
+    ],
+    "haeufig": [
+      "Blutdruckabfall, Schwindel, Ohnmacht",
+      "Unterzuckerung (Hypoglykämie)",
+      "Verminderung von weissen Blutkörperchen und Blutplättchen, Blutarmut",
+      "Übelkeit, Erbrechen, Geschmacksstörungen",
+      "Erhöhte Leberwerte",
+      "Hautausschlag",
+      "Husten, Atemnot, Bronchospasmus (bei Inhalation)",
+      "Hypokalzämie (Calciummangel)"
+    ],
+    "selten": [
+      "QT-Verlängerung"
+    ],
+    "unbekannt": [
+      "Torsade de pointes (lebensbedrohliche Herzrhythmusstörung)",
+      "Bauchspeicheldrüsenentzündung (Pankreatitis)",
+      "Überzuckerung bis Diabetes mellitus",
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Anaphylaxie",
+      "Stevens-Johnson-Syndrom"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Indikation, wenn der Nutzen für die Mutter das Risiko für das Kind überwiegt.",
+  "stillzeit": "Während der Behandlung nicht stillen, ausser es ist nach ärztlicher Abwägung unbedingt nötig.",
+  "hinweise": [
+    "Infusion oder Spritze im Liegen; Blutdruck, Blutzucker, Blutbild, Nieren- und Leberwerte, Elektrolyte und EKG werden überwacht.",
+    "Bei Inhalation kann vorher ein bronchienerweiterndes Spray gegen Husten und Atemnot nötig sein.",
+    "Zittern, Schwitzen oder Heisshunger (Zeichen einer Unterzuckerung) auch noch Tage nach der Behandlung sofort melden."
+  ],
+  "stand": "2026-10"
+}

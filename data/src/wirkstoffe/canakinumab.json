@@ -1,0 +1,162 @@
+{
+  "id": "canakinumab",
+  "name": "Canakinumab",
+  "synonyme": [
+    "ACZ885"
+  ],
+  "atc": [
+    "L04AC08"
+  ],
+  "klasse": "Immunsuppressivum; monoklonaler Antikörper gegen Interleukin-1-beta",
+  "kurz": "Antikörper-Spritze gegen seltene erbliche Fieberkrankheiten, Morbus Still und schwere Gichtanfälle; blockiert Interleukin-1-beta.",
+  "gruppen": [
+    "interleukin-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Ilaris"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung (unter die Haut)"
+  ],
+  "indikationen": [
+    {
+      "text": "Periodische Fiebersyndrome bei Erwachsenen und Kindern ab 2 Jahren: Cryopyrin-assoziierte periodische Syndrome (CAPS), TNF-Rezeptor-assoziiertes periodisches Syndrom (TRAPS), Hyper-IgD-Syndrom/Mevalonatkinase-Mangel (HIDS/MKD) und familiäres Mittelmeerfieber (FMF)",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Aktiver Morbus Still (Still-Syndrom des Erwachsenen und systemische juvenile idiopathische Arthritis ab 2 Jahren), wenn andere Therapien ungenügend wirken",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Häufige Gichtanfälle bei Erwachsenen, wenn NSAR und Colchicin nicht vertragen werden, kontraindiziert sind oder ungenügend wirken",
+      "ids": [
+        "gicht"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt einen Botenstoff, der bei diesen Krankheiten übermässig gebildet wird und Fieber und Entzündung auslöst. Canakinumab ist ein humaner monoklonaler Antikörper (IgG1/κ), der Interleukin-1-beta mit hoher Affinität bindet und dessen Andocken an den Interleukin-1-Rezeptor verhindert. Dadurch sinken auch nachgeschaltete Entzündungsmediatoren wie Interleukin-6, CRP und Serum-Amyloid A. Wegen der langen Halbwertszeit (etwa 26 Tage) genügen Injektionen im Abstand von 4–8 Wochen bzw. bei Gicht eine Einzeldosis.",
+  "kontraindikationen": [
+    {
+      "text": "Aktive, schwere Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Wiederkehrende oder chronische Infektionen und Zustände, die Infektionen begünstigen (erhöhtes Risiko schwerer Infektionen)",
+      "ids": [
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Tuberkulose: vor Beginn auf latente Tuberkulose untersuchen",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Neutropenie: bei tiefen Neutrophilen nicht beginnen; Blutbild kontrollieren",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Morbus Still: Makrophagenaktivierungssyndrom und DRESS (schwere Arzneimittelreaktion) möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen (Einfluss auf das Krebsrisiko nicht geklärt)",
+      "ids": [
+        "krebs"
+      ]
+    },
+    {
+      "text": "Impfungen vor Beginn vervollständigen; keine Lebendimpfstoffe während der Behandlung",
+      "ids": [
+        "impfung",
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "TNF-alpha-Hemmer (z. B. Etanercept, Adalimumab)",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko schwerer Infektionen – Kombination wird nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Arzneimittel mit enger therapeutischer Breite, die über CYP450 abgebaut werden (z. B. Phenprocoumon, Warfarin)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng"
+      ],
+      "effekt": "Mit dem Abklingen der Entzündung normalisiert sich der Leberabbau – Wirkung bzw. Spiegel können sinken. Bei Beginn der Behandlung INR oder Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [],
+      "effekt": "Die Impfantwort war in Studien (Grippe, Meningokokken) nicht beeinträchtigt – Impfung möglich.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Atemwegsinfekte (z. B. Erkältung, Halsentzündung, Bronchitis, Lungenentzündung)",
+      "Weitere Infektionen (Magen-Darm-, Harnwegs-, Ohren- und Hautinfektionen)",
+      "Oberbauchschmerzen",
+      "Reaktionen an der Einstichstelle",
+      "Gelenkschmerzen (Arthralgie)",
+      "Verminderte Nierenfunktion (Kreatinin-Clearance) und Eiweiss im Urin, meist vorübergehend"
+    ],
+    "haeufig": [
+      "Schwindel",
+      "Rücken- und Muskelschmerzen",
+      "Müdigkeit, Schwäche",
+      "Vaginale Pilzinfektion",
+      "Leukopenie und Neutropenie (Mangel an weissen Blutkörperchen)"
+    ],
+    "gelegentlich": [
+      "Reflux (Sodbrennen)",
+      "Verminderung der Blutplättchen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "DRESS (schwere Arzneimittelreaktion mit Ausschlag, Fieber und Organbeteiligung), vor allem bei Morbus Still"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen begrenzt; nur anwenden, wenn eindeutig nötig. Frauen sollen während und bis 3 Monate nach der letzten Dosis verhüten; im Mutterleib exponierte Säuglinge sollen 16 Wochen lang keine Lebendimpfstoffe erhalten.",
+  "stillzeit": "Übergang in die Muttermilch nicht bekannt; nur nach ärztlicher Nutzen-Risiko-Abwägung.",
+  "hinweise": [
+    "Vor Behandlungsbeginn Tuberkulose-Test und Impfstatus prüfen; keine Lebendimpfungen während der Behandlung.",
+    "Bei Fieber, anhaltendem Husten oder anderen Infektzeichen sofort ärztlich abklären lassen.",
+    "Kann Schwindel verursachen – bis zum Abklingen nicht Auto fahren oder Maschinen bedienen."
+  ],
+  "stand": "2026-10"
+}

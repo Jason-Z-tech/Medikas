@@ -1,0 +1,182 @@
+{
+  "id": "mitotan",
+  "name": "Mitotan",
+  "synonyme": [
+    "o,p'-DDD",
+    "Mitotane"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01XX23"
+  ],
+  "klasse": "Adrenolytikum (Hemmstoff der Nebennierenrinde); Antineoplastikum",
+  "kurz": "Tabletten gegen fortgeschrittenen Nebennierenrindenkrebs; hemmt die Nebennierenrinde und ihre Hormonbildung.",
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Lysodren"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatische Behandlung des fortgeschrittenen (nicht operablen, metastasierten oder wiederkehrenden) Nebennierenrindenkarzinoms",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Nebennierenrinde, sodass weniger Kortisol und andere Nebennierenhormone gebildet werden, und schädigt die Tumorzellen der Nebennierenrinde. Mitotan (o,p'-DDD) wird in den Mitochondrien der Nebennierenrindenzellen zu reaktiven Metaboliten umgewandelt, die diese Zellen zerstören (adrenolytische Wirkung). Zusätzlich hemmt es Enzyme der Steroidhormonbildung, u. a. die Cholesterin-Seitenkettenspaltung und die 11-beta-Hydroxylase. Der Wirkstoff reichert sich im Fettgewebe an und wird nur sehr langsam ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nebenniereninsuffizienz: Mitotan führt fast immer zu Kortisolmangel, meist ist ein Ersatz mit Hydrocortison nötig. Bei Schock, schweren Verletzungen oder Infektionen Mitotan unterbrechen und Kortison erhöhen",
+      "ids": [
+        "nebenniereninsuffizienz",
+        "schock",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (Anreicherung; bei schwerer Einschränkung nicht empfohlen)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Zentralnervöse Störungen (Schläfrigkeit, Verwirrtheit, Gangunsicherheit), vor allem bei hohen Blutspiegeln",
+      "ids": [
+        "bewusstseinsstoerung",
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Verlängerte Blutungszeit: vor Operationen beachten",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "operation"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung nötig; bei Frauen vor den Wechseljahren können Eierstockzysten auftreten",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Entwicklungsverzögerungen und Schilddrüsenunterfunktion möglich, Entwicklung und Schilddrüsenwerte überwachen",
+      "ids": [
+        "kinder",
+        "hypothyreose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Spironolacton",
+      "ref": [
+        "spironolacton"
+      ],
+      "grund": "Spironolacton kann die Wirkung von Mitotan aufheben."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Arzneimittel, die über CYP3A4 abgebaut werden (z. B. Midazolam, Statine, viele Krebsmittel wie Sunitinib)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Mitotan ist ein starker CYP3A4-Induktor: Spiegel und Wirkung dieser Mittel sinken deutlich – Kombination meiden oder Dosis anpassen. Die Induktion hält nach dem Absetzen noch Monate an.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Glukokortikoide (Hydrocortison als Ersatztherapie)",
+      "ref": [
+        "hydrocortison",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Beschleunigter Abbau und erhöhte Bindung an Transporteiweisse – meist sind höhere Ersatzdosen nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Beschleunigter Abbau, gerinnungshemmende Wirkung nimmt ab – INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz kann durch die Enzyminduktion vermindert sein – zusätzliche nichthormonale Methode verwenden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Nebenniereninsuffizienz (Kortisolmangel)",
+      "Übelkeit, Erbrechen, Durchfall, Oberbauchbeschwerden, Schleimhautentzündung",
+      "Appetitlosigkeit",
+      "Schläfrigkeit, Müdigkeit, Schwindel, Gangunsicherheit (Ataxie), Missempfindungen",
+      "Verwirrtheit, Muskelschwäche",
+      "Erhöhte Leberwerte und erhöhte Blutfette (Cholesterin, Triglyceride)",
+      "Hautausschlag",
+      "Leukopenie (Mangel an weissen Blutkörperchen); Gynäkomastie (Brustvergrösserung beim Mann)"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut), Thrombozytopenie (Mangel an Blutplättchen)",
+      "Verlängerte Blutungszeit",
+      "Polyneuropathie (Nervenschädigung), Bewegungsstörungen",
+      "Kopfschmerzen",
+      "Beeinträchtigung der geistigen Leistungsfähigkeit"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Sehstörungen (Doppeltsehen, Linsentrübung, Netzhautschäden)",
+      "Autoimmunhepatitis (Leberentzündung)",
+      "Bluthochdruck, Blutdruckabfall beim Aufstehen",
+      "Hämorrhagische Zystitis (blutige Blasenentzündung), Blut oder Eiweiss im Urin",
+      "Eierstockzysten",
+      "Opportunistische Pilzinfektionen",
+      "Fieber, Geschmacksstörungen"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit (kaum Erfahrungen; Schädigung der kindlichen Nebenniere möglich). Frauen im gebärfähigen Alter müssen während und nach der Behandlung zuverlässig verhüten, solange Mitotan im Blut nachweisbar ist.",
+  "stillzeit": "Kontraindiziert: Mitotan geht in die Muttermilch über. Während der Behandlung und solange der Wirkstoff im Blut nachweisbar ist, nicht stillen.",
+  "hinweise": [
+    "Zu Mahlzeiten mit fettreichen Speisen einnehmen (bessere Aufnahme).",
+    "Mitotan-Blutspiegel werden regelmässig kontrolliert; bei Spiegeln über 20 mg/l nehmen Nebenwirkungen am Nervensystem deutlich zu.",
+    "Notfallausweis für Nebenniereninsuffizienz mitführen; bei Infekt, Unfall oder Operation sofort die Ärztin oder den Arzt informieren.",
+    "Schläfrigkeit und Schwindel können die Fahrtüchtigkeit beeinträchtigen; der Wirkstoff bleibt nach dem Absetzen noch Monate im Körper."
+  ],
+  "stand": "2026-10"
+}

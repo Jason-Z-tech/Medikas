@@ -1,0 +1,161 @@
+{
+  "id": "siltuximab",
+  "name": "Siltuximab",
+  "synonyme": [
+    "CNTO 328"
+  ],
+  "atc": [
+    "L04AC11"
+  ],
+  "klasse": "Immunsuppressivum; monoklonaler Antikörper gegen Interleukin-6",
+  "kurz": "Infusion gegen die seltene multizentrische Castleman-Krankheit (Lymphknotenerkrankung); blockiert den Botenstoff Interleukin-6.",
+  "gruppen": [
+    "interleukin-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Sylvant"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung eines Konzentrats für eine Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Multizentrische Castleman-Krankheit bei Erwachsenen, die HIV-negativ und HHV-8-negativ sind",
+      "ids": []
+    }
+  ],
+  "wirkmechanismus": "Bremst die krankhafte Vermehrung von Immunzellen in den Lymphknoten, die bei der Castleman-Krankheit durch zu viel Interleukin-6 angetrieben wird. Siltuximab ist ein chimärer (Mensch/Maus) monoklonaler IgG1κ-Antikörper, der Interleukin-6 bindet und dessen Andocken an lösliche und membranständige Interleukin-6-Rezeptoren verhindert. Dadurch gehen Lymphknotenvergrösserung, Fieber, Müdigkeit, Blutarmut und Entzündungswerte zurück.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Aktive schwere Infektionen: Behandlung erst nach Abheilung; Infektzeichen wie Fieber und CRP können unterdrückt sein",
+      "ids": [
+        "aktive-infektion",
+        "infektanfaelligkeit"
+      ]
+    },
+    {
+      "text": "Blutbild (Neutrophile, Blutplättchen, Hämoglobin) in den ersten 12 Monaten vor jeder Infusion kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette: Lipidwerte kontrollieren",
+      "ids": [
+        "hypertriglyzeridaemie",
+        "hypercholesterinaemie"
+      ]
+    },
+    {
+      "text": "Divertikulitis oder Magen-Darm-Geschwüre: Risiko eines Magen-Darm-Durchbruchs",
+      "ids": [
+        "divertikulitis",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen und schwere Überempfindlichkeitsreaktionen möglich",
+      "ids": [
+        "anaphylaxie"
+      ]
+    },
+    {
+      "text": "Keine Lebendimpfstoffe während der Behandlung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Verhütung während und bis 3 Monate nach der Behandlung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Warfarin)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Durch die IL-6-Hemmung normalisiert sich der Leberabbau – die Wirkung kann abnehmen. Bei Beginn und Ende der Behandlung INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin, Theophyllin und andere CYP450-Substrate mit enger therapeutischer Breite",
+      "ref": [
+        "ciclosporin",
+        "theophyllin"
+      ],
+      "effekt": "Spiegel können sinken – bei Beginn und Ende der Behandlung Spiegel kontrollieren und Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Schnellerer Abbau über CYP3A4 möglich – Verhütungsschutz könnte vermindert sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Atorvastatin, Simvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Wirkung kann abnehmen – Wirksamkeit überwachen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege, Nasen-Rachen-Entzündung",
+      "Neutropenie und Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)",
+      "Hautausschlag, Juckreiz",
+      "Erhöhte Triglyceride",
+      "Gewichtszunahme",
+      "Lokale Ödeme (Schwellungen)"
+    ],
+    "haeufig": [
+      "Infusionsreaktionen",
+      "Erhöhtes Cholesterin",
+      "Verstopfung, Durchfall",
+      "Mundgeschwüre",
+      "Halsschmerzen"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Bluthochdruck",
+      "Bauchschmerzen",
+      "Erhöhte Harnsäure",
+      "Eingeschränkte Nierenfunktion",
+      "Magen-Darm-Perforation (Durchbruch)",
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen. Frauen im gebärfähigen Alter sollen während und bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Übergang in die Muttermilch nicht bekannt; über Abstillen oder Therapieverzicht entscheidet die Ärztin oder der Arzt.",
+  "hinweise": [
+    "Infusion alle 3 Wochen in der Klinik; in den ersten 12 Monaten vor jeder Infusion Blutbildkontrolle.",
+    "Fieber und CRP können trotz Infektion niedrig bleiben – bei Krankheitsgefühl, Husten oder Brennen beim Wasserlösen früh ärztlich abklären.",
+    "Keine Lebendimpfungen während der Behandlung."
+  ],
+  "stand": "2026-10"
+}

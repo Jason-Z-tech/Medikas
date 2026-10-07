@@ -1,0 +1,175 @@
+{
+  "id": "anakinra",
+  "name": "Anakinra",
+  "synonyme": [
+    "IL-1Ra",
+    "Rekombinanter Interleukin-1-Rezeptorantagonist"
+  ],
+  "atc": [
+    "L04AC03"
+  ],
+  "klasse": "Immunsuppressivum; Interleukin-1-Rezeptorantagonist (Biologikum)",
+  "kurz": "Tägliche Spritze gegen entzündliches Rheuma und seltene Fieberkrankheiten; blockiert den Entzündungsbotenstoff Interleukin-1.",
+  "gruppen": [
+    "interleukin-hemmer",
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Kineret"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung in Fertigspritze (unter die Haut)"
+  ],
+  "indikationen": [
+    {
+      "text": "Rheumatoide Arthritis bei Erwachsenen, zusammen mit Methotrexat, wenn Methotrexat allein nicht genügt",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Cryopyrin-assoziierte periodische Syndrome (CAPS: NOMID/CINCA, Muckle-Wells-Syndrom, familiäres Kälte-Autoinflammationssyndrom) bei Erwachsenen und Kindern ab 8 Monaten",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    },
+    {
+      "text": "Morbus Still (systemische juvenile idiopathische Arthritis und Still-Syndrom des Erwachsenen) bei Erwachsenen und Kindern ab 8 Monaten",
+      "ids": [
+        "autoimmunerkrankung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft Entzündungen, indem es einen zentralen Entzündungsbotenstoff ausschaltet. Anakinra ist eine gentechnisch hergestellte Form des körpereigenen Interleukin-1-Rezeptorantagonisten (IL-1Ra). Es besetzt den Interleukin-1-Rezeptor Typ I und verhindert so, dass Interleukin-1-alpha und -beta daran binden. Dadurch gehen Fieber und Entzündungsreaktion zurück, bei rheumatoider Arthritis auch der Knorpel- und Knochenabbau.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Proteine aus E. coli (Herstellungsorganismus)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Neutropenie (neutrophile Granulozyten unter 1,5 × 10⁹/l): Behandlung darf nicht begonnen werden",
+      "ids": [
+        "neutropenie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Aktive Infektionen: nicht beginnen; bei schwerer Infektion Behandlung unterbrechen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Asthma (in Studien häufiger schwere Infektionen)",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Blutbild: Neutrophile vor Beginn, in den ersten 6 Monaten monatlich und danach vierteljährlich kontrollieren",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz: das Dosierungsintervall wird angepasst",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Anstieg der Leberwerte und nicht-infektiöse Hepatitis möglich, besonders bei Morbus Still",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Morbus Still: Makrophagenaktivierungssyndrom (lebensbedrohliche Überreaktion des Immunsystems) und DRESS (schwere Arzneimittelreaktion) möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Krebserkrankungen in der Vorgeschichte (Einfluss auf das Krebsrisiko nicht geklärt)",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "TNF-alpha-Hemmer (z. B. Etanercept, Adalimumab)",
+      "ref": [
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Mehr schwere Infektionen und Neutropenie ohne zusätzlichen Nutzen – Kombination wird nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Nicht während der Behandlung verabreichen – Gefahr einer Impfinfektion.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Arzneimittel mit enger therapeutischer Breite, die über CYP450 abgebaut werden (z. B. Phenprocoumon, Warfarin, Phenytoin)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:cyp2c9-substrate-eng",
+        "phenytoin"
+      ],
+      "effekt": "Klingt die Entzündung ab, normalisiert sich der Leberabbau – Spiegel bzw. Wirkung können sinken. Bei Beginn und Ende der Behandlung INR oder Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immunsuppressiva (z. B. Methotrexat, Glukokortikoide)",
+      "ref": [
+        "methotrexat",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Stärkere Immunsuppression mit höherem Infektionsrisiko; die Kombination mit Methotrexat ist bei rheumatoider Arthritis vorgesehen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Reaktionen an der Einstichstelle (Rötung, Schwellung, Schmerz, Juckreiz)",
+      "Kopfschmerzen",
+      "Erhöhtes Cholesterin"
+    ],
+    "haeufig": [
+      "Schwere Infektionen (z. B. Lungenentzündung, Haut- und Knocheninfektionen)",
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "gelegentlich": [
+      "Allergische Reaktionen bis zur Anaphylaxie, Angioödem, Nesselsucht",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "DRESS (schwere Arzneimittelreaktion mit Ausschlag, Fieber und Organbeteiligung), vor allem bei Morbus Still"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Nicht-infektiöse Hepatitis (Leberentzündung)"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen begrenzt; vorsichtshalber während der Schwangerschaft und bei Frauen ohne Verhütung vermeiden – nur nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Übergang in die Muttermilch nicht bekannt; während der Behandlung wird Stillen nicht empfohlen.",
+  "hinweise": [
+    "Tägliche Spritze unter die Haut, Einstichstellen wechseln; Reaktionen an der Einstichstelle sind häufig und klingen meist nach einigen Wochen ab.",
+    "Bei Fieber oder anderen Infektzeichen ärztlich abklären lassen.",
+    "Regelmässige Blutbildkontrollen (Neutrophile); keine Lebendimpfungen während der Behandlung."
+  ],
+  "stand": "2026-10"
+}

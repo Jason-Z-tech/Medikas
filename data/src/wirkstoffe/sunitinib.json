@@ -1,0 +1,223 @@
+{
+  "id": "sunitinib",
+  "name": "Sunitinib",
+  "synonyme": [
+    "Sunitinibmalat",
+    "SU11248"
+  ],
+  "atc": [
+    "L01EX01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (Multikinase-Hemmer: VEGFR, PDGFR, KIT u. a.)",
+  "kurz": "Krebsmittel (Kapsel) gegen Nierenkrebs, gastrointestinale Stromatumoren (GIST) und neuroendokrine Tumoren der Bauchspeicheldrüse.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "qt-verlaengernd",
+    "blutdrucksteigernd",
+    "blutungsrisiko-erhoehend",
+    "hepatotoxisch",
+    "kardiotoxisch",
+    "myelosuppressiv",
+    "hypoglykaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Sutent"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Gastrointestinaler Stromatumor (GIST), nicht operierbar oder metastasiert, nach Versagen oder Unverträglichkeit von Imatinib",
+      "ids": [
+        "sarkom"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes oder metastasiertes Nierenzellkarzinom (Nierenkrebs)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Gut differenzierte neuroendokrine Tumoren der Bauchspeicheldrüse (pNET), nicht operierbar oder metastasiert, mit Fortschreiten der Erkrankung",
+      "ids": [
+        "bauchspeicheldruesenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt das Wachstum von Tumoren und die Bildung neuer Blutgefässe, die den Tumor versorgen. Sunitinib blockiert zahlreiche Rezeptor-Tyrosinkinasen, darunter die VEGF-Rezeptoren 1–3, die PDGF-Rezeptoren α und β, KIT, FLT3, CSF-1R und RET. Dadurch werden Gefässneubildung (Angiogenese) und Wachstumssignale der Tumorzellen unterbrochen. Der Hauptmetabolit N-Desethyl-Sunitinib (SU12662) ist gleich wirksam und trägt wesentlich zur Wirkung bei.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen: schwere, teils tödliche Leberschäden möglich – Leberwerte vor Beginn und regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen (Herzinsuffizienz, Herzinfarkt in der Vorgeschichte): Abnahme der Herzpumpfunktion möglich",
+      "ids": [
+        "herzinsuffizienz",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Verlängerte QT-Zeit oder Herzrhythmusstörungen; Elektrolytstörungen vorher ausgleichen",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: vor Beginn einstellen und regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung und Tumorblutungen",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "aktive-blutung"
+      ]
+    },
+    {
+      "text": "Schilddrüsenerkrankungen: Unterfunktion häufig – Schilddrüsenwerte kontrollieren",
+      "ids": [
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Diabetes: Unterzuckerung möglich – Blutzucker engmaschig messen",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Geplante Operationen und Zahneingriffe: Wundheilungsstörungen und Kiefernekrose möglich, besonders zusammen mit Bisphosphonaten oder Denosumab",
+      "ids": [
+        "operation",
+        "kiefernekrose"
+      ]
+    },
+    {
+      "text": "Aneurysma (Gefässaussackung) in der Vorgeschichte: Risiko für Aneurysmen und Gefässwandeinrisse",
+      "ids": [
+        "aneurysma"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir) und Grapefruitsaft",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Sunitinib-Spiegel steigt – möglichst vermeiden, sonst Dosis nach ärztlicher Anweisung reduzieren und engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Sunitinib-Spiegel sinkt, die Wirkung lässt nach – vermeiden; sonst Dosis nach ärztlicher Anweisung erhöhen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen (Torsade de pointes) – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – Blutbild und Gerinnung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Bisphosphonate und Denosumab",
+      "ref": [
+        "gruppe:bisphosphonate",
+        "denosumab"
+      ],
+      "effekt": "Erhöhtes Risiko für Kiefernekrose – vorher zahnärztliche Kontrolle, invasive Zahneingriffe möglichst meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Blutzucker kann zusätzlich sinken – Blutzucker engmaschig messen, Antidiabetika allenfalls anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit, Schwäche, Ödeme, Fieber",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen, Verstopfung",
+      "Stomatitis (Entzündung der Mundschleimhaut), Geschmacksstörungen, Appetitverlust",
+      "Bluthochdruck",
+      "Hand-Fuss-Syndrom, Gelbfärbung der Haut, Veränderung der Haarfarbe, Hautausschlag",
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Blutarmut, Mangel an Blutplättchen und weissen Blutkörperchen",
+      "Nasenbluten, Kopfschmerzen, Schwindel"
+    ],
+    "haeufig": [
+      "Infektionen",
+      "Abnahme der Herzpumpfunktion, Durchblutungsstörungen des Herzmuskels (Myokardischämie)",
+      "Venenthrombose und Lungenembolie",
+      "Hypoglykämie (Unterzuckerung), Flüssigkeitsmangel",
+      "Magen-Darm-Blutungen",
+      "Eiweiss im Urin (Proteinurie), Nierenversagen",
+      "Periphere Neuropathie (Kribbeln, Taubheit), Schwellungen um die Augen"
+    ],
+    "gelegentlich": [
+      "Herzinsuffizienz, Herzinfarkt, Kardiomyopathie",
+      "QT-Verlängerung im EKG",
+      "Leberversagen",
+      "Magen-Darm-Durchbruch (Perforation), Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Hirnblutung, Schlaganfall",
+      "Kiefernekrose (Absterben von Kieferknochen)",
+      "Schilddrüsenüberfunktion"
+    ],
+    "selten": [
+      "Torsade de pointes (lebensbedrohliche Herzrhythmusstörung)",
+      "Thrombotische Mikroangiopathie (Gerinnsel in kleinsten Gefässen)",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES: Kopfschmerzen, Krampfanfälle, Sehstörungen)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme",
+      "Rhabdomyolyse (Muskelzerfall)",
+      "Tumorlyse-Syndrom, nephrotisches Syndrom"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Aneurysmen und Gefässwandeinrisse (Dissektionen)",
+      "Nekrotisierende Fasziitis (schwere Weichteilinfektion)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit – kann das ungeborene Kind schädigen. Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einnahme meist in Zyklen (z. B. 4 Wochen Einnahme, 2 Wochen Pause), mit oder ohne Mahlzeit; keine Grapefruit, kein Johanniskraut.",
+    "Blutdruck regelmässig messen; Blutbild, Leber- und Schilddrüsenwerte werden regelmässig kontrolliert.",
+    "Vor Operationen und Zahnbehandlungen auf die Einnahme hinweisen (Wundheilung, Kiefernekrose).",
+    "Eine gelbliche Verfärbung von Haut und Urin durch den Wirkstoff ist harmlos; gelbe Augen oder dunkler Urin mit Oberbauchschmerzen können aber auf einen Leberschaden hinweisen – sofort melden."
+  ],
+  "stand": "2026-10"
+}

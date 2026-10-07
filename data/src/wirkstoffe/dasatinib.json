@@ -1,0 +1,218 @@
+{
+  "id": "dasatinib",
+  "name": "Dasatinib",
+  "synonyme": [
+    "BMS-354825"
+  ],
+  "atc": [
+    "L01EA02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (BCR-ABL- und SRC-Tyrosinkinasehemmer)",
+  "kurz": "Zielgerichtetes Krebsmittel (Tyrosinkinasehemmer) zum Einnehmen bei chronischer myeloischer und bestimmter akuter lymphatischer Leukämie.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "myelosuppressiv",
+    "blutungsrisiko-erhoehend",
+    "qt-verlaengernd",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Sprycel"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte Philadelphia-Chromosom-positive chronische myeloische Leukämie (Ph+ CML) in der chronischen Phase bei Erwachsenen und Kindern",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Ph+ CML in chronischer, akzelerierter oder Blastenphase bei Resistenz oder Unverträglichkeit gegenüber einer Vorbehandlung, z. B. mit Imatinib",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Philadelphia-Chromosom-positive akute lymphatische Leukämie (Ph+ ALL): bei Erwachsenen nach Resistenz oder Unverträglichkeit, bei Kindern neu diagnostiziert in Kombination mit Chemotherapie",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das krankhafte Enzym, das die Leukämiezellen zum Wachsen antreibt. Dasatinib hemmt die Tyrosinkinase BCR-ABL, die durch das Philadelphia-Chromosom entsteht, sowie Kinasen der SRC-Familie, c-KIT, PDGF-Rezeptor-beta und EPHA2. Es bindet sowohl an die aktive als auch an die inaktive Form von BCR-ABL und wirkt daher gegen viele Imatinib-resistente Mutationen, nicht aber gegen die T315I-Mutation.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung: Blutbild in den ersten 2 Monaten wöchentlich, danach monatlich kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "anaemie"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder gleichzeitige Behandlung mit Blutverdünnern (Blutungen, auch im Magen-Darm-Trakt und Gehirn)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Flüssigkeitseinlagerungen, vor allem Pleuraerguss (Wasser im Brustfell) – Atemnot oder trockenen Husten abklären",
+      "ids": [
+        "oedeme",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Pulmonal-arterielle Hypertonie (Lungenhochdruck), auch nach langer Behandlungsdauer",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Herzerkrankungen, verlängerte QT-Zeit, Kalium- oder Magnesiummangel",
+      "ids": [
+        "herzinsuffizienz",
+        "qt-verlaengerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Hepatitis-B-Infektion (Reaktivierung möglich – vor Beginn testen)",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder: Wachstum und Knochenentwicklung überwachen",
+      "ids": [
+        "kinder",
+        "wachstumsstoerung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Dasatinib-Spiegel steigt stark (bis etwa 5-fach) – vermeiden; falls unumgänglich, Dosis reduzieren und eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Dasatinib-Spiegel sinkt stark – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Protonenpumpenhemmer und H2-Blocker",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Anhaltende Säurehemmung vermindert die Aufnahme von Dasatinib – Kombination nicht empfohlen; bei Bedarf Antazida verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme – Antazida frühestens 2 Stunden nach oder spätestens 2 Stunden vor Dasatinib einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko – nur mit Vorsicht kombinieren, Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Verstärkte QT-Verlängerung möglich – EKG und Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Ciclosporin, Ergotalkaloide)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Dasatinib hemmt CYP3A4 schwach – deren Spiegel können steigen; Vorsicht.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Mangel an Blutplättchen, weissen und roten Blutkörperchen",
+      "Infektionen",
+      "Flüssigkeitseinlagerungen, Pleuraerguss (Wasser im Brustfell), Atemnot",
+      "Durchfall, Übelkeit, Erbrechen, Bauchschmerzen",
+      "Kopfschmerzen",
+      "Blutungen",
+      "Hautausschlag",
+      "Müdigkeit, Fieber, Muskel- und Gelenkschmerzen"
+    ],
+    "haeufig": [
+      "Herzschwäche, Herzbeutelerguss, Herzrhythmusstörungen, Herzklopfen",
+      "Lungenhochdruck (pulmonale Hypertonie), Lungenödem, Lungenentzündung",
+      "Bluthochdruck",
+      "Magen-Darm-Blutungen, Kolitis (Dickdarmentzündung)",
+      "Fieberhafte Neutropenie",
+      "Haarausfall, Juckreiz, Akne, trockene Haut"
+    ],
+    "gelegentlich": [
+      "Herzinfarkt, QT-Verlängerung im EKG",
+      "Pulmonal-arterielle Hypertonie",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Hirnblutung",
+      "Hepatitis (Leberentzündung)",
+      "Nierenversagen"
+    ],
+    "selten": [
+      "Lungenembolie"
+    ],
+    "unbekannt": [
+      "Interstitielle Lungenerkrankung",
+      "Reaktivierung einer Hepatitis B",
+      "Stevens-Johnson-Syndrom (schwere Hautreaktion)",
+      "Thrombotische Mikroangiopathie",
+      "Nephrotisches Syndrom"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Zustand der Frau erfordert es zwingend; beim Menschen wurden Fehlbildungen und schwere Wassereinlagerungen beim Ungeborenen beschrieben. Frauen im gebärfähigen Alter müssen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Tabletten täglich zur gleichen Zeit ganz schlucken, unabhängig von den Mahlzeiten; keine Grapefruit und kein Grapefruitsaft.",
+    "Blutbild in den ersten zwei Monaten wöchentlich, danach monatlich kontrollieren.",
+    "Atemnot, Brustschmerzen, trockenen Husten oder rasche Gewichtszunahme (Wassereinlagerung) ärztlich melden.",
+    "Säureblocker (z. B. Pantoprazol) nur nach Rücksprache einnehmen; Antazida mit 2 Stunden Abstand."
+  ],
+  "stand": "2026-10"
+}

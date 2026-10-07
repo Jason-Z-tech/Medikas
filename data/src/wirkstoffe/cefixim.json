@@ -1,0 +1,170 @@
+{
+  "id": "cefixim",
+  "name": "Cefixim",
+  "synonyme": [
+    "Cefixime"
+  ],
+  "atc": [
+    "J01DD08"
+  ],
+  "klasse": "Cephalosporin der 3. Generation (zum Einnehmen)",
+  "kurz": "Antibiotikum zum Einnehmen aus der Gruppe der Cephalosporine gegen Atemwegs-, Ohren- und Harnwegsinfekte sowie Gonorrhö.",
+  "gruppen": [
+    "cephalosporine"
+  ],
+  "handelsnamen": [
+    "Cephoral"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Infektionen der oberen und unteren Atemwege, z. B. Rachen- und Mandelentzündung, Nasennebenhöhlenentzündung, akute Bronchitis und akute Schübe einer chronischen Bronchitis",
+      "ids": [
+        "atemwegsinfekt",
+        "mundinfektion",
+        "sinusitis",
+        "bronchitis",
+        "copd"
+      ]
+    },
+    {
+      "text": "Mittelohrentzündung",
+      "ids": [
+        "ohrenentzuendung"
+      ]
+    },
+    {
+      "text": "Harnwegsinfekte",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Unkomplizierte Gonorrhö (Tripper)",
+      "ids": [
+        "geschlechtskrankheit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand stört. Cefixim hemmt als Betalaktam-Antibiotikum die Penicillin-bindenden Proteine und damit die Quervernetzung der bakteriellen Zellwand (bakterizid). Es ist gegen viele Betalaktamasen stabil und wirkt besonders gut gegen gramnegative Erreger wie Haemophilus influenzae, Moraxella, E. coli und Gonokokken sowie gegen Streptokokken. Gegen Staphylokokken, Enterokokken und Pseudomonas wirkt es nicht ausreichend.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Cephalosporine",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Penicillinallergie oder Allergie gegen andere Betalaktame: Kreuzallergie möglich – nach schwerer Sofortreaktion nur nach ärztlicher Abklärung",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosisanpassung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwerer oder anhaltender Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Säuglinge unter 6 Monaten: keine ausreichenden Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Blutverdünnung möglich – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Schleifendiuretika)",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenschäden – Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Anstieg des Carbamazepin-Spiegels beschrieben – bei Bedarf Spiegel kontrollieren.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Nifedipin",
+      "ref": [
+        "nifedipin"
+      ],
+      "effekt": "Kann die Aufnahme von Cefixim erhöhen; klinisch meist ohne Bedeutung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Bei Durchfall oder Erbrechen ist die Verhütungssicherheit vermindert – zusätzlich mechanisch verhüten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Durchfall, weicher Stuhl"
+    ],
+    "gelegentlich": [
+      "Bauchschmerzen, Übelkeit, Erbrechen",
+      "Kopfschmerzen",
+      "Hautausschlag",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [
+      "Juckreiz, Überempfindlichkeitsreaktionen",
+      "Schwindel",
+      "Blähungen, Appetitlosigkeit",
+      "Eosinophilie (Vermehrung bestimmter weisser Blutkörperchen)",
+      "Pilzinfektionen (Superinfektion)"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautablösung)",
+      "Pseudomembranöse Kolitis (schwere Darmentzündung)",
+      "Blutbildveränderungen (Agranulozytose, Thrombozytopenie, hämolytische Anämie)",
+      "Leberentzündung, Gelbsucht",
+      "Interstitielle Nephritis (Nierenentzündung)"
+    ],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Cephalosporine gelten in der Schwangerschaft als gut verträglich; trotzdem nur nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Übergang in die Muttermilch nicht ausreichend untersucht; Anwendung nur nach ärztlicher Abwägung. Beim Säugling auf Durchfall oder Pilzbefall achten.",
+  "hinweise": [
+    "Unabhängig von den Mahlzeiten einnehmen; die verordnete Behandlungsdauer einhalten.",
+    "Starken oder blutigen Durchfall ärztlich melden.",
+    "Bei Gonorrhö auch Sexualpartnerinnen und -partner untersuchen und behandeln lassen."
+  ],
+  "stand": "2026-10"
+}

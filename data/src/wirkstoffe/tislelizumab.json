@@ -1,0 +1,176 @@
+{
+  "id": "tislelizumab",
+  "name": "Tislelizumab",
+  "synonyme": [
+    "BGB-A317"
+  ],
+  "atc": [
+    "L01FF09"
+  ],
+  "klasse": "Immun-Checkpoint-Hemmer (monoklonaler Antikörper gegen PD-1)",
+  "kurz": "Immuntherapie als Infusion bei Speiseröhren-, Magen- und nicht-kleinzelligem Lungenkrebs, allein oder mit Chemotherapie.",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Tevimbra"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittenes Plattenepithelkarzinom der Speiseröhre: allein nach platinhaltiger Chemotherapie oder als Erstbehandlung zusammen mit platinhaltiger Chemotherapie bei PD-L1-positivem Tumor",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener HER2-negativer Magenkrebs oder Krebs am Übergang Speiseröhre-Magen mit PD-L1-Expression, Erstbehandlung zusammen mit platin- und fluoropyrimidinhaltiger Chemotherapie",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs: Erstbehandlung zusammen mit Chemotherapie oder allein nach vorheriger Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, damit Abwehrzellen Krebszellen wieder bekämpfen. Tislelizumab ist ein humanisierter IgG4-Antikörper, der an den Rezeptor PD-1 auf T-Zellen bindet und dessen Aktivierung durch die Liganden PD-L1 und PD-L2 blockiert. Sein Fc-Teil ist so verändert, dass er kaum an Fc-gamma-Rezeptoren von Fresszellen bindet – damit sollen die aktivierten T-Zellen nicht selbst abgebaut werden.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Bestehende Autoimmunerkrankung – Verschlechterung möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "lupus",
+        "rheumatoide-arthritis",
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Lungenentzündung (Pneumonitis)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Darm-, Leber- und Nierenentzündung – Leber- und Nierenwerte regelmässig kontrollieren",
+      "ids": [
+        "durchfall",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hormondrüsen-Störungen (Schilddrüse, Nebenniere, Hirnanhangsdrüse) und Typ-1-Diabetes",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "hypophyseninsuffizienz",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Herzmuskel-, Muskel- und Nervenentzündungen (Myokarditis, Myositis, Myasthenie)",
+      "ids": [
+        "kardiomyopathie",
+        "muskelerkrankung",
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Organtransplantation (Abstossungsgefahr)",
+      "ids": [
+        "transplantation"
+      ]
+    },
+    {
+      "text": "Infusionsreaktionen",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden. Zur Behandlung immunvermittelter Nebenwirkungen sind sie jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immun-Checkpoint-Hemmer",
+      "ref": [
+        "gruppe:checkpoint-inhibitoren"
+      ],
+      "effekt": "Mehr und schwerere immunvermittelte Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kombinierte Chemotherapie (Platinderivate, Fluoropyrimidine)",
+      "ref": [
+        "gruppe:platinderivate",
+        "gruppe:fluoropyrimidine"
+      ],
+      "effekt": "Keine pharmakokinetische Wechselwirkung; Blutbildveränderungen und Übelkeit stammen meist von der Chemotherapie – Blutbild kontrollieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Anämie (Blutarmut)",
+      "Müdigkeit",
+      "Erhöhte Leberwerte (AST, ALT) und erhöhtes Bilirubin",
+      "Husten",
+      "Hautausschlag"
+    ],
+    "haeufig": [
+      "Hypothyreose, Hyperthyreose (Schilddrüsenunter- und -überfunktion)",
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "Hyperglykämie (erhöhter Blutzucker), Hyponatriämie, Hypokaliämie",
+      "Durchfall, Übelkeit",
+      "Juckreiz",
+      "Gelenk- und Muskelschmerzen",
+      "Fieber, Infusionsreaktionen",
+      "Neutropenie, Thrombozytopenie"
+    ],
+    "gelegentlich": [
+      "Nebenniereninsuffizienz, Thyreoiditis",
+      "Typ-1-Diabetes",
+      "Kolitis (Dickdarmentzündung)",
+      "Hepatitis (Leberentzündung)",
+      "Nephritis (Nierenentzündung)",
+      "Myokarditis, Myositis, Arthritis"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Hypophysitis (Entzündung der Hirnanhangsdrüse)",
+      "Myasthenia gravis, Guillain-Barré-Syndrom",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom)",
+      "Abstossung transplantierter Organe"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen: IgG-Antikörper gehen über die Plazenta, und die PD-1-Blockade kann die Toleranz gegenüber dem Ungeborenen stören. Frauen im gebärfähigen Alter verhüten während der Behandlung und mindestens 4 Monate danach.",
+  "stillzeit": "Während der Behandlung und mindestens 4 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Neue Beschwerden wie Durchfall, Husten, Atemnot, Gelbsucht, starke Müdigkeit, Kopfschmerzen oder Hautausschlag sofort melden – auch Monate nach Therapieende.",
+    "Den Patientenausweis immer bei sich tragen und allen Ärztinnen und Ärzten zeigen.",
+    "Leber-, Nieren- und Schilddrüsenwerte sowie Blutzucker werden regelmässig kontrolliert.",
+    "Kortison nicht eigenmächtig beginnen oder absetzen."
+  ],
+  "stand": "2026-10"
+}

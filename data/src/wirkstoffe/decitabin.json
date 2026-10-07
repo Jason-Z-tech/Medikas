@@ -1,0 +1,161 @@
+{
+  "id": "decitabin",
+  "name": "Decitabin",
+  "synonyme": [
+    "5-Aza-2'-desoxycytidin",
+    "Decitabine"
+  ],
+  "atc": [
+    "L01BC08"
+  ],
+  "klasse": "Hypomethylierende Substanz (Pyrimidinanalogon, Desoxycytidin-Analogon); Zytostatikum",
+  "kurz": "Infusion, die abgeschaltete Gene in Leukämiezellen reaktiviert; bei akuter myeloischer Leukämie, wenn eine intensive Chemotherapie nicht möglich ist.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Dacogen"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Neu diagnostizierte akute myeloische Leukämie (AML) bei Erwachsenen, für die eine Standard-Induktionschemotherapie nicht in Frage kommt",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Reaktiviert in Leukämiezellen Gene, die das Zellwachstum kontrollieren, und hemmt so die Vermehrung der Krebszellen. Decitabin ist ein Desoxycytidin-Analogon, das nach Phosphorylierung in die DNA eingebaut wird und dort die DNA-Methyltransferasen hemmt. Dies führt zu einer Hypomethylierung der DNA, zur Wiederanschaltung stillgelegter Gene und zur Ausreifung (Differenzierung) oder zum Absterben der Zellen.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Knochenmarkhemmung mit Infektanfälligkeit und Blutungsneigung: Blutbild vor jedem Zyklus",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz oder instabile Herzerkrankung in der Vorgeschichte (Kardiomyopathie beschrieben)",
+      "ids": [
+        "herzinsuffizienz",
+        "kardiomyopathie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (nicht untersucht; engmaschig überwachen)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung: bei neuer oder zunehmender Atemnot abklären",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Differenzierungssyndrom (Fieber, Atemnot, Wassereinlagerungen)",
+      "ids": [
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Venetoclax (Kombination bei AML)",
+      "ref": [
+        "venetoclax"
+      ],
+      "effekt": "Stärkere Knochenmarkhemmung und mehr Infektionen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Nukleosid-Analoga, die durch Phosphorylierung aktiviert oder durch Cytidindesaminase abgebaut werden (z. B. Cytarabin, Gemcitabin, Azacitidin)",
+      "ref": [
+        "cytarabin",
+        "gemcitabin",
+        "azacitidin"
+      ],
+      "effekt": "Gegenseitige Beeinflussung von Aktivierung und Abbau möglich – Vorsicht bei Kombination.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Lungenentzündung, Harnwegsinfekte und andere Infektionen",
+      "Febrile Neutropenie, Neutropenie, Thrombozytopenie, Anämie, Leukopenie",
+      "Kopfschmerzen",
+      "Nasenbluten",
+      "Durchfall, Erbrechen, Übelkeit",
+      "Fieber"
+    ],
+    "haeufig": [
+      "Sepsis",
+      "Nasennebenhöhlenentzündung",
+      "Panzytopenie (Mangel an allen Blutzellen)",
+      "Überempfindlichkeitsreaktionen bis zur Anaphylaxie",
+      "Mundschleimhautentzündung",
+      "Erhöhte Leberwerte und Bilirubin"
+    ],
+    "gelegentlich": [
+      "Sweet-Syndrom (akute fieberhafte Hauterkrankung)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Differenzierungssyndrom",
+      "Interstitielle Lungenerkrankung",
+      "Enterokolitis, inkl. neutropenischer Kolitis",
+      "Kardiomyopathie (Herzmuskelerkrankung)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; Decitabin kann das Ungeborene schädigen. Frauen müssen während und bis 6 Monate, Männer während und bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Blutbild vor jedem Behandlungszyklus kontrollieren lassen.",
+    "Bei Fieber, Infektzeichen oder Blutungen sofort das Behandlungsteam informieren.",
+    "Müdigkeit und Blutarmut können die Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

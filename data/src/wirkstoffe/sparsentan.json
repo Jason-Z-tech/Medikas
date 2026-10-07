@@ -1,0 +1,224 @@
+{
+  "id": "sparsentan",
+  "name": "Sparsentan",
+  "synonyme": [
+    "Sparsentanum"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "C09XX01"
+  ],
+  "klasse": "Dualer Endothelin-Angiotensin-Rezeptorantagonist (DEARA)",
+  "kurz": "Nierenschützendes Mittel bei IgA-Nephropathie: blockiert zwei gefässverengende Hormone und senkt so die Eiweissausscheidung im Urin.",
+  "gruppen": [
+    "raas-hemmer",
+    "blutdrucksenkend",
+    "hyperkaliaemie-ausloesend",
+    "teratogen",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Filspari"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Primäre IgA-Nephropathie (chronische Nierenentzündung) bei Erwachsenen mit deutlich erhöhter Eiweissausscheidung im Urin, um das Fortschreiten zu verlangsamen",
+      "ids": [
+        "nephrotisches-syndrom",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt die Eiweissausscheidung im Urin und schützt die Niere, indem es die Wirkung von zwei gefässverengenden Hormonen blockiert. Sparsentan ist ein Antagonist sowohl am Endothelin-Typ-A-Rezeptor als auch am Angiotensin-II-Typ-1-Rezeptor (AT1). Dadurch sinkt der Druck in den Nierenkörperchen (Glomeruli), und entzündliche und vernarbende Vorgänge, die Endothelin und Angiotensin II in der Niere fördern, werden gebremst. Zusätzlich senkt es den Blutdruck.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankung oder erhöhte Leberwerte: Gefahr von Leberschäden – Leberwerte vor Beginn, im ersten Jahr monatlich und danach alle 3 Monate kontrollieren; bei mittelschwerer bis schwerer Leberinsuffizienz nicht empfohlen",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaft vor Beginn ausschliessen und während sowie bis 1 Monat nach der Behandlung zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Flüssigkeits- oder Salzmangel: symptomatischer Blutdruckabfall möglich",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Stark eingeschränkte Nierenfunktion oder Nierenarterienstenose: Gefahr einer akuten Nierenschädigung",
+      "ids": [
+        "niereninsuffizienz",
+        "nierenarterienstenose"
+      ]
+    },
+    {
+      "text": "Erhöhtes Hyperkaliämie-Risiko: Kalium regelmässig kontrollieren",
+      "ids": [
+        "hyperkaliaemie"
+      ]
+    },
+    {
+      "text": "Flüssigkeitseinlagerungen (Ödeme) und Herzinsuffizienz",
+      "ids": [
+        "oedeme",
+        "herzinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Sartane (Angiotensin-II-Rezeptorblocker)",
+      "ref": [
+        "gruppe:sartane"
+      ],
+      "grund": "Sparsentan blockiert selbst den AT1-Rezeptor – die doppelte Blockade erhöht das Risiko für Hypotonie, Hyperkaliämie und Nierenschäden."
+    },
+    {
+      "text": "Endothelin-Rezeptor-Antagonisten (z. B. Bosentan, Ambrisentan, Macitentan, Aprocitentan)",
+      "ref": [
+        "bosentan",
+        "ambrisentan",
+        "macitentan",
+        "aprocitentan"
+      ],
+      "grund": "Die doppelte Endothelin-Blockade verstärkt Nebenwirkungen wie Leberschäden, Ödeme und Blutdruckabfall."
+    },
+    {
+      "text": "Aliskiren",
+      "ref": [
+        "aliskiren"
+      ],
+      "grund": "Die zusätzliche Hemmung des Renin-Angiotensin-Systems erhöht das Risiko für Hypotonie, Hyperkaliämie und Nierenversagen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "ACE-Hemmer",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Doppelte RAAS-Hemmung – nicht kombinieren; ACE-Hemmer vor Beginn absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Sparsentan-Spiegel steigen deutlich – Kombination vermeiden; falls unumgänglich Sparsentan unterbrechen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Sparsentan-Spiegel sinken – Wirkverlust; Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Fluconazol, Diltiazem, Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Erhöhte Sparsentan-Spiegel – Blutdruck, Kalium und Nierenfunktion überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsparende Diuretika, Kaliumpräparate, kaliumhaltige Salzersatzmittel und andere kaliumerhöhende Mittel",
+      "ref": [
+        "gruppe:kaliumsparende-diuretika",
+        "gruppe:mineralokortikoid-antagonisten",
+        "gruppe:kaliumpraeparate",
+        "gruppe:hyperkaliaemie-ausloesend"
+      ],
+      "effekt": "Gefahr einer Hyperkaliämie – Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "NSAR inkl. COX-2-Hemmer",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:cox2-hemmer"
+      ],
+      "effekt": "Risiko einer akuten Nierenschädigung, besonders bei älteren oder ausgetrockneten Personen – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-Glykoprotein-Substrate (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Sparsentan hemmt P-Glykoprotein und kann deren Spiegel erhöhen – meiden oder engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Substrate von CYP2B6, CYP2C9 und CYP2C19 (z. B. Phenprocoumon, Clopidogrel)",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng",
+        "gruppe:cyp2c19-substrate"
+      ],
+      "effekt": "Sparsentan kann diese Enzyme induzieren und die Wirkung der Partnermedikamente abschwächen – Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida und andere säurehemmende Mittel (z. B. Protonenpumpenhemmer)",
+      "ref": [
+        "gruppe:antazida",
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Können die Aufnahme von Sparsentan vermindern – Antazida mindestens 2 Stunden vor oder nach Sparsentan einnehmen; Säurehemmer möglichst meiden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hyperkaliämie (erhöhtes Kalium)",
+      "Hypotonie (tiefer Blutdruck), auch beim Aufstehen",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Schwindel"
+    ],
+    "haeufig": [
+      "Kopfschmerzen",
+      "Müdigkeit",
+      "Anämie (Blutarmut)",
+      "Akute Nierenschädigung, Anstieg des Kreatinins",
+      "Erhöhte Leberwerte (Transaminasen)"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Arzneimittelbedingte Leberschädigung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert (fruchtschädigend wie andere Endothelin-Rezeptor-Antagonisten und RAAS-Hemmer). Vor Beginn Schwangerschaft ausschliessen und zuverlässig verhüten.",
+  "stillzeit": "Nicht stillen, da ein Risiko für den Säugling nicht ausgeschlossen werden kann.",
+  "hinweise": [
+    "Leberwerte vor Beginn, im ersten Jahr monatlich und danach alle 3 Monate kontrollieren; Gelbsucht, dunklen Urin, Übelkeit oder Oberbauchschmerzen sofort melden.",
+    "ACE-Hemmer, Sartane und Aliskiren vor Beginn absetzen.",
+    "Blutdruck, Kalium und Nierenwerte regelmässig kontrollieren; zu Beginn Vorsicht beim Aufstehen und Autofahren (Schwindel).",
+    "Frauen im gebärfähigen Alter: zuverlässig verhüten und Schwangerschaftstests nach ärztlicher Anweisung durchführen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,156 @@
+{
+  "id": "ublituximab",
+  "name": "Ublituximab",
+  "synonyme": [
+    "TG-1101"
+  ],
+  "atc": [
+    "L04AG14"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen CD20 (glykomodifiziert, B-Zell-depletierend); Immunsuppressivum",
+  "kurz": "Infusion alle 6 Monate gegen schubförmige Multiple Sklerose; baut B-Zellen ab, die Entzündungen im Nervensystem fördern.",
+  "gruppen": [
+    "immunsuppressiv"
+  ],
+  "handelsnamen": [
+    "Briumvi"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Schubförmige Multiple Sklerose mit aktiver Erkrankung bei Erwachsenen",
+      "ids": [
+        "multiple-sklerose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert bestimmte Abwehrzellen (B-Lymphozyten), die an den Entzündungsherden bei MS beteiligt sind. Ublituximab ist ein chimärer monoklonaler IgG1-Antikörper gegen ein eigenes Epitop des Oberflächenmoleküls CD20. Wegen einer gezielt verminderten Fucosylierung seines Fc-Teils bindet er stärker an Fc-Rezeptoren von Killerzellen und baut B-Zellen vor allem über antikörperabhängige zelluläre Zytotoxizität (ADCC) ab. Dadurch genügen kurze Infusionen alle 24 Wochen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere aktive Infektion (bis zur Ausheilung)",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Aktive Hepatitis-B-Infektion",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Stark geschwächtes Immunsystem",
+      "ids": [
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Aktive Krebserkrankung",
+      "ids": [
+        "krebs"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infusionsreaktionen, vor allem bei der ersten Infusion: Vorbehandlung mit Kortison und Antihistaminikum, Überwachung",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Infektionen; Hepatitis-B-Test vor Beginn (Reaktivierung bei früherer Infektion möglich)",
+      "ids": [
+        "aktive-infektion",
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Neue neurologische Symptome: an PML denken",
+      "ids": []
+    },
+    {
+      "text": "Abnahme der Immunglobuline und Neutropenie möglich – Blutwerte kontrollieren",
+      "ids": [
+        "immunsuppression",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Impfungen: Lebendimpfungen mindestens 4 Wochen, Totimpfungen möglichst 2 Wochen vor Beginn",
+      "ids": [
+        "impfung",
+        "lebendimpfung-geplant"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Während der Behandlung und bis zur Erholung der B-Zellen nicht verabreichen (Infektionsgefahr).",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Immunsuppressiva und Umstellung von MS-Therapien mit Wirkung auf das Immunsystem (z. B. Natalizumab, Fingolimod, Alemtuzumab, Mitoxantron)",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "natalizumab",
+        "fingolimod",
+        "alemtuzumab",
+        "mitoxantron"
+      ],
+      "effekt": "Additive Immunsuppression – erhöhtes Infektionsrisiko; Wirkungsdauer der Vortherapie berücksichtigen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Anti-CD20-Antikörper (z. B. Rituximab, Ocrelizumab, Ofatumumab)",
+      "ref": [
+        "rituximab",
+        "ocrelizumab",
+        "ofatumumab"
+      ],
+      "effekt": "Gleicher Angriffspunkt; nicht kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Totimpfstoffe",
+      "ref": [],
+      "effekt": "Impfantwort während der B-Zell-Verminderung abgeschwächt; möglichst vor Behandlungsbeginn impfen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infusionsreaktionen (Fieber, Schüttelfrost, Kopfschmerzen, grippeähnliche Beschwerden, Herzrasen, Übelkeit)",
+      "Infekte der oberen Atemwege"
+    ],
+    "haeufig": [
+      "Infekte der unteren Atemwege (z. B. Bronchitis)",
+      "Herpesinfektionen",
+      "Gliederschmerzen"
+    ],
+    "unbekannt": [
+      "Neutropenie (Mangel an weissen Blutkörperchen), auch verzögert",
+      "Hypogammaglobulinämie (verminderte Antikörperspiegel)",
+      "Hepatitis-B-Reaktivierung",
+      "Progressive multifokale Leukoenzephalopathie (PML)"
+    ]
+  },
+  "schwangerschaft": "Während der Behandlung und bis 4 Monate nach der letzten Infusion zuverlässig verhüten. Nach Anwendung in der Schwangerschaft ist beim Neugeborenen ein B-Zell-Mangel möglich.",
+  "stillzeit": "Nicht bekannt, ob Ublituximab in die Muttermilch übergeht; über Stillen ist ärztlich zu entscheiden.",
+  "hinweise": [
+    "Vor jeder Infusion Vorbehandlung gegen Infusionsreaktionen; nach den Infusionen Überwachung in der Klinik.",
+    "Vor Beginn Hepatitis-B-Test; Impfungen rechtzeitig vorher abschliessen.",
+    "Fieber oder andere Infektzeichen rasch ärztlich melden."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,161 @@
+{
+  "id": "typhus-impfstoff",
+  "name": "Typhus-Impfstoff",
+  "synonyme": [
+    "Ty21a-Impfstoff (Lebendimpfstoff zum Einnehmen)",
+    "Vi-Polysaccharid-Impfstoff"
+  ],
+  "atc": [
+    "J07AP01",
+    "J07AP03"
+  ],
+  "klasse": "Bakterieller Impfstoff: Lebendimpfstoff zum Einnehmen (Ty21a) oder Polysaccharid-Impfstoff zur Injektion (Vi)",
+  "kurz": "Reiseimpfung gegen Typhus: als Kapseln mit abgeschwächten lebenden Bakterien (Vivotif) oder als Spritze (Typhim Vi).",
+  "gruppen": [
+    "lebendimpfstoffe"
+  ],
+  "handelsnamen": [
+    "Vivotif",
+    "Typhim Vi"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Magensaftresistente Kapseln (Vivotif)",
+    "Injektionslösung in Fertigspritze (Typhim Vi)"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung von Typhus (Salmonella Typhi) bei Reisenden in Risikogebiete und anderen gefährdeten Personen; Kapseln für Erwachsene und Kinder ab 5 Jahren, Spritze ab 2 Jahren",
+      "ids": [
+        "reiseimpfung",
+        "impfung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Regt das Immunsystem an, Abwehrstoffe gegen Typhusbakterien zu bilden. Vivotif enthält den lebenden, abgeschwächten Salmonella-Typhi-Stamm Ty21a, der sich kurz im Darm ansiedelt, ohne krank zu machen, und dort eine lokale und allgemeine Immunantwort auslöst. Typhim Vi enthält das gereinigte Vi-Kapselpolysaccharid der Bakterien, gegen das Antikörper gebildet werden. Beide Impfstoffe schützen nicht vollständig und kaum gegen Paratyphus.",
+  "kontraindikationen": [
+    {
+      "text": "Nur Kapseln (Vivotif): angeborene oder erworbene Immunschwäche, einschliesslich HIV-Infektion und immunsuppressiver Behandlung",
+      "ids": [
+        "immunsuppression",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Nur Kapseln (Vivotif): akute fieberhafte Erkrankung oder akute Magen-Darm-Erkrankung (Impfung verschieben)",
+      "ids": [
+        "aktive-infektion",
+        "fieber",
+        "durchfall"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Schwangerschaft: Kapseln (Lebendimpfstoff) nicht empfohlen; Spritze nur nach ärztlicher Abwägung",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Kinder: Kapseln erst ab 5 Jahren, Spritze ab 2 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Spritze (Typhim Vi) bei Thrombozytopenie oder Blutgerinnungsstörung: Vorsicht bei der Injektion",
+      "ids": [
+        "thrombozytopenie",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Akute fieberhafte Erkrankung: auch die Spritze verschieben",
+      "ids": [
+        "fieber"
+      ]
+    },
+    {
+      "text": "Kein vollständiger Schutz: Nahrungsmittel- und Trinkwasserhygiene bleiben wichtig",
+      "ids": [
+        "reiseimpfung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nur Kapseln (Vivotif): Immunsuppressiva und Zytostatika",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "grund": "Bei geschwächter Abwehr könnten sich die lebenden Impfbakterien unkontrolliert vermehren; zudem ist die Schutzwirkung unsicher."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Antibiotika (z. B. Penicilline, Cephalosporine, Makrolide, Fluorchinolone, Tetracycline, Sulfonamide) – nur Kapseln",
+      "ref": [
+        "gruppe:penicilline",
+        "gruppe:cephalosporine",
+        "gruppe:makrolide",
+        "gruppe:fluorchinolone",
+        "gruppe:tetracycline",
+        "gruppe:sulfonamide"
+      ],
+      "effekt": "Antibiotika töten die lebenden Impfbakterien ab – Kapseln frühestens 3 Tage nach der letzten Antibiotika-Dosis einnehmen und Antibiotika erst 3 Tage nach der letzten Kapsel beginnen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Malariamittel – nur Kapseln",
+      "ref": [],
+      "effekt": "Einige Malariamittel (insbesondere Proguanil als Einzelsubstanz) können die Impfwirkung abschwächen – zeitlichen Abstand ärztlich oder in der Apotheke klären.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hochdosierte systemische Glukokortikoide – Spritze (Typhim Vi)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Die Impfantwort kann vermindert sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Reiseimpfstoffe (z. B. Hepatitis A, Gelbfieber)",
+      "ref": [
+        "hepatitis-a-impfstoff",
+        "gelbfieber-impfstoff"
+      ],
+      "effekt": "Können in der Regel gleichzeitig oder ohne besonderen Abstand verabreicht werden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schmerzen, Rötung und Verhärtung an der Einstichstelle (Typhim Vi)"
+    ],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Bauchschmerzen, Übelkeit, Durchfall, Erbrechen (Kapseln)",
+      "Fieber, Kopfschmerzen, Müdigkeit, Unwohlsein",
+      "Muskel- und Gelenkschmerzen",
+      "Hautausschlag, Juckreiz, Nesselsucht",
+      "Allergische Reaktionen bis Anaphylaxie",
+      "Kribbeln (Parästhesien), Schwindel"
+    ]
+  },
+  "schwangerschaft": "Kapseln (Lebendimpfstoff) in der Schwangerschaft nicht empfohlen. Typhim Vi nur bei klarem Ansteckungsrisiko nach ärztlicher Abwägung.",
+  "stillzeit": "Keine ausreichenden Daten; Impfung nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Kapseln im Kühlschrank lagern und nach Anleitung unzerkaut etwa 1 Stunde vor einer Mahlzeit mit einer kühlen Flüssigkeit schlucken; Einnahmeschema vollständig einhalten.",
+    "Impfung rechtzeitig vor der Abreise abschliessen (Kapseln mindestens 1 Woche, Spritze mindestens 2 Wochen vorher).",
+    "Auch geimpft gilt: nur Gekochtes, Geschältes und abgekochtes oder abgepacktes Wasser."
+  ],
+  "stand": "2026-10"
+}

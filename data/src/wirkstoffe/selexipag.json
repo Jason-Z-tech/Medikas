@@ -1,0 +1,181 @@
+{
+  "id": "selexipag",
+  "name": "Selexipag",
+  "synonyme": [
+    "ACT-293987"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "B01AC27"
+  ],
+  "klasse": "Selektiver Prostacyclin-Rezeptor-(IP-)Agonist (Mittel bei pulmonal arterieller Hypertonie)",
+  "kurz": "Tablette gegen Lungenhochdruck (pulmonal arterielle Hypertonie); erweitert die Lungengefässe und bremst das Fortschreiten.",
+  "gruppen": [
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Uptravi"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Langzeitbehandlung der pulmonal arteriellen Hypertonie (WHO-Funktionsklasse II–III), zusammen mit einem Endothelin-Rezeptor-Antagonisten und/oder PDE-5-Hemmer oder allein",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert die Blutgefässe der Lunge und bremst deren krankhaften Umbau. Selexipag ist kein Prostaglandin, sondern ein selektiver Agonist am Prostacyclin-Rezeptor (IP-Rezeptor). Es wird zu einem rund 37-mal stärker wirksamen aktiven Metaboliten umgewandelt, der den Grossteil der Wirkung trägt. Die Aktivierung des IP-Rezeptors entspannt die Gefässmuskulatur und hemmt deren Wucherung.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere koronare Herzkrankheit, instabile Angina pectoris oder Herzinfarkt in den letzten 6 Monaten",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Dekompensierte Herzinsuffizienz ohne engmaschige ärztliche Überwachung",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schlaganfall oder TIA in den letzten 3 Monaten",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Angeborene oder erworbene Herzklappenfehler mit relevanter Herzmuskelschwäche, die nicht durch die pulmonale Hypertonie bedingt ist",
+      "ids": [
+        "herzklappenerkrankung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Niedriger Blutdruck",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion kann auftreten – bei Verdacht Schilddrüsenwerte kontrollieren",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Schwere Leberfunktionsstörung (Child-Pugh C): nicht anwenden; bei mässiger Einschränkung angepasste Dosierung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz oder Dialyse: vorsichtige Dosissteigerung",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungenödem bei Venenverschlusskrankheit der Lunge (pulmonale veno-okklusive Erkrankung): Behandlung abbrechen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Gemfibrozil und andere starke CYP2C8-Hemmer",
+      "ref": [
+        "gemfibrozil"
+      ],
+      "grund": "Sie hemmen den Abbau des aktiven Metaboliten über CYP2C8 – dessen Spiegel vervielfacht sich, mit Gefahr schwerer Nebenwirkungen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mässige CYP2C8-Hemmer (z. B. Clopidogrel, Deferasirox, Teriflunomid)",
+      "ref": [
+        "gruppe:cyp2c8-hemmer",
+        "clopidogrel",
+        "deferasirox",
+        "teriflunomid"
+      ],
+      "effekt": "Spiegel des aktiven Metaboliten steigt etwa auf das Doppelte – Selexipag wird dann nur einmal täglich gegeben.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP2C8-Induktoren (z. B. Rifampicin)",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Spiegel des aktiven Metaboliten sinkt etwa um die Hälfte – Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "UGT-Hemmer (z. B. Valproinsäure, Probenecid, Fluconazol)",
+      "ref": [
+        "valproinsaeure",
+        "fluconazol"
+      ],
+      "effekt": "Spiegel können steigen – mit Vorsicht anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende und gefässerweiternde Mittel (z. B. Nitrate, PDE-5-Hemmer, Diuretika)",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:nitrate",
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall möglich – Blutdruck überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Flush (Hautrötung mit Hitzegefühl)",
+      "Durchfall, Übelkeit, Erbrechen",
+      "Kieferschmerzen",
+      "Muskel-, Gelenk- und Gliederschmerzen",
+      "Nasen-Rachen-Entzündung"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut)",
+      "Schilddrüsenüberfunktion",
+      "Appetitlosigkeit, Gewichtsabnahme",
+      "Hypotonie (niedriger Blutdruck)",
+      "Verstopfte Nase",
+      "Bauchschmerzen",
+      "Hautausschlag, Nesselsucht, Hautrötung"
+    ],
+    "gelegentlich": [
+      "Sinustachykardie (beschleunigter Puls)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Nur begrenzte Daten; nicht empfohlen. Frauen im gebärfähigen Alter sollen während der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Die Einnahme mit einer Mahlzeit verbessert die Verträglichkeit; die Dosis wird zu Beginn schrittweise gesteigert.",
+    "Nicht eigenmächtig absetzen; nach einem Unterbruch von 3 Tagen oder mehr wird mit einer niedrigeren Dosis neu begonnen.",
+    "Neue Medikamente, z. B. Clopidogrel oder Gemfibrozil, vorher mit Ärztin, Arzt oder Apotheke besprechen."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,224 @@
+{
+  "id": "mepivacain",
+  "name": "Mepivacain",
+  "synonyme": [
+    "Mepivacaine",
+    "Mepivacainhydrochlorid"
+  ],
+  "atc": [
+    "N01BB03"
+  ],
+  "klasse": "Lokalanästhetikum vom Amid-Typ (mittellang wirksam)",
+  "kurz": "Mittel zur örtlichen Betäubung, z. B. beim Zahnarzt, für Nervenblockaden und Infiltrationsanästhesie.",
+  "gruppen": [
+    "lokalanaesthetika"
+  ],
+  "handelsnamen": [
+    "Scandicain",
+    "Scandonest"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung",
+    "Zylinderampullen für die Zahnmedizin (teils mit Adrenalin)"
+  ],
+  "indikationen": [
+    {
+      "text": "Örtliche Betäubung durch Infiltration und Nervenblockaden (Leitungsanästhesie), auch als Epiduralanästhesie",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Örtliche Betäubung bei Zahnbehandlungen und Eingriffen im Mund",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Betäubt vorübergehend die Nerven im behandelten Gebiet, sodass keine Schmerzen weitergeleitet werden. Mepivacain blockiert spannungsabhängige Natriumkanäle der Nervenmembran und verhindert so die Erregungsleitung. Im Gegensatz zu vielen anderen Lokalanästhetika erweitert es die Blutgefässe kaum und wirkt deshalb auch ohne Adrenalinzusatz ausreichend lange. Als Amid-Lokalanästhetikum wird es in der Leber abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Lokalanästhetika vom Amid-Typ (z. B. Lidocain, Articain) – Kreuzallergie",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Reizleitungsstörungen am Herzen (AV-Block II. oder III. Grades ohne Herzschrittmacher)",
+      "ids": [
+        "av-block"
+      ]
+    },
+    {
+      "text": "Akute dekompensierte Herzinsuffizienz, kardiogener oder hypovolämischer Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    },
+    {
+      "text": "Zahnmedizin: medikamentös schlecht eingestellte Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Zahnmedizin: Kinder unter 4 Jahren bzw. unter etwa 20 kg Körpergewicht",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Epiduralanästhesie: schwere Blutgerinnungsstörungen oder erhöhter Hirndruck",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "hirnoedem"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion (langsamerer Abbau, Gefahr der Anreicherung)",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, Herzinsuffizienz, ältere oder geschwächte Menschen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "herzinsuffizienz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle bei zu hohen Blutspiegeln)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Präparate mit Adrenalin: Bluthochdruck, koronare Herzkrankheit, Schilddrüsenüberfunktion, Diabetes, Engwinkelglaukom",
+      "ids": [
+        "hypertonie",
+        "koronare-herzkrankheit",
+        "hyperthyreose",
+        "diabetes",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Blutgerinnungsstörungen oder Behandlung mit Blutverdünnern (Blutungen an der Einstichstelle)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere Lokalanästhetika und strukturverwandte Antiarrhythmika der Klasse I",
+      "ref": [
+        "gruppe:lokalanaesthetika",
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Additive Giftwirkung auf Herz und Nervensystem – Gesamtdosis beachten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika der Klasse III (z. B. Amiodaron)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii"
+      ],
+      "effekt": "Additive Wirkungen auf das Herz möglich – EKG-Überwachung bei höheren Dosen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Präparate mit Adrenalin: trizyklische Antidepressiva und MAO-Hemmer",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkte Adrenalinwirkung mit Blutdruckanstieg und Herzrhythmusstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Präparate mit Adrenalin: nicht-selektive Betablocker (z. B. Propranolol)",
+      "ref": [
+        "propranolol"
+      ],
+      "effekt": "Starker Blutdruckanstieg mit Pulsverlangsamung möglich – adrenalinfreie Lösung bevorzugen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Mehr Blutungen an der Einstichstelle; bei Epiduralanästhesie Gefahr von Blutergüssen im Wirbelkanal.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker und H2-Blocker (z. B. Cimetidin)",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Langsamerer Abbau von Mepivacain möglich – bei hohen oder wiederholten Dosen Vorsicht.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Beruhigungsmittel, Opioide und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Additive Dämpfung des Nervensystems – Dosis des Lokalanästhetikums eher niedrig wählen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypotonie (Blutdruckabfall)",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Parästhesien (Kribbeln, Taubheitsgefühl)",
+      "Schwindel",
+      "Bradykardie (langsamer Puls)",
+      "Bluthochdruck",
+      "Erbrechen"
+    ],
+    "gelegentlich": [
+      "Zeichen einer Überdosierung: Taubheit von Zunge und Mund, Ohrensausen, Sehstörungen, Zittern, Krampfanfälle, Bewusstlosigkeit"
+    ],
+    "selten": [
+      "Allergische Reaktionen bis anaphylaktischer Schock",
+      "Herzrhythmusstörungen, Herzstillstand",
+      "Nervenschäden (Neuropathie), Entzündung der Rückenmarkshäute nach rückenmarksnaher Gabe",
+      "Doppeltsehen",
+      "Atemdepression"
+    ],
+    "sehrSelten": [],
+    "unbekannt": []
+  },
+  "schwangerschaft": "Langjährige Erfahrung ohne Hinweise auf Fehlbildungen; Anwendung nach ärztlicher Abwägung möglich. In der Geburtshilfe wird Mepivacain kaum eingesetzt, weil Neugeborene es nur langsam abbauen.",
+  "stillzeit": "Geht nur in geringen Mengen in die Muttermilch über; bei üblicher Dosierung kann weiter gestillt werden.",
+  "hinweise": [
+    "Nach einer Betäubung im Mund erst essen oder heiss trinken, wenn das Taubheitsgefühl abgeklungen ist (Gefahr von Biss- und Verbrennungsverletzungen), besonders bei Kindern.",
+    "Die Fahrtüchtigkeit kann nach dem Eingriff vorübergehend beeinträchtigt sein.",
+    "Allergien auf Lokalanästhetika, Herzkrankheiten und die Einnahme von Blutverdünnern vor der Behandlung angeben."
+  ],
+  "stand": "2026-10"
+}

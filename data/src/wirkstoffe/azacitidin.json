@@ -1,0 +1,195 @@
+{
+  "id": "azacitidin",
+  "name": "Azacitidin",
+  "synonyme": [
+    "5-Azacytidin",
+    "Azacitidine"
+  ],
+  "atc": [
+    "L01BC07"
+  ],
+  "klasse": "Hypomethylierende Substanz (Pyrimidinanalogon, Cytidin-Analogon); Zytostatikum",
+  "kurz": "Krebsmittel, das abgeschaltete Gene in Blutkrebszellen reaktiviert; bei myelodysplastischen Syndromen und akuter myeloischer Leukämie.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "nephrotoxisch",
+    "hypokaliaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Vidaza",
+    "Onureg"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektionssuspension (unter die Haut) bzw. Infusionslösung",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Myelodysplastische Syndrome (MDS) mit mittlerem bis hohem Risiko und chronische myelomonozytäre Leukämie (CMML) bei Erwachsenen, die keine Stammzelltransplantation erhalten können (Injektion)",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Akute myeloische Leukämie (AML) bei Erwachsenen, die keine Stammzelltransplantation erhalten können (Injektion)",
+      "ids": [
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Erhaltungstherapie der AML nach erreichter Remission bei Erwachsenen ohne Stammzelltransplantation (Tabletten)",
+      "ids": [
+        "leukaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Reaktiviert Gene in Krebszellen, die für die normale Reifung und Wachstumskontrolle der Blutzellen wichtig sind, und wirkt zusätzlich direkt zellschädigend. Azacitidin ist ein Cytidin-Analogon, das in RNA und DNA eingebaut wird. In der DNA hemmt es die DNA-Methyltransferasen, was zu einer Hypomethylierung und Wiederanschaltung stillgelegter Gene führt; der Einbau in die RNA stört die Eiweissbildung. Besonders betroffen sind sich rasch teilende, abnorme Blutvorläuferzellen.",
+  "kontraindikationen": [
+    {
+      "text": "Fortgeschrittene bösartige Lebertumoren (Injektion)",
+      "ids": [
+        "leberkrebs"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Mangel an Blutzellen: Blutbild vor jedem Zyklus kontrollieren; Infektionen und Blutungen möglich",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion, besonders bei ausgedehnten Lebermetastasen (Leberkoma beschrieben)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Nierenversagen und renale tubuläre Azidose beschrieben)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herz- oder Lungenerkrankungen in der Vorgeschichte",
+      "ids": [
+        "herzinsuffizienz",
+        "copd"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung: bei neuer Atemnot oder Husten abklären",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Nekrotisierende Fasziitis (schwere Weichteilinfektion), Differenzierungssyndrom und Tumorlysesyndrom",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer: zuverlässige Verhütung",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Impfinfektion – während der Behandlung keine Lebendimpfungen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Venetoclax (zugelassene Kombination bei AML)",
+      "ref": [
+        "venetoclax"
+      ],
+      "effekt": "Stärkere Knochenmarkhemmung und mehr Infektionen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nierenschädigende Mittel",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Nierenfunktionsstörungen – Nierenwerte kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Neutropenie, febrile Neutropenie, Thrombozytopenie, Anämie, Leukopenie",
+      "Lungenentzündung und andere Infektionen",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung, Bauchschmerzen",
+      "Appetitlosigkeit, Gewichtsabnahme, Hypokaliämie (Kaliummangel)",
+      "Hautausschlag, Juckreiz, punktförmige Hautblutungen, blaue Flecken",
+      "Reaktionen an der Einstichstelle (Rötung, Schmerz)",
+      "Fieber, Müdigkeit, Schwäche",
+      "Gelenk- und Muskelschmerzen, Atemnot, Nasenbluten, Schwindel, Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Sepsis, auch bei Neutropenie",
+      "Hirnblutung, Magen-Darm-Blutungen",
+      "Nierenversagen, Blut im Urin",
+      "Tiefer oder hoher Blutdruck",
+      "Verwirrtheit, Angst, Schlaflosigkeit",
+      "Perikarderguss (Flüssigkeit im Herzbeutel), Pleuraerguss",
+      "Haarausfall, Nesselsucht",
+      "Mundschleimhautentzündung"
+    ],
+    "gelegentlich": [
+      "Überempfindlichkeitsreaktionen",
+      "Perikarditis (Herzbeutelentzündung)",
+      "Sweet-Syndrom (fieberhafte Hauterkrankung), Pyoderma gangraenosum",
+      "Renale tubuläre Azidose (Nierenfunktionsstörung)"
+    ],
+    "selten": [
+      "Tumorlysesyndrom",
+      "Interstitielle Lungenerkrankung"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Nekrotisierende Fasziitis",
+      "Differenzierungssyndrom",
+      "Leberversagen, Leberkoma",
+      "Hautvaskulitis (Gefässentzündung der Haut)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser bei zwingender Notwendigkeit; Azacitidin kann das Ungeborene schädigen. Frauen müssen während und bis 6 Monate, Männer während und bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Injektion (Vidaza) und Tabletten (Onureg) sind nicht gegeneinander austauschbar.",
+    "Tabletten einmal täglich unzerkaut schlucken (mit oder ohne Essen); in den ersten Zyklen etwa 30 Minuten vorher ein Mittel gegen Übelkeit einnehmen.",
+    "Blutbild vor jedem Zyklus kontrollieren; Fieber, Infektzeichen oder Blutungen sofort melden."
+  ],
+  "stand": "2026-10"
+}

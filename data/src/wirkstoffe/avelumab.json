@@ -1,0 +1,177 @@
+{
+  "id": "avelumab",
+  "name": "Avelumab",
+  "synonyme": [
+    "MSB0010718C"
+  ],
+  "atc": [
+    "L01FF04"
+  ],
+  "klasse": "Immun-Checkpoint-Hemmer (monoklonaler Antikörper gegen PD-L1)",
+  "kurz": "Immuntherapie als Infusion bei Merkelzellkarzinom, Blasenkrebs (Erhaltungstherapie) und Nierenkrebs (zusammen mit Axitinib).",
+  "gruppen": [
+    "checkpoint-inhibitoren"
+  ],
+  "handelsnamen": [
+    "Bavencio"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasiertes Merkelzellkarzinom (seltener, aggressiver Hautkrebs)",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittenes oder metastasiertes Urothelkarzinom (Blasenkrebs) als Erhaltungstherapie, wenn die platinhaltige Erstbehandlung das Fortschreiten gestoppt hat",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittenes Nierenzellkarzinom, Erstbehandlung zusammen mit Axitinib",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst eine Bremse des Immunsystems, damit Abwehrzellen Krebszellen angreifen. Avelumab ist ein humaner IgG1-Antikörper gegen den Liganden PD-L1 und verhindert dessen Bindung an PD-1 und B7.1 (CD80) auf T-Zellen; dadurch wird die gegen den Tumor gerichtete T-Zell-Antwort wiederhergestellt. Anders als andere PD-L1-Antikörper kann Avelumab über seinen Fc-Teil zusätzlich natürliche Killerzellen gegen Tumorzellen lenken (antikörperabhängige zelluläre Zytotoxizität).",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Infusionsreaktionen, besonders bei den ersten Infusionen – Prämedikation mit Antihistaminikum und Paracetamol",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Bestehende Autoimmunerkrankung – Verschlechterung möglich",
+      "ids": [
+        "autoimmunerkrankung",
+        "morbus-crohn",
+        "colitis-ulcerosa",
+        "lupus",
+        "rheumatoide-arthritis",
+        "multiple-sklerose"
+      ]
+    },
+    {
+      "text": "Immunvermittelte Entzündungen von Lunge, Darm, Leber und Niere",
+      "ids": [
+        "lungenfibrose",
+        "durchfall",
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hormondrüsen-Störungen (Schilddrüse, Nebenniere, Hirnanhangsdrüse) und Typ-1-Diabetes",
+      "ids": [
+        "hypothyreose",
+        "hyperthyreose",
+        "nebenniereninsuffizienz",
+        "hypophyseninsuffizienz",
+        "diabetes-typ-1"
+      ]
+    },
+    {
+      "text": "Zusammen mit Axitinib: Leberschäden häufiger und schwerer – Leberwerte engmaschig kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Zusammen mit Axitinib: schwere Herz-Kreislauf-Ereignisse (z. B. Herzinfarkt, Herzschwäche) – Risikofaktoren behandeln",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinsuffizienz",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Organtransplantation (Abstossungsgefahr)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Systemische Glukokortikoide und andere Immunsuppressiva vor Behandlungsbeginn",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:immunsuppressiv"
+      ],
+      "effekt": "Können die Wirksamkeit abschwächen – vor Beginn möglichst vermeiden. Zur Behandlung immunvermittelter Nebenwirkungen sind sie jedoch angezeigt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Axitinib (Kombinationspartner beim Nierenkrebs)",
+      "ref": [
+        "axitinib"
+      ],
+      "effekt": "Häufiger erhöhte Leberwerte und Leberschäden sowie Herz-Kreislauf-Ereignisse – Leberwerte und Herz eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Immun-Checkpoint-Hemmer",
+      "ref": [
+        "gruppe:checkpoint-inhibitoren"
+      ],
+      "effekt": "Mehr und schwerere immunvermittelte Nebenwirkungen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Müdigkeit",
+      "Übelkeit, Durchfall, Verstopfung, Erbrechen",
+      "Infusionsbedingte Reaktionen (Fieber, Schüttelfrost, Atemnot)",
+      "Appetitlosigkeit, Gewichtsverlust",
+      "Husten, Atemnot",
+      "Bauch-, Rücken- und Gelenkschmerzen",
+      "Fieber, periphere Ödeme",
+      "Anämie (Blutarmut)"
+    ],
+    "haeufig": [
+      "Hypothyreose (Schilddrüsenunterfunktion)",
+      "Hautausschlag, Juckreiz",
+      "Bluthochdruck",
+      "Kopfschmerzen, Schwindel",
+      "Pneumonitis (nicht-infektiöse Lungenentzündung)",
+      "Erhöhte Leberwerte",
+      "Lymphopenie (Mangel an Lymphozyten)"
+    ],
+    "gelegentlich": [
+      "Hyperthyreose, Thyreoiditis, Nebenniereninsuffizienz",
+      "Kolitis (Dickdarmentzündung)",
+      "Hepatitis, autoimmune Hepatitis",
+      "Typ-1-Diabetes",
+      "Nephritis (Nierenentzündung)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Myokarditis (Herzmuskelentzündung)",
+      "Myositis, Myasthenia gravis, Guillain-Barré-Syndrom",
+      "Hypophysitis (Entzündung der Hirnanhangsdrüse)",
+      "Abstossung transplantierter Organe"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen: IgG-Antikörper gehen über die Plazenta, und die PD-L1-Blockade kann die Toleranz gegenüber dem Ungeborenen stören. Frauen im gebärfähigen Alter verhüten während der Behandlung und mindestens 1 Monat danach.",
+  "stillzeit": "Während der Behandlung und mindestens 1 Monat nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Vor den ersten Infusionen gibt es ein Antihistaminikum und Paracetamol gegen Infusionsreaktionen.",
+    "Neue Beschwerden wie Durchfall, Husten, Atemnot, Gelbsucht, starke Müdigkeit oder Hautausschlag sofort melden – auch nach Therapieende.",
+    "Leber-, Nieren- und Schilddrüsenwerte sowie Blutzucker werden regelmässig kontrolliert.",
+    "Den Patientenausweis immer bei sich tragen."
+  ],
+  "stand": "2026-10"
+}

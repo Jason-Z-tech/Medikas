@@ -1,0 +1,293 @@
+{
+  "id": "rifampicin-isoniazid-pyrazinamid",
+  "name": "Rifampicin + Isoniazid + Pyrazinamid",
+  "synonyme": [
+    "Rifampicin/Isoniazid/Pyrazinamid",
+    "Rifampicin, isoniazid and pyrazinamide"
+  ],
+  "kombinationAus": [
+    "rifampicin",
+    "isoniazid",
+    "pyrazinamid"
+  ],
+  "atc": [
+    "J04AM05"
+  ],
+  "klasse": "Tuberkulostatika-Fixkombination (Rifamycin + Isonicotinsäurehydrazid + Pyrazinamid)",
+  "kurz": "Kombination dreier Tuberkulosemittel in einer Tablette für die zweimonatige Anfangsphase der Tuberkulosebehandlung.",
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "p-gp-induktoren",
+    "enzyminduktoren-hormone",
+    "hepatotoxisch",
+    "neuropathie-ausloesend",
+    "krampfschwellensenkend",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Rifater"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Überzogene Tabletten (Dragées)"
+  ],
+  "indikationen": [
+    {
+      "text": "Lungentuberkulose in der Anfangsphase der Behandlung (in der Regel die ersten zwei Monate), meist zusammen mit Ethambutol",
+      "ids": [
+        "tuberkulose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Drei Antibiotika, die Tuberkulosebakterien auf unterschiedliche Weise abtöten. Rifampicin hemmt die bakterielle RNA-Polymerase, Isoniazid blockiert nach Aktivierung durch das bakterielle Enzym KatG die Bildung der Mykolsäuren der Zellwand. Pyrazinamid wird in den Bakterien zu Pyrazinsäure umgewandelt und wirkt vor allem gegen langsam wachsende Erreger in saurer Umgebung, was die Gesamtbehandlung auf sechs Monate verkürzt. Rifampicin ist zudem ein sehr starker Induktor von Leberenzymen (u. a. CYP3A4) und P-Glykoprotein.",
+  "kontraindikationen": [
+    {
+      "text": "Gelbsucht (Ikterus), akute Lebererkrankungen und schwere Leberfunktionsstörung",
+      "ids": [
+        "cholestase",
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frühere arzneimittelbedingte Leberentzündung, insbesondere durch Isoniazid",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akuter Gichtanfall",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Rifamycine (z. B. Rifabutin)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Chronische Lebererkrankung, regelmässiger Alkoholkonsum, ältere oder mangelernährte Menschen: höheres Risiko für Leberschäden – Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum",
+        "aeltere-patienten",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Gicht oder erhöhte Harnsäure in der Vorgeschichte",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Risiko für Nervenschäden (Diabetes, Alkohol, Mangelernährung, HIV, Schwangerschaft): vorbeugend Vitamin B6 (Pyridoxin)",
+      "ids": [
+        "diabetes",
+        "hiv",
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Epilepsie oder Psychosen in der Vorgeschichte",
+      "ids": [
+        "epilepsie",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Genetisch langsamer Isoniazid-Abbau (langsame Acetylierer): höhere Spiegel, mehr Nebenwirkungen",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Unregelmässige Einnahme oder Wiederbeginn nach einer Pause: Gefahr schwerer immunologischer Reaktionen (grippeähnliches Syndrom, Thrombozytopenie, Nierenversagen)",
+      "ids": [
+        "thrombozytopenie",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "HIV-Proteasehemmer, insbesondere Saquinavir/Ritonavir",
+      "ref": [
+        "gruppe:hiv-proteasehemmer",
+        "ritonavir"
+      ],
+      "grund": "Rifampicin senkt die Spiegel der Proteasehemmer stark (Wirkverlust, Resistenz); mit Saquinavir/Ritonavir traten zudem schwere Leberschäden auf."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Ring, Implantat)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz nicht mehr sicher – nicht-hormonal verhüten, bis 4 Wochen nach Behandlungsende.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antikoagulanzien (Vitamin-K-Antagonisten, DOAK)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten",
+        "gruppe:doak"
+      ],
+      "effekt": "Wirkung deutlich abgeschwächt – DOAK meiden, unter Phenprocoumon oder Acenocoumarol INR engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azol-Antimykotika (Voriconazol und Isavuconazol laut deren Fachinformation kontraindiziert; auch Itraconazol, Posaconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika",
+        "voriconazol",
+        "isavuconazol"
+      ],
+      "effekt": "Spiegel der Pilzmittel sinkt stark – Wirkverlust; Kombination meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere HIV-Medikamente (z. B. Rilpivirin, Doravirin, Bictegravir, Dolutegravir)",
+      "ref": [
+        "gruppe:nnrti",
+        "gruppe:integrasehemmer"
+      ],
+      "effekt": "Spiegel sinken stark; viele Kombinationen sind kontraindiziert, andere erfordern Dosisanpassungen – nur nach Rücksprache mit der HIV-Fachperson.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel sinkt stark – Abstossungsgefahr; Spiegel engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antiepileptika (Phenytoin, Carbamazepin)",
+      "ref": [
+        "phenytoin",
+        "carbamazepin"
+      ],
+      "effekt": "Isoniazid hemmt, Rifampicin beschleunigt deren Abbau – Spiegel unvorhersehbar; Spiegel kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Wirkung deutlich abgeschwächt – Dosis meist erhöhen; Vorsicht bei Nebenniereninsuffizienz.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide, insbesondere Methadon",
+      "ref": [
+        "methadon",
+        "gruppe:opioide"
+      ],
+      "effekt": "Wirkung abgeschwächt, Entzugssymptome möglich – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. Statine, Calciumantagonisten, Midazolam)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Wirkung stark abgeschwächt – Alternativen erwägen oder Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und andere P-Glykoprotein-Substrate",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel sinkt – Spiegel bzw. Wirkung kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gichtmittel (Allopurinol, Febuxostat)",
+      "ref": [
+        "gruppe:urikostatika"
+      ],
+      "effekt": "Pyrazinamid erhöht die Harnsäure und schwächt die Wirkung von Gichtmitteln ab – Harnsäure kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Sulfonylharnstoffe, Insulin)",
+      "ref": [
+        "gruppe:sulfonylharnstoffe",
+        "gruppe:insuline"
+      ],
+      "effekt": "Blutzucker kann schwanken, Wirkung von Sulfonylharnstoffen abgeschwächt – Blutzucker häufiger messen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Paracetamol und andere leberschädigende Mittel",
+      "ref": [
+        "paracetamol",
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – Paracetamol nur zurückhaltend, Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Levothyroxin",
+      "ref": [
+        "levothyroxin"
+      ],
+      "effekt": "Bedarf kann steigen – TSH kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme – Rifater mindestens 1 Stunde vor Antazida einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Übelkeit, Erbrechen, Appetitlosigkeit, Bauchbeschwerden",
+      "Erhöhte Leberwerte, Hepatitis bis Leberversagen, Gelbsucht",
+      "Hyperurikämie (erhöhte Harnsäure), Gichtanfall, Gelenkschmerzen",
+      "Periphere Neuropathie (Kribbeln, Taubheit), Optikusneuritis, Krampfanfälle, Psychosen",
+      "Thrombozytopenie, Leukopenie, Agranulozytose, hämolytische Anämie",
+      "Grippeähnliches Syndrom, Atemnot, Schock, akutes Nierenversagen (vor allem bei unregelmässiger Einnahme)",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS), Anaphylaxie, Lichtempfindlichkeit",
+      "Rot-orange Verfärbung von Urin, Schweiss, Speichel und Tränen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; eine Tuberkulose muss auch in der Schwangerschaft behandelt werden. Rifampicin in den letzten Wochen kann bei Mutter und Neugeborenem Blutungen begünstigen (Vitamin K), zusätzlich wird Vitamin B6 empfohlen.",
+  "stillzeit": "Alle drei Wirkstoffe gehen in die Muttermilch über; Stillen nach ärztlicher Abwägung möglich, Kind beobachten.",
+  "hinweise": [
+    "Auf nüchternen Magen einnehmen (mindestens 30 Minuten vor oder 2 Stunden nach einer Mahlzeit), regelmässig und ohne Unterbruch.",
+    "Urin, Schweiss und Tränen färben sich rot-orange; weiche Kontaktlinsen können dauerhaft verfärbt werden. Hormonale Verhütung wirkt nicht zuverlässig.",
+    "Leberwerte und Harnsäure werden regelmässig kontrolliert; auf Alkohol verzichten, bei Gelbsucht oder dunklem Urin sofort ärztlich abklären.",
+    "Haut vor starker Sonne schützen."
+  ],
+  "stand": "2026-10"
+}

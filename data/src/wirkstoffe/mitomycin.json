@@ -1,0 +1,212 @@
+{
+  "id": "mitomycin",
+  "name": "Mitomycin",
+  "synonyme": [
+    "Mitomycin C",
+    "Mitomycinum"
+  ],
+  "atc": [
+    "L01DC03"
+  ],
+  "klasse": "Zytostatikum (zytotoxisches Antibiotikum mit alkylierender Wirkung)",
+  "kurz": "Krebsmittel (Zytostatikum) als Infusion bei verschiedenen Tumoren und als Blasenspülung gegen Rückfälle bei oberflächlichem Blasenkrebs.",
+  "gruppen": [
+    "zytostatika",
+    "myelosuppressiv",
+    "nephrotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Mitomycin medac"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Injektions- oder Infusionslösung",
+    "Pulver zur Herstellung einer Lösung zur Anwendung in der Harnblase"
+  ],
+  "indikationen": [
+    {
+      "text": "Oberflächlicher Blasenkrebs: Spülung der Harnblase zur Vorbeugung von Rückfällen nach operativer Tumorentfernung",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener oder metastasierter Magenkrebs und Brustkrebs (palliativ, allein oder kombiniert mit anderen Zytostatika)",
+      "ids": [
+        "magen-speiseroehren-krebs",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "In Kombination mit anderen Zytostatika: nicht-kleinzelliger Lungenkrebs und fortgeschrittener Bauchspeicheldrüsenkrebs",
+      "ids": [
+        "lungenkrebs",
+        "bauchspeicheldruesenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Schädigt das Erbgut sich teilender Zellen und bremst so das Tumorwachstum. Mitomycin ist ein aus Streptomyces caespitosus gewonnenes Antibiotikum, das in der Zelle reduktiv aktiviert wird und dann wie ein Alkylans wirkt: Es vernetzt die beiden DNA-Stränge miteinander und hemmt so die DNA-Synthese. Bei der Blasenspülung wirkt es vor allem örtlich auf die Blasenschleimhaut und gelangt nur in geringen Mengen ins Blut.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Bei Infusion: ausgeprägter Mangel an Blutzellen (Panzytopenie, Leukopenie, Thrombozytopenie) und erhöhte Blutungsneigung",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie",
+        "blutgerinnungsstoerung"
+      ]
+    },
+    {
+      "text": "Bei Infusion: akute Infektionen",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Bei Blasenspülung: Durchbruch (Perforation) der Blasenwand oder Blasenentzündung",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion (Mitomycin kann die Nieren schädigen; selten hämolytisch-urämisches Syndrom)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (Gefahr einer Lungengewebsentzündung oder Lungenfibrose)",
+      "ids": [
+        "lungenfibrose",
+        "copd"
+      ]
+    },
+    {
+      "text": "Vorbehandlung mit Anthrazyklinen wie Doxorubicin (Risiko einer Herzschwäche)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gleichzeitige oder vorangegangene Strahlen- oder Chemotherapie (verstärkte Knochenmarkhemmung)",
+      "ids": [
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und Männer mit Kinderwunsch (erbgutschädigend; zuverlässige Verhütung nötig)",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere Knochenmark-hemmende Krebsmittel (auch Strahlentherapie)",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Verstärkte Knochenmarkhemmung – Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe (z. B. Gelbfieber, Masern-Mumps-Röteln)",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr schwerer Infektionen durch das Impfvirus bei geschwächter Abwehr – während der Chemotherapie nicht impfen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Doxorubicin und andere Anthrazykline",
+      "ref": [
+        "doxorubicin",
+        "epirubicin"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzmuskelschäden und Herzschwäche.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vinca-Alkaloide (Vinblastin, Vincristin, Vinorelbin)",
+      "ref": [
+        "vinblastin",
+        "vincristin",
+        "vinorelbin"
+      ],
+      "effekt": "Akute Atemnot und Verkrampfung der Atemwege (Bronchospasmus) beschrieben.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tamoxifen und Fluorouracil",
+      "ref": [
+        "tamoxifen",
+        "fluorouracil"
+      ],
+      "effekt": "Erhöhtes Risiko für ein hämolytisch-urämisches Syndrom (Blutzerfall mit Nierenversagen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere nierenschädigende Mittel",
+      "ref": [
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Verstärkte Nierenschädigung möglich – Nierenfunktion kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Knochenmarkhemmung mit Mangel an weissen Blutkörperchen und Blutplättchen (bei Infusion, oft verzögert nach Wochen)",
+      "Übelkeit und Erbrechen (bei Infusion)"
+    ],
+    "haeufig": [
+      "Blasenentzündung (Zystitis), auch mit Blut im Urin, schmerzhaftes und häufiges Wasserlösen (bei Blasenspülung)",
+      "Hautausschlag, Juckreiz, Kontaktdermatitis, Rötung an Handflächen und Fusssohlen",
+      "Interstitielle Pneumonie und Lungenfibrose (Lungengewebsentzündung, -vernarbung), Atemnot, Husten (bei Infusion)",
+      "Nierenfunktionsstörung (bei Infusion)"
+    ],
+    "gelegentlich": [
+      "Haarausfall",
+      "Entzündung der Mundschleimhaut",
+      "Durchfall, Appetitlosigkeit",
+      "Fieber"
+    ],
+    "selten": [
+      "Lebensbedrohliche Infektionen, Blutvergiftung (Sepsis)",
+      "Hämolytisch-urämisches Syndrom (Blutzerfall mit akutem Nierenversagen)",
+      "Herzschwäche, besonders nach Vorbehandlung mit Anthrazyklinen",
+      "Lungenhochdruck, Verschluss kleiner Lebervenen (veno-okklusive Erkrankung)"
+    ],
+    "unbekannt": [
+      "Schwere Gewebeschäden (Nekrosen), wenn die Infusion ins Gewebe austritt (Paravasat)",
+      "Nach Blasenspülung: Nekrose oder Verkalkung der Blasenwand, Schrumpfblase"
+    ]
+  },
+  "schwangerschaft": "Darf in der Schwangerschaft nicht angewendet werden, da Mitomycin erbgut- und fruchtschädigend ist. Frauen und Männer müssen während und nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Regelmässige Blutbildkontrollen; Fieber, Halsschmerzen oder Blutungszeichen sofort melden – die Knochenmarkhemmung kann erst Wochen nach der Gabe auftreten.",
+    "Blasenspülung: vorher wenig trinken, die Lösung so lange wie verordnet (meist 1–2 Stunden) in der Blase behalten, danach Hände und Genitalbereich gründlich waschen.",
+    "Brennen oder Schmerzen an der Infusionsstelle sofort melden (Gefahr schwerer Gewebeschäden)."
+  ],
+  "stand": "2026-10"
+}

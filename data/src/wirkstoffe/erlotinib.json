@@ -1,0 +1,196 @@
+{
+  "id": "erlotinib",
+  "name": "Erlotinib",
+  "synonyme": [
+    "OSI-774"
+  ],
+  "atc": [
+    "L01EB02"
+  ],
+  "klasse": "Proteinkinase-Hemmer (EGFR-Tyrosinkinasehemmer der 1. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei Lungenkrebs mit EGFR-Mutation und, mit Gemcitabin, bei metastasiertem Bauchspeicheldrüsenkrebs.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp1a2-substrate",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tarceva"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter nicht-kleinzelliger Lungenkrebs, vor allem mit aktivierenden EGFR-Mutationen: als Erstbehandlung, als Erhaltungstherapie nach Chemotherapie oder nach Versagen einer Chemotherapie",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Bauchspeicheldrüsenkrebs in Kombination mit Gemcitabin",
+      "ids": [
+        "bauchspeicheldruesenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert ein Enzym, über das Krebszellen Wachstumssignale erhalten. Erlotinib hemmt reversibel die Tyrosinkinase des epidermalen Wachstumsfaktor-Rezeptors (EGFR, HER1), indem es mit ATP um die Bindungsstelle konkurriert; dadurch werden Teilung und Überleben der Tumorzellen gebremst. Bei Tumoren mit aktivierenden EGFR-Mutationen ist die Wirkung besonders ausgeprägt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Interstitielle Lungenerkrankung (teils tödlich): bei plötzlicher Atemnot, Husten oder Fieber Behandlung unterbrechen",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Rauchen senkt die Wirkstoffspiegel deutlich",
+      "ids": [
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion (selten Leberversagen)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Durchfall mit Flüssigkeitsverlust (Gefahr eines Nierenversagens)",
+      "ids": [
+        "durchfall",
+        "dehydratation",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Augenbeschwerden, Keratitis (Hornhautentzündung), Kontaktlinsen",
+      "ids": [
+        "augeninfektion",
+        "kontaktlinsen"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Magen-Darm-Durchbrüche (z. B. bei Geschwüren, gleichzeitig NSAR oder Kortison)",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Behandlung mit Vitamin-K-Antagonisten (INR kann steigen)",
+      "ids": [
+        "antikoagulation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Erlotinib-Spiegel sinkt um etwa zwei Drittel – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Protonenpumpenhemmer",
+      "ref": [
+        "gruppe:protonenpumpenhemmer"
+      ],
+      "effekt": "Aufnahme von Erlotinib deutlich vermindert – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "H2-Blocker",
+      "ref": [
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Verminderte Aufnahme – Erlotinib mindestens 2 Stunden vor oder 10 Stunden nach dem H2-Blocker einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida (Säurebinder)",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Verminderte Aufnahme – Antazida mindestens 4 Stunden vor oder 2 Stunden nach Erlotinib einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Erlotinib-Spiegel steigt (mit Ketoconazol etwa +66 %) – auf Nebenwirkungen achten, ggf. Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Hemmer (z. B. Ciprofloxacin, Fluvoxamin)",
+      "ref": [
+        "gruppe:cyp1a2-hemmer"
+      ],
+      "effekt": "Erlotinib-Spiegel steigt – Vorsicht, bei Nebenwirkungen Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR-Anstieg und Blutungen beschrieben – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine",
+      "ref": [
+        "gruppe:statine"
+      ],
+      "effekt": "Selten Muskelschäden (Myopathie, Rhabdomyolyse) beschrieben – Muskelschmerzen melden.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautausschlag (oft akneähnlich), Juckreiz, trockene Haut",
+      "Durchfall",
+      "Appetitlosigkeit, Übelkeit, Erbrechen, Stomatitis (Mundschleimhautentzündung)",
+      "Müdigkeit",
+      "Atemnot, Husten",
+      "Infektionen",
+      "Bindehautentzündung, trockenes Auge"
+    ],
+    "haeufig": [
+      "Magen-Darm-Blutungen, Nasenbluten",
+      "Haarausfall, Paronychie (Nagelbettentzündung)",
+      "Keratitis (Hornhautentzündung)",
+      "Erhöhte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Interstitielle Lungenerkrankung (teils tödlich)",
+      "Magen-Darm-Durchbruch (Perforation)",
+      "Veränderungen der Wimpern, vermehrte Körperbehaarung"
+    ],
+    "selten": [
+      "Leberversagen"
+    ],
+    "sehrSelten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "Hornhautgeschwür oder -durchbruch"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter müssen während und mindestens 2 Wochen nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 2 Wochen danach nicht stillen.",
+  "hinweise": [
+    "Nüchtern einnehmen: mindestens 1 Stunde vor oder 2 Stunden nach dem Essen.",
+    "Rauchen senkt die Wirkstoffspiegel deutlich – ein Rauchstopp wird empfohlen.",
+    "Haut pflegen und vor Sonne schützen; starken Ausschlag oder Durchfall früh melden.",
+    "Plötzliche Atemnot, Husten oder Fieber sofort ärztlich abklären."
+  ],
+  "stand": "2026-10"
+}

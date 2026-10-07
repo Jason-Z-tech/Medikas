@@ -1,0 +1,199 @@
+{
+  "id": "ramucirumab",
+  "name": "Ramucirumab",
+  "synonyme": [
+    "IMC-1121B"
+  ],
+  "atc": [
+    "L01FG02"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen den VEGF-Rezeptor 2 (Angiogenesehemmer)",
+  "kurz": "Antikörper-Infusion, die die Blutgefässversorgung von Tumoren hemmt; bei Magen-, Darm-, Lungen- und Leberkrebs.",
+  "gruppen": [
+    "blutungsrisiko-erhoehend",
+    "blutdrucksteigernd",
+    "thromboserisiko-erhoehend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Cyramza"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionskonzentrat"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener Magenkrebs oder Krebs am Übergang Speiseröhre-Magen nach Platin-/Fluoropyrimidin-Chemotherapie: zusammen mit Paclitaxel oder allein",
+      "ids": [
+        "magen-speiseroehren-krebs"
+      ]
+    },
+    {
+      "text": "Metastasierter Darmkrebs nach Vorbehandlung mit Bevacizumab, Oxaliplatin und einem Fluoropyrimidin: zusammen mit FOLFIRI",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs: zusammen mit Docetaxel nach platinhaltiger Chemotherapie; bei aktivierender EGFR-Mutation als Erstbehandlung zusammen mit Erlotinib",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener Leberzellkrebs mit erhöhtem Alpha-Fetoprotein (ab 400 ng/ml) nach Sorafenib",
+      "ids": [
+        "leberkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hemmt die Bildung neuer Blutgefässe, die ein Tumor zum Wachsen braucht. Ramucirumab ist ein humaner IgG1-Antikörper, der spezifisch an den VEGF-Rezeptor 2 bindet und so dessen Aktivierung durch die Wachstumsfaktoren VEGF-A, VEGF-C und VEGF-D blockiert. Dadurch werden Vermehrung und Wanderung von Gefässwandzellen gehemmt und die Blutversorgung des Tumors vermindert.",
+  "kontraindikationen": [
+    {
+      "text": "Bei nicht-kleinzelligem Lungenkrebs: Hohlraumbildung im Tumor (Kavitation) oder Tumorbefall grosser Blutgefässe (Gefahr schwerer Lungenblutungen)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Arterielle Thromboembolien wie Herzinfarkt oder Schlaganfall – bei Auftreten endgültig absetzen",
+      "ids": [
+        "herzinfarkt",
+        "schlaganfall",
+        "kardiovaskulaeres-risiko"
+      ]
+    },
+    {
+      "text": "Schwere Blutungen, vor allem Magen-Darm-Blutungen; Vorsicht bei Blutverdünnern",
+      "ids": [
+        "aktive-blutung",
+        "blutgerinnungsstoerung",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Durchbruch (Perforation) und Fistelbildung",
+      "ids": [
+        "divertikulitis",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, selten mit posteriorem reversiblem Enzephalopathie-Syndrom (PRES) – Blutdruck vor und während der Behandlung kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Wundheilungsstörungen – vor geplanten Operationen pausieren",
+      "ids": [
+        "operation",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Leberzirrhose Child-Pugh B oder C, hepatische Enzephalopathie oder Aszites",
+      "ids": [
+        "leberzirrhose",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Proteinurie und nephrotisches Syndrom – Urin auf Eiweiss kontrollieren",
+      "ids": [
+        "nephrotisches-syndrom",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Antikoagulanzien",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Risiko schwerer Blutungen – nur mit engmaschiger Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thrombozytenaggregationshemmer und NSAR",
+      "ref": [
+        "gruppe:thrombozytenaggregationshemmer",
+        "gruppe:nsar"
+      ],
+      "effekt": "Erhöhtes Blutungsrisiko, besonders im Magen-Darm-Trakt – auf Blutungszeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Docetaxel oder Paclitaxel (Kombinationspartner)",
+      "ref": [
+        "docetaxel",
+        "paclitaxel"
+      ],
+      "effekt": "Häufiger Neutropenie und febrile Neutropenie – Blutbild vor jeder Gabe kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksteigernde Mittel",
+      "ref": [
+        "gruppe:blutdrucksteigernd"
+      ],
+      "effekt": "Verstärkter Blutdruckanstieg – Blutdruck regelmässig kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Bluthochdruck",
+      "Periphere Ödeme (Wassereinlagerungen)",
+      "Durchfall, Bauchschmerzen",
+      "Kopfschmerzen",
+      "Proteinurie (Eiweiss im Urin)",
+      "Nasenbluten",
+      "Neutropenie und Thrombozytopenie (in Kombination mit Chemotherapie)",
+      "Stomatitis (Mundschleimhautentzündung), Müdigkeit"
+    ],
+    "haeufig": [
+      "Arterielle Thromboembolien (z. B. Herzinfarkt, Schlaganfall)",
+      "Magen-Darm-Blutungen",
+      "Hypokaliämie, Hyponatriämie (Kalium- und Natriummangel)",
+      "Darmverschluss",
+      "Hautausschlag",
+      "Infusionsreaktionen",
+      "Hypothyreose (Schilddrüsenunterfunktion)"
+    ],
+    "gelegentlich": [
+      "Magen-Darm-Perforation (Durchbruch)",
+      "Nephrotisches Syndrom"
+    ],
+    "selten": [
+      "Thrombotische Mikroangiopathie",
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Aneurysmen und Arteriendissektionen (Gefässaussackungen und -einrisse)",
+      "Hämangiome (Blutschwämmchen)",
+      "Herzinsuffizienz"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser der Nutzen überwiegt klar: Die Hemmung der Gefässneubildung kann das Ungeborene schädigen. Frauen im gebärfähigen Alter verhüten während der Behandlung und bis 3 Monate danach.",
+  "stillzeit": "Während der Behandlung und mindestens 3 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Blutdruck regelmässig messen; der Urin wird auf Eiweiss kontrolliert.",
+    "Vor geplanten Operationen die Behandlung ärztlich pausieren lassen (Wundheilung).",
+    "Starke Bauchschmerzen, schwarzen Stuhl, Bluterbrechen, Brustschmerzen, Lähmungen oder starke Kopfschmerzen sofort melden.",
+    "Vor jeder Infusion wird ein Antihistaminikum gegeben (Vorbeugung von Infusionsreaktionen)."
+  ],
+  "stand": "2026-10"
+}

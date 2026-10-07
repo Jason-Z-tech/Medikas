@@ -1,0 +1,225 @@
+{
+  "id": "pseudoephedrin",
+  "name": "Pseudoephedrin",
+  "synonyme": [
+    "Pseudoephedrine",
+    "Pseudoephedrinhydrochlorid",
+    "PSE"
+  ],
+  "atc": [
+    "R01BA02"
+  ],
+  "klasse": "Sympathomimetikum (abschwellendes Mittel zum Einnehmen)",
+  "kurz": "Abschwellendes Mittel zum Einnehmen bei verstopfter Nase und Nebenhöhlen; oft kombiniert mit Schmerz- oder Allergiemitteln.",
+  "gruppen": [
+    "sympathomimetika",
+    "blutdrucksteigernd",
+    "vasokonstriktorisch"
+  ],
+  "handelsnamen": [
+    "Otrinol",
+    "Aspirin Complex (Kombi)",
+    "Clarinase (Kombi)"
+  ],
+  "abgabe": [
+    "B",
+    "D"
+  ],
+  "darreichung": [
+    "Retardkapseln",
+    "Retardtabletten",
+    "Granulat"
+  ],
+  "indikationen": [
+    {
+      "text": "Verstopfte Nase und Nasennebenhöhlen bei Erkältung, Grippe oder Nebenhöhlenentzündung",
+      "ids": [
+        "erkaeltung",
+        "sinusitis"
+      ]
+    },
+    {
+      "text": "Verstopfte Nase bei allergischem Schnupfen (in Kombination mit einem Antihistaminikum)",
+      "ids": [
+        "heuschnupfen"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lässt die geschwollenen Schleimhäute in Nase und Nebenhöhlen abschwellen. Pseudoephedrin setzt Noradrenalin aus Nervenendigungen frei und stimuliert zusätzlich direkt Alpha- und Beta-Adrenozeptoren; über die Alpha-Rezeptoren verengen sich die Blutgefässe der Schleimhaut. Weil es im ganzen Körper wirkt, kann es auch Blutdruck und Puls erhöhen und anregend auf das Nervensystem wirken. Es wird grösstenteils unverändert über die Nieren ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Schwerer oder nicht eingestellter Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schwere koronare Herzkrankheit",
+      "ids": [
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Schwere akute oder chronische Nierenerkrankung bzw. Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder unter 12 Jahren (je nach Präparat höhere Altersgrenze)",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzrhythmusstörungen und andere Herz-Kreislauf-Erkrankungen",
+      "ids": [
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Schilddrüsenüberfunktion",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Diabetes",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung mit erschwertem Wasserlassen",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Plötzliche starke Kopfschmerzen, Sehstörungen, Verwirrtheit oder Krampfanfälle: sofort absetzen (seltene Durchblutungsstörungen des Gehirns wie PRES oder RCVS)",
+      "ids": [
+        "kopfschmerzen",
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Leistungssport: steht auf der Dopingliste",
+      "ids": [
+        "sport-doping"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer (auch innerhalb von 14 Tagen nach dem Absetzen)",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Verstärkte Noradrenalinwirkung – Gefahr einer hypertensiven Krise (gefährlicher Blutdruckanstieg)."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "MAO-B-Hemmer (z. B. Selegilin, Rasagilin) und Linezolid",
+      "ref": [
+        "gruppe:mao-b-hemmer",
+        "linezolid"
+      ],
+      "effekt": "Gefahr eines starken Blutdruckanstiegs – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Sympathomimetika und Stimulanzien (z. B. Phenylephrin, Ephedrin, Xylometazolin, Methylphenidat)",
+      "ref": [
+        "gruppe:sympathomimetika",
+        "gruppe:stimulanzien"
+      ],
+      "effekt": "Additive Wirkung auf Blutdruck und Herz – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel (z. B. Betablocker, Methyldopa)",
+      "ref": [
+        "gruppe:blutdrucksenkend",
+        "gruppe:betablocker"
+      ],
+      "effekt": "Blutdrucksenkung kann abgeschwächt werden – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ergotalkaloide (z. B. Ergotamin, Dihydroergotamin)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "effekt": "Erhöhtes Risiko für starke Gefässverengung (Ergotismus).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Erhöhtes Risiko für Herzrhythmusstörungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Inhalationsnarkotika (z. B. Sevofluran, Isofluran, Desfluran)",
+      "ref": [
+        "sevofluran",
+        "isofluran",
+        "desfluran"
+      ],
+      "effekt": "Gefahr von Blutdruckanstieg und Herzrhythmusstörungen während der Narkose – einige Tage vor geplanten Operationen absetzen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Schlaflosigkeit, Nervosität",
+      "Mundtrockenheit",
+      "Übelkeit"
+    ],
+    "unbekannt": [
+      "Herzklopfen, Herzrasen, Blutdruckanstieg",
+      "Angst, Unruhe, Halluzinationen (besonders bei Kindern)",
+      "Erschwertes Wasserlassen (Harnverhalt)",
+      "Hautausschlag, akute generalisierte exanthematische Pustulose (AGEP)",
+      "Ischämische Kolitis (Durchblutungsstörung des Darms)",
+      "PRES und RCVS (seltene Durchblutungsstörungen des Gehirns)",
+      "Herzinfarkt, Schlaganfall",
+      "Ischämische Optikusneuropathie (Schädigung des Sehnervs)"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen, besonders im ersten Drittel meiden; nur nach ärztlicher Abwägung.",
+  "stillzeit": "Geht in die Muttermilch über und kann die Milchbildung vermindern – in der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Ohne ärztlichen Rat nicht länger als 7 Tage einnehmen und nicht mit anderen abschwellenden Erkältungsmitteln kombinieren.",
+    "Bei plötzlichen starken Kopfschmerzen, Sehstörungen oder Bauchschmerzen mit Blut im Stuhl sofort absetzen und ärztliche Hilfe holen.",
+    "Leistungssport: Pseudoephedrin ist im Wettkampf verboten (Dopingliste)."
+  ],
+  "stand": "2026-10"
+}

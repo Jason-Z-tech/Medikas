@@ -1,0 +1,192 @@
+{
+  "id": "cannabidiol",
+  "name": "Cannabidiol",
+  "synonyme": [
+    "CBD"
+  ],
+  "atc": [
+    "N03AX24"
+  ],
+  "klasse": "Antiepileptikum (Cannabinoid ohne Rauschwirkung)",
+  "kurz": "Gereinigtes Cannabidiol aus der Hanfpflanze ohne Rauschwirkung; gegen Anfälle bei Lennox-Gastaut-, Dravet-Syndrom und tuberöser Sklerose.",
+  "gruppen": [
+    "antiepileptika",
+    "zns-daempfend",
+    "hepatotoxisch",
+    "cyp2c19-hemmer",
+    "cyp2c19-substrate"
+  ],
+  "handelsnamen": [
+    "Epidyolex"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Lösung zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Zusatzbehandlung von Anfällen beim Lennox-Gastaut-Syndrom oder Dravet-Syndrom (zusammen mit Clobazam), ab 2 Jahren",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Zusatzbehandlung von Anfällen bei tuberöser Sklerose (TSC), ab 2 Jahren",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft die Erregbarkeit von Nervenzellen; der genaue Mechanismus ist nicht vollständig geklärt. Cannabidiol wirkt kaum an den Cannabinoid-Rezeptoren CB1 und verursacht daher keinen Rausch. Diskutiert werden eine Hemmung des Rezeptors GPR55, eine Beeinflussung des Ionenkanals TRPV1 und eine Hemmung der Adenosin-Wiederaufnahme, was die Erregbarkeit von Nervenzellen senkt.",
+  "kontraindikationen": [
+    {
+      "text": "Deutlich erhöhte Leberwerte (Transaminasen über das 3-Fache und Bilirubin über das 2-Fache der Norm)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leberschädigung: Leberwerte vor Beginn und nach 1, 3 und 6 Monaten kontrollieren, besonders bei gleichzeitiger Valproinsäure oder Clobazam",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Mässige bis schwere Leberinsuffizienz (Dosisanpassung)",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schläfrigkeit und Sedierung, vor allem zusammen mit Clobazam",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Appetitlosigkeit und Gewichtsverlust – Gewicht und Wachstum kontrollieren",
+      "ids": [
+        "untergewicht",
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Valproinsäure",
+      "ref": [
+        "valproinsaeure"
+      ],
+      "effekt": "Häufiger Anstieg der Leberwerte – Leberwerte engmaschig kontrollieren, ggf. Dosis anpassen oder absetzen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Everolimus, Tacrolimus, Sirolimus",
+      "ref": [
+        "gruppe:mtor-hemmer",
+        "gruppe:immunsuppressiva-calcineurin"
+      ],
+      "effekt": "Deren Spiegel können deutlich steigen – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Clobazam",
+      "ref": [
+        "clobazam"
+      ],
+      "effekt": "Das aktive Abbauprodukt von Clobazam steigt etwa auf das Dreifache – mehr Schläfrigkeit; Clobazam-Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Enzalutamid, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Der Cannabidiol-Spiegel sinkt – Dosisanpassung erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP3A4- oder CYP2C19-Hemmer",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:cyp2c19-hemmer"
+      ],
+      "effekt": "Der Cannabidiol-Spiegel kann steigen – auf Nebenwirkungen achten, Dosis ggf. senken.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2C19-Substrate (z. B. Diazepam, Citalopram)",
+      "ref": [
+        "gruppe:cyp2c19-substrate",
+        "diazepam"
+      ],
+      "effekt": "Deren Spiegel können steigen – Dosis ggf. reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit und Sedierung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Stiripentol",
+      "ref": [
+        "stiripentol"
+      ],
+      "effekt": "Der Stiripentol-Spiegel steigt leicht.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit",
+      "Verminderter Appetit",
+      "Durchfall",
+      "Erbrechen",
+      "Fieber",
+      "Müdigkeit"
+    ],
+    "haeufig": [
+      "Lungenentzündung, Bronchitis und andere Infekte",
+      "Gewichtsverlust",
+      "Reizbarkeit, Aggressivität, Verhaltensauffälligkeiten, Unruhe",
+      "Lethargie (Antriebslosigkeit), Krampfanfälle",
+      "Husten",
+      "Übelkeit",
+      "Erhöhte Leberwerte (Transaminasen, Gamma-GT)",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Suizidgedanken",
+      "Ernsthafte Leberschädigung"
+    ]
+  },
+  "schwangerschaft": "Vorsichtshalber nicht anwenden, ausser der Nutzen überwiegt das Risiko klar.",
+  "stillzeit": "Keine ausreichenden Daten; während der Behandlung vorsichtshalber nicht stillen.",
+  "hinweise": [
+    "Immer gleich zum Essen einnehmen (stets mit oder stets ohne Mahlzeit): fettreiches Essen erhöht die Aufnahme stark.",
+    "Leberwerte werden vor Beginn und in den ersten Monaten regelmässig kontrolliert; bei Übelkeit, Bauchschmerzen, dunklem Urin oder Gelbsucht ärztlich abklären.",
+    "Enthält Alkohol (Ethanol) und Sesamöl.",
+    "Nicht durch frei verkäufliche CBD-Produkte ersetzen; nicht abrupt absetzen."
+  ],
+  "stand": "2026-10"
+}

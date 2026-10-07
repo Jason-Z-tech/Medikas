@@ -1,0 +1,208 @@
+{
+  "id": "sulpirid",
+  "name": "Sulpirid",
+  "synonyme": [
+    "Sulpiride"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N05AL01"
+  ],
+  "klasse": "Antipsychotikum (Benzamid)",
+  "kurz": "Neuroleptikum aus der Gruppe der Benzamide gegen Schizophrenie und andere Psychosen.",
+  "gruppen": [
+    "antipsychotika",
+    "dopaminantagonisten",
+    "qt-verlaengernd",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Dogmatil"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln",
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute und chronische Schizophrenie",
+      "ids": [
+        "schizophrenie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Mildert psychotische Symptome; in niedriger Dosis wirkt es eher antriebssteigernd. Sulpirid blockiert selektiv Dopamin-D2- und D3-Rezeptoren, kaum aber Histamin-, Muskarin- oder Alpha-Rezeptoren. In niedriger Dosis werden vorwiegend präsynaptische Rezeptoren blockiert, was die Dopaminfreisetzung steigert; höhere Dosen wirken antipsychotisch. Die Blockade in der Hypophyse erhöht das Prolaktin deutlich. Sulpirid wird unverändert über die Niere ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Prolaktinabhängige Tumoren (z. B. Prolaktinom der Hypophyse, Brustkrebs)",
+      "ids": [
+        "hyperprolaktinaemie",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Phäochromozytom",
+      "ids": [
+        "phaeochromozytom"
+      ]
+    },
+    {
+      "text": "Akute Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion (Dosis senken, da über die Niere ausgeschieden)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten, verlängerte QT-Zeit, langsamer Puls oder Kaliummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "bradykardie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen mit Demenz (erhöhte Sterblichkeit und Schlaganfallrisiko unter Antipsychotika)",
+      "ids": [
+        "demenz",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfschwelle kann sinken)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann ansteigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Thrombosen oder Embolien in der Vorgeschichte",
+      "ids": [
+        "thromboembolie-vorgeschichte"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Levodopa und dopaminerge Parkinsonmittel (z. B. Ropinirol, Pramipexol)",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "grund": "Sulpirid blockiert die Dopaminrezeptoren, an denen diese Mittel wirken – gegenseitige Aufhebung der Wirkung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Andere QT-verlängernde Mittel (z. B. Amiodaron, Sotalol, Methadon, Citalopram, Makrolide)",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung mit Gefahr lebensbedrohlicher Rhythmusstörungen – möglichst vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Pulsverlangsamende und kaliumsenkende Mittel (z. B. Betablocker, Diuretika, Abführmittel)",
+      "ref": [
+        "gruppe:bradykardisierend",
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Langsamer Puls und Kaliummangel erhöhen das Risiko für Rhythmusstörungen – EKG und Kalium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zentral dämpfende Mittel (z. B. Benzodiazepine, Opioide, Schlafmittel) und Alkohol",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Sedierung – Alkohol meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Mehr extrapyramidale Bewegungsstörungen und Neurotoxizität möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida und Sucralfat",
+      "ref": [
+        "gruppe:antazida",
+        "sucralfat"
+      ],
+      "effekt": "Verminderte Aufnahme von Sulpirid – mindestens 2 Stunden Abstand.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Erhöhter Prolaktinspiegel",
+      "Milchfluss (Galaktorrhö), Brustschmerzen",
+      "Schläfrigkeit, Schlaflosigkeit",
+      "Extrapyramidale Störungen (Zittern, Muskelsteifigkeit, Sitzunruhe)",
+      "Gewichtszunahme"
+    ],
+    "gelegentlich": [
+      "Brustvergrösserung, Ausbleiben der Regel, Orgasmus- und Erektionsstörungen",
+      "Dyskinesien, Dystonie (Muskelverkrampfungen)",
+      "Vermehrter Speichelfluss",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Hautausschlag"
+    ],
+    "selten": [
+      "Blickkrämpfe",
+      "Ventrikuläre Herzrhythmusstörungen"
+    ],
+    "sehrSelten": [],
+    "unbekannt": [
+      "QT-Verlängerung, Torsade de pointes (lebensgefährliche Herzrhythmusstörung), plötzlicher Herztod",
+      "Malignes neuroleptisches Syndrom (Fieber, Muskelsteifigkeit, Bewusstseinsstörung)",
+      "Krampfanfälle",
+      "Spätdyskinesien (unwillkürliche Bewegungen)",
+      "Blutbildveränderungen bis Agranulozytose",
+      "Hyponatriämie (Natriummangel)",
+      "Venöse Thromboembolien (Blutgerinnsel)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme im letzten Drittel können beim Neugeborenen Bewegungsstörungen und Entzugssymptome auftreten.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen wird nicht empfohlen.",
+  "hinweise": [
+    "Kann die Reaktionsfähigkeit beeinträchtigen – Vorsicht beim Autofahren, Alkohol meiden.",
+    "Milchfluss, Brustspannen, Ausbleiben der Regel oder Potenzstörungen ärztlich melden (Prolaktinanstieg).",
+    "Bei Fieber mit Muskelsteifigkeit und Verwirrtheit sofort ärztliche Hilfe holen (malignes neuroleptisches Syndrom)."
+  ],
+  "stand": "2026-10"
+}

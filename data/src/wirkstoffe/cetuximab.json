@@ -1,0 +1,182 @@
+{
+  "id": "cetuximab",
+  "name": "Cetuximab",
+  "synonyme": [
+    "C225"
+  ],
+  "atc": [
+    "L01FE01"
+  ],
+  "klasse": "Monoklonaler Antikörper gegen den EGF-Rezeptor (EGFR)",
+  "kurz": "Antikörper-Infusion gegen den EGF-Rezeptor bei Darmkrebs ohne RAS-Mutation und bei Kopf-Hals-Tumoren.",
+  "gruppen": [
+    "hypomagnesiaemie-ausloesend",
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Erbitux"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Metastasierter Darmkrebs (kolorektales Karzinom) ohne RAS-Mutation (RAS-Wildtyp) mit EGFR-Expression: zusammen mit Chemotherapie oder allein nach Versagen von Oxaliplatin und Irinotecan",
+      "ids": [
+        "darmkrebs"
+      ]
+    },
+    {
+      "text": "Plattenepithelkarzinom im Kopf-Hals-Bereich: lokal fortgeschritten zusammen mit Bestrahlung; wiederkehrend oder metastasiert zusammen mit platinhaltiger Chemotherapie",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert eine Antenne für Wachstumssignale auf Krebszellen. Cetuximab ist ein chimärer IgG1-Antikörper, der an den epidermalen Wachstumsfaktor-Rezeptor (EGFR) bindet und so die Bindung von Wachstumsfaktoren wie EGF und TGF-alpha verhindert. Dadurch werden Zellteilung, Gefässneubildung und Metastasierung gehemmt, und der Rezeptor wird abgebaut; zusätzlich lenkt der Antikörper Immunzellen gegen den Tumor. Bei RAS-Mutation ist der Signalweg unterhalb des Rezeptors dauerhaft aktiv – dann wirkt Cetuximab nicht.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Schwere Infusionsreaktionen bis zur Anaphylaxie, besonders bei vorbestehenden Antikörpern gegen Alpha-Gal (z. B. nach Zeckenstichen oder bei Allergie auf rotes Fleisch) – Prämedikation und Überwachung",
+      "ids": [
+        "anaphylaxie",
+        "nahrungsmittelallergie"
+      ]
+    },
+    {
+      "text": "Herzkrankheiten: Herz-Kreislauf-Stillstand und plötzlicher Herztod, vor allem mit Bestrahlung oder Fluorouracil-/Platin-Chemotherapie",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzinsuffizienz",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Hautreaktionen (akneartiger Ausschlag) – Sonne meiden, Hautpflege; bei schweren Reaktionen Therapiepause",
+      "ids": [
+        "akne",
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Elektrolytstörungen: Magnesium, Kalium und Calcium vor und während der Behandlung kontrollieren",
+      "ids": [
+        "magnesiummangel",
+        "hypokaliaemie",
+        "hypokalzaemie"
+      ]
+    },
+    {
+      "text": "Keratitis (Hornhautentzündung): bei Augenbeschwerden sofort Augenärztin oder Augenarzt; Vorsicht bei Kontaktlinsen",
+      "ids": [
+        "augeninfektion",
+        "kontaktlinsen"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Ältere Menschen und schlechter Allgemeinzustand",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Oxaliplatin-haltige Chemotherapie bei Darmkrebs mit RAS-Mutation oder unbekanntem RAS-Status",
+      "ref": [
+        "oxaliplatin"
+      ],
+      "grund": "Bei RAS-mutierten Tumoren wirkt Cetuximab nicht, und die Kombination verschlechtert das Überleben."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Fluoropyrimidine (z. B. Fluorouracil, Capecitabin)",
+      "ref": [
+        "gruppe:fluoropyrimidine"
+      ],
+      "effekt": "Häufiger Herzdurchblutungsstörungen bis zum Herzinfarkt, Herzschwäche und Hand-Fuss-Syndrom – Herz überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Platinhaltige Chemotherapie (z. B. Cisplatin)",
+      "ref": [
+        "gruppe:platinderivate"
+      ],
+      "effekt": "Häufiger schwere Leukopenie und Neutropenie mit Infektionen – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Capecitabin mit Oxaliplatin",
+      "ref": [
+        "capecitabin",
+        "oxaliplatin"
+      ],
+      "effekt": "Häufiger schwerer Durchfall – früh behandeln.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die Magnesium oder Kalium senken (z. B. Diuretika, Protonenpumpenhemmer)",
+      "ref": [
+        "gruppe:hypomagnesiaemie-ausloesend",
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Verstärkter Magnesium- und Kaliummangel – Elektrolyte kontrollieren und ersetzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Strahlentherapie im Kopf-Hals-Bereich",
+      "ref": [],
+      "effekt": "Mehr Haut- und Schleimhautreaktionen im Bestrahlungsfeld; Herz-Kreislauf-Ereignisse beschrieben.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautreaktionen (akneartiger Ausschlag, trockene Haut, Juckreiz, Nagelbettentzündung)",
+      "Hypomagnesiämie (Magnesiummangel)",
+      "Leichte bis mässige Infusionsreaktionen (Fieber, Schüttelfrost, Atemnot)",
+      "Mukositis (Schleimhautentzündung)",
+      "Erhöhte Leberwerte"
+    ],
+    "haeufig": [
+      "Schwere Infusionsreaktionen, selten tödlich",
+      "Konjunktivitis (Bindehautentzündung)",
+      "Kopfschmerzen",
+      "Durchfall, Übelkeit, Erbrechen",
+      "Dehydratation (Flüssigkeitsverlust), Hypokaliämie, Hypokalzämie",
+      "Appetitlosigkeit, Müdigkeit"
+    ],
+    "gelegentlich": [
+      "Tiefe Venenthrombose, Lungenembolie",
+      "Blepharitis, Keratitis (Lid- und Hornhautentzündung)"
+    ],
+    "selten": [],
+    "sehrSelten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse (schwere Hautreaktionen)"
+    ],
+    "unbekannt": [
+      "Interstitielle Lungenerkrankung",
+      "Aseptische Meningitis (Hirnhautentzündung ohne Erreger)",
+      "Superinfektion von Hautveränderungen"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung: EGFR ist an der Entwicklung des Ungeborenen beteiligt, und IgG1-Antikörper gehen über die Plazenta. Frauen im gebärfähigen Alter verhüten zuverlässig.",
+  "stillzeit": "Während der Behandlung und 2 Monate nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Vor der Infusion gibt es ein Antihistaminikum und Kortison; danach folgt mindestens eine Stunde Überwachung.",
+    "Sonne meiden und Sonnenschutz verwenden; Hautausschlag früh nach ärztlicher Anweisung behandeln.",
+    "Augenrötung, Augenschmerzen oder Sehstörungen sofort melden.",
+    "Magnesium, Kalium und Calcium werden regelmässig im Blut kontrolliert."
+  ],
+  "stand": "2026-10"
+}

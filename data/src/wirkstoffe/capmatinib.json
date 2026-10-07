@@ -1,0 +1,162 @@
+{
+  "id": "capmatinib",
+  "name": "Capmatinib",
+  "synonyme": [
+    "Capmatinibdihydrochlorid",
+    "INC280"
+  ],
+  "atc": [
+    "L01EX17"
+  ],
+  "klasse": "Proteinkinase-Hemmer (MET-Hemmer)",
+  "kurz": "Krebsmittel (Tablette) gegen fortgeschrittenen nicht-kleinzelligen Lungenkrebs mit einer bestimmten MET-Genveränderung (Exon-14-Skipping).",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp1a2-hemmer",
+    "p-gp-hemmer",
+    "hepatotoxisch",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Tabrecta"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener nicht-kleinzelliger Lungenkrebs (NSCLC) mit MET-Exon-14-Skipping-Mutation",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert ein Wachstumssignal, das durch eine bestimmte Genveränderung im Tumor überaktiv ist. Capmatinib hemmt selektiv die Rezeptor-Tyrosinkinase MET. Bei der MET-Exon-14-Skipping-Mutation wird MET in der Zelle nicht mehr normal abgebaut und treibt dauerhaft Zellteilung, Überleben und Ausbreitung der Krebszellen an; Capmatinib unterbricht diese Signale.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Interstitielle Lungenerkrankung/Pneumonitis: neue oder verschlimmerte Atemnot, Husten oder Fieber sofort melden",
+      "ids": [
+        "lungenfibrose",
+        "atemnot"
+      ]
+    },
+    {
+      "text": "Leber: erhöhte Leberwerte häufig – Kontrollen vor Beginn und regelmässig",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Pankreatitis bzw. Erhöhung von Amylase und Lipase",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Lichtempfindlichkeit: konsequenter Sonnenschutz",
+      "ids": [
+        "sonnenbrand"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeitsreaktionen (Fieber, Schüttelfrost, Ausschlag, Blutdruckabfall)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter und zeugungsfähige Männer: zuverlässige Verhütung nötig",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin) und Johanniskraut",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Capmatinib-Spiegel sinkt stark (mit Rifampicin etwa zwei Drittel weniger) – vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Capmatinib-Spiegel steigt (etwa 40 %) – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP1A2-Substrate mit enger therapeutischer Breite (z. B. Theophyllin, Tizanidin, Pirfenidon)",
+      "ref": [
+        "gruppe:cyp1a2-substrate",
+        "theophyllin",
+        "tizanidin",
+        "pirfenidon"
+      ],
+      "effekt": "Capmatinib hemmt CYP1A2 (Coffein-Spiegel mehr als verdoppelt) – Spiegel dieser Mittel steigen; Dosis allenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin"
+      ],
+      "effekt": "Spiegel steigt (Digoxin etwa +50 %) – Spiegel kontrollieren, Dosis allenfalls reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "BCRP-Substrate (z. B. Rosuvastatin, Methotrexat)",
+      "ref": [
+        "rosuvastatin",
+        "methotrexat"
+      ],
+      "effekt": "Spiegel steigt (Rosuvastatin etwa doppelt) – Vorsicht, Dosis allenfalls anpassen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Periphere Ödeme (Wassereinlagerungen, v. a. an den Beinen)",
+      "Übelkeit, Erbrechen, Durchfall, Verstopfung",
+      "Müdigkeit, Schwäche, Fieber",
+      "Appetitverlust, Gewichtsabnahme",
+      "Atemnot, Husten",
+      "Rückenschmerzen",
+      "Erhöhte Leberwerte, erhöhtes Kreatinin, erhöhte Lipase und Amylase",
+      "Albuminmangel im Blut"
+    ],
+    "haeufig": [
+      "Interstitielle Lungenerkrankung, Pneumonitis",
+      "Cellulitis (Entzündung des Unterhautgewebes)",
+      "Juckreiz, Nesselsucht"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Akute Pankreatitis",
+      "Überempfindlichkeitsreaktionen",
+      "Lichtempfindlichkeitsreaktionen der Haut"
+    ]
+  },
+  "schwangerschaft": "Kann das ungeborene Kind schädigen; nur bei zwingender Notwendigkeit. Frauen und Männer müssen während der Behandlung und mindestens 1 Woche danach zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung und mindestens 1 Woche danach nicht stillen.",
+  "hinweise": [
+    "Zweimal täglich mit oder ohne Mahlzeit; Tabletten unzerkaut schlucken.",
+    "Konsequenter Sonnenschutz (Kleidung, Sonnencreme, Sonnenbrille).",
+    "Neue oder verschlimmerte Atemnot oder Husten sofort melden.",
+    "Kein Johanniskraut; Theophyllin, Tizanidin oder Digoxin nur unter Kontrolle."
+  ],
+  "stand": "2026-10"
+}

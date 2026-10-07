@@ -1,0 +1,230 @@
+{
+  "id": "eslicarbazepin",
+  "name": "Eslicarbazepin",
+  "synonyme": [
+    "Eslicarbazepinacetat",
+    "Eslicarbazepine acetate",
+    "ESL"
+  ],
+  "atc": [
+    "N03AF04"
+  ],
+  "klasse": "Antiepileptikum (Natriumkanalblocker, Dibenzazepin-Carboxamid)",
+  "kurz": "Mittel gegen Epilepsie mit fokalen Anfällen; einmal täglich einzunehmen, verwandt mit Carbamazepin und Oxcarbazepin.",
+  "gruppen": [
+    "antiepileptika",
+    "zns-daempfend",
+    "hyponatriaemie-ausloesend",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "cyp2c19-hemmer"
+  ],
+  "handelsnamen": [
+    "Zebinix"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fokale (partielle) Anfälle mit oder ohne Ausbreitung auf das ganze Gehirn – allein oder zusammen mit anderen Antiepileptika",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beruhigt überaktive Nervenzellen im Gehirn. Eslicarbazepinacetat ist ein Prodrug, das rasch zum Wirkstoff Eslicarbazepin (S-Licarbazepin) umgewandelt wird. Dieser stabilisiert den inaktiven Zustand spannungsabhängiger Natriumkanäle und verhindert so wiederholte, rasche Entladungen von Nervenzellen.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Carboxamid-Derivate (Carbamazepin, Oxcarbazepin)",
+      "ids": []
+    },
+    {
+      "text": "AV-Block 2. oder 3. Grades (Reizleitungsstörung im Herzen)",
+      "ids": [
+        "av-block"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Natriummangel (Hyponatriämie), Nierenerkrankung oder gleichzeitige natriumsenkende Mittel – Natrium kontrollieren",
+      "ids": [
+        "hyponatriaemie",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, AV-Block 1. Grades oder Herzinsuffizienz (Verlängerung der Überleitungszeit im EKG)",
+      "ids": [
+        "herzrhythmusstoerung",
+        "av-block",
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (nicht untersucht, nicht empfohlen)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS); Träger des Gens HLA-B*1502, vor allem Menschen asiatischer Herkunft, haben ein erhöhtes Risiko",
+      "ids": [
+        "schwere-hautreaktion",
+        "pharmakogenetik"
+      ]
+    },
+    {
+      "text": "Depression oder Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Natriummangel, Schwindel, Stürze)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: hormonale Verhütung kann unwirksam werden",
+      "ids": [
+        "frauen-gebaerfaehig",
+        "verhuetung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütungsschutz abgeschwächt – während der Behandlung und bis zum Ende des laufenden Zyklus nach dem Absetzen zusätzlich nicht-hormonal verhüten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Oxcarbazepin",
+      "ref": [
+        "oxcarbazepin"
+      ],
+      "effekt": "Nicht kombinieren – zu hohe Spiegel des gleichen Wirkstoffs.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Der Phenytoin-Spiegel steigt, der Eslicarbazepin-Spiegel sinkt – Phenytoin-Spiegel kontrollieren, Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Carbamazepin",
+      "ref": [
+        "carbamazepin"
+      ],
+      "effekt": "Mehr Doppelbilder, Schwindel und Koordinationsstörungen; der Eslicarbazepin-Spiegel sinkt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Natriumsenkende Mittel (z. B. SSRI, Diuretika, Desmopressin)",
+      "ref": [
+        "gruppe:hyponatriaemie-ausloesend"
+      ],
+      "effekt": "Erhöhtes Risiko für Natriummangel – Natrium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die blutverdünnende Wirkung kann abnehmen – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Statine (z. B. Simvastatin, Rosuvastatin)",
+      "ref": [
+        "simvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Der Statin-Spiegel sinkt – Cholesterinwerte kontrollieren, Dosis ggf. erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mittel, die die Überleitungszeit im Herzen verlängern (z. B. Antiarrhythmika der Klasse I)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-i"
+      ],
+      "effekt": "Verstärkte Verlängerung der Überleitungszeit möglich – EKG-Kontrolle.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Alkohol und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Schläfrigkeit und Benommenheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lamotrigin und Topiramat",
+      "ref": [
+        "lamotrigin",
+        "topiramat"
+      ],
+      "effekt": "Deren Spiegel sinken leicht; meist keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schwindel",
+      "Schläfrigkeit"
+    ],
+    "haeufig": [
+      "Hyponatriämie (Natriummangel)",
+      "Kopfschmerzen, Konzentrationsstörungen",
+      "Gleichgewichts- und Koordinationsstörungen (Ataxie), Zittern",
+      "Doppelbilder, verschwommenes Sehen",
+      "Übelkeit, Erbrechen, Durchfall",
+      "Hautausschlag",
+      "Müdigkeit, Gangstörungen",
+      "Schlaflosigkeit"
+    ],
+    "gelegentlich": [
+      "Blutarmut (Anämie)",
+      "Schilddrüsenunterfunktion",
+      "Depression",
+      "Langsamer Puls (Bradykardie), Blutdruckveränderungen",
+      "Leberfunktionsstörungen",
+      "Überempfindlichkeitsreaktionen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Stevens-Johnson-Syndrom und toxische epidermale Nekrolyse (schwere Hautreaktionen)",
+      "DRESS (Arzneimittelreaktion mit Fieber, Ausschlag und Organbeteiligung)",
+      "Verminderung der Blutplättchen und weissen Blutkörperchen",
+      "Bauchspeicheldrüsenentzündung (Pankreatitis)",
+      "Angioödem (Schwellung von Haut und Schleimhäuten)",
+      "SIADH (Wassereinlagerung mit Natriummangel)"
+    ]
+  },
+  "schwangerschaft": "Nur nach sorgfältiger ärztlicher Abwägung; eine Schwangerschaft möglichst planen. Eslicarbazepin schwächt die Wirkung hormonaler Verhütungsmittel ab.",
+  "stillzeit": "Es ist nicht bekannt, ob Eslicarbazepin in die Muttermilch übergeht; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich, unabhängig von den Mahlzeiten einnehmen.",
+    "Nicht abrupt absetzen – Gefahr gehäufter Anfälle.",
+    "Bei Übelkeit, Verwirrtheit, Benommenheit oder zunehmenden Anfällen an Natriummangel denken; Natrium wird kontrolliert.",
+    "Kann Reaktionsvermögen und Fahrtüchtigkeit beeinträchtigen."
+  ],
+  "stand": "2026-10"
+}

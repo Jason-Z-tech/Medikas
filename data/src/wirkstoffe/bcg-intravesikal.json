@@ -1,0 +1,173 @@
+{
+  "id": "bcg-intravesikal",
+  "name": "BCG (intravesikal)",
+  "synonyme": [
+    "Bacillus Calmette-Guérin",
+    "BCG-Blaseninstillation",
+    "BCG-Stamm TICE"
+  ],
+  "atc": [
+    "L03AX03"
+  ],
+  "klasse": "Immunstimulans (abgeschwächte lebende Mykobakterien zur Blaseninstillation)",
+  "kurz": "Abgeschwächte Tuberkulose-Bakterien, die in die Harnblase gefüllt werden; aktivieren die Abwehr gegen oberflächlichen Blasenkrebs.",
+  "gruppen": [
+    "lebendimpfstoffe"
+  ],
+  "handelsnamen": [
+    "OncoTICE"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver zur Herstellung einer Suspension zur Anwendung in der Harnblase"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung des Carcinoma in situ der Harnblase",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Vorbeugung von Rückfällen nach operativer Entfernung (TURB) oberflächlicher Blasentumoren (Stadien Ta und T1)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Löst in der Blasenwand eine starke örtliche Entzündung aus, mit der das Immunsystem Krebszellen bekämpft. Die abgeschwächten lebenden Bakterien (Mycobacterium bovis, BCG) haften an der Blasenschleimhaut und werden von Schleimhaut- und Tumorzellen aufgenommen. Darauf wandern Granulozyten, Makrophagen und T-Zellen ein und setzen Botenstoffe wie Interleukin-2, Interferon gamma und TNF-alpha frei, die Tumorzellen zerstören. Der genaue Mechanismus ist nicht vollständig geklärt.",
+  "kontraindikationen": [
+    {
+      "text": "Geschwächtes Immunsystem jeglicher Ursache, angeboren, durch Krankheiten wie Leukämie oder Lymphom oder durch Medikamente wie Zytostatika oder hoch dosiertes Kortison",
+      "ids": [
+        "immunsuppression",
+        "leukaemie",
+        "lymphom"
+      ]
+    },
+    {
+      "text": "HIV-Infektion",
+      "ids": [
+        "hiv"
+      ]
+    },
+    {
+      "text": "Aktive Tuberkulose",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Frühere Bestrahlung der Harnblase",
+      "ids": []
+    },
+    {
+      "text": "Akute Harnwegsinfektion, sichtbares Blut im Urin oder kurz zurückliegende Blasenoperation, -biopsie oder verletzende Katheterisierung (Instillation aufschieben)",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Positiver Tuberkulintest: vor Beginn eine aktive Tuberkulose ausschliessen",
+      "ids": [
+        "tuberkulose"
+      ]
+    },
+    {
+      "text": "Ausbreitung von BCG im Körper (BCG-Infektion, Sepsis): Fieber über 39 °C oder anhaltendes Krankheitsgefühl sofort abklären",
+      "ids": [
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Gelenk- oder Gefässprothesen, künstliche Herzklappen, Aneurysmen (Risiko einer BCG-Ansiedlung)",
+      "ids": [
+        "aneurysma",
+        "herzklappenerkrankung"
+      ]
+    },
+    {
+      "text": "Kleine Blasenkapazität (Gefahr einer Schrumpfblase)",
+      "ids": []
+    },
+    {
+      "text": "Enger Kontakt mit immungeschwächten Personen: Urin hygienisch entsorgen",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Immunsuppressiva, Zytostatika und andere knochenmarkhemmende Mittel",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:zytostatika",
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Abgeschwächte Wirkung und Gefahr einer ausgedehnten BCG-Infektion – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Hemmen die Immunantwort – Gefahr einer BCG-Ausbreitung und Wirkverlust.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Antibiotika und Tuberkulosemittel (z. B. Fluorchinolone, Doxycyclin, Aminoglykoside, Rifampicin, Isoniazid)",
+      "ref": [
+        "gruppe:fluorchinolone",
+        "gruppe:tetracycline",
+        "gruppe:aminoglykoside",
+        "rifampicin",
+        "isoniazid"
+      ],
+      "effekt": "BCG ist empfindlich auf viele Antibiotika – die Wirkung wird abgeschwächt; Instillation möglichst verschieben.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Blasenentzündung (Zystitis) mit Schmerzen und Brennen beim Wasserlassen",
+      "Häufiger oder dringender Harndrang",
+      "Blut im Urin (Hämaturie)",
+      "Grippeähnliche Beschwerden: Fieber, Schüttelfrost, Unwohlsein, Müdigkeit"
+    ],
+    "haeufig": [
+      "Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Gelenk- und Muskelschmerzen",
+      "Harnwegsinfektion"
+    ],
+    "gelegentlich": [
+      "Ausbreitung der BCG-Infektion im Körper bis BCG-Sepsis (lebensbedrohlich)"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Granulomatöse Entzündung von Prostata, Nebenhoden oder Hoden",
+      "Granulomatöse Lungen- oder Leberentzündung",
+      "Schrumpfblase, Harnleiterverengung, Nierenabszess",
+      "Infektion von Gefässen, Aneurysmen oder Prothesen durch BCG",
+      "Reaktive Gelenkentzündung, Augenentzündung",
+      "Blutbildveränderungen",
+      "Überempfindlichkeitsreaktionen, Hautausschlag"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden; Erfahrungen fehlen.",
+  "stillzeit": "Nicht anwenden bzw. abstillen; Erfahrungen fehlen.",
+  "hinweise": [
+    "4 Stunden vor der Instillation wenig trinken; die Lösung möglichst 2 Stunden in der Blase behalten.",
+    "Während 6 Stunden nach der Instillation im Sitzen urinieren, danach Hände und Genitalbereich waschen und den Urin gemäss Anleitung desinfizieren.",
+    "Bei Fieber über 39 °C oder grippeähnlichen Beschwerden länger als 48 Stunden sofort ärztlich melden.",
+    "Während einer Woche nach der Instillation beim Geschlechtsverkehr Kondome verwenden."
+  ],
+  "stand": "2026-10"
+}

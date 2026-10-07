@@ -1,0 +1,151 @@
+{
+  "id": "ceftolozan-tazobactam",
+  "name": "Ceftolozan + Tazobactam",
+  "synonyme": [
+    "Ceftolozan/Tazobactam",
+    "Ceftolozane-tazobactam"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "J01DI54"
+  ],
+  "klasse": "Cephalosporin mit Betalaktamase-Hemmer",
+  "kurz": "Reserve-Antibiotikum als Infusion im Spital gegen schwere Bauchraum-, Harnwegs- und Lungeninfektionen, besonders durch Pseudomonas.",
+  "gruppen": [
+    "cephalosporine"
+  ],
+  "handelsnamen": [
+    "Zerbaxa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Pulver für ein Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Komplizierte Infektionen im Bauchraum (zusammen mit Metronidazol)",
+      "ids": [
+        "bakterielle-infektion"
+      ]
+    },
+    {
+      "text": "Akute Nierenbeckenentzündung und komplizierte Harnwegsinfektionen",
+      "ids": [
+        "harnwegsinfekt"
+      ]
+    },
+    {
+      "text": "Im Spital erworbene Lungenentzündung, auch unter Beatmung (Erwachsene)",
+      "ids": [
+        "lungenentzuendung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Bakterien ab, indem es den Aufbau ihrer Zellwand stört. Ceftolozan ist ein Cephalosporin, das stark an die Penicillin-bindenden Proteine bindet und besonders gut gegen Pseudomonas aeruginosa wirkt, auch gegen viele multiresistente Stämme. Tazobactam hemmt bakterielle Betalaktamasen, vor allem ESBL, und schützt Ceftolozan so vor dem Abbau. Gegen Carbapenemasen wirkt die Kombination nicht.",
+  "kontraindikationen": [
+    {
+      "text": "Allergie gegen Cephalosporine oder Tazobactam",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Schwere Überempfindlichkeitsreaktion (z. B. Anaphylaxie, schwere Hautreaktion) auf andere Betalaktam-Antibiotika (Penicilline, Carbapeneme)",
+      "ids": [
+        "penicillinallergie",
+        "anaphylaxie",
+        "schwere-hautreaktion"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Dosisanpassung; bei mässig eingeschränkter Nierenfunktion wurde eine geringere Wirksamkeit beobachtet",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leichtere Allergie auf Penicilline oder andere Betalaktame in der Vorgeschichte",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Schwerer Durchfall (Clostridioides-difficile-Kolitis)",
+      "ids": [
+        "clostridioides"
+      ]
+    },
+    {
+      "text": "Natriumarme Diät (Natriumgehalt der Infusion beachten)",
+      "ids": [
+        "natriumarme-diaet"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Wie bei anderen Antibiotika kann die blutverdünnende Wirkung verstärkt sein – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nierenschädigende Mittel (z. B. Aminoglykoside, Schleifendiuretika)",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:schleifendiuretika"
+      ],
+      "effekt": "Bei Kombination mit Cephalosporinen Nierenfunktion überwachen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Probenecid",
+      "ref": [],
+      "effekt": "Kann die Ausscheidung von Tazobactam verzögern und dessen Spiegel erhöhen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Kopfschmerzen, Schwindel, Schlaflosigkeit, Angst",
+      "Übelkeit, Durchfall, Verstopfung, Erbrechen, Bauchschmerzen",
+      "Hypokaliämie (Kaliummangel)",
+      "Blutdruckabfall",
+      "Thrombozytose (Vermehrung der Blutplättchen)",
+      "Hautausschlag",
+      "Fieber, Reaktionen an der Infusionsstelle",
+      "Erhöhte Leberwerte"
+    ],
+    "gelegentlich": [
+      "Clostridioides-difficile-Kolitis (schwere Darmentzündung)",
+      "Pilzinfektionen (Mund, Scheide, Harnwege)",
+      "Anämie",
+      "Vorhofflimmern, Herzrasen, Angina pectoris",
+      "Ischämischer Schlaganfall",
+      "Nierenfunktionsstörung bis Nierenversagen",
+      "Nesselsucht",
+      "Positiver Coombs-Test"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen. Nur anwenden, wenn der Nutzen das mögliche Risiko für Mutter und Kind überwiegt.",
+  "stillzeit": "Nicht bekannt, ob Ceftolozan und Tazobactam in die Muttermilch übergehen. Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Wird im Spital als Infusion über eine Stunde gegeben; die Dosis richtet sich nach der Nierenfunktion.",
+    "Starken oder blutigen Durchfall sofort melden, auch nach Behandlungsende."
+  ],
+  "stand": "2026-10"
+}

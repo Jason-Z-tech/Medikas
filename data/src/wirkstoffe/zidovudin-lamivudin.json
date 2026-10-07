@@ -1,0 +1,222 @@
+{
+  "id": "zidovudin-lamivudin",
+  "name": "Zidovudin + Lamivudin",
+  "synonyme": [
+    "AZT/3TC",
+    "ZDV/3TC",
+    "Zidovudine/Lamivudine"
+  ],
+  "kombinationAus": [
+    "zidovudin",
+    "lamivudin"
+  ],
+  "atc": [
+    "J05AR01"
+  ],
+  "klasse": "HIV-Fixkombination aus zwei nukleosidischen Reverse-Transkriptase-Hemmern (NRTI)",
+  "kurz": "HIV-Kombinationstablette mit zwei NRTI; wird zusammen mit mindestens einem weiteren HIV-Mittel eingesetzt.",
+  "gruppen": [
+    "myelosuppressiv"
+  ],
+  "handelsnamen": [
+    "Combivir"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-Infektion bei Erwachsenen und Kindern (ab 14 kg Körpergewicht) in Kombination mit weiteren HIV-Mitteln",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Beide Wirkstoffe hemmen die Vermehrung des HI-Virus. Zidovudin (ein Thymidin-Analogon) und Lamivudin (ein Cytidin-Analogon) werden in den Zellen zu Triphosphaten aktiviert, die von der viralen Reverse Transkriptase in die Virus-DNA eingebaut werden und zum Kettenabbruch führen. Lamivudin wirkt zusätzlich gegen das Hepatitis-B-Virus. Zidovudin kann das Knochenmark hemmen und so Blutarmut und Neutropenie verursachen.",
+  "kontraindikationen": [
+    {
+      "text": "Stark erniedrigte Zahl der neutrophilen Granulozyten (unter 0,75 × 10⁹/l)",
+      "ids": [
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Stark erniedrigtes Hämoglobin (unter 7,5 g/dl)",
+      "ids": [
+        "anaemie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen (Anämie, Neutropenie), v. a. bei fortgeschrittener HIV-Erkrankung – regelmässige Blutbildkontrollen",
+      "ids": [
+        "anaemie",
+        "neutropenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Kreatinin-Clearance unter 50 ml/min): Fixkombination ungeeignet, Einzelpräparate verwenden",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebererkrankungen, Lebervergrösserung oder Risikofaktoren für Laktatazidose und Fettleber",
+      "ids": [
+        "leberinsuffizienz",
+        "fettleber"
+      ]
+    },
+    {
+      "text": "Chronische Hepatitis B: beim Absetzen kann die Hepatitis heftig aufflammen",
+      "ids": [
+        "hepatitis-b"
+      ]
+    },
+    {
+      "text": "Bauchspeicheldrüsenentzündung in der Vorgeschichte",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Immunrekonstitutionssyndrom: zu Therapiebeginn Entzündungsreaktionen auf bisher unbemerkte Infektionen möglich",
+      "ids": [
+        "immunsuppression"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel (z. B. Ganciclovir, Valganciclovir, Amphotericin B, Flucytosin, Pentamidin, Zytostatika, Interferone)",
+      "ref": [
+        "ganciclovir",
+        "valganciclovir",
+        "amphotericin-b",
+        "flucytosin",
+        "pentamidin",
+        "gruppe:myelosuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Verstärkte Blutbildschädigung – Kombination möglichst vermeiden, sonst Blutbild engmaschig kontrollieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ribavirin",
+      "ref": [],
+      "effekt": "Verstärkte Blutarmut; Ribavirin hemmt zudem die Aktivierung von Zidovudin – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Emtricitabin-haltige Arzneimittel",
+      "ref": [
+        "emtricitabin",
+        "emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-tenofoviralafenamid",
+        "efavirenz-emtricitabin-tenofovirdisoproxil",
+        "emtricitabin-rilpivirin-tenofovirdisoproxil",
+        "emtricitabin-rilpivirin-tenofoviralafenamid",
+        "bictegravir-emtricitabin-tenofoviralafenamid",
+        "elvitegravir-cobicistat-emtricitabin-tenofoviralafenamid",
+        "darunavir-cobicistat-emtricitabin-tenofoviralafenamid"
+      ],
+      "effekt": "Emtricitabin wirkt wie Lamivudin – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Cladribin",
+      "ref": [
+        "cladribin"
+      ],
+      "effekt": "Lamivudin kann die Aktivierung und Wirkung von Cladribin abschwächen – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sulfamethoxazol + Trimethoprim in hoher Dosis",
+      "ref": [
+        "sulfamethoxazol-trimethoprim"
+      ],
+      "effekt": "Lamivudin-Spiegel steigt und die Blutbildschädigung kann sich verstärken – hoch dosierte Behandlung (z. B. bei Pneumocystis-Pneumonie) möglichst vermeiden, Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Valproinsäure, Fluconazol, Atovaquon und Methadon",
+      "ref": [
+        "valproinsaeure",
+        "fluconazol",
+        "atovaquon",
+        "methadon"
+      ],
+      "effekt": "Können den Zidovudin-Spiegel erhöhen – auf Blutbildveränderungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Der Phenytoin-Spiegel kann steigen oder sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Rifampicin",
+      "ref": [
+        "rifampicin"
+      ],
+      "effekt": "Senkt den Zidovudin-Spiegel – klinische Bedeutung unklar.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Kopfschmerzen",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Anämie (Blutarmut), Neutropenie, Leukopenie",
+      "Schwindel, Schlaflosigkeit",
+      "Erbrechen, Bauchschmerzen, Durchfall",
+      "Anstieg der Leberwerte, erhöhtes Laktat im Blut",
+      "Haarausfall, Hautausschlag",
+      "Gelenk- und Muskelbeschwerden",
+      "Müdigkeit, Unwohlsein, Fieber",
+      "Husten, Nasenbeschwerden"
+    ],
+    "gelegentlich": [
+      "Thrombozytopenie, Panzytopenie (Mangel aller Blutzellen)",
+      "Atemnot",
+      "Blähungen",
+      "Juckreiz, Nesselsucht",
+      "Muskelschmerzen, Myopathie"
+    ],
+    "selten": [
+      "Laktatazidose (Übersäuerung des Blutes)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Fettleber mit Lebervergrösserung",
+      "Kardiomyopathie (Herzmuskelerkrankung)",
+      "Krampfanfälle, periphere Neuropathie",
+      "Pigmentierung von Nägeln, Haut und Mundschleimhaut",
+      "Angioödem, Rhabdomyolyse"
+    ],
+    "sehrSelten": [
+      "Aplastische Anämie, Erythroblastopenie (Ausfall der Bildung roter Blutkörperchen)"
+    ],
+    "unbekannt": [
+      "Lipoatrophie (Fettgewebsschwund an Gesicht, Armen und Beinen)"
+    ]
+  },
+  "schwangerschaft": "Zidovudin und Lamivudin sind in der Schwangerschaft gut untersucht; die Anwendung ist nach ärztlicher Abwägung möglich, wenn sie klinisch notwendig ist. Bei Kindern, die im Mutterleib NRTI ausgesetzt waren, wurden selten Störungen der Mitochondrienfunktion beobachtet.",
+  "stillzeit": "Gemäss Fachinformation soll nicht gestillt werden (Übertragungsrisiko von HIV). Ein Stillwunsch ist mit dem behandelnden HIV-Zentrum zu besprechen.",
+  "hinweise": [
+    "Zweimal täglich mit oder ohne Mahlzeit einnehmen.",
+    "Regelmässige Blutbildkontrollen sind nötig, besonders in den ersten 3 Monaten.",
+    "Bei gleichzeitiger Hepatitis B nicht eigenmächtig absetzen (Gefahr eines Hepatitis-Schubs)."
+  ],
+  "stand": "2026-10"
+}

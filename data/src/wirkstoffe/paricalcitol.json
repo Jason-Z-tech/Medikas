@@ -1,0 +1,176 @@
+{
+  "id": "paricalcitol",
+  "name": "Paricalcitol",
+  "synonyme": [
+    "19-Nor-1,25-dihydroxyvitamin D2"
+  ],
+  "atc": [
+    "H05BX02"
+  ],
+  "klasse": "Vitamin-D-Rezeptoraktivator (synthetisches, aktives Vitamin-D-Analogon)",
+  "kurz": "Aktives Vitamin-D-Präparat, das bei chronischer Nierenkrankheit die Überfunktion der Nebenschilddrüsen bremst.",
+  "gruppen": [
+    "hyperkalzaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Zemplar"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Weichkapseln",
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorbeugung und Behandlung des sekundären Hyperparathyreoidismus (Nebenschilddrüsen-Überfunktion) bei chronischer Nierenkrankheit, auch unter Dialyse (Kapseln ab Stadium 3, Injektion bei Hämodialyse)",
+      "ids": [
+        "hyperparathyreoidismus",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt die Ausschüttung des Nebenschilddrüsenhormons (Parathormon), das bei Nierenkranken übermässig gebildet wird. Paricalcitol ist ein synthetisches, bereits aktives Vitamin-D-Analogon und muss – anders als natürliches Vitamin D – nicht in der Niere aktiviert werden. Es bindet an Vitamin-D-Rezeptoren der Nebenschilddrüse und hemmt Bildung und Freisetzung von Parathormon. Die Aufnahme von Calcium und Phosphat aus dem Darm steigert es weniger stark als Calcitriol.",
+  "kontraindikationen": [
+    {
+      "text": "Vitamin-D-Vergiftung",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Hyperkalzämie (erhöhtes Calcium im Blut)",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Gefahr einer Hyperkalzämie, besonders zusammen mit Calcium oder anderen Vitamin-D-Präparaten – Calcium, Phosphat und Parathormon regelmässig kontrollieren",
+      "ids": [
+        "hyperkalzaemie"
+      ]
+    },
+    {
+      "text": "Erhöhtes Phosphat im Blut: Phosphatbinder und Ernährung gemäss ärztlicher Anordnung",
+      "ids": [
+        "hyperphosphataemie"
+      ]
+    },
+    {
+      "text": "Zu starke Senkung des Parathormons kann zu einer Knochenerkrankung mit geringem Knochenumbau (adynamische Knochenerkrankung) führen",
+      "ids": []
+    },
+    {
+      "text": "Behandlung mit Herzglykosiden: ein erhöhtes Calcium verstärkt deren Giftigkeit",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: nicht untersucht",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Herzglykoside (z. B. Digoxin)",
+      "ref": [
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Eine Hyperkalzämie verstärkt die Digitalis-Giftigkeit (Herzrhythmusstörungen) – Calcium und Herzrhythmus überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Vitamin-D-Präparate (z. B. Calcitriol, Colecalciferol, Calcifediol)",
+      "ref": [
+        "calcitriol",
+        "colecalciferol-vitamin-d3",
+        "calcifediol"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyperkalzämie – nicht ohne ärztliche Anordnung kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Der Paricalcitol-Spiegel steigt (unter Ketoconazol etwa auf das Doppelte) – Parathormon und Calcium enger kontrollieren, Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Calciumhaltige Präparate und Thiaziddiuretika",
+      "ref": [
+        "calcium",
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Erhöhtes Risiko für Hyperkalzämie – Calcium kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aluminiumhaltige Mittel (Antazida, Phosphatbinder)",
+      "ref": [
+        "aluminiumhydroxid-magnesiumhydroxid",
+        "gruppe:antazida"
+      ],
+      "effekt": "Bei Dauereinnahme Gefahr einer Aluminiumanreicherung in Knochen und Gehirn – vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Magnesiumhaltige Präparate (z. B. Antazida)",
+      "ref": [
+        "magnesium"
+      ],
+      "effekt": "Bei Nierenkranken Gefahr eines zu hohen Magnesiumspiegels – nicht gleichzeitig ohne ärztliche Anordnung einnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gallensäurebinder (z. B. Colestyramin)",
+      "ref": [
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Können die Aufnahme der Kapseln vermindern – zeitlich getrennt einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Hyperkalzämie (erhöhtes Calcium im Blut)",
+      "Hyperphosphatämie (erhöhtes Phosphat im Blut)",
+      "Kopfschmerzen",
+      "Geschmacksstörungen",
+      "Juckreiz"
+    ],
+    "gelegentlich": [
+      "Übelkeit, Erbrechen, Verstopfung, Durchfall",
+      "Mundtrockenheit, Appetitminderung",
+      "Schwindel",
+      "Herzklopfen",
+      "Hautausschlag, Nesselsucht",
+      "Muskelkrämpfe, Muskelschmerzen",
+      "Hypokalzämie (tiefes Calcium im Blut)",
+      "Erhöhte Leberwerte"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Angioödem (Schwellung von Gesicht, Lippen, Zunge) und Kehlkopfschwellung",
+      "Zu starke Unterdrückung des Parathormons"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen beim Menschen; im Tierversuch Schädigungen. Nur anwenden, wenn unbedingt erforderlich.",
+  "stillzeit": "Nicht bekannt, ob Paricalcitol beim Menschen in die Muttermilch übergeht (im Tierversuch in geringen Mengen). Ärztlich entscheiden, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Regelmässige Blutkontrollen von Calcium, Phosphat und Parathormon, besonders zu Beginn und nach Dosisänderungen.",
+    "Zeichen eines zu hohen Calciums melden: Müdigkeit, Übelkeit, Verstopfung, starker Durst, vermehrtes Wasserlassen, Verwirrtheit.",
+    "Keine weiteren Vitamin-D- oder Calciumpräparate ohne ärztliche Rücksprache einnehmen; Vorgaben zu Ernährung und Phosphatbindern einhalten."
+  ],
+  "stand": "2026-10"
+}

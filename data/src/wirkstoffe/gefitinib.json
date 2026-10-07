@@ -1,0 +1,181 @@
+{
+  "id": "gefitinib",
+  "name": "Gefitinib",
+  "synonyme": [
+    "ZD1839"
+  ],
+  "atc": [
+    "L01EB01"
+  ],
+  "klasse": "Proteinkinase-Hemmer (EGFR-Tyrosinkinasehemmer der 1. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei fortgeschrittenem nicht-kleinzelligem Lungenkrebs mit aktivierender EGFR-Mutation.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "hepatotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Iressa"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Lokal fortgeschrittener oder metastasierter nicht-kleinzelliger Lungenkrebs mit aktivierenden Mutationen der EGFR-Tyrosinkinase bei Erwachsenen",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert ein Enzym, über das Krebszellen mit verändertem EGFR Wachstumssignale erhalten. Gefitinib hemmt reversibel und selektiv die Tyrosinkinase des epidermalen Wachstumsfaktor-Rezeptors (EGFR), indem es mit ATP um die Bindungsstelle konkurriert. Bei Tumoren mit aktivierenden EGFR-Mutationen (z. B. Exon-19-Deletion, L858R) ist die Wirkung besonders stark; die Resistenzmutation T790M macht es unwirksam.",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Interstitielle Lungenerkrankung (teils tödlich): bei plötzlicher Atemnot, Husten oder Fieber Behandlung unterbrechen",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion; Leberwerte regelmässig kontrollieren (Hepatitis möglich)",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Augenbeschwerden, Keratitis (Hornhautentzündung), Kontaktlinsen",
+      "ids": [
+        "augeninfektion",
+        "kontaktlinsen"
+      ]
+    },
+    {
+      "text": "Erhöhtes Risiko für Magen-Darm-Durchbrüche (z. B. bei Geschwüren, gleichzeitig NSAR oder Kortison, höherem Alter)",
+      "ids": [
+        "magen-darm-ulkus",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Durchfall mit Flüssigkeitsverlust",
+      "ids": [
+        "durchfall",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Behandlung mit Vitamin-K-Antagonisten (INR kann steigen)",
+      "ids": [
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Langsame CYP2D6-Metabolisierer (höhere Wirkstoffspiegel)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Gefitinib-Spiegel sinkt stark (mit Rifampicin um über 80 %) – Wirkungsverlust; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Gefitinib-Spiegel steigt (mit Itraconazol etwa +80 %) – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Säurehemmende Mittel (Protonenpumpenhemmer, H2-Blocker)",
+      "ref": [
+        "gruppe:magensaeure-reduzierend"
+      ],
+      "effekt": "Anhaltende Säurehemmung senkt die Aufnahme von Gefitinib etwa um die Hälfte – Wirkung kann abnehmen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "INR-Anstieg und Blutungen beschrieben – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vinorelbin",
+      "ref": [
+        "vinorelbin"
+      ],
+      "effekt": "Verstärkte Neutropenie (Mangel an weissen Blutkörperchen) möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate (z. B. Metoprolol)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Gefitinib hemmt CYP2D6 schwach – deren Spiegel können leicht steigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Durchfall",
+      "Übelkeit, Erbrechen, Stomatitis (Mundschleimhautentzündung)",
+      "Appetitlosigkeit",
+      "Hautausschlag (oft akneähnlich), Juckreiz, trockene Haut",
+      "Erhöhte Leberwerte",
+      "Schwäche (Asthenie)"
+    ],
+    "haeufig": [
+      "Interstitielle Lungenerkrankung (teils tödlich)",
+      "Bindehautentzündung, Lidrandentzündung, trockene Augen",
+      "Nagelveränderungen, Haarausfall",
+      "Flüssigkeitsmangel (Dehydratation), Mundtrockenheit",
+      "Blutungen wie Nasenbluten oder Blut im Urin",
+      "Eiweiss im Urin, erhöhtes Kreatinin",
+      "Fieber"
+    ],
+    "gelegentlich": [
+      "Keratitis (Hornhautentzündung), Hornhautdefekte",
+      "Hepatitis (Leberentzündung)",
+      "Pankreatitis (Bauchspeicheldrüsenentzündung)",
+      "Magen-Darm-Durchbruch (Perforation)"
+    ],
+    "selten": [
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, Erythema multiforme (schwere Hautreaktionen)",
+      "Hämorrhagische Zystitis (blutige Blasenentzündung)",
+      "Hautgefässentzündung (Vaskulitis)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig (im Tierversuch fruchtschädigend). Frauen im gebärfähigen Alter sollen während der Behandlung nicht schwanger werden.",
+  "stillzeit": "Kontraindiziert – während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit, unabhängig von den Mahlzeiten; die Tablette kann bei Schluckproblemen in Wasser zerfallen gelassen werden.",
+    "Plötzliche Atemnot, Husten oder Fieber sofort ärztlich melden.",
+    "Leberwerte regelmässig kontrollieren lassen.",
+    "Vor der Einnahme von Säureblockern oder Antazida in der Apotheke oder ärztlich beraten lassen."
+  ],
+  "stand": "2026-10"
+}

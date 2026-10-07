@@ -1,0 +1,160 @@
+{
+  "id": "vismodegib",
+  "name": "Vismodegib",
+  "synonyme": [
+    "GDC-0449"
+  ],
+  "atc": [
+    "L01XJ01"
+  ],
+  "klasse": "Hedgehog-Signalweg-Hemmer (Smoothened-Antagonist)",
+  "kurz": "Kapsel gegen fortgeschrittenen oder metastasierten Basalzellkrebs (weisser Hautkrebs); stark fruchtschädigend.",
+  "gruppen": [
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Erivedge"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Hartkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Symptomatisches metastasiertes Basalzellkarzinom bei Erwachsenen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Lokal fortgeschrittenes Basalzellkarzinom, für das eine Operation oder Bestrahlung nicht geeignet ist",
+      "ids": [
+        "hautkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert einen Wachstumssignalweg (Hedgehog-Signalweg), der beim Basalzellkarzinom fast immer dauerhaft eingeschaltet ist. Vismodegib bindet an das Membranprotein Smoothened (SMO) und verhindert so die Aktivierung der GLI-Transkriptionsfaktoren, die Zellteilung und Tumorwachstum antreiben. Weil der Hedgehog-Signalweg auch für die Entwicklung des Embryos entscheidend ist, wirkt Vismodegib stark fruchtschädigend.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter, die das Schwangerschaftsverhütungsprogramm nicht einhalten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaftstest vor Beginn und monatlich, zwei Verhütungsmethoden bis 24 Monate nach der letzten Dosis",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Männer: Kondome (auch nach Vasektomie) während und bis 2 Monate nach der Behandlung; keine Samenspende",
+      "ids": []
+    },
+    {
+      "text": "Kinder und Jugendliche: vorzeitiger Verschluss der Wachstumsfugen und frühe Pubertät beobachtet",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, DRESS) möglich",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Leberwerte: medikamentenbedingte Leberschäden möglich",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutspende während und bis 24 Monate nach der Behandlung nicht erlaubt",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Johanniskraut",
+      "ref": [
+        "johanniskraut"
+      ],
+      "grund": "Johanniskraut kann den Vismodegib-Spiegel senken und so die Wirkung abschwächen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "P-Glykoprotein-Hemmer (z. B. Clarithromycin, Erythromycin, Azithromycin)",
+      "ref": [
+        "gruppe:p-gp-hemmer",
+        "gruppe:makrolide"
+      ],
+      "effekt": "Können den Vismodegib-Spiegel erhöhen – mehr Nebenwirkungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Können den Vismodegib-Spiegel senken und die Wirkung abschwächen – möglichst vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "BCRP-Substrate (z. B. Rosuvastatin, Topotecan, Sulfasalazin)",
+      "ref": [
+        "rosuvastatin",
+        "topotecan",
+        "sulfasalazin"
+      ],
+      "effekt": "Vismodegib kann deren Spiegel erhöhen – auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Muskelkrämpfe",
+      "Haarausfall",
+      "Geschmacksstörungen bis Geschmacksverlust",
+      "Gewichtsverlust, Appetitlosigkeit",
+      "Müdigkeit",
+      "Übelkeit, Durchfall, Verstopfung",
+      "Gelenkschmerzen",
+      "Ausbleiben der Regelblutung (Amenorrhö)"
+    ],
+    "haeufig": [
+      "Erhöhte Leberwerte",
+      "Flüssigkeitsmangel (Dehydratation), Hyponatriämie (Natriummangel)",
+      "Bauchschmerzen, Verdauungsbeschwerden",
+      "Muskel- und Rückenschmerzen",
+      "Erhöhte Kreatinkinase (Muskelenzym)",
+      "Verlust von Wimpern und Augenbrauen"
+    ],
+    "unbekannt": [
+      "Medikamentenbedingte Leberschädigung",
+      "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS)",
+      "Vorzeitiger Verschluss der Wachstumsfugen und vorzeitige Pubertät bei Kindern"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert – kann zum Tod des Embryos oder zu schweren Fehlbildungen führen. Frauen im gebärfähigen Alter verwenden zwei Verhütungsmethoden während und bis 24 Monate nach der letzten Dosis; Männer verwenden Kondome bis 2 Monate danach.",
+  "stillzeit": "Kontraindiziert, während der Behandlung und bis 24 Monate nach der letzten Dosis.",
+  "hinweise": [
+    "Schwangerschaftsverhütungsprogramm streng befolgen; Kapseln nie an andere Personen weitergeben.",
+    "Kein Blut spenden während und bis 24 Monate nach der Behandlung; Männer keine Samenspende bis 2 Monate danach.",
+    "Kapseln ganz schlucken, nicht öffnen oder zerdrücken.",
+    "Muskelkrämpfe und Geschmacksstörungen sind sehr häufig; belastende Beschwerden ärztlich besprechen."
+  ],
+  "stand": "2026-10"
+}

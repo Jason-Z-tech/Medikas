@@ -1,0 +1,206 @@
+{
+  "id": "penicillamin",
+  "name": "Penicillamin",
+  "synonyme": [
+    "D-Penicillamin",
+    "Penicillamine"
+  ],
+  "atc": [
+    "M01CC01"
+  ],
+  "klasse": "Chelatbildner; Basistherapeutikum (DMARD)",
+  "kurz": "Bindet Kupfer und andere Metalle (Morbus Wilson, Vergiftungen), beugt Cystinsteinen vor und wird selten bei rheumatoider Arthritis eingesetzt.",
+  "gruppen": [
+    "myelosuppressiv",
+    "nephrotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Mercaptyl"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Morbus Wilson (Kupferspeicherkrankheit)",
+      "ids": [
+        "morbus-wilson"
+      ]
+    },
+    {
+      "text": "Cystinurie: Vorbeugung und Auflösung von Cystinsteinen",
+      "ids": [
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Schwere aktive rheumatoide Arthritis, wenn andere Basistherapien nicht infrage kommen",
+      "ids": [
+        "rheumatoide-arthritis"
+      ]
+    },
+    {
+      "text": "Schwermetallvergiftungen, z. B. mit Blei",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bindet Schwermetalle wie Kupfer und Blei und fördert ihre Ausscheidung mit dem Urin. Penicillamin bildet als Chelatbildner lösliche Komplexe mit Kupfer und anderen Metallen. Bei Cystinurie entsteht mit Cystin ein besser lösliches Disulfid, sodass sich keine Steine bilden. Bei rheumatoider Arthritis wirkt es über einen nicht genau geklärten immunmodulierenden Mechanismus langsam, mit Wirkungseintritt nach Wochen bis Monaten.",
+  "kontraindikationen": [
+    {
+      "text": "Penicillinallergie (mögliche Kreuzallergie)",
+      "ids": [
+        "penicillinallergie"
+      ]
+    },
+    {
+      "text": "Agranulozytose, aplastische Anämie oder schwere Thrombozytopenie in der Vorgeschichte, besonders unter Penicillamin",
+      "ids": [
+        "knochenmarkschaedigung",
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Lupus erythematodes",
+      "ids": [
+        "lupus"
+      ]
+    },
+    {
+      "text": "Nierenschädigung oder eingeschränkte Nierenfunktion (ausser bei Morbus Wilson und Cystinurie nach ärztlicher Abwägung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft bei rheumatoider Arthritis",
+      "ids": [
+        "schwangerschaft"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen und Nierenschäden (Proteinurie, Hämaturie) – Blutbild und Urin anfangs alle 1–2 Wochen, später monatlich kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie",
+        "nephrotisches-syndrom"
+      ]
+    },
+    {
+      "text": "Autoimmunreaktionen wie Myasthenia gravis, Pemphigus oder Lupus-ähnliches Syndrom",
+      "ids": [
+        "myasthenia-gravis",
+        "pemphigus",
+        "lupus"
+      ]
+    },
+    {
+      "text": "Morbus Wilson: zu Beginn vorübergehende Verschlechterung neurologischer Beschwerden möglich",
+      "ids": [
+        "morbus-wilson"
+      ]
+    },
+    {
+      "text": "Geplante Operationen: verzögerte Wundheilung",
+      "ids": [
+        "operation",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Vitamin-B6-Mangel, besonders bei Mangelernährung (Pyridoxin ergänzen)",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufiger Nebenwirkungen)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Goldverbindungen, Antimalariamittel (z. B. Hydroxychloroquin), Zytostatika und Immunsuppressiva",
+      "ref": [
+        "hydroxychloroquin",
+        "gruppe:zytostatika",
+        "gruppe:immunsuppressiv",
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Verstärkte Blutbild- und Nierenschäden – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Eisenpräparate",
+      "ref": [
+        "gruppe:eisenpraeparate"
+      ],
+      "effekt": "Vermindern die Aufnahme von Penicillamin stark – mindestens 2 Stunden Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antazida, Zink und andere mehrwertige Kationen (Calcium, Magnesium)",
+      "ref": [
+        "gruppe:antazida",
+        "gruppe:mehrwertige-kationen",
+        "zink"
+      ],
+      "effekt": "Verminderte Aufnahme von Penicillamin – mindestens 2 Stunden Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin",
+      "ref": [
+        "digoxin"
+      ],
+      "effekt": "Digoxin-Spiegel können sinken – Wirkung überwachen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Geschmacksstörungen",
+      "Appetitlosigkeit, Übelkeit",
+      "Proteinurie (Eiweiss im Urin)"
+    ],
+    "haeufig": [
+      "Hautausschlag, Juckreiz",
+      "Thrombozytopenie und Leukopenie",
+      "Erbrechen, Durchfall, Mundschleimhautentzündung"
+    ],
+    "selten": [
+      "Agranulozytose, aplastische Anämie",
+      "Myasthenie-Syndrom (Muskelschwäche, Doppelbilder)",
+      "Nephrotisches Syndrom",
+      "Pemphigus (blasenbildende Hauterkrankung)"
+    ],
+    "unbekannt": [
+      "Lupus-ähnliches Syndrom, Goodpasture-Syndrom (Lungen-Nieren-Erkrankung)",
+      "Bronchiolitis obliterans (Entzündung der kleinen Atemwege)",
+      "Leberschäden mit Gallenstau (Cholestase)",
+      "Hautveränderungen bei Langzeitbehandlung (z. B. brüchige Haut, Elastose), verzögerte Wundheilung",
+      "Haarausfall",
+      "Vitamin-B6-Mangel"
+    ]
+  },
+  "schwangerschaft": "Bei rheumatoider Arthritis kontraindiziert (fruchtschädigend, z. B. Bindegewebsschäden). Bei Morbus Wilson und Cystinurie wird die Behandlung in möglichst niedriger Dosis unter ärztlicher Kontrolle fortgesetzt.",
+  "stillzeit": "Nicht empfohlen; bei Morbus Wilson nur nach strenger ärztlicher Abwägung.",
+  "hinweise": [
+    "Nüchtern einnehmen: mindestens 1 Stunde vor oder 2 Stunden nach einer Mahlzeit; mindestens 2 Stunden Abstand zu Eisen, Antazida, Zink und Milchprodukten.",
+    "Blutbild und Urin müssen regelmässig kontrolliert werden.",
+    "Fieber, Halsschmerzen, Blutergüsse, Blutungen, Hautausschlag oder Muskelschwäche sofort melden.",
+    "Bei Morbus Wilson die Behandlung lebenslang und nicht eigenmächtig unterbrechen."
+  ],
+  "stand": "2026-10"
+}

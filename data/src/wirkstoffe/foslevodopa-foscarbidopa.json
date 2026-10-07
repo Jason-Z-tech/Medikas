@@ -1,0 +1,242 @@
+{
+  "id": "foslevodopa-foscarbidopa",
+  "name": "Foslevodopa + Foscarbidopa",
+  "synonyme": [
+    "Foslevodopa",
+    "Foscarbidopa"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "N04BA07"
+  ],
+  "klasse": "Parkinsonmittel (Prodrugs von Levodopa und dem Decarboxylasehemmer Carbidopa) zur subkutanen Dauerinfusion",
+  "kurz": "Parkinsonmittel als Dauerinfusion unter die Haut über eine Pumpe, für fortgeschrittenen Parkinson mit starken Wirkschwankungen.",
+  "gruppen": [
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Vyalev"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Infusionslösung zur subkutanen Anwendung (Pumpe)"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittene Parkinson-Krankheit mit schweren motorischen Schwankungen (On-Off-Phasen) und Überbewegungen, wenn Tabletten nicht mehr ausreichend wirken",
+      "ids": [
+        "parkinson"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ersetzt den bei Parkinson fehlenden Botenstoff Dopamin im Gehirn. Foslevodopa und Foscarbidopa sind gut wasserlösliche Phosphat-Prodrugs, die nach der Infusion unter die Haut rasch zu Levodopa und Carbidopa umgewandelt werden. Levodopa gelangt ins Gehirn und wird dort zu Dopamin; Carbidopa hemmt diese Umwandlung ausserhalb des Gehirns und vermindert so Nebenwirkungen wie Übelkeit. Die Dauerinfusion ergibt über 24 Stunden gleichmässige Levodopa-Spiegel.",
+  "kontraindikationen": [
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Schwere Herzinsuffizienz",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Herzrhythmusstörungen",
+      "ids": [
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Akuter Schlaganfall",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Zustände, bei denen adrenerge Mittel nicht angewendet werden dürfen, z. B. Phäochromozytom, Schilddrüsenüberfunktion, Cushing-Syndrom",
+      "ids": [
+        "phaeochromozytom",
+        "hyperthyreose",
+        "cushing-syndrom"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Reaktionen und Infektionen an der Infusionsstelle (Rötung, Knoten, Abszess) – steril arbeiten und die Infusionsstelle regelmässig wechseln",
+      "ids": [
+        "hautinfektion"
+      ]
+    },
+    {
+      "text": "Herzinfarkt, Herzrhythmusstörungen oder andere Herz-Kreislauf-Erkrankungen in der Vorgeschichte",
+      "ids": [
+        "herzinfarkt",
+        "herzrhythmusstoerung",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Psychosen, Halluzinationen, Depression oder Suizidgedanken",
+      "ids": [
+        "schizophrenie",
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Impulskontrollstörungen (Spielsucht, Kaufsucht, Essattacken, gesteigerte Sexualität) – Angehörige einbeziehen",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Plötzliches Einschlafen und Tagesmüdigkeit",
+      "ids": [
+        "autofahren",
+        "narkolepsie"
+      ]
+    },
+    {
+      "text": "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Weitwinkelglaukom: Augeninnendruck kontrollieren",
+      "ids": [
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Melanom: erhöhtes Risiko bei Parkinson – Haut regelmässig kontrollieren lassen",
+      "ids": [
+        "hautkrebs"
+      ]
+    },
+    {
+      "text": "Abruptes Absetzen oder starke Dosisreduktion: Gefahr eines malignen neuroleptischen Syndroms (Fieber, Muskelsteife, Bewusstseinsstörung)",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Nicht-selektive MAO-Hemmer und selektive MAO-A-Hemmer (z. B. Moclobemid); mindestens 2 Wochen vor Beginn absetzen",
+      "ref": [
+        "gruppe:mao-hemmer",
+        "moclobemid"
+      ],
+      "grund": "Hemmen den Abbau von Dopamin und Noradrenalin – Gefahr gefährlicher Blutdruckkrisen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "MAO-B-Hemmer (z. B. Selegilin, Rasagilin, Safinamid)",
+      "ref": [
+        "gruppe:mao-b-hemmer"
+      ],
+      "effekt": "Kombination möglich, aber verstärkter Blutdruckabfall beim Aufstehen und mehr Dopamin-Nebenwirkungen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall beim Aufstehen – Blutdruck kontrollieren, Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Dopamin-Antagonisten (z. B. Antipsychotika, Metoclopramid)",
+      "ref": [
+        "gruppe:dopaminantagonisten",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Schwächen die Wirkung ab – Parkinson-Beschwerden können sich verschlechtern.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "COMT-Hemmer (Entacapon, Opicapon, Tolcapon)",
+      "ref": [
+        "entacapon",
+        "opicapon",
+        "tolcapon"
+      ],
+      "effekt": "Verstärkte Levodopa-Wirkung – Dosis ggf. anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Sympathomimetika",
+      "ref": [
+        "gruppe:sympathomimetika"
+      ],
+      "effekt": "Verstärkte Wirkung auf Herz und Kreislauf möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Isoniazid, Phenytoin, Papaverin und Benzodiazepine",
+      "ref": [
+        "isoniazid",
+        "phenytoin",
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Können die Wirkung von Levodopa abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Amantadin",
+      "ref": [
+        "amantadin"
+      ],
+      "effekt": "Verstärkt die Levodopa-Wirkung; Überbewegungen und andere Nebenwirkungen können zunehmen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Selten Blutdruckanstieg und Überbewegungen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Reaktionen an der Infusionsstelle (Rötung, Schwellung, Knoten, Schmerzen, Blutergüsse)",
+      "Infektionen an der Infusionsstelle (Zellulitis, Abszess)"
+    ],
+    "haeufig": [
+      "Halluzinationen, Angst, Depression, Schlaflosigkeit, Verwirrtheit",
+      "Dyskinesien (unwillkürliche Überbewegungen)",
+      "Schwindel, Kopfschmerzen, Schläfrigkeit",
+      "Orthostatische Hypotonie (Blutdruckabfall beim Aufstehen)",
+      "Übelkeit, Verstopfung, Erbrechen, Mundtrockenheit",
+      "Stürze",
+      "Periphere Ödeme (Beinschwellungen)",
+      "Gewichtsabnahme"
+    ],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Impulskontrollstörungen (z. B. Spielsucht, Kaufsucht)",
+      "Plötzliches Einschlafen",
+      "Psychotische Störungen, Dopamin-Dysregulationssyndrom",
+      "Malignes neuroleptisches Syndrom bei abruptem Absetzen"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen; Frauen im gebärfähigen Alter sollen zuverlässig verhüten.",
+  "stillzeit": "Levodopa geht in die Muttermilch über und kann die Milchbildung hemmen; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Die Infusionsstelle regelmässig wechseln und auf Rötung, Schmerzen oder Eiter achten.",
+    "Die Pumpe nicht eigenmächtig für längere Zeit unterbrechen und nicht abrupt absetzen (starke Bewegungsblockade, malignes neuroleptisches Syndrom).",
+    "Plötzliches Einschlafen möglich – dann nicht Auto fahren und keine Maschinen bedienen."
+  ],
+  "stand": "2026-10"
+}

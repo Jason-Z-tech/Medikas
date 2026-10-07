@@ -1,0 +1,182 @@
+{
+  "id": "mivacurium",
+  "name": "Mivacurium",
+  "synonyme": [
+    "Mivacuriumchlorid",
+    "Mivacurium chloride"
+  ],
+  "atc": [
+    "M03AC10"
+  ],
+  "klasse": "Nicht depolarisierendes (peripheres) Muskelrelaxans (Benzylisochinolin), kurz wirksam",
+  "kurz": "Kurz wirksames Muskelentspannungsmittel für Narkosen; wird im Blut durch das Enzym Plasmacholinesterase abgebaut.",
+  "gruppen": [
+    "muskelrelaxanzien-peripher"
+  ],
+  "handelsnamen": [
+    "Mivacron"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Muskelerschlaffung bei Narkosen, z. B. zur Intubation und für kurze bis mittellange Eingriffe, bei Erwachsenen und Kindern",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erschlafft die Skelettmuskulatur für kurze Eingriffe. Mivacurium blockiert kompetitiv die nikotinischen Acetylcholinrezeptoren an der motorischen Endplatte (nicht depolarisierend). Es wird wie Suxamethonium durch die Plasmacholinesterase abgebaut und wirkt daher nur kurz, etwa 15–20 Minuten. Bei einem Mangel an Plasmacholinesterase ist die Wirkung stark verlängert.",
+  "kontraindikationen": [
+    {
+      "text": "Angeborener schwerer Mangel an Plasmacholinesterase (homozygot für das atypische Gen)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verminderte Plasmacholinesterase (heterozygoter Gendefekt, Leber- oder Nierenerkrankung, Schwangerschaft, Verbrennungen, Krebs, Mangelernährung): verlängerte Wirkung",
+      "ids": [
+        "pharmakogenetik",
+        "leberinsuffizienz",
+        "niereninsuffizienz",
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "Histaminfreisetzung: Vorsicht bei Asthma, Allergien und Herz-Kreislauf-Erkrankungen (langsam injizieren)",
+      "ids": [
+        "asthma",
+        "allergie",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis und andere neuromuskuläre Erkrankungen: stark verstärkte Wirkung",
+      "ids": [
+        "myasthenia-gravis",
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Verbrennungen: veränderte Empfindlichkeit",
+      "ids": [
+        "verbrennung"
+      ]
+    },
+    {
+      "text": "Allergie gegen andere Muskelrelaxanzien (Kreuzreaktion möglich)",
+      "ids": [
+        "anaphylaxie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Mittel, die die Plasmacholinesterase hemmen (z. B. Cholinesterasehemmer, Zytostatika, MAO-Hemmer)",
+      "ref": [
+        "neostigmin",
+        "pyridostigmin",
+        "gruppe:acetylcholinesterasehemmer",
+        "gruppe:zytostatika",
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Deutlich verlängerte Muskellähmung – Atmung überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Inhalationsanästhetika (z. B. Desfluran, Sevofluran, Isofluran)",
+      "ref": [
+        "desfluran",
+        "sevofluran",
+        "isofluran"
+      ],
+      "effekt": "Verstärkte und verlängerte Muskelrelaxation – Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aminoglykoside, Polymyxine, Tetracycline und Clindamycin",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:tetracycline",
+        "clindamycin"
+      ],
+      "effekt": "Verstärkte neuromuskuläre Blockade.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika und Herz-Kreislauf-Mittel (z. B. Lidocain, Betablocker, Calciumantagonisten)",
+      "ref": [
+        "lidocain",
+        "gruppe:betablocker",
+        "gruppe:nicht-dhp-calciumantagonisten",
+        "gruppe:dhp-calciumantagonisten"
+      ],
+      "effekt": "Verstärkte Blockade möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Magnesiumsulfat",
+      "ref": [
+        "magnesiumsulfat"
+      ],
+      "effekt": "Verstärkte neuromuskuläre Blockade.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Lithium",
+      "ref": [
+        "lithium"
+      ],
+      "effekt": "Verstärkte Wirkung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Diuretika",
+      "ref": [
+        "gruppe:diuretika"
+      ],
+      "effekt": "Verstärkung durch Elektrolytverschiebungen möglich.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Suxamethonium",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Gegenseitige Beeinflussung der Wirkung; beide werden über die Plasmacholinesterase abgebaut.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hautrötung (Flush) durch Histaminfreisetzung"
+    ],
+    "haeufig": [
+      "Blutdruckabfall"
+    ],
+    "gelegentlich": [
+      "Tachykardie (Herzrasen)",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Hautausschlag, Rötung, Nesselsucht"
+    ],
+    "sehrSelten": [
+      "Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; die Plasmacholinesterase ist in der Schwangerschaft vermindert, die Wirkung kann daher verlängert sein.",
+  "stillzeit": "Nicht bekannt, ob der Wirkstoff in die Muttermilch übergeht; wegen der sehr kurzen Wirkdauer ist ein Risiko unwahrscheinlich.",
+  "hinweise": [
+    "Wird nur von Anästhesie-Fachpersonen mit Beatmungsmöglichkeit angewendet.",
+    "Vor einer Narkose einen bekannten Cholinesterase-Mangel oder ungewöhnlich lange Narkosewirkung (auch in der Familie) angeben.",
+    "Allergien gegen Muskelrelaxanzien vor einer Operation angeben."
+  ],
+  "stand": "2026-10"
+}

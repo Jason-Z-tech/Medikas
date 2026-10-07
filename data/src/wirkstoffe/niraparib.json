@@ -1,0 +1,194 @@
+{
+  "id": "niraparib",
+  "name": "Niraparib",
+  "synonyme": [
+    "Niraparibtosilat",
+    "MK-4827"
+  ],
+  "atc": [
+    "L01XK02",
+    "L01XK52"
+  ],
+  "klasse": "PARP-Hemmer (Poly-ADP-Ribose-Polymerase-Inhibitor)",
+  "kurz": "Tablette zur Erhaltungstherapie bei Eierstockkrebs nach Ansprechen auf platinhaltige Chemotherapie; mit Abirateron kombiniert auch bei Prostatakrebs.",
+  "gruppen": [
+    "myelosuppressiv",
+    "blutdrucksteigernd",
+    "photosensibilisierend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Zejula",
+    "Akeega (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Erhaltungstherapie bei fortgeschrittenem, hochgradigem Eierstock-, Eileiter- oder primärem Bauchfellkrebs nach Ansprechen auf eine platinhaltige Erstlinien-Chemotherapie",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "Erhaltungstherapie bei platinsensiblem, wiederkehrendem hochgradigem serösem Eierstock-, Eileiter- oder primärem Bauchfellkrebs nach Ansprechen auf eine erneute platinhaltige Chemotherapie",
+      "ids": [
+        "gynaekologischer-krebs"
+      ]
+    },
+    {
+      "text": "In fixer Kombination mit Abirateron (Akeega, zusammen mit Prednison oder Prednisolon): metastasierter kastrationsresistenter Prostatakrebs mit BRCA1/2-Mutation",
+      "ids": [
+        "prostatakrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert, dass Krebszellen Schäden an ihrem Erbgut reparieren. Niraparib hemmt die Enzyme PARP-1 und PARP-2, die Einzelstrangbrüche der DNA beheben, und hält PARP zusätzlich an der DNA fest («PARP-Trapping»). Tumorzellen mit gestörter homologer Rekombination, z. B. bei BRCA-Mutation, können die daraus entstehenden Doppelstrangbrüche nicht reparieren und sterben ab (synthetische Letalität).",
+  "kontraindikationen": [
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Blutbildveränderungen (Thrombozytopenie, Anämie, Neutropenie): Blutbild im ersten Monat wöchentlich, danach monatlich",
+      "ids": [
+        "thrombozytopenie",
+        "anaemie",
+        "neutropenie"
+      ]
+    },
+    {
+      "text": "Bluthochdruck, selten hypertensive Krise: Blutdruck regelmässig messen",
+      "ids": [
+        "hypertonie",
+        "hypertensive-krise"
+      ]
+    },
+    {
+      "text": "Myelodysplastisches Syndrom oder akute myeloische Leukämie können auftreten",
+      "ids": [
+        "myeloproliferative-erkrankung",
+        "leukaemie"
+      ]
+    },
+    {
+      "text": "Mässig eingeschränkte Leberfunktion: tiefere Startdosis",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Blutverdünnung: erhöhtes Blutungsrisiko bei Plättchenmangel",
+      "ids": [
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Akeega: wegen Abirateron zusätzlich auf Bluthochdruck, Kaliummangel, Wassereinlagerungen und Leberwerte achten",
+      "ids": [
+        "hypokaliaemie",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: wirksame Verhütung erforderlich",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere knochenmarkhemmende Mittel und Zytostatika",
+      "ref": [
+        "gruppe:myelosuppressiv",
+        "gruppe:zytostatika"
+      ],
+      "effekt": "Verstärkte Blutbildveränderungen – Blutbild engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antikoagulanzien und Thrombozytenaggregationshemmer",
+      "ref": [
+        "gruppe:antikoagulanzien",
+        "gruppe:thrombozytenaggregationshemmer"
+      ],
+      "effekt": "Bei tiefen Blutplättchen erhöhtes Blutungsrisiko – Blutbild kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Niraparib hemmt Transporter (MATE1/2, OCT1), über die Metformin ausgeschieden wird – Spiegel kann steigen, Vorsicht.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "CYP1A2-Substrate mit enger therapeutischer Breite (z. B. Clozapin, Theophyllin)",
+      "ref": [
+        "gruppe:cyp1a2-substrate"
+      ],
+      "effekt": "Niraparib kann CYP1A2 schwach induzieren – Wirkung dieser Mittel kann abnehmen, Vorsicht.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "BCRP-Substrate (z. B. Rosuvastatin, Irinotecan, Methotrexat)",
+      "ref": [
+        "rosuvastatin",
+        "irinotecan",
+        "methotrexat"
+      ],
+      "effekt": "Niraparib kann deren Spiegel leicht erhöhen – auf Nebenwirkungen achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen), Anämie, Neutropenie",
+      "Übelkeit, Erbrechen, Verstopfung",
+      "Müdigkeit, Schwäche",
+      "Kopfschmerzen, Schwindel",
+      "Schlaflosigkeit",
+      "Bluthochdruck",
+      "Appetitlosigkeit",
+      "Harnwegsinfekte"
+    ],
+    "haeufig": [
+      "Myelodysplastisches Syndrom und akute myeloische Leukämie (Blutkrebs)",
+      "Herzrasen, Herzklopfen",
+      "Nasenbluten",
+      "Lichtempfindlichkeit der Haut, Hautausschlag",
+      "Erhöhte Leberwerte",
+      "Depression, Angst",
+      "Mundschleimhautentzündung"
+    ],
+    "gelegentlich": [
+      "Pneumonitis (Entzündung des Lungengewebes)",
+      "Panzytopenie (Mangel aller Blutzellen)",
+      "Verwirrtheit, Halluzinationen"
+    ],
+    "selten": [
+      "Posteriores reversibles Enzephalopathie-Syndrom (PRES)",
+      "Hypertensive Krise"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden. Schwangerschaftstest vor Beginn; Frauen im gebärfähigen Alter verhüten während und bis 6 Monate nach der letzten Dosis.",
+  "stillzeit": "Kontraindiziert; während der Behandlung und bis 1 Monat nach der letzten Dosis nicht stillen.",
+  "hinweise": [
+    "Einmal täglich etwa zur gleichen Zeit einnehmen; Einnahme vor dem Schlafengehen kann Übelkeit vermindern.",
+    "Blutbild und Blutdruck regelmässig kontrollieren lassen.",
+    "Auf Sonnenschutz achten (Lichtempfindlichkeit möglich).",
+    "Akeega auf nüchternen Magen einnehmen (mindestens 1 Stunde vor oder 2 Stunden nach dem Essen)."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,145 @@
+{
+  "id": "pyrazinamid",
+  "name": "Pyrazinamid",
+  "synonyme": [
+    "PZA",
+    "Pyrazinamide"
+  ],
+  "atc": [
+    "J04AK01"
+  ],
+  "klasse": "Tuberkulostatikum (Nicotinamid-Analogon)",
+  "kurz": "Antibiotikum gegen Tuberkulose, das in den ersten zwei Behandlungsmonaten zusammen mit anderen Tuberkulosemitteln eingenommen wird.",
+  "gruppen": [
+    "hepatotoxisch",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Pyrazinamid Labatec",
+    "Rifater (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Tuberkulose, in der Anfangsphase der Behandlung in Kombination mit anderen Tuberkulosemitteln",
+      "ids": [
+        "tuberkulose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Tötet Tuberkulosebakterien ab, die in saurer Umgebung – etwa in Fresszellen oder abgestorbenem Gewebe – nur langsam wachsen und für andere Mittel schwer erreichbar sind. Pyrazinamid ist eine Vorstufe (Prodrug): Das bakterielle Enzym Pyrazinamidase wandelt es in die wirksame Pyrazinsäure um, die sich im sauren Milieu in den Bakterien anreichert und deren Energiehaushalt und Stoffwechsel stört. Dank dieser «sterilisierenden» Wirkung lässt sich die Standardbehandlung der Tuberkulose auf sechs Monate verkürzen.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Leberfunktionsstörung oder akute Lebererkrankung",
+      "ids": [
+        "schwere-leberinsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akuter Gichtanfall",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Porphyrie",
+      "ids": [
+        "porphyrie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Gicht oder erhöhte Harnsäure in der Vorgeschichte (Gichtanfälle möglich)",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Leichte Leberfunktionsstörung, regelmässiger Alkoholkonsum, Mangelernährung, ältere Menschen (erhöhtes Risiko für Leberschäden)",
+      "ids": [
+        "leberinsuffizienz",
+        "alkoholkonsum",
+        "mangelernaehrung",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker kann schwieriger einzustellen sein",
+      "ids": [
+        "diabetes"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere leberschädigende Mittel, insbesondere Rifampicin und Isoniazid",
+      "ref": [
+        "gruppe:hepatotoxisch",
+        "rifampicin",
+        "isoniazid"
+      ],
+      "effekt": "Höheres Risiko für Leberschäden – die Kombination ist Standard, Leberwerte aber regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Gichtmittel (Allopurinol, Febuxostat)",
+      "ref": [
+        "gruppe:urikostatika"
+      ],
+      "effekt": "Pyrazinamid erhöht die Harnsäure und schwächt die Wirkung von Gichtmitteln ab – Harnsäure kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ciclosporin",
+      "ref": [
+        "ciclosporin"
+      ],
+      "effekt": "Ciclosporin-Spiegel kann sinken – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutzuckersenkende Mittel (Insulin, Sulfonylharnstoffe)",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Blutzucker kann schwanken – häufiger messen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Hyperurikämie (erhöhte Harnsäure im Blut), Gichtanfall",
+      "Gelenkschmerzen (Arthralgie)",
+      "Übelkeit, Erbrechen, Appetitlosigkeit",
+      "Erhöhte Leberwerte, Hepatitis bis Leberversagen, Gelbsucht",
+      "Lichtempfindlichkeit der Haut (Photosensibilisierung), Ausschlag, Juckreiz",
+      "Thrombozytopenie, sideroblastische Anämie",
+      "Interstitielle Nephritis, Beschwerden beim Wasserlassen",
+      "Fieber, Unwohlsein"
+    ]
+  },
+  "schwangerschaft": "Erfahrungen begrenzt; nur nach strenger ärztlicher Abwägung, wenn eine Tuberkulosebehandlung nötig ist.",
+  "stillzeit": "Geht in geringen Mengen in die Muttermilch über; Anwendung nach ärztlicher Abwägung, Kind beobachten.",
+  "hinweise": [
+    "Leberwerte und Harnsäure werden vor und während der Behandlung kontrolliert; bei Gelbsucht, dunklem Urin oder Oberbauchschmerzen sofort ärztlich abklären.",
+    "Auf Alkohol verzichten (Leberschäden).",
+    "Haut vor starker Sonne schützen.",
+    "Tuberkulosemittel regelmässig und so lange wie verordnet einnehmen (Resistenzgefahr)."
+  ],
+  "stand": "2026-10"
+}

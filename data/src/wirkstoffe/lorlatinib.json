@@ -1,0 +1,189 @@
+{
+  "id": "lorlatinib",
+  "name": "Lorlatinib",
+  "synonyme": [
+    "PF-06463922"
+  ],
+  "atc": [
+    "L01ED05"
+  ],
+  "klasse": "Proteinkinase-Hemmer (ALK- und ROS1-Hemmer der 3. Generation)",
+  "kurz": "Zielgerichtetes Krebsmittel zum Einnehmen bei fortgeschrittenem Lungenkrebs mit ALK-Veränderung, auch bei Hirnmetastasen.",
+  "gruppen": [
+    "proteinkinase-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "p-gp-induktoren",
+    "blutdrucksteigernd",
+    "hyperglykaemie-ausloesend",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Lorviqua"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs bei Erwachsenen ohne vorherige ALK-Hemmer-Behandlung",
+      "ids": [
+        "lungenkrebs"
+      ]
+    },
+    {
+      "text": "Fortgeschrittener ALK-positiver nicht-kleinzelliger Lungenkrebs nach Alectinib oder Ceritinib als erstem ALK-Hemmer oder nach Crizotinib und mindestens einem weiteren ALK-Hemmer",
+      "ids": [
+        "lungenkrebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert gezielt das veränderte Wachstumssignal-Enzym ALK in Lungenkrebszellen. Lorlatinib ist ein ALK- und ROS1-Hemmer der dritten Generation, der gegen fast alle bekannten ALK-Resistenzmutationen einschliesslich G1202R wirkt. Er wurde so entwickelt, dass er gut ins Gehirn gelangt, und wirkt daher besonders auch gegen Hirnmetastasen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Erhöhte Blutfette (Cholesterin, Triglyceride steigen sehr häufig; oft Lipidsenker nötig)",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Psychische und zentralnervöse Wirkungen (Stimmungs-, Gedächtnis- und Sprachstörungen, Halluzinationen), vor allem bei psychischen Erkrankungen in der Vorgeschichte",
+      "ids": [
+        "depression",
+        "schizophrenie"
+      ]
+    },
+    {
+      "text": "AV-Block (Reizleitungsstörung im Herzen): EKG kontrollieren",
+      "ids": [
+        "av-block"
+      ]
+    },
+    {
+      "text": "Herzschwäche (Pumpfunktion kann abnehmen)",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Bluthochdruck",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Diabetes (Blutzucker kann steigen)",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Interstitielle Lungenerkrankung, Pneumonitis",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Pankreatitis in der Vorgeschichte (Lipase und Amylase kontrollieren)",
+      "ids": [
+        "pankreatitis"
+      ]
+    },
+    {
+      "text": "Mässige bis schwere Leberinsuffizienz (Anwendung nicht empfohlen) und schwere Niereninsuffizienz",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Enzalutamid, Mitotan, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "enzalutamid",
+        "mitotan",
+        "johanniskraut"
+      ],
+      "grund": "Unter Rifampicin traten schwere Leberwerterhöhungen auf, zudem sinkt der Lorlatinib-Spiegel stark."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir) und Grapefruit",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Lorlatinib-Spiegel steigt – vermeiden; falls unumgänglich, Dosis reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Substrate mit enger therapeutischer Breite (z. B. Alfentanil, Fentanyl, Ciclosporin, Tacrolimus, Sirolimus, Ergotalkaloide)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Lorlatinib induziert CYP3A4 mässig – Spiegel und Wirkung sinken; vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Verhütung kann versagen – zuverlässige nichthormonale Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "P-Glykoprotein-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Dabigatran)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Lorlatinib induziert P-Glykoprotein – Wirkung dieser Mittel kann abnehmen; überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Herzschlag-verlangsamende und AV-Überleitung hemmende Mittel (z. B. Betablocker, Verapamil, Diltiazem, Digoxin)",
+      "ref": [
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Verstärkte Reizleitungsstörung (AV-Block) möglich – EKG kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Erhöhtes Cholesterin und erhöhte Triglyceride",
+      "Wassereinlagerungen (Ödeme), Gewichtszunahme",
+      "Periphere Neuropathie (Kribbeln, Taubheit)",
+      "Kognitive Störungen (Gedächtnis-, Konzentrationsstörungen) und Stimmungsschwankungen (Reizbarkeit, Angst, Depression)",
+      "Müdigkeit, Kopfschmerzen, Schwindel",
+      "Gelenk- und Muskelschmerzen",
+      "Durchfall, Übelkeit, Verstopfung",
+      "Hautausschlag, Sehstörungen, Blutarmut, Bluthochdruck, erhöhter Blutzucker"
+    ],
+    "haeufig": [
+      "Psychotische Symptome (Halluzinationen), Sprachstörungen, Schlafstörungen",
+      "Pneumonitis (Lungenentzündung ohne Erreger)",
+      "AV-Block (Reizleitungsstörung im Herzen)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser es ist zwingend notwendig. Frauen im gebärfähigen Alter müssen während und mindestens 35 Tage nach der Behandlung zuverlässig nichthormonal verhüten; Männer mit Partnerin im gebärfähigen Alter verwenden während und bis 14 Wochen danach Kondome.",
+  "stillzeit": "Während der Behandlung und 7 Tage danach nicht stillen.",
+  "hinweise": [
+    "Einmal täglich zur gleichen Zeit, unabhängig von den Mahlzeiten einnehmen; keine Grapefruit und kein Johanniskraut.",
+    "Blutfette vor Beginn und regelmässig kontrollieren – oft ist ein Cholesterinsenker nötig.",
+    "Veränderungen von Stimmung, Gedächtnis, Sprache oder Verhalten melden; Angehörige darauf aufmerksam machen.",
+    "EKG, Blutdruck und Blutzucker regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

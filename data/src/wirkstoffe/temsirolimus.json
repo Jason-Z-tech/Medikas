@@ -1,0 +1,235 @@
+{
+  "id": "temsirolimus",
+  "name": "Temsirolimus",
+  "synonyme": [
+    "Temsirolimusum",
+    "CCI-779"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "L01EG01"
+  ],
+  "klasse": "mTOR-Hemmer; Krebsmittel",
+  "kurz": "Krebsmittel (mTOR-Hemmer) als Infusion gegen fortgeschrittenen Nierenkrebs und rückfälliges Mantelzell-Lymphom.",
+  "gruppen": [
+    "mtor-hemmer",
+    "cyp3a4-substrate-empfindlich",
+    "immunsuppressiv",
+    "myelosuppressiv",
+    "hyperglykaemie-ausloesend",
+    "nephrotoxisch",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Torisel"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Konzentrat zur Herstellung einer Infusionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Erstbehandlung des fortgeschrittenen Nierenzellkarzinoms bei ungünstiger Prognose (mindestens 3 von 6 Risikofaktoren)",
+      "ids": [
+        "nierenkrebs"
+      ]
+    },
+    {
+      "text": "Rückfälliges oder therapieresistentes Mantelzell-Lymphom",
+      "ids": [
+        "lymphom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bremst das Wachstum von Krebszellen und die Bildung neuer Blutgefässe im Tumor. Temsirolimus und sein Wirkmetabolit Sirolimus binden an das Eiweiss FKBP-12; dieser Komplex hemmt die Kinase mTOR. Dadurch wird die Zellteilung im G1-Stadium angehalten und die Bildung von Wachstumsfaktoren wie VEGF über HIF-1α und HIF-2α vermindert.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Sirolimus oder Polysorbat 80",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Mantelzell-Lymphom bei mässig bis schwer eingeschränkter Leberfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Infektionen oder geschwächtes Immunsystem (auch opportunistische Infektionen wie Pneumocystis-Pneumonie)",
+      "ids": [
+        "aktive-infektion",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Diabetes: Blutzucker steigt häufig an",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Erhöhte Blutfette (Cholesterin, Triglyceride)",
+      "ids": [
+        "hypercholesterinaemie",
+        "hypertriglyzeridaemie"
+      ]
+    },
+    {
+      "text": "Lungenerkrankungen (nicht infektiöse Pneumonitis, interstitielle Lungenerkrankung möglich)",
+      "ids": [
+        "lungenfibrose"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (Nierenversagen möglich)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Hirntumoren oder Hirnmetastasen bzw. Behandlung mit Blutverdünnern (Hirnblutungen möglich)",
+      "ids": [
+        "hirntumor",
+        "antikoagulation"
+      ]
+    },
+    {
+      "text": "Geplante Operationen (verzögerte Wundheilung)",
+      "ids": [
+        "operation",
+        "wunde"
+      ]
+    },
+    {
+      "text": "Geplante Lebendimpfung",
+      "ids": [
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (häufiger Ödeme, Durchfall, Lungenentzündung)",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ketoconazol, Itraconazol, Clarithromycin, Ritonavir)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Sirolimus-Spiegel steigt deutlich – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Spiegel des Wirkmetaboliten sinkt, Wirkverlust – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Lebendimpfstoffe",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Gefahr einer Infektion durch den Impfstoff und schwächere Impfantwort – Lebendimpfungen vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sunitinib",
+      "ref": [
+        "sunitinib"
+      ],
+      "effekt": "Kombination führte zu schweren, dosislimitierenden Nebenwirkungen – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Blutverdünner (z. B. Phenprocoumon, Heparine)",
+      "ref": [
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Risiko für Blutungen, auch Hirnblutungen – enge Überwachung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "ACE-Hemmer",
+      "ref": [
+        "gruppe:ace-hemmer"
+      ],
+      "effekt": "Erhöhtes Risiko für Angioödeme (Schwellungen an Gesicht, Zunge, Hals) – auf Anzeichen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Hemmer (z. B. Erythromycin, Fluconazol, Diltiazem, Verapamil)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Spiegel steigt möglicherweise – Vorsicht, auf Nebenwirkungen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche P-Glykoprotein-Substrate (z. B. Digoxin)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin"
+      ],
+      "effekt": "Temsirolimus hemmt P-Glykoprotein – Spiegel dieser Mittel können steigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen (z. B. Harnwegs- und Atemwegsinfekte)",
+      "Anämie, Thrombozytopenie (Mangel an Blutplättchen)",
+      "Hyperglykämie (erhöhter Blutzucker), erhöhte Blutfette, Hypokaliämie",
+      "Appetitlosigkeit, Geschmacksstörungen",
+      "Mukositis und Stomatitis (Schleimhautentzündung im Mund), Übelkeit, Durchfall",
+      "Atemnot, Husten, Nasenbluten",
+      "Hautausschlag, Juckreiz, Nagelveränderungen",
+      "Ödeme (Wassereinlagerungen), Schwäche, Fieber"
+    ],
+    "haeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Pneumonitis (Lungenentzündung ohne Infektion)",
+      "Überempfindlichkeits- und Infusionsreaktionen",
+      "Lungenentzündung, Sepsis",
+      "Thrombosen und Lungenembolie",
+      "Bluthochdruck",
+      "Nierenversagen",
+      "Bindehautentzündung, Schlaflosigkeit"
+    ],
+    "gelegentlich": [
+      "Magen-Darm-Perforation (Durchbruch)",
+      "Hirnblutung",
+      "Perikarderguss (Flüssigkeit im Herzbeutel)",
+      "Wundheilungsstörungen"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Angioödem",
+      "Stevens-Johnson-Syndrom",
+      "Rhabdomyolyse (Muskelzerfall)"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn unbedingt nötig (im Tierversuch fruchtschädigend). Frauen und Männer müssen während und bis 3 Monate nach der Behandlung zuverlässig verhüten.",
+  "stillzeit": "Während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Wird einmal wöchentlich als Infusion im Spital oder in der Praxis gegeben; etwa 30 Minuten vorher erhält man ein Antihistaminikum gegen Infusionsreaktionen.",
+    "Regelmässige Kontrollen: Blutbild, Blutzucker, Blutfette, Nierenwerte.",
+    "Keine Lebendimpfungen während der Behandlung; Grapefruit meiden.",
+    "Atemnot, Husten oder Fieber umgehend ärztlich melden."
+  ],
+  "stand": "2026-10"
+}
