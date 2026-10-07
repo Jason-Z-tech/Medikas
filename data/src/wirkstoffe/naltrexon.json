@@ -1,0 +1,172 @@
+{
+  "id": "naltrexon",
+  "name": "Naltrexon",
+  "synonyme": [
+    "Naltrexonhydrochlorid",
+    "Naltrexone"
+  ],
+  "atc": [
+    "N07BB04"
+  ],
+  "klasse": "Opioidantagonist",
+  "kurz": "Blockiert die Wirkung von Opioiden; hilft nach dem Entzug bei Opioid- oder Alkoholabhängigkeit, abstinent zu bleiben.",
+  "gruppen": [
+    "opioid-antagonisten",
+    "hepatotoxisch"
+  ],
+  "handelsnamen": [
+    "Naltrexin"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Unterstützung der Abstinenz bei ehemals opioidabhängigen Personen nach erfolgreichem Entzug",
+      "ids": [
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Rückfallvorbeugung bei Alkoholabhängigkeit, kombiniert mit psychosozialer Betreuung",
+      "ids": [
+        "alkoholabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Blockiert die Andockstellen für Opioide, sodass Heroin und andere Opioide keine Rauschwirkung mehr entfalten und das Verlangen nach Alkohol abnimmt. Naltrexon ist ein lang wirksamer, kompetitiver Antagonist vor allem am µ-Opioidrezeptor (schwächer auch an κ- und δ-Rezeptoren). Bei Alkoholabhängigkeit dämpft es vermutlich die durch Alkohol ausgelöste Freisetzung körpereigener Opioide und von Dopamin im Belohnungssystem. Der Hauptmetabolit 6-beta-Naltrexol ist ebenfalls wirksam.",
+  "kontraindikationen": [
+    {
+      "text": "Bestehende Opioidabhängigkeit ohne abgeschlossenen Entzug, akute Entzugssymptome oder positiver Opioidnachweis im Urin",
+      "ids": [
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Akute Hepatitis oder schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Leichte bis mittelschwere Leber- oder Nierenfunktionsstörung; Leberwerte kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Lebensgefährliche Opioidvergiftung beim Versuch, die Blockade mit hohen Opioiddosen zu überwinden, sowie nach dem Absetzen (verminderte Toleranz)",
+      "ids": [
+        "vergiftung",
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Notfall- oder Operationsschmerzbehandlung: Opioide wirken kaum, andere Verfahren nötig",
+      "ids": [
+        "operation",
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Depression und Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: keine ausreichenden Erfahrungen",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Opioid-Schmerzmittel und opioidhaltige Substitutionsmittel (z. B. Methadon, Buprenorphin)",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:opioid-partialagonisten",
+        "methadon",
+        "levomethadon",
+        "buprenorphin",
+        "buprenorphin-naloxon"
+      ],
+      "grund": "Naltrexon hebt die Opioidwirkung auf und löst bei Opioidgewöhnung ein akutes, schweres Entzugssyndrom aus."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Opioidhaltige Husten- und Durchfallmittel (z. B. Codein, Loperamid)",
+      "ref": [
+        "codein",
+        "loperamid"
+      ],
+      "effekt": "Deren Wirkung wird abgeschwächt oder aufgehoben – nicht-opioidhaltige Alternativen verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Leberschädigende Arzneimittel",
+      "ref": [
+        "gruppe:hepatotoxisch"
+      ],
+      "effekt": "Erhöhtes Risiko für Leberschäden – Leberwerte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Acamprosat",
+      "ref": [
+        "acamprosat"
+      ],
+      "effekt": "Acamprosat-Spiegel steigen leicht; keine Dosisanpassung nötig.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Nervosität, Angst, Schlafstörungen",
+      "Kopfschmerzen",
+      "Bauchschmerzen, Übelkeit, Erbrechen",
+      "Gelenk- und Muskelschmerzen",
+      "Schwäche, Antriebslosigkeit (Asthenie)"
+    ],
+    "haeufig": [
+      "Appetitlosigkeit",
+      "Schwindel, Reizbarkeit, Stimmungsschwankungen",
+      "Herzklopfen, beschleunigter Puls",
+      "Durchfall, Verstopfung",
+      "Hautausschlag",
+      "Erektions- und Ejakulationsstörungen",
+      "Brustschmerzen"
+    ],
+    "gelegentlich": [
+      "Depression, Verwirrtheit, Halluzinationen",
+      "Erhöhte Leberwerte, Hepatitis"
+    ],
+    "selten": [
+      "Suizidgedanken, Suizidversuch"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; nur nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Naltrexon und sein Abbauprodukt gehen vermutlich in die Muttermilch über; Stillen wird nicht empfohlen.",
+  "hinweise": [
+    "Vor Behandlungsbeginn mindestens 7–10 Tage opioidfrei sein (Kontrolle z. B. mit Urintest).",
+    "Einen Notfallausweis tragen: Opioid-Schmerzmittel wirken während der Behandlung kaum.",
+    "Nach dem Absetzen reagiert der Körper empfindlicher auf Opioide – schon früher übliche Dosen können tödlich sein.",
+    "Leberwerte vor und während der Behandlung kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

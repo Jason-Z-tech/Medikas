@@ -1,0 +1,160 @@
+{
+  "id": "neostigmin",
+  "name": "Neostigmin",
+  "synonyme": [
+    "Neostigmine",
+    "Neostigminmetilsulfat",
+    "Neostigminmethylsulfat"
+  ],
+  "atc": [
+    "N07AA01"
+  ],
+  "klasse": "Cholinesterasehemmer (indirektes Parasympathomimetikum)",
+  "kurz": "Spritze, die am Ende einer Narkose die Wirkung muskelentspannender Mittel aufhebt; meist zusammen mit Glycopyrronium.",
+  "gruppen": [
+    "acetylcholinesterasehemmer",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Robinul-Neostigmin (Kombi)"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Aufhebung der Wirkung nicht-depolarisierender Muskelrelaxanzien (z. B. Rocuronium, Atracurium) am Ende einer Narkose",
+      "ids": [
+        "anaesthesie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Wirkung muskelentspannender Narkosemittel auf, indem es den Abbau des Botenstoffs Acetylcholin bremst. Neostigmin hemmt reversibel die Acetylcholinesterase; dadurch steigt die Acetylcholin-Konzentration an der motorischen Endplatte und verdrängt nicht-depolarisierende Muskelrelaxanzien kompetitiv vom Nikotinrezeptor. Die gleichzeitige Anregung von Muskarinrezeptoren (langsamer Puls, Speichel- und Bronchialsekretion) wird mit Glycopyrronium oder Atropin abgeschwächt. Als quaternäres Amin gelangt Neostigmin kaum ins Gehirn.",
+  "kontraindikationen": [
+    {
+      "text": "Mechanischer Darmverschluss oder Abflusshindernis der Harnwege",
+      "ids": [
+        "darmverschluss",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Bauchfellentzündung (Peritonitis)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Asthma bronchiale oder COPD (Gefahr einer Verkrampfung der Atemwege)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Langsamer Puls, AV-Block, Herzrhythmusstörungen oder kürzlich erlittener Herzinfarkt",
+      "ids": [
+        "bradykardie",
+        "av-block",
+        "herzrhythmusstoerung",
+        "herzinfarkt"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck",
+      "ids": [
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Epilepsie und Parkinson-Krankheit",
+      "ids": [
+        "epilepsie",
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion (verlängerte Wirkung)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Suxamethonium (depolarisierendes Muskelrelaxans)",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Neostigmin verstärkt und verlängert die Muskelerschlaffung durch Suxamethonium, statt sie aufzuheben – nicht zur Aufhebung verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker und andere pulsverlangsamende Mittel",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung, AV-Block möglich – Puls überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aminoglykoside, Lokalanästhetika und Inhalationsnarkotika",
+      "ref": [
+        "gruppe:aminoglykoside",
+        "gruppe:lokalanaesthetika",
+        "desfluran",
+        "sevofluran",
+        "isofluran"
+      ],
+      "effekt": "Verstärken die Muskelblockade und können die Wirkung von Neostigmin abschwächen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Cholinesterasehemmer (z. B. Pyridostigmin, Donepezil)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Zusätzliche cholinerge Wirkung, Gefahr einer cholinergen Krise.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinergika (z. B. Atropin, Glycopyrronium)",
+      "ref": [
+        "atropin",
+        "glycopyrronium"
+      ],
+      "effekt": "Heben die muskarinergen Nebenwirkungen (langsamer Puls, Speichelfluss) auf – wird gezielt genutzt.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Langsamer Puls (Bradykardie), Herzrhythmusstörungen bis Herzstillstand",
+      "Blutdruckabfall",
+      "Bronchospasmus (Verkrampfung der Atemwege), vermehrte Bronchialsekretion",
+      "Übelkeit, Erbrechen, Bauchkrämpfe, vermehrter Speichelfluss",
+      "Vermehrtes Schwitzen",
+      "Muskelzuckungen und Muskelschwäche bei Überdosierung (cholinerge Krise)",
+      "Pupillenverengung (Miosis), Sehstörungen",
+      "Allergische Reaktionen"
+    ]
+  },
+  "schwangerschaft": "Nur bei klarer Notwendigkeit nach ärztlicher Abwägung.",
+  "stillzeit": "Keine ausreichenden Daten; Anwendung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur von Anästhesie-Fachpersonen im Spital verabreicht; Puls, Atmung und Muskelkraft werden überwacht.",
+    "Wird meist zusammen mit Glycopyrronium oder Atropin gegeben, um Pulsverlangsamung und Speichelfluss zu vermeiden."
+  ],
+  "stand": "2026-10"
+}

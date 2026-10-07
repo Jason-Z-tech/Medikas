@@ -1,0 +1,206 @@
+{
+  "id": "buprenorphin-naloxon",
+  "name": "Buprenorphin + Naloxon",
+  "synonyme": [
+    "Buprenorphine/Naloxone"
+  ],
+  "kombinationAus": [
+    "buprenorphin",
+    "naloxon"
+  ],
+  "atc": [
+    "N07BC51"
+  ],
+  "klasse": "Opioid-Partialagonist + Opioid-Antagonist (Substitutionsmittel)",
+  "kurz": "Zungentablette zur Substitutionsbehandlung bei Opioidabhängigkeit; der Zusatz Naloxon soll das missbräuchliche Spritzen verhindern.",
+  "gruppen": [
+    "opioide",
+    "opioid-partialagonisten",
+    "zns-daempfend"
+  ],
+  "handelsnamen": [
+    "Suboxone"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Sublingualtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Substitutionsbehandlung bei Opioidabhängigkeit bei Erwachsenen und Jugendlichen ab 15 Jahren, im Rahmen medizinischer, sozialer und psychologischer Betreuung",
+      "ids": [
+        "opioidabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Buprenorphin dämpft Entzugserscheinungen und Suchtdruck; Naloxon soll das missbräuchliche Spritzen verhindern. Buprenorphin ist ein partieller Agonist am µ-Opioidrezeptor mit sehr starker Rezeptorbindung und ein Antagonist am κ-Rezeptor; wegen seines Ceiling-Effekts (Wirkung steigt ab einer gewissen Dosis nicht mehr weiter) ist das Risiko einer Atemdepression geringer als bei vollen Agonisten. Der Opioid-Antagonist Naloxon wird bei Einnahme unter der Zunge kaum aufgenommen; gespritzt wirkt er jedoch voll und löst Entzugssymptome aus. Buprenorphin wird hauptsächlich über CYP3A4 abgebaut.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Ateminsuffizienz",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Akuter Alkoholismus oder Delirium tremens",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "delir"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Atemwegserkrankungen wie Asthma, COPD oder Schlafapnoe (Atemdepression)",
+      "ids": [
+        "asthma",
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Leberschäden, Hepatitis B oder C: Leberwerte vor und während der Behandlung kontrollieren; bei mittelschwerer Leberinsuffizienz stärkere Naloxonwirkung mit Entzugsgefahr",
+      "ids": [
+        "leberinsuffizienz",
+        "hepatitis-b",
+        "hepatitis-c"
+      ]
+    },
+    {
+      "text": "Beikonsum von Alkohol, Benzodiazepinen oder anderen dämpfenden Mitteln (Lebensgefahr)",
+      "ids": [
+        "alkoholkonsum",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Kopfverletzungen und erhöhter Hirndruck",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, vergrösserte Prostata, Schilddrüsenunterfunktion, Nebenniereninsuffizienz",
+      "ids": [
+        "hypotonie",
+        "prostatahyperplasie",
+        "hypothyreose",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder unter 15 Jahren: nicht anwenden; versehentliche Einnahme durch Kinder ist lebensgefährlich",
+      "ids": [
+        "kinder",
+        "vergiftung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Opioid-Antagonisten zur Behandlung einer Alkohol- oder Opioidabhängigkeit (Naltrexon, Nalmefen)",
+      "ref": [
+        "naltrexon",
+        "nalmefen"
+      ],
+      "grund": "Sie blockieren die Wirkung von Buprenorphin und können ein akutes Entzugssyndrom auslösen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide und andere zentral dämpfende Mittel, Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Lebensgefährliche Atemdepression und tiefe Bewusstseinsminderung möglich – nur bei fehlenden Alternativen, niedrig dosiert und überwacht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A4-Hemmer (z. B. Ritonavir, Ketoconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Buprenorphin-Spiegel steigen – Dosis gegebenenfalls reduzieren, auf Zeichen einer Überdosierung achten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Buprenorphin-Spiegel sinken – Entzugssymptome möglich; Dosis überprüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Schmerzmittel und andere Opioide",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Schmerzmittel wirken schwächer; bei Gewöhnung an volle Opioide kann Buprenorphin einen Entzug auslösen; zusätzliche Atemdämpfung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Mögliche Verstärkung der Opioidwirkung – Vorsicht.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI, Triptane)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotonin-Syndrom möglich (Unruhe, Fieber, Zittern, Muskelzuckungen).",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schlaflosigkeit",
+      "Kopfschmerzen",
+      "Übelkeit",
+      "Verstopfung",
+      "Starkes Schwitzen",
+      "Entzugssymptome"
+    ],
+    "haeufig": [
+      "Schläfrigkeit, Schwindel",
+      "Angst, Depression, Nervosität",
+      "Erbrechen, Bauchschmerzen, Durchfall",
+      "Libidoverlust, Erektionsstörungen",
+      "Wassereinlagerungen (Ödeme)",
+      "Hautausschlag, Juckreiz"
+    ],
+    "unbekannt": [
+      "Atemdepression",
+      "Hepatitis bis Leberversagen",
+      "Anaphylaxie, Angioödem (schwere allergische Reaktionen)",
+      "Zahnschäden (Karies, Zahnverlust)",
+      "Blutdruckabfall beim Aufstehen"
+    ]
+  },
+  "schwangerschaft": "Nur nach ärztlicher Abwägung; beim Neugeborenen kann nach längerer Anwendung ein Entzugssyndrom auftreten, das überwacht werden muss.",
+  "stillzeit": "Buprenorphin geht in die Muttermilch über; vom Stillen wird abgeraten bzw. nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Unter die Zunge legen und vollständig zergehen lassen (5–10 Minuten), nicht kauen oder schlucken; danach den Mund mit Wasser spülen (Zahnschutz).",
+    "Die erste Dosis erst bei deutlichen Entzugszeichen einnehmen, sonst kann ein Entzug ausgelöst werden.",
+    "Für Kinder unerreichbar aufbewahren; kein Alkohol und keine Beruhigungsmittel ohne ärztliche Absprache.",
+    "Kann die Fahrtüchtigkeit beeinträchtigen, besonders zu Beginn der Behandlung."
+  ],
+  "stand": "2026-10"
+}

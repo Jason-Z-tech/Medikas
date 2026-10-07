@@ -1,0 +1,242 @@
+{
+  "id": "levomethadon",
+  "name": "Levomethadon",
+  "synonyme": [
+    "L-Methadon",
+    "Levomethadone",
+    "(R)-Methadon",
+    "Levomethadonhydrochlorid"
+  ],
+  "atc": [
+    "N07BC05"
+  ],
+  "klasse": "Opioid (µ-Opioidrezeptor-Agonist); Substitutionsmittel",
+  "kurz": "Starkes Opioid zur Substitutionsbehandlung bei Opioidabhängigkeit; etwa doppelt so stark wie Methadon.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "qt-verlaengernd",
+    "serotonerg",
+    "cyp3a4-substrate-empfindlich"
+  ],
+  "handelsnamen": [
+    "L-Polamidon"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Lösung zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Substitutionsbehandlung bei Opioidabhängigkeit bei Erwachsenen, im Rahmen medizinischer und psychosozialer Betreuung",
+      "ids": [
+        "opioidabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verhindert Entzugserscheinungen und Suchtdruck bei Opioidabhängigkeit, indem es lang anhaltend an den Opioidrezeptoren wirkt. Levomethadon ist das linksdrehende, pharmakologisch wirksame Enantiomer ((R)-Methadon) des Racemats Methadon und ein voller Agonist am µ-Opioidrezeptor; es ist etwa doppelt so stark wie Methadon. Zusätzlich wirkt es schwach hemmend am NMDA-Rezeptor. Die lange und individuell sehr unterschiedliche Halbwertszeit erlaubt eine einmal tägliche Einnahme, birgt aber besonders zu Beginn die Gefahr einer Anreicherung.",
+  "kontraindikationen": [
+    {
+      "text": "Schwere Atemdepression (gefährlich abgeschwächte Atmung) und akuter schwerer Asthmaanfall",
+      "ids": [
+        "asthma"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verlängerte QT-Zeit, Herzrhythmusstörungen, langsamer Puls oder Kalium- bzw. Magnesiummangel: EKG vor und während der Behandlung",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "bradykardie",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Chronische Lungenerkrankungen und Schlafapnoe",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Kopfverletzungen und erhöhter Hirndruck",
+      "ids": [
+        "schaedel-hirn-trauma",
+        "hirnoedem"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, Schilddrüsenunterfunktion, Nebenniereninsuffizienz",
+      "ids": [
+        "hypotonie",
+        "hypothyreose",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Vergrösserte Prostata, Harnverhalt, Darmlähmung",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt",
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Beikonsum von Alkohol, Benzodiazepinen oder anderen Drogen (Lebensgefahr durch Atemlähmung)",
+      "ids": [
+        "alkoholkonsum",
+        "abhaengigkeit"
+      ]
+    },
+    {
+      "text": "Kinder: schon kleine Mengen können tödlich sein – unzugänglich aufbewahren",
+      "ids": [
+        "kinder",
+        "vergiftung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "MAO-Hemmer sowie innerhalb von 14 Tagen nach deren Absetzen",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "grund": "Gefahr lebensbedrohlicher Reaktionen von Nervensystem, Atmung und Kreislauf."
+    },
+    {
+      "text": "Opioid-Antagonisten und Opioid-Partialagonisten (z. B. Naltrexon, Nalmefen, Buprenorphin) – ausser zur Behandlung einer Überdosierung",
+      "ref": [
+        "gruppe:opioid-antagonisten",
+        "gruppe:opioid-partialagonisten",
+        "naltrexon",
+        "nalmefen",
+        "buprenorphin"
+      ],
+      "grund": "Sie verdrängen Levomethadon vom Rezeptor und lösen ein akutes Entzugssyndrom aus."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen, Gabapentinoide und andere zentral dämpfende Mittel, Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:gabapentinoide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Lebensgefährliche Atemdepression, tiefe Bewusstseinsminderung und Tod möglich – nur bei fehlenden Alternativen, niedrig dosiert und überwacht.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für lebensgefährliche Herzrhythmusstörungen (Torsade de pointes) – EKG-Kontrollen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Fluconazol)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Levomethadon-Spiegel steigen – Gefahr von Überdosierung und QT-Verlängerung; Dosis anpassen, überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Efavirenz, Nevirapin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "efavirenz",
+        "nevirapin",
+        "johanniskraut"
+      ],
+      "effekt": "Levomethadon-Spiegel sinken – Entzugssymptome möglich; Dosis anpassen. Beim Absetzen des Induktors droht eine Überdosierung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Serotonerge Mittel (z. B. SSRI, SNRI)",
+      "ref": [
+        "gruppe:serotonerg"
+      ],
+      "effekt": "Serotonin-Syndrom möglich (Unruhe, Fieber, Zittern, Muskelzuckungen).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Kaliumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika)",
+      "ref": [
+        "gruppe:hypokaliaemie-ausloesend"
+      ],
+      "effekt": "Kaliummangel erhöht das Risiko für QT-Verlängerung – Elektrolyte kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "HIV-Proteasehemmer (z. B. mit Ritonavir geboostert)",
+      "ref": [
+        "gruppe:hiv-proteasehemmer"
+      ],
+      "effekt": "Levomethadon-Spiegel können sinken (Entzug) oder steigen – engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinergika",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Verstärkte Verstopfung und Harnverhalt.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen"
+    ],
+    "haeufig": [
+      "Verstopfung",
+      "Schläfrigkeit, Müdigkeit",
+      "Starkes Schwitzen",
+      "Schwindel, verschwommenes Sehen",
+      "Wassereinlagerungen, Gewichtszunahme",
+      "Euphorie, Halluzinationen",
+      "Hautausschlag"
+    ],
+    "gelegentlich": [
+      "Mundtrockenheit",
+      "Harnverhalt",
+      "Blutdruckabfall, Hautrötung",
+      "Libidoverlust, Menstruationsstörungen"
+    ],
+    "selten": [
+      "Langsamer Puls, Herzklopfen",
+      "QT-Verlängerung und Torsade de pointes (lebensgefährliche Herzrhythmusstörung)"
+    ],
+    "unbekannt": [
+      "Atemdepression bis Atemstillstand, besonders bei Überdosierung",
+      "Hypoglykämie (Unterzuckerung)",
+      "Schlafbezogene Atmungsstörungen (zentrale Schlafapnoe)"
+    ]
+  },
+  "schwangerschaft": "Eine Substitution wird in der Schwangerschaft unter enger Betreuung fortgeführt, da ein Entzug Mutter und Kind gefährdet. Beim Neugeborenen kann ein Entzugssyndrom auftreten, das überwacht und behandelt werden muss.",
+  "stillzeit": "Geht in die Muttermilch über; Stillen nur nach ärztlicher Abwägung bei stabiler Dosis, Säugling auf Schläfrigkeit und Atemprobleme beobachten.",
+  "hinweise": [
+    "Levomethadon ist etwa doppelt so stark wie Methadon: Bei einer Umstellung die Dosis ärztlich anpassen und Verwechslungen vermeiden.",
+    "Für Kinder unerreichbar aufbewahren – schon geringe Mengen können tödlich sein.",
+    "Kein Alkohol und keine Beruhigungs- oder Schlafmittel ohne ärztliche Absprache.",
+    "Die Fahrtüchtigkeit ist besonders zu Beginn und bei Dosisänderungen stark eingeschränkt."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,178 @@
+{
+  "id": "nalmefen",
+  "name": "Nalmefen",
+  "synonyme": [
+    "Nalmefenhydrochlorid",
+    "Nalmefene"
+  ],
+  "atc": [
+    "N07BB05"
+  ],
+  "klasse": "Opioidrezeptor-Modulator (Alkoholreduktion)",
+  "kurz": "Mittel zur Verringerung des Alkoholkonsums bei Alkoholabhängigkeit; wird bei Bedarf an Tagen mit Trinkrisiko eingenommen.",
+  "gruppen": [
+    "opioid-antagonisten"
+  ],
+  "handelsnamen": [
+    "Selincro"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Verringerung des Alkoholkonsums bei Erwachsenen mit Alkoholabhängigkeit und hohem Trinkrisiko ohne körperliche Entzugssymptome, die keinen sofortigen Entzug benötigen, kombiniert mit psychosozialer Unterstützung",
+      "ids": [
+        "alkoholabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Vermindert das Verlangen nach Alkohol und hilft so, weniger zu trinken. Nalmefen ist ein Opioidrezeptor-Modulator: Antagonist an µ- und δ-Opioidrezeptoren und partieller Agonist am κ-Rezeptor. Damit dämpft es vermutlich die belohnende, durch Alkohol verstärkte Dopaminfreisetzung im Belohnungssystem des Gehirns.",
+  "kontraindikationen": [
+    {
+      "text": "Aktuelle oder kürzlich bestehende Opioidabhängigkeit, akute Opioid-Entzugssymptome oder Verdacht auf kürzlichen Opioidgebrauch",
+      "ids": [
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz (Child-Pugh C)",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz (eGFR unter 30 ml/min)",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kürzlich durchgemachtes akutes Alkoholentzugssyndrom (inkl. Halluzinationen, Krampfanfällen, Delirium tremens)",
+      "ids": [
+        "alkoholabhaengigkeit",
+        "delir"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Psychische Erkrankungen, besonders Depression und Suizidgedanken",
+      "ids": [
+        "depression",
+        "suizidgedanken"
+      ]
+    },
+    {
+      "text": "Krampfanfälle in der Vorgeschichte, auch Alkoholentzugskrämpfe",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere Leber- oder Nierenfunktionsstörung",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Notfall- oder Operationsschmerzbehandlung mit Opioiden: höhere Dosen nötig, Atemdepression möglich; vor geplanter Opioidgabe 1 Woche absetzen",
+      "ids": [
+        "operation",
+        "schmerzen"
+      ]
+    },
+    {
+      "text": "Menschen ab 65 Jahren",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: nicht untersucht",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Opioid-Agonisten wie Opioid-Schmerzmittel oder Substitutionsmittel (z. B. Methadon) sowie Partialagonisten (z. B. Buprenorphin)",
+      "ref": [
+        "gruppe:opioide",
+        "gruppe:opioid-partialagonisten",
+        "methadon",
+        "levomethadon",
+        "buprenorphin",
+        "buprenorphin-naloxon"
+      ],
+      "grund": "Nalmefen blockiert die Opioidrezeptoren – die Opioidwirkung geht verloren, und bei Opioidgewöhnung kann ein akutes Entzugssyndrom auftreten."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Opioidhaltige Husten- und Durchfallmittel (z. B. Codein, Loperamid)",
+      "ref": [
+        "codein",
+        "loperamid"
+      ],
+      "effekt": "Deren Wirkung kann ausbleiben – nicht-opioidhaltige Alternativen verwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke UGT2B7-Hemmer (z. B. Diclofenac, Fluconazol, Medroxyprogesteronacetat)",
+      "ref": [
+        "diclofenac",
+        "fluconazol",
+        "medroxyprogesteron"
+      ],
+      "effekt": "Nalmefen-Spiegel können deutlich steigen – Vorsicht, besonders bei Dauerbehandlung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Enzyminduktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Phenobarbital)",
+      "ref": [
+        "rifampicin",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Niedrigere Nalmefen-Spiegel möglich, die Wirkung kann abnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit",
+      "Schwindel",
+      "Schlaflosigkeit",
+      "Kopfschmerzen"
+    ],
+    "haeufig": [
+      "Appetitminderung",
+      "Verwirrtheit, Unruhe, Schläfrigkeit",
+      "Zittern, Kribbeln (Parästhesien)",
+      "Herzklopfen, beschleunigter Puls",
+      "Erbrechen, Mundtrockenheit",
+      "Vermehrtes Schwitzen",
+      "Muskelkrämpfe",
+      "Müdigkeit, Schwäche"
+    ],
+    "unbekannt": [
+      "Halluzinationen",
+      "Dissoziation (Gefühl, von sich selbst oder der Umgebung abgetrennt zu sein)"
+    ]
+  },
+  "schwangerschaft": "Nur begrenzte Daten; Anwendung nicht empfohlen.",
+  "stillzeit": "Geht im Tierversuch in die Milch über; ärztlich abwägen, ob abgestillt oder auf die Behandlung verzichtet wird.",
+  "hinweise": [
+    "Bei Bedarf einnehmen: an Tagen mit Trinkrisiko möglichst 1–2 Stunden vor dem voraussichtlichen Trinkbeginn; höchstens 1 Tablette pro Tag.",
+    "Vor einer geplanten Opioid-Behandlung (z. B. Operation) mindestens 1 Woche vorher absetzen und die Ärztin oder den Arzt informieren.",
+    "Kann Schwindel und Schläfrigkeit verursachen – Vorsicht beim Autofahren."
+  ],
+  "stand": "2026-10"
+}

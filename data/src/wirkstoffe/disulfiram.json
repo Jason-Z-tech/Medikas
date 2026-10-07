@@ -1,0 +1,178 @@
+{
+  "id": "disulfiram",
+  "name": "Disulfiram",
+  "synonyme": [
+    "Disulfiramum",
+    "Tetraethylthiuramdisulfid"
+  ],
+  "atc": [
+    "N07BB01"
+  ],
+  "klasse": "Alkoholentwöhnungsmittel (Aldehyddehydrogenase-Hemmer)",
+  "kurz": "Mittel, das Alkohol unverträglich macht; unterstützt bei Alkoholabhängigkeit den Verzicht auf Alkohol.",
+  "gruppen": [
+    "disulfiramartig",
+    "hepatotoxisch",
+    "neuropathie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Antabus"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Brausetabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Unterstützung der Alkoholabstinenz bei Alkoholabhängigkeit, im Rahmen eines umfassenden Behandlungskonzepts und mit Einverständnis der betroffenen Person",
+      "ids": [
+        "alkoholabhaengigkeit"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Macht Alkohol unverträglich: Schon kleine Mengen führen zu Hautrötung, Herzrasen, Übelkeit und Atemnot. Disulfiram hemmt irreversibel das Enzym Aldehyddehydrogenase, sodass sich beim Alkoholabbau das giftige Acetaldehyd im Blut anhäuft (Disulfiram-Alkohol-Reaktion). Die Abschreckung soll die Abstinenz unterstützen. Weil das Enzym erst neu gebildet werden muss, hält die Wirkung bis zu 2 Wochen nach der letzten Einnahme an.",
+  "kontraindikationen": [
+    {
+      "text": "Herzschwäche, koronare Herzkrankheit, Herzrhythmusstörungen oder Bluthochdruck",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung",
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Schlaganfall oder andere Hirngefässerkrankungen in der Vorgeschichte",
+      "ids": [
+        "schlaganfall"
+      ]
+    },
+    {
+      "text": "Psychosen und schwere Persönlichkeitsstörungen",
+      "ids": [
+        "schizophrenie",
+        "persoenlichkeitsstoerung"
+      ]
+    },
+    {
+      "text": "Suizidgefahr",
+      "ids": [
+        "suizidgedanken"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Lebererkrankungen: Leberwerte vor und regelmässig während der Behandlung kontrollieren",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Chronische Atemwegserkrankungen",
+      "ids": [
+        "copd",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Diabetes mellitus",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Epilepsie",
+      "ids": [
+        "epilepsie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Alkohol, auch versteckt in Arzneimitteln (Tropfen, Hustensäfte, Tinkturen), Lebensmitteln und Kosmetika",
+      "ref": [],
+      "effekt": "Disulfiram-Alkohol-Reaktion mit Hautrötung, Herzrasen, Blutdruckabfall, Übelkeit und Atemnot, im Extremfall lebensbedrohlich – strikt meiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Metronidazol und andere Nitroimidazole",
+      "ref": [
+        "gruppe:nitroimidazole"
+      ],
+      "effekt": "Akute Psychosen und Verwirrtheitszustände beschrieben – Kombination vermeiden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Verstärkte Gerinnungshemmung, Blutungsgefahr – INR engmaschig kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Abbau von Phenytoin gehemmt, Vergiftungsgefahr – Spiegel kontrollieren, Dosis anpassen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Isoniazid",
+      "ref": [
+        "isoniazid"
+      ],
+      "effekt": "Gangunsicherheit und Verhaltensänderungen möglich – Kombination meiden oder eng überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Benzodiazepine, die über die Leber oxidiert werden (z. B. Diazepam)",
+      "ref": [
+        "diazepam",
+        "gruppe:benzodiazepine"
+      ],
+      "effekt": "Verstärkte und verlängerte Beruhigung und Schläfrigkeit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin",
+      "ref": [
+        "theophyllin"
+      ],
+      "effekt": "Abbau von Theophyllin gehemmt – Spiegel kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Müdigkeit, Schläfrigkeit",
+      "Mundgeruch, metallischer oder knoblauchartiger Geschmack",
+      "Übelkeit, Erbrechen, Magen-Darm-Beschwerden",
+      "Verminderte Libido",
+      "Allergische Hautreaktionen",
+      "Psychotische Reaktionen, Depression",
+      "Periphere Neuropathie (Nervenschäden) und Sehnerventzündung",
+      "Hepatitis bis zum Leberversagen"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; Anwendung nicht empfohlen.",
+  "stillzeit": "Nicht anwenden.",
+  "hinweise": [
+    "Erst beginnen, wenn mindestens 24 Stunden kein Alkohol getrunken wurde; die Alkoholunverträglichkeit hält bis zu 2 Wochen nach der letzten Einnahme an.",
+    "Versteckten Alkohol meiden: Hustensäfte, Tropfen, Mundwasser, Saucen, Desserts sowie alkoholhaltige Kosmetika und Rasierwasser.",
+    "Leberwerte vor und während der Behandlung kontrollieren lassen; bei Gelbsucht, starker Müdigkeit oder Appetitlosigkeit sofort ärztlich melden.",
+    "Einen Ausweis über die Disulfiram-Behandlung mit sich tragen."
+  ],
+  "stand": "2026-10"
+}
