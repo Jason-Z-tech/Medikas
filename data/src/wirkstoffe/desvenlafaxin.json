@@ -36,7 +36,14 @@
     }
   ],
   "wirkmechanismus": "Hebt die Stimmung, indem es die Botenstoffe Serotonin und Noradrenalin im Gehirn erhöht. Desvenlafaxin – der wichtigste wirksame Abbaustoff von Venlafaxin – hemmt die Wiederaufnahme von Serotonin und Noradrenalin, ohne nennenswert an Muskarin-, Histamin- oder Alpha-Rezeptoren zu binden. Es wird überwiegend an Glucuronsäure gekoppelt, nur zu einem kleinen Teil über CYP3A4 abgebaut und zu einem grossen Teil unverändert über die Niere ausgeschieden; CYP2D6 spielt kaum eine Rolle.",
-  "kontraindikationen": [],
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Venlafaxin (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
   "vorsicht": [
     {
       "text": "Bluthochdruck und Herz-Kreislauf-Erkrankungen (Blutdruck vor und während der Behandlung kontrollieren)",
@@ -110,14 +117,16 @@
   ],
   "interaktionen": [
     {
-      "text": "Andere serotonerge Mittel (z. B. SSRI, andere SNRI, Triptane, Tramadol, Fentanyl, Lithium, Johanniskraut)",
+      "text": "Andere serotonerge Mittel (z. B. SSRI, andere SNRI, Triptane, Tramadol, Fentanyl, Lithium, Johanniskraut, MAO-B-Hemmer wie Selegilin oder Rasagilin)",
       "ref": [
         "gruppe:serotonerg",
         "gruppe:ssri",
         "gruppe:triptane",
         "tramadol",
         "lithium",
-        "johanniskraut"
+        "johanniskraut",
+        "gruppe:mao-b-hemmer",
+        "fentanyl"
       ],
       "effekt": "Serotoninsyndrom möglich (Unruhe, Fieber, Muskelzucken, Durchfall) – nur mit Vorsicht und Überwachung kombinieren.",
       "schwere": "schwer"
