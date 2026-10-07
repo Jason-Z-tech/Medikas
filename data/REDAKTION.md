@@ -66,6 +66,10 @@ QT-verlängernd? serotonerg? zentral dämpfend? anticholinerg? Kalium ↑/↓, N
 blutungs- oder ulkusfördernd? blutdrucksenkend, bradykardisierend? krampfschwellensenkend? myelosuppressiv,
 immunsuppressiv? hypoglykämisch? photosensibilisierend? fruchtschädigend? Oberbegriffe nicht vergessen
 (`antikoagulanzien`, `raas-hemmer`, `diuretika`).
+CYP3A4-Induktoren erhalten `cyp3a4-induktoren` und zusätzlich `starke-cyp3a4-induktoren` oder
+`maessige-cyp3a4-induktoren`. Verbietet die Fachinformation nur *starke* Induktoren, verweist der
+Eintrag in `kontraMedikamente` auf `gruppe:starke-cyp3a4-induktoren`; die mässigen gehören dann als
+Wechselwirkung (`gruppe:maessige-cyp3a4-induktoren`) dazu.
 
 ## Sprache
 

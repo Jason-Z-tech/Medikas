@@ -1373,7 +1373,7 @@
   "id": "cyp3a4-induktoren",
   "name": "CYP3A4-Induktoren (Enzyminduktoren)",
   "art": "pharmakokinetisch",
-  "beschreibung": "Beschleunigen den Abbau vieler Medikamente – diese wirken schwächer (z. B. die Pille).",
+  "beschreibung": "Beschleunigen den Abbau vieler Medikamente – diese wirken schwächer (z. B. die Pille). Umfasst starke und mässige Induktoren.",
   "beispiele": [
    "Rifampicin",
    "Carbamazepin",
@@ -1383,6 +1383,35 @@
    "Efavirenz",
    "Enzalutamid",
    "Apalutamid"
+  ]
+ },
+ {
+  "id": "starke-cyp3a4-induktoren",
+  "name": "Starke CYP3A4-Induktoren",
+  "art": "pharmakokinetisch",
+  "beschreibung": "Senken die Spiegel von CYP3A4-Substraten stark (oft um mehr als 80 %); viele Kombinationen sind deshalb verboten.",
+  "beispiele": [
+   "Rifampicin",
+   "Carbamazepin",
+   "Phenytoin",
+   "Phenobarbital",
+   "Johanniskraut",
+   "Enzalutamid",
+   "Apalutamid"
+  ]
+ },
+ {
+  "id": "maessige-cyp3a4-induktoren",
+  "name": "Mässige und schwächere CYP3A4-Induktoren",
+  "art": "pharmakokinetisch",
+  "beschreibung": "Senken die Spiegel von CYP3A4-Substraten deutlich, aber weniger stark; oft ist eine Dosisanpassung oder ein anderes Präparat nötig.",
+  "beispiele": [
+   "Efavirenz",
+   "Bosentan",
+   "Modafinil",
+   "Rifabutin",
+   "Oxcarbazepin",
+   "Nevirapin"
   ]
  },
  {

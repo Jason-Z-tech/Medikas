@@ -73,5 +73,5 @@ die Datei `data/medikamente.js`, die die Webseite lädt. Von Hand wird nur in `d
 - `gruppen` ist entscheidend für den Wechselwirkungs-Check: Nimmt jemand Clarithromycin
   (Gruppe `starke-cyp3a4-hemmer`) und schaut Simvastatin an, das auf `gruppe:starke-cyp3a4-hemmer` verweist,
   erscheint eine Warnung. Darum jede zutreffende Gruppe eintragen – auch pharmakokinetische
-  (`starke-cyp3a4-hemmer`, `cyp3a4-induktoren`, `p-gp-hemmer` …) und Risikogruppen
+  (`starke-cyp3a4-hemmer`, `cyp3a4-induktoren`, `starke-cyp3a4-induktoren`, `p-gp-hemmer` …) und Risikogruppen
   (`qt-verlaengernd`, `serotonerg`, `zns-daempfend`, `hyperkaliaemie-ausloesend` …).

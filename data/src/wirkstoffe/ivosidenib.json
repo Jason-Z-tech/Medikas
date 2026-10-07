@@ -13,6 +13,7 @@
     "qt-verlaengernd",
     "cyp3a4-substrate-empfindlich",
     "cyp3a4-induktoren",
+    "maessige-cyp3a4-induktoren",
     "p-gp-induktoren",
     "enzyminduktoren-hormone",
     "teratogen"
@@ -88,7 +89,7 @@
     {
       "text": "Starke CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
       "ref": [
-        "gruppe:cyp3a4-induktoren",
+        "gruppe:starke-cyp3a4-induktoren",
         "johanniskraut"
       ],
       "grund": "Senken den Ivosidenib-Spiegel stark und gefährden die Wirksamkeit."
@@ -157,6 +158,14 @@
         "gruppe:cyp2c9-substrate-eng"
       ],
       "effekt": "Ivosidenib kann CYP2C9 induzieren – Blutverdünnung kann schwächer werden; INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Mässige CYP3A4-Induktoren (z. B. Efavirenz, Bosentan, Modafinil, Rifabutin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-induktoren"
+      ],
+      "effekt": "Können die Spiegel senken und die Wirkung abschwächen – nur nach ärztlicher Rücksprache kombinieren, allenfalls Dosis anpassen.",
       "schwere": "mittel"
     }
   ],
