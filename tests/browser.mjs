@@ -152,8 +152,15 @@ export async function launchBrowser({ width = 1280, height = 900, mobile = false
       await send('Input.dispatchKeyEvent', { type: 'keyUp', key, code, windowsVirtualKeyCode });
       await sleep(60);
     },
-    async screenshot(file) {
-      const { data } = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: false });
+    // ganz: ganze Seitenlänge aufnehmen (höchstens maxHoehe Pixel)
+    async screenshot(file, { ganz = false, maxHoehe = 6000 } = {}) {
+      let params = { format: 'png', captureBeyondViewport: false };
+      if (ganz) {
+        const { cssContentSize, cssLayoutViewport } = await send('Page.getLayoutMetrics');
+        const hoehe = Math.min(maxHoehe, Math.ceil(cssContentSize.height));
+        params = { format: 'png', captureBeyondViewport: true, clip: { x: 0, y: 0, width: cssLayoutViewport.clientWidth, height: hoehe, scale: 1 } };
+      }
+      const { data } = await send('Page.captureScreenshot', params);
       const { writeFile } = await import('node:fs/promises');
       await writeFile(file, Buffer.from(data, 'base64'));
     },
