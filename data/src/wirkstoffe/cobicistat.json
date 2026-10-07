@@ -131,6 +131,20 @@
         "johanniskraut"
       ],
       "grund": "Beschleunigter Abbau von Cobicistat und dem geboosterten HIV-Mittel – Wirkverlust und Gefahr einer Resistenzentwicklung."
+    },
+    {
+      "text": "Dabigatran",
+      "ref": [
+        "dabigatran"
+      ],
+      "grund": "Hemmung von P-Glykoprotein erhöht die Dabigatran-Spiegel deutlich – Gefahr schwerer Blutungen."
+    },
+    {
+      "text": "Ticagrelor",
+      "ref": [
+        "ticagrelor"
+      ],
+      "grund": "Starke CYP3A-Hemmung erhöht die Ticagrelor-Spiegel stark – Gefahr schwerer Blutungen."
     }
   ],
   "interaktionen": [
@@ -151,12 +165,11 @@
       "schwere": "schwer"
     },
     {
-      "text": "Direkte orale Antikoagulanzien (z. B. Rivaroxaban, Apixaban, Dabigatran)",
+      "text": "Direkte orale Antikoagulanzien (z. B. Rivaroxaban, Apixaban, Edoxaban)",
       "ref": [
-        "gruppe:doak",
-        "dabigatran"
+        "gruppe:doak"
       ],
-      "effekt": "Deutlich höhere Spiegel (Hemmung von CYP3A bzw. P-Glykoprotein) und erhöhtes Blutungsrisiko – Kombination meist nicht empfohlen.",
+      "effekt": "Deutlich höhere Spiegel (Hemmung von CYP3A und P-Glykoprotein) und erhöhtes Blutungsrisiko – Kombination meist nicht empfohlen (Dabigatran kontraindiziert).",
       "schwere": "schwer"
     },
     {
@@ -260,7 +273,7 @@
         "ritonavir"
       ],
       "effekt": "Zwei Booster dürfen nicht kombiniert werden – nicht gleichzeitig anwenden.",
-      "schwere": "mittel"
+      "schwere": "schwer"
     }
   ],
   "nebenwirkungen": {

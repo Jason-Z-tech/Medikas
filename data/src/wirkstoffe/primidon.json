@@ -51,9 +51,7 @@
     },
     {
       "text": "Überempfindlichkeit gegen Phenobarbital (Kreuzallergie)",
-      "ids": [
-        "allergie"
-      ]
+      "ids": []
     }
   ],
   "vorsicht": [
@@ -112,7 +110,22 @@
       ]
     }
   ],
-  "kontraMedikamente": [],
+  "kontraMedikamente": [
+    {
+      "text": "Glecaprevir/Pibrentasvir",
+      "ref": [
+        "glecaprevir-pibrentasvir"
+      ],
+      "grund": "Starke Induktion von P-Glykoprotein und CYP3A4 senkt die Spiegel – die Hepatitis-C-Behandlung kann versagen."
+    },
+    {
+      "text": "Nirmatrelvir/Ritonavir (Paxlovid)",
+      "ref": [
+        "nirmatrelvir-ritonavir"
+      ],
+      "grund": "Starke CYP3A4-Induktion senkt den Nirmatrelvir-Spiegel – Wirkverlust gegen COVID-19 und Resistenzgefahr."
+    }
+  ],
   "interaktionen": [
     {
       "text": "Hormonale Verhütungsmittel",
