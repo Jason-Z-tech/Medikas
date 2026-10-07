@@ -2,14 +2,15 @@
 <html lang="de-CH" class="no-js">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#151c19" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121210" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/atkinson-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="css/medi.css">
   <script src="js/theme.js"></script>
   <script src="data/medikamente.js" defer></script>
@@ -25,44 +26,54 @@
     <div class="wrap kopf__inner">
       <a class="marke" href="#/">
         <span class="marke__kreuz" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg></span>
-        <span>Medi-Lexikon<span class="marke__sub">Medikamente in der Schweiz</span></span>
+        <span class="marke__text">Medi-Lexikon <span class="marke__land">Schweiz</span></span>
       </a>
+      <nav class="nav" id="hauptnav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#/" data-nav="start"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m20 20-4.9-4.9"/></svg><span>Suche</span></a></li>
+          <li><a href="#/a-z" data-nav="a-z"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h1M4 12h1M4 18h1"/></svg><span class="nav__lang">Wirkstoffe A–Z</span><span class="nav__kurz">Wirk&shy;stoffe</span></a></li>
+          <li><a href="#/krankheiten" data-nav="krankheiten"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2.2-5.5 4.6 11 2.2-5.5h5"/></svg><span>Krank&shy;heiten</span></a></li>
+          <li><a href="#/gruppen" data-nav="gruppen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6.5v6.5H4zM13.5 4H20v6.5h-6.5zM4 13.5h6.5V20H4zM13.5 13.5H20V20h-6.5z"/></svg><span class="nav__lang">Wirkstoffgruppen</span><span class="nav__kurz">Gruppen</span></a></li>
+          <li><a href="#/info" data-nav="info"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 7.5v.5"/></svg><span class="nav__lang">Über die Daten</span><span class="nav__kurz">Info</span></a></li>
+        </ul>
+      </nav>
       <div class="kopf__suche" id="kopf-suche"></div>
       <div class="kopf__aktionen">
-        <button class="icon-btn" type="button" id="theme-knopf" aria-label="Farbschema wechseln" title="Hell / Dunkel">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <button class="icon-btn" type="button" id="theme-knopf" aria-label="Dunkles Farbschema" aria-pressed="false" title="Hell / Dunkel">
+          <svg class="icon-mond" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13.4A8.5 8.5 0 1 1 10.6 3.5a6.6 6.6 0 0 0 9.9 9.9z"/></svg>
+          <svg class="icon-sonne" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
         </button>
       </div>
     </div>
-    <nav class="nav" aria-label="Hauptnavigation">
-      <div class="wrap">
-        <ul>
-          <li><a href="#/" data-nav="start">Suche</a></li>
-          <li><a href="#/a-z" data-nav="a-z">Wirkstoffe A–Z</a></li>
-          <li><a href="#/krankheiten" data-nav="krankheiten">Nach Krankheit</a></li>
-          <li><a href="#/gruppen" data-nav="gruppen">Wirkstoffgruppen</a></li>
-          <li><a href="#/info" data-nav="info">Über die Daten</a></li>
-        </ul>
-      </div>
-    </nav>
   </header>
 
   <main id="inhalt" tabindex="-1">
     <noscript>
-      <div class="wrap"><div class="karte"><h1>Bitte JavaScript aktivieren</h1><p>Die Suche und die Medikamenten-Informationen werden im Browser zusammengestellt. Es werden keine Daten an einen Server gesendet.</p></div></div>
+      <div class="wrap seite"><h1>Bitte JavaScript aktivieren</h1><p>Die Suche und die Medikamenten-Informationen werden im Browser zusammengestellt. Es werden keine Daten an einen Server gesendet.</p></div>
     </noscript>
   </main>
 
   <footer class="fuss">
     <div class="wrap fuss__raster">
-      <div>
-        <p><strong>Wichtig:</strong> Diese Seite ersetzt keine ärztliche oder pharmazeutische Beratung. Die Angaben sind vereinfacht und ohne Gewähr; verbindlich ist die von Swissmedic genehmigte Fachinformation bzw. Patienteninformation (<a href="https://www.swissmedicinfo.ch/" rel="noopener">swissmedicinfo.ch</a>). Setzen Sie ein Medikament nie ohne Rücksprache ab.</p>
-        <p id="daten-stand"></p>
+      <div class="fuss__hinweis">
+        <p class="hinweis"><strong>Wichtig:</strong> Diese Seite ersetzt keine ärztliche oder pharmazeutische Beratung. Die Angaben sind vereinfacht und ohne Gewähr; verbindlich ist die von Swissmedic genehmigte Fachinformation bzw. Patienteninformation (<a href="https://www.swissmedicinfo.ch/" rel="noopener">swissmedicinfo.ch</a>). Setzen Sie ein Medikament nie ohne Rücksprache ab.</p>
+        <p class="fuss__stand" id="daten-stand"></p>
       </div>
-      <div>
-        <p><strong>Notfall</strong></p>
-        <p class="notruf"><span><b>144</b> Sanität</span> <span><b>145</b> Tox Info Suisse</span></p>
-        <p><a href="#/info">Über die Daten, Quellen &amp; Datenschutz</a></p>
+      <div class="fuss__notfall">
+        <p class="fuss__titel">Notfall</p>
+        <ul class="notruf">
+          <li><a href="tel:144"><b>144</b> Sanität</a></li>
+          <li><a href="tel:145"><b>145</b> Tox Info Suisse</a></li>
+        </ul>
+      </div>
+      <div class="fuss__links">
+        <p class="fuss__titel">Lexikon</p>
+        <ul>
+          <li><a href="#/a-z">Wirkstoffe A–Z</a></li>
+          <li><a href="#/krankheiten">Krankheiten</a></li>
+          <li><a href="#/gruppen">Wirkstoffgruppen</a></li>
+          <li><a href="#/info">Über die Daten, Quellen &amp; Datenschutz</a></li>
+        </ul>
       </div>
     </div>
   </footer>

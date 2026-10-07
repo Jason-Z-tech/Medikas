@@ -7,7 +7,7 @@ mit schlauer Suche, auch nach Krankheit.
 - **Schlaue Suche:** Vorschläge ab dem ersten Buchstaben – für Wirkstoffe, Schweizer Markennamen, Krankheiten
   (auch Laienbegriffe wie «Zucker» oder «hoher Blutdruck») und Wirkstoffgruppen. Tippfehler und Schreibvarianten
   werden erkannt («asperin» → Aspirin, «parazetamol» → Paracetamol, «ibuprophen» → Ibuprofen).
-- **Wirkstoffseiten:** Anwendungsgebiete, Wirkungsweise, Gegenanzeigen, «nicht kombinieren mit», Wechselwirkungen
+- **Wirkstoffseiten:** Anwendungsgebiete, Wirkungsweise, Gegenanzeigen, «nicht zusammen einnehmen», Wechselwirkungen
   nach Schweregrad, Nebenwirkungen nach Häufigkeit (sehr häufig … sehr selten), Schwangerschaft/Stillzeit, Hinweise.
 - **Krankheitsseiten:** Welche Medikamente helfen – und welche sind bei dieser Krankheit tabu oder nur mit Vorsicht.
 - **Wechselwirkungen in beide Richtungen:** Jede Wirkstoffseite zeigt auch, was andere Monografien über diesen

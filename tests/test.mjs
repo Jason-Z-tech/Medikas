@@ -155,6 +155,7 @@ const VIEWPORTS = [
   { label: 'Desktop', width: 1280, height: 900 },
   { label: 'Tablet', width: 820, height: 1180, mobile: true },
   { label: 'Handy', width: 390, height: 844, mobile: true },
+  { label: 'Klein', width: 320, height: 640, mobile: true },
 ];
 
 async function waitFor(page, expression, ms = 3000) {
@@ -184,7 +185,7 @@ async function testBrowser() {
         const tag = `[${vp.label} · #/${r}]`;
         page.errors.length = 0;
         await page.goto(`${BASE}#/${r}`);
-        const info = await page.eval(`(() => ({ h1: document.querySelectorAll('h1').length, overflow: document.documentElement.scrollWidth - window.innerWidth, title: document.title, lang: document.documentElement.lang }))()`);
+        const info = await page.eval(`(() => ({ h1: document.querySelectorAll('h1').length, overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth, title: document.title, lang: document.documentElement.lang }))()`);
         check(info.h1 === 1, `${tag} genau eine h1 erwartet, gefunden: ${info.h1}`);
         check(info.overflow <= 0, `${tag} läuft seitlich über (${info.overflow}px)`);
         check(info.lang === 'de-CH' && info.title.length > 5, `${tag} Titel/Sprache`);
