@@ -16,7 +16,8 @@
     "starke-cyp3a4-hemmer",
     "cyp3a4-substrate-empfindlich",
     "oatp1b-hemmer",
-    "bradykardisierend"
+    "bradykardisierend",
+    "qt-verlaengernd"
   ],
   "handelsnamen": [
     "Reyataz"
@@ -55,9 +56,10 @@
       ]
     },
     {
-      "text": "Reizleitungsstörungen des Herzens (PR-Verlängerung, AV-Block) oder Einnahme von Mitteln, die die Reizleitung verlangsamen",
+      "text": "Reizleitungsstörungen des Herzens (PR-Verlängerung, AV-Block), verlängerte QT-Zeit oder Einnahme von Mitteln, die die Reizleitung verlangsamen oder die QT-Zeit verlängern",
       "ids": [
         "av-block",
+        "qt-verlaengerung",
         "herzrhythmusstoerung"
       ]
     },
@@ -161,7 +163,7 @@
         "nevirapin",
         "etravirin"
       ],
-      "effekt": "Atazanavir-Spiegel sinkt – Nevirapin und Etravirin nicht empfohlen, Efavirenz nur mit angepasster Dosierung.",
+      "effekt": "Atazanavir-Spiegel sinkt deutlich – Kombination nicht empfohlen.",
       "schwere": "schwer"
     },
     {
@@ -266,6 +268,14 @@
       ],
       "effekt": "Hemmung von UGT1A1 verstärkt die Toxizität von Irinotecan – engmaschig überwachen.",
       "schwere": "mittel"
+    },
+    {
+      "text": "Andere QT-verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Additive QT-Verlängerung möglich – Vorsicht, besonders bei Herzkrankheit oder Elektrolytstörungen; EKG erwägen.",
+      "schwere": "mittel"
     }
   ],
   "nebenwirkungen": {
@@ -281,18 +291,22 @@
     ],
     "gelegentlich": [
       "Depression, Schlaflosigkeit, Angst, Schwindel, periphere Neuropathie",
-      "Pankreatitis, Hepatitis",
+      "Pankreatitis, Hepatitis, Gallensteine",
       "Nierensteine, Blut oder Eiweiss im Urin, interstitielle Nephritis, chronische Nierenerkrankung",
-      "Erythema multiforme, Haarausfall, Juckreiz, Nesselsucht",
+      "Erythema multiforme, Haarausfall, Juckreiz, Nesselsucht, Angioödem",
+      "DRESS (schwere Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)",
+      "Torsade de pointes (gefährliche Herzrhythmusstörung)",
       "Synkope (Ohnmacht), Bluthochdruck",
       "Gynäkomastie (Brustvergrösserung beim Mann)"
     ],
     "selten": [
-      "Gallensteine, Gallenblasenentzündung",
-      "DRESS (schwere Arzneimittelreaktion mit Eosinophilie und Organbeteiligung)"
+      "Stevens-Johnson-Syndrom",
+      "QT-Verlängerung",
+      "Gallenblasenentzündung",
+      "Myopathie (Muskelerkrankung)"
     ],
     "unbekannt": [
-      "Herzrhythmusstörungen (AV-Block, QT-Verlängerung, Torsade de pointes)"
+      "AV-Block (Reizleitungsstörung des Herzens)"
     ]
   },
   "schwangerschaft": "Mit Ritonavir kann es bei klinischer Notwendigkeit angewendet werden; die vorhandenen Daten zeigen kein erhöhtes Fehlbildungsrisiko. Beim Neugeborenen auf Gelbsucht achten.",

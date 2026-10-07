@@ -100,6 +100,12 @@
         "pavk",
         "phaeochromozytom"
       ]
+    },
+    {
+      "text": "Narkose mit herzmuskeldämpfenden Narkosemitteln",
+      "ids": [
+        "anaesthesie"
+      ]
     }
   ],
   "vorsicht": [
@@ -152,16 +158,16 @@
       ]
     }
   ],
-  "kontraMedikamente": [],
-  "interaktionen": [
+  "kontraMedikamente": [
     {
-      "text": "Andere QT-verlängernde Mittel (z. B. Antiarrhythmika, Makrolide, Fluorchinolone, Antipsychotika, trizyklische Antidepressiva)",
+      "text": "Andere QT-verlängernde Arzneimittel (z. B. Antiarrhythmika der Klassen I und III, bestimmte Makrolide und Fluorchinolone, Antipsychotika, trizyklische Antidepressiva)",
       "ref": [
         "gruppe:qt-verlaengernd"
       ],
-      "effekt": "Erhöhtes Risiko für lebensbedrohliche Torsade-de-pointes-Arrhythmien – Kombination vermeiden.",
-      "schwere": "schwer"
-    },
+      "grund": "Additive Verlängerung der QT-Zeit – Gefahr lebensbedrohlicher Torsade-de-pointes-Arrhythmien."
+    }
+  ],
+  "interaktionen": [
     {
       "text": "Kalium- oder magnesiumsenkende Mittel (z. B. Schleifen- und Thiaziddiuretika, Abführmittel, Kortison)",
       "ref": [

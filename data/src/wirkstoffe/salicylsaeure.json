@@ -14,6 +14,7 @@
   "gruppen": [],
   "handelsnamen": [
     "Diprosalic (Kombi)",
+    "Locasalen (Kombi)",
     "Verrumal (Kombi)"
   ],
   "abgabe": [
@@ -46,7 +47,30 @@
     }
   ],
   "wirkmechanismus": "Löst verhornte Haut- und Schuppenschichten auf. Salicylsäure lockert in der Hornschicht den Zusammenhalt der Hornzellen (Keratolyse), sodass Schuppen und Hornhaut abgelöst werden. Dadurch dringen gleichzeitig aufgetragene Wirkstoffe wie Kortison oder Fluorouracil besser in die Haut ein. Zusätzlich wirkt sie schwach antibakteriell und pilzhemmend.",
-  "kontraindikationen": [],
+  "kontraindikationen": [
+    {
+      "text": "Nur Kombination mit Kortison (Diprosalic, Locasalen): Virusinfektionen der Haut (z. B. Herpes, Windpocken), Hauttuberkulose, Syphilis, Rosazea, periorale Dermatitis, Impfreaktionen",
+      "ids": [
+        "herpes",
+        "tuberkulose",
+        "geschlechtskrankheit",
+        "rosazea"
+      ]
+    },
+    {
+      "text": "Nur Kombination mit Fluorouracil (Verrumal): Schwangerschaft und Stillzeit",
+      "ids": [
+        "schwangerschaft",
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Nur Kombination mit Fluorouracil (Verrumal): eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
   "vorsicht": [
     {
       "text": "Säuglinge und Kleinkinder: keine grossflächige Anwendung (Gefahr einer Salicylatvergiftung)",
@@ -87,8 +111,25 @@
       ]
     }
   ],
-  "kontraMedikamente": [],
+  "kontraMedikamente": [
+    {
+      "text": "Brivudin (nur Kombination mit Fluorouracil, Verrumal)",
+      "ref": [
+        "brivudin"
+      ],
+      "grund": "Brivudin hemmt den Abbau von Fluorouracil dauerhaft – auch bei Anwendung auf der Haut lebensgefährliche Fluorouracil-Vergiftung möglich; mindestens 4 Wochen Abstand."
+    }
+  ],
   "interaktionen": [
+    {
+      "text": "Methotrexat und Sulfonylharnstoffe (bei grossflächiger Anwendung)",
+      "ref": [
+        "methotrexat",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Über die Haut aufgenommene Salicylsäure kann die Giftigkeit von Methotrexat und die Blutzuckersenkung durch Sulfonylharnstoffe verstärken – grossflächige Anwendung vermeiden.",
+      "schwere": "mittel"
+    },
     {
       "text": "Andere auf der Haut angewendete Arzneimittel",
       "ref": [],
@@ -114,7 +155,7 @@
   "hinweise": [
     "Gesunde Haut um die behandelte Stelle schützen (z. B. mit Zinkpaste) und nur die betroffene Stelle behandeln.",
     "Kortisonhaltige Kombination nicht langfristig, grossflächig oder unter luftdichten Verbänden anwenden.",
-    "Bei Kombinationspräparaten die Gegenanzeigen des Partnerwirkstoffs beachten – Verrumal (Fluorouracil) z. B. nicht zusammen mit dem Herpesmittel Brivudin anwenden.",
+    "Bei Kombinationspräparaten die Gegenanzeigen des Partnerwirkstoffs beachten (z. B. Kortison: nicht langfristig oder grossflächig; Fluorouracil: nicht grossflächig).",
     "Nicht in die Augen bringen."
   ],
   "stand": "2026-10"

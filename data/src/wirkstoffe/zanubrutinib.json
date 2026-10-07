@@ -16,7 +16,8 @@
     "cyp3a4-substrate-empfindlich",
     "blutungsrisiko-erhoehend",
     "myelosuppressiv",
-    "immunsuppressiv"
+    "immunsuppressiv",
+    "blutdrucksteigernd"
   ],
   "handelsnamen": [
     "Brukinsa"
@@ -25,8 +26,7 @@
     "A"
   ],
   "darreichung": [
-    "Hartkapseln",
-    "Filmtabletten"
+    "Hartkapseln"
   ],
   "indikationen": [
     {
@@ -109,7 +109,7 @@
       "ref": [
         "gruppe:starke-cyp3a4-hemmer"
       ],
-      "effekt": "Zanubrutinib-Spiegel steigt stark – Dosis deutlich reduzieren.",
+      "effekt": "Zanubrutinib-Spiegel steigt stark – Dosis nach ärztlicher Anweisung deutlich reduzieren.",
       "schwere": "schwer"
     },
     {
@@ -126,7 +126,7 @@
       "ref": [
         "gruppe:maessige-cyp3a4-hemmer"
       ],
-      "effekt": "Zanubrutinib-Spiegel steigt – Dosis reduzieren.",
+      "effekt": "Zanubrutinib-Spiegel steigt – Dosis nach ärztlicher Anweisung reduzieren.",
       "schwere": "mittel"
     },
     {
@@ -136,6 +136,14 @@
         "gruppe:thrombozytenaggregationshemmer"
       ],
       "effekt": "Erhöhtes Blutungsrisiko – enge Überwachung, Notwendigkeit prüfen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Ob Zanubrutinib die Verhütungswirkung abschwächt, ist nicht bekannt – zusätzlich eine Barrieremethode verwenden.",
       "schwere": "mittel"
     },
     {
@@ -186,10 +194,10 @@
       "Progressive multifokale Leukoenzephalopathie (PML, schwere Hirninfektion)"
     ]
   },
-  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 1 Woche nach der Behandlung zuverlässig verhüten.",
+  "schwangerschaft": "Nicht anwenden (im Tierversuch fruchtschädigend). Frauen müssen während und bis 1 Monat nach der Behandlung zuverlässig verhüten, bei hormonaler Verhütung zusätzlich mit Barrieremethode.",
   "stillzeit": "Während der Behandlung nicht stillen.",
   "hinweise": [
-    "Ein- oder zweimal täglich wie verordnet einnehmen, mit oder ohne Essen; Kapseln bzw. Tabletten ganz schlucken.",
+    "Ein- oder zweimal täglich wie verordnet einnehmen, mit oder ohne Essen; Kapseln ganz schlucken.",
     "Vor Operationen und Zahneingriffen die Behandlung angeben (Pause von 3–7 Tagen nach ärztlicher Anweisung).",
     "Herzklopfen, Blutungen, Fieber oder Infektzeichen sofort ärztlich melden.",
     "Konsequenter Sonnenschutz; regelmässige Blutbildkontrollen."
