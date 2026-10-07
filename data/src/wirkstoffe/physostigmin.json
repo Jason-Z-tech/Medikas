@@ -1,0 +1,187 @@
+{
+  "id": "physostigmin",
+  "name": "Physostigmin",
+  "synonyme": [
+    "Physostigminsalicylat",
+    "Eserin",
+    "Physostigmine"
+  ],
+  "atc": [
+    "V03AB19"
+  ],
+  "klasse": "Antidot: Cholinesterasehemmer (zentral wirksam)",
+  "kurz": "Gegenmittel bei Vergiftungen mit anticholinerg wirkenden Stoffen, die Verwirrtheit, Unruhe, Herzrasen und Fieber auslösen.",
+  "gruppen": [
+    "acetylcholinesterasehemmer",
+    "bradykardisierend"
+  ],
+  "handelsnamen": [
+    "Anticholium"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung (Ampullen)"
+  ],
+  "indikationen": [
+    {
+      "text": "Zentrales anticholinerges Syndrom (Verwirrtheit, Erregung, Halluzinationen, Bewusstseinstrübung) durch Vergiftung oder Überdosierung, z. B. mit Atropin, Scopolamin, Antihistaminika oder Pflanzen wie Tollkirsche und Stechapfel",
+      "ids": [
+        "vergiftung",
+        "delir"
+      ]
+    },
+    {
+      "text": "Verzögertes Aufwachen oder Verwirrtheit nach einer Narkose, wenn ein anticholinerges Syndrom vorliegt",
+      "ids": [
+        "anaesthesie",
+        "delir"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt die Wirkung von Giften auf, die den Nervenbotenstoff Acetylcholin blockieren. Physostigmin hemmt vorübergehend (reversibel) die Acetylcholinesterase, sodass mehr Acetylcholin zur Verfügung steht und die blockierten Muskarinrezeptoren wieder aktiviert werden. Als tertiäres Amin überwindet es die Blut-Hirn-Schranke und wirkt deshalb auch gegen die Vergiftungszeichen im Gehirn. Die Wirkung hält oft kürzer an als das Gift, sodass wiederholte Gaben nötig sein können.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma bronchiale",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Koronare Herzkrankheit",
+      "ids": [
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Gangrän (Absterben von Gewebe bei Durchblutungsstörungen)",
+      "ids": [
+        "pavk"
+      ]
+    },
+    {
+      "text": "Mechanischer Darmverschluss oder mechanisch bedingter Harnverhalt",
+      "ids": [
+        "darmverschluss",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Myotone Dystrophie (Curschmann-Steinert)",
+      "ids": [
+        "neuromuskulaere-erkrankung"
+      ]
+    },
+    {
+      "text": "Muskellähmung durch depolarisierende Muskelrelaxanzien (Suxamethonium)",
+      "ids": [
+        "anaesthesie"
+      ]
+    },
+    {
+      "text": "Vergiftungen mit irreversibel wirkenden Cholinesterasehemmern (z. B. Organophosphate)",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Vergiftungen mit trizyklischen Antidepressiva: Gefahr von Krampfanfällen und starker Pulsverlangsamung bis zum Herzstillstand",
+      "ids": [
+        "vergiftung",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Langsamer Puls oder Reizleitungsstörungen (AV-Block)",
+      "ids": [
+        "bradykardie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Epilepsie (Krampfanfälle möglich, v. a. bei rascher Injektion)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Zu rasche Injektion: Pulsverlangsamung, vermehrter Speichelfluss, Bronchospasmus und Krampfanfälle – langsam spritzen, Atropin als Gegenmittel bereithalten",
+      "ids": [
+        "bradykardie"
+      ]
+    },
+    {
+      "text": "Kurze Wirkdauer: Vergiftungszeichen können wiederkehren – weiter überwachen, gegebenenfalls wiederholen",
+      "ids": [
+        "vergiftung"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Suxamethonium (depolarisierendes Muskelrelaxans)",
+      "ref": [
+        "suxamethonium"
+      ],
+      "effekt": "Physostigmin hemmt den Abbau von Suxamethonium und verlängert die Muskellähmung – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Trizyklische Antidepressiva (Vergiftung)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Gefahr von Herzstillstand und Krampfanfällen – nur nach strenger Abwägung und unter Monitoring.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Betablocker und andere pulsverlangsamende Mittel",
+      "ref": [
+        "gruppe:betablocker",
+        "gruppe:bradykardisierend"
+      ],
+      "effekt": "Verstärkte Pulsverlangsamung – Herzfrequenz überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Cholinesterasehemmer (z. B. Donepezil, Rivastigmin, Pyridostigmin, Neostigmin)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer",
+        "pyridostigmin",
+        "neostigmin"
+      ],
+      "effekt": "Verstärkte cholinerge Wirkung bis zur cholinergen Krise (Speichelfluss, Durchfall, Muskelschwäche, langsamer Puls).",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Nicht depolarisierende Muskelrelaxanzien (z. B. Rocuronium, Atracurium)",
+      "ref": [
+        "gruppe:muskelrelaxanzien-peripher"
+      ],
+      "effekt": "Ihre Wirkung wird abgeschwächt.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Übelkeit, Erbrechen, Durchfall",
+      "Vermehrter Speichelfluss und Schwitzen",
+      "Pulsverlangsamung (Bradykardie), Blutdruckabfall",
+      "Bronchospasmus (Verkrampfung der Atemwege)",
+      "Pupillenverengung",
+      "Krampfanfälle (v. a. bei Überdosierung oder zu rascher Injektion)",
+      "Muskelzuckungen"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; nur bei zwingender Notwendigkeit nach ärztlicher Abwägung anwenden.",
+  "stillzeit": "Keine Daten; Entscheidung nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur unter Monitoring (EKG, Puls, Atmung) im Spital oder durch Notärztinnen und Notärzte verabreicht.",
+    "Atropin muss als Gegenmittel bei Überdosierung bereitliegen."
+  ],
+  "stand": "2026-10"
+}

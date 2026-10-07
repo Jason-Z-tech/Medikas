@@ -1,0 +1,178 @@
+{
+  "id": "diazoxid",
+  "name": "Diazoxid",
+  "synonyme": [
+    "Diazoxide",
+    "Diazoxidum"
+  ],
+  "atc": [
+    "V03AH01"
+  ],
+  "klasse": "Hyperglykämisierendes Mittel (Kaliumkanalöffner, Benzothiadiazin-Abkömmling)",
+  "kurz": "Hebt den Blutzucker an, indem es die Insulinfreisetzung bremst; bei Unterzuckerung durch zu viel Insulin, z. B. bei einem Insulinom.",
+  "gruppen": [
+    "hyperglykaemie-ausloesend",
+    "blutdrucksenkend"
+  ],
+  "handelsnamen": [
+    "Proglicem"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Unterzuckerung durch übermässige Insulinbildung (Hyperinsulinismus) bei Erwachsenen, z. B. bei nicht operablem Insulinom (insulinbildender Tumor der Bauchspeicheldrüse) oder anderen insulinbildenden Tumoren",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    },
+    {
+      "text": "Unterzuckerung durch Hyperinsulinismus bei Säuglingen und Kindern, z. B. bei angeborenem Hyperinsulinismus, Leucin-Empfindlichkeit oder Vermehrung der Inselzellen",
+      "ids": [
+        "hypoglykaemie",
+        "kinder"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hebt den Blutzucker an, indem es die Ausschüttung von Insulin aus der Bauchspeicheldrüse bremst. Diazoxid öffnet ATP-abhängige Kaliumkanäle (SUR1/Kir6.2) der Betazellen; die Zellmembran wird hyperpolarisiert, der Calciumeinstrom und damit die Insulinfreisetzung werden gehemmt. Daneben wirkt es auch ausserhalb der Bauchspeicheldrüse blutzuckersteigernd. Über Kaliumkanäle der Gefässmuskulatur erweitert es die Arteriolen und kann den Blutdruck senken; in der Niere fördert es den Rückhalt von Natrium und Wasser.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen Thiazide oder andere Sulfonamid-Abkömmlinge (Kreuzallergie)",
+      "ids": [
+        "sulfonamidallergie"
+      ]
+    },
+    {
+      "text": "Funktionelle (reaktive) Unterzuckerung, die nicht auf einem Hyperinsulinismus beruht",
+      "ids": [
+        "hypoglykaemie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herzschwäche oder eingeschränkte Herzleistung: der Rückhalt von Natrium und Wasser kann Ödeme und eine Herzinsuffizienz auslösen oder verschlimmern",
+      "ids": [
+        "herzinsuffizienz",
+        "oedeme"
+      ]
+    },
+    {
+      "text": "Neugeborene und Säuglinge, besonders Frühgeborene: Fälle von Lungenhochdruck (pulmonale Hypertonie) beschrieben – auf Atemprobleme achten",
+      "ids": [
+        "kinder",
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: verlängerte Wirkung, niedrigere Dosis nötig",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Gefahr starker Blutzuckeranstiege bis zur Ketoazidose oder zum hyperosmolaren Koma, besonders bei Infekten oder Stress",
+      "ids": [
+        "ketoazidose",
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Gicht oder erhöhte Harnsäure: Diazoxid kann die Harnsäure weiter erhöhen",
+      "ids": [
+        "gicht"
+      ]
+    },
+    {
+      "text": "Veränderungen des Blutbilds (Neutropenie, Thrombozytopenie) möglich – Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck oder gleichzeitige Behandlung mit Blutdrucksenkern",
+      "ids": [
+        "hypotonie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Thiaziddiuretika (z. B. Hydrochlorothiazid, Chlortalidon)",
+      "ref": [
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Werden oft gegen die Wassereinlagerung mitgegeben, verstärken aber den Blutzucker- und Harnsäureanstieg – Blutzucker engmaschig kontrollieren, Diazoxid-Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Blutdrucksenker und gefässerweiternde Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkte Blutdrucksenkung – Blutdruck kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin",
+      "ref": [
+        "phenytoin"
+      ],
+      "effekt": "Diazoxid kann den Phenytoin-Spiegel senken (Gefahr von Anfällen), Phenytoin schwächt die Wirkung von Diazoxid ab – Spiegel und Blutzucker kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Diazoxid verdrängt sie aus der Eiweissbindung – stärkere Blutverdünnung möglich, INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Gegenläufige Wirkung auf den Blutzucker – Blutzucker engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide und Östrogen-Gestagen-Präparate",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Können den Blutzuckeranstieg verstärken.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Rückhalt von Natrium und Wasser mit Ödemen (Wassereinlagerungen) und Gewichtszunahme",
+      "Hypertrichose (vermehrte, flaumartige Körperbehaarung), besonders bei Kindern",
+      "Übelkeit, Erbrechen, Appetitlosigkeit, Bauchschmerzen",
+      "Hyperglykämie (zu hoher Blutzucker) bis zur Ketoazidose",
+      "Herzrasen (Tachykardie), Herzklopfen, Blutdruckabfall",
+      "Erhöhte Harnsäure im Blut",
+      "Neutropenie und Thrombozytopenie (Mangel an weissen Blutkörperchen bzw. Blutplättchen)",
+      "Pulmonale Hypertonie (Lungenhochdruck) bei Neugeborenen und Säuglingen"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit. Diazoxid geht auf das Ungeborene über; beim Neugeborenen wurden u. a. Blutzuckerstörungen, Gelbsucht, Blutplättchenmangel und vermehrte Behaarung beobachtet.",
+  "stillzeit": "Es ist nicht bekannt, ob Diazoxid in die Muttermilch übergeht; während der Behandlung wird vom Stillen abgeraten.",
+  "hinweise": [
+    "Blutzucker regelmässig messen; Zeichen von zu hohem Blutzucker (starker Durst, häufiges Wasserlösen) ärztlich melden.",
+    "Gewicht beobachten: rasche Gewichtszunahme oder geschwollene Beine können auf Wassereinlagerungen hinweisen.",
+    "Regelmässige Kontrollen von Blutbild, Harnsäure und Blutdruck.",
+    "Bei Säuglingen sofort ärztliche Hilfe holen, wenn Atemnot oder auffallend schnelles Atmen auftritt."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "tuberkulin",
+  "name": "Tuberkulin",
+  "synonyme": [
+    "PPD",
+    "Gereinigtes Tuberkulin",
+    "Tuberculin purified protein derivative",
+    "Mantoux-Test"
+  ],
+  "atc": [
+    "V04CF01"
+  ],
+  "klasse": "Diagnostikum (Tuberkulin-Hauttest nach Mantoux)",
+  "kurz": "Hauttest zum Nachweis einer Ansteckung mit Tuberkulose-Bakterien; wird in die Haut des Unterarms gespritzt und nach 2–3 Tagen abgelesen.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Tuberculin PPD RT 23 SSI"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung zur Injektion in die Haut (intradermal)"
+  ],
+  "indikationen": [
+    {
+      "text": "Hilfsmittel zur Diagnose einer Tuberkulose-Infektion (Tuberkulin-Hauttest nach Mantoux)",
+      "ids": [
+        "tuberkulose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Zeigt an, ob das Immunsystem schon einmal Kontakt mit Tuberkulose-Bakterien hatte. Tuberkulin PPD ist ein gereinigtes Eiweissgemisch aus abgetöteten Kulturen von Mycobacterium tuberculosis und wird in die Haut gespritzt. Bei Personen, deren T-Lymphozyten durch eine Infektion oder eine BCG-Impfung sensibilisiert sind, entsteht eine Überempfindlichkeitsreaktion vom verzögerten Typ mit einer tastbaren Verhärtung (Induration), die nach 48–72 Stunden am deutlichsten ist. Der Test unterscheidet nicht zwischen latenter Infektion, aktiver Erkrankung und früherer Impfung.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Frühere sehr starke Reaktion auf einen Tuberkulintest (Blasen, Geschwür, Gewebsuntergang): Test nicht ohne Abwägung wiederholen",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Geschwächtes Immunsystem (z. B. HIV, Kortison- oder Chemotherapie, Immunsuppressiva): falsch-negative Ergebnisse möglich",
+      "ids": [
+        "immunsuppression",
+        "hiv"
+      ]
+    },
+    {
+      "text": "Akute Virusinfektionen (z. B. Masern, Pfeiffersches Drüsenfieber) und kürzlich erfolgte Lebendimpfung: abgeschwächte Reaktion möglich",
+      "ids": [
+        "virusinfektion",
+        "pfeiffersches-druesenfieber",
+        "lebendimpfung-geplant"
+      ]
+    },
+    {
+      "text": "Säuglinge, ältere Menschen, Mangelernährung, Krebs oder schwere Allgemeinerkrankung: oft abgeschwächte Reaktion",
+      "ids": [
+        "kinder",
+        "aeltere-patienten",
+        "mangelernaehrung",
+        "krebs"
+      ]
+    },
+    {
+      "text": "Frühere BCG-Impfung oder Kontakt mit anderen (nicht tuberkulösen) Mykobakterien: falsch-positive Ergebnisse möglich",
+      "ids": [
+        "tuberkulose"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Lebendimpfstoffe (z. B. Masern-Mumps-Röteln, Varizellen, Gelbfieber)",
+      "ref": [
+        "gruppe:lebendimpfstoffe"
+      ],
+      "effekt": "Können die Tuberkulinreaktion für einige Wochen abschwächen – Test am selben Tag wie die Impfung oder frühestens 4 Wochen danach durchführen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Abgeschwächte Reaktion, falsch-negatives Ergebnis möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Immunsuppressiva und Biologika (z. B. Ciclosporin, Methotrexat, TNF-alpha-Hemmer)",
+      "ref": [
+        "gruppe:immunsuppressiv",
+        "gruppe:tnf-alpha-hemmer"
+      ],
+      "effekt": "Falsch-negative Ergebnisse möglich – wenn möglich vor Beginn einer immunsuppressiven Behandlung testen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Zytostatika (Chemotherapie)",
+      "ref": [
+        "gruppe:zytostatika",
+        "gruppe:myelosuppressiv"
+      ],
+      "effekt": "Abgeschwächte Immunreaktion, falsch-negative Ergebnisse möglich.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Starke Reaktion an der Einstichstelle mit Bläschen, Geschwür oder Gewebsuntergang (Nekrose)",
+      "Schmerzen, Juckreiz und Bluterguss an der Einstichstelle",
+      "Lymphknotenschwellung, Entzündung von Lymphbahnen (Lymphangitis)",
+      "Fieber, Kopfschmerzen",
+      "Allergische Reaktionen bis zur Anaphylaxie (schwere allergische Reaktion)"
+    ]
+  },
+  "schwangerschaft": "Kann angewendet werden; schädliche Wirkungen auf das Ungeborene sind nicht bekannt.",
+  "stillzeit": "Kann angewendet werden.",
+  "hinweise": [
+    "Die Reaktion muss nach 48–72 Stunden von einer Fachperson abgelesen werden; gemessen wird die tastbare Verhärtung, nicht die Rötung.",
+    "Die Einstichstelle nicht kratzen, reiben oder abdecken.",
+    "Ein positiver Test bedeutet nicht unbedingt eine aktive Tuberkulose; weitere Abklärungen (z. B. Röntgenbild) entscheiden über eine Behandlung."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,171 @@
+{
+  "id": "methylthioniniumchlorid",
+  "name": "Methylthioniniumchlorid",
+  "synonyme": [
+    "Methylenblau",
+    "Methylene blue",
+    "Methylthioninium chloride"
+  ],
+  "atc": [
+    "V03AB17",
+    "V04CG05"
+  ],
+  "klasse": "Antidot bei Methämoglobinämie (Thiazinfarbstoff)",
+  "kurz": "Blauer Farbstoff als Gegenmittel, wenn Medikamente oder Chemikalien den roten Blutfarbstoff so verändern, dass er keinen Sauerstoff mehr trägt.",
+  "gruppen": [
+    "mao-hemmer",
+    "serotonerg",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Proveblue"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Akute, durch Arzneimittel oder Chemikalien ausgelöste Methämoglobinämie mit Beschwerden (Erwachsene und Kinder)",
+      "ids": [
+        "methaemoglobinaemie",
+        "vergiftung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hilft dem roten Blutfarbstoff, wieder Sauerstoff zu transportieren. Im Körper wird Methylthioniniumchlorid durch die NADPH-abhängige Methämoglobin-Reduktase zu Leukomethylenblau reduziert; dieses wandelt das dreiwertige Eisen des Methämoglobins wieder in zweiwertiges Eisen um, sodass normales Hämoglobin entsteht. Dafür braucht es NADPH aus dem Pentosephosphatweg – bei G6PD-Mangel wirkt es deshalb nicht und kann Blutzerfall auslösen. Zudem hemmt es stark das Enzym Monoaminoxidase A.",
+  "kontraindikationen": [
+    {
+      "text": "Glucose-6-Phosphat-Dehydrogenase-Mangel (Gefahr von Blutzerfall)",
+      "ids": [
+        "g6pd-mangel",
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Mangel an NADPH-Reduktase",
+      "ids": [
+        "seltene-stoffwechselkrankheit"
+      ]
+    },
+    {
+      "text": "Durch Nitrite ausgelöste Methämoglobinämie während der Behandlung einer Cyanidvergiftung",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Methämoglobinämie durch eine Chloratvergiftung",
+      "ids": [
+        "vergiftung"
+      ]
+    },
+    {
+      "text": "Überempfindlichkeit gegen andere Thiazinfarbstoffe",
+      "ids": [
+        "allergie"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Behandlung mit serotonergen Mitteln (z. B. Antidepressiva): Gefahr eines lebensbedrohlichen Serotoninsyndroms – Kombination möglichst vermeiden",
+      "ids": [
+        "depression"
+      ]
+    },
+    {
+      "text": "Durch Anilin oder Dapson ausgelöste Methämoglobinämie: erhöhte Gefahr von Blutzerfall – Gesamtdosis begrenzen",
+      "ids": [
+        "haemolytische-anaemie"
+      ]
+    },
+    {
+      "text": "Neugeborene und Säuglinge unter 3 Monaten: geringere Enzymaktivität, niedrigere Dosis",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Fehlendes Ansprechen: an G6PD-Mangel, Reduktase-Mangel oder andere Ursachen denken",
+      "ids": [
+        "g6pd-mangel"
+      ]
+    },
+    {
+      "text": "Pulsoxymeter zeigen nach der Gabe falsch tiefe Sauerstoffwerte an",
+      "ids": []
+    },
+    {
+      "text": "Injektion neben die Vene kann Gewebeschäden (Nekrosen) verursachen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Serotonerge Mittel: SSRI, SNRI, trizyklische Antidepressiva, MAO-Hemmer sowie z. B. Bupropion, Buspiron, Mirtazapin",
+      "ref": [
+        "gruppe:serotonerg",
+        "gruppe:ssri",
+        "gruppe:snri",
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:mao-hemmer",
+        "bupropion",
+        "buspiron",
+        "mirtazapin"
+      ],
+      "effekt": "Gefahr eines schweren Serotoninsyndroms (Verwirrtheit, Fieber, Muskelzuckungen) – Kombination vermeiden; wenn unumgänglich, eng überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche Substrate von Cytochrom-P450-Enzymen mit enger therapeutischer Breite",
+      "ref": [
+        "gruppe:cyp2c9-substrate-eng",
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "gruppe:cyp1a2-substrate"
+      ],
+      "effekt": "Methylthioniniumchlorid hemmt im Labor mehrere CYP-Enzyme; klinische Bedeutung unklar – Vorsicht.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Blau-grüne Verfärbung des Urins"
+    ],
+    "haeufig": [
+      "Blaufärbung der Haut",
+      "Schwindel, Kopfschmerzen",
+      "Missempfindungen (Kribbeln), Geschmacksstörung",
+      "Übelkeit",
+      "Vermehrtes Schwitzen",
+      "Schmerzen in Armen oder Beinen"
+    ],
+    "unbekannt": [
+      "Serotoninsyndrom (zusammen mit serotonergen Mitteln)",
+      "Hämolytische Anämie (Blutzerfall), besonders bei G6PD-Mangel",
+      "Methämoglobinämie bei zu hohen Dosen",
+      "Anaphylaxie (schwere allergische Reaktion)",
+      "Herzrhythmusstörungen, Blutdruckanstieg oder -abfall",
+      "Verwirrtheit, Unruhe, Zittern",
+      "Lichtempfindlichkeit der Haut",
+      "Gewebeschäden (Nekrosen) an der Injektionsstelle"
+    ]
+  },
+  "schwangerschaft": "Nur bei lebensbedrohlicher Methämoglobinämie, wenn eindeutig notwendig: Methylthioniniumchlorid kann dem Ungeborenen schaden.",
+  "stillzeit": "Nach der Gabe bis zu 6 Tage nicht stillen.",
+  "hinweise": [
+    "Urin und Stuhl können sich blau-grün, die Haut bläulich verfärben – das ist harmlos und vorübergehend.",
+    "Nach der Behandlung starke Lichtquellen und intensive Sonne meiden (mögliche Lichtempfindlichkeit der Haut).",
+    "Alle eingenommenen Antidepressiva angeben (Gefahr eines Serotoninsyndroms)."
+  ],
+  "stand": "2026-10"
+}

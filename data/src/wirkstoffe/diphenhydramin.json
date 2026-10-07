@@ -1,0 +1,193 @@
+{
+  "id": "diphenhydramin",
+  "name": "Diphenhydramin",
+  "synonyme": [
+    "Diphenhydramine",
+    "Diphenhydraminhydrochlorid"
+  ],
+  "atc": [
+    "R06AA02"
+  ],
+  "klasse": "H1-Antihistaminikum der 1. Generation (sedierend); Schlafmittel",
+  "kurz": "Älteres, stark müde machendes Antihistaminikum; rezeptfrei als Schlafmittel bei vorübergehenden Schlafstörungen.",
+  "gruppen": [
+    "antihistaminika-sedierend",
+    "zns-daempfend",
+    "anticholinerg",
+    "qt-verlaengernd"
+  ],
+  "handelsnamen": [
+    "Benocten"
+  ],
+  "abgabe": [
+    "D"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Vorübergehende Schlafstörungen, auch wenn sie durch Juckreiz, Husten oder allergische Beschwerden bedingt sind",
+      "ids": [
+        "schlafstoerung"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Macht müde und erleichtert das Einschlafen, indem es die Wirkung des Botenstoffs Histamin im Gehirn blockiert. Diphenhydramin ist ein H1-Rezeptor-Antagonist der 1. Generation, der die Blut-Hirn-Schranke gut überwindet; die Blockade zentraler H1-Rezeptoren wirkt sedierend. Zusätzlich hemmt es Muskarinrezeptoren (anticholinerge Wirkung), was Mundtrockenheit, Harnverhalt und Verwirrtheit erklärt. In hohen Dosen kann es die Reizleitung am Herzen (QT-Zeit) beeinflussen.",
+  "kontraindikationen": [
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung mit Restharnbildung",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Kinder unter 2 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Epilepsie (kann Krampfanfälle begünstigen)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Herzrhythmusstörungen, verlängerte QT-Zeit, Kalium- oder Magnesiummangel",
+      "ids": [
+        "qt-verlaengerung",
+        "herzrhythmusstoerung",
+        "hypokaliaemie",
+        "magnesiummangel"
+      ]
+    },
+    {
+      "text": "Asthma oder chronische Bronchitis",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Sturzgefahr, Verwirrtheit, besonders bei Demenz)",
+      "ids": [
+        "aeltere-patienten",
+        "delir",
+        "demenz"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leberfunktion",
+      "ids": [
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder von 2 bis 12 Jahren nur auf ärztliche Verschreibung (paradoxe Erregung möglich)",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Missbrauch oder Abhängigkeit in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Schlaf- und Beruhigungsmittel, Opioide und andere zentral dämpfende Mittel, Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:opioide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der dämpfenden Wirkung bis zur Atemdämpfung – nicht kombinieren, keinen Alkohol trinken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkte und verlängerte anticholinerge und dämpfende Wirkung – nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva, Blasenmittel)",
+      "ref": [
+        "gruppe:anticholinerg",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Mehr Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit, besonders bei älteren Menschen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "QT-Zeit verlängernde Mittel",
+      "ref": [
+        "gruppe:qt-verlaengernd"
+      ],
+      "effekt": "Erhöhtes Risiko für gefährliche Herzrhythmusstörungen – Kombination meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Acetylcholinesterase-Hemmer bei Demenz (z. B. Donepezil, Rivastigmin)",
+      "ref": [
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung; zusätzliche Verwirrtheit möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "CYP2D6-Substrate (z. B. Metoprolol)",
+      "ref": [
+        "gruppe:cyp2d6-substrate"
+      ],
+      "effekt": "Diphenhydramin hemmt CYP2D6 – Spiegel dieser Mittel kann steigen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Schläfrigkeit und Benommenheit, auch noch am Folgetag"
+    ],
+    "haeufig": [
+      "Konzentrationsstörungen",
+      "Schwindel",
+      "Mundtrockenheit",
+      "Kopfschmerzen"
+    ],
+    "unbekannt": [
+      "Sehstörungen",
+      "Harnverhalt, Verstopfung",
+      "Paradoxe Erregung, Unruhe und Schlaflosigkeit, vor allem bei Kindern und älteren Menschen",
+      "Verwirrtheit",
+      "QT-Verlängerung und Herzrhythmusstörungen",
+      "Allergische Hautreaktionen",
+      "Blutbildveränderungen",
+      "Gewöhnung und Abhängigkeit"
+    ]
+  },
+  "schwangerschaft": "Als Schlafmittel in der Schwangerschaft nicht empfohlen; nur nach ärztlicher Abwägung.",
+  "stillzeit": "Geht in die Muttermilch über und kann beim Säugling Unruhe oder Schläfrigkeit verursachen; in der Stillzeit nicht anwenden.",
+  "hinweise": [
+    "Kurz vor dem Schlafengehen einnehmen und genügend Schlafdauer einplanen; die Müdigkeit kann bis in den nächsten Tag anhalten.",
+    "Nur kurzfristig anwenden; nach spätestens 2 Wochen die Notwendigkeit überprüfen, länger dauernde Schlafstörungen ärztlich abklären lassen.",
+    "Kein Alkohol; die Fahrtüchtigkeit kann auch am Folgetag beeinträchtigt sein.",
+    "Ältere Menschen: erhöhte Sturz- und Verwirrtheitsgefahr."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,222 @@
+{
+  "id": "tafluprost-timolol",
+  "name": "Tafluprost + Timolol",
+  "synonyme": [
+    "Tafluprost/Timolol"
+  ],
+  "kombinationAus": [
+    "tafluprost",
+    "timolol"
+  ],
+  "atc": [
+    "S01ED51"
+  ],
+  "klasse": "Glaukommittel: Fixkombination aus Prostaglandin-Analogon und Betablocker",
+  "kurz": "Konservierungsmittelfreie Augentropfen mit zwei Wirkstoffen, die den Augeninnendruck bei Glaukom senken.",
+  "gruppen": [
+    "betablocker",
+    "bradykardisierend",
+    "blutdrucksenkend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Taptiqom"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Augentropfen in Einzeldosisbehältern (ohne Konservierungsmittel)"
+  ],
+  "indikationen": [
+    {
+      "text": "Senkung des Augeninnendrucks bei Offenwinkelglaukom oder okulärer Hypertension bei Erwachsenen, wenn ein Betablocker oder ein Prostaglandin-Analogon allein nicht ausreicht und konservierungsmittelfreie Augentropfen vorteilhaft sind",
+      "ids": [
+        "glaukom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt den Augeninnendruck über zwei sich ergänzende Wege. Tafluprost ist eine Vorstufe, die im Auge zur Tafluprostsäure gespalten wird; diese stimuliert den Prostaglandin-FP-Rezeptor und verbessert den Abfluss des Kammerwassers über den uveoskleralen Weg. Timolol ist ein nicht selektiver Betablocker und vermindert die Bildung von Kammerwasser im Ziliarkörper. Timolol gelangt teilweise in den Körper und kann Puls, Blutdruck und Atemwege beeinflussen.",
+  "kontraindikationen": [
+    {
+      "text": "Asthma bronchiale (auch in der Vorgeschichte) oder schwere COPD",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Sinusbradykardie, Sinusknotensyndrom, sinuatrialer Block, AV-Block 2. oder 3. Grades ohne Herzschrittmacher",
+      "ids": [
+        "bradykardie",
+        "sick-sinus-syndrom",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Manifeste Herzinsuffizienz, kardiogener Schock",
+      "ids": [
+        "herzinsuffizienz",
+        "schock"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Koronare Herzkrankheit, Prinzmetal-Angina, behandelte Herzinsuffizienz, tiefer Blutdruck, AV-Block 1. Grades",
+      "ids": [
+        "koronare-herzkrankheit",
+        "angina-pectoris",
+        "herzinsuffizienz",
+        "hypotonie",
+        "av-block"
+      ]
+    },
+    {
+      "text": "Leichte bis mittelschwere COPD",
+      "ids": [
+        "copd"
+      ]
+    },
+    {
+      "text": "Schwere Durchblutungsstörungen (Raynaud-Syndrom, pAVK)",
+      "ids": [
+        "raynaud",
+        "pavk"
+      ]
+    },
+    {
+      "text": "Diabetes mit Neigung zu Unterzuckerung und Schilddrüsenüberfunktion: Warnzeichen können verschleiert werden",
+      "ids": [
+        "diabetes",
+        "hypoglykaemie",
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Myasthenia gravis: Muskelschwäche kann zunehmen",
+      "ids": [
+        "myasthenia-gravis"
+      ]
+    },
+    {
+      "text": "Linsenlosigkeit, Kunstlinse mit gerissener hinterer Linsenkapsel oder andere Risikofaktoren für ein Makulaödem, Iritis oder Uveitis",
+      "ids": [
+        "makuladegeneration",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Dauerhaft stärkere Braunfärbung der Iris, Veränderungen der Wimpern und der Lidhaut möglich – bei Behandlung nur eines Auges bleibt eventuell ein Farbunterschied",
+      "ids": [
+        "glaukom"
+      ]
+    },
+    {
+      "text": "Geplante Operation oder Narkose: Anästhesieteam informieren; schwere allergische Reaktionen sprechen schlechter auf Adrenalin an",
+      "ids": [
+        "operation",
+        "anaesthesie",
+        "anaphylaxie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Calciumantagonisten vom Verapamil-/Diltiazem-Typ",
+      "ref": [
+        "gruppe:nicht-dhp-calciumantagonisten"
+      ],
+      "effekt": "Gefahr von Blutdruckabfall, starker Pulsverlangsamung und Reizleitungsstörungen – Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Betablocker zum Einnehmen",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Verstärkte Wirkung auf Augeninnendruck, Herz und Kreislauf – zwei Betablocker möglichst nicht kombinieren, Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika (z. B. Amiodaron) und Herzglykoside (Digoxin)",
+      "ref": [
+        "gruppe:antiarrhythmika-klasse-iii",
+        "gruppe:antiarrhythmika-klasse-i",
+        "gruppe:herzglykoside"
+      ],
+      "effekt": "Zusätzliche Pulsverlangsamung und Reizleitungsstörungen möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Chinidin)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Hemmen den Abbau von Timolol; verstärkte Betablockade mit langsamem Puls beschrieben – Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Clonidin",
+      "ref": [
+        "clonidin"
+      ],
+      "effekt": "Der Blutdruckanstieg nach plötzlichem Absetzen von Clonidin kann unter Betablockern verstärkt sein.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Insulin und Sulfonylharnstoffe",
+      "ref": [
+        "gruppe:insuline",
+        "gruppe:sulfonylharnstoffe"
+      ],
+      "effekt": "Warnzeichen einer Unterzuckerung (Herzklopfen, Zittern) können verschleiert werden.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Adrenalin",
+      "ref": [
+        "adrenalin"
+      ],
+      "effekt": "Bei einer schweren allergischen Reaktion kann Adrenalin schwächer wirken; gelegentlich Pupillenerweiterung.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Andere Augentropfen",
+      "ref": [],
+      "effekt": "Mindestens 5 Minuten Abstand einhalten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [],
+    "haeufig": [
+      "Augenrötung (konjunktivale Hyperämie)"
+    ],
+    "gelegentlich": [
+      "Augenjucken, Augenschmerzen, Augenreizung, Fremdkörpergefühl",
+      "Verschwommenes Sehen, trockenes Auge"
+    ],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Dauerhaft stärkere Braunfärbung der Iris, Wimpernveränderungen, dunklere Lidhaut, eingesunkene Lidfurche",
+      "Makulaödem, Regenbogenhautentzündung (Iritis, Uveitis)",
+      "Langsamer Puls, Herzrhythmusstörungen, Blutdruckabfall, Verschlechterung einer Herzinsuffizienz",
+      "Atemnot, Verkrampfung der Atemwege (Bronchospasmus), vor allem bei Asthma",
+      "Kopfschmerzen, Schwindel, Müdigkeit, Depression",
+      "Kalte Hände und Füsse, Raynaud-Syndrom",
+      "Verschleierung einer Unterzuckerung"
+    ]
+  },
+  "schwangerschaft": "Nicht anwenden, ausser wenn klar notwendig; Frauen im gebärfähigen Alter nur mit zuverlässiger Verhütung. Bei Anwendung bis zur Geburt das Neugeborene auf langsamen Puls, Unterzuckerung und Atemprobleme überwachen.",
+  "stillzeit": "Ein Risiko für den Säugling kann nicht ausgeschlossen werden; Stillen während der Behandlung nicht empfohlen.",
+  "hinweise": [
+    "Einzeldosisbehälter nach dem Öffnen sofort verwenden und den Rest verwerfen.",
+    "Nach dem Eintropfen den inneren Augenwinkel 2 Minuten leicht zudrücken – das verringert Wirkungen auf Herz und Atemwege.",
+    "Vor Operationen und bei anderen Ärztinnen und Ärzten angeben, dass Betablocker-Augentropfen verwendet werden.",
+    "Nicht eigenmächtig absetzen; den Augeninnendruck regelmässig kontrollieren lassen."
+  ],
+  "stand": "2026-10"
+}

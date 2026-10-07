@@ -1,0 +1,191 @@
+{
+  "id": "alimemazin",
+  "name": "Alimemazin",
+  "synonyme": [
+    "Alimemazine",
+    "Trimeprazin",
+    "Alimemazintartrat"
+  ],
+  "atc": [
+    "R06AD01"
+  ],
+  "klasse": "H1-Antihistaminikum aus der Gruppe der Phenothiazine (sedierend)",
+  "kurz": "Stark beruhigendes Antihistaminikum aus der Gruppe der Phenothiazine gegen Schlafstörungen und Juckreiz; rezeptpflichtig.",
+  "gruppen": [
+    "antihistaminika-sedierend",
+    "zns-daempfend",
+    "anticholinerg",
+    "krampfschwellensenkend",
+    "photosensibilisierend"
+  ],
+  "handelsnamen": [
+    "Theralene"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Tropfen zum Einnehmen",
+    "Sirup"
+  ],
+  "indikationen": [
+    {
+      "text": "Gelegentliche und vorübergehende Schlafstörungen bei Erwachsenen und Kindern",
+      "ids": [
+        "schlafstoerung"
+      ]
+    },
+    {
+      "text": "Juckreiz und allergische Hauterscheinungen, z. B. Nesselsucht",
+      "ids": [
+        "juckreiz",
+        "urtikaria"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt beruhigend, schlaffördernd und juckreizstillend, indem es Histamin-Rezeptoren blockiert. Alimemazin ist ein Phenothiazin-Derivat mit starker H1-antagonistischer Wirkung. Es hemmt zusätzlich Muskarinrezeptoren, Alpha-1-Rezeptoren und in geringem Mass Dopaminrezeptoren; daraus erklären sich Mundtrockenheit, Blutdruckabfall und selten Bewegungsstörungen.",
+  "kontraindikationen": [
+    {
+      "text": "Überempfindlichkeit gegen andere Phenothiazine (Kreuzallergie)",
+      "ids": [
+        "allergie"
+      ]
+    },
+    {
+      "text": "Agranulozytose in der Vorgeschichte",
+      "ids": [
+        "neutropenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Engwinkelglaukom",
+      "ids": [
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Prostatavergrösserung oder Harnröhrenverengung mit Gefahr eines Harnverhalts",
+      "ids": [
+        "prostatahyperplasie",
+        "harnverhalt"
+      ]
+    },
+    {
+      "text": "Säuglinge und Kleinkinder unter 2 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Epilepsie (senkt die Krampfschwelle)",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Herz-Kreislauf-Erkrankungen, Herzrhythmusstörungen, tiefer Blutdruck",
+      "ids": [
+        "herzrhythmusstoerung",
+        "hypotonie"
+      ]
+    },
+    {
+      "text": "Ältere Menschen (Sturzgefahr, Verwirrtheit, Verstopfung)",
+      "ids": [
+        "aeltere-patienten",
+        "delir"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Parkinson-Krankheit",
+      "ids": [
+        "parkinson"
+      ]
+    },
+    {
+      "text": "Starke Sonnenbestrahlung (Lichtempfindlichkeit)",
+      "ids": [
+        "sonnenbrand"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Schlaf- und Beruhigungsmittel, Opioide und andere zentral dämpfende Mittel, Alkohol",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:opioide",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Gegenseitige Verstärkung der dämpfenden Wirkung bis zur Atemdämpfung – vermeiden, keinen Alkohol trinken.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere anticholinerg wirkende Mittel (z. B. trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:anticholinerg",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Mehr Mundtrockenheit, Verstopfung, Harnverhalt und Verwirrtheit.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Blutdrucksenkende Mittel",
+      "ref": [
+        "gruppe:blutdrucksenkend"
+      ],
+      "effekt": "Verstärkter Blutdruckabfall, besonders beim Aufstehen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Parkinson-Mittel (Levodopa, Dopaminagonisten)",
+      "ref": [
+        "levodopa-carbidopa",
+        "levodopa-benserazid",
+        "gruppe:dopaminagonisten"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Verstärkte anticholinerge und dämpfende Wirkung.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Schläfrigkeit, Benommenheit, auch am Folgetag",
+      "Mundtrockenheit, Verstopfung",
+      "Sehstörungen (Akkommodationsstörungen), Harnverhalt",
+      "Blutdruckabfall beim Aufstehen (orthostatische Hypotonie)",
+      "Paradoxe Erregung, vor allem bei Kindern",
+      "Lichtempfindlichkeit der Haut (Photosensibilisierung)",
+      "Bewegungsstörungen (extrapyramidale Symptome), Krampfanfälle",
+      "Agranulozytose, Leukopenie (Mangel an weissen Blutkörperchen)"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei Einnahme gegen Ende der Schwangerschaft können beim Neugeborenen Unruhe, Schläfrigkeit oder anticholinerge Störungen auftreten.",
+  "stillzeit": "In der Stillzeit nicht empfohlen (Schläfrigkeit beim Säugling möglich).",
+  "hinweise": [
+    "Macht stark müde: keinen Alkohol trinken, nicht Auto fahren.",
+    "Bei Fieber, Halsschmerzen oder Entzündungen im Mund sofort ärztlich abklären lassen (Blutbild), da selten die weissen Blutkörperchen abfallen.",
+    "Intensive Sonne und Solarium meiden (Lichtempfindlichkeit)."
+  ],
+  "stand": "2026-10"
+}

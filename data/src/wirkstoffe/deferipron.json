@@ -1,0 +1,173 @@
+{
+  "id": "deferipron",
+  "name": "Deferipron",
+  "synonyme": [
+    "Deferiprone",
+    "L1"
+  ],
+  "atc": [
+    "V03AC02"
+  ],
+  "klasse": "Eisenchelator (zum Einnehmen)",
+  "kurz": "Eisenbindendes Mittel zum Einnehmen gegen Eisenüberladung durch häufige Bluttransfusionen, vor allem bei Thalassämie.",
+  "gruppen": [
+    "myelosuppressiv",
+    "teratogen"
+  ],
+  "handelsnamen": [
+    "Ferriprox"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Lösung zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Eisenüberladung durch häufige Bluttransfusionen bei Beta-Thalassämie (Thalassaemia major), wenn Deferoxamin nicht infrage kommt oder ungenügend wirkt",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "In Kombination mit einem anderen Eisenchelator, wenn eine Einzeltherapie nicht ausreicht oder die Eisenüberladung (z. B. am Herzen) rasch gesenkt werden muss",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bindet überschüssiges Eisen, das dann über den Urin ausgeschieden wird. Deferipron ist ein zweizähniger Chelatbildner, der dreiwertiges Eisen im Verhältnis 3:1 bindet; der wasserlösliche Komplex wird überwiegend über die Niere ausgeschieden. Dank seiner geringen Grösse dringt es in Zellen ein und kann auch Eisen aus dem Herzmuskel entfernen.",
+  "kontraindikationen": [
+    {
+      "text": "Wiederholte Neutropenien oder eine Agranulozytose in der Vorgeschichte",
+      "ids": [
+        "neutropenie",
+        "knochenmarkschaedigung"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Agranulozytose (lebensgefährlicher Mangel an weissen Blutkörperchen): Neutrophile vor Beginn und regelmässig (im ersten Jahr wöchentlich) kontrollieren; bei Fieber, Halsschmerzen oder anderen Infektzeichen sofort Blutbild",
+      "ids": [
+        "neutropenie",
+        "aktive-infektion"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nieren- oder Leberfunktion; Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "niereninsuffizienz",
+        "leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Zinkmangel möglich – Zinkspiegel überwachen",
+      "ids": [
+        "mangelernaehrung"
+      ]
+    },
+    {
+      "text": "HIV-Infektion oder andere Immunschwäche: Infektionsrisiko bei Neutropenie besonders beachten",
+      "ids": [
+        "hiv",
+        "immunsuppression"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: zuverlässig verhüten",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Kinder: nach Überdosierung neurologische Störungen (z. B. Gangunsicherheit, Sehstörungen) beschrieben",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Arzneimittel, die eine Neutropenie oder Agranulozytose auslösen können (z. B. Clozapin, Metamizol, Zytostatika)",
+      "ref": [
+        "clozapin",
+        "metamizol",
+        "gruppe:myelosuppressiv"
+      ],
+      "grund": "Da der Mechanismus der Deferipron-Agranulozytose unbekannt ist, steigt das Risiko eines lebensgefährlichen Mangels an weissen Blutkörperchen."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Mehrwertige Kationen (z. B. aluminiumhaltige Antazida, Eisen-, Zink- oder Calciumpräparate)",
+      "ref": [
+        "gruppe:mehrwertige-kationen",
+        "gruppe:antazida"
+      ],
+      "effekt": "Deferipron bindet diese Metalle – nicht gleichzeitig einnehmen, mindestens 4 Stunden Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Hemmer des Abbauenzyms UGT1A6 (z. B. Diclofenac, Probenecid, Mariendistel/Silymarin)",
+      "ref": [
+        "diclofenac",
+        "silymarin-mariendistel"
+      ],
+      "effekt": "Abbau von Deferipron kann verlangsamt werden – Kombination vermeiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin C",
+      "ref": [
+        "ascorbinsaeure-vitamin-c"
+      ],
+      "effekt": "Gleichzeitige Gabe nicht untersucht – nur mit Vorsicht kombinieren.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Übelkeit, Erbrechen, Bauchschmerzen",
+      "Rötlich-braune Verfärbung des Urins (Chromaturie)"
+    ],
+    "haeufig": [
+      "Neutropenie (Mangel an weissen Blutkörperchen)",
+      "Agranulozytose (lebensgefährlicher Mangel an Abwehrzellen)",
+      "Kopfschmerzen",
+      "Durchfall",
+      "Erhöhte Leberwerte",
+      "Gelenkschmerzen",
+      "Müdigkeit",
+      "Gesteigerter Appetit"
+    ],
+    "unbekannt": [
+      "Überempfindlichkeitsreaktionen, Hautausschlag, Nesselsucht",
+      "Zinkmangel",
+      "Neurologische Störungen bei Kindern nach Überdosierung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert (in Tierversuchen fruchtschädigend). Frauen im gebärfähigen Alter müssen zuverlässig verhüten.",
+  "stillzeit": "Kontraindiziert.",
+  "hinweise": [
+    "Blutbild regelmässig kontrollieren lassen (im ersten Jahr wöchentlich).",
+    "Bei Fieber, Halsschmerzen, Mundgeschwüren oder grippeähnlichen Beschwerden sofort ärztlich melden und Blutbild machen lassen; bis dahin Deferipron nicht einnehmen.",
+    "Der Urin kann sich rötlich-braun verfärben – das ist harmlos.",
+    "Säurebinder sowie Eisen-, Zink- oder Calciumpräparate nur mit mehreren Stunden Abstand einnehmen."
+  ],
+  "stand": "2026-10"
+}

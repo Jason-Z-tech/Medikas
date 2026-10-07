@@ -1,0 +1,164 @@
+{
+  "id": "fludeoxyglucose-18f",
+  "name": "Fludeoxyglucose (18F)",
+  "synonyme": [
+    "FDG",
+    "18F-FDG",
+    "Fluorodeoxyglucose",
+    "Fludesoxyglucose"
+  ],
+  "atc": [
+    "V09IX04"
+  ],
+  "klasse": "Radiodiagnostikum für die Positronen-Emissions-Tomographie (PET)",
+  "kurz": "Schwach radioaktiver Zucker für die PET-Untersuchung; zeigt Gewebe mit hohem Zuckerverbrauch wie Tumoren, Entzündungen, Herzmuskel oder Hirnregionen.",
+  "gruppen": [],
+  "handelsnamen": [],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Injektionslösung"
+  ],
+  "indikationen": [
+    {
+      "text": "Krebserkrankungen: Abklärung verdächtiger Befunde, Bestimmung der Ausbreitung, Nachweis von Rückfällen und Beurteilung des Therapieansprechens (z. B. Lungenkrebs, Lymphome, Melanom, Kopf-Hals-, Speiseröhren-, Darm- und Brustkrebs)",
+      "ids": [
+        "krebs",
+        "lungenkrebs",
+        "lymphom",
+        "hautkrebs",
+        "kopf-hals-krebs",
+        "magen-speiseroehren-krebs",
+        "darmkrebs",
+        "brustkrebs"
+      ]
+    },
+    {
+      "text": "Herz: Nachweis von noch lebensfähigem Herzmuskel bei eingeschränkter Pumpfunktion (ergänzend zur Durchblutungsszintigraphie)",
+      "ids": [
+        "herzinsuffizienz",
+        "koronare-herzkrankheit"
+      ]
+    },
+    {
+      "text": "Neurologie: Lokalisation des Ausgangsorts epileptischer Anfälle vor einer Operation",
+      "ids": [
+        "epilepsie"
+      ]
+    },
+    {
+      "text": "Infektionen und Entzündungen: Suche nach Herden, z. B. bei Fieber unklarer Ursache, Knocheninfektion, Sarkoidose oder Gefässentzündung",
+      "ids": [
+        "fieber",
+        "osteomyelitis",
+        "vaskulitis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wird von Zellen wie normaler Traubenzucker aufgenommen und reichert sich dort an, wo viel Zucker verbraucht wird. Fludeoxyglucose gelangt über Glukosetransporter (GLUT) in die Zellen und wird durch die Hexokinase zu FDG-6-phosphat umgewandelt, das nicht weiter abgebaut werden kann und in der Zelle gefangen bleibt. Tumoren, entzündetes Gewebe, Gehirn und Herzmuskel mit hohem Glukosebedarf erscheinen deshalb im PET-Bild hell. Das radioaktive Fluor-18 zerfällt mit einer Halbwertszeit von 110 Minuten unter Aussendung von Positronen; nicht aufgenommenes FDG wird über die Nieren ausgeschieden.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Diabetes oder erhöhter Blutzucker: verminderte Aussagekraft – Blutzucker vor der Untersuchung messen",
+      "ids": [
+        "diabetes"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: Strahlenbelastung des Ungeborenen – nur bei zwingender Indikation; bei Frauen im gebärfähigen Alter eine Schwangerschaft vorher ausschliessen",
+      "ids": [
+        "schwangerschaft",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Stillzeit: Stillen unterbrechen",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Nierenfunktion: höhere Strahlenbelastung möglich",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Strahlenbelastung besonders sorgfältig abwägen",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Entzündungen, kürzlich erfolgte Operation, Bestrahlung oder Chemotherapie: falsch-positive Befunde möglich",
+      "ids": [
+        "aktive-infektion",
+        "operation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Insulin",
+      "ref": [
+        "gruppe:insuline"
+      ],
+      "effekt": "Kurz vor der Untersuchung gegeben, lenkt es FDG in Muskel- und Fettgewebe um – die Aussagekraft sinkt; Zeitpunkt mit dem Untersuchungsteam absprechen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Wachstumsfaktoren für weisse Blutkörperchen (z. B. Filgrastim, Pegfilgrastim)",
+      "ref": [
+        "filgrastim",
+        "pegfilgrastim",
+        "lipegfilgrastim"
+      ],
+      "effekt": "Verstärkte Anreicherung in Knochenmark und Milz für einige Tage – zwischen Gabe und PET möglichst mindestens 5 Tage Abstand.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verändern den Blutzucker und können die Aussagekraft vermindern.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Valproinsäure, Carbamazepin, Phenytoin, Phenobarbital",
+      "ref": [
+        "valproinsaeure",
+        "carbamazepin",
+        "phenytoin",
+        "phenobarbital"
+      ],
+      "effekt": "Verändern den Blutzucker und können die Aussagekraft vermindern.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Katecholamine (z. B. Adrenalin, Noradrenalin)",
+      "ref": [
+        "adrenalin",
+        "noradrenalin"
+      ],
+      "effekt": "Verändern den Blutzucker und können die Aussagekraft vermindern.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Strahlenbelastung: sehr geringes zusätzliches Langzeitrisiko für Krebs oder Erbgutschäden"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Indikation (Strahlenbelastung des Ungeborenen); eine mögliche Schwangerschaft vorher ausschliessen.",
+  "stillzeit": "Stillen für mindestens 12 Stunden unterbrechen und die abgepumpte Milch verwerfen; in dieser Zeit engen Körperkontakt mit dem Säugling möglichst einschränken.",
+  "hinweise": [
+    "Mindestens 4–6 Stunden vor der Untersuchung nichts essen; Wasser ist erlaubt, zuckerhaltige Getränke nicht.",
+    "Am Vortag und vor der Untersuchung starke körperliche Anstrengung vermeiden; während der Wartezeit ruhig und warm liegen.",
+    "Menschen mit Diabetes besprechen Insulin, Tabletten und Essen vorher mit dem Untersuchungsteam.",
+    "Nach der Untersuchung viel trinken, häufig die Blase entleeren und einige Stunden engen Kontakt mit Kleinkindern und Schwangeren meiden."
+  ],
+  "stand": "2026-10"
+}

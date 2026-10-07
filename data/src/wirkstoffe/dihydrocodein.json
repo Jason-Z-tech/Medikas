@@ -1,0 +1,237 @@
+{
+  "id": "dihydrocodein",
+  "name": "Dihydrocodein",
+  "synonyme": [
+    "Dihydrocodeine",
+    "DHC",
+    "Dihydrocodeinhydrogentartrat",
+    "Dihydrocodeinthiocyanat"
+  ],
+  "atc": [
+    "N02AA08"
+  ],
+  "klasse": "Opioid-Analgetikum und Antitussivum (Hustenstiller)",
+  "kurz": "Opioid gegen mässig starke bis starke Schmerzen und gegen quälenden trockenen Reizhusten.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Codicontin",
+    "Paracodin"
+  ],
+  "abgabe": [
+    "A",
+    "B"
+  ],
+  "darreichung": [
+    "Retardtabletten",
+    "Tropfen zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Mässig starke bis starke Schmerzen (Retardtabletten)",
+      "ids": [
+        "schmerzen",
+        "chronische-schmerzen"
+      ]
+    },
+    {
+      "text": "Quälender trockener Reizhusten, wenn andere Massnahmen nicht ausreichen",
+      "ids": [
+        "bronchitis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Lindert Schmerzen und dämpft den Hustenreiz, indem es an Opioidrezeptoren in Gehirn und Rückenmark bindet. Dihydrocodein ist ein halbsynthetisches Opioid und wirkt als Agonist am µ-Opioidrezeptor; ein Teil wird in der Leber über CYP2D6 zum stärker wirksamen Dihydromorphin umgewandelt. Es hemmt die Weiterleitung von Schmerzsignalen im zentralen Nervensystem und dämpft das Hustenzentrum im Hirnstamm. Wie alle Opioide kann es die Atmung dämpfen, die Darmtätigkeit verlangsamen und abhängig machen.",
+  "kontraindikationen": [
+    {
+      "text": "Atemdepression oder schwere Ateminsuffizienz, akuter Asthmaanfall",
+      "ids": [
+        "schlafapnoe",
+        "asthma"
+      ]
+    },
+    {
+      "text": "Bewusstlosigkeit (Koma)",
+      "ids": [
+        "bewusstseinsstoerung"
+      ]
+    },
+    {
+      "text": "Darmlähmung (paralytischer Ileus)",
+      "ids": [
+        "darmverschluss"
+      ]
+    },
+    {
+      "text": "Kinder unter 12 Jahren",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Chronische Lungenerkrankungen wie COPD oder Schlafapnoe (Gefahr der Atemdämpfung)",
+      "ids": [
+        "copd",
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Gleichzeitige Einnahme von Schlaf- und Beruhigungsmitteln oder Alkohol (lebensbedrohliche Atemdämpfung möglich)",
+      "ids": [
+        "alkoholkonsum"
+      ]
+    },
+    {
+      "text": "Abhängigkeit oder Suchterkrankung in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit",
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck oder Flüssigkeitsmangel",
+      "ids": [
+        "hypotonie",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Erkrankungen der Gallenwege oder der Bauchspeicheldrüse, Prostatavergrösserung",
+      "ids": [
+        "gallensteine",
+        "pankreatitis",
+        "prostatahyperplasie"
+      ]
+    },
+    {
+      "text": "Erhöhter Hirndruck oder Kopfverletzung",
+      "ids": [
+        "hirnoedem",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Sehr schnelle CYP2D6-Metabolisierer (vermehrte Bildung von Dihydromorphin)",
+      "ids": [
+        "pharmakogenetik"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung bis zu lebensbedrohlicher Atemdepression und Koma – nur kombinieren, wenn unumgänglich, mit tiefster Dosis und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gabapentin und Pregabalin",
+      "ref": [
+        "gruppe:gabapentinoide"
+      ],
+      "effekt": "Erhöhtes Risiko für Atemdepression und starke Schläfrigkeit – Dosis vorsichtig wählen, überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Opioide",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Gegenseitige Verstärkung von Atemdämpfung, Sedierung und Verstopfung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Schwere Reaktionen des Nervensystems und Blutdruckschwankungen möglich – nicht kombinieren, 2 Wochen Abstand einhalten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Sedierende Antihistaminika, Antipsychotika und trizyklische Antidepressiva",
+      "ref": [
+        "gruppe:antihistaminika-sedierend",
+        "gruppe:antipsychotika",
+        "gruppe:trizyklische-antidepressiva"
+      ],
+      "effekt": "Verstärkte Müdigkeit und Atemdämpfung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Mehr Verstopfung bis Darmlähmung und Harnverhalt.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioid-Antagonisten und Partialagonisten (z. B. Naltrexon, Buprenorphin)",
+      "ref": [
+        "gruppe:opioid-antagonisten",
+        "gruppe:opioid-partialagonisten"
+      ],
+      "effekt": "Wirkungsverlust und bei Gewöhnung Entzugssymptome möglich.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke CYP2D6-Hemmer (z. B. Paroxetin, Fluoxetin, Bupropion)",
+      "ref": [
+        "gruppe:starke-cyp2d6-hemmer"
+      ],
+      "effekt": "Weniger Umwandlung in Dihydromorphin – die Wirkung kann schwächer ausfallen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Obstipation (Verstopfung)",
+      "Übelkeit, Erbrechen",
+      "Schläfrigkeit, Müdigkeit",
+      "Kopfschmerzen"
+    ],
+    "unbekannt": [
+      "Atemdepression (Atemdämpfung), besonders bei hohen Dosen",
+      "Schwindel, Benommenheit",
+      "Mundtrockenheit",
+      "Juckreiz, Hautausschlag",
+      "Harnverhalt",
+      "Krämpfe der Gallenwege",
+      "Blutdruckabfall",
+      "Abhängigkeit und Entzugssymptome nach längerer Anwendung"
+    ]
+  },
+  "schwangerschaft": "Nur nach strenger ärztlicher Abwägung. Bei längerer Einnahme drohen beim Neugeborenen Entzugserscheinungen, bei Einnahme kurz vor der Geburt eine Atemdämpfung.",
+  "stillzeit": "Dihydrocodein geht in die Muttermilch über; in der Stillzeit nicht anwenden (Gefahr der Atemdämpfung beim Säugling).",
+  "hinweise": [
+    "Kein Alkohol: verstärkt die dämpfende Wirkung bis zur Atemdämpfung.",
+    "Beeinträchtigt die Fahrtüchtigkeit und das Bedienen von Maschinen.",
+    "Retardtabletten ganz schlucken, nicht zerkleinern oder kauen (Gefahr einer Überdosierung).",
+    "Nach längerer Einnahme nicht abrupt absetzen; Abhängigkeit möglich."
+  ],
+  "stand": "2026-10"
+}

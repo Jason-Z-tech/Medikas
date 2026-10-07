@@ -1,0 +1,202 @@
+{
+  "id": "hydrocodon",
+  "name": "Hydrocodon",
+  "synonyme": [
+    "Hydrocodone",
+    "Dihydrocodeinon",
+    "Hydrocodonhydrogentartrat"
+  ],
+  "atc": [
+    "R05DA03"
+  ],
+  "klasse": "Opioid-Antitussivum (Betäubungsmittel)",
+  "kurz": "Stark wirksamer Hustenstiller aus der Gruppe der Opioide für schweren trockenen Reizhusten; untersteht dem Betäubungsmittelgesetz.",
+  "gruppen": [
+    "opioide",
+    "zns-daempfend",
+    "cyp3a4-substrate-empfindlich",
+    "cyp2d6-substrate"
+  ],
+  "handelsnamen": [
+    "Hydrocodon Streuli"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Tabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Schwerer trockener Reizhusten (nicht produktiver Husten), wenn andere Hustenmittel nicht ausreichen",
+      "ids": [
+        "bronchitis"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Dämpft den Hustenreiz direkt im Hustenzentrum des Gehirns. Hydrocodon ist ein halbsynthetisches Opioid und Agonist am µ-Opioidrezeptor; es hemmt das Hustenzentrum im Hirnstamm stärker als Codein und wirkt zusätzlich schmerzlindernd. Abgebaut wird es in der Leber über CYP3A4 zu Norhydrocodon und über CYP2D6 zu Hydromorphon. Wie alle Opioide kann es die Atmung dämpfen und abhängig machen.",
+  "kontraindikationen": [
+    {
+      "text": "Ateminsuffizienz oder Atemdepression, Erkrankungen mit eingeschränkter Atmung (z. B. Lungenödem)",
+      "ids": [
+        "schlafapnoe"
+      ]
+    },
+    {
+      "text": "Chronische Verstopfung",
+      "ids": [
+        "verstopfung"
+      ]
+    },
+    {
+      "text": "Schwangerschaft",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Kinder bis zum vollendeten 14. Altersjahr",
+      "ids": [
+        "kinder"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Asthma bronchiale oder COPD (Gefahr der Atemdämpfung)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Husten mit viel Auswurf (das Abhusten des Schleims wird behindert)",
+      "ids": [
+        "bronchitis"
+      ]
+    },
+    {
+      "text": "Abhängigkeit oder Suchterkrankung in der Vorgeschichte",
+      "ids": [
+        "abhaengigkeit",
+        "opioidabhaengigkeit"
+      ]
+    },
+    {
+      "text": "Eingeschränkte Leber- oder Nierenfunktion",
+      "ids": [
+        "leberinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ältere oder geschwächte Menschen",
+      "ids": [
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Tiefer Blutdruck, erhöhter Hirndruck oder Kopfverletzung",
+      "ids": [
+        "hypotonie",
+        "hirnoedem",
+        "schaedel-hirn-trauma"
+      ]
+    },
+    {
+      "text": "Alkoholkonsum (verstärkte Dämpfung)",
+      "ids": [
+        "alkoholkonsum"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Benzodiazepine, Z-Substanzen und andere zentral dämpfende Mittel",
+      "ref": [
+        "gruppe:benzodiazepine",
+        "gruppe:z-substanzen",
+        "gruppe:zns-daempfend"
+      ],
+      "effekt": "Verstärkte Dämpfung bis zu lebensbedrohlicher Atemdepression und Koma – nur kombinieren, wenn unumgänglich, mit tiefster Dosis und Überwachung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Gabapentin und Pregabalin",
+      "ref": [
+        "gruppe:gabapentinoide"
+      ],
+      "effekt": "Erhöhtes Risiko für Atemdepression und starke Schläfrigkeit.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Andere Opioide",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Gegenseitige Verstärkung von Atemdämpfung, Sedierung und Verstopfung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "MAO-Hemmer",
+      "ref": [
+        "gruppe:mao-hemmer"
+      ],
+      "effekt": "Schwere Reaktionen des Nervensystems und Blutdruckschwankungen möglich – nicht kombinieren, 2 Wochen Abstand einhalten.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke und mässige CYP3A4-Hemmer (z. B. Clarithromycin, Itraconazol, Ritonavir, Diltiazem)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer",
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Hydrocodon-Spiegel steigt – verstärkte und verlängerte Atemdämpfung möglich; engmaschig überwachen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "CYP3A4-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Schwächere Wirkung; wird der Induktor abgesetzt, steigt der Hydrocodon-Spiegel wieder an.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel",
+      "ref": [
+        "gruppe:anticholinerg"
+      ],
+      "effekt": "Mehr Verstopfung und Harnverhalt.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "unbekannt": [
+      "Obstipation (Verstopfung)",
+      "Übelkeit, Erbrechen",
+      "Müdigkeit, Benommenheit, Schwindel",
+      "Mundtrockenheit",
+      "Juckreiz, Hautausschlag",
+      "Verwirrtheit, Stimmungsveränderungen",
+      "Atemdepression (Atemdämpfung), besonders bei hohen Dosen",
+      "Abhängigkeit bei längerer Anwendung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert. Opioide können beim Neugeborenen Atemdämpfung und Entzugssymptome auslösen.",
+  "stillzeit": "Kontraindiziert; Hydrocodon und seine Abbauprodukte gehen in die Muttermilch über.",
+  "hinweise": [
+    "Untersteht dem Betäubungsmittelgesetz: nur kurz und nicht länger als ärztlich verordnet einnehmen (Abhängigkeitsgefahr).",
+    "Kein Alkohol: verstärkt die dämpfende Wirkung bis zur Atemdämpfung.",
+    "Beeinträchtigt die Fahrtüchtigkeit und das Bedienen von Maschinen.",
+    "Bei Husten mit Auswurf, Fieber, Atemnot oder Husten über mehr als 2 Wochen ärztlich abklären lassen."
+  ],
+  "stand": "2026-10"
+}

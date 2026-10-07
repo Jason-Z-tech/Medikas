@@ -1,0 +1,246 @@
+{
+  "id": "deferasirox",
+  "name": "Deferasirox",
+  "synonyme": [
+    "ICL670"
+  ],
+  "atc": [
+    "V03AC03"
+  ],
+  "klasse": "Eisenchelator (zum Einnehmen)",
+  "kurz": "Eisenbindendes Mittel zum Einnehmen gegen chronische Eisenüberladung, z. B. durch häufige Bluttransfusionen.",
+  "gruppen": [
+    "cyp2c8-hemmer",
+    "cyp1a2-hemmer",
+    "nephrotoxisch",
+    "hepatotoxisch",
+    "ulkusrisiko-erhoehend",
+    "ototoxisch"
+  ],
+  "handelsnamen": [
+    "Exjade"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Tabletten zur Herstellung einer Suspension zum Einnehmen"
+  ],
+  "indikationen": [
+    {
+      "text": "Chronische Eisenüberladung durch häufige Bluttransfusionen bei Beta-Thalassämie (Thalassaemia major) ab 6 Jahren",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    },
+    {
+      "text": "Transfusionsbedingte Eisenüberladung, wenn Deferoxamin nicht infrage kommt oder ungenügend wirkt, z. B. bei anderen Anämien (u. a. Sichelzellkrankheit, myelodysplastisches Syndrom) oder bei Kindern von 2 bis 5 Jahren",
+      "ids": [
+        "sichelzellanaemie",
+        "anaemie",
+        "myeloproliferative-erkrankung"
+      ]
+    },
+    {
+      "text": "Eisenüberladung bei nicht transfusionsabhängiger Thalassämie ab 10 Jahren",
+      "ids": [
+        "sichelzellanaemie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Bindet überschüssiges Eisen im Körper, das dann vor allem mit dem Stuhl ausgeschieden wird. Deferasirox ist ein oral wirksamer, dreizähniger Chelatbildner, der dreiwertiges Eisen hochselektiv im Verhältnis 2:1 bindet. Der Komplex wird überwiegend über die Galle ausgeschieden. Dank der langen Halbwertszeit genügt eine Einnahme pro Tag.",
+  "kontraindikationen": [
+    {
+      "text": "Eingeschränkte Nierenfunktion mit einer Kreatinin-Clearance unter 60 ml/min",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nierenschäden (Kreatininanstieg, akutes Nierenversagen, Tubulusschäden): Nierenwerte vor Beginn, im ersten Monat wöchentlich und danach monatlich kontrollieren",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberschäden bis Leberversagen, besonders bei Leberzirrhose; bei schwerer Leberinsuffizienz nicht empfohlen – Leberwerte regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Magen-Darm-Geschwüre und -Blutungen, besonders bei älteren Menschen mit fortgeschrittenen Bluterkrankungen oder tiefen Blutplättchenwerten",
+      "ids": [
+        "magen-darm-ulkus",
+        "thrombozytopenie",
+        "aeltere-patienten"
+      ]
+    },
+    {
+      "text": "Schwere Hautreaktionen (Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse, DRESS) – bei Verdacht sofort absetzen",
+      "ids": [
+        "schwere-hautreaktion"
+      ]
+    },
+    {
+      "text": "Hör- und Sehstörungen: vor Beginn und danach jährlich Seh- und Hörtest",
+      "ids": [
+        "sehstoerung",
+        "hoerstoerung"
+      ]
+    },
+    {
+      "text": "Kinder mit Flüssigkeitsverlust (z. B. Durchfall, Erbrechen): Gefahr einer Stoffwechselentgleisung mit Hirnfunktionsstörung (hyperammonämische Enzephalopathie) – Behandlung unterbrechen",
+      "ids": [
+        "kinder",
+        "dehydratation"
+      ]
+    },
+    {
+      "text": "Blutbildveränderungen (Neutropenie, Thrombozytopenie) möglich – Blutbild regelmässig kontrollieren",
+      "ids": [
+        "neutropenie",
+        "thrombozytopenie"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Andere Eisenchelatoren (Deferoxamin, Deferipron)",
+      "ref": [
+        "deferoxamin",
+        "deferipron"
+      ],
+      "grund": "Die Sicherheit der Kombination ist nicht belegt; zusätzliche Nebenwirkungen sind möglich."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Ulkusfördernde Mittel und Blutverdünner (NSAR, Kortison, Bisphosphonate zum Einnehmen, Antikoagulanzien)",
+      "ref": [
+        "gruppe:nsar",
+        "gruppe:glukokortikoide-systemisch",
+        "gruppe:bisphosphonate",
+        "gruppe:antikoagulanzien"
+      ],
+      "effekt": "Erhöhtes Risiko für Magen-Darm-Geschwüre und -Blutungen – engmaschig überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Repaglinid und andere CYP2C8-Substrate (z. B. Paclitaxel)",
+      "ref": [
+        "repaglinid",
+        "paclitaxel"
+      ],
+      "effekt": "Deferasirox hemmt CYP2C8 – der Repaglinid-Spiegel steigt deutlich (Unterzuckerung); möglichst vermeiden, sonst Blutzucker eng kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Theophyllin und andere CYP1A2-Substrate (z. B. Tizanidin, Clozapin)",
+      "ref": [
+        "theophyllin",
+        "gruppe:cyp1a2-substrate"
+      ],
+      "effekt": "Deferasirox hemmt CYP1A2 – Spiegel steigen; Theophyllin-Spiegel kontrollieren und Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Starke Induktoren der UGT-Enzyme (z. B. Rifampicin, Phenytoin, Phenobarbital, Ritonavir)",
+      "ref": [
+        "rifampicin",
+        "phenytoin",
+        "phenobarbital",
+        "ritonavir"
+      ],
+      "effekt": "Deferasirox-Spiegel sinkt deutlich – Ferritin kontrollieren, Dosis gegebenenfalls erhöhen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Colestyramin",
+      "ref": [
+        "colestyramin",
+        "gruppe:gallensaeurebinder"
+      ],
+      "effekt": "Deutlich geringere Deferasirox-Wirkung (unterbrochener Darm-Leber-Kreislauf) – möglichst vermeiden, sonst Wirkung überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Durch CYP3A4 abgebaute Mittel (z. B. Ciclosporin, Simvastatin, hormonale Verhütungsmittel)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich",
+        "ciclosporin",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Deferasirox kann deren Spiegel senken – Wirkung kann abnehmen; bei hormonaler Verhütung zusätzlich verhüten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Busulfan",
+      "ref": [
+        "busulfan"
+      ],
+      "effekt": "Busulfan-Spiegel steigt – Spiegel überwachen, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Aluminiumhaltige Antazida",
+      "ref": [
+        "gruppe:antazida"
+      ],
+      "effekt": "Deferasirox bindet auch Aluminium – nicht gleichzeitig einnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Anstieg des Kreatinins im Blut (Zeichen verminderter Nierenfunktion)"
+    ],
+    "haeufig": [
+      "Durchfall, Verstopfung, Übelkeit, Erbrechen",
+      "Bauchschmerzen, Blähbauch, Verdauungsbeschwerden",
+      "Kopfschmerzen",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Hautausschlag, Juckreiz",
+      "Eiweiss im Urin (Proteinurie)"
+    ],
+    "gelegentlich": [
+      "Magen-Darm-Blutungen, Magen- und Zwölffingerdarmgeschwüre",
+      "Hepatitis, Gallensteine",
+      "Hörverlust",
+      "Grauer Star (Katarakt), Veränderungen der Makula",
+      "Schäden der Nierenkanälchen (Fanconi-Syndrom)",
+      "Schwindel, Angst, Schlafstörungen",
+      "Fieber, Ödeme, Müdigkeit"
+    ],
+    "selten": [
+      "Sehnerventzündung",
+      "Speiseröhrenentzündung",
+      "Erythema multiforme",
+      "DRESS (schwere Arzneimittelreaktion mit Eosinophilie)"
+    ],
+    "unbekannt": [
+      "Agranulozytose, Neutropenie, Thrombozytopenie, Panzytopenie",
+      "Anaphylaxie, Angioödem",
+      "Leberversagen",
+      "Akutes Nierenversagen",
+      "Stevens-Johnson-Syndrom, toxische epidermale Nekrolyse",
+      "Magen-Darm-Durchbruch (Perforation), akute Pankreatitis",
+      "Hyperammonämische Enzephalopathie, metabolische Azidose",
+      "Haarausfall"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Erfahrungen; in Tierversuchen reproduktionstoxisch. Nur anwenden, wenn eindeutig erforderlich. Deferasirox kann die Wirkung hormonaler Verhütungsmittel abschwächen.",
+  "stillzeit": "Nicht empfohlen.",
+  "hinweise": [
+    "Regelmässige Kontrollen von Nieren- und Leberwerten, Eiweiss im Urin und Ferritin; Seh- und Hörtest vor Beginn und jährlich.",
+    "Einmal täglich etwa zur gleichen Zeit einnehmen; ob nüchtern oder mit einer leichten Mahlzeit, hängt von der Darreichungsform ab.",
+    "Durchfall oder Erbrechen mit Flüssigkeitsverlust ärztlich melden, besonders bei Kindern.",
+    "Aluminiumhaltige Säurebinder nicht gleichzeitig einnehmen."
+  ],
+  "stand": "2026-10"
+}

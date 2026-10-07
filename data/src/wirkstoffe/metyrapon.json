@@ -1,0 +1,169 @@
+{
+  "id": "metyrapon",
+  "name": "Metyrapon",
+  "synonyme": [
+    "Metyrapone",
+    "Metyraponum"
+  ],
+  "atc": [
+    "V04CD01"
+  ],
+  "klasse": "Hemmer der Kortisolbildung (11-Beta-Hydroxylase-Hemmer); Diagnostikum",
+  "kurz": "Hemmt die Kortisolbildung in der Nebennierenrinde; zur Behandlung des Cushing-Syndroms und als Test der Hypophysenfunktion.",
+  "gruppen": [
+    "hypokaliaemie-ausloesend"
+  ],
+  "handelsnamen": [
+    "Metopiron"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Weichkapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Behandlung des endogenen Cushing-Syndroms (krankhaft erhöhte Kortisolbildung des Körpers)",
+      "ids": [
+        "cushing-syndrom"
+      ]
+    },
+    {
+      "text": "Diagnostischer Test zur Prüfung der ACTH-Reserve der Hirnanhangdrüse (Verdacht auf Hypophysenunterfunktion)",
+      "ids": [
+        "hypophyseninsuffizienz"
+      ]
+    },
+    {
+      "text": "Abklärung der Ursache eines ACTH-abhängigen Cushing-Syndroms",
+      "ids": [
+        "cushing-syndrom"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Senkt die Bildung des Stresshormons Kortisol in der Nebennierenrinde. Metyrapon hemmt das Enzym 11-Beta-Hydroxylase (CYP11B1), das den letzten Schritt der Kortisol- und Corticosteronbildung katalysiert; dadurch reichern sich die Vorstufen 11-Desoxycortisol und 11-Desoxycorticosteron an. Beim Test fällt das Kortisol ab, eine gesunde Hypophyse schüttet vermehrt ACTH aus, und ein deutlicher Anstieg von 11-Desoxycortisol zeigt eine intakte ACTH-Reserve an. Die angestauten Vorstufen mit mineralokortikoider und androgener Wirkung erklären Bluthochdruck, Kaliummangel und vermehrte Behaarung bei Langzeitbehandlung.",
+  "kontraindikationen": [
+    {
+      "text": "Nebennierenrindeninsuffizienz",
+      "ids": [
+        "nebenniereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Verdacht auf Unterfunktion von Hypophyse oder Nebenniere: der Test kann eine Nebennierenkrise auslösen – nur unter ärztlicher Überwachung",
+      "ids": [
+        "hypophyseninsuffizienz",
+        "nebenniereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Leberzirrhose und Schilddrüsenunterfunktion: verzögerte oder abgeschwächte Reaktion im Test",
+      "ids": [
+        "leberzirrhose",
+        "hypothyreose"
+      ]
+    },
+    {
+      "text": "Langzeitbehandlung: Bluthochdruck und Kaliummangel möglich – regelmässig kontrollieren",
+      "ids": [
+        "hypertonie",
+        "hypokaliaemie"
+      ]
+    },
+    {
+      "text": "Frauen: vermehrte Behaarung und Akne durch Androgen-Vorstufen bei Langzeitbehandlung",
+      "ids": [
+        "hirsutismus",
+        "akne"
+      ]
+    },
+    {
+      "text": "Schwindel und Benommenheit beeinträchtigen die Fahrtüchtigkeit",
+      "ids": [
+        "autofahren"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Paracetamol",
+      "ref": [
+        "paracetamol"
+      ],
+      "effekt": "Metyrapon kann die Lebertoxizität von Paracetamol verstärken – nur nach ärztlicher Rücksprache und nicht hoch dosiert kombinieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Phenytoin, Barbiturate und andere Enzyminduktoren",
+      "ref": [
+        "phenytoin",
+        "phenobarbital",
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Beschleunigter Abbau von Metyrapon – abgeschwächte Wirkung und falsch auffälliges Testergebnis.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Glukokortikoide (Kortison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Verfälschen den Metyrapon-Test – Vorgehen vor dem Test ärztlich festlegen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Östrogene und hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:oestrogene",
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Können das Testergebnis verfälschen.",
+      "schwere": "leicht"
+    },
+    {
+      "text": "Antidepressiva und Antipsychotika (z. B. Amitriptylin, Chlorpromazin)",
+      "ref": [
+        "gruppe:trizyklische-antidepressiva",
+        "gruppe:antipsychotika"
+      ],
+      "effekt": "Können die Steuerung über Hypothalamus und Hypophyse beeinflussen und das Testergebnis verfälschen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "haeufig": [
+      "Übelkeit, Erbrechen",
+      "Schwindel",
+      "Benommenheit (Sedierung)",
+      "Kopfschmerzen",
+      "Blutdruckabfall"
+    ],
+    "selten": [
+      "Nebennierenrindeninsuffizienz (Kortisolmangel mit Schwäche, Übelkeit, Blutdruckabfall)",
+      "Allergische Hautreaktionen",
+      "Hirsutismus (vermehrte Behaarung)",
+      "Haarausfall"
+    ],
+    "sehrSelten": [
+      "Knochenmarkdepression (Mangel an Blutzellen)"
+    ],
+    "unbekannt": [
+      "Bauchschmerzen",
+      "Bluthochdruck und Hypokaliämie (Kaliummangel) bei Langzeitbehandlung",
+      "Akne"
+    ]
+  },
+  "schwangerschaft": "Nur bei zwingender Notwendigkeit: Metyrapon passiert die Plazenta und kann die Steroidbildung beim Ungeborenen beeinträchtigen.",
+  "stillzeit": "Es ist nicht bekannt, ob Metyrapon in die Muttermilch übergeht; während der Behandlung nicht stillen.",
+  "hinweise": [
+    "Mit Milch oder einer Mahlzeit einnehmen, um Übelkeit und Erbrechen zu vermindern.",
+    "Kann Schwindel und Benommenheit verursachen – Vorsicht beim Autofahren und Bedienen von Maschinen.",
+    "Vor einem Metyrapon-Test alle Medikamente angeben, besonders Kortison, Hormone, Antiepileptika und Psychopharmaka.",
+    "Bei Langzeitbehandlung Kortisol, Blutdruck und Kalium regelmässig kontrollieren; Schwäche, Übelkeit oder Schwindel können auf einen Kortisolmangel hinweisen."
+  ],
+  "stand": "2026-10"
+}

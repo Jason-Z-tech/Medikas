@@ -1,0 +1,121 @@
+{
+  "id": "stickstoffmonoxid",
+  "name": "Stickstoffmonoxid",
+  "synonyme": [
+    "Stickoxid",
+    "Nitric oxide",
+    "NO",
+    "inhaliertes Stickstoffmonoxid (iNO)"
+  ],
+  "atc": [
+    "R07AX01"
+  ],
+  "klasse": "Inhalativer pulmonaler Vasodilatator (medizinisches Gas)",
+  "kurz": "Medizinisches Gas zum Einatmen, das gezielt die Blutgefässe der Lunge erweitert; bei Lungenhochdruck von Neugeborenen und bei Herzoperationen.",
+  "gruppen": [],
+  "handelsnamen": [
+    "INOmax"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Gas zur Inhalation"
+  ],
+  "indikationen": [
+    {
+      "text": "Neugeborene ab der 34. Schwangerschaftswoche mit Lungenversagen (hypoxische respiratorische Insuffizienz) und Lungenhochdruck, zusammen mit Beatmung",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Lungenhochdruck vor, während und nach Herzoperationen bei Neugeborenen, Kindern und Erwachsenen",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Erweitert gezielt die Blutgefässe der Lunge, sodass mehr Blut durch gut belüftete Lungenbereiche fliesst und die Sauerstoffaufnahme steigt. Stickstoffmonoxid aktiviert in der Gefässmuskulatur die lösliche Guanylatcyclase; das gebildete cGMP entspannt die Gefässwand. Weil das eingeatmete Gas im Blut rasch an Hämoglobin gebunden und inaktiviert wird, wirkt es fast nur in der Lunge. Dabei entstehen Methämoglobin und Nitrat.",
+  "kontraindikationen": [
+    {
+      "text": "Neugeborene, deren Kreislauf auf einen Rechts-links-Shunt oder einen ausgeprägten Links-rechts-Shunt angewiesen ist (bestimmte angeborene Herzfehler)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Nicht abrupt absetzen: Gefahr eines Rückfalls mit Anstieg des Lungendrucks und Sauerstoffabfall (Rebound)",
+      "ids": [
+        "pulmonale-hypertonie"
+      ]
+    },
+    {
+      "text": "Methämoglobinbildung: Methämoglobin im Blut regelmässig messen",
+      "ids": [
+        "methaemoglobinaemie"
+      ]
+    },
+    {
+      "text": "Linksherzschwäche: Gefahr eines Lungenödems",
+      "ids": [
+        "herzinsuffizienz"
+      ]
+    },
+    {
+      "text": "Blutungsneigung oder Blutplättchenmangel (Stickstoffmonoxid hemmt die Plättchenfunktion)",
+      "ids": [
+        "blutgerinnungsstoerung",
+        "thrombozytopenie"
+      ]
+    },
+    {
+      "text": "Bildung von giftigem Stickstoffdioxid (NO2): Konzentration im Atemgas überwachen",
+      "ids": []
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Andere NO-Donatoren (z. B. Nitroprussid, Nitroglycerin)",
+      "ref": [
+        "gruppe:nitrate"
+      ],
+      "effekt": "Erhöhtes Risiko einer Methämoglobinämie – Methämoglobin überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Methämoglobin-bildende Mittel wie Prilocain oder Sulfonamide",
+      "ref": [
+        "prilocain",
+        "lidocain-prilocain",
+        "gruppe:sulfonamide"
+      ],
+      "effekt": "Erhöhtes Risiko einer Methämoglobinämie – Methämoglobin überwachen.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Thrombozytopenie (Mangel an Blutplättchen)"
+    ],
+    "haeufig": [
+      "Hypokaliämie (Kaliummangel)",
+      "Hypotonie (tiefer Blutdruck)",
+      "Atelektase (kollabierte Lungenabschnitte)",
+      "Hyperbilirubinämie (erhöhtes Bilirubin)"
+    ],
+    "unbekannt": [
+      "Bradykardie und Sauerstoffabfall beim plötzlichen Absetzen",
+      "Methämoglobinämie",
+      "Lungenödem bei Linksherzschwäche"
+    ]
+  },
+  "schwangerschaft": "Keine ausreichenden Daten; bei Erwachsenen in der Schwangerschaft nur nach strenger ärztlicher Abwägung.",
+  "stillzeit": "Keine Daten; nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Wird nur im Spital mit speziellen Dosier- und Überwachungsgeräten angewendet.",
+    "Die Behandlung wird schrittweise ausgeschlichen und nicht abrupt beendet."
+  ],
+  "stand": "2026-10"
+}

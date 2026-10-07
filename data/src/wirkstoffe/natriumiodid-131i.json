@@ -1,0 +1,194 @@
+{
+  "id": "natriumiodid-131i",
+  "name": "Natriumiodid (131I)",
+  "synonyme": [
+    "Radiojod",
+    "Iod-131",
+    "I-131",
+    "Natriumjodid I 131",
+    "Sodium iodide (131I)"
+  ],
+  "atc": [
+    "V10XA01"
+  ],
+  "klasse": "Therapeutisches Radiopharmakon (Radiojod)",
+  "kurz": "Radioaktives Jod zum Schlucken (Radiojodtherapie): zerstört gezielt Schilddrüsengewebe bei Überfunktion und Schilddrüsenkrebs.",
+  "gruppen": [
+    "teratogen"
+  ],
+  "handelsnamen": [],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Kapseln"
+  ],
+  "indikationen": [
+    {
+      "text": "Schilddrüsenüberfunktion: Morbus Basedow, Knotenkropf mit Überfunktion, autonome («heisse») Knoten",
+      "ids": [
+        "hyperthyreose",
+        "struma"
+      ]
+    },
+    {
+      "text": "Differenzierter (papillärer oder follikulärer) Schilddrüsenkrebs: Zerstörung von Restgewebe nach der Operation und Behandlung von Metastasen",
+      "ids": [
+        "kopf-hals-krebs"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wird wie normales Jod von der Schilddrüse aufgenommen und zerstört das Gewebe von innen durch Strahlung. Iodid-131 gelangt über den Natrium-Iodid-Symporter in die Schilddrüsenzellen und in Metastasen von differenziertem Schilddrüsenkrebs und wird dort angereichert. Die Betastrahlung mit einer Reichweite von wenigen Millimetern schädigt gezielt das jodspeichernde Gewebe; die zusätzliche Gammastrahlung erlaubt Aufnahmen mit der Gammakamera. Die physikalische Halbwertszeit beträgt rund 8 Tage; nicht aufgenommenes Jod wird vor allem über die Nieren ausgeschieden.",
+  "kontraindikationen": [
+    {
+      "text": "Schwangerschaft (auch wenn sie nicht sicher ausgeschlossen ist)",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Stillzeit",
+      "ids": [
+        "stillzeit"
+      ]
+    },
+    {
+      "text": "Schluckstörungen oder Verengung der Speiseröhre (Kapseln)",
+      "ids": [
+        "schluckstoerung"
+      ]
+    },
+    {
+      "text": "Aktive Gastritis, Magenschleimhautdefekte oder Magen- bzw. Zwölffingerdarmgeschwür (Kapseln)",
+      "ids": [
+        "gastritis",
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Vermutete verlangsamte Magen-Darm-Passage (Kapseln)",
+      "ids": []
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: längere Verweildauer im Körper und höhere Strahlenbelastung – Aktivität anpassen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Ausgeprägte Überfunktion: vorübergehende Verschlechterung bis zur thyreotoxischen Krise möglich – vorher medikamentös einstellen",
+      "ids": [
+        "hyperthyreose"
+      ]
+    },
+    {
+      "text": "Morbus Basedow mit Augenbeteiligung (endokrine Orbitopathie): kann sich verschlechtern, besonders bei Raucherinnen und Rauchern – vorbeugend Kortison erwägen",
+      "ids": [
+        "rauchen"
+      ]
+    },
+    {
+      "text": "Ältere Menschen nach vollständiger Entfernung der Schilddrüse: schwere Hyponatriämie (Natriummangel) möglich, besonders bei Frauen und unter Thiaziddiuretika – Elektrolyte kontrollieren",
+      "ids": [
+        "aeltere-patienten",
+        "hyponatriaemie"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: höhere Strahlenempfindlichkeit – besonders strenge Indikationsstellung",
+      "ids": [
+        "kinder"
+      ]
+    },
+    {
+      "text": "Frauen im gebärfähigen Alter: Schwangerschaft vor der Behandlung ausschliessen",
+      "ids": [
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Harninkontinenz: Gefahr radioaktiver Verunreinigung – besondere Vorsichtsmassnahmen",
+      "ids": [
+        "reizblase"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Jodhaltige Röntgenkontrastmittel",
+      "ref": [
+        "gruppe:jodhaltige-kontrastmittel"
+      ],
+      "effekt": "Der hohe Jodgehalt blockiert die Radiojod-Aufnahme für Wochen bis Monate – Kontrastmittel-Untersuchungen vor der Therapie ärztlich abklären.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Amiodaron",
+      "ref": [
+        "amiodaron"
+      ],
+      "effekt": "Sehr jodreich; kann die Radiojod-Aufnahme über Monate verhindern – Therapieplanung mit dem Arzt.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Thyreostatika (Carbimazol, Thiamazol, Propylthiouracil)",
+      "ref": [
+        "gruppe:thyreostatika"
+      ],
+      "effekt": "Vermindern die Jodverwertung in der Schilddrüse und damit die Wirkung – werden meist einige Tage vor der Therapie pausiert und nach ärztlicher Anweisung wieder begonnen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Schilddrüsenhormone (Levothyroxin, Liothyronin)",
+      "ref": [
+        "gruppe:schilddruesenhormone"
+      ],
+      "effekt": "Senken über das TSH die Radiojod-Aufnahme – bei Schilddrüsenkrebs vor der Therapie nach Anweisung absetzen oder durch Thyrotropin alfa ergänzen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Jodhaltige Arzneimittel und Desinfektionsmittel (z. B. Kaliumiodid, Povidon-Iod, jodhaltige Nahrungsergänzungsmittel)",
+      "ref": [
+        "kaliumiodid",
+        "povidon-iod"
+      ],
+      "effekt": "Zusätzliches Jod vermindert die Aufnahme von Radiojod – in den Wochen vor der Therapie meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Thiaziddiuretika",
+      "ref": [
+        "gruppe:thiaziddiuretika"
+      ],
+      "effekt": "Erhöhtes Risiko für schwere Hyponatriämie, vor allem bei älteren Patientinnen nach Schilddrüsenentfernung – Natrium kontrollieren.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Hypothyreose (Schilddrüsenunterfunktion), meist bleibend – dann lebenslang Schilddrüsenhormon nötig"
+    ],
+    "unbekannt": [
+      "Vorübergehende Verstärkung der Überfunktion bis zur thyreotoxischen Krise (Strahlenthyreoiditis)",
+      "Schmerzen und Schwellung im Halsbereich",
+      "Neuauftreten oder Verschlechterung einer endokrinen Orbitopathie (Augenbeteiligung bei Morbus Basedow)",
+      "Sialadenitis (Speicheldrüsenentzündung), Mundtrockenheit, Geschmacksstörungen",
+      "Übelkeit, Erbrechen",
+      "Knochenmarkhemmung (Mangel an Blutplättchen oder weissen Blutkörperchen) nach hohen Aktivitäten",
+      "Strahlenpneumonitis und Lungenfibrose bei ausgedehnten Lungenmetastasen",
+      "Zweitkrebs (z. B. Leukämie) nach hohen kumulativen Aktivitäten; vorübergehende Fruchtbarkeitsstörung"
+    ]
+  },
+  "schwangerschaft": "Kontraindiziert: Radiojod zerstört die Schilddrüse des ungeborenen Kindes. Eine Schwangerschaft muss vor der Behandlung ausgeschlossen und danach für mindestens 6 Monate sicher verhütet werden.",
+  "stillzeit": "Kontraindiziert: Das Stillen muss vor der Behandlung beendet werden und darf für dieses Kind nicht wieder aufgenommen werden.",
+  "hinweise": [
+    "Vor der Therapie jodreiche Nahrung, jodhaltige Präparate und schilddrüsenwirksame Medikamente nur nach ärztlicher Anweisung einnehmen bzw. pausieren.",
+    "Kapsel ganz mit reichlich Wasser schlucken; danach viel trinken und häufig Wasser lassen.",
+    "Strahlenschutz-Anweisungen des Spitals befolgen (je nach Aktivität stationär); danach für einige Tage engen Kontakt zu Kleinkindern und Schwangeren meiden. Auch Männer sollen für einige Monate kein Kind zeugen.",
+    "Schilddrüsenwerte regelmässig kontrollieren lassen (Unterfunktion ist häufig und gut behandelbar)."
+  ],
+  "stand": "2026-10"
+}

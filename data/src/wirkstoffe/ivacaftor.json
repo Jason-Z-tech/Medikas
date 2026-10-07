@@ -1,0 +1,170 @@
+{
+  "id": "ivacaftor",
+  "name": "Ivacaftor",
+  "synonyme": [
+    "VX-770"
+  ],
+  "atc": [
+    "R07AX02"
+  ],
+  "klasse": "CFTR-Potentiator (zystische Fibrose)",
+  "kurz": "Gezielt wirkendes Mittel gegen zystische Fibrose (Mukoviszidose) bei bestimmten Genveränderungen; verbessert die Funktion des CFTR-Kanals.",
+  "gruppen": [
+    "cyp3a4-substrate-empfindlich",
+    "p-gp-hemmer",
+    "cyp2c9-hemmer"
+  ],
+  "handelsnamen": [
+    "Kalydeco"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Granulat (Beutel)"
+  ],
+  "indikationen": [
+    {
+      "text": "Zystische Fibrose bei Kindern, Jugendlichen und Erwachsenen mit bestimmten CFTR-Mutationen (z. B. Gating-Mutationen wie G551D oder die R117H-Mutation) – als alleinige Behandlung",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    },
+    {
+      "text": "Zystische Fibrose mit F508del-Mutation in Kombination mit Tezacaftor/Ivacaftor oder Elexacaftor/Tezacaftor/Ivacaftor",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Verbessert die Funktion des defekten Chloridkanals (CFTR), der bei zystischer Fibrose zu zähem Schleim in Lunge und Verdauungsorganen führt. Ivacaftor ist ein CFTR-Potentiator: Er erhöht die Öffnungswahrscheinlichkeit von CFTR-Kanälen, die an der Zelloberfläche vorhanden sind, aber schlecht öffnen. Dadurch steigt der Chloridtransport, der Chloridgehalt im Schweiss sinkt und die Lungenfunktion bessert sich. Bei der F508del-Mutation wirkt Ivacaftor nur zusammen mit Korrektoren, die mehr CFTR-Protein an die Zelloberfläche bringen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Leberfunktion: Dosisanpassung; Leberwerte vor Beginn und regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Kinder und Jugendliche: Linsentrübungen (Katarakt) beobachtet – augenärztliche Kontrollen",
+      "ids": [
+        "kinder",
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Nach Organtransplantation (nicht untersucht)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Starke CYP3A-Hemmer (z. B. Ketoconazol, Itraconazol, Posaconazol, Voriconazol, Clarithromycin)",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Ivacaftor-Spiegel steigt stark – Dosis gemäss Fachinformation deutlich reduzieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A-Induktoren (z. B. Rifampicin, Rifabutin, Carbamazepin, Phenytoin, Phenobarbital, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Ivacaftor-Spiegel sinkt stark, Wirkungsverlust – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Mässige CYP3A-Hemmer (z. B. Fluconazol, Erythromycin)",
+      "ref": [
+        "gruppe:maessige-cyp3a4-hemmer"
+      ],
+      "effekt": "Ivacaftor-Spiegel steigt – Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Grapefruit und Bitterorangen",
+      "ref": [],
+      "effekt": "Erhöhen den Ivacaftor-Spiegel – während der Behandlung meiden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "P-gp-Substrate mit enger therapeutischer Breite (z. B. Digoxin, Ciclosporin, Tacrolimus, Everolimus, Sirolimus)",
+      "ref": [
+        "gruppe:p-gp-substrate-eng",
+        "digoxin",
+        "ciclosporin",
+        "tacrolimus",
+        "everolimus",
+        "sirolimus"
+      ],
+      "effekt": "Spiegel dieser Mittel kann steigen – Vorsicht, Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Ivacaftor kann CYP2C9 hemmen – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Empfindliche CYP3A-Substrate (z. B. Midazolam, Alprazolam, Triazolam)",
+      "ref": [
+        "midazolam",
+        "alprazolam",
+        "triazolam"
+      ],
+      "effekt": "Spiegel leicht erhöht – auf verstärkte Wirkung achten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Infektionen der oberen Atemwege, Nasen-Rachen-Entzündung",
+      "Kopfschmerzen",
+      "Schwindel",
+      "Halsschmerzen, verstopfte Nase",
+      "Bauchschmerzen, Durchfall",
+      "Hautausschlag",
+      "Erhöhte Leberwerte (Transaminasen)",
+      "Bakterien im Auswurf (Sputum)"
+    ],
+    "haeufig": [
+      "Schnupfen (Rhinitis), verstopfte Nebenhöhlen, Rötung im Rachen",
+      "Ohrenschmerzen, Ohrgeräusche (Tinnitus), Ohrbeschwerden",
+      "Gleichgewichtsstörungen",
+      "Knoten in der Brust"
+    ],
+    "gelegentlich": [
+      "Brustentzündung, Brustvergrösserung beim Mann (Gynäkomastie)",
+      "Brustwarzenbeschwerden",
+      "Druckgefühl im Ohr"
+    ],
+    "unbekannt": [
+      "Linsentrübung (Katarakt) bei Kindern und Jugendlichen"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; vorsichtshalber möglichst vermeiden bzw. nur nach ärztlicher Abwägung.",
+  "stillzeit": "Ob Ivacaftor in die Muttermilch übergeht, ist nicht bekannt; Nutzen und Risiko ärztlich abwägen.",
+  "hinweise": [
+    "Zusammen mit einer fetthaltigen Mahlzeit einnehmen (z. B. Eier, Butter, Käse, Vollmilchprodukte), sonst wird zu wenig aufgenommen.",
+    "Grapefruit und Bitterorangen meiden.",
+    "Leberwerte regelmässig kontrollieren, bei Kindern zusätzlich augenärztliche Untersuchungen."
+  ],
+  "stand": "2026-10"
+}

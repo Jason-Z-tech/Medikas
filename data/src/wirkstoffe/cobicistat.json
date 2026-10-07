@@ -1,0 +1,297 @@
+{
+  "id": "cobicistat",
+  "name": "Cobicistat",
+  "synonyme": [
+    "Cobicistatum",
+    "COBI"
+  ],
+  "atc": [
+    "V03AX03"
+  ],
+  "klasse": "Pharmakokinetischer Verstärker («Booster», CYP3A-Hemmer) für HIV-Mittel",
+  "kurz": "Verstärkt die HIV-Mittel Atazanavir oder Darunavir, indem es deren Abbau in der Leber bremst; wirkt selbst nicht gegen HIV.",
+  "gruppen": [
+    "starke-cyp3a4-hemmer",
+    "p-gp-hemmer",
+    "oatp1b-hemmer"
+  ],
+  "handelsnamen": [
+    "Tybost",
+    "Genvoya (Kombi)",
+    "Rezolsta (Kombi)",
+    "Symtuza (Kombi)"
+  ],
+  "abgabe": [
+    "A"
+  ],
+  "darreichung": [
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "HIV-1-Infektion: zur Wirkungsverstärkung (Boosting) von Atazanavir oder Darunavir als Teil einer antiretroviralen Kombinationstherapie",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Wirkt selbst nicht gegen HIV, sorgt aber dafür, dass bestimmte HIV-Mittel langsamer abgebaut werden und länger wirksam bleiben. Cobicistat ist ein starker, mechanismusbasierter Hemmer des Enzyms CYP3A; dadurch steigen die Blutspiegel CYP3A-abhängiger Wirkstoffe wie Atazanavir und Darunavir, sodass eine Einnahme einmal täglich genügt. Zudem hemmt es Transportproteine wie P-Glykoprotein, BCRP, OATP1B1/1B3 und MATE1. Die Hemmung von MATE1 vermindert die Ausscheidung von Kreatinin in den Nierentubuli: Das Serumkreatinin steigt leicht an, ohne dass die tatsächliche Nierenfunktion abnimmt.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Eingeschränkte Nierenfunktion: Cobicistat erhöht das Serumkreatinin; zusammen mit Tenofovirdisoproxil die Nierenfunktion engmaschig überwachen und diese Kombination bei einer Kreatinin-Clearance unter 70 ml/min nicht beginnen",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwere Leberinsuffizienz: nicht untersucht, Anwendung nicht empfohlen",
+      "ids": [
+        "schwere-leberinsuffizienz"
+      ]
+    },
+    {
+      "text": "Schwangerschaft: im 2. und 3. Drittel deutlich tiefere Spiegel von Cobicistat und dem geboosterten Mittel – Gefahr eines Therapieversagens",
+      "ids": [
+        "schwangerschaft"
+      ]
+    },
+    {
+      "text": "Hormonale Verhütung: Wirksamkeit und Verträglichkeit können verändert sein – Verhütungsmethode ärztlich festlegen",
+      "ids": [
+        "verhuetung",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Nur mit Atazanavir oder Darunavir einsetzen; nicht zusammen mit Ritonavir oder einem anderen Cobicistat-haltigen Präparat",
+      "ids": [
+        "hiv"
+      ]
+    }
+  ],
+  "kontraMedikamente": [
+    {
+      "text": "Alfuzosin",
+      "ref": [
+        "alfuzosin"
+      ],
+      "grund": "Cobicistat hemmt den Abbau über CYP3A – stark erhöhte Alfuzosin-Spiegel mit Gefahr eines starken Blutdruckabfalls."
+    },
+    {
+      "text": "Amiodaron und Chinidin",
+      "ref": [
+        "amiodaron"
+      ],
+      "grund": "Erhöhte Spiegel durch CYP3A-Hemmung – Gefahr lebensbedrohlicher Herzrhythmusstörungen."
+    },
+    {
+      "text": "Mutterkornalkaloide (Ergotamin, Dihydroergotamin, Ergometrin)",
+      "ref": [
+        "gruppe:ergotalkaloide"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr einer akuten Mutterkornvergiftung mit Gefässkrämpfen und Durchblutungsstörungen (Ischämie)."
+    },
+    {
+      "text": "Simvastatin und Lovastatin",
+      "ref": [
+        "simvastatin"
+      ],
+      "grund": "Stark erhöhte Statinspiegel – Gefahr schwerer Muskelschäden (Rhabdomyolyse)."
+    },
+    {
+      "text": "Pimozid und Lurasidon",
+      "ref": [
+        "lurasidon"
+      ],
+      "grund": "Erhöhte Spiegel – Gefahr schwerer Nebenwirkungen, bei Pimozid lebensbedrohlicher Herzrhythmusstörungen."
+    },
+    {
+      "text": "Midazolam zum Einnehmen und Triazolam",
+      "ref": [
+        "midazolam",
+        "triazolam"
+      ],
+      "grund": "Stark erhöhte Spiegel – verstärkte und verlängerte Sedierung mit Gefahr einer Atemdepression."
+    },
+    {
+      "text": "Sildenafil zur Behandlung der pulmonalen Hypertonie",
+      "ref": [
+        "sildenafil"
+      ],
+      "grund": "Erhöhte Sildenafil-Spiegel – Gefahr von Blutdruckabfall, Sehstörungen und Dauererektion (Priapismus)."
+    },
+    {
+      "text": "Starke Enzyminduktoren: Carbamazepin, Phenobarbital, Phenytoin, Rifampicin und Johanniskraut",
+      "ref": [
+        "carbamazepin",
+        "phenobarbital",
+        "phenytoin",
+        "rifampicin",
+        "johanniskraut"
+      ],
+      "grund": "Beschleunigter Abbau von Cobicistat und dem geboosterten HIV-Mittel – Wirkverlust und Gefahr einer Resistenzentwicklung."
+    }
+  ],
+  "interaktionen": [
+    {
+      "text": "Empfindliche CYP3A4-Substrate (z. B. viele Statine, Benzodiazepine, Calciumantagonisten, Kinasehemmer)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Spiegel können stark ansteigen – jede Kombination prüfen, Dosis anpassen oder Alternative wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Weitere Enzyminduktoren (z. B. Efavirenz, Oxcarbazepin, Rifabutin)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren"
+      ],
+      "effekt": "Tiefere Spiegel von Cobicistat und dem geboosterten HIV-Mittel – Wirkverlust möglich, Kombination meist nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Direkte orale Antikoagulanzien (z. B. Rivaroxaban, Apixaban, Dabigatran)",
+      "ref": [
+        "gruppe:doak",
+        "dabigatran"
+      ],
+      "effekt": "Deutlich höhere Spiegel (Hemmung von CYP3A bzw. P-Glykoprotein) und erhöhtes Blutungsrisiko – Kombination meist nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Ciclosporin, Tacrolimus, Sirolimus, Everolimus",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Stark erhöhte Spiegel – nur mit engmaschigen Spiegelkontrollen und Dosisanpassung.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Colchicin",
+      "ref": [
+        "colchicin"
+      ],
+      "effekt": "Erhöhte Colchicin-Spiegel mit Vergiftungsgefahr – Dosis reduzieren; bei eingeschränkter Nieren- oder Leberfunktion nicht kombinieren.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Inhalative, nasale und systemische Glukokortikoide (z. B. Fluticason, Budesonid, Dexamethason)",
+      "ref": [
+        "gruppe:glukokortikoide-inhalativ",
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Erhöhte Kortisonspiegel mit Gefahr eines Cushing-Syndroms und einer Nebennierenunterdrückung – möglichst Alternativen wie Beclometason wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Hormonale Verhütungsmittel",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Spiegel von Ethinylestradiol bzw. Gestagenen verändert, mit Drospirenon Gefahr eines Kaliumanstiegs – Verhütung ärztlich festlegen, eventuell zusätzliche nicht hormonale Methode.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antiarrhythmika und Digoxin (z. B. Flecainid, Propafenon, Digoxin)",
+      "ref": [
+        "flecainid",
+        "propafenon",
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Erhöhte Spiegel – Spiegel bzw. EKG kontrollieren, Dosis anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "PDE-5-Hemmer bei Erektionsstörungen (z. B. Sildenafil, Tadalafil, Vardenafil)",
+      "ref": [
+        "gruppe:pde5-hemmer"
+      ],
+      "effekt": "Stark erhöhte Spiegel – nur in reduzierter Dosis und mit grösseren Abständen anwenden.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Atorvastatin und Rosuvastatin",
+      "ref": [
+        "atorvastatin",
+        "rosuvastatin"
+      ],
+      "effekt": "Erhöhte Statinspiegel – mit niedrigster Dosis beginnen, auf Muskelschmerzen achten.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Opioide (z. B. Fentanyl, Oxycodon)",
+      "ref": [
+        "gruppe:opioide"
+      ],
+      "effekt": "Erhöhte Spiegel einiger Opioide mit Gefahr von Atemdepression und starker Müdigkeit – Dosis anpassen, überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Die Gerinnungshemmung kann sich verändern – INR engmaschig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Metformin",
+      "ref": [
+        "metformin"
+      ],
+      "effekt": "Cobicistat hemmt die Ausscheidung von Metformin über MATE1 – Patienten überwachen, Metformin-Dosis gegebenenfalls anpassen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Tenofovirdisoproxil und andere nierenbelastende Mittel",
+      "ref": [
+        "tenofovirdisoproxil",
+        "gruppe:nephrotoxisch"
+      ],
+      "effekt": "Höheres Risiko für Nierenschäden – Nierenfunktion regelmässig kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Ritonavir",
+      "ref": [
+        "ritonavir"
+      ],
+      "effekt": "Zwei Booster dürfen nicht kombiniert werden – nicht gleichzeitig anwenden.",
+      "schwere": "mittel"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Gelbfärbung von Haut und Augen (Ikterus) in Kombination mit Atazanavir",
+      "Übelkeit"
+    ],
+    "haeufig": [
+      "Durchfall, Erbrechen, Bauchschmerzen, Blähungen",
+      "Kopfschmerzen, Schwindel",
+      "Schlafstörungen, ungewöhnliche Träume",
+      "Geschmacksstörungen, Mundtrockenheit",
+      "Hautausschlag",
+      "Müdigkeit",
+      "Erhöhter Blutzucker, gesteigerter Appetit"
+    ],
+    "gelegentlich": [
+      "Depression",
+      "Nierensteine",
+      "Blut oder Eiweiss im Urin"
+    ],
+    "unbekannt": [
+      "Anstieg des Serumkreatinins ohne echte Verschlechterung der Nierenfunktion"
+    ]
+  },
+  "schwangerschaft": "Nicht empfohlen: Im 2. und 3. Schwangerschaftsdrittel sind die Spiegel von Cobicistat und dem geboosterten HIV-Mittel deutlich tiefer, was zu Therapieversagen und HIV-Übertragung auf das Kind führen kann. Bei Eintritt einer Schwangerschaft die Therapie mit der HIV-Fachperson umstellen.",
+  "stillzeit": "HIV-positiven Müttern wird vom Stillen abgeraten, da HIV übertragen werden kann; Ausnahmen nur nach Beratung durch die HIV-Fachperson.",
+  "hinweise": [
+    "Zur gleichen Zeit wie Atazanavir oder Darunavir mit einer Mahlzeit einnehmen.",
+    "Vor jedem neuen Medikament – auch rezeptfreien und pflanzlichen wie Johanniskraut – Ärztin, Arzt oder Apotheke informieren: sehr viele Wechselwirkungen.",
+    "Ein leichter Anstieg des Kreatininwerts im Blut ist zu erwarten und bedeutet meist keine Nierenschädigung; die Nierenwerte werden trotzdem regelmässig kontrolliert."
+  ],
+  "stand": "2026-10"
+}

@@ -1,0 +1,188 @@
+{
+  "id": "pilocarpin",
+  "name": "Pilocarpin",
+  "synonyme": [
+    "Pilocarpine",
+    "Pilocarpinhydrochlorid"
+  ],
+  "kombinationAus": [],
+  "atc": [
+    "S01EB01",
+    "N07AX01"
+  ],
+  "klasse": "Parasympathomimetikum (Muskarinrezeptor-Agonist); Glaukommittel und Miotikum; Speichelfluss-Anreger",
+  "kurz": "Verengt als Augentropfen die Pupille und senkt den Augeninnendruck; als Tablette regt es bei Mundtrockenheit den Speichelfluss an.",
+  "gruppen": [],
+  "handelsnamen": [
+    "Spersacarpine",
+    "Salagen"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Augentropfen",
+    "Filmtabletten"
+  ],
+  "indikationen": [
+    {
+      "text": "Augentropfen: Glaukom (grüner Star), auch zur Drucksenkung beim akuten Engwinkelglaukom-Anfall",
+      "ids": [
+        "glaukom",
+        "engwinkelglaukom"
+      ]
+    },
+    {
+      "text": "Augentropfen: Verengung der Pupille, z. B. nach einer Pupillenerweiterung oder vor bestimmten Augenoperationen",
+      "ids": [
+        "katarakt"
+      ]
+    },
+    {
+      "text": "Tabletten: Mundtrockenheit durch verminderte Speichelbildung nach Strahlentherapie von Kopf-Hals-Tumoren",
+      "ids": [
+        "mundtrockenheit",
+        "kopf-hals-krebs"
+      ]
+    },
+    {
+      "text": "Tabletten: Mund- und Augentrockenheit beim Sjögren-Syndrom",
+      "ids": [
+        "mundtrockenheit",
+        "trockenes-auge"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Ahmt die Wirkung des Botenstoffs Acetylcholin im parasympathischen Nervensystem nach. Pilocarpin ist ein direkter Agonist an Muskarinrezeptoren. Am Auge zieht es den Pupillenschliessmuskel und den Ziliarmuskel zusammen: Die Pupille wird eng, das Trabekelwerk im Kammerwinkel öffnet sich und das Kammerwasser fliesst besser ab, wodurch der Augeninnendruck sinkt. Als Tablette regt es Speichel- und Schweissdrüsen zur Sekretion an.",
+  "kontraindikationen": [
+    {
+      "text": "Zustände, bei denen eine Pupillenverengung unerwünscht ist, z. B. akute Regenbogenhautentzündung (Iritis) oder andere akute Entzündungen des vorderen Augenabschnitts",
+      "ids": [
+        "augeninfektion"
+      ]
+    },
+    {
+      "text": "Tabletten: nicht kontrolliertes Asthma bronchiale",
+      "ids": [
+        "asthma"
+      ]
+    },
+    {
+      "text": "Tabletten: klinisch bedeutsame, nicht kontrollierte Herz- oder Nierenerkrankung",
+      "ids": [
+        "herzinsuffizienz",
+        "niereninsuffizienz"
+      ]
+    }
+  ],
+  "vorsicht": [
+    {
+      "text": "Herz-Kreislauf-Erkrankungen: Veränderungen von Blutdruck und Herzrhythmus möglich",
+      "ids": [
+        "koronare-herzkrankheit",
+        "herzrhythmusstoerung"
+      ]
+    },
+    {
+      "text": "Kontrolliertes Asthma, chronische Bronchitis oder COPD (Verengung der Atemwege, vermehrter Schleim)",
+      "ids": [
+        "asthma",
+        "copd"
+      ]
+    },
+    {
+      "text": "Gallensteine, Gallenwegserkrankungen oder Nierensteine (Koliken möglich)",
+      "ids": [
+        "gallensteine",
+        "nierensteine"
+      ]
+    },
+    {
+      "text": "Magen- oder Zwölffingerdarmgeschwüre",
+      "ids": [
+        "magen-darm-ulkus"
+      ]
+    },
+    {
+      "text": "Starke Kurzsichtigkeit oder Netzhauterkrankungen: Netzhautablösung möglich, vor Behandlungsbeginn Augenhintergrund untersuchen",
+      "ids": [
+        "sehstoerung"
+      ]
+    },
+    {
+      "text": "Schlechteres Sehen in der Dämmerung und bei Nacht durch die enge Pupille: Vorsicht beim Autofahren",
+      "ids": [
+        "autofahren"
+      ]
+    },
+    {
+      "text": "Starkes Schwitzen unter Tabletten: auf genügende Flüssigkeitszufuhr achten (Gefahr der Austrocknung)",
+      "ids": [
+        "dehydratation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Betablocker (auch als Augentropfen)",
+      "ref": [
+        "gruppe:betablocker"
+      ],
+      "effekt": "Unter Pilocarpin-Tabletten Risiko von Reizleitungsstörungen am Herzen – Vorsicht, Puls kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Anticholinerg wirkende Mittel (z. B. Atropin, Cyclopentolat, Tropicamid, trizyklische Antidepressiva)",
+      "ref": [
+        "gruppe:anticholinerg",
+        "atropin"
+      ],
+      "effekt": "Gegenseitige Abschwächung der Wirkung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Parasympathomimetika und Cholinesterasehemmer (z. B. Bethanechol, Pyridostigmin, Donepezil)",
+      "ref": [
+        "bethanechol",
+        "pyridostigmin",
+        "neostigmin",
+        "gruppe:acetylcholinesterasehemmer"
+      ],
+      "effekt": "Verstärkte cholinerge Wirkungen wie Schwitzen, Speichelfluss, Durchfall und Pulsverlangsamung.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Andere Augentropfen",
+      "ref": [],
+      "effekt": "Mindestens 5 Minuten Abstand einhalten.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Vermehrtes Schwitzen (Tabletten)"
+    ],
+    "haeufig": [],
+    "gelegentlich": [],
+    "selten": [],
+    "sehrSelten": [],
+    "unbekannt": [
+      "Tabletten: Übelkeit, Durchfall, Verdauungsbeschwerden, häufiges Wasserlassen",
+      "Tabletten: Kopfschmerzen, Schwindel, Hautrötung mit Wärmegefühl (Flush), Frösteln, Schnupfen, Tränenfluss",
+      "Augentropfen: Akkommodationskrampf mit Kurzsichtigkeit sowie Kopf- und Stirnschmerzen",
+      "Schlechtes Sehen bei Dämmerung (enge Pupille), verschwommenes Sehen",
+      "Augenbrennen, Augenrötung, Augenreizung",
+      "Netzhautablösung",
+      "Vermehrter Speichelfluss, Pulsverlangsamung, Blutdruckabfall, Verengung der Atemwege"
+    ]
+  },
+  "schwangerschaft": "Nur anwenden, wenn klar notwendig; für die Anwendung in der Schwangerschaft liegen keine ausreichenden Daten vor.",
+  "stillzeit": "Bei Einnahme der Tabletten wird vom Stillen abgeraten; Augentropfen nur nach ärztlicher Abwägung.",
+  "hinweise": [
+    "Augentropfen: Sehschärfe und Dämmerungssehen sind nach dem Eintropfen vermindert – nachts und bei schlechtem Licht nicht Auto fahren.",
+    "Tabletten mit einem Glas Wasser zu oder direkt nach den Mahlzeiten einnehmen; bei starkem Schwitzen viel trinken.",
+    "Bei Lichtblitzen, Russregen oder Schatten im Gesichtsfeld sofort augenärztlich abklären (Netzhautablösung)."
+  ],
+  "stand": "2026-10"
+}

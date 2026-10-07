@@ -1,0 +1,232 @@
+{
+  "id": "lumacaftor-ivacaftor",
+  "name": "Lumacaftor + Ivacaftor",
+  "synonyme": [
+    "Lumacaftor/Ivacaftor",
+    "LUM/IVA"
+  ],
+  "kombinationAus": [
+    "ivacaftor"
+  ],
+  "atc": [
+    "R07AX30"
+  ],
+  "klasse": "CFTR-Modulator-Kombination (Korrektor + Potentiator) bei zystischer Fibrose",
+  "kurz": "Kombination gegen zystische Fibrose (Mukoviszidose) bei zwei Kopien der F508del-Mutation; verbessert Menge und Funktion des CFTR-Kanals.",
+  "gruppen": [
+    "cyp3a4-induktoren",
+    "enzyminduktoren-hormone",
+    "cyp3a4-substrate-empfindlich",
+    "blutdrucksteigernd"
+  ],
+  "handelsnamen": [
+    "Orkambi"
+  ],
+  "abgabe": [
+    "B"
+  ],
+  "darreichung": [
+    "Filmtabletten",
+    "Granulat (Beutel)"
+  ],
+  "indikationen": [
+    {
+      "text": "Zystische Fibrose bei Patientinnen und Patienten mit zwei Kopien der F508del-Mutation im CFTR-Gen (homozygot); Granulat für Kleinkinder, Filmtabletten für ältere Kinder und Erwachsene",
+      "ids": [
+        "zystische-fibrose"
+      ]
+    }
+  ],
+  "wirkmechanismus": "Hilft, mehr funktionsfähige CFTR-Chloridkanäle an die Zelloberfläche zu bringen und deren Öffnung zu verbessern. Lumacaftor ist ein CFTR-Korrektor: Er verbessert die Faltung des durch die F508del-Mutation fehlgefalteten CFTR-Proteins, sodass mehr davon die Zelloberfläche erreicht. Ivacaftor ist ein Potentiator, der die Öffnungswahrscheinlichkeit dieser Kanäle erhöht. Lumacaftor ist zudem ein starker CYP3A-Induktor und verursacht zahlreiche Wechselwirkungen.",
+  "kontraindikationen": [],
+  "vorsicht": [
+    {
+      "text": "Stark eingeschränkte Lungenfunktion: zu Beginn häufiger Atemnot und Engegefühl in der Brust",
+      "ids": [
+        "atemnot",
+        "zystische-fibrose"
+      ]
+    },
+    {
+      "text": "Leberfunktionsstörung oder fortgeschrittene Lebererkrankung: Dosisanpassung, Leberwerte vor Beginn und regelmässig kontrollieren",
+      "ids": [
+        "leberinsuffizienz",
+        "leberzirrhose"
+      ]
+    },
+    {
+      "text": "Bluthochdruck: Blutdruck regelmässig kontrollieren",
+      "ids": [
+        "hypertonie"
+      ]
+    },
+    {
+      "text": "Kinder: Linsentrübungen (Katarakt) beobachtet – augenärztliche Kontrollen",
+      "ids": [
+        "katarakt",
+        "kinder"
+      ]
+    },
+    {
+      "text": "Hormonale Verhütung ist unzuverlässig – zusätzliche Methode nötig",
+      "ids": [
+        "verhuetung",
+        "frauen-gebaerfaehig"
+      ]
+    },
+    {
+      "text": "Schwere Niereninsuffizienz",
+      "ids": [
+        "niereninsuffizienz"
+      ]
+    },
+    {
+      "text": "Nach Organtransplantation (nicht empfohlen wegen Wechselwirkungen mit Immunsuppressiva)",
+      "ids": [
+        "transplantation"
+      ]
+    }
+  ],
+  "kontraMedikamente": [],
+  "interaktionen": [
+    {
+      "text": "Hormonale Verhütungsmittel (Pille, Pflaster, Ring, Implantat)",
+      "ref": [
+        "gruppe:hormonale-kontrazeptiva"
+      ],
+      "effekt": "Lumacaftor senkt die Hormonspiegel – Verhütung unzuverlässig; nicht als alleinige Methode verwenden.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A-Induktoren (z. B. Rifampicin, Carbamazepin, Phenytoin, Johanniskraut)",
+      "ref": [
+        "gruppe:cyp3a4-induktoren",
+        "johanniskraut"
+      ],
+      "effekt": "Ivacaftor-Spiegel sinkt stark, Wirkungsverlust – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Immunsuppressiva (Ciclosporin, Tacrolimus, Sirolimus, Everolimus)",
+      "ref": [
+        "gruppe:immunsuppressiva-calcineurin",
+        "gruppe:mtor-hemmer"
+      ],
+      "effekt": "Spiegel sinken stark, Gefahr einer Abstossung – Kombination nicht empfohlen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Empfindliche CYP3A-Substrate (z. B. Midazolam, Triazolam, Simvastatin)",
+      "ref": [
+        "gruppe:cyp3a4-substrate-empfindlich"
+      ],
+      "effekt": "Deren Wirkung wird stark abgeschwächt – Kombination nicht empfohlen, Alternativen wählen.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Azol-Antimykotika (Itraconazol, Ketoconazol, Posaconazol, Voriconazol)",
+      "ref": [
+        "gruppe:azol-antimykotika"
+      ],
+      "effekt": "Wirkung der Pilzmittel stark abgeschwächt – nicht empfohlen; bei Fluconazol ist eine höhere Dosis nötig.",
+      "schwere": "schwer"
+    },
+    {
+      "text": "Starke CYP3A-Hemmer bei Behandlungsbeginn",
+      "ref": [
+        "gruppe:starke-cyp3a4-hemmer"
+      ],
+      "effekt": "Wird Orkambi bei laufender Einnahme eines starken Hemmers begonnen, in der ersten Woche Dosis reduzieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Makrolid-Antibiotika (Clarithromycin, Erythromycin)",
+      "ref": [
+        "gruppe:makrolide"
+      ],
+      "effekt": "Wirkung des Antibiotikums kann abnehmen – Azithromycin als Alternative erwägen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Antidepressiva (z. B. Citalopram, Escitalopram, Sertralin, Bupropion)",
+      "ref": [
+        "gruppe:ssri",
+        "bupropion"
+      ],
+      "effekt": "Wirkung kann abnehmen – eventuell höhere Dosis nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Systemische Glukokortikoide (z. B. Methylprednisolon, Prednison)",
+      "ref": [
+        "gruppe:glukokortikoide-systemisch"
+      ],
+      "effekt": "Wirkung kann abnehmen – eventuell höhere Dosis nötig.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Digoxin und andere P-gp-Substrate mit enger therapeutischer Breite",
+      "ref": [
+        "digoxin",
+        "gruppe:p-gp-substrate-eng"
+      ],
+      "effekt": "Spiegel kann sich verändern – Spiegel überwachen.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Vitamin-K-Antagonisten (z. B. Phenprocoumon, Acenocoumarol)",
+      "ref": [
+        "gruppe:vitamin-k-antagonisten"
+      ],
+      "effekt": "Gerinnungswirkung kann sich verändern – INR kontrollieren.",
+      "schwere": "mittel"
+    },
+    {
+      "text": "Protonenpumpenhemmer und H2-Blocker",
+      "ref": [
+        "gruppe:protonenpumpenhemmer",
+        "gruppe:h2-blocker"
+      ],
+      "effekt": "Wirkung der Säurehemmer kann abnehmen.",
+      "schwere": "leicht"
+    }
+  ],
+  "nebenwirkungen": {
+    "sehrHaeufig": [
+      "Atemnot (Dyspnoe), vor allem zu Behandlungsbeginn",
+      "Husten mit Auswurf, vermehrter Auswurf",
+      "Nasen-Rachen-Entzündung",
+      "Kopfschmerzen",
+      "Schwindel",
+      "Bauchschmerzen, Durchfall, Übelkeit"
+    ],
+    "haeufig": [
+      "Infektionen der oberen Atemwege, Schnupfen",
+      "Engegefühl in der Brust, Bronchospasmus (Verkrampfung der Atemwege)",
+      "Erbrechen, Blähungen",
+      "Erhöhte Leberwerte, erhöhte CK (Muskelenzym)",
+      "Hautausschlag",
+      "Unregelmässige oder schmerzhafte Periode, Zwischenblutungen",
+      "Ohrenschmerzen, Ohrgeräusche (Tinnitus)",
+      "Knoten in der Brust"
+    ],
+    "gelegentlich": [
+      "Bluthochdruck",
+      "Cholestatische Hepatitis, hepatische Enzephalopathie (bei vorbestehender Lebererkrankung)",
+      "Ausbleibende oder verstärkte Periode",
+      "Brustvergrösserung beim Mann (Gynäkomastie)"
+    ],
+    "unbekannt": [
+      "Linsentrübung (Katarakt) bei Kindern"
+    ]
+  },
+  "schwangerschaft": "Begrenzte Erfahrungen; nur anwenden, wenn eindeutig erforderlich.",
+  "stillzeit": "Ob die Wirkstoffe in die Muttermilch übergehen, ist nicht bekannt; Nutzen und Risiko ärztlich abwägen.",
+  "hinweise": [
+    "Mit einer fetthaltigen Mahlzeit einnehmen.",
+    "Hormonale Verhütung wirkt nicht zuverlässig: zusätzlich eine Barrieremethode (Kondom) verwenden.",
+    "Vor jedem neuen Medikament, auch rezeptfreien und pflanzlichen, die Wechselwirkungen prüfen lassen.",
+    "Leberwerte, Blutdruck und bei Kindern die Augen regelmässig kontrollieren."
+  ],
+  "stand": "2026-10"
+}
